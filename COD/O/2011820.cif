@@ -1,0 +1,380 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 00:18:51 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176760 $
+#$URL: svn://www.crystallography.net/cod/cif/2/01/18/2011820.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2011820
+loop_
+_publ_author_name
+'Aken, Bas B. van'
+'Meetsma, Auke'
+'Palstra, Thomas T.M.'
+_publ_section_title
+;
+ Hexagonal YMnO~3~
+;
+_journal_issue                   3
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              230
+_journal_page_last               232
+_journal_paper_doi               10.1107/S0108270100015663
+_journal_volume                  57
+_journal_year                    2001
+_chemical_formula_moiety         'Mn O3 Y'
+_chemical_formula_sum            'Mn O3 Y'
+_chemical_formula_weight         191.85
+_chemical_name_systematic
+;
+   Yttrium manganese oxide
+;
+_space_group_IT_number           185
+_symmetry_cell_setting           hexagonal
+_symmetry_space_group_name_Hall  'P 6c -2'
+_symmetry_space_group_name_H-M   'P 63 c m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            6
+_cell_length_a                   6.1387(3)
+_cell_length_b                   6.1387(3)
+_cell_length_c                   11.4071(9)
+_cell_measurement_reflns_used    22
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      39.73
+_cell_measurement_theta_min      29.82
+_cell_volume                     372.27(4)
+_computing_cell_refinement       'SET4 (de Boer & Duisenberg, 1984)'
+_computing_data_collection       'CAD4-UNIX software (Enraf-Nonius, 1994)'
+_computing_data_reduction        'HELENA (Spek, 1997)'
+_computing_molecular_graphics    'PLATON (Spek, 1994)'
+_computing_publication_material  'PLATON (Spek, 1990)'
+_computing_structure_refinement  'SHELXL97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS97 (Sheldrick, 1997)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measured_fraction_theta_full 1.0
+_diffrn_measured_fraction_theta_max 1.0
+_diffrn_measurement_device_type
+;
+      Enraf Nonius CAD-4F diffractometer
+;
+_diffrn_measurement_method       \w/2\q
+_diffrn_radiation_monochromator  'perpendicular mounted graphite'
+_diffrn_radiation_source         'fine focus sealed Philips Mo tube '
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     .71073
+_diffrn_reflns_av_R_equivalents  .0405
+_diffrn_reflns_av_sigmaI/netI    .0300
+_diffrn_reflns_limit_h_max       11
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       0
+_diffrn_reflns_limit_k_min       -11
+_diffrn_reflns_limit_l_max       20
+_diffrn_reflns_limit_l_min       -20
+_diffrn_reflns_number            3385
+_diffrn_reflns_reduction_process
+;
+  Intensity data were corrected for Lorentz and polarization effects, scale
+  variation, for absorption and reduced to F~o~^2^
+;
+_diffrn_reflns_theta_full        39.95
+_diffrn_reflns_theta_max         39.95
+_diffrn_reflns_theta_min         3.57
+_diffrn_standards_decay_%        'no decay, variation 0.5'
+_diffrn_standards_interval_time  180
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    28.07
+_exptl_absorpt_correction_T_max  .51093
+_exptl_absorpt_correction_T_min  .05301
+_exptl_absorpt_correction_type   analytical
+_exptl_absorpt_process_details   '(Meulenaer & Tompa, 1965)'
+_exptl_crystal_colour            black
+_exptl_crystal_density_diffrn    5.135
+_exptl_crystal_density_method    'Not Measured'
+_exptl_crystal_description       platelet
+_exptl_crystal_F_000             528
+_exptl_crystal_size_max          .150
+_exptl_crystal_size_mid          .150
+_exptl_crystal_size_min          .024
+_refine_diff_density_max         3.112
+_refine_diff_density_min         -1.172
+_refine_ls_extinction_coef       .025(3)
+_refine_ls_extinction_method     'SHELXL97 (Sheldrick, 1997)'
+_refine_ls_goodness_of_fit_ref   1.117
+_refine_ls_hydrogen_treatment    none
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     32
+_refine_ls_number_reflns         865
+_refine_ls_number_restraints     1
+_refine_ls_restrained_S_all      1.116
+_refine_ls_R_factor_all          .0506
+_refine_ls_R_factor_gt           .0372
+_refine_ls_shift/su_max          .000
+_refine_ls_shift/su_mean         .000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+;
+  calc w = 1/[\s^2^(Fo^2^)+(0.0717P)^2^] where P=(Fo^2^+2Fc^2^)/3
+;
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_ref         .1065
+_reflns_number_gt                658
+_reflns_number_total             865
+_reflns_threshold_expression     I>2\s(I)
+_cod_data_source_file            sk1421.cif
+_cod_data_source_block           290K
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_symmetry_cell_setting' value 'Hexagonal' changed to 'hexagonal'
+according to '/home/saulius/struct/CIF-dictionaries/cif_core.dic'
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Hexagonal' changed to 'hexagonal'
+according to /home/saulius/struct/CIF-dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.1 from
+2010-06-29.
+
+'_exptl_absorpt_correction_type' value 'Analytical'
+changed to 'analytical' according to
+/home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary named
+'cif_core.dic' version 2.4.1 from
+2010-06-29.
+
+'_geom_angle_publ_flag' value 'No' changed to 'no'
+according to /home/saulius/struct/CIF-dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29 (100
+times).
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_database_code               2011820
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x-y,x,1/2+z
+-y,x-y,z
+-x,-y,1/2+z
+-x+y,-x,z
+y,-x+y,1/2+z
+y,x,z
+-x+y,y,1/2+z
+-x,-x+y,z
+-y,-x,1/2+z
+x-y,-y,z
+x,x-y,1/2+z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Y1 .0035(3) .0035(3) .0044(4) .0018(2) .0000 .0000
+Y2 .0021(2) .0021(2) .0081(3) .00110(10) .0000 .0000
+Mn1 .0073(3) .0060(3) .0047(3) .0037(6) .0000(2) .0006(2)
+O1 .008(3) .010(2) .0052(16) .0040(13) .0000 -.0012(14)
+O2 .005(2) .0038(15) .0060(14) .0023(10) .0000 .0003(12)
+O3 .004(2) .004(2) .008(4) .0020(10) .0000 .0000
+O4 .008(2) .008(2) .011(3) .0039(10) .0000 .0000
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_occupancy
+_atom_site_type_symbol
+Y1 .00000 .00000 .27122(12) .0038(2) Uani 1.000 Y
+Y2 .33333 .66667 .23041(3) .00410(10) Uani 1.000 Y
+Mn1 .00000 .3352(4) -.00312(12) .0058(2) Uani 1.000 Mn
+O1 .00000 .3083(12) .1596(7) .0080(13) Uani 1.000 O
+O2 .00000 .3587(10) -.1659(6) .0049(10) Uani 1.000 O
+O3 .00000 .00000 -.0249(12) .0053(16) Uani 1.000 O
+O4 .33333 .66667 .0155(11) .0090(14) Uani 1.000 O
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Y Y -2.7962 3.5667 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O .0106 .0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Mn Mn .3368 .7283 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_diffrn_standard_refln_index_h
+_diffrn_standard_refln_index_k
+_diffrn_standard_refln_index_l
+0 -2 4
+2 -4 4
+-2 -2 2
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O1 Y1 O2 . 2_555 77.20(17) no
+O1 Y1 O3 . 2_555 123.93(19) no
+O1 Y1 O1 . 3_555 91.9(2) no
+O1 Y1 O2 . 4_555 164.1(3) no
+O1 Y1 O1 . 5_555 91.9(2) no
+O1 Y1 O2 . 6_555 77.2(2) no
+O2 Y1 O3 2_555 2_555 71.96(17) no
+O1 Y1 O2 3_555 2_555 77.2(2) no
+O2 Y1 O2 2_555 4_555 110.86(14) no
+O1 Y1 O2 5_555 2_555 164.1(3) no
+O2 Y1 O2 2_555 6_555 110.86(19) no
+O1 Y1 O3 3_555 2_555 123.9(2) no
+O2 Y1 O3 4_555 2_555 71.96(17) no
+O1 Y1 O3 5_555 2_555 123.9(2) no
+O2 Y1 O3 6_555 2_555 71.96(17) no
+O1 Y1 O2 3_555 4_555 77.2(2) no
+O1 Y1 O1 3_555 5_555 91.9(2) no
+O1 Y1 O2 3_555 6_555 164.1(3) no
+O1 Y1 O2 5_555 4_555 77.20(16) no
+O2 Y1 O2 4_555 6_555 110.9(2) no
+O1 Y1 O2 5_555 6_555 77.2(2) no
+O1 Y2 O4 . . 69.2(2) no
+O1 Y2 O2 . 2_665 169.8(2) no
+O1 Y2 O1 . 3_665 108.1(2) no
+O1 Y2 O2 . 4_565 77.1(2) no
+O1 Y2 O1 . 5_565 108.1(2) no
+O1 Y2 O2 . 6_555 77.6(2) no
+Y2 Y2 O1 7_455 . 38.85(13) no
+Y2 Y2 O1 7_555 . 86.65(11) no
+Y2 Y2 O1 7_565 . 146.85(15) no
+O2 Y2 O4 2_665 . 120.94(15) no
+O1 Y2 O4 3_665 . 69.2(2) no
+O2 Y2 O4 4_565 . 120.94(15) no
+O1 Y2 O4 5_565 . 69.21(19) no
+O2 Y2 O4 6_555 . 120.94(16) no
+Y2 Y2 O4 7_455 . 90.000(10) no
+Y2 Y2 O4 7_555 . 90.000(10) no
+Y2 Y2 O4 7_565 . 90.000(10) no
+O1 Y2 O2 3_665 2_665 77.6(2) no
+O2 Y2 O2 2_665 4_565 95.9(2) no
+O1 Y2 O2 5_565 2_665 77.1(2) no
+O2 Y2 O2 2_665 6_555 95.9(2) no
+Y2 Y2 O2 7_455 2_665 135.38(16) no
+Y2 Y2 O2 7_555 2_665 93.36(14) no
+Y2 Y2 O2 7_565 2_665 39.61(13) no
+O1 Y2 O2 3_665 4_565 169.8(3) no
+O1 Y2 O1 3_665 5_565 108.1(3) no
+O1 Y2 O2 3_665 6_555 77.1(2) no
+Y2 Y2 O1 7_455 3_665 146.85(18) no
+Y2 Y2 O1 7_555 3_665 38.85(17) no
+Y2 Y2 O1 7_565 3_665 86.65(16) no
+O1 Y2 O2 5_565 4_565 77.6(2) no
+O2 Y2 O2 4_565 6_555 95.9(2) no
+Y2 Y2 O2 7_455 4_565 39.61(14) no
+Y2 Y2 O2 7_555 4_565 135.38(14) no
+Y2 Y2 O2 7_565 4_565 93.36(13) no
+O1 Y2 O2 5_565 6_555 169.8(3) no
+Y2 Y2 O1 7_455 5_565 86.65(16) no
+Y2 Y2 O1 7_555 5_565 146.85(18) no
+Y2 Y2 O1 7_565 5_565 38.85(15) no
+Y2 Y2 O2 7_455 6_555 93.36(16) no
+Y2 Y2 O2 7_555 6_555 39.61(17) no
+Y2 Y2 O2 7_565 6_555 135.38(15) no
+Y2 Y2 Y2 7_455 7_555 120.000(10) no
+Y2 Y2 Y2 7_455 7_565 120.000(10) no
+Y2 Y2 Y2 7_555 7_565 120.000(10) no
+O1 Mn1 O2 . . 179.4(3) no
+O1 Mn1 O3 . . 91.8(4) no
+O1 Mn1 O4 . . 86.6(4) no
+O1 Mn1 O4 . 7_455 86.6(4) no
+O2 Mn1 O3 . . 87.6(4) no
+O2 Mn1 O4 . . 93.7(4) no
+O2 Mn1 O4 . 7_455 93.7(4) no
+O3 Mn1 O4 . . 120.13(16) no
+O3 Mn1 O4 . 7_455 120.13(12) no
+O4 Mn1 O4 . 7_455 119.49(15) no
+Y1 O1 Y2 . . 103.4(3) no
+Y1 O1 Mn1 . . 129.0(3) no
+Y1 O1 Y2 . 7_455 103.4(3) no
+Y2 O1 Mn1 . . 107.9(3) no
+Y2 O1 Y2 . 7_455 102.3(3) no
+Y2 O1 Mn1 7_455 . 107.9(3) no
+Y1 O2 Mn1 2_554 . 103.6(2) no
+Y2 O2 Mn1 2_554 . 122.8(2) no
+Y2 O2 Mn1 8_554 . 122.8(3) no
+Y1 O2 Y2 2_554 2_554 101.5(2) no
+Y1 O2 Y2 2_554 8_554 101.5(2) no
+Y2 O2 Y2 2_554 8_554 100.8(2) no
+Y1 O3 Mn1 2_554 . 96.9(4) no
+Mn1 O3 Mn1 . 3_555 118.58(19) no
+Mn1 O3 Mn1 . 5_555 118.58(19) no
+Y1 O3 Mn1 2_554 3_555 96.9(4) no
+Y1 O3 Mn1 2_554 5_555 96.9(4) no
+Mn1 O3 Mn1 3_555 5_555 118.58(19) no
+Y2 O4 Mn1 . . 95.9(4) no
+Y2 O4 Mn1 . 3_665 95.9(4) no
+Y2 O4 Mn1 . 5_565 95.9(4) no
+Mn1 O4 Mn1 . 3_665 118.94(17) no
+Mn1 O4 Mn1 . 5_565 118.94(18) no
+Mn1 O4 Mn1 3_665 5_565 118.94(18) no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Y1 O1 . . 2.281(7) yes
+Y1 O2 . 2_555 2.316(6) yes
+Y1 O3 . 2_555 2.326(14) yes
+Y1 O1 . 3_555 2.281(7) no
+Y1 O2 . 4_555 2.316(5) no
+Y1 O1 . 5_555 2.281(8) no
+Y1 O2 . 6_555 2.316(6) no
+Y2 O1 . . 2.275(6) yes
+Y2 O2 . . 2.300(4) yes
+Y2 O4 . 2_665 2.451(13) yes
+Y2 O1 . 3_665 2.275(8) no
+Y2 O2 . 4_565 2.300(4) no
+Y2 O1 . 5_565 2.275(5) no
+Y2 O2 . 6_555 2.300(6) no
+Y2 Y2 . 7_455 3.5442(3) yes
+Y2 Y2 . 7_555 3.5442(3) no
+Y2 Y2 . 7_565 3.5442(3) no
+Mn1 O1 . . 1.863(8) yes
+Mn1 O2 . . 1.862(7) yes
+Mn1 O3 . . 2.073(3) yes
+Mn1 O4 . . 2.052(3) yes
+Mn1 O4 . 7_455 2.052(4) no
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion
+_geom_torsion_publ_flag
+O4 Y2 O1 Y1 134.7(2) no
+O4 Y2 O1 Mn1 -4.45(17) no
+O1 Y2 O4 Mn1 3.87(15) no
+O3 Mn1 O1 Y1 .0(3) no
+O3 Mn1 O1 Y2 125.06(17) no
+O4 Mn1 O1 Y1 -120.1(3) no
+O4 Mn1 O1 Y2 4.98(19) no
+O1 Mn1 O4 Y2 -4.42(17) no
+O2 Mn1 O4 Y2 176.13(15) no
+O3 Mn1 O4 Y2 -94.5(5) no

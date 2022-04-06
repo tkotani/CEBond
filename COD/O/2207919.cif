@@ -1,0 +1,279 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 05:06:23 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176774 $
+#$URL: svn://www.crystallography.net/cod/cif/2/20/79/2207919.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2207919
+loop_
+_publ_author_name
+'Nobuo Ishizawa'
+'Keishi Hiraga'
+'Douglas du Boulay'
+'Hisashi Hibino'
+'Takashi Ida'
+'Shuji Oishi'
+_publ_section_title
+;
+ A non-centrosymmetric polymorph of Gd~3~RuO~7~
+;
+_journal_coeditor_code           WM6116
+_journal_issue                   1
+_journal_name_full               'Acta Crystallographica Section E'
+_journal_page_first              i13
+_journal_page_last               i16
+_journal_paper_doi               10.1107/S1600536805040973
+_journal_volume                  62
+_journal_year                    2006
+_chemical_formula_structural     'Gd3 Ru1 O7'
+_chemical_formula_sum            'Gd3 O7 Ru'
+_chemical_formula_weight         684.82
+_chemical_name_systematic        'Trigadolinium ruthenium heptaoxide'
+_space_group_IT_number           33
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  'P -2bc 2a'
+_symmetry_space_group_name_H-M   'P 21 n b'
+_cell_angle_alpha                90.00000
+_cell_angle_beta                 90.00000
+_cell_angle_gamma                90.00000
+_cell_formula_units_Z            8
+_cell_length_a                   10.644(5)
+_cell_length_b                   14.685(6)
+_cell_length_c                   7.384(3)
+_cell_measurement_reflns_used    11591
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      70
+_cell_measurement_theta_min      3
+_cell_volume                     1154.2(9)
+_computing_cell_refinement       RAPID-AUTO
+_computing_data_collection       'RAPID-AUTO (Rigaku, 1999)'
+_computing_data_reduction
+;
+Xtal3.7.2 DIFDAT SORTRF and ADDREF (Hall <i>et al.</i>,  2003)
+;
+_computing_molecular_graphics    'ATOMS (Dowty, 2005)'
+_computing_publication_material  'Xtal3.7.2 CIFIO'
+_computing_structure_refinement  'Xtal3.7.2 CRYLSQ'
+_computing_structure_solution    'SHELXS97 (Sheldrick, 1997)'
+_diffrn_ambient_temperature      293
+_diffrn_detector_area_resol_mean 0.1
+_diffrn_measured_fraction_theta_full 50.
+_diffrn_measurement_device_type  'Rigaku R-AXIS RAPID image-plate'
+_diffrn_measurement_method       \w
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     .71073
+_diffrn_reflns_av_R_equivalents  .062
+_diffrn_reflns_av_sigmaI/netI    .084
+_diffrn_reflns_limit_h_max       22
+_diffrn_reflns_limit_h_min       -22
+_diffrn_reflns_limit_k_max       31
+_diffrn_reflns_limit_k_min       -31
+_diffrn_reflns_limit_l_max       10
+_diffrn_reflns_limit_l_min       -15
+_diffrn_reflns_number            95408
+_diffrn_reflns_theta_full        50.
+_diffrn_reflns_theta_max         50.
+_diffrn_reflns_theta_min         3.09
+_diffrn_standards_decay_%        0
+_diffrn_standards_number         0
+_exptl_absorpt_coefficient_mu    36.575
+_exptl_absorpt_correction_T_max  .1827
+_exptl_absorpt_correction_T_min  .0871
+_exptl_absorpt_correction_type   numerical
+_exptl_absorpt_process_details   '(NUMABS; Higashi, 2000)'
+_exptl_crystal_colour            black
+_exptl_crystal_density_diffrn    7.882
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       prism
+_exptl_crystal_F_000             2336
+_exptl_crystal_size_max          0.102
+_exptl_crystal_size_mid          0.052
+_exptl_crystal_size_min          0.042
+_refine_diff_density_max         17.86
+_refine_diff_density_min         -17.043
+_refine_ls_abs_structure_details 'Flack (1983)'
+_refine_ls_abs_structure_Flack   0.50(2)
+_refine_ls_extinction_coef       135(7)
+_refine_ls_extinction_expression 'Eq22 p292 "Cryst. Comp." Munksgaard 1970'
+_refine_ls_extinction_method     'Zachariasen (1967)'
+_refine_ls_goodness_of_fit_all   2.384
+_refine_ls_goodness_of_fit_ref   2.706
+_refine_ls_matrix_type           full
+_refine_ls_number_constraints    0
+_refine_ls_number_parameters     129
+_refine_ls_number_reflns         3921
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          .082
+_refine_ls_R_factor_gt           .047
+_refine_ls_shift/su_max          .001
+_refine_ls_shift/su_mean         .015
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_all         .038
+_refine_ls_wR_factor_ref         .035
+_reflns_number_gt                3921
+_reflns_number_total             5726
+_reflns_threshold_expression     F>3\s(F)
+_cod_data_source_file            wm6116.cif
+_cod_data_source_block           I
+_cod_database_code               2207919
+_cod_database_fobs_code          2207919
+loop_
+_symmetry_equiv_pos_as_xyz
++x,+y,+z
++x,1/2+y,1/2-z
+1/2+x,-y,-z
+1/2+x,1/2-y,1/2+z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+Gd1 -.2193(2) .02324(6) -.23773(9) .0041(4) Uani 1.00000
+Gd2 -.2309(2) .22229(7) .24574(10) .0056(5) Uani 1.00000
+Gd3 -.2819(2) .27495(7) -.25656(10) .0061(4) Uani 1.00000
+Gd4 -.2722(2) -.02921(6) .25127(8) .0040(4) Uani 1.00000
+Gd5 .0025(2) .38728(4) .00302(12) .0088(3) Uani 1.00000
+Gd6 -.0102(2) .36318(4) -.49721(12) .0077(3) Uani 1.00000
+Ru1 .00000 .12357(10) -.0059(2) .0030(3) Uani 1.00000
+Ru2 -.00151(11) .12258(10) -.4978(2) .0032(3) Uani 1.00000
+O1 .0017(12) .0831(7) -.2500(9) .0049(18) Uiso 1.00000
+O2 -.0137(12) .1683(8) .2503(10) .006(2) Uiso 1.00000
+O3 .1264(10) .2179(8) -.4561(15) .010(2) Uiso 1.00000
+O4 -.3654(12) .1036(8) .2371(12) .005(2) Uiso 1.00000
+O5 .1282(11) .0338(9) -.5394(15) .011(2) Uiso 1.00000
+O6 -.1317(13) .3812(9) -.2358(13) .006(2) Uiso 1.00000
+O7 -.1290(9) .2188(7) -.4572(13) .0053(16) Uiso 1.00000
+O8 -.1343(13) -.1408(8) .2631(12) .006(2) Uiso 1.00000
+O9 -.1265(9) .0297(7) -.5301(13) .0055(16) Uiso 1.00000
+O10 -.3704(14) .1319(9) -.2421(13) .007(2) Uiso 1.00000
+O11 -.1056(9) .0177(6) .0324(13) .0060(16) Uiso 1.00000
+O12 .1052(10) .2343(7) -.0526(14) .013(2) Uiso 1.00000
+O13 .1606(10) .0638(7) .0412(14) .016(2) Uiso 1.00000
+O14 -.1465(9) .1939(6) -.0529(13) .0111(18) Uiso 1.00000
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Gd1 .0037(5) .0041(3) .0046(4) .0016(3) -.0004(3) .0016(2)
+Gd2 .0035(5) .0060(3) .0073(5) .0014(3) .0000(2) .0004(2)
+Gd3 .0055(5) .0059(3) .0070(4) -.0003(3) .0016(2) .0004(2)
+Gd4 .0061(5) .0025(3) .0035(4) .0030(3) -.0014(2) -.0003(2)
+Gd5 .0077(3) .0139(3) .0047(2) .0053(3) .0009(3) .0017(3)
+Gd6 .0030(3) .0150(3) .0049(2) .0000(3) .0006(3) -.0013(3)
+Ru1 .0032(3) .0044(2) .0013(3) .0012(4) -.0001(4) -.0008(3)
+Ru2 .0042(3) .0023(2) .0030(3) -.0010(4) .0002(4) .0015(3)
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Gd -.564 3.904 'IT Vol C. Table 6.1.1.4  Table 6.1.1.5'
+Ru -1.42 .836 'IT Vol C. Table 6.1.1.4  Table 6.1.1.5'
+O .008 .006 'IT Vol C. Table 6.1.1.4  Table 6.1.1.5'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O1 Ru1 O14 2 2 2 90.3(5) no
+O1 Ru1 O11 2 2 2 83.9(4) no
+O1 Ru1 O13 2 2 2 91.1(5) no
+O1 Ru1 O12 2 2 2 94.9(5) no
+O14 Ru1 O11 2 2 2 89.2(4) no
+O14 Ru1 O12 2 2 2 89.2(4) no
+O14 Ru1 O2 2 2 2 86.3(5) no
+O11 Ru1 O13 2 2 2 97.0(4) no
+O11 Ru1 O2 2 2 2 94.7(4) no
+O13 Ru1 O12 2 2 2 84.6(4) no
+O13 Ru1 O2 2 2 2 92.4(5) no
+O12 Ru1 O2 2 2 2 86.4(5) no
+O9 Ru2 O1 '2 554' '2 554' '2 554' 85.2(5) no
+O9 Ru2 O5 '2 554' '2 554' '2 554' 89.8(5) no
+O9 Ru2 O2 '2 554' '2 554' 2 94.5(5) no
+O9 Ru2 O7 '2 554' '2 554' '2 554' 92.9(4) no
+O1 Ru2 O5 '2 554' '2 554' '2 554' 86.2(5) no
+O1 Ru2 O3 '2 554' '2 554' '2 554' 93.1(5) no
+O1 Ru2 O7 '2 554' '2 554' '2 554' 94.8(5) no
+O5 Ru2 O3 '2 554' '2 554' '2 554' 90.6(5) no
+O5 Ru2 O2 '2 554' '2 554' 2 97.3(5) no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Gd1 O10 4 4 2.266(14) y
+Gd1 O6 4 '3 565' 2.293(14) y
+Gd1 O13 4 2 2.318(11) y
+Gd1 O11 4 4 2.334(10) y
+Gd1 O9 4 4 2.376(10) y
+Gd1 O5 4 '2 554' 2.458(12) y
+Gd1 O1 4 4 2.513(13) y
+Gd2 O4 '2 655' '2 655' 2.257(13) yes
+Gd2 O8 '2 655' '1 665' 2.260(13) yes
+Gd2 O3 '2 655' '3 565' 2.303(11) yes
+Gd2 O12 '2 655' '3 565' 2.381(11) yes
+Gd2 O14 '2 655' '2 655' 2.417(10) yes
+Gd2 O2 '2 655' '2 655' 2.444(13) yes
+Gd2 O7 '2 655' '2 654' 2.448(10) yes
+Gd3 O6 '3 565' '3 565' 2.239(14) yes
+Gd3 O10 '3 565' '3 565' 2.305(14) yes
+Gd3 O7 '3 565' '3 565' 2.350(10) yes
+Gd3 O14 '3 565' '3 565' 2.399(10) yes
+Gd3 O3 '3 565' '2 554' 2.426(11) yes
+Gd3 O12 '3 565' 2 2.498(11) yes
+Gd3 O2 '3 565' 2 2.605(13) yes
+Gd4 O4 '2 655' '2 655' 2.190(13) yes
+Gd4 O8 '2 655' '2 655' 2.202(13) yes
+Gd4 O13 '2 655' 4 2.331(11) yes
+Gd4 O5 '2 655' 4 2.378(11) yes
+Gd4 O9 '2 655' '2 654' 2.401(10) yes
+Gd4 O11 '2 655' '2 655' 2.496(9) yes
+Gd4 O1 '2 655' 4 2.533(13) yes
+Gd5 O6 . . 2.271(12) yes
+Gd5 O8 . 2 2.296(11) yes
+Gd5 O10 . 4 2.334(12) yes
+Gd5 O4 . '4 554' 2.418(11) yes
+Gd5 O9 . '2 554' 2.510(10) yes
+Gd5 O12 . . 2.532(11) yes
+Gd5 O5 . '2 554' 2.548(12) yes
+Gd6 O6 '1 556' '1 556' 2.339(11) yes
+Gd6 O10 '1 556' 4 2.343(12) yes
+Gd6 O8 '1 556' 2 2.366(11) yes
+Gd6 O4 '1 556' 4 2.368(11) yes
+Gd6 O7 '1 556' '1 556' 2.487(10) yes
+Gd6 O11 '1 556' 2 2.500(9) yes
+Gd6 O3 '1 556' '1 556' 2.600(12) yes
+Ru1 O1 2 2 1.898(7) yes
+Ru1 O14 2 2 1.902(10) yes
+Ru1 O11 2 2 1.939(9) yes
+Ru1 O13 2 2 1.953(11) yes
+Ru1 O12 2 2 2.004(11) yes
+Ru1 O2 2 2 2.008(8) yes
+Ru2 O9 '2 554' '2 554' 1.919(10) yes
+Ru2 O1 '2 554' '2 554' 1.920(7) yes
+Ru2 O5 '2 554' '2 554' 1.924(12) yes
+Ru2 O3 '2 554' '2 554' 1.977(11) yes
+Ru2 O2 '2 554' 2 1.981(8) yes
+Ru2 O7 '2 554' '2 554' 1.982(10) yes

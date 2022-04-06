@@ -1,0 +1,93 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/25/2002506.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_2002506
+loop_
+_publ_author_name
+'Mueller-Buschbaum, Hk'
+'Boje, J'
+_publ_section_title
+;
+Ein Beitrag ueber dotiertes Lanthancuprat: La1.5 Sr0.5 Cu0.75 M0.25 O4
+(M= Ti4+, Ir4+)
+;
+_journal_name_full               'Journal of the Less-Common Metals'
+_journal_page_first              179
+_journal_page_last               183
+_journal_paper_doi               10.1016/0022-5088(90)90303-2
+_journal_volume                  167
+_journal_year                    1990
+_chemical_formula_structural     'La1.5 Sr0.5 Cu0.75 Ti0.25 O4'
+_chemical_formula_sum            'Cu0.75 La1.5 O4 Sr0.5 Ti0.25'
+_chemical_name_systematic
+;
+Lanthanum strontium copper titanium oxide (1.5/0.5/0.75/.25/4)
+;
+_space_group_IT_number           64
+_symmetry_cell_setting           orthorhombic
+_symmetry_Int_Tables_number      64
+_symmetry_space_group_name_Hall  '-A 2ab 2ab'
+_symmetry_space_group_name_H-M   'A b m a'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   5.3886(9)
+_cell_length_b                   5.3921(27)
+_cell_length_c                   13.1333(38)
+_cell_volume                     381.6
+_refine_ls_R_factor_all          0.042
+_cod_original_formula_sum        'Cu.75 La1.5 O4 Sr.5 Ti.25'
+_cod_database_code               2002506
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,y,-z
+1/2+x,y,1/2-z
+1/2-x,y,1/2+z
+-x,-y,-z
+x,-y,z
+1/2-x,-y,1/2+z
+1/2+x,-y,1/2-z
+x,1/2+y,1/2+z
+-x,1/2+y,1/2-z
+1/2+x,1/2+y,-z
+1/2-x,1/2+y,z
+-x,1/2-y,1/2-z
+x,1/2-y,1/2+z
+1/2-x,1/2-y,z
+1/2+x,1/2-y,-z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_calc_flag
+La1 La3+ 8 f 0.0051(19) 0. 0.3598(1) 0.75 0 d
+Sr1 Sr2+ 8 f 0.0051(19) 0. 0.3598(1) 0.25 0 d
+Cu1 Cu2+ 4 a 0. 0. 0. 0.75 0 d
+Ti1 Ti4+ 4 a 0. 0. 0. 0.25 0 d
+O1 O2- 8 e 0.25 0.25 0.0078(23) 1. 0 d
+O2 O2- 8 f 0.0142(11) 0. 0.1768(14) 1. 0 d
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+La3+ 3.000
+Sr2+ 2.000
+Cu2+ 2.000
+Ti4+ 4.000
+O2- -2.000

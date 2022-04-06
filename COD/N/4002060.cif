@@ -1,0 +1,223 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-21 01:21:50 +0200 (Mon, 21 Mar 2016) $
+#$Revision: 178377 $
+#$URL: svn://www.crystallography.net/cod/cif/4/00/20/4002060.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4002060
+loop_
+_publ_author_name
+'Pust, Philipp'
+'Hintze, Frauke'
+'Hecht, Cora'
+'Weiler, Volker'
+'Locher, Andreas'
+'Zitnanska, Daniela'
+'Harm, Sascha'
+'Wiechert, Detlef'
+'Schmidt, Peter J.'
+'Schnick, Wolfgang'
+_publ_contact_author
+;
+        Prof. Dr. Wolfgang Schnick
+        Department Chemie
+        Ludwig-Maximilians-Universitaet Muenchen
+        Butenandtstrasse 5 - 13 (D)
+        D 81377 Muenchen
+        Germany
+
+;
+_publ_section_title
+;
+ Group (III) NitridesM[Mg2Al2N4] (M= Ca, Sr, Ba, Eu) and
+ Ba[Mg2Ga2N4]---Structural Relation and Nontypical Luminescence Properties
+ of Eu2+Doped Samples
+;
+_journal_issue                   21
+_journal_name_full               'Chemistry of Materials'
+_journal_page_first              6113
+_journal_paper_doi               10.1021/cm502280p
+_journal_volume                  26
+_journal_year                    2014
+_chemical_formula_moiety         '2(Al Mg N2), Ba'
+_chemical_formula_sum            'Al2 Ba Mg2 N4'
+_chemical_formula_weight         295.95
+_chemical_name_common            'Barium Magnesonitridoaluminate'
+_chemical_name_systematic
+; 
+Barium Magnesonitridoaluminate
+;
+_space_group_IT_number           87
+_symmetry_cell_setting           tetragonal
+_symmetry_Int_Tables_number      87
+_symmetry_space_group_name_Hall  '-I 4'
+_symmetry_space_group_name_H-M   'I 4/m'
+_audit_creation_method           'TOPAS ACADEMIC 4.1 + PLATON'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   8.2602(9)
+_cell_length_b                   8.2602(9)
+_cell_length_c                   3.4320(2)
+_cell_measurement_temperature    297(2)
+_cell_volume                     234.17(4)
+_computing_molecular_graphics    'Diamond 3.0'
+_computing_publication_material  'TOPAS ACADEMIC 4.1'
+_computing_structure_refinement  'TOPAS ACADEMIC 4.1'
+_computing_structure_solution    none
+_diffrn_ambient_temperature      297(2)
+_diffrn_measurement_device_type  'Huber G670'
+_diffrn_radiation_monochromator  Ge-111
+_diffrn_radiation_polarisn_ratio 27.87
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_type           'Cu K\a~1~'
+_diffrn_radiation_wavelength     1.540596
+_exptl_absorpt_coefficient_mu    71.189
+_exptl_absorpt_correction_type   none
+_exptl_absorpt_process_details
+;
+none
+;
+_exptl_crystal_density_diffrn    4.197
+_exptl_crystal_F_000             268
+_pd_calc_method                  'Rietveld Refinement'
+_pd_char_colour                  red
+_pd_char_particle_morphology     powder
+_pd_meas_number_of_points        14384
+_pd_proc_info_excluded_regions
+;
+none
+;
+_pd_proc_ls_prof_R_factor        0.02280
+_pd_proc_ls_prof_wR_factor       0.03061
+_pd_proc_number_of_points        14384
+_refine_ls_goodness_of_fit_all   1.363
+_refine_ls_matrix_type           full
+_refine_ls_number_constraints    0
+_refine_ls_number_parameters     63
+_refine_ls_number_restraints     0
+_refine_ls_R_Fsqd_factor         0.03365
+_refine_ls_shift/su_max          0.00
+_refine_ls_shift/su_mean         0.00
+_reflns_d_resolution_high        1.17550
+_reflns_d_resolution_low         8.83817
+_reflns_limit_h_max              6
+_reflns_limit_h_min              0
+_reflns_limit_k_max              6
+_reflns_limit_k_min              0
+_reflns_limit_l_max              2
+_reflns_limit_l_min              0
+_reflns_number_total             46
+_cod_data_source_file            cm502280p_si_004.cif
+_cod_data_source_block           BaAl2Mg2N4
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Tetragonal' changed to 'tetragonal'
+according to
+/home/saulius/struct/COD-crude-data--automatic-downloads/rss-feeds/ACS/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 from 2011-04-26.
+
+Automatic conversion script
+Id: cif_fix_values 2281 2013-09-26 08:29:07Z andrius 
+
+ Adding full bibliography for 4002058--4002062.cif.
+;
+_cod_database_code               4002060
+#BEGIN Tags that were not found in dictionaries:
+_pd_proc_ls_prof_r_expected      0.02245
+#END Tags that were not found in dictionaries
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -y,x,z
+3 -x,-y,z
+4 y,-x,z
+5 -x,-y,-z
+6 y,-x,-z
+7 x,y,-z
+8 -y,x,-z
+9 1/2+x,1/2+y,1/2+z
+10 1/2-y,1/2+x,1/2+z
+11 1/2-x,1/2-y,1/2+z
+12 1/2+y,1/2-x,1/2+z
+13 1/2-x,1/2-y,1/2-z
+14 1/2+y,1/2-x,1/2-z
+15 1/2+x,1/2+y,1/2-z
+16 1/2-y,1/2+x,1/2-z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+Ba1 Ba 4/m.. 2a 0.00000 0.00000 0.00000 1.000 0.0095
+Al1 Al m.. 8h 0.31981 0.13172 0.50000 0.500 0.0079
+Mg1 Mg m.. 8h 0.31981 0.13172 0.50000 0.500 0.0080
+N1 N m.. 8h 0.26686 -0.10050 0.50000 1.000 0.0253
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+N N 0.0061 0.0033 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Mg Mg 0.0486 0.0363 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ba Ba -0.3244 2.2819 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Al Al 0.0645 0.0514 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+N1 Al1 N1 108.80 . 2_555 yes
+N1 Al1 N1 118.48 . 12_554 yes
+N1 Al1 N1 118.48 . 12_555 yes
+N1 Al1 N1 93.43 2_555 12_554 yes
+N1 Al1 N1 93.43 2_555 12_555 yes
+N1 Al1 N1 116.33 12_554 12_555 yes
+N1 Mg1 N1 108.80 . 2_555 yes
+N1 Mg1 N1 118.48 . 12_554 yes
+N1 Mg1 N1 118.48 . 12_555 yes
+N1 Mg1 N1 93.43 2_555 12_554 yes
+N1 Mg1 N1 93.43 2_555 12_555 yes
+N1 Mg1 N1 116.33 12_554 12_555 yes
+Al1 N1 Al1 161.20 . 4_555 yes
+Al1 N1 Al1 103.03 . 10_544 yes
+Al1 N1 Al1 103.03 . 10_545 yes
+Al1 N1 Mg1 161.20 4_555 . yes
+Al1 N1 Mg1 103.03 10_544 . yes
+Al1 N1 Mg1 103.03 10_545 . yes
+Al1 N1 Al1 86.57 4_555 10_544 yes
+Al1 N1 Al1 86.57 4_555 10_545 yes
+Al1 N1 Al1 116.33 10_544 10_545 yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Al1 N1 1.9674(2) . yes
+Al1 N1 2.1279(2) 2_555 yes
+Al1 N1 2.0199(2) 12_554 yes
+Al1 N1 2.0199(2) 12_555 yes
+Mg1 N1 1.9674(2) . yes
+Mg1 N1 2.1279(2) 2_555 yes
+Mg1 N1 2.0199(2) 12_554 yes
+Mg1 N1 2.0199(2) 12_555 yes

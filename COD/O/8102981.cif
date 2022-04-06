@@ -1,0 +1,297 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-18 14:25:00 +0200 (Thu, 18 Feb 2016) $
+#$Revision: 176728 $
+#$URL: svn://www.crystallography.net/cod/cif/8/10/29/8102981.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_8102981
+loop_
+_publ_author_name
+'Fan Zhang'
+'De-Zhong Shen'
+'Guang-Qiu Shen'
+'Xiao-Qing Wang'
+_publ_section_title
+;
+ Crystal structure of cadmium dizinc diborate, CdZn2(BO3)2
+;
+_journal_issue                   1
+_journal_name_full
+'Zeitschrift f\"ur Kristallographie - New Crystal Structures'
+_journal_page_first              3
+_journal_volume                  223
+_journal_year                    2008
+_chemical_formula_moiety         'B2 Cd O6 Zn2'
+_chemical_formula_structural     CdZn2B2O6
+_chemical_formula_sum            'B6 Cd3 O18 Zn6'
+_chemical_formula_weight         1082.28
+_chemical_name_systematic
+; 
+cadmium dizinc diborate
+;
+_space_group_IT_number           161
+_symmetry_cell_setting           trigonal
+_symmetry_space_group_name_Hall  'R 3 -2"c'
+_symmetry_space_group_name_H-M   'R 3 c :H'
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                120.00
+_cell_formula_units_Z            2
+_cell_length_a                   8.3091(12)
+_cell_length_b                   8.3091(12)
+_cell_length_c                   12.1993(15)
+_cell_measurement_reflns_used    1131
+_cell_measurement_temperature    298(2)
+_cell_measurement_theta_max      28.164
+_cell_measurement_theta_min      3.287
+_cell_volume                     729.41(17)
+_computing_cell_refinement       'Bruker SMART'
+_computing_data_collection       'Bruker SMART'
+_computing_data_reduction        'Bruker SAINT'
+_computing_molecular_graphics    'Bruker SHELXTL'
+_computing_publication_material  'Bruker SHELXTL'
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      298(2)
+_diffrn_measured_fraction_theta_full 0.973
+_diffrn_measured_fraction_theta_max 0.973
+_diffrn_measurement_device_type  'Bruker SMART CCD'
+_diffrn_measurement_method       phi/omega
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.1916
+_diffrn_reflns_av_sigmaI/netI    0.1200
+_diffrn_reflns_limit_h_max       9
+_diffrn_reflns_limit_h_min       -9
+_diffrn_reflns_limit_k_max       9
+_diffrn_reflns_limit_k_min       -5
+_diffrn_reflns_limit_l_max       14
+_diffrn_reflns_limit_l_min       -14
+_diffrn_reflns_number            908
+_diffrn_reflns_theta_full        25.02
+_diffrn_reflns_theta_max         25.02
+_diffrn_reflns_theta_min         4.38
+_exptl_absorpt_coefficient_mu    14.073
+_exptl_absorpt_correction_T_max  0.3066
+_exptl_absorpt_correction_T_min  0.2830
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details   sadabs
+_exptl_crystal_colour            colorless
+_exptl_crystal_density_diffrn    4.928
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       block
+_exptl_crystal_F_000             996
+_exptl_crystal_size_max          0.12
+_exptl_crystal_size_mid          0.12
+_exptl_crystal_size_min          0.11
+_refine_diff_density_max         1.399
+_refine_diff_density_min         -1.331
+_refine_diff_density_rms         0.370
+_refine_ls_abs_structure_details 'Flack H D (1983), Acta Cryst. A39, 876-881'
+_refine_ls_abs_structure_Flack   0.1(2)
+_refine_ls_extinction_coef       0.016(4)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_ref   1.114
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     37
+_refine_ls_number_reflns         271
+_refine_ls_number_restraints     1
+_refine_ls_restrained_S_all      1.112
+_refine_ls_R_factor_all          0.0741
+_refine_ls_R_factor_gt           0.0718
+_refine_ls_shift/su_max          0.001
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.1413P)^2^+3.0212P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.1898
+_refine_ls_wR_factor_ref         0.1925
+_reflns_number_gt                256
+_reflns_number_total             271
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            409937.cff
+_cod_data_source_block           070912h
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_symmetry_cell_setting' value 'Trigonal' changed to 'trigonal' according
+to '/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1555 2011-01-17 13:19:09Z saulius 
+;
+_cod_original_sg_symbol_H-M      R3c
+_cod_database_code               8102981
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-y, x-y, z'
+'-x+y, -x, z'
+'-y, -x, z+1/2'
+'-x+y, y, z+1/2'
+'x, x-y, z+1/2'
+'x+2/3, y+1/3, z+1/3'
+'-y+2/3, x-y+1/3, z+1/3'
+'-x+y+2/3, -x+1/3, z+1/3'
+'-y+2/3, -x+1/3, z+5/6'
+'-x+y+2/3, y+1/3, z+5/6'
+'x+2/3, x-y+1/3, z+5/6'
+'x+1/3, y+2/3, z+2/3'
+'-y+1/3, x-y+2/3, z+2/3'
+'-x+y+1/3, -x+2/3, z+2/3'
+'-y+1/3, -x+2/3, z+7/6'
+'-x+y+1/3, y+2/3, z+7/6'
+'x+1/3, x-y+2/3, z+7/6'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Cd1 Cd 0.9756(3) 0.6505(3) 0.8703(7) 0.0278(13) Uani 0.33 18 b d P . .
+Zn1 Zn 0.9756(3) 0.6505(3) 0.8703(7) 0.0278(13) Uani 0.67 18 b d P . .
+B1 B 0.6667 0.3333 0.993(3) 0.020(8) Uani 1 6 a d S . .
+B2 B 1.0000 1.0000 0.911(3) 0.024(9) Uani 1 6 a d S . .
+O1 O 0.777(2) 0.5187(17) 0.9937(10) 0.024(3) Uani 1 18 b d . . .
+O2 O 1.107(2) 0.9191(19) 0.9108(10) 0.025(3) Uani 1 18 b d . . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Cd1 0.0169(18) 0.0206(18) 0.0425(18) -0.0121(11) 0.0088(16) 0.0068(10)
+Zn1 0.0169(18) 0.0206(18) 0.0425(18) -0.0121(11) 0.0088(16) 0.0068(10)
+B1 0.016(10) 0.016(10) 0.03(2) 0.000 0.000 0.008(5)
+B2 0.019(12) 0.019(12) 0.03(2) 0.000 0.000 0.010(6)
+O1 0.022(6) 0.017(7) 0.030(6) -0.002(4) 0.004(5) 0.007(6)
+O2 0.025(8) 0.023(8) 0.031(6) 0.001(5) 0.001(5) 0.015(7)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+B B 0.0013 0.0007 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Cd Cd -0.8075 1.2024 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Zn Zn 0.2839 1.4301 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O2 Cd1 O1 113.7(6) . 10_664 ?
+O2 Cd1 O1 104.7(7) . . ?
+O1 Cd1 O1 120.9(7) 10_664 . ?
+O2 Cd1 O2 126.6(6) . 12_454 ?
+O1 Cd1 O2 98.5(6) 10_664 12_454 ?
+O1 Cd1 O2 92.3(6) . 12_454 ?
+O2 Cd1 Cd1 140.7(4) . 10_664 ?
+O1 Cd1 Cd1 37.0(4) 10_664 10_664 ?
+O1 Cd1 Cd1 113.6(4) . 10_664 ?
+O2 Cd1 Cd1 62.0(4) 12_454 10_664 ?
+O2 Cd1 Zn1 140.7(4) . 10_664 ?
+O1 Cd1 Zn1 37.0(4) 10_664 10_664 ?
+O1 Cd1 Zn1 113.6(4) . 10_664 ?
+O2 Cd1 Zn1 62.0(4) 12_454 10_664 ?
+Cd1 Cd1 Zn1 0.00(6) 10_664 10_664 ?
+O2 Cd1 Cd1 75.7(4) . 16_664 ?
+O1 Cd1 Cd1 154.2(5) 10_664 16_664 ?
+O1 Cd1 Cd1 35.4(4) . 16_664 ?
+O2 Cd1 Cd1 93.5(4) 12_454 16_664 ?
+Cd1 Cd1 Cd1 143.15(16) 10_664 16_664 ?
+Zn1 Cd1 Cd1 143.15(16) 10_664 16_664 ?
+O2 Cd1 Zn1 75.7(4) . 16_664 ?
+O1 Cd1 Zn1 154.2(5) 10_664 16_664 ?
+O1 Cd1 Zn1 35.4(4) . 16_664 ?
+O2 Cd1 Zn1 93.5(4) 12_454 16_664 ?
+Cd1 Cd1 Zn1 143.15(16) 10_664 16_664 ?
+Zn1 Cd1 Zn1 143.15(16) 10_664 16_664 ?
+Cd1 Cd1 Zn1 0.00(6) 16_664 16_664 ?
+O2 Cd1 Cd1 34.1(5) . 18_554 ?
+O1 Cd1 Cd1 92.2(4) 10_664 18_554 ?
+O1 Cd1 Cd1 96.0(5) . 18_554 ?
+O2 Cd1 Cd1 160.6(4) 12_454 18_554 ?
+Cd1 Cd1 Cd1 128.90(6) 10_664 18_554 ?
+Zn1 Cd1 Cd1 128.90(6) 10_664 18_554 ?
+Cd1 Cd1 Cd1 83.32(9) 16_664 18_554 ?
+Zn1 Cd1 Cd1 83.32(9) 16_664 18_554 ?
+O2 Cd1 Cd1 96.9(5) . 12_454 ?
+O1 Cd1 Cd1 125.7(5) 10_664 12_454 ?
+O1 Cd1 Cd1 90.2(5) . 12_454 ?
+O2 Cd1 Cd1 31.7(4) 12_454 12_454 ?
+Cd1 Cd1 Cd1 91.70(9) 10_664 12_454 ?
+Zn1 Cd1 Cd1 91.70(9) 10_664 12_454 ?
+Cd1 Cd1 Cd1 73.95(3) 16_664 12_454 ?
+Zn1 Cd1 Cd1 73.95(3) 16_664 12_454 ?
+Cd1 Cd1 Cd1 130.46(15) 18_554 12_454 ?
+O1 B1 O1 119.99(6) 3_665 . ?
+O1 B1 O1 119.99(6) 3_665 2_655 ?
+O1 B1 O1 119.99(6) . 2_655 ?
+O2 B2 O2 120.00(3) 3_675 2_765 ?
+O2 B2 O2 120.00(3) 3_675 . ?
+O2 B2 O2 120.00(3) 2_765 . ?
+B1 O1 Zn1 122.3(10) . 16_664 ?
+B1 O1 Cd1 122.3(10) . 16_664 ?
+B1 O1 Cd1 120.0(13) . . ?
+Cd1 O1 Cd1 107.5(6) 16_664 . ?
+B2 O2 Cd1 115.3(9) . . ?
+B2 O2 Zn1 118.4(13) . 18_554 ?
+Cd1 O2 Zn1 114.1(7) . 18_554 ?
+B2 O2 Cd1 118.4(13) . 18_554 ?
+Cd1 O2 Cd1 114.1(7) . 18_554 ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Cd1 O2 1.995(15) . ?
+Cd1 O1 2.015(14) 10_664 ?
+Cd1 O1 2.094(16) . ?
+Cd1 O2 2.130(18) 12_454 ?
+Cd1 Cd1 3.3143(15) 10_664 ?
+Cd1 Zn1 3.3143(15) 10_664 ?
+Cd1 Cd1 3.3143(15) 16_664 ?
+Cd1 Zn1 3.3143(15) 16_664 ?
+Cd1 Cd1 3.463(2) 18_554 ?
+Cd1 Cd1 3.463(2) 12_454 ?
+B1 O1 1.342(13) 3_665 ?
+B1 O1 1.342(13) . ?
+B1 O1 1.342(13) 2_655 ?
+B2 O2 1.356(14) 3_675 ?
+B2 O2 1.356(13) 2_765 ?
+B2 O2 1.356(13) . ?
+O1 Zn1 2.015(14) 16_664 ?
+O1 Cd1 2.015(14) 16_664 ?
+O2 Zn1 2.130(18) 18_554 ?
+O2 Cd1 2.130(18) 18_554 ?

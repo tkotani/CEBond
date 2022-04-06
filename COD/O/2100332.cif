@@ -1,0 +1,237 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 02:53:41 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176768 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/03/2100332.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2100332
+loop_
+_publ_author_name
+'Michiue, Yuichi'
+'Yoshikado, Shinzo'
+_publ_section_title
+;
+ X-ray diffraction study for one-dimensional ionic conductors
+ K~<i>x~</i>(Ga~1{-~<i>y</i>}Al~y~)~2+<i>x~</i>Ti~2{-~<i>x</i>}O~7~
+ (<i>x</i> \\simeq 0.14, <i>y</i> \\simeq 0.10, 0.23, 0.39)
+;
+_journal_coeditor_code           LC5028
+_journal_issue                   6
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              608
+_journal_page_last               615
+_journal_paper_doi               10.1107/S0108768105031034
+_journal_volume                  61
+_journal_year                    2005
+_chemical_formula_sum            'Al0.21 Ga1.93 K0.152 O7 Ti1.86'
+_chemical_formula_weight         347.2
+_chemical_name_systematic        ' ?'
+_space_group_IT_number           87
+_symmetry_cell_setting           tetragonal
+_symmetry_space_group_name_Hall  '-I 4'
+_symmetry_space_group_name_H-M   'I 4/m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            8
+_cell_length_a                   18.0971(16)
+_cell_length_b                   18.0971(16)
+_cell_length_c                   2.9916(19)
+_cell_measurement_reflns_used    20
+_cell_measurement_temperature    298
+_cell_measurement_theta_max      37
+_cell_measurement_theta_min      30
+_cell_volume                     979.8(6)
+_computing_publication_material  '(Jana2000; Petricek and Dusek, 2000)'
+_computing_structure_refinement  '(Jana2000; Petricek and Dusek, 2000)'
+_diffrn_ambient_temperature      298
+_diffrn_measured_fraction_theta_full 0.97
+_diffrn_measurement_device_type  'Rigaku AFC-5S'
+_diffrn_measurement_method       \w/2\q
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.71069
+_diffrn_reflns_av_R_equivalents  0.0337
+_diffrn_reflns_av_sigmaI/netI    0.0487
+_diffrn_reflns_limit_h_max       39
+_diffrn_reflns_limit_h_min       -38
+_diffrn_reflns_limit_k_max       39
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       6
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            5602
+_diffrn_reflns_theta_full        50.13
+_diffrn_reflns_theta_max         50.13
+_diffrn_reflns_theta_min         1.59
+_diffrn_standards_decay_%        <0.8
+_diffrn_standards_interval_count 100
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    13.58
+_exptl_absorpt_correction_T_max  0.467
+_exptl_absorpt_correction_T_min  0.292
+_exptl_absorpt_correction_type   numerical
+_exptl_crystal_colour            colorless
+_exptl_crystal_density_diffrn    4.706(3)
+_exptl_crystal_description       prism
+_exptl_crystal_F_000             1299
+_exptl_crystal_size_max          0.22
+_exptl_crystal_size_mid          0.08
+_exptl_crystal_size_min          0.08
+_refine_diff_density_max         1.35
+_refine_diff_density_min         -1.39
+_refine_ls_extinction_coef       0.0397(6)
+_refine_ls_extinction_method
+'B-C type 1 Gaussian isotropic (Becker & Coppens, 1974)'
+_refine_ls_goodness_of_fit_ref   1.10
+_refine_ls_number_parameters     86
+_refine_ls_number_reflns         2817
+_refine_ls_R_factor_all          0.0434
+_refine_ls_R_factor_gt           0.0308
+_refine_ls_shift/su_max          0.0012
+_refine_ls_shift/su_mean         0.0002
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details     w=1/(\s^2^(I)+0.0001I^2^)
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_gt          0.0486
+_refine_ls_wR_factor_ref         0.0506
+_reflns_number_gt                2350
+_reflns_number_total             2817
+_reflns_threshold_expression     I>2\s(I)
+_cod_data_source_file            lc5028.cif
+_cod_data_source_block           sample-I
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_exptl_absorpt_correction_type' value 'Numerical' changed to
+'numerical' according to
+/home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_database_code               2100332
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -y,x,z
+3 -x,-y,z
+4 y,-x,z
+5 -x,-y,-z
+6 y,-x,-z
+7 x,y,-z
+8 -y,x,-z
+9 1/2+x,1/2+y,1/2+z
+10 1/2-y,1/2+x,1/2+z
+11 1/2-x,1/2-y,1/2+z
+12 1/2+y,1/2-x,1/2+z
+13 1/2-x,1/2-y,1/2-z
+14 1/2+y,1/2-x,1/2-z
+15 1/2+x,1/2+y,1/2-z
+16 1/2-y,1/2+x,1/2-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+_atom_site_type_symbol
+K1 0 0 0.234(3) 0.089(6) Uani d . 0.303(3) . . K
+Ga1 0.118144(10) 0.162373(10) 0.5 0.00472(4) Uani d . 0.9326(14) . . Ga
+Al1 0.118144 0.162373 0.5 0.00472 Uani d . 0.0640(16) . . Al
+Ga2 0.203530(11) 0.310781(11) 0 0.00525(5) Uani d . 0.756(5) . . Ga
+Al2 0.203530 0.310781 0 0.00525 Uani d . 0.077(14) . . Al
+Ti2 0.203530 0.310781 0 0.00525 Uani d . 0.166(13) . . Ti
+Ti3 0.221445(15) 0.035922(14) 0 0.00593(6) Uani d . 0.730(13) . . Ti
+Ga3 0.221445 0.035922 0 0.00593 Uani d . 0.202(6) . . Ga
+Al3 0.221445 0.035922 0 0.00593 Uani d . 0.069(14) . . Al
+Ti4 0.119442(18) 0.542960(17) 0 0.00905(6) Uani d . 0.964(2) . . Ti
+Ga4 0.119442 0.542960 0 0.00905 Uani d . 0.036(2) . . Ga
+Ga5 0.057(3) 0.100(3) 0.5 0.01 Uiso d . 0.0034(8) . . Ga
+O1 0.40977(7) 0.02065(6) 0 0.0059(2) Uani d . 1 . . O
+O2 0.39445(6) 0.15152(6) 0.5 0.0057(2) Uani d . 1 . . O
+O3 0.28044(6) 0.00190(7) 0.5 0.0063(2) Uani d . 1 . . O
+O4 0.26450(7) 0.13104(6) 0 0.0061(2) Uani d . 1 . . O
+O5 0.18949(6) 0.23637(6) 0.5 0.0053(2) Uani d . 1 . . O
+O6 0.15538(6) 0.06769(6) 0.5 0.0062(2) Uani d . 1 . . O
+O7 0.06143(6) 0.16830(7) 0 0.0070(2) Uani d . 1 . . O
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+_atom_site_aniso_type_symbol
+K1 0.052(2) 0.052(2) 0.163(19) 0 0 0 K
+Ga1 0.00498(7) 0.00556(7) 0.00361(7) -0.00019(5) 0 0 Ga
+Ga2 0.00549(8) 0.00657(8) 0.00370(8) 0.00028(5) 0 0 Ga
+Ti3 0.00858(10) 0.00475(9) 0.00446(10) 0.00003(7) 0 0 Ti
+Ti4 0.01043(11) 0.00974(11) 0.00697(11) -0.00056(8) 0 0 Ti
+O1 0.0081(4) 0.0042(3) 0.0054(4) -0.0015(3) 0 0 O
+O2 0.0058(4) 0.0066(4) 0.0046(4) 0.0006(3) 0 0 O
+O3 0.0050(4) 0.0079(4) 0.0060(4) 0.0026(3) 0 0 O
+O4 0.0088(4) 0.0048(3) 0.0048(4) -0.0013(3) 0 0 O
+O5 0.0062(4) 0.0051(3) 0.0045(4) -0.0004(3) 0 0 O
+O6 0.0065(4) 0.0072(4) 0.0049(4) 0.0024(3) 0 0 O
+O7 0.0055(4) 0.0120(4) 0.0035(4) 0.0030(3) 0 0 O
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+K 0.201 0.249 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.1'
+Ga 0.231 1.608 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.1'
+Al 0.064 0.051 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.1'
+Ti 0.278 0.446 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.1'
+O 0.011 0.006 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.1'
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Ga1 O5 . . 1.8602(11) no
+Ga1 O6 . . 1.8413(12) no
+Ga1 O7 . . 1.8172(7) no
+Ga1 O7 . 1_556 1.8172(7) no
+Ga2 O2 . 13_555 1.8998(12) no
+Ga2 O4 . 13_554 1.9185(7) no
+Ga2 O4 . 13_555 1.9185(7) no
+Ga2 O5 . 1_554 2.0286(8) no
+Ga2 O5 . . 2.0286(8) no
+Ga2 O5 . 13_555 2.1158(11) no
+Ti3 O3 . 1_554 1.9381(7) no
+Ti3 O3 . . 1.9381(7) no
+Ti3 O4 . . 1.8895(12) no
+Ti3 O6 . 1_554 1.9993(8) no
+Ti3 O6 . . 1.9993(8) no
+Ti3 O7 . 6_555 2.0072(12) no
+Ti4 O1 . 13_554 1.9602(7) no
+Ti4 O1 . 13_555 1.9602(7) no
+Ti4 O1 . 6_565 1.9819(11) no
+Ti4 O2 . 6_565 1.9641(8) no
+Ti4 O2 . 6_566 1.9641(8) no
+Ti4 O3 . 13_555 1.9855(12) no
+Ga5 O6 . . 1.88(6) no
+Ga5 O6 . 2_555 2.47(6) no
+Ga5 O7 . . 1.95(4) no
+Ga5 O7 . 1_556 1.95(4) no

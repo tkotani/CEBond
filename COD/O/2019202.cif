@@ -1,0 +1,279 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 00:18:51 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176760 $
+#$URL: svn://www.crystallography.net/cod/cif/2/01/92/2019202.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2019202
+loop_
+_publ_author_name
+'Savina, Aleksandra A.'
+'Morozov, Vladimir A.'
+'Basovich, Olga M.'
+'Khaikina, Elena G.'
+'Lazoryak, Bogdan I.'
+_publ_section_title
+;
+ The double molybdate Na~9~Sc(MoO~4~)~6~ refined from powder XRD data
+;
+_journal_coeditor_code           CU3037
+_journal_issue                   11
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              1301
+_journal_page_last               1303
+_journal_paper_doi               10.1107/S010827011302862X
+_journal_volume                  69
+_journal_year                    2013
+_chemical_formula_iupac          'Na9 Sc (Mo O4)6'
+_chemical_formula_moiety         'Sc Mo6 O24, 9Na'
+_chemical_formula_structural     'Na9 Sc (MoO4)6'
+_chemical_formula_sum            'Mo6 Na9 O24 Sc'
+_chemical_formula_weight         1211.48
+_chemical_name_systematic
+;
+Nonasodium scandium hexakis[tetraoxidomolybdate(II)]
+;
+_space_group_crystal_system      trigonal
+_space_group_IT_number           148
+_space_group_name_Hall           '-R 3'
+_space_group_name_H-M_alt        'R -3'
+_symmetry_space_group_name_Hall  '-R 3'
+_symmetry_space_group_name_H-M   'R -3 :H'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                120.0
+_cell_formula_units_Z            6
+_cell_length_a                   15.0087(3)
+_cell_length_b                   15.0087
+_cell_length_c                   19.1943(4)
+_cell_measurement_temperature    295
+_cell_volume                     3744.46(11)
+_computing_cell_refinement       'GSAS (Larson & Von Dreele, 1994)'
+_computing_data_collection       'SMART (Bruker, 2002)'
+_computing_data_reduction        'GSAS (Larson & Von Dreele, 1994)'
+_computing_molecular_graphics    'DIAMOND (Brandenburg & Berndt, 1999)'
+_computing_structure_refinement  'GSAS (Larson & Von Dreele, 1994)'
+_computing_structure_solution    'GSAS (Larson & Von Dreele, 1994)'
+_diffrn_ambient_temperature      295
+_diffrn_measurement_device_type  'Bruker D8 ADVANCE'
+_diffrn_radiation_monochromator  'secondary graphite monochromator'
+_exptl_absorpt_process_details
+;
+GSAS Absorption/surface roughness correction: function number 0
+No correction is applied.
+;
+_exptl_crystal_density_diffrn    3.224
+_exptl_crystal_density_method    'not measured'
+_pd_char_colour                  white
+_pd_meas_2theta_range_inc        0.02076
+_pd_meas_2theta_range_max        100
+_pd_meas_2theta_range_min        7
+_pd_meas_number_of_points        4477
+_pd_meas_scan_method             step
+_pd_proc_2theta_range_inc        0.02076
+_pd_proc_2theta_range_max        100
+_pd_proc_2theta_range_min        7
+_pd_proc_ls_background_function
+;   GSAS Background function number 1 with 14 terms.
+ Shifted Chebyshev function of 1st kind
+      1:    2896.21     2:   -1969.52     3:    1220.07     4:   -623.347
+      5:    281.467     6:   -101.028     7:    37.6638     8:   -13.9996
+      9:   -22.4161    10:    44.5336    11:   -33.2340    12:   -24.8908
+     13:    83.9862    14:   -56.2952
+;
+_pd_proc_ls_profile_function
+;
+CW Profile function number 3 with  19 terms
+Pseudo-Voigt profile coefficients as parameterized in
+P. Thompson, D. E. Cox & J. B. Hastings (1987). J. Appl. Cryst. 20,
+79--83.
+Asymmetry correction of L. W. Finger, D. E. Cox & A. P. Jephcoat (1994).
+J. Appl. Cryst. 27, 892--900.
+Peak tails are ignored  where the intensity is below 0.0010 times the peak
+  Aniso. broadening axis   0.0   0.0   1.0
+;
+_pd_proc_ls_prof_R_factor        0.0359
+_pd_proc_ls_prof_wR_expected     0.0153
+_pd_proc_ls_prof_wR_factor       0.0458
+_pd_spec_mounting                ' packed powder pellet'
+_pd_spec_mount_mode              reflection
+_pd_spec_shape                   flat_sheet
+_refine_ls_goodness_of_fit_all   3.00
+_refine_ls_matrix_type           fullcycle
+_refine_ls_number_parameters     62
+_refine_ls_shift/su_max          0.004
+_refine_ls_shift/su_mean         0.0006
+_refine_ls_weighting_scheme      sigma
+_cod_data_source_file            cu3037.cif
+_cod_data_source_block           I
+_cod_original_cell_volume        3744.5(2)
+_cod_database_code               2019202
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 'x, y, z'
+2 '-y, x-y, z'
+3 'y-x, -x, z'
+4 'x+2/3, y+1/3, z+1/3'
+5 '-y+2/3, x-y+1/3, z+1/3'
+6 'y-x+2/3, -x+1/3, z+1/3'
+7 'x+1/3, y+2/3, z+2/3'
+8 '-y+1/3, x-y+2/3, z+2/3'
+9 'y-x+1/3, -x+2/3, z+2/3'
+10 '-x, -y, -z'
+11 'y, y-x, -z'
+12 'x-y, x, -z'
+13 '-x+2/3, -y+1/3, -z+1/3'
+14 'y+2/3, y-x+1/3, -z+1/3'
+15 'x-y+2/3, x+1/3, -z+1/3'
+16 '-x+1/3, -y+2/3, -z+2/3'
+17 'y+1/3, y-x+2/3, -z+2/3'
+18 'x-y+1/3, x+2/3, -z+2/3'
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+Sc Sc 0 0 0.2600(5) 0.0146(19) Uiso 1.0
+Na Na1 0.0055(11) 0.2270(7) 0.2568(8) 0.040(3) Uiso 1.0
+Na Na2 0.0130(8) 0.2304(8) 0.0486(6) 0.039(4) Uiso 1.0
+Na Na3 0.0164(7) 0.2428(8) 0.4469(6) 0.032(3) Uiso 1.0
+Mo Mo1 0.5269(2) 0.8610(2) 0.02720(10) 0.0205(7) Uiso 1.0
+Mo Mo2 0.5144(2) 0.6476(2) 0.52480(10) 0.0331(9) Uiso 1.0
+O O1 0.5738(16) 0.7833(16) 0.0354(9) 0.042(3) Uiso 1.0
+O O2 0.5030(11) 0.8880(12) 0.1099(9) 0.032(4) Uiso 1.0
+O O3 0.6082(16) 0.9696(17) -0.0121(11) 0.042(5) Uiso 1.0
+O O4 0.4062(14) 0.8060(14) -0.0180(8) 0.028(3) Uiso 1.0
+O O5 0.5855(15) 0.7828(15) 0.5247(8) 0.042(3) Uiso 1.0
+O O6 0.4693(12) 0.5950(12) 0.6092(9) 0.042(5) Uiso 1.0
+O O7 0.6058(15) 0.6161(11) 0.4968(11) 0.032(4) Uiso 1.0
+O O8 0.4021(13) 0.6027(12) 0.4681(8) 0.028(3) Uiso 1.0
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Sc Sc .000 .000 International_Tables_Vol_C
+Na Na .000 .000 International_Tables_Vol_C
+Mo Mo .000 .000 International_Tables_Vol_C
+O O .000 .000 International_Tables_Vol_C
+loop_
+_diffrn_radiation_type
+_diffrn_radiation_wavelength
+CuK\a~1~ 1.54056
+CuK\a~2~ 1.54439
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O4 Sc O4 4_445 5_555 96.7(7) n
+O4 Sc O4 6_455 4_445 96.7(7) n
+O4 Sc O4 5_555 6_455 96.7(7) n
+O4 Sc O8 4_445 16_555 87.6(3) n
+O4 Sc O8 4_445 17_445 175.4(8) n
+O4 Sc O8 4_445 18_545 84.3(3) n
+O4 Sc O8 5_555 16_555 84.3(3) n
+O4 Sc O8 5_555 17_445 87.6(3) n
+O4 Sc O8 5_555 18_545 175.4(8) n
+O4 Sc O8 6_455 16_555 175.4(8) n
+O4 Sc O8 6_455 17_445 84.3(3) n
+O4 Sc O8 6_455 18_545 87.6(3) n
+O8 Sc O8 16_555 17_445 91.3(7) n
+O8 Sc O8 16_555 18_545 91.3(7) n
+O8 Sc O8 17_445 18_545 91.3(7) n
+O3 Na1 O4 13_565 4_445 95.0(9) n
+O3 Na1 O7 13_565 7_444 104.0(4) n
+O3 Na1 O8 13_565 16_555 163.9(10) n
+O4 Na1 O7 4_445 7_444 159.9(9) n
+O4 Na1 O8 4_445 16_555 76.0(3) n
+O7 Na1 O8 7_444 16_555 86.9(8) n
+O3 Na2 O5 11_455 18_545 125.3(8) n
+O3 Na2 O6 11_455 16_555 109.7(8) n
+O3 Na2 O6 11_455 5_554 98.0(8) n
+O3 Na2 O7 11_455 7_444 72.2(5) n
+O5 Na2 O6 18_545 16_555 110.8(8) n
+O5 Na2 O6 18_545 5_554 110.1(6) n
+O5 Na2 O7 18_545 7_444 76.3(7) n
+O6 Na2 O6 16_555 5_554 99.0(8) n
+O6 Na2 O7 16_555 7_444 85.1(6) n
+O6 Na2 O7 5_554 7_444 170.3(8) n
+O1 Na3 O2 5_555 18_545 101.9(7) n
+O1 Na3 O2 5_555 4_445 111.3(7) n
+O1 Na3 O3 5_555 13_565 82.5(8) n
+O1 Na3 O7 5_555 3_565 120.9(8) n
+O2 Na3 O2 18_545 4_445 100.3(7) n
+O2 Na3 O3 18_545 13_565 157.0(7) n
+O2 Na3 O7 18_545 3_565 82.9(7) n
+O2 Na3 O3 4_445 13_565 99.0(6) n
+O2 Na3 O7 4_445 3_565 125.8(7) n
+O3 Na3 O7 13_565 3_565 75.6(5) n
+O1 Mo1 O2 1_555 1_555 107.0(7) n
+O1 Mo1 O3 1_555 1_555 112.2(9) n
+O1 Mo1 O4 1_555 1_555 114.4(9) n
+O2 Mo1 O3 1_555 1_555 109.1(8) n
+O2 Mo1 O4 1_555 1_555 105.8(7) n
+O3 Mo1 O4 1_555 1_555 108.1(9) n
+O5 Mo2 O6 1_555 1_555 113.0(7) n
+O5 Mo2 O7 1_555 1_555 101.9(8) n
+O5 Mo2 O8 1_555 1_555 109.9(8) n
+O6 Mo2 O7 1_555 1_555 109.7(8) n
+O6 Mo2 O8 1_555 1_555 107.5(8) n
+O7 Mo2 O8 1_555 1_555 114.9(9) n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Sc O4 4_445 2.100(17) n
+Sc O4 5_555 2.100(17) n
+Sc O4 6_455 2.100(17) n
+Sc O8 16_555 2.089(16) n
+Sc O8 17_445 2.089(16) n
+Sc O8 18_545 2.089(16) n
+Na1 O1 5_555 2.75(2) n
+Na1 O3 13_565 2.47(2) n
+Na1 O4 4_445 2.312(19) n
+Na1 O5 18_545 2.85(2) n
+Na1 O7 7_444 2.39(2) n
+Na1 O8 16_555 2.397(19) n
+Na2 O1 3_565 2.95(2) n
+Na2 O3 11_455 2.46(2) n
+Na2 O5 18_545 2.47(2) n
+Na2 O6 16_555 2.318(17) n
+Na2 O6 5_554 2.312(19) n
+Na2 O7 7_444 2.75(2) n
+Na3 O1 5_555 2.42(2) n
+Na3 O2 18_545 2.361(19) n
+Na3 O2 4_445 2.478(18) n
+Na3 O3 13_565 2.52(2) n
+Na3 O7 3_565 2.510(18) n
+Mo1 O1 1_555 1.64(2) n
+Mo1 O2 1_555 1.720(17) n
+Mo1 O3 1_555 1.65(2) n
+Mo1 O4 1_555 1.795(19) n
+Mo2 O5 1_555 1.76(2) n
+Mo2 O6 1_555 1.780(18) n
+Mo2 O7 1_555 1.74(2) n
+Mo2 O8 1_555 1.830(16) n
+loop_
+_pd_proc_wavelength
+1.540562
+1.544390

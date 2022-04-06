@@ -1,0 +1,161 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 00:18:51 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176760 $
+#$URL: svn://www.crystallography.net/cod/cif/2/01/53/2015349.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2015349
+loop_
+_publ_author_name
+'Kisi, Erich H.'
+'Forrester, Jennifer S.'
+'Knight, Kevin S.'
+_publ_section_title
+;
+ PbZn~1/3~Nb~2/3~O~3~ at 4.2 and 295K
+;
+_journal_coeditor_code           FA1185
+_journal_issue                   6
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              i46
+_journal_page_last               i48
+_journal_paper_doi               10.1107/S0108270106011991
+_journal_volume                  62
+_journal_year                    2006
+_chemical_formula_sum            'Nb0.61 O3 Pb Zn0.39'
+_chemical_formula_weight         338.93
+_space_group_IT_number           160
+_symmetry_cell_setting           trigonal
+_symmetry_space_group_name_Hall  'P 3* -2'
+_symmetry_space_group_name_H-M   'R 3 m :R'
+_cell_angle_alpha                89.9226(5)
+_cell_angle_beta                 89.9226
+_cell_angle_gamma                89.9226
+_cell_formula_units_Z            1
+_cell_length_a                   4.06240(8)
+_cell_length_b                   4.0624
+_cell_length_c                   4.0624
+_cell_measurement_temperature    295
+_cell_volume                     67.0420(13)
+_computing_structure_refinement  GSAS
+_diffrn_measurement_device_type  'HRPD beamline, ISIS, Didcot'
+_diffrn_radiation_probe          neutron
+_diffrn_radiation_type           'time-of-flight neutron'
+_diffrn_radiation_wavelength     0.65-2.45
+_exptl_crystal_density_diffrn    8.396
+_exptl_crystal_density_method    'not measured'
+_refine_ls_goodness_of_fit_all   1.49
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     37
+_refine_ls_number_restraints     0
+_refine_ls_shift/su_max          0.03
+_refine_ls_shift/su_mean         0.00
+_cod_data_source_file            fa1185.cif
+_cod_data_source_block           295K
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_geom_bond_publ_flag' value 'N' changed to 'n' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (7
+times).
+
+'_geom_angle_publ_flag' value 'N' changed to 'n' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (8 times).
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+
+The following automatic conversions were performed:
+
+'_geom_bond_publ_flag' value 'N' changed to 'n' according to
+/home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (7
+times).
+
+'_geom_angle_publ_flag' value 'N' changed to 'n' according
+to /home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary
+named 'cif_core.dic' version 2.4.1 from 2010-06-29 (8 times).
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_original_cell_volume        67.042(4)
+_cod_original_sg_symbol_H-M      'R 3 m'
+_cod_database_code               2015349
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 +z,+x,+y
+3 +y,+z,+x
+4 +y,+x,+z
+5 +z,+y,+x
+6 +x,+z,+y
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Pb1 0.0495(8) 0.0495(8) 0.0495(8) -0.0120(10) -0.0120(10) -0.0120(10)
+O1 0.0230(10) 0.0288(7) 0.0288(7) -0.0013(9) -0.0013(9) -0.0050(10)
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_occupancy
+Pb Pb1 0.5 0.5 0.5 0.0494 Uani 1.0
+Zn Zn1 0.0216(5) 0.0216(5) 0.0216(5) 0.0167(5) Uiso 0.39
+Nb Nb1 0.0216(5) 0.0216(5) 0.0216(5) 0.0167(5) Uiso 0.61
+O O1 0.5377(7) 0.0469(6) 0.0469(6) 0.0269 Uani 1.0
+loop_
+_atom_type_symbol
+Pb
+Zn
+Nb
+O
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O1 Pb1 O1 1_555 2_555 65.30(10) n
+O1 Nb1 O1 1_455 1_555 172.5(3) n
+O1 Nb1 O1 1_455 2_545 95.3(2) n
+O1 Nb1 O1 1_455 2_555 89.80(2) n
+O1 Nb1 O1 1_555 2_555 84.6(2) n
+Pb1 O1 Nb1 1_555 1_555 90.50(10) n
+Pb1 O1 Nb1 1_555 1_655 97.1(2) n
+Nb1 O1 Nb1 1_555 1_655 172.5(3) n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Pb1 Nb1 1_555 3.362(3) n
+Pb1 Nb1 1_556 3.4660(10) n
+Pb1 Nb1 1_566 3.5740(10) n
+Pb1 O1 1_555 2.614(3) n
+Pb1 O1 1_556 2.8868(4) n
+Nb1 O1 1_455 1.977(4) n
+Nb1 O1 1_555 2.094(4) n

@@ -1,0 +1,102 @@
+#------------------------------------------------------------------------------
+#$Date: 2015-01-27 21:58:39 +0200 (Tue, 27 Jan 2015) $
+#$Revision: 130149 $
+#$URL: svn://www.crystallography.net/cod/cif/1/00/02/1000232.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1000232
+loop_
+_publ_author_name
+'Renaudin, J'
+'Leblanc, M'
+'Ferey, G'
+'De, Kozak A'
+'Samouel, M'
+_publ_section_title
+;
+Complex Copper(II) Fluorides IX. Weberite-Related Na Cu~3~ F~7~: The
+First Fluoride with Copper Both in Square Planar and Octahedral
+Coordination
+;
+_journal_coden_ASTM              JSSCBI
+_journal_name_full               'Journal of Solid State Chemistry'
+_journal_page_first              603
+_journal_page_last               609
+_journal_paper_doi               10.1016/0022-4596(88)90156-9
+_journal_volume                  73
+_journal_year                    1988
+_chemical_formula_structural     'Na Cu3 F7'
+_chemical_formula_sum            'Cu3 F7 Na'
+_chemical_name_systematic        'Sodium tricopper fluoride'
+_space_group_IT_number           15
+_symmetry_cell_setting           monoclinic
+_symmetry_Int_Tables_number      15
+_symmetry_space_group_name_Hall  '-C 2yc'
+_symmetry_space_group_name_H-M   'C 1 2/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 120.59(4)
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   12.124(6)
+_cell_length_b                   7.344(4)
+_cell_length_c                   6.924(4)
+_cell_volume                     530.7
+_refine_ls_R_factor_all          0.047
+_cod_database_code               1000232
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,y,1/2-z
+-x,-y,-z
+x,-y,1/2+z
+1/2+x,1/2+y,z
+1/2-x,1/2+y,1/2-z
+1/2-x,1/2-y,-z
+1/2+x,1/2-y,1/2+z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_22
+_atom_site_aniso_U_23
+_atom_site_aniso_U_33
+Na1 0.0249(23) 0.0007(34) 0.019(2) 0.0285(24) 0.0009(20) 0.0268(23)
+Cu1 0.0112(4) -0.0003(9) 0.0065(3) 0.0099(4) -0.0014(9) 0.0091(4)
+Cu2 0.0079(6) -0.0008(6) 0.0044(6) 0.0112(10) -0.0023(6) 0.0080(7)
+Cu3 0.0190(9) 0.0014(7) 0.0138(8) 0.0102(11) 0.0023(7) 0.0179(9)
+F1 0.0173(20) -0.0044(22) 0.0195(22) 0.0160(22) -0.0040(19) 0.0330(28)
+F2 0.015(2) -0.0033(18) 0.0083(16) 0.0251(24) -0.0057(20) 0.0110(18)
+F3 0.0234(22) 0.0018(14) 0.0147(19) 0.0075(20) 0.0029(15) 0.0219(21)
+F4 0.0656(61) 0. 0.0323(40) 0.0193(37) 0. 0.0200(33)
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_calc_flag
+Na1 Na1+ 4 b 0. 0.5 0. 1. 0 d
+Cu1 Cu2+ 4 a 0. 0. 0. 1. 0 d
+Cu2 Cu2+ 4 c 0.25 0.25 0. 1. 0 d
+Cu3 Cu2+ 4 d 0.25 0.25 0.5 1. 0 d
+F1 F1- 8 f 0.0976(6) 0.2025(9) 0.0044(12) 1. 0 d
+F2 F1- 8 f 0.3292(5) 0.2992(9) 0.3186(11) 1. 0 d
+F3 F1- 8 f 0.1579(6) 0.4664(7) 0.4014(11) 1. 0 d
+F4 F1- 4 e 0. 0.1070(13) 0.25 1. 0 d
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Na1+ 1.000
+Cu2+ 2.000
+F1- -1.000

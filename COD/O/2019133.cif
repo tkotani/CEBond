@@ -1,0 +1,301 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 00:18:51 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176760 $
+#$URL: svn://www.crystallography.net/cod/cif/2/01/91/2019133.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2019133
+loop_
+_publ_author_name
+'Redhammer, G\"unther J.'
+'Tippelt, Gerold'
+_publ_section_title
+;
+ The tetragermanates <i>A</i>~2~Ge~4~O~9~ (<i>A</i> = Na, K and Rb)
+;
+_journal_coeditor_code           FN3142
+_journal_issue                   9
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              995
+_journal_page_last               1001
+_journal_paper_doi               10.1107/S0108270113020921
+_journal_volume                  69
+_journal_year                    2013
+_chemical_formula_analytical     'K2 Ge4 O9'
+_chemical_formula_iupac          'K2 Ge4 O9'
+_chemical_formula_moiety         'Ge4 O9, 2(K)'
+_chemical_formula_sum            'Ge4 K2 O9'
+_chemical_formula_weight         512.56
+_chemical_name_common            'potassium tetragermanate'
+_chemical_name_systematic
+;
+Dipotassium tetragermanate
+;
+_space_group_crystal_system      trigonal
+_space_group_IT_number           165
+_space_group_name_Hall           '-P 3 2"c'
+_space_group_name_H-M_alt        'P -3 c 1'
+_symmetry_space_group_name_Hall  '-P 3 2"c'
+_symmetry_space_group_name_H-M   'P -3 c 1'
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           'WinGX routine CIF_UPDATE'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            6
+_cell_length_a                   11.8461(4)
+_cell_length_b                   11.8461(4)
+_cell_length_c                   9.8009(4)
+_cell_measurement_reflns_used    12842
+_cell_measurement_temperature    295(2)
+_cell_measurement_theta_max      28.91
+_cell_measurement_theta_min      1.99
+_cell_volume                     1191.10(7)
+_computing_cell_refinement       'APEX2 (Bruker, 2007)'
+_computing_data_collection       'APEX2 (Bruker, 2007)'
+_computing_data_reduction        'APEX2 (Bruker, 2007)'
+_computing_molecular_graphics    'DIAMOND (Brandenburg, 1999)'
+_computing_publication_material  'WinGX (Farrugia, 2012)'
+_computing_structure_refinement  'SHELXL97 (Sheldrick, 2008)'
+_computing_structure_solution    'SHELXS97 (Sheldrick, 2008)'
+_diffrn_ambient_temperature      295(2)
+_diffrn_measured_fraction_theta_full 0.973
+_diffrn_measured_fraction_theta_max 0.973
+_diffrn_measurement_device_type  'Bruker SMART APEX'
+_diffrn_measurement_method       '\w scan at four different \f positions'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0255
+_diffrn_reflns_limit_h_max       15
+_diffrn_reflns_limit_h_min       -15
+_diffrn_reflns_limit_k_max       15
+_diffrn_reflns_limit_k_min       -15
+_diffrn_reflns_limit_l_max       13
+_diffrn_reflns_limit_l_min       -13
+_diffrn_reflns_number            12842
+_diffrn_reflns_theta_full        28.91
+_diffrn_reflns_theta_max         28.91
+_diffrn_reflns_theta_min         1.99
+_exptl_absorpt_coefficient_mu    16.076
+_exptl_absorpt_correction_T_max  0.748
+_exptl_absorpt_correction_T_min  0.441
+_exptl_absorpt_correction_type   empirical
+_exptl_absorpt_process_details
+;
+[multiscan absorption correction using APEX2 (Bruker, 2007)]
+;
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    4.287
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       prism
+_exptl_crystal_F_000             1428
+_exptl_crystal_size_max          0.17
+_exptl_crystal_size_mid          0.09
+_exptl_crystal_size_min          0.08
+_refine_diff_density_max         0.385
+_refine_diff_density_min         -0.579
+_refine_ls_extinction_coef       0.00549(16)
+_refine_ls_extinction_method     'SHELXL97 (Sheldrick, 2008)'
+_refine_ls_goodness_of_fit_ref   1.144
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     71
+_refine_ls_number_reflns         1026
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.144
+_refine_ls_R_factor_all          0.0153
+_refine_ls_R_factor_gt           0.0143
+_refine_ls_shift/su_max          0.001
+_refine_ls_shift/su_mean         0
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w = 1/[\s^2^(Fo^2^)+(0.0151P)^2^+1.1161P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_ref         0.0345
+_reflns_number_gt                984
+_reflns_number_total             1026
+_reflns_threshold_expression     I>2\s(I)
+_cod_data_source_file            fn3142.cif
+_cod_data_source_block           K2Ge4O9
+_cod_database_code               2019133
+_cod_database_fobs_code          2019133
+loop_
+_space_group_symop_operation_xyz
+'x, y, z'
+'-y, x-y, z'
+'-x+y, -x, z'
+'x-y, -y, -z+1/2'
+'-x, -x+y, -z+1/2'
+'y, x, -z+1/2'
+'-x, -y, -z'
+'y, -x+y, -z'
+'x-y, x, -z'
+'-x+y, y, z-1/2'
+'x, x-y, z-1/2'
+'-y, -x, z-1/2'
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+K K1 0.33657(4) 0.33480(4) 0.57196(4) 0.01681(10) Uani d . 1
+Ge Ge1 0 0 0.5 0.00634(10) Uani d S 1
+Ge Ge2 0.17619(2) 0.17619(2) 0.25 0.00681(8) Uani d S 1
+Ge Ge3 0.486079(17) 0.335234(16) 0.285931(18) 0.00685(7) Uani d . 1
+Ge Ge4 0.6667 0.3333 0.03798(3) 0.00632(8) Uani d S 1
+O O1 0.06988(12) 0.14984(12) 0.38487(12) 0.0097(2) Uani d . 1
+O O2 0.32552(11) 0.21187(12) 0.33163(12) 0.0103(2) Uani d . 1
+O O3 0.51615(12) 0.26357(12) 0.14830(12) 0.0118(2) Uani d . 1
+O O4 0.58170(12) 0.39769(12) 0.43018(12) 0.0104(2) Uani d . 1
+O O5 0.47618(14) 0.47618(14) 0.25 0.0123(3) Uani d S 1
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+K1 0.01542(19) 0.0153(2) 0.01793(19) 0.00635(15) 0.00248(15) -0.00298(15)
+Ge1 0.00647(13) 0.00647(13) 0.00609(19) 0.00323(6) 0 0
+Ge2 0.00662(10) 0.00662(10) 0.00681(13) 0.00302(9) 0.00038(4) -0.00038(4)
+Ge3 0.00664(10) 0.00724(10) 0.00699(11) 0.00371(7) -0.00026(6) -0.00011(6)
+Ge4 0.00655(10) 0.00655(10) 0.00585(15) 0.00328(5) 0 0
+O1 0.0113(6) 0.0086(6) 0.0094(5) 0.0050(5) 0.0036(5) 0.0017(5)
+O2 0.0062(5) 0.0113(6) 0.0109(6) 0.0025(5) 0.0002(4) 0.0025(5)
+O3 0.0107(6) 0.0115(6) 0.0107(5) 0.0037(5) 0.0038(5) -0.0019(5)
+O4 0.0124(6) 0.0112(6) 0.0091(5) 0.0071(5) -0.0031(5) -0.0005(4)
+O5 0.0093(6) 0.0093(6) 0.0194(9) 0.0053(7) -0.0019(3) 0.0019(3)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+O O 0.0106 0.006 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+K K 0.2009 0.2494 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ge Ge 0.1547 1.8001 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+O2 K1 O1 . 8_556 75.48(4)
+O2 K1 O2 . 9_556 118.94(5)
+O1 K1 O2 8_556 9_556 70.93(4)
+O2 K1 O4 . 7_666 119.39(4)
+O1 K1 O4 8_556 7_666 151.15(4)
+O2 K1 O4 9_556 7_666 80.25(4)
+O2 K1 O5 . 7_666 139.58(3)
+O1 K1 O5 8_556 7_666 131.15(3)
+O2 K1 O5 9_556 7_666 100.17(3)
+O4 K1 O5 7_666 7_666 54.64(3)
+O2 K1 O3 . 11_556 83.65(4)
+O1 K1 O3 8_556 11_556 84.96(4)
+O2 K1 O3 9_556 11_556 139.60(4)
+O4 K1 O3 7_666 11_556 119.49(4)
+O5 K1 O3 7_666 11_556 71.61(3)
+O2 K1 O4 . . 60.64(3)
+O1 K1 O4 8_556 . 120.00(4)
+O2 K1 O4 9_556 . 166.33(4)
+O4 K1 O4 7_666 . 88.35(4)
+O5 K1 O4 7_666 . 78.94(3)
+O3 K1 O4 11_556 . 53.31(4)
+O2 K1 O1 . . 53.31(3)
+O1 K1 O1 8_556 . 52.13(4)
+O2 K1 O1 9_556 . 65.79(3)
+O4 K1 O1 7_666 . 114.43(3)
+O5 K1 O1 7_666 . 164.71(3)
+O3 K1 O1 11_556 . 122.80(4)
+O4 K1 O1 . . 113.17(3)
+O1 Ge1 O1 8_556 2 180
+O1 Ge1 O1 8_556 7_556 88.58(5)
+O1 Ge1 O1 2 7_556 91.42(5)
+O1 Ge1 O1 8_556 9_556 88.58(5)
+O1 Ge1 O1 2 9_556 91.42(5)
+O1 Ge1 O1 7_556 9_556 88.58(5)
+O1 Ge1 O1 8_556 3 91.42(5)
+O1 Ge1 O1 2 3 88.58(5)
+O1 Ge1 O1 7_556 3 91.42(5)
+O1 Ge1 O1 9_556 3 180
+O1 Ge1 O1 8_556 . 91.42(5)
+O1 Ge1 O1 2 . 88.58(5)
+O1 Ge1 O1 7_556 . 180.00(6)
+O1 Ge1 O1 9_556 . 91.42(5)
+O1 Ge1 O1 3 . 88.58(5)
+O1 Ge2 O1 6 . 126.40(8)
+O1 Ge2 O2 6 . 107.98(6)
+O1 Ge2 O2 . . 104.11(5)
+O1 Ge2 O2 6 6 104.11(5)
+O1 Ge2 O2 . 6 107.98(6)
+O2 Ge2 O2 . 6 104.45(8)
+O3 Ge3 O4 . . 126.74(6)
+O3 Ge3 O5 . . 115.93(4)
+O4 Ge3 O5 . . 95.59(5)
+O3 Ge3 O2 . . 101.04(6)
+O4 Ge3 O2 . . 110.34(6)
+O5 Ge3 O2 . . 106.09(6)
+O4 Ge4 O4 11 10_655 91.06(5)
+O4 Ge4 O4 11 12_665 91.06(5)
+O4 Ge4 O4 10_655 12_665 91.06(5)
+O4 Ge4 O3 11 2_655 90.53(5)
+O4 Ge4 O3 10_655 2_655 88.02(5)
+O4 Ge4 O3 12_665 2_655 178.18(5)
+O4 Ge4 O3 11 3_665 178.18(5)
+O4 Ge4 O3 10_655 3_665 90.53(5)
+O4 Ge4 O3 12_665 3_665 88.02(5)
+O3 Ge4 O3 2_655 3_665 90.41(5)
+O4 Ge4 O3 11 . 88.02(5)
+O4 Ge4 O3 10_655 . 178.18(5)
+O4 Ge4 O3 12_665 . 90.53(5)
+O3 Ge4 O3 2_655 . 90.41(5)
+O3 Ge4 O3 3_665 . 90.41(5)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+K1 O2 . 2.7377(13)
+K1 O1 8_556 2.7401(13)
+K1 O2 9_556 2.7547(13)
+K1 O4 7_666 2.8128(13)
+K1 O5 7_666 2.8305(14)
+K1 O3 11_556 2.8471(13)
+K1 O4 . 2.9588(13)
+Ge1 O1 8_556 1.9078(12)
+Ge1 O1 2 1.9078(12)
+Ge1 O1 7_556 1.9078(12)
+Ge1 O1 9_556 1.9078(12)
+Ge1 O1 3 1.9078(12)
+Ge1 O1 . 1.9078(12)
+Ge2 O1 6 1.7428(12)
+Ge2 O1 . 1.7428(12)
+Ge2 O2 . 1.7889(12)
+Ge2 O2 6 1.7889(12)
+Ge3 O3 . 1.7232(12)
+Ge3 O4 . 1.7295(12)
+Ge3 O5 . 1.7667(8)
+Ge3 O2 . 1.7816(12)
+Ge4 O4 11 1.8649(12)
+Ge4 O4 10_655 1.8649(12)
+Ge4 O4 12_665 1.8649(12)
+Ge4 O3 2_655 1.8862(12)
+Ge4 O3 3_665 1.8862(12)
+Ge4 O3 . 1.8862(12)

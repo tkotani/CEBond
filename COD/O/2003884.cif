@@ -1,0 +1,178 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/38/2003884.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2003884
+loop_
+_publ_author_name
+'Hogrefe, A. R.'
+'Czank, M.'
+_publ_section_title
+;
+ Synthetic Dipotassium Zinc Disilicate
+;
+_journal_issue                   9
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              1728
+_journal_page_last               1730
+_journal_paper_doi               10.1107/S0108270195003052
+_journal_volume                  51
+_journal_year                    1995
+_chemical_formula_sum            'K4 O12 Si4 Zn2'
+_chemical_formula_weight         591.6
+_space_group_IT_number           20
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  'C 2c 2'
+_symmetry_space_group_name_H-M   'C 2 2 21'
+_atom_type_scat_source           IntTabIV
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   6.2983(3)
+_cell_length_b                   9.5537(9)
+_cell_length_c                   10.4499(6)
+_cell_measurement_reflns_used    24
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      26.83
+_cell_measurement_theta_min      3.9
+_cell_volume                     628.79(8)
+_diffrn_measurement_device       'Philips PW1100'
+_diffrn_measurement_method       '\w/2\q scans'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71069
+_diffrn_reflns_av_R_equivalents  0.0283
+_diffrn_reflns_limit_h_max       11
+_diffrn_reflns_limit_h_min       -11
+_diffrn_reflns_limit_k_max       15
+_diffrn_reflns_limit_k_min       -15
+_diffrn_reflns_limit_l_max       17
+_diffrn_reflns_limit_l_min       -17
+_diffrn_reflns_number            7149
+_diffrn_reflns_theta_max         40
+_diffrn_standards_decay_%        0
+_diffrn_standards_interval_time  60
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    5.64
+_exptl_absorpt_correction_T_max  0.25
+_exptl_absorpt_correction_T_min  0.19
+_exptl_absorpt_correction_type   'empirical (DIFABS: Walker & Stuart, 1983)'
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    3.12
+_exptl_crystal_description       brick
+_exptl_crystal_size_max          0.208
+_exptl_crystal_size_mid          0.128
+_exptl_crystal_size_min          0.106
+_refine_diff_density_max         2.01
+_refine_diff_density_min         -2.08
+_refine_ls_extinction_coef       0.00058
+_refine_ls_extinction_method     'SHELX76 (Sheldrick, 1976)'
+_refine_ls_goodness_of_fit_obs   6.016
+_refine_ls_hydrogen_treatment    'No H atoms'
+_refine_ls_number_parameters     54
+_refine_ls_number_reflns         1890
+_refine_ls_R_factor_obs          0.0541
+_refine_ls_shift/esd_max         <0.0005
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 3.339/\s^2^(F)'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.0365
+_reflns_number_observed          1890
+_reflns_number_total             1900
+_reflns_observed_criterion       I>\s(I)
+_cod_data_source_file            du1113.cif
+_cod_data_source_block           du1113a
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value ' w = 3.339/\s^2^(F)' was changed
+to 'calc'. New tag '_refine_ls_weighting_details' was created. The
+value of the new tag was set to 'w = 3.339/\s^2^(F)'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        628.79(7)
+_cod_original_formula_sum        'K4 Zn2 Si4 O12'
+_cod_database_code               2003884
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,1/2+z
+-x,y,1/2-z
+x,-y,-z
+1/2+x,1/2+y,z
+1/2-x,1/2-y,1/2+z
+1/2-x,1/2+y,1/2-z
+1/2+x,1/2-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_B_iso_or_equiv
+Zn .0000 .1929(1) .7500 .72(2)
+Si .1519(1) .4827(1) .6367(1) .61(3)
+K .6092(1) .3273(1) .5755(1) 1.59(3)
+O1 .3019(3) .1795(3) .1638(2) 1.04(8)
+O2 .4849(6) .0000 .0000 .96(11)
+O3 .8603(4) .0780(2) .6240(2) .96(8)
+O4 .0000 .4519(3) .2500 1.18(11)
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+Si O2 Si 118.3(2) yes
+Si O4 Si 135.4(2) yes
+O1 Zn O1' 103,2(1) yes
+O1 Zn O3 112.2(1) yes
+O1 Zn O3' 109.3(1) yes
+O1' Zn O3' 112.2(1) yes
+O3 Zn O1' 109.3(1) yes
+O3 Zn O3' 110.5(1) yes
+O1 Si O2 109.8(1) yes
+O1 Si O3 114.5(1) yes
+O1 Si O4 110.2(1) yes
+O2 Si O3 107.1(1) yes
+O2 Si O4 106.1(1) yes
+O3 Si O4 108.7(1) yes
+Si O3 Zn 129.8(1) yes
+Si O1 Zn 124.5(1) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Zn O1 1.962(2) yes
+Zn O1' 1.962(2) yes
+Zn O3 1.926(2) yes
+Zn O3' 1.926(2) yes
+Si O1 1.602(3) yes
+Si O2 1.676(2) yes
+Si O3 1.605(3) yes
+Si O4 1.6450(10) yes
+K O1 2.751(2) yes
+K O3 2.760(2) yes
+K O3' 2.905(3) yes
+K O3'' 2.906(3) yes
+K O1' 2.924(2) yes
+K O1'' 2.984(2) yes
+K O2 3.144(3) yes
+K O2' 3.2780(10) yes
+K O4 3.305(3) yes
+K K^1^ 3.657(2) yes
+K K^2^ 3.8190(10) yes
+K K^3^ 3.899(2) yes

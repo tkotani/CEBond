@@ -1,0 +1,85 @@
+#------------------------------------------------------------------------------
+#$Date: 2015-01-27 21:58:39 +0200 (Tue, 27 Jan 2015) $
+#$Revision: 130149 $
+#$URL: svn://www.crystallography.net/cod/cif/1/00/80/1008003.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1008003
+loop_
+_publ_author_name
+'Collomb, A'
+'Gondrand, M'
+'Lehmann, M'
+'Capponi, J J'
+'Joubert, J C'
+_publ_section_title
+;
+Etude par diffractions X et neutronique d'un monocristal de Cr~2~ O~6~
+U obtenu par synthese hydrothermale sous tres haute pression.
+Determination des structures cristallographique et magnetique
+;
+_journal_coden_ASTM              JSSCBI
+_journal_name_full               'Journal of Solid State Chemistry'
+_journal_page_first              41
+_journal_page_last               48
+_journal_paper_doi               10.1016/0022-4596(76)90005-0
+_journal_volume                  16
+_journal_year                    1976
+_chemical_formula_structural     'U CR2 O6'
+_chemical_formula_sum            'Cr2 O6 U'
+_chemical_name_systematic        'DICHROMIUM URANIUM(VI) OXIDE'
+_space_group_IT_number           162
+_symmetry_cell_setting           trigonal
+_symmetry_Int_Tables_number      162
+_symmetry_space_group_name_Hall  '-P 3 2'
+_symmetry_space_group_name_H-M   'P -3 1 m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            1
+_cell_length_a                   4.990(1)
+_cell_length_b                   4.990(1)
+_cell_length_c                   4.622(1)
+_cell_volume                     99.7
+_refine_ls_R_factor_all          0.029
+_cod_database_code               1008003
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-y,x-y,z
+y-x,-x,z
+y,x,z
+-x,y-x,z
+x-y,-y,z
+-x,-y,-z
+y,y-x,-z
+x-y,x,-z
+-y,-x,-z
+x,x-y,-z
+y-x,y,-z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_calc_flag
+U1 U6+ 1 a 0. 0. 0. 1. 0 d
+Cr1 Cr3+ 2 d 0.3333 0.6667 0.5 1. 0 d
+O1 O2- 6 k 0.3405(3) 0. 0.2647(2) 1. 0 d
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+U6+ 6.000
+Cr3+ 3.000
+O2- -2.000

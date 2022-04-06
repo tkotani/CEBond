@@ -1,0 +1,146 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-21 05:31:12 +0200 (Mon, 21 Mar 2016) $
+#$Revision: 178482 $
+#$URL: svn://www.crystallography.net/cod/cif/4/03/03/4030363.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4030363
+loop_
+_publ_author_name
+'Zachwieja, U.'
+'Jacobs, H.'
+_publ_section_title
+;
+ CuTaN2, a copper (I)-tantalum (V)-nitride with delafossite structure
+;
+_journal_name_full
+'European Journal of Solid State and Inorganic Chemistry'
+_journal_page_first              1055
+_journal_page_last               1062
+_journal_volume                  28
+_journal_year                    1991
+_chemical_formula_sum            'Cu N2 Ta'
+_chemical_formula_weight         272.52
+_space_group_IT_number           166
+_symmetry_cell_setting           trigonal
+_symmetry_Int_Tables_number      166
+_symmetry_space_group_name_Hall  '-R 3 2"'
+_symmetry_space_group_name_H-M   'R -3 m :H'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            3
+_cell_length_a                   3.136(1)
+_cell_length_b                   3.136(1)
+_cell_length_c                   17.438(5)
+_cell_volume                     148.52(8)
+_diffrn_ambient_temperature      293
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_type           CuK\a
+_diffrn_radiation_wavelength     1.542
+_exptl_crystal_density_diffrn    9.141
+_pd_proc_ls_prof_R_factor        0.0569
+_pd_proc_ls_prof_wR_factor       0.0730
+_refine_ls_number_parameters     6
+_refine_ls_number_reflns         25
+_refine_ls_R_I_factor            0.020
+_cod_data_source_file            EJSSIC-1991-28-1055-1062.cif
+_cod_data_source_block           CuTaN2
+_cod_original_cell_volume        148.52(12)
+_cod_original_sg_symbol_H-M      'R -3 m'
+_cod_database_code               4030363
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -y,x-y,z
+3 -x+y,-x,z
+4 y,x,-z
+5 -x,-x+y,-z
+6 x-y,-y,-z
+7 -x,-y,-z
+8 y,-x+y,-z
+9 x-y,x,-z
+10 -y,-x,z
+11 x,x-y,z
+12 -x+y,y,z
+13 1/3+x,2/3+y,2/3+z
+14 1/3-y,2/3+x-y,2/3+z
+15 1/3-x+y,2/3-x,2/3+z
+16 1/3+y,2/3+x,2/3-z
+17 1/3-x,2/3-x+y,2/3-z
+18 1/3+x-y,2/3-y,2/3-z
+19 1/3-x,2/3-y,2/3-z
+20 1/3+y,2/3-x+y,2/3-z
+21 1/3+x-y,2/3+x,2/3-z
+22 1/3-y,2/3-x,2/3+z
+23 1/3+x,2/3+x-y,2/3+z
+24 1/3-x+y,2/3+y,2/3+z
+25 2/3+x,1/3+y,1/3+z
+26 2/3-y,1/3+x-y,1/3+z
+27 2/3-x+y,1/3-x,1/3+z
+28 2/3+y,1/3+x,1/3-z
+29 2/3-x,1/3-x+y,1/3-z
+30 2/3+x-y,1/3-y,1/3-z
+31 2/3-x,1/3-y,1/3-z
+32 2/3+y,1/3-x+y,1/3-z
+33 2/3+x-y,1/3+x,1/3-z
+34 2/3-y,1/3-x,1/3+z
+35 2/3+x,1/3+x-y,1/3+z
+36 2/3-x+y,1/3+y,1/3+z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_thermal_displace_type
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+Ta Ta Uiso 0.00000 0.00000 0.50000 1.000 0.009(3)
+Cu Cu Uiso 0.00000 0.00000 0.00000 1.000 0.022(4)
+N N Uiso 0.00000 0.00000 0.119(2) 1.000 0.011(11)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Cu Cu -1.9646 0.5888 ' International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+N N 0.0311 0.0180 ' International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ta Ta -5.7959 5.2718 ' International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+N Ta N 103.6(8) 16_445 16_545 yes
+N Ta N 103.6(8) 16_445 16_555 yes
+N Ta N 103.6(8) 16_545 16_555 yes
+N Cu N 180.00 . 4_555 yes
+Ta N Cu 114.7(9) 13_444 . yes
+Ta N Cu 114.7(9) 13_544 . yes
+Ta N Cu 114.7(9) 13_554 . yes
+Ta N Ta 103.8(11) 13_444 13_544 yes
+Ta N Ta 103.8(11) 13_444 13_554 yes
+Ta N Ta 103.8(11) 13_544 13_554 yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Ta N 1.995(15) 16_445 yes
+Ta N 1.995(15) 16_545 yes
+Ta N 1.995(15) 16_555 yes
+Cu N 2.08(3) . yes
+Cu N 2.08(3) 4_555 yes

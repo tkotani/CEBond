@@ -1,0 +1,186 @@
+#------------------------------------------------------------------------------
+#$Date: 2019-07-08 11:04:50 +0300 (Mon, 08 Jul 2019) $
+#$Revision: 216826 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/55/20/1552017.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1552017
+loop_
+_publ_author_name
+'Agnes Dewaele'
+'Nicholas Worth'
+'Chris J. Pickard'
+'Richard J. Needs'
+'Sakura Pascarelli'
+'Olivier Mathon'
+'Mohamed Mezouar'
+'Tetsuo Irifune'
+_publ_section_title
+;
+ Synthesis and stability of xenon oxides Xe2O5 and Xe3O2 under pressure
+;
+_journal_name_full               'Nature Chemistry'
+_journal_page_first              784
+_journal_page_last               790
+_journal_paper_doi               10.1038/nchem.2528
+_journal_volume                  8
+_journal_year                    2016
+_chemical_formula_sum            'O2 Xe'
+_chemical_formula_weight         163.29
+_space_group_IT_number           62
+_space_group_name_Hall           '-P 2ac 2n'
+_space_group_name_H-M_alt        'P n m a'
+_symmetry_cell_setting           orthorhombic
+_symmetry_Int_Tables_number      62
+_symmetry_space_group_name_Hall  '-P 2ac 2n'
+_symmetry_space_group_name_H-M   'P n m a'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   3.56140
+_cell_length_b                   5.79870
+_cell_length_c                   4.40540
+_cell_volume                     90.978
+_cod_data_source_file            nchem.2528-s5.cif
+_cod_data_source_block           XeO2-Pnma-200GPa
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+data item '_symmetry_cell_setting' value 'Orthorhombic' was changed
+to 'orthorhombic' in accordance with the built-in table derived from
+the CIF Core dictionary named 'cif_core.dic' version 2.4.5 last
+updated on 2014-11-21.
+
+Automatic conversion script
+Id: cif_fix_values 6909 2019-04-08 15:41:33Z antanas 
+;
+_cod_original_cell_volume        90.98
+_cod_database_code               1552017
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 1/2-x,-y,1/2+z
+3 1/2+x,1/2-y,1/2-z
+4 -x,1/2+y,-z
+5 -x,-y,-z
+6 1/2+x,y,1/2-z
+7 1/2-x,1/2+y,1/2+z
+8 x,1/2-y,z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+Xe Xe 0.80360 0.25000 -0.03489 0.00000 Uiso 1.00
+O O 0.25667 0.07268 0.09150 0.00000 Uiso 1.00
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+O Xe O 113.09 . . 1_655
+Xe Xe O 65.89 3_454 . .
+Xe Xe O 45.90 3_455 . .
+Xe Xe O 139.97 3_554 . .
+Xe Xe O 107.23 3_555 . .
+O Xe O 85.94 . . 3_555
+O Xe O 112.40 . . 4_655
+O Xe O 59.31 . . 5_655
+O Xe O 60.58 . . 6_555
+O Xe O 53.82 . . 8_555
+O Xe O 149.24 . . 8_655
+Xe Xe O 139.30 3_454 . 1_655
+Xe Xe O 103.92 3_455 . 1_655
+Xe Xe O 69.46 3_554 . 1_655
+Xe Xe O 45.86 3_555 . 1_655
+O Xe O 93.11 1_655 . 3_555
+O Xe O 129.52 1_655 . 4_655
+O Xe O 67.66 1_655 . 5_655
+O Xe O 64.84 1_655 . 6_555
+O Xe O 149.24 1_655 . 8_555
+O Xe O 62.13 1_655 . 8_655
+Xe Xe Xe 101.43 3_454 . 3_455
+Xe Xe Xe 86.43 3_454 . 3_554
+Xe Xe Xe 172.14 3_454 . 3_555
+Xe Xe O 126.25 3_454 . 3_555
+Xe Xe O 80.04 3_454 . 4_655
+Xe Xe O 80.04 3_454 . 5_655
+Xe Xe O 126.25 3_454 . 6_555
+Xe Xe O 65.89 3_454 . 8_555
+Xe Xe O 139.30 3_454 . 8_655
+Xe Xe Xe 172.14 3_455 . 3_554
+Xe Xe Xe 70.70 3_455 . 3_555
+Xe Xe O 40.24 3_455 . 3_555
+Xe Xe O 92.39 3_455 . 4_655
+Xe Xe O 92.39 3_455 . 5_655
+Xe Xe O 40.24 3_455 . 6_555
+Xe Xe O 45.90 3_455 . 8_555
+Xe Xe O 103.92 3_455 . 8_655
+Xe Xe Xe 101.43 3_554 . 3_555
+Xe Xe O 134.01 3_554 . 3_555
+Xe Xe O 88.95 3_554 . 4_655
+Xe Xe O 88.95 3_554 . 5_655
+Xe Xe O 134.01 3_554 . 6_555
+Xe Xe O 139.97 3_554 . 8_555
+Xe Xe O 69.46 3_554 . 8_655
+Xe Xe O 47.47 3_555 . 3_555
+Xe Xe O 99.93 3_555 . 4_655
+Xe Xe O 99.93 3_555 . 5_655
+Xe Xe O 47.47 3_555 . 6_555
+Xe Xe O 107.23 3_555 . 8_555
+Xe Xe O 45.86 3_555 . 8_655
+O Xe O 69.50 3_555 . 4_655
+O Xe O 124.39 3_555 . 5_655
+O Xe O 55.35 3_555 . 6_555
+O Xe O 60.58 3_555 . 8_555
+O Xe O 64.84 3_555 . 8_655
+O Xe O 160.05 4_655 . 5_655
+O Xe O 124.39 4_655 . 6_555
+O Xe O 59.31 4_655 . 8_555
+O Xe O 67.66 4_655 . 8_655
+O Xe O 69.50 5_655 . 6_555
+O Xe O 112.40 5_655 . 8_555
+O Xe O 129.52 5_655 . 8_655
+O Xe O 85.94 6_555 . 8_555
+O Xe O 93.11 6_555 . 8_655
+O Xe O 113.09 8_555 . 8_655
+Xe O Xe 113.09 . . 1_455
+Xe O Xe 86.63 . . 3_455
+Xe O Xe 120.69 . . 4_645
+Xe O Xe 93.90 1_455 . 3_455
+Xe O Xe 112.34 1_455 . 4_645
+Xe O Xe 125.58 3_455 . 4_645
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+Xe O 2.2719 . .
+Xe O 1.9927 . 1_655
+Xe Xe 2.6006 . 3_454
+Xe Xe 3.0776 . 3_455
+Xe Xe 2.6006 . 3_554
+Xe Xe 3.0776 . 3_555
+Xe O 2.2137 . 3_555
+Xe O 1.8998 . 4_655
+Xe O 1.8998 . 5_655
+Xe O 2.2137 . 6_555
+Xe O 2.2719 . 8_555
+Xe O 1.9927 . 8_655

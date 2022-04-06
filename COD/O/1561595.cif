@@ -1,0 +1,700 @@
+#------------------------------------------------------------------------------
+#$Date: 2021-04-09 10:53:38 +0300 (Fri, 09 Apr 2021) $
+#$Revision: 264005 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/56/15/1561595.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1561595
+loop_
+_publ_author_name
+'Latshaw, Allison M.'
+'Yeon, Jeongho'
+'Smith, Mark D.'
+'zur Loye, Hans-Conrad'
+_publ_section_title
+;
+ Synthesis, structure, and polymorphism of A3LnSi2O7 (A=Na, K; Ln=Sm, Ho,
+ Yb)
+;
+_journal_name_full               'Journal of Solid State Chemistry'
+_journal_page_first              100
+_journal_page_last               106
+_journal_paper_doi               10.1016/j.jssc.2015.12.013
+_journal_volume                  235
+_journal_year                    2016
+_chemical_formula_moiety         'Ho O7 Si2, 3(Na)'
+_chemical_formula_sum            'Ho Na3 O7 Si2'
+_chemical_formula_weight         402.08
+_space_group_crystal_system      hexagonal
+_space_group_IT_number           176
+_space_group_name_Hall           '-P 6c'
+_space_group_name_H-M_alt        'P 63/m'
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                120.00
+_cell_formula_units_Z            6
+_cell_length_a                   9.42330(10)
+_cell_length_b                   9.42330(10)
+_cell_length_c                   13.7882(3)
+_cell_measurement_reflns_used    7410
+_cell_measurement_temperature    294(2)
+_cell_measurement_theta_max      28.2819
+_cell_measurement_theta_min      2.9003
+_cell_volume                     1060.34(3)
+_computing_cell_refinement       'SAINT v6.45A (Bruker, 2003)'
+_computing_data_reduction        'SAINT v6.45A (Bruker, 2003)'
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      294(2)
+_diffrn_measured_fraction_theta_full 1.000
+_diffrn_measured_fraction_theta_max 1.000
+_diffrn_measurement_device_type  'CCD area detector'
+_diffrn_measurement_method       'phi and omega scans'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0312
+_diffrn_reflns_av_sigmaI/netI    0.0116
+_diffrn_reflns_limit_h_max       12
+_diffrn_reflns_limit_h_min       -12
+_diffrn_reflns_limit_k_max       12
+_diffrn_reflns_limit_k_min       -12
+_diffrn_reflns_limit_l_max       18
+_diffrn_reflns_limit_l_min       -18
+_diffrn_reflns_number            14230
+_diffrn_reflns_theta_full        28.28
+_diffrn_reflns_theta_max         28.28
+_diffrn_reflns_theta_min         2.50
+_exptl_absorpt_coefficient_mu    11.711
+_exptl_absorpt_correction_T_max  0.6516
+_exptl_absorpt_correction_T_min  0.4543
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details   'SADABS v.2.10 (Bruker,2003)'
+_exptl_crystal_colour            'pale pink'
+_exptl_crystal_density_diffrn    3.778
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       block
+_exptl_crystal_F_000             1104
+_exptl_crystal_size_max          0.08
+_exptl_crystal_size_mid          0.08
+_exptl_crystal_size_min          0.04
+_refine_diff_density_max         1.105
+_refine_diff_density_min         -0.844
+_refine_diff_density_rms         0.146
+_refine_ls_extinction_coef       0.00308(14)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_ref   1.231
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     64
+_refine_ls_number_reflns         926
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.231
+_refine_ls_R_factor_all          0.0190
+_refine_ls_R_factor_gt           0.0187
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0096P)^2^+6.4585P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0442
+_refine_ls_wR_factor_ref         0.0443
+_reflns_number_gt                913
+_reflns_number_total             926
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            mmc2.cif
+_cod_data_source_block           Na3HoSi2O7
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+data item '_space_group_crystal_system' value 'Hexagonal' was changed
+to 'hexagonal' in accordance with the built-in table derived from the
+CIF Core dictionary named 'cif_core.dic' version 2.4.5 last updated
+on 2014-11-21.
+
+Automatic conversion script
+Id: cif_fix_values 8369 2020-08-20 11:38:08Z andrius 
+;
+_cod_database_code               1561595
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-y, x-y, z'
+'-x+y, -x, z'
+'-x, -y, z+1/2'
+'y, -x+y, z+1/2'
+'x-y, x, z+1/2'
+'-x, -y, -z'
+'y, -x+y, -z'
+'x-y, x, -z'
+'x, y, -z-1/2'
+'-y, x-y, -z-1/2'
+'-x+y, -x, -z-1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Ho1 Ho 1.0000 1.0000 -0.2500 0.00833(11) Uani 1 6 d S . .
+Ho2 Ho 0.3333 0.6667 0.01875(2) 0.00902(10) Uani 1 3 d S . .
+Si1 Si 0.32794(12) 0.34622(12) -0.14095(7) 0.0094(2) Uani 1 1 d . . .
+Na1 Na 1.0000 1.0000 0.0000 0.0235(9) Uani 1 6 d S . .
+Na2 Na 0.3333 0.6667 0.2500 0.0158(8) Uani 1 6 d S . .
+Na3 Na 0.3333 0.6667 -0.2500 0.0487(19) Uani 1 6 d S . .
+Na4 Na 1.33062(19) 1.01340(19) -0.08935(13) 0.0174(3) Uani 1 1 d . . .
+O1 O 0.2704(4) 0.4409(4) -0.0665(2) 0.0182(6) Uani 1 1 d . . .
+O2 O 1.1998(3) 1.1513(3) -0.13929(19) 0.0152(5) Uani 1 1 d . . .
+O3 O 0.1238(3) 0.5140(3) 0.1208(2) 0.0162(6) Uani 1 1 d . . .
+O4 O 0.3190(5) 0.4186(5) -0.2500 0.0152(8) Uani 1 2 d S . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Ho1 0.00811(13) 0.00811(13) 0.00876(19) 0.000 0.000 0.00406(7)
+Ho2 0.00894(11) 0.00894(11) 0.00917(16) 0.000 0.000 0.00447(6)
+Si1 0.0091(4) 0.0099(4) 0.0097(4) -0.0014(3) -0.0009(3) 0.0052(4)
+Na1 0.0248(13) 0.0248(13) 0.021(2) 0.000 0.000 0.0124(7)
+Na2 0.0177(12) 0.0177(12) 0.0119(18) 0.000 0.000 0.0089(6)
+Na3 0.0087(12) 0.0087(12) 0.129(6) 0.000 0.000 0.0044(6)
+Na4 0.0138(7) 0.0138(7) 0.0236(8) 0.0005(6) -0.0024(6) 0.0062(6)
+O1 0.0199(14) 0.0198(14) 0.0155(14) -0.0062(11) -0.0006(11) 0.0105(12)
+O2 0.0142(13) 0.0116(12) 0.0149(13) 0.0006(10) -0.0018(10) 0.0028(10)
+O3 0.0148(13) 0.0131(13) 0.0173(13) 0.0019(11) 0.0035(11) 0.0045(11)
+O4 0.021(2) 0.0157(19) 0.0123(18) 0.000 0.000 0.0119(17)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Na Na 0.0362 0.0249 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Si Si 0.0817 0.0704 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ho Ho -0.2175 4.6783 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+O2 Ho1 O2 136.30(5) . 12_675
+O2 Ho1 O2 80.27(10) . 3_675
+O2 Ho1 O2 83.81(14) 12_675 3_675
+O2 Ho1 O2 136.30(5) . 11_765
+O2 Ho1 O2 80.27(10) 12_675 11_765
+O2 Ho1 O2 136.30(5) 3_675 11_765
+O2 Ho1 O2 83.81(14) . 10
+O2 Ho1 O2 80.27(10) 12_675 10
+O2 Ho1 O2 136.30(5) 3_675 10
+O2 Ho1 O2 80.27(10) 11_765 10
+O2 Ho1 O2 80.27(10) . 2_765
+O2 Ho1 O2 136.30(5) 12_675 2_765
+O2 Ho1 O2 80.27(10) 3_675 2_765
+O2 Ho1 O2 83.81(14) 11_765 2_765
+O2 Ho1 O2 136.30(5) 10 2_765
+O2 Ho1 Na1 131.90(7) . 4_774
+O2 Ho1 Na1 48.10(7) 12_675 4_774
+O2 Ho1 Na1 131.90(7) 3_675 4_774
+O2 Ho1 Na1 48.10(7) 11_765 4_774
+O2 Ho1 Na1 48.10(7) 10 4_774
+O2 Ho1 Na1 131.90(7) 2_765 4_774
+O2 Ho1 Na1 48.10(7) . .
+O2 Ho1 Na1 131.90(7) 12_675 .
+O2 Ho1 Na1 48.10(7) 3_675 .
+O2 Ho1 Na1 131.90(7) 11_765 .
+O2 Ho1 Na1 131.90(7) 10 .
+O2 Ho1 Na1 48.10(7) 2_765 .
+Na1 Ho1 Na1 180.0 4_774 .
+O2 Ho1 Na4 166.57(7) . 12_675
+O2 Ho1 Na4 34.72(7) 12_675 12_675
+O2 Ho1 Na4 87.84(8) 3_675 12_675
+O2 Ho1 Na4 57.12(7) 11_765 12_675
+O2 Ho1 Na4 100.86(7) 10 12_675
+O2 Ho1 Na4 103.97(7) 2_765 12_675
+Na1 Ho1 Na4 54.05(3) 4_774 12_675
+Na1 Ho1 Na4 125.95(3) . 12_675
+O2 Ho1 Na4 34.72(7) . .
+O2 Ho1 Na4 103.97(7) 12_675 .
+O2 Ho1 Na4 57.12(8) 3_675 .
+O2 Ho1 Na4 166.57(7) 11_765 .
+O2 Ho1 Na4 87.84(7) 10 .
+O2 Ho1 Na4 100.86(7) 2_765 .
+Na1 Ho1 Na4 125.95(3) 4_774 .
+Na1 Ho1 Na4 54.05(3) . .
+Na4 Ho1 Na4 132.247(17) 12_675 .
+O2 Ho1 Na4 57.12(8) . 2_765
+O2 Ho1 Na4 166.57(7) 12_675 2_765
+O2 Ho1 Na4 100.86(7) 3_675 2_765
+O2 Ho1 Na4 87.84(7) 11_765 2_765
+O2 Ho1 Na4 103.97(7) 10 2_765
+O2 Ho1 Na4 34.72(7) 2_765 2_765
+Na1 Ho1 Na4 125.95(3) 4_774 2_765
+Na1 Ho1 Na4 54.05(3) . 2_765
+Na4 Ho1 Na4 132.247(17) 12_675 2_765
+Na4 Ho1 Na4 89.03(4) . 2_765
+O2 Ho1 Na4 100.86(7) . 3_675
+O2 Ho1 Na4 87.84(7) 12_675 3_675
+O2 Ho1 Na4 34.72(7) 3_675 3_675
+O2 Ho1 Na4 103.97(7) 11_765 3_675
+O2 Ho1 Na4 166.57(7) 10 3_675
+O2 Ho1 Na4 57.12(7) 2_765 3_675
+Na1 Ho1 Na4 125.95(3) 4_774 3_675
+Na1 Ho1 Na4 54.05(3) . 3_675
+Na4 Ho1 Na4 71.90(5) 12_675 3_675
+Na4 Ho1 Na4 89.03(4) . 3_675
+Na4 Ho1 Na4 89.03(4) 2_765 3_675
+O1 Ho2 O1 94.90(10) 3_565 .
+O1 Ho2 O1 94.90(10) 3_565 2_665
+O1 Ho2 O1 94.90(10) . 2_665
+O1 Ho2 O3 89.41(10) 3_565 3_565
+O1 Ho2 O3 173.19(10) . 3_565
+O1 Ho2 O3 89.97(10) 2_665 3_565
+O1 Ho2 O3 89.97(10) 3_565 .
+O1 Ho2 O3 89.41(10) . .
+O1 Ho2 O3 173.19(10) 2_665 .
+O3 Ho2 O3 85.31(11) 3_565 .
+O1 Ho2 O3 173.19(10) 3_565 2_665
+O1 Ho2 O3 89.97(10) . 2_665
+O1 Ho2 O3 89.41(10) 2_665 2_665
+O3 Ho2 O3 85.31(10) 3_565 2_665
+O3 Ho2 O3 85.31(10) . 2_665
+O1 Ho2 Na2 121.72(7) 3_565 .
+O1 Ho2 Na2 121.72(7) . .
+O1 Ho2 Na2 121.72(7) 2_665 .
+O3 Ho2 Na2 51.48(7) 3_565 .
+O3 Ho2 Na2 51.48(7) . .
+O3 Ho2 Na2 51.48(7) 2_665 .
+O1 Ho2 Na4 113.07(8) 3_565 7_775
+O1 Ho2 Na4 135.53(8) . 7_775
+O1 Ho2 Na4 50.80(8) 2_665 7_775
+O3 Ho2 Na4 46.08(8) 3_565 7_775
+O3 Ho2 Na4 122.75(8) . 7_775
+O3 Ho2 Na4 65.91(8) 2_665 7_775
+Na2 Ho2 Na4 72.53(3) . 7_775
+O1 Ho2 Na4 50.80(8) 3_565 8_465
+O1 Ho2 Na4 113.07(8) . 8_465
+O1 Ho2 Na4 135.53(8) 2_665 8_465
+O3 Ho2 Na4 65.91(8) 3_565 8_465
+O3 Ho2 Na4 46.08(8) . 8_465
+O3 Ho2 Na4 122.75(8) 2_665 8_465
+Na2 Ho2 Na4 72.53(3) . 8_465
+Na4 Ho2 Na4 111.40(3) 7_775 8_465
+O1 Ho2 Na4 135.53(8) 3_565 9_545
+O1 Ho2 Na4 50.80(8) . 9_545
+O1 Ho2 Na4 113.07(8) 2_665 9_545
+O3 Ho2 Na4 122.75(8) 3_565 9_545
+O3 Ho2 Na4 65.91(8) . 9_545
+O3 Ho2 Na4 46.08(8) 2_665 9_545
+Na2 Ho2 Na4 72.53(3) . 9_545
+Na4 Ho2 Na4 111.40(3) 7_775 9_545
+Na4 Ho2 Na4 111.40(3) 8_465 9_545
+O1 Ho2 Na4 66.17(8) 3_565 2_655
+O1 Ho2 Na4 39.18(8) . 2_655
+O1 Ho2 Na4 121.79(8) 2_665 2_655
+O3 Ho2 Na4 140.03(8) 3_565 2_655
+O3 Ho2 Na4 64.63(8) . 2_655
+O3 Ho2 Na4 115.79(8) 2_665 2_655
+Na2 Ho2 Na4 114.44(3) . 2_655
+Na4 Ho2 Na4 172.55(2) 7_775 2_655
+Na4 Ho2 Na4 74.19(4) 8_465 2_655
+Na4 Ho2 Na4 69.72(5) 9_545 2_655
+O1 Ho2 Na4 39.18(8) 3_565 1_455
+O1 Ho2 Na4 121.79(8) . 1_455
+O1 Ho2 Na4 66.17(8) 2_665 1_455
+O3 Ho2 Na4 64.63(8) 3_565 1_455
+O3 Ho2 Na4 115.79(8) . 1_455
+O3 Ho2 Na4 140.03(8) 2_665 1_455
+Na2 Ho2 Na4 114.44(3) . 1_455
+Na4 Ho2 Na4 74.19(4) 7_775 1_455
+Na4 Ho2 Na4 69.72(5) 8_465 1_455
+Na4 Ho2 Na4 172.55(2) 9_545 1_455
+Na4 Ho2 Na4 104.08(3) 2_655 1_455
+O3 Si1 O2 112.81(15) 8 1_445
+O3 Si1 O1 111.72(15) 8 .
+O2 Si1 O1 110.54(15) 1_445 .
+O3 Si1 O4 108.70(18) 8 .
+O2 Si1 O4 108.37(17) 1_445 .
+O1 Si1 O4 104.27(17) . .
+O3 Si1 Na4 155.56(12) 8 2_655
+O2 Si1 Na4 75.51(11) 1_445 2_655
+O1 Si1 Na4 45.66(11) . 2_655
+O4 Si1 Na4 88.92(14) . 2_655
+O3 Si1 Na4 81.09(11) 8 9_545
+O2 Si1 Na4 86.84(11) 1_445 9_545
+O1 Si1 Na4 51.75(11) . 9_545
+O4 Si1 Na4 155.69(13) . 9_545
+Na4 Si1 Na4 76.37(5) 2_655 9_545
+O3 Si1 Na4 71.06(11) 8 1_445
+O1 Si1 Na4 124.21(12) . 1_445
+O4 Si1 Na4 128.42(13) . 1_445
+Na4 Si1 Na4 111.55(6) 2_655 1_445
+Na4 Si1 Na4 75.55(5) 9_545 1_445
+O2 Si1 Na4 152.42(11) 1_445 3_675
+O1 Si1 Na4 79.52(11) . 3_675
+O4 Si1 Na4 92.99(15) . 3_675
+Na4 Si1 Na4 123.39(6) 2_655 3_675
+Na4 Si1 Na4 79.66(5) 9_545 3_675
+Na4 Si1 Na4 110.75(6) 1_445 3_675
+O3 Si1 Na3 108.76(11) 8 .
+O2 Si1 Na3 134.14(11) 1_445 .
+O1 Si1 Na3 69.32(11) . .
+Na4 Si1 Na3 74.69(4) 2_655 .
+Na4 Si1 Na3 118.41(4) 9_545 .
+Na4 Si1 Na3 166.02(5) 1_445 .
+Na4 Si1 Na3 73.25(3) 3_675 .
+O2 Na1 O2 70.09(9) 3_675 2_765
+O2 Na1 O2 109.91(9) 3_675 8_565
+O2 Na1 O2 180.0 2_765 8_565
+O2 Na1 O2 180.00(8) 3_675 9_655
+O2 Na1 O2 109.91(9) 2_765 9_655
+O2 Na1 O2 70.09(9) 8_565 9_655
+O2 Na1 O2 70.09(9) 3_675 .
+O2 Na1 O2 70.09(9) 2_765 .
+O2 Na1 O2 109.91(9) 8_565 .
+O2 Na1 O2 109.91(9) 9_655 .
+O2 Na1 O2 109.91(9) 3_675 7_775
+O2 Na1 O2 109.91(9) 2_765 7_775
+O2 Na1 O2 70.09(9) 8_565 7_775
+O2 Na1 O2 70.09(9) 9_655 7_775
+O2 Na1 O2 180.00(13) . 7_775
+O2 Na1 Na4 44.05(7) 3_675 3_675
+O2 Na1 Na4 64.29(7) 2_765 3_675
+O2 Na1 Na4 115.71(7) 8_565 3_675
+O2 Na1 Na4 135.95(7) 9_655 3_675
+O2 Na1 Na4 108.21(7) . 3_675
+O2 Na1 Na4 71.79(7) 7_775 3_675
+O2 Na1 Na4 135.95(7) 3_675 9_655
+O2 Na1 Na4 115.71(7) 2_765 9_655
+O2 Na1 Na4 64.29(7) 8_565 9_655
+O2 Na1 Na4 44.05(7) 9_655 9_655
+O2 Na1 Na4 71.79(7) . 9_655
+O2 Na1 Na4 108.21(7) 7_775 9_655
+Na4 Na1 Na4 180.0 3_675 9_655
+O2 Na1 Na4 71.79(7) 3_675 8_565
+O2 Na1 Na4 135.95(7) 2_765 8_565
+O2 Na1 Na4 44.05(7) 8_565 8_565
+O2 Na1 Na4 108.21(7) 9_655 8_565
+O2 Na1 Na4 115.71(7) . 8_565
+O2 Na1 Na4 64.29(7) 7_775 8_565
+Na4 Na1 Na4 73.14(3) 3_675 8_565
+Na4 Na1 Na4 106.86(3) 9_655 8_565
+O2 Na1 Na4 64.29(7) 3_675 .
+O2 Na1 Na4 108.21(7) 2_765 .
+O2 Na1 Na4 71.79(7) 8_565 .
+O2 Na1 Na4 115.71(7) 9_655 .
+O2 Na1 Na4 44.05(7) . .
+O2 Na1 Na4 135.95(7) 7_775 .
+Na4 Na1 Na4 106.86(3) 3_675 .
+Na4 Na1 Na4 73.14(3) 9_655 .
+Na4 Na1 Na4 73.14(3) 8_565 .
+O2 Na1 Na4 115.71(7) 3_675 7_775
+O2 Na1 Na4 71.79(7) 2_765 7_775
+O2 Na1 Na4 108.21(7) 8_565 7_775
+O2 Na1 Na4 64.29(7) 9_655 7_775
+O2 Na1 Na4 135.95(7) . 7_775
+O2 Na1 Na4 44.05(7) 7_775 7_775
+Na4 Na1 Na4 73.14(3) 3_675 7_775
+Na4 Na1 Na4 106.86(3) 9_655 7_775
+Na4 Na1 Na4 106.86(3) 8_565 7_775
+Na4 Na1 Na4 180.0 . 7_775
+O2 Na1 Na4 108.21(7) 3_675 2_765
+O2 Na1 Na4 44.05(7) 2_765 2_765
+O2 Na1 Na4 135.95(7) 8_565 2_765
+O2 Na1 Na4 71.79(7) 9_655 2_765
+O2 Na1 Na4 64.29(7) . 2_765
+O2 Na1 Na4 115.71(7) 7_775 2_765
+Na4 Na1 Na4 106.86(3) 3_675 2_765
+Na4 Na1 Na4 73.14(3) 9_655 2_765
+Na4 Na1 Na4 180.0 8_565 2_765
+Na4 Na1 Na4 106.86(3) . 2_765
+Na4 Na1 Na4 73.14(3) 7_775 2_765
+O3 Na2 O3 138.75(5) . 12_566
+O3 Na2 O3 75.21(9) . 3_565
+O3 Na2 O3 90.41(12) 12_566 3_565
+O3 Na2 O3 90.41(12) . 10_556
+O3 Na2 O3 75.21(10) 12_566 10_556
+O3 Na2 O3 138.75(5) 3_565 10_556
+O3 Na2 O3 75.21(9) . 2_665
+O3 Na2 O3 138.75(5) 12_566 2_665
+O3 Na2 O3 75.21(10) 3_565 2_665
+O3 Na2 O3 138.75(5) 10_556 2_665
+O3 Na2 O3 138.75(5) . 11_666
+O3 Na2 O3 75.21(9) 12_566 11_666
+O3 Na2 O3 138.75(5) 3_565 11_666
+O3 Na2 O3 75.21(9) 10_556 11_666
+O3 Na2 O3 90.41(12) 2_665 11_666
+O3 Na2 Ho2 135.20(6) . 10_556
+O3 Na2 Ho2 44.80(6) 12_566 10_556
+O3 Na2 Ho2 135.20(6) 3_565 10_556
+O3 Na2 Ho2 44.80(6) 10_556 10_556
+O3 Na2 Ho2 135.20(6) 2_665 10_556
+O3 Na2 Ho2 44.80(6) 11_666 10_556
+O3 Na2 Ho2 44.80(6) . .
+O3 Na2 Ho2 135.20(6) 12_566 .
+O3 Na2 Ho2 44.80(6) 3_565 .
+O3 Na2 Ho2 135.20(6) 10_556 .
+O3 Na2 Ho2 44.80(6) 2_665 .
+O3 Na2 Ho2 135.20(6) 11_666 .
+Ho2 Na2 Ho2 180.0 10_556 .
+O3 Na2 Na4 36.68(7) . 8_465
+O3 Na2 Na4 104.08(7) 12_566 8_465
+O3 Na2 Na4 54.34(7) 3_565 8_465
+O3 Na2 Na4 91.39(7) 10_556 8_465
+O3 Na2 Na4 98.37(7) 2_665 8_465
+O3 Na2 Na4 166.37(7) 11_666 8_465
+Ho2 Na2 Na4 125.60(3) 10_556 8_465
+Ho2 Na2 Na4 54.40(3) . 8_465
+O3 Na2 Na4 166.37(7) . 4_775
+O3 Na2 Na4 36.68(7) 12_566 4_775
+O3 Na2 Na4 91.39(7) 3_565 4_775
+O3 Na2 Na4 98.37(7) 10_556 4_775
+O3 Na2 Na4 104.08(7) 2_665 4_775
+O3 Na2 Na4 54.34(7) 11_666 4_775
+Ho2 Na2 Na4 54.40(3) 10_556 4_775
+Ho2 Na2 Na4 125.60(3) . 4_775
+Na4 Na2 Na4 132.026(16) 8_465 4_775
+O3 Na2 Na4 91.39(7) . 5_465
+O3 Na2 Na4 54.34(7) 12_566 5_465
+O3 Na2 Na4 104.08(7) 3_565 5_465
+O3 Na2 Na4 36.68(7) 10_556 5_465
+O3 Na2 Na4 166.37(7) 2_665 5_465
+O3 Na2 Na4 98.37(7) 11_666 5_465
+Ho2 Na2 Na4 54.40(3) 10_556 5_465
+Ho2 Na2 Na4 125.60(3) . 5_465
+Na4 Na2 Na4 71.21(5) 8_465 5_465
+Na4 Na2 Na4 89.52(4) 4_775 5_465
+O3 Na2 Na4 98.37(7) . 7_775
+O3 Na2 Na4 91.39(7) 12_566 7_775
+O3 Na2 Na4 36.68(7) 3_565 7_775
+O3 Na2 Na4 166.37(7) 10_556 7_775
+O3 Na2 Na4 54.34(7) 2_665 7_775
+O3 Na2 Na4 104.08(7) 11_666 7_775
+Ho2 Na2 Na4 125.60(3) 10_556 7_775
+Ho2 Na2 Na4 54.40(3) . 7_775
+Na4 Na2 Na4 89.52(4) 8_465 7_775
+Na4 Na2 Na4 71.21(5) 4_775 7_775
+Na4 Na2 Na4 132.026(16) 5_465 7_775
+O4 Na3 O4 120.0 3_565 2_665
+O4 Na3 O4 120.0 3_565 .
+O4 Na3 O4 120.0 2_665 .
+O4 Na3 Si1 26.738(18) 3_565 12_565
+O4 Na3 Si1 118.36(9) 2_665 12_565
+O4 Na3 Si1 114.72(9) . 12_565
+O4 Na3 Si1 114.72(9) 3_565 2_665
+O4 Na3 Si1 26.738(18) 2_665 2_665
+O4 Na3 Si1 118.36(9) . 2_665
+Si1 Na3 Si1 126.918(8) 12_565 2_665
+O4 Na3 Si1 26.738(18) 3_565 3_565
+O4 Na3 Si1 118.36(9) 2_665 3_565
+O4 Na3 Si1 114.72(9) . 3_565
+Si1 Na3 Si1 53.32(3) 12_565 3_565
+Si1 Na3 Si1 101.42(2) 2_665 3_565
+O4 Na3 Si1 114.72(9) 3_565 11_665
+O4 Na3 Si1 26.738(18) 2_665 11_665
+O4 Na3 Si1 118.36(9) . 11_665
+Si1 Na3 Si1 101.42(2) 12_565 11_665
+Si1 Na3 Si1 53.32(3) 2_665 11_665
+Si1 Na3 Si1 126.918(8) 3_565 11_665
+O4 Na3 Si1 118.36(9) 3_565 10
+O4 Na3 Si1 114.72(9) 2_665 10
+O4 Na3 Si1 26.738(18) . 10
+Si1 Na3 Si1 101.42(2) 12_565 10
+Si1 Na3 Si1 126.918(8) 2_665 10
+Si1 Na3 Si1 126.918(8) 3_565 10
+Si1 Na3 Si1 101.42(2) 11_665 10
+O4 Na3 Si1 118.36(9) 3_565 .
+O4 Na3 Si1 114.72(9) 2_665 .
+O4 Na3 Si1 26.738(18) . .
+Si1 Na3 Si1 126.918(8) 12_565 .
+Si1 Na3 Si1 101.42(2) 2_665 .
+Si1 Na3 Si1 101.42(2) 3_565 .
+Si1 Na3 Si1 126.918(8) 11_665 .
+Si1 Na3 Si1 53.32(3) 10 .
+O4 Na3 Ho2 90.0 3_565 .
+O4 Na3 Ho2 90.0 2_665 .
+O4 Na3 Ho2 90.0 . .
+Si1 Na3 Ho2 116.661(17) 12_565 .
+Si1 Na3 Ho2 63.339(17) 2_665 .
+Si1 Na3 Ho2 63.339(17) 3_565 .
+Si1 Na3 Ho2 116.661(17) 11_665 .
+Si1 Na3 Ho2 116.661(17) 10 .
+Si1 Na3 Ho2 63.339(17) . .
+O4 Na3 Ho2 90.0 3_565 10
+O4 Na3 Ho2 90.0 2_665 10
+O4 Na3 Ho2 90.0 . 10
+Si1 Na3 Ho2 63.339(17) 12_565 10
+Si1 Na3 Ho2 116.661(17) 2_665 10
+Si1 Na3 Ho2 116.661(17) 3_565 10
+Si1 Na3 Ho2 63.339(17) 11_665 10
+Si1 Na3 Ho2 63.339(17) 10 10
+Si1 Na3 Ho2 116.661(17) . 10
+Ho2 Na3 Ho2 180.0 . 10
+O4 Na3 Na4 68.16(9) 3_565 11_655
+O4 Na3 Na4 145.83(3) 2_665 11_655
+O4 Na3 Na4 62.91(8) . 11_655
+Si1 Na3 Na4 52.58(3) 12_565 11_655
+Si1 Na3 Na4 172.56(3) 2_665 11_655
+Si1 Na3 Na4 83.95(3) 3_565 11_655
+Si1 Na3 Na4 119.30(3) 11_665 11_655
+Si1 Na3 Na4 50.57(3) 10 11_655
+Si1 Na3 Na4 82.36(3) . 11_655
+Ho2 Na3 Na4 124.03(2) . 11_655
+Ho2 Na3 Na4 55.97(2) 10 11_655
+O2 Na4 O3 119.70(11) . 9_765
+O2 Na4 O1 117.66(11) . 3_665
+O3 Na4 O1 118.19(12) 9_765 3_665
+O2 Na4 O1 95.93(11) . 8_665
+O3 Na4 O1 81.66(10) 9_765 8_665
+O1 Na4 O1 113.38(9) 3_665 8_665
+O2 Na4 Si1 91.04(8) . 3_665
+O3 Na4 Si1 132.68(9) 9_765 3_665
+O1 Na4 Si1 29.66(7) 3_665 3_665
+O1 Na4 Si1 133.51(9) 8_665 3_665
+O2 Na4 Si1 108.97(9) . 8_665
+O3 Na4 Si1 98.37(9) 9_765 8_665
+O1 Na4 Si1 83.15(9) 3_665 8_665
+O1 Na4 Si1 30.35(7) 8_665 8_665
+Si1 Na4 Si1 104.58(5) 3_665 8_665
+O2 Na4 Si1 28.10(7) . 1_665
+O3 Na4 Si1 94.62(8) 9_765 1_665
+O1 Na4 Si1 145.58(9) 3_665 1_665
+O1 Na4 Si1 79.53(8) 8_665 1_665
+Si1 Na4 Si1 118.82(6) 3_665 1_665
+Si1 Na4 Si1 103.23(5) 8_665 1_665
+O2 Na4 Ho2 96.59(8) . 7_775
+O3 Na4 Ho2 44.18(7) 9_765 7_775
+O1 Na4 Ho2 142.43(9) 3_665 7_775
+O1 Na4 Ho2 43.42(7) 8_665 7_775
+Si1 Na4 Ho2 172.02(6) 3_665 7_775
+Si1 Na4 Ho2 70.73(4) 8_665 7_775
+Si1 Na4 Ho2 68.98(3) 1_665 7_775
+O2 Na4 Si1 140.40(9) . 2_765
+O3 Na4 Si1 27.23(7) 9_765 2_765
+O1 Na4 Si1 91.29(9) 3_665 2_765
+O1 Na4 Si1 96.28(8) 8_665 2_765
+Si1 Na4 Si1 106.97(6) 3_665 2_765
+Si1 Na4 Si1 100.34(5) 8_665 2_765
+Si1 Na4 Si1 119.92(6) 1_665 2_765
+Ho2 Na4 Si1 68.32(3) 7_775 2_765
+O2 Na4 Na1 50.90(7) . .
+O3 Na4 Na1 156.90(9) 9_765 .
+O1 Na4 Na1 81.31(8) 3_665 .
+O1 Na4 Na1 78.92(8) 8_665 .
+Si1 Na4 Na1 70.39(4) 3_665 .
+Si1 Na4 Na1 70.29(4) 8_665 .
+Si1 Na4 Na1 69.69(4) 1_665 .
+Ho2 Na4 Na1 112.87(5) 7_775 .
+Si1 Na4 Na1 168.60(6) 2_765 .
+O2 Na4 Ho2 152.32(9) . 1_655
+O3 Na4 Ho2 87.92(8) 9_765 1_655
+O1 Na4 Ho2 37.05(7) 3_665 1_655
+O1 Na4 Ho2 89.56(8) 8_665 1_655
+Si1 Na4 Ho2 66.21(3) 3_665 1_655
+Si1 Na4 Ho2 65.07(4) 8_665 1_655
+Si1 Na4 Ho2 168.29(6) 1_665 1_655
+Ho2 Na4 Ho2 105.81(4) 7_775 1_655
+Si1 Na4 Ho2 65.15(3) 2_765 1_655
+Na1 Na4 Ho2 104.24(4) . 1_655
+O2 Na4 Ho1 34.50(7) . .
+O3 Na4 Ho1 129.29(9) 9_765 .
+O1 Na4 Ho1 89.49(8) 3_665 .
+O1 Na4 Ho1 127.68(8) 8_665 .
+Si1 Na4 Ho1 60.14(3) 3_665 .
+Si1 Na4 Ho1 128.21(5) 8_665 .
+Si1 Na4 Ho1 59.72(3) 1_665 .
+Ho2 Na4 Ho1 127.84(5) 7_775 .
+Si1 Na4 Ho1 131.13(6) 2_765 .
+Na1 Na4 Ho1 57.92(2) . .
+Ho2 Na4 Ho1 126.35(4) 1_655 .
+Si1 O1 Ho2 148.66(17) . .
+Si1 O1 Na4 104.69(14) . 2_655
+Ho2 O1 Na4 103.77(12) . 2_655
+Si1 O1 Na4 97.89(14) . 9_545
+Ho2 O1 Na4 85.78(10) . 9_545
+Na4 O1 Na4 107.54(13) 2_655 9_545
+Si1 O2 Ho1 127.84(15) 1_665 .
+Si1 O2 Na4 109.85(15) 1_665 .
+Ho1 O2 Na4 110.78(12) . .
+Si1 O2 Na1 124.44(15) 1_665 .
+Ho1 O2 Na1 90.37(9) . .
+Na4 O2 Na1 85.04(9) . .
+Si1 O3 Ho2 141.83(16) 9 .
+Si1 O3 Na4 111.21(15) 9 8_465
+Ho2 O3 Na4 89.74(10) . 8_465
+Si1 O3 Na2 119.29(15) 9 .
+Ho2 O3 Na2 83.72(9) . .
+Na4 O3 Na2 103.41(11) 8_465 .
+Si1 O4 Si1 128.4(2) 10 .
+Si1 O4 Na3 115.50(12) 10 .
+Si1 O4 Na3 115.50(12) . .
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Ho1 O2 2.286(3) .
+Ho1 O2 2.286(3) 12_675
+Ho1 O2 2.286(3) 3_675
+Ho1 O2 2.286(3) 11_765
+Ho1 O2 2.286(3) 10
+Ho1 O2 2.286(3) 2_765
+Ho2 O1 2.235(3) 3_565
+Ho2 O1 2.235(3) .
+Ho2 O1 2.235(3) 2_665
+Ho2 O3 2.260(3) 3_565
+Ho2 O3 2.260(3) .
+Ho2 O3 2.260(3) 2_665
+Si1 O3 1.611(3) 8
+Si1 O2 1.617(3) 1_445
+Si1 O1 1.621(3) .
+Si1 O4 1.6704(19) .
+Na1 O2 2.566(3) 3_675
+Na1 O2 2.566(3) 2_765
+Na1 O2 2.566(3) 8_565
+Na1 O2 2.566(3) 9_655
+Na1 O2 2.566(3) .
+Na1 O2 2.566(3) 7_775
+Na2 O3 2.510(3) .
+Na2 O3 2.510(3) 12_566
+Na2 O3 2.510(3) 3_565
+Na2 O3 2.510(3) 10_556
+Na2 O3 2.510(3) 2_665
+Na2 O3 2.510(3) 11_666
+Na3 O4 2.273(4) 3_565
+Na3 O4 2.273(4) 2_665
+Na3 O4 2.273(4) .
+Na4 O2 2.299(3) .
+Na4 O3 2.336(3) 9_765
+Na4 O1 2.344(3) 3_665
+Na4 O1 2.520(3) 8_665
+O1 Na4 2.344(3) 2_655
+O1 Na4 2.520(3) 9_545
+O2 Si1 1.617(3) 1_665
+O3 Si1 1.611(3) 9
+O3 Na4 2.336(3) 8_465
+O4 Si1 1.6704(19) 10

@@ -1,0 +1,121 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-16 22:30:59 +0200 (Tue, 16 Feb 2016) $
+#$Revision: 176467 $
+#$URL: svn://www.crystallography.net/cod/cif/4/32/70/4327084.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4327084
+loop_
+_publ_author_name
+'Mihai Sturza'
+'Sylvie Daviero-Minaud'
+'Marielle Huv\'e'
+'Nicolas Renaut'
+'Nicolas Tiercelin'
+'Olivier Mentr\'e'
+_publ_contact_author_address     'UCCS Lille France'
+_publ_contact_author_email       olivier.mentre@ensc-lille.fr
+_publ_contact_author_name        'Olivier Mentr\'e'
+_publ_section_title
+;
+ High Dilution of Anionic Vacancies in Sr0.8Ba0.2Fe(O,F)~2.5
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              12499
+_journal_page_last               12507
+_journal_paper_doi               10.1021/ic2014072
+_journal_volume                  50
+_journal_year                    2011
+_chemical_formula_sum            'Ba0.5 Fe2.5 O4.1 Sr2'
+_space_group_IT_number           123
+_symmetry_cell_setting           tetragonal
+_symmetry_space_group_name_Hall  '-P 4 2'
+_symmetry_space_group_name_H-M   'P 4/m m m'
+_cell_angle_alpha                90.00000
+_cell_angle_beta                 90.00000
+_cell_angle_gamma                90.00000
+_cell_formula_units_Z            1
+_cell_length_a                   3.92688
+_cell_length_b                   3.92688
+_cell_length_c                   7.93329
+_cell_volume                     122.334
+_computing_structure_refinement  FULLPROF
+_diffrn_radiation_probe          neutron
+_diffrn_radiation_type           'Constant Wavelength Neutron Diffraction'
+_diffrn_radiation_wavelength     1.22523
+_diffrn_source                   'nuclear reactor'
+_pd_meas_2theta_range_inc        0.050024
+_pd_meas_2theta_range_max        121.05000
+_pd_meas_2theta_range_min        4.60000
+_pd_meas_number_of_points        2330
+_pd_proc_2theta_range_inc        0.050024
+_pd_proc_2theta_range_max        121.1473
+_pd_proc_2theta_range_min        4.6973
+_pd_proc_ls_prof_R_factor        2.6838
+_pd_proc_ls_prof_wR_expected     1.2230
+_pd_proc_ls_prof_wR_factor       3.6304
+_pd_proc_wavelength              1.225230
+_refine_ls_number_parameters     21
+_refine_ls_number_reflns         153
+_refine_ls_number_restraints     0
+_refine_ls_R_I_factor            3.3340
+_cod_data_source_file            ic2014072_si_002.cif
+_cod_data_source_block           pppppppppppppppp
+_cod_original_cell_volume        122.33453
+_cod_original_formula_sum        'Sr2 Ba0.5 Fe2.5 O4.1'
+_cod_database_code               4327084
+#BEGIN Tags that were not found in dictionaries:
+_pd_proc_ls_prof_cr_factor       10.5568
+_pd_proc_ls_prof_cwr_factor      9.2983
+_pd_proc_ls_prof_cwr_expected    3.1323
+_pd_proc_ls_prof_chi2            8.8120
+_pd_proc_ls_prof_echi2           8.8887
+#END Tags that were not found in dictionaries
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-y,x,z
+-x,-y,z
+y,-x,z
+-x,y,z
+y,x,z
+x,-y,z
+-y,-x,z
+-x,-y,-z
+y,-x,-z
+x,y,-z
+-y,x,-z
+x,-y,-z
+-y,-x,-z
+-x,y,-z
+y,x,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+_atom_site_adp_type
+_atom_site_type_symbol
+Sr1 0.50000 0.50000 0.2678(3) 0.0151(3) 1.00000 Uiso Sr
+Ba1 0.50000 0.50000 0.2678(3) 0.0151(3) 0.25000 Uiso Ba
+Fe1 0.00000 0.00000 0.00000 0.0348(6) 1.25000 Uiso Fe
+Fe2 0.00000 0.00000 0.4776(4) 0.0080(5) 0.62500 Uiso Fe
+O1 0.50000 0.00000 0.00000 0.0601(15) 1.061(12) Uiso O
+O2 0.50000 0.00000 0.4756(4) 0.0097(7) 0.583(6) Uiso O
+O3 0.00000 0.00000 0.2496(6) 0.0298(12) 0.958(13) Uiso O
+loop_
+_atom_type_symbol
+_atom_type_scat_length_neutron
+_atom_type_scat_source
+Sr 0.70200 V.F._Sears_Neutron_News_3_26_(1992)
+Ba 0.50700 V.F._Sears_Neutron_News_3_26_(1992)
+Fe 0.94500 V.F._Sears_Neutron_News_3_26_(1992)
+O 0.58030 V.F._Sears_Neutron_News_3_26_(1992)

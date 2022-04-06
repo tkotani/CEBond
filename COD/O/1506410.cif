@@ -1,0 +1,307 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-18 17:37:37 +0200 (Thu, 18 Feb 2016) $
+#$Revision: 176729 $
+#$URL: svn://www.crystallography.net/cod/cif/1/50/64/1506410.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1506410
+loop_
+_publ_author_name
+'Colligan, Marek'
+'Lee, Yongjae'
+'Vogt, Thomas'
+'Celestian, Aaron J.'
+'Parise, John B.'
+'Marshall, William G.'
+'Hriljac, Joseph A.'
+_publ_section_title
+;
+ High-pressure neutron diffraction study of superhydrated natrolite.
+;
+_journal_issue                   39
+_journal_name_full               'The journal of physical chemistry. B'
+_journal_page_first              18223
+_journal_page_last               18225
+_journal_paper_doi               10.1021/jp054142x
+_journal_volume                  109
+_journal_year                    2005
+_chemical_formula_sum            'Al2 D3.26 Na2 O12 Si3'
+_chemical_formula_weight         382.75
+_space_group_IT_number           43
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  'F 2 -2d'
+_symmetry_space_group_name_H-M   'F d d 2'
+_audit_creation_date             2005-08-17T09:34
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_audit_update_record
+' 2005-08-17T09:34  Initial CIF as created by GSAS2CIF'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            8
+_cell_length_a                   18.2933(11)
+_cell_length_b                   18.6282(12)
+_cell_length_c                   6.5839(4)
+_cell_volume                     2243.6(2)
+_computing_structure_refinement  GSAS
+_diffrn_radiation_probe          neutron
+_pd_block_id                     2005-08-17T09:34|VANCAN|prl45648_49|Overall
+_pd_phase_name                   Natrolite
+_pd_proc_ls_prof_R_factor        0.0204
+_pd_proc_ls_prof_wR_expected     0.0127
+_pd_proc_ls_prof_wR_factor       0.0185
+_refine_ls_goodness_of_fit_all   1.49
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     55
+_refine_ls_number_restraints     14
+_refine_ls_R_Fsqd_factor         0.06644
+_refine_ls_shift/su_max          0.10
+_refine_ls_shift/su_mean         0.01
+_cod_data_source_file            jp054142xsi20050822_082317.cif
+_cod_data_source_block           VANCAN_publ
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_geom_bond_publ_flag' value 'N' changed to 'n' according to
+/home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (66
+times).
+
+'_geom_angle_publ_flag' value 'N' changed to 'n' according
+to /home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary
+named 'cif_core.dic' version 2.4.1 from 2010-06-29 (93 times).
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_original_cell_volume        2243.60(18)
+_cod_database_code               1506410
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -x+1/4,+y+1/4,+z+1/4
+3 +x+1/4,-y+1/4,+z+1/4
+4 -x,-y+1/2,+z+1/2
+101 +x,+y+1/2,+z+1/2
+102 -x+1/4,+y+3/4,+z+3/4
+103 +x+1/4,-y+3/4,+z+3/4
+104 -x,-y,+z
+201 +x+1/2,+y,+z+1/2
+202 -x+3/4,+y+1/4,+z+3/4
+203 +x+3/4,-y+1/4,+z+3/4
+204 -x+1/2,-y+1/2,+z
+301 +x+1/2,+y+1/2,+z
+302 -x+3/4,+y+3/4,+z+1/4
+303 +x+3/4,-y+3/4,+z+1/4
+304 -x+1/2,-y,+z+1/2
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+Si Si1 0.0 0.0 0.0 1.0 Uiso -0.0013(7) 8
+Si Si2 0.1494(4) 0.2104(4) 0.6182(17) 1.0 Uiso -0.0013(7) 16
+Al Al 0.0348(4) 0.0929(4) 0.6130(18) 1.0 Uiso -0.0013(7) 16
+O O1 0.0212(4) 0.0700(4) 0.8660(18) 1.0 Uiso 0.0069(7) 16
+O O2 0.06811(34) 0.1801(4) 0.6033(21) 1.0 Uiso 0.0069(7) 16
+O O3 0.0974(4) 0.0353(4) 0.4998(19) 1.0 Uiso 0.0069(7) 16
+O O4 0.20535(34) 0.1527(4) 0.7228(19) 1.0 Uiso 0.0069(7) 16
+O O5 0.18011(35) 0.2257(4) 0.3881(17) 1.0 Uiso 0.0069(7) 16
+Na Na 0.2220(7) 0.0325(7) 0.610(4) 1.0 Uiso 0.0288(35) 16
+O Ow 0.0536(7) 0.1881(6) 0.1075(28) 1.0 Uiso 0.0403(24) 16
+D D11 0.0525(7) 0.1430(7) 0.0333(23) 0.770(23) Uiso 0.0403(24) 16
+D D12 0.1020(6) 0.1908(5) 0.1679(23) 0.859(26) Uiso 0.0403(24) 16
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+Si 24.0
+Al 16.0
+O_ 96.0
+Na 16.0
+D_ 26.057
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O1 Si1 O1 114.1(9) 1_554 104_543 n
+O1 Si1 O5 109.8(4) 1_554 102_544 n
+O1 Si1 O5 105.5(4) 1_554 203_454 n
+O1 Si1 O5 105.5(4) 104_543 102_544 n
+O1 Si1 O5 109.8(4) 104_543 203_454 n
+O5 Si1 O5 112.3(8) 102_544 203_454 n
+O2 Si2 O3 111.5(5) 1_555 2_555 n
+O2 Si2 O4 112.1(5) 1_555 1_555 n
+O2 Si2 O5 109.0(6) 1_555 1_555 n
+O2 Si2 Na 60.5(4) 1_555 2_555 n
+O3 Si2 O4 108.3(5) 2_555 1_555 n
+O3 Si2 O5 109.1(5) 2_555 1_555 n
+O3 Si2 Na 51.4(4) 2_555 2_555 n
+O4 Si2 O5 106.8(5) 1_555 1_555 n
+O4 Si2 Na 121.7(6) 1_555 2_555 n
+O5 Si2 Na 131.0(6) 1_555 2_555 n
+O1 Al O2 108.4(6) 1_555 1_555 n
+O1 Al O3 110.8(5) 1_555 1_555 n
+O1 Al O4 113.8(6) 1_555 203_454 n
+O1 Al Na 130.5(7) 1_555 203_454 n
+O2 Al O3 109.3(5) 1_555 1_555 n
+O2 Al O4 103.4(5) 1_555 203_454 n
+O2 Al Na 53.5(4) 1_555 203_454 n
+O3 Al O4 110.8(5) 1_555 203_454 n
+O3 Al Na 118.6(6) 1_555 203_454 n
+O4 Al Na 50.2(4) 203_454 203_454 n
+Si1 O1 Al 138.9(7) 1_556 1_555 n
+Si2 O2 Al 131.0(6) 1_555 1_555 n
+Si2 O2 Na 87.9(5) 1_555 2_555 n
+Si2 O2 Na 127.0(6) 1_555 203_454 n
+Al O2 Na 123.6(6) 1_555 2_555 n
+Al O2 Na 92.2(5) 1_555 203_454 n
+Na O2 Na 90.76(27) 2_555 203_454 n
+Si2 O3 Al 140.7(5) 102_544 1_555 n
+Si2 O3 Na 96.2(6) 102_544 1_555 n
+Al O3 Na 120.7(6) 1_555 1_555 n
+Si2 O4 Al 136.2(5) 1_555 3_555 n
+Si2 O4 Na 124.5(6) 1_555 1_555 n
+Al O4 Na 95.9(6) 3_555 1_555 n
+Si1 O5 Si2 146.2(6) 2_555 1_555 n
+Si2 Na Al 152.6(5) 102_544 3_555 n
+Si2 Na O2 168.3(8) 102_544 3_555 n
+Si2 Na O2 31.52(25) 102_544 102_544 n
+Si2 Na O3 32.46(27) 102_544 1_555 n
+Si2 Na O4 119.0(6) 102_544 1_555 n
+Si2 Na Na 65.6(5) 102_544 304_544 n
+Si2 Na Na 121.9(7) 102_544 304_545 n
+Si2 Na Ow 101.5(8) 102_544 3_555 n
+Si2 Na Ow 83.7(5) 102_544 102_545 n
+Al Na O2 34.28(27) 3_555 3_555 n
+Al Na O2 171.9(8) 3_555 102_544 n
+Al Na O3 120.2(5) 3_555 1_555 n
+Al Na O4 33.86(30) 3_555 1_555 n
+Al Na Na 129.3(7) 3_555 304_544 n
+Al Na Na 70.0(5) 3_555 304_545 n
+Al Na Ow 88.3(5) 3_555 3_555 n
+Al Na Ow 104.7(9) 3_555 102_545 n
+O2 Na O2 144.1(5) 3_555 102_544 n
+O2 Na O3 150.0(8) 3_555 1_555 n
+O2 Na O4 68.0(5) 3_555 1_555 n
+O2 Na Na 118.5(7) 3_555 304_544 n
+O2 Na Na 46.6(5) 3_555 304_545 n
+O2 Na Ow 86.6(6) 3_555 3_555 n
+O2 Na Ow 84.7(8) 3_555 102_545 n
+O2 Na O3 63.8(5) 102_544 1_555 n
+O2 Na O4 147.2(8) 102_544 1_555 n
+O2 Na Na 42.7(4) 102_544 304_544 n
+O2 Na Na 114.4(7) 102_544 304_545 n
+O2 Na Ow 83.7(7) 102_544 3_555 n
+O2 Na Ow 81.6(5) 102_544 102_545 n
+O3 Na O4 87.3(5) 1_555 1_555 n
+O3 Na Na 90.0(6) 1_555 304_544 n
+O3 Na Na 123.2(8) 1_555 304_545 n
+O3 Na Ow 113.2(10) 1_555 3_555 n
+O3 Na Ow 92.0(6) 1_555 102_545 n
+O4 Na Na 129.0(8) 1_555 304_544 n
+O4 Na Na 93.8(6) 1_555 304_545 n
+O4 Na Ow 94.9(6) 1_555 3_555 n
+O4 Na Ow 116.4(10) 1_555 102_545 n
+Na Na Na 128.5(7) 304_544 304_545 n
+Na Na Ow 41.0(4) 304_544 3_555 n
+Na Na Ow 114.6(7) 304_544 102_545 n
+Na Na Ow 123.2(8) 304_545 3_555 n
+Na Na Ow 38.2(5) 304_545 102_545 n
+Ow Na Ow 141.0(5) 3_555 102_545 n
+Na Ow Na 100.7(4) 2_554 203_454 n
+Na Ow D11 106.4(12) 2_554 1_555 n
+Na Ow D12 114.3(12) 2_554 1_555 n
+Na Ow D11 123.7(15) 203_454 1_555 n
+Na Ow D12 106.5(12) 203_454 1_555 n
+D11 Ow D12 105.6(13) 1_555 1_555 n
+Ow D11 D12 37.2(7) 1_555 1_555 n
+Ow D12 D11 37.2(7) 1_555 1_555 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Si1 O1 1.622(5) 1_554 n
+Si1 O1 1.622(5) 104_554 n
+Si1 O5 1.633(5) 102_544 n
+Si1 O5 1.633(5) 203_454 n
+Si2 Al 3.030(9) 1_555 n
+Si2 Al 3.119(9) 3_555 n
+Si2 O2 1.593(7) 1_555 n
+Si2 O3 1.644(6) 2_555 n
+Si2 O4 1.636(7) 1_555 n
+Si2 O5 1.641(7) 1_555 n
+Si2 Na 3.570(15) 1_555 n
+Si2 Na 3.046(19) 2_555 n
+Al Si2 3.030(9) 1_555 n
+Al Si2 3.119(9) 203_454 n
+Al O1 1.738(7) 1_555 n
+Al O2 1.735(7) 1_555 n
+Al O3 1.737(7) 1_555 n
+Al O4 1.724(7) 203_454 n
+Al Na 3.604(16) 1_555 n
+Al Na 3.078(19) 203_454 n
+O1 Si1 1.622(5) 1_556 n
+O1 Al 1.738(7) 1_555 n
+O1 D11 1.841(13) 1_556 n
+O2 Si2 1.593(7) 1_555 n
+O2 Al 1.735(7) 1_555 n
+O2 Na 2.653(20) 2_555 n
+O2 Na 2.478(20) 203_454 n
+O3 Si2 1.644(6) 102_544 n
+O3 Al 1.737(7) 1_555 n
+O3 Na 2.393(17) 1_555 n
+O4 Si2 1.636(7) 1_555 n
+O4 Al 1.724(7) 3_555 n
+O4 Na 2.378(16) 1_555 n
+O5 Si1 1.633(5) 2_555 n
+O5 Si2 1.641(7) 1_555 n
+O5 D12 2.137(13) 1_555 n
+Na Si2 3.570(15) 1_555 n
+Na Si2 3.046(19) 102_544 n
+Na Al 3.604(16) 1_555 n
+Na Al 3.078(19) 3_555 n
+Na O2 2.478(20) 3_555 n
+Na O2 2.653(20) 102_544 n
+Na O3 2.393(17) 1_555 n
+Na O4 2.378(16) 1_555 n
+Na Na 3.654(11) 304_554 n
+Na Na 3.654(11) 304_555 n
+Na Ow 2.300(26) 3_555 n
+Na Ow 2.443(23) 102_545 n
+Na D11 2.953(25) 3_555 n
+Na D11 2.873(20) 102_545 n
+Na D12 2.739(20) 3_555 n
+Na D12 2.977(21) 102_545 n
+Ow Na 2.443(23) 2_554 n
+Ow Na 2.300(26) 203_454 n
+Ow D11 0.973(7) 1_555 n
+Ow D12 0.971(7) 1_555 n
+D11 O1 1.841(13) 1_554 n
+D11 Na 2.873(20) 2_554 n
+D11 Na 2.953(25) 203_454 n
+D11 Ow 0.973(7) 1_555 n
+D11 D12 1.548(14) 1_555 n
+D12 O5 2.137(13) 1_555 n
+D12 Na 2.977(21) 2_554 n
+D12 Na 2.739(20) 203_454 n
+D12 Ow 0.971(7) 1_555 n
+D12 D11 1.548(14) 1_555 n

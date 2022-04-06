@@ -1,0 +1,155 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-19 16:29:56 +0200 (Fri, 19 Feb 2016) $
+#$Revision: 176759 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/41/2004173.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2004173
+loop_
+_publ_author_name
+'Ohashi, H.'
+'Osawa, T.'
+'Sato, A.'
+_publ_section_title
+;
+ Low-Pressure Polymorph of Co~3~Al~2~Si~3~O~12~
+;
+_journal_issue                   11
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              2213
+_journal_page_last               2215
+_journal_paper_doi               10.1107/S0108270195004719
+_journal_volume                  51
+_journal_year                    1995
+_chemical_formula_sum            'Al2 Co3 O12 Si3'
+_chemical_formula_weight         507.01
+_symmetry_cell_setting           cubic
+_symmetry_space_group_name_H-M   'I a -3 d'
+_atom_type_scat_source           IntTabIV
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            8
+_cell_length_a                   11.4603(2)
+_cell_length_b                   11.4603(2)
+_cell_length_c                   11.4603(2)
+_cell_measurement_reflns_used    22
+_cell_measurement_temperature    298
+_cell_measurement_theta_max      29.7
+_cell_measurement_theta_min      28.9
+_cell_volume                     1505.18(5)
+_diffrn_measurement_device       'Enraf-Nonius CAD-4'
+_diffrn_measurement_method       \w/2\q
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.017
+_diffrn_reflns_limit_h_max       18
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       18
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       18
+_diffrn_reflns_limit_l_min       -18
+_diffrn_reflns_number            936
+_diffrn_reflns_theta_max         35
+_diffrn_standards_decay_%        -0.5
+_diffrn_standards_interval_count 100
+_diffrn_standards_interval_time  240
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    7.32
+_exptl_absorpt_correction_T_max  0.565
+_exptl_absorpt_correction_T_min  0.556
+_exptl_absorpt_correction_type   spherical
+_exptl_crystal_colour            Pink
+_exptl_crystal_density_diffrn    4.48
+_exptl_crystal_description       Sphere
+_exptl_crystal_size_rad          0.055
+_refine_diff_density_max         0.621
+_refine_diff_density_min         -0.576
+_refine_ls_extinction_coef       9.201E-8
+_refine_ls_extinction_method     'isotropic secondary'
+_refine_ls_goodness_of_fit_obs   1.014
+_refine_ls_number_parameters     18
+_refine_ls_number_reflns         237
+_refine_ls_R_factor_obs          0.021
+_refine_ls_shift/esd_max         <0.005
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     w=1/\s^2^(F)
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.030
+_reflns_number_observed          237
+_reflns_number_total             283
+_reflns_observed_criterion       F>2\sF
+_cod_data_source_file            oh1074.cif
+_cod_data_source_block           oh1074a
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'w=1/\s^2^(F)' was changed to
+'calc'. New tag '_refine_ls_weighting_details' was created. The value
+of the new tag was set to 'w=1/\s^2^(F)'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        1505.18(3)
+_cod_original_sg_symbol_H-M      'I a-3d'
+_cod_database_code               2004173
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+Co 0.125 .0 .2500 .00904(5)
+Al .0 .0 .0 .00309(5)
+Si 0.375 .0 .2500 .00384(9)
+O .03368(9) .05100(9) .65307(9) .0056(2)
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O Si O . 4_655 50_555 100.36(5) yes
+O Si O . 4_655 33_555 114.21(5) yes
+O Al O . 49_555 14_656 88.03(4) yes
+O Al O . 49_555 13_455 91.97(4) yes
+O Co O . 53_555 50_555 69.23(4) yes
+O Co O . 53_555 14_656 70.49(4) yes
+O Co O 14_656 53_555 54_555 73.23(4) yes
+O Co O . 53_555 55_555 93.55(4) yes
+O Co O 14_656 53_555 55_555 72.31(3) yes
+O Co O 55_555 53_555 56_555 109.98(3) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Si O 4_655 . 1.6340(10) yes
+O O . 50_555 2.5110(10) yes
+O O . 33_555 2.7450(10) yes
+Al O 49_555 . 1.8890(10) yes
+O O . 14_656 2.6250(10) yes
+O O . 13_455 2.7170(10) yes
+Co O 51_555 14_656 2.2100(10) yes
+Co O 53_555 14_656 2.3350(10) yes
+O O . 50_555 2.5110(10) yes
+O O . 14_656 2.6250(10) yes
+O O 14_656 54_555 2.7130(10) yes
+O O . 55_555 3.313(2) yes
+O O 14_656 55_555 2.7560(10) yes
+O O 55_555 56_555 3.8260(10) yes

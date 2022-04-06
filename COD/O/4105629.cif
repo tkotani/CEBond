@@ -1,0 +1,132 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-21 18:08:12 +0200 (Mon, 21 Mar 2016) $
+#$Revision: 178802 $
+#$URL: svn://www.crystallography.net/cod/cif/4/10/56/4105629.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4105629
+loop_
+_publ_author_name
+'Maxim Avdeev'
+'Gordon J. Thorogood'
+'Melody L. Carter'
+'Brendan J. Kennedy'
+'Jimmy Ting'
+'David J. Singh'
+'Kia S. Wallwork'
+_publ_section_title
+;
+ Antiferromagnetism in a Technetium Oxide. Structure of CaTcO3
+;
+_journal_name_full               'Journal of the American Chemical Society'
+_journal_page_first              1654
+_journal_page_last               1657
+_journal_paper_doi               10.1021/ja109431t
+_journal_volume                  133
+_journal_year                    2011
+_chemical_formula_structural     CaTcO3
+_chemical_formula_sum            'Ca O3 Tc'
+_chemical_formula_weight         186.98
+_chemical_name_common            'Calcium Technitium Oxide'
+_space_group_IT_number           62
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2ac 2n'
+_symmetry_space_group_name_H-M   'P n m a'
+_cell_angle_alpha                90.00000
+_cell_angle_beta                 90.00000
+_cell_angle_gamma                90.00000
+_cell_formula_units_Z            4
+_cell_length_a                   5.5327(3)
+_cell_length_b                   7.7224(4)
+_cell_length_c                   5.4112(3)
+_cell_measurement_temperature    293
+_cell_volume                     231.20(2)
+_computing_structure_refinement  FULLPROF
+_diffrn_ambient_temperature      293
+_diffrn_detector                 128x3He
+_diffrn_detector_type            step
+_diffrn_radiation_probe          neutron
+_diffrn_radiation_type           neutron
+_diffrn_radiation_wavelength     1.538
+_diffrn_source                   'nuclear reactor'
+_diffrn_source_type              Echidna
+_pd_char_colour                  black
+_pd_instr_location
+;
+OPAL
+;
+_pd_meas_2theta_range_inc        0.050000
+_pd_meas_2theta_range_max        163.95000
+_pd_meas_2theta_range_min        2.75000
+_pd_meas_number_of_points        3225
+_pd_meas_scan_method             fixed
+_pd_proc_2theta_range_inc        0.050000
+_pd_proc_2theta_range_max        163.8396
+_pd_proc_2theta_range_min        2.6396
+_pd_proc_ls_prof_R_factor        4.6883
+_pd_proc_ls_prof_wR_expected     1.6531
+_pd_proc_ls_prof_wR_factor       6.3193
+_pd_proc_wavelength              1.538
+_pd_spec_mounting
+;
+Vanadium can
+;
+_pd_spec_mount_mode              transmission
+_pd_spec_shape                   cylinder
+_refine_ls_goodness_of_fit_all   3.8
+_refine_ls_number_parameters     22
+_refine_ls_number_reflns         282
+_refine_ls_number_restraints     0
+_refine_ls_R_I_factor            9.87
+_cod_data_source_file            ja109431t_si_002.cif
+_cod_data_source_block           CaTcO3
+_cod_database_code               4105629
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x+1/2,-y+1/2,-z+1/2
+-x,y+1/2,-z
+-x+1/2,-y,z+1/2
+-x,-y,-z
+-x+1/2,y+1/2,z+1/2
+x,-y+1/2,z
+x+1/2,y,-z+1/2
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_B_iso_or_equiv
+_atom_site_occupancy
+_atom_site_adp_type
+_atom_site_type_symbol
+Ca 0.0440(6) 0.25000 0.5139(9) 1.19(6) 1.00000 Biso Ca
+Tc 0.00000 0.00000 0.00000 0.94(4) 1.00000 Biso Tc
+O1 0.4768(6) 0.25000 0.4148(6) 0.95(5) 1.00000 Biso O
+O2 0.2046(4) -0.0471(3) 0.2966(4) 1.01(3) 1.00000 Biso O
+loop_
+_atom_type_symbol
+_atom_type_scat_length_neutron
+_atom_type_scat_source
+Ca 0.47000 V.F._Sears_Neutron_News_3_26_(1992)
+Tc 0.60000 V.F._Sears_Neutron_News_3_26_(1992)
+O 0.58030 V.F._Sears_Neutron_News_3_26_(1992)
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+O1 Tc O1 180.00(0) no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Tc O2 1.997(2) no

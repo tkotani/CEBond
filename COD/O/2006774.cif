@@ -1,0 +1,308 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/67/2006774.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2006774
+loop_
+_publ_author_name
+'Claridge, John Bleddyn'
+'Layland, Ralph Charles'
+'zur Loye, Hans-Conrad'
+_publ_section_title
+;
+ Ca~4~PtO~6~
+;
+_journal_issue                   12
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              1740
+_journal_page_last               1741
+_journal_paper_doi               10.1107/S0108270197011700
+_journal_volume                  53
+_journal_year                    1997
+_chemical_formula_sum            'Ca4 O6 Pt'
+_chemical_formula_weight         451.41
+_chemical_name_systematic        '  tetra calcium platinum(IV) oxide'
+_space_group_IT_number           167
+_symmetry_cell_setting           trigonal
+_symmetry_space_group_name_Hall  '-R 3 2"c'
+_symmetry_space_group_name_H-M   'R -3 c :H'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            6
+_cell_length_a                   9.332(3)
+_cell_length_b                   9.332
+_cell_length_c                   11.264(2)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    296.2
+_cell_measurement_theta_max      34.05
+_cell_measurement_theta_min      27.65
+_cell_volume                     849.5(3)
+_diffrn_ambient_temperature      296.2
+_diffrn_measurement_device       AFC6S
+_diffrn_measurement_method       \w--2\q
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'X-ray tube'
+_diffrn_radiation_type           ' Mo K\a'
+_diffrn_radiation_wavelength     0.7107
+_diffrn_reflns_av_R_equivalents  0.0469
+_diffrn_reflns_limit_h_max       13
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       12
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       18
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            496
+_diffrn_reflns_theta_max         34.97
+_diffrn_reflns_theta_min         3.1
+_diffrn_standards_decay_%        9.14
+_diffrn_standards_interval_count 150
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    28.248
+_exptl_absorpt_correction_T_max  0.981
+_exptl_absorpt_correction_T_min  0.717
+_exptl_absorpt_correction_type
+'empirical \y scan (North, Phillips & Mathews, 1968)'
+_exptl_absorpt_process_details   psi-scan
+_exptl_crystal_colour            black
+_exptl_crystal_density_diffrn    5.294
+_exptl_crystal_density_meas      ?
+_exptl_crystal_description       irregular
+_exptl_crystal_F_000             1236.00
+_exptl_crystal_size_max          0.08
+_exptl_crystal_size_mid          0.06
+_exptl_crystal_size_min          0.05
+_refine_diff_density_max         5.55
+_refine_diff_density_min         -4.85
+_refine_ls_extinction_coef       10.48843
+_refine_ls_extinction_method     'Zachariasen (1968)'
+_refine_ls_goodness_of_fit_obs   3.282
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     20
+_refine_ls_number_reflns         338
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_obs          .0424
+_refine_ls_shift/esd_max         0.0000
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 1/\s(F)^2^'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         .0494
+_reflns_number_observed          352
+_reflns_number_total             481
+_reflns_observed_criterion       F>3\s(F)
+_cod_data_source_file            br1172.cif
+_cod_data_source_block           I
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_atom_site_thermal_displace_type' tag value 'Uij' was replaced with
+'Uani' value 4 times.
+
+Automatic conversion script
+Id: cif_fix_values 1646 2011-03-28 12:23:43Z adriana 
+
+The following automatic conversions were performed:
+
+'_exptl_crystal_density_meas' value 'not measured' was changed to '?'
+- the value is perceived as not measured.
+
+Automatic conversion script
+Id: cif_fix_values 3008 2015-01-20 13:52:24Z robertas 
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'w = 1/\s(F)^2^' was changed to
+'calc'. New tag '_refine_ls_weighting_details' was created. The value
+of the new tag was set to 'w = 1/\s(F)^2^'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        849.5(2)
+_cod_original_sg_symbol_H-M      'R -3 c'
+_cod_original_formula_sum        'Ca4 Pt O6'
+_cod_database_code               2006774
+loop_
+_symmetry_equiv_pos_as_xyz
+'  +x,  +y,  +z'
+'  -y,  +x-y,  +z'
+'  +y,  +x,1/2-z'
+'  -x+y,  -x,  +z'
+'  -x,  -x+y,1/2-z'
+'  +x-y,  -y,1/2-z'
+'  -x,  -y,  -z'
+'  +y,  -x+y,  -z'
+'  -y,  -x,1/2+z'
+'  +x-y,  +x,  -z'
+'  +x,  +x-y,1/2+z'
+'  -x+y,  +y,1/2+z'
+2/3+x,1/3+y,1/3+z
+1/3+x,2/3+y,2/3+z
+2/3-y,1/3+x-y,1/3+z
+1/3-y,2/3+x-y,2/3+z
+2/3+y,1/3+x,5/6-z
+1/3+y,2/3+x,1/6-z
+2/3-x+y,1/3-x,1/3+z
+1/3-x+y,2/3-x,2/3+z
+2/3-x,1/3-x+y,5/6-z
+1/3-x,2/3-x+y,1/6-z
+2/3+x-y,1/3-y,5/6-z
+1/3+x-y,2/3-y,1/6-z
+2/3-x,1/3-y,1/3-z
+1/3-x,2/3-y,2/3-z
+2/3+y,1/3-x+y,1/3-z
+1/3+y,2/3-x+y,2/3-z
+2/3-y,1/3-x,5/6+z
+1/3-y,2/3-x,1/6+z
+2/3+x-y,1/3+x,1/3-z
+1/3+x-y,2/3+x,2/3-z
+2/3+x,1/3+x-y,5/6+z
+1/3+x,2/3+x-y,1/6+z
+2/3-x+y,1/3+y,5/6+z
+1/3-x+y,2/3+y,1/6+z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+_atom_site_aniso_type_symbol
+Pt .0027 .0027(3) .0004(3) .0014 .0000 .0000 Pt
+Ca1 .0065 .0065(9) .0030(10) .0033 .0000 .0000 Ca
+Ca2 .0070(8) .0050(9) .0044(8) .0025 .0000 .0000(7) Ca
+O .0060(10) .012(2) .0040(10) .0060(10) -.0020(10) -.0020(10) O
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_type_symbol
+Pt .6666 .3333 .3333 .00200(10) Uani Pt
+Ca1 .6666 .3333 .0833 .0052(4) Uani Ca
+Ca2 .3646(3) .0000 .2500 .0057(4) Uani Ca
+O .4754(8) .3012(8) .2276(5) .0070(10) Uani O
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Ca 0.226 0.306
+; International Tables for X-ray Crystallorgaphy (1974, Vol. IV,
+ Table 283.1)
+;
+Pt -1.703 8.390
+; International Tables for X-ray Crystallorgaphy (1974, Vol. IV,
+ Table 283.1)
+;
+O 0.011 0.006
+; International Tables for X-ray Crystallorgaphy (1974, Vol. IV,
+ Table 283.1)
+;
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O Pt O . 28 90.7(2) no
+O Pt O . 32_545 90.7(2) no
+O Pt O . 2_655 89.4(2) no
+O Pt O . 26_655 179.97830(10) no
+O Pt O . 4_665 89.3(2) no
+O Pt O 28 32_545 89.3(2) no
+O Pt O 28 2_655 179.98600(10) no
+O Pt O 28 26_655 89.3(2) no
+O Pt O 28 4_665 90.7(2) no
+O Pt O 32_545 2_655 90.7(2) no
+O Pt O 32_545 26_655 89.3(2) no
+O Pt O 32_545 4_665 179.97400(10) no
+O Pt O 2_655 26_655 90.7(2) no
+O Pt O 2_655 4_665 89.3(2) no
+O Pt O 26_655 4_665 90.7(2) no
+O Ca(1) O . 18_545 126.6(3) no
+O Ca1 O . 24 90.4(3) no
+O Ca1 O . 22_655 150.4(3) no
+O Ca1 O . 2_655 76.3(2) no
+O Ca1 O . 4_665 76.3(2) no
+O Ca1 O 18_545 24 76.3(2) no
+O Ca1 O 18_545 22_655 76.3(2) no
+O Ca1 O 18_545 2_655 90.4(3) no
+O Ca1 O 18_545 4_665 150.4(3) no
+O Ca1 O 24 22_655 76.3(2) no
+O Ca1 O 24 2_655 150.4(3) no
+O Ca1 O 24 4_665 126.6(3) no
+O Ca1 O 22_655 2_655 126.6(3) no
+O Ca1 O 22_655 4_665 90.4(3) no
+O Ca1 O 2_655 4_665 76.3(2) no
+O Ca2 O . 6 16288(3) no
+O Ca2 O . 25 73.5(2) no
+O Ca2 O . 36_545 93.7(2) no
+O Ca2 O . 32_545 71.1(2) no
+O Ca2 O . 29_554 113.8(2) no
+O Ca2 O . 2_655 66.9(3) no
+O Ca2 O . 5_655 130.32(8) no
+O Ca2 O 6 25 93.7(2) no
+O Ca2 O 6 36_545 73.5(2) no
+O Ca2 O 6 32_545 113.8(2) no
+O Ca2 O 6 29_554 71.1(2) no
+O Ca2 O 6 2_655 130.32(8) no
+O Ca2 O 6 5_655 66.9(3) no
+O Ca2 O 25 36_545 85.9(3) no
+O Ca2 O 25 32_545 135.80(10) no
+O Ca2 O 25 29_554 71.0(3) no
+O Ca2 O 25 2_655 120.23(9) no
+O Ca2 O 25 5_655 137.8(2) no
+O Ca2 O 36_545 32_545 71.0(3) no
+O Ca2 O 36_545 29_554 135.80(10) no
+O Ca2 O 36_545 2_655 137.8(2) no
+O Ca2 O 36_545 5_655 120.23(9) no
+O Ca2 O 32_545 29_554 149.0(3) no
+O Ca2 O 32_545 2_655 67.3(2) no
+O Ca2 O 32_545 5_655 86.1(2) no
+O Ca2 O 29_554 2_655 86.1(2) no
+O Ca2 O 29_554 5_655 67.3(2) no
+O Ca2 O 2_655 5_655 63.6(3) no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Pt O . . 2.8039(6) yes
+Pt O . 28 2.8039(6) no
+Pt O . 32_545 2.8039(6) no
+Pt O . 2_655 2.8039(6) no
+Pt O . 26_655 2.8039(6) no
+Pt O . 4_665 2.8039(6) no
+Ca1 O . . 2.8320(6) yes
+Ca1 O . 18_545 2.8319(6) yes
+Ca1 O . 24 2.8319(6) no
+Ca1 O . 22_655 2.8320(6) no
+Ca1 O . 2_655 2.8320(6) no
+Ca1 O . 4_665 2.8320(6) no
+Ca2 O . . 2.8475(6) yes
+Ca2 O . 6 2.8475(6) no
+Ca2 O . 25 2.8415(6) yes
+Ca2 O . 36_545 2.8415(6) no
+Ca2 O . 32_545 2.8511(6) yes
+Ca2 O . 29_554 2.8511(6) no
+Ca2 O . 2_655 2.8714(7) yes
+Ca2 O . 4_665 2.8714(7) no

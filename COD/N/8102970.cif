@@ -1,0 +1,222 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-18 14:25:00 +0200 (Thu, 18 Feb 2016) $
+#$Revision: 176728 $
+#$URL: svn://www.crystallography.net/cod/cif/8/10/29/8102970.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_8102970
+loop_
+_publ_author_name
+'Bendyna, Joanna K.'
+'H\"ohn, Peter'
+'Kniep, R\"udiger'
+_publ_section_title
+;
+Crystal structure of pentacalcium bis(dinitridocobaltate(I)), Ca~5~
+[CoN~2~]~2~, and a note on "Ca~3~CoN~3~"
+;
+_journal_issue                   3
+_journal_name_full
+'Zeitschrift f\"ur Kristallographie - New Crystal Structures'
+_journal_page_first              165
+_journal_page_last               166
+_journal_volume                  222
+_journal_year                    2007
+_chemical_formula_structural     Ca5[CoN2]2
+_chemical_formula_sum            'Ca5 Co2 N4'
+_chemical_name_systematic        ' pentacalcium bis[dinitridocobaltate(I)]'
+_space_group_IT_number           130
+_symmetry_cell_setting           tetragonal
+_symmetry_space_group_name_Hall  '-P 4a 2ac'
+_symmetry_space_group_name_H-M   'P 4/n c c :2'
+_cell_angle_alpha                90.00000
+_cell_angle_beta                 90.00000
+_cell_angle_gamma                90.00000
+_cell_formula_units_Z            4
+_cell_length_a                   8.07670(10)
+_cell_length_b                   8.07670(10)
+_cell_length_c                   12.14011(16)
+_cell_measurement_temperature    295
+_cell_volume                     791.937(17)
+_computing_structure_refinement  FULLPROF
+_diffrn_detector                 'Image Plate'
+_diffrn_measurement_device_type  'Huber Image Plate Guinier Camera G670'
+_diffrn_measurement_method       Guinier
+_diffrn_radiation_monochromator  Ge
+_diffrn_radiation_type           X-ray
+_diffrn_source                   'X-ray tube'
+_diffrn_source_target            Co
+_exptl_absorpt_coefficient_mu    7.35
+_pd_char_colour                  black
+_pd_char_particle_morphology     'size 5-20 \mm'
+_pd_meas_2theta_range_inc        0.005000
+_pd_meas_2theta_range_max        84.91500
+_pd_meas_2theta_range_min        3.00000
+_pd_meas_number_of_points        16384
+_pd_proc_2theta_range_inc        0.005000
+_pd_proc_2theta_range_max        84.9124
+_pd_proc_2theta_range_min        2.9974
+_pd_proc_ls_prof_R_factor        1.7170
+_pd_proc_ls_prof_wR_expected     5.9372
+_pd_proc_ls_prof_wR_factor       2.2318
+_pd_proc_wavelength              1.789007
+_refine_ls_number_parameters     27
+_refine_ls_number_reflns         98
+_refine_ls_number_restraints     0
+_refine_ls_R_I_factor            6.2486
+_cod_data_source_file            409920.cff
+_cod_data_source_block           Ca5Co2N4
+_cod_depositor_comments
+;
+The following corrections have been performed
+in the original file before processing it for deposition
+(the diff against the Z. Krist. - NCS original is given):
+
+Index: 2007/03/409920.cff
+===================================================================
+--- 2007/03/409920.cff    (revision 562)
++++ 2007/03/409920.cff    (revision 563)
+@@ -212,7 +212,7 @@
+ _chemical_formula_structural      'Ca5[CoN2]2' 
+ _chemical_formula_analytical      ?
+ _chemical_formula_iupac           ?
+-_chemical_formula_sum             ?
++_chemical_formula_sum             'Ca5 Co2 N4'
+ _chemical_formula_weight          ?
+ _chemical_melting_point           ?
+ _chemical_compound_source         ?       # for minerals and 
+
+Saulius Gra\<zulis
+2011-03-03
+
+The following automatic conversions were performed:
+'_symmetry_cell_setting' value 'Tetragonal' changed to 'tetragonal'
+according to '/home/saulius/struct/CIF-dictionaries/cif_core.dic'
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1555 2011-01-17 13:19:09Z saulius 
+;
+_cod_original_cell_volume        791.936(17)
+_cod_original_sg_symbol_H-M      'P 4/n c c'
+_cod_database_code               8102970
+#BEGIN Tags that were not found in dictionaries:
+_pd_proc_ls_prof_cr_factor       23.6235
+_pd_proc_ls_prof_cwr_factor      12.8806
+_pd_proc_ls_prof_cwr_expected    34.2654
+_pd_proc_ls_prof_chi2            0.1413
+_pd_proc_ls_prof_echi2           0.1426
+#END Tags that were not found in dictionaries
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-y+1/2,x,z
+-x+1/2,-y+1/2,z
+y,-x+1/2,z
+-x+1/2,y,z+1/2
+y,x,z+1/2
+x,-y+1/2,z+1/2
+-y+1/2,-x+1/2,z+1/2
+-x,-y,-z
+y+1/2,-x,-z
+x+1/2,y+1/2,-z
+-y,x+1/2,-z
+x+1/2,-y,-z+1/2
+-y,-x,-z+1/2
+-x,y+1/2,-z+1/2
+y+1/2,x+1/2,-z+1/2
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_adp_type
+_atom_site_type_symbol
+Ca1 0.25000 0.25000 0.1492(2) 0.0045(8) 1 4 c Uiso Ca
+Ca2 0.07705(14) 0.63323(14) 0.09398(9) 0.0078(6) 1 16 g Uiso Ca
+Co1 0.40829(16) 0.59171(16) 0.25000 0.0059(6) 1 8 f Uiso Co
+N1 0.5508(4) 0.1379(4) 0.1057(3) 0.01166 1 16 g Uiso N
+loop_
+_atom_type_symbol
+_atom_type_scat_Cromer_Mann_a1
+_atom_type_scat_Cromer_Mann_b1
+_atom_type_scat_Cromer_Mann_a2
+_atom_type_scat_Cromer_Mann_b2
+_atom_type_scat_Cromer_Mann_a3
+_atom_type_scat_Cromer_Mann_b3
+_atom_type_scat_Cromer_Mann_a4
+_atom_type_scat_Cromer_Mann_b4
+_atom_type_scat_Cromer_Mann_c
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+ca 8.62660 10.44210 7.38730 0.65990 1.58990 85.74840 1.02110 178.43700 1.37510
+0.34100 1.28600
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+co 12.28410 4.27910 7.34090 0.27840 4.00340 13.53590 2.34880 71.16920 1.01180
+-2.46400 3.60800
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+n 12.21260 0.00570 3.13220 9.89330 2.01250 28.99750 1.16630 0.58260 -11.52900
+0.02900 0.01800
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+? ? ? ? ? ? ? ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+? ? ? ? ? ?
+loop_
+_geom_contact_atom_site_label_1
+_geom_contact_atom_site_label_2
+_geom_contact_distance
+_geom_contact_site_symmetry_1
+_geom_contact_site_symmetry_2
+_geom_contact_publ_flag
+? ? ? ? ? ?
+loop_
+_geom_hbond_atom_site_label_D
+_geom_hbond_atom_site_label_H
+_geom_hbond_atom_site_label_A
+_geom_hbond_site_symmetry_D
+_geom_hbond_site_symmetry_H
+_geom_hbond_site_symmetry_A
+_geom_hbond_distance_DH
+_geom_hbond_distance_HA
+_geom_hbond_distance_DA
+_geom_hbond_angle_DHA
+_geom_hbond_publ_flag
+? ? ? ? ? ? ? ? ? ? ?
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion_site_symmetry_1
+_geom_torsion_site_symmetry_2
+_geom_torsion_site_symmetry_3
+_geom_torsion_site_symmetry_4
+_geom_torsion
+_geom_torsion_publ_flag
+? ? ? ? ? ? ? ? ? ?

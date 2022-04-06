@@ -1,0 +1,173 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 00:18:51 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176760 $
+#$URL: svn://www.crystallography.net/cod/cif/2/01/51/2015122.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2015122
+loop_
+_publ_author_name
+'da Silva, Iv\'an'
+'Gonz\'alez-Silgo, Cristina'
+'Gonz\'alez-Platas, Javier'
+'Rodr\'iguez-Carvajal, Juan'
+'Mart\'inez-Sarri\'on, Mar\'ia Luisa'
+'Mestres, Lourdes'
+_publ_section_title
+;
+ Powder neutron diffraction of Tl~2~BeF~4~ at six temperatures from
+ room temperature to 1.5K
+;
+_journal_coeditor_code           FA1150
+_journal_issue                   12
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              i113
+_journal_page_last               i116
+_journal_paper_doi               10.1107/S010827010503249X
+_journal_volume                  61
+_journal_year                    2005
+_chemical_formula_iupac          'Tl2 Be F4'
+_chemical_formula_moiety         'Tl2 Be F4'
+_chemical_formula_sum            'Be F4 Tl2'
+_chemical_formula_weight         493.77
+_chemical_name_systematic
+;
+Thallium Fluoroberyllate
+;
+_space_group_IT_number           62
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2ac 2n'
+_symmetry_space_group_name_H-M   'P n m a'
+_cell_angle_alpha                90.00000
+_cell_angle_beta                 90.00000
+_cell_angle_gamma                90.00000
+_cell_formula_units_Z            4
+_cell_length_a                   7.7238(2)
+_cell_length_b                   5.90226(17)
+_cell_length_c                   10.4499(3)
+_cell_measurement_temperature    300
+_cell_volume                     476.39(2)
+_computing_cell_refinement       'FULLPROF (Rodr\'iguez-Carvajal, 2005)'
+_computing_molecular_graphics    'Diamond (Brandenburg & Berndt, 1999)'
+_computing_publication_material  FULLPROF
+_computing_structure_refinement  FULLPROF
+_diffrn_ambient_temperature      300
+_diffrn_measurement_device_type  '3T2 Line'
+_diffrn_radiation_monochromator  'Ge 335'
+_diffrn_radiation_probe          neutron
+_diffrn_radiation_type           neutron
+_diffrn_radiation_wavelength     1.2251
+_exptl_crystal_density_diffrn    6.884
+_refine_ls_goodness_of_fit_all   0.6283
+_refine_ls_matrix_type           fullcycle
+_refine_ls_number_parameters     35
+_refine_ls_number_reflns         934
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          0.0552
+_refine_ls_shift/su_max          0.01
+_refine_ls_structure_factor_coef Inet
+_refine_ls_weighting_scheme      sigma
+_cod_data_source_file            fa1150.cif
+_cod_data_source_block           I_300K
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_symmetry_cell_setting' value 'Orthorhombic' changed to 'orthorhombic'
+according to '/home/saulius/struct/CIF-dictionaries/cif_core.dic'
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Orthorhombic' changed to
+'orthorhombic' according to
+/home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_database_code               2015122
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x+1/2,-y+1/2,-z+1/2
+-x,y+1/2,-z
+-x+1/2,-y,z+1/2
+-x,-y,-z
+-x+1/2,y+1/2,z+1/2
+x,-y+1/2,z
+x+1/2,y,-z+1/2
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_type_symbol
+Tl1 0.1679(6) 0.25000 0.0901(5) 0.0299(13) Uiso 1.00000 TL
+Tl2 -0.0078(6) 0.25000 0.6943(4) 0.0282(13) Uiso 1.00000 TL
+Be1 0.2343(6) 0.25000 0.4195(5) 0.0211(12) Uiso 1.00000 BE
+F1 0.3021(7) 0.0370(9) 0.3517(5) 0.0401(16) Uiso 1.00000 F
+F2 0.0355(10) 0.25000 0.4167(9) 0.045(2) Uiso 1.00000 F
+F3 0.2997(11) 0.25000 0.5575(8) 0.041(2) Uiso 1.00000 F
+loop_
+_atom_type_symbol
+_atom_type_scat_source
+TL 'Sears (1992)'
+BE 'Sears (1992)'
+F 'Sears (1992)'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+F1 Be1 F1 1_555 1_555 7_555 110.0(3) no
+F1 Be1 F2 1_555 1_555 1_555 109.4(2) no
+F1 Be1 F3 1_555 1_555 1_555 108.8(2) no
+F2 Be1 F3 1_555 1_555 1_555 110.4(5) no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Be1 F1 1_555 1.535(6) no
+Be1 F2 1_555 1.536(9) no
+Be1 F3 1_555 1.528(10) no
+Tl1 F1 1_555 3.182(7) no
+Tl1 F1 2_455 3.152(7) no
+Tl1 F1 4_554 3.022(7) no
+Tl1 F1 6_554 3.022(7) no
+Tl1 F1 7_555 3.182(7) no
+Tl1 F1 8_455 3.152(7) no
+Tl1 F2 1_555 3.563(11) no
+Tl1 F2 2_555 2.840(9) no
+Tl1 F3 2_455 3.235(10) no
+Tl1 F3 4_554 2.9812(14) no
+Tl1 F3 4_564 2.9812(14) no
+Tl2 F1 3_556 2.875(7) no
+Tl2 F1 4_555 2.846(6) no
+Tl2 F1 5_556 2.875(7) no
+Tl2 F1 6_555 2.846(6) no
+Tl2 F2 1_555 2.920(10) no
+Tl2 F2 3_546 3.178(4) no
+Tl2 F2 3_556 3.178(4) no
+Tl2 F3 1_555 2.772(10) no
+Tl2 F3 2_456 2.990(9) no

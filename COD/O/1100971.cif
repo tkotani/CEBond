@@ -1,0 +1,263 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/1/10/09/1100971.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1100971
+loop_
+_publ_author_name
+'Hamdi Ben Yahia'
+'Etienne Gaudin'
+'Jacques Darriet'
+'Michael Banks'
+'Reinhard K. Kremer'
+'Antoine Villesuzanne'
+'Myung-Hwan Whangbo'
+_publ_section_title
+;
+
+Synthesis, Crystal Structure, Magnetic Properties, and Electronic Structure
+
+of the New Ternary Vanadate CuMnVO4
+
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              3087
+_journal_page_last               3093
+_journal_paper_doi               10.1021/ic048244y
+_journal_volume                  44
+_journal_year                    2005
+_chemical_formula_moiety         'Cu Mn O4 V'
+_chemical_formula_sum            'Cu Mn O4 V'
+_chemical_formula_weight         233.4
+_chemical_name_systematic        ' ?'
+_space_group_IT_number           63
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-C 2c 2'
+_symmetry_space_group_name_H-M   'C m c m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   5.787(2)
+_cell_length_b                   8.807(3)
+_cell_length_c                   6.410(2)
+_cell_measurement_temperature    293(1)
+_cell_volume                     326.69(19)
+_computing_publication_material  '(Jana2000; Petricek and Dusek, 2000)'
+_computing_structure_refinement  '(Jana2000; Petricek and Dusek, 2000)'
+_diffrn_ambient_temperature      293(1)
+_diffrn_measured_fraction_theta_full 1.00
+_diffrn_measurement_device_type  'Nonius CCD'
+_diffrn_measurement_method       '/f scans + /w scans'
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.71069
+_diffrn_reflns_av_R_equivalents  0.1017
+_diffrn_reflns_av_sigmaI/netI    0.0452
+_diffrn_reflns_limit_h_max       10
+_diffrn_reflns_limit_h_min       -10
+_diffrn_reflns_limit_k_max       15
+_diffrn_reflns_limit_k_min       -15
+_diffrn_reflns_limit_l_max       11
+_diffrn_reflns_limit_l_min       -11
+_diffrn_reflns_number            6676
+_diffrn_reflns_theta_full        39.99
+_diffrn_reflns_theta_max         39.99
+_diffrn_reflns_theta_min         4.21
+_exptl_absorpt_coefficient_mu    12.894
+_exptl_absorpt_correction_T_max  0.785
+_exptl_absorpt_correction_T_min  0.612
+_exptl_absorpt_correction_type   gaussian
+_exptl_absorpt_process_details   '(Jana2000; Petricek and Dusek, 2000)'
+_exptl_crystal_colour            black
+_exptl_crystal_density_diffrn    4.744(3)
+_exptl_crystal_description       block
+_exptl_crystal_F_000             436
+_exptl_crystal_size_max          0.050
+_exptl_crystal_size_mid          0.031
+_exptl_crystal_size_min          0.022
+_refine_diff_density_max         2.12
+_refine_diff_density_min         -1.77
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_gt    1.71
+_refine_ls_goodness_of_fit_ref   1.71
+_refine_ls_number_parameters     25
+_refine_ls_number_reflns         433
+_refine_ls_R_factor_all          0.0356
+_refine_ls_R_factor_gt           0.0356
+_refine_ls_shift/su_max          0.0006
+_refine_ls_shift/su_mean         0.0001
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details     w=1/(\s^2^(I)+0.0016I^2^)
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_gt          0.1091
+_refine_ls_wR_factor_ref         0.1091
+_reflns_number_gt                433
+_reflns_number_total             578
+_reflns_threshold_expression     I>3\s(I)
+_cod_data_source_file            ic048244ysi20041214_022448.cif
+_cod_data_source_block           (I)
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_exptl_absorpt_correction_type' value 'Gaussian' changed to 'gaussian'
+according to '/home/saulius/struct/CIF-dictionaries/cif_core.dic'
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+;
+_cod_original_formula_sum        'Cu1 Mn1 O4 V1'
+_cod_database_code               1100971
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 x,y,1/2-z
+3 -x,y,z
+4 -x,y,1/2-z
+5 -x,-y,-z
+6 -x,-y,1/2+z
+7 x,-y,-z
+8 x,-y,1/2+z
+9 1/2+x,1/2+y,z
+10 1/2+x,1/2+y,1/2-z
+11 1/2-x,1/2+y,z
+12 1/2-x,1/2+y,1/2-z
+13 1/2-x,1/2-y,-z
+14 1/2-x,1/2-y,1/2+z
+15 1/2+x,1/2-y,-z
+16 1/2+x,1/2-y,1/2+z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_adp_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+_atom_site_occupancy
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Cu Cu 0 0.32230(13) 0.75 Uani 0.0291(3) 4 1 d . . .
+Mn Mn 0 0 0.5 Uani 0.0094(2) 4 1 d . . .
+V V 0 0.64184(10) 0.75 Uani 0.0075(2) 4 1 d . . .
+O1 O 0.2473(5) 0.4748(3) 0.25 Uani 0.0115(7) 8 1 d . . .
+O2 O 0 0.2438(3) 0.4625(4) Uani 0.0131(7) 8 1 d . . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_type_symbol
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Cu Cu 0.0472(6) 0.0266(5) 0.0135(4) 0 0 0
+Mn Mn 0.0098(4) 0.0114(4) 0.0069(3) 0 0 -0.0001(2)
+V V 0.0073(4) 0.0088(4) 0.0063(3) 0 0 0
+O1 O 0.0098(12) 0.0155(12) 0.0091(11) -0.0012(9) 0 0
+O2 O 0.0143(13) 0.0138(13) 0.0112(10) 0 0 0.0005(10)
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Cu 0.320 1.265 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.1'
+Mn 0.337 0.728 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.1'
+V 0.301 0.529 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.1'
+O 0.011 0.006 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.1'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O1 Cu O1 5_566 . 13_556 170.51(10) yes
+O1 Cu O1 5_566 . 7_566 77.39(11) yes
+O1 Cu O1 5_566 . 15_456 112.11(9) yes
+O1 Cu O2 5_566 . . 105.92(7) yes
+O1 Cu O2 5_566 . 2_556 105.92(7) yes
+O1 Cu O1 13_556 . 5_566 170.51(10) yes
+O1 Cu O1 13_556 . 7_566 112.11(9) yes
+O1 Cu O1 13_556 . 15_456 58.40(8) yes
+O1 Cu O2 13_556 . . 72.14(8) yes
+O1 Cu O2 13_556 . 2_556 72.14(8) yes
+O1 Cu O1 7_566 . 5_566 77.39(11) yes
+O1 Cu O1 7_566 . 13_556 112.11(9) yes
+O1 Cu O1 7_566 . 15_456 170.51(10) yes
+O1 Cu O2 7_566 . . 105.92(7) yes
+O1 Cu O2 7_566 . 2_556 105.92(7) yes
+O1 Cu O1 15_456 . 5_566 112.11(9) yes
+O1 Cu O1 15_456 . 13_556 58.40(8) yes
+O1 Cu O1 15_456 . 7_566 170.51(10) yes
+O1 Cu O2 15_456 . . 72.14(8) yes
+O1 Cu O2 15_456 . 2_556 72.14(8) yes
+O2 Cu O2 . . 2_556 138.85(14) yes
+O2 Cu O2 2_556 . . 138.85(14) yes
+O1 Mn O1 9_445 . 13_556 180 yes
+O1 Mn O1 9_445 . 11_545 84.23(8) yes
+O1 Mn O1 9_445 . 15_456 95.77(8) yes
+O1 Mn O2 9_445 . . 91.10(9) yes
+O1 Mn O2 9_445 . 5_556 88.90(9) yes
+O1 Mn O1 13_556 . 9_445 180 yes
+O1 Mn O1 13_556 . 11_545 95.77(8) yes
+O1 Mn O1 13_556 . 15_456 84.23(8) yes
+O1 Mn O2 13_556 . . 88.90(9) yes
+O1 Mn O2 13_556 . 5_556 91.10(9) yes
+O1 Mn O1 11_545 . 9_445 84.23(8) yes
+O1 Mn O1 11_545 . 13_556 95.77(8) yes
+O1 Mn O1 11_545 . 15_456 180 yes
+O1 Mn O2 11_545 . . 91.10(9) yes
+O1 Mn O2 11_545 . 5_556 88.90(9) yes
+O1 Mn O1 15_456 . 9_445 95.77(8) yes
+O1 Mn O1 15_456 . 13_556 84.23(8) yes
+O1 Mn O1 15_456 . 11_545 180 yes
+O1 Mn O2 15_456 . . 88.90(9) yes
+O1 Mn O2 15_456 . 5_556 91.10(9) yes
+O2 Mn O2 . . 5_556 180 yes
+O2 Mn O2 5_556 . . 180 yes
+O1 V O1 5_566 . 7_566 108.63(14) yes
+O1 V O2 5_566 . 5_566 110.30(7) yes
+O1 V O2 5_566 . 6_565 110.30(7) yes
+O1 V O1 7_566 . 5_566 108.63(14) yes
+O1 V O2 7_566 . 5_566 110.30(7) yes
+O1 V O2 7_566 . 6_565 110.30(7) yes
+O2 V O2 5_566 . 6_565 107.02(15) yes
+O2 V O2 6_565 . 5_566 107.02(15) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Cu O1 . 5_566 2.289(3) yes
+Cu O1 . 13_556 2.998(3) yes
+Cu O1 . 7_566 2.289(3) yes
+Cu O1 . 15_456 2.998(3) yes
+Cu O2 . . 1.969(3) yes
+Cu O2 . 2_556 1.969(3) yes
+Mn O1 . 9_445 2.181(2) yes
+Mn O1 . 13_556 2.181(2) yes
+Mn O1 . 11_545 2.181(2) yes
+Mn O1 . 15_456 2.181(2) yes
+Mn O2 . . 2.160(3) yes
+Mn O2 . 5_556 2.160(3) yes
+V O1 . 5_566 1.762(3) yes
+V O1 . 7_566 1.762(3) yes
+V O2 . 5_566 1.694(3) yes
+V O2 . 6_565 1.694(3) yes

@@ -1,0 +1,131 @@
+#------------------------------------------------------------------------------
+#$Date: 2018-08-07 11:25:22 +0300 (Tue, 07 Aug 2018) $
+#$Revision: 209421 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/7/03/54/7035411.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7035411
+loop_
+_publ_author_name
+'Lu, Fengqi'
+'Wang, Xiaoming'
+'Pan, Zhengwei'
+'Pan, Fengjuan'
+'Chai, Shiqiang'
+'Liang, Chaolun'
+'Wang, Quanchao'
+'Wang, Jing'
+'Fang, Liang'
+'Kuang, Xiaojun'
+'Jing, Xiping'
+_publ_section_title
+;
+ Nanometer-scale separation of d(10) Zn(2+)-layers and twin-shift
+ competition in Ba8ZnNb6O24-based 8-layered hexagonal perovskites.
+;
+_journal_issue                   29
+_journal_name_full
+'Dalton transactions (Cambridge, England : 2003)'
+_journal_page_first              13173
+_journal_page_last               13185
+_journal_paper_doi               10.1039/c5dt00859j
+_journal_volume                  44
+_journal_year                    2015
+_chemical_formula_sum            'Ba8 Nb6 O24 Zn'
+_chemical_formula_weight         2105.43
+_chemical_name_mineral           Perovskite
+_space_group_IT_number           164
+_symmetry_cell_setting           hexagonal
+_symmetry_Int_Tables_number      164
+_symmetry_space_group_name_Hall  '-P 3 2"'
+_symmetry_space_group_name_H-M   'P -3 m 1'
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                120.000
+_cell_formula_units_Z            1
+_cell_length_a                   5.7931(0)
+_cell_length_b                   5.7931(0)
+_cell_length_c                   18.9035(2)
+_cell_volume                     549.408(6)
+_cod_data_source_file            c5dt00859j1.cif
+_cod_data_source_block           Ba8ZnNb6O24
+_cod_depositor_comments
+;
+ Changing the symmetry operation ids associated with operations
+ 'x, y, z' and '-y, x-y, z' from '3' to '1' and '2' accordingly
+ in order to make all of the id values unique.
+
+ Antanas Vaitkus,
+ 2018-07-07
+
+ Correcting the way positive oxidation state values are written by
+ removing the trailing plus sign ('+') since the value must be
+ a numeric value according to the CIF core dictionary version 2.4.5.
+
+ Antanas Vaitkus,
+ 2017-01-11
+
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Hexagonal' changed to 'hexagonal'
+according to
+/usr/data/users/saulius/crontab/automatic-downloads/rss-feeds/RSC/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 from 2011-04-26.
+
+Automatic conversion script
+Id: cif_fix_values 3271 2015-04-21 07:52:19Z andrius 
+
+ Adding full bibliography for 7035411--7035412.cif.
+;
+_cod_original_cell_volume        549.408(7)
+_cod_database_code               7035411
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 'x, y, z'
+2 '-y, x-y, z'
+3 '-x+y, -x, z'
+4 'x-y, -y, -z'
+5 '-x, -x+y, -z'
+6 'y, x, -z'
+7 '-x, -y, -z'
+8 'y, -x+y, -z'
+9 'x-y, x, -z'
+10 '-x+y, y, z'
+11 'x, x-y, z'
+12 '-y, -x, z'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_B_iso_or_equiv
+Ba1 Ba 2 c 0.0000 0.0000 0.1862(1) 1.000 0.44(1)
+Ba2 Ba 2 d 0.3333 0.6667 0.0615(1) 1.000 0.44(1)
+Ba3 Ba 2 d 0.3333 0.6667 0.4544(1) 1.000 0.44(1)
+Ba4 Ba 2 d 0.3333 0.6667 0.6823(1) 1.000 0.44(1)
+Zn1 Zn 1 a 0.0000 0.0000 0.00000 0.083 0.73(8)
+Nb1 Nb 2 c 0.0000 0.0000 0.3853(1) 1.000 0.24(1)
+Nb2 Nb 2 d 0.3333 0.6667 0.2543(1) 1.000 0.24(1)
+Nb3 Nb 2 d 0.3333 0.6667 0.8781(1) 1.000 0.24(1)
+O1 O 6 i 0.1681(3) 0.8319(3) 0.3080(1) 1.000 0.67(1)
+O2 O 6 i 0.1628(2) 0.8372(2) 0.5708(1) 1.000 0.67(1)
+O3 O 6 i 0.1701(4) 0.8299(4) 0.9339(1) 1.000 0.67(1)
+O4 O 6 i 0.4981(1) 0.5019(1) 0.1877(1) 1.000 0.67(1)
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Ba 2
+Zn 2
+Nb 5
+O -2

@@ -1,0 +1,79 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-10-06 19:24:22 +0300 (Fri, 06 Oct 2017) $
+#$Revision: 201816 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/53/9015345.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9015345
+loop_
+_publ_author_name
+'Yamazaki, S.'
+'Toraya, H.'
+_publ_section_title
+;
+ Rietveld refinement of site-occupancy parameters of Mg2-xMnxSiO4
+ using a new weight function in least-squares fitting
+ Note: e = 1
+;
+_journal_name_full               'Journal of Applied Crystallography'
+_journal_page_first              51
+_journal_page_last               59
+_journal_paper_doi               10.1107/S0021889898010206
+_journal_volume                  32
+_journal_year                    1999
+_chemical_compound_source        Synthetic
+_chemical_formula_sum            'Mg Mn O4 Si'
+_chemical_name_mineral           Forsterite
+_space_group_IT_number           62
+_symmetry_space_group_name_Hall  '-P 2ac 2n'
+_symmetry_space_group_name_H-M   'P n m a'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_length_a                   10.45100
+_cell_length_b                   6.12446
+_cell_length_c                   4.80757
+_cell_volume                     307.717
+_database_code_amcsd             0019686
+_exptl_crystal_density_diffrn    3.698
+_cod_original_formula_sum        '(Mg Mn) Si O4'
+_cod_database_code               9015345
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+x,1/2-y,z
+-x,1/2+y,-z
+1/2-x,1/2+y,1/2+z
+1/2+x,1/2-y,1/2-z
+1/2+x,y,1/2-z
+1/2-x,-y,1/2+z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+Mg1 0.00000 0.00000 0.00000 0.70500 0.01191
+Mn1 0.00000 0.00000 0.00000 0.29500 0.01191
+MgM2 0.27910 0.25000 0.98790 0.29500 0.00988
+MnM2 0.27910 0.25000 0.98790 0.70500 0.00988
+Si 0.09280 0.25000 0.42430 1.00000 0.00760
+O1 0.08900 0.25000 0.75720 1.00000 0.01229
+O2 0.45160 0.25000 0.22610 1.00000 0.01001
+O3 0.16070 0.03920 0.27820 1.00000 0.01039
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0019686

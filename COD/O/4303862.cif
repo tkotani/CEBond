@@ -1,0 +1,656 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-22 23:45:32 +0200 (Tue, 22 Mar 2016) $
+#$Revision: 179076 $
+#$URL: svn://www.crystallography.net/cod/cif/4/30/38/4303862.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4303862
+loop_
+_publ_author_name
+'Erik Arroyabe'
+'Reinhard Kaindl'
+'Daniel M. T\"obbens'
+'Volker Kahlenberg'
+_publ_contact_author_address
+;
+Institute of Mineralogy and Petrography
+University of Innsbruck
+Innrain 52
+A-6020 Innsbruck
+Austria
+;
+_publ_contact_author_email       volker.kahlenberg@uibk.ac.at
+_publ_contact_author_fax         43(512)5072926
+_publ_contact_author_name        'Kahlenberg, Volker'
+_publ_contact_author_phone       43(512)5075503
+_publ_section_title
+;
+Synthesis, Crystal Structure, and Vibrational Spectroscopy of
+K2Ca4Si8O21 - An Unusual Single-Layer Silicate Containing Q2 and Q3 Units
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              11929
+_journal_page_last               11934
+_journal_paper_doi               10.1021/ic901762u
+_journal_volume                  48
+_journal_year                    2009
+_chemical_formula_sum            'Ca4 K2 O21 Si8'
+_chemical_formula_weight         799.24
+_chemical_name_systematic
+;
+ ?
+;
+_space_group_IT_number           2
+_symmetry_cell_setting           triclinic
+_symmetry_space_group_name_Hall  '-P 1'
+_symmetry_space_group_name_H-M   'P -1'
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_conform_dict_location     ftp://ftp.iucr.org/pub/cif_core.dic
+_audit_conform_dict_name         cif_core.dic
+_audit_conform_dict_version      2.4
+_audit_creation_date             2009-09-04T10:48:01-00:00
+_audit_creation_method           'WinGX routine CIF_UPDATE'
+_cell_angle_alpha                96.680(4)
+_cell_angle_beta                 105.280(4)
+_cell_angle_gamma                109.259(4)
+_cell_formula_units_Z            1
+_cell_length_a                   6.8052(3)
+_cell_length_b                   7.1049(3)
+_cell_length_c                   11.2132(5)
+_cell_measurement_reflns_used    2792
+_cell_measurement_temperature    298(2)
+_cell_measurement_theta_max      28.3304
+_cell_measurement_theta_min      3.1081
+_cell_volume                     481.27(4)
+_computing_cell_refinement
+;
+        CrysAlisPro, Oxford Diffraction Ltd.,
+        Version 1.171.33.32 (release 27-01-2009 CrysAlis171 .NET)
+        (compiled Jan 27 2009,14:17:37)
+;
+_computing_data_collection
+;
+        CrysAlisPro, Oxford Diffraction Ltd.,
+        Version 1.171.33.32 (release 27-01-2009 CrysAlis171 .NET)
+        (compiled Jan 27 2009,14:17:37)
+;
+_computing_data_reduction
+;
+        CrysAlisPro, Oxford Diffraction Ltd.,
+        Version 1.171.33.32 (release 27-01-2009 CrysAlis171 .NET)
+        (compiled Jan 27 2009,14:17:37)
+;
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 2008)'
+_computing_structure_solution    'SIR2004 (Burla et al., 2005)'
+_diffrn_ambient_temperature      298(2)
+_diffrn_detector_area_resol_mean 10.3822
+_diffrn_measured_fraction_theta_full 0.988
+_diffrn_measured_fraction_theta_max 0.838
+_diffrn_measurement_device_type
+'Goniometer Xcalibur, detector: Ruby (Gemini ultra Mo)'
+_diffrn_measurement_method       '\w scans'
+_diffrn_orient_matrix_UB_11      -0.0294613181
+_diffrn_orient_matrix_UB_12      0.0459437538
+_diffrn_orient_matrix_UB_13      0.0485891902
+_diffrn_orient_matrix_UB_21      -0.0097543577
+_diffrn_orient_matrix_UB_22      -0.0863432253
+_diffrn_orient_matrix_UB_23      0.0273921867
+_diffrn_orient_matrix_UB_31      0.1124896784
+_diffrn_orient_matrix_UB_32      0.0468824243
+_diffrn_orient_matrix_UB_33      0.0375993602
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0278
+_diffrn_reflns_av_unetI/netI     0.0341
+_diffrn_reflns_limit_h_max       6
+_diffrn_reflns_limit_h_min       -8
+_diffrn_reflns_limit_k_max       9
+_diffrn_reflns_limit_k_min       -7
+_diffrn_reflns_limit_l_max       14
+_diffrn_reflns_limit_l_min       -14
+_diffrn_reflns_number            3987
+_diffrn_reflns_theta_full        25.5
+_diffrn_reflns_theta_max         28.38
+_diffrn_reflns_theta_min         3.12
+_exptl_absorpt_coefficient_mu    2.166
+_exptl_absorpt_correction_T_max  1
+_exptl_absorpt_correction_T_min  0.84822
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details
+;
+        CrysAlis RED, Oxford Diffraction Ltd.,
+        Version 1.171.33.32 (release 27-01-2009 CrysAlis171 .NET)
+        (compiled Jan 27 2009,14:17:37)
+        Empirical absorption correction using spherical harmonics,
+ implemented in SCALE3 ABSPACK scaling algorithm.
+;
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    2.758
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       'irregular fragment'
+_exptl_crystal_F_000             398
+_exptl_crystal_size_max          0.150
+_exptl_crystal_size_mid          0.090
+_exptl_crystal_size_min          0.015
+_refine_diff_density_max         0.48
+_refine_diff_density_min         -0.454
+_refine_diff_density_rms         0.113
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   1.052
+_refine_ls_hydrogen_treatment    undef
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     160
+_refine_ls_number_reflns         2026
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.052
+_refine_ls_R_factor_all          0.0385
+_refine_ls_R_factor_gt           0.0279
+_refine_ls_shift/su_max          0
+_refine_ls_shift/su_mean         0
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0383P)^2^+0.1285P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0651
+_refine_ls_wR_factor_ref         0.0682
+_reflns_number_gt                1736
+_reflns_number_total             2026
+_reflns_threshold_expression     >2\s(I)
+_cod_data_source_file            ic901762u_si_001.cif
+_cod_data_source_block           kristall_2
+_cod_database_code               4303862
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, -y, -z'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+M1 Ca 0.33600(9) 0.21549(8) 0.18360(5) 0.00886(14) Uani 1 1 d . . .
+M2 Ca 0.63165(8) 0.26933(8) -0.03958(5) 0.00912(14) Uani 1 1 d . . .
+M3 K 0.25655(10) 0.29116(10) 0.56849(7) 0.01884(17) Uani 1 1 d . . .
+Si1 Si 0.90126(11) -0.24039(11) 0.11242(7) 0.00606(17) Uani 1 1 d . . .
+Si2 Si 0.82436(11) 0.09825(11) 0.25470(7) 0.00621(17) Uani 1 1 d . . .
+Si3 Si 0.33729(11) -0.19901(11) 0.52903(7) 0.00713(17) Uani 1 1 d . . .
+Si4 Si 0.12915(11) -0.46947(11) 0.25818(7) 0.00623(17) Uani 1 1 d . . .
+O1 O 0.5 0 0.5 0.0250(8) Uani 1 2 d S . .
+O2 O 0.1541(3) -0.3431(3) 0.39537(19) 0.0132(4) Uani 1 1 d . . .
+O3 O 0.6119(3) 0.0898(3) 0.14856(18) 0.0094(4) Uani 1 1 d . . .
+O4 O 0.1230(3) -0.1250(3) 0.08485(19) 0.0119(4) Uani 1 1 d . . .
+O5 O 0.3266(3) 0.3103(3) -0.00183(18) 0.0100(4) Uani 1 1 d . . .
+O6 O 0.8840(3) -0.1040(3) 0.23661(19) 0.0107(4) Uani 1 1 d . . .
+O7 O 0.9138(3) 0.5450(3) 0.15506(18) 0.0088(4) Uani 1 1 d . . .
+O8 O 0.0494(3) 0.2860(3) 0.26067(19) 0.0096(4) Uani 1 1 d . . .
+O9 O 0.5327(3) 0.3129(3) 0.3924(2) 0.0167(5) Uani 1 1 d . . .
+O10 O 0.6561(3) 0.4125(3) -0.21888(19) 0.0111(4) Uani 1 1 d . . .
+O11 O 0.8100(3) 0.1185(3) 0.39832(18) 0.0109(4) Uani 1 1 d . . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+M1 0.0100(3) 0.0095(3) 0.0082(3) 0.0021(2) 0.0031(2) 0.0050(2)
+M2 0.0082(3) 0.0096(3) 0.0096(3) 0.0015(2) 0.0037(2) 0.0030(2)
+M3 0.0167(3) 0.0136(3) 0.0243(4) 0.0052(3) 0.0044(3) 0.0047(2)
+Si1 0.0066(3) 0.0041(3) 0.0078(4) 0.0011(3) 0.0022(3) 0.0025(3)
+Si2 0.0066(3) 0.0053(3) 0.0066(4) 0.0006(3) 0.0019(3) 0.0025(3)
+Si3 0.0079(3) 0.0063(4) 0.0066(4) 0.0004(3) 0.0026(3) 0.0021(3)
+Si4 0.0075(3) 0.0048(3) 0.0064(4) 0.0010(3) 0.0016(3) 0.0029(3)
+O1 0.0280(17) 0.0164(16) 0.0249(19) 0.0032(14) 0.0167(15) -0.0047(13)
+O2 0.0128(9) 0.0150(10) 0.0096(11) -0.0015(9) 0.0020(8) 0.0052(8)
+O3 0.0077(9) 0.0101(9) 0.0094(11) 0.0013(8) 0.0009(8) 0.0038(7)
+O4 0.0102(9) 0.0090(10) 0.0179(12) 0.0036(9) 0.0069(8) 0.0036(8)
+O5 0.0087(9) 0.0104(9) 0.0099(11) 0.0028(8) 0.0017(8) 0.0031(7)
+O6 0.0153(9) 0.0083(9) 0.0108(11) 0.0024(8) 0.0044(8) 0.0072(8)
+O7 0.0099(9) 0.0057(9) 0.0090(10) 0.0012(8) 0.0001(7) 0.0030(7)
+O8 0.0092(9) 0.0059(9) 0.0142(11) 0.0044(8) 0.0033(8) 0.0031(7)
+O9 0.0231(11) 0.0176(11) 0.0113(12) 0.0002(9) 0.0017(9) 0.0139(9)
+O10 0.0097(9) 0.0113(10) 0.0137(11) 0.0037(8) 0.0055(8) 0.0043(7)
+O11 0.0140(9) 0.0152(10) 0.0080(11) 0.0033(8) 0.0050(8) 0.0097(8)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+O O 0.0106 0.006 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Si Si 0.0817 0.0704 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+K K 0.2009 0.2494 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ca Ca 0.2262 0.3064 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O5 M1 O9 142.06(8) . . ?
+O5 M1 O4 93.01(7) . . ?
+O9 M1 O4 121.89(8) . . ?
+O5 M1 O3 84.79(7) . . ?
+O9 M1 O3 87.96(7) . . ?
+O4 M1 O3 78.58(6) . . ?
+O5 M1 O8 109.67(7) . . ?
+O9 M1 O8 83.12(7) . . ?
+O4 M1 O8 95.84(6) . . ?
+O3 M1 O8 164.91(7) . . ?
+O5 M1 O10 73.74(7) . 2_665 ?
+O9 M1 O10 82.95(7) . 2_665 ?
+O4 M1 O10 145.38(7) . 2_665 ?
+O3 M1 O10 129.96(6) . 2_665 ?
+O8 M1 O10 61.00(6) . 2_665 ?
+O5 M1 Si4 90.50(5) . 1_565 ?
+O9 M1 Si4 83.13(5) . 1_565 ?
+O4 M1 Si4 122.34(5) . 1_565 ?
+O3 M1 Si4 158.84(5) . 1_565 ?
+O8 M1 Si4 31.19(4) . 1_565 ?
+O10 M1 Si4 29.86(4) 2_665 1_565 ?
+O5 M1 Si1 24.35(5) . 2_655 ?
+O9 M1 Si1 160.84(6) . 2_655 ?
+O4 M1 Si1 77.08(5) . 2_655 ?
+O3 M1 Si1 99.45(5) . 2_655 ?
+O8 M1 Si1 92.84(5) . 2_655 ?
+O10 M1 Si1 78.74(5) 2_665 2_655 ?
+O5 M1 Si1 105.82(5) . 1_455 ?
+O9 M1 Si1 112.10(6) . 1_455 ?
+O4 M1 Si1 23.55(5) . 1_455 ?
+O3 M1 Si1 99.41(5) . 1_455 ?
+O8 M1 Si1 73.00(5) . 1_455 ?
+O10 M1 Si1 129.57(4) 2_665 1_455 ?
+O5 M1 Si3 146.13(5) . 2_656 ?
+O9 M1 Si3 21.22(5) . 2_656 ?
+O4 M1 Si3 104.64(6) . 2_656 ?
+O3 M1 Si3 71.09(5) . 2_656 ?
+O8 M1 Si3 97.22(5) . 2_656 ?
+O10 M1 Si3 103.64(5) 2_665 2_656 ?
+O5 M1 M2 39.25(5) . . ?
+O9 M1 M2 117.92(6) . . ?
+O4 M1 M2 92.11(5) . . ?
+O3 M1 M2 46.53(5) . . ?
+O8 M1 M2 148.43(5) . . ?
+O10 M1 M2 96.49(5) 2_665 . ?
+O5 M1 Si2 101.51(5) . . ?
+O9 M1 Si2 67.02(5) . . ?
+O4 M1 Si2 90.28(5) . . ?
+O3 M1 Si2 20.94(5) . . ?
+O8 M1 Si2 147.79(5) . . ?
+O10 M1 Si2 123.32(4) 2_665 . ?
+O5 M2 O4 162.96(7) . 2_655 ?
+O5 M2 O10 103.83(7) . . ?
+O4 M2 O10 85.10(7) 2_655 . ?
+O5 M2 O3 87.26(6) . 2_655 ?
+O4 M2 O3 76.83(6) 2_655 2_655 ?
+O10 M2 O3 99.72(7) . 2_655 ?
+O5 M2 O7 95.04(6) . . ?
+O4 M2 O7 96.33(6) 2_655 . ?
+O10 M2 O7 106.23(6) . . ?
+O3 M2 O7 152.54(7) 2_655 . ?
+O5 M2 O3 79.51(6) . . ?
+O4 M2 O3 90.93(7) 2_655 . ?
+O10 M2 O3 175.55(6) . . ?
+O3 M2 O3 77.37(7) 2_655 . ?
+O7 M2 O3 76.17(6) . . ?
+O5 M2 O5 67.54(7) . 2_665 ?
+O4 M2 O5 129.49(6) 2_655 2_665 ?
+O10 M2 O5 67.02(6) . 2_665 ?
+O3 M2 O5 146.16(6) 2_655 2_665 ?
+O7 M2 O5 56.55(6) . 2_665 ?
+O3 M2 O5 117.25(6) . 2_665 ?
+O5 M2 Si1 85.31(5) . 1_565 ?
+O4 M2 Si1 110.59(5) 2_655 1_565 ?
+O10 M2 Si1 81.84(5) . 1_565 ?
+O3 M2 Si1 172.57(5) 2_655 1_565 ?
+O7 M2 Si1 29.32(4) . 1_565 ?
+O3 M2 Si1 101.48(5) . 1_565 ?
+O5 M2 Si1 28.37(4) 2_665 1_565 ?
+O5 M2 Si2 72.24(5) . 2_655 ?
+O4 M2 Si2 94.92(5) 2_655 2_655 ?
+O10 M2 Si2 82.90(5) . 2_655 ?
+O3 M2 Si2 25.98(4) 2_655 2_655 ?
+O7 M2 Si2 166.06(5) . 2_655 ?
+O3 M2 Si2 95.46(4) . 2_655 ?
+O5 M2 Si2 120.57(4) 2_665 2_655 ?
+O5 M2 Si1 23.31(5) . 2_655 ?
+O4 M2 Si1 146.99(5) 2_655 2_655 ?
+O10 M2 Si1 88.46(5) . 2_655 ?
+O3 M2 Si1 72.42(4) 2_655 2_655 ?
+O7 M2 Si1 116.53(4) . 2_655 ?
+O3 M2 Si1 93.81(4) . 2_655 ?
+O5 M2 Si1 76.11(4) 2_665 2_655 ?
+O5 M2 Si4 125.54(5) . 2_655 ?
+O4 M2 Si4 65.77(5) 2_655 2_655 ?
+O10 M2 Si4 22.70(4) . 2_655 ?
+O3 M2 Si4 105.16(5) 2_655 2_655 ?
+O7 M2 Si4 95.72(5) . 2_655 ?
+O3 M2 Si4 154.64(4) . 2_655 ?
+O5 M2 Si4 74.95(4) 2_665 2_655 ?
+O5 M2 Si1 175.02(6) . 2_755 ?
+O4 M2 Si1 21.08(5) 2_655 2_755 ?
+O10 M2 Si1 71.48(5) . 2_755 ?
+O3 M2 Si1 95.14(4) 2_655 2_755 ?
+O7 M2 Si1 84.85(4) . 2_755 ?
+O3 M2 Si1 105.26(4) . 2_755 ?
+O5 M2 Si1 108.50(4) 2_665 2_755 ?
+O9 M3 O11 156.76(7) 2_666 2_656 ?
+O9 M3 O11 117.43(6) 2_666 1_455 ?
+O11 M3 O11 85.77(6) 2_656 1_455 ?
+O9 M3 O10 71.58(6) 2_666 1_556 ?
+O11 M3 O10 85.37(6) 2_656 1_556 ?
+O11 M3 O10 165.88(6) 1_455 1_556 ?
+O9 M3 O6 121.75(6) 2_666 2_656 ?
+O11 M3 O6 51.86(5) 2_656 2_656 ?
+O11 M3 O6 90.46(6) 1_455 2_656 ?
+O10 M3 O6 75.41(5) 1_556 2_656 ?
+O9 M3 O9 78.34(6) 2_666 . ?
+O11 M3 O9 98.54(6) 2_656 . ?
+O11 M3 O9 103.83(6) 1_455 . ?
+O10 M3 O9 88.36(6) 1_556 . ?
+O6 M3 O9 146.55(6) 2_656 . ?
+O9 M3 O2 92.54(6) 2_666 2_556 ?
+O11 M3 O2 102.08(6) 2_656 2_556 ?
+O11 M3 O2 50.89(5) 1_455 2_556 ?
+O10 M3 O2 120.76(6) 1_556 2_556 ?
+O6 M3 O2 65.76(6) 2_656 2_556 ?
+O9 M3 O2 145.26(6) . 2_556 ?
+O9 M3 O1 117.64(5) 2_666 . ?
+O11 M3 O1 50.49(4) 2_656 . ?
+O11 M3 O1 107.62(4) 1_455 . ?
+O10 M3 O1 74.71(4) 1_556 . ?
+O6 M3 O1 97.33(4) 2_656 . ?
+O9 M3 O1 49.69(4) . . ?
+O2 M3 O1 149.73(4) 2_556 . ?
+O9 M3 O8 88.13(6) 2_666 . ?
+O11 M3 O8 110.21(5) 2_656 . ?
+O11 M3 O8 49.16(5) 1_455 . ?
+O10 M3 O8 144.82(5) 1_556 . ?
+O6 M3 O8 139.15(5) 2_656 . ?
+O9 M3 O8 58.91(5) . . ?
+O2 M3 O8 87.64(5) 2_556 . ?
+O1 M3 O8 90.87(4) . . ?
+O9 M3 Si3 90.80(5) 2_666 2_656 ?
+O11 M3 Si3 78.03(4) 2_656 2_656 ?
+O11 M3 Si3 119.09(4) 1_455 2_656 ?
+O10 M3 Si3 69.57(4) 1_556 2_656 ?
+O6 M3 Si3 120.21(4) 2_656 2_656 ?
+O9 M3 Si3 26.94(4) . 2_656 ?
+O2 M3 Si3 169.66(5) 2_556 2_656 ?
+O1 M3 Si3 27.748(13) . 2_656 ?
+O8 M3 Si3 82.69(4) . 2_656 ?
+O9 M3 Si2 139.12(5) 2_666 2_656 ?
+O11 M3 Si2 26.67(4) 2_656 2_656 ?
+O11 M3 Si2 94.08(4) 1_455 2_656 ?
+O10 M3 Si2 73.26(4) 1_556 2_656 ?
+O6 M3 Si2 26.55(4) 2_656 2_656 ?
+O9 M3 Si2 120.82(4) . 2_656 ?
+O2 M3 Si2 87.89(4) 2_556 2_656 ?
+O1 M3 Si2 71.151(18) . 2_656 ?
+O8 M3 Si2 132.70(4) . 2_656 ?
+O9 M3 Si3 23.27(5) 2_666 1_565 ?
+O11 M3 Si3 179.55(5) 2_656 1_565 ?
+O11 M3 Si3 94.18(4) 1_455 1_565 ?
+O10 M3 Si3 94.60(4) 1_556 1_565 ?
+O6 M3 Si3 127.70(4) 2_656 1_565 ?
+O9 M3 Si3 81.90(4) . 1_565 ?
+O2 M3 Si3 77.56(4) 2_556 1_565 ?
+O1 M3 Si3 129.92(2) . 1_565 ?
+O8 M3 Si3 70.05(4) . 1_565 ?
+O5 Si1 O4 119.10(11) 2_655 1_655 ?
+O5 Si1 O6 107.68(10) 2_655 . ?
+O4 Si1 O6 110.56(10) 1_655 . ?
+O5 Si1 O7 105.33(10) 2_655 1_545 ?
+O4 Si1 O7 107.90(10) 1_655 1_545 ?
+O6 Si1 O7 105.32(10) . 1_545 ?
+O4 Si1 M1 83.57(8) 1_655 2_655 ?
+O6 Si1 M1 121.68(8) . 2_655 ?
+O7 Si1 M1 124.12(7) 1_545 2_655 ?
+O5 Si1 M2 59.29(7) 2_655 1_545 ?
+O4 Si1 M2 115.66(7) 1_655 1_545 ?
+O6 Si1 M2 132.07(7) . 1_545 ?
+O7 Si1 M2 48.83(7) 1_545 1_545 ?
+M1 Si1 M2 76.44(2) 2_655 1_545 ?
+O5 Si1 M1 126.56(8) 2_655 1_655 ?
+O6 Si1 M1 75.63(7) . 1_655 ?
+O7 Si1 M1 125.69(7) 1_545 1_655 ?
+M1 Si1 M1 95.72(2) 2_655 1_655 ?
+M2 Si1 M1 151.33(3) 1_545 1_655 ?
+O4 Si1 M2 140.36(8) 1_655 2_655 ?
+O6 Si1 M2 72.87(7) . 2_655 ?
+O7 Si1 M2 108.95(7) 1_545 2_655 ?
+M1 Si1 M2 63.853(19) 2_655 2_655 ?
+M2 Si1 M2 79.57(2) 1_545 2_655 ?
+M1 Si1 M2 122.14(2) 1_655 2_655 ?
+O5 Si1 M2 119.45(8) 2_655 2_755 ?
+O6 Si1 M2 130.36(7) . 2_755 ?
+O7 Si1 M2 77.51(7) 1_545 2_755 ?
+M1 Si1 M2 91.85(2) 2_655 2_755 ?
+M2 Si1 M2 87.75(2) 1_545 2_755 ?
+M1 Si1 M2 64.703(18) 1_655 2_755 ?
+M2 Si1 M2 154.55(3) 2_655 2_755 ?
+O3 Si2 O6 114.91(11) . . ?
+O3 Si2 O11 115.17(10) . . ?
+O6 Si2 O11 101.86(10) . . ?
+O3 Si2 O8 112.85(11) . 1_655 ?
+O6 Si2 O8 103.98(10) . 1_655 ?
+O11 Si2 O8 106.86(10) . 1_655 ?
+O6 Si2 M2 74.30(7) . 2_655 ?
+O11 Si2 M2 112.41(7) . 2_655 ?
+O8 Si2 M2 140.22(8) 1_655 2_655 ?
+O3 Si2 M3 116.31(8) . 2_656 ?
+O6 Si2 M3 52.99(7) . 2_656 ?
+O11 Si2 M3 52.37(7) . 2_656 ?
+O8 Si2 M3 130.82(8) 1_655 2_656 ?
+M2 Si2 M3 80.77(2) 2_655 2_656 ?
+O6 Si2 M1 137.08(7) . . ?
+O11 Si2 M1 84.21(7) . . ?
+O8 Si2 M1 114.89(7) 1_655 . ?
+M2 Si2 M1 64.398(18) 2_655 . ?
+M3 Si2 M1 107.04(2) 2_656 . ?
+O3 Si2 M1 118.69(8) . 1_655 ?
+O6 Si2 M1 69.36(7) . 1_655 ?
+O11 Si2 M1 123.70(7) . 1_655 ?
+M2 Si2 M1 117.34(2) 2_655 1_655 ?
+M3 Si2 M1 112.04(2) 2_656 1_655 ?
+M1 Si2 M1 140.65(3) . 1_655 ?
+O3 Si2 M3 155.06(8) . 1_655 ?
+O6 Si2 M3 88.84(7) . 1_655 ?
+O11 Si2 M3 48.37(7) . 1_655 ?
+O8 Si2 M3 65.19(7) 1_655 1_655 ?
+M2 Si2 M3 151.80(3) 2_655 1_655 ?
+M3 Si2 M3 71.04(2) 2_656 1_655 ?
+M1 Si2 M3 123.04(2) . 1_655 ?
+M1 Si2 M3 75.447(19) 1_655 1_655 ?
+O9 Si3 O1 111.56(9) 2_656 . ?
+O9 Si3 O2 113.72(11) 2_656 . ?
+O1 Si3 O2 108.78(9) . . ?
+O9 Si3 O11 113.09(11) 2_656 2_656 ?
+O1 Si3 O11 106.34(8) . 2_656 ?
+O2 Si3 O11 102.75(10) . 2_656 ?
+O1 Si3 M1 100.72(3) . 2_656 ?
+O2 Si3 M1 142.93(8) . 2_656 ?
+O11 Si3 M1 89.57(8) 2_656 2_656 ?
+O9 Si3 M3 62.11(8) 2_656 2_656 ?
+O1 Si3 M3 67.20(3) . 2_656 ?
+O2 Si3 M3 89.84(7) . 2_656 ?
+O11 Si3 M3 167.28(8) 2_656 2_656 ?
+M1 Si3 M3 81.22(2) 2_656 2_656 ?
+O1 Si3 M3 144.29(4) . 1_545 ?
+O2 Si3 M3 76.09(8) . 1_545 ?
+O11 Si3 M3 106.87(8) 2_656 1_545 ?
+M1 Si3 M3 66.87(2) 2_656 1_545 ?
+M3 Si3 M3 77.62(2) 2_656 1_545 ?
+O9 Si3 M3 139.17(8) 2_656 . ?
+O1 Si3 M3 59.31(2) . . ?
+O2 Si3 M3 106.45(8) . . ?
+O11 Si3 M3 48.34(7) 2_656 . ?
+M1 Si3 M3 107.73(2) 2_656 . ?
+M3 Si3 M3 126.51(2) 2_656 . ?
+M3 Si3 M3 155.21(3) 1_545 . ?
+O9 Si3 M3 130.26(9) 2_656 2_556 ?
+O1 Si3 M3 117.91(4) . 2_556 ?
+O2 Si3 M3 54.46(7) . 2_556 ?
+O11 Si3 M3 48.30(7) 2_656 2_556 ?
+M1 Si3 M3 127.80(3) 2_656 2_556 ?
+M3 Si3 M3 144.21(3) 2_656 2_556 ?
+M3 Si3 M3 94.12(2) 1_545 2_556 ?
+M3 Si3 M3 69.61(2) . 2_556 ?
+O10 Si4 O2 115.96(10) 2_655 . ?
+O10 Si4 O8 107.08(10) 2_655 1_545 ?
+O2 Si4 O8 107.94(11) . 1_545 ?
+O10 Si4 O7 115.23(11) 2_655 1_445 ?
+O2 Si4 O7 106.41(10) . 1_445 ?
+O8 Si4 O7 103.30(10) 1_545 1_445 ?
+O10 Si4 M1 55.44(7) 2_655 1_545 ?
+O2 Si4 M1 131.44(8) . 1_545 ?
+O8 Si4 M1 51.75(7) 1_545 1_545 ?
+O7 Si4 M1 120.45(7) 1_445 1_545 ?
+O2 Si4 M2 126.12(8) . 2_655 ?
+O8 Si4 M2 122.79(7) 1_545 2_655 ?
+O7 Si4 M2 80.00(7) 1_445 2_655 ?
+M1 Si4 M2 76.99(2) 1_545 2_655 ?
+O2 Si4 M3 77.73(7) . 2_656 ?
+O8 Si4 M3 100.62(7) 1_545 2_656 ?
+O7 Si4 M3 152.89(7) 1_445 2_656 ?
+M1 Si4 M3 66.71(2) 1_545 2_656 ?
+M2 Si4 M3 76.42(2) 2_655 2_656 ?
+Si3 O1 Si3 180.00(5) . 2_656 ?
+Si3 O1 M3 94.95(3) . . ?
+Si3 O1 M3 85.05(3) 2_656 . ?
+Si3 O1 M3 85.05(3) . 2_656 ?
+Si3 O1 M3 94.95(3) 2_656 2_656 ?
+M3 O1 M3 180 . 2_656 ?
+Si4 O2 Si3 142.23(13) . . ?
+Si4 O2 M3 117.48(9) . 2_556 ?
+Si3 O2 M3 99.79(9) . 2_556 ?
+Si2 O3 M1 126.00(11) . . ?
+Si2 O3 M2 110.86(10) . 2_655 ?
+M1 O3 M2 98.85(6) . 2_655 ?
+Si2 O3 M2 123.00(10) . . ?
+M1 O3 M2 90.81(6) . . ?
+M2 O3 M2 102.63(7) 2_655 . ?
+Si1 O4 M1 120.78(10) 1_455 . ?
+Si1 O4 M2 126.73(10) 1_455 2_655 ?
+M1 O4 M2 105.72(7) . 2_655 ?
+Si1 O5 M1 119.92(10) 2_655 . ?
+Si1 O5 M2 121.30(11) 2_655 . ?
+M1 O5 M2 102.99(8) . . ?
+Si1 O5 M2 92.34(8) 2_655 2_665 ?
+M1 O5 M2 106.87(7) . 2_665 ?
+M2 O5 M2 112.46(7) . 2_665 ?
+Si2 O6 Si1 132.32(13) . . ?
+Si2 O6 M3 100.46(9) . 2_656 ?
+Si1 O6 M3 121.55(9) . 2_656 ?
+Si4 O7 Si1 124.76(11) 1_665 1_565 ?
+Si4 O7 M2 127.58(9) 1_665 . ?
+Si1 O7 M2 101.84(9) 1_565 . ?
+Si2 O8 Si4 138.30(12) 1_455 1_565 ?
+Si2 O8 M1 120.88(10) 1_455 . ?
+Si4 O8 M1 97.06(8) 1_565 . ?
+Si2 O8 M3 88.40(8) 1_455 . ?
+Si4 O8 M3 103.21(9) 1_565 . ?
+M1 O8 M3 98.86(6) . . ?
+Si3 O9 M1 127.17(11) 2_656 . ?
+Si3 O9 M3 115.15(11) 2_656 2_666 ?
+M1 O9 M3 104.46(8) . 2_666 ?
+Si3 O9 M3 90.95(10) 2_656 . ?
+M1 O9 M3 114.37(8) . . ?
+M3 O9 M3 101.66(6) 2_666 . ?
+Si4 O10 M2 121.72(11) 2_655 . ?
+Si4 O10 M1 94.71(9) 2_655 2_665 ?
+M2 O10 M1 112.01(7) . 2_665 ?
+Si4 O10 M3 113.55(10) 2_655 1_554 ?
+M2 O10 M3 117.42(7) . 1_554 ?
+M1 O10 M3 89.18(6) 2_665 1_554 ?
+Si2 O11 Si3 134.69(13) . 2_656 ?
+Si2 O11 M3 100.96(9) . 2_656 ?
+Si3 O11 M3 106.44(9) 2_656 2_656 ?
+Si2 O11 M3 106.62(9) . 1_655 ?
+Si3 O11 M3 106.55(9) 2_656 1_655 ?
+M3 O11 M3 94.23(6) 2_656 1_655 ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+M1 O5 2.251(2) . ?
+M1 O9 2.262(2) . ?
+M1 O4 2.3230(19) . ?
+M1 O3 2.4272(18) . ?
+M1 O8 2.4965(19) . ?
+M1 O10 2.607(2) 2_665 ?
+M2 O5 2.3254(19) . ?
+M2 O4 2.3565(19) 2_655 ?
+M2 O10 2.376(2) . ?
+M2 O3 2.4838(19) 2_655 ?
+M2 O7 2.5695(19) . ?
+M2 O3 2.599(2) . ?
+M2 O5 2.8746(19) 2_665 ?
+M3 O9 2.623(2) 2_666 ?
+M3 O11 2.879(2) 2_656 ?
+M3 O11 2.884(2) 1_455 ?
+M3 O10 2.895(2) 1_556 ?
+M3 O6 2.898(2) 2_656 ?
+M3 O9 3.047(2) . ?
+M3 O2 3.058(2) 2_556 ?
+M3 O1 3.1900(7) . ?
+M3 O8 3.358(2) . ?
+Si1 O5 1.5887(19) 2_655 ?
+Si1 O4 1.5916(19) 1_655 ?
+Si1 O6 1.655(2) . ?
+Si1 O7 1.672(2) 1_545 ?
+Si2 O3 1.5904(19) . ?
+Si2 O6 1.6222(19) . ?
+Si2 O11 1.631(2) . ?
+Si2 O8 1.6455(19) 1_655 ?
+Si3 O9 1.562(2) 2_656 ?
+Si3 O1 1.6111(7) . ?
+Si3 O2 1.633(2) . ?
+Si3 O11 1.6419(19) 2_656 ?
+Si4 O10 1.5759(19) 2_655 ?
+Si4 O2 1.625(2) . ?
+Si4 O8 1.6464(19) 1_545 ?
+Si4 O7 1.6522(19) 1_445 ?
+O1 Si3 1.6111(7) 2_656 ?
+O1 M3 3.1900(7) 2_656 ?
+O2 M3 3.058(2) 2_556 ?
+O3 M2 2.4838(19) 2_655 ?
+O4 Si1 1.5916(19) 1_455 ?
+O4 M2 2.3565(19) 2_655 ?
+O5 Si1 1.5887(19) 2_655 ?
+O5 M2 2.8746(19) 2_665 ?
+O6 M3 2.898(2) 2_656 ?
+O7 Si4 1.6522(19) 1_665 ?
+O7 Si1 1.672(2) 1_565 ?
+O8 Si2 1.6455(19) 1_455 ?
+O8 Si4 1.6464(19) 1_565 ?
+O9 Si3 1.562(2) 2_656 ?
+O9 M3 2.623(2) 2_666 ?
+O10 Si4 1.5759(19) 2_655 ?
+O10 M1 2.607(2) 2_665 ?
+O10 M3 2.895(2) 1_554 ?
+O11 Si3 1.6419(19) 2_656 ?
+O11 M3 2.879(2) 2_656 ?
+O11 M3 2.884(2) 1_655 ?

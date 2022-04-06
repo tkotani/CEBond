@@ -1,0 +1,615 @@
+#------------------------------------------------------------------------------
+#$Date: 2018-09-27 07:13:35 +0300 (Thu, 27 Sep 2018) $
+#$Revision: 211196 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/00/86/2008697.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2008697
+loop_
+_publ_author_name
+'Chiba, Koji'
+'Ishizawa, Nobuo'
+'Oishi, Shuji'
+_publ_section_title
+;
+ A Ruddlesden--Popper-type layered perovskite, Na~2~Ca~2~Nb~4~O~13~
+;
+_journal_issue                   7
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              1041
+_journal_page_last               1044
+_journal_paper_doi               10.1107/S0108270199001134
+_journal_volume                  55
+_journal_year                    1999
+_chemical_formula_sum            'Ca2 Na2 Nb4 O13'
+_chemical_formula_weight         705.75
+_chemical_name_systematic
+'dicalcium disodium tetraniobium tridecaoxide'
+_space_group_IT_number           36
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  'B -2 -2b'
+_symmetry_space_group_name_H-M   'B b 21 m'
+_audit_creation_method           from_xtal_archive_file_using_CIFIO
+_cell_angle_alpha                90.000(9)
+_cell_angle_beta                 90.000(9)
+_cell_angle_gamma                90.000(9)
+_cell_formula_units_Z            4
+_cell_length_a                   5.474(3)
+_cell_length_b                   5.510(3)
+_cell_length_c                   36.150(10)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      11.0
+_cell_measurement_theta_min      5.0
+_cell_volume                     1090.3(9)
+_computing_cell_refinement       'Xtal3.4 (Hall et al., 1995)'
+_computing_data_collection
+;MSC/AFC Diffractometer Control Software (Molecular Structure Corporation,
+ 1988)
+;
+_computing_data_reduction        Xtal3.4
+_computing_molecular_graphics
+;
+ORTEP (Johnson, 1970) and ATOMS (Dowty, 1995)
+;
+_computing_publication_material  Xtal3.4
+_computing_structure_refinement  Xtal3.4
+_computing_structure_solution    Xtal3.4
+_diffrn_ambient_temperature      293
+_diffrn_measurement_device       'Rigaku AFC-5R'
+_diffrn_measurement_method       \w/2\q
+_diffrn_radiation_monochromator  graphite_002
+_diffrn_radiation_source         xray_tube
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.7107
+_diffrn_reflns_av_R_equivalents  0.032
+_diffrn_reflns_av_sigmaI/netI    0.047
+_diffrn_reflns_limit_h_max       10
+_diffrn_reflns_limit_h_min       -10
+_diffrn_reflns_limit_k_max       10
+_diffrn_reflns_limit_k_min       -10
+_diffrn_reflns_limit_l_max       71
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            4390
+_diffrn_reflns_reduction_process perpendicular_monochr_Lp
+_diffrn_reflns_theta_max         45.0
+_diffrn_reflns_theta_min         2.25
+_diffrn_standards_decay_%        0
+_diffrn_standards_interval_count 200
+_diffrn_standards_number         6
+_exptl_absorpt_coefficient_mu    5.19
+_exptl_absorpt_correction_T_max  0.897
+_exptl_absorpt_correction_T_min  0.642
+_exptl_absorpt_correction_type   analytical
+_exptl_absorpt_process_details   'de Meulenaer & Tompa (1965)'
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    4.299
+_exptl_crystal_density_meas      ?
+_exptl_crystal_description       rectangular
+_exptl_crystal_F_000             1320
+_exptl_crystal_size_max          0.13
+_exptl_crystal_size_mid          0.09
+_exptl_crystal_size_min          0.02
+_refine_diff_density_max         2.078
+_refine_diff_density_min         -2.06
+_refine_ls_abs_structure_details none
+_refine_ls_extinction_coef       15.E1(3)
+_refine_ls_extinction_method     'Gaussian (Becker & Coppens, 1974)'
+_refine_ls_goodness_of_fit_all   1.993
+_refine_ls_goodness_of_fit_obs   1.993
+_refine_ls_hydrogen_treatment    none
+_refine_ls_matrix_type           full
+_refine_ls_number_constraints    0
+_refine_ls_number_parameters     58
+_refine_ls_number_reflns         669
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          0.044
+_refine_ls_R_factor_obs          0.044
+_refine_ls_shift/esd_max         0.001
+_refine_ls_shift/esd_mean        0
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_all         0.026
+_refine_ls_wR_factor_obs         0.026
+_reflns_number_observed          669
+_reflns_number_total             1361
+_reflns_observed_criterion       I>3\s(I)
+_cod_data_source_file            oa1080.cif
+_cod_data_source_block           fake3
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_exptl_crystal_density_meas' value 'not measured' was changed to '?'
+- the value is perceived as not measured.
+
+Automatic conversion script
+Id: cif_fix_values 3008 2015-01-20 13:52:24Z robertas 
+;
+_cod_original_sg_symbol_Hall     'B 2y1 -2b'
+_cod_database_code               2008697
+loop_
+_symmetry_equiv_pos_as_xyz
++x,+y,+z
++x,+y,-z
+-x,1/2+y,+z
+-x,1/2+y,-z
+1/2+x,+y,1/2+z
+1/2+x,+y,1/2-z
+1/2-x,1/2+y,1/2+z
+1/2-x,1/2+y,1/2-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Nb1 0.0017(13) 0.0054(6) 0.0090(6) 0.000(4) 0.0005(11) 0.0027(10)
+Nb2 0.0065(5) 0.0087(8) 0.0120(7) 0.001(7) 0.004(2) 0.0014(11)
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_calc_flag
+_atom_site_calc_attached_atom
+_atom_site_occupancy
+Nb1 0.2623(15) 0 0.05497(5) 0.0054(8) Uani ? ? 1
+Nb2 0.2517(14) 0.9897(13) 0.16809(4) 0.0091(7) Uani ? ? 1
+Ca1 0.244(5) 0.507(5) 0 0.018(2) Uiso ? ? 0.63(3)
+Na1 0.244(5) 0.507(5) 0 0.018(2) Uiso ? ? 0.37(3)
+Ca2 0.250(4) 0.4738(19) 0.11318(12) 0.0192(12) Uiso ? ? 0.69(3)
+Na2 0.250(4) 0.4738(19) 0.11318(12) 0.0192(12) Uiso ? ? 0.31(3)
+Na3 0.276(5) 0.498(11) 0.2216(4) 0.019(6) Uiso ? ? 0.5
+O1 0.197(3) 0.036(5) 0 0.018(6) Uiso ? ? 1
+O2 0.2997(18) 0.024(3) 0.1056(4) 0.014(3) Uiso ? ? 1
+O3 0.207(2) 0.010(6) 0.2177(4) 0.025(4) Uiso ? ? 1
+O4 0.051(3) 0.308(3) 0.0586(5) 0.012(3) Uiso ? ? 1
+O5 0.458(4) 0.713(4) 0.0457(5) 0.019(4) Uiso ? ? 1
+O6 0.979(4) 0.236(4) 0.1532(4) 0.009(3) Uiso ? ? 1
+O7 0.525(4) 0.773(4) 0.1651(5) 0.015(4) Uiso ? ? 1
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Ca .226196 .306397 Int.Nat.TableC
+Na .036194 .024902 Int.Nat.TableC
+Nb -2.0727 .621521 Int.Nat.TableC
+O .01062 .005981 Int.Nat.TableC
+loop_
+_diffrn_standard_refln_index_h
+_diffrn_standard_refln_index_k
+_diffrn_standard_refln_index_l
+2 0 0
+-2 0 0
+2 2 0
+-2 -2 0
+2 -2 0
+-2 2 0
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O1 Nb1 O2 . . 169.6(9) no
+O1 Nb1 O4 . . 83.3(9) no
+O1 Nb1 O5 . 1_545 90.4(9) no
+O1 Nb1 O4 . 3_545 88.0(8) no
+O1 Nb1 O5 . 3_645 84.9(8) no
+O2 Nb1 O4 . . 86.6(7) no
+O2 Nb1 O5 . 1_545 99.7(7) no
+O2 Nb1 O4 . 3_545 93.9(7) no
+O2 Nb1 O5 . 3_645 92.3(7) no
+O4 Nb1 O5 . 1_545 173.7(7) no
+O4 Nb1 O4 . 3_545 87.2(7) no
+O4 Nb1 O5 . 3_645 87.5(8) no
+O5 Nb1 O4 1_545 3_545 93.0(8) no
+O5 Nb1 O5 1_545 3_645 91.6(10) no
+O4 Nb1 O5 3_545 3_645 171.6(8) no
+O7 Nb2 O6 . 1_465 161.5(7) no
+O7 Nb2 O2 . 1_565 84.6(7) no
+O7 Nb2 O3 . 1_565 101.5(9) no
+O7 Nb2 O6 . 3_655 92.5(10) no
+O7 Nb2 O7 . 3_655 90.4(10) no
+O6 Nb2 O2 1_465 1_565 76.9(5) no
+O6 Nb2 O3 1_465 1_565 96.8(9) no
+O6 Nb2 O6 1_465 3_655 86.1(9) no
+O6 Nb2 O7 1_465 3_655 85.1(9) no
+O2 Nb2 O3 1_565 1_565 171.6(12) no
+O2 Nb2 O6 1_565 3_655 82.0(6) no
+O2 Nb2 O7 1_565 3_655 79.1(7) no
+O3 Nb2 O6 1_565 3_655 103.2(10) no
+O3 Nb2 O7 1_565 3_655 95.1(10) no
+O6 Nb2 O7 3_655 3_655 160.5(7) no
+O1 Ca1 O4 . . 62.7(7) no
+O1 Ca1 O5 . . 122.4(10) no
+O1 Ca1 O1 . 1_565 169.3(12) no
+O1 Ca1 O4 . 2 62.7(7) no
+O1 Ca1 O5 . 2 122.4(10) no
+O1 Ca1 O1 . 3 88.1(11) no
+O1 Ca1 O4 . 3 118.4(8) no
+O1 Ca1 O5 . 3_645 59.2(7) no
+O1 Ca1 O1 . 3_655 98.7(11) no
+O1 Ca1 O4 . 4 118.4(8) no
+O1 Ca1 O5 . 4_645 59.2(7) no
+O4 Ca1 O5 . . 80.3(6) no
+O4 Ca1 O1 . 1_565 112.5(8) no
+O4 Ca1 O4 . 2 108.6(11) no
+O4 Ca1 O5 . 2 171.0(12) no
+O4 Ca1 O1 . 3 67.9(8) no
+O4 Ca1 O4 . 3 57.7(6) no
+O4 Ca1 O5 . 3_645 61.2(7) no
+O4 Ca1 O1 . 3_655 115.2(8) no
+O4 Ca1 O4 . 4 124.2(11) no
+O4 Ca1 O5 . 4_645 117.8(11) no
+O5 Ca1 O1 . 1_565 63.7(8) no
+O5 Ca1 O4 . 2 171.0(12) no
+O5 Ca1 O5 . 2 90.7(12) no
+O5 Ca1 O1 . 3 118.1(11) no
+O5 Ca1 O4 . 3 61.4(7) no
+O5 Ca1 O5 . 3_645 64.8(8) no
+O5 Ca1 O1 . 3_655 58.0(8) no
+O5 Ca1 O4 . 4 118.8(12) no
+O5 Ca1 O5 . 4_645 113.8(12) no
+O1 Ca1 O4 1_565 2 112.5(8) no
+O1 Ca1 O5 1_565 2 63.7(8) no
+O1 Ca1 O1 1_565 3 81.2(11) no
+O1 Ca1 O4 1_565 3 55.1(6) no
+O1 Ca1 O5 1_565 3_645 128.4(9) no
+O1 Ca1 O1 1_565 3_655 92.1(10) no
+O1 Ca1 O4 1_565 4 55.1(6) no
+O1 Ca1 O5 1_565 4_645 128.4(9) no
+O4 Ca1 O5 2 2 80.3(6) no
+O4 Ca1 O1 2 3 67.9(8) no
+O4 Ca1 O4 2 3 124.2(11) no
+O4 Ca1 O5 2 3_645 117.8(11) no
+O4 Ca1 O1 2 3_655 115.2(8) no
+O4 Ca1 O4 2 4 57.7(6) no
+O4 Ca1 O5 2 4_645 61.2(7) no
+O5 Ca1 O1 2 3 118.1(11) no
+O5 Ca1 O4 2 3 118.8(12) no
+O5 Ca1 O5 2 3_645 113.8(12) no
+O5 Ca1 O1 2 3_655 58.0(8) no
+O5 Ca1 O4 2 4 61.4(7) no
+O5 Ca1 O5 2 4_645 64.8(8) no
+O1 Ca1 O4 3 3 56.7(7) no
+O1 Ca1 O5 3 3_645 127.8(10) no
+O1 Ca1 O1 3 3_655 173.2(14) no
+O1 Ca1 O4 3 4 56.7(7) no
+O1 Ca1 O5 3 4_645 127.8(10) no
+O4 Ca1 O5 3 3_645 101.8(5) no
+O4 Ca1 O1 3 3_655 119.1(8) no
+O4 Ca1 O4 3 4 84.9(8) no
+O4 Ca1 O5 3 4_645 173.2(8) no
+O5 Ca1 O1 3_645 3_655 56.9(8) no
+O5 Ca1 O4 3_645 4 173.2(8) no
+O5 Ca1 O5 3_645 4_645 71.4(9) no
+O1 Ca1 O4 3_655 4 119.1(8) no
+O1 Ca1 O5 3_655 4_645 56.9(8) no
+O4 Ca1 O5 4 4_645 101.8(5) no
+O1 Na1 O4 . . 62.7(7) no
+O1 Na1 O5 . . 122.4(10) no
+O1 Na1 O1 . 1_565 169.3(12) no
+O1 Na1 O4 . 2 62.7(7) no
+O1 Na1 O5 . 2 122.4(10) no
+O1 Na1 O1 . 3 88.1(11) no
+O1 Na1 O4 . 3 118.4(8) no
+O1 Na1 O5 . 3_645 59.2(7) no
+O1 Na1 O1 . 3_655 98.7(11) no
+O1 Na1 O4 . 4 118.4(8) no
+O1 Na1 O5 . 4_645 59.2(7) no
+O4 Na1 O5 . . 80.3(6) no
+O4 Na1 O1 . 1_565 112.5(8) no
+O4 Na1 O4 . 2 108.6(11) no
+O4 Na1 O5 . 2 171.0(12) no
+O4 Na1 O1 . 3 67.9(8) no
+O4 Na1 O4 . 3 57.7(6) no
+O4 Na1 O5 . 3_645 61.2(7) no
+O4 Na1 O1 . 3_655 115.2(8) no
+O4 Na1 O4 . 4 124.2(11) no
+O4 Na1 O5 . 4_645 117.8(11) no
+O5 Na1 O1 . 1_565 63.7(8) no
+O5 Na1 O4 . 2 171.0(12) no
+O5 Na1 O5 . 2 90.7(12) no
+O5 Na1 O1 . 3 118.1(11) no
+O5 Na1 O4 . 3 61.4(7) no
+O5 Na1 O5 . 3_645 64.8(8) no
+O5 Na1 O1 . 3_655 58.0(8) no
+O5 Na1 O4 . 4 118.8(12) no
+O5 Na1 O5 . 4_645 113.8(12) no
+O1 Na1 O4 1_565 2 112.5(8) no
+O1 Na1 O5 1_565 2 63.7(8) no
+O1 Na1 O1 1_565 3 81.2(11) no
+O1 Na1 O4 1_565 3 55.1(6) no
+O1 Na1 O5 1_565 3_645 128.4(9) no
+O1 Na1 O1 1_565 3_655 92.1(10) no
+O1 Na1 O4 1_565 4 55.1(6) no
+O1 Na1 O5 1_565 4_645 128.4(9) no
+O4 Na1 O5 2 2 80.3(6) no
+O4 Na1 O1 2 3 67.9(8) no
+O4 Na1 O4 2 3 124.2(11) no
+O4 Na1 O5 2 3_645 117.8(11) no
+O4 Na1 O1 2 3_655 115.2(8) no
+O4 Na1 O4 2 4 57.7(6) no
+O4 Na1 O5 2 4_645 61.2(7) no
+O5 Na1 O1 2 3 118.1(11) no
+O5 Na1 O4 2 3 118.8(12) no
+O5 Na1 O5 2 3_645 113.8(12) no
+O5 Na1 O1 2 3_655 58.0(8) no
+O5 Na1 O4 2 4 61.4(7) no
+O5 Na1 O5 2 4_645 64.8(8) no
+O1 Na1 O4 3 3 56.7(7) no
+O1 Na1 O5 3 3_645 127.8(10) no
+O1 Na1 O1 3 3_655 173.2(14) no
+O1 Na1 O4 3 4 56.7(7) no
+O1 Na1 O5 3 4_645 127.8(10) no
+O4 Na1 O5 3 3_645 101.8(5) no
+O4 Na1 O1 3 3_655 119.1(8) no
+O4 Na1 O4 3 4 84.9(8) no
+O4 Na1 O5 3 4_645 173.2(8) no
+O5 Na1 O1 3_645 3_655 56.9(8) no
+O5 Na1 O4 3_645 4 173.2(8) no
+O5 Na1 O5 3_645 4_645 71.4(9) no
+O1 Na1 O4 3_655 4 119.1(8) no
+O1 Na1 O5 3_655 4_645 56.9(8) no
+O4 Na1 O5 4 4_645 101.8(5) no
+O2 Ca2 O4 . . 65.7(6) no
+O2 Ca2 O5 . . 107.7(6) no
+O2 Ca2 O7 . . 124.9(8) no
+O2 Ca2 O6 . 1_455 66.5(6) no
+O2 Ca2 O2 . 1_565 163.9(7) no
+O2 Ca2 O2 . 3 100.8(7) no
+O2 Ca2 O4 . 3 124.3(6) no
+O2 Ca2 O5 . 3_645 55.1(5) no
+O2 Ca2 O7 . 3_645 65.9(6) no
+O2 Ca2 O2 . 3_655 89.4(7) no
+O2 Ca2 O6 . 3_655 135.9(8) no
+O4 Ca2 O5 . . 71.0(6) no
+O4 Ca2 O7 . . 164.9(7) no
+O4 Ca2 O6 . 1_455 90.4(8) no
+O4 Ca2 O2 . 1_565 109.9(6) no
+O4 Ca2 O2 . 3 61.1(7) no
+O4 Ca2 O4 . 3 58.6(6) no
+O4 Ca2 O5 . 3_645 56.3(6) no
+O4 Ca2 O7 . 3_645 131.5(8) no
+O4 Ca2 O2 . 3_655 113.3(7) no
+O4 Ca2 O6 . 3_655 118.8(11) no
+O5 Ca2 O7 . . 94.5(7) no
+O5 Ca2 O6 . 1_455 160.9(9) no
+O5 Ca2 O2 . 1_565 57.1(5) no
+O5 Ca2 O2 . 3 105.3(6) no
+O5 Ca2 O4 . 3 55.5(5) no
+O5 Ca2 O5 . 3_645 52.9(6) no
+O5 Ca2 O7 . 3_645 128.2(10) no
+O5 Ca2 O2 . 3_655 59.1(6) no
+O5 Ca2 O6 . 3_655 115.1(7) no
+O7 Ca2 O6 . 1_455 103.6(6) no
+O7 Ca2 O2 . 1_565 56.7(5) no
+O7 Ca2 O2 . 3 121.2(7) no
+O7 Ca2 O4 . 3 110.0(6) no
+O7 Ca2 O5 . 3_645 118.6(9) no
+O7 Ca2 O7 . 3_645 60.9(7) no
+O7 Ca2 O2 . 3_655 59.9(7) no
+O7 Ca2 O6 . 3_655 62.7(7) no
+O6 Ca2 O2 1_455 1_565 129.6(8) no
+O6 Ca2 O2 1_455 3 60.1(7) no
+O6 Ca2 O4 1_455 3 111.4(9) no
+O6 Ca2 O5 1_455 3_645 120.3(7) no
+O6 Ca2 O7 1_455 3_645 67.6(7) no
+O6 Ca2 O2 1_455 3_655 136.2(8) no
+O6 Ca2 O6 1_455 3_655 69.5(8) no
+O2 Ca2 O2 1_565 3 89.4(6) no
+O2 Ca2 O4 1_565 3 54.0(4) no
+O2 Ca2 O5 1_565 3_645 109.1(6) no
+O2 Ca2 O7 1_565 3_645 117.5(7) no
+O2 Ca2 O2 1_565 3_655 78.0(6) no
+O2 Ca2 O6 1_565 3_655 60.2(6) no
+O2 Ca2 O4 3 3 51.2(5) no
+O2 Ca2 O5 3 3_645 117.4(6) no
+O2 Ca2 O7 3 3_645 126.6(8) no
+O2 Ca2 O2 3 3_655 163.7(6) no
+O2 Ca2 O6 3 3_655 58.7(7) no
+O4 Ca2 O5 3 3_645 92.6(5) no
+O4 Ca2 O7 3 3_645 169.1(7) no
+O4 Ca2 O2 3 3_655 112.4(6) no
+O4 Ca2 O6 3 3_655 75.7(7) no
+O5 Ca2 O7 3_645 3_645 97.2(8) no
+O5 Ca2 O2 3_645 3_655 58.7(6) no
+O5 Ca2 O6 3_645 3_655 167.4(7) no
+O7 Ca2 O2 3_645 3_655 69.2(8) no
+O7 Ca2 O6 3_645 3_655 94.1(6) no
+O2 Ca2 O6 3_655 3_655 121.0(8) no
+O2 Na2 O4 . . 65.7(6) no
+O2 Na2 O5 . . 107.7(6) no
+O2 Na2 O7 . . 124.9(8) no
+O2 Na2 O6 . 1_455 66.5(6) no
+O2 Na2 O2 . 1_565 163.9(7) no
+O2 Na2 O2 . 3 100.8(7) no
+O2 Na2 O4 . 3 124.3(6) no
+O2 Na2 O5 . 3_645 55.1(5) no
+O2 Na2 O7 . 3_645 65.9(6) no
+O2 Na2 O2 . 3_655 89.4(7) no
+O2 Na2 O6 . 3_655 135.9(8) no
+O4 Na2 O5 . . 71.0(6) no
+O4 Na2 O7 . . 164.9(7) no
+O4 Na2 O6 . 1_455 90.4(8) no
+O4 Na2 O2 . 1_565 109.9(6) no
+O4 Na2 O2 . 3 61.1(7) no
+O4 Na2 O4 . 3 58.6(6) no
+O4 Na2 O5 . 3_645 56.3(6) no
+O4 Na2 O7 . 3_645 131.5(8) no
+O4 Na2 O2 . 3_655 113.3(7) no
+O4 Na2 O6 . 3_655 118.8(11) no
+O5 Na2 O7 . . 94.5(7) no
+O5 Na2 O6 . 1_455 160.9(9) no
+O5 Na2 O2 . 1_565 57.1(5) no
+O5 Na2 O2 . 3 105.3(6) no
+O5 Na2 O4 . 3 55.5(5) no
+O5 Na2 O5 . 3_645 52.9(6) no
+O5 Na2 O7 . 3_645 128.2(10) no
+O5 Na2 O2 . 3_655 59.1(6) no
+O5 Na2 O6 . 3_655 115.1(7) no
+O7 Na2 O6 . 1_455 103.6(6) no
+O7 Na2 O2 . 1_565 56.7(5) no
+O7 Na2 O2 . 3 121.2(7) no
+O7 Na2 O4 . 3 110.0(6) no
+O7 Na2 O5 . 3_645 118.6(9) no
+O7 Na2 O7 . 3_645 60.9(7) no
+O7 Na2 O2 . 3_655 59.9(7) no
+O7 Na2 O6 . 3_655 62.7(7) no
+O6 Na2 O2 1_455 1_565 129.6(8) no
+O6 Na2 O2 1_455 3 60.1(7) no
+O6 Na2 O4 1_455 3 111.4(9) no
+O6 Na2 O5 1_455 3_645 120.3(7) no
+O6 Na2 O7 1_455 3_645 67.6(7) no
+O6 Na2 O2 1_455 3_655 136.2(8) no
+O6 Na2 O6 1_455 3_655 69.5(8) no
+O2 Na2 O2 1_565 3 89.4(6) no
+O2 Na2 O4 1_565 3 54.0(4) no
+O2 Na2 O5 1_565 3_645 109.1(6) no
+O2 Na2 O7 1_565 3_645 117.5(7) no
+O2 Na2 O2 1_565 3_655 78.0(6) no
+O2 Na2 O6 1_565 3_655 60.2(6) no
+O2 Na2 O4 3 3 51.2(5) no
+O2 Na2 O5 3 3_645 117.4(6) no
+O2 Na2 O7 3 3_645 126.6(8) no
+O2 Na2 O2 3 3_655 163.7(6) no
+O2 Na2 O6 3 3_655 58.7(7) no
+O4 Na2 O5 3 3_645 92.6(5) no
+O4 Na2 O7 3 3_645 169.1(7) no
+O4 Na2 O2 3 3_655 112.4(6) no
+O4 Na2 O6 3 3_655 75.7(7) no
+O5 Na2 O7 3_645 3_645 97.2(8) no
+O5 Na2 O2 3_645 3_655 58.7(6) no
+O5 Na2 O6 3_645 3_655 167.4(7) no
+O7 Na2 O2 3_645 3_655 69.2(8) no
+O7 Na2 O6 3_645 3_655 94.1(6) no
+O2 Na2 O6 3_655 3_655 121.0(8) no
+O3 Na3 O7 . . 123.2(13) no
+O3 Na3 O6 . 1_455 57.2(10) no
+O3 Na3 O3 . 1_565 163.3(11) no
+O3 Na3 O3 . 3 83.3(15) no
+O3 Na3 O7 . 3_645 63.3(13) no
+O3 Na3 O3 . 3_655 99.2(17) no
+O3 Na3 O6 . 3_655 108.2(11) no
+O3 Na3 O3 . 8 95(2) no
+O7 Na3 O6 . 1_455 86.1(6) no
+O7 Na3 O3 . 1_565 60.5(12) no
+O7 Na3 O3 . 3 114.9(14) no
+O7 Na3 O7 . 3_645 60.1(8) no
+O7 Na3 O3 . 3_655 58.7(9) no
+O7 Na3 O6 . 3_655 55.3(8) no
+O7 Na3 O3 . 8 132(2) no
+O6 Na3 O3 1_455 1_565 109.4(11) no
+O6 Na3 O3 1_455 3 58.5(8) no
+O6 Na3 O7 1_455 3_645 54.1(8) no
+O6 Na3 O3 1_455 3_655 117.8(11) no
+O6 Na3 O6 1_455 3_655 50.9(6) no
+O6 Na3 O3 1_455 8 142(2) no
+O3 Na3 O3 1_565 3 80.8(15) no
+O3 Na3 O7 1_565 3_645 118.9(14) no
+O3 Na3 O3 1_565 3_655 96.1(16) no
+O3 Na3 O6 1_565 3_655 59.1(10) no
+O3 Na3 O3 1_565 8 91.4(19) no
+O3 Na3 O7 3 3_645 112.6(13) no
+O3 Na3 O3 3 3_655 173.5(13) no
+O3 Na3 O6 3 3_655 60.1(8) no
+O3 Na3 O3 3 8 95.4(9) no
+O7 Na3 O3 3_645 3_655 63.8(9) no
+O7 Na3 O6 3_645 3_655 76.6(7) no
+O7 Na3 O3 3_645 8 141(2) no
+O3 Na3 O6 3_655 3_655 113.4(11) no
+O3 Na3 O3 3_655 8 90.4(9) no
+O6 Na3 O3 3_655 8 143(2) no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Nb1 O1 . . 2.029(5) yes
+Nb1 O2 . . 1.846(15) yes
+Nb1 O4 . . 2.058(17) yes
+Nb1 O5 . 1_545 1.94(2) yes
+Nb1 O4 . 3_545 2.019(18) yes
+Nb1 O5 . 3_645 1.96(2) yes
+Nb2 O7 . . 1.92(2) yes
+Nb2 O6 . 1_465 2.09(2) yes
+Nb2 O2 . 1_565 2.282(15) yes
+Nb2 O3 . 1_565 1.813(15) yes
+Nb2 O6 . 3_655 1.96(2) yes
+Nb2 O7 . 3_655 1.99(2) yes
+Ca1 O1 . . 2.61(4) yes
+Ca1 O4 . . 2.61(2) yes
+Ca1 O5 . . 2.32(3) yes
+Ca1 O1 . 1_565 2.93(4) yes
+Ca1 O4 . 2 2.61(2) yes
+Ca1 O5 . 2 2.32(3) yes
+Ca1 O1 . 3 2.42(3) yes
+Ca1 O4 . 3 3.14(3) yes
+Ca1 O5 . 3_645 2.83(3) yes
+Ca1 O1 . 3_655 3.06(3) yes
+Ca1 O4 . 4 3.14(3) yes
+Ca1 O5 . 4_645 2.83(3) yes
+Na1 O1 . . 2.61(4) no
+Na1 O4 . . 2.61(2) no
+Na1 O5 . . 2.32(3) no
+Na1 O1 . 1_565 2.93(4) no
+Na1 O4 . 2 2.61(2) no
+Na1 O5 . 2 2.32(3) no
+Na1 O1 . 3 2.42(3) no
+Na1 O4 . 3 3.14(3) no
+Na1 O5 . 3_645 2.83(3) no
+Na1 O1 . 3_655 3.06(3) no
+Na1 O4 . 4 3.14(3) no
+Na1 O5 . 4_645 2.83(3) no
+Ca2 O2 . . 2.51(2) yes
+Ca2 O4 . . 2.43(2) yes
+Ca2 O5 . . 3.00(2) yes
+Ca2 O7 . . 2.92(2) yes
+Ca2 O6 . 1_455 2.45(2) yes
+Ca2 O2 . 1_565 3.06(2) yes
+Ca2 O2 . 3 3.03(2) yes
+Ca2 O4 . 3 3.16(2) yes
+Ca2 O5 . 3_645 3.25(2) yes
+Ca2 O7 . 3_645 2.50(2) yes
+Ca2 O2 . 3_655 2.50(2) yes
+Ca2 O6 . 3_655 2.40(2) yes
+Na2 O2 . . 2.51(2) no
+Na2 O4 . . 2.43(2) no
+Na2 O5 . . 3.00(2) no
+Na2 O7 . . 2.92(2) no
+Na2 O6 . 1_455 2.45(2) no
+Na2 O2 . 1_565 3.06(2) no
+Na2 O2 . 3 3.03(2) no
+Na2 O4 . 3 3.16(2) no
+Na2 O5 . 3_645 3.25(2) no
+Na2 O7 . 3_645 2.50(2) no
+Na2 O2 . 3_655 2.50(2) no
+Na2 O6 . 3_655 2.40(2) no
+Na3 O3 . . 2.72(7) yes
+Na3 O7 . . 2.89(4) yes
+Na3 O6 . 1_455 3.29(4) yes
+Na3 O3 . 1_565 2.85(7) yes
+Na3 O3 . 3 2.65(3) yes
+Na3 O7 . 3_645 2.63(4) yes
+Na3 O3 . 3_655 2.83(3) yes
+Na3 O6 . 3_655 3.13(4) yes
+Na3 O3 . 8 2.20(2) yes

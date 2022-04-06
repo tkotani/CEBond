@@ -1,0 +1,542 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-23 15:52:31 +0200 (Wed, 23 Mar 2016) $
+#$Revision: 179351 $
+#$URL: svn://www.crystallography.net/cod/cif/4/32/48/4324884.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4324884
+loop_
+_publ_author_name
+'Christopher S. Fewox'
+'Abraham Clearfield'
+'Aaron J. Celestian'
+_publ_section_title
+;
+ In Situ X-ray Diffraction Study of Cesium Exchange in Synthetic Umbite
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              3596
+_journal_page_last               3604
+_journal_paper_doi               10.1021/ic102546w
+_journal_volume                  50
+_journal_year                    2011
+_chemical_formula_sum            'K0.84 O11.16 Si3 Zr'
+_chemical_formula_weight         386.87
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_audit_author_name               'Chris Fewox'
+_audit_creation_date             2007-07-27T13:15
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_audit_update_record
+' 2007-07-27T13:15  Initial CIF as created by GSAS2CIF'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.526(8)
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            4
+_cell_length_a                   7.28142(33)
+_cell_length_b                   10.4201(4)
+_cell_length_c                   13.4529(7)
+_cell_volume                     1020.67(8)
+_computing_structure_refinement  GSAS
+_diffrn_radiation_polarisn_ratio 0.93
+_diffrn_radiation_probe          x-ray
+_exptl_absorpt_correction_T_max  1.00000
+_exptl_absorpt_correction_T_min  1.00000
+_exptl_absorpt_process_details
+;   GSAS Absorption/surface roughness correction: function number 0
+ No correction is applied.
+;
+_pd_block_id                     2007-07-27T13:15|G2|Chris_Fewox|bnl
+_pd_calc_method                  'Rietveld Refinement'
+_pd_meas_2theta_range_inc        0.021
+_pd_meas_2theta_range_max        34.198
+_pd_meas_2theta_range_min        0.01
+_pd_phase_name                   HKZrTS
+_pd_proc_2theta_range_inc        0.021
+_pd_proc_2theta_range_max        34.198
+_pd_proc_2theta_range_min        0.01
+_pd_proc_info_datetime           2007-07-27T13:15:12
+_pd_proc_ls_background_function
+;   GSAS Background function number 1 with 36 terms.
+ Shifted Chebyshev function of 1st kind
+      1:    480.608     2:    36.4732     3:   -137.355     4:   -36.9221    
+      5:    54.5395     6:    32.3814     7:   -39.5444     8:   -51.8586    
+      9:   -5.34415    10:    22.7032    11:   -1.13959    12:   -15.8932    
+     13:   -6.34730    14:    19.4939    15:    29.4308    16:  -0.485393    
+     17:   -4.78477    18:   0.401359    19:    11.3998    20:    12.2914    
+     21:   -6.71559    22:   -9.19438    23:    1.70114    24:    11.1642    
+     25:    7.50178    26:   0.478368    27:   0.974660    28:    6.99446    
+     29:    2.73297    30:   -5.78025    31:   -3.30958    32:   -6.52521    
+     33:    1.29513    34:  -0.388829    35:   -4.03759    36:   -2.22037    
+;
+_pd_proc_ls_peak_cutoff          0.01000
+_pd_proc_ls_profile_function
+;
+ CW Profile function number 3 with  19 terms
+ Pseudovoigt profile coefficients as parameterized in
+ P. Thompson, D.E. Cox & J.B. Hastings (1987). J. Appl. Cryst.,20,79-83.
+ Asymmetry correction of L.W. Finger, D.E. Cox & A. P. Jephcoat (1994).
+ J. Appl. Cryst.,27,892-900.
+ Peak tails are ignored  where the intensity is below 0.0100 times the peak
+   Aniso. broadening axis   0.0   0.0   1.0
+;
+_pd_proc_ls_prof_R_factor        0.0280
+_pd_proc_ls_prof_wR_expected     0.0372
+_pd_proc_ls_prof_wR_factor       0.0377
+_refine_ls_goodness_of_fit_all   1.37
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     102
+_refine_ls_number_restraints     37
+_refine_ls_R_Fsqd_factor         0.07636
+_refine_ls_shift/su_max          0.04
+_refine_ls_shift/su_mean         0.01
+_reflns_d_resolution_high        2.110
+_reflns_d_resolution_low         8.238
+_reflns_limit_h_max              3
+_reflns_limit_h_min              0
+_reflns_limit_k_max              4
+_reflns_limit_k_min              0
+_reflns_limit_l_max              6
+_reflns_limit_l_min              -6
+_reflns_number_total             226
+_cod_data_source_file            ic102546w_si_001_2.cif
+_cod_data_source_block           Wet_Umbite
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_geom_bond_publ_flag' value 'N' changed to 'n' according to the
+built-in table from CIF Core dictionary named 'cif_core.dic' version
+2.4.1 from 2010-06-29 (109 times).
+
+'_geom_angle_publ_flag' value 'N'
+changed to 'n' according to the built-in table from CIF Core
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29 (220
+times).
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_original_sg_symbol_H-M      'P 21/c'
+_cod_database_code               4324884
+_cod_database_fobs_code          4324884
+#BEGIN Tags that were not found in dictionaries:
+_gsas_exptl_extinct_corr_t_min   1.00000
+_gsas_exptl_extinct_corr_t_max   1.00000
+#END Tags that were not found in dictionaries
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -x,+y+1/2,-z+1/2
+-1 -x,-y,-z
+-2 +x,-y+1/2,+z+1/2
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+Zr ZR1 0.2488(11) 0.7039(4) 0.2028(4) 1.0 Uiso 0.02305 4
+Si SI2 0.0601(14) 0.3980(9) 0.1708(8) 1.0 Uiso 0.008 4
+Si SI3 0.7464(16) 0.2954(9) 0.0491(7) 1.0 Uiso 0.008 4
+Si SI4 0.5324(14) 0.9159(10) 0.3272(7) 1.0 Uiso 0.008 4
+O O5 0.245(4) 0.6833(12) 0.3626(9) 1.0 Uiso 0.004 4
+O O6 0.0630(26) 0.5539(10) 0.2013(15) 1.0 Uiso 0.004 4
+O O7 0.253(4) 0.7633(16) 0.0629(8) 1.0 Uiso 0.004 4
+O O8 0.4210(22) 0.8457(14) 0.2333(10) 1.0 Uiso 0.004 4
+O O9 0.0421(21) 0.8186(14) 0.2389(11) 1.0 Uiso 0.004 4
+O O10 0.4510(26) 0.5726(10) 0.1935(15) 1.0 Uiso 0.004 4
+O O11 0.2705(14) 0.3459(13) 0.1556(12) 1.0 Uiso 0.004 4
+O O12 0.5597(17) 0.3837(14) 0.0659(9) 1.0 Uiso 0.004 4
+O O13 0.9349(16) 0.3828(14) 0.0682(9) 1.0 Uiso 0.004 4
+O Ow1 -0.169(5) 0.5590(26) 0.5533(21) 1.0 Uiso 0.14449 4
+K K15 0.7486(30) 0.6843(11) 0.1024(8) 0.64 Uiso 0.04096 4
+O Ow2 0.6057(34) 0.5429(25) 0.3901(14) 0.8 Uiso 0.15244 4
+K K14 0.6057(34) 0.5429(25) 0.3901(14) 0.2 Uiso 0.15244 4
+O Ow3 0.7486(30) 0.6843(11) 0.1024(8) 0.36 Uiso 0.04096 4
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_Cromer_Mann_a1
+_atom_type_scat_Cromer_Mann_a2
+_atom_type_scat_Cromer_Mann_a3
+_atom_type_scat_Cromer_Mann_a4
+_atom_type_scat_Cromer_Mann_b1
+_atom_type_scat_Cromer_Mann_b2
+_atom_type_scat_Cromer_Mann_b3
+_atom_type_scat_Cromer_Mann_b4
+_atom_type_scat_Cromer_Mann_c
+_atom_type_scat_source
+Zr 4.0 0.000 0.000 17.8765 1.27618 10.9480 11.9160 5.41732 0.11762 3.65721
+87.6627 2.06929 International_Tables_Vol_C
+Si 12.0 0.000 0.000 6.29150 2.43860 3.03530 32.3337 1.98910 0.67850 1.54100
+81.6937 1.14070 International_Tables_Vol_C
+O 44.64 0.000 0.000 3.04850 13.2771 2.28680 5.70110 1.54630 0.32390 0.86700
+32.9089 0.25080 International_Tables_Vol_C
+K 3.36 0.000 0.000 8.21860 12.7949 7.43980 0.77480 1.05190 213.187 0.86590
+41.6841 1.42280 International_Tables_Vol_C
+loop_
+_diffrn_radiation_wavelength
+_diffrn_radiation_wavelength_wt
+_diffrn_radiation_type
+_diffrn_radiation_wavelength_id
+0.922100 1.000 K\a~1~ 1
+0.922100 1.000 K\a~2~ 2
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O5 ZR1 O6 85.4(8) 1_555 1_555 n
+O5 ZR1 O7 167.5(6) 1_555 1_555 n
+O5 ZR1 O8 83.2(7) 1_555 1_555 n
+O5 ZR1 O9 78.5(8) 1_555 1_555 n
+O5 ZR1 O10 90.6(9) 1_555 1_555 n
+O5 ZR1 K15 108.7(8) 1_555 1_455 n
+O5 ZR1 K15 111.1(8) 1_555 1_555 n
+O5 ZR1 K14 48.8(8) 1_555 1_555 n
+O5 ZR1 K14 114.5(5) 1_555 2_655 n
+O6 ZR1 O7 104.1(9) 1_555 1_555 n
+O6 ZR1 O8 168.5(7) 1_555 1_555 n
+O6 ZR1 O9 87.7(7) 1_555 1_555 n
+O6 ZR1 O10 88.0(6) 1_555 1_555 n
+O6 ZR1 K15 49.0(5) 1_555 1_455 n
+O6 ZR1 K15 124.7(5) 1_555 1_555 n
+O6 ZR1 K14 96.4(6) 1_555 1_555 n
+O6 ZR1 K14 149.6(7) 1_555 2_655 n
+O7 ZR1 O8 87.1(8) 1_555 1_555 n
+O7 ZR1 O9 93.6(9) 1_555 1_555 n
+O7 ZR1 O10 97.8(10) 1_555 1_555 n
+O7 ZR1 K15 73.1(9) 1_555 1_455 n
+O7 ZR1 K15 70.4(9) 1_555 1_555 n
+O7 ZR1 K14 135.9(10) 1_555 1_555 n
+O7 ZR1 K14 53.5(6) 1_555 2_655 n
+O8 ZR1 O9 88.9(7) 1_555 1_555 n
+O8 ZR1 O10 93.3(7) 1_555 1_555 n
+O8 ZR1 K15 134.7(5) 1_555 1_455 n
+O8 ZR1 K15 61.3(5) 1_555 1_555 n
+O8 ZR1 K14 77.0(6) 1_555 1_555 n
+O8 ZR1 K14 38.4(5) 1_555 2_655 n
+O9 ZR1 O10 168.5(8) 1_555 1_555 n
+O9 ZR1 K15 53.5(5) 1_555 1_455 n
+O9 ZR1 K15 145.9(5) 1_555 1_555 n
+O9 ZR1 K14 126.3(6) 1_555 1_555 n
+O9 ZR1 K14 75.0(6) 1_555 2_655 n
+O10 ZR1 K15 128.8(6) 1_555 1_455 n
+O10 ZR1 K15 42.1(5) 1_555 1_555 n
+O10 ZR1 K14 43.8(7) 1_555 1_555 n
+O10 ZR1 K14 113.3(6) 1_555 2_655 n
+K15 ZR1 K15 138.89(34) 1_455 1_555 n
+K15 ZR1 K14 143.6(4) 1_455 1_555 n
+K15 ZR1 K14 101.2(4) 1_455 2_655 n
+K15 ZR1 K14 65.8(4) 1_555 1_555 n
+K15 ZR1 K14 71.3(4) 1_555 2_655 n
+K14 ZR1 K14 114.1(4) 1_555 2_655 n
+O6 SI2 O9 108.1(10) 1_555 2_545 n
+O6 SI2 O11 110.0(10) 1_555 1_555 n
+O6 SI2 O13 107.6(10) 1_555 1_455 n
+O9 SI2 O11 110.7(10) 2_545 1_555 n
+O9 SI2 O13 108.5(9) 2_545 1_455 n
+O11 SI2 O13 111.9(9) 1_555 1_455 n
+O5 SI3 O7 113.3(9) 2_645 -1_665 n
+O5 SI3 O12 108.5(12) 2_645 1_555 n
+O5 SI3 O13 104.4(12) 2_645 1_555 n
+O7 SI3 O12 110.1(12) -1_665 1_555 n
+O7 SI3 O13 109.9(12) -1_665 1_555 n
+O12 SI3 O13 110.6(9) 1_555 1_555 n
+O8 SI4 O10 109.9(10) 1_555 2_655 n
+O8 SI4 O11 109.6(10) 1_555 2_655 n
+O8 SI4 O12 112.3(9) 1_555 2_655 n
+O8 SI4 K15 105.5(7) 1_555 2_655 n
+O8 SI4 K14 51.1(7) 1_555 2_655 n
+O10 SI4 O11 113.6(10) 2_655 2_655 n
+O10 SI4 O12 112.4(10) 2_655 2_655 n
+O10 SI4 K15 47.3(8) 2_655 2_655 n
+O10 SI4 K14 59.2(9) 2_655 2_655 n
+O11 SI4 O12 98.7(9) 2_655 2_655 n
+O11 SI4 K15 144.6(8) 2_655 2_655 n
+O11 SI4 K14 124.0(9) 2_655 2_655 n
+O12 SI4 K15 71.8(6) 2_655 2_655 n
+O12 SI4 K14 136.8(8) 2_655 2_655 n
+K15 SI4 K14 75.9(5) 2_655 2_655 n
+ZR1 O5 SI3 129.7(8) 1_555 2_655 n
+ZR1 O5 K14 98.7(9) 1_555 1_555 n
+SI3 O5 K14 103.0(12) 2_655 1_555 n
+ZR1 O6 SI2 137.9(12) 1_555 1_555 n
+ZR1 O6 K15 99.2(6) 1_555 1_455 n
+SI2 O6 K15 109.1(9) 1_555 1_455 n
+ZR1 O7 SI3 139.7(11) 1_555 -1_665 n
+ZR1 O7 K14 96.1(7) 1_555 2_655 n
+SI3 O7 K14 122.0(10) -1_665 2_655 n
+ZR1 O8 SI4 142.1(9) 1_555 1_555 n
+ZR1 O8 K14 114.0(8) 1_555 2_655 n
+SI4 O8 K14 99.6(9) 1_555 2_655 n
+ZR1 O9 SI2 146.0(10) 1_555 2_555 n
+ZR1 O9 K15 95.9(6) 1_555 1_455 n
+SI2 O9 K15 110.2(8) 2_555 1_455 n
+ZR1 O10 SI4 137.1(11) 1_555 2_645 n
+ZR1 O10 K15 108.6(6) 1_555 1_555 n
+ZR1 O10 K14 107.2(9) 1_555 1_555 n
+SI4 O10 K15 106.4(10) 2_645 1_555 n
+SI4 O10 K14 91.1(9) 2_645 1_555 n
+K15 O10 K14 98.7(8) 1_555 1_555 n
+SI2 O11 SI4 131.2(10) 1_555 2_645 n
+SI3 O12 SI4 125.4(9) 1_555 2_645 n
+SI3 O12 K15 110.2(7) 1_555 -1_665 n
+SI4 O12 K15 111.9(8) 2_645 -1_665 n
+SI2 O13 SI3 128.9(10) 1_655 1_555 n
+K15 Ow1 K14 96.8(12) -2_476 1_455 n
+ZR1 K15 ZR1 138.89(34) 1_555 1_655 n
+ZR1 K15 SI4 54.17(33) 1_555 2_645 n
+ZR1 K15 O6 126.0(5) 1_555 1_655 n
+ZR1 K15 O9 114.0(5) 1_555 1_655 n
+ZR1 K15 O10 29.3(4) 1_555 1_555 n
+ZR1 K15 O12 67.2(5) 1_555 -1_665 n
+ZR1 K15 Ow1 103.5(9) 1_555 -2_675 n
+ZR1 K15 K14 57.9(4) 1_555 1_555 n
+ZR1 K15 K14 54.3(4) 1_555 2_655 n
+ZR1 K15 K14 88.5(5) 1_555 -2_575 n
+ZR1 K15 SI4 118.9(4) 1_655 2_645 n
+ZR1 K15 O6 31.76(35) 1_655 1_655 n
+ZR1 K15 O9 30.63(34) 1_655 1_655 n
+ZR1 K15 O10 127.4(6) 1_655 1_555 n
+ZR1 K15 O12 153.4(5) 1_655 -1_665 n
+ZR1 K15 Ow1 80.2(9) 1_655 -2_675 n
+ZR1 K15 K14 86.5(4) 1_655 1_555 n
+ZR1 K15 K14 118.7(4) 1_655 2_655 n
+ZR1 K15 K14 115.6(5) 1_655 -2_575 n
+SI4 K15 O6 87.9(4) 2_645 1_655 n
+SI4 K15 O9 125.4(5) 2_645 1_655 n
+SI4 K15 O10 26.30(34) 2_645 1_555 n
+SI4 K15 O12 67.9(5) 2_645 -1_665 n
+SI4 K15 Ow1 157.2(11) 2_645 -2_675 n
+SI4 K15 K14 49.5(4) 2_645 1_555 n
+SI4 K15 K14 108.0(6) 2_645 2_655 n
+SI4 K15 K14 125.0(7) 2_645 -2_575 n
+O6 K15 O9 54.7(5) 1_655 1_655 n
+O6 K15 O10 102.3(6) 1_655 1_555 n
+O6 K15 O12 137.5(5) 1_655 -1_665 n
+O6 K15 Ow1 111.9(10) 1_655 -2_675 n
+O6 K15 K14 68.3(6) 1_655 1_555 n
+O6 K15 K14 143.4(5) 1_655 2_655 n
+O6 K15 K14 144.0(8) 1_655 -2_575 n
+O9 K15 O10 117.5(6) 1_655 1_555 n
+O9 K15 O12 165.4(5) 1_655 -1_665 n
+O9 K15 Ow1 64.4(8) 1_655 -2_675 n
+O9 K15 K14 78.1(5) 1_655 1_555 n
+O9 K15 K14 90.2(5) 1_655 2_655 n
+O9 K15 K14 105.2(5) 1_655 -2_575 n
+O10 K15 O12 71.2(7) 1_555 -1_665 n
+O10 K15 Ow1 132.4(10) 1_555 -2_675 n
+O10 K15 K14 41.7(6) 1_555 1_555 n
+O10 K15 K14 83.6(6) 1_555 2_655 n
+O10 K15 K14 113.7(8) 1_555 -2_575 n
+O12 K15 Ow1 101.0(8) -1_665 -2_675 n
+O12 K15 K14 112.5(6) -1_665 1_555 n
+O12 K15 K14 78.8(5) -1_665 2_655 n
+O12 K15 K14 60.2(5) -1_665 -2_575 n
+Ow1 K15 K14 126.3(8) -2_675 1_555 n
+Ow1 K15 K14 49.3(8) -2_675 2_655 n
+Ow1 K15 K14 40.8(8) -2_675 -2_575 n
+K14 K15 K14 96.9(4) 1_555 2_655 n
+K14 K15 K14 142.7(7) 1_555 -2_575 n
+K14 K15 K14 46.7(5) 2_655 -2_575 n
+ZR1 K14 ZR1 110.9(5) 1_555 2_645 n
+ZR1 K14 SI4 54.9(4) 1_555 2_645 n
+ZR1 K14 O5 32.52(34) 1_555 1_555 n
+ZR1 K14 O7 136.7(8) 1_555 2_645 n
+ZR1 K14 O8 83.5(6) 1_555 2_645 n
+ZR1 K14 O10 29.0(4) 1_555 1_555 n
+ZR1 K14 Ow1 150.2(11) 1_555 1_655 n
+ZR1 K14 K15 56.2(4) 1_555 1_555 n
+ZR1 K14 K15 89.6(5) 1_555 2_645 n
+ZR1 K14 K15 107.8(6) 1_555 -2_576 n
+ZR1 K14 K14 110.9(10) 1_555 -1_666 n
+ZR1 K14 SI4 56.2(4) 2_645 2_645 n
+ZR1 K14 O5 129.6(8) 2_645 1_555 n
+ZR1 K14 O7 30.37(32) 2_645 2_645 n
+ZR1 K14 O8 27.6(4) 2_645 2_645 n
+ZR1 K14 O10 84.7(6) 2_645 1_555 n
+ZR1 K14 Ow1 98.6(9) 2_645 1_655 n
+ZR1 K14 K15 87.3(4) 2_645 1_555 n
+ZR1 K14 K15 54.4(4) 2_645 2_645 n
+ZR1 K14 K15 140.7(7) 2_645 -2_576 n
+ZR1 K14 K14 99.4(10) 2_645 -1_666 n
+SI4 K14 O5 80.3(6) 2_645 1_555 n
+SI4 K14 O7 84.5(7) 2_645 2_645 n
+SI4 K14 O8 29.3(4) 2_645 2_645 n
+SI4 K14 O10 29.69(34) 2_645 1_555 n
+SI4 K14 Ow1 153.7(12) 2_645 1_655 n
+SI4 K14 K15 54.6(4) 2_645 1_555 n
+SI4 K14 K15 61.9(5) 2_645 2_645 n
+SI4 K14 K15 160.1(8) 2_645 -2_576 n
+SI4 K14 K14 120.7(11) 2_645 -1_666 n
+O5 K14 O7 138.8(11) 1_555 2_645 n
+O5 K14 O8 103.9(9) 1_555 2_645 n
+O5 K14 O10 60.3(6) 1_555 1_555 n
+O5 K14 Ow1 125.6(11) 1_555 1_655 n
+O5 K14 K15 86.6(6) 1_555 1_555 n
+O5 K14 K15 84.7(7) 1_555 2_645 n
+O5 K14 K15 88.0(7) 1_555 -2_576 n
+O5 K14 K14 80.7(9) 1_555 -1_666 n
+O7 K14 O8 55.3(6) 2_645 2_645 n
+O7 K14 O10 114.1(8) 2_645 1_555 n
+O7 K14 Ow1 72.7(9) 2_645 1_655 n
+O7 K14 K15 114.7(7) 2_645 1_555 n
+O7 K14 K15 54.5(7) 2_645 2_645 n
+O7 K14 K15 114.5(7) 2_645 -2_576 n
+O7 K14 K14 74.7(9) 2_645 -1_666 n
+O8 K14 O10 58.8(6) 2_645 1_555 n
+O8 K14 Ow1 126.2(12) 2_645 1_655 n
+O8 K14 K15 73.6(5) 2_645 1_555 n
+O8 K14 K15 48.5(6) 2_645 2_645 n
+O8 K14 K15 168.0(10) 2_645 -2_576 n
+O8 K14 K14 107.7(12) 2_645 -1_666 n
+O10 K14 Ow1 163.1(13) 1_555 1_655 n
+O10 K14 K15 39.6(5) 1_555 1_555 n
+O10 K14 K15 83.8(6) 1_555 2_645 n
+O10 K14 K15 130.6(8) 1_555 -2_576 n
+O10 K14 K14 129.7(13) 1_555 -1_666 n
+Ow1 K14 K15 123.8(11) 1_655 1_555 n
+Ow1 K14 K15 111.7(9) 1_655 2_645 n
+Ow1 K14 K15 42.4(7) 1_655 -2_576 n
+Ow1 K14 K14 66.3(9) 1_655 -1_666 n
+K15 K14 K15 116.5(5) 1_555 2_645 n
+K15 K14 K15 109.0(6) 1_555 -2_576 n
+K15 K14 K14 167.1(12) 1_555 -1_666 n
+K15 K14 K15 133.3(5) 2_645 -2_576 n
+K15 K14 K14 60.8(8) 2_645 -1_666 n
+K15 K14 K14 72.6(7) -2_576 -1_666 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+ZR1 O5 2.161(13) 1_555 n
+ZR1 O6 2.068(16) 1_555 n
+ZR1 O7 1.982(13) 1_555 n
+ZR1 O8 1.978(16) 1_555 n
+ZR1 O9 1.986(16) 1_555 n
+ZR1 O10 2.014(17) 1_555 n
+ZR1 K15 3.878(22) 1_455 n
+ZR1 K15 3.898(22) 1_555 n
+ZR1 K14 3.974(24) 1_555 n
+ZR1 K14 3.897(26) 2_655 n
+SI2 SI3 2.996(15) 1_455 n
+SI2 SI4 2.973(14) 2_645 n
+SI2 O6 1.675(15) 1_555 n
+SI2 O9 1.652(17) 2_545 n
+SI2 O11 1.640(14) 1_555 n
+SI2 O13 1.655(15) 1_455 n
+SI2 K15 3.854(19) 1_455 n
+SI2 K15 4.016(16) 2_645 n
+SI2 K15 4.035(16) -1_665 n
+SI3 SI2 2.996(15) 1_655 n
+SI3 SI4 2.920(15) 2_645 n
+SI3 O5 1.667(15) 2_645 n
+SI3 O7 1.626(15) -1_665 n
+SI3 O12 1.659(17) 1_555 n
+SI3 O13 1.666(16) 1_555 n
+SI3 K14 3.768(28) 2_645 n
+SI4 SI2 2.973(14) 2_655 n
+SI4 SI3 2.920(15) 2_655 n
+SI4 O8 1.664(17) 1_555 n
+SI4 O10 1.661(15) 2_655 n
+SI4 O11 1.625(15) 2_655 n
+SI4 O12 1.628(16) 2_655 n
+SI4 K15 3.597(19) 2_655 n
+SI4 K14 4.012(28) 1_555 n
+SI4 K14 3.354(23) 2_655 n
+O5 ZR1 2.161(13) 1_555 n
+O5 SI3 1.667(15) 2_655 n
+O5 K14 3.02(4) 1_555 n
+O6 ZR1 2.068(16) 1_555 n
+O6 SI2 1.675(15) 1_555 n
+O6 K15 2.967(26) 1_455 n
+O7 ZR1 1.982(13) 1_555 n
+O7 SI3 1.626(15) -1_665 n
+O7 K14 3.152(32) 2_655 n
+O8 ZR1 1.978(16) 1_555 n
+O8 SI4 1.664(17) 1_555 n
+O8 K15 3.420(23) 1_555 n
+O8 K14 2.648(28) 2_655 n
+O9 ZR1 1.986(16) 1_555 n
+O9 SI2 1.652(17) 2_555 n
+O9 K15 3.134(23) 1_455 n
+O10 ZR1 2.014(17) 1_555 n
+O10 SI4 1.661(15) 2_645 n
+O10 K15 2.757(26) 1_555 n
+O10 K14 2.881(28) 1_555 n
+O11 SI2 1.640(14) 1_555 n
+O11 SI4 1.625(15) 2_645 n
+O11 K15 3.669(19) 2_645 n
+O11 K15 3.487(20) -1_665 n
+O11 K14 3.341(29) 2_645 n
+O12 SI3 1.659(17) 1_555 n
+O12 SI4 1.628(16) 2_645 n
+O12 K15 3.454(20) 1_555 n
+O12 K15 3.251(21) -1_665 n
+O13 SI2 1.655(15) 1_655 n
+O13 SI3 1.666(16) 1_555 n
+O13 K15 3.454(20) 1_555 n
+O13 K15 3.341(21) -1_765 n
+Ow1 K15 2.822(30) -2_465 n
+Ow1 K14 2.74(4) 1_455 n
+Ow1 K14 3.45(4) -1_566 n
+K15 ZR1 3.898(22) 1_555 n
+K15 ZR1 3.878(22) 1_655 n
+K15 SI2 3.854(19) 1_655 n
+K15 SI2 4.016(16) 2_655 n
+K15 SI2 4.035(16) -1_665 n
+K15 SI4 3.597(19) 2_645 n
+K15 O6 2.967(26) 1_655 n
+K15 O8 3.420(23) 1_555 n
+K15 O9 3.134(23) 1_655 n
+K15 O10 2.757(26) 1_555 n
+K15 O11 3.669(19) 2_655 n
+K15 O11 3.487(20) -1_665 n
+K15 O12 3.454(20) 1_555 n
+K15 O12 3.251(21) -1_665 n
+K15 O13 3.454(20) 1_555 n
+K15 O13 3.341(21) -1_765 n
+K15 Ow1 2.822(30) -2_664 n
+K15 K14 4.278(23) 1_555 n
+K15 K14 4.543(30) 2_655 n
+K15 K14 4.155(26) -2_564 n
+Ow2 K14 3.46(4) -1_666 n
+K14 ZR1 3.974(24) 1_555 n
+K14 ZR1 3.897(26) 2_645 n
+K14 SI3 3.768(28) 2_655 n
+K14 SI4 4.012(28) 1_555 n
+K14 SI4 3.354(23) 2_645 n
+K14 O5 3.02(4) 1_555 n
+K14 O7 3.152(32) 2_645 n
+K14 O8 2.648(28) 2_645 n
+K14 O10 2.881(28) 1_555 n
+K14 O11 3.341(29) 2_655 n
+K14 Ow1 2.74(4) 1_655 n
+K14 Ow1 3.45(4) -1_566 n
+K14 K15 4.278(23) 1_555 n
+K14 K15 4.543(30) 2_645 n
+K14 K15 4.155(26) -2_565 n
+K14 Ow2 3.46(4) -1_666 n
+K14 K14 3.46(4) -1_666 n

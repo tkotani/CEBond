@@ -1,0 +1,271 @@
+#------------------------------------------------------------------------------
+#$Date: 2021-05-03 21:53:45 +0300 (Mon, 03 May 2021) $
+#$Revision: 264782 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/4/51/86/4518663.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4518663
+loop_
+_publ_author_name
+'Qin, Jincheng'
+'Liu, Zhifu'
+'Ma, Mingsheng'
+'Liu, Feng'
+'Qi, Ze-Ming'
+'Li, Yongxiang'
+_publ_section_title
+;
+ Structure and Microwave Dielectric Properties of Gillespite-Type
+ ACuSi<sub>4</sub>O<sub>10</sub> (A = Ca, Sr, Ba) Ceramics and
+ Quantitative Prediction of the <i>Q</i> \\times <i>f</i> Value via
+ Machine Learning.
+;
+_journal_issue                   15
+_journal_name_full               'ACS applied materials &amp; interfaces'
+_journal_page_first              17817
+_journal_page_last               17826
+_journal_paper_doi               10.1021/acsami.1c01909
+_journal_volume                  13
+_journal_year                    2021
+_chemical_formula_sum            'Cu O10 Si4 Sr'
+_chemical_formula_weight         423.50
+_space_group_IT_number           130
+_space_group_name_Hall           '-P 4a 2ac'
+_space_group_name_H-M_alt        'P 4/n c c :2'
+_symmetry_cell_setting           tetragonal
+_symmetry_space_group_name_H-M   'P 4/n c c :2'
+_audit_creation_date             2020-01-06T09:18
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_audit_update_record
+' 2020-01-06T09:18  Initial CIF as created by GSAS2CIF'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            4
+_cell_length_a                   7.3703(7)
+_cell_length_b                   7.3703
+_cell_length_c                   15.5999(15)
+_cell_measurement_temperature    298
+_cell_volume                     847.41(11)
+_computing_structure_refinement  GSAS
+_diffrn_ambient_temperature      298
+_diffrn_measurement_device_type
+;
+Bruker D8 Advance
+;
+_pd_phase_name                   SrCuSi4O10
+_refine_ls_goodness_of_fit_all   1.50
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     57
+_refine_ls_number_restraints     0
+_refine_ls_shift/su_mean         0.54
+_cod_data_source_file            SrCuSi4O10-R.cif
+_cod_data_source_block           SrCuSi4O10
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+data item '_geom_angle_publ_flag' value 'N' was changed to 'n' in
+accordance with the
+/home/data/users/saulius/crontab/automatic-downloads/current/ACS/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 last updated on
+2011-04-26 (89 times).
+
+data item '_geom_bond_publ_flag' value 'N' was changed to 'n' in
+accordance with the
+/home/data/users/saulius/crontab/automatic-downloads/current/ACS/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 last updated on
+2011-04-26 (34 times).
+
+Automatic conversion script
+Id: cif_fix_values 7556 2019-12-06 15:28:31Z antanas 
+;
+_cod_original_cell_volume        847.40(24)
+_cod_database_code               4518663
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -y+1/2,+x,+z
+3 -x+1/2,-y+1/2,+z
+4 +y,-x+1/2,+z
+5 -x+1/2,+y,+z+1/2
+6 -y+1/2,-x+1/2,+z+1/2
+7 +x,-y+1/2,+z+1/2
+8 +y,+x,+z+1/2
+-1 -x,-y,-z
+-2 +y+1/2,-x,-z
+-3 +x+1/2,+y+1/2,-z
+-4 -y,+x+1/2,-z
+-5 +x+1/2,-y,-z+1/2
+-6 +y+1/2,+x+1/2,-z+1/2
+-7 -x,+y+1/2,-z+1/2
+-8 -y,-x,-z+1/2
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+Sr Sr 0.25 0.75 0.0 1.0 Uiso 0.0130(6) 4
+Cu Cu 0.25 0.25 0.08850(14) 1.0 Uiso 0.0137(9) 4
+Si Si 0.50850(29) 0.92889(34) 0.15169(21) 1.0 Uiso 0.0122(10) 16
+O O1 0.4647(6) 0.9647(6) 0.25 1.0 Uiso 0.0080(28) 8
+O O2 0.7144(7) -0.0018(5) 0.13046(30) 1.0 Uiso 0.0054(18) 16
+O O3 0.3710(8) 0.0165(6) 0.08784(30) 1.0 Uiso 0.0112(18) 16
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+Sr 4.0
+Cu 4.0
+Si 16.0
+O 40.0
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+Si Sr Si 88.79(9) 1_555 . 3_565 n
+Si Sr Si 91.71(4) 1_555 . -2_555 n
+Si Sr Si 120.70(5) 1_555 . -4_655 n
+Si Sr O2 29.10(11) 1_555 . 2_555 n
+Si Sr O2 79.78(10) 1_555 . 4_565 n
+Si Sr O2 101.77(10) 1_555 . -1_665 n
+Si Sr O2 139.53(5) 1_555 . -3_454 n
+Si Sr O3 27.14(10) 1_555 . 1_565 n
+Si Sr O3 97.09(11) 1_555 . 3_555 n
+Si Sr O3 118.49(5) 1_555 . -2_654 n
+Si Sr O3 138.95(5) 1_555 . -4_554 n
+Si Sr Si 103.40(4) 3_565 . -2_555 n
+Si Sr Si 120.70(5) 3_565 . -4_655 n
+Si Sr O2 79.78(10) 3_565 . 2_555 n
+Si Sr O2 29.10(11) 3_565 . 4_565 n
+Si Sr O2 147.90(11) 3_565 . -1_665 n
+Si Sr O2 131.33(5) 3_565 . -3_454 n
+Si Sr O3 97.09(11) 3_565 . 1_565 n
+Si Sr O3 27.14(10) 3_565 . 3_555 n
+Si Sr O3 132.43(4) 3_565 . -2_654 n
+Si Sr O3 131.57(5) 3_565 . -4_554 n
+Si Sr Si 123.33(5) -2_555 . -4_655 n
+Si Sr O2 124.42(10) -2_454 . 2_555 n
+Si Sr O2 137.68(9) -2_454 . 4_565 n
+Si Sr O2 69.42(9) -2_454 . -1_665 n
+Si Sr O2 21.77(1) -2_454 . -3_454 n
+Si Sr O3 128.59(12) -2_554 . 1_565 n
+Si Sr O3 104.56(11) -2_554 . 3_555 n
+Si Sr O3 3.30(1) -2_554 . -2_654 n
+Si Sr O3 42.05(2) -2_554 . -4_554 n
+Si Sr O2 163.53(9) -4_554 . 2_555 n
+Si Sr O2 111.08(9) -4_554 . 4_565 n
+Si Sr O2 47.00(10) -4_554 . -1_665 n
+Si Sr O2 27.42(2) -4_554 . -3_454 n
+Si Sr O3 118.44(10) -4_654 . 1_565 n
+Si Sr O3 125.95(11) -4_654 . 3_555 n
+Si Sr O3 43.47(2) -4_654 . -2_654 n
+Si Sr O3 3.88(2) -4_654 . -4_554 n
+O2 Sr O2 85.29(18) 2_555 . 4_565 n
+O2 Sr O2 122.75(10) 2_555 . -1_665 n
+O2 Sr O2 137.02(9) 2_555 . -3_454 n
+O2 Sr O3 56.24(15) 2_555 . 1_565 n
+O2 Sr O3 76.51(14) 2_555 . 3_555 n
+O2 Sr O3 104.97(9) 2_555 . -2_654 n
+O2 Sr O3 144.27(9) 2_555 . -4_554 n
+O2 Sr O2 122.75(10) 4_565 . -1_665 n
+O2 Sr O2 137.02(9) 4_565 . -3_454 n
+O2 Sr O3 76.51(14) 4_565 . 1_565 n
+O2 Sr O3 56.24(15) 4_565 . 3_555 n
+O2 Sr O3 158.04(10) 4_565 . -2_654 n
+O2 Sr O3 130.38(9) 4_565 . -4_554 n
+O2 Sr O2 48.70(9) -1_665 . -3_454 n
+O2 Sr O3 81.13(14) -1_665 . 1_565 n
+O2 Sr O3 160.57(15) -1_665 . 3_555 n
+O2 Sr O3 68.17(9) -1_665 . -2_654 n
+O2 Sr O3 41.07(9) -1_665 . -4_554 n
+O2 Sr O3 116.08(12) -3_554 . 1_565 n
+O2 Sr O3 123.37(10) -3_554 . 3_555 n
+O2 Sr O3 18.74(2) -3_554 . -2_654 n
+O2 Sr O3 29.78(2) -3_554 . -4_554 n
+O3 Sr O3 115.14(19) 1_565 . 3_555 n
+O3 Sr O3 125.37(12) 1_565 . -2_654 n
+O3 Sr O3 122.12(11) 1_565 . -4_554 n
+O3 Sr O3 106.56(11) 3_555 . -2_654 n
+O3 Sr O3 122.12(11) 3_555 . -4_554 n
+O3 Sr O3 43.27(2) -2_654 . -4_554 n
+O3 Cu O3 89.9984(18) 1_555 . 2_555 n
+O3 Cu O3 179.4(2) 1_555 . 3_555 n
+O3 Cu O3 89.9984(18) 1_555 . 4_555 n
+O3 Cu O3 89.9984(18) 2_555 . 3_555 n
+O3 Cu O3 179.4(2) 2_555 . 4_555 n
+O3 Cu O3 89.9984(18) 3_555 . 4_555 n
+Sr Si O1 129.69(25) 1_555 . 1_555 n
+Sr Si O2 120.90(23) 1_555 . 1_565 n
+Sr Si O2 56.39(19) 1_555 . 2_555 n
+Sr Si O3 48.32(21) 1_555 . 1_565 n
+O1 Si O2 109.41(33) 1_555 . 1_565 n
+O1 Si O2 110.73(34) 1_555 . 2_555 n
+O1 Si O3 114.53(23) 1_555 . 1_565 n
+O2 Si O2 106.99(32) 1_565 . 2_555 n
+O2 Si O3 110.14(32) 1_565 . 1_565 n
+O2 Si O3 104.71(30) 2_555 . 1_565 n
+Si O1 Si 144.71(19) 1_555 . -6_556 n
+Sr O2 Si 116.52(24) 2_655 . 1_545 n
+Sr O2 Si 94.50(25) 2_655 . 4_555 n
+Si O2 Si 149.0(4) 1_545 . 4_555 n
+Sr O3 Cu 121.66(24) 1_545 . 1_555 n
+Sr O3 Si 104.53(25) 1_545 . 1_545 n
+Cu O3 Si 131.5(4) 1_555 . 1_545 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Sr Si 3.3118(32) . 1_555 n
+Sr Si 3.7906(26) . 2_655 n
+Sr Si 3.3118(32) . 3_565 n
+Sr Si 3.7906(26) . 4_465 n
+Sr Si 3.7906(26) . -1_675 n
+Sr Si 3.3118(32) . -2_465 n
+Sr Si 3.7906(26) . -3_445 n
+Sr Si 3.3118(32) . -4_655 n
+Sr O2 2.767(4) . 2_555 n
+Sr O2 2.767(4) . 4_565 n
+Sr O2 2.767(4) . -1_665 n
+Sr O2 2.767(4) . -3_455 n
+Sr O3 2.555(5) . 1_565 n
+Sr O3 2.555(5) . 3_555 n
+Sr O3 2.555(5) . -2_565 n
+Sr O3 2.555(5) . -4_555 n
+Cu O3 1.938(4) . 1_555 n
+Cu O3 1.938(4) . 2_555 n
+Cu O3 1.938(4) . 3_555 n
+Cu O3 1.938(4) . 4_555 n
+Si Sr 3.3118(32) . 1_555 n
+Si Sr 3.7906(26) . 2_665 n
+Si O1 1.5893(32) . 1_555 n
+Si O2 1.635(5) . 1_565 n
+Si O2 1.616(5) . 2_555 n
+Si O3 1.561(4) . 1_565 n
+O1 Si 1.5893(32) . 1_555 n
+O1 Si 1.5893(32) . -6_455 n
+O2 Sr 2.767(4) . 2_655 n
+O2 Si 1.635(5) . 1_545 n
+O2 Si 1.616(5) . 4_555 n
+O3 Sr 2.555(5) . 1_545 n
+O3 Cu 1.938(4) . 1_555 n
+O3 Si 1.561(4) . 1_545 n

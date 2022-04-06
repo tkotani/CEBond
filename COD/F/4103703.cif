@@ -1,0 +1,325 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-21 17:27:38 +0200 (Mon, 21 Mar 2016) $
+#$Revision: 178783 $
+#$URL: svn://www.crystallography.net/cod/cif/4/10/37/4103703.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4103703
+loop_
+_publ_author_name
+'Sun Woo Kim'
+'Hong Young Chang'
+'P. Shiv Halasyamani'
+_publ_section_title
+;
+ Selective Pure-Phase Synthesis of the Multiferroic BaMF4 (M = Mg, Mn, Co,
+ Ni, and Zn) Family
+;
+_journal_name_full               'Journal of the American Chemical Society'
+_journal_page_first              17684
+_journal_page_last               17685
+_journal_paper_doi               10.1021/ja108965s
+_journal_volume                  132
+_journal_year                    2010
+_chemical_absolute_configuration unk
+_chemical_formula_sum            'Ba F4 Mn'
+_chemical_formula_weight         268.28
+_chemical_name_systematic
+;
+ ?
+;
+_space_group_IT_number           36
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  'C 2c -2'
+_symmetry_space_group_name_H-M   'C m c 21'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_conform_dict_location     ftp://ftp.iucr.org/pub/cif_core.dic
+_audit_conform_dict_name         cif_core.dic
+_audit_conform_dict_version      2.3
+_audit_creation_date             2010-10-04T12:31:06-00:00
+_audit_creation_method           'WinGX routine CIF_UPDATE'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   4.2370(13)
+_cell_length_b                   15.170(5)
+_cell_length_c                   6.0214(19)
+_cell_measurement_temperature    296(2)
+_cell_volume                     387.0(2)
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_diffrn_ambient_temperature      296(2)
+_diffrn_measured_fraction_theta_full 0.768
+_diffrn_measured_fraction_theta_max 0.768
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0
+_diffrn_reflns_av_unetI/netI     0.0411
+_diffrn_reflns_limit_h_max       5
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       18
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       6
+_diffrn_reflns_limit_l_min       -6
+_diffrn_reflns_number            402
+_diffrn_reflns_theta_full        28.22
+_diffrn_reflns_theta_max         28.22
+_diffrn_reflns_theta_min         2.69
+_exptl_absorpt_coefficient_mu    13.307
+_exptl_absorpt_correction_type   none
+_exptl_crystal_density_diffrn    4.604
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_F_000             468
+_refine_diff_density_max         2.051
+_refine_diff_density_min         -2.848
+_refine_diff_density_rms         0.367
+_refine_ls_abs_structure_details 'Flack H D (1983), Acta Cryst. A39, 876-881'
+_refine_ls_abs_structure_Flack   0.33(10)
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   1.076
+_refine_ls_hydrogen_treatment    mixed
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     38
+_refine_ls_number_reflns         402
+_refine_ls_number_restraints     1
+_refine_ls_restrained_S_all      1.074
+_refine_ls_R_factor_all          0.0388
+_refine_ls_R_factor_gt           0.0379
+_refine_ls_shift/su_max          0
+_refine_ls_shift/su_mean         0
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0626P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0925
+_refine_ls_wR_factor_ref         0.0931
+_reflns_number_gt                387
+_reflns_number_total             402
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            ja108965s_si_003_1.cif
+_cod_data_source_block           bamnf4
+_cod_database_code               4103703
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, -y, z+1/2'
+'x, -y, z+1/2'
+'-x, y, z'
+'x+1/2, y+1/2, z'
+'-x+1/2, -y+1/2, z+1/2'
+'x+1/2, -y+1/2, z+1/2'
+'-x+1/2, y+1/2, z'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+Ba Ba 0 0.34446(7) -0.00905(4) 0.0180(4) Uani 1 2 d S
+Mn Mn 0 0.08407(17) 0.0359(5) 0.0099(8) Uani 1 2 d S
+F1 F 0 0.2026(10) 0.236(3) 0.024(4) Uani 1 2 d S
+F2 F 0 0.1672(11) -0.244(2) 0.022(3) Uani 1 2 d S
+F3 F 0 -0.0357(8) -0.129(2) 0.028(3) Uani 1 2 d S
+F4 F -0.5 0.0782(9) 0.058(2) 0.038(4) Uani 1 2 d S
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Ba 0.0087(3) 0.0319(7) 0.0133(7) 0.0113(8) 0 0
+Mn 0.0075(8) 0.0171(13) 0.005(2) -0.0021(12) 0 0
+F1 0.021(5) 0.033(10) 0.020(9) -0.008(6) 0 0
+F2 0.016(5) 0.047(11) 0.002(7) 0.006(6) 0 0
+F3 0.048(5) 0.027(7) 0.010(8) -0.005(6) 0 0
+F4 0.008(3) 0.078(10) 0.027(10) -0.019(7) 0 0
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+F F 0.0171 0.0103 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Mn Mn 0.3368 0.7283 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ba Ba -0.3244 2.2819 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+F1 Ba F2 66.8(3) . 6
+F1 Ba F2 66.8(3) . 6_455
+F2 Ba F2 105.7(4) 6 6_455
+F1 Ba F1 95.90(17) . 6_454
+F2 Ba F1 160.9(5) 6 6_454
+F2 Ba F1 72.6(3) 6_455 6_454
+F1 Ba F1 95.90(17) . 6_554
+F2 Ba F1 72.6(3) 6 6_554
+F2 Ba F1 160.9(5) 6_455 6_554
+F1 Ba F1 102.7(5) 6_454 6_554
+F1 Ba F4 148.6(4) . 6_454
+F2 Ba F4 125.1(2) 6 6_454
+F2 Ba F4 125.1(2) 6_455 6_454
+F1 Ba F4 65.9(3) 6_454 6_454
+F1 Ba F4 65.9(3) 6_554 6_454
+F1 Ba F3 131.4(2) . 5
+F2 Ba F3 66.8(4) 6 5
+F2 Ba F3 141.0(5) 6_455 5
+F1 Ba F3 126.7(4) 6_454 5
+F1 Ba F3 56.7(4) 6_554 5
+F4 Ba F3 60.9(3) 6_454 5
+F1 Ba F3 131.4(2) . 5_455
+F2 Ba F3 141.0(5) 6 5_455
+F2 Ba F3 66.8(4) 6_455 5_455
+F1 Ba F3 56.7(4) 6_454 5_455
+F1 Ba F3 126.7(4) 6_554 5_455
+F4 Ba F3 60.9(3) 6_454 5_455
+F3 Ba F3 94.6(3) 5 5_455
+F1 Ba F2 62.2(4) . .
+F2 Ba F2 102.7(3) 6 .
+F2 Ba F2 102.7(3) 6_455 .
+F1 Ba F2 60.2(3) 6_454 .
+F1 Ba F2 60.2(3) 6_554 .
+F4 Ba F2 86.5(4) 6_454 .
+F3 Ba F2 116.2(3) 5 .
+F3 Ba F2 116.2(3) 5_455 .
+F1 Ba Mn 132.3(2) . 6_454
+F2 Ba Mn 159.8(3) 6 6_454
+F2 Ba Mn 90.4(2) 6_455 6_454
+F1 Ba Mn 36.4(3) 6_454 6_454
+F1 Ba Mn 96.1(3) 6_554 6_454
+F4 Ba Mn 35.80(4) 6_454 6_454
+F3 Ba Mn 93.0(2) 5 6_454
+F3 Ba Mn 36.3(3) 5_455 6_454
+F2 Ba Mn 85.0(2) . 6_454
+F1 Ba Mn 132.3(2) . 6_554
+F2 Ba Mn 90.4(2) 6 6_554
+F2 Ba Mn 159.8(3) 6_455 6_554
+F1 Ba Mn 96.1(3) 6_454 6_554
+F1 Ba Mn 36.4(3) 6_554 6_554
+F4 Ba Mn 35.80(4) 6_454 6_554
+F3 Ba Mn 36.3(3) 5 6_554
+F3 Ba Mn 93.0(2) 5_455 6_554
+F2 Ba Mn 85.0(2) . 6_554
+Mn Ba Mn 71.43(6) 6_454 6_554
+F1 Ba Mn 30.5(3) . .
+F2 Ba Mn 83.8(4) 6 .
+F2 Ba Mn 83.8(4) 6_455 .
+F1 Ba Mn 77.1(3) 6_454 .
+F1 Ba Mn 77.1(3) 6_554 .
+F4 Ba Mn 118.2(3) 6_454 .
+F3 Ba Mn 130.25(18) 5 .
+F3 Ba Mn 130.25(18) 5_455 .
+F2 Ba Mn 31.7(3) . .
+Mn Ba Mn 110.47(6) 6_454 .
+Mn Ba Mn 110.47(6) 6_554 .
+F3 Mn F2 98.2(5) . .
+F3 Mn F4 89.6(4) . 1_655
+F2 Mn F4 94.3(4) . 1_655
+F3 Mn F4 89.6(4) . .
+F2 Mn F4 94.3(4) . .
+F4 Mn F4 171.3(8) 1_655 .
+F3 Mn F3 98.6(3) . 2
+F2 Mn F3 163.2(6) . 2
+F4 Mn F3 85.8(4) 1_655 2
+F4 Mn F3 85.8(4) . 2
+F3 Mn F1 174.8(5) . .
+F2 Mn F1 87.0(6) . .
+F4 Mn F1 90.0(4) 1_655 .
+F4 Mn F1 90.0(4) . .
+F3 Mn F1 76.2(5) 2 .
+F3 Mn Ba 128.6(3) . 6
+F2 Mn Ba 115.2(3) . 6
+F4 Mn Ba 51.9(4) 1_655 6
+F4 Mn Ba 123.2(4) . 6
+F3 Mn Ba 52.6(2) 2 6
+F1 Mn Ba 48.1(3) . 6
+F3 Mn Ba 128.6(3) . 6_455
+F2 Mn Ba 115.2(3) . 6_455
+F4 Mn Ba 123.2(4) 1_655 6_455
+F4 Mn Ba 51.9(4) . 6_455
+F3 Mn Ba 52.6(2) 2 6_455
+F1 Mn Ba 48.1(3) . 6_455
+Ba Mn Ba 71.43(6) 6 6_455
+F3 Mn Ba 147.5(4) . .
+F2 Mn Ba 49.3(4) . .
+F4 Mn Ba 92.6(4) 1_655 .
+F4 Mn Ba 92.6(4) . .
+F3 Mn Ba 113.9(3) 2 .
+F1 Mn Ba 37.7(4) . .
+Ba Mn Ba 75.73(5) 6 .
+Ba Mn Ba 75.73(5) 6_455 .
+Mn F1 Ba 111.8(6) . .
+Mn F1 Ba 95.5(4) . 6
+Ba F1 Ba 122.5(3) . 6
+Mn F1 Ba 95.5(4) . 6_455
+Ba F1 Ba 122.5(3) . 6_455
+Ba F1 Ba 102.7(5) 6 6_455
+Mn F2 Ba 116.2(4) . 6_454
+Mn F2 Ba 116.2(4) . 6_554
+Ba F2 Ba 105.7(4) 6_454 6_554
+Mn F2 Ba 99.0(5) . .
+Ba F2 Ba 109.8(4) 6_454 .
+Ba F2 Ba 109.8(4) 6_554 .
+Mn F3 Mn 138.6(6) . 2_554
+Mn F3 Ba 115.7(4) . 5_445
+Mn F3 Ba 91.1(3) 2_554 5_445
+Mn F3 Ba 115.7(4) . 5_545
+Mn F3 Ba 91.1(3) 2_554 5_545
+Ba F3 Ba 94.6(3) 5_445 5_545
+Mn F4 Mn 171.3(8) 1_455 .
+Mn F4 Ba 92.3(4) 1_455 6_455
+Mn F4 Ba 92.3(4) . 6_455
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Ba F1 2.608(16) .
+Ba F2 2.658(8) 6
+Ba F2 2.658(8) 6_455
+Ba F1 2.713(10) 6_454
+Ba F1 2.713(10) 6_554
+Ba F4 2.857(14) 6_454
+Ba F3 2.883(8) 5
+Ba F3 2.883(8) 5_455
+Ba F2 3.039(15) .
+Ba Mn 3.629(3) 6_454
+Ba Mn 3.629(3) 6_554
+Ba Mn 3.960(3) .
+Mn F3 2.070(12) .
+Mn F2 2.105(16) .
+Mn F4 2.1246(14) 1_655
+Mn F4 2.1246(13) .
+Mn F3 2.149(14) 2
+Mn F1 2.163(15) .
+Mn Ba 3.629(3) 6
+Mn Ba 3.629(3) 6_455
+F1 Ba 2.713(10) 6
+F1 Ba 2.713(10) 6_455
+F2 Ba 2.658(8) 6_454
+F2 Ba 2.658(8) 6_554
+F3 Mn 2.149(14) 2_554
+F3 Ba 2.883(8) 5_445
+F3 Ba 2.883(8) 5_545
+F4 Mn 2.1246(13) 1_455
+F4 Ba 2.857(14) 6_455

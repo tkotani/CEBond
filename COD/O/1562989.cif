@@ -1,0 +1,325 @@
+#------------------------------------------------------------------------------
+#$Date: 2021-05-31 11:33:57 +0300 (Mon, 31 May 2021) $
+#$Revision: 265628 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/56/29/1562989.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1562989
+loop_
+_publ_author_name
+'Artini, Cristina'
+'Costa, Giorgio A.'
+'Pani, Marcella'
+'Lausi, Andrea'
+'Plaisier, Jasper'
+_publ_section_title
+;
+ Structural characterization of the CeO2/Gd2O3 mixed system by synchrotron
+ X-ray diffraction
+;
+_journal_name_full               'Journal of Solid State Chemistry'
+_journal_page_first              24
+_journal_page_last               28
+_journal_paper_doi               10.1016/j.jssc.2012.01.056
+_journal_volume                  190
+_journal_year                    2012
+_chemical_formula_sum            'Ce O2'
+_chemical_formula_weight         172.12
+_chemical_name_common            'Cerium oxide'
+_space_group_IT_number           225
+_space_group_name_Hall           '-F 4 2 3'
+_space_group_name_H-M_alt        'F m -3 m'
+_symmetry_cell_setting           cubic
+_symmetry_space_group_name_Hall  '-F 4 2 3'
+_symmetry_space_group_name_H-M   'F m -3 m'
+_cell_angle_alpha                90.00000
+_cell_angle_beta                 90.00000
+_cell_angle_gamma                90.00000
+_cell_formula_units_Z            4
+_cell_length_a                   5.4073(1)
+_cell_length_b                   5.4073(1)
+_cell_length_c                   5.4073(1)
+_cell_measurement_temperature    298
+_cell_volume                     158.103(5)
+_computing_structure_refinement  DBWS-9807a
+_diffrn_ambient_temperature      298
+_diffrn_detector                 'proportional detector'
+_diffrn_measurement_device_type  'Panalytical PW1710 diffractometer'
+_diffrn_measurement_method       '2\q in the range 4-90 deg'
+_diffrn_radiation_probe          x-rays
+_diffrn_radiation_wavelength     1.54178
+_diffrn_source                   'sealed x-ray tube'
+_exptl_absorpt_coefficient_mu    218.35
+_exptl_absorpt_correction_type   none
+_pd_char_colour                  white
+_pd_meas_2theta_range_inc        0.02
+_pd_meas_2theta_range_max        90.00
+_pd_meas_2theta_range_min        4.00
+_pd_meas_number_of_points        4300
+_pd_meas_scan_method             step
+_pd_prep_pressure                101
+_pd_prep_temperature             1273
+_pd_proc_2theta_range_inc        0.02
+_pd_proc_2theta_range_max        90
+_pd_proc_2theta_range_min        15
+_pd_proc_ls_background_function  '6-coefficients polynomial function'
+_pd_proc_ls_profile_function     Pseudo-Voigt
+_pd_proc_ls_prof_R_factor        3.84
+_pd_proc_ls_prof_wR_expected     2.03
+_pd_proc_ls_prof_wR_factor       6.69
+_pd_spec_mounting                'packed powder pellet'
+_pd_spec_mount_mode              reflection
+_pd_spec_shape                   flat_sheet
+_pd_spec_size_axial              20
+_pd_spec_size_thick              1
+_refine_ls_number_parameters     17
+_refine_ls_number_reflns         289
+_refine_ls_number_restraints     0
+_refine_ls_R_I_factor            8.45
+_cod_data_source_file            JSSC-2012-190-24.cif
+_cod_data_source_block           C0
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+data item '_symmetry_cell_setting' value 'Cubic' was changed to
+'cubic' in accordance with the built-in table derived from the CIF
+Core dictionary named 'cif_core.dic' version 2.4.5 last updated on
+2014-11-21.
+
+Automatic conversion script
+Id: cif_fix_values 8369 2020-08-20 11:38:08Z andrius 
+;
+_cod_original_cell_volume        158.104(9)
+_cod_database_code               1562989
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+z,x,y
+y,z,x
+x,z,y
+y,x,z
+z,y,x
+x,-y,-z
+z,-x,-y
+y,-z,-x
+x,-z,-y
+y,-x,-z
+z,-y,-x
+-x,y,-z
+-z,x,-y
+-y,z,-x
+-x,z,-y
+-y,x,-z
+-z,y,-x
+-x,-y,z
+-z,-x,y
+-y,-z,x
+-x,-z,y
+-y,-x,z
+-z,-y,x
+-x,-y,-z
+-z,-x,-y
+-y,-z,-x
+-x,-z,-y
+-y,-x,-z
+-z,-y,-x
+-x,y,z
+-z,x,y
+-y,z,x
+-x,z,y
+-y,x,z
+-z,y,x
+x,-y,z
+z,-x,y
+y,-z,x
+x,-z,y
+y,-x,z
+z,-y,x
+x,y,-z
+z,x,-y
+y,z,-x
+x,z,-y
+y,x,-z
+z,y,-x
+x,y+1/2,z+1/2
+z,x+1/2,y+1/2
+y,z+1/2,x+1/2
+x,z+1/2,y+1/2
+y,x+1/2,z+1/2
+z,y+1/2,x+1/2
+x,-y+1/2,-z+1/2
+z,-x+1/2,-y+1/2
+y,-z+1/2,-x+1/2
+x,-z+1/2,-y+1/2
+y,-x+1/2,-z+1/2
+z,-y+1/2,-x+1/2
+-x,y+1/2,-z+1/2
+-z,x+1/2,-y+1/2
+-y,z+1/2,-x+1/2
+-x,z+1/2,-y+1/2
+-y,x+1/2,-z+1/2
+-z,y+1/2,-x+1/2
+-x,-y+1/2,z+1/2
+-z,-x+1/2,y+1/2
+-y,-z+1/2,x+1/2
+-x,-z+1/2,y+1/2
+-y,-x+1/2,z+1/2
+-z,-y+1/2,x+1/2
+-x,-y+1/2,-z+1/2
+-z,-x+1/2,-y+1/2
+-y,-z+1/2,-x+1/2
+-x,-z+1/2,-y+1/2
+-y,-x+1/2,-z+1/2
+-z,-y+1/2,-x+1/2
+-x,y+1/2,z+1/2
+-z,x+1/2,y+1/2
+-y,z+1/2,x+1/2
+-x,z+1/2,y+1/2
+-y,x+1/2,z+1/2
+-z,y+1/2,x+1/2
+x,-y+1/2,z+1/2
+z,-x+1/2,y+1/2
+y,-z+1/2,x+1/2
+x,-z+1/2,y+1/2
+y,-x+1/2,z+1/2
+z,-y+1/2,x+1/2
+x,y+1/2,-z+1/2
+z,x+1/2,-y+1/2
+y,z+1/2,-x+1/2
+x,z+1/2,-y+1/2
+y,x+1/2,-z+1/2
+z,y+1/2,-x+1/2
+x+1/2,y,z+1/2
+z+1/2,x,y+1/2
+y+1/2,z,x+1/2
+x+1/2,z,y+1/2
+y+1/2,x,z+1/2
+z+1/2,y,x+1/2
+x+1/2,-y,-z+1/2
+z+1/2,-x,-y+1/2
+y+1/2,-z,-x+1/2
+x+1/2,-z,-y+1/2
+y+1/2,-x,-z+1/2
+z+1/2,-y,-x+1/2
+-x+1/2,y,-z+1/2
+-z+1/2,x,-y+1/2
+-y+1/2,z,-x+1/2
+-x+1/2,z,-y+1/2
+-y+1/2,x,-z+1/2
+-z+1/2,y,-x+1/2
+-x+1/2,-y,z+1/2
+-z+1/2,-x,y+1/2
+-y+1/2,-z,x+1/2
+-x+1/2,-z,y+1/2
+-y+1/2,-x,z+1/2
+-z+1/2,-y,x+1/2
+-x+1/2,-y,-z+1/2
+-z+1/2,-x,-y+1/2
+-y+1/2,-z,-x+1/2
+-x+1/2,-z,-y+1/2
+-y+1/2,-x,-z+1/2
+-z+1/2,-y,-x+1/2
+-x+1/2,y,z+1/2
+-z+1/2,x,y+1/2
+-y+1/2,z,x+1/2
+-x+1/2,z,y+1/2
+-y+1/2,x,z+1/2
+-z+1/2,y,x+1/2
+x+1/2,-y,z+1/2
+z+1/2,-x,y+1/2
+y+1/2,-z,x+1/2
+x+1/2,-z,y+1/2
+y+1/2,-x,z+1/2
+z+1/2,-y,x+1/2
+x+1/2,y,-z+1/2
+z+1/2,x,-y+1/2
+y+1/2,z,-x+1/2
+x+1/2,z,-y+1/2
+y+1/2,x,-z+1/2
+z+1/2,y,-x+1/2
+x+1/2,y+1/2,z
+z+1/2,x+1/2,y
+y+1/2,z+1/2,x
+x+1/2,z+1/2,y
+y+1/2,x+1/2,z
+z+1/2,y+1/2,x
+x+1/2,-y+1/2,-z
+z+1/2,-x+1/2,-y
+y+1/2,-z+1/2,-x
+x+1/2,-z+1/2,-y
+y+1/2,-x+1/2,-z
+z+1/2,-y+1/2,-x
+-x+1/2,y+1/2,-z
+-z+1/2,x+1/2,-y
+-y+1/2,z+1/2,-x
+-x+1/2,z+1/2,-y
+-y+1/2,x+1/2,-z
+-z+1/2,y+1/2,-x
+-x+1/2,-y+1/2,z
+-z+1/2,-x+1/2,y
+-y+1/2,-z+1/2,x
+-x+1/2,-z+1/2,y
+-y+1/2,-x+1/2,z
+-z+1/2,-y+1/2,x
+-x+1/2,-y+1/2,-z
+-z+1/2,-x+1/2,-y
+-y+1/2,-z+1/2,-x
+-x+1/2,-z+1/2,-y
+-y+1/2,-x+1/2,-z
+-z+1/2,-y+1/2,-x
+-x+1/2,y+1/2,z
+-z+1/2,x+1/2,y
+-y+1/2,z+1/2,x
+-x+1/2,z+1/2,y
+-y+1/2,x+1/2,z
+-z+1/2,y+1/2,x
+x+1/2,-y+1/2,z
+z+1/2,-x+1/2,y
+y+1/2,-z+1/2,x
+x+1/2,-z+1/2,y
+y+1/2,-x+1/2,z
+z+1/2,-y+1/2,x
+x+1/2,y+1/2,-z
+z+1/2,x+1/2,-y
+y+1/2,z+1/2,-x
+x+1/2,z+1/2,-y
+y+1/2,x+1/2,-z
+z+1/2,y+1/2,-x
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+_atom_site_adp_type
+_atom_site_type_symbol
+Ce 0. 0. 0. 0.00633 1 Uiso Ce
+O 0.2500 0.2500 0.2500 0.23(1) 1 Uiso O
+loop_
+_atom_type_symbol
+_atom_type_scat_Cromer_Mann_a1
+_atom_type_scat_Cromer_Mann_b1
+_atom_type_scat_Cromer_Mann_a2
+_atom_type_scat_Cromer_Mann_b2
+_atom_type_scat_Cromer_Mann_a3
+_atom_type_scat_Cromer_Mann_b3
+_atom_type_scat_Cromer_Mann_a4
+_atom_type_scat_Cromer_Mann_b4
+_atom_type_scat_Cromer_Mann_c
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+ce 21.16710 2.81219 19.76950 0.22684 11.85130 17.60830 3.33049 127.11300
+1.86264 -0.56400 2.63200
+'International Tables Vol. C (1991), Tables 6.1.1.4 and 6.1.1.5'
+o 3.04850 13.27710 2.28680 5.70110 1.54630 0.32390 0.86700 32.90890 0.25080
+0.00800 0.00600
+'International Tables Vol. C (1991), Tables 6.1.1.4 and 6.1.1.5'

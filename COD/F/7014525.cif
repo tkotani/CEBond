@@ -1,0 +1,376 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 06:40:26 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176432 $
+#$URL: svn://www.crystallography.net/cod/cif/7/01/45/7014525.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7014525
+loop_
+_publ_author_name
+'Friese, Karen'
+'Morgenroth, Wolfgang'
+'Posse, Jos\'e Maria'
+'Grzechnik, Andrzej'
+_publ_section_title
+;
+ Disorder in BaThF(6)- refinement of anharmonic displacement parameters
+ from high-pressure single-crystal X-ray diffraction data.
+;
+_journal_issue                   9
+_journal_name_full
+'Dalton transactions (Cambridge, England : 2003)'
+_journal_page_first              1902
+_journal_page_last               1910
+_journal_paper_doi               10.1039/c0dt00924e
+_journal_volume                  40
+_journal_year                    2011
+_chemical_formula_moiety         'Ba1 F6 Th1'
+_chemical_formula_sum            'Ba F6 Th'
+_chemical_formula_weight         483.4
+_chemical_name_systematic
+;
+barium thorium hexafluorid
+;
+_space_group_IT_number           194
+_symmetry_cell_setting           hexagonal
+_symmetry_space_group_name_Hall  '-P 6c 2c'
+_symmetry_space_group_name_H-M   'P 63/m m c'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            1
+_cell_length_a                   4.2960(10)
+_cell_length_b                   4.2960(10)
+_cell_length_c                   7.5710(10)
+_cell_measurement_reflns_used    11349
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      32.53
+_cell_measurement_theta_min      3.68
+_cell_volume                     121.01(4)
+_computing_cell_refinement       XDS
+_computing_data_collection       Mar
+_computing_data_reduction        'XDS, Jana2006'
+_computing_molecular_graphics    'Atoms Version 5.0.7'
+_computing_structure_refinement  Jana2006
+_computing_structure_solution    'coordinates from model'
+_diffrn_ambient_temperature      293
+_diffrn_detector                 MarCCD165
+_diffrn_measured_fraction_theta_full 0.99
+_diffrn_measured_fraction_theta_max 0.99
+_diffrn_measurement_device       'Huber 4-circle'
+_diffrn_measurement_method       phi-scans
+_diffrn_radiation_source         Hasylab
+_diffrn_radiation_type           synchrotron
+_diffrn_radiation_wavelength     0.47686
+_diffrn_reflns_av_R_equivalents  0.0678
+_diffrn_reflns_av_sigmaI/netI    0.0379
+_diffrn_reflns_limit_h_max       9
+_diffrn_reflns_limit_h_min       -9
+_diffrn_reflns_limit_k_max       9
+_diffrn_reflns_limit_k_min       -9
+_diffrn_reflns_limit_l_max       16
+_diffrn_reflns_limit_l_min       -16
+_diffrn_reflns_number            10630
+_diffrn_reflns_reduction_process 'XDS, Jana2006'
+_diffrn_reflns_theta_full        32.51
+_diffrn_reflns_theta_max         32.51
+_diffrn_reflns_theta_min         3.67
+_exptl_absorpt_coefficient_mu    19.085
+_exptl_absorpt_correction_T_max  0.1160
+_exptl_absorpt_correction_T_min  0.0600
+_exptl_absorpt_correction_type   numerical
+_exptl_absorpt_process_details
+'Jana2006 (Petricek, Dusek & Palatinus, 2000)'
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    6.6309
+_exptl_crystal_description       irregular
+_exptl_crystal_F_000             200
+_exptl_crystal_size_max          0.1
+_exptl_crystal_size_mid          0.09
+_exptl_crystal_size_min          0.08
+_refine_diff_density_max         1.35
+_refine_diff_density_min         -1.63
+_refine_ls_extinction_coef       1140(180)
+_refine_ls_extinction_method
+'B-C type 1 Gaussian isotropic (Becker & Coppens, 1974)'
+_refine_ls_goodness_of_fit_gt    1.67
+_refine_ls_goodness_of_fit_ref   1.66
+_refine_ls_number_constraints    7
+_refine_ls_number_parameters     10
+_refine_ls_number_reflns         313
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          0.0228
+_refine_ls_R_factor_gt           0.0216
+_refine_ls_shift/su_max          0.0266
+_refine_ls_shift/su_mean         0.0111
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     w=1/(\s^2^(F)+0.0001F^2^)
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_gt          0.0309
+_refine_ls_wR_factor_ref         0.0316
+_reflns_number_gt                293
+_reflns_number_total             313
+_reflns_threshold_expression     I>3\s(I)
+_cod_data_source_file            C0DT00924E.TXT
+_cod_data_source_block           BaThF6_anharmonic_RT
+_cod_original_sg_symbol_Hall     '-P 6c;-2c'
+_cod_original_formula_sum        'Ba1 F6 Th1'
+_cod_database_code               7014525
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -y,x-y,z
+3 -x+y,-x,z
+4 -x,-y,z+1/2
+5 y,-x+y,z+1/2
+6 x-y,x,z+1/2
+7 y,x,-z
+8 x-y,-y,-z
+9 -x,-x+y,-z
+10 -y,-x,-z+1/2
+11 -x+y,y,-z+1/2
+12 x,x-y,-z+1/2
+13 -x,-y,-z
+14 y,-x+y,-z
+15 x-y,x,-z
+16 x,y,-z+1/2
+17 -y,x-y,-z+1/2
+18 -x+y,-x,-z+1/2
+19 -y,-x,z
+20 -x+y,y,z
+21 x,x-y,z
+22 y,x,z+1/2
+23 x-y,-y,z+1/2
+24 -x,-x+y,z+1/2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_adp_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+_atom_site_occupancy
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Ba Ba 0.333333 0.666667 0.75 Uani 0.02156(8) 2 0.5 d . . .
+Th Th 0.333333 0.666667 0.75 Uani 0.02156(8) 2 0.5 d . . .
+F1 F 0.333333 0.666667 0.414(4) Uani 0.111(13) 4 1 d . . .
+F2 F 0 0 0.75 Uani 0.18(3) 2 1 d . . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_type_symbol
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Ba Ba 0.02555(11) 0.02555(11) 0.01357(11) 0.01278(5) 0 0
+Th Th 0.02555(11) 0.02555(11) 0.01357(11) 0.01278(5) 0 0
+F1 F 0.134(17) 0.134(17) 0.066(14) 0.067(9) 0 0
+F2 F 0.085(12) 0.085(12) 0.37(9) 0.043(6) 0 0
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Ba -0.960 1.137 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+Th -1.892 7.724 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+F 0.006 0.004 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+loop_
+_diffrn_standard_refln_index_h
+_diffrn_standard_refln_index_k
+_diffrn_standard_refln_index_l
+? ? ?
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+F1 Ba F1 . . 4_565 116.6(5) yes
+F1 Ba F1 . . 4_665 116.6(5) yes
+F1 Ba F1 . . 4_675 116.6(5) yes
+F1 Ba F1 . . 7_456 63.4(5) yes
+F1 Ba F1 . . 7_556 63.4(5) yes
+F1 Ba F1 . . 7_566 63.4(5) yes
+F1 Ba F1 . . 10_666 180.0(5) yes
+F1 Ba F2 . . . 90 yes
+F1 Ba F2 . . 1_565 90 yes
+F1 Ba F2 . . 1_665 90 yes
+F1 Ba F1 4_565 . 4_665 101.5(5) yes
+F1 Ba F1 4_565 . 4_675 101.5(5) yes
+F1 Ba F1 4_565 . 7_456 53.2(8) yes
+F1 Ba F1 4_565 . 7_556 126.88(19) yes
+F1 Ba F1 4_565 . 7_566 126.88(19) yes
+F1 Ba F1 4_565 . 10_666 63.4(5) yes
+F1 Ba F2 4_565 . . 63.44(14) yes
+F1 Ba F2 4_565 . 1_565 63.44(14) yes
+F1 Ba F2 4_565 . 1_665 153.4(5) yes
+F1 Ba F1 4_665 . 4_675 101.5(5) yes
+F1 Ba F1 4_665 . 7_456 126.88(19) yes
+F1 Ba F1 4_665 . 7_556 53.2(8) yes
+F1 Ba F1 4_665 . 7_566 126.88(19) yes
+F1 Ba F1 4_665 . 10_666 63.4(5) yes
+F1 Ba F2 4_665 . . 63.44(14) yes
+F1 Ba F2 4_665 . 1_565 153.4(5) yes
+F1 Ba F2 4_665 . 1_665 63.44(14) yes
+F1 Ba F1 4_675 . 7_456 126.88(19) yes
+F1 Ba F1 4_675 . 7_556 126.88(19) yes
+F1 Ba F1 4_675 . 7_566 53.2(8) yes
+F1 Ba F1 4_675 . 10_666 63.4(5) yes
+F1 Ba F2 4_675 . . 153.4(5) yes
+F1 Ba F2 4_675 . 1_565 63.44(14) yes
+F1 Ba F2 4_675 . 1_665 63.44(14) yes
+F1 Ba F1 7_456 . 7_556 101.5(5) yes
+F1 Ba F1 7_456 . 7_566 101.5(5) yes
+F1 Ba F1 7_456 . 10_666 116.6(5) yes
+F1 Ba F2 7_456 . . 63.44(14) yes
+F1 Ba F2 7_456 . 1_565 63.44(14) yes
+F1 Ba F2 7_456 . 1_665 153.4(5) yes
+F1 Ba F1 7_556 . 7_566 101.5(5) yes
+F1 Ba F1 7_556 . 10_666 116.6(5) yes
+F1 Ba F2 7_556 . . 63.44(14) yes
+F1 Ba F2 7_556 . 1_565 153.4(5) yes
+F1 Ba F2 7_556 . 1_665 63.44(14) yes
+F1 Ba F1 7_566 . 10_666 116.6(5) yes
+F1 Ba F2 7_566 . . 153.4(5) yes
+F1 Ba F2 7_566 . 1_565 63.44(14) yes
+F1 Ba F2 7_566 . 1_665 63.44(14) yes
+F1 Ba F2 10_666 . . 90 yes
+F1 Ba F2 10_666 . 1_565 90 yes
+F1 Ba F2 10_666 . 1_665 90 yes
+F2 Ba F2 . . 1_565 120.000(19) yes
+F2 Ba F2 . . 1_665 120.000(15) yes
+F2 Ba F2 1_565 . 1_665 120.000(19) yes
+F1 Th F1 . . 4_565 116.6(5) yes
+F1 Th F1 . . 4_665 116.6(5) yes
+F1 Th F1 . . 4_675 116.6(5) yes
+F1 Th F1 . . 7_456 63.4(5) yes
+F1 Th F1 . . 7_556 63.4(5) yes
+F1 Th F1 . . 7_566 63.4(5) yes
+F1 Th F1 . . 10_666 180.0(5) yes
+F1 Th F2 . . . 90 yes
+F1 Th F2 . . 1_565 90 yes
+F1 Th F2 . . 1_665 90 yes
+F1 Th F1 4_565 . 4_665 101.5(5) yes
+F1 Th F1 4_565 . 4_675 101.5(5) yes
+F1 Th F1 4_565 . 7_456 53.2(8) yes
+F1 Th F1 4_565 . 7_556 126.88(19) yes
+F1 Th F1 4_565 . 7_566 126.88(19) yes
+F1 Th F1 4_565 . 10_666 63.4(5) yes
+F1 Th F2 4_565 . . 63.44(14) yes
+F1 Th F2 4_565 . 1_565 63.44(14) yes
+F1 Th F2 4_565 . 1_665 153.4(5) yes
+F1 Th F1 4_665 . 4_675 101.5(5) yes
+F1 Th F1 4_665 . 7_456 126.88(19) yes
+F1 Th F1 4_665 . 7_556 53.2(8) yes
+F1 Th F1 4_665 . 7_566 126.88(19) yes
+F1 Th F1 4_665 . 10_666 63.4(5) yes
+F1 Th F2 4_665 . . 63.44(14) yes
+F1 Th F2 4_665 . 1_565 153.4(5) yes
+F1 Th F2 4_665 . 1_665 63.44(14) yes
+F1 Th F1 4_675 . 7_456 126.88(19) yes
+F1 Th F1 4_675 . 7_556 126.88(19) yes
+F1 Th F1 4_675 . 7_566 53.2(8) yes
+F1 Th F1 4_675 . 10_666 63.4(5) yes
+F1 Th F2 4_675 . . 153.4(5) yes
+F1 Th F2 4_675 . 1_565 63.44(14) yes
+F1 Th F2 4_675 . 1_665 63.44(14) yes
+F1 Th F1 7_456 . 7_556 101.5(5) yes
+F1 Th F1 7_456 . 7_566 101.5(5) yes
+F1 Th F1 7_456 . 10_666 116.6(5) yes
+F1 Th F2 7_456 . . 63.44(14) yes
+F1 Th F2 7_456 . 1_565 63.44(14) yes
+F1 Th F2 7_456 . 1_665 153.4(5) yes
+F1 Th F1 7_556 . 7_566 101.5(5) yes
+F1 Th F1 7_556 . 10_666 116.6(5) yes
+F1 Th F2 7_556 . . 63.44(14) yes
+F1 Th F2 7_556 . 1_565 153.4(5) yes
+F1 Th F2 7_556 . 1_665 63.44(14) yes
+F1 Th F1 7_566 . 10_666 116.6(5) yes
+F1 Th F2 7_566 . . 153.4(5) yes
+F1 Th F2 7_566 . 1_565 63.44(14) yes
+F1 Th F2 7_566 . 1_665 63.44(14) yes
+F1 Th F2 10_666 . . 90 yes
+F1 Th F2 10_666 . 1_565 90 yes
+F1 Th F2 10_666 . 1_665 90 yes
+F2 Th F2 . . 1_565 120.000(19) yes
+F2 Th F2 . . 1_665 120.000(15) yes
+F2 Th F2 1_565 . 1_665 120.000(19) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Ba Th . . 0 yes
+Ba F1 . . 2.54(3) yes
+Ba F1 . 4_565 2.774(13) yes
+Ba F1 . 4_665 2.774(13) yes
+Ba F1 . 4_675 2.774(13) yes
+Ba F1 . 7_456 2.774(13) yes
+Ba F1 . 7_556 2.774(13) yes
+Ba F1 . 7_566 2.774(13) yes
+Ba F1 . 10_666 2.54(3) yes
+Ba F2 . . 2.4803(16) yes
+Ba F2 . 1_565 2.4803(6) yes
+Ba F2 . 1_665 2.4803(16) yes
+Th F1 . . 2.54(3) yes
+Th F1 . 4_565 2.774(13) yes
+Th F1 . 4_665 2.774(13) yes
+Th F1 . 4_675 2.774(13) yes
+Th F1 . 7_456 2.774(13) yes
+Th F1 . 7_556 2.774(13) yes
+Th F1 . 7_566 2.774(13) yes
+Th F1 . 10_666 2.54(3) yes
+Th F2 . . 2.4803(16) yes
+Th F2 . 1_565 2.4803(6) yes
+Th F2 . 1_665 2.4803(16) yes
+F1 F1 . 7_456 2.802(19) yes
+F1 F1 . 7_556 2.802(19) yes
+F1 F1 . 7_566 2.802(19) yes
+F1 F1 . 10_665 2.48(4) yes
+F1 F2 . 4_554 2.774(13) yes
+F1 F2 . 4_564 2.774(13) yes
+F1 F2 . 4_664 2.774(13) yes
+loop_
+_geom_hbond_atom_site_label_D
+_geom_hbond_atom_site_label_H
+_geom_hbond_atom_site_label_A
+_geom_hbond_site_symmetry_D
+_geom_hbond_site_symmetry_H
+_geom_hbond_site_symmetry_A
+_geom_hbond_distance_DH
+_geom_hbond_distance_HA
+_geom_hbond_distance_DA
+_geom_hbond_angle_DHA
+_geom_hbond_publ_flag
+? ? ? ? ? ? ? ? ? ? ?
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion_site_symmetry_1
+_geom_torsion_site_symmetry_2
+_geom_torsion_site_symmetry_3
+_geom_torsion_site_symmetry_4
+_geom_torsion
+_geom_torsion_publ_flag
+? ? ? ? ? ? ? ? ? ?

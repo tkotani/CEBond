@@ -1,0 +1,682 @@
+#------------------------------------------------------------------------------
+#$Date: 2019-07-09 12:14:46 +0300 (Tue, 09 Jul 2019) $
+#$Revision: 216895 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/55/20/1552076.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1552076
+loop_
+_publ_author_name
+'Bykov, Maxim'
+'Chariton Stella'
+'Fedotenko Timofey'
+'Ponomareva Alena V.'
+'Tasnadi Ferenc'
+'Vogel Sebastian'
+'Schnick Wolfgang'
+'Prakapenka Vitali'
+'Hanfland Michael'
+'Liermann Hanns-Peter'
+'Abrikosov Igor A.'
+'Dubrovinskaia Natalia'
+'Dubrovinsky Leonid'
+_publ_section_title
+;
+ High-pressure synthesis of an ultraincompressible and hard material ReN2
+ stable at ambient conditions
+;
+_journal_name_full               'Nature Communications'
+_journal_page_first              2994
+_journal_paper_doi               10.1038/s41467-019-10995-3
+_journal_volume                  10
+_journal_year                    2019
+_chemical_formula_moiety         'N2 Re'
+_chemical_formula_sum            'N2 Re'
+_chemical_formula_weight         214.22
+_chemical_name_systematic        'Rhenium nitride pernitride'
+_space_group_crystal_system      monoclinic
+_space_group_IT_number           14
+_space_group_name_Hall           '-P 2ybc'
+_space_group_name_H-M_alt        'P 1 21/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 111.48(6)
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   3.6254(17)
+_cell_length_b                   6.407(7)
+_cell_length_c                   4.948(3)
+_cell_measurement_reflns_used    500
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      17.7500
+_cell_measurement_theta_min      2.2200
+_cell_volume                     106.95(15)
+_computing_cell_refinement       'CrysAlisPro 1.171.39.46 (Rigaku OD, 2018)'
+_computing_data_collection       'CrysAlisPro 1.171.39.46 (Rigaku OD, 2018)'
+_computing_data_reduction        'CrysAlisPro 1.171.39.46 (Rigaku OD, 2018)'
+_computing_molecular_graphics    'Olex2 (Dolomanov et al., 2009)'
+_computing_publication_material  'Olex2 (Dolomanov et al., 2009)'
+_computing_structure_refinement  'ShelXL (Sheldrick, 2015)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_detector                 'Pilatus 1M'
+_diffrn_detector_area_resol_mean 5.6
+_diffrn_measured_fraction_theta_full 0.454
+_diffrn_measured_fraction_theta_max 0.296
+_diffrn_measurement_device_type  '13IDD, APS, Chicago, USA'
+_diffrn_measurement_method       '\w scans'
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_type           synchrotron
+_diffrn_radiation_wavelength     0.2903
+_diffrn_reflns_av_R_equivalents  0.0105
+_diffrn_reflns_av_unetI/netI     0.0084
+_diffrn_reflns_Laue_measured_fraction_full 0.454
+_diffrn_reflns_Laue_measured_fraction_max 0.296
+_diffrn_reflns_limit_h_max       5
+_diffrn_reflns_limit_h_min       -5
+_diffrn_reflns_limit_k_max       5
+_diffrn_reflns_limit_k_min       -7
+_diffrn_reflns_limit_l_max       8
+_diffrn_reflns_limit_l_min       -7
+_diffrn_reflns_number            290
+_diffrn_reflns_point_group_measured_fraction_full 0.454
+_diffrn_reflns_point_group_measured_fraction_max 0.296
+_diffrn_reflns_theta_full        10.031
+_diffrn_reflns_theta_max         14.778
+_diffrn_reflns_theta_min         2.466
+_diffrn_source                   synchrotron
+_exptl_absorpt_coefficient_mu    10.757
+_exptl_absorpt_correction_T_max  1.00000
+_exptl_absorpt_correction_T_min  0.38640
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details
+;
+CrysAlisPro 1.171.39.46 (Rigaku Oxford Diffraction, 2018)
+Empirical absorption correction using spherical harmonics,
+ implemented in SCALE3 ABSPACK scaling algorithm.
+;
+_exptl_crystal_colour            black
+_exptl_crystal_colour_primary    black
+_exptl_crystal_density_diffrn    13.303
+_exptl_crystal_description       block
+_exptl_crystal_F_000             356
+_exptl_crystal_size_max          0.03
+_exptl_crystal_size_mid          0.02
+_exptl_crystal_size_min          0.005
+_refine_diff_density_max         2.830
+_refine_diff_density_min         -2.668
+_refine_diff_density_rms         0.741
+_refine_ls_extinction_coef       0.13(3)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     'SHELXL-2014/7 (Sheldrick 2014'
+_refine_ls_goodness_of_fit_ref   1.103
+_refine_ls_hydrogen_treatment    undef
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     19
+_refine_ls_number_reflns         180
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.103
+_refine_ls_R_factor_all          0.0351
+_refine_ls_R_factor_gt           0.0350
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w=1/[\s^2^(Fo^2^)+(0.0798P)^2^] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0880
+_refine_ls_wR_factor_ref         0.0882
+_reflns_number_gt                175
+_reflns_number_total             180
+_reflns_threshold_expression     'I > 2\s(I)'
+_cod_data_source_file            41467_2019_10995_MOESM4_ESM.cif
+_cod_data_source_block           ReN2_1bar
+_cod_original_cell_volume        106.96(15)
+_cod_database_code               1552076
+_chemical_oxdiff_formula         'Re N2'
+_shelx_space_group_comment
+;
+The symmetry employed for this shelxl refinement is uniquely defined
+by the following loop, which should always be used as a source of
+symmetry information in preference to the above space-group names.
+They are only intended as comments.
+;
+_shelx_res_file
+;
+    ren2_p14_s1_p21c.res created by SHELXL-2014/7
+
+TITL ReN2_p14_s1_P21c
+CELL 0.2903 3.625432 6.407447 4.947798 90 111.4767 90
+ZERR 4 0.001655 0.007023 0.003192 0 0.0628 0
+LATT 1
+SYMM -X,0.5+Y,0.5-Z
+SFAC N Re
+DISP N -0.0012 0.0004 5.1873
+DISP Re -0.9569 1.5949 2865.9973
+UNIT 8 4
+
+L.S. 4 0 0
+PLAN  20
+fmap 2 53
+acta
+OMIT -1 5 4
+OMIT -1 3 4
+OMIT -2 2 1
+OMIT 2 5 3
+OMIT 3 1 1
+OMIT -2 6 6
+OMIT 4 2 3
+REM <olex2.extras>
+REM <HklSrc "%.\\LD014_p01_s1_ReN2.hkl">
+REM </olex2.extras>
+
+WGHT    0.079800
+EXTI    0.126854
+FVAR       6.18791
+RE01  2    0.354899    0.340412    0.199652    11.00000    0.00701    0.00665 =
+         0.00403   -0.00003    0.00207    0.00009
+N1    1    0.193936    0.038198    0.031136    11.00000    0.00755
+N2    1    0.258811    0.638086    0.023807    11.00000    0.00811
+HKLF 4
+
+REM  ReN2_p14_s1_P21c
+REM R1 =  0.0350 for     175 Fo > 4sig(Fo)  and  0.0351 for all     180 data
+REM     19 parameters refined using      0 restraints
+
+END
+
+WGHT      0.0798      0.0000
+
+REM Highest difference peak  2.830,  deepest hole -2.668,  1-sigma level  0.741
+Q1    1   0.5326  0.2737  0.3139  11.00000  0.05    2.83
+Q2    1   0.1779  0.3026  0.0999  11.00000  0.05    2.61
+Q3    1   0.2947  0.6931  0.1457  11.00000  0.05    2.54
+Q4    1   0.2660  0.3406 -0.0663  11.00000  0.05    2.25
+Q5    1   0.6144  0.3315  0.1744  11.00000  0.05    2.23
+Q6    1   0.2613 -0.0544  0.1826  11.00000  0.05    1.99
+Q7    1  -0.0123  0.1779  0.1995  11.00000  0.05    1.97
+Q8    1   0.1190  0.0596  0.2811  11.00000  0.05    1.93
+Q9    1   0.1280  0.1568 -0.1151  11.00000  0.05    1.88
+Q10   1   0.4428  0.3369  0.4526  11.00000  0.05    1.88
+Q11   1   0.4686  0.5306  0.1837  11.00000  0.05    1.86
+Q12   1   0.0909  0.5255 -0.1184  11.00000  0.05    1.84
+Q13   1   0.1199  0.2961  0.3289  11.00000  0.05    1.79
+Q14   1   0.6687  0.3461  0.4373  11.00000  0.05    1.77
+Q15   1   0.3039  0.4623  0.2815  11.00000  0.05    1.76
+Q16   1   0.2443  0.6601  0.3172  11.00000  0.05    1.66
+Q17   1   0.3439  0.7414 -0.0604  11.00000  0.05    1.65
+Q18   1   0.2469 -0.0192 -0.0774  11.00000  0.05    1.54
+Q19   1  -0.0060  0.6600  0.0745  11.00000  0.05    1.52
+Q20   1   0.1642  0.6946 -0.0947  11.00000  0.05    1.50
+;
+_shelx_res_checksum              5849
+_shelx_hkl_file
+;
+   0   2   5 2232.93 57.4793   1
+   0   2   6 9514.75 89.9984   1
+   0  -5  -4 749025. 1445.66   1
+  -1   0   3 12048.1 133.284   1
+   1   0  -1 21.4648 34.2031   1
+  -1   0   1 21.9016 41.9009   1
+  -1   0   0 694284. 1439.11   1
+   1   0   0 693005. 1461.19   1
+  -1   1   6 278449. 666.143   1
+  -1   1   5 124029. 383.371   1
+  -1   1   4 128736. 382.598   1
+  -1   1   3 430.036 75.8915   1
+   1  -1  -3 1307.91 101.225   1
+  -1  -1   1 169716. 507.507   1
+  -1   1   1 171049. 496.091   1
+  -1  -1  -1 456321. 990.847   1
+   1   1   1 450059. 897.622   1
+  -1   2   6 25893.4 205.144   1
+  -1   2   5 424772. 1080.36   1
+  -1   2   4 190028. 652.136   1
+   1  -2  -4 202913. 500.057   1
+   1  -2  -2 243468. 803.589   1
+  -1   2   2 243861. 553.781   1
+   1   2   1 283398. 708.795   1
+  -1  -2  -1 286361. 576.048   1
+  -1   3   6 7350.71 229.412   1
+  -1   3   5 288199. 826.582   1
+   1  -3  -5 288932. 754.566   1
+   1  -3  -4 6637.09 114.731   1
+   1  -3  -3 9757.64 208.106   1
+  -1  -3  -2 21660.6 100.644   1
+   1  -4  -6 63902.5 356.843   1
+   1  -4  -5 250491. 576.701   1
+   1  -4  -4 324844. 937.947   1
+   1  -5  -5 32262.0 300.387   1
+   1  -5  -4 156719. 683.319   1
+   1  -6  -5 17395.1 311.392   1
+  -1  -6  -4 133257. 295.636   1
+  -2   0   6 643556. 1394.05   1
+  -2   0   5 169.659 102.514   1
+   2   0  -4 740293. 1820.96   1
+  -2   0   4 732098. 1521.35   1
+  -2   0   2 374955. 1040.07   1
+   2   0  -2 382740. 915.030   1
+  -2   0   1 7.26259 189.657   1
+   2   0  -1 117.020 144.280   1
+  -2   0   0 233281. 820.554   1
+   2   0   1-52.4945 161.959   1
+  -2   1   7 31227.8 259.097   1
+  -2   1   6 3796.20 141.557   1
+   2  -1  -5 22561.6 326.934   1
+  -2   1   5 23636.9 239.899   1
+   2  -1  -4 251392. 697.908   1
+  -2  -1   3 219978. 645.643   1
+   2  -1  -3 224572. 649.661   1
+   2  -1  -2 902366. 1932.15   1
+  -2   1   2 903015. 2168.99   1
+   2  -1  -1 472465. 1443.21   1
+   2   1  -1 476158. 1044.42   1
+   2   1   0 773521. 1559.36   1
+  -2  -1   0 808747. 1819.40   1
+   2   1   1 308437. 930.274   1
+  -2  -1  -1 310737. 880.272   1
+   2   1   2 292839. 922.744   1
+   2   1   3 29999.3 297.109   1
+  -2   2   7 302807. 1047.19   1
+   2  -2  -6 107725. 550.737   1
+  -2   2   6 111852. 574.344   1
+   2  -2  -5 632016. 1306.90   1
+   2  -2  -4 156310. 543.160   1
+  -2   2   4 193115. 868.482   1
+  -2   2   3 365502. 1219.67   1
+   2  -2  -3 383524. 1087.72   1
+   2  -2  -2 32580.8 422.703   1
+   2   2  -2 33464.6 390.226   1
+  -2  -2   1 19138.0 175.434   1
+  -2  -2   0 8209.64 126.643   1
+   2   2   0 8771.61 113.141   1
+  -2  -2  -1 272374. 856.973   1
+   2   2   1 285492. 653.559   1
+   2   2   2 140756. 431.193   1
+  -2  -2  -2 136137. 448.245   1
+   2   2   3 560282. 1225.83   1
+   2   2   4 81237.7 390.861   1
+  -2   3   7 58355.3 510.202   1
+  -2   3   6-93.1075 261.660   1
+   2  -3  -6-79.2088 111.713   1
+  -2   3   5 54617.4 448.193   1
+   2  -3  -3 574457. 1681.09   1
+  -2  -3   0 14302.9 133.061   1
+  -2  -3  -1 523994. 1078.80   1
+   2   3   1 534268. 1252.58   1
+   2   3   2 10622.4 136.037   1
+   2   3   3 116433. 306.478   1
+   2   3   4-3.97474 47.5811   1
+  -2   4   6 264640. 769.889   1
+   2  -4  -6 267664. 722.300   1
+   2  -4  -5 326075. 956.803   1
+  -2   4   5 327253. 785.082   1
+   2  -4  -4 209796. 1015.92   1
+  -2  -4  -1 125509. 375.007   1
+  -2  -4  -2 196347. 545.089   1
+  -2  -4  -3 298977. 793.941   1
+   2  -5  -6 8196.77 165.726   1
+   2  -5  -5 2544.35 258.417   1
+  -2  -5  -2 242377. 568.133   1
+  -2  -5  -3 7781.05 159.895   1
+   2  -6  -6 475238. 1382.30   1
+   2  -6  -5 28634.1 465.674   1
+  -2  -6  -3 35779.0 186.545   1
+  -3   0   8 391589. 1128.83   1
+  -3   0   7 15.5768 149.601   1
+  -3   0   6 228703. 790.357   1
+   3   0  -6 228910. 1095.13   1
+   3   0  -5 788.150 239.256   1
+  -3   0   5 338.081 147.715   1
+  -3   0   4 23388.0 304.993   1
+  -3   0   3-130.713 182.888   1
+   3   0  -3 23.2929 107.854   1
+   3   0  -2 405880. 1124.64   1
+  -3   0   2 389205. 1510.97   1
+  -3   0   1-128.490 282.984   1
+   3   0  -1-190.045 213.574   1
+   3   0   0 718840. 1913.69   1
+  -3   0   0 720044. 1678.90   1
+   3   0   1 799.210 250.362   1
+  -3   1   8 13672.0 260.650   1
+  -3   1   7 26251.2 335.245   1
+   3  -1  -6 231337. 949.815   1
+  -3  -1   6 234324. 816.484   1
+   3   1  -5 192959. 1029.34   1
+   3  -1  -5 195999. 674.293   1
+   3  -1  -4 707329. 1548.60   1
+   3   1  -4 708795. 1850.07   1
+  -3  -1   3 251426. 809.222   1
+   3   1  -3 249693. 745.360   1
+  -3   1   2 491845. 1649.01   1
+   3  -1  -2 501426. 1485.80   1
+  -3  -1   2 506602. 1410.79   1
+   3   1  -2 496885. 1176.31   1
+   3  -1  -1 167995. 958.215   1
+   3   1  -1 168088. 571.948   1
+  -3   1   1 168318. 721.091   1
+   3   1   0 124017. 552.569   1
+  -3  -1   0 124078. 755.219   1
+  -3  -1  -1 913.070 143.163   1
+   3   1   1 1158.83 191.830   1
+   3   1   2 31966.8 416.043   1
+   3   1   3 30635.1 388.338   1
+  -3   2   8 50711.1 536.107   1
+   3  -2  -7 260614. 1099.41   1
+  -3   2   7 266118. 1245.15   1
+   3  -2  -5 112938. 490.510   1
+  -3   2   5 103295. 780.815   1
+   3   2  -4-8.62681 292.951   1
+   3  -2  -4 58.9148 142.330   1
+  -3  -2   4 123.241 113.118   1
+  -3   2   4 30.0297 299.640   1
+   3   2  -3 56846.7 514.571   1
+  -3   2   3 58700.0 543.901   1
+  -3  -2   2 34262.0 284.410   1
+   3  -2  -2 29048.1 459.070   1
+  -3   2   2 35438.7 337.703   1
+   3   2  -2 27203.0 247.156   1
+  -3  -2   1 364692. 1073.21   1
+   3   2  -1 371385. 915.698   1
+  -3  -2   0 176410. 872.857   1
+   3   2   0 175820. 560.931   1
+   3   2   1 614543. 1279.49   1
+  -3  -2  -1 610759. 1692.41   1
+   3   2   2 94579.5 408.490   1
+  -3  -2  -2 92026.6 368.486   1
+  -3   3   7 115420. 867.881   1
+   3  -3  -7 115334. 516.995   1
+  -3   3   6 1963.23 315.627   1
+   3  -3  -6 2100.81 141.920   1
+   3  -3  -5 545413. 1421.28   1
+  -3   3   5 537330. 1696.79   1
+  -3   3   4 19856.2 296.861   1
+   3  -3  -4 18470.2 317.935   1
+   3  -3  -3 797234. 2316.17   1
+  -3   3   3 805266. 1694.96   1
+  -3  -3   2 9036.64 153.526   1
+  -3  -3   1 370561. 962.814   1
+   3   3  -1 374023. 1213.11   1
+  -3  -3   0 3175.88 156.169   1
+   3   3   0 3138.23 131.890   1
+  -3  -3  -1 6738.96 256.564   1
+   3   3   3 140128. 442.532   1
+   3  -4  -7 139544. 530.351   1
+  -3   4   7 138527. 652.754   1
+   3  -4  -6 88871.6 450.760   1
+  -3   4   6 91230.6 531.197   1
+  -3   4   4 2639.15 144.816   1
+   3  -4  -4 2863.93 408.483   1
+  -3  -4   1 213727. 626.321   1
+  -3  -4   0 275827. 762.281   1
+   3   4   0 276848. 1076.05   1
+  -3  -4  -1 322107. 914.535   1
+   3   4   1 321657. 981.259   1
+  -3  -4  -3 210516. 634.647   1
+   3   4   3 210054. 712.071   1
+   3  -5  -7 6022.96 173.924   1
+   3  -5  -6 188656. 797.936   1
+   3  -5  -5 46527.3 613.050   1
+  -3  -5   0 110938. 421.993   1
+  -3  -5  -1 138.208 93.8341   1
+  -3  -5  -2 36265.6 332.912   1
+   3  -6  -6 149586. 829.496   1
+  -3  -6  -1 31736.0 217.987   1
+  -3  -6  -2 337502. 836.698   1
+  -3  -7  -2 4154.68 110.119   1
+   4   0  -6 16392.5 350.620   1
+   4   0  -5-33.2503 130.172   1
+  -4   0   5 12824.8 498.815   1
+  -4   0   4 329577. 1384.85   1
+   4   0  -4 329901. 974.871   1
+   4   0  -3 387.918 141.544   1
+  -4   0   3 1351.20 373.929   1
+   4   0  -2 678167. 1654.92   1
+  -4   0   2 676743. 2176.28   1
+  -4   0   1 620.760 267.990   1
+   4   0  -1 400.292 242.128   1
+  -4   0   0 442667. 1271.27   1
+   4   0   0 442857. 1551.04   1
+   4   0   1 179.933 322.040   1
+   4  -1  -6 304451. 932.984   1
+  -4   1   6 325255. 1471.23   1
+  -4  -1   5 91764.5 569.894   1
+   4  -1  -5 102128. 503.353   1
+  -4  -1   4 182683. 836.388   1
+   4   1  -4 185724. 655.530   1
+   4  -1  -3 52578.4 429.884   1
+   4   1  -3 51751.7 337.968   1
+  -4   1   2 6936.26 314.032   1
+   4  -1  -2 7150.14 273.516   1
+   4   1  -1 10695.9 201.432   1
+  -4  -1   1 9908.63 365.039   1
+   4  -1  -1 9911.29 337.558   1
+   4  -1   0 89382.3 774.966   1
+   4   1   0 86781.5 505.287   1
+  -4  -1  -1 69721.2 367.793   1
+   4   1   2 314034. 1217.75   1
+   4   1   3 103901. 741.075   1
+  -4   2   6 5368.95 434.131   1
+   4  -2  -6 4812.29 166.480   1
+   4  -2  -5 114554. 558.626   1
+  -4   2   5 92477.5 883.675   1
+  -4  -2   4 44377.9 361.430   1
+   4  -2  -4 40176.5 383.241   1
+   4   2  -4 46154.0 487.109   1
+  -4   2   4 42528.1 595.241   1
+  -4   2   3 356193. 1202.15   1
+   4  -2  -3 355655. 1349.63   1
+   4  -2  -2 125968. 941.649   1
+  -4   2   2 126784. 627.027   1
+   4  -2  -1 523851. 1929.91   1
+  -4  -2   1 521915. 1779.97   1
+   4   2  -1 521356. 1254.52   1
+   4   2   0 85891.1 434.771   1
+  -4  -2   0 66688.2 596.871   1
+  -4  -2  -1 201038. 854.195   1
+   4   2   1 197817. 685.367   1
+  -4  -2  -2 11731.1 171.181   1
+   4   2   2 10805.5 196.509   1
+   4   2   3 6361.40 221.153   1
+  -4   3   5 391468. 1487.53   1
+   4  -3  -5 400950. 1270.19   1
+  -4  -3   4 5339.56 164.197   1
+  -4   3   4 6326.26 275.670   1
+   4   3  -4 5465.13 360.380   1
+   4  -3  -4 5659.49 283.617   1
+   4  -3  -3 119304. 937.727   1
+  -4  -3   3 118631. 544.863   1
+  -4  -3   2 148.790 159.743   1
+   4   3  -2-131.576 229.331   1
+  -4  -3   1 32673.6 405.101   1
+   4   3  -1 35803.4 343.166   1
+   4   3   0 413.690 118.352   1
+  -4  -3   0 526.060 251.478   1
+  -4  -3  -1 212724. 1033.23   1
+   4   3   1 204639. 630.950   1
+  -4  -3  -2 8961.81 213.171   1
+   4   3   2 10418.4 164.142   1
+   4  -4  -6 11913.5 271.358   1
+   4  -4  -5 52802.3 585.033   1
+  -4   4   5 55759.1 407.942   1
+   4  -4  -4 97331.4 895.642   1
+  -4   4   4 94398.2 512.766   1
+  -4  -4   2 254143. 827.911   1
+   4   4  -2 277717. 1250.45   1
+  -4  -4   1 303456. 959.424   1
+   4   4  -1 284393. 1127.22   1
+   4   4   0 150075. 741.436   1
+  -4  -4  -1 141515. 909.538   1
+   4   4   1 145134. 609.946   1
+   4   4   2 28423.3 232.249   1
+  -4  -4  -2 26862.8 386.752   1
+  -4  -5   1 806.596 128.593   1
+  -4  -5   0 100490. 511.618   1
+   4   5   1 20409.9 391.939   1
+  -4  -5  -1 19538.1 279.401   1
+  -4  -5  -2 187043. 892.488   1
+  -4  -6   0 235041. 746.835   1
+  -4  -6  -1 17093.5 251.279   1
+  -4  -7  -1 60313.7 339.453   1
+   5   1   1 69355.3 518.227   1
+   5   1   2 159604. 872.916   1
+   5   2   0 311.886 148.809   1
+   5   2   1 9789.55 188.747   1
+  -5  -2  -1 10471.2 244.278   1
+   5   2   2 5214.32 169.120   1
+  -5  -3   0 7235.31 405.575   1
+   5   3   0 7791.44 166.632   1
+  -5  -3  -1 285748. 1181.93   1
+   5   3   1 286934. 833.354   1
+   5   4   0 1698.94 171.316   1
+  -5  -4  -1 4046.51 346.532   1
+   5   4   1 6473.75 205.577   1
+  -5  -5  -1 15537.2 408.357   1
+   0   0   0    0.00    0.00   0
+
+TITL LD014_p01_s1_ReN2 in P2(1)/c
+REM P2(1)/c (#14 in standard setting)
+CELL 0.29520   3.625432   6.407447   4.947798  90.0000 111.4767  90.0000
+ZERR    2.00   0.001655   0.007023   0.003192   0.0000   0.0628   0.0000
+LATT  1
+SYMM -x, y+1/2,-z+1/2
+SFAC N Re
+UNIT 4.00 2.00
+TREF
+HKLF 4
+END
+;
+_shelx_hkl_checksum              32502
+_olex2_submission_special_instructions 'No special instructions were received'
+_oxdiff_exptl_absorpt_empirical_details
+;
+Empirical correction (ABSPACK) includes:
+- Absorption correction using spherical harmonics
+- Frame scaling
+- Detector area scaling
+;
+_oxdiff_exptl_absorpt_empirical_full_max 5.306
+_oxdiff_exptl_absorpt_empirical_full_min 0.362
+loop_
+_space_group_symop_operation_xyz
+'x, y, z'
+'-x, y+1/2, -z+1/2'
+'-x, -y, -z'
+'x, -y-1/2, z-1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_site_symmetry_order
+_atom_site_calc_flag
+_atom_site_refinement_flags_posn
+_atom_site_refinement_flags_adp
+_atom_site_refinement_flags_occupancy
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Re01 Re 0.35490(11) 0.34041(8) 0.19965(8) 0.0059(4) Uani 1 1 d . . . . .
+N1 N 0.194(2) 0.038(2) 0.0311(19) 0.0076(13) Uiso 1 1 d . . . . .
+N2 N 0.259(3) 0.6381(18) 0.024(2) 0.0081(18) Uiso 1 1 d . . . . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Re01 0.0070(4) 0.0066(7) 0.0040(4) -0.00003(8) 0.0021(3) 0.00009(7)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+N N -0.0012 0.0004 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Re Re -0.9569 1.5949 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+Re01 Re01 Re01 129.81(7) 4_566 4_565
+N1 Re01 Re01 82.9(3) . 4_566
+N1 Re01 Re01 48.9(2) . 4_565
+N1 Re01 Re01 124.7(2) 2_655 4_565
+N1 Re01 Re01 86.6(3) 2_655 4_566
+N1 Re01 Re01 164.7(2) 4_566 4_565
+N1 Re01 Re01 49.6(3) 4_566 4_566
+N1 Re01 N1 122.6(4) 4_566 .
+N1 Re01 N1 69.8(4) 4_566 2_655
+N1 Re01 N1 147.2(4) . 2_655
+N1 Re01 N2 80.9(4) 4_566 3_565
+N1 Re01 N2 146.1(4) 4_566 3_665
+N2 Re01 Re01 84.4(3) 3_565 4_565
+N2 Re01 Re01 98.8(3) 3_565 4_566
+N2 Re01 Re01 137.0(3) 3_665 4_566
+N2 Re01 Re01 93.8(3) . 4_565
+N2 Re01 Re01 96.4(3) 2_645 4_565
+N2 Re01 Re01 49.2(3) 2_645 4_566
+N2 Re01 Re01 47.5(3) 3_665 4_565
+N2 Re01 Re01 135.6(3) . 4_566
+N2 Re01 N1 71.6(4) . 2_655
+N2 Re01 N1 134.5(4) . .
+N2 Re01 N1 76.9(4) 2_645 2_655
+N2 Re01 N1 72.7(4) 2_645 .
+N2 Re01 N1 86.2(4) . 4_566
+N2 Re01 N1 77.2(3) 3_665 2_655
+N2 Re01 N1 89.6(4) 3_665 .
+N2 Re01 N1 76.4(4) 3_565 .
+N2 Re01 N1 136.1(4) 3_565 2_655
+N2 Re01 N1 91.8(4) 2_645 4_566
+N2 Re01 N2 74.6(5) . 3_565
+N2 Re01 N2 120.4(5) 3_665 3_565
+N2 Re01 N2 76.0(4) . 3_665
+N2 Re01 N2 147.2(3) 2_645 .
+N2 Re01 N2 137.4(3) 2_645 3_565
+N2 Re01 N2 88.2(4) 2_645 3_665
+Re01 N1 Re01 110.2(4) 4_565 2_645
+Re01 N1 Re01 105.3(4) . 2_645
+Re01 N1 Re01 81.5(4) 4_565 .
+N1 N1 Re01 114.1(11) 3 2_645
+N1 N1 Re01 120.1(9) 3 4_565
+N1 N1 Re01 121.0(11) 3 .
+Re01 N2 Re01 130.7(5) 2_655 3_565
+Re01 N2 Re01 104.0(4) . 3_665
+Re01 N2 Re01 120.4(5) 3_665 3_565
+Re01 N2 Re01 105.4(5) . 3_565
+Re01 N2 Re01 109.7(5) 2_655 .
+Re01 N2 Re01 83.3(4) 2_655 3_665
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Re01 Re01 2.7318(16) 4_566
+Re01 Re01 2.7318(16) 4_565
+Re01 N1 2.105(12) .
+Re01 N1 2.112(11) 2_655
+Re01 N1 2.082(9) 4_566
+Re01 N2 2.072(11) .
+Re01 N2 2.028(11) 2_645
+Re01 N2 2.082(10) 3_665
+Re01 N2 2.095(10) 3_565
+N1 Re01 2.112(11) 2_645
+N1 Re01 2.082(9) 4_565
+N1 N1 1.412(16) 3
+N2 Re01 2.082(10) 3_665
+N2 Re01 2.095(9) 3_565
+N2 Re01 2.028(11) 2_655
+
+_cod_database_fobs_code 1552076

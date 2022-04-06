@@ -1,0 +1,267 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-19 16:29:56 +0200 (Fri, 19 Feb 2016) $
+#$Revision: 176759 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/88/2008824.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2008824
+loop_
+_publ_author_name
+'Dmitry Yu. Naumov'
+'Alexander V. Virovets'
+'Sergey V. Korenev'
+'Alexander I. Gubanov'
+_publ_section_title
+;
+ Silver perrhenate, AgReO~4~
+;
+_journal_issue                   8
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              IUC9900097
+_journal_paper_doi               10.1107/S0108270199099138
+_journal_volume                  55
+_journal_year                    1999
+_chemical_formula_iupac          'Ag Re O4'
+_chemical_formula_moiety         'Ag 1+, Re O4 1-'
+_chemical_formula_sum            'Ag O4 Re'
+_chemical_formula_weight         358.07
+_chemical_name_common            none
+_chemical_name_systematic
+;
+Silver Perrhenate
+;
+_space_group_IT_number           88
+_symmetry_cell_setting           tetragonal
+_symmetry_space_group_name_Hall  '-I 4ad'
+_symmetry_space_group_name_H-M   'I 41/a :2'
+_audit_creation_method           'X-RED  (Stoe, 1999b)'
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   5.3724(4)
+_cell_length_b                   5.3724(4)
+_cell_length_c                   11.7932(16)
+_cell_measurement_reflns_used    92
+_cell_measurement_temperature    297.0(10)
+_cell_measurement_theta_max      19.5
+_cell_measurement_theta_min      15.35
+_cell_volume                     340.38(6)
+_computing_cell_refinement       STADI4
+_computing_data_collection       'STADI4 (Stoe, 1999a)'
+_computing_data_reduction        'X-RED (Stoe, 1999b)'
+_computing_structure_refinement  'SHELXL97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS97 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      297.0(10)
+_diffrn_measured_fraction_theta_full 1.000
+_diffrn_measured_fraction_theta_max 1.000
+_diffrn_measurement_device       'STOE STADI4 4-circle-diffractometer D094'
+_diffrn_measurement_method
+; Scan width (\w) = 1.05 - 1.30, scan ratio 2\q:\w = 1.00
+  I(Net) and \s(I) calculated according to Blessing (1987)
+;
+_diffrn_radiation_monochromator  'planar graphite'
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.086
+_diffrn_reflns_av_sigmaI/netI    0.0560
+_diffrn_reflns_limit_h_max       9
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       9
+_diffrn_reflns_limit_k_min       -9
+_diffrn_reflns_limit_l_max       21
+_diffrn_reflns_limit_l_min       -21
+_diffrn_reflns_number            2232
+_diffrn_reflns_theta_full        39.94
+_diffrn_reflns_theta_max         39.94
+_diffrn_reflns_theta_min         4.17
+_diffrn_standards_decay_%        0
+_diffrn_standards_interval_time  60
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    41.12
+_exptl_absorpt_correction_T_max  0.072
+_exptl_absorpt_correction_T_min  0.008
+_exptl_absorpt_correction_type   integration
+_exptl_absorpt_process_details   'X-RED (Stoe, 1999b)'
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    6.987
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       prism
+_exptl_crystal_F_000             616
+_exptl_crystal_size_max          0.320
+_exptl_crystal_size_mid          0.267
+_exptl_crystal_size_min          0.240
+_refine_diff_density_max         5.440
+_refine_diff_density_min         -1.742
+_refine_ls_extinction_coef       0.080(2)
+_refine_ls_extinction_method     SHELXL97
+_refine_ls_goodness_of_fit_ref   1.133
+_refine_ls_hydrogen_treatment    none
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     15
+_refine_ls_number_reflns         531
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.133
+_refine_ls_R_factor_all          0.025
+_refine_ls_R_factor_gt           0.022
+_refine_ls_shift/su_max          0.001
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w = 1/[\s^2^(Fo^2^)+(0.0164P)^2^+0.0666P] where P = (Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_ref         0.049
+_reflns_number_gt                451
+_reflns_number_total             531
+_reflns_threshold_expression     I>2\s(I)
+_cod_data_source_file            qa0115.cif
+_cod_data_source_block           agreo4
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_chemical_melting_point' value 'none' was changed to '?' - the value
+is undefined or not given.
+
+Automatic conversion script
+Id: cif_fix_values 1646 2011-03-28 12:23:43Z adriana 
+
+The following automatic conversions were performed:
+
+'_chemical_melting_point' value 'none' was changed to '?' - the value
+is undefined or not given.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_original_cell_volume        340.38(5)
+_cod_original_sg_symbol_H-M      'I 41/a'
+_cod_database_code               2008824
+_cod_database_fobs_code          2008824
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x+1/2, -y, z+1/2'
+'-y+3/4, x+1/4, z+1/4'
+'y+3/4, -x+3/4, z+3/4'
+'x+1/2, y+1/2, z+1/2'
+'-x+1, -y+1/2, z+1'
+'-y+5/4, x+3/4, z+3/4'
+'y+5/4, -x+5/4, z+5/4'
+'-x, -y, -z'
+'x-1/2, y, -z-1/2'
+'y-3/4, -x-1/4, -z-1/4'
+'-y-3/4, x-3/4, -z-3/4'
+'-x+1/2, -y+1/2, -z+1/2'
+'x, y+1/2, -z'
+'y-1/4, -x+1/4, -z+1/4'
+'-y-1/4, x-1/4, -z-1/4'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+_atom_site_type_symbol
+Re1 0 0.25 0.125 0.01226(7) Uani d S 1 . . Re
+Ag1 0.5 0.25 -0.125 0.01836(11) Uani d S 1 . . Ag
+O1 0.2306(3) 0.3822(3) 0.04188(15) 0.0194(3) Uani d . 1 . . O
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Re1 0.01104(9) 0.01104(9) 0.01469(9) 0.000 0.000 0.000
+Ag1 0.01890(17) 0.01890(17) 0.01728(15) 0.000 0.000 0.000
+O1 0.0173(7) 0.0187(8) 0.0223(5) -0.0007(6) 0.0049(6) 0.0021(6)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ag Ag -0.8971 1.1015 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Re Re -1.0185 7.2310 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O1 Ag1 O1 6_554 . 78.65(9) yes
+O1 Ag1 O1 16_655 . 126.75(5) yes
+O1 Ag1 O1 . 14_545 67.02(4) yes
+O1 Ag1 O1 . 9_665 79.37(6) yes
+O1 Ag1 O1 . 11_665 126.75(5) yes
+O1 Ag1 O1 . 4_454 73.03(3) yes
+O1 Ag1 O1 . 7_544 150.08(7) yes
+O1 Ag1 O1 16_655 6_554 126.75(5) no
+O1 Ag1 O1 16_655 11_665 78.65(9) no
+O1 Ag1 O1 6_554 11_665 126.75(5) no
+O1 Ag1 O1 16_655 9_665 150.08(7) no
+O1 Ag1 O1 6_554 9_665 67.02(4) no
+O1 Ag1 O1 11_665 9_665 73.03(3) no
+O1 Ag1 O1 16_655 14_545 73.03(3) no
+O1 Ag1 O1 6_554 14_545 79.37(6) no
+O1 Ag1 O1 11_665 14_545 150.08(7) no
+O1 Ag1 O1 9_665 14_545 136.37(8) no
+O1 Ag1 O1 16_655 4_454 79.37(6) no
+O1 Ag1 O1 6_554 4_454 150.08(7) no
+O1 Ag1 O1 11_665 4_454 67.02(4) no
+O1 Ag1 O1 9_665 4_454 97.94(3) no
+O1 Ag1 O1 14_545 4_454 97.94(3) no
+O1 Ag1 O1 16_655 7_544 67.02(4) no
+O1 Ag1 O1 6_554 7_544 73.03(3) no
+O1 Ag1 O1 11_665 7_544 79.37(6) no
+O1 Ag1 O1 9_665 7_544 97.94(3) no
+O1 Ag1 O1 14_545 7_544 97.94(3) no
+O1 Ag1 O1 4_454 7_544 136.37(8) no
+O1 Re1 O1 . 15 108.68(6) yes
+O1 Re1 O1 6_454 . 111.10(10) yes
+O1 Re1 O1 6_454 12_666 108.68(6) no
+O1 Re1 O1 12_666 . 108.68(6) no
+O1 Re1 O1 6_454 15 108.68(6) no
+O1 Re1 O1 12_666 15 111.10(10) no
+Re1 O1 Ag1 . . 136.90(10) yes
+Re1 O1 Ag1 . 9_665 119.29(9) yes
+Ag1 O1 Ag1 . 9_665 100.63(6) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Ag1 O1 . 2.544(2) yes
+Ag1 O1 16_655 2.544(2) no
+Ag1 O1 6_554 2.544(2) no
+Ag1 O1 11_665 2.544(2) no
+Ag1 O1 9_665 2.638(2) yes
+Ag1 O1 14_545 2.638(2) no
+Ag1 O1 4_454 2.638(2) no
+Ag1 O1 7_544 2.638(2) no
+O1 Ag1 9_665 2.638(2) no
+Re1 O1 . 1.732(2) yes
+Re1 O1 6_454 1.732(2) no
+Re1 O1 12_666 1.732(2) no
+Re1 O1 15 1.732(2) no

@@ -1,0 +1,339 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 06:40:26 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176432 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/67/2006775.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2006775
+loop_
+_publ_author_name
+'Weil, Kenneth S.'
+'Kumta, Prashant N.'
+_publ_section_title
+;
+ Fe~3~W~3~N: a Rietveld Refinement Using X-ray Powder Diffraction
+;
+_journal_issue                   12
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              1745
+_journal_page_last               1748
+_journal_paper_doi               10.1107/S0108270197008305
+_journal_volume                  53
+_journal_year                    1997
+_chemical_formula_moiety         'Fe3 W3 N'
+_chemical_formula_sum            'Fe3 N W3'
+_chemical_formula_weight         733.11
+_chemical_name_systematic        '    iron tungsten nitride'
+_space_group_IT_number           227
+_symmetry_cell_setting           cubic
+_symmetry_space_group_name_Hall  '-F 4vw 2vw 3'
+_symmetry_space_group_name_H-M   'F d -3 m :2'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            16
+_cell_length_a                   11.1104(2)
+_cell_length_b                   11.1104(2)
+_cell_length_c                   11.1104(2)
+_cell_measurement_reflns_used    48
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      120
+_cell_measurement_theta_min      10
+_cell_volume                     1371.48(4)
+_computing_cell_refinement       'RIETAN 94 (Izumi, 1993; Kim & Izumi, 1994)'
+_computing_data_collection       'KaleidaGraph (Abelbeck Software, 1994)'
+_computing_data_reduction        'KaleidaGraph (Abelbeck Software, 1994)'
+_computing_molecular_graphics    'Ca.R.Ine (Boudias & Monceau, 1989)'
+_computing_structure_refinement  'RIETAN 94 (Izumi, 1993; Kim & Izumi, 1994)'
+_computing_structure_solution    'RIETAN 94 (Izumi, 1993; Kim & Izumi, 1994)'
+_diffrn_ambient_temperature      293
+_diffrn_measurement_device
+;Rigaku \q-\q diffractometer equipped with a Cu tube source, a
+diffracted-beam equatorially mounted (0002)-oriented graphite
+monochromator and an NaI scintillation detector
+;
+_diffrn_measurement_method       \q/2\q
+_diffrn_radiation_monochromator  'equatorial mounted graphite (0002)'
+_diffrn_radiation_source         'copper x-ray tube'
+_diffrn_reflns_number            48
+_exptl_absorpt_coefficient_mu    281.15
+_exptl_crystal_density_diffrn    14.201
+_exptl_crystal_density_meas      14.033
+_exptl_crystal_density_method    'helium pycnometry'
+_refine_diff_density_max         0.770
+_refine_diff_density_min         -1.008
+_refine_ls_goodness_of_fit_all   1.3907
+_refine_ls_number_constraints    4
+_refine_ls_number_parameters     23
+_refine_ls_number_reflns         48
+_refine_ls_restrained_S_all      1.3907
+_refine_ls_shift/esd_max         0.001
+_reflns_number_observed          48
+_reflns_number_total             48
+_cod_data_source_file            br1183.cif
+_cod_data_source_block           I
+_cod_original_cell_volume        1371.48(6)
+_cod_original_sg_symbol_Hall     'F 4d 2 3 -1d'
+_cod_original_sg_symbol_H-M      'F d -3 m '
+_cod_original_formula_sum        'Fe3 W3 N'
+_cod_database_code               2006775
+loop_
+_symmetry_equiv_pos_as_xyz
++x,+y,+z
++z,+x,+y
++y,+z,+x
++x+1/4,+y+1/4,-z
+-z,+x+1/4,+y+1/4
++y+1/4,-z,+x+1/4
+-z+1/4,+x+1/2,-y+3/4
+-y+3/4,-z+1/4,+x+1/2
++y+1/2,-z+1/4,-x+3/4
+-x+3/4,+y+1/2,-z+1/4
+-z+1/4,-x+3/4,+y+1/2
++x+1/2,-y+3/4,-z+1/4
++y,+x,+z
++z,+y,+x
++x,+z,+y
++y+1/4,+x+1/4,-z
+-z,+y+1/4,+x+1/4
++x+1/4,-z,+y+1/4
+-z+1/4,+y+1/2,-x+3/4
+-x+3/4,-z+1/4,+y+1/2
++x+1/2,-z+1/4,-y+3/4
+-y+3/4,+x+1/2,-z+1/4
+-z+1/4,-y+3/4,+x+1/2
++y+1/2,-x+3/4,-z+1/4
+-x,-y,-z
+-z,-x,-y
+-y,-z,-x
+-x+3/4,-y+3/4,+z
++z,-x+3/4,-y+3/4
+-y+3/4,+z,-x+3/4
++z+3/4,-x+1/2,+y+1/4
++y+1/4,+z+3/4,-x+1/2
+-y+1/2,+z+3/4,+x+1/4
++x+1/4,-y+1/2,+z+3/4
++z+3/4,+x+1/4,-y+1/2
+-x+1/2,+y+1/4,+z+3/4
+-y,-x,-z
+-z,-y,-x
+-x,-z,-y
+-y+3/4,-x+3/4,+z
++z,-y+3/4,-x+3/4
+-x+3/4,+z,-y+3/4
++z+3/4,-y+1/2,+x+1/4
++x+1/4,+z+3/4,-y+1/2
+-x+1/2,+z+3/4,+y+1/4
++y+1/4,-x+1/2,+z+3/4
++z+3/4,+y+1/4,-x+1/2
+-y+1/2,+x+1/4,+z+3/4
++x,+y+1/2,+z+1/2
++z,+x+1/2,+y+1/2
++y,+z+1/2,+x+1/2
++x+1/4,+y+3/4,-z+1/2
+-z,+x+3/4,+y+3/4
++y+1/4,-z+1/2,+x+3/4
+-z+1/4,+x,-y+1/4
+-y+3/4,-z+3/4,+x
++y+1/2,-z+3/4,-x+1/4
+-x+3/4,+y,-z+3/4
+-z+1/4,-x+1/4,+y
++x+1/2,-y+1/4,-z+3/4
++y,+x+1/2,+z+1/2
++z,+y+1/2,+x+1/2
++x,+z+1/2,+y+1/2
++y+1/4,+x+3/4,-z+1/2
+-z,+y+3/4,+x+3/4
++x+1/4,-z+1/2,+y+3/4
+-z+1/4,+y,-x+1/4
+-x+3/4,-z+3/4,+y
++x+1/2,-z+3/4,-y+1/4
+-y+3/4,+x,-z+3/4
+-z+1/4,-y+1/4,+x
++y+1/2,-x+1/4,-z+3/4
+-x,-y+1/2,-z+1/2
+-z,-x+1/2,-y+1/2
+-y,-z+1/2,-x+1/2
+-x+3/4,-y+1/4,+z+1/2
++z,-x+1/4,-y+1/4
+-y+3/4,+z+1/2,-x+1/4
++z+3/4,-x,+y+3/4
++y+1/4,+z+1/4,-x
+-y+1/2,+z+1/4,+x+3/4
++x+1/4,-y,+z+1/4
++z+3/4,+x+3/4,-y
+-x+1/2,+y+3/4,+z+1/4
+-y,-x+1/2,-z+1/2
+-z,-y+1/2,-x+1/2
+-x,-z+1/2,-y+1/2
+-y+3/4,-x+1/4,+z+1/2
++z,-y+1/4,-x+1/4
+-x+3/4,+z+1/2,-y+1/4
++z+3/4,-y,+x+3/4
++x+1/4,+z+1/4,-y
+-x+1/2,+z+1/4,+y+3/4
++y+1/4,-x,+z+1/4
++z+3/4,+y+3/4,-x
+-y+1/2,+x+3/4,+z+1/4
++x+1/2,+y,+z+1/2
++z+1/2,+x,+y+1/2
++y+1/2,+z,+x+1/2
++x+3/4,+y+1/4,-z+1/2
+-z+1/2,+x+1/4,+y+3/4
++y+3/4,-z,+x+3/4
+-z+3/4,+x+1/2,-y+1/4
+-y+1/4,-z+1/4,+x
++y,-z+1/4,-x+1/4
+-x+1/4,+y+1/2,-z+3/4
+-z+3/4,-x+3/4,+y
++x,-y+3/4,-z+3/4
++y+1/2,+x,+z+1/2
++z+1/2,+y,+x+1/2
++x+1/2,+z,+y+1/2
++y+3/4,+x+1/4,-z+1/2
+-z+1/2,+y+1/4,+x+3/4
++x+3/4,-z,+y+3/4
+-z+3/4,+y+1/2,-x+1/4
+-x+1/4,-z+1/4,+y
++x,-z+1/4,-y+1/4
+-y+1/4,+x+1/2,-z+3/4
+-z+3/4,-y+3/4,+x
++y,-x+3/4,-z+3/4
+-x+1/2,-y,-z+1/2
+-z+1/2,-x,-y+1/2
+-y+1/2,-z,-x+1/2
+-x+1/4,-y+3/4,+z+1/2
++z+1/2,-x+3/4,-y+1/4
+-y+1/4,+z,-x+1/4
++z+1/4,-x+1/2,+y+3/4
++y+3/4,+z+3/4,-x
+-y,+z+3/4,+x+3/4
++x+3/4,-y+1/2,+z+1/4
++z+1/4,+x+1/4,-y
+-x,+y+1/4,+z+1/4
+-y+1/2,-x,-z+1/2
+-z+1/2,-y,-x+1/2
+-x+1/2,-z,-y+1/2
+-y+1/4,-x+3/4,+z+1/2
++z+1/2,-y+3/4,-x+1/4
+-x+1/4,+z,-y+1/4
++z+1/4,-y+1/2,+x+3/4
++x+3/4,+z+3/4,-y
+-x,+z+3/4,+y+3/4
++y+3/4,-x+1/2,+z+1/4
++z+1/4,+y+1/4,-x
+-y,+x+1/4,+z+1/4
++x+1/2,+y+1/2,+z
++z+1/2,+x+1/2,+y
++y+1/2,+z+1/2,+x
++x+3/4,+y+3/4,-z
+-z+1/2,+x+3/4,+y+1/4
++y+3/4,-z+1/2,+x+1/4
+-z+3/4,+x,-y+3/4
+-y+1/4,-z+3/4,+x+1/2
++y,-z+3/4,-x+3/4
+-x+1/4,+y,-z+1/4
+-z+3/4,-x+1/4,+y+1/2
++x,-y+1/4,-z+1/4
++y+1/2,+x+1/2,+z
++z+1/2,+y+1/2,+x
++x+1/2,+z+1/2,+y
++y+3/4,+x+3/4,-z
+-z+1/2,+y+3/4,+x+1/4
++x+3/4,-z+1/2,+y+1/4
+-z+3/4,+y,-x+3/4
+-x+1/4,-z+3/4,+y+1/2
++x,-z+3/4,-y+3/4
+-y+1/4,+x,-z+1/4
+-z+3/4,-y+1/4,+x+1/2
++y,-x+1/4,-z+1/4
+-x+1/2,-y+1/2,-z
+-z+1/2,-x+1/2,-y
+-y+1/2,-z+1/2,-x
+-x+1/4,-y+1/4,+z
++z+1/2,-x+1/4,-y+3/4
+-y+1/4,+z+1/2,-x+3/4
++z+1/4,-x,+y+1/4
++y+3/4,+z+1/4,-x+1/2
+-y,+z+1/4,+x+1/4
++x+3/4,-y,+z+3/4
++z+1/4,+x+3/4,-y+1/2
+-x,+y+3/4,+z+3/4
+-y+1/2,-x+1/2,-z
+-z+1/2,-y+1/2,-x
+-x+1/2,-z+1/2,-y
+-y+1/4,-x+1/4,+z
++z+1/2,-y+1/4,-x+3/4
+-x+1/4,+z+1/2,-y+3/4
++z+1/4,-y,+x+1/4
++x+3/4,+z+1/4,-y+1/2
+-x,+z+1/4,+y+1/4
++y+3/4,-x,+z+3/4
++z+1/4,+y+3/4,-x+1/2
+-y,+x+3/4,+z+3/4
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_occupancy
+W .1966(9) 0 0 .51(2) Biso 1.0
+Fe1 .4185(5) .4185(5) .4185(5) 1.58(6) Biso 1.0
+Fe2 .625 .625 .625 .06(2) Biso 1.0
+N .125 .125 .125 .01(9) Biso 1.0
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_source
+Fe iron 'International Tables C (1992), pgs. 477-486'
+W tungsten 'International Tables Vol. C (1992), pgs. 477-486'
+N nitrogen 'International Tables Vol. C (1992), pgs. 477-486'
+loop_
+_diffrn_radiation_type
+_diffrn_radiation_wavelength
+Cu K\a~1~
+1.540562 Cu
+K\a~2~ 1.544390
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+W N W 86.3(4) yes
+W N W 93.6(6) yes
+W N W 180.0000 yes
+N W N 135.7(9) yes
+W Fe2 W 62.6(7) yes
+W Fe1 W 70.8(3) yes
+W Fe1 W 61.8(2) yes
+Fe2 Fe1 Fe2 69.6(7) yes
+Fe1 Fe2 Fe1 64.5(5) yes
+Fe1 Fe1 Fe1 60.0000 yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Fe1 Fe1 2.559(7) yes
+Fe1 W 2.777(4) yes
+Fe1 W 2.666(7) yes
+Fe1 N 3.332(5) yes
+Fe2 Fe2 3.9280(10) yes
+Fe2 Fe1 2.393(7) yes
+Fe2 W 2.789(7) yes
+N Fe2 3.928(2) yes
+N N 3.928(2) yes
+N W 2.119(5) yes
+W W 2.901(2) yes
+W W 3.090(5) yes

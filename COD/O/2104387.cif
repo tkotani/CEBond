@@ -1,0 +1,112 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/43/2104387.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2104387
+loop_
+_publ_author_name
+'Zhang, N.'
+'Glazer, A. M.'
+'Baker, D.'
+'Thomas, P. A.'
+_publ_section_title
+;
+ Structures of K~0.05~Na~0.95~NbO~3~ (50--300K) and
+ K~0.30~Na~0.70~NbO~3~ (100--200K)
+;
+_journal_coeditor_code           WF5039
+_journal_issue                   3
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              291
+_journal_page_last               299
+_journal_paper_doi               10.1107/S0108768109011057
+_journal_volume                  65
+_journal_year                    2009
+_chemical_formula_structural     'K Na (Nb O3)'
+_chemical_formula_sum            'K0.05 Na0.95 Nb O3'
+_chemical_formula_weight         164.70
+_chemical_name_systematic        'Sodium Potassium Niobate'
+_space_group_IT_number           161
+_symmetry_cell_setting           trigonal
+_symmetry_space_group_name_Hall  'R 3 -2"c'
+_symmetry_space_group_name_H-M   'R 3 c :H'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            6
+_cell_length_a                   5.5298(3)
+_cell_length_b                   5.5298(3)
+_cell_length_c                   13.7692(11)
+_cell_volume                     364.63(4)
+_computing_structure_refinement  'TOPAS Academic'
+_diffrn_ambient_temperature      300
+_diffrn_measurement_device_type  D2B
+_diffrn_radiation_monochromator  'Ge [115]'
+_diffrn_radiation_probe          neutron
+_diffrn_radiation_type           Neutron
+_diffrn_radiation_wavelength     1.60
+_pd_block_diffractogram_id       KNN05at300K
+_pd_char_colour                  white
+_pd_meas_2theta_range_inc        0.05
+_pd_meas_2theta_range_max        160
+_pd_meas_2theta_range_min        0.10
+_pd_proc_ls_prof_R_factor        0.0599
+_pd_proc_ls_prof_wR_factor       0.0791
+_pd_spec_mounting                'Vanadium can packed with powder'
+_pd_spec_mount_mode              reflection
+_pd_spec_shape                   flat
+_refine_ls_goodness_of_fit_all   1.73
+_refine_ls_number_parameters     57
+_cod_data_source_file            wf5039.cif
+_cod_data_source_block           KNN05at300K2
+_cod_original_cell_volume        364.63(5)
+_cod_original_sg_symbol_H-M      'R 3 c'
+_cod_original_formula_sum        'K0.05 Na0.95 Nb1 O3'
+_cod_database_code               2104387
+loop_
+_symmetry_equiv_pos_as_xyz
+'-x+y, -x, z'
+'-x+y, y, z+1/2'
+'-x+y+1/3, -x-1/3, z-1/3'
+'-x+y+1/3, y-1/3, z+1/6'
+'-x+y-1/3, -x+1/3, z+1/3'
+'-x+y-1/3, y+1/3, z-1/6'
+'-y, -x, z+1/2'
+'-y, x-y, z'
+'-y+1/3, -x-1/3, z+1/6'
+'-y+1/3, x-y-1/3, z-1/3'
+'-y-1/3, -x+1/3, z-1/6'
+'-y-1/3, x-y+1/3, z+1/3'
+'x, y, z'
+'x, x-y, z+1/2'
+'x+1/3, y-1/3, z-1/3'
+'x+1/3, x-y-1/3, z+1/6'
+'x-1/3, y+1/3, z+1/3'
+'x-1/3, x-y+1/3, z-1/6'
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Na+1 Na1 0 0 0.3209(10) 0.95
+K+1 K1 0 0 0.3209(10) 0.05
+Nb+5 Nb1 0 0 0.0578(12) 1
+O-2 O1 0.007(3) 0.4425(17) 0.08333 1
+loop_
+_atom_type_symbol
+Na1+
+K1+
+Nb5+
+O2-

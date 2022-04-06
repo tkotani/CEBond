@@ -1,0 +1,594 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 02:53:41 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176768 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/02/2100265.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2100265
+loop_
+_publ_author_name
+'Howard, Christopher J.'
+'Barnes, Paris W.'
+'Kennedy, Brendan J.'
+'Woodward, Patrick M.'
+_publ_section_title
+;
+ Structures of the ordered double perovskites Sr~2~YTaO~6~ and
+ Sr~2~YNbO~6~
+;
+_journal_issue                   3
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              258
+_journal_page_last               262
+_journal_paper_doi               10.1107/S0108768105012395
+_journal_volume                  61
+_journal_year                    2005
+_chemical_formula_sum            'Nb O6 Sr2 Y'
+_chemical_formula_weight         453.05
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2yn'
+_symmetry_space_group_name_H-M   'P 1 21/n 1'
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.1660(10)
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            2
+_cell_length_a                   5.81174(5)
+_cell_length_b                   5.86444(5)
+_cell_length_c                   8.24541(7)
+_cell_volume                     281.024(4)
+_computing_structure_refinement  GSAS
+_diffrn_ambient_temperature      293
+_diffrn_measurement_device       HRPD
+_diffrn_measurement_method       time-of-flight
+_diffrn_radiation_probe          neutron
+_diffrn_radiation_source         ISIS
+_diffrn_radiation_type           neutron
+_refine_ls_goodness_of_fit_all   1.84
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     42
+_refine_ls_number_restraints     0
+_refine_ls_shift/su_max          0.03
+_refine_ls_shift/su_mean         0.01
+_cod_data_source_file            ws5023.cif
+_cod_data_source_block           double_perovskite_Sr2YNbO6
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_geom_bond_publ_flag' value 'N' changed to 'n' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (68 times).
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+
+The following automatic conversions were performed:
+
+'_geom_bond_publ_flag' value 'N' changed to 'n' according to
+/home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (68
+times).
+
+'_geom_angle_publ_flag' value 'N' changed to 'n' according
+to /home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary
+named 'cif_core.dic' version 2.4.1 from 2010-06-29 (393 times).
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_original_cell_volume        280.940(13)
+_cod_original_sg_symbol_H-M      'P 21/n'
+_cod_database_code               2100265
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -x+1/2,+y+1/2,-z+1/2
+-1 -x,-y,-z
+-2 +x+1/2,-y+1/2,+z+1/2
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_occupancy
+_atom_site_type_symbol
+SR -0.0067(3) 0.46802(16) 0.2512(3) 0.0166(3) Uiso 1.0 Sr
+NB 0.0 0.0 0.5 0.0121(6) Uiso 1.0 Nb
+Y 0.0 0.0 0.0 0.0108(5) Uiso 1.0 Y
+O1 0.0765(3) 0.0206(2) 0.2646(3) 0.0165(4) Uiso 1.0 O
+O2 0.2263(3) 0.3032(3) -0.0384(2) 0.0151(6) Uiso 1.0 O
+O3 0.3048(3) 0.7743(3) -0.0429(2) 0.0173(6) Uiso 1.0 O
+loop_
+_atom_type_symbol
+Sr
+Nb
+Y
+O
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+SR SR SR 2_445 2_455 92.05(7) n
+SR SR SR 2_445 2_545 89.476(2) n
+SR SR SR 2_445 2_555 178.37(7) n
+SR SR SR 2_445 -1_565 94.30(10) n
+SR SR SR 2_445 -1_566 94.67(8) n
+SR SR NB 2_445 1_555 55.47(4) n
+SR SR NB 2_445 2_455 58.24(6) n
+SR SR NB 2_445 2_555 127.02(7) n
+SR SR Y 2_445 1_555 55.37(4) n
+SR SR Y 2_445 1_565 127.24(9) n
+SR SR Y 2_445 2_455 58.45(5) n
+SR SR Y 2_445 2_555 127.51(8) n
+SR SR O1 2_445 1_555 94.69(7) n
+SR SR O1 2_445 -1_565 91.67(10) n
+SR SR O1 2_445 -2_566 38.22(6) n
+SR SR O2 2_445 2_545 90.08(7) n
+SR SR O2 2_445 -1_565 37.73(6) n
+SR SR O2 2_445 -2_576 97.54(8) n
+SR SR O3 2_445 1_555 54.45(3) n
+SR SR O3 2_445 2_555 140.88(5) n
+SR SR SR 2_455 2_545 178.37(7) n
+SR SR SR 2_455 2_555 89.476(2) n
+SR SR SR 2_455 -1_565 86.86(9) n
+SR SR SR 2_455 -1_566 87.16(7) n
+SR SR NB 2_455 1_555 125.87(8) n
+SR SR NB 2_455 2_455 52.94(6) n
+SR SR NB 2_455 2_555 121.83(7) n
+SR SR Y 2_455 1_555 125.49(10) n
+SR SR Y 2_455 1_565 53.57(3) n
+SR SR Y 2_455 2_455 53.16(4) n
+SR SR Y 2_455 2_555 122.26(7) n
+SR SR O1 2_455 1_555 124.00(11) n
+SR SR O1 2_455 -1_565 43.24(6) n
+SR SR O1 2_455 -2_566 91.46(7) n
+SR SR O2 2_455 2_545 124.35(10) n
+SR SR O2 2_455 -1_565 86.23(9) n
+SR SR O2 2_455 -2_576 43.12(6) n
+SR SR O3 2_455 1_555 146.40(8) n
+SR SR O3 2_455 2_555 126.87(5) n
+SR SR SR 2_545 2_555 88.99(7) n
+SR SR SR 2_545 -1_565 92.47(8) n
+SR SR SR 2_545 -1_566 93.27(10) n
+SR SR NB 2_545 1_555 55.58(4) n
+SR SR NB 2_545 2_455 127.69(8) n
+SR SR NB 2_545 2_555 56.68(4) n
+SR SR Y 2_545 1_555 55.15(3) n
+SR SR Y 2_545 1_565 124.94(7) n
+SR SR Y 2_545 2_455 128.29(7) n
+SR SR Y 2_545 2_555 56.99(6) n
+SR SR O1 2_545 1_555 55.28(6) n
+SR SR O1 2_545 -1_565 136.17(12) n
+SR SR O1 2_545 -2_566 90.09(5) n
+SR SR O2 2_545 2_545 56.18(7) n
+SR SR O2 2_545 -1_565 94.65(6) n
+SR SR O2 2_545 -2_576 137.17(13) n
+SR SR O3 2_545 1_555 35.17(3) n
+SR SR O3 2_545 2_555 51.56(5) n
+SR SR SR 2_555 -1_565 85.23(7) n
+SR SR SR 2_555 -1_566 85.96(8) n
+SR SR NB 2_555 1_555 123.87(9) n
+SR SR NB 2_555 2_455 122.49(7) n
+SR SR NB 2_555 2_555 51.53(4) n
+SR SR Y 2_555 1_555 123.18(8) n
+SR SR Y 2_555 1_565 53.49(3) n
+SR SR Y 2_555 2_455 123.04(6) n
+SR SR Y 2_555 2_555 51.83(5) n
+SR SR O1 2_555 1_555 84.00(7) n
+SR SR O1 2_555 -1_565 89.07(6) n
+SR SR O1 2_555 -2_566 142.31(12) n
+SR SR O2 2_555 2_545 89.52(9) n
+SR SR O2 2_555 -1_565 141.93(12) n
+SR SR O2 2_555 -2_576 83.96(6) n
+SR SR O3 2_555 1_555 124.04(8) n
+SR SR O3 2_555 2_555 37.55(5) n
+SR SR SR -1_565 -1_566 169.39(5) n
+SR SR NB -1_565 1_555 131.92(5) n
+SR SR NB -1_565 2_455 55.23(5) n
+SR SR NB -1_565 2_555 53.59(4) n
+SR SR Y -1_565 1_555 58.12(4) n
+SR SR Y -1_565 1_565 51.24(3) n
+SR SR Y -1_565 2_455 126.19(8) n
+SR SR Y -1_565 2_555 123.15(7) n
+SR SR O1 -1_565 1_555 37.23(5) n
+SR SR O1 -1_565 -1_565 43.75(7) n
+SR SR O1 -1_565 -2_566 132.45(9) n
+SR SR O2 -1_565 2_545 148.34(7) n
+SR SR O2 -1_565 -1_565 56.79(7) n
+SR SR O2 -1_565 -2_576 128.68(8) n
+SR SR O3 -1_565 1_555 97.23(9) n
+SR SR O3 -1_565 2_555 85.19(7) n
+SR SR NB -1_566 1_555 58.44(5) n
+SR SR NB -1_566 2_455 126.24(7) n
+SR SR NB -1_566 2_555 123.61(8) n
+SR SR Y -1_566 1_555 132.24(6) n
+SR SR Y -1_566 1_565 118.34(4) n
+SR SR Y -1_566 2_455 55.27(4) n
+SR SR Y -1_566 2_555 54.06(5) n
+SR SR O1 -1_566 1_555 147.01(9) n
+SR SR O1 -1_566 -1_565 130.22(7) n
+SR SR O1 -1_566 -2_566 56.49(5) n
+SR SR O2 -1_566 2_545 37.30(5) n
+SR SR O2 -1_566 -1_565 131.45(8) n
+SR SR O2 -1_566 -2_576 44.19(6) n
+SR SR O3 -1_566 1_555 92.59(9) n
+SR SR O3 -1_566 2_555 91.40(10) n
+NB SR NB 1_555 2_455 113.63(4) n
+NB SR NB 1_555 2_555 112.16(4) n
+NB SR Y 1_555 1_555 73.819(18) n
+NB SR Y 1_555 1_565 176.57(7) n
+NB SR Y 1_555 2_455 72.71(4) n
+NB SR Y 1_555 2_555 72.05(5) n
+NB SR O1 1_555 1_555 102.74(4) n
+NB SR O1 1_555 -1_565 146.99(8) n
+NB SR O1 1_555 -2_566 35.50(4) n
+NB SR O2 1_555 2_545 35.62(4) n
+NB SR O2 1_555 -1_565 88.11(5) n
+NB SR O2 1_555 -2_576 94.64(8) n
+NB SR O3 1_555 1_555 35.56(6) n
+NB SR O3 1_555 2_555 96.85(7) n
+NB SR NB 2_455 2_555 108.82(7) n
+NB SR Y 2_455 1_555 72.55(5) n
+NB SR Y 2_455 1_565 69.00(4) n
+NB SR Y 2_455 2_455 71.31(3) n
+NB SR Y 2_455 2_555 173.89(3) n
+NB SR O1 2_455 1_555 85.16(7) n
+NB SR O1 2_455 -1_565 33.43(5) n
+NB SR O1 2_455 -2_566 86.77(6) n
+NB SR O2 2_455 2_545 146.14(6) n
+NB SR O2 2_455 -1_565 34.37(4) n
+NB SR O2 2_455 -2_576 90.54(7) n
+NB SR O3 2_455 1_555 102.87(7) n
+NB SR O3 2_455 2_555 139.91(9) n
+NB SR Y 2_555 1_555 71.65(4) n
+NB SR Y 2_555 1_565 68.26(3) n
+NB SR Y 2_555 2_455 173.97(3) n
+NB SR Y 2_555 2_555 69.87(3) n
+NB SR O1 2_555 1_555 33.40(4) n
+NB SR O1 2_555 -1_565 89.16(7) n
+NB SR O1 2_555 -2_566 146.41(5) n
+NB SR O2 2_555 2_545 99.63(6) n
+NB SR O2 2_555 -1_565 100.23(7) n
+NB SR O2 2_555 -2_576 135.31(6) n
+NB SR O3 2_555 1_555 85.81(6) n
+NB SR O3 2_555 2_555 32.20(5) n
+Y SR Y 1_555 1_565 109.36(7) n
+Y SR Y 1_555 2_455 113.73(4) n
+Y SR Y 1_555 2_555 112.04(4) n
+Y SR O1 1_555 1_555 40.13(4) n
+Y SR O1 1_555 -1_565 90.68(9) n
+Y SR O1 1_555 -2_566 85.86(5) n
+Y SR O2 1_555 2_545 100.46(5) n
+Y SR O2 1_555 -1_565 40.46(4) n
+Y SR O2 1_555 -2_576 152.65(7) n
+Y SR O3 1_555 1_555 40.39(5) n
+Y SR O3 1_555 2_555 93.06(5) n
+Y SR Y 1_565 2_455 106.65(3) n
+Y SR Y 1_565 2_555 105.24(4) n
+Y SR O1 1_565 1_555 79.48(6) n
+Y SR O1 1_565 -1_565 35.58(4) n
+Y SR O1 1_565 -2_566 144.70(6) n
+Y SR O2 1_565 2_545 141.17(7) n
+Y SR O2 1_565 -1_565 95.18(8) n
+Y SR O2 1_565 -2_576 83.03(5) n
+Y SR O3 1_565 1_555 147.07(10) n
+Y SR O3 1_565 2_555 81.83(5) n
+Y SR Y 2_455 2_555 109.33(7) n
+Y SR O1 2_455 1_555 150.79(7) n
+Y SR O1 2_455 -1_565 88.07(6) n
+Y SR O1 2_455 -2_566 39.17(4) n
+Y SR O2 2_455 2_545 82.33(6) n
+Y SR O2 2_455 -1_565 83.23(5) n
+Y SR O2 2_455 -2_576 39.10(5) n
+Y SR O3 2_455 1_555 100.08(7) n
+Y SR O3 2_455 2_555 146.00(10) n
+Y SR O1 2_555 1_555 95.92(6) n
+Y SR O1 2_555 -1_565 140.77(6) n
+Y SR O1 2_555 -2_566 97.46(7) n
+Y SR O2 2_555 2_545 38.58(4) n
+Y SR O2 2_555 -1_565 151.17(5) n
+Y SR O2 2_555 -2_576 86.64(8) n
+Y SR O3 2_555 1_555 83.08(6) n
+Y SR O3 2_555 2_555 37.95(6) n
+O1 SR O1 1_555 -1_565 80.99(9) n
+O1 SR O1 1_555 -2_566 125.08(4) n
+O1 SR O2 1_555 2_545 111.19(6) n
+O1 SR O2 1_555 -1_565 67.67(7) n
+O1 SR O2 1_555 -2_576 162.39(8) n
+O1 SR O3 1_555 1_555 67.88(7) n
+O1 SR O3 1_555 2_555 62.30(6) n
+O1 SR O1 -1_565 -2_566 116.41(7) n
+O1 SR O2 -1_565 2_545 167.52(10) n
+O1 SR O2 -1_565 -1_565 62.63(9) n
+O1 SR O2 -1_565 -2_576 86.02(6) n
+O1 SR O3 -1_565 1_555 129.49(12) n
+O1 SR O3 -1_565 2_555 113.24(8) n
+O1 SR O2 -2_566 2_545 59.47(6) n
+O1 SR O2 -2_566 -1_565 75.67(6) n
+O1 SR O2 -2_566 -2_576 71.54(8) n
+O1 SR O3 -2_566 1_555 61.35(6) n
+O1 SR O3 -2_566 2_555 130.35(9) n
+O2 SR O2 2_545 -1_565 123.59(4) n
+O2 SR O2 2_545 -2_576 81.50(9) n
+O2 SR O3 2_545 1_555 60.58(6) n
+O2 SR O3 2_545 2_555 72.09(8) n
+O2 SR O2 -1_565 -2_576 116.35(8) n
+O2 SR O3 -1_565 1_555 68.96(6) n
+O2 SR O3 -1_565 2_555 129.59(9) n
+O2 SR O3 -2_576 1_555 129.71(12) n
+O2 SR O3 -2_576 2_555 113.18(9) n
+O3 SR O3 1_555 2_555 86.72(6) n
+SR NB SR 1_555 2_445 71.59(3) n
+SR NB SR 1_555 2_545 72.90(4) n
+SR NB SR 1_555 -1_556 179.9802 n
+SR NB SR 1_555 -2_455 107.10(4) n
+SR NB SR 1_555 -2_555 108.41(3) n
+SR NB O1 1_555 2_545 124.56(6) n
+SR NB O1 1_555 -2_566 55.44(6) n
+SR NB O2 1_555 2_545 57.80(7) n
+SR NB O2 1_555 -2_566 122.20(7) n
+SR NB O3 1_555 1_555 51.07(5) n
+SR NB O3 1_555 -1_556 128.93(5) n
+SR NB SR 2_445 2_545 108.82(7) n
+SR NB SR 2_445 -1_556 108.41(3) n
+SR NB SR 2_445 -2_455 71.18(7) n
+SR NB SR 2_445 -2_555 180.0 n
+SR NB O1 2_445 2_545 135.13(6) n
+SR NB O1 2_445 -2_566 44.87(6) n
+SR NB O2 2_445 2_545 127.22(6) n
+SR NB O2 2_445 -2_566 52.78(6) n
+SR NB O3 2_445 1_555 67.43(5) n
+SR NB O3 2_445 -1_556 112.57(5) n
+SR NB SR 2_545 -1_556 107.10(4) n
+SR NB SR 2_545 -2_455 179.9657 n
+SR NB SR 2_545 -2_555 71.18(7) n
+SR NB O1 2_545 2_545 53.69(6) n
+SR NB O1 2_545 -2_566 126.31(6) n
+SR NB O2 2_545 2_545 71.33(5) n
+SR NB O2 2_545 -2_566 108.67(5) n
+SR NB O3 2_545 1_555 42.35(6) n
+SR NB O3 2_545 -1_556 137.65(6) n
+SR NB SR -1_556 -2_455 72.90(4) n
+SR NB SR -1_556 -2_555 71.59(3) n
+SR NB O1 -1_556 2_545 55.44(6) n
+SR NB O1 -1_556 -2_566 124.56(6) n
+SR NB O2 -1_556 2_545 122.20(7) n
+SR NB O2 -1_556 -2_566 57.80(7) n
+SR NB O3 -1_556 1_555 128.93(5) n
+SR NB O3 -1_556 -1_556 51.07(5) n
+SR NB SR -2_455 -2_555 108.82(7) n
+SR NB O1 -2_566 2_545 126.31(6) n
+SR NB O1 -2_566 -2_566 53.69(6) n
+SR NB O2 -2_566 2_545 108.67(5) n
+SR NB O2 -2_566 -2_566 71.33(5) n
+SR NB O3 -2_566 1_555 137.65(6) n
+SR NB O3 -2_566 -1_556 42.35(6) n
+SR NB O1 -2_666 2_545 44.87(6) n
+SR NB O1 -2_666 -2_566 135.13(6) n
+SR NB O2 -2_666 2_545 52.78(6) n
+SR NB O2 -2_666 -2_566 127.22(6) n
+SR NB O3 -2_666 1_555 112.57(5) n
+SR NB O3 -2_666 -1_556 67.43(5) n
+O1 NB O1 2_545 -2_566 180.0 n
+O1 NB O2 2_545 2_545 89.17(10) n
+O1 NB O2 2_545 -2_566 90.83(10) n
+O1 NB O3 2_545 1_555 90.54(8) n
+O1 NB O3 2_545 -1_556 89.46(8) n
+O1 NB O2 -2_566 2_545 90.83(10) n
+O1 NB O2 -2_566 -2_566 89.17(10) n
+O1 NB O3 -2_566 1_555 89.46(8) n
+O1 NB O3 -2_566 -1_556 90.54(8) n
+O2 NB O2 2_545 -2_566 180.0 n
+O2 NB O3 2_545 1_555 89.75(7) n
+O2 NB O3 2_545 -1_556 90.25(7) n
+O2 NB O3 -2_566 1_555 90.25(7) n
+O2 NB O3 -2_566 -1_556 89.75(7) n
+O3 NB O3 1_555 -1_556 180.0 n
+SR Y SR 1_545 1_555 109.36(7) n
+SR Y SR 1_545 2_445 67.98(4) n
+SR Y SR 1_545 2_545 69.52(3) n
+SR Y SR 1_545 -1_555 70.64(7) n
+SR Y SR 1_545 -1_565 180.0 n
+SR Y SR 1_545 -2_454 110.48(3) n
+SR Y SR 1_545 -2_554 112.02(4) n
+SR Y O1 1_545 1_555 138.43(6) n
+SR Y O1 1_545 -1_555 41.57(6) n
+SR Y O2 1_545 1_545 66.72(5) n
+SR Y O2 1_545 -1_565 113.28(5) n
+SR Y O3 1_545 1_555 60.39(5) n
+SR Y O3 1_545 -1_555 119.61(5) n
+SR Y SR 1_555 2_445 71.47(3) n
+SR Y SR 1_555 2_545 73.03(3) n
+SR Y SR 1_555 -1_555 179.9802 n
+SR Y SR 1_555 -1_565 70.64(7) n
+SR Y SR 1_555 -2_454 106.97(3) n
+SR Y SR 1_555 -2_554 108.53(3) n
+SR Y O1 1_555 1_555 57.18(6) n
+SR Y O1 1_555 -1_555 122.82(6) n
+SR Y O2 1_555 1_545 125.23(6) n
+SR Y O2 1_555 -1_565 54.77(6) n
+SR Y O3 1_555 1_555 50.93(5) n
+SR Y O3 1_555 -1_555 129.07(5) n
+SR Y SR 2_445 2_545 109.33(7) n
+SR Y SR 2_445 -1_555 108.53(3) n
+SR Y SR 2_445 -1_565 112.02(4) n
+SR Y SR 2_445 -2_454 70.67(7) n
+SR Y SR 2_445 -2_554 180.0 n
+SR Y O1 2_445 1_555 127.09(5) n
+SR Y O1 2_445 -1_555 52.91(5) n
+SR Y O2 2_445 1_545 134.70(5) n
+SR Y O2 2_445 -1_565 45.30(5) n
+SR Y O3 2_445 1_555 66.08(6) n
+SR Y O3 2_445 -1_555 113.92(6) n
+SR Y SR 2_545 -1_555 106.97(3) n
+SR Y SR 2_545 -1_565 110.48(3) n
+SR Y SR 2_545 -2_454 179.9802 n
+SR Y SR 2_545 -2_554 70.67(7) n
+SR Y O1 2_545 1_555 68.91(5) n
+SR Y O1 2_545 -1_555 111.09(5) n
+SR Y O2 2_545 1_545 53.95(6) n
+SR Y O2 2_545 -1_565 126.05(6) n
+SR Y O3 2_545 1_555 44.13(4) n
+SR Y O3 2_545 -1_555 135.87(4) n
+SR Y SR -1_555 -1_565 109.36(7) n
+SR Y SR -1_555 -2_454 73.03(3) n
+SR Y SR -1_555 -2_554 71.47(3) n
+SR Y O1 -1_555 1_555 122.82(6) n
+SR Y O1 -1_555 -1_555 57.18(6) n
+SR Y O2 -1_555 1_545 54.77(6) n
+SR Y O2 -1_555 -1_565 125.23(6) n
+SR Y O3 -1_555 1_555 129.07(5) n
+SR Y O3 -1_555 -1_555 50.93(5) n
+SR Y SR -1_565 -2_454 69.52(3) n
+SR Y SR -1_565 -2_554 67.98(4) n
+SR Y O1 -1_565 1_555 41.57(6) n
+SR Y O1 -1_565 -1_555 138.43(6) n
+SR Y O2 -1_565 1_545 113.28(5) n
+SR Y O2 -1_565 -1_565 66.72(5) n
+SR Y O3 -1_565 1_555 119.61(5) n
+SR Y O3 -1_565 -1_555 60.39(5) n
+SR Y SR -2_454 -2_554 109.33(7) n
+SR Y O1 -2_565 1_555 111.09(5) n
+SR Y O1 -2_565 -1_555 68.91(5) n
+SR Y O2 -2_565 1_545 126.05(6) n
+SR Y O2 -2_565 -1_565 53.95(6) n
+SR Y O3 -2_565 1_555 135.87(4) n
+SR Y O3 -2_565 -1_555 44.13(4) n
+SR Y O1 -2_665 1_555 52.91(5) n
+SR Y O1 -2_665 -1_555 127.09(5) n
+SR Y O2 -2_665 1_545 45.30(5) n
+SR Y O2 -2_665 -1_565 134.70(5) n
+SR Y O3 -2_665 1_555 113.92(6) n
+SR Y O3 -2_665 -1_555 66.08(6) n
+O1 Y O1 1_555 -1_555 180.0 n
+O1 Y O2 1_555 1_545 88.94(9) n
+O1 Y O2 1_555 -1_565 91.06(9) n
+O1 Y O3 1_555 1_555 88.84(6) n
+O1 Y O3 1_555 -1_555 91.16(6) n
+O1 Y O2 -1_555 1_545 91.06(9) n
+O1 Y O2 -1_555 -1_565 88.94(9) n
+O1 Y O3 -1_555 1_555 91.16(6) n
+O1 Y O3 -1_555 -1_555 88.84(6) n
+O2 Y O2 1_545 -1_565 179.972 n
+O2 Y O3 1_545 1_555 91.78(7) n
+O2 Y O3 1_545 -1_555 88.22(7) n
+O2 Y O3 -1_565 1_555 88.22(7) n
+O2 Y O3 -1_565 -1_555 91.78(7) n
+O3 Y O3 1_555 -1_555 180.0 n
+SR O1 SR 1_555 -1_565 99.01(9) n
+SR O1 SR 1_555 -2_554 161.55(10) n
+SR O1 NB 1_555 2_555 92.91(7) n
+SR O1 Y 1_555 1_555 82.69(6) n
+SR O1 SR -1_565 -2_554 98.54(7) n
+SR O1 NB -1_565 2_555 101.70(8) n
+SR O1 Y -1_565 1_555 102.85(7) n
+SR O1 NB -2_665 2_555 89.06(7) n
+SR O1 Y -2_665 1_555 87.92(6) n
+NB O1 Y 2_555 1_555 155.44(10) n
+SR O2 SR 2_555 -1_565 161.32(10) n
+SR O2 SR 2_555 -2_564 98.50(9) n
+SR O2 NB 2_555 2_555 86.58(7) n
+SR O2 Y 2_555 1_565 87.48(7) n
+SR O2 SR -1_565 -2_564 99.15(7) n
+SR O2 NB -1_565 2_555 92.85(8) n
+SR O2 Y -1_565 1_565 84.78(6) n
+SR O2 NB -2_675 2_555 110.69(7) n
+SR O2 Y -2_675 1_565 95.61(7) n
+NB O2 Y 2_555 1_565 153.62(9) n
+SR O3 SR 1_555 2_545 107.28(6) n
+SR O3 NB 1_555 1_555 93.38(9) n
+SR O3 Y 1_555 1_555 88.68(8) n
+SR O3 NB 2_545 1_555 105.45(9) n
+SR O3 Y 2_545 1_555 97.91(8) n
+NB O3 Y 1_555 1_555 154.74(8) n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+SR SR . 2_445 4.073(3) n
+SR SR . 2_455 4.073(3) n
+SR SR . 2_545 4.183(3) n
+SR SR . 2_555 4.183(3) n
+SR SR . -1_565 4.160(5) n
+SR SR . -1_566 4.120(5) n
+SR NB . 1_555 3.4262(18) n
+SR NB . 1_565 3.7333(16) n
+SR NB . 2_455 3.537(2) n
+SR NB . 2_555 3.6099(18) n
+SR Y . 1_555 3.4381(17) n
+SR Y . 1_565 3.7442(17) n
+SR Y . 2_455 3.5352(18) n
+SR Y . 2_555 3.589(2) n
+SR O1 . 1_555 2.913(3) n
+SR O1 . -1_565 2.548(3) n
+SR O1 . -2_455 2.822(3) n
+SR O2 . 2_545 2.904(3) n
+SR O2 . -1_565 2.820(3) n
+SR O2 . -2_465 2.525(3) n
+SR O3 . 1_555 2.6698(15) n
+SR O3 . 1_565 3.2772(15) n
+SR O3 . 2_455 3.328(2) n
+SR O3 . 2_555 2.523(2) n
+NB SR . 1_545 3.7333(16) n
+NB SR . 1_555 3.4262(18) n
+NB SR . 2_445 3.537(2) n
+NB SR . 2_545 3.6099(18) n
+NB SR . -1_556 3.4262(18) n
+NB SR . -1_566 3.7333(16) n
+NB SR . -2_455 3.6099(18) n
+NB SR . -2_555 3.537(2) n
+NB O1 . 2_545 1.9897(16) n
+NB O1 . -2_455 1.9897(16) n
+NB O2 . 2_545 1.9991(17) n
+NB O2 . -2_455 1.9991(17) n
+NB O3 . 1_555 1.996(2) n
+NB O3 . -1_556 1.996(2) n
+Y SR . 1_545 3.7442(17) n
+Y SR . 1_555 3.4381(17) n
+Y SR . 2_445 3.5352(18) n
+Y SR . 2_545 3.589(2) n
+Y SR . -1_555 3.4381(17) n
+Y SR . -1_565 3.7442(17) n
+Y SR . -2_454 3.589(2) n
+Y SR . -2_554 3.5352(18) n
+Y O1 . 1_555 2.2343(16) n
+Y O1 . -1_555 2.2343(16) n
+Y O2 . 1_545 2.2402(16) n
+Y O2 . -1_565 2.2402(16) n
+Y O3 . 1_555 2.229(2) n
+Y O3 . -1_555 2.229(2) n
+O1 SR . 1_555 2.913(3) n
+O1 SR . -1_565 2.548(3) n
+O1 SR . -2_554 2.822(3) n
+O1 NB . 2_555 1.9897(16) n
+O1 Y . 1_555 2.2343(16) n
+O2 SR . 2_555 2.904(3) n
+O2 SR . -1_565 2.820(3) n
+O2 SR . -2_564 2.525(3) n
+O2 NB . 2_555 1.9991(17) n
+O2 Y . 1_565 2.2402(16) n
+O3 SR . 1_545 3.2772(15) n
+O3 SR . 1_555 2.6698(15) n
+O3 SR . 2_445 3.328(2) n
+O3 SR . 2_545 2.523(2) n
+O3 NB . 1_555 1.996(2) n
+O3 Y . 1_555 2.229(2) n

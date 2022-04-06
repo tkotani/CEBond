@@ -1,0 +1,94 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-18 17:37:37 +0200 (Thu, 18 Feb 2016) $
+#$Revision: 176729 $
+#$URL: svn://www.crystallography.net/cod/cif/1/00/85/1008513.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1008513
+loop_
+_publ_author_name
+'Fanchon, E'
+'Hodeau, J L'
+'Vicat, J'
+'Watts, J A'
+_publ_section_title
+;
+Three-dimensional/one-dimensional transition in the Cs^+^ sublattice of
+the mixed valence CsTi~8~O~1~6 hollandite: structuresat 297 and 673K
+;
+_journal_coden_ASTM              JSSCBI
+_journal_name_full               'Journal of Solid State Chemistry'
+_journal_page_first              88
+_journal_page_last               100
+_journal_paper_doi               10.1016/0022-4596(91)90245-D
+_journal_volume                  92
+_journal_year                    1991
+_chemical_formula_structural     'Cs1.062 Ti8 O16'
+_chemical_formula_sum            'Cs1.062 O16 Ti8'
+_chemical_name_systematic        'Caesium titanium oxide (1.06/8/16)'
+_space_group_IT_number           88
+_symmetry_cell_setting           tetragonal
+_symmetry_space_group_name_Hall  'I 4bw -1bw'
+_symmetry_space_group_name_H-M   'I 41/a :1'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   14.524(11)
+_cell_length_b                   14.524(11)
+_cell_length_c                   5.936(2)
+_cell_volume                     1252.2
+_refine_ls_R_factor_all          0.059
+_cod_original_sg_symbol_H-M      'I 41/a S'
+_cod_database_code               1008513
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,z
+x,1/2+y,1/4-z
+-x,1/2-y,1/4-z
+-y,x,-z
+y,-x,-z
+-y,1/2+x,1/4+z
+y,1/2-x,1/4+z
+1/2+x,1/2+y,1/2+z
+1/2-x,1/2-y,1/2+z
+1/2+x,y,3/4-z
+1/2-x,-y,3/4-z
+1/2-y,1/2+x,1/2-z
+1/2+y,1/2-x,1/2-z
+1/2-y,x,3/4+z
+1/2+y,-x,3/4+z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_calc_flag
+Cs1 Cs1+ 4 a 0. 0. 0. 0.509(8) 0 d
+Cs2 Cs1+ 4 b 0. 0. 0.5 0.148(7) 0 d
+Cs3 Cs1+ 8 e 0. 0. 0.059(1) 0.101(4) 0 d
+Cs4 Cs1+ 8 e 0. 0. 0.558(1) 0.101(4) 0 d
+Ti1 Ti4+ 16 f 0.25813(7) 0.40887(6) 0.99632(32) 1. 0 d
+Ti2 Ti4+ 16 f 0.24368(7) 0.09203(6) 0.99582(32) 1. 0 d
+O1 O2- 16 f 0.1834(2) 0.5257(2) -0.0048(12) 1. 0 d
+O2 O2- 16 f 0.3517(2) 0.3134(2) 0.0041(12) 1. 0 d
+O3 O2- 16 f 0.3168(2) -0.0253(2) -0.0042(12) 1. 0 d
+O4 O2- 16 f 0.1479(2) 0.1857(2) 0.0025(12) 1. 0 d
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Cs1+ 1.000
+Ti4+ 3.867
+O2- -2.000

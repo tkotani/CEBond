@@ -1,0 +1,274 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/40/2004079.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2004079
+loop_
+_publ_author_name
+'Kettani, M. H.'
+'Avignant, D.'
+'Metin, J.'
+_publ_section_title
+;
+ Na<i>M</i>^II^Zr~2~F~11~ (<i>M</i>^II^ = Mn, Fe, Co, Ni, Zn) Fluorides
+;
+_journal_issue                   11
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              2207
+_journal_page_last               2210
+_journal_paper_doi               10.1107/S0108270195006081
+_journal_volume                  51
+_journal_year                    1995
+_chemical_formula_sum            'F11 Na Zn Zr2'
+_chemical_formula_weight         479.78
+_space_group_IT_number           12
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-C 2y'
+_symmetry_space_group_name_H-M   'C 1 2/m 1'
+_atom_type_scat_source           IntTabIV
+_cell_angle_alpha                90
+_cell_angle_beta                 116.180(10)
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   9.025(3)
+_cell_length_b                   6.6950(10)
+_cell_length_c                   7.7210(10)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      18
+_cell_measurement_theta_min      6
+_cell_volume                     418.66(17)
+_computing_cell_refinement
+;
+CAD-4 Software
+;
+_computing_data_collection
+;
+CAD-4 Software (Enraf-Nonius, 1989)
+;
+_computing_data_reduction
+;
+MolEN (Fair, 1990)
+;
+_computing_molecular_graphics
+;
+ORTEPII (Johnson, 1965)
+;
+_computing_structure_refinement
+;
+MolEN
+;
+_computing_structure_solution
+;
+MolEN
+;
+_diffrn_measurement_device       'Enraf-Nonius CAD-4'
+_diffrn_measurement_method       '\w/2\q scans'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_limit_h_max       16
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       12
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       14
+_diffrn_reflns_limit_l_min       -14
+_diffrn_reflns_number            1369
+_diffrn_reflns_theta_max         40
+_diffrn_standards_decay_%        2
+_diffrn_standards_interval_time  60
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    5.52
+_exptl_absorpt_correction_T_max  0.9999
+_exptl_absorpt_correction_T_min  0.9459
+_exptl_absorpt_correction_type   'empirical (refined from \y scan)'
+_exptl_crystal_colour            colorless
+_exptl_crystal_density_diffrn    3.81
+_exptl_crystal_density_method    none
+_exptl_crystal_description       prismatic
+_exptl_crystal_size_max          0.18
+_exptl_crystal_size_mid          0.10
+_exptl_crystal_size_min          0.08
+_refine_diff_density_max         2.200
+_refine_diff_density_min         -2.073
+_refine_ls_extinction_coef       'g = 2.0(2)x10^-6^'
+_refine_ls_extinction_method
+'|F~c~| = |F~o~|(1 + gI~c~) (Stout & Jensen, 1968)'
+_refine_ls_goodness_of_fit_obs   1.230
+_refine_ls_number_parameters     46
+_refine_ls_number_reflns         1192
+_refine_ls_R_factor_obs          0.028
+_refine_ls_shift/esd_max         0.01
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     w=1/\s^2^(F)
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.035
+_reflns_number_observed          1192
+_reflns_number_total             1369
+_reflns_observed_criterion       I>3\s(I)
+_cod_data_source_file            ab1265.cif
+_cod_data_source_block           5
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value ' w=1/\s^2^(F)' was changed to
+'calc'. New tag '_refine_ls_weighting_details' was created. The value
+of the new tag was set to 'w=1/\s^2^(F)'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        418.70(10)
+_cod_original_sg_symbol_H-M      'C 2/m'
+_cod_original_formula_sum        'Na Zn Zr2 F11'
+_cod_database_code               2004079
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x,-y,z
+-x,-y,-z
+-x,y,-z
+1/2+x,1/2+y,z
+1/2+x,1/2-y,z
+1/2-x,1/2-y,-z
+1/2-x,1/2+y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_B_iso_or_equiv
+Na .0 .0 .0 3.72(6)
+Zn .0 .0 .5 .704(5)
+Zr .50534(2) .0 .23615(3) .555(3)
+F(1) .0 .5 .5 3.38(6)
+F(2) .0 .3293(2) .0 1.26(2)
+F(3) .2472(2) .0 .6498(3) 1.74(3)
+F(4) .2670(2) .0 .1089(3) 2.50(4)
+F(5) .01590(10) .2061(2) .3138(2) 1.40(2)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Compound_(1) ? ? ? yes
+Na F(4) . 2.184(3) yes
+Na F(4) 3 2.184(3) yes
+Na F(2) . 2.242(3) yes
+Na F(2) 3 2.242(3) yes
+Na F(5) . 2.743(2) yes
+Na F(5) 2 2.743(2) yes
+Na F(5) 4 2.743(2) yes
+Na F(5) 3 2.743(2) yes
+Mn F(3) . 2.083(2) yes
+Mn F(3) 4_556 2.083(2) yes
+Mn F(5) . 2.103(2) yes
+Mn F(5) 2 2.103(2) yes
+Mn F(5) 3_556 2.103(2) yes
+Mn F(5) 4_556 2.103(2) yes
+Zr F(4) . 1.937(3) yes
+Zr F(3) 4_656 2.005(3) yes
+Zr F(5) 5_545 2.036(2) yes
+Zr F(5) 6 2.036(2) yes
+Zr F(1) 5_545 2.0820(10) yes
+Zr F(2) 5_545 2.135(2) yes
+Zr F(2) 7 2.135(2) yes
+Compound_(2) ? ? ? yes
+Na F(4) . 2.179(4) yes
+Na F(4) 3 2.1790(10) yes
+Na F(2) . 2.2230(10) yes
+Na F(2) 3 2.2230(10) yes
+Na F(5) . 2.7310(10) yes
+Na F(5) 2 2.7310(10) yes
+Na F(5) 4 2.7310(10) yes
+Na F(5) 3 2.7310(10) yes
+Fe F(3) . 2.0430(10) yes
+Fe F(3) 4_556 2.0430(10) yes
+Fe F(5) . 2.0800(10) yes
+Fe F(5) 2 2.0800(10) yes
+Fe F(5) 3_556 2.0800(10) yes
+Fe F(5) 4_556 2.0800(10) yes
+Zr F(4) . 1.9290(10) yes
+Zr F(3) 4_656 2.0030(10) yes
+Zr F(5) 5_545 2.0440(10) yes
+Zr F(5) 6 2.0440(10) yes
+Zr F(1) 5_545 2.0740(10) yes
+Zr F(2) 5_545 2.1380(10) yes
+Zr F(2) 7 2.1380(10) yes
+Compound_(3) ? ? ? yes
+Na F(4) . 2.174(2) yes
+Na F(4) 3 2.174(2) yes
+Na F(2) . 2.206(2) yes
+Na F(2) 3 2.206(2) yes
+Na F(5) . 2.7310(10) yes
+Na F(5) 2 2.7310(10) yes
+Na F(5) 4 2.7310(10) yes
+Na F(5) 3 2.7310(10) yes
+Co F(3) . 2.0160(10) yes
+Co F(3) 4_556 2.0160(10) yes
+Co F(5) . 2.0530(10) yes
+Co F(5) 2 2.0530(10) yes
+Co F(5) 3_556 2.0530(10) yes
+Co F(5) 4_556 2.0530(10) yes
+Zr F(4) . 1.930(2) yes
+Zr F(3) 4_656 2.0060(10) yes
+Zr F(5) 5_545 2.0430(10) yes
+Zr F(5) 6 2.0430(10) yes
+Zr F(1) 5_545 2.0610(10) yes
+Zr F(2) 5_545 2.1350(10) yes
+Zr F(2) 7 2.1350(10) yes
+Compound_(4) ? ? ? yes
+Na F(4) . 2.168(2) yes
+Na F(4) 3 2.168(2) yes
+Na F(2) . 2.190(2) yes
+Na F(2) 3 2.190(2) yes
+Na F(5) . 2.7340(10) yes
+Na F(5) 2 2.7340(10) yes
+Na F(5) 4 2.7340(10) yes
+Na F(5) 3 2.7340(10) yes
+Ni F(3) . 1.989(2) yes
+Ni F(3) 4_556 1.989(2) yes
+Ni F(5) . 2.0260(10) yes
+Ni F(5) 2 2.0260(10) yes
+Ni F(5) 3_556 2.0260(10) yes
+Ni F(5) 4_556 2.0260(10) yes
+Zr F(4) . 1.932(2) yes
+Zr F(3) 4_656 2.008(2) yes
+Zr F(5) 5_545 2.0510(10) yes
+Zr F(5) 6 2.0510(10) yes
+Zr F(1) 5_545 2.0520(10) yes
+Zr F(2) 5_545 2.1380(10) yes
+Zr F(2) 7 2.1380(10) yes
+Compound_(5) ? ? ? yes
+Na F(4) . 2.174(2) yes
+Na F(4) 3 2.174(2) yes
+Na F(2) . 2.205(2) yes
+Na F(2) 3 2.205(2) yes
+Na F(5) . 2.7370(10) yes
+Na F(5) 2 2.7370(10) yes
+Na F(5) 4 2.7370(10) yes
+Na F(5) 3 2.7370(10) yes
+Zn F(3) . 2.0100(10) yes
+Zn F(3) 4_556 2.0100(10) yes
+Zn F(5) . 2.0430(10) yes
+Zn F(5) 2 2.0430(10) yes
+Zn F(5) 3_556 2.0430(10) yes
+Zn F(5) 4_556 2.0430(10) yes
+Zr F(4) . 1.931(2) yes
+Zr F(3) 4_656 2.0070(10) yes
+Zr F(5) 5_545 2.0470(10) yes
+Zr F(5) 6 2.0470(10) yes
+Zr F(1) 5_545 2.0590(10) yes
+Zr F(2) 5_545 2.1340(10) yes
+Zr F(2) 7 2.1340(10) yes

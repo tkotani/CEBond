@@ -1,0 +1,250 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/36/2003642.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2003642
+loop_
+_publ_author_name
+'Schmalle, H. W.'
+'Williams, T.'
+'Reller, A.'
+'Lichtenberg, F.'
+'Widmer, D.'
+'Bednorz, J. G.'
+_publ_section_title
+;
+ A Novel Semiconducting Perovskite-Related Phase: Sr~5~Nb~5~O~17~
+;
+_journal_issue                   7
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              1243
+_journal_page_last               1246
+_journal_paper_doi               10.1107/S0108270195000977
+_journal_volume                  51
+_journal_year                    1995
+_chemical_formula_moiety         'Sr5 Nb5 O17'
+_chemical_formula_sum            'Nb5 O17 Sr5'
+_chemical_formula_weight         1174.62
+_space_group_IT_number           34
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  'P 2 -2n'
+_symmetry_space_group_name_H-M   'P n n 2'
+_atom_type_scat_source           IntTabIV
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   32.456(5)
+_cell_length_b                   5.674(2)
+_cell_length_c                   3.995(2)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    296
+_cell_measurement_theta_max      12.0
+_cell_measurement_theta_min      5.6
+_cell_volume                     735.7(5)
+_diffrn_measurement_device       'Enraf-Nonius CAD4'
+_diffrn_measurement_method       \w-2\q
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0581
+_diffrn_reflns_limit_h_max       45
+_diffrn_reflns_limit_h_min       -45
+_diffrn_reflns_limit_k_max       8
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       0
+_diffrn_reflns_limit_l_min       -5
+_diffrn_reflns_number            2674
+_diffrn_reflns_theta_max         30.0
+_diffrn_standards_decay_%        <1
+_diffrn_standards_interval_time  180
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    21.11
+_exptl_absorpt_correction_T_max  0.4744
+_exptl_absorpt_correction_T_min  0.0717
+_exptl_absorpt_correction_type   'analytical (based on six crystal faces)'
+_exptl_crystal_colour            black
+_exptl_crystal_density_diffrn    5.302
+_exptl_crystal_description       ledge-shaped
+_exptl_crystal_size_max          0.387
+_exptl_crystal_size_mid          0.135
+_exptl_crystal_size_min          0.035
+_refine_diff_density_max         2.19
+_refine_diff_density_min         -3.09
+_refine_ls_goodness_of_fit_obs   3.396
+_refine_ls_hydrogen_treatment    'no H-atoms'
+_refine_ls_number_parameters     80
+_refine_ls_number_reflns         1785
+_refine_ls_R_factor_obs          0.0387
+_refine_ls_shift/esd_max         0.116
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 8.826/[\s^2^(Fo)+0.000010Fo^2^]'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.0449
+_reflns_number_observed          1796
+_reflns_number_total             2118
+_reflns_observed_criterion       >3\s(I)
+_cod_data_source_file            br1096.cif
+_cod_data_source_block           br1096a
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value '8.826/[\s^2^(Fo)+0.000010Fo^2^]'
+was changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to 'w =
+8.826/[\s^2^(Fo)+0.000010Fo^2^]'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        735.7(6)
+_cod_original_formula_sum        'Sr5 Nb5 O17'
+_cod_database_code               2003642
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,z
+1/2+x,1/2-y,1/2+z
+1/2-x,1/2+y,1/2+z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+Nb1 .5000 .5000 .5000 .0035(2)
+Nb2 .32270(2) .5339(1) .5051(12) .0044(1)
+Nb3 .40928(2) .0053(1) .5120(12) .0031(1)
+Sr1 .21443(2) .5628(1) .5130(12) .0136(2)
+Sr2 .5000 .0000 -.0010(14) .0068(2)
+Sr3 .41131(3) .4996(1) .0027(11) .0072(2)
+O1 .5376(2) .2258(8) .4890(37) .009(1)
+O2 .4518(2) .2693(8) .5267(33) .006(1)
+O3 .5000 .5000 .0264(41) .015(2)
+O4 .2089(2) .2966(9) .0153(39) .009(1)
+O5 .1207(2) .2070(8) .0171(37) .006(1)
+O6 .1328(2) .7236(9) -.0300(28) .010(1)
+O7 .2794(2) .3177(9) .5073(40) .007(1)
+O8 .3311(2) .5054(10) .0196(38) .017(2)
+O9 .4169(2) -.0108(10) .0138(38) .015(1)
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O3 Nb1 O1 . . 88.7(4) yes
+O3 Nb1 O1 . 2_665 88.7(4) yes
+O3 Nb1 O2 . . 93.0(4) yes
+O3 Nb1 O2 . 2_665 93.0(4) yes
+O3 Nb1 O3 . 1_556 180.0 yes
+O1 Nb1 O1 . 2_665 177.8(5) yes
+O1 Nb1 O2 . . 88.2(2) yes
+O1 Nb1 O2 . 2_665 91.9(2) yes
+O1 Nb1 O3 . 1_556 91.3(4) yes
+O1 Nb1 O2 2_665 . 91.9(2) yes
+O1 Nb1 O2 2_665 2_665 88.2(2) yes
+O1 Nb1 O3 2_665 1_556 91.3(4) yes
+O2 Nb1 O2 . 2_665 174.0(7) yes
+O2 Nb1 O3 . 1_556 87.0(4) yes
+O2 Nb1 O3 2_665 1_556 87.0(4) yes
+O4 Nb2 O7 4_555 . 96.6(2) yes
+O4 Nb2 O8 4_555 . 99.7(6) yes
+O4 Nb2 O8 4_555 1_556 96.7(6) yes
+O4 Nb2 O5 4_555 4_555 96.4(2) yes
+O4 Nb2 O6 4_555 4_545 174.7(3) yes
+O7 Nb2 O8 . . 93.2(5) yes
+O7 Nb2 O8 . 1_556 92.5(5) yes
+O7 Nb2 O5 . 4_555 166.9(2) yes
+O7 Nb2 O6 . 4_545 88.3(2) yes
+O8 Nb2 O8 . 1_556 161.9(4) yes
+O8 Nb2 O5 . 4_555 86.5(4) yes
+O8 Nb2 O6 . 4_545 77.7(4) yes
+O8 Nb2 O5 1_556 4_555 84.1(5) yes
+O8 Nb2 O6 1_556 4_545 85.3(3) yes
+O5 Nb2 O6 4_555 4_545 78.8(2) yes
+O6 Nb3 O5 4_545 4_545 102.3(2) yes
+O6 Nb3 O9 4_545 . 91.8(4) yes
+O6 Nb3 O9 4_545 1_556 102.1(4) yes
+O6 Nb3 O2 4_545 . 90.6(2) yes
+O6 Nb3 O1 4_545 2_655 170.9(5) yes
+O5 Nb3 O9 4_545 . 91.8(5) yes
+O5 Nb3 O9 4_545 1_556 90.6(5) yes
+O5 Nb3 O2 4_545 . 167.0(2) yes
+O5 Nb3 O1 4_545 2_655 82.7(2) yes
+O9 Nb3 O9 . 1_556 165.0(4) yes
+O9 Nb3 O2 . . 88.8(4) yes
+O9 Nb3 O1 . 2_655 80.4(4) yes
+O9 Nb3 O2 1_556 . 85.5(4) yes
+O9 Nb3 O1 1_556 2_655 85.3(4) yes
+O2 Nb3 O1 . 2_655 84.7(2) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Nb1 O3 . 1.892(16) yes
+Nb1 O1 . 1.978(5) yes
+Nb1 O1 2_665 1.978(5) yes
+Nb1 O2 . 2.042(5) yes
+Nb1 O2 2_665 2.042(5) yes
+Nb1 O3 1_556 2.103(16) yes
+Nb3 O6 4_545 1.851(6) yes
+Nb3 O5 4_545 1.952(5) yes
+Nb3 O9 . 2.007(16) yes
+Nb3 O9 1_556 2.022(16) yes
+Nb3 O2 . 2.039(5) yes
+Nb3 O1 2_655 2.167(6) yes
+Nb2 O4 4_555 1.809(5) yes
+Nb2 O7 . 1.866(5) yes
+Nb2 O8 . 1.966(16) yes
+Nb2 O8 1_556 2.080(16) yes
+Nb2 O5 4_555 2.084(5) yes
+Nb2 O6 4_545 2.282(6) yes
+Sr1 O7 4_555 2.456(14) yes
+Sr1 O7 4_554 2.493(14) yes
+Sr1 O4 . 2.504(13) yes
+Sr1 O4 1_556 2.518(13) yes
+Sr1 O7 . 2.525(6) yes
+Sr2 O1 . 2.639(12) yes
+Sr2 O1 2_655 2.639(12) yes
+Sr2 O1 1_554 2.699(13) yes
+Sr2 O1 2_654 2.699(13) yes
+Sr2 O9 . 2.699(7) yes
+Sr2 O9 2_655 2.699(7) yes
+Sr1 O4 4_555 2.821(6) yes
+Sr1 O8 4_555 2.915(6) yes
+Sr1 O6 1_556 3.345(8) yes
+Sr1 O8 4_545 3.492(6) yes
+Sr1 O6 . 3.544(9) yes
+Sr2 O3 . 2.8390(10) yes
+Sr2 O3 1_545 2.8390(10) yes
+Sr2 O2 1_554 2.888(10) yes
+Sr2 O2 2_654 2.888(10) yes
+Sr2 O2 . 3.037(11) yes
+Sr2 O2 2_655 3.037(11) yes
+Sr3 O5 4_554 2.495(13) yes
+Sr3 O5 4_555 2.586(13) yes
+Sr3 O8 . 2.603(7) yes
+Sr3 O2 1_554 2.656(11) yes
+Sr3 O9 1_565 2.784(6) yes
+Sr3 O2 . 2.797(11) yes
+Sr3 O6 4_545 2.826(9) yes
+Sr3 O3 . 2.8800(10) yes
+Sr3 O9 . 2.902(6) yes
+Sr3 O1 2_665 2.992(11) yes
+Sr3 O6 4_544 3.005(10) yes
+Sr3 O1 2_664 3.064(11) yes

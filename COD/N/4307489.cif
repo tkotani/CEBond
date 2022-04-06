@@ -1,0 +1,195 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-23 00:28:22 +0200 (Wed, 23 Mar 2016) $
+#$Revision: 179112 $
+#$URL: svn://www.crystallography.net/cod/cif/4/30/74/4307489.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4307489
+loop_
+_publ_author_name
+'Carsten L. Schmidt'
+'Robert Dinnebier'
+'Ulrich Wedig'
+'Martin Jansen'
+_publ_contact_author_address
+; Max-Planck-Institut fuer Festkoerperforschung
+Heisenbergstr. 1
+D-70569 Stuttgart
+Germany
+;
+_publ_contact_author_email       M.Jansen@fkf.mpg.de
+_publ_contact_author_fax         '(0711) 6891502'
+_publ_contact_author_name        'Prof. Dr. M. Jansen'
+_publ_section_title
+;
+Crystal Structure and Chemical Bonding of the High-Temperature Phase of AgN3
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              907
+_journal_page_last               916
+_journal_paper_doi               10.1021/ic061963n
+_journal_volume                  46
+_journal_year                    2007
+_chemical_formula_analytical     AgN3
+_chemical_formula_structural     AgN3
+_chemical_formula_sum            'Ag N3'
+_chemical_formula_weight         149.89
+_chemical_name_common            'silver azide'
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_audit_author_name               AgN3HT
+_audit_creation_date             2006-10-12T14:43
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_audit_update_record
+' 2006-10-12T14:43  Initial CIF as created by GSAS2CIF'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 114.1924(14)
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            4
+_cell_length_a                   6.07557(16)
+_cell_length_b                   6.16629(16)
+_cell_length_c                   6.57290(21)
+_cell_volume                     224.619(11)
+_computing_structure_refinement  GSAS
+_pd_block_id                     2006-10-12T14:43|TEST_1|AgN3HT|Overall
+_refine_ls_goodness_of_fit_all   1.05
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     31
+_refine_ls_number_restraints     3
+_refine_ls_shift/su_max          2.82
+_refine_ls_shift/su_mean         0.47
+_cod_data_source_file            ic061963nsi20061013_085253.cif
+_cod_data_source_block           TEST_1
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_geom_angle_publ_flag' value 'N' changed to 'n' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (34
+times).
+
+'_geom_bond_publ_flag' value 'N' changed to 'n' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (18 times).
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+;
+_cod_database_code               4307489
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -x,+y+1/2,-z+1/2
+-1 -x,-y,-z
+-2 +x,-y+1/2,+z+1/2
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_22
+_atom_site_aniso_U_23
+_atom_site_aniso_U_33
+Ag1 0.0504(7) -0.0003(19) 0.0505(6) 0.0379(5) 0.0027(24) 0.1362(8)
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+Ag Ag1 0.7493(4) 0.84932(14) 0.7539(4) 1.0 Uani 0.0708 4
+N N1 0.0765(12) 0.7175(9) 0.6788(11) 1.0 Uiso 0.0350(16) 4
+N N2 0.2238(13) 0.8472(12) 0.6913(15) 1.0 Uiso 0.0350(16) 4
+N N3 0.3719(13) 0.9767(10) 0.7053(12) 1.0 Uiso 0.0350(16) 4
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+Ag 4.0
+N 12.0
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+N1 Ag1 N1 91.05(17) 1_655 . 2_656 n
+N1 Ag1 N1 80.80(15) 1_655 . -2_676 n
+N1 Ag1 N3 161.85(20) 1_655 . 1_555 n
+N1 Ag1 N3 90.87(26) 1_655 . 2_646 n
+N1 Ag1 N3 78.18(22) 1_655 . -1_676 n
+N1 Ag1 N1 82.80(18) 2_656 . -2_676 n
+N1 Ag1 N3 92.40(24) 2_656 . 1_555 n
+N1 Ag1 N3 164.81(19) 2_656 . 2_646 n
+N1 Ag1 N3 76.17(23) 2_656 . -1_676 n
+N1 Ag1 N3 117.31(24) -2_676 . 1_555 n
+N1 Ag1 N3 82.64(24) -2_676 . 2_646 n
+N1 Ag1 N3 149.79(15) -2_676 . -1_676 n
+N3 Ag1 N3 90.45(17) 1_555 . 2_646 n
+N3 Ag1 N3 85.36(25) 1_555 . -1_676 n
+N3 Ag1 N3 118.95(21) 2_646 . -1_676 n
+Ag1 N1 Ag1 127.71(29) 1_455 . 2_646 n
+Ag1 N1 Ag1 86.77(20) 1_455 . -2_464 n
+Ag1 N1 N2 115.3(8) 1_455 . 1_555 n
+Ag1 N1 N3 115.36(28) 1_455 . 1_555 n
+Ag1 N1 Ag1 97.20(18) 2_646 . -2_464 n
+Ag1 N1 N2 110.8(8) 2_646 . 1_555 n
+Ag1 N1 N3 110.65(30) 2_646 . 1_555 n
+Ag1 N1 N2 112.9(7) -2_475 . 1_555 n
+Ag1 N1 N3 113.12(35) -2_475 . 1_555 n
+N1 N2 N3 179.6(11) 1_555 . 1_555 n
+Ag1 N3 Ag1 128.56(21) 1_555 . 2_656 n
+Ag1 N3 Ag1 94.64(25) 1_555 . -1_676 n
+Ag1 N3 N1 117.49(31) 1_555 . 1_555 n
+Ag1 N3 N2 117.7(8) 1_555 . 1_555 n
+Ag1 N3 Ag1 79.29(23) 2_656 . -1_676 n
+Ag1 N3 N1 112.89(29) 2_656 . 1_555 n
+Ag1 N3 N2 112.8(8) 2_656 . 1_555 n
+Ag1 N3 N1 107.70(34) -1_676 . 1_555 n
+Ag1 N3 N2 107.4(7) -1_676 . 1_555 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Ag1 N1 2.379(7) . 1_655 n
+Ag1 N1 2.466(7) . 2_656 n
+Ag1 N1 2.715(6) . -2_665 n
+Ag1 N3 2.318(7) . 1_555 n
+Ag1 N3 2.463(7) . 2_646 n
+Ag1 N3 2.997(8) . -1_676 n
+N1 Ag1 2.379(7) . 1_455 n
+N1 Ag1 2.466(7) . 2_646 n
+N1 Ag1 2.715(6) . -2_464 n
+N1 N2 1.178(11) . 1_555 n
+N1 N3 2.356(10) . 1_555 n
+N2 N1 1.178(11) . 1_555 n
+N2 N3 1.178(11) . 1_555 n
+N3 Ag1 2.318(7) . 1_555 n
+N3 Ag1 2.463(7) . 2_656 n
+N3 Ag1 2.997(8) . -1_676 n
+N3 N1 2.356(10) . 1_555 n
+N3 N2 1.178(11) . 1_555 n
+loop_
+_pd_block_diffractogram_id
+2006-10-12T14:43|TEST_1_H_01|AgN3HT|Stoe_Stadi-P_Mo
+loop_
+_pd_phase_block_id
+2006-10-12T14:43|TEST_1|AgN3HT||

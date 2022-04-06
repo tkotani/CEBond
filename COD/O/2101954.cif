@@ -1,0 +1,209 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/19/2101954.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2101954
+loop_
+_publ_author_name
+'Le H\'enaff, C.'
+'Hansen, N. K.'
+'Protas, J.'
+'Marnier, G.'
+_publ_section_title
+;
+ Electron Density Distribution in LiB~3~O~5~ at 293 K
+;
+_journal_issue                   6
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              870
+_journal_page_last               879
+_journal_paper_doi               10.1107/S0108768197007817
+_journal_volume                  53
+_journal_year                    1997
+_chemical_formula_sum            'B3 Li O5'
+_chemical_formula_weight         119.37
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  'P 2c -2n'
+_symmetry_space_group_name_H-M   'P n a 21'
+_atom_type_scat_source           'Clementi & Roetti (1974)'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            4
+_cell_length_a                   8.444(2)
+_cell_length_b                   7.378(2)
+_cell_length_c                   5.1416(6)
+_cell_measurement_reflns_used    20
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      23.45
+_cell_measurement_theta_min      16.46
+_cell_volume                     320.32(12)
+_diffrn_measurement_device       CAD-4
+_diffrn_measurement_method       \q-2\q
+_diffrn_radiation_type           AgK\a
+_diffrn_radiation_wavelength     0.56087
+_diffrn_reflns_av_R_equivalents  0.03
+_diffrn_reflns_limit_h_max       17
+_diffrn_reflns_limit_h_min       -17
+_diffrn_reflns_limit_k_max       15
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       10
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            5388
+_diffrn_reflns_theta_max         35
+_diffrn_standards_interval_time  180
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    0.1272
+_exptl_absorpt_correction_type   none
+_exptl_crystal_colour            Colorless
+_exptl_crystal_density_diffrn    2.476
+_exptl_crystal_description       'Roughly isometric'
+_refine_diff_density_max         0.1
+_refine_diff_density_min         -0.1
+_refine_ls_extinction_coef       'g=3.9(2) x 10^-4^'
+_refine_ls_extinction_method     'Isotropic, type I, Lorentzian'
+_refine_ls_goodness_of_fit_obs   1.106
+_refine_ls_number_parameters     204
+_refine_ls_number_reflns         1439
+_refine_ls_R_factor_obs          0.0147
+_refine_ls_shift/esd_max         'Between 1 and 2'
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     w=1/\s^2^(F)
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.0193
+_reflns_number_observed          1439
+_reflns_number_total             1534
+_reflns_observed_criterion       I>3\s(I)
+_cod_data_source_file            sh0093.cif
+_cod_data_source_block           sh0093a
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_cell_measurement_temperature' value '293 +/- 2' was changed to
+'293(2)' - precision was estimated.
+
+Automatic conversion script
+Id: cif_fix_values 1646 2011-03-28 12:23:43Z adriana 
+
+The following automatic conversions were performed:
+
+'_cell_measurement_temperature' value '293 +/- 2' was changed to
+'293(2)' - precision was estimated.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'w=1/\s^2^(F)' was changed to
+'calc'. New tag '_refine_ls_weighting_details' was created. The value
+of the new tag was set to 'w=1/\s^2^(F)'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        320.3
+_cod_original_formula_sum        'B3 Li1 O5'
+_cod_database_code               2101954
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Li .0237(5) .0104(3) .0226(5) .0016(3) -.0068(4) -.0030(4)
+B(1) .00846(12) .00605(12) .00651(12) -.00026(9) .00172(10) -.00039(10)
+B(2) .00711(11) .00500(10) .00659(12) -.00028(9) .00102(10) -.00144(10)
+B(3) .00669(11) .00522(11) .00579(12) -.00029(9) -.00045(10) -.00101(10)
+O(1) .00837(9) .00507(8) .00867(10) .00018(7) .00348(7) -.00003(8)
+O(2) .01047(10) .00599(9) .00812(10) -.00108(7) .00403(8) -.00133(8)
+O(3) .01072(9) .00696(8) .00754(9) -.00219(7) .00336(8) -.00202(8)
+O(4) .00671(8) .00712(9) .00909(10) -.00051(7) .00210(8) -.00426(8)
+O(5) .00789(9) .00532(8) .00677(9) -.00142(7) .00155(8) -.00222(8)
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Li -.08716(18) .56672(15) 1.0498(3)
+B(1) -.00966(5) .16429(6) .90497(11)
+B(2) -.15710(5) .24848(5) 1.28469(10)
+B(3) -.19427(5) -.05677(6) 1.10169(10)
+O(1) .11613(4) .20462(4) .74900
+O(2) -.05807(4) .29785(4) 1.08035(9)
+O(3) -.08649(4) .00438(4) .89782(9)
+O(4) -.16126(4) .37480(4) 1.47909(9)
+O(5) -.23880(4) .09032(4) 1.28520(9)
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+O(1) B(1) O(2) 116.97(5) yes
+O(1) B(1) O(3) 123.38(5) yes
+O(2) B(1) O(3) 119.64(5) yes
+O(2) B(2) O(4) 112.89(5) yes
+O(2) B(2) O(5) 122.19(6) yes
+O(4) B(2) O(5) 124.92(6) yes
+O(1) B(3) O(3) 108.46(4) yes
+O(1) B(3) O(4) 109.71(4) yes
+O(1) B(3) O(5) 108.99(5) yes
+O(3) B(3) O(4) 108.49(6) yes
+O(3) B(3) O(5) 112.82(4) yes
+O(4) B(3) O(5) 108.33(4) yes
+B(1) O(1) B(3) 119.10(4) yes
+B(1) O(2) B(2) 118.59(5) yes
+B(1) O(3) B(3) 123.47(4) yes
+B(2) O(4) B(3) 124.87(5) yes
+B(2) O(5) B(3) 119.90(5) yes
+O(1) Li O(2) 144.48(12) yes
+O(1) Li O(5) 100.67(8) yes
+O(1) Li O(4) 92.09(7) yes
+O(2) Li O(5) 103.20(8) yes
+O(2) Li O(4) 95.24(7) yes
+O(4) Li O(5) 125.13(11) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_publ_flag
+B(1) O(1) 1.3638(7) yes
+B(1) O(2) 1.3969(9) yes
+B(1) O(3) 1.3469(6) yes
+B(2) O(2) 1.3914(9) yes
+B(2) O(4) 1.3671(9) yes
+B(2) O(5) 1.3555(7) yes
+B(3) O(1) 1.4829(7) yes
+B(3) O(3) 1.4597(7) yes
+B(3) O(4) 1.4630(8) yes
+B(3) O(5) 1.4864(8) yes
+O(1) O(2) 2.3536(6) yes
+O(1) O(3) 2.3865(4) yes
+O(2) O(3) 2.3720(5) yes
+O(2) O(4) 2.2988(9) yes
+O(2) O(5) 2.4048(7) yes
+O(4) O(5) 2.4141(6) yes
+O(1) O(3) 2.3876(4) yes
+O(1) O(4) 2.4089(6) yes
+O(1) O(5) 2.4172(5) yes
+O(3) O(4) 2.3719(4) yes
+O(3) O(5) 2.4542(6) yes
+O(4) O(5) 2.3912(7) yes
+Li O(1) 1.9887(18) yes
+Li O(2) 2.0051(17) yes
+Li O(5) 2.010(2) yes
+Li O(4) 2.1722(19) yes

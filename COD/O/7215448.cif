@@ -1,0 +1,303 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-16 03:10:39 +0200 (Tue, 16 Feb 2016) $
+#$Revision: 176453 $
+#$URL: svn://www.crystallography.net/cod/cif/7/21/54/7215448.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7215448
+loop_
+_publ_author_name
+'Buschmann, Henrik'
+'D\"olle, Janis'
+'Berendts, Stefan'
+'Kuhn, Alexander'
+'Bottke, Patrick'
+'Wilkening, Martin'
+'Heitjans, Paul'
+'Senyshyn, Anatoliy'
+'Ehrenberg, Helmut'
+'Lotnyk, Andriy'
+'Duppel, Viola'
+'Kienle, Lorenz'
+'Janek, J\"urgen'
+_publ_section_title
+;
+ Structure and dynamics of the fast lithium ion conductor
+ &quot;Li7La3Zr2O12&quot;.
+;
+_journal_issue                   43
+_journal_name_full               'Physical chemistry chemical physics : PCCP'
+_journal_page_first              19378
+_journal_page_last               19392
+_journal_paper_doi               10.1039/c1cp22108f
+_journal_volume                  13
+_journal_year                    2011
+_chemical_formula_analytical     'Al0.196 Li6.060 La3 Zr2 O12'
+_chemical_formula_iupac          Al~0.196~Li~6.060~La~3~Zr~2~O~12~
+_chemical_formula_structural     'Li7 La3 Zr2 O12'
+_chemical_formula_sum            'Al0.196 La3 Li6.06 O12 Zr2'
+_chemical_formula_weight         838.505
+_chemical_name_common            'Lithium Lanthanum Zirconium Oxide'
+_chemical_name_systematic        ' ?'
+_space_group_IT_number           230
+_symmetry_cell_setting           cubic
+_symmetry_space_group_name_Hall  '-I 4bd 2c 3'
+_symmetry_space_group_name_H-M   'I a -3 d'
+_atom_sites_solution_primary     heavy
+_atom_sites_solution_secondary   heavy
+_cell_angle_alpha                90.00000
+_cell_angle_beta                 90.00000
+_cell_angle_gamma                90.00000
+_cell_formula_units_Z            8
+_cell_length_a                   12.9727(2)
+_cell_length_b                   12.9727(2)
+_cell_length_c                   12.9727(2)
+_cell_measurement_temperature    300
+_cell_volume                     2183.19(6)
+_computing_cell_refinement       Rietveld
+_computing_data_collection       \q2/\q
+_computing_data_reduction        powder
+_computing_molecular_graphics    Diamond
+_computing_publication_material  pubCIF
+_computing_structure_refinement  FULLPROF
+_computing_structure_solution    known
+_diffrn_ambient_pressure         100
+_diffrn_ambient_temperature      300
+_diffrn_detector                 multidetector
+_diffrn_detector_type            SPODI
+_diffrn_measurement_device_type  'high-resolution neutron powder'
+_diffrn_measurement_method       transmission
+_diffrn_radiation_monochromator  Ge551
+_diffrn_radiation_source         'research reactor FRM-II'
+_diffrn_radiation_type           'Constant Wavelength Neutron Diffraction'
+_diffrn_radiation_wavelength     1.54820
+_diffrn_source                   'nuclear reactor'
+_diffrn_source_type              SPODI
+_exptl_absorpt_coefficient_mu    0.0544
+_exptl_absorpt_correction_type   cylinder
+_exptl_absorpt_process_details   none
+_exptl_crystal_density_diffrn    5.102
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_F_000             230
+_pd_char_colour                  white
+_pd_char_particle_morphology     'particle size <40 mkm'
+_pd_instr_location               ' ?'
+_pd_meas_2theta_range_inc        0.05
+_pd_meas_2theta_range_max        151.9
+_pd_meas_2theta_range_min        4.00
+_pd_meas_number_of_points        2958
+_pd_meas_scan_method             step
+_pd_prep_pressure                100
+_pd_prep_temperature             1130
+_pd_proc_2theta_range_inc        0.05
+_pd_proc_2theta_range_max        151.97080
+_pd_proc_2theta_range_min        4.07080
+_pd_proc_info_excluded_regions   '0.00-14.00, 41.30-42.50, 151.92-180.00'
+_pd_proc_ls_pref_orient_corr     no
+_pd_proc_ls_profile_function     pseudo-Voight
+_pd_proc_ls_prof_R_factor        2.22
+_pd_proc_ls_prof_wR_expected     0.94
+_pd_proc_ls_prof_wR_factor       2.79
+_pd_proc_wavelength              1.548200
+_pd_spec_mounting                'thin-wall cylinder vanadium container'
+_pd_spec_mount_mode              transmission
+_pd_spec_shape                   cylinder
+_pd_spec_size_axial              13
+_pd_spec_size_equat              13
+_pd_spec_size_thick              40
+_refine_ls_extinction_coef       0
+_refine_ls_extinction_method     no
+_refine_ls_matrix_type           full
+_refine_ls_number_constraints    0
+_refine_ls_number_parameters     84
+_refine_ls_number_reflns         207
+_refine_ls_number_restraints     0
+_refine_ls_R_I_factor            3.42
+_refine_ls_shift/su_max          0
+_refine_ls_weighting_details     1/[Y~i~+\s(Y~i~)]
+_refine_ls_weighting_scheme      sigma
+_cod_data_source_file            c1cp22108f.txt
+_cod_data_source_block           Li7La3Zr2O12
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Cubic' changed to 'cubic' according
+to
+/usr/data/users/saulius/automatic-downloads/retrospective/RSC/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 from 2011-04-26.
+
+Automatic conversion script
+Id: cif_fix_values 2281 2013-09-26 08:29:07Z andrius 
+;
+_cod_original_cell_volume        2183.19(5)
+_cod_original_formula_sum        'Al0.196 La3 Li6.060 O12 Zr2'
+_cod_database_code               7215448
+#BEGIN Tags that were not found in dictionaries:
+_pd_proc_ls_prof_cr_factor       10.97
+_pd_proc_ls_prof_cwr_factor      8.91
+_pd_proc_ls_prof_cwr_expected    3.00
+_pd_proc_ls_prof_chi2            8.8095
+_pd_proc_ls_prof_echi2           8.8095
+#END Tags that were not found in dictionaries
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 1/4-y,3/4+x,1/4+z
+3 -x,1/2-y,z
+4 1/4+y,1/4-x,3/4+z
+5 1/4+x,1/4-z,3/4+y
+6 x,-y,1/2-z
+7 3/4+x,1/4+z,1/4-y
+8 3/4+z,1/4+y,1/4-x
+9 1/2-x,y,-z
+10 1/4-z,3/4+y,1/4+x
+11 z,x,y
+12 y,z,x
+13 -y,1/2-z,x
+14 z,-x,1/2-y
+15 1/2-y,z,-x
+16 -z,1/2-x,y
+17 1/2-z,x,-y
+18 y,-z,1/2-x
+19 3/4+y,1/4+x,1/4-z
+20 1/4-y,1/4-x,1/4-z
+21 1/4-x,3/4+z,1/4+y
+22 1/4-x,1/4-z,1/4-y
+23 1/4+z,1/4-y,3/4+x
+24 1/4-z,1/4-y,1/4-x
+25 -x,-y,-z
+26 1/4+y,3/4-x,1/4-z
+27 x,1/2+y,-z
+28 1/4-y,1/4+x,3/4-z
+29 1/4-x,1/4+z,3/4-y
+30 -x,y,1/2+z
+31 3/4-x,1/4-z,1/4+y
+32 3/4-z,1/4-y,1/4+x
+33 1/2+x,-y,z
+34 1/4+z,3/4-y,1/4-x
+35 -z,-x,-y
+36 -y,-z,-x
+37 y,1/2+z,-x
+38 -z,x,1/2+y
+39 1/2+y,-z,x
+40 z,1/2+x,-y
+41 1/2+z,-x,y
+42 -y,z,1/2+x
+43 3/4-y,1/4-x,1/4+z
+44 1/4+y,1/4+x,1/4+z
+45 1/4+x,3/4-z,1/4-y
+46 1/4+x,1/4+z,1/4+y
+47 1/4-z,1/4+y,3/4-x
+48 1/4+z,1/4+y,1/4+x
+49 1/2+x,1/2+y,1/2+z
+50 3/4-y,5/4+x,3/4+z
+51 1/2-x,1-y,1/2+z
+52 3/4+y,3/4-x,5/4+z
+53 3/4+x,3/4-z,5/4+y
+54 1/2+x,1/2-y,1-z
+55 5/4+x,3/4+z,3/4-y
+56 5/4+z,3/4+y,3/4-x
+57 1-x,1/2+y,1/2-z
+58 3/4-z,5/4+y,3/4+x
+59 1/2+z,1/2+x,1/2+y
+60 1/2+y,1/2+z,1/2+x
+61 1/2-y,1-z,1/2+x
+62 1/2+z,1/2-x,1-y
+63 1-y,1/2+z,1/2-x
+64 1/2-z,1-x,1/2+y
+65 1-z,1/2+x,1/2-y
+66 1/2+y,1/2-z,1-x
+67 5/4+y,3/4+x,3/4-z
+68 3/4-y,3/4-x,3/4-z
+69 3/4-x,5/4+z,3/4+y
+70 3/4-x,3/4-z,3/4-y
+71 3/4+z,3/4-y,5/4+x
+72 3/4-z,3/4-y,3/4-x
+73 1/2-x,1/2-y,1/2-z
+74 3/4+y,5/4-x,3/4-z
+75 1/2+x,1+y,1/2-z
+76 3/4-y,3/4+x,5/4-z
+77 3/4-x,3/4+z,5/4-y
+78 1/2-x,1/2+y,1+z
+79 5/4-x,3/4-z,3/4+y
+80 5/4-z,3/4-y,3/4+x
+81 1+x,1/2-y,1/2+z
+82 3/4+z,5/4-y,3/4-x
+83 1/2-z,1/2-x,1/2-y
+84 1/2-y,1/2-z,1/2-x
+85 1/2+y,1+z,1/2-x
+86 1/2-z,1/2+x,1+y
+87 1+y,1/2-z,1/2+x
+88 1/2+z,1+x,1/2-y
+89 1+z,1/2-x,1/2+y
+90 1/2-y,1/2+z,1+x
+91 5/4-y,3/4-x,3/4+z
+92 3/4+y,3/4+x,3/4+z
+93 3/4+x,5/4-z,3/4-y
+94 3/4+x,3/4+z,3/4+y
+95 3/4-z,3/4+y,5/4-x
+96 3/4+z,3/4+y,3/4+x
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+_atom_site_adp_type
+_atom_site_type_symbol
+Li1 -0.12500 0.00000 0.25000 0.054(5) 0.54 Uiso Li
+Al1 -0.12500 0.00000 0.25000 0.054(5) 0.06530 Uiso Al
+Li2 0.1004(8) 0.6853(8) 0.5769(8) 0.031(3) 0.37 Uiso Li
+La1 0.00000 0.25000 0.12500 0.0106(6) 1.00000 Uani La
+Zr1 0.00000 0.00000 0.00000 0.0095(3) 1.00000 Uani Zr
+O1 -0.03161(8) 0.05454(9) 0.14940(8) 0.0148(6) 1.00000 Uani O
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+_atom_site_aniso_type_symbol
+La1 0.0095(4) 0.0095(4) 0.0128(9) 0.0035(6) 0.00000 0.00000 La
+Zr1 0.0095(3) 0.0095(3) 0.0095(3) 0.0005(5) 0.0005(5) 0.0005(5) Zr
+O1 0.0170(6) 0.0179(6) 0.0094(5) 0.0018(5) -0.0006(4) -0.0026(5) O
+loop_
+_atom_type_symbol
+_atom_type_scat_length_neutron
+_atom_type_scat_source
+Li -0.19000 V.F._Sears_Neutron_News_3_26_(1992)
+Al 0.34490 V.F._Sears_Neutron_News_3_26_(1992)
+La 0.82400 V.F._Sears_Neutron_News_3_26_(1992)
+Zr 0.71600 V.F._Sears_Neutron_News_3_26_(1992)
+O 0.58030 V.F._Sears_Neutron_News_3_26_(1992)
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O1 Zr1 O1 1 .-3. 1 180.00(4) no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Zr1 O1 .-3. 1 2.104(1) no
+La1 O1 .32 1 2.516(1) no
+La1 O1 .32 1 2.588(1) no

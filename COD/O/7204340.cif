@@ -1,0 +1,102 @@
+#------------------------------------------------------------------------------
+#$Date: 2019-03-05 10:52:05 +0200 (Tue, 05 Mar 2019) $
+#$Revision: 213973 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/7/20/43/7204340.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7204340
+loop_
+_publ_author_name
+'Doi, Yoshihiro'
+'Hinatsu, Yukio'
+_publ_section_title
+;
+ Magnetic and calorimetric studies on Ba3LnRu2O9 (Ln = Gd, Ho--Yb) with
+ 6H-perovskite structure
+;
+_journal_issue                   6
+_journal_name_full               'Journal of Materials Chemistry'
+_journal_page_first              1792
+_journal_paper_doi               10.1039/b111504a
+_journal_volume                  12
+_journal_year                    2002
+_chemical_formula_sum            'Ba3 Ho O9 Ru2'
+_space_group_IT_number           194
+_symmetry_cell_setting           hexagonal
+_symmetry_Int_Tables_number      194
+_symmetry_space_group_name_Hall  '-P 6c 2c'
+_symmetry_space_group_name_H-M   'P 63/m m c'
+_audit_creation_date             2001-12-19
+_audit_creation_method           'Converted from *.lst using lst2cif'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                120.0
+_cell_formula_units_Z            2
+_cell_length_a                   5.8838(2)
+_cell_length_b                   5.88380
+_cell_length_c                   14.5064(5)
+_cell_volume                     434.92(2)
+_pd_block_id
+2001-12-19|PHASE_01|..creator_name..|..instr_name..
+_pd_phase_name                   Ba3HoRu2O9
+_cod_data_source_file            b111504a.txt
+_cod_data_source_block           compound3
+_cod_depositor_comments
+;
+ Adding _chemical_formula_sum and _cell_formula_units_Z data items
+ after consulting the original publication.
+
+ Antanas Vaitkus,
+ 2017-01-18
+;
+_cod_original_cell_volume        434.92(3)
+_cod_database_code               7204340
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -y,x-y,z
+3 -x+y,-x,z
+4 -x,-y,z+1/2
+5 y,-x+y,z+1/2
+6 x-y,x,z+1/2
+7 y,x,-z
+8 x-y,-y,-z
+9 -x,-x+y,-z
+10 -y,-x,-z+1/2
+11 -x+y,y,-z+1/2
+12 x,x-y,-z+1/2
+13 -x,-y,-z
+14 y,-x+y,-z
+15 x-y,x,-z
+16 x,y,-z+1/2
+17 -y,x-y,-z+1/2
+18 -x+y,-x,-z+1/2
+19 -y,-x,z
+20 -x+y,y,z
+21 x,x-y,z
+22 y,x,z+1/2
+23 x-y,-y,z+1/2
+24 -x,-x+y,z+1/2
+loop_
+_atom_site_label
+_atom_site_symmetry_multiplicity
+_atom_site_occupancy
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_thermal_displace_type
+_atom_site_B_iso_or_equiv
+_atom_site_type_symbol
+Ba1 2 1.0 0.0 0.0 0.25 Biso 0.74(3) Ba2+
+Ba2 4 1.0 0.3333 0.6667 0.90629(9 Biso 0.74(3) Ba2+
+Ho 2 1.0 0.0 0.0 0.0 Biso 0.10(5) Ho3+
+Ru 4 1.0 0.3333 0.6667 0.16223(9 Biso 0.18(3) Ru4+
+O1 6 1.0 0.4884(7) 0.9768(7) 0.25 Biso 0.9(1) O2-
+O2 12 1.0 0.1758(7) 0.3516(7) 0.4124(4) Biso 0.9(1) O2-

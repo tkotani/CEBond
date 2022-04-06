@@ -1,0 +1,369 @@
+#------------------------------------------------------------------------------
+#$Date: 2018-09-13 15:59:17 +0300 (Thu, 13 Sep 2018) $
+#$Revision: 210922 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/20/03/2200378.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2200378
+loop_
+_publ_author_name
+'Lannuzel, Fran\,cois-Xavier'
+'Boucher, Florent'
+'Boucher, Christophe'
+_publ_section_title
+;
+ Charge-doped nickel oxide, Y~1.90~Ca~0.10~BaNiO~5~
+;
+_journal_coden_ASTM              ACSEBH
+_journal_issue                   8
+_journal_name_full
+;
+ Acta Crystallographica, Section E: Structure Reports Online
+;
+_journal_page_first              i70
+_journal_page_last               i71
+_journal_paper_doi               10.1107/S1600536801011667
+_journal_volume                  57
+_journal_year                    2001
+_chemical_formula_iupac          'Y1.90 Ca0.10 Ba Ni O5'
+_chemical_formula_structural     'Y1.90 Ca0.10 Ba Ni O5'
+_chemical_formula_sum            'Ba Ca0.1 Ni O5 Y1.9'
+_chemical_formula_weight         449
+_space_group_IT_number           71
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-I 2 2'
+_symmetry_space_group_name_H-M   'I m m m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   3.7527(5)
+_cell_length_b                   5.7581(9)
+_cell_length_c                   11.313(2)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      14.96
+_cell_measurement_theta_min      7.42
+_cell_volume                     244.46(7)
+_computing_cell_refinement       'CAD-4-PC Software'
+_computing_data_collection       'CAD-4-PC Software (Enraf-Nonius, 1992)'
+_computing_data_reduction        'JANA2000 (Petr\'icek & Dusek, 2000)'
+_computing_molecular_graphics    'DIAMOND (Brandenburg, 1999)'
+_computing_publication_material  JANA2000
+_computing_structure_refinement  JANA2000
+_diffrn_measured_fraction_theta_full 1.0
+_diffrn_measured_fraction_theta_max 1.0
+_diffrn_measurement_device       'Enraf-Nonius CAD-4'
+_diffrn_measurement_device_type  CAD-4
+_diffrn_measurement_method       \w
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     .71069
+_diffrn_reflns_av_R_equivalents  .0346
+_diffrn_reflns_av_sigmaI/netI    .0187
+_diffrn_reflns_limit_h_max       6
+_diffrn_reflns_limit_h_min       -6
+_diffrn_reflns_limit_k_max       9
+_diffrn_reflns_limit_k_min       -9
+_diffrn_reflns_limit_l_max       19
+_diffrn_reflns_limit_l_min       -19
+_diffrn_reflns_number            2650
+_diffrn_reflns_theta_full        37.95
+_diffrn_reflns_theta_max         37.95
+_diffrn_reflns_theta_min         3.60
+_diffrn_standards_decay_%        .8
+_diffrn_standards_interval_time  60
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    34.1011
+_exptl_absorpt_correction_T_max  .5113
+_exptl_absorpt_correction_T_min  .4196
+_exptl_absorpt_correction_type   gaussian
+_exptl_absorpt_process_details   '(JANA2000; Petr\'icek & Dusek, 2000)'
+_exptl_crystal_colour            black
+_exptl_crystal_density_diffrn    6.097
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       'thick needle'
+_exptl_crystal_F_000             400
+_exptl_crystal_size_max          .156
+_exptl_crystal_size_mid          .023
+_exptl_crystal_size_min          .023
+_refine_diff_density_max         1.07
+_refine_diff_density_min         -1.64
+_refine_ls_extinction_coef       .45(2)
+_refine_ls_extinction_method     'B-C type 1 Lorentzian isotropic'
+_refine_ls_goodness_of_fit_ref   1.00
+_refine_ls_hydrogen_treatment    none
+_refine_ls_number_parameters     22
+_refine_ls_number_reflns         409
+_refine_ls_R_factor_all          .0183
+_refine_ls_R_factor_gt           .0156
+_refine_ls_shift/su_max          .0031
+_refine_ls_shift/su_mean         .0012
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details     'w = 1/[\s^2^(I)+0.001024I^2^]'
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_ref         .0419
+_reflns_number_gt                387
+_reflns_number_total             409
+_reflns_threshold_expression     I>2\s(I)
+_cod_data_source_file            br6025.cif
+_cod_data_source_block           I
+_cod_depositor_comments
+;
+ Moving the _atom_site_adp_type, _atom_site_occupancy and
+ _atom_site_type_symbol data items into the main _atom_site
+ loop.
+
+ Antanas Vaitkus,
+ 2017-01-11
+
+The following automatic conversions were performed:
+
+'_exptl_absorpt_correction_type' value 'Gaussian' changed to
+'gaussian' according to
+/home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_original_cell_volume        244.46(6)
+_cod_original_formula_sum        'Ba1 Ca0.10 Ni1 O5 Y1.90'
+_cod_database_code               2200378
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 x,y,-z
+3 -x,y,z
+4 -x,y,-z
+5 -x,-y,-z
+6 -x,-y,z
+7 x,-y,-z
+8 x,-y,z
+9 1/2+x,1/2+y,1/2+z
+10 1/2+x,1/2+y,1/2-z
+11 1/2-x,1/2+y,1/2+z
+12 1/2-x,1/2+y,1/2-z
+13 1/2-x,1/2-y,1/2-z
+14 1/2-x,1/2-y,1/2+z
+15 1/2+x,1/2-y,1/2-z
+16 1/2+x,1/2-y,1/2+z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_adp_type
+_atom_site_U_iso_or_equiv
+Y Y .5 0 .20285(2) .951(4) Uani .00457(7)
+Ca Ca .5 0 .20285 .049 Uani .00457
+Ba Ba .5 .5 0 1 Uani .00822(6)
+Ni Ni 0 0 0 1 Uani .00560(11)
+O1 O .5 0 0 1 Uani .0094(7)
+O2 O 0 .2400(2) .14833(12) 1 Uani .0081(3)
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+_atom_site_aniso_type_symbol
+Y .00578(14) .00403(13) .00390(12) 0 0 0 Y
+Ca .00578 .00403 .00390 0 0 0 Ca
+Ba .01105(12) .00640(11) .00722(11) 0 0 0 Ba
+Ni .0039(2) .0071(2) .00575(18) 0 0 0 Ni
+O1 .0076(12) .0161(14) .0044(10) 0 0 0 O
+O2 .0096(6) .0066(6) .0080(6) 0 0 -.0018(4) O
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Y Y -2.796 3.567 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.4'
+Ca Ca .226 .306 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.4'
+Ba Ba -.324 2.282 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.4'
+Ni Ni .339 1.112 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.4'
+O O .011 .006 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O1 Y O2 . . 75.18(3) no
+O1 Y O2 . 1_655 75.18(3) no
+O1 Y O2 . 13_555 138.36(3) no
+O1 Y O2 . 10_545 138.36(3) no
+O1 Y O2 . 6_555 75.18(3) no
+O1 Y O2 . 6_655 75.18(3) no
+O2 Y O2 . 1_655 102.22(4) no
+O2 Y O2 . 13_555 79.06(4) no
+O2 Y O2 . 10_545 124.90(3) no
+O2 Y O2 . 6_555 69.97(4) no
+O2 Y O2 . 6_655 150.35(4) no
+O2 Y O2 1_655 . 102.22(4) no
+O2 Y O2 1_655 13_555 79.06(4) no
+O2 Y O2 1_655 10_545 124.90(3) no
+O2 Y O2 1_655 6_555 150.35(4) no
+O2 Y O2 1_655 6_655 69.97(4) no
+O2 Y O2 13_555 . 79.06(4) no
+O2 Y O2 13_555 1_655 79.06(4) no
+O2 Y O2 13_555 10_545 83.28(5) no
+O2 Y O2 13_555 6_555 124.90(3) no
+O2 Y O2 13_555 6_655 124.90(3) no
+O2 Y O2 10_545 . 124.90(3) no
+O2 Y O2 10_545 1_655 124.90(3) no
+O2 Y O2 10_545 13_555 83.28(5) no
+O2 Y O2 10_545 6_555 79.06(4) no
+O2 Y O2 10_545 6_655 79.06(4) no
+O2 Y O2 6_555 . 69.97(4) no
+O2 Y O2 6_555 1_655 150.35(4) no
+O2 Y O2 6_555 13_555 124.90(3) no
+O2 Y O2 6_555 10_545 79.06(4) no
+O2 Y O2 6_555 6_655 102.22(4) no
+O2 Y O2 6_655 . 150.35(4) no
+O2 Y O2 6_655 1_655 69.97(4) no
+O2 Y O2 6_655 13_555 124.90(3) no
+O2 Y O2 6_655 10_545 79.06(4) no
+O2 Y O2 6_655 6_555 102.22(4) no
+O1 Ba O1 . 1_565 180 no
+O1 Ba O2 . . 59.26(2) no
+O1 Ba O2 . 1_655 59.26(2) no
+O1 Ba O2 . 5_565 120.74(2) no
+O1 Ba O2 . 5_665 120.74(2) no
+O1 Ba O2 . 2_555 59.26(2) no
+O1 Ba O2 . 2_655 59.26(2) no
+O1 Ba O2 . 6_565 120.74(2) no
+O1 Ba O2 . 6_665 120.74(2) no
+O1 Ba O1 1_565 . 180 no
+O1 Ba O2 1_565 . 120.74(2) no
+O1 Ba O2 1_565 1_655 120.74(2) no
+O1 Ba O2 1_565 5_565 59.26(2) no
+O1 Ba O2 1_565 5_665 59.26(2) no
+O1 Ba O2 1_565 2_555 120.74(2) no
+O1 Ba O2 1_565 2_655 120.74(2) no
+O1 Ba O2 1_565 6_565 59.26(2) no
+O1 Ba O2 1_565 6_665 59.26(2) no
+O2 Ba O2 . 1_655 79.69(2) no
+O2 Ba O2 . 5_565 100.31(2) no
+O2 Ba O2 . 5_665 180 no
+O2 Ba O2 . 2_555 69.92(3) no
+O2 Ba O2 . 2_655 118.53(4) no
+O2 Ba O2 . 6_565 61.47(4) no
+O2 Ba O2 . 6_665 110.08(3) no
+O2 Ba O2 1_655 . 79.69(2) no
+O2 Ba O2 1_655 5_565 180 no
+O2 Ba O2 1_655 5_665 100.31(2) no
+O2 Ba O2 1_655 2_555 118.53(4) no
+O2 Ba O2 1_655 2_655 69.92(3) no
+O2 Ba O2 1_655 6_565 110.08(3) no
+O2 Ba O2 1_655 6_665 61.47(4) no
+O2 Ba O2 5_565 . 100.31(2) no
+O2 Ba O2 5_565 1_655 180 no
+O2 Ba O2 5_565 5_665 79.69(2) no
+O2 Ba O2 5_565 2_555 61.47(4) no
+O2 Ba O2 5_565 2_655 110.08(3) no
+O2 Ba O2 5_565 6_565 69.92(3) no
+O2 Ba O2 5_565 6_665 118.53(4) no
+O2 Ba O2 5_665 . 180 no
+O2 Ba O2 5_665 1_655 100.31(2) no
+O2 Ba O2 5_665 5_565 79.69(2) no
+O2 Ba O2 5_665 2_555 110.08(3) no
+O2 Ba O2 5_665 2_655 61.47(4) no
+O2 Ba O2 5_665 6_565 118.53(4) no
+O2 Ba O2 5_665 6_665 69.92(3) no
+O2 Ba O2 2_555 . 69.92(3) no
+O2 Ba O2 2_555 1_655 118.53(4) no
+O2 Ba O2 2_555 5_565 61.47(4) no
+O2 Ba O2 2_555 5_665 110.08(3) no
+O2 Ba O2 2_555 2_655 79.69(2) no
+O2 Ba O2 2_555 6_565 100.31(2) no
+O2 Ba O2 2_555 6_665 180 no
+O2 Ba O2 2_655 . 118.53(4) no
+O2 Ba O2 2_655 1_655 69.92(3) no
+O2 Ba O2 2_655 5_565 110.08(3) no
+O2 Ba O2 2_655 5_665 61.47(4) no
+O2 Ba O2 2_655 2_555 79.69(2) no
+O2 Ba O2 2_655 6_565 180 no
+O2 Ba O2 2_655 6_665 100.31(2) no
+O2 Ba O2 6_565 . 61.47(4) no
+O2 Ba O2 6_565 1_655 110.08(3) no
+O2 Ba O2 6_565 5_565 69.92(3) no
+O2 Ba O2 6_565 5_665 118.53(4) no
+O2 Ba O2 6_565 2_555 100.31(2) no
+O2 Ba O2 6_565 2_655 180 no
+O2 Ba O2 6_565 6_665 79.69(2) no
+O2 Ba O2 6_665 . 110.08(3) no
+O2 Ba O2 6_665 1_655 61.47(4) no
+O2 Ba O2 6_665 5_565 118.53(4) no
+O2 Ba O2 6_665 5_665 69.92(3) no
+O2 Ba O2 6_665 2_555 180 no
+O2 Ba O2 6_665 2_655 100.31(2) no
+O2 Ba O2 6_665 6_565 79.69(2) no
+O1 Ni O1 1_455 . 180 no
+O1 Ni O2 1_455 . 90 no
+O1 Ni O2 1_455 5_555 90 no
+O1 Ni O2 1_455 2_555 90 no
+O1 Ni O2 1_455 6_555 90 no
+O1 Ni O1 . 1_455 180 no
+O1 Ni O2 . . 90 no
+O1 Ni O2 . 5_555 90 no
+O1 Ni O2 . 2_555 90 no
+O1 Ni O2 . 6_555 90 no
+O2 Ni O2 . 5_555 180 no
+O2 Ni O2 . 2_555 101.04(5) yes
+O2 Ni O2 . 6_555 78.96(5) yes
+O2 Ni O2 5_555 . 180 no
+O2 Ni O2 5_555 2_555 78.96(5) no
+O2 Ni O2 5_555 6_555 101.04(5) no
+O2 Ni O2 2_555 . 101.04(5) no
+O2 Ni O2 2_555 5_555 78.96(5) no
+O2 Ni O2 2_555 6_555 180 no
+O2 Ni O2 6_555 . 78.96(5) no
+O2 Ni O2 6_555 5_555 101.04(5) no
+O2 Ni O2 6_555 2_555 180 no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Y O1 . . 2.2949(2) yes
+Y O2 . . 2.4107(10) yes
+Y O2 . 1_655 2.4107(10) no
+Y O2 . 13_555 2.2528(15) yes
+Y O2 . 10_545 2.2528(15) no
+Y O2 . 6_555 2.4107(10) no
+Y O2 . 6_655 2.4107(10) no
+Ba O1 . . 2.8791(5) yes
+Ba O1 . 1_565 2.8791(5) no
+Ba O2 . . 2.9287(12) yes
+Ba O2 . 1_655 2.9287(12) no
+Ba O2 . 5_565 2.9287(12) no
+Ba O2 . 5_665 2.9287(12) no
+Ba O2 . 2_555 2.9287(12) no
+Ba O2 . 2_655 2.9287(12) no
+Ba O2 . 6_565 2.9287(12) no
+Ba O2 . 6_665 2.9287(12) no
+Ni O1 . 1_455 1.8764(3) yes
+Ni O1 . . 1.8764(3) no
+Ni O2 . . 2.1740(15) yes
+Ni O2 . 5_555 2.1740(15) no
+Ni O2 . 2_555 2.1740(15) no
+Ni O2 . 6_555 2.1740(15) no

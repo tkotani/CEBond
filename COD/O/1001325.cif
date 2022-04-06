@@ -1,0 +1,106 @@
+#------------------------------------------------------------------------------
+#$Date: 2015-01-27 21:58:39 +0200 (Tue, 27 Jan 2015) $
+#$Revision: 130149 $
+#$URL: svn://www.crystallography.net/cod/cif/1/00/13/1001325.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1001325
+loop_
+_publ_author_name
+'Marini, A'
+'Michel, C'
+'Raveau, B'
+_publ_section_title
+;
+Etude du comportement des ions en insertion dans les oxydes A~10~
+M~29.2~ O~78~ et A~10~ M~29.2~ O~78~ (H~2~ O)~10~
+;
+_journal_coden_ASTM              RVCMA8
+_journal_name_full               'Revue de Chimie Minerale'
+_journal_page_first              73
+_journal_page_last               79
+_journal_volume                  16
+_journal_year                    1979
+_chemical_formula_structural     'Tl10 Nb29.2 O78'
+_chemical_formula_sum            'Nb29.2 O78 Tl10'
+_chemical_name_systematic        'Thallium niobium oxide (10/29.2/78)'
+_space_group_IT_number           194
+_symmetry_cell_setting           hexagonal
+_symmetry_Int_Tables_number      194
+_symmetry_space_group_name_Hall  '-P 6c 2c'
+_symmetry_space_group_name_H-M   'P 63/m m c'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            1
+_cell_length_a                   7.532
+_cell_length_b                   7.532
+_cell_length_c                   36.42
+_cell_volume                     1789.3
+_exptl_crystal_density_meas      5.52
+_refine_ls_R_factor_all          0.08
+_cod_database_code               1001325
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-y,x-y,z
+y-x,-x,z
+-y,-x,z
+y-x,y,z
+x,x-y,z
+-x,-y,-z
+y,y-x,-z
+x-y,x,-z
+y,x,-z
+x-y,-y,-z
+-x,y-x,-z
+-x,-y,1/2+z
+y,y-x,1/2+z
+x-y,x,1/2+z
+y,x,1/2+z
+x-y,-y,1/2+z
+-x,y-x,1/2+z
+x,y,1/2-z
+-y,x-y,1/2-z
+y-x,-x,1/2-z
+-y,-x,1/2-z
+y-x,y,1/2-z
+x,x-y,1/2-z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_calc_flag
+Tl1 Tl1+ 12 k 0.3153 0.6306 0.9309 0.3333 0 d
+Tl2 Tl1+ 12 k 0.2787 0.5574 0.1395 0.3333 0 d
+Tl3 Tl1+ 6 h 0.6332 0.2664 0.75 0.3333 0 d
+Nb1 Nb5+ 4 e 0. 0. 0.1158 1. 0 d
+Nb2 Nb5+ 12 k 0.166 0.332 0.035 1. 0 d
+Nb3 Nb5+ 12 k 0.16542 0.3308 0.6962 1. 0 d
+Nb4 Nb5+ 2 b 0. 0. 0.75 0.15 0 d
+Nb5 Nb5+ 4 f 0.3333 0.6667 0.7349 0.15 0 d
+O1 O2- 12 k 0.114 0.228 0.082 1. 0 d
+O2 O2- 12 k 0.886 0.772 0.146 1. 0 d
+O3 O2- 12 k 0.445 0.89 0.032 1. 0 d
+O4 O2- 12 k 0.844 0.688 0.021 1. 0 d
+O5 O2- 6 h 0.835 0.67 0.25 1. 0 d
+O6 O2- 12 k 0.46 0.92 0.684 1. 0 d
+O7 O2- 12 k 0.872 0.744 0.707 1. 0 d
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Tl1+ 1.000
+Nb5+ 5.000
+O2- -2.000

@@ -1,0 +1,235 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 02:53:41 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176768 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/49/2104964.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2104964
+loop_
+_publ_author_name
+'Andrusenko, Iryna'
+'Mugnaioli, Enrico'
+'Gorelik, Tatiana E.'
+'Koll, Dominik'
+'Panth\"ofer, Martin'
+'Tremel, Wolfgang'
+'Kolb, Ute'
+_publ_section_title
+;
+ Structure analysis of titanate nanorods by automated electron
+ diffraction tomography
+;
+_journal_coeditor_code           KD5050
+_journal_issue                   3
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              218
+_journal_page_last               225
+_journal_paper_doi               10.1107/S0108768111014534
+_journal_volume                  67
+_journal_year                    2011
+_chemical_formula_sum            'Na O3 Ti1.25'
+_chemical_formula_weight         130.86
+_space_group_IT_number           12
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-C 2y'
+_symmetry_space_group_name_H-M   'C 1 2/m 1'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_atom_type_scat_source
+'P.A. Doyle, P.S. Turner, Acta Crystallogr. A 1968, 24, 390-397'
+_cell_angle_alpha                90.0000
+_cell_angle_beta                 136.14(2)
+_cell_angle_gamma                90.0000
+_cell_formula_units_Z            8
+_cell_length_a                   21.555(7)
+_cell_length_b                   3.7583(9)
+_cell_length_c                   11.926(5)
+_cell_volume                     669.4(5)
+_computing_structure_refinement  SHELXL-97
+_computing_structure_solution    Sir2008
+_diffrn_ambient_temperature      295
+_diffrn_measured_fraction_theta_full 0.784
+_diffrn_measured_fraction_theta_max 0.784
+_diffrn_measurement_device_type
+;
+FEI TECNAI F-30 S-TWIN TEM with automated diffraction topography (ADT) and
+precession electron diffraction (PED) attachments
+;
+_diffrn_radiation_monochromator  not
+_diffrn_radiation_type           electron
+_diffrn_radiation_wavelength     0.0197
+_diffrn_reflns_av_R_equivalents  0.1583
+_diffrn_reflns_av_sigmaI/netI    0.1154
+_diffrn_reflns_limit_h_max       26
+_diffrn_reflns_limit_h_min       -26
+_diffrn_reflns_limit_k_max       4
+_diffrn_reflns_limit_k_min       -4
+_diffrn_reflns_limit_l_max       14
+_diffrn_reflns_limit_l_min       -14
+_diffrn_reflns_number            1749
+_diffrn_reflns_theta_full        0.70
+_diffrn_reflns_theta_max         0.70
+_diffrn_reflns_theta_min         0.05
+_exptl_absorpt_coefficient_mu    0.012
+_exptl_absorpt_correction_type   none
+_exptl_crystal_density_diffrn    2.587
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       'elongated wire'
+_exptl_crystal_F_000             173
+_exptl_crystal_size_max          1.0
+_exptl_crystal_size_mid          0.05
+_exptl_crystal_size_min          0.05
+_refine_diff_density_max         0.730
+_refine_diff_density_min         -0.514
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   3.725
+_refine_ls_hydrogen_treatment    mixed
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     40
+_refine_ls_number_reflns         628
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      3.725
+_refine_ls_R_factor_all          0.2679
+_refine_ls_R_factor_gt           0.2665
+_refine_ls_shift/su_max          0.863
+_refine_ls_shift/su_mean         0.305
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.1000P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.5834
+_refine_ls_wR_factor_ref         0.5921
+_reflns_number_total             628
+_cod_data_source_file            kd5050.cif
+_cod_data_source_block           I
+_cod_original_cell_volume        669.5(4)
+_cod_original_sg_symbol_H-M      C2/M
+_cod_database_code               2104964
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,y,-z
+-x,-y,-z
+x,-y,z
+x+1/2,y+1/2,z
+-x+1/2,y+1/2,-z
+-x+1/2,-y+1/2,-z
+x+1/2,-y+1/2,z
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Ti Ti1 0.7514(4) 0.0000 0.3943(9) 0.029(2) Uiso d S 1 2 . .
+Ti Ti2 0.5712(5) -0.5000 0.5130(11) 0.036(2) Uiso d S 1 2 . .
+Ti Ti3 0.5764(4) 0.0000 0.3019(9) 0.028(2) Uiso d S 1 2 . .
+O O1 0.7286(9) 0.0000 0.537(2) 0.024(3) Uiso d S 1 2 . .
+O O2 0.6272(13) 0.0000 0.222(3) 0.049(5) Uiso d S 1 2 . .
+O OW1 0.3705(12) 0.0000 0.158(3) 0.048(5) Uiso d S 1 2 . .
+O O3 0.7073(10) -0.5000 0.692(2) 0.035(4) Uiso d S 1 2 . .
+O O4 0.6009(10) -0.5000 0.370(2) 0.035(4) Uiso d S 1 2 . .
+O O5 0.5691(11) -0.5000 0.668(2) 0.044(5) Uiso d S 1 2 . .
+O O6 0.5637(10) 0.0000 0.452(2) 0.033(4) Uiso d S 1 2 . .
+Na Na2 0.7682(11) 0.0000 0.916(3) 0.052(4) Uiso d S 1 2 . .
+O OW2 0.9124(14) 0.0000 0.950(3) 0.067(7) Uiso d S 1 2 . .
+O OH 0.4636(9) 0.0000 0.119(2) 0.031(4) Uiso d S 1 2 . .
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O3 Ti1 O2 7_646 . 106.4(10) ?
+O3 Ti1 O1 7_646 7_656 100.8(5) ?
+O2 Ti1 O1 . 7_656 99.6(4) ?
+O3 Ti1 O1 7_646 7_646 100.8(5) ?
+O2 Ti1 O1 . 7_646 99.6(4) ?
+O1 Ti1 O1 7_656 7_646 145.7(10) ?
+O3 Ti1 O1 7_646 . 169.1(7) ?
+O2 Ti1 O1 . . 84.5(8) ?
+O1 Ti1 O1 7_656 . 76.9(5) ?
+O1 Ti1 O1 7_646 . 76.9(5) ?
+O5 Ti2 O5 . 5_646 88.2(8) ?
+O5 Ti2 O6 . 1_545 107.7(6) ?
+O5 Ti2 O6 5_646 1_545 87.0(5) ?
+O5 Ti2 O6 . . 107.7(6) ?
+O5 Ti2 O6 5_646 . 87.0(5) ?
+O6 Ti2 O6 1_545 . 143.9(12) ?
+O5 Ti2 O3 . . 90.7(8) ?
+O5 Ti2 O3 5_646 . 179.0(9) ?
+O6 Ti2 O3 1_545 . 93.3(5) ?
+O6 Ti2 O3 . . 93.3(5) ?
+OH Ti3 O4 . 1_565 103.4(5) ?
+OH Ti3 O4 . . 103.4(5) ?
+O4 Ti3 O4 1_565 . 146.8(11) ?
+OH Ti3 O6 . . 98.7(8) ?
+O4 Ti3 O6 1_565 . 78.4(6) ?
+O4 Ti3 O6 . . 78.4(6) ?
+OH Ti3 O2 . . 99.3(9) ?
+O4 Ti3 O2 1_565 . 97.3(6) ?
+O4 Ti3 O2 . . 97.3(6) ?
+O6 Ti3 O2 . . 162.0(9) ?
+Ti1 O1 Ti1 7_656 7_646 145.7(10) ?
+Ti1 O1 Ti1 7_656 . 103.1(5) ?
+Ti1 O1 Ti1 7_646 . 103.1(5) ?
+Ti1 O2 Ti3 . . 109.6(12) ?
+Ti1 O3 Ti2 7_646 . 110.0(10) ?
+Ti3 O4 Ti3 . 1_545 146.8(11) ?
+Ti2 O5 Ti2 . 5_646 91.8(8) ?
+Ti2 O6 Ti2 1_565 . 143.9(12) ?
+Ti2 O6 Ti3 1_565 . 107.3(6) ?
+Ti2 O6 Ti3 . . 107.3(6) ?
+OW1 Na2 Na2 5_656 7_657 56.0(6) ?
+OW1 Na2 Na2 5_656 7_647 56.0(6) ?
+Na2 Na2 Na2 7_657 7_647 71.8(9) ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Ti1 O3 7_646 1.775(19) ?
+Ti1 O2 . 1.85(2) ?
+Ti1 O1 7_656 1.983(5) ?
+Ti1 O1 7_646 1.983(5) ?
+Ti1 O1 . 2.086(18) ?
+Ti2 O5 . 1.88(2) ?
+Ti2 O5 5_646 2.088(18) ?
+Ti2 O6 1_545 1.993(7) ?
+Ti2 O6 . 1.993(7) ?
+Ti2 O3 . 2.025(16) ?
+Ti3 OH . 1.731(16) ?
+Ti3 O4 1_565 1.978(6) ?
+Ti3 O4 . 1.978(5) ?
+Ti3 O6 . 2.00(2) ?
+Ti3 O2 . 1.90(2) ?
+O1 Ti1 7_656 1.983(5) ?
+O1 Ti1 7_646 1.983(5) ?
+OW1 Na2 5_656 2.42(3) ?
+O3 Ti1 7_646 1.775(19) ?
+O4 Ti3 1_545 1.978(5) ?
+O5 Ti2 5_646 2.088(18) ?
+O6 Ti2 1_565 1.993(7) ?
+Na2 OW1 5_656 2.42(3) ?
+Na2 Na2 7_657 3.23(3) ?
+Na2 Na2 7_647 3.23(3) ?

@@ -1,0 +1,308 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 00:18:51 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176760 $
+#$URL: svn://www.crystallography.net/cod/cif/2/01/36/2013676.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2013676
+loop_
+_publ_author_name
+'Sun, Tongqing'
+'Pan, Feng'
+'Wang, Ruji'
+'Shen, Guangqiu'
+'Wang, Xiaoqing'
+'Shen, Dezhong'
+_publ_section_title
+;
+ A non-linear optical crystal, Cd~3~Zn~3~(BO~3~)~4~
+;
+_journal_issue                   11
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              i107
+_journal_page_last               i108
+_journal_paper_doi               10.1107/S0108270103020390
+_journal_volume                  59
+_journal_year                    2003
+_chemical_formula_iupac          'Cd3 Zn3 (B O3)4'
+_chemical_formula_moiety         'Cd3 , Zn3 , 4B O3'
+_chemical_formula_structural     'Cd3 Zn3 (B O3)4'
+_chemical_formula_sum            'B4 Cd3 O12 Zn3'
+_chemical_formula_weight         768.64
+_chemical_name_common            'cadmium zinc borate'
+_chemical_name_systematic
+;
+tricadmium trizinc tetraborate
+;
+_space_group_IT_number           161
+_symmetry_cell_setting           trigonal
+_symmetry_space_group_name_Hall  'R 3 -2"c'
+_symmetry_space_group_name_H-M   'R 3 c :H'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL97
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            3
+_cell_length_a                   8.364(6)
+_cell_length_b                   8.364(6)
+_cell_length_c                   12.286(10)
+_cell_measurement_reflns_used    21
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      14.7
+_cell_measurement_theta_min      4.8
+_cell_volume                     744.3(10)
+_computing_cell_refinement       XSCANS
+_computing_data_collection       'XSCANS (Bruker, 1997)'
+_computing_data_reduction        XSCANS
+_computing_molecular_graphics    SHELXTL
+_computing_publication_material  SHELXTL
+_computing_structure_refinement  SHELXTL
+_computing_structure_solution    'SHELXTL (Bruker, 1997)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measured_fraction_theta_full 1.000
+_diffrn_measured_fraction_theta_max 1.000
+_diffrn_measurement_device_type  'Bruker P4'
+_diffrn_measurement_method       \w
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.094
+_diffrn_reflns_av_sigmaI/netI    0.052
+_diffrn_reflns_limit_h_max       12
+_diffrn_reflns_limit_h_min       -12
+_diffrn_reflns_limit_k_max       12
+_diffrn_reflns_limit_k_min       -12
+_diffrn_reflns_limit_l_max       18
+_diffrn_reflns_limit_l_min       -18
+_diffrn_reflns_number            3235
+_diffrn_reflns_theta_full        32.53
+_diffrn_reflns_theta_max         32.53
+_diffrn_reflns_theta_min         4.35
+_diffrn_standards_decay_%        0
+_diffrn_standards_interval_count 100
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    13.517
+_exptl_absorpt_correction_T_max  0.260
+_exptl_absorpt_correction_T_min  0.195
+_exptl_absorpt_correction_type   \y
+_exptl_absorpt_process_details   '(North et al., 1968)'
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    5.145
+_exptl_crystal_density_meas      ?
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       block
+_exptl_crystal_F_000             1050
+_exptl_crystal_size_max          0.12
+_exptl_crystal_size_mid          0.10
+_exptl_crystal_size_min          0.10
+_refine_diff_density_max         1.59
+_refine_diff_density_min         -1.38
+_refine_ls_abs_structure_details 'Flack (1983), with x Friedel pairs'
+_refine_ls_abs_structure_Flack   -0.11(16)
+_refine_ls_extinction_coef       0.01004(19)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     'SHELXL97 Ref'
+_refine_ls_goodness_of_fit_ref   1.072
+_refine_ls_hydrogen_treatment    none
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     35
+_refine_ls_number_reflns         607
+_refine_ls_number_restraints     1
+_refine_ls_restrained_S_all      1.071
+_refine_ls_R_factor_all          0.060
+_refine_ls_R_factor_gt           0.052
+_refine_ls_shift/su_max          0.031
+_refine_ls_shift/su_mean         0.005
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w = 1/[\s^2^(Fo^2^)+(0.0013P)^2^+35.8548P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.113
+_refine_ls_wR_factor_ref         0.121
+_reflns_number_gt                526
+_reflns_number_total             607
+_reflns_threshold_expression     I>2\s(I)
+_cod_data_source_file            sk1661.cif
+_cod_data_source_block           I
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_symmetry_cell_setting' value 'Trigonal' changed to 'trigonal' according
+to '/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Trigonal' changed to 'trigonal'
+according to /home/saulius/struct/CIF-dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+
+The following automatic conversions were performed:
+
+'_exptl_crystal_density_meas' value 'not measured' was changed to '?'
+- the value is perceived as not measured.
+
+Automatic conversion script
+Id: cif_fix_values 3008 2015-01-20 13:52:24Z robertas 
+;
+_cod_original_sg_symbol_H-M      'R 3 c'
+_cod_database_code               2013676
+_cod_database_fobs_code          2013676
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-y, x-y, z'
+'-x+y, -x, z'
+'-y, -x, z+1/2'
+'-x+y, y, z+1/2'
+'x, x-y, z+1/2'
+'x+2/3, y+1/3, z+1/3'
+'-y+2/3, x-y+1/3, z+1/3'
+'-x+y+2/3, -x+1/3, z+1/3'
+'-y+2/3, -x+1/3, z+5/6'
+'-x+y+2/3, y+1/3, z+5/6'
+'x+2/3, x-y+1/3, z+5/6'
+'x+1/3, y+2/3, z+2/3'
+'-y+1/3, x-y+2/3, z+2/3'
+'-x+y+1/3, -x+2/3, z+2/3'
+'-y+1/3, -x+2/3, z+7/6'
+'-x+y+1/3, y+2/3, z+7/6'
+'x+1/3, x-y+2/3, z+7/6'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+_atom_site_type_symbol
+Cd1 0.35586(4) 1.01497(6) 0.85915(17) 0.04746(9) Uani d P 0.50 . . Cd
+Zn1 0.35586(4) 1.01497(6) 0.85915(17) 0.04746(9) Uani d P 0.50 . . Zn
+B1 0.6667 1.3333 0.7318(6) 0.0310(15) Uani d S 1 . . B
+B2 0.3333 0.6667 0.8113(6) 0.0343(18) Uani d S 1 . . B
+O1 0.5513(4) 1.1448(4) 0.7314(3) 0.0433(8) Uani d . 1 . . O
+O2 0.2261(4) 0.7485(4) 0.8122(3) 0.0463(8) Uani d . 1 . . O
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Cd1 0.02540(10) 0.03586(12) 0.07608(18) 0.01155(8) 0.00405(16) -0.02080(12)
+Zn1 0.02540(10) 0.03586(12) 0.07608(18) 0.01155(8) 0.00405(16) -0.02080(12)
+B1 0.0251(16) 0.0251(16) 0.043(3) 0.0125(8) 0.000 0.000
+B2 0.0286(18) 0.0286(18) 0.046(4) 0.0143(9) 0.000 0.000
+O1 0.0341(10) 0.0255(9) 0.0664(17) 0.0120(8) 0.0029(12) 0.0054(11)
+O2 0.0425(10) 0.0415(10) 0.0655(17) 0.0290(7) 0.0042(12) 0.0063(12)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+B B 0.0013 0.0007 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Zn Zn 0.2839 1.4301 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Cd Cd -0.8075 1.2024 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O2 Cd1 O1 . 16_664 115.23(12) yes
+O2 Cd1 O2 . 18_564 128.39(11) yes
+O1 Cd1 O2 16_664 18_564 99.95(14) yes
+O2 Cd1 O1 . . 101.80(15) yes
+O1 Cd1 O1 16_664 . 118.55(17) yes
+O2 Cd1 O1 18_564 . 92.04(14) yes
+O2 Cd1 Cd1 . 16_664 142.72(10) no
+O1 Cd1 Cd1 16_664 16_664 37.41(9) no
+O2 Cd1 Cd1 18_564 16_664 62.69(9) no
+O1 Cd1 Cd1 . 16_664 113.94(10) no
+O2 Cd1 Cd1 . 10_664 74.67(10) no
+O1 Cd1 Cd1 16_664 10_664 152.12(11) no
+O2 Cd1 Cd1 18_564 10_664 91.70(10) no
+O1 Cd1 Cd1 . 10_664 35.09(10) no
+Cd1 Cd1 Cd1 16_664 10_664 142.32(3) no
+O2 Zn1 O1 . 16_664 115.23(12) no
+O2 Zn1 O2 . 18_564 128.39(11) no
+O1 Zn1 O2 16_664 18_564 99.95(14) no
+O2 Zn1 O1 . . 101.80(15) no
+O1 Zn1 O1 16_664 . 118.55(17) no
+O2 Zn1 O1 18_564 . 92.04(14) no
+O1 B1 O1 2_775 . 119.999(6) yes
+O1 B1 O1 2_775 3_575 119.998(8) yes
+O1 B1 O1 . 3_575 119.999(8) yes
+O2 B2 O2 . 3_565 119.994(12) yes
+O2 B2 O2 . 2_665 119.994(12) yes
+O2 B2 O2 3_565 2_665 119.994(11) yes
+B1 O1 Zn1 . 10_664 120.0(2) no
+B1 O1 Cd1 . 10_664 120.0(2) yes
+B1 O1 Zn1 . . 120.0(3) no
+Zn1 O1 Zn1 10_664 . 107.49(14) no
+Cd1 O1 Zn1 10_664 . 107.49(14) no
+B1 O1 Cd1 . . 120.0(3) yes
+Zn1 O1 Cd1 10_664 . 107.49(14) no
+Cd1 O1 Cd1 10_664 . 107.49(14) yes
+B2 O2 Cd1 . . 115.39(19) yes
+B2 O2 Zn1 . . 115.39(19) no
+B2 O2 Zn1 . 12_464 118.9(3) no
+Cd1 O2 Zn1 . 12_464 115.94(18) no
+Zn1 O2 Zn1 . 12_464 115.94(18) no
+B2 O2 Cd1 . 12_464 118.9(3) yes
+Cd1 O2 Cd1 . 12_464 115.94(18) yes
+Zn1 O2 Cd1 . 12_464 115.94(18) no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Cd1 O2 . 2.014(3) yes
+Cd1 O1 16_664 2.016(4) yes
+Cd1 O2 18_564 2.095(4) yes
+Cd1 O1 . 2.131(4) yes
+Cd1 Cd1 16_664 3.3451(18) no
+Cd1 Cd1 10_664 3.3451(18) no
+Zn1 O2 . 2.014(3) yes
+Zn1 O1 16_664 2.016(4) yes
+Zn1 O2 18_564 2.095(4) yes
+Zn1 O1 . 2.131(4) yes
+B1 O1 2_775 1.377(3) no
+B1 O1 . 1.377(3) yes
+B1 O1 3_575 1.377(3) no
+B2 O2 . 1.374(4) yes
+B2 O2 3_565 1.374(4) no
+B2 O2 2_665 1.374(4) no
+O1 Zn1 10_664 2.016(4) no
+O1 Cd1 10_664 2.016(4) no
+O2 Zn1 12_464 2.096(4) no
+O2 Cd1 12_464 2.096(4) no

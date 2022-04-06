@@ -1,0 +1,884 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 06:40:26 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176432 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/50/2105046.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2105046
+loop_
+_publ_author_name
+'Kr\"uger, H.'
+'St\"ober, S.'
+'Welberry, T. R.'
+'Withers, R. L.'
+'Fitz Gerald, J. D.'
+_publ_section_title
+;
+ Stacking faults and superstructures in a layered brownmillerite
+;
+_journal_coeditor_code           SN5108
+_journal_issue                   6
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              476
+_journal_page_last               485
+_journal_paper_doi               10.1107/S0108768111042005
+_journal_volume                  67
+_journal_year                    2011
+_chemical_formula_sum            'Ca4 Fe2 Mn0.5 O9 Ti0.5'
+_chemical_formula_weight         467.40
+_space_group_IT_number           63
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-A 2a 2a'
+_symmetry_space_group_name_H-M   'A m m a'
+_audit_creation_method
+;
+ Jana2000 Version : 18/12/2007
+ STOE X-RED
+ enCIFer 1.3
+;
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   5.3510(6)
+_cell_length_b                   26.669(3)
+_cell_length_c                   5.4914(6)
+_cell_measurement_reflns_used    2103
+_cell_measurement_temperature    298
+_cell_measurement_theta_max      29.41
+_cell_measurement_theta_min      3.79
+_cell_volume                     783.65(15)
+_computing_cell_refinement       'STOE X-AREA'
+_computing_data_collection       'STOE X-AREA'
+_computing_data_reduction        'STOE X-RED'
+_computing_molecular_graphics    DRAWxtl
+_computing_publication_material
+'Jana2000 (Petricek, Dusek & Palatinus, 2000)'
+_computing_structure_refinement
+'Jana2000 (Petricek, Dusek & Palatinus, 2000)'
+_computing_structure_solution
+;
+ Sir97 (Altomare, A., Burla, M. C., Camalli, M., Cascarano, G., Giacovazzo, C.,
+ Guagliardi, A., Moliterni, A. G. G., Polidori, G., Spagna, R., 1997)
+;
+_diffrn_ambient_temperature      298
+_diffrn_detector_area_resol_mean 6.67
+_diffrn_measured_fraction_theta_full 0.95
+_diffrn_measured_fraction_theta_max 0.95
+_diffrn_measurement_device       '2-circle goniometer'
+_diffrn_measurement_device_type  'STOE IPDS 2'
+_diffrn_measurement_method       'rotation method'
+_diffrn_radiation_monochromator  'plane graphite'
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0294
+_diffrn_reflns_av_sigmaI/netI    0.0046
+_diffrn_reflns_limit_h_max       7
+_diffrn_reflns_limit_h_min       -7
+_diffrn_reflns_limit_k_max       35
+_diffrn_reflns_limit_k_min       -35
+_diffrn_reflns_limit_l_max       7
+_diffrn_reflns_limit_l_min       -7
+_diffrn_reflns_number            3489
+_diffrn_reflns_reduction_process
+;
+ STOE X-AREA/INTEGRATE 1.39
+ elliptical profiles, parameters A=15.2,B=2.7,EMS=0.016
+;
+_diffrn_reflns_theta_full        29.18
+_diffrn_reflns_theta_max         29.18
+_diffrn_reflns_theta_min         3.79
+_exptl_absorpt_coefficient_mu    7.58
+_exptl_absorpt_correction_T_max  0.6430
+_exptl_absorpt_correction_T_min  0.5289
+_exptl_absorpt_correction_type   integration
+_exptl_absorpt_process_details
+;
+ STOE X-RED32 1.31
+;
+_exptl_crystal_colour            black
+_exptl_crystal_density_diffrn    3.962
+_exptl_crystal_description       block
+_exptl_crystal_F_000             912
+_exptl_crystal_size_max          0.090
+_exptl_crystal_size_mid          0.073
+_exptl_crystal_size_min          0.050
+_refine_diff_density_max         0.48
+_refine_diff_density_min         -0.39
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   2.61
+_refine_ls_number_parameters     54
+_refine_ls_number_reflns         571
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          0.0253
+_refine_ls_R_factor_gt           0.0231
+_refine_ls_shift/su_max          0.0002
+_refine_ls_shift/su_mean         0.0000
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     w=1/(\s^2^(F)+0.0001F^2^)
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_gt          0.0330
+_refine_ls_wR_factor_ref         0.0336
+_reflns_number_gt                543
+_reflns_number_total             571
+_reflns_threshold_expression     I>3\s(I)
+_cod_data_source_file            sn5108.cif
+_cod_data_source_block           I
+_cod_original_cell_volume        783.64(15)
+_cod_original_sg_symbol_Hall     '-A -2xa;-2y;-2za'
+_cod_database_code               2105046
+_cod_database_fobs_code          2105046
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 1/2-x,y,z
+3 x,-y,z
+4 1/2+x,y,-z
+5 -x,-y,-z
+6 1/2+x,-y,-z
+7 -x,y,-z
+8 1/2-x,-y,z
+9 x,1/2+y,1/2+z
+10 1/2-x,1/2+y,1/2+z
+11 x,1/2-y,1/2+z
+12 1/2+x,1/2+y,1/2-z
+13 -x,1/2-y,1/2-z
+14 1/2+x,1/2-y,1/2-z
+15 -x,1/2+y,1/2-z
+16 1/2-x,1/2-y,1/2+z
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+Fe Fe1 0.75 0.142345(16) 0.24550(6) 0.01173(16) Uani d 0.749(14) 8
+Ti Ti1 0.75 0.142345 0.245497 0.01173(16) Uani d 0.251(14) 8
+Fe Fe2 0.69589(11) 0 0.18271(13) 0.0131(2) Uani d 0.5 8
+Ca Ca1 0.25 0.20345(3) 0.23793(10) 0.01771(19) Uani d 1 8
+Ca Ca2 0.25 0.07962(2) 0.27533(11) 0.01629(18) Uani d 1 8
+O O1 0 0.13093(8) 0 0.0164(5) Uani d 1 8
+O O2 0 0.14546(8) 0.5 0.0159(5) Uani d 1 8
+O O3 0.75 0.06194(9) 0.3119(4) 0.0221(6) Uani d 1 8
+O O4 0.75 0.21301(9) 0.1973(4) 0.0202(6) Uani d 1 8
+O O5 0.3409(7) 0 0.1349(7) 0.0150(10) Uani d 0.5 8
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+_atom_site_aniso_type_symbol
+Fe1 0.0092(3) 0.0159(3) 0.0101(3) 0 0 -0.00040(13) Fe
+Ti1 0.0092(3) 0.0159(3) 0.0101(3) 0 0 -0.00040(13) Ti
+Fe2 0.0120(5) 0.0137(4) 0.0136(3) 0 -0.0003(2) 0 Fe
+Ca1 0.0200(3) 0.0148(4) 0.0183(3) 0 0 0.00092(18) Ca
+Ca2 0.0202(3) 0.0145(4) 0.0142(3) 0 0 -0.00007(18) Ca
+O1 0.0139(8) 0.0219(11) 0.0135(8) 0 0.0034(7) 0 O
+O2 0.0129(8) 0.0211(11) 0.0135(8) 0 -0.0029(7) 0 O
+O3 0.0326(11) 0.0173(11) 0.0165(9) 0 0 -0.0028(7) O
+O4 0.0238(10) 0.0174(11) 0.0195(10) 0 0 -0.0013(8) O
+O5 0.0134(13) 0.017(2) 0.0148(15) 0 -0.0010(12) 0 O
+loop_
+_atom_type_symbol
+_atom_type_scat_Cromer_Mann_a1
+_atom_type_scat_Cromer_Mann_a2
+_atom_type_scat_Cromer_Mann_a3
+_atom_type_scat_Cromer_Mann_a4
+_atom_type_scat_Cromer_Mann_b1
+_atom_type_scat_Cromer_Mann_b2
+_atom_type_scat_Cromer_Mann_b3
+_atom_type_scat_Cromer_Mann_b4
+_atom_type_scat_Cromer_Mann_c
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Ca 8.6266 7.3873 1.5899 1.0211 10.4421 0.6599 85.748398 178.436996 1.3751 0.226
+0.306 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.4'
+Fe 11.7695 7.3573 3.5222 2.3045 4.7611 0.3072 15.3535 76.880501 1.0369 0.346
+0.844 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.4'
+Mn 11.2819 7.3573 3.0193 2.2441 5.3409 0.3432 17.867399 83.754303 1.0896 0.337
+0.728 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.4'
+Ti 9.7595 7.3558 1.6991 1.9021 7.8508 0.5 35.633801 116.105003 1.2807 0.278
+0.446 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.4'
+O 3.0485 2.2868 1.5463 0.867 13.2771 5.7011 0.3239 32.908901 0.2508 0.011 0.006
+'International Tables Vol C Tables  4.2.6.8 and 6.1.1.4'
+loop_
+_exptl_crystal_face_index_h
+_exptl_crystal_face_index_k
+_exptl_crystal_face_index_l
+_exptl_crystal_face_perp_dist
+0 1 0 0.0233
+0 -1 0 0.0286
+0 -12 -5 0.0510
+1 4 1 0.0593
+-1 -4 -1 0.0398
+3 -11 -3 0.0367
+-6 10 5 0.0507
+-5 -8 -10 0.0483
+4 1 7 0.0438
+1 7 -1 0.0470
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O1 Fe1 O1 1_655 2_555 88.13(2) yes
+O1 Fe1 O2 1_655 1_655 91.844(10) yes
+O1 Fe1 O2 1_655 2_555 173.28(9) yes
+O1 Fe1 O3 1_655 . 87.79(8) yes
+O1 Fe1 O4 1_655 . 93.39(8) yes
+O1 Fe1 O1 2_555 1_655 88.13(2) yes
+O1 Fe1 O2 2_555 1_655 173.28(9) yes
+O1 Fe1 O2 2_555 2_555 91.844(10) yes
+O1 Fe1 O3 2_555 . 87.79(8) yes
+O1 Fe1 O4 2_555 . 93.39(8) yes
+O2 Fe1 O2 1_655 2_555 87.393(14) yes
+O2 Fe1 O3 1_655 . 85.49(8) yes
+O2 Fe1 O4 1_655 . 93.32(8) yes
+O2 Fe1 O2 2_555 1_655 87.393(14) yes
+O2 Fe1 O3 2_555 . 85.49(8) yes
+O2 Fe1 O4 2_555 . 93.32(8) yes
+O3 Fe1 O4 . . 178.34(9) yes
+Fe2 Fe2 Fe2 5_655 2_655 136.25(11) yes
+Fe2 Fe2 O3 5_655 . 112.60(5) yes
+Fe2 Fe2 O3 5_655 3_555 112.60(5) yes
+Fe2 Fe2 O5 5_655 . 35.88(11) yes
+Fe2 Fe2 O5 5_655 5_655 39.82(12) yes
+Fe2 Fe2 O5 5_655 2_555 38.53(7) yes
+Fe2 Fe2 O5 5_655 2_655 130.21(9) yes
+Fe2 Fe2 O5 5_655 6_555 70.23(11) yes
+Fe2 Fe2 Fe2 2_655 5_655 136.25(11) yes
+Fe2 Fe2 O3 2_655 . 80.85(4) yes
+Fe2 Fe2 O3 2_655 3_555 80.85(4) yes
+Fe2 Fe2 O5 2_655 . 172.13(16) yes
+Fe2 Fe2 O5 2_655 5_655 96.44(16) yes
+Fe2 Fe2 O5 2_655 2_555 174.78(13) yes
+Fe2 Fe2 O5 2_655 2_655 6.04(12) yes
+Fe2 Fe2 O5 2_655 6_555 66.02(14) yes
+O3 Fe2 O3 . 3_555 130.22(10) yes
+O3 Fe2 O5 . . 102.17(5) yes
+O3 Fe2 O5 . 5_655 113.89(7) yes
+O3 Fe2 O5 . 2_555 101.18(4) yes
+O3 Fe2 O5 . 2_655 83.27(4) yes
+O3 Fe2 O5 . 6_555 106.94(7) yes
+O3 Fe2 O3 3_555 . 130.22(10) yes
+O3 Fe2 O5 3_555 . 102.17(5) yes
+O3 Fe2 O5 3_555 5_655 113.89(7) yes
+O3 Fe2 O5 3_555 2_555 101.18(4) yes
+O3 Fe2 O5 3_555 2_655 83.27(4) yes
+O3 Fe2 O5 3_555 6_555 106.94(7) yes
+O5 Fe2 O5 . 5_655 75.70(16) yes
+O5 Fe2 O5 . 2_555 2.65(13) yes
+O5 Fe2 O5 . 2_655 166.09(14) yes
+O5 Fe2 O5 . 6_555 106.11(16) yes
+O5 Fe2 O5 5_655 . 75.70(16) yes
+O5 Fe2 O5 5_655 2_555 78.34(14) yes
+O5 Fe2 O5 5_655 2_655 90.39(15) yes
+O5 Fe2 O5 5_655 6_555 30.42(16) yes
+O5 Fe2 O5 2_555 . 2.65(13) yes
+O5 Fe2 O5 2_555 5_655 78.34(14) yes
+O5 Fe2 O5 2_555 2_655 168.73(12) yes
+O5 Fe2 O5 2_555 6_555 108.76(13) yes
+O5 Fe2 O5 2_655 . 166.09(14) yes
+O5 Fe2 O5 2_655 5_655 90.39(15) yes
+O5 Fe2 O5 2_655 2_555 168.73(12) yes
+O5 Fe2 O5 2_655 6_555 59.98(14) yes
+O5 Fe2 O5 6_555 . 106.11(16) yes
+O5 Fe2 O5 6_555 5_655 30.42(16) yes
+O5 Fe2 O5 6_555 2_555 108.76(13) yes
+O5 Fe2 O5 6_555 2_655 59.98(14) yes
+O1 Ca1 O1 . 2_555 59.64(3) yes
+O1 Ca1 O2 . . 64.46(3) yes
+O1 Ca1 O2 . 2_555 95.80(6) yes
+O1 Ca1 O4 . 1_455 62.25(6) yes
+O1 Ca1 O4 . . 121.41(6) yes
+O1 Ca1 O4 . 13_655 141.86(5) yes
+O1 Ca1 O4 . 7_655 66.01(5) yes
+O1 Ca1 O1 2_555 . 59.64(3) yes
+O1 Ca1 O2 2_555 . 95.80(6) yes
+O1 Ca1 O2 2_555 2_555 64.46(3) yes
+O1 Ca1 O4 2_555 1_455 121.41(6) yes
+O1 Ca1 O4 2_555 . 62.25(6) yes
+O1 Ca1 O4 2_555 13_655 141.86(5) yes
+O1 Ca1 O4 2_555 7_655 66.01(5) yes
+O2 Ca1 O2 . 2_555 64.69(3) yes
+O2 Ca1 O4 . 1_455 64.87(5) yes
+O2 Ca1 O4 . . 129.56(6) yes
+O2 Ca1 O4 . 13_655 121.33(6) yes
+O2 Ca1 O4 . 7_655 129.64(5) yes
+O2 Ca1 O2 2_555 . 64.69(3) yes
+O2 Ca1 O4 2_555 1_455 129.56(6) yes
+O2 Ca1 O4 2_555 . 64.87(5) yes
+O2 Ca1 O4 2_555 13_655 121.33(6) yes
+O2 Ca1 O4 2_555 7_655 129.64(5) yes
+O4 Ca1 O4 1_455 . 165.56(8) yes
+O4 Ca1 O4 1_455 13_655 85.39(5) yes
+O4 Ca1 O4 1_455 7_655 84.70(5) yes
+O4 Ca1 O4 . 1_455 165.56(8) yes
+O4 Ca1 O4 . 13_655 85.39(5) yes
+O4 Ca1 O4 . 7_655 84.70(5) yes
+O4 Ca1 O4 13_655 1_455 85.39(5) yes
+O4 Ca1 O4 13_655 . 85.39(5) yes
+O4 Ca1 O4 13_655 7_655 92.98(8) yes
+O4 Ca1 O4 7_655 1_455 84.70(5) yes
+O4 Ca1 O4 7_655 . 84.70(5) yes
+O4 Ca1 O4 7_655 13_655 92.98(8) yes
+O1 Ca2 O1 . 2_555 66.53(3) yes
+O1 Ca2 O2 . . 67.83(3) yes
+O1 Ca2 O2 . 2_555 101.72(6) yes
+O1 Ca2 O3 . 1_455 66.68(5) yes
+O1 Ca2 O3 . . 132.97(5) yes
+O1 Ca2 O3 . 7_656 136.16(4) yes
+O1 Ca2 O5 . . 115.10(10) yes
+O1 Ca2 O5 . 2_555 101.14(10) yes
+O1 Ca2 O1 2_555 . 66.53(3) yes
+O1 Ca2 O2 2_555 . 101.72(6) yes
+O1 Ca2 O2 2_555 2_555 67.83(3) yes
+O1 Ca2 O3 2_555 1_455 132.97(5) yes
+O1 Ca2 O3 2_555 . 66.68(5) yes
+O1 Ca2 O3 2_555 7_656 136.16(4) yes
+O1 Ca2 O5 2_555 . 101.14(10) yes
+O1 Ca2 O5 2_555 2_555 115.10(10) yes
+O2 Ca2 O2 . 2_555 63.88(3) yes
+O2 Ca2 O3 . 1_455 64.19(6) yes
+O2 Ca2 O3 . . 127.14(5) yes
+O2 Ca2 O3 . 7_656 70.35(6) yes
+O2 Ca2 O5 . . 155.80(9) yes
+O2 Ca2 O5 . 2_555 133.59(9) yes
+O2 Ca2 O2 2_555 . 63.88(3) yes
+O2 Ca2 O3 2_555 1_455 127.14(5) yes
+O2 Ca2 O3 2_555 . 64.19(6) yes
+O2 Ca2 O3 2_555 7_656 70.35(6) yes
+O2 Ca2 O5 2_555 . 133.59(9) yes
+O2 Ca2 O5 2_555 2_555 155.80(9) yes
+O3 Ca2 O3 1_455 . 158.31(7) yes
+O3 Ca2 O3 1_455 7_656 83.83(5) yes
+O3 Ca2 O5 1_455 . 94.14(10) yes
+O3 Ca2 O5 1_455 2_555 70.05(10) yes
+O3 Ca2 O3 . 1_455 158.31(7) yes
+O3 Ca2 O3 . 7_656 83.83(5) yes
+O3 Ca2 O5 . . 70.05(10) yes
+O3 Ca2 O5 . 2_555 94.14(10) yes
+O3 Ca2 O3 7_656 1_455 83.83(5) yes
+O3 Ca2 O3 7_656 . 83.83(5) yes
+O3 Ca2 O5 7_656 . 98.02(11) yes
+O3 Ca2 O5 7_656 2_555 98.02(11) yes
+O5 Ca2 O5 . 2_555 24.30(12) yes
+O5 Ca2 O5 2_555 . 24.30(12) yes
+Fe1 O1 Fe1 1_455 7_655 161.79(13) yes
+Fe1 O1 Ca1 1_455 . 83.78(5) yes
+Fe1 O1 Ca1 1_455 7_555 83.15(5) yes
+Fe1 O1 Ca2 1_455 . 92.05(3) yes
+Fe1 O1 Ca2 1_455 7_555 98.15(3) yes
+Fe1 O1 O1 1_455 2_455 45.933(13) yes
+Fe1 O1 O1 1_455 2_555 134.07(2) yes
+Fe1 O1 O2 1_455 1_554 132.21(4) yes
+Fe1 O1 O2 1_455 . 44.264(10) yes
+Fe1 O1 O3 1_455 1_455 49.75(5) yes
+Fe1 O1 O3 1_455 7_655 148.27(11) yes
+Fe1 O1 O4 1_455 1_455 43.02(6) yes
+Fe1 O1 O4 1_455 7_655 118.84(10) yes
+Fe1 O1 Fe1 7_655 1_455 161.79(13) yes
+Fe1 O1 Ca1 7_655 . 83.15(5) yes
+Fe1 O1 Ca1 7_655 7_555 83.78(5) yes
+Fe1 O1 Ca2 7_655 . 98.15(3) yes
+Fe1 O1 Ca2 7_655 7_555 92.05(3) yes
+Fe1 O1 O1 7_655 2_455 134.07(2) yes
+Fe1 O1 O1 7_655 2_555 45.933(13) yes
+Fe1 O1 O2 7_655 1_554 44.264(10) yes
+Fe1 O1 O2 7_655 . 132.21(4) yes
+Fe1 O1 O3 7_655 1_455 148.27(11) yes
+Fe1 O1 O3 7_655 7_655 49.75(5) yes
+Fe1 O1 O4 7_655 1_455 118.84(10) yes
+Fe1 O1 O4 7_655 7_655 43.02(6) yes
+Ca1 O1 Ca1 . 7_555 88.07(7) yes
+Ca1 O1 Ca2 . . 80.18(2) yes
+Ca1 O1 Ca2 . 7_555 167.75(8) yes
+Ca1 O1 O1 . 2_455 119.82(7) yes
+Ca1 O1 O1 . 2_555 60.18(4) yes
+Ca1 O1 O2 . 1_554 112.36(7) yes
+Ca1 O1 O2 . . 54.45(4) yes
+Ca1 O1 O3 . 1_455 113.95(4) yes
+Ca1 O1 O3 . 7_655 121.54(3) yes
+Ca1 O1 O4 . 1_455 58.99(5) yes
+Ca1 O1 O4 . 7_655 52.05(6) yes
+Ca1 O1 Ca1 7_555 . 88.07(7) yes
+Ca1 O1 Ca2 7_555 . 167.75(8) yes
+Ca1 O1 Ca2 7_555 7_555 80.18(2) yes
+Ca1 O1 O1 7_555 2_455 60.18(4) yes
+Ca1 O1 O1 7_555 2_555 119.82(7) yes
+Ca1 O1 O2 7_555 1_554 54.45(4) yes
+Ca1 O1 O2 7_555 . 112.36(7) yes
+Ca1 O1 O3 7_555 1_455 121.54(3) yes
+Ca1 O1 O3 7_555 7_655 113.95(4) yes
+Ca1 O1 O4 7_555 1_455 52.05(6) yes
+Ca1 O1 O4 7_555 7_655 58.99(5) yes
+Ca2 O1 Ca2 . 7_555 111.74(9) yes
+Ca2 O1 O1 . 2_455 123.27(6) yes
+Ca2 O1 O1 . 2_555 56.73(4) yes
+Ca2 O1 O2 . 1_554 133.81(6) yes
+Ca2 O1 O2 . . 57.63(4) yes
+Ca2 O1 O3 . 1_455 61.46(4) yes
+Ca2 O1 O3 . 7_655 75.68(6) yes
+Ca2 O1 O4 . 1_455 117.60(5) yes
+Ca2 O1 O4 . 7_655 114.75(3) yes
+Ca2 O1 Ca2 7_555 . 111.74(9) yes
+Ca2 O1 O1 7_555 2_455 56.73(4) yes
+Ca2 O1 O1 7_555 2_555 123.27(6) yes
+Ca2 O1 O2 7_555 1_554 57.63(4) yes
+Ca2 O1 O2 7_555 . 133.81(6) yes
+Ca2 O1 O3 7_555 1_455 75.68(6) yes
+Ca2 O1 O3 7_555 7_655 61.46(4) yes
+Ca2 O1 O4 7_555 1_455 114.75(3) yes
+Ca2 O1 O4 7_555 7_655 117.60(5) yes
+O1 O1 O1 2_455 2_555 180 yes
+O1 O1 O2 2_455 1_554 90 yes
+O1 O1 O2 2_455 . 90 yes
+O1 O1 O3 2_455 1_455 61.98(5) yes
+O1 O1 O3 2_455 7_655 118.02(6) yes
+O1 O1 O4 2_455 1_455 61.29(5) yes
+O1 O1 O4 2_455 7_655 118.71(8) yes
+O1 O1 O1 2_555 2_455 180 yes
+O1 O1 O2 2_555 1_554 90 yes
+O1 O1 O2 2_555 . 90 yes
+O1 O1 O3 2_555 1_455 118.02(6) yes
+O1 O1 O3 2_555 7_655 61.98(5) yes
+O1 O1 O4 2_555 1_455 118.71(8) yes
+O1 O1 O4 2_555 7_655 61.29(5) yes
+O2 O1 O2 1_554 . 163.93(11) yes
+O2 O1 O3 1_554 1_455 133.31(7) yes
+O2 O1 O3 1_554 7_655 59.65(6) yes
+O2 O1 O4 1_554 1_455 105.98(8) yes
+O2 O1 O4 1_554 7_655 60.33(6) yes
+O2 O1 O2 . 1_554 163.93(11) yes
+O2 O1 O3 . 1_455 59.65(6) yes
+O2 O1 O3 . 7_655 133.31(7) yes
+O2 O1 O4 . 1_455 60.33(6) yes
+O2 O1 O4 . 7_655 105.98(8) yes
+O3 O1 O3 1_455 7_655 99.50(9) yes
+O3 O1 O4 1_455 1_455 92.76(6) yes
+O3 O1 O4 1_455 7_655 165.37(8) yes
+O3 O1 O3 7_655 1_455 99.50(9) yes
+O3 O1 O4 7_655 1_455 165.37(8) yes
+O3 O1 O4 7_655 7_655 92.76(6) yes
+O4 O1 O4 1_455 7_655 76.36(8) yes
+O4 O1 O4 7_655 1_455 76.36(8) yes
+Fe1 O2 Fe1 1_455 7_656 175.08(13) yes
+Fe1 O2 Ca1 1_455 . 88.90(4) yes
+Fe1 O2 Ca1 1_455 7_556 94.15(4) yes
+Fe1 O2 Ca2 1_455 . 89.06(5) yes
+Fe1 O2 Ca2 1_455 7_556 87.53(5) yes
+Fe1 O2 O1 1_455 . 43.892(10) yes
+Fe1 O2 O1 1_455 1_556 135.13(3) yes
+Fe1 O2 O2 1_455 2_455 46.304(7) yes
+Fe1 O2 O2 1_455 2_555 133.696(9) yes
+Fe1 O2 O3 1_455 1_455 50.85(6) yes
+Fe1 O2 O3 1_455 7_656 124.26(10) yes
+Fe1 O2 O4 1_455 1_455 42.87(5) yes
+Fe1 O2 O4 1_455 7_656 142.02(11) yes
+Fe1 O2 Fe1 7_656 1_455 175.08(13) yes
+Fe1 O2 Ca1 7_656 . 94.15(4) yes
+Fe1 O2 Ca1 7_656 7_556 88.90(4) yes
+Fe1 O2 Ca2 7_656 . 87.53(5) yes
+Fe1 O2 Ca2 7_656 7_556 89.06(5) yes
+Fe1 O2 O1 7_656 . 135.13(3) yes
+Fe1 O2 O1 7_656 1_556 43.892(10) yes
+Fe1 O2 O2 7_656 2_455 133.696(9) yes
+Fe1 O2 O2 7_656 2_555 46.304(7) yes
+Fe1 O2 O3 7_656 1_455 124.26(10) yes
+Fe1 O2 O3 7_656 7_656 50.85(6) yes
+Fe1 O2 O4 7_656 1_455 142.02(11) yes
+Fe1 O2 O4 7_656 7_656 42.87(5) yes
+Ca1 O2 Ca1 . 7_556 103.59(8) yes
+Ca1 O2 Ca2 . . 82.275(19) yes
+Ca1 O2 Ca2 . 7_556 173.34(7) yes
+Ca1 O2 O1 . . 61.09(4) yes
+Ca1 O2 O1 . 1_556 131.02(6) yes
+Ca1 O2 O2 . 2_455 122.35(6) yes
+Ca1 O2 O2 . 2_555 57.65(4) yes
+Ca1 O2 O3 . 1_455 122.42(5) yes
+Ca1 O2 O3 . 7_656 116.70(3) yes
+Ca1 O2 O4 . 1_455 60.97(4) yes
+Ca1 O2 O4 . 7_656 71.78(6) yes
+Ca1 O2 Ca1 7_556 . 103.59(8) yes
+Ca1 O2 Ca2 7_556 . 173.34(7) yes
+Ca1 O2 Ca2 7_556 7_556 82.275(19) yes
+Ca1 O2 O1 7_556 . 131.02(6) yes
+Ca1 O2 O1 7_556 1_556 61.09(4) yes
+Ca1 O2 O2 7_556 2_455 57.65(4) yes
+Ca1 O2 O2 7_556 2_555 122.35(6) yes
+Ca1 O2 O3 7_556 1_455 116.70(3) yes
+Ca1 O2 O3 7_556 7_656 122.42(5) yes
+Ca1 O2 O4 7_556 1_455 71.78(6) yes
+Ca1 O2 O4 7_556 7_656 60.97(4) yes
+Ca2 O2 Ca2 . 7_556 92.05(7) yes
+Ca2 O2 O1 . . 54.54(4) yes
+Ca2 O2 O1 . 1_556 112.71(7) yes
+Ca2 O2 O2 . 2_455 121.94(7) yes
+Ca2 O2 O2 . 2_555 58.06(4) yes
+Ca2 O2 O3 . 1_455 61.30(5) yes
+Ca2 O2 O3 . 7_656 51.24(6) yes
+Ca2 O2 O4 . 1_455 114.26(5) yes
+Ca2 O2 O4 . 7_656 119.01(3) yes
+Ca2 O2 Ca2 7_556 . 92.05(7) yes
+Ca2 O2 O1 7_556 . 112.71(7) yes
+Ca2 O2 O1 7_556 1_556 54.54(4) yes
+Ca2 O2 O2 7_556 2_455 58.06(4) yes
+Ca2 O2 O2 7_556 2_555 121.94(7) yes
+Ca2 O2 O3 7_556 1_455 51.24(6) yes
+Ca2 O2 O3 7_556 7_656 61.30(5) yes
+Ca2 O2 O4 7_556 1_455 119.01(3) yes
+Ca2 O2 O4 7_556 7_656 114.26(5) yes
+O1 O2 O1 . 1_556 163.93(11) yes
+O1 O2 O2 . 2_455 90 yes
+O1 O2 O2 . 2_555 90 yes
+O1 O2 O3 . 1_455 61.50(6) yes
+O1 O2 O3 . 7_656 104.74(8) yes
+O1 O2 O4 . 1_455 60.05(6) yes
+O1 O2 O4 . 7_656 132.81(7) yes
+O1 O2 O1 1_556 . 163.93(11) yes
+O1 O2 O2 1_556 2_455 90 yes
+O1 O2 O2 1_556 2_555 90 yes
+O1 O2 O3 1_556 1_455 104.74(8) yes
+O1 O2 O3 1_556 7_656 61.50(6) yes
+O1 O2 O4 1_556 1_455 132.81(7) yes
+O1 O2 O4 1_556 7_656 60.05(6) yes
+O2 O2 O2 2_455 2_555 180 yes
+O2 O2 O3 2_455 1_455 61.42(5) yes
+O2 O2 O3 2_455 7_656 118.58(8) yes
+O2 O2 O4 2_455 1_455 61.38(4) yes
+O2 O2 O4 2_455 7_656 118.62(6) yes
+O2 O2 O2 2_555 2_455 180 yes
+O2 O2 O3 2_555 1_455 118.58(8) yes
+O2 O2 O3 2_555 7_656 61.42(5) yes
+O2 O2 O4 2_555 1_455 118.62(6) yes
+O2 O2 O4 2_555 7_656 61.38(4) yes
+O3 O2 O3 1_455 7_656 74.38(7) yes
+O3 O2 O4 1_455 1_455 93.72(6) yes
+O3 O2 O4 1_455 7_656 164.37(8) yes
+O3 O2 O3 7_656 1_455 74.38(7) yes
+O3 O2 O4 7_656 1_455 164.37(8) yes
+O3 O2 O4 7_656 7_656 93.72(6) yes
+O4 O2 O4 1_455 7_656 99.65(9) yes
+O4 O2 O4 7_656 1_455 99.65(9) yes
+Fe1 O3 Fe2 . . 145.99(11) yes
+Fe1 O3 Fe2 . 2_655 145.99(11) yes
+Fe1 O3 Ca2 . . 79.45(5) yes
+Fe1 O3 Ca2 . 1_655 79.45(5) yes
+Fe1 O3 Ca2 . 7_656 87.90(8) yes
+Fe1 O3 O1 . 1_655 42.45(5) yes
+Fe1 O3 O1 . 2_555 42.45(5) yes
+Fe1 O3 O2 . 1_655 43.66(5) yes
+Fe1 O3 O2 . 2_555 43.66(5) yes
+Fe1 O3 O5 . . 120.24(7) yes
+Fe1 O3 O5 . 5_655 113.95(9) yes
+Fe1 O3 O5 . 2_655 120.24(7) yes
+Fe1 O3 O5 . 6_555 113.95(9) yes
+Fe2 O3 Fe2 . 2_655 18.30(3) yes
+Fe2 O3 Ca2 . . 88.40(4) yes
+Fe2 O3 Ca2 . 1_655 106.53(7) yes
+Fe2 O3 Ca2 . 7_656 124.49(12) yes
+Fe2 O3 O1 . 1_655 115.24(10) yes
+Fe2 O3 O1 . 2_555 106.08(8) yes
+Fe2 O3 O2 . 1_655 160.51(5) yes
+Fe2 O3 O2 . 2_555 142.23(3) yes
+Fe2 O3 O5 . . 40.11(6) yes
+Fe2 O3 O5 . 5_655 32.37(6) yes
+Fe2 O3 O5 . 2_655 58.30(7) yes
+Fe2 O3 O5 . 6_555 37.53(6) yes
+Fe2 O3 Fe2 2_655 . 18.30(3) yes
+Fe2 O3 Ca2 2_655 . 106.53(7) yes
+Fe2 O3 Ca2 2_655 1_655 88.40(4) yes
+Fe2 O3 Ca2 2_655 7_656 124.49(12) yes
+Fe2 O3 O1 2_655 1_655 106.08(8) yes
+Fe2 O3 O1 2_655 2_555 115.24(10) yes
+Fe2 O3 O2 2_655 1_655 142.23(3) yes
+Fe2 O3 O2 2_655 2_555 160.51(5) yes
+Fe2 O3 O5 2_655 . 58.30(7) yes
+Fe2 O3 O5 2_655 5_655 37.53(6) yes
+Fe2 O3 O5 2_655 2_655 40.11(6) yes
+Fe2 O3 O5 2_655 6_555 32.37(6) yes
+Ca2 O3 Ca2 . 1_655 158.31(10) yes
+Ca2 O3 Ca2 . 7_656 92.12(5) yes
+Ca2 O3 O1 . 1_655 107.77(7) yes
+Ca2 O3 O1 . 2_555 51.86(3) yes
+Ca2 O3 O2 . 1_655 111.05(8) yes
+Ca2 O3 O2 . 2_555 54.51(3) yes
+Ca2 O3 O5 . . 48.29(5) yes
+Ca2 O3 O5 . 5_655 82.86(8) yes
+Ca2 O3 O5 . 2_655 144.35(10) yes
+Ca2 O3 O5 . 6_555 101.21(9) yes
+Ca2 O3 Ca2 1_655 . 158.31(10) yes
+Ca2 O3 Ca2 1_655 7_656 92.12(5) yes
+Ca2 O3 O1 1_655 1_655 51.86(3) yes
+Ca2 O3 O1 1_655 2_555 107.77(7) yes
+Ca2 O3 O2 1_655 1_655 54.51(3) yes
+Ca2 O3 O2 1_655 2_555 111.05(8) yes
+Ca2 O3 O5 1_655 . 144.35(10) yes
+Ca2 O3 O5 1_655 5_655 101.21(9) yes
+Ca2 O3 O5 1_655 2_655 48.29(5) yes
+Ca2 O3 O5 1_655 6_555 82.86(8) yes
+Ca2 O3 Ca2 7_656 . 92.12(5) yes
+Ca2 O3 Ca2 7_656 1_655 92.12(5) yes
+Ca2 O3 O1 7_656 1_655 117.21(9) yes
+Ca2 O3 O1 7_656 2_555 117.21(9) yes
+Ca2 O3 O2 7_656 1_655 58.40(5) yes
+Ca2 O3 O2 7_656 2_555 58.40(5) yes
+Ca2 O3 O5 7_656 . 116.28(9) yes
+Ca2 O3 O5 7_656 5_655 156.01(11) yes
+Ca2 O3 O5 7_656 2_655 116.28(9) yes
+Ca2 O3 O5 7_656 6_555 156.01(11) yes
+O1 O3 O1 1_655 2_555 56.04(5) yes
+O1 O3 O2 1_655 1_655 58.85(5) yes
+O1 O3 O2 1_655 2_555 86.11(8) yes
+O1 O3 O5 1_655 . 121.29(10) yes
+O1 O3 O5 1_655 5_655 86.55(8) yes
+O1 O3 O5 1_655 2_655 79.19(6) yes
+O1 O3 O5 1_655 6_555 77.73(7) yes
+O1 O3 O1 2_555 1_655 56.04(5) yes
+O1 O3 O2 2_555 1_655 86.11(8) yes
+O1 O3 O2 2_555 2_555 58.85(5) yes
+O1 O3 O5 2_555 . 79.19(6) yes
+O1 O3 O5 2_555 5_655 77.73(7) yes
+O1 O3 O5 2_555 2_655 121.29(10) yes
+O1 O3 O5 2_555 6_555 86.55(8) yes
+O2 O3 O2 1_655 2_555 57.17(5) yes
+O2 O3 O5 1_655 . 159.33(8) yes
+O2 O3 O5 1_655 5_655 144.98(9) yes
+O2 O3 O5 1_655 2_655 102.46(6) yes
+O2 O3 O5 1_655 6_555 131.59(7) yes
+O2 O3 O2 2_555 1_655 57.17(5) yes
+O2 O3 O5 2_555 . 102.46(6) yes
+O2 O3 O5 2_555 5_655 131.59(7) yes
+O2 O3 O5 2_555 2_655 159.33(8) yes
+O2 O3 O5 2_555 6_555 144.98(9) yes
+O5 O3 O5 . 5_655 44.90(10) yes
+O5 O3 O5 . 2_655 97.60(10) yes
+O5 O3 O5 . 6_555 62.34(10) yes
+O5 O3 O5 5_655 . 44.90(10) yes
+O5 O3 O5 5_655 2_655 62.34(10) yes
+O5 O3 O5 5_655 6_555 18.67(10) yes
+O5 O3 O5 2_655 . 97.60(10) yes
+O5 O3 O5 2_655 5_655 62.34(10) yes
+O5 O3 O5 2_655 6_555 44.90(10) yes
+O5 O3 O5 6_555 . 62.34(10) yes
+O5 O3 O5 6_555 5_655 18.67(10) yes
+O5 O3 O5 6_555 2_655 44.90(10) yes
+Fe1 O4 Ca1 . . 83.96(5) yes
+Fe1 O4 Ca1 . 1_655 83.96(5) yes
+Fe1 O4 Ca1 . 13_655 162.93(13) yes
+Fe1 O4 Ca1 . 7_655 91.90(9) yes
+Fe1 O4 O1 . 1_655 43.59(5) yes
+Fe1 O4 O1 . 2_555 43.59(5) yes
+Fe1 O4 O2 . 1_655 43.81(5) yes
+Fe1 O4 O2 . 2_555 43.81(5) yes
+Ca1 O4 Ca1 . 1_655 165.56(10) yes
+Ca1 O4 Ca1 . 13_655 94.61(5) yes
+Ca1 O4 Ca1 . 7_655 94.14(5) yes
+Ca1 O4 O1 . 1_655 115.75(8) yes
+Ca1 O4 O1 . 2_555 58.75(4) yes
+Ca1 O4 O2 . 1_655 111.40(8) yes
+Ca1 O4 O2 . 2_555 54.16(3) yes
+Ca1 O4 Ca1 1_655 . 165.56(10) yes
+Ca1 O4 Ca1 1_655 13_655 94.61(5) yes
+Ca1 O4 Ca1 1_655 7_655 94.14(5) yes
+Ca1 O4 O1 1_655 1_655 58.75(4) yes
+Ca1 O4 O1 1_655 2_555 115.75(8) yes
+Ca1 O4 O2 1_655 1_655 54.16(3) yes
+Ca1 O4 O2 1_655 2_555 111.40(8) yes
+Ca1 O4 Ca1 13_655 . 94.61(5) yes
+Ca1 O4 Ca1 13_655 1_655 94.61(5) yes
+Ca1 O4 Ca1 13_655 7_655 105.17(9) yes
+Ca1 O4 O1 13_655 1_655 146.89(6) yes
+Ca1 O4 O1 13_655 2_555 146.89(6) yes
+Ca1 O4 O2 13_655 1_655 122.90(9) yes
+Ca1 O4 O2 13_655 2_555 122.90(9) yes
+Ca1 O4 Ca1 7_655 . 94.14(5) yes
+Ca1 O4 Ca1 7_655 1_655 94.14(5) yes
+Ca1 O4 Ca1 7_655 13_655 105.17(9) yes
+Ca1 O4 O1 7_655 1_655 61.95(5) yes
+Ca1 O4 O1 7_655 2_555 61.95(5) yes
+Ca1 O4 O2 7_655 1_655 121.56(8) yes
+Ca1 O4 O2 7_655 2_555 121.56(8) yes
+O1 O4 O1 1_655 2_555 57.42(5) yes
+O1 O4 O2 1_655 1_655 59.63(5) yes
+O1 O4 O2 1_655 2_555 87.40(8) yes
+O1 O4 O1 2_555 1_655 57.42(5) yes
+O1 O4 O2 2_555 1_655 87.40(8) yes
+O1 O4 O2 2_555 2_555 59.63(5) yes
+O2 O4 O2 1_655 2_555 57.25(5) yes
+O2 O4 O2 2_555 1_655 57.25(5) yes
+Fe2 O5 Fe2 . 5_655 104.30(18) yes
+Fe2 O5 Fe2 . 2_555 166.91(18) yes
+Fe2 O5 Fe2 . 2_655 1.82(4) yes
+Fe2 O5 Fe2 . 6_455 121.85(19) yes
+Fe2 O5 Ca2 . . 99.37(10) yes
+Fe2 O5 Ca2 . 3_555 99.37(10) yes
+Fe2 O5 O3 . . 37.72(6) yes
+Fe2 O5 O3 . 5_655 105.83(13) yes
+Fe2 O5 O3 . 3_555 37.72(6) yes
+Fe2 O5 O3 . 7_655 105.83(13) yes
+Fe2 O5 O5 . 5_655 48.89(13) yes
+Fe2 O5 O5 . 2_555 172.1(4) yes
+Fe2 O5 Fe2 5_655 . 104.30(18) yes
+Fe2 O5 Fe2 5_655 2_555 88.79(14) yes
+Fe2 O5 Fe2 5_655 2_655 102.48(16) yes
+Fe2 O5 Fe2 5_655 6_455 17.54(4) yes
+Fe2 O5 Ca2 5_655 . 107.94(10) yes
+Fe2 O5 Ca2 5_655 3_555 107.94(10) yes
+Fe2 O5 O3 5_655 . 114.60(14) yes
+Fe2 O5 O3 5_655 5_655 33.74(6) yes
+Fe2 O5 O3 5_655 3_555 114.60(14) yes
+Fe2 O5 O3 5_655 7_655 33.74(6) yes
+Fe2 O5 O5 5_655 5_655 55.41(14) yes
+Fe2 O5 O5 5_655 2_555 83.6(3) yes
+Fe2 O5 Fe2 2_555 . 166.91(18) yes
+Fe2 O5 Fe2 2_555 5_655 88.79(14) yes
+Fe2 O5 Fe2 2_555 2_655 168.73(16) yes
+Fe2 O5 Fe2 2_555 6_455 71.24(11) yes
+Fe2 O5 Ca2 2_555 . 76.12(9) yes
+Fe2 O5 Ca2 2_555 3_555 76.12(9) yes
+Fe2 O5 O3 2_555 . 135.96(9) yes
+Fe2 O5 O3 2_555 5_655 85.01(9) yes
+Fe2 O5 O3 2_555 3_555 135.96(9) yes
+Fe2 O5 O3 2_555 7_655 85.01(9) yes
+Fe2 O5 O5 2_555 5_655 144.19(18) yes
+Fe2 O5 O5 2_555 2_555 5.2(3) yes
+Fe2 O5 Fe2 2_655 . 1.82(4) yes
+Fe2 O5 Fe2 2_655 5_655 102.48(16) yes
+Fe2 O5 Fe2 2_655 2_555 168.73(16) yes
+Fe2 O5 Fe2 2_655 6_455 120.02(17) yes
+Fe2 O5 Ca2 2_655 . 100.03(9) yes
+Fe2 O5 Ca2 2_655 3_555 100.03(9) yes
+Fe2 O5 O3 2_655 . 38.43(6) yes
+Fe2 O5 O3 2_655 5_655 104.33(11) yes
+Fe2 O5 O3 2_655 3_555 38.43(6) yes
+Fe2 O5 O3 2_655 7_655 104.33(11) yes
+Fe2 O5 O5 2_655 5_655 47.07(12) yes
+Fe2 O5 O5 2_655 2_555 174.0(4) yes
+Fe2 O5 Fe2 6_455 . 121.85(19) yes
+Fe2 O5 Fe2 6_455 5_655 17.54(4) yes
+Fe2 O5 Fe2 6_455 2_555 71.24(11) yes
+Fe2 O5 Fe2 6_455 2_655 120.02(17) yes
+Fe2 O5 Ca2 6_455 . 102.67(10) yes
+Fe2 O5 Ca2 6_455 3_555 102.67(10) yes
+Fe2 O5 O3 6_455 . 127.66(13) yes
+Fe2 O5 O3 6_455 5_655 35.53(6) yes
+Fe2 O5 O3 6_455 3_555 127.66(13) yes
+Fe2 O5 O3 6_455 7_655 35.53(6) yes
+Fe2 O5 O5 6_455 5_655 72.95(15) yes
+Fe2 O5 O5 6_455 2_555 66.0(3) yes
+Ca2 O5 Ca2 . 3_555 133.53(17) yes
+Ca2 O5 O3 . . 61.65(6) yes
+Ca2 O5 O3 . 5_655 138.19(14) yes
+Ca2 O5 O3 . 3_555 124.65(14) yes
+Ca2 O5 O3 . 7_655 74.49(7) yes
+Ca2 O5 O5 . 5_655 112.20(9) yes
+Ca2 O5 O5 . 2_555 77.85(13) yes
+Ca2 O5 Ca2 3_555 . 133.53(17) yes
+Ca2 O5 O3 3_555 . 124.65(14) yes
+Ca2 O5 O3 3_555 5_655 74.49(7) yes
+Ca2 O5 O3 3_555 3_555 61.65(6) yes
+Ca2 O5 O3 3_555 7_655 138.19(14) yes
+Ca2 O5 O5 3_555 5_655 112.20(9) yes
+Ca2 O5 O5 3_555 2_555 77.85(13) yes
+O3 O5 O3 . 5_655 135.10(14) yes
+O3 O5 O3 . 3_555 69.18(10) yes
+O3 O5 O3 . 7_655 94.74(8) yes
+O3 O5 O5 . 5_655 69.62(12) yes
+O3 O5 O5 . 2_555 138.80(19) yes
+O3 O5 O3 5_655 . 135.10(14) yes
+O3 O5 O3 5_655 3_555 94.74(8) yes
+O3 O5 O3 5_655 7_655 66.88(10) yes
+O3 O5 O5 5_655 5_655 65.48(11) yes
+O3 O5 O5 5_655 2_555 80.7(3) yes
+O3 O5 O3 3_555 . 69.18(10) yes
+O3 O5 O3 3_555 5_655 94.74(8) yes
+O3 O5 O3 3_555 7_655 135.10(14) yes
+O3 O5 O5 3_555 5_655 69.62(12) yes
+O3 O5 O5 3_555 2_555 138.80(19) yes
+O3 O5 O3 7_655 . 94.74(8) yes
+O3 O5 O3 7_655 5_655 66.88(10) yes
+O3 O5 O3 7_655 3_555 135.10(14) yes
+O3 O5 O5 7_655 5_655 65.48(11) yes
+O3 O5 O5 7_655 2_555 80.7(3) yes
+O5 O5 O5 5_655 2_555 139.0(4) yes
+O5 O5 O5 2_555 5_655 139.0(4) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Fe1 O1 1_655 1.9235(4) yes
+Fe1 O1 2_555 1.9235(4) yes
+Fe1 O2 1_655 1.9364(3) yes
+Fe1 O2 2_555 1.9364(3) yes
+Fe1 O3 . 2.175(3) yes
+Fe1 O4 . 1.903(3) yes
+Fe2 Fe2 5_655 2.9020(9) yes
+Fe2 Fe2 2_655 0.5791(8) yes
+Fe2 O3 . 1.821(2) yes
+Fe2 O3 3_555 1.821(2) yes
+Fe2 O5 . 1.918(4) yes
+Fe2 O5 5_655 1.755(4) yes
+Fe2 O5 2_555 2.884(4) yes
+Fe2 O5 2_655 2.493(4) yes
+Fe2 O5 6_555 1.909(4) yes
+Ca1 O1 . 2.6901(17) yes
+Ca1 O1 2_555 2.6901(17) yes
+Ca1 O2 . 2.5004(14) yes
+Ca1 O2 2_555 2.5004(14) yes
+Ca1 O4 1_455 2.6969(3) yes
+Ca1 O4 . 2.6969(3) yes
+Ca1 O4 13_655 2.256(3) yes
+Ca1 O4 7_655 2.404(2) yes
+Ca2 O1 . 2.4388(13) yes
+Ca2 O1 2_555 2.4388(13) yes
+Ca2 O2 . 2.5288(16) yes
+Ca2 O2 2_555 2.5288(16) yes
+Ca2 O3 1_455 2.7242(5) yes
+Ca2 O3 . 2.7242(5) yes
+Ca2 O3 7_656 2.315(2) yes
+Ca2 O5 . 2.3108(16) yes
+Ca2 O5 2_555 2.3108(16) yes
+O1 O1 2_455 2.6755 yes
+O1 O1 2_555 2.6755 yes
+O1 O2 1_554 2.7729(4) yes
+O1 O2 . 2.7729(4) yes
+O1 O3 1_455 2.848(3) yes
+O1 O3 7_655 2.848(3) yes
+O1 O4 1_455 2.785(3) yes
+O1 O4 7_655 2.785(3) yes
+O2 O2 2_455 2.6755 yes
+O2 O2 2_555 2.6755 yes
+O2 O3 1_455 2.796(3) yes
+O2 O3 7_656 2.796(3) yes
+O2 O4 1_455 2.793(3) yes
+O2 O4 7_656 2.793(3) yes
+O3 O5 . 2.910(3) yes
+O3 O5 5_655 2.998(4) yes
+O3 O5 2_655 2.910(3) yes
+O3 O5 6_555 2.998(4) yes
+O5 O5 5_655 2.257(5) yes
+O5 O5 2_555 0.973(5) yes

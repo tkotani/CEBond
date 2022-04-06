@@ -1,0 +1,264 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 22:30:07 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176789 $
+#$URL: svn://www.crystallography.net/cod/cif/2/22/60/2226008.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2226008
+loop_
+_publ_author_name
+'Le Bail, Armel'
+_publ_section_title
+;
+ Dilead(II) chromium(III) heptafluoride
+;
+_journal_coeditor_code           WM2317
+_journal_issue                   5
+_journal_name_full               'Acta Crystallographica Section E'
+_journal_page_first              i32
+_journal_page_last               i33
+_journal_paper_doi               10.1107/S1600536810011608
+_journal_volume                  66
+_journal_year                    2010
+_chemical_formula_iupac          'Pb2 Cr F7'
+_chemical_formula_moiety         'Cr F6 3-, F Pb2 3+'
+_chemical_formula_structural     'Pb2 Cr F7'
+_chemical_formula_sum            'Cr F7 Pb2'
+_chemical_formula_weight         599.40
+_chemical_name_common            'Dilead chromium heptafluoride'
+_chemical_name_systematic
+;
+Dilead(II) chromium(III) heptafluoride
+;
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 91.197(10)
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   5.4626(7)
+_cell_length_b                   11.2085(15)
+_cell_length_c                   9.5738(11)
+_cell_measurement_reflns_used    40
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      35
+_cell_measurement_theta_min      2.8
+_cell_volume                     586.05(13)
+_computing_cell_refinement       '<i>STADI4</i> (Stoe & Cie, 1998)'
+_computing_data_collection       '<i>STADI4</i> (Stoe & Cie, 1998)'
+_computing_data_reduction        'X-RED (Stoe & Cie, 1998)'
+_computing_molecular_graphics
+'DIAMOND (Brandenburg, 2005) and <i>ORTEP-3</i> (Farrugia, 1997)'
+_computing_publication_material  '<i>publCIF</i> (Westrip, 2010)'
+_computing_structure_refinement  'SHELXL97 (Sheldrick, 2008)'
+_computing_structure_solution    'SHELXS97 (Sheldrick, 2008)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measured_fraction_theta_full 0.972
+_diffrn_measured_fraction_theta_max 0.972
+_diffrn_measurement_device_type  'Siemens AED2'
+_diffrn_measurement_method       '2\q/\w scans'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71069
+_diffrn_reflns_av_R_equivalents  0.0406
+_diffrn_reflns_av_sigmaI/netI    0.0306
+_diffrn_reflns_limit_h_max       8
+_diffrn_reflns_limit_h_min       -8
+_diffrn_reflns_limit_k_max       18
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       15
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            6770
+_diffrn_reflns_theta_full        35.00
+_diffrn_reflns_theta_max         35.00
+_diffrn_reflns_theta_min         2.80
+_diffrn_standards_decay_%        15
+_diffrn_standards_interval_time  120
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    59.610
+_exptl_absorpt_correction_T_max  0.321
+_exptl_absorpt_correction_T_min  0.011
+_exptl_absorpt_correction_type   gaussian
+_exptl_absorpt_process_details   '(SHELX76; Sheldrick, 2008)'
+_exptl_crystal_colour            green
+_exptl_crystal_density_diffrn    6.793
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       platelet
+_exptl_crystal_F_000             1004
+_exptl_crystal_size_max          0.122
+_exptl_crystal_size_mid          0.065
+_exptl_crystal_size_min          0.008
+_refine_diff_density_max         3.171
+_refine_diff_density_min         -2.197
+_refine_ls_extinction_coef       0.0171(7)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     'SHELXL97 (Sheldrick, 2008)'
+_refine_ls_goodness_of_fit_ref   1.636
+_refine_ls_matrix_type           full
+_refine_ls_number_constraints    0
+_refine_ls_number_parameters     93
+_refine_ls_number_reflns         2506
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.636
+_refine_ls_R_factor_all          0.0526
+_refine_ls_R_factor_gt           0.0363
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+;
+calc w=[exp(2.00(sin\q/\l)^2^)]/[\s^2^(Fo^2^)+(0.0528P)^2^]
+where P = 0.33333Fo^2^ + 0.66667Fc^2^
+;
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0796
+_refine_ls_wR_factor_ref         0.0844
+_reflns_number_gt                2082
+_reflns_number_total             2506
+_reflns_threshold_expression     I>2\s(I)
+_cod_data_source_file            wm2317.cif
+_cod_data_source_block           I
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_geom_bond_publ_flag' value 'Y' changed to 'y' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (21 time).
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+;
+_cod_original_sg_symbol_H-M      'P 21/c'
+_cod_database_code               2226008
+_cod_database_fobs_code          2226008
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'x, -y+1/2, z+1/2'
+'-x, -y, -z'
+'-x, y-1/2, -z-1/2'
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Pb Pb1 0.21926(4) 0.81248(3) 0.05527(3) 0.01669(9) Uani d . 1 . .
+Pb Pb2 0.23992(4) 0.43908(2) 0.13531(3) 0.01410(9) Uani d . 1 . .
+Cr Cr 0.30002(17) 0.13284(9) 0.20773(11) 0.01105(17) Uani d . 1 . .
+F F1 0.1204(9) 0.6150(4) 0.0059(6) 0.0212(9) Uani d . 1 . .
+F F2 0.5511(9) 0.0321(5) 0.1456(6) 0.0240(10) Uani d . 1 . .
+F F3 0.3978(9) 0.0941(5) 0.3938(6) 0.0233(10) Uani d . 1 . .
+F F4 0.2089(10) 0.1752(6) 0.0208(6) 0.0253(10) Uani d . 1 . .
+F F5 0.0826(9) -0.0003(5) 0.1978(7) 0.0251(11) Uani d . 1 . .
+F F6 0.5281(10) 0.2622(6) 0.2141(8) 0.0307(13) Uani d . 1 . .
+F F7 0.0430(8) 0.2415(5) 0.2594(5) 0.0190(8) Uani d . 1 . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Pb1 0.01615(12) 0.01664(12) 0.01736(14) -0.00212(8) 0.00190(8) -0.00028(8)
+Pb2 0.01326(11) 0.01521(11) 0.01376(12) -0.00018(7) -0.00137(7) 0.00039(8)
+Cr 0.0087(3) 0.0131(4) 0.0113(4) 0.0010(3) 0.0002(3) 0.0013(3)
+F1 0.0202(18) 0.0153(17) 0.028(3) -0.0008(16) -0.0086(17) 0.0004(17)
+F2 0.023(2) 0.032(2) 0.018(2) 0.0174(19) 0.0007(17) -0.0013(18)
+F3 0.023(2) 0.037(3) 0.010(2) 0.0123(19) -0.0022(16) 0.0025(17)
+F4 0.026(2) 0.039(3) 0.011(2) 0.010(2) 0.0022(17) 0.0067(19)
+F5 0.023(2) 0.0195(19) 0.033(3) -0.0058(18) 0.001(2) -0.0061(19)
+F6 0.019(2) 0.024(2) 0.049(4) -0.0056(19) 0.000(2) 0.002(2)
+F7 0.0140(16) 0.022(2) 0.021(2) 0.0084(16) 0.0022(15) -0.0009(16)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+Pb2+ Pb -4.1330 10.1020
+Cr3+ Cr 0.2840 0.6240
+F1- F 0.0140 0.0100
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+F2 Cr F3 . . 88.1(2) ?
+F2 Cr F4 . . 91.8(2) ?
+F3 Cr F4 . . 178.3(3) ?
+F2 Cr F5 . . 88.4(3) ?
+F3 Cr F5 . . 91.7(3) ?
+F4 Cr F5 . . 89.9(3) ?
+F2 Cr F6 . . 89.2(3) ?
+F3 Cr F6 . . 88.5(3) ?
+F4 Cr F6 . . 89.9(3) ?
+F5 Cr F6 . . 177.6(3) ?
+F2 Cr F7 . . 176.1(2) ?
+F3 Cr F7 . . 95.5(2) ?
+F4 Cr F7 . . 84.6(2) ?
+F5 Cr F7 . . 92.9(2) ?
+F6 Cr F7 . . 89.4(3) ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Pb1 F1 . 2.324(5) y
+Pb1 F7 4_566 2.437(5) y
+Pb1 F4 3_565 2.439(5) y
+Pb1 F5 1_565 2.620(6) y
+Pb1 F6 4_666 2.640(7) y
+Pb1 F2 3_665 2.899(6) y
+Pb1 F6 3_665 3.067(7) y
+Pb2 F1 . 2.412(5) y
+Pb2 F1 3_565 2.441(4) y
+Pb2 F5 4_566 2.497(6) y
+Pb2 F3 2_554 2.512(6) y
+Pb2 F2 4_666 2.586(5) y
+Pb2 F6 . 2.632(6) y
+Pb2 F3 4_666 2.653(5) y
+Pb2 F7 . 2.743(6) y
+Cr F2 . 1.883(5) y
+Cr F3 . 1.900(5) y
+Cr F4 . 1.907(5) y
+Cr F5 . 1.909(5) y
+Cr F6 . 1.912(6) y
+Cr F7 . 1.931(4) y
+F2 F3 . 2.630(8) ?
+F2 F5 . 2.643(8) ?
+F2 F6 . 2.665(9) ?
+F2 F4 . 2.721(7) ?
+F3 F6 . 2.659(9) ?
+F3 F5 . 2.734(8) ?
+F3 F7 . 2.835(6) ?
+F4 F7 . 2.584(8) ?
+F4 F5 . 2.696(8) ?
+F4 F6 . 2.698(9) ?
+F5 F7 . 2.784(8) ?
+F6 F7 . 2.704(7) ?

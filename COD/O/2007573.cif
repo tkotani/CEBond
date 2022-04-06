@@ -1,0 +1,230 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/75/2007573.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2007573
+loop_
+_publ_author_name
+'Amow, Gisele'
+'Greedan, J. E.'
+_publ_section_title
+;
+ The Layered Perovskite K~2~Nd~2~Ti~3~O~10~
+;
+_journal_issue                   8
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              1053
+_journal_page_last               1055
+_journal_paper_doi               10.1107/S0108270198002145
+_journal_volume                  54
+_journal_year                    1998
+_chemical_formula_sum            'K2 Nd2 O10 Ti3'
+_chemical_formula_weight         670.38
+_space_group_IT_number           139
+_symmetry_cell_setting           tetragonal
+_symmetry_space_group_name_Hall  '-I 4 2'
+_symmetry_space_group_name_H-M   'I 4/m m m'
+_audit_creation_method           SHELXL
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            2
+_cell_length_a                   3.85880(10)
+_cell_length_b                   3.85880(10)
+_cell_length_c                   29.6561(7)
+_cell_measurement_reflns_used    4039
+_cell_measurement_temperature    300(2)
+_cell_measurement_theta_max      38.57
+_cell_measurement_theta_min      5.67
+_cell_volume                     441.589(19)
+_computing_cell_refinement       'SAINT (Siemens, 1996)'
+_computing_data_collection       'SMART (Siemens, 1996)'
+_computing_data_reduction        SAINT
+_computing_molecular_graphics    'XP in SHELXL93'
+_computing_publication_material  SHELXL93
+_computing_structure_refinement  'SHELXL93 (Sheldrick, 1993b)'
+_computing_structure_solution    'SHELXTL93 (Sheldrick, 1993a)'
+_diffrn_ambient_temperature      300(2)
+_diffrn_measurement_device
+' P4 Siemens diffractometer with a Siemens SMART 1 K CCD area detector'
+_diffrn_measurement_method       'Area detector'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.072
+_diffrn_reflns_av_sigmaI/netI    0.027
+_diffrn_reflns_limit_h_max       4
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       6
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       51
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            4977
+_diffrn_reflns_theta_max         38.57
+_diffrn_reflns_theta_min         5.67
+_diffrn_standards_decay_%        0
+_exptl_absorpt_coefficient_mu    15.129
+_exptl_absorpt_correction_T_max  0.912
+_exptl_absorpt_correction_T_min  0.114
+_exptl_absorpt_correction_type   'Analytical (Sheldrick, 1996)'
+_exptl_crystal_colour            Colourless
+_exptl_crystal_density_diffrn    5.042
+_exptl_crystal_density_meas      ?
+_exptl_crystal_density_method    None
+_exptl_crystal_description       'Thin plate'
+_exptl_crystal_F_000             608
+_exptl_crystal_size_max          0.356
+_exptl_crystal_size_mid          0.194
+_exptl_crystal_size_min          0.006
+_refine_diff_density_max         1.883
+_refine_diff_density_min         -2.801
+_refine_ls_extinction_coef       none
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_all   1.129
+_refine_ls_goodness_of_fit_obs   1.130
+_refine_ls_hydrogen_treatment    none
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     26
+_refine_ls_number_reflns         436
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.146
+_refine_ls_restrained_S_obs      1.130
+_refine_ls_R_factor_all          0.028
+_refine_ls_R_factor_obs          .026
+_refine_ls_shift/esd_max         0.000
+_refine_ls_shift/esd_mean        0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w = 1/[\s^2^(Fo^2^)+(0.0315P)^2^+4.0449P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         0.067
+_refine_ls_wR_factor_obs         .064
+_reflns_number_observed          416
+_reflns_number_total             437
+_reflns_observed_criterion       I>-3\s(I)
+_cod_data_source_file            ta1188.cif
+_cod_data_source_block           ta1188
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_symmetry_cell_setting' value 'Tetragonal' changed to 'tetragonal'
+according to '/home/saulius/struct/CIF-dictionaries/cif_core.dic'
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+
+The following automatic conversions were performed:
+
+'_exptl_crystal_density_meas' value 'None' was changed to '?' - the
+value is perceived as not measured.
+
+Automatic conversion script
+Id: cif_fix_values 3008 2015-01-20 13:52:24Z robertas 
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'calc w =
+1/[\s^2^(Fo^2^)+(0.0315P)^2^+4.0449P] where P=(Fo^2^+2Fc^2^)/3' was
+changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to 'w =
+1/[\s^2^(Fo^2^)+(0.0315P)^2^+4.0449P] where P=(Fo^2^+2Fc^2^)/3'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        441.59(2)
+_cod_original_sg_symbol_H-M      'I 4 /m m m'
+_cod_original_formula_sum        'K2 Nd2 Ti3 O10'
+_cod_database_code               2007573
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, -y, z'
+'-y, x, z'
+'y, -x, z'
+'-x, y, -z'
+'x, -y, -z'
+'y, x, -z'
+'-y, -x, -z'
+'x+1/2, y+1/2, z+1/2'
+'-x+1/2, -y+1/2, z+1/2'
+'-y+1/2, x+1/2, z+1/2'
+'y+1/2, -x+1/2, z+1/2'
+'-x+1/2, y+1/2, -z+1/2'
+'x+1/2, -y+1/2, -z+1/2'
+'y+1/2, x+1/2, -z+1/2'
+'-y+1/2, -x+1/2, -z+1/2'
+'-x, -y, -z'
+'x, y, -z'
+'y, -x, -z'
+'-y, x, -z'
+'x, -y, z'
+'-x, y, z'
+'-y, -x, z'
+'y, x, z'
+'-x+1/2, -y+1/2, -z+1/2'
+'x+1/2, y+1/2, -z+1/2'
+'y+1/2, -x+1/2, -z+1/2'
+'-y+1/2, x+1/2, -z+1/2'
+'x+1/2, -y+1/2, z+1/2'
+'-x+1/2, y+1/2, z+1/2'
+'-y+1/2, -x+1/2, z+1/2'
+'y+1/2, x+1/2, z+1/2'
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Nd1 .00996(12) .00996(12) .00921(14) .000 .000 .000
+Ti1 .0048(3) .0048(3) .0065(4) .000 .000 .000
+Ti2 .0050(2) .0050(2) .0076(3) .000 .000 .000
+K1 .0168(4) .0168(4) .0170(5) .000 .000 .000
+O1 .005(3) .012(3) .072(6) .000 .000 .000
+O2 .075(5) .075(5) .003(2) .000 .000 .000
+O3 .0112(15) .0070(13) .034(2) .000 .000 .000
+O4 .027(2) .027(2) .006(2) .000 .000 .000
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+_atom_site_disorder_group
+_atom_site_type_symbol
+Nd1 .5000 .5000 .072460(10) .00971(10) Uani d S 1 . Nd
+Ti1 0 0 0 .0054(2) Uani d S 1 . Ti
+Ti2 0 0 .14066(3) .0059(2) Uani d S 1 . Ti
+K1 .5000 .5000 .20832(6) .0169(3) Uani d S 1 . K
+O1 .5000 .111(2) 0 .030(2) Uani d SP .50 . O
+O2 0 0 .0634(2) .051(3) Uani d S 1 . O
+O3 0 .5000 .1269(2) .0176(7) Uani d S 1 . O
+O4 0 0 .1991(2) .0202(11) Uani d S 1 . O
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+K K 0.2009 0.2494 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ti Ti 0.2776 0.4457 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Nd Nd -0.1943 3.0179 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'

@@ -1,0 +1,582 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 02:53:41 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176768 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/29/2102936.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2102936
+loop_
+_publ_author_name
+'Nuss, J\"urgen'
+'Ali, Naveed Zafar'
+'Jansen, Martin'
+_publ_section_title
+;
+ Structure of RbFeO~2~, refined from a reticular pseudomerohedrally
+ twinned crystal with six domains
+;
+_journal_coeditor_code           BP5004
+_journal_issue                   5
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              719
+_journal_page_last               725
+_journal_paper_doi               10.1107/S0108768107037147
+_journal_volume                  63
+_journal_year                    2007
+_chemical_formula_moiety         'Fe O2, Rb'
+_chemical_formula_sum            'Fe O2 Rb'
+_chemical_formula_weight         173.32
+_chemical_name_systematic        'rubidium iron dioxide'
+_space_group_IT_number           61
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2ac 2ab'
+_symmetry_space_group_name_H-M   'P b c a'
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            16
+_cell_length_a                   5.7568(7)
+_cell_length_b                   11.5136(13)
+_cell_length_c                   16.2827(18)
+_cell_measurement_reflns_used    9582
+_cell_measurement_temperature    298(2)
+_cell_measurement_theta_max      36.3
+_cell_measurement_theta_min      3.5
+_cell_volume                     1079.2(2)
+_computing_cell_refinement       'SAINT32 (Bruker AXS)'
+_computing_data_collection       'APEX Suite (Bruker AXS)'
+_computing_data_reduction        'SAINT32 (Bruker AXS)'
+_computing_molecular_graphics    'ATOMS (Dowty, 2005)'
+_computing_publication_material  CIFTAB
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      298(2)
+_diffrn_measured_fraction_theta_full 0.990
+_diffrn_measured_fraction_theta_max 0.990
+_diffrn_measurement_device       '3-circle goniometer'
+_diffrn_measurement_device_type  'SMART APEX II, Bruker AXS'
+_diffrn_measurement_method       \wscans
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0000
+_diffrn_reflns_av_sigmaI/netI    0.0276
+_diffrn_reflns_limit_h_max       9
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       19
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       27
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            89193
+_diffrn_reflns_theta_full        37.33
+_diffrn_reflns_theta_max         37.33
+_diffrn_reflns_theta_min         2.50
+_diffrn_standards_decay_%        0
+_diffrn_standards_interval_count 0
+_diffrn_standards_interval_time  0
+_diffrn_standards_number         0
+_exptl_absorpt_coefficient_mu    23.209
+_exptl_absorpt_correction_T_max  0.01100
+_exptl_absorpt_correction_T_min  0.00462
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details   'TWINABS (G. Sheldrick 2007)'
+_exptl_crystal_colour            black
+_exptl_crystal_density_diffrn    4.267
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       block
+_exptl_crystal_F_000             1264
+_exptl_crystal_size_max          0.25
+_exptl_crystal_size_mid          0.20
+_exptl_crystal_size_min          0.20
+_refine_diff_density_max         1.700
+_refine_diff_density_min         -1.864
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   1.165
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     78
+_refine_ls_number_reflns         14009
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.165
+_refine_ls_R_factor_all          0.1156
+_refine_ls_R_factor_gt           0.0529
+_refine_ls_shift/su_max          0.002
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0154P)^2^+5.2299P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.1074
+_refine_ls_wR_factor_ref         0.1256
+_reflns_number_gt                8087
+_reflns_number_total             14009
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            bp5004.cif
+_cod_data_source_block           rbfeo2
+_cod_database_code               2102936
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x+1/2, -y, z+1/2'
+'-x, y+1/2, -z+1/2'
+'x+1/2, -y+1/2, -z'
+'-x, -y, -z'
+'x-1/2, y, -z-1/2'
+'x, -y-1/2, z-1/2'
+'-x-1/2, y-1/2, z'
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_occupancy
+Rb Rb1 0.75227(7) 0.00989(4) 0.06235(3) 0.02215(8) Uani d 1
+Rb Rb2 0.29890(7) 0.25920(3) 0.31403(3) 0.02196(8) Uani d 1
+Fe Fe1 0.25374(6) 0.00565(4) 0.18853(4) 0.00900(7) Uani d 1
+Fe Fe2 0.78355(8) 0.25956(4) 0.43671(4) 0.01021(8) Uani d 1
+O O1 0.3035(7) 0.1540(3) 0.1481(2) 0.0320(7) Uani d 1
+O O2 0.1761(5) 0.1004(2) 0.60649(17) 0.0215(5) Uani d 1
+O O3 0.0764(4) 0.2144(3) 0.98160(19) 0.0279(7) Uani d 1
+O O4 0.9464(4) 0.9829(3) 0.22187(18) 0.0229(6) Uani d 1
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Rb1 0.02054(17) 0.0244(2) 0.0215(2) -0.00155(12) -0.00129(13) 0.00514(16)
+Rb2 0.02064(16) 0.02243(17) 0.02281(18) 0.00071(13) -0.00151(16) -0.00330(15)
+Fe1 0.00632(18) 0.0103(2) 0.0104(2) -0.00011(12) -0.0010(2) 0.00111(15)
+Fe2 0.00976(17) 0.0101(2) 0.0108(2) 0.00007(15) 0.00079(17) 0.00023(17)
+O1 0.0516(19) 0.0182(13) 0.0262(15) -0.0023(14) -0.0013(16) 0.0087(12)
+O2 0.0201(13) 0.0202(12) 0.0242(14) -0.0057(10) -0.0037(12) 0.0094(10)
+O3 0.0140(12) 0.0390(16) 0.0306(15) 0.0062(11) -0.0115(12) -0.0180(13)
+O4 0.0073(11) 0.0429(16) 0.0185(15) -0.0022(11) 0.0036(10) -0.0026(12)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Fe Fe 0.3463 0.8444 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Rb Rb -0.9393 2.9676 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+O4 Rb1 O3 1_545 5_656 89.66(8)
+O4 Rb1 O2 1_545 2_554 93.47(8)
+O3 Rb1 O2 5_656 2_554 87.68(8)
+O4 Rb1 O2 1_545 6_656 160.18(8)
+O3 Rb1 O2 5_656 6_656 97.83(8)
+O2 Rb1 O2 2_554 6_656 105.09(7)
+O4 Rb1 O3 1_545 1_654 102.77(7)
+O3 Rb1 O3 5_656 1_654 110.62(7)
+O2 Rb1 O3 2_554 1_654 155.29(7)
+O2 Rb1 O3 6_656 1_654 57.41(7)
+O4 Rb1 Fe2 1_545 7_565 128.46(6)
+O3 Rb1 Fe2 5_656 7_565 122.95(7)
+O2 Rb1 Fe2 2_554 7_565 123.34(6)
+O2 Rb1 Fe2 6_656 7_565 33.58(5)
+O3 Rb1 Fe2 1_654 7_565 32.56(5)
+O4 Rb1 O1 1_545 . 88.67(8)
+O3 Rb1 O1 5_656 . 144.41(8)
+O2 Rb1 O1 2_554 . 56.97(8)
+O2 Rb1 O1 6_656 . 95.59(8)
+O3 Rb1 O1 1_654 . 104.40(7)
+Fe2 Rb1 O1 7_565 . 84.52(5)
+O4 Rb1 O3 1_545 4_556 114.23(8)
+O3 Rb1 O3 5_656 4_556 153.18(11)
+O2 Rb1 O3 2_554 4_556 102.11(7)
+O2 Rb1 O3 6_656 4_556 55.63(7)
+O3 Rb1 O3 1_654 4_556 54.28(3)
+Fe2 Rb1 O3 7_565 4_556 31.92(5)
+O1 Rb1 O3 . 4_556 53.21(7)
+O4 Rb1 Rb1 1_545 5_755 101.65(6)
+O3 Rb1 Rb1 5_656 5_755 61.01(6)
+O2 Rb1 Rb1 2_554 5_755 144.69(6)
+O2 Rb1 Rb1 6_656 5_755 66.89(6)
+O3 Rb1 Rb1 1_654 5_755 49.61(5)
+Fe2 Rb1 Rb1 7_565 5_755 69.816(16)
+O1 Rb1 Rb1 . 5_755 153.40(6)
+O3 Rb1 Rb1 4_556 5_755 100.40(5)
+O4 Rb1 Rb2 1_545 6_656 62.40(6)
+O3 Rb1 Rb2 5_656 6_656 148.80(6)
+O2 Rb1 Rb2 2_554 6_656 106.49(5)
+O2 Rb1 Rb2 6_656 6_656 104.74(5)
+O3 Rb1 Rb2 1_654 6_656 66.42(5)
+Fe2 Rb1 Rb2 7_565 6_656 72.492(18)
+O1 Rb1 Rb2 . 6_656 54.54(6)
+O3 Rb1 Rb2 4_556 6_656 51.86(5)
+Rb1 Rb1 Rb2 5_755 6_656 108.796(19)
+O4 Rb1 Fe1 1_545 . 77.67(5)
+O3 Rb1 Fe1 5_656 . 114.48(7)
+O2 Rb1 Fe1 2_554 . 31.59(5)
+O2 Rb1 Fe1 6_656 . 115.03(6)
+O3 Rb1 Fe1 1_654 . 134.90(5)
+Fe2 Rb1 Fe1 7_565 . 114.164(18)
+O1 Rb1 Fe1 . . 31.03(5)
+O3 Rb1 Fe1 4_556 . 83.89(5)
+Rb1 Rb1 Fe1 5_755 . 175.48(2)
+Rb2 Rb1 Fe1 6_656 . 74.940(14)
+O4 Rb1 Rb2 1_545 3_645 54.75(6)
+O3 Rb1 Rb2 5_656 3_645 55.43(7)
+O2 Rb1 Rb2 2_554 3_645 54.76(6)
+O2 Rb1 Rb2 6_656 3_645 143.27(5)
+O3 Rb1 Rb2 1_654 3_645 149.64(5)
+Fe2 Rb1 Rb2 7_565 3_645 176.784(18)
+O1 Rb1 Rb2 . 3_645 95.86(5)
+O3 Rb1 Rb2 4_556 3_645 148.90(5)
+Rb1 Rb1 Rb2 5_755 3_645 110.16(2)
+Rb2 Rb1 Rb2 6_656 3_645 110.33(2)
+Fe1 Rb1 Rb2 . 3_645 65.738(13)
+O1 Rb2 O4 . 3_645 100.25(9)
+O1 Rb2 O2 . 4_556 127.41(9)
+O4 Rb2 O2 3_645 4_556 87.84(7)
+O1 Rb2 O3 . 7_565 150.07(9)
+O4 Rb2 O3 3_645 7_565 83.68(8)
+O2 Rb2 O3 4_556 7_565 82.15(7)
+O1 Rb2 O1 . 6_556 91.67(10)
+O4 Rb2 O1 3_645 6_556 86.68(8)
+O2 Rb2 O1 4_556 6_556 140.87(8)
+O3 Rb2 O1 7_565 6_556 58.74(7)
+O1 Rb2 O1 . 6_656 90.73(10)
+O4 Rb2 O1 3_645 6_656 142.14(8)
+O2 Rb2 O1 4_556 6_656 57.67(7)
+O3 Rb2 O1 7_565 6_656 104.35(8)
+O1 Rb2 O1 6_556 6_656 129.44(10)
+O1 Rb2 O4 . 8_755 84.32(8)
+O4 Rb2 O4 3_645 8_755 56.86(5)
+O2 Rb2 O4 4_556 8_755 57.16(7)
+O3 Rb2 O4 7_565 8_755 121.04(8)
+O1 Rb2 O4 6_556 8_755 141.62(8)
+O1 Rb2 O4 6_656 8_755 88.85(7)
+O1 Rb2 O4 . 6_546 56.57(8)
+O4 Rb2 O4 3_645 6_546 154.64(9)
+O2 Rb2 O4 4_556 6_546 113.84(7)
+O3 Rb2 O4 7_565 6_546 111.13(8)
+O1 Rb2 O4 6_556 6_546 84.18(7)
+O1 Rb2 O4 6_656 6_546 56.24(7)
+O4 Rb2 O4 8_755 6_546 123.13(2)
+O1 Rb2 Fe2 . . 121.63(8)
+O4 Rb2 Fe2 3_645 . 119.74(6)
+O2 Rb2 Fe2 4_556 . 32.84(5)
+O3 Rb2 Fe2 7_565 . 79.60(5)
+O1 Rb2 Fe2 6_556 . 128.38(6)
+O1 Rb2 Fe2 6_656 . 32.02(5)
+O4 Rb2 Fe2 8_755 . 84.44(5)
+O4 Rb2 Fe2 6_546 . 84.05(5)
+O1 Rb2 Fe1 . 8_665 78.48(6)
+O4 Rb2 Fe1 3_645 8_665 31.83(5)
+O2 Rb2 Fe1 4_556 8_665 83.00(5)
+O3 Rb2 Fe1 7_565 8_665 113.99(6)
+O1 Rb2 Fe1 6_556 8_665 110.22(6)
+O1 Rb2 Fe1 6_656 8_665 119.70(6)
+O4 Rb2 Fe1 8_755 8_665 31.60(4)
+O4 Rb2 Fe1 6_546 8_665 133.57(5)
+Fe2 Rb2 Fe1 . 8_665 114.089(16)
+O1 Rb2 Rb1 . 6_556 100.89(6)
+O4 Rb2 Rb1 3_645 6_556 141.05(5)
+O2 Rb2 Rb1 4_556 6_556 104.37(5)
+O3 Rb2 Rb1 7_565 6_556 62.24(6)
+O1 Rb2 Rb1 6_556 6_556 60.42(6)
+O1 Rb2 Rb1 6_656 6_556 69.56(6)
+O4 Rb2 Rb1 8_755 6_556 157.71(5)
+O4 Rb2 Rb1 6_546 6_556 48.92(5)
+Fe2 Rb2 Rb1 . 6_556 74.325(14)
+Fe1 Rb2 Rb1 8_665 6_556 170.640(16)
+O1 Rb2 Rb1 . 3_655 148.79(6)
+O4 Rb2 Rb1 3_645 3_655 50.88(6)
+O2 Rb2 Rb1 4_556 3_655 51.25(5)
+O3 Rb2 Rb1 7_565 3_655 50.89(6)
+O1 Rb2 Rb1 6_556 3_655 97.29(6)
+O1 Rb2 Rb1 6_656 3_655 105.95(5)
+O4 Rb2 Rb1 8_755 3_655 70.16(5)
+O4 Rb2 Rb1 6_546 3_655 153.95(5)
+Fe2 Rb2 Rb1 . 3_655 74.634(15)
+Fe1 Rb2 Rb1 8_665 3_655 70.359(17)
+Rb1 Rb2 Rb1 6_556 3_655 109.55(2)
+O4 Fe1 O1 6_546 . 108.54(15)
+O4 Fe1 O2 6_546 2_554 110.10(13)
+O1 Fe1 O2 . 2_554 108.51(13)
+O4 Fe1 O4 6_546 1_445 108.56(7)
+O1 Fe1 O4 . 1_445 112.27(15)
+O2 Fe1 O4 2_554 1_445 108.85(13)
+O4 Fe1 Rb2 6_546 8_655 58.56(9)
+O1 Fe1 Rb2 . 8_655 164.90(11)
+O2 Fe1 Rb2 2_554 8_655 84.60(9)
+O4 Fe1 Rb2 1_445 8_655 68.63(9)
+O4 Fe1 Rb1 6_546 . 88.48(9)
+O1 Fe1 Rb1 . . 69.81(11)
+O2 Fe1 Rb1 2_554 . 54.03(9)
+O4 Fe1 Rb1 1_445 . 160.15(9)
+Rb2 Fe1 Rb1 8_655 . 114.851(15)
+O4 Fe1 Rb1 6_546 1_455 161.25(9)
+O1 Fe1 Rb1 . 1_455 84.68(12)
+O2 Fe1 Rb1 2_554 1_455 76.64(10)
+O4 Fe1 Rb1 1_445 1_455 53.08(9)
+Rb2 Fe1 Rb1 8_655 1_455 106.161(17)
+Rb1 Fe1 Rb1 . 1_455 108.95(2)
+O4 Fe1 Rb2 6_546 . 67.76(9)
+O1 Fe1 Rb2 . . 55.85(10)
+O2 Fe1 Rb2 2_554 . 159.10(9)
+O4 Fe1 Rb2 1_445 . 91.00(9)
+Rb2 Fe1 Rb2 8_655 . 109.50(2)
+Rb1 Fe1 Rb2 . . 105.215(15)
+Rb1 Fe1 Rb2 1_455 . 112.311(17)
+O4 Fe1 Rb2 6_546 3_645 60.06(9)
+O1 Fe1 Rb2 . 3_645 125.09(12)
+O2 Fe1 Rb2 2_554 3_645 50.07(9)
+O4 Fe1 Rb2 1_445 3_645 122.36(10)
+Rb2 Fe1 Rb2 8_655 3_645 57.708(13)
+Rb1 Fe1 Rb2 . 3_645 57.147(13)
+Rb1 Fe1 Rb2 1_455 3_645 123.460(19)
+Rb2 Fe1 Rb2 . 3_645 124.216(15)
+O4 Fe1 Rb2 6_546 6_556 120.93(10)
+O1 Fe1 Rb2 . 6_556 54.07(12)
+O2 Fe1 Rb2 2_554 6_556 128.90(10)
+O4 Fe1 Rb2 1_445 6_556 58.38(9)
+Rb2 Fe1 Rb2 8_655 6_556 123.388(15)
+Rb1 Fe1 Rb2 . 6_556 121.760(18)
+Rb1 Fe1 Rb2 1_455 6_556 55.921(14)
+Rb2 Fe1 Rb2 . 6_556 56.390(13)
+Rb2 Fe1 Rb2 3_645 6_556 178.72(3)
+O4 Fe1 Rb1 6_546 6_556 38.28(9)
+O1 Fe1 Rb1 . 6_556 110.15(10)
+O2 Fe1 Rb1 2_554 6_556 136.77(9)
+O4 Fe1 Rb1 1_445 6_556 73.09(9)
+Rb2 Fe1 Rb1 8_655 6_556 55.065(13)
+Rb1 Fe1 Rb1 . 6_556 125.700(19)
+Rb1 Fe1 Rb1 1_455 6_556 125.300(19)
+Rb2 Fe1 Rb1 . 6_556 54.439(13)
+Rb2 Fe1 Rb1 3_645 6_556 91.214(17)
+Rb2 Fe1 Rb1 6_556 6_556 90.016(16)
+O4 Fe1 Rb1 6_546 5_655 141.82(9)
+O1 Fe1 Rb1 . 5_655 71.75(10)
+O2 Fe1 Rb1 2_554 5_655 41.70(9)
+O4 Fe1 Rb1 1_445 5_655 106.03(9)
+Rb2 Fe1 Rb1 8_655 5_655 123.062(16)
+Rb1 Fe1 Rb1 . 5_655 54.972(15)
+Rb1 Fe1 Rb1 1_455 5_655 54.162(15)
+Rb2 Fe1 Rb1 . 5_655 127.427(16)
+Rb2 Fe1 Rb1 3_645 5_655 87.846(15)
+Rb2 Fe1 Rb1 6_556 5_655 90.934(15)
+Rb1 Fe1 Rb1 6_556 5_655 178.083(13)
+O1 Fe2 O3 6_656 6_657 113.02(16)
+O1 Fe2 O3 6_656 7_665 110.13(17)
+O3 Fe2 O3 6_657 7_665 110.17(5)
+O1 Fe2 O2 6_656 4_556 107.95(13)
+O3 Fe2 O2 6_657 4_556 107.38(13)
+O3 Fe2 O2 7_665 4_556 108.00(14)
+O1 Fe2 Rb1 6_656 7_566 168.98(10)
+O3 Fe2 Rb1 6_657 7_566 75.59(11)
+O3 Fe2 Rb1 7_665 7_566 71.44(11)
+O2 Fe2 Rb1 4_556 7_566 61.85(9)
+O1 Fe2 Rb2 6_656 . 67.28(12)
+O3 Fe2 Rb2 6_657 . 83.95(9)
+O3 Fe2 Rb2 7_665 . 164.79(9)
+O2 Fe2 Rb2 4_556 . 60.77(10)
+Rb1 Fe2 Rb2 7_566 . 108.189(17)
+O1 Fe2 Rb2 6_656 1_655 61.91(12)
+O3 Fe2 Rb2 6_657 1_655 158.52(9)
+O3 Fe2 Rb2 7_665 1_655 57.89(10)
+O2 Fe2 Rb2 4_556 1_655 93.76(9)
+Rb1 Fe2 Rb2 7_566 1_655 112.697(18)
+Rb2 Fe2 Rb2 . 1_655 110.45(2)
+O1 Fe2 Rb1 6_656 2_655 82.28(10)
+O3 Fe2 Rb1 6_657 2_655 48.58(9)
+O3 Fe2 Rb1 7_665 2_655 88.21(9)
+O2 Fe2 Rb1 4_556 2_655 155.46(9)
+Rb1 Fe2 Rb1 7_566 2_655 108.74(2)
+Rb2 Fe2 Rb1 . 2_655 105.899(16)
+Rb2 Fe2 Rb1 1_655 2_655 110.609(16)
+O1 Fe2 Rb1 6_656 3_755 116.37(12)
+O3 Fe2 Rb1 6_657 3_755 129.65(11)
+O3 Fe2 Rb1 7_665 3_755 42.66(9)
+O2 Fe2 Rb1 4_556 3_755 65.99(10)
+Rb1 Fe2 Rb1 7_566 3_755 56.914(17)
+Rb2 Fe2 Rb1 . 3_755 123.78(2)
+Rb2 Fe2 Rb1 1_655 3_755 55.879(13)
+Rb1 Fe2 Rb1 2_655 3_755 130.30(2)
+O1 Fe2 Rb1 6_656 6_656 58.64(11)
+O3 Fe2 Rb1 6_657 6_656 103.41(9)
+O3 Fe2 Rb1 7_665 6_656 59.76(10)
+O2 Fe2 Rb1 4_556 6_656 149.21(9)
+Rb1 Fe2 Rb1 7_566 6_656 127.66(2)
+Rb2 Fe2 Rb1 . 6_656 123.909(19)
+Rb2 Fe2 Rb1 1_655 6_656 55.503(12)
+Rb1 Fe2 Rb1 2_655 6_656 55.112(16)
+Rb1 Fe2 Rb1 3_755 6_656 93.976(14)
+O1 Fe2 Rb2 6_656 4_556 135.36(10)
+O3 Fe2 Rb2 6_657 4_556 44.39(10)
+O3 Fe2 Rb2 7_665 4_556 66.23(9)
+O2 Fe2 Rb2 4_556 4_556 115.45(9)
+Rb1 Fe2 Rb2 7_566 4_556 55.572(13)
+Rb2 Fe2 Rb2 . 4_556 126.782(17)
+Rb2 Fe2 Rb2 1_655 4_556 122.647(17)
+Rb1 Fe2 Rb2 2_655 4_556 53.711(12)
+Rb1 Fe2 Rb2 3_755 4_556 91.161(17)
+Rb1 Fe2 Rb2 6_656 4_556 86.702(15)
+O1 Fe2 Rb2 6_656 6_656 41.32(10)
+O3 Fe2 Rb2 6_657 6_656 136.74(10)
+O3 Fe2 Rb2 7_665 6_656 111.91(10)
+O2 Fe2 Rb2 4_556 6_656 68.34(9)
+Rb1 Fe2 Rb2 7_566 6_656 127.689(18)
+Rb2 Fe2 Rb2 . 6_656 55.640(11)
+Rb2 Fe2 Rb2 1_655 6_656 54.809(10)
+Rb1 Fe2 Rb2 2_655 6_656 123.361(17)
+Rb1 Fe2 Rb2 3_755 6_656 89.424(15)
+Rb1 Fe2 Rb2 6_656 6_656 89.334(14)
+Rb2 Fe2 Rb2 4_556 6_656 176.023(15)
+Fe2 O1 Fe1 6_556 . 149.8(2)
+Fe2 O1 Rb2 6_556 . 114.41(13)
+Fe1 O1 Rb2 . . 92.96(12)
+Fe2 O1 Rb2 6_556 6_656 87.11(12)
+Fe1 O1 Rb2 . 6_656 115.07(15)
+Rb2 O1 Rb2 . 6_656 70.92(8)
+Fe2 O1 Rb2 6_556 6_556 80.71(12)
+Fe1 O1 Rb2 . 6_556 98.04(14)
+Rb2 O1 Rb2 . 6_556 70.25(7)
+Rb2 O1 Rb2 6_656 6_556 129.44(10)
+Fe2 O1 Rb1 6_556 . 93.55(12)
+Fe1 O1 Rb1 . . 79.17(11)
+Rb2 O1 Rb1 . . 125.86(12)
+Rb2 O1 Rb1 6_656 . 65.04(7)
+Rb2 O1 Rb1 6_556 . 163.56(12)
+Fe1 O2 Fe2 2 4_456 140.24(17)
+Fe1 O2 Rb1 2 2 94.38(10)
+Fe2 O2 Rb1 4_456 2 125.04(13)
+Fe1 O2 Rb1 2 6_556 113.78(12)
+Fe2 O2 Rb1 4_456 6_556 84.57(10)
+Rb1 O2 Rb1 2 6_556 74.91(7)
+Fe1 O2 Rb2 2 4_456 101.64(11)
+Fe2 O2 Rb2 4_456 4_456 86.39(10)
+Rb1 O2 Rb2 2 4_456 73.99(7)
+Rb1 O2 Rb2 6_556 4_456 133.99(10)
+Fe1 O2 Rb1 2 2_655 73.28(9)
+Fe2 O2 Rb1 4_456 2_655 85.78(10)
+Rb1 O2 Rb1 2 2_655 125.47(9)
+Rb1 O2 Rb1 6_556 2_655 63.69(6)
+Rb2 O2 Rb1 4_456 2_655 159.67(10)
+Fe2 O3 Fe2 6_557 7_466 144.68(16)
+Fe2 O3 Rb1 6_557 5_656 102.15(11)
+Fe2 O3 Rb1 7_466 5_656 111.12(12)
+Fe2 O3 Rb2 6_557 7_566 110.16(12)
+Fe2 O3 Rb2 7_466 7_566 90.75(12)
+Rb1 O3 Rb2 5_656 7_566 73.68(7)
+Fe2 O3 Rb1 6_557 1_456 106.19(13)
+Fe2 O3 Rb1 7_466 1_456 76.00(10)
+Rb1 O3 Rb1 5_656 1_456 69.38(7)
+Rb2 O3 Rb1 7_566 1_456 132.37(9)
+Fe2 O3 Rb1 6_557 4_456 72.49(10)
+Fe2 O3 Rb1 7_466 4_456 92.08(12)
+Rb1 O3 Rb1 5_656 4_456 133.40(10)
+Rb2 O3 Rb1 7_566 4_456 65.90(7)
+Rb1 O3 Rb1 1_456 4_456 157.22(9)
+Fe1 O4 Fe1 6_666 1_665 140.91(16)
+Fe1 O4 Rb1 6_666 1_565 117.94(12)
+Fe1 O4 Rb1 1_665 1_565 95.24(11)
+Fe1 O4 Rb2 6_666 3_655 89.61(10)
+Fe1 O4 Rb2 1_665 3_655 120.69(13)
+Rb1 O4 Rb2 1_565 3_655 74.36(7)
+Fe1 O4 Rb2 6_666 8_765 91.05(11)
+Fe1 O4 Rb2 1_665 8_765 79.77(9)
+Rb1 O4 Rb2 1_565 8_765 132.12(10)
+Rb2 O4 Rb2 3_655 8_765 68.27(6)
+Fe1 O4 Rb2 6_666 6_666 81.42(10)
+Fe1 O4 Rb2 1_665 6_666 93.21(11)
+Rb1 O4 Rb2 1_565 6_666 68.69(6)
+Rb2 O4 Rb2 3_655 6_666 131.61(9)
+Rb2 O4 Rb2 8_765 6_666 158.22(9)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+Rb1 O4 1_545 2.845(3)
+Rb1 O3 5_656 2.855(3)
+Rb1 O2 2_554 2.865(3)
+Rb1 O2 6_656 2.973(3)
+Rb1 O3 1_654 3.279(3)
+Rb1 Fe2 7_565 3.3562(7)
+Rb1 O1 . 3.373(4)
+Rb1 O3 4_556 3.408(3)
+Rb1 Rb1 5_755 3.5085(10)
+Rb1 Rb2 6_656 3.5161(7)
+Rb1 Fe1 . 3.5299(8)
+Rb1 Rb2 3_645 3.5312(7)
+Rb2 O1 . 2.961(3)
+Rb2 O4 3_645 2.995(3)
+Rb2 O2 4_556 3.000(3)
+Rb2 O3 7_565 3.030(3)
+Rb2 O1 6_556 3.159(4)
+Rb2 O1 6_656 3.207(4)
+Rb2 O4 8_755 3.321(3)
+Rb2 O4 6_546 3.345(3)
+Rb2 Fe2 . 3.4313(7)
+Rb2 Fe1 8_665 3.5099(7)
+Rb2 Rb1 6_556 3.5162(7)
+Rb2 Rb1 3_655 3.5312(7)
+Fe1 O4 6_546 1.851(3)
+Fe1 O1 . 1.853(3)
+Fe1 O2 2_554 1.854(3)
+Fe1 O4 1_445 1.869(2)
+Fe1 Rb2 8_655 3.5100(7)
+Fe1 Rb1 1_455 3.5437(8)
+Fe1 Rb2 3_645 3.8322(6)
+Fe1 Rb2 6_556 3.9217(7)
+Fe1 Rb1 6_556 4.0567(10)
+Fe1 Rb1 5_655 4.0890(10)
+Fe2 O1 6_656 1.843(3)
+Fe2 O3 6_657 1.861(3)
+Fe2 O3 7_665 1.862(3)
+Fe2 O2 4_556 1.865(2)
+Fe2 Rb1 7_566 3.3562(7)
+Fe2 Rb2 1_655 3.5765(7)
+Fe2 Rb1 2_655 3.7218(7)
+Fe2 Rb1 3_755 3.9304(7)
+Fe2 Rb1 6_656 3.9426(8)
+Fe2 Rb2 4_556 4.0654(10)
+Fe2 Rb2 6_656 4.0836(10)
+O1 Fe2 6_556 1.843(3)
+O1 Rb2 6_656 3.159(4)
+O1 Rb2 6_556 3.207(4)
+O2 Fe1 2 1.854(3)
+O2 Fe2 4_456 1.865(2)
+O2 Rb1 2 2.865(3)
+O2 Rb1 6_556 2.973(3)
+O2 Rb2 4_456 3.000(3)
+O2 Rb1 2_655 3.600(3)
+O3 Fe2 6_557 1.861(3)
+O3 Fe2 7_466 1.862(3)
+O3 Rb1 5_656 2.855(3)
+O3 Rb2 7_566 3.030(3)
+O3 Rb1 1_456 3.279(3)
+O3 Rb1 4_456 3.408(3)
+O4 Fe1 6_666 1.851(3)
+O4 Fe1 1_665 1.869(2)
+O4 Rb1 1_565 2.845(3)
+O4 Rb2 3_655 2.995(3)
+O4 Rb2 8_765 3.321(3)
+O4 Rb2 6_666 3.345(3)

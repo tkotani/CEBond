@@ -1,0 +1,127 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-08-04 06:10:26 +0300 (Thu, 04 Aug 2016) $
+#$Revision: 184806 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/4/00/26/4002673.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4002673
+loop_
+_publ_author_name
+'Tao, Fengqiong'
+'Genevois, C\'ecile'
+'Lu, Fengqi'
+'Kuang, Xiaojun'
+'Porcher, Florence'
+'Li, Liangju'
+'Yang, Tao'
+'Li, Wenbo'
+'Zhou, Di'
+'Allix, Mathieu'
+_publ_section_title
+;
+ First 14-Layer Twinned Hexagonal Perovskite Ba14Mn1.75Ta10.5O42:
+ Atomic-Scale Imaging of Cation Ordering
+;
+_journal_issue                   13
+_journal_name_full               'Chemistry of Materials'
+_journal_page_first              4686
+_journal_paper_doi               10.1021/acs.chemmater.6b01566
+_journal_volume                  28
+_journal_year                    2016
+_chemical_formula_sum            'Ba14 Mn1.75 O42 Ta10.5'
+_chemical_formula_weight         4590.65
+_chemical_name_mineral           perovskite
+_space_group_IT_number           194
+_symmetry_cell_setting           hexagonal
+_symmetry_Int_Tables_number      194
+_symmetry_space_group_name_Hall  '-P 6c 2c'
+_symmetry_space_group_name_H-M   'P 63/m m c'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            1
+_cell_length_a                   5.818857(7)
+_cell_length_b                   5.818857(7)
+_cell_length_c                   33.43938(9)
+_cell_measurement_reflns_used    2328
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      120.85
+_cell_measurement_theta_min      4.50
+_cell_volume                     980.538(3)
+_diffrn_ambient_temperature      293
+_diffrn_measured_fraction_theta_full 1
+_diffrn_measurement_device_type  3T2
+_diffrn_radiation_wavelength     1.225
+_exptl_crystal_description       rose
+_cod_data_source_file            cm6b01566_si_002.cif
+_cod_data_source_block           Ba14Mn1.75Ta10.5O42
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Hexagonal' changed to 'hexagonal'
+according to
+/usr/data/users/saulius/crontab/automatic-downloads/current/ACS/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 from 2011-04-26.
+
+Automatic conversion script
+Id: cif_fix_values 4268 2015-11-12 08:31:59Z antanas 
+;
+_cod_original_cell_volume        980.538(4)
+_cod_original_sg_symbol_H-M      P63/mmc
+_cod_original_formula_sum        Ba14Mn1.75O42Ta10.5
+_cod_database_code               4002673
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z '
+'-x, -x+y, z+1/2 '
+'-x, -y, -z '
+'-x, -y, z+1/2 '
+'-x+y, -x, -z+1/2 '
+'-x+y, -x, z '
+'-x+y, y, -z+1/2 '
+'-x+y, y, z '
+'-y, -x, -z+1/2 '
+'-y, -x, z '
+'-y, x-y, -z+1/2 '
+'-y, x-y, z '
+'y, -x+y, -z '
+'y, -x+y, z+1/2 '
+'y, x, -z '
+'y, x, z+1/2 '
+'x-y, -y, -z '
+'x-y, -y, z+1/2 '
+'x-y, x, -z '
+'x-y, x, z+1/2 '
+'x, y, -z+1/2 '
+'-x, -x+y, -z '
+'x, x-y, -z+1/2 '
+'x, x-y, z '
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_B_iso_or_equiv
+Ba1 Ba 4 0 0 0.10831(9) 1 0.91(3)
+Ba2 Ba 4 0.3333333 0.6666667 0.81408(8) 1 2.09(4)
+Ba3 Ba 4 0.3333333 0.6666667 0.03521(9) 1 0.80(3)
+Ba4 Ba 2 0.6666667 0.3333333 0.75 1 1.09(4)
+Ta1 Ta 4 0.3333333 0.6666667 0.92862(5) 1 0.66(2)
+Ta2 Ta 2 0 0 0 0.125 0.03(5)
+Mn2 Mn 2 0 0 0 0.875 0.03(5)
+Ta3 Ta 4 0.6666667 0.3333333 0.64351(6) 1 0.60(1)
+Ta4 Ta 4 0 0 0.21461(9) 0.540(2) 0.42(3)
+O1 O 12 0.6599(10) 0.8300(5) 0.17440(9) 1 1.40(4)
+O2 O 6 0.3334(12) 0.1667(6) 0.25 1 1.73(5)
+O3 O 12 0.5 0 0.39433(10) 1 1.24(3)
+O4 O 12 0.1687(4) 0.8313(4) 0.96133(10) 1 1.26(4)

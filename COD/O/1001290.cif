@@ -1,0 +1,95 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/1/00/12/1001290.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1001290
+loop_
+_publ_author_name
+'Choisnet, J'
+'Raveau, B'
+_publ_section_title
+;
+Une nouvelle structure hexagonale compacte ordonne: les oxydes (sn -
+x3)~octa~ (M - Li)~tetra~ O~8~ avec X = Sn(Ti)+ M + Li et M = Zn, Mg
+;
+_journal_coden_ASTM              MRBUAC
+_journal_name_full               'Materials Research Bulletin'
+_journal_page_first              1381
+_journal_page_last               1389
+_journal_paper_doi               10.1016/0025-5408(79)90079-5
+_journal_volume                  14
+_journal_year                    1979
+_chemical_formula_structural     'LI1.6 ZN1.6 TI0.7 SN2.1 O8'
+_chemical_formula_sum            'Li1.6 O8 Sn2.1 Ti0.7 Zn1.6'
+_chemical_name_systematic
+;
+LITHIUM ZINC TITANIUM TIN OXIDE (1.6/1.6/0.7/2.1/8)
+;
+_space_group_IT_number           186
+_symmetry_cell_setting           hexagonal
+_symmetry_Int_Tables_number      186
+_symmetry_space_group_name_Hall  'P 6c -2c'
+_symmetry_space_group_name_H-M   'P 63 m c'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            2
+_cell_length_a                   6.011(4)
+_cell_length_b                   6.011(4)
+_cell_length_c                   9.815(8)
+_cell_volume                     307.1
+_refine_ls_R_factor_all          0.071
+_cod_original_formula_sum        'Li1.6 O8 Sn2.1 Ti.7 Zn1.6'
+_cod_database_code               1001290
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-y,x-y,z
+y-x,-x,z
+-y,-x,z
+y-x,y,z
+x,x-y,z
+-x,-y,1/2+z
+y,y-x,1/2+z
+x-y,x,1/2+z
+y,x,1/2+z
+x-y,-y,1/2+z
+-x,y-x,1/2+z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_calc_flag
+Sn1 Sn4+ 2 b 0.3333 0.6667 0.496(2) 1. 0 d
+Sn2 Sn4+ 6 c 0.169(1) -0.169(1) 0.217(1) 0.3667 0 d
+Ti1 Ti4+ 6 c 0.169(1) -0.169(1) 0.217(1) 0.2333 0 d
+Zn1 Zn2+ 6 c 0.169(1) -0.169(1) 0.217(1) 0.2 0 d
+Li1 Li1+ 6 c 0.169(1) -0.169(1) 0.217(1) 0.2 0 d
+Zn2 Zn2+ 2 b 0.3333 0.6667 -0.088(4) 1. 0 d
+Li2 Li1+ 2 a 0. 0. 0.523(23) 1. 0 d
+O1 O2- 2 a 0. 0. 0.331(8) 1. 0 d
+O2 O2- 2 b 0.3333 0.6667 0.129(8) 1. 0 d
+O3 O2- 6 c 0.472(8) -0.472(8) 0.356(9) 1. 0 d
+O4 O2- 6 c 0.159(4) -0.159(4) 0.629(6) 1. 0 d
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Sn4+ 4.000
+Ti4+ 4.000
+Zn2+ 2.000
+Li1+ 1.000
+O2- -2.000

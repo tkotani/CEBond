@@ -1,0 +1,203 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-21 01:21:50 +0200 (Mon, 21 Mar 2016) $
+#$Revision: 178377 $
+#$URL: svn://www.crystallography.net/cod/cif/4/00/10/4001063.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4001063
+loop_
+_publ_author_name
+'Nyman, May'
+'Rodriguez, Mark A.'
+'Rohwer, Lauren E.S.'
+'Martin, James E.'
+'Waller, Mollie'
+'Osterloh, Frank E.'
+_publ_section_title
+;
+ Unique LaTaO4Polymorph for Multiple Energy Applications
+;
+_journal_issue                   19
+_journal_name_full               'Chemistry of Materials'
+_journal_page_first              4731
+_journal_paper_doi               10.1021/cm9020645
+_journal_volume                  21
+_journal_year                    2009
+_chemical_formula_sum            'La O4 Ta'
+_chemical_formula_weight         383.85
+_chemical_name_systematic        ' ?'
+_space_group_IT_number           61
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2ac 2ab'
+_symmetry_space_group_name_H-M   'P b c a'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            8
+_cell_length_a                   7.82857(8)
+_cell_length_b                   11.21789(12)
+_cell_length_c                   7.46427(8)
+_cell_volume                     655.512(12)
+_pd_block_id                     2009-08-07T12:16|11BMB_0615_phase1|||
+_pd_phase_name                   intermedaite
+_cod_data_source_file            cm9020645_si_001.cif
+_cod_data_source_block           11BMB_0615_phase_1
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_geom_bond_publ_flag' value 'N' changed to 'n' according to
+/home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary named
+'cif_core.dic' version 2.4.2 from 2011-04-26 (40
+times).
+
+'_geom_angle_publ_flag' value 'N' changed to 'n' according
+to /home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary
+named 'cif_core.dic' version 2.4.2 from 2011-04-26 (43 times).
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_original_cell_volume        655.512(8)
+_cod_database_code               4001063
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -x+1/2,+y+1/2,+z
+3 +x,-y+1/2,+z+1/2
+4 -x+1/2,-y,+z+1/2
+-1 -x,-y,-z
+-2 +x+1/2,-y+1/2,-z
+-3 -x,+y+1/2,-z+1/2
+-4 +x+1/2,+y,-z+1/2
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+La La 0.87278(34) 0.02404(7) 0.74334(33) 1.0 Uiso 0.03691(32) 8
+Ta Ta 0.63065(17) 0.24247(8) 0.49699(29) 1.0 Uiso 0.02679(18) 8
+O O1 0.6592(11) 0.3094(5) 0.7706(18) 1.0 Uiso 0.0123(14) 8
+O O2 0.6085(23) 0.4122(7) 0.4647(12) 1.0 Uiso 0.0123(14) 8
+O O3 0.8843(20) 0.2667(9) 0.4730(14) 1.0 Uiso 0.0123(14) 8
+O O4 0.4015(18) 0.5718(7) 0.9013(12) 1.0 Uiso 0.0123(14) 8
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+La 8.0
+Ta 8.0
+O 32.0
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O1 La O2 64.32(35) 2_645 2_645 n
+O1 La O2 97.50(31) 2_645 3_555 n
+O1 La O2 114.15(31) 2_645 -2_666 n
+O1 La O4 106.3(4) 2_645 2_645 n
+O1 La O4 99.36(31) 2_645 -3_657 n
+O2 La O2 134.01(25) 2_645 3_555 n
+O2 La O2 64.9(5) 2_645 -2_666 n
+O2 La O4 122.5(6) 2_645 2_645 n
+O2 La O4 77.9(4) 2_645 -3_657 n
+O2 La O2 148.31(34) 3_555 -2_666 n
+O2 La O4 102.7(4) 3_555 2_645 n
+O2 La O4 63.22(29) 3_555 -3_657 n
+O2 La O4 70.79(32) -2_666 2_645 n
+O2 La O4 107.9(5) -2_666 -3_657 n
+O4 La O4 152.4(4) 2_645 -3_657 n
+O1 Ta O1 167.0(5) 1_555 3_554 n
+O1 Ta O2 77.70(30) 1_555 1_555 n
+O1 Ta O3 86.3(4) 1_555 1_555 n
+O1 Ta O3 90.7(4) 1_555 -2_566 n
+O1 Ta O4 89.28(32) 1_555 -3_657 n
+O1 Ta O2 102.3(4) 3_554 1_555 n
+O1 Ta O3 80.7(4) 3_554 1_555 n
+O1 Ta O3 102.4(4) 3_554 -2_566 n
+O1 Ta O4 93.46(32) 3_554 -3_657 n
+O2 Ta O3 86.8(6) 1_555 1_555 n
+O2 Ta O3 88.7(6) 1_555 -2_566 n
+O2 Ta O4 161.2(5) 1_555 -3_657 n
+O3 Ta O3 175.05(8) 1_555 -2_566 n
+O3 Ta O4 106.1(5) 1_555 -3_657 n
+O3 Ta O4 77.8(5) -2_566 -3_657 n
+La O1 Ta 104.6(4) 2_655 1_555 n
+La O1 Ta 112.7(5) 2_655 3_555 n
+Ta O1 Ta 138.81(34) 1_555 3_555 n
+La O2 La 109.6(5) 2_655 3_554 n
+La O2 La 115.1(5) 2_655 -2_456 n
+La O2 Ta 113.4(4) 2_655 1_555 n
+La O2 La 96.16(28) 3_554 -2_456 n
+La O2 Ta 105.4(6) 3_554 1_555 n
+La O2 Ta 115.1(6) -2_555 1_555 n
+Ta O3 Ta 164.0(5) 1_555 -2_655 n
+La O4 La 114.5(4) 2_655 -3_557 n
+La O4 Ta 121.4(5) 2_655 -3_656 n
+La O4 Ta 104.8(5) -3_656 -3_656 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+La La 3.91555(13) -4_456 n
+La La 3.91555(13) -4_556 n
+La Ta 3.6026(26) 1_555 n
+La Ta 3.6550(23) 2_645 n
+La Ta 3.7468(26) 3_555 n
+La Ta 3.5388(25) 4_655 n
+La Ta 3.7197(21) -4_556 n
+La O1 2.429(6) 2_645 n
+La O2 2.434(9) 2_645 n
+La O2 2.743(16) 3_555 n
+La O2 2.516(14) -2_556 n
+La O3 2.908(9) 3_555 n
+La O4 2.191(13) 2_645 n
+La O4 2.871(9) -2_557 n
+La O4 2.463(12) -3_646 n
+Ta La 3.6026(26) 1_555 n
+Ta La 3.6550(23) 2_655 n
+Ta La 3.7468(26) 3_554 n
+Ta La 3.5388(25) 4_654 n
+Ta La 3.7197(21) -4_456 n
+Ta O1 2.187(12) 1_555 n
+Ta O1 1.801(12) 3_554 n
+Ta O2 1.927(8) 1_555 n
+Ta O3 2.012(15) 1_555 n
+Ta O3 1.944(15) -2_456 n
+Ta O4 2.075(9) -3_646 n
+O1 La 2.429(6) 2_655 n
+O1 Ta 2.187(12) 1_555 n
+O1 Ta 1.801(12) 3_555 n
+O2 La 2.434(9) 2_655 n
+O2 La 2.743(16) 3_554 n
+O2 La 2.516(14) -2_456 n
+O2 Ta 1.927(8) 1_555 n
+O3 La 2.908(9) 3_554 n
+O3 Ta 2.012(15) 1_555 n
+O3 Ta 1.944(15) -2_556 n
+O4 La 2.191(13) 2_655 n
+O4 La 2.871(9) -2_457 n
+O4 La 2.463(12) -3_656 n
+O4 Ta 2.075(9) -3_656 n
+loop_
+_pd_block_diffractogram_id
+2009-08-07T12:16|11BMB_0615_H_01||
+2009-08-07T12:16|11BMB_0615_H_02||
+2009-08-07T12:16|11BMB_0615_H_03||f

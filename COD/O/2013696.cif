@@ -1,0 +1,171 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 06:40:26 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176432 $
+#$URL: svn://www.crystallography.net/cod/cif/2/01/36/2013696.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2013696
+loop_
+_publ_author_name
+'Park, Hyun Min'
+'Lee, Hwack Joo'
+'Park, Sang Hyun'
+'Yoo, Han Ill'
+_publ_section_title
+;
+ Lanthanum indium oxide from X-ray powder diffraction
+;
+_journal_issue                   12
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              i131
+_journal_page_last               i132
+_journal_paper_doi               10.1107/S0108270103024806
+_journal_volume                  59
+_journal_year                    2003
+_chemical_formula_iupac          'La In O3'
+_chemical_formula_moiety         'In La O3'
+_chemical_formula_structural     'La In O3'
+_chemical_formula_sum            'In La O3'
+_chemical_formula_weight         301.73
+_chemical_name_systematic
+;
+Lanthanum Indium Oxide
+;
+_space_group_IT_number           62
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2ac 2n'
+_symmetry_space_group_name_H-M   'P n m a'
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   5.94040(10)
+_cell_length_b                   8.21580(10)
+_cell_length_c                   5.72290(10)
+_cell_measurement_temperature    295
+_cell_volume                     279.307(8)
+_computing_cell_refinement       'FULLPROF98 (Carvajal, 2000))'
+_computing_data_collection       'D/max-B Software (Rigaku Corporation, 1990)'
+_computing_molecular_graphics    'ATOMS (Dowty, 1997)'
+_computing_publication_material  'PLATON (Spek, 1990)'
+_computing_structure_refinement  FULLPROF98
+_diffrn_ambient_temperature      295
+_diffrn_measurement_device_type  'Rigaku D/max-B'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_type           'Cu K\a'
+_diffrn_radiation_wavelength     1.5418
+_exptl_absorpt_coefficient_mu    180.73
+_exptl_absorpt_correction_T_max  none
+_exptl_absorpt_correction_T_min  none
+_exptl_absorpt_correction_type   none
+_exptl_absorpt_process_details   none
+_exptl_crystal_density_diffrn    7.173
+_exptl_crystal_density_meas      ?
+_exptl_crystal_F_000             520
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_all   0.81
+_refine_ls_matrix_type           fullcycle
+_refine_ls_number_parameters     30
+_refine_ls_R_factor_all          0.0304
+_refine_ls_shift/su_max          0.01
+_refine_ls_structure_factor_coef Inet
+_cod_data_source_file            sq1033.cif
+_cod_data_source_block           I
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_exptl_crystal_density_meas' value 'not measured' was changed to '?'
+- the value is perceived as not measured.
+
+Automatic conversion script
+Id: cif_fix_values 3008 2015-01-20 13:52:24Z robertas 
+;
+_cod_original_sg_symbol_Hall     '-p 2ac 2n'
+_cod_database_code               2013696
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'x+1/2, -y+1/2, -z+1/2'
+'-x, y+1/2, -z'
+'-x+1/2, -y, z+1/2'
+'-x, -y, -z'
+'-x+1/2, y+1/2, z+1/2'
+'x, -y+1/2, z'
+'x+1/2, y, -z+1/2'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+_atom_site_type_symbol
+O1 0.029(5) 0.25 0.615(5) 1.12(8) 1.0 O
+O2 0.209(3) 0.0623(17) 0.192(4) 0.21(6) 1.0 O
+In 0 0 0.5 0.15(2) 1.0 In
+La -0.0551(4) 0.25 0.0169(9) 0.24(2) 1.0 La
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+La La -1.4094 9.0376 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+In In 0.0822 5.0449 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0492 0.0322 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O2 In O1 4 . 90.4(8) y
+O2 In O1 4 5_556 89.6(8) y
+O2 In O2 4 . 90.6(3) y
+O1 In O2 . . 88.8(8) y
+O1 In O2 5_556 . 91.2(8) y
+O2 In O2 4 5_556 89.4(3) y
+O1 In O2 . 5_556 91.2(8) y
+O1 In O2 5_556 5_556 88.8(8) y
+O1 La O2 1_554 . 105.5(7) y
+O1 La O1 1_554 2_455 85.2(6) y
+O2 La O1 . 2_455 137.9(5) y
+O1 La O2 1_554 2_455 136.2(6) y
+O2 La O2 . 2_455 116.8(4) y
+O1 La O2 2_455 2_455 71.4(7) no
+O1 La O2 1_554 5 70.9(5) no
+O2 La O2 . 5 79.4(7) no
+O1 La O2 2_455 5 65.7(4) no
+O2 La O2 2_455 5 126.0(3) y
+O1 La O2 1_554 3 70.9(5) y
+O1 La O2 2_455 3 65.7(4) y
+O2 La O2 2_455 3 65.8(2) y
+O2 La O2 5 3 119.2(7) y
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+In O2 4 2.11(2) y
+In O1 . 2.164(9) y
+In O1 5_556 2.164(9) y
+In O2 . 2.22(2) y
+In O2 5_556 2.22(2) y
+La O1 1_554 2.35(3) y
+La O2 . 2.417(16) ?
+La O1 2_455 2.59(3) y
+La O2 2_455 2.67(2) y
+La O2 5 2.975(17) y
+La O2 3 2.975(17) y

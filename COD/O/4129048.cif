@@ -1,0 +1,285 @@
+#------------------------------------------------------------------------------
+#$Date: 2019-11-03 18:17:24 +0200 (Sun, 03 Nov 2019) $
+#$Revision: 222051 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/4/12/90/4129048.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4129048
+loop_
+_publ_author_name
+'Todd, Paul K.'
+'Neilson, James R.'
+_publ_section_title
+;
+ Selective Formation of Yttrium Manganese Oxides through Kinetically
+ Competent Assisted Metathesis Reactions.
+;
+_journal_issue                   3
+_journal_name_full               'Journal of the American Chemical Society'
+_journal_page_first              1191
+_journal_page_last               1195
+_journal_paper_doi               10.1021/jacs.8b10123
+_journal_volume                  141
+_journal_year                    2019
+_chemical_formula_sum            'Mn2 O7 Y2'
+_chemical_formula_weight         399.68
+_chemical_name_common            'yttrium manganese oxide'
+_chemical_name_systematic        'diyttrium dimanganese(IV) heptoxide'
+_space_group_IT_number           227
+_space_group_name_Hall           '-F 4vw 2vw 3'
+_space_group_name_H-M_alt        'F d -3 m :2'
+_symmetry_cell_setting           cubic
+_symmetry_space_group_name_Hall  '-F 4vw 2vw 3'
+_symmetry_space_group_name_H-M   'F d -3 m :2'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            8
+_cell_length_a                   9.9099(17)
+_cell_length_b                   9.9099(17)
+_cell_length_c                   9.9099(17)
+_cell_measurement_temperature    298
+_cell_measurement_theta_max      140
+_cell_measurement_theta_min      1
+_cell_volume                     973.2(3)
+_computing_structure_refinement  TOPAS
+_diffrn_ambient_temperature      298
+_diffrn_measurement_device_type  'HB2A, HFIR, ORNL'
+_diffrn_radiation_type           neutron
+_diffrn_radiation_wavelength     1.54
+_diffrn_radiation_wavelength_details 'HB2A, HFIR, ORNL'
+_exptl_crystal_density_diffrn    5.454
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     40
+_cod_data_source_file            ja8b10123_si_002.cif
+_cod_data_source_block           Y2Mn2O7_300K_publ
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+data item '_symmetry_cell_setting' value 'Cubic' was changed to
+'cubic' in accordance with the
+/home/data/users/saulius/crontab/automatic-downloads/current/ACS/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 last updated on
+2011-04-26.
+
+Automatic conversion script
+Id: cif_fix_values 6909 2019-04-08 15:41:33Z antanas 
+;
+_cod_original_cell_volume        973.2(5)
+_cod_original_sg_symbol_Hall     '-F 4vw 2vw'
+_cod_original_sg_symbol_H-M      'F d -3 m'
+_cod_database_code               4129048
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z '
+'-x, -z, -y '
+'-x+1/4, -z-1/4, y+1/2 '
+'-x+1/4, y+1/2, -z-1/4 '
+'-x+1/2, z-1/4, y+1/4 '
+'-x+1/2, y+1/4, z-1/4 '
+'-x-1/4, -y+1/4, z+1/2 '
+'-x-1/4, z+1/2, -y+1/4 '
+'-y, -x, -z '
+'-y, -z, -x '
+'-y+1/4, -x-1/4, z+1/2 '
+'-y+1/4, z+1/2, -x-1/4 '
+'-y+1/2, z+1/4, x-1/4 '
+'-y+1/2, x-1/4, z+1/4 '
+'-y-1/4, -z+1/4, x+1/2 '
+'-y-1/4, x+1/2, -z+1/4 '
+'-z, -x, -y '
+'-z, -y, -x '
+'-z+1/4, -y-1/4, x+1/2 '
+'-z+1/4, x+1/2, -y-1/4 '
+'-z+1/2, y-1/4, x+1/4 '
+'-z+1/2, x+1/4, y-1/4 '
+'-z-1/4, -x+1/4, y+1/2 '
+'-z-1/4, y+1/2, -x+1/4 '
+'z, y, x '
+'z, x, y '
+'z+1/4, -y+1/2, x-1/4 '
+'z+1/4, x-1/4, -y+1/2 '
+'z+1/2, -x-1/4, -y+1/4 '
+'z+1/2, -y+1/4, -x-1/4 '
+'z-1/4, -x+1/2, y+1/4 '
+'z-1/4, y+1/4, -x+1/2 '
+'y, z, x '
+'y, x, z '
+'y+1/4, -x+1/2, z-1/4 '
+'y+1/4, z-1/4, -x+1/2 '
+'y+1/2, -x+1/4, -z-1/4 '
+'y+1/2, -z-1/4, -x+1/4 '
+'y-1/4, -z+1/2, x+1/4 '
+'y-1/4, x+1/4, -z+1/2 '
+'x, z, y '
+'-x, -y, -z '
+'x+1/4, -z+1/2, y-1/4 '
+'x+1/4, y-1/4, -z+1/2 '
+'x+1/2, -y-1/4, -z+1/4 '
+'x+1/2, -z+1/4, -y-1/4 '
+'x-1/4, -y+1/2, z+1/4 '
+'x-1/4, z+1/4, -y+1/2 '
+'x+1/2, y+1/2, z '
+'-x+1/2, -z+1/2, -y '
+'-x-1/4, -z+1/4, y+1/2 '
+'-x-1/4, y, -z-1/4 '
+'-x, z+1/4, y+1/4 '
+'-x, y-1/4, z-1/4 '
+'-x+1/4, -y-1/4, z+1/2 '
+'-x+1/4, z, -y+1/4 '
+'-y+1/2, -x+1/2, -z '
+'-y+1/2, -z+1/2, -x '
+'-y-1/4, -x+1/4, z+1/2 '
+'-y-1/4, z, -x-1/4 '
+'-y, z-1/4, x-1/4 '
+'-y, x+1/4, z+1/4 '
+'-y+1/4, -z-1/4, x+1/2 '
+'-y+1/4, x, -z+1/4 '
+'-z+1/2, -x+1/2, -y '
+'-z+1/2, -y+1/2, -x '
+'-z-1/4, -y+1/4, x+1/2 '
+'-z-1/4, x, -y-1/4 '
+'-z, y+1/4, x+1/4 '
+'-z, x-1/4, y-1/4 '
+'-z+1/4, -x-1/4, y+1/2 '
+'-z+1/4, y, -x+1/4 '
+'z+1/2, y+1/2, x '
+'z+1/2, x+1/2, y '
+'z-1/4, -y, x-1/4 '
+'z-1/4, x+1/4, -y+1/2 '
+'z, -x+1/4, -y+1/4 '
+'z, -y-1/4, -x-1/4 '
+'z+1/4, -x, y+1/4 '
+'z+1/4, y-1/4, -x+1/2 '
+'y+1/2, z+1/2, x '
+'y+1/2, x+1/2, z '
+'y-1/4, -x, z-1/4 '
+'y-1/4, z+1/4, -x+1/2 '
+'y, -x-1/4, -z-1/4 '
+'y, -z+1/4, -x+1/4 '
+'y+1/4, -z, x+1/4 '
+'y+1/4, x-1/4, -z+1/2 '
+'x+1/2, z+1/2, y '
+'-x+1/2, -y+1/2, -z '
+'x-1/4, -z, y-1/4 '
+'x-1/4, y+1/4, -z+1/2 '
+'x, -y+1/4, -z+1/4 '
+'x, -z-1/4, -y-1/4 '
+'x+1/4, -y, z+1/4 '
+'x+1/4, z-1/4, -y+1/2 '
+'x+1/2, y, z+1/2 '
+'-x+1/2, -z, -y+1/2 '
+'-x-1/4, -z-1/4, y '
+'-x-1/4, y+1/2, -z+1/4 '
+'-x, z-1/4, y-1/4 '
+'-x, y+1/4, z+1/4 '
+'-x+1/4, -y+1/4, z '
+'-x+1/4, z+1/2, -y-1/4 '
+'-y+1/2, -x, -z+1/2 '
+'-y+1/2, -z, -x+1/2 '
+'-y-1/4, -x-1/4, z '
+'-y-1/4, z+1/2, -x+1/4 '
+'-y, z+1/4, x+1/4 '
+'-y, x-1/4, z-1/4 '
+'-y+1/4, -z+1/4, x '
+'-y+1/4, x+1/2, -z-1/4 '
+'-z+1/2, -x, -y+1/2 '
+'-z+1/2, -y, -x+1/2 '
+'-z-1/4, -y-1/4, x '
+'-z-1/4, x+1/2, -y+1/4 '
+'-z, y-1/4, x-1/4 '
+'-z, x+1/4, y+1/4 '
+'-z+1/4, -x+1/4, y '
+'-z+1/4, y+1/2, -x-1/4 '
+'z+1/2, y, x+1/2 '
+'z+1/2, x, y+1/2 '
+'z-1/4, -y+1/2, x+1/4 '
+'z-1/4, x-1/4, -y '
+'z, -x-1/4, -y-1/4 '
+'z, -y+1/4, -x+1/4 '
+'z+1/4, -x+1/2, y-1/4 '
+'z+1/4, y+1/4, -x '
+'y+1/2, z, x+1/2 '
+'y+1/2, x, z+1/2 '
+'y-1/4, -x+1/2, z+1/4 '
+'y-1/4, z-1/4, -x '
+'y, -x+1/4, -z+1/4 '
+'y, -z-1/4, -x-1/4 '
+'y+1/4, -z+1/2, x-1/4 '
+'y+1/4, x+1/4, -z '
+'x+1/2, z, y+1/2 '
+'-x+1/2, -y, -z+1/2 '
+'x-1/4, -z+1/2, y+1/4 '
+'x-1/4, y-1/4, -z '
+'x, -y-1/4, -z-1/4 '
+'x, -z+1/4, -y+1/4 '
+'x+1/4, -y+1/2, z-1/4 '
+'x+1/4, z+1/4, -y '
+'x, y+1/2, z+1/2 '
+'-x, -z+1/2, -y+1/2 '
+'-x+1/4, -z+1/4, y '
+'-x+1/4, y, -z+1/4 '
+'-x+1/2, z+1/4, y-1/4 '
+'-x+1/2, y-1/4, z+1/4 '
+'-x-1/4, -y-1/4, z '
+'-x-1/4, z, -y-1/4 '
+'-y, -x+1/2, -z+1/2 '
+'-y, -z+1/2, -x+1/2 '
+'-y+1/4, -x+1/4, z '
+'-y+1/4, z, -x+1/4 '
+'-y+1/2, z-1/4, x+1/4 '
+'-y+1/2, x+1/4, z-1/4 '
+'-y-1/4, -z-1/4, x '
+'-y-1/4, x, -z-1/4 '
+'-z, -x+1/2, -y+1/2 '
+'-z, -y+1/2, -x+1/2 '
+'-z+1/4, -y+1/4, x '
+'-z+1/4, x, -y+1/4 '
+'-z+1/2, y+1/4, x-1/4 '
+'-z+1/2, x-1/4, y+1/4 '
+'-z-1/4, -x-1/4, y '
+'-z-1/4, y, -x-1/4 '
+'z, y+1/2, x+1/2 '
+'z, x+1/2, y+1/2 '
+'z+1/4, -y, x+1/4 '
+'z+1/4, x+1/4, -y '
+'z+1/2, -x+1/4, -y-1/4 '
+'z+1/2, -y-1/4, -x+1/4 '
+'z-1/4, -x, y-1/4 '
+'z-1/4, y-1/4, -x '
+'y, z+1/2, x+1/2 '
+'y, x+1/2, z+1/2 '
+'y+1/4, -x, z+1/4 '
+'y+1/4, z+1/4, -x '
+'y+1/2, -x-1/4, -z+1/4 '
+'y+1/2, -z+1/4, -x-1/4 '
+'y-1/4, -z, x-1/4 '
+'y-1/4, x-1/4, -z '
+'x, z+1/2, y+1/2 '
+'-x, -y+1/2, -z+1/2 '
+'x+1/4, -z, y+1/4 '
+'x+1/4, y+1/4, -z '
+'x+1/2, -y+1/4, -z-1/4 '
+'x+1/2, -z-1/4, -y+1/4 '
+'x-1/4, -y, z-1/4 '
+'x-1/4, z-1/4, -y '
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_B_iso_or_equiv
+Y1 Y+3 16 0.5 0.5 0.5 1 0.63(3)
+Mn1 Mn+4 16 0 0 0 1 0.34(4)
+O1 O-2 48 0.32788(8) 0.125 0.125 1 0.552(19)
+O2 O-2 8 0.375 0.375 0.375 0.998(10) 0.33(5)

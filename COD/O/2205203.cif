@@ -1,0 +1,161 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 05:06:23 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176774 $
+#$URL: svn://www.crystallography.net/cod/cif/2/20/52/2205203.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2205203
+loop_
+_publ_author_name
+'Hern\'andez-P\'erez, Jos\'e Apuleyo'
+'Villafuerte-Castrej\'on, Mar\'ia-Elena'
+'Bucio, Lauro'
+_publ_section_title
+;
+ Eu~1.8~La~0.2~BaZnO~5~: a Rietveld refinement using X-ray powder
+ diffraction
+;
+_journal_issue                   3
+_journal_name_full               'Acta Crystallographica Section E'
+_journal_page_first              i23
+_journal_page_last               i25
+_journal_paper_doi               10.1107/S1600536805002886
+_journal_volume                  61
+_journal_year                    2005
+_chemical_formula_iupac          'Eu1.8 La0.2 Ba Zn O5'
+_chemical_formula_structural     'Ba Eu1.8 La0.2 Zn O5'
+_chemical_formula_sum            'Ba Eu1.8 La0.2 O5 Zn'
+_chemical_formula_weight         584.026
+_chemical_name_systematic
+;
+europium lanthanum barium zinc oxide
+;
+_space_group_IT_number           62
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2c 2ab'
+_symmetry_space_group_name_H-M   'P b n m'
+_cell_angle_alpha                90.00000
+_cell_angle_beta                 90.00000
+_cell_angle_gamma                90.00000
+_cell_formula_units_Z            4
+_cell_length_a                   7.19520(10)
+_cell_length_b                   12.5720(2)
+_cell_length_c                   5.80350(10)
+_cell_measurement_temperature    300
+_cell_volume                     524.973(14)
+_computing_cell_refinement       'Please provide details'
+_computing_data_collection       'DIFFRAC/AT (Siemens, 1993)'
+_computing_molecular_graphics    'ATOMS (Dowty, 2000)'
+_computing_publication_material  ATOMS
+_computing_structure_refinement  'FULLPROF (Rodr\'iguez-Carvajal, 1990)'
+_computing_structure_solution    'Please provide details'
+_diffrn_ambient_temperature      300
+_diffrn_measurement_device_type  'Siemens D5000'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_type           CuK\a
+_diffrn_radiation_wavelength     1.54175
+_diffrn_reflns_limit_h_max       9
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       16
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       7
+_diffrn_reflns_limit_l_min       0
+_exptl_absorpt_coefficient_mu    226.2
+_exptl_absorpt_correction_type   none
+_exptl_crystal_density_diffrn    7.40(10)
+_exptl_crystal_F_000             1003.2
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_all   1.67
+_refine_ls_number_parameters     34
+_refine_ls_number_reflns         791
+_refine_ls_number_restraints     0
+_refine_ls_structure_factor_coef Inet
+_cod_data_source_file            br6178.cif
+_cod_data_source_block           I
+_cod_original_cell_volume        524.970(10)
+_cod_database_code               2205203
+_cod_database_fobs_code          2205203
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x+1/2,-y+1/2,-z
+-x+1/2,y+1/2,-z+1/2
+-x,-y,z+1/2
+-x,-y,-z
+-x+1/2,y+1/2,z
+x+1/2,-y+1/2,z+1/2
+x,y,-z+1/2
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+Eu1 0.1163(3) 0.29211(14) 0.25000 0.0035(5) 1.0
+Eu2 0.3975(3) 0.07426(15) 0.25000 0.0014(5) 0.8
+La 0.3975(3) 0.07426(15) 0.25000 0.0014(5) 0.2
+Ba 0.9268(3) 0.90100(14) 0.25000 0.0019(5) 1.0
+Zn 0.6846(6) 0.6500(3) 0.25000 0.0150(10) 1.0
+O1 0.156(2) 0.4235(12) -0.016(2) 0.014(2) 1.0
+O2 0.362(2) 0.2315(10) 0.489(2) 0.014(2) 1.0
+O3 0.088(3) 0.1018(14) 0.25000 0.014(2) 1.0
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Eu Eu3+ -7.71800 11.27600
+'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+La La3+ -1.71600 9.03600
+'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ba Ba2+ -1.33400 8.46000
+'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Zn Zn2+ -1.61200 0.67800
+'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O2 O2- 0.0470 0.0320 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Eu1 O1 1_555 2.28(2) yes
+Eu1 O1 8_555 2.28(2) yes
+Eu1 O2 1_555 2.370(10) yes
+Eu1 O2 2_456 2.390(10) yes
+Eu1 O2 7_454 2.390(10) yes
+Eu1 O2 8_555 2.370(10) yes
+Eu1 O3 1_555 2.40(2) yes
+La O1 2_555 2.310(10) yes
+La O1 3_545 2.47(2) yes
+La O1 6_545 2.47(2) yes
+La O1 7_555 2.310(10) yes
+La O2 1_555 2.430(10) yes
+La O2 8_555 2.430(10) yes
+La O3 1_555 2.25(2) yes
+Ba O1 2_565 3.240(10) yes
+Ba O1 3_655 3.380(10) yes
+Ba O1 6_655 3.380(10) yes
+Ba O1 7_565 3.240(10) yes
+Ba O2 3_655 2.960(10) yes
+Ba O2 4_664 3.070(10) yes
+Ba O2 5_666 3.070(10) yes
+Ba O2 6_655 2.960(10) yes
+Ba O3 1_665 2.78(2) yes
+Ba O3 4_664 2.9040(10) yes
+Ba O3 4_665 2.9040(10) yes
+Zn O1 4_665 2.000(10) yes
+Zn O1 5_665 2.000(10) yes
+Zn O2 4_664 2.150(10) yes
+Zn O2 5_666 2.150(10) yes
+Zn O3 3_555 2.05(2) yes

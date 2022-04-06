@@ -1,0 +1,251 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-16 22:30:59 +0200 (Tue, 16 Feb 2016) $
+#$Revision: 176467 $
+#$URL: svn://www.crystallography.net/cod/cif/4/31/31/4313193.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4313193
+loop_
+_publ_author_name
+'Katharine E. Stitzer'
+'Ahmed El Abed'
+'Mark D. Smith'
+'Matthew J. Davis'
+'Seung-Joo Kim'
+'Jacques Darriet'
+'Hans-Conrad zur Loye'
+_publ_contact_author
+;
+ Hanno zur Loye
+ University of South Carolina
+ Dept. of Chemistry and Biochemistry
+ Columbia, SC 29208
+;
+_publ_contact_author_email       ' zurloye@sc.edu '
+_publ_section_title
+;
+ Crystal Growth of Novel Osmium-Containing Triple Perovskites
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              947
+_journal_page_last               949
+_journal_paper_doi               10.1021/ic026124p
+_journal_volume                  42
+_journal_year                    2003
+_chemical_formula_sum            'Ba3 Li O9 Os2'
+_chemical_formula_weight         943.4
+_space_group_IT_number           194
+_symmetry_cell_setting           hexagonal
+_symmetry_space_group_name_Hall  '-P 6c 2c'
+_symmetry_space_group_name_H-M   'P 63/m m c'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            2
+_cell_length_a                   5.80250(10)
+_cell_length_b                   5.80250(10)
+_cell_length_c                   14.1468(4)
+_cell_volume                     412.495(15)
+_diffrn_measurement_device       'imaging plate system'
+_diffrn_measurement_device_type  'IPDS Stoe'
+_diffrn_measurement_method       '??integration method??'
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.71069
+_diffrn_reflns_av_R_equivalents  0.1184
+_diffrn_reflns_av_sigmaI/netI    0.0319
+_diffrn_reflns_limit_h_max       8
+_diffrn_reflns_limit_h_min       -8
+_diffrn_reflns_limit_k_max       8
+_diffrn_reflns_limit_k_min       -8
+_diffrn_reflns_limit_l_max       20
+_diffrn_reflns_limit_l_min       -20
+_diffrn_reflns_number            7928
+_diffrn_reflns_theta_max         30.95
+_diffrn_reflns_theta_min         2.88
+_exptl_absorpt_coefficient_mu    44.8222
+_exptl_absorpt_correction_T_max  0.1544
+_exptl_absorpt_correction_T_min  0.0735
+_exptl_absorpt_correction_type   gaussian
+_exptl_crystal_density_diffrn    7.593
+_exptl_crystal_F_000             790
+_refine_diff_density_max         4.16
+_refine_diff_density_min         -3.68
+_refine_ls_extinction_coef       0.149653
+_refine_ls_extinction_method     'B-C type 1 Gaussian isotropic'
+_refine_ls_goodness_of_fit_obs   2.57
+_refine_ls_goodness_of_fit_ref   2.57
+_refine_ls_number_parameters     22
+_refine_ls_number_reflns         291
+_refine_ls_R_factor_all          0.0331
+_refine_ls_R_factor_gt           0.0331
+_refine_ls_shift/su_max          0.0654
+_refine_ls_shift/su_mean         0.0120
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details     w=1/\s^2^(I)
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_gt          0.0698
+_refine_ls_wR_factor_ref         0.0698
+_reflns_limit_h_max              0
+_reflns_limit_h_min              -4
+_reflns_limit_k_max              8
+_reflns_limit_k_min              0
+_reflns_limit_l_max              20
+_reflns_limit_l_min              0
+_reflns_number_observed          291
+_reflns_number_total             291
+_reflns_observed_criterion       2
+_cod_data_source_file            ic026124p-2_s1_2.cif
+_cod_data_source_block           BaLiOsO
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_diffrn_radiation_probe' value 'X-ray' changed to 'x-ray' according
+to the built-in table from CIF Core dictionary named 'cif_core.dic'
+version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1646 2011-03-28 12:23:43Z adriana 
+;
+_cod_original_formula_sum        'Ba3 Li1 Os2 O9'
+_cod_database_code               4313193
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 x-y,x,1/2+z
+3 y,x,1/2+z
+4 -y,x-y,z
+5 -x+y,y,z
+6 -x,-y,1/2+z
+7 -x,-x+y,1/2+z
+8 -x+y,-x,z
+9 -y,-x,z
+10 y,-x+y,1/2+z
+11 x-y,-y,1/2+z
+12 x,x-y,z
+13 -x,-y,-z
+14 -x+y,-x,1/2-z
+15 -y,-x,1/2-z
+16 y,-x+y,-z
+17 x-y,-y,-z
+18 x,y,1/2-z
+19 x,x-y,1/2-z
+20 x-y,x,-z
+21 y,x,-z
+22 -y,x-y,1/2-z
+23 -x+y,y,1/2-z
+24 -x,-x+y,-z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_adp_type
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+_atom_site_occupancy
+Ba1 Ba Uani 0 0 0.25 0.0086(2) 2 1
+Ba2 Ba Uani 0.333333 0.666667 0.91273(6) 0.0095(2) 4 1
+Li Li Uani 0 0 0 0.006(6) 2 1
+Os Os Uani 0.333333 0.666667 0.15791(2) 0.0058(2) 4 1
+O1 O Uani 0.4887(7) 0.9773(14) 0.25 0.0090(18) 6 1
+O2 O Uani 0.1762(5) 0.3523(10) 0.4137(4) 0.0107(14) 12 1
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_type_symbol
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Ba1 Ba 0.0071(3) 0.0071(3) 0.0115(5) 0.00356(16) 0 0
+Ba2 Ba 0.0088(2) 0.0088(2) 0.0109(3) 0.00439(14) 0 0
+Li Li 0.004(7) 0.004(7) 0.010(14) 0.002(3) 0 0
+Os Os 0.0052(2) 0.0052(2) 0.0072(3) 0.00258(12) 0 0
+O1 O 0.011(2) 0.004(2) 0.010(2) 0.0020(13) 0 0
+O2 O 0.0104(17) 0.007(2) 0.014(2) 0.0033(10) 0.0033(11) 0.007(2)
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Ba 0 -0.324 2.282 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.1'
+Li 0 0.000 0.000 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.1'
+Os 0 -1.217 7.603 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.1'
+O 0 0.011 0.006 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.1'
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+Ba1 O1 2.902(4) . 1_445
+Ba1 O1 2.905(5) . 1_545
+Ba1 O1 2.905(4) . 14_455
+Ba1 O1 2.902(3) . 14_565
+Ba1 O1 2.905(5) . 15_655
+Ba1 O1 2.902(4) . 15_665
+Ba1 O2 2.914(6) . .
+Ba1 O2 2.914(6) . 14_555
+Ba1 O2 2.914(6) . 15_555
+Ba1 O2 2.914(6) . 4_555
+Ba1 O2 2.914(6) . 18_555
+Ba1 O2 2.914(6) . 8_555
+Ba2 O1 2.917(3) . 13_676
+Ba2 O1 2.917(4) . 2_655
+Ba2 O1 2.917(3) . 3_455
+Ba2 O2 2.902(3) . 2_555
+Ba2 O2 2.904(3) . 2_665
+Ba2 O2 2.921(6) . 14_566
+Ba2 O2 2.902(4) . 3_555
+Ba2 O2 2.904(4) . 3_565
+Ba2 O2 2.921(6) . 15_666
+Ba2 O2 2.904(4) . 6_565
+Ba2 O2 2.902(4) . 6_665
+Ba2 O2 2.921(6) . 18_556
+Li O2 2.149(6) . 2_554
+Li O2 2.149(6) . 14_555
+Li O2 2.149(5) . 3_554
+Li O2 2.149(5) . 15_555
+Li O2 2.149(5) . 6_554
+Li O2 2.149(5) . 18_555
+Os Os 2.6056(6) . 14_565
+Os O1 2.032(3) . .
+Os O1 2.032(5) . 14_565
+Os O1 2.032(3) . 15_665
+Os O2 1.878(6) . 14_565
+Os O2 1.878(5) . 15_665
+Os O2 1.878(5) . 18_555
+O1 Ba1 2.905(5) . 1_565
+O1 Ba1 2.902(4) . 1_665
+O1 Ba2 2.917(3) . 13_676
+O1 Ba2 2.917(3) . 2_664
+O1 Os 2.032(3) . .
+O1 Os 2.032(3) . 14_565
+O1 O1 2.701(8) . 14_565
+O1 O1 2.702(5) . 15_665
+O1 O2 2.799(6) . 14_565
+O1 O2 2.798(7) . 15_665
+O1 O2 2.797(8) . 4_665
+O1 O2 2.799(6) . 8_565
+O2 Ba1 2.914(6) . .
+O2 Ba2 2.904(4) . 2_554
+O2 Ba2 2.902(4) . 2_654
+O2 Ba2 2.921(6) . 14_566
+O2 Li 2.149(5) . 2_555
+O2 Os 1.878(5) . 14_565
+O2 O1 2.797(6) . 14_565
+O2 O1 2.798(7) . 15_665
+O2 O2 2.739(5) . 4_665
+O2 O2 2.739(7) . 8_565

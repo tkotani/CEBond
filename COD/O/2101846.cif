@@ -1,0 +1,340 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 06:40:26 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176432 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/18/2101846.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2101846
+loop_
+_publ_author_name
+'Hsu, R.'
+'Maslen, E. N.'
+'du Boulay, D.'
+'Ishizawa, N.'
+_publ_section_title
+;
+ Synchrotron X-ray Studies of LiNbO~3~ and LiTaO~3~
+;
+_journal_issue                   3
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              420
+_journal_page_last               428
+_journal_paper_doi               10.1107/S010876819600777X
+_journal_volume                  53
+_journal_year                    1997
+_chemical_formula_analytical     LiTaO~3~
+_chemical_formula_sum            'Li O3 Ta'
+_chemical_formula_weight         235.9
+_chemical_melting_point          1923
+_chemical_name_systematic        lithium_tantalate
+_space_group_IT_number           161
+_symmetry_cell_setting           trigonal
+_symmetry_space_group_name_Hall  'R 3 -2"c'
+_symmetry_space_group_name_H-M   'R 3 c :H'
+_audit_creation_method           from_xtal_archive_file_using_CIFIO
+_cell_angle_alpha                90.000(10)
+_cell_angle_beta                 90.000(10)
+_cell_angle_gamma                120.000(13)
+_cell_formula_units_Z            6
+_cell_length_a                   5.154(3)
+_cell_length_b                   5.154(3)
+_cell_length_c                   13.783(3)
+_cell_measurement_reflns_used    6
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      41.288
+_cell_measurement_theta_min      41.283
+_cell_volume                     317.1(3)
+_computing_data_reduction        xtal_DIFDAT_SORTRF_ABSORB_ADDREF
+_computing_molecular_graphics    xtal
+_computing_publication_material  xtal_CIFIO
+_computing_structure_refinement  xtal_CRYLSQ
+_computing_structure_solution    xtal
+_diffrn_ambient_temperature      293
+_diffrn_measurement_device       Tsukuba
+_diffrn_measurement_method       \w/2\q
+_diffrn_radiation_monochromator  Si(111)
+_diffrn_radiation_source         20keV_synchrotron
+_diffrn_radiation_type           xray_wiggler
+_diffrn_radiation_wavelength     0.7
+_diffrn_reflns_av_R_equivalents  .0598
+_diffrn_reflns_av_sigmaI/netI    .0313
+_diffrn_reflns_limit_h_max       11
+_diffrn_reflns_limit_h_min       -11
+_diffrn_reflns_limit_k_max       11
+_diffrn_reflns_limit_k_min       -11
+_diffrn_reflns_limit_l_max       11
+_diffrn_reflns_limit_l_min       -11
+_diffrn_reflns_number            4622
+_diffrn_reflns_reduction_process equatorial_monochr_Lp
+_diffrn_reflns_theta_max         50.00
+_diffrn_reflns_theta_min         0.50
+_diffrn_standards_decay_%        16
+_diffrn_standards_interval_count 100
+_diffrn_standards_number         6
+_exptl_absorpt_coefficient_mu    50.03
+_exptl_absorpt_correction_T_max  0.3676
+_exptl_absorpt_correction_T_min  0.1560
+_exptl_absorpt_correction_type   analytical
+_exptl_absorpt_process_details   Alcock_analytical
+_exptl_crystal_colour            transparent
+_exptl_crystal_density_diffrn    7.412
+_exptl_crystal_description       rectangular
+_exptl_crystal_F_000             600
+_exptl_crystal_size_max          0.0470(3)
+_exptl_crystal_size_mid          0.0360(3)
+_exptl_crystal_size_min          0.0228(3)
+_refine_diff_density_max         3.35
+_refine_diff_density_min         -5.946
+_refine_ls_abs_structure_details none
+_refine_ls_abs_structure_Flack   0
+_refine_ls_extinction_coef       582E1(18)
+_refine_ls_extinction_method     'Zachariasen (1967)'
+_refine_ls_goodness_of_fit_all   1.372
+_refine_ls_goodness_of_fit_obs   1.372
+_refine_ls_hydrogen_treatment    noref
+_refine_ls_matrix_type           full
+_refine_ls_number_constraints    0
+_refine_ls_number_parameters     16
+_refine_ls_number_reflns         773
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          .016
+_refine_ls_R_factor_obs          .016
+_refine_ls_shift/esd_max         .00001
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_all         .022
+_refine_ls_wR_factor_obs         .022
+_reflns_number_observed          773
+_reflns_number_total             773
+_reflns_observed_criterion       refl_observed_if_F____>_.0001_sigma(F___)
+_cod_data_source_file            as0700.cif
+_cod_data_source_block           LiTaO3
+_cod_original_cell_volume        317.1(4)
+_cod_original_sg_symbol_Hall     R_3_-2"c
+_cod_original_sg_symbol_H-M      'R 3 c'
+_cod_original_formula_sum        'Li Ta O3'
+_cod_database_code               2101846
+loop_
+_symmetry_equiv_pos_as_xyz
++x,+y,+z
+-y,+x-y,+z
+-y,-x,1/2+z
+-x+y,-x,+z
++x,+x-y,1/2+z
+-x+y,+y,1/2+z
+2/3+x,1/3+y,1/3+z
+1/3+x,2/3+y,2/3+z
+2/3-y,1/3+x-y,1/3+z
+1/3-y,2/3+x-y,2/3+z
+2/3-y,1/3-x,5/6+z
+1/3-y,2/3-x,1/6+z
+2/3-x+y,1/3-x,1/3+z
+1/3-x+y,2/3-x,2/3+z
+2/3+x,1/3+x-y,5/6+z
+1/3+x,2/3+x-y,1/6+z
+2/3-x+y,1/3+y,5/6+z
+1/3-x+y,2/3+y,1/6+z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Li .016(5) .016(5) .019(9) .008(3) .00000 .00000
+Ta .00365(5) .00365(5) .00332(5) .00183(3) .00000 .00000
+O .00649(15) .00450(13) .00653(12) .00256(12) -.00117(15) -.00214(11)
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+Li .00000 .00000 .2808(16) .017(7) Uani
+Ta .00000 .00000 .0009(8) .00354(5) Uani
+O .04947(11) .34337(11) .0698(18) .00614(12) Uani
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Li -.000305 .000122 Int._Tables_Vol_IV_Tables_2.2B_and_2.3.1
+Ta -.685303 6.3915 Int._Tables_Vol_IV_Tables_2.2B_and_2.3.1
+O .010315 .00592 Int._Tables_Vol_IV_Tables_2.2B_and_2.3.1
+loop_
+_diffrn_standard_refln_index_h
+_diffrn_standard_refln_index_k
+_diffrn_standard_refln_index_l
+8 0 0
+0 8 0
+0 0 8
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+O Li O 18_445 16 111.4(7)
+O Li O 18_445 12_545 111.4(7)
+O Li O 16 12_545 111.4(7)
+O Ta O 4 2 97.4(7)
+O Ta O 4 . 97.4(7)
+O Ta O 4 17_444 88.9(6)
+O Ta O 4 11_554 90.4(6)
+O Ta O 4 15_454 169.2(10)
+O Ta O 2 . 97.4(7)
+O Ta O 2 17_444 90.4(6)
+O Ta O 2 11_554 169.2(10)
+O Ta O 2 15_454 88.9(6)
+O Ta O . 17_444 169.2(10)
+O Ta O . 11_554 88.9(6)
+O Ta O . 15_454 90.4(6)
+O Ta O 17_444 11_554 82.3(7)
+O Ta O 17_444 15_454 82.3(7)
+O Ta O 11_554 15_454 82.3(7)
+Ta O Li . 11_454 116.5(3)
+Ta O Ta . 12 141.4(4)
+Li O Ta 11_454 12 96.3(9)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+Li O 18_445 2.041(10)
+Li O 16 2.041(10)
+Li O 12_545 2.041(10)
+Ta O 4 1.910(14)
+Ta O 2 1.910(14)
+Ta O . 1.910(14)
+Ta O 17_444 2.072(18)
+Ta O 11_554 2.072(18)
+Ta O 15_454 2.072(18)
+loop_
+_geom_contact_atom_site_label_1
+_geom_contact_atom_site_label_2
+_geom_contact_distance
+_geom_contact_site_symmetry_2
+Li O 2.31(2) 9
+Li O 2.31(2) 7_445
+Li O 2.31(2) 13_455
+O O 2.7272(16) 2_665
+O O 2.7272(18) 4_565
+O O 2.79(3) 11_554
+O O 2.79(3) 12
+O O 2.83(3) 15_454
+O O 2.83(3) 16
+O O 2.8701(18) 2
+O O 2.8701(18) 4
+Li Ta 3.03(2) 3
+O O 3.04(3) 17_454
+O O 3.04(3) 18_445
+Li Ta 3.065(6) 7
+Li Ta 3.065(6) 7_445
+Li Ta 3.065(6) 7_455
+Li O 3.265(7) 12
+Li O 3.265(6) 16_445
+Li O 3.265(7) 18_545
+Li O 3.35(3) .
+Li O 3.35(3) 4
+Li O 3.35(3) 2
+Li Ta 3.360(12) 12
+Li Ta 3.360(12) 12_445
+Li Ta 3.360(12) 12_545
+O O 3.373(2) 4_455
+O O 3.373(2) 2_565
+Ta O 3.645(7) 2_665
+Ta O 3.645(7) 4_455
+Ta O 3.645(7) 1_545
+Ta Ta 3.759(10) 11_554
+Li Li 3.76(2) 11_444
+Ta Ta 3.759(10) 11_444
+Li Li 3.76(2) 11_554
+Ta Ta 3.759(10) 11_454
+Li Li 3.76(2) 11_454
+Li Li 3.76(2) 12
+Ta Ta 3.759(10) 12
+Ta Ta 3.759(10) 12_445
+Li Li 3.76(2) 12_445
+Ta Ta 3.759(10) 12_545
+Li Li 3.76(2) 12_545
+Ta O 3.79(2) 18_445
+Ta O 3.79(2) 16
+Ta O 3.79(2) 12_545
+Ta O 3.838(10) 15_554
+Ta O 3.838(10) 11_444
+Ta O 3.838(10) 17_454
+Li Ta 3.86(2) .
+O O 3.96(2) 17_444
+O O 3.96(2) 18
+Li O 3.970(14) 13_445
+Li O 3.970(14) 7
+Li O 3.970(14) 9_455
+Ta O 4.13(2) 10_554
+Ta O 4.13(2) 14_444
+Ta O 4.13(2) 8_544
+O O 4.20(2) 15_564
+O O 4.20(2) 16_455
+O O 4.270(19) 11_454
+O O 4.270(19) 12_545
+Li O 4.31(3) 3
+Li O 4.31(3) 6
+Li O 4.31(3) 5
+Ta O 4.447(6) 2_655
+Ta O 4.447(6) 4_565
+Ta O 4.447(6) 1_445
+Li O 4.505(5) 16_455
+Li O 4.505(5) 12_655
+Li O 4.505(5) 18_435
+Ta O 4.56(2) 12
+Ta O 4.56(2) 16_445
+Ta O 4.56(2) 18_545
+Li O 4.56(2) 1_545
+Li O 4.56(2) 2_665
+Li O 4.56(2) 4_455
+Li O 4.593(5) 12_445
+Li O 4.593(5) 18
+Li O 4.593(5) 16_545
+Ta O 4.607(8) 15_444
+Ta O 4.607(8) 17_554
+Ta O 4.607(8) 11_454
+Li O 4.717(12) 9_445
+Li O 4.717(12) 13
+Li O 4.717(12) 7_455
+Ta O 4.85(2) 8_444
+Ta O 4.85(2) 14_554
+Ta O 4.85(2) 10_544
+Ta O 4.870(6) 1_655
+Ta O 4.870(6) 4_445
+Ta O 4.870(6) 2_565
+Ta O 4.936(8) 11_544
+Ta O 4.936(8) 15_564
+Ta O 4.936(8) 17_344
+Li Li 5.154(2) 1_665
+Ta Ta 5.154(2) 1_445
+Ta Ta 5.154(2) 1_665
+Li Li 5.154(2) 1_445
+Li Li 5.154(3) 1_545
+Li Li 5.154(3) 1_455
+Ta Ta 5.154(3) 1_565
+Ta Ta 5.154(3) 1_655
+Li Li 5.154(3) 1_655
+Ta Ta 5.154(3) 1_455
+Li Li 5.154(3) 1_565
+Ta Ta 5.154(3) 1_545
+Ta Ta 5.474(13) 7
+Ta Ta 5.474(13) 7_445
+Ta Ta 5.474(13) 8_554
+Ta Ta 5.474(13) 8_444
+Ta Ta 5.474(13) 7_455
+Ta Ta 5.474(13) 8_544

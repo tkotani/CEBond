@@ -1,0 +1,224 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-21 11:56:54 +0200 (Sun, 21 Feb 2016) $
+#$Revision: 176809 $
+#$URL: svn://www.crystallography.net/cod/cif/2/30/02/2300281.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2300281
+loop_
+_publ_author_name
+'Purwanto, A.'
+'Fajar, A.'
+'Mugirahardjo, H.'
+'Fergus, J. W.'
+'Wang, K.'
+_publ_section_title
+;
+ Cation distribution in spinel (Mn,Co,Cr)~3~O~4~ at room temperature
+;
+_journal_issue                   3
+_journal_name_full               'Journal of Applied Crystallography'
+_journal_page_first              394
+_journal_page_last               400
+_journal_paper_doi               10.1107/S0021889810008150
+_journal_volume                  43
+_journal_year                    2010
+_chemical_formula_sum            'Co0.23 Mn0.52 O'
+_chemical_formula_weight         58.12
+_chemical_name_systematic        ' ?'
+_space_group_IT_number           141
+_symmetry_cell_setting           tetragonal
+_symmetry_space_group_name_Hall  '-I 4bd 2'
+_symmetry_space_group_name_H-M   'I 41/a m d :2'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            16
+_cell_length_a                   5.7184(10)
+_cell_length_b                   5.7184
+_cell_length_c                   9.2079(22)
+_cell_volume                     301.10(9)
+_pd_block_id
+2010-01-13T14:34|MN1_5CO1_5O4_phase1|Agus_Purwanto||
+_pd_phase_name                   'I 41/a m d'
+_cod_data_source_file            db5075.cif
+_cod_data_source_block           MN1_5CO1_5O4_phase_1
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_geom_angle_publ_flag' value 'N' changed to 'n' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (39
+times).
+
+'_geom_bond_publ_flag' value 'N' changed to 'n' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (36 times).
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+;
+_cod_original_cell_volume        301.09(14)
+_cod_original_sg_symbol_H-M      'I 41/a m d'
+_cod_database_code               2300281
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -y+1/4,+x+3/4,+z+1/4
+3 -x+1/2,-y,+z+1/2
+4 +y+1/4,-x+1/4,+z+3/4
+5 -x,+y,+z
+6 -y+1/4,-x+3/4,+z+1/4
+7 +x+1/2,-y,+z+1/2
+8 +y+1/4,+x+1/4,+z+3/4
+-1 -x,-y,-z
+-2 +y+3/4,-x+1/4,-z+3/4
+-3 +x+1/2,+y,-z+1/2
+-4 -y+3/4,+x+3/4,-z+1/4
+-5 +x,-y,-z
+-6 +y+3/4,+x+1/4,-z+3/4
+-7 -x+1/2,+y,-z+1/2
+-8 -y+3/4,-x+3/4,-z+1/4
+101 +x+1/2,+y+1/2,+z+1/2
+102 -y+3/4,+x+1/4,+z+3/4
+103 -x,-y+1/2,+z
+104 +y+3/4,-x+3/4,+z+1/4
+105 -x+1/2,+y+1/2,+z+1/2
+106 -y+3/4,-x+1/4,+z+3/4
+107 +x,-y+1/2,+z
+108 +y+3/4,+x+3/4,+z+1/4
+-101 -x+1/2,-y+1/2,-z+1/2
+-102 +y+1/4,-x+3/4,-z+1/4
+-103 +x,+y+1/2,-z
+-104 -y+1/4,+x+1/4,-z+3/4
+-105 +x+1/2,-y+1/2,-z+1/2
+-106 +y+1/4,+x+3/4,-z+1/4
+-107 -x,+y+1/2,-z
+-108 -y+1/4,-x+1/4,-z+3/4
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+O- O-2_16 0.0 0.4770(10) 0.2615(6) 1.0 Uiso 0.0100(15) 16
+Co Co+3_5 0.0 0.0 0.5 0.042(19) Uiso 0.8(18) 8
+Mn Mn+3_5 0.0 0.0 0.5 0.958(19) Uiso 0.005 8
+Co Co+2_5 0.0 0.75 0.125 0.830(25) Uiso 0.005 4
+Mn Mn+2_5 0.0 0.75 0.125 0.170(25) Uiso 0.004 4
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+Co 0.337
+O- 16.0
+Mn 7.663
+Mn 0.681
+Co 3.319
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+Co+3_59 O-2_16 Co+3_59 95.34(25) 4_554 . -2_465 n
+Co+3_59 O-2_16 Mn+3_55 0.0 4_554 . 4_554 n
+Co+3_59 O-2_16 Mn+3_55 95.34(25) 4_554 . -2_455 n
+Co+3_59 O-2_16 Co+2_59 119.25(19) 4_554 . 1_555 n
+Co+3_59 O-2_16 Mn+2_55 119.25(19) 4_554 . 1_555 n
+Co+3_59 O-2_16 Mn+3_55 95.34(25) -2_455 . 4_554 n
+Co+3_59 O-2_16 Mn+3_55 0.0 -2_455 . -2_455 n
+Co+3_59 O-2_16 Co+2_59 119.25(19) -2_455 . 1_555 n
+Co+3_59 O-2_16 Mn+2_55 119.25(19) -2_465 . 1_555 n
+Mn+3_55 O-2_16 Mn+3_55 95.34(25) 4_554 . -2_455 n
+Mn+3_55 O-2_16 Co+2_59 119.25(19) 4_554 . 1_555 n
+Mn+3_55 O-2_16 Mn+2_55 119.25(19) 4_554 . 1_555 n
+Mn+3_55 O-2_16 Co+2_59 119.25(19) -2_455 . 1_555 n
+Mn+3_55 O-2_16 Mn+2_55 119.25(19) -2_465 . 1_555 n
+Co+2_59 O-2_16 Mn+2_55 0.0 1_555 . 1_555 n
+O-2_16 Co+3_59 O-2_16 180.0 2_545 . -2_455 n
+O-2_16 Co+3_59 O-2_16 84.32(25) 2_545 . 104_333 n
+O-2_16 Co+3_59 O-2_16 95.68(25) 2_545 . -104_445 n
+O-2_16 Co+3_59 O-2_16 95.68(25) -2_455 . 104_333 n
+O-2_16 Co+3_59 O-2_16 84.32(25) -2_455 . -104_445 n
+O-2_16 Co+3_59 O-2_16 180.0 104_333 . -104_445 n
+O-2_16 Mn+3_55 O-2_16 180.0 2_545 . -2_455 n
+O-2_16 Mn+3_55 O-2_16 84.32(25) 2_545 . 104_333 n
+O-2_16 Mn+3_55 O-2_16 95.68(25) 2_545 . -104_445 n
+O-2_16 Mn+3_55 O-2_16 95.68(25) -2_455 . 104_333 n
+O-2_16 Mn+3_55 O-2_16 84.32(25) -2_455 . -104_445 n
+O-2_16 Mn+3_55 O-2_16 180.0 104_333 . -104_445 n
+O-2_16 Co+2_59 O-2_16 113.15(18) 1_555 . -4_555 n
+O-2_16 Co+2_59 O-2_16 102.35(34) 1_555 . 103_353 n
+O-2_16 Co+2_59 O-2_16 113.15(18) 1_555 . -102_354 n
+O-2_16 Co+2_59 O-2_16 113.15(18) -4_555 . 103_353 n
+O-2_16 Co+2_59 O-2_16 102.35(34) -4_555 . -102_354 n
+O-2_16 Co+2_59 O-2_16 113.15(18) 103_353 . -102_354 n
+O-2_16 Mn+2_55 O-2_16 113.15(18) 1_555 . -4_555 n
+O-2_16 Mn+2_55 O-2_16 102.35(34) 1_555 . 103_353 n
+O-2_16 Mn+2_55 O-2_16 113.15(18) 1_555 . -102_354 n
+O-2_16 Mn+2_55 O-2_16 113.15(18) -4_555 . 103_353 n
+O-2_16 Mn+2_55 O-2_16 102.35(34) -4_555 . -102_354 n
+O-2_16 Mn+2_55 O-2_16 113.15(18) 103_353 . -102_354 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+O-2_16 Co+3_59 1.934(4) . 4_554 n
+O-2_16 Co+3_59 1.934(4) . -2_455 n
+O-2_16 Co+3_59 2.200(6) . 103_555 n
+O-2_16 Mn+3_55 1.934(4) . 4_554 n
+O-2_16 Mn+3_55 1.934(4) . -2_455 n
+O-2_16 Mn+3_55 2.200(6) . 103_555 n
+O-2_16 Co+2_59 2.004(5) . 1_555 n
+O-2_16 Mn+2_55 2.004(5) . 1_555 n
+Co+3_59 O-2_16 1.934(4) . 2_545 n
+Co+3_59 O-2_16 1.934(4) . -2_455 n
+Co+3_59 O-2_16 2.200(6) . 103_555 n
+Co+3_59 O-2_16 1.934(4) . 104_445 n
+Co+3_59 O-2_16 2.200(6) . -103_435 n
+Co+3_59 O-2_16 1.934(4) . -104_444 n
+Co+3_59 Co+3_59 2.8592(5) . 103_545 n
+Co+3_59 Co+3_59 2.8592(5) . 103_555 n
+Co+3_59 Mn+3_55 2.8592(5) . 103_545 n
+Co+3_59 Mn+3_55 2.8592(5) . 103_555 n
+Mn+3_55 O-2_16 1.934(4) . 2_545 n
+Mn+3_55 O-2_16 1.934(4) . -2_455 n
+Mn+3_55 O-2_16 2.200(6) . 103_555 n
+Mn+3_55 O-2_16 1.934(4) . 104_445 n
+Mn+3_55 O-2_16 2.200(6) . -103_435 n
+Mn+3_55 O-2_16 1.934(4) . -104_444 n
+Mn+3_55 Co+3_59 2.8592(5) . 103_545 n
+Mn+3_55 Co+3_59 2.8592(5) . 103_555 n
+Mn+3_55 Mn+3_55 2.8592(5) . 103_545 n
+Mn+3_55 Mn+3_55 2.8592(5) . 103_555 n
+Co+2_59 O-2_16 2.004(5) . 1_555 n
+Co+2_59 O-2_16 2.004(5) . -4_555 n
+Co+2_59 O-2_16 2.004(5) . 103_565 n
+Co+2_59 O-2_16 2.004(5) . -102_344 n
+Mn+2_55 O-2_16 2.004(5) . 1_555 n
+Mn+2_55 O-2_16 2.004(5) . -4_555 n
+Mn+2_55 O-2_16 2.004(5) . 103_565 n
+Mn+2_55 O-2_16 2.004(5) . -102_344 n
+loop_
+_pd_block_diffractogram_id
+2010-01-13T14:34|MN1_5CO1_5O4_H_01|Agus_Purwanto|HRPD
+2010-01-13T14:34|MN1_5CO1_5O4_H_02|Agus_Purwanto|XRD

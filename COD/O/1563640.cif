@@ -1,0 +1,309 @@
+#------------------------------------------------------------------------------
+#$Date: 2021-06-21 12:12:48 +0300 (Mon, 21 Jun 2021) $
+#$Revision: 266609 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/56/36/1563640.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1563640
+loop_
+_publ_author_name
+'Zubkov, Vladimir G.'
+'Tarakina, Nadezda V.'
+'Leonidov, Ivan I.'
+'Tyutyunnik, Alexander P.'
+'Surat, Ludmila L.'
+'Melkozerova, Marina A.'
+'Zabolotskaya, Elena V.'
+'Kellerman, Dina G.'
+_publ_section_title
+;
+ Synthesis and crystal structure of Ln2M2+Ge4O12, Ln=rare-earth element or
+ Y; M=Ca, Mn, Zn
+;
+_journal_issue                   5
+_journal_name_full               'Journal of Solid State Chemistry'
+_journal_page_first              1186
+_journal_page_last               1193
+_journal_paper_doi               10.1016/j.jssc.2010.03.027
+_journal_volume                  183
+_journal_year                    2010
+_chemical_formula_sum            'Ge4 O12 Y2 Zn'
+_chemical_formula_weight         725.54
+_space_group_IT_number           125
+_space_group_name_Hall           '-P 4a 2b'
+_space_group_name_H-M_alt        'P 4/n b m :2'
+_symmetry_cell_setting           tetragonal
+_symmetry_space_group_name_H-M   'P 4/n b m :2'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            2
+_cell_length_a                   9.848443(35)
+_cell_length_b                   9.848443
+_cell_length_c                   4.928944(31)
+_cell_volume                     478.067(3)
+_computing_structure_refinement  GSAS
+_refine_ls_goodness_of_fit_all   1.22
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     59
+_refine_ls_number_restraints     0
+_refine_ls_shift/su_max          0.02
+_refine_ls_shift/su_mean         0.00
+_cod_data_source_file            Y2ZNGE4O12.cif
+_cod_data_source_block           Y2ZNGE4O12_publ
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+data item '_geom_angle_publ_flag' value 'N' was changed to 'n' in
+accordance with the built-in table derived from the CIF Core
+dictionary named 'cif_core.dic' version 2.4.5 last updated on
+2014-11-21 (115 times).
+
+data item '_geom_bond_publ_flag' value 'N' was changed to 'n' in
+accordance with the built-in table derived from the CIF Core
+dictionary named 'cif_core.dic' version 2.4.5 last updated on
+2014-11-21 (56 times).
+
+Automatic conversion script
+Id: cif_fix_values 8369 2020-08-20 11:38:08Z andrius 
+;
+_cod_original_cell_volume        478.067(4)
+_cod_original_sg_symbol_H-M      'P 4/n b m'
+_cod_original_formula_sum        'Ge4 O12 Y2.00 Zn1.00'
+_cod_database_code               1563640
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -y+1/2,+x,+z
+3 -x+1/2,-y+1/2,+z
+4 +y,-x+1/2,+z
+5 -x,+y+1/2,+z
+6 -y,-x,+z
+7 +x+1/2,-y,+z
+8 +y+1/2,+x+1/2,+z
+-1 -x,-y,-z
+-2 +y+1/2,-x,-z
+-3 +x+1/2,+y+1/2,-z
+-4 -y,+x+1/2,-z
+-5 +x,-y+1/2,-z
+-6 +y,+x,-z
+-7 -x+1/2,+y,-z
+-8 -y+1/2,-x+1/2,-z
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+Zn Zn 0.0 0.0 0.5 0.5 Uiso 0.0192(4) 4
+Y Y1 0.0 0.0 0.5 0.5 Uiso 0.0192(4) 4
+Y Y2 0.25 0.25 0.5 1.0 Uiso 0.0122(5) 2
+Ge Ge 0.97788(5) 0.25 0.0 1.0 Uiso 0.0167(4) 8
+O O1 0.13097(24) 0.86903(24) 0.8297(7) 1.0 Uiso 0.0119(11) 8
+O O2 0.16671(22) 0.06260(22) 0.2591(5) 1.0 Uiso 0.0093(7) 16
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+Zn 2.0
+Y 4.0
+Ge 8.0
+O 24.0
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O2 Zn O2 97.87(12) 1_555 . 6_555 n
+O2 Zn O2 180.0 1_555 . -1_556 n
+O2 Zn O2 82.13(12) 1_555 . -6_556 n
+O2 Zn O2 82.13(12) 6_555 . -1_556 n
+O2 Zn O2 180.0 6_555 . -6_556 n
+O2 Zn O2 97.87(12) -1_556 . -6_556 n
+Y2 Y1 Y2 180.0 1_555 . 5_545 n
+Y2 Y1 O1 90.0 1_555 . 1_545 n
+Y2 Y1 O1 90.0 1_555 . -1_566 n
+Y2 Y1 O2 41.07(6) 1_555 . 1_555 n
+Y2 Y1 O2 138.93(6) 1_555 . 6_555 n
+Y2 Y1 O2 138.93(6) 1_555 . -1_556 n
+Y2 Y1 O2 41.07(6) 1_555 . -6_556 n
+Y2 Y1 O1 90.0 5_545 . 1_545 n
+Y2 Y1 O1 90.0 5_545 . -1_566 n
+Y2 Y1 O2 138.93(6) 5_545 . 1_555 n
+Y2 Y1 O2 41.07(6) 5_545 . 6_555 n
+Y2 Y1 O2 41.07(6) 5_545 . -1_556 n
+Y2 Y1 O2 138.93(6) 5_545 . -6_556 n
+O1 Y1 O1 180.0 1_545 . -1_566 n
+O1 Y1 O2 96.74(8) 1_545 . 1_555 n
+O1 Y1 O2 96.74(8) 1_545 . 6_555 n
+O1 Y1 O2 83.26(8) 1_545 . -1_556 n
+O1 Y1 O2 83.26(8) 1_545 . -6_556 n
+O1 Y1 O2 83.26(8) -1_566 . 1_555 n
+O1 Y1 O2 83.26(8) -1_566 . 6_555 n
+O1 Y1 O2 96.74(8) -1_566 . -1_556 n
+O1 Y1 O2 96.74(8) -1_566 . -6_556 n
+O2 Y1 O2 97.87(12) 1_555 . 6_555 n
+O2 Y1 O2 180.0 1_555 . -1_556 n
+O2 Y1 O2 82.13(12) 1_555 . -6_556 n
+O2 Y1 O2 82.13(12) 6_555 . -1_556 n
+O2 Y1 O2 180.0 6_555 . -6_556 n
+O2 Y1 O2 97.87(12) -1_556 . -6_556 n
+Y1 Y2 Y1 90.0 1_555 . 2_555 n
+Y1 Y2 Y1 180.0 1_555 . 3_555 n
+Y1 Y2 Y1 90.0 1_555 . 4_555 n
+Y1 Y2 O2 36.43(6) 1_555 . 1_555 n
+Y1 Y2 O2 108.03(5) 1_555 . 2_555 n
+Y1 Y2 O2 143.57(6) 1_555 . 3_555 n
+Y1 Y2 O2 71.97(5) 1_555 . 4_555 n
+Y1 Y2 O2 108.03(5) 1_555 . -5_456 n
+Y1 Y2 O2 36.43(6) 1_555 . -6_556 n
+Y1 Y2 O2 71.97(5) 1_555 . -7_546 n
+Y1 Y2 O2 143.57(6) 1_555 . -8_556 n
+Y1 Y2 Y1 90.0 2_555 . 3_555 n
+Y1 Y2 Y1 180.0 2_555 . 4_555 n
+Y1 Y2 O2 71.97(5) 2_555 . 1_555 n
+Y1 Y2 O2 36.43(6) 2_555 . 2_555 n
+Y1 Y2 O2 108.03(5) 2_555 . 3_555 n
+Y1 Y2 O2 143.57(6) 2_555 . 4_555 n
+Y1 Y2 O2 143.57(6) 2_555 . -5_456 n
+Y1 Y2 O2 108.03(5) 2_555 . -6_556 n
+Y1 Y2 O2 36.43(6) 2_555 . -7_546 n
+Y1 Y2 O2 71.97(5) 2_555 . -8_556 n
+Y1 Y2 Y1 90.0 3_555 . 4_555 n
+Y1 Y2 O2 143.57(6) 3_555 . 1_555 n
+Y1 Y2 O2 71.97(5) 3_555 . 2_555 n
+Y1 Y2 O2 36.43(6) 3_555 . 3_555 n
+Y1 Y2 O2 108.03(5) 3_555 . 4_555 n
+Y1 Y2 O2 71.97(5) 3_555 . -5_456 n
+Y1 Y2 O2 143.57(6) 3_555 . -6_556 n
+Y1 Y2 O2 108.03(5) 3_555 . -7_546 n
+Y1 Y2 O2 36.43(6) 3_555 . -8_556 n
+Y1 Y2 O2 108.03(5) 4_555 . 1_555 n
+Y1 Y2 O2 143.57(6) 4_555 . 2_555 n
+Y1 Y2 O2 71.97(5) 4_555 . 3_555 n
+Y1 Y2 O2 36.43(6) 4_555 . 4_555 n
+Y1 Y2 O2 36.43(6) 4_555 . -5_456 n
+Y1 Y2 O2 71.97(5) 4_555 . -6_556 n
+Y1 Y2 O2 143.57(6) 4_555 . -7_546 n
+Y1 Y2 O2 108.03(5) 4_555 . -8_556 n
+O2 Y2 O2 75.11(6) 1_555 . 2_555 n
+O2 Y2 O2 119.09(13) 1_555 . 3_555 n
+O2 Y2 O2 75.11(6) 1_555 . 4_555 n
+O2 Y2 O2 139.02(11) 1_555 . -5_456 n
+O2 Y2 O2 72.87(13) 1_555 . -6_556 n
+O2 Y2 O2 76.05(11) 1_555 . -7_546 n
+O2 Y2 O2 143.95(10) 1_555 . -8_556 n
+O2 Y2 O2 75.11(6) 2_555 . 3_555 n
+O2 Y2 O2 119.09(13) 2_555 . 4_555 n
+O2 Y2 O2 143.95(10) 2_555 . -5_456 n
+O2 Y2 O2 139.02(11) 2_555 . -6_556 n
+O2 Y2 O2 72.87(13) 2_555 . -7_546 n
+O2 Y2 O2 76.05(11) 2_555 . -8_556 n
+O2 Y2 O2 75.11(6) 3_555 . 4_555 n
+O2 Y2 O2 76.05(11) 3_555 . -5_456 n
+O2 Y2 O2 143.95(10) 3_555 . -6_556 n
+O2 Y2 O2 139.02(11) 3_555 . -7_546 n
+O2 Y2 O2 72.87(13) 3_555 . -8_556 n
+O2 Y2 O2 72.87(13) 4_555 . -5_456 n
+O2 Y2 O2 76.05(11) 4_555 . -6_556 n
+O2 Y2 O2 143.95(10) 4_555 . -7_546 n
+O2 Y2 O2 139.02(11) 4_555 . -8_556 n
+O2 Y2 O2 75.11(6) -5_456 . -6_556 n
+O2 Y2 O2 119.09(13) -5_456 . -7_546 n
+O2 Y2 O2 75.11(6) -5_456 . -8_556 n
+O2 Y2 O2 75.11(6) -6_556 . -7_546 n
+O2 Y2 O2 119.09(13) -6_556 . -8_556 n
+O2 Y2 O2 75.11(6) -7_546 . -8_556 n
+O1 Ge O1 106.73(21) 4_554 . -1_666 n
+O1 Ge O2 108.84(12) 4_554 . 4_655 n
+O1 Ge O2 104.60(13) 4_554 . -6_655 n
+O1 Ge O2 104.60(13) -1_666 . 4_655 n
+O1 Ge O2 108.84(12) -1_666 . -6_655 n
+O2 Ge O2 122.40(17) 4_655 . -6_655 n
+Y1 O1 Ge 109.89(11) 1_565 . 2_556 n
+Y1 O1 Ge 109.89(11) 1_565 . 5_656 n
+Ge O1 Ge 124.08(19) 2_556 . 5_656 n
+Zn O2 Y1 0.0 1_555 . 1_555 n
+Zn O2 Y2 102.50(10) 1_555 . 1_555 n
+Zn O2 Ge 129.82(12) 1_555 . 2_545 n
+Y1 O2 Y2 102.50(10) 1_555 . 1_555 n
+Y1 O2 Ge 129.82(12) 1_555 . 2_545 n
+Y2 O2 Ge 125.97(12) 1_555 . 2_545 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Zn Y2 3.481950(10) . 1_555 n
+Zn Y2 3.481950(10) . 5_545 n
+Zn O1 2.4431(34) . 1_545 n
+Zn O1 2.4431(34) . -1_566 n
+Zn O2 2.1181(26) . 1_555 n
+Zn O2 2.1181(26) . 6_555 n
+Zn O2 2.1181(26) . -1_556 n
+Zn O2 2.1181(26) . -6_556 n
+Y1 Y2 3.481950(10) . 1_555 n
+Y1 Y2 3.481950(10) . 5_545 n
+Y1 Ge 3.490420(30) . 1_455 n
+Y1 Ge 3.490420(30) . 1_456 n
+Y1 Ge 3.490420(30) . 2_545 n
+Y1 Ge 3.490420(30) . 2_546 n
+Y1 Ge 3.490420(30) . 5_645 n
+Y1 Ge 3.490420(30) . 5_646 n
+Y1 Ge 3.490420(30) . 6_565 n
+Y1 Ge 3.490420(30) . 6_566 n
+Y1 O1 2.4431(34) . 1_545 n
+Y1 O1 2.4431(34) . -1_566 n
+Y1 O2 2.1181(26) . 1_555 n
+Y1 O2 2.1181(26) . 6_555 n
+Y1 O2 2.1181(26) . -1_556 n
+Y1 O2 2.1181(26) . -6_556 n
+Y2 Zn 3.481950(10) . 1_555 n
+Y2 Zn 3.481950(10) . 2_555 n
+Y2 Zn 3.481950(10) . 3_555 n
+Y2 Zn 3.481950(10) . 4_555 n
+Y2 Y1 3.481950(10) . 1_555 n
+Y2 Y1 3.481950(10) . 2_555 n
+Y2 Y1 3.481950(10) . 3_555 n
+Y2 Y1 3.481950(10) . 4_555 n
+Y2 O2 2.3430(21) . 1_555 n
+Y2 O2 2.3430(21) . 2_555 n
+Y2 O2 2.3430(21) . 3_555 n
+Y2 O2 2.3430(21) . 4_555 n
+Y2 O2 2.3430(21) . -5_556 n
+Y2 O2 2.3430(21) . -6_556 n
+Y2 O2 2.3430(21) . -7_556 n
+Y2 O2 2.3430(21) . -8_556 n
+Ge Y1 3.490420(30) . 1_654 n
+Ge Y1 3.490420(30) . 1_655 n
+Ge Y1 3.490420(30) . 4_654 n
+Ge Y1 3.490420(30) . 4_655 n
+Ge O1 1.7967(16) . 4_554 n
+Ge O1 1.7967(16) . -1_666 n
+Ge O2 1.7318(24) . 4_655 n
+Ge O2 1.7318(24) . -6_655 n
+O1 Zn 2.4431(34) . 1_565 n
+O1 Y1 2.4431(34) . 1_565 n
+O1 Ge 1.7967(16) . 2_556 n
+O1 Ge 1.7967(16) . 5_656 n
+O2 Zn 2.1181(26) . 1_555 n
+O2 Y1 2.1181(26) . 1_555 n
+O2 Y2 2.3430(21) . 1_555 n
+O2 Ge 1.7318(24) . 2_545 n

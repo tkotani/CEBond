@@ -1,0 +1,113 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/1/00/86/1008674.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1008674
+loop_
+_publ_author_name
+'Kopnin, E M'
+'Antipov, E V'
+'Capponi, J J'
+'Bordet, P'
+'Chaillout, C'
+'de Brion, S'
+'Marezio, M'
+'Bobylev, A P'
+'Van Tendeloo, G'
+_publ_section_title
+;
+Suppression of superconductivity in Hg-1223 and Hg-1234 by partial
+replacement of Hg by carbon
+;
+_journal_coden_ASTM              PHYCE6
+_journal_name_full               'Physica C (Amsterdam) (152,1988-)'
+_journal_page_first              222
+_journal_page_last               232
+_journal_paper_doi               10.1016/0921-4534(95)00010-0
+_journal_volume                  243
+_journal_year                    1995
+_chemical_formula_structural     'Hg0.692 Ba2 Ca2 Cu3 O8.60'
+_chemical_formula_sum            'Ba2 Ca2 Cu3 Hg0.692 O8.6'
+_chemical_name_systematic
+;
+Mercury barium calcium copper oxide (0.69/2/2/3/8.6)
+;
+_space_group_IT_number           123
+_symmetry_cell_setting           tetragonal
+_symmetry_Int_Tables_number      123
+_symmetry_space_group_name_Hall  '-P 4 2'
+_symmetry_space_group_name_H-M   'P 4/m m m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            1
+_cell_length_a                   3.86521(7)
+_cell_length_b                   3.86521(7)
+_cell_length_c                   15.6486(4)
+_cell_volume                     233.8
+_refine_ls_R_factor_all          0.084
+_cod_original_formula_sum        'Ba2 Ca2 Cu3 Hg.692 O8.6'
+_cod_database_code               1008674
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,z
+-x,y,z
+x,-y,z
+-y,x,z
+y,-x,z
+y,x,z
+-y,-x,z
+-x,-y,-z
+x,y,-z
+x,-y,-z
+-x,y,-z
+y,-x,-z
+-y,x,-z
+-y,-x,-z
+y,x,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_22
+_atom_site_aniso_U_23
+_atom_site_aniso_U_33
+Hg1 0.029(1) 0. 0. 0.029(1) 0. -0.001(2)
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_calc_flag
+Hg1 Hg2+ 1 b 0. 0. 0.5 0.692(6) 0 d
+Ba1 Ba2+ 2 h 0.5 0.5 0.3276(1) 1. 0 d
+Ca1 Ca2+ 2 h 0.5 0.5 0.1059(3) 1. 0 d
+Cu1 Cu3+ 1 a 0. 0. 0. 1. 0 d
+Cu2 Cu3+ 2 g 0. 0. 0.2041(2) 1. 0 d
+O1 O2- 2 f 0.5 0. 0. 1. 0 d
+O2 O2- 4 i 0.5 0. 0.1990(7) 1. 0 d
+O3 O2- 2 g 0. 0. 0.388(1) 1. 0 d
+O4 O2- 1 d 0.5 0.5 0.5 0.60(4) 0 d
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Hg2+ 2.000
+Ba2+ 2.000
+Ca2+ 2.000
+Cu3+ 2.605
+O2- -2.000

@@ -1,0 +1,160 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-23 22:09:31 +0200 (Wed, 23 Mar 2016) $
+#$Revision: 179469 $
+#$URL: svn://www.crystallography.net/cod/cif/4/33/66/4336636.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4336636
+loop_
+_publ_author_name
+'Daniel Errandonea'
+'Oscar Gomis'
+'Braulio Garc\'ia-Domene'
+'Julio Pellicer-Porres'
+'Vasundhara Katari'
+'S. Nagabhusan Achary'
+'Avesh K. Tyagi'
+'Catalin Popescu'
+_publ_section_title
+;
+ New Polymorph of InVO4: A High-Pressure Structure with Six-Coordinated
+ Vanadium
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              12790
+_journal_page_last               12798
+_journal_paper_doi               10.1021/ic402043x
+_journal_volume                  52
+_journal_year                    2013
+_chemical_compound_source        HP-DAC
+_chemical_formula_moiety         InVO4
+_chemical_formula_sum            'In O4 V'
+_chemical_formula_weight         229.76
+_chemical_name_common            'Indium Vanadate'
+_chemical_name_systematic        ' InVO4-V'
+_space_group_IT_number           13
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2yc'
+_symmetry_space_group_name_H-M   'P 1 2/c 1'
+_audit_author_name               DE
+_audit_creation_date             10-2-13
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_audit_update_record             '  Initial CIF as created by GSAS2CIF'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 93.8(3)
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            2
+_cell_length_a                   4.714(5)
+_cell_length_b                   5.459(6)
+_cell_length_c                   4.903(5)
+_cell_measurement_temperature    300
+_cell_volume                     125.9(2)
+_computing_structure_refinement  GSAS
+_diffrn_ambient_temperature      300
+_diffrn_detector                 CCD
+_diffrn_radiation_polarisn_ratio 1.0
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_type           monochromatic-beam
+_diffrn_radiation_wavelength     0.4246
+_diffrn_source                   synchrotron
+_exptl_absorpt_process_details
+;   GSAS Absorption/surface roughness correction: function number 0
+ No correction is applied.
+;
+_pd_calc_method                  'Rietveld Refinement'
+_pd_meas_2theta_range_inc        0.014
+_pd_meas_2theta_range_max        11.41
+_pd_meas_2theta_range_min        3.458
+_pd_meas_number_of_points        569
+_pd_phase_name
+'from E:/Daniel2013/InVO4/refinemments/gs2/INVO4-IV-8_2GPa.cel'
+_pd_proc_2theta_range_inc        0.014
+_pd_proc_2theta_range_max        11.41
+_pd_proc_2theta_range_min        3.458
+_pd_proc_info_datetime           10-2-13
+_pd_proc_ls_background_function
+;   GSAS Background function number 2 with  3 terms.
+ Cosine Fourier series
+      1:    7.30114     2:    0.00000     3:   -2.53079    
+;
+_pd_proc_ls_peak_cutoff          0.00500
+_pd_proc_ls_profile_function
+;
+ CW Profile function number 2 with  18 terms
+ Profile coefficients for Simpson's rule integration of pseudovoigt function
+ C.J. Howard (1982). J. Appl. Cryst.,15,615-620.
+ P. Thompson, D.E. Cox & J.B. Hastings (1987). J. Appl. Cryst.,20,79-83.
+ Peak tails are ignored  where the intensity is below 0.0050 times the peak
+   Aniso. broadening axis   0.0   0.0   1.0
+;
+_pd_proc_ls_prof_R_factor        0.0632
+_pd_proc_ls_prof_wR_factor       0.0879
+_pd_proc_number_of_points        569
+_refine_ls_goodness_of_fit_all   0.59
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     9
+_refine_ls_number_restraints     0
+_refine_ls_shift/su_max          0.01
+_refine_ls_shift/su_mean         0.00
+_reflns_d_resolution_high        2.099
+_reflns_d_resolution_low         5.459
+_reflns_limit_h_max              2
+_reflns_limit_h_min              0
+_reflns_limit_k_max              2
+_reflns_limit_k_min              0
+_reflns_limit_l_max              2
+_reflns_limit_l_min              -2
+_reflns_number_total             17
+_cod_data_source_file            ic402043x_si_002.cif
+_cod_data_source_block           PHASE-V
+_cod_original_cell_volume        125.89(2)
+_cod_database_code               4336636
+_cod_database_fobs_code          4336636
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -x,+y,-z+1/2
+-1 -x,-y,-z
+-2 +x,-y,+z+1/2
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+In In 0.5 0.711(1) 0.25 1.0 Uiso 0.08 2
+V V 0.0 0.159(1) 0.25 1.0 Uiso 0.08 2
+O O1 0.214(2) 0.861(4) 0.492(2) 1.0 Uiso 0.08 4
+O O2 0.242(2) 0.407(3) 0.399(3) 1.0 Uiso 0.08 4
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_Cromer_Mann_a1
+_atom_type_scat_Cromer_Mann_a2
+_atom_type_scat_Cromer_Mann_a3
+_atom_type_scat_Cromer_Mann_a4
+_atom_type_scat_Cromer_Mann_b1
+_atom_type_scat_Cromer_Mann_b2
+_atom_type_scat_Cromer_Mann_b3
+_atom_type_scat_Cromer_Mann_b4
+_atom_type_scat_Cromer_Mann_c
+_atom_type_scat_source
+In 2.0 0.000 0.000 19.1624 0.54760 18.5596 6.37760 4.29480 25.8499 2.03960
+92.8029 4.93910 International_Tables_Vol_C
+V 2.0 0.000 0.000 10.2971 6.86570 7.35110 0.43850 2.07030 26.8938 2.05710
+102.478 1.21990 International_Tables_Vol_C
+O 8.0 0.000 0.000 3.04850 13.2771 2.28680 5.70110 1.54630 0.32390 0.86700
+32.9089 0.25080 International_Tables_Vol_C

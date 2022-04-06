@@ -1,0 +1,235 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 06:40:26 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176432 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/19/2101901.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2101901
+loop_
+_publ_author_name
+'F\'abry, J.'
+'Petr\'icek, V.'
+'Vanek, P.'
+'C\'isarov\'a, I.'
+_publ_section_title
+;
+ Phase Transition in K~3~Na(MoO~4~)~2~ and Determination of the Twinned
+ Structures of K~3~Na(MoO~4~)~2~ and K~2.5~Na~1.5~(MoO~4~)~2~ at Room
+ Temperature
+;
+_journal_issue                   4
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              596
+_journal_page_last               603
+_journal_paper_doi               10.1107/S0108768197002164
+_journal_volume                  53
+_journal_year                    1997
+_chemical_formula_moiety         'K3 Na (Mo O4)2'
+_chemical_formula_structural     'K3 Na (Mo O4)2'
+_chemical_formula_sum            'K3 Mo2 Na O8'
+_chemical_formula_weight         458.156
+_space_group_IT_number           15
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-C 2yc'
+_symmetry_space_group_name_H-M   'C 1 2/c 1'
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00(2)
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   10.4455(14)
+_cell_length_b                   6.0307(8)
+_cell_length_c                   15.240(4)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    290(2)
+_cell_measurement_theta_max      16
+_cell_measurement_theta_min      14
+_cell_volume                     960.0(3)
+_computing_cell_refinement       'Enraf-Nonius Software'
+_computing_data_collection       'Enraf-Nonius Software'
+_computing_data_reduction        'ZPRAC (Fabry, 1993)'
+_computing_molecular_graphics
+'PICTUR (Dusek, 1993) & ORTEP-III (Burnett and Johnson, 1996)'
+_computing_structure_refinement  'SDS (Petricek,1995)'
+_diffrn_measurement_device       'Enraf-Nonius CAD-4-MACHIII-PC'
+_diffrn_measurement_method       \w--2\q
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0061
+_diffrn_reflns_limit_h_max       12
+_diffrn_reflns_limit_h_min       -12
+_diffrn_reflns_limit_k_max       7
+_diffrn_reflns_limit_k_min       -7
+_diffrn_reflns_limit_l_max       18
+_diffrn_reflns_limit_l_min       -19
+_diffrn_reflns_number            4041
+_diffrn_reflns_theta_max         27
+_diffrn_standards_decay_%        4
+_diffrn_standards_interval_time  3600
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    3.969
+_exptl_absorpt_correction_T_max  0.811
+_exptl_absorpt_correction_T_min  0.667
+_exptl_absorpt_correction_type
+' analytical from crystal shape (Templeton & Templeton, 1978)'
+_exptl_absorpt_process_details   'Templeton & Templeton, 1978, analytical'
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    3.169
+_exptl_crystal_density_meas      ?
+_exptl_crystal_description       plate
+_exptl_crystal_F_000             864
+_exptl_crystal_size_max          0.30
+_exptl_crystal_size_mid          0.24
+_exptl_crystal_size_min          0.11
+_refine_diff_density_max         2.76
+_refine_diff_density_min         -1.10
+_refine_ls_extinction_coef       0.0000040(9)
+_refine_ls_extinction_method
+'Becker & Coppens, 1974, Lorentzian isotropic'
+_refine_ls_goodness_of_fit_all   1.16
+_refine_ls_goodness_of_fit_obs   1.16
+_refine_ls_matrix_type           fullcycle
+_refine_ls_number_constraints    1
+_refine_ls_number_parameters     72
+_refine_ls_number_reflns         2076
+_refine_ls_R_factor_obs          0.0291
+_refine_ls_shift/esd_max         0.01
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 1/[\s^2^(F~o~)+0.0009(F~o~)^2^]'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.0362
+_reflns_number_observed          2056
+_reflns_number_total             2076
+_reflns_observed_criterion       F>3\s(F)
+_cod_data_source_file            sh0083.cif
+_cod_data_source_block           K3
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'w =
+1/[\s^2^(F~o~)+0.0009(F~o~)^2^]' was changed to 'calc'. New tag
+'_refine_ls_weighting_details' was created. The value of the new tag
+was set to 'w = 1/[\s^2^(F~o~)+0.0009(F~o~)^2^]'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        960.02
+_cod_original_sg_symbol_Hall     -C2yc
+_cod_original_formula_sum        'K3 Na1 Mo2 O8'
+_cod_database_code               2101901
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, -y, -z'
+'-x, y, -z+1/2'
+'x, -y, z+1/2'
+'x+1/2, y+1/2, z'
+'-x+1/2, -y+1/2, -z'
+'-x+1/2, y+1/2, -z+1/2'
+'x+1/2, -y+1/2, z+1/2'
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+_atom_site_aniso_type_symbol
+K(1) 0.0220(8) 0.0226(6) 0.0225(4) 0.0003(4) -0.0018(5) 0.0023(2) K
+K(2) 0.0320(10) 0.0210(6) 0.0273(5) 0.0000 0.0034(7) 0.0000 K
+Na 0.009(2) 0.015(2) 0.0180(10) -0.0012(7) -0.0030(10) 0.0013(4) Na
+Mo 0.0098(3) 0.0094(2) 0.0148(2) -0.00070(10) -0.0015(2) 0.00046(7) Mo
+O(1) 0.059(4) 0.036(2) 0.0220(10) -0.001(3) -0.003(2) -0.008(2) O
+O(2) 0.024(2) 0.020(2) 0.0400(10) 0.0090(10) -0.003(2) 0.0080(10) O
+O(3) 0.026(3) 0.015(2) 0.041(2) -0.0070(10) -0.0070(10) -0.0010(10) O
+O(4) 0.017(2) 0.036(2) 0.043(2) 0.000(2) 0.008(2) 0.004(2) O
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_type_symbol
+K(1) 0.1711(2) 0.47780(10) 0.41526(7) 0.0224(3) Uani K
+K(2) 0.0000 0.9474(3) 0.25000 0.0268(5) Uani K
+Na 0.0000 0.0000 0.0000 0.0138(9) Uani Na
+Mo 0.16278(5) 0.48090(5) 0.13946(2) 0.01140(10) Uani Mo
+O(1) 0.1724(6) 0.5498(6) 0.2502(2) 0.0390(10) Uani O
+O(2) 0.0822(3) 0.6954(5) 0.0837(2) 0.0280(10) Uani O
+O(3) 0.0806(3) 0.2317(5) 0.1195(2) 0.0270(10) Uani O
+O(4) 0.3158(4) 0.4606(6) 0.0910(3) 0.0320(10) Uani O
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+K 0.179 0.250 International_Tables_vol_IV_Table_2.2A_and_2.3.1
+Na 0.030 0.025 International_Tables_vol_IV_Table_2.2A_and_2.3.1
+Mo -1.825 0.688 International_Tables_vol_IV_Table_2.2A_and_2.3.1
+O 0.008 0.006 International_Tables_vol_IV_Table_2.2A_and_2.3.1
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O(1) Mo O(2) 1_555 1_555 1_555 108.7(2) no
+O(1) Mo O(3) 1_555 1_555 1_555 113.6(2) no
+O(1) Mo O(4) 1_555 1_555 1_555 111.7(3) no
+O(2) Mo O(3) 1_555 1_555 1_555 108.2(2) no
+O(2) Mo O(4) 1_555 1_555 1_555 106.4(2) no
+O(3) Mo O(4) 1_555 1_555 1_555 108.1(2) no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+K(1) O(1) 1_555 1_555 2.553(4) yes
+K(1) O(1) 1_555 7_545 3.961(4) yes
+K(1) O(2) 1_555 3_555 2.954(4) yes
+K(1) O(2) 1_555 7_545 3.089(4) yes
+K(1) O(2) 1_555 4_565 2.923(3) yes
+K(1) O(3) 1_555 3_555 3.066(4) yes
+K(1) O(3) 1_555 7_555 3.058(4) yes
+K(1) O(3) 1_555 4_565 3.695(3) yes
+K(1) O(4) 1_555 7_545 3.124(4) yes
+K(1) O(4) 1_555 7_555 2.916(4) yes
+K(1) O(4) 1_555 4_565 3.098(5) yes
+K(2) O(1) 1_555 1_555 2.999(5) yes
+K(2) O(1) 1_555 1_565 4.055(5) yes
+K(2) O(1) 1_555 5_455 3.477(7) yes
+K(2) O(1) 1_555 3_555 2.999(5) yes
+K(2) O(1) 1_555 3_565 4.055(5) yes
+K(2) O(1) 1_555 7_555 3.477(7) yes
+K(2) O(2) 1_555 1_555 3.078(3) yes
+K(2) O(2) 1_555 3_555 3.078(3) yes
+K(2) O(3) 1_555 1_565 2.757(3) yes
+K(2) O(3) 1_555 3_565 2.757(3) yes
+K(2) O(4) 1_555 5_455 3.095(5) yes
+K(2) O(4) 1_555 7_555 3.095(5) yes
+Na O(2) 1_555 1_545 2.396(3) yes
+Na O(2) 1_555 2_565 2.396(3) yes
+Na O(3) 1_555 1_555 2.446(3) yes
+Na O(3) 1_555 2_555 2.446(3) yes
+Na O(4) 1_555 5_445 2.384(5) yes
+Na O(4) 1_555 6_555 2.384(5) yes
+Mo O(1) 1_555 1_555 1.741(4) yes
+Mo O(2) 1_555 1_555 1.762(3) yes
+Mo O(3) 1_555 1_555 1.757(3) yes
+Mo O(4) 1_555 1_555 1.765(4) yes

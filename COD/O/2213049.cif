@@ -1,0 +1,140 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 18:35:30 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176787 $
+#$URL: svn://www.crystallography.net/cod/cif/2/21/30/2213049.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2213049
+loop_
+_publ_author_name
+'I. Rosales'
+'E. A. Juarez-Arellano'
+'C. R. Maga\~na'
+'L. Bucio'
+'E. Orozco'
+_publ_section_title
+;
+Incorporation of vanadium(V) into the rutile-type phase of GeO~2~: the solid
+solution Ge~0.74~V~0.21~\\square~0.05~O~2~
+;
+_journal_coeditor_code           WM2097
+_journal_issue                   4
+_journal_name_full               'Acta Crystallographica, Section E'
+_journal_page_first              i99
+_journal_page_last               i101
+_journal_paper_doi               10.1107/S1600536807010276
+_journal_volume                  63
+_journal_year                    2007
+_chemical_formula_iupac          'Ge0.74 V0.21 O2'
+_chemical_formula_moiety         'Ge0.74 O2 V0.21'
+_chemical_formula_structural     'Ge0.74 O2 V0.21'
+_chemical_formula_sum            'Ge0.74 O2 V0.21'
+_chemical_formula_weight         96.43
+_chemical_name_systematic        ' \g-vanadium germanium oxide'
+_symmetry_cell_setting           tetragonal
+_symmetry_space_group_name_Hall  '-P 4n 2n'
+_symmetry_space_group_name_H-M   'P 42/m n m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   4.40010(10)
+_cell_length_b                   4.40010(10)
+_cell_length_c                   2.86700(10)
+_cell_measurement_temperature    295
+_cell_volume                     55.510(10)
+_computing_cell_refinement       'FULLPROF (Rodr\'iguez-Carvajal, 2001'
+_computing_data_collection       'DIFFRAC/AT (Siemens, 1993)'
+_computing_data_reduction        FULLPROF
+_computing_molecular_graphics    'DIAMOND (Crystal Impact, 2005)'
+_computing_publication_material  FULLPROF
+_computing_structure_refinement
+;
+FULLPROF
+;
+_computing_structure_solution    'coordinates taken from an isotypic compound'
+_diffrn_ambient_temperature      300
+_diffrn_measurement_device_type  'Bruker Advance D8'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_type           'Cu K\a'
+_diffrn_radiation_wavelength     1.54175
+_diffrn_reflns_limit_h_max       4
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       3
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       2
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            28
+_exptl_absorpt_coefficient_mu    38.02
+_exptl_absorpt_correction_type   none
+_exptl_crystal_density_diffrn    5.77
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_F_000             88.1
+_refine_ls_goodness_of_fit_all   2.0
+_refine_ls_matrix_type           fullcycle
+_refine_ls_number_parameters     18
+_refine_ls_weighting_scheme      sigma
+_cod_data_source_file            wm2097.cif
+_cod_database_code               2213049
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -y+1/2,x+1/2,z+1/2
+3 -x,-y,z
+4 y+1/2,-x+1/2,z+1/2
+5 -x+1/2,y+1/2,z+1/2
+6 y,x,z
+7 x+1/2,-y+1/2,z+1/2
+8 -y,-x,z
+9 -x,-y,-z
+10 y+1/2,-x+1/2,-z+1/2
+11 x,y,-z
+12 -y+1/2,x+1/2,-z+1/2
+13 x+1/2,-y+1/2,-z+1/2
+14 -y,-x,-z
+15 -x+1/2,y+1/2,-z+1/2
+16 y,x,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+V 0.00000 0.00000 0.00000 0.00530(10) 0.21(2)
+Ge 0.00000 0.00000 0.00000 0.00530(10) 0.74(2)
+O 0.3054(3) 0.3054(3) 0.00000 0.00250(10) 1.00
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+V V+5 0.18900 1.80700 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ge Ge+4 -1.1630 0.8860 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O-2 0.0470 0.0320 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O Ge O 1_555 2_544 90.00(8) no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+Ge O 1_555 1.9000(10)
+Ge O 2_544 1.8770(10)

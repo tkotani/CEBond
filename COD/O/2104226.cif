@@ -1,0 +1,274 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 02:53:41 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176768 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/42/2104226.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2104226
+loop_
+_publ_author_name
+'Sazonov, Andrew'
+'Meven, Martin'
+'Hutanu, Vladimir'
+'Kaiser, Volker'
+'Heger, Gernot'
+'Trots, Dmytro'
+'Merz, Michael'
+_publ_section_title
+;
+ Structural behaviour of synthetic Co~2~SiO~4~ at low temperatures
+;
+_journal_coeditor_code           BP5014
+_journal_issue                   6
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              661
+_journal_page_last               668
+_journal_paper_doi               10.1107/S010876810803214X
+_journal_volume                  64
+_journal_year                    2008
+_chemical_formula_moiety         'Co2 Si O4'
+_chemical_formula_structural     'Co2 Si O4'
+_chemical_formula_sum            'Co2 O4 Si'
+_chemical_formula_weight         209.95
+_chemical_name_systematic        ?
+_space_group_IT_number           62
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2ac 2n'
+_symmetry_space_group_name_H-M   'P n m a'
+_cell_angle_alpha                90.00000
+_cell_angle_beta                 90.00000
+_cell_angle_gamma                90.00000
+_cell_formula_units_Z            4
+_cell_length_a                   10.30050(10)
+_cell_length_b                   6.00280(10)
+_cell_length_c                   4.78160(10)
+_cell_measurement_temperature    300
+_cell_volume                     295.655(8)
+_computing_cell_refinement       'not used'
+_computing_data_collection       'DIF4, see text'
+_computing_data_reduction        'PRON2K, see text'
+_computing_molecular_graphics    'DIAMOND, see text'
+_computing_structure_refinement  'FULLPROF, see text'
+_computing_structure_solution    'not used'
+_diffrn_ambient_temperature      300
+_diffrn_measured_fraction_theta_full 0.97
+_diffrn_measurement_device       '4-circle diffractometer'
+_diffrn_measurement_device_type  'single-crystal diffractometer HEiDi'
+_diffrn_measurement_method       '\w scans'
+_diffrn_radiation_monochromator  'Cu (420)'
+_diffrn_radiation_probe          neutron
+_diffrn_radiation_source         'nuclear reactor'
+_diffrn_radiation_type           'constant wavelength neutron diffraction'
+_diffrn_radiation_wavelength     0.552
+_diffrn_reflns_av_R_equivalents  0.0341
+_diffrn_reflns_limit_h_max       21
+_diffrn_reflns_limit_h_min       -20
+_diffrn_reflns_limit_k_max       12
+_diffrn_reflns_limit_k_min       -12
+_diffrn_reflns_limit_l_max       9
+_diffrn_reflns_limit_l_min       -10
+_diffrn_reflns_number            2920
+_diffrn_reflns_theta_full        35.28
+_diffrn_reflns_theta_max         37.35
+_diffrn_reflns_theta_min         5.23
+_diffrn_standards_decay_%        0.7
+_diffrn_standards_interval_time  360
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    0.031
+_exptl_absorpt_correction_T_max  0.946
+_exptl_absorpt_correction_T_min  0.918
+_exptl_absorpt_correction_type   numerical
+_exptl_absorpt_process_details   'TBAR, see text'
+_exptl_crystal_colour            'dark violet'
+_exptl_crystal_density_diffrn    4.715
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       parallelepiped
+_exptl_crystal_size_max          3
+_exptl_crystal_size_mid          2
+_exptl_crystal_size_min          2
+_refine_diff_density_max         0.194
+_refine_diff_density_min         -0.165
+_refine_ls_extinction_expression 'FULLPROF, see text'
+_refine_ls_extinction_method     anisotropic
+_refine_ls_goodness_of_fit_all   1.28
+_refine_ls_goodness_of_fit_obs   0.75
+_refine_ls_goodness_of_fit_ref   0.75
+_refine_ls_hydrogen_treatment    undef
+_refine_ls_matrix_type           full
+_refine_ls_number_constraints    0
+_refine_ls_number_parameters     46
+_refine_ls_number_reflns         1341
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          0.0623
+_refine_ls_R_factor_gt           0.0337
+_refine_ls_R_factor_obs          0.0337
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details     'w = 1/\s^2^(Fo^2^)'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         0.0570
+_refine_ls_wR_factor_gt          0.0544
+_refine_ls_wR_factor_obs         0.0544
+_refine_ls_wR_factor_ref         0.0544
+_reflns_number_gt                1341
+_reflns_number_observed          1341
+_reflns_number_total             1624
+_reflns_observed_criterion       I>2\s(I)
+_reflns_threshold_expression     I>2\s(I)
+_cod_data_source_file            bp5014.cif
+_cod_data_source_block           300K
+_cod_original_cell_volume        295.66
+_cod_database_code               2104226
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x+1/2,-y+1/2,-z+1/2
+-x,y+1/2,-z
+-x+1/2,-y,z+1/2
+-x,-y,-z
+-x+1/2,y+1/2,z+1/2
+x,-y+1/2,z
+x+1/2,y,-z+1/2
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+CO Co1 0.00000 0.00000 0.00000 0.00507(17) Uani 1.00000
+CO Co2 0.27645(7) 0.25000 0.99143(15) 0.00512(18) Uani 1.00000
+SI Si 0.09491(4) 0.25000 0.42821(8) 0.00362(10) Uani 1.00000
+O O1 0.09205(3) 0.25000 0.76712(6) 0.00518(8) Uani 1.00000
+O O2 0.44872(3) 0.25000 0.21560(6) 0.00531(8) Uani 1.00000
+O O3 0.16419(2) 0.03363(3) 0.28171(4) 0.00594(6) Uani 1.00000
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Co1 0.00657(18) 0.00443(18) 0.00420(17) -0.00098(16) -0.00018(15) -0.00058(15)
+Co2 0.00445(17) 0.00567(18) 0.00525(18) 0.00000 0.00029(15) 0.00000
+Si 0.00404(11) 0.00415(11) 0.00265(10) 0.00000 0.00006(9) 0.00000
+O1 0.00661(8) 0.00588(8) 0.00304(8) 0.00000 0.00014(7) 0.00000
+O2 0.00435(8) 0.00661(8) 0.00497(8) 0.00000 -0.00005(7) 0.00000
+O3 0.00727(6) 0.00542(6) 0.00515(6) 0.00191(5) 0.00033(5) -0.00027(5)
+loop_
+_atom_type_symbol
+_atom_type_scat_source
+CO V.F._Sears_Neutron_News_3_26_(1992)
+SI V.F._Sears_Neutron_News_3_26_(1992)
+O V.F._Sears_Neutron_News_3_26_(1992)
+loop_
+_diffrn_standard_refln_index_h
+_diffrn_standard_refln_index_k
+_diffrn_standard_refln_index_l
+0 0 2
+6 2 0
+2 2 2
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+O1 Co1 O1 1_554 2_556 180.000(18)
+O1 Co1 O2 1_554 3_566 86.903(17)
+O1 Co1 O2 1_554 4_655 93.097(8)
+O1 Co1 O3 1_554 5_555 84.874(14)
+O1 Co1 O3 1_554 6_555 95.126(15)
+O1 Co1 O2 2_556 3_566 93.097(8)
+O1 Co1 O2 2_556 4_655 86.903(17)
+O1 Co1 O3 2_556 5_555 95.126(15)
+O1 Co1 O3 2_556 6_555 84.874(14)
+O2 Co1 O2 3_566 4_655 180.000(17)
+O2 Co1 O3 3_566 5_555 74.148(13)
+O2 Co1 O3 3_566 6_555 105.852(16)
+O2 Co1 O3 4_655 5_555 105.852(16)
+O2 Co1 O3 4_655 6_555 74.148(13)
+O3 Co1 O3 5_555 6_555 180.000(17)
+O1 Co2 O2 . 2_556 178.32(4)
+O1 Co2 O3 . 3_556 81.62(3)
+O1 Co2 O3 . 4_656 91.09(3)
+O1 Co2 O3 . 5_666 91.09(3)
+O1 Co2 O3 . 6_566 81.62(3)
+O2 Co2 O3 2_556 3_556 97.02(3)
+O2 Co2 O3 2_556 4_656 89.87(3)
+O2 Co2 O3 2_556 5_666 89.87(3)
+O2 Co2 O3 2_556 6_566 97.02(3)
+O3 Co2 O3 3_556 4_656 88.60(2)
+O3 Co2 O3 3_556 5_666 159.48(2)
+O3 Co2 O3 3_556 6_566 71.43(2)
+O3 Co2 O3 4_656 5_666 110.80(2)
+O3 Co2 O3 4_656 6_566 159.48(2)
+O3 Co2 O3 5_666 6_566 88.60(2)
+O1 Si O2 . 2_566 113.50(3)
+O1 Si O3 . 3_555 115.80(3)
+O1 Si O3 . 4_565 115.80(3)
+O2 Si O3 2_566 3_555 102.62(3)
+O2 Si O3 2_566 4_565 102.62(3)
+O3 Si O3 3_555 4_565 104.81(2)
+Co1 O1 Co1 1_556 2_566 91.476(8)
+Co1 O1 Co2 1_556 3_555 97.63(3)
+Co1 O1 Si 1_556 4_555 122.65(3)
+Co1 O1 Co2 2_566 3_555 97.63(3)
+Co1 O1 Si 2_566 4_555 122.65(3)
+Co2 O1 Si 3_555 4_555 118.41(5)
+Co1 O2 Co1 1_666 2_656 91.619(8)
+Co1 O2 Co2 1_666 3_554 123.50(4)
+Co1 O2 Si 1_666 4_666 92.31(2)
+Co1 O2 Co2 2_656 3_554 123.50(4)
+Co1 O2 Si 2_656 4_666 92.31(2)
+Co2 O2 Si 3_554 4_666 124.32(5)
+Co1 O3 Co2 . 2_554 94.13(3)
+Co1 O3 Co2 . 3_655 117.03(3)
+Co1 O3 Si . 4_555 89.982(19)
+Co2 O3 Co2 2_554 3_655 129.00(4)
+Co2 O3 Si 2_554 4_555 91.74(4)
+Co2 O3 Si 3_655 4_555 125.01(3)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+Co1 O1 1_554 2.0955(2)
+Co1 O1 3_546 2.0955(2)
+Co1 O2 2_455 2.0929(2)
+Co1 O2 4_554 2.0929(2)
+Co1 O3 . 2.1715(2)
+Co1 O3 5_555 2.1715(2)
+Co2 O1 . 2.1813(8)
+Co2 O2 1_556 2.0731(8)
+Co2 O3 1_556 2.2250(6)
+Co2 O3 4_555 2.0684(4)
+Co2 O3 6_555 2.0684(4)
+Co2 O3 7_556 2.2250(6)
+Si O1 . 1.6208(5)
+Si O2 2_455 1.6554(5)
+Si O3 . 1.6392(3)
+Si O3 7_555 1.6392(3)
+O1 Co1 1_556 2.0955(2)
+O1 Co1 3_556 2.0955(2)
+O1 Co2 . 2.1813(8)
+O1 Si . 1.6208(5)
+O2 Co1 2_555 2.0929(2)
+O2 Co1 4_555 2.0929(2)
+O2 Co2 1_554 2.0731(8)
+O2 Si 2_555 1.6554(5)
+O3 Co1 . 2.1715(2)
+O3 Co2 1_554 2.2250(6)
+O3 Co2 4_554 2.0684(4)
+O3 Si . 1.6392(3)

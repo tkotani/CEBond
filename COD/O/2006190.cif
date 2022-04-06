@@ -1,0 +1,160 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-19 16:29:56 +0200 (Fri, 19 Feb 2016) $
+#$Revision: 176759 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/61/2006190.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2006190
+loop_
+_publ_author_name
+'W.A. Dollase'
+'H.St.C. O'Neill'
+_publ_section_title
+;
+ The Spinels CuCr~2~O~4~ and CuRh~2~O~4~
+;
+_journal_issue                   6
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              657
+_journal_page_last               659
+_journal_paper_doi               10.1107/S0108270197000486
+_journal_volume                  53
+_journal_year                    1997
+_chemical_formula_iupac          'Cu Cr2 O4'
+_chemical_formula_structural     'Cr2 Cu O4'
+_chemical_formula_sum            'Cr2 Cu O4'
+_chemical_formula_weight         231.55
+_space_group_IT_number           141
+_symmetry_cell_setting           tetragonal
+_symmetry_space_group_name_Hall  '-I 4bd 2'
+_symmetry_space_group_name_H-M   'I 41/a m d :2'
+_atom_type_scat_source           IntTabIV
+_cell_angle_alpha                90.
+_cell_angle_beta                 90.
+_cell_angle_gamma                90.
+_cell_formula_units_Z            4
+_cell_length_a                   6.0341(4)
+_cell_length_b                   6.0341(4)
+_cell_length_c                   7.7888(6)
+_cell_measurement_temperature    295
+_cell_measurement_theta_max      73
+_cell_measurement_theta_min      14
+_cell_volume                     283.59(3)
+_computing_molecular_graphics    'ATOMS (Dowty, 1989)'
+_computing_structure_refinement
+;
+DBWS-9411 (Young, Sakthivel, Moss & Paiva-Santos, 1994)
+;
+_diffrn_ambient_temperature      295
+_diffrn_measurement_device       'Phillips diffractometer'
+_diffrn_measurement_method       \q/2\q
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'X-ray tube'
+_diffrn_radiation_type           CuK\a
+_diffrn_radiation_wavelength     1.54184
+_exptl_absorpt_coefficient_mu    70.7
+_exptl_crystal_density_diffrn    5.43
+_exptl_crystal_density_meas      ?
+_refine_ls_goodness_of_fit_all   1.36
+_refine_ls_number_parameters     22
+_refine_ls_shift/esd_max         0.10
+_cod_data_source_file            br1169.cif
+_cod_data_source_block           cr
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_exptl_crystal_density_meas' value 'not measured' was changed to '?'
+- the value is perceived as not measured.
+
+Automatic conversion script
+Id: cif_fix_values 3008 2015-01-20 13:52:24Z robertas 
+;
+_cod_original_cell_volume        283.60(4)
+_cod_original_sg_symbol_H-M      'I 41/a m d'
+_cod_database_code               2006190
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,-z
+-x,y,z
+x,-y,-z
+x,1/2-y,z
+-x,1/2+y,-z
+-x,1/2-y,z
+x,1/2+y,-z
+1/4+y,1/4+x,3/4+z
+3/4-y,3/4-x,1/4-z
+3/4-y,1/4+x,3/4+z
+1/4+y,3/4-x,1/4-z
+1/4+y,1/4-x,3/4+z
+3/4-y,3/4+x,1/4-z
+3/4-y,1/4-x,3/4+z
+1/4+y,3/4+x,1/4-z
+1/2+x,1/2+y,1/2+z
+1/2-x,1/2-y,1/2-z
+1/2-x,1/2+y,1/2+z
+1/2+x,1/2-y,1/2-z
+1/2+x,-y,1/2+z
+1/2-x,y,1/2-z
+1/2-x,-y,1/2+z
+1/2+x,y,1/2-z
+3/4+y,3/4+x,1/4+z
+1/4-y,1/4-x,3/4-z
+1/4-y,3/4+x,1/4+z
+3/4+y,1/4-x,3/4-z
+3/4+y,3/4-x,1/4+z
+1/4-y,1/4+x,3/4-z
+1/4-y,3/4-x,1/4+z
+3/4+y,1/4+x,3/4-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_type_symbol
+Cu 0 .2500 .8750 .006(2) Uiso Cu
+Cr 0 .5000 .5000 .003(2) Uiso Cr
+O 0 .4672(9) .2480(7) .001(2) Uiso O
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O Cu O 2_566 8_546 121.40(10) yes
+O Cu O 2_566 9_455 103.9(5) yes
+O Cr O 27_555 25_455 82.0(2) yes
+O Cr O . 28_455 86.1(3) yes
+O Cr O . 27_555 93.9(3) yes
+O Cr O 28_455 25_455 98.0(2) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Cu O . 2_566 1.957(5) yes
+Cr O . . 1.973(5) yes
+Cr O . 28_455 1.999(4) yes
+loop_
+_geom_contact_atom_site_label_1
+_geom_contact_atom_site_label_2
+_geom_contact_distance
+_geom_contact_site_symmetry_2
+_geom_contact_publ_flag
+Cr Cr 2.8884(2) 28_455 yes
+Cr Cr 3.0170(2) 8_546 yes

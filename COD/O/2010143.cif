@@ -1,0 +1,172 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 00:18:51 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176760 $
+#$URL: svn://www.crystallography.net/cod/cif/2/01/01/2010143.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2010143
+loop_
+_publ_author_name
+'Ohashi, Haruo'
+'Osawa, Toshikazu'
+'Sato, Akira'
+_publ_section_title
+;
+ NaVSi~2~O~6~
+;
+_journal_issue                   11
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              1652
+_journal_page_last               1655
+_journal_paper_doi               10.1107/S0108270194004567
+_journal_volume                  50
+_journal_year                    1994
+_chemical_formula_sum            'Na O6 Si2 V'
+_chemical_formula_weight         226.10
+_space_group_IT_number           15
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-C 2yc'
+_symmetry_space_group_name_H-M   'C 1 2/c 1'
+_atom_type_scat_source           IntTabIV
+_cell_angle_alpha                90.
+_cell_angle_beta                 106.905(2)
+_cell_angle_gamma                90.
+_cell_formula_units_Z            4
+_cell_length_a                   9.6339(4)
+_cell_length_b                   8.7413(2)
+_cell_length_c                   5.2960(3)
+_cell_measurement_reflns_used    22
+_cell_measurement_temperature    296
+_cell_measurement_theta_max      32.1
+_cell_measurement_theta_min      27.4
+_cell_volume                     426.72(3)
+_diffrn_measurement_device       'Enraf-Nonius CAD-4'
+_diffrn_measurement_method       \w/2\q
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_limit_h_max       17
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       15
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       9
+_diffrn_reflns_limit_l_min       -9
+_diffrn_reflns_number            1378
+_diffrn_reflns_theta_max         40
+_diffrn_standards_decay_%        -2.3
+_diffrn_standards_interval_count '100 (orientation)'
+_diffrn_standards_interval_time  '240 (intensity)'
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    2.85
+_exptl_absorpt_correction_T_max  0.8455
+_exptl_absorpt_correction_T_min  0.6783
+_exptl_absorpt_correction_type   integration
+_exptl_crystal_colour            green
+_exptl_crystal_density_diffrn    3.519
+_exptl_crystal_description       tablet
+_exptl_crystal_size_max          0.15
+_exptl_crystal_size_mid          0.12
+_exptl_crystal_size_min          0.06
+_refine_diff_density_max         0.539
+_refine_diff_density_min         -0.630
+_refine_ls_extinction_coef       5.79E-6
+_refine_ls_extinction_method     'isotropic secondary'
+_refine_ls_goodness_of_fit_obs   0.8
+_refine_ls_number_parameters     48
+_refine_ls_number_reflns         1285
+_refine_ls_R_factor_obs          0.017
+_refine_ls_shift/esd_max         <0.005
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_scheme      unit
+_refine_ls_wR_factor_obs         0.022
+_reflns_number_observed          1285
+_reflns_number_total             1378
+_reflns_observed_criterion       I>1.5\s(I)
+_cod_data_source_file            as1073.cif
+_cod_data_source_block           as1073_structure_1_of_1
+_cod_original_sg_symbol_H-M      'C 2/c'
+_cod_database_code               2010143
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x,-y,1/2+z
+-x,-y,-z
+-x,y,1/2-z
+1/2+x,1/2+y,z
+1/2+x,1/2-y,1/2+z
+1/2-x,1/2-y,-z
+1/2-x,1/2+y,1/2-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+Na .0 .30140(9) .25 .01200(10)
+V .0 .90506(3) .25 .00385(3)
+Si .29177(3) .09057(3) .23925(5) .00390(4)
+O1 .11532(8) .07946(9) .14400(10) .00530(10)
+O2 .36103(8) .25688(9) .30540(10) .00710(10)
+O3 .35238(8) .00921(9) .01320(10) .00670(10)
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+O1 Si O2 117.02(4) yes
+O1 Si O3 108.02(4) yes
+O1 Si O3 108.16(4) yes
+O2 Si O3 109.92(5) yes
+O2 Si O3 105.70(4) yes
+O3 Si O3 107.65(4) yes
+O1 V O1 84.41(3) yes
+O1 V O2 90.13(3) yes
+O1 V O1 93.02(3) yes
+O1 V O1 81.39(3) yes
+O1 V O2 90.25(3) yes
+O1 V O2 94.75(3) yes
+O2 V O2 96.51(4) yes
+Si O3 Si 139.70(5) yes
+V O1 V 98.61(3) yes
+O3 O3 O3 173.04(4) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Si O1 . . 1.6290(10) yes
+Si O2 . . 1.5950(10) yes
+Si O3 . . 1.6390(10) yes
+Si O3 . . 1.6480(10) yes
+O1 O2 . . 2.7500(10) yes
+O1 O3 . . 2.6440(10) yes
+O1 O3 . . 2.6540(10) yes
+O2 O3 . . 2.6480(10) yes
+O2 O3 . . 2.5850(10) yes
+O3 O3 . . 2.6530(10) yes
+Si Si . . 3.0853(4) yes
+Na O1 . . 2.3820(10) yes
+Na O2 . . 2.4010(10) yes
+Na O3 . . 2.4200(10) yes
+Na O3 . . 2.8040(10) yes
+V O1 . . 2.0580(10) yes
+V O1 . . 2.0640(10) yes
+V O2 . . 1.9460(10) yes
+O1 O1 . . 2.7650(10) yes
+O2 O2 . . 2.9030(10) yes
+O1 O2 . . 2.8350(10) yes
+O1 O1 . . 2.9900(10) yes
+O1 O2 . . 2.8430(10) yes
+O1 O2 . . 2.9510(10) yes
+O1 O1 . . 2.6880(10) yes
+V V . . 3.1251(2) yes

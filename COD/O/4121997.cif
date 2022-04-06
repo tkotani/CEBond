@@ -1,0 +1,324 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-22 21:33:18 +0200 (Tue, 22 Mar 2016) $
+#$Revision: 179021 $
+#$URL: svn://www.crystallography.net/cod/cif/4/12/19/4121997.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4121997
+loop_
+_publ_author_name
+'Li, Man-Rong'
+'Stephens, Peter W.'
+'Retuerto, Maria'
+'Sarkar, Tapati'
+'Grams, Christoph P.'
+'Hemberger, Joachim'
+'Croft, Mark C.'
+'Walker, David'
+'Greenblatt, Martha'
+_publ_section_title
+;
+ Designing Polar and Magnetic Oxides: Zn2FeTaO6 - in Search of
+ Multiferroics.
+;
+_journal_issue                   24
+_journal_name_full               'Journal of the American Chemical Society'
+_journal_page_first              8508
+_journal_page_last               8511
+_journal_paper_doi               10.1021/ja502774v
+_journal_volume                  136
+_journal_year                    2014
+_chemical_formula_moiety         'Fe O6 Ta Zn2'
+_chemical_formula_structural     'Zn2 Fe Ta O6'
+_chemical_formula_sum            'Fe O6 Ta Zn2'
+_chemical_formula_weight         463.58
+_chemical_name_systematic
+;
+zinc iron tantalite
+;
+_space_group_IT_number           161
+_symmetry_cell_setting           trigonal
+_symmetry_space_group_name_Hall  'R 3 -2"c'
+_symmetry_space_group_name_H-M   'R 3 c :H'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                120.0
+_cell_formula_units_Z            3
+_cell_length_a                   5.17086(15)
+_cell_length_b                   5.17086
+_cell_length_c                   13.9353(4)
+_cell_measurement_temperature    298
+_cell_volume                     322.680(13)
+_diffrn_ambient_temperature      298
+_diffrn_radiation_polarisn_ratio 0.99
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_wavelength     0.70018
+_diffrn_source                   synchrotron
+_exptl_absorpt_coefficient_mu    39.610
+_exptl_absorpt_process_details
+;   GSAS Absorption/surface roughness correction: function number 0
+ No correction is applied.
+;
+_exptl_crystal_density_diffrn    7.157
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_F_000             621.0
+_pd_block_id
+2014-01-24T11:36|GG1115-ZFTO_phase1|Zn2FeTaO6-R3C||
+_pd_calc_method                  'Rietveld Refinement'
+_pd_instr_location               ' ?'
+_pd_meas_2theta_range_inc        0.003
+_pd_meas_2theta_range_max        48.0
+_pd_meas_2theta_range_min        3.0
+_pd_meas_scan_method             step
+_pd_phase_name
+'from C:/MRL/Manuscript/Manuscript_Rutgers/Zn2FeMO6/SXRD/Ta/Lebail-'
+_pd_prep_temperature             1673
+_pd_proc_2theta_range_inc        0.003
+_pd_proc_2theta_range_max        48.0
+_pd_proc_2theta_range_min        3.0
+_pd_proc_info_datetime           2014-01-24T11:36:20
+_pd_proc_ls_background_function
+;   GSAS Background function number 1 with 20 terms.
+ Shifted Chebyshev function of 1st kind
+      1:    147.346     2:   -54.8142     3:    20.6109     4:  -0.988657    
+      5:   -4.07743     6:    17.0631     7:   -17.0632     8:    4.23944    
+      9:    3.58216    10:   -5.52134    11:    1.33753    12:    1.42765    
+     13:   0.789097    14:   3.637800E-0215:    1.81711    16:   -2.11690    
+     17:    2.34221    18:   -1.08883    19:   -2.72796    20:    2.48790    
+;
+_pd_proc_ls_prof_R_factor        0.0582
+_pd_proc_ls_prof_wR_expected     0.0672
+_pd_proc_ls_prof_wR_factor       0.0772
+_refine_ls_goodness_of_fit_all   1.15
+_refine_ls_R_Fsqd_factor         0.09270
+_reflns_d_resolution_high        0.862
+_reflns_d_resolution_low         3.767
+_reflns_limit_h_max              5
+_reflns_limit_h_min              0
+_reflns_limit_k_max              5
+_reflns_limit_k_min              0
+_reflns_limit_l_max              15
+_reflns_limit_l_min              -14
+_reflns_number_total             116
+_cod_data_source_file            ja502774v_si_002.cif
+_cod_data_source_block           GG1115-ZFTO
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_geom_bond_publ_flag' value 'N' changed to 'n' according to
+/usr/data/users/saulius/crontab/automatic-downloads/rss-feeds/ACS/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 from 2011-04-26 (40
+times).
+
+'_geom_angle_publ_flag' value 'N' changed to 'n' according
+to
+/usr/data/users/saulius/crontab/automatic-downloads/rss-feeds/ACS/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 from 2011-04-26 (43
+times).
+
+Automatic conversion script
+Id: cif_fix_values 2281 2013-09-26 08:29:07Z andrius 
+
+ Adding full bibliography for 4121995--4121997.cif.
+;
+_cod_original_cell_volume        322.680
+_cod_database_code               4121997
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -y,x-y,+z
+3 y-x,-x,+z
+4 y-x,+y,+z+1/2
+5 -y,-x,+z+1/2
+6 +x,x-y,+z+1/2
+101 +x+1/3,+y+2/3,+z+2/3
+102 -y+1/3,x-y+2/3,+z+2/3
+103 y-x+1/3,-x+2/3,+z+2/3
+104 y-x+1/3,+y+2/3,+z+1/6
+105 -y+1/3,-x+2/3,+z+1/6
+106 +x+1/3,x-y+2/3,+z+1/6
+201 +x+2/3,+y+1/3,+z+1/3
+202 -y+2/3,x-y+1/3,+z+1/3
+203 y-x+2/3,-x+1/3,+z+1/3
+204 y-x+2/3,+y+1/3,+z+5/6
+205 -y+2/3,-x+1/3,+z+5/6
+206 +x+2/3,x-y+1/3,+z+5/6
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+Zn Zn 0.0 0.0 0.0 1.0 Uiso 0.00504(13) 6
+Ta Ta 0.0 0.0 0.21353(7) 0.5 Uiso 0.00504(13) 6
+Fe Fe 0.0 0.0 0.21353(7) 0.5 Uiso 0.00504(13) 6
+O O 0.0340(6) 0.3337(15) 0.2889(6) 1.0 Uiso 0.00504(13) 18
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_Cromer_Mann_a1
+_atom_type_scat_Cromer_Mann_a2
+_atom_type_scat_Cromer_Mann_a3
+_atom_type_scat_Cromer_Mann_a4
+_atom_type_scat_Cromer_Mann_b1
+_atom_type_scat_Cromer_Mann_b2
+_atom_type_scat_Cromer_Mann_b3
+_atom_type_scat_Cromer_Mann_b4
+_atom_type_scat_Cromer_Mann_c
+_atom_type_scat_source
+Zn 0.000 0.000 14.0743 3.26550 7.03180 0.23330 5.16520 10.3163 2.41000 58.7097
+1.30410 International_Tables_Vol_C
+Ta 0.000 0.000 29.2024 1.77333 15.2293 9.37046 14.5135 0.29598 4.76492 63.3644
+9.24354 International_Tables_Vol_C
+Fe 0.000 0.000 11.7695 4.76110 7.35730 0.30720 3.52220 15.3535 2.30450 76.8805
+1.03690 International_Tables_Vol_C
+O 0.000 0.000 3.04850 13.2771 2.28680 5.70110 1.54630 0.32390 0.86700 32.9089
+0.25080 International_Tables_Vol_C
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O Zn O 110.83(19) 101_544 102_554 n
+O Zn O 110.83(19) 101_544 103_444 n
+O Zn O 110.83(19) 102_554 103_444 n
+O Ta O 93.76(26) 1_555 2_555 n
+O Ta O 93.76(26) 1_555 3_555 n
+O Ta O 174.8(4) 1_555 204_444 n
+O Ta O 89.78(13) 1_555 205_554 n
+O Ta O 89.83(10) 1_555 206_454 n
+O Ta O 93.76(26) 2_555 3_555 n
+O Ta O 89.83(10) 2_555 204_444 n
+O Ta O 174.8(4) 2_555 205_554 n
+O Ta O 89.78(13) 2_555 206_454 n
+O Ta O 89.78(13) 3_555 204_444 n
+O Ta O 89.83(10) 3_555 205_554 n
+O Ta O 174.8(4) 3_555 206_454 n
+O Ta O 86.39(26) 204_444 205_554 n
+O Ta O 86.39(26) 204_444 206_454 n
+O Ta O 86.39(26) 205_554 206_454 n
+O Fe O 93.76(26) 1_555 2_555 n
+O Fe O 93.76(26) 1_555 3_555 n
+O Fe O 174.8(4) 1_555 204_444 n
+O Fe O 89.78(13) 1_555 205_554 n
+O Fe O 89.83(10) 1_555 206_454 n
+O Fe O 93.76(26) 2_555 3_555 n
+O Fe O 89.83(10) 2_555 204_444 n
+O Fe O 174.8(4) 2_555 205_554 n
+O Fe O 89.78(13) 2_555 206_454 n
+O Fe O 89.78(13) 3_555 204_444 n
+O Fe O 89.83(10) 3_555 205_554 n
+O Fe O 174.8(4) 3_555 206_454 n
+O Fe O 86.39(26) 204_444 205_554 n
+O Fe O 86.39(26) 204_444 206_454 n
+O Fe O 86.39(26) 205_554 206_454 n
+Zn O Ta 120.07(24) 201_455 1_555 n
+Zn O Ta 97.17(34) 201_455 104_555 n
+Zn O Fe 120.07(24) 201_455 1_555 n
+Zn O Fe 97.17(34) 201_455 104_555 n
+Ta O Ta 139.73(18) 1_555 104_555 n
+Ta O Fe 0.0 1_555 1_555 n
+Ta O Fe 139.73(18) 1_555 104_555 n
+Ta O Fe 139.73(18) 104_555 1_555 n
+Ta O Fe 0.0 104_555 104_555 n
+Fe O Fe 139.73(18) 1_555 104_555 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Zn Ta 2.97554(9) 1_555 n
+Zn Ta 3.05598(8) 204_444 n
+Zn Ta 3.05598(8) 204_454 n
+Zn Ta 3.05598(8) 204_554 n
+Zn Fe 2.97554(9) 1_555 n
+Zn Fe 3.05598(8) 204_444 n
+Zn Fe 3.05598(8) 204_454 n
+Zn Fe 3.05598(8) 204_554 n
+Zn O 1.997(5) 101_544 n
+Zn O 1.997(5) 102_554 n
+Zn O 1.997(5) 103_444 n
+Zn O 2.366(6) 204_444 n
+Zn O 2.366(6) 205_554 n
+Zn O 2.366(6) 206_454 n
+Ta Zn 2.97554(9) 1_555 n
+Ta Zn 3.05598(8) 104_445 n
+Ta Zn 3.05598(8) 104_545 n
+Ta Zn 3.05598(8) 104_555 n
+Ta O 1.951(8) 1_555 n
+Ta O 1.951(8) 2_555 n
+Ta O 1.951(8) 3_555 n
+Ta O 2.077(7) 204_444 n
+Ta O 2.077(7) 205_554 n
+Ta O 2.077(7) 206_454 n
+Fe Zn 2.97554(9) 1_555 n
+Fe Zn 3.05598(8) 104_445 n
+Fe Zn 3.05598(8) 104_545 n
+Fe Zn 3.05598(8) 104_555 n
+Fe O 1.951(8) 1_555 n
+Fe O 1.951(8) 2_555 n
+Fe O 1.951(8) 3_555 n
+Fe O 2.077(7) 204_444 n
+Fe O 2.077(7) 205_554 n
+Fe O 2.077(7) 206_454 n
+O Zn 2.366(6) 104_555 n
+O Zn 1.997(5) 201_455 n
+O Ta 1.951(8) 1_555 n
+O Ta 2.077(7) 104_555 n
+O Fe 1.951(8) 1_555 n
+O Fe 2.077(7) 104_555 n
+loop_
+_pd_block_diffractogram_id
+2014-01-24T11:36|GG1115-ZFTO_H_01|Zn2FeTaO6-R3C|NSLS-16C
+loop_
+_pd_phase_id
+_pd_phase_block_id
+_pd_phase_mass_%
+_pd_proc_ls_pref_orient_corr
+_pd_proc_ls_profile_function
+_pd_proc_ls_peak_cutoff
+1 2014-01-24T11:36|GG1115-ZFTO_phase1|Zn2FeTaO6-R3C|| 100.0
+;   March-Dollase
+ AXIS  1 Ratio=   0.89790  h= 1.000  k= 1.000  l= 0.000
+;
+;
+ CW Profile function number 3 with  19 terms
+ Pseudovoigt profile coefficients as parameterized in
+ P. Thompson, D.E. Cox & J.B. Hastings (1987). J. Appl. Cryst.,20,79-83.
+ Asymmetry correction of L.W. Finger, D.E. Cox & A. P. Jephcoat (1994).
+ J. Appl. Cryst.,27,892-900.
+ Peak tails are ignored  where the intensity is below 0.0010 times the peak
+   Aniso. broadening axis   0.0   0.0   1.0
+;
+0.00100
+2 2014-01-24T11:36|GG1115-ZFTO_phase2|Zn2FeTaO6-R3C|| 14.8
+;   March-Dollase
+ AXIS  1 Ratio=   1.00000  h= 0.000  k= 0.000  l= 1.000
+;
+;
+ CW Profile function number 3 with  19 terms
+ Pseudovoigt profile coefficients as parameterized in
+ P. Thompson, D.E. Cox & J.B. Hastings (1987). J. Appl. Cryst.,20,79-83.
+ Asymmetry correction of L.W. Finger, D.E. Cox & A. P. Jephcoat (1994).
+ J. Appl. Cryst.,27,892-900.
+ Peak tails are ignored  where the intensity is below 0.0010 times the peak
+   Aniso. broadening axis   0.0   0.0   1.0
+;
+0.00100

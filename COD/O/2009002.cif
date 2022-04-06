@@ -1,0 +1,498 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-19 16:29:56 +0200 (Fri, 19 Feb 2016) $
+#$Revision: 176759 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/90/2009002.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2009002
+loop_
+_publ_author_name
+'L\'evy, David'
+'Barbier, Jacques'
+_publ_section_title
+;
+ Normal and inverse garnets: Ca~3~Fe~2~Ge~3~O~12~, Ca~3~Y~2~Ge~3~O~12~
+ and Mg~3~Y~2~Ge~3~O~12~
+;
+_journal_issue                   10
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              1611
+_journal_page_last               1614
+_journal_paper_doi               10.1107/S0108270199007854
+_journal_volume                  55
+_journal_year                    1999
+_chemical_formula_moiety         'Mg3 Y2 Ge3 O12'
+_chemical_formula_sum            'Ge3 Mg3 O12 Y2'
+_chemical_formula_weight         660.52
+_chemical_name_common            Garnet
+_chemical_name_systematic
+;
+ ?
+;
+_space_group_IT_number           230
+_symmetry_cell_setting           cubic
+_symmetry_space_group_name_Hall  '-I 4bd 2c 3'
+_symmetry_space_group_name_H-M   'I a -3 d'
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            8
+_cell_length_a                   12.2489(12)
+_cell_length_b                   12.2489(12)
+_cell_length_c                   12.2489(12)
+_cell_measurement_reflns_used    3474
+_cell_measurement_temperature    299(2)
+_cell_measurement_theta_max      36.04
+_cell_measurement_theta_min      4.04
+_cell_volume                     1837.8(3)
+_computing_cell_refinement       'SAINT (Siemens, 1996)'
+_computing_data_collection       'SMART (Siemens, 1996)'
+_computing_data_reduction        SAINT
+_computing_molecular_graphics    'XP in SHELXTL/PC (Sheldrick, 1990b)'
+_computing_publication_material  SHELXL97
+_computing_structure_refinement  'SHELXL97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS86 (Sheldrick, 1990a)'
+_diffrn_ambient_temperature      299(2)
+_diffrn_detector_area_resol_mean 819.2
+_diffrn_measured_fraction_theta_full 0.997
+_diffrn_measured_fraction_theta_max 0.997
+_diffrn_measurement_device
+;
+Siemens SMART 1K CCD area detector + Siemens P4
+;
+_diffrn_measurement_method       'area detector'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.047
+_diffrn_reflns_av_sigmaI/netI    0.013
+_diffrn_reflns_limit_h_max       20
+_diffrn_reflns_limit_h_min       -17
+_diffrn_reflns_limit_k_max       6
+_diffrn_reflns_limit_k_min       -19
+_diffrn_reflns_limit_l_max       19
+_diffrn_reflns_limit_l_min       -20
+_diffrn_reflns_number            12155
+_diffrn_reflns_theta_full        36.38
+_diffrn_reflns_theta_max         36.38
+_diffrn_reflns_theta_min         4.08
+_diffrn_standards_decay_%        0
+_exptl_absorpt_coefficient_mu    22.473
+_exptl_absorpt_correction_T_max  0.377
+_exptl_absorpt_correction_T_min  0.266
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details   '(Sheldrick, 1996)'
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    4.775
+_exptl_crystal_density_meas      ?
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       prism
+_exptl_crystal_F_000             2448
+_exptl_crystal_size_max          0.07
+_exptl_crystal_size_mid          0.05
+_exptl_crystal_size_min          0.04
+_refine_diff_density_max         0.802
+_refine_diff_density_min         -0.802
+_refine_ls_extinction_coef       0.00056(8)
+_refine_ls_extinction_method     'SHELXL97 (Sheldrick, 1997)'
+_refine_ls_goodness_of_fit_ref   1.187
+_refine_ls_hydrogen_treatment    none
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     18
+_refine_ls_number_reflns         378
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.187
+_refine_ls_R_factor_all          0.058
+_refine_ls_R_factor_gt           0.032
+_refine_ls_shift/su_max          <0.001
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w = 1/[\s^2^(Fo^2^)+(0.0244P)^2^+18.3164P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_ref         0.075
+_reflns_number_total             378
+_cod_data_source_file            br1247.cif
+_cod_data_source_block           Mg3Y2Ge3O12
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_geom_bond_publ_flag' value 'NO' changed to 'no' according to
+/home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary named
+'cif_core.dic' version 2.4.2 from 2011-04-26 (14
+times).
+
+'_geom_angle_publ_flag' value 'NO' changed to 'no' according
+to /home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary
+named 'cif_core.dic' version 2.4.2 from 2011-04-26 (163 times).
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+
+The following automatic conversions were performed:
+
+'_exptl_crystal_density_meas' value 'not measured' was changed to '?'
+- the value is perceived as not measured.
+
+Automatic conversion script
+Id: cif_fix_values 3008 2015-01-20 13:52:24Z robertas 
+;
+_cod_original_sg_symbol_H-M      I_a_-3_d
+_cod_database_code               2009002
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x+1/2, -y, z+1/2'
+'-x, y+1/2, -z+1/2'
+'x+1/2, -y+1/2, -z'
+'z, x, y'
+'z+1/2, -x+1/2, -y'
+'-z+1/2, -x, y+1/2'
+'-z, x+1/2, -y+1/2'
+'y, z, x'
+'-y, z+1/2, -x+1/2'
+'y+1/2, -z+1/2, -x'
+'-y+1/2, -z, x+1/2'
+'y+3/4, x+1/4, -z+1/4'
+'-y+3/4, -x+3/4, -z+3/4'
+'y+1/4, -x+1/4, z+3/4'
+'-y+1/4, x+3/4, z+1/4'
+'x+3/4, z+1/4, -y+1/4'
+'-x+1/4, z+3/4, y+1/4'
+'-x+3/4, -z+3/4, -y+3/4'
+'x+1/4, -z+1/4, y+3/4'
+'z+3/4, y+1/4, -x+1/4'
+'z+1/4, -y+1/4, x+3/4'
+'-z+1/4, y+3/4, x+1/4'
+'-z+3/4, -y+3/4, -x+3/4'
+'x+1/2, y+1/2, z+1/2'
+'-x+1, -y+1/2, z+1'
+'-x+1/2, y+1, -z+1'
+'x+1, -y+1, -z+1/2'
+'z+1/2, x+1/2, y+1/2'
+'z+1, -x+1, -y+1/2'
+'-z+1, -x+1/2, y+1'
+'-z+1/2, x+1, -y+1'
+'y+1/2, z+1/2, x+1/2'
+'-y+1/2, z+1, -x+1'
+'y+1, -z+1, -x+1/2'
+'-y+1, -z+1/2, x+1'
+'y+5/4, x+3/4, -z+3/4'
+'-y+5/4, -x+5/4, -z+5/4'
+'y+3/4, -x+3/4, z+5/4'
+'-y+3/4, x+5/4, z+3/4'
+'x+5/4, z+3/4, -y+3/4'
+'-x+3/4, z+5/4, y+3/4'
+'-x+5/4, -z+5/4, -y+5/4'
+'x+3/4, -z+3/4, y+5/4'
+'z+5/4, y+3/4, -x+3/4'
+'z+3/4, -y+3/4, x+5/4'
+'-z+3/4, y+5/4, x+3/4'
+'-z+5/4, -y+5/4, -x+5/4'
+'-x, -y, -z'
+'x-1/2, y, -z-1/2'
+'x, -y-1/2, z-1/2'
+'-x-1/2, y-1/2, z'
+'-z, -x, -y'
+'-z-1/2, x-1/2, y'
+'z-1/2, x, -y-1/2'
+'z, -x-1/2, y-1/2'
+'-y, -z, -x'
+'y, -z-1/2, x-1/2'
+'-y-1/2, z-1/2, x'
+'y-1/2, z, -x-1/2'
+'-y-3/4, -x-1/4, z-1/4'
+'y-3/4, x-3/4, z-3/4'
+'-y-1/4, x-1/4, -z-3/4'
+'y-1/4, -x-3/4, -z-1/4'
+'-x-3/4, -z-1/4, y-1/4'
+'x-1/4, -z-3/4, -y-1/4'
+'x-3/4, z-3/4, y-3/4'
+'-x-1/4, z-1/4, -y-3/4'
+'-z-3/4, -y-1/4, x-1/4'
+'-z-1/4, y-1/4, -x-3/4'
+'z-1/4, -y-3/4, -x-1/4'
+'z-3/4, y-3/4, x-3/4'
+'-x+1/2, -y+1/2, -z+1/2'
+'x, y+1/2, -z'
+'x+1/2, -y, z'
+'-x, y, z+1/2'
+'-z+1/2, -x+1/2, -y+1/2'
+'-z, x, y+1/2'
+'z, x+1/2, -y'
+'z+1/2, -x, y'
+'-y+1/2, -z+1/2, -x+1/2'
+'y+1/2, -z, x'
+'-y, z, x+1/2'
+'y, z+1/2, -x'
+'-y-1/4, -x+1/4, z+1/4'
+'y-1/4, x-1/4, z-1/4'
+'-y+1/4, x+1/4, -z-1/4'
+'y+1/4, -x-1/4, -z+1/4'
+'-x-1/4, -z+1/4, y+1/4'
+'x+1/4, -z-1/4, -y+1/4'
+'x-1/4, z-1/4, y-1/4'
+'-x+1/4, z+1/4, -y-1/4'
+'-z-1/4, -y+1/4, x+1/4'
+'-z+1/4, y+1/4, -x-1/4'
+'z+1/4, -y-1/4, -x+1/4'
+'z-1/4, y-1/4, x-1/4'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+_atom_site_type_symbol
+Y 0 0.25 0.125 0.00755(19) Uani d SP 0.67 Y
+Mg1 0 0.25 0.125 0.00755(19) Uani d SP 0.33 Mg
+Mg2 0 0 0 0.0084(4) Uani d S 1 Mg
+Ge 0 0.25 0.375 0.00778(19) Uani d S 1 Ge
+O -0.03093(19) 0.05582(19) 0.15607(18) 0.0094(4) Uani d . 1 O
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Y 0.0085(2) 0.0085(2) 0.0056(3) 0.0019(3) 0 0
+Mg1 0.0085(2) 0.0085(2) 0.0056(3) 0.0019(3) 0 0
+Mg2 0.0084(4) 0.0084(4) 0.0084(4) -0.0008(6) -0.0008(6) -0.0008(6)
+Ge 0.0063(2) 0.0063(2) 0.0107(3) 0 0 0
+O 0.0115(10) 0.0106(10) 0.0061(9) -0.0017(8) 0.0009(8) -0.0002(7)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Mg Mg 0.0486 0.0363 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ge Ge 0.1547 1.8001 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Y Y -2.7962 3.5667 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O Y O 48_444 9 112.42(11) no
+O Y O 48_444 21_455 70.04(11) no
+O Y O 9 21_455 163.73(11) no
+O Y O 48_444 36_454 163.73(11) no
+O Y O 9 36_454 70.04(11) no
+O Y O 21_455 36_454 112.42(11) no
+O Y O 48_444 13_455 124.30(5) no
+O Y O 9 13_455 94.68(7) no
+O Y O 21_455 13_455 72.07(11) no
+O Y O 36_454 13_455 70.30(9) no
+O Y O 48_444 26_454 94.68(7) no
+O Y O 9 26_454 124.30(5) no
+O Y O 21_455 26_454 70.30(9) no
+O Y O 36_454 26_454 72.07(11) no
+O Y O 13_455 26_454 109.11(11) no
+O Y O 48_444 . 70.30(9) no
+O Y O 9 . 72.07(11) no
+O Y O 21_455 . 94.68(7) no
+O Y O 36_454 . 124.30(5) no
+O Y O 13_455 . 73.82(11) no
+O Y O 26_454 . 162.04(10) no
+O Y O 48_444 38_444 72.07(11) no
+O Y O 9 38_444 70.30(9) no
+O Y O 21_455 38_444 124.30(5) no
+O Y O 36_454 38_444 94.68(7) no
+O Y O 13_455 38_444 162.04(10) no
+O Y O 26_454 38_444 73.82(11) no
+O Y O . 38_444 109.11(11) no
+O Y Ge 48_444 . 35.02(6) no
+O Y Ge 9 . 144.98(6) no
+O Y Ge 21_455 . 35.02(6) no
+O Y Ge 36_454 . 144.98(6) no
+O Y Ge 13_455 . 98.98(5) no
+O Y Ge 26_454 . 81.02(5) no
+O Y Ge . . 81.02(5) no
+O Y Ge 38_444 . 98.98(5) no
+O Y Ge 48_444 51_565 144.98(6) no
+O Y Ge 9 51_565 35.02(6) no
+O Y Ge 21_455 51_565 144.98(6) no
+O Y Ge 36_454 51_565 35.02(6) no
+O Y Ge 13_455 51_565 81.02(5) no
+O Y Ge 26_454 51_565 98.98(5) no
+O Y Ge . 51_565 98.98(5) no
+O Y Ge 38_444 51_565 81.02(5) no
+Ge Y Ge . 51_565 180.0 no
+O Y Mg2 48_444 . 95.97(6) no
+O Y Mg2 9 . 36.15(6) no
+O Y Mg2 21_455 . 128.94(6) no
+O Y Mg2 36_454 . 94.30(6) no
+O Y Mg2 13_455 . 77.95(6) no
+O Y Mg2 26_454 . 160.44(5) no
+O Y Mg2 . . 36.61(5) no
+O Y Mg2 38_444 . 93.97(5) no
+Ge Y Mg2 . . 116.6 no
+Ge Y Mg2 51_565 . 63.4 no
+O Y Mg2 48_444 38_444 36.15(6) no
+O Y Mg2 9 38_444 95.97(6) no
+O Y Mg2 21_455 38_444 94.30(6) no
+O Y Mg2 36_454 38_444 128.94(6) no
+O Y Mg2 13_455 38_444 160.44(5) no
+O Y Mg2 26_454 38_444 77.95(6) no
+O Y Mg2 . 38_444 93.97(5) no
+O Y Mg2 38_444 38_444 36.61(5) no
+Ge Y Mg2 . 38_444 63.4 no
+Ge Y Mg2 51_565 38_444 116.6 no
+Mg2 Y Mg2 . 38_444 101.5 no
+O Mg2 O 57 9 180.00(19) no
+O Mg2 O 57 53 85.64(9) no
+O Mg2 O 9 53 94.36(9) no
+O Mg2 O 57 5 94.36(9) no
+O Mg2 O 9 5 85.64(9) no
+O Mg2 O 53 5 180.00(19) no
+O Mg2 O 57 49 85.64(9) no
+O Mg2 O 9 49 94.36(9) no
+O Mg2 O 53 49 85.64(9) no
+O Mg2 O 5 49 94.36(9) no
+O Mg2 O 57 . 94.36(9) no
+O Mg2 O 9 . 85.64(9) no
+O Mg2 O 53 . 94.36(9) no
+O Mg2 O 5 . 85.64(9) no
+O Mg2 O 49 . 180.00(14) no
+O Mg2 Y 57 . 138.23(7) no
+O Mg2 Y 9 . 41.77(7) no
+O Mg2 Y 53 . 89.08(6) no
+O Mg2 Y 5 . 90.92(6) no
+O Mg2 Y 49 . 135.24(7) no
+O Mg2 Y . . 44.76(7) no
+O Mg2 Y 57 9 135.24(7) no
+O Mg2 Y 9 9 44.76(7) no
+O Mg2 Y 53 9 138.23(7) no
+O Mg2 Y 5 9 41.77(7) no
+O Mg2 Y 49 9 89.08(6) no
+O Mg2 Y . 9 90.92(6) no
+Y Mg2 Y . 9 66.4 no
+O Mg2 Y 57 57 44.76(7) no
+O Mg2 Y 9 57 135.24(7) no
+O Mg2 Y 53 57 41.77(7) no
+O Mg2 Y 5 57 138.23(7) no
+O Mg2 Y 49 57 90.92(6) no
+O Mg2 Y . 57 89.08(6) no
+Y Mg2 Y . 57 113.6 no
+Y Mg2 Y 9 57 180.0 no
+O Mg2 Mg1 57 49 41.77(7) no
+O Mg2 Mg1 9 49 138.23(7) no
+O Mg2 Mg1 53 49 90.92(6) no
+O Mg2 Mg1 5 49 89.08(6) no
+O Mg2 Mg1 49 49 44.76(7) no
+O Mg2 Mg1 . 49 135.24(7) no
+Y Mg2 Mg1 . 49 180.0 no
+Y Mg2 Mg1 9 49 113.6 no
+Y Mg2 Mg1 57 49 66.4 no
+O Mg2 Mg1 57 5 89.08(6) no
+O Mg2 Mg1 9 5 90.92(6) no
+O Mg2 Mg1 53 5 135.24(7) no
+O Mg2 Mg1 5 5 44.76(7) no
+O Mg2 Mg1 49 5 138.23(7) no
+O Mg2 Mg1 . 5 41.77(7) no
+Y Mg2 Mg1 . 5 66.4 no
+Y Mg2 Mg1 9 5 66.4 no
+Y Mg2 Mg1 57 5 113.6 no
+Mg1 Mg2 Mg1 49 5 113.6 no
+O Mg2 Mg1 57 53 90.92(6) no
+O Mg2 Mg1 9 53 89.08(6) no
+O Mg2 Mg1 53 53 44.76(7) no
+O Mg2 Mg1 5 53 135.24(7) no
+O Mg2 Mg1 49 53 41.77(7) no
+O Mg2 Mg1 . 53 138.23(7) no
+Y Mg2 Mg1 . 53 113.6 no
+Y Mg2 Mg1 9 53 113.6 no
+Y Mg2 Mg1 57 53 66.4 no
+Mg1 Mg2 Mg1 49 53 66.4 no
+Mg1 Mg2 Mg1 5 53 180.0 no
+O Ge O 58_566 21_455 115.20(8) no
+O Ge O 58_566 48_444 115.20(8) no
+O Ge O 21_455 48_444 98.55(15) no
+O Ge O 58_566 83 98.55(15) no
+O Ge O 21_455 83 115.19(8) no
+O Ge O 48_444 83 115.19(8) no
+O Ge Y 58_566 51_566 49.27(8) no
+O Ge Y 21_455 51_566 130.73(8) no
+O Ge Y 48_444 51_566 130.73(8) no
+O Ge Y 83 51_566 49.27(8) no
+O Ge Y 58_566 . 130.73(8) no
+O Ge Y 21_455 . 49.27(8) no
+O Ge Y 48_444 . 49.27(8) no
+O Ge Y 83 . 130.73(8) no
+Y Ge Y 51_566 . 180.0 no
+O Ge Mg1 58_566 51_566 49.27(8) no
+O Ge Mg1 21_455 51_566 130.73(8) no
+O Ge Mg1 48_444 51_566 130.73(8) no
+O Ge Mg1 83 51_566 49.27(8) no
+Y Ge Mg1 51_566 51_566 0.0 no
+Y Ge Mg1 . 51_566 180.0 no
+Ge O Mg2 55_556 . 126.48(12) no
+Ge O Mg1 55_556 5 95.71(10) no
+Mg2 O Mg1 . 5 102.09(10) no
+Ge O Y 55_556 5 95.71(10) no
+Mg2 O Y . 5 102.09(10) no
+Mg1 O Y 5 5 0.0 no
+Ge O Y 55_556 . 125.50(12) no
+Mg2 O Y . . 98.63(9) no
+Mg1 O Y 5 . 103.64(8) no
+Y O Y 5 . 103.64(8) no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Y O 48_444 2.332(2) n
+Y O 9 2.332(2) n
+Y O 21_455 2.332(2) n
+Y O 36_454 2.332(2) n
+Y O 13_455 2.438(2) n
+Y O 26_454 2.438(2) n
+Y O . 2.438(2) n
+Y O 38_444 2.438(2) n
+Y Ge . 3.0622(3) no
+Y Ge 51_565 3.0622(3) no
+Y Mg2 . 3.4237(3) no
+Y Mg2 38_444 3.4237(3) no
+Mg2 O 57 2.065(2) n
+Mg2 O 9 2.065(2) n
+Mg2 O 53 2.065(2) n
+Mg2 O 5 2.065(2) n
+Mg2 O 49 2.065(2) n
+Mg2 O . 2.065(2) n
+Mg2 Y 9 3.4237(3) no
+Mg2 Y 57 3.4237(3) no
+Mg2 Mg1 49 3.4237(3) no
+Mg2 Mg1 5 3.4237(3) no
+Mg2 Mg1 53 3.4237(3) no
+Ge O 58_566 1.766(2) n
+Ge O 21_455 1.766(2) n
+Ge O 48_444 1.766(2) n
+Ge O 83 1.766(2) n
+Ge Y 51_566 3.0622(3) no
+Ge Mg1 51_566 3.0622(3) no
+O Ge 55_556 1.766(2) no
+O Mg1 5 2.332(2) no
+O Y 5 2.332(2) no

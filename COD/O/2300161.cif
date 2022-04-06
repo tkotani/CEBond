@@ -1,0 +1,359 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-21 11:56:54 +0200 (Sun, 21 Feb 2016) $
+#$Revision: 176809 $
+#$URL: svn://www.crystallography.net/cod/cif/2/30/01/2300161.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2300161
+loop_
+_publ_author_name
+'Jeong, Il-Kyoung'
+'Hur, N.'
+'Proffen, Th.'
+_publ_section_title
+;
+ High-temperature structural evolution of hexagonal multiferroic
+ YMnO~3~ and YbMnO~3~
+;
+_journal_coeditor_code           KO5041
+_journal_issue                   4
+_journal_name_full               'Journal of Applied Crystallography'
+_journal_page_first              730
+_journal_page_last               734
+_journal_paper_doi               10.1107/S0021889807025101
+_journal_volume                  40
+_journal_year                    2007
+_chemical_formula_sum            'Mn O3 Y'
+_chemical_formula_weight         191.84
+_chemical_name_systematic        ' ?'
+_space_group_IT_number           185
+_symmetry_cell_setting           hexagonal
+_symmetry_space_group_name_Hall  'P 6c -2'
+_symmetry_space_group_name_H-M   'P 63 c m'
+_audit_creation_date             2007-02-03T15:41
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_audit_update_record
+' 2007-02-03T15:41  Initial CIF as created by GSAS2CIF'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                120.0
+_cell_formula_units_Z            6
+_cell_length_a                   6.22215(8)
+_cell_length_b                   6.22215
+_cell_length_c                   11.37072(16)
+_cell_volume                     381.241(7)
+_computing_structure_refinement  GSAS
+_diffrn_radiation_probe          neutron
+_exptl_absorpt_correction_T_max  0.96858
+_exptl_absorpt_correction_T_min  0.84347
+_exptl_absorpt_process_details
+;   GSAS Absorption/surface roughness correction: function number 0
+ Debye-Scherrer absorption correction
+Term (= MU.r/wave) =     0.19775E-01
+Correction is refined.
+;
+_pd_block_id                     2007-02-03T15:41|YMO-1000K|ymno3-1000k|1
+_pd_calc_method                  'Rietveld Refinement'
+_pd_instr_location               ' ?'
+_pd_meas_2theta_fixed            148.
+_pd_meas_number_of_points        4888
+_pd_phase_name                   'YMnO3 1000K'
+_pd_proc_info_datetime           2007-02-03T15:41:34
+_pd_proc_info_excluded_regions   ' ?'
+_pd_proc_ls_background_function
+;   GSAS Background function number 7 with 15 terms.
+ Linear interpolation
+      1:   0.269324     2:   0.258212     3:   0.242578     4:   0.242548    
+      5:   0.236113     6:   0.241551     7:   0.246771     8:   0.254022    
+      9:   0.271245    10:   0.258747    11:   0.318729    12:   0.300540    
+     13:   0.348946    14:   0.329324    15:   0.313133    
+;
+_pd_proc_ls_peak_cutoff          0.01000
+_pd_proc_ls_profile_function
+;
+ TOF Profile function number 1 with  12 terms
+ Profile coefficients for Von Dreele,
+ Jorgensen & Windsor convolution function
+  J. Appl. Cryst., 15,581-589(1982)
+  Modified by Von Dreele - unpublished (1983).
+ Peak tails are ignored  where the intensity is below 0.0100 times the peak
+   Aniso. broadening axis   0.0   0.0   1.0
+;
+_pd_proc_ls_prof_R_factor        0.0202
+_pd_proc_ls_prof_wR_expected     0.0120
+_pd_proc_ls_prof_wR_factor       0.0280
+_pd_proc_number_of_points        4888
+_pd_spec_mounting                ' ?'
+_refine_ls_goodness_of_fit_all   2.34
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     37
+_refine_ls_number_restraints     0
+_refine_ls_R_Fsqd_factor         0.13213
+_refine_ls_shift/su_max          0.04
+_refine_ls_shift/su_mean         0.01
+_reflns_d_resolution_high        0.500
+_reflns_d_resolution_low         2.729
+_reflns_limit_h_max              10
+_reflns_limit_h_min              0
+_reflns_limit_k_max              6
+_reflns_limit_k_min              0
+_reflns_limit_l_max              22
+_reflns_limit_l_min              0
+_reflns_number_total             608
+_cod_data_source_file            ko5041.cif
+_cod_data_source_block           YMO-1000K
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_geom_bond_publ_flag' value 'N' changed to 'n' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (56
+times).
+
+'_geom_angle_publ_flag' value 'N' changed to 'n' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (100 times).
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+
+The following automatic conversions were performed:
+
+'_geom_bond_publ_flag' value 'N' changed to 'n' according to
+/home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (56
+times).
+
+'_geom_angle_publ_flag' value 'N' changed to 'n' according
+to /home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary
+named 'cif_core.dic' version 2.4.1 from 2010-06-29 (100 times).
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_original_cell_volume        381.241(12)
+_cod_database_code               2300161
+#BEGIN Tags that were not found in dictionaries:
+_gsas_exptl_extinct_corr_t_min   1.00000
+_gsas_exptl_extinct_corr_t_max   1.00000
+#END Tags that were not found in dictionaries
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 x-y,+x,+z+1/2
+3 -y,x-y,+z
+4 -x,-y,+z+1/2
+5 y-x,-x,+z
+6 +y,y-x,+z+1/2
+7 y-x,+y,+z+1/2
+8 -x,y-x,+z
+9 -y,-x,+z+1/2
+10 x-y,-y,+z
+11 +x,x-y,+z+1/2
+12 +y,+x,+z
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+Y Y1 0.0 0.0 0.2726(6) 1.0 Uiso 0.0170(7) 2
+Y Y2 0.33333 0.66667 0.2388(5) 1.0 Uiso 0.0223(6) 4
+Mn Mn3 0.3516(10) 0.0 0.0 1.0 Uiso 0.0147(6) 6
+O O4 0.3127(7) 0.0 0.1647(6) 1.0 Uiso 0.0227(8) 6
+O O5 0.6549(6) 0.0 0.3367(6) 1.0 Uiso 0.0207(6) 6
+O O6 0.0 0.0 0.4974(8) 1.0 Uiso 0.0384(26) 2
+O O7 0.33333 0.66667 0.0197(5) 1.0 Uiso 0.0186(7) 4
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+_atom_type_scat_length_neutron
+_atom_type_scat_source
+Y 6.0 0.7750 International_Tables_Vol_C
+Mn 6.0 -0.3750 International_Tables_Vol_C
+O 18.0 0.5805 International_Tables_Vol_C
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O4 Y1 O4 94.18(22) 1_555 . 3_555 n
+O4 Y1 O4 94.18(22) 1_555 . 5_555 n
+O4 Y1 O5 166.50(33) 1_555 . 1_455 n
+O4 Y1 O5 76.77(7) 1_555 . 3_545 n
+O4 Y1 O5 76.77(7) 1_555 . 5_665 n
+O4 Y1 O6 122.25(16) 1_555 . 1_555 n
+O4 Y1 O4 94.18(22) 3_555 . 5_555 n
+O4 Y1 O5 76.77(7) 3_555 . 1_455 n
+O4 Y1 O5 166.50(33) 3_555 . 3_545 n
+O4 Y1 O5 76.77(7) 3_555 . 5_665 n
+O4 Y1 O6 122.25(16) 3_555 . 1_555 n
+O4 Y1 O5 76.77(7) 5_555 . 1_455 n
+O4 Y1 O5 76.77(7) 5_555 . 3_545 n
+O4 Y1 O5 166.50(33) 5_555 . 5_665 n
+O4 Y1 O6 122.25(16) 5_555 . 1_555 n
+O5 Y1 O5 110.18(18) 1_455 . 3_545 n
+O5 Y1 O5 110.18(18) 1_455 . 5_665 n
+O5 Y1 O6 71.25(19) 1_455 . 1_555 n
+O5 Y1 O5 110.18(18) 3_545 . 5_665 n
+O5 Y1 O6 71.25(19) 3_545 . 1_555 n
+O5 Y1 O6 71.25(19) 5_665 . 1_555 n
+Y2 Y2 Y2 120.0 8_555 . 8_655 n
+Y2 Y2 Y2 120.0 8_555 . 8_665 n
+Y2 Y2 O4 87.23(9) 8_555 . 1_565 n
+Y2 Y2 O4 38.69(9) 8_555 . 3_555 n
+Y2 Y2 O4 145.98(11) 8_555 . 5_665 n
+Y2 Y2 O5 138.26(10) 8_555 . 1_565 n
+Y2 Y2 O5 39.34(10) 8_555 . 3_555 n
+Y2 Y2 O5 91.56(9) 8_555 . 5_665 n
+Y2 Y2 O7 90.0 8_555 . 1_555 n
+Y2 Y2 Y2 119.9999 8_655 . 8_665 n
+Y2 Y2 O4 145.98(11) 8_655 . 1_565 n
+Y2 Y2 O4 87.23(9) 8_655 . 3_555 n
+Y2 Y2 O4 38.69(9) 8_655 . 5_665 n
+Y2 Y2 O5 91.56(9) 8_655 . 1_565 n
+Y2 Y2 O5 138.26(10) 8_655 . 3_555 n
+Y2 Y2 O5 39.34(10) 8_655 . 5_665 n
+Y2 Y2 O7 90.0 8_655 . 1_555 n
+Y2 Y2 O4 38.69(9) 8_665 . 1_565 n
+Y2 Y2 O4 145.98(11) 8_665 . 3_555 n
+Y2 Y2 O4 87.23(9) 8_665 . 5_665 n
+Y2 Y2 O5 39.34(10) 8_665 . 1_565 n
+Y2 Y2 O5 91.56(9) 8_665 . 3_555 n
+Y2 Y2 O5 138.26(10) 8_665 . 5_665 n
+Y2 Y2 O7 90.0 8_665 . 1_555 n
+O4 Y2 O4 107.37(14) 1_565 . 3_555 n
+O4 Y2 O4 107.37(14) 1_565 . 5_665 n
+O4 Y2 O5 77.42(11) 1_565 . 1_565 n
+O4 Y2 O5 75.68(15) 1_565 . 3_555 n
+O4 Y2 O5 172.78(23) 1_565 . 5_665 n
+O4 Y2 O7 68.50(13) 1_565 . 1_555 n
+O4 Y2 O4 107.37(14) 3_555 . 5_665 n
+O4 Y2 O5 172.78(23) 3_555 . 1_565 n
+O4 Y2 O5 77.42(11) 3_555 . 3_555 n
+O4 Y2 O5 75.68(15) 3_555 . 5_665 n
+O4 Y2 O7 68.50(13) 3_555 . 1_555 n
+O4 Y2 O5 75.68(15) 5_665 . 1_565 n
+O4 Y2 O5 172.78(23) 5_665 . 3_555 n
+O4 Y2 O5 77.42(11) 5_665 . 5_665 n
+O4 Y2 O7 68.50(13) 5_665 . 1_555 n
+O5 Y2 O5 98.95(15) 1_565 . 3_555 n
+O5 Y2 O5 98.95(15) 1_565 . 5_665 n
+O5 Y2 O7 118.64(11) 1_565 . 1_555 n
+O5 Y2 O5 98.95(15) 3_555 . 5_665 n
+O5 Y2 O7 118.64(11) 3_555 . 1_555 n
+O5 Y2 O7 118.64(11) 5_665 . 1_555 n
+O4 Mn3 O5 171.4(4) 1_555 . 4_654 n
+O4 Mn3 O6 83.40(28) 1_555 . 2_554 n
+O4 Mn3 O7 87.06(19) 1_555 . 1_545 n
+O4 Mn3 O7 87.06(19) 1_555 . 8_655 n
+O5 Mn3 O6 87.98(34) 4_654 . 2_554 n
+O5 Mn3 O7 96.92(20) 4_654 . 1_545 n
+O5 Mn3 O7 96.92(20) 4_654 . 8_655 n
+O6 Mn3 O7 117.12(16) 2_554 . 1_545 n
+O6 Mn3 O7 117.12(16) 2_554 . 8_655 n
+O7 Mn3 O7 124.24(30) 1_545 . 8_655 n
+Y1 O4 Y2 103.46(18) 1_555 . 1_545 n
+Y1 O4 Y2 103.46(18) 1_555 . 8_655 n
+Y1 O4 Mn3 129.62(24) 1_555 . 1_555 n
+Y2 O4 Y2 102.62(18) 1_545 . 8_655 n
+Y2 O4 Mn3 107.37(18) 1_545 . 1_555 n
+Y2 O4 Mn3 107.37(18) 8_655 . 1_555 n
+Y1 O5 Y2 103.83(17) 1_655 . 1_545 n
+Y1 O5 Y2 103.83(17) 1_655 . 8_655 n
+Y1 O5 Mn3 110.01(35) 1_655 . 4_655 n
+Y2 O5 Y2 101.31(19) 1_545 . 8_655 n
+Y2 O5 Mn3 118.04(15) 1_545 . 4_655 n
+Y2 O5 Mn3 118.04(15) 8_655 . 4_655 n
+Y1 O6 Mn3 90.77(25) 1_555 . 2_555 n
+Y1 O6 Mn3 90.77(25) 1_555 . 4_555 n
+Y1 O6 Mn3 90.77(25) 1_555 . 6_555 n
+Mn3 O6 Mn3 119.982(12) 2_555 . 4_555 n
+Mn3 O6 Mn3 119.982(12) 2_555 . 6_555 n
+Mn3 O6 Mn3 119.982(12) 4_555 . 6_555 n
+Y2 O7 Mn3 96.34(17) 1_555 . 1_565 n
+Y2 O7 Mn3 96.34(17) 1_555 . 3_555 n
+Y2 O7 Mn3 96.34(17) 1_555 . 5_665 n
+Mn3 O7 Mn3 118.80(6) 1_565 . 3_555 n
+Mn3 O7 Mn3 118.80(6) 1_565 . 5_665 n
+Mn3 O7 Mn3 118.80(6) 3_555 . 5_665 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Y1 Y2 3.6128(4) . 1_445 n
+Y1 Y2 3.6128(4) . 1_545 n
+Y1 Y2 3.6128(4) . 1_555 n
+Y1 Y2 3.6128(4) . 8_545 n
+Y1 Y2 3.6128(4) . 8_555 n
+Y1 Y2 3.6128(4) . 8_655 n
+Y1 Mn3 3.387(7) . 2_555 n
+Y1 Mn3 3.387(7) . 4_555 n
+Y1 Mn3 3.387(7) . 6_555 n
+Y1 O4 2.300(5) . 1_555 n
+Y1 O4 2.300(5) . 3_555 n
+Y1 O4 2.300(5) . 5_555 n
+Y1 O5 2.267(4) . 1_455 n
+Y1 O5 2.267(4) . 3_545 n
+Y1 O5 2.267(4) . 5_665 n
+Y1 O6 2.556(8) . 1_555 n
+Y2 Y1 3.6128(4) . 1_555 n
+Y2 Y1 3.6128(4) . 1_565 n
+Y2 Y1 3.6128(4) . 1_665 n
+Y2 Y2 3.59236(5) . 8_555 n
+Y2 Y2 3.59236(5) . 8_655 n
+Y2 Y2 3.59236(5) . 8_665 n
+Y2 Mn3 3.384(5) . 1_565 n
+Y2 Mn3 3.384(5) . 3_555 n
+Y2 Mn3 3.384(5) . 5_665 n
+Y2 O4 2.3012(28) . 1_565 n
+Y2 O4 2.3012(28) . 3_555 n
+Y2 O4 2.3012(28) . 5_665 n
+Y2 O5 2.3226(32) . 1_565 n
+Y2 O5 2.3226(32) . 3_555 n
+Y2 O5 2.3226(32) . 5_665 n
+Y2 O7 2.491(5) . 1_555 n
+Mn3 Y1 3.387(7) . 2_554 n
+Mn3 Y2 3.384(5) . 1_545 n
+Mn3 Y2 3.384(5) . 8_655 n
+Mn3 O4 1.888(7) . 1_555 n
+Mn3 O5 1.857(6) . 4_654 n
+Mn3 O6 2.188(6) . 2_554 n
+Mn3 O7 2.0320(28) . 1_545 n
+Mn3 O7 2.0320(28) . 8_655 n
+O4 Y1 2.300(5) . 1_555 n
+O4 Y2 2.3012(28) . 1_545 n
+O4 Y2 2.3012(28) . 8_655 n
+O4 Mn3 1.888(7) . 1_555 n
+O5 Y1 2.267(4) . 1_655 n
+O5 Y2 2.3226(32) . 1_545 n
+O5 Y2 2.3226(32) . 8_655 n
+O5 Mn3 1.857(6) . 4_655 n
+O6 Y1 2.556(8) . 1_555 n
+O6 Mn3 2.188(6) . 2_555 n
+O6 Mn3 2.188(6) . 4_555 n
+O6 Mn3 2.188(6) . 6_555 n
+O7 Y2 2.491(5) . 1_555 n
+O7 Mn3 2.0320(28) . 1_565 n
+O7 Mn3 2.0320(28) . 3_555 n
+O7 Mn3 2.0320(28) . 5_665 n

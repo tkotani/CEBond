@@ -1,0 +1,161 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-10-13 08:28:26 +0300 (Fri, 13 Oct 2017) $
+#$Revision: 201972 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/10/21/2102123.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2102123
+loop_
+_publ_author_name
+'Zibrov, I. P.'
+'Filonenko, V. P.'
+'Sundberg, M.'
+'Werner, P.-E.'
+_publ_section_title
+;
+ Structures and phase transitions of <i>B</i>-Ta~2~O~5~ and
+ <i>Z</i>-Ta~2~O~5~: two high-pressure forms of Ta~2~O~5~
+;
+_journal_issue                   4
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              659
+_journal_page_last               665
+_journal_paper_doi               10.1107/S0108768100005462
+_journal_volume                  56
+_journal_year                    2000
+_chemical_formula_iupac          'Ta2 O5'
+_chemical_formula_moiety         'O5 Ta2'
+_chemical_formula_structural     'Ta2 O5'
+_chemical_formula_sum            'O5 Ta2'
+_chemical_formula_weight         441.89
+_chemical_name_common            B-Ta2O5
+_chemical_name_systematic
+;
+ditantalum penta oxide
+;
+_space_group_IT_number           15
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-C 2yc'
+_symmetry_space_group_name_H-M   'C 1 2/c 1'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 104.264(2)
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            4
+_cell_length_a                   12.7853(4)
+_cell_length_b                   4.85370(10)
+_cell_length_c                   5.5276(2)
+_cell_measurement_temperature    293
+_cell_volume                     332.446(18)
+_computing_cell_refinement       'DBW 3.2 S Wiles et al.,1988)'
+_computing_data_collection       'Stoe Stadi/P, Powdat'
+_computing_data_reduction        'Stoe Stadi/P, Rawdat'
+_computing_structure_refinement  'DBW 3.2 S Wiles et al.,1988)'
+_diffrn_ambient_temperature      293
+_diffrn_measurement_device_type  'Stoe PSD'
+_diffrn_radiation_monochromator  Ge
+_diffrn_radiation_type           CuK\a~1~
+_diffrn_radiation_wavelength     1.54056
+_exptl_crystal_density_diffrn    8.83
+_exptl_crystal_density_method    'not measured'
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_all   1.07
+_refine_ls_hydrogen_treatment    none
+_refine_ls_matrix_type           fsqd
+_refine_ls_number_parameters     47
+_refine_ls_shift/su_max          .2
+_refine_ls_structure_factor_coef Inet
+_refine_ls_weighting_details     'w = 1/Y~i~'
+_refine_ls_weighting_scheme      calc
+_cod_data_source_file            os0050.cif
+_cod_data_source_block           B
+_cod_depositor_comments
+;
+Luca 25/2/2014
+Corrected the occupancies
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value '1/Y~i~' was changed to 'calc'.
+New tag '_refine_ls_weighting_details' was created. The value of the
+new tag was set to 'w = 1/Y~i~'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        332.45
+_cod_original_sg_symbol_H-M      'C 2/c'
+_cod_database_code               2102123
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -x,y,1/2-z
+3 -x,-y,-z
+4 x,-y,1/2+z
+5 1/2+x,1/2+y,z
+6 1/2-x,1/2+y,1/2-z
+7 1/2-x,1/2-y,-z
+8 1/2+x,1/2-y,1/2+z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_occupancy_[sic]
+_atom_site_type_symbol
+_atom_site_occupancy
+Ta .13950(10) .2470(15) .2623(2) 1.10(3) Uiso 8 Ta 1
+O1 0 .102(4) .25 1.8(2) Uiso 4 O 1
+O2 .389(2) .051(2) .990(4) 1.8(2) Uiso 8 O 1
+O3 .2990(10) .431(3) .355(3) 1.8(2) Uiso 8 O 1
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Ta Ta -6.351 5.271 'International Tables for Crystallography (Vol. IV)'
+O O .047 .032 'International Tables for Crystallography (Vol. IV)'
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Ta Ta 7_556 3.351(5) yes
+Ta Ta 2_555 3.536(6) yes
+Ta O1 . 1.90(2) yes
+Ta O2 6_556 2.10(5) yes
+Ta O2 7_556 1.67(6) yes
+Ta O3 . 2.17(5) yes
+Ta O3 7_556 2.24(5) yes
+Ta O3 6_545 1.91(5) yes
+O1 O1 3_555 2.94(3) yes
+O1 O2 6_556 2.80(6) yes
+O1 O2 7_556 2.75(6) yes
+O1 O3 7_556 2.94(5) yes
+O1 O3 6_545 2.89(5) yes
+O2 O2 3_657 2.86(9) yes
+O2 O2 4_555 2.81(9) yes
+O2 O3 6_546 2.80(8) yes
+O2 O3 4_555 2.63(6) yes
+O2 O3 7_556 2.68(8) yes
+O2 O3 4_565 2.79(6) yes
+O3 O3 7_556 2.87(7) yes
+O3 O3 4_565 2.84(7) yes
+O3 O3 6_545 2.84(6) yes
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 ChemSpider 55987

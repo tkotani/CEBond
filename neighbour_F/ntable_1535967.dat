@@ -1,0 +1,67 @@
+cif name= ./1535967.cif
+./1535967.cif
+Full Formula (Nb1 F3)
+Reduced Formula: NbF3
+abc   :   3.903000   3.903000   3.903000
+angles:  90.000000  90.000000  90.000000
+Sites (4)
+  #  SP      a    b    c
+---  ----  ---  ---  ---
+  0  Nb    0    0    0
+  1  F     0.5  0    0
+  2  F     0    0.5  0
+  3  F     0    0    0.5
+
+space_group_IT_number 221
+
+*** lse ***
+
+
+**isite= 0
+Nb1 : [0. 0. 0.]
+
+ce_symbol  = O:6
+ce_fraction=  1.0
+species:coords:index
+F1 : [0.     1.9515 0.    ] : 2
+F1 : [1.9515 0.     0.    ] : 1
+F1 : [ 0.      0.     -1.9515] : 3
+F1 : [0.     0.     1.9515] : 3
+F1 : [-1.9515  0.      0.    ] : 1
+F1 : [ 0.     -1.9515  0.    ] : 2
+!!!atention to nb coordination!!!
+         [1.9514999999999998, 1.9514999999999998, 1.9515000000000002, 1.9514999999999998, 1.9515000000000002, 1.9515000000000002]
+         [1.9515, 1.9515, 1.9515, 1.9515, 1.9515, 1.9515]
+
+
+**isite= 1
+F1 : [1.9515 0.     0.    ]
+
+ce_symbol  = L:2
+ce_fraction=  1.0
+species:coords:index
+Nb1 : [0. 0. 0.] : 0
+Nb1 : [3.903 0.    0.   ] : 0
+
+
+**isite= 2
+F1 : [0.     1.9515 0.    ]
+
+ce_symbol  = L:2
+ce_fraction=  1.0
+species:coords:index
+Nb1 : [0. 0. 0.] : 0
+Nb1 : [0.    3.903 0.   ] : 0
+
+
+**isite= 3
+F1 : [0.     0.     1.9515]
+
+ce_symbol  = L:2
+ce_fraction=  1.0
+species:coords:index
+Nb1 : [0. 0. 0.] : 0
+Nb1 : [0.    0.    3.903] : 0
+
+END
+

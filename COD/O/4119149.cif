@@ -1,0 +1,645 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-22 12:45:29 +0200 (Tue, 22 Mar 2016) $
+#$Revision: 178962 $
+#$URL: svn://www.crystallography.net/cod/cif/4/11/91/4119149.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4119149
+loop_
+_publ_author_name
+'Seungwook Kim'
+'Ju-Hyuck Lee'
+'Jaeyeon Lee'
+'Sang-Woo Kim'
+'Myung Hwa Kim'
+'Sungnam Park'
+'Haegeun Chung'
+'Yong-Il Kim'
+'Woong Kim'
+_publ_section_title
+;
+ Synthesis of Monoclinic Potassium Niobate Nanowires That Are Stable at
+ Room Temperature
+;
+_journal_name_full               'Journal of the American Chemical Society'
+_journal_page_first              6
+_journal_page_last               9
+_journal_paper_doi               10.1021/ja308209m
+_journal_volume                  135
+_journal_year                    2013
+_chemical_formula_sum            'K Nb O3'
+_chemical_formula_weight         180.00
+_space_group_IT_number           6
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  'P -2y'
+_symmetry_space_group_name_H-M   'P 1 m 1'
+_audit_author_name               YIKIM
+_audit_creation_date             2012-08-16T15:52
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_audit_update_record
+' 2012-08-16T15:52  Initial CIF as created by GSAS2CIF'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.1012(27)
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            1
+_cell_length_a                   4.04976(6)
+_cell_length_b                   3.99218(6)
+_cell_length_c                   4.02076(7)
+_cell_volume                     65.0050(18)
+_computing_structure_refinement  GSAS
+_diffrn_radiation_polarisn_ratio 0.569
+_diffrn_radiation_probe          neutron,x-ray
+_pd_calc_method                  'Rietveld Refinement'
+_pd_meas_2theta_range_inc        0.05
+_pd_meas_2theta_range_max        159.95
+_pd_meas_2theta_range_min        15.0
+_pd_phase_name                   'KNBO3 80C'
+_pd_proc_2theta_range_inc        0.05
+_pd_proc_2theta_range_max        159.6752
+_pd_proc_2theta_range_min        14.7252
+_pd_proc_info_datetime           2012-08-16T15:52:39
+_pd_proc_ls_prof_R_factor        0.0392
+_pd_proc_ls_prof_wR_factor       0.0560
+_refine_ls_goodness_of_fit_all   1.23
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     55
+_refine_ls_number_restraints     0
+_refine_ls_shift/su_max          0.06
+_refine_ls_shift/su_mean         0.01
+_reflns_d_resolution_high        0.942
+_reflns_d_resolution_low         4.050
+_reflns_limit_h_max              4
+_reflns_limit_h_min              0
+_reflns_limit_k_max              4
+_reflns_limit_k_min              0
+_reflns_limit_l_max              4
+_reflns_limit_l_min              -4
+_reflns_number_total             204
+_cod_data_source_file            ja308209m_si_002.cif
+_cod_data_source_block           COM-KNBO3-60F_phase_1
+_cod_original_cell_volume        65.0050(20)
+_cod_database_code               4119149
+_cod_database_fobs_code          4119149
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 +x,-y,+z
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+K K1a -0.1000(10) 0.0 -0.1017(23) 1.0 Uiso 0.0036(6) 1
+Nb Nb1b 0.4160(6) 0.5 0.3803(12) 1.0 Uiso 0.00751(17) 1
+O O1a -0.6267(27) 0.0 0.393(4) 1.0 Uiso 0.0023(11) 1
+O O2b 0.3821(25) 0.5 0.896(4) 1.0 Uiso 0.0067(15) 1
+O O3b -0.1231(14) 0.5 0.397(4) 1.0 Uiso 0.0111(16) 1
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_length_neutron
+_atom_type_number_in_cell
+_atom_type_scat_Cromer_Mann_a1
+_atom_type_scat_Cromer_Mann_a2
+_atom_type_scat_Cromer_Mann_a3
+_atom_type_scat_Cromer_Mann_a4
+_atom_type_scat_Cromer_Mann_b1
+_atom_type_scat_Cromer_Mann_b2
+_atom_type_scat_Cromer_Mann_b3
+_atom_type_scat_Cromer_Mann_b4
+_atom_type_scat_Cromer_Mann_c
+_atom_type_scat_source
+K 0.000 0.000 0.3670 1 8.21860 12.7949 7.43980 0.77480 1.05190 213.187 0.86590
+41.6841 1.42280 International_Tables_Vol_C
+Nb 0.000 0.000 0.7054 1 17.6142 1.18865 12.0144 11.7660 4.04183 0.20479 3.53346
+69.7957 3.75591 International_Tables_Vol_C
+O 0.000 0.000 0.5803 3 3.04850 13.2771 2.28680 5.70110 1.54630 0.32390 0.86700
+32.9089 0.25080 International_Tables_Vol_C
+loop_
+_diffrn_radiation_wavelength
+_diffrn_radiation_wavelength_wt
+_diffrn_radiation_type
+_diffrn_radiation_wavelength_id
+1.788900 1.000 K\a~1~ 1
+1.791500 0.500 K\a~2~ 2
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+K1a K1a K1a 90.0 1_455 1_545 n
+K1a K1a K1a 90.1012(27) 1_455 1_554 n
+K1a K1a K1a 89.8988(27) 1_455 1_556 n
+K1a K1a K1a 90.0 1_455 1_565 n
+K1a K1a K1a 180.0 1_455 1_655 n
+K1a K1a Nb1b 55.85(8) 1_455 1_444 n
+K1a K1a Nb1b 54.79(8) 1_455 1_445 n
+K1a K1a Nb1b 55.85(8) 1_455 1_454 n
+K1a K1a Nb1b 54.79(8) 1_455 1_455 n
+K1a K1a Nb1b 125.97(8) 1_455 1_544 n
+K1a K1a Nb1b 126.86(8) 1_455 1_545 n
+K1a K1a Nb1b 125.97(8) 1_455 1_554 n
+K1a K1a Nb1b 126.86(8) 1_455 1_555 n
+K1a K1a O1a 43.66(27) 1_455 1_554 n
+K1a K1a O1a 42.9(4) 1_455 1_555 n
+K1a K1a O1a 133.4(4) 1_455 1_654 n
+K1a K1a O1a 133.89(27) 1_455 1_655 n
+K1a K1a O2b 43.58(17) 1_455 1_444 n
+K1a K1a O2b 43.58(17) 1_455 1_454 n
+K1a K1a O2b 134.37(18) 1_455 1_544 n
+K1a K1a O2b 134.37(18) 1_455 1_554 n
+K1a K1a O3b 88.18(18) 1_455 1_544 n
+K1a K1a O3b 88.03(17) 1_455 1_545 n
+K1a K1a O3b 88.18(18) 1_455 1_554 n
+K1a K1a K1a 90.0 1_545 1_554 n
+K1a K1a K1a 90.0 1_545 1_556 n
+K1a K1a K1a 180.0 1_545 1_565 n
+K1a K1a K1a 90.0 1_545 1_655 n
+K1a K1a Nb1b 55.06(6) 1_545 1_444 n
+K1a K1a Nb1b 54.12(6) 1_545 1_445 n
+K1a K1a Nb1b 124.94(6) 1_545 1_454 n
+K1a K1a Nb1b 125.88(6) 1_545 1_455 n
+K1a K1a Nb1b 55.94(5) 1_545 1_544 n
+K1a K1a Nb1b 54.97(6) 1_545 1_545 n
+K1a K1a Nb1b 124.06(5) 1_545 1_554 n
+K1a K1a Nb1b 125.03(6) 1_545 1_555 n
+K1a K1a O1a 90.0 1_545 1_554 n
+K1a K1a O1a 90.0 1_545 1_555 n
+K1a K1a O1a 90.0 1_545 1_654 n
+K1a K1a O1a 90.0 1_545 1_655 n
+K1a K1a O2b 46.42(17) 1_545 1_444 n
+K1a K1a O2b 133.58(17) 1_545 1_454 n
+K1a K1a O2b 44.37(18) 1_545 1_544 n
+K1a K1a O2b 135.63(18) 1_545 1_554 n
+K1a K1a O3b 45.32(30) 1_545 1_544 n
+K1a K1a O3b 45.15(30) 1_545 1_545 n
+K1a K1a O3b 134.68(30) 1_545 1_554 n
+K1a K1a K1a 180.0 1_554 1_556 n
+K1a K1a K1a 90.0 1_554 1_565 n
+K1a K1a K1a 89.8988(27) 1_554 1_655 n
+K1a K1a Nb1b 53.38(10) 1_554 1_444 n
+K1a K1a Nb1b 124.76(11) 1_554 1_445 n
+K1a K1a Nb1b 53.38(10) 1_554 1_454 n
+K1a K1a Nb1b 124.76(11) 1_554 1_455 n
+K1a K1a Nb1b 54.17(10) 1_554 1_544 n
+K1a K1a Nb1b 123.80(11) 1_554 1_545 n
+K1a K1a Nb1b 54.17(10) 1_554 1_554 n
+K1a K1a Nb1b 123.80(11) 1_554 1_555 n
+K1a K1a O1a 46.44(27) 1_554 1_554 n
+K1a K1a O1a 133.0(4) 1_554 1_555 n
+K1a K1a O1a 43.3(4) 1_554 1_654 n
+K1a K1a O1a 136.01(27) 1_554 1_655 n
+K1a K1a O2b 89.9(4) 1_554 1_444 n
+K1a K1a O2b 89.9(4) 1_554 1_454 n
+K1a K1a O2b 89.7(4) 1_554 1_544 n
+K1a K1a O2b 89.7(4) 1_554 1_554 n
+K1a K1a O3b 44.74(30) 1_554 1_544 n
+K1a K1a O3b 135.09(30) 1_554 1_545 n
+K1a K1a O3b 44.74(30) 1_554 1_554 n
+K1a K1a K1a 90.0 1_556 1_565 n
+K1a K1a K1a 90.1012(27) 1_556 1_655 n
+K1a K1a Nb1b 126.62(10) 1_556 1_444 n
+K1a K1a Nb1b 55.24(11) 1_556 1_445 n
+K1a K1a Nb1b 126.62(10) 1_556 1_454 n
+K1a K1a Nb1b 55.24(11) 1_556 1_455 n
+K1a K1a Nb1b 125.83(10) 1_556 1_544 n
+K1a K1a Nb1b 56.20(11) 1_556 1_545 n
+K1a K1a Nb1b 125.83(10) 1_556 1_554 n
+K1a K1a Nb1b 56.20(11) 1_556 1_555 n
+K1a K1a O1a 133.56(27) 1_556 1_554 n
+K1a K1a O1a 47.0(4) 1_556 1_555 n
+K1a K1a O1a 136.7(4) 1_556 1_654 n
+K1a K1a O1a 43.99(27) 1_556 1_655 n
+K1a K1a O2b 90.1(4) 1_556 1_444 n
+K1a K1a O2b 90.1(4) 1_556 1_454 n
+K1a K1a O2b 90.3(4) 1_556 1_544 n
+K1a K1a O2b 90.3(4) 1_556 1_554 n
+K1a K1a O3b 135.26(30) 1_556 1_544 n
+K1a K1a O3b 44.91(30) 1_556 1_545 n
+K1a K1a O3b 135.26(30) 1_556 1_554 n
+K1a K1a K1a 90.0 1_565 1_655 n
+K1a K1a Nb1b 124.94(6) 1_565 1_444 n
+K1a K1a Nb1b 125.88(6) 1_565 1_445 n
+K1a K1a Nb1b 55.06(6) 1_565 1_454 n
+K1a K1a Nb1b 54.12(6) 1_565 1_455 n
+K1a K1a Nb1b 124.06(5) 1_565 1_544 n
+K1a K1a Nb1b 125.03(6) 1_565 1_545 n
+K1a K1a Nb1b 55.94(5) 1_565 1_554 n
+K1a K1a Nb1b 54.97(6) 1_565 1_555 n
+K1a K1a O1a 90.0 1_565 1_554 n
+K1a K1a O1a 90.0 1_565 1_555 n
+K1a K1a O1a 90.0 1_565 1_654 n
+K1a K1a O1a 90.0 1_565 1_655 n
+K1a K1a O2b 133.58(17) 1_565 1_444 n
+K1a K1a O2b 46.42(17) 1_565 1_454 n
+K1a K1a O2b 135.63(18) 1_565 1_544 n
+K1a K1a O2b 44.37(18) 1_565 1_554 n
+K1a K1a O3b 134.68(30) 1_565 1_544 n
+K1a K1a O3b 134.85(30) 1_565 1_545 n
+K1a K1a O3b 45.32(30) 1_565 1_554 n
+K1a K1a Nb1b 124.15(8) 1_655 1_444 n
+K1a K1a Nb1b 125.21(8) 1_655 1_445 n
+K1a K1a Nb1b 124.15(8) 1_655 1_454 n
+K1a K1a Nb1b 125.21(8) 1_655 1_455 n
+K1a K1a Nb1b 54.03(8) 1_655 1_544 n
+K1a K1a Nb1b 53.14(8) 1_655 1_545 n
+K1a K1a Nb1b 54.03(8) 1_655 1_554 n
+K1a K1a Nb1b 53.14(8) 1_655 1_555 n
+K1a K1a O1a 136.34(27) 1_655 1_554 n
+K1a K1a O1a 137.1(4) 1_655 1_555 n
+K1a K1a O1a 46.6(4) 1_655 1_654 n
+K1a K1a O1a 46.11(27) 1_655 1_655 n
+K1a K1a O2b 136.42(17) 1_655 1_444 n
+K1a K1a O2b 136.42(17) 1_655 1_454 n
+K1a K1a O2b 45.63(18) 1_655 1_544 n
+K1a K1a O2b 45.63(18) 1_655 1_554 n
+K1a K1a O3b 91.82(18) 1_655 1_544 n
+K1a K1a O3b 91.97(17) 1_655 1_545 n
+K1a K1a O3b 91.82(18) 1_655 1_554 n
+Nb1b K1a Nb1b 71.38(6) 1_444 1_445 n
+Nb1b K1a Nb1b 69.87(12) 1_444 1_454 n
+Nb1b K1a Nb1b 110.61(12) 1_444 1_455 n
+Nb1b K1a Nb1b 70.11(10) 1_444 1_544 n
+Nb1b K1a Nb1b 109.939(8) 1_444 1_545 n
+Nb1b K1a Nb1b 107.54(20) 1_444 1_554 n
+Nb1b K1a Nb1b 176.81(20) 1_444 1_555 n
+Nb1b K1a O1a 35.06(6) 1_444 1_554 n
+Nb1b K1a O1a 89.78(27) 1_444 1_555 n
+Nb1b K1a O1a 87.2(4) 1_444 1_654 n
+Nb1b K1a O1a 145.06(6) 1_444 1_655 n
+Nb1b K1a O2b 36.5(4) 1_444 1_444 n
+Nb1b K1a O2b 89.20(32) 1_444 1_454 n
+Nb1b K1a O2b 88.91(31) 1_444 1_544 n
+Nb1b K1a O2b 143.1(5) 1_444 1_554 n
+Nb1b K1a O3b 32.34(15) 1_444 1_544 n
+Nb1b K1a O3b 90.00(20) 1_444 1_545 n
+Nb1b K1a O3b 87.73(28) 1_444 1_554 n
+Nb1b K1a Nb1b 110.61(12) 1_445 1_454 n
+Nb1b K1a Nb1b 71.77(12) 1_445 1_455 n
+Nb1b K1a Nb1b 110.056(6) 1_445 1_544 n
+Nb1b K1a Nb1b 72.07(10) 1_445 1_545 n
+Nb1b K1a Nb1b 178.17(12) 1_445 1_554 n
+Nb1b K1a Nb1b 111.41(21) 1_445 1_555 n
+Nb1b K1a O1a 88.61(21) 1_445 1_554 n
+Nb1b K1a O1a 35.92(7) 1_445 1_555 n
+Nb1b K1a O1a 144.07(7) 1_445 1_654 n
+Nb1b K1a O1a 89.40(28) 1_445 1_655 n
+Nb1b K1a O2b 34.9(4) 1_445 1_444 n
+Nb1b K1a O2b 89.34(27) 1_445 1_454 n
+Nb1b K1a O2b 89.21(25) 1_445 1_544 n
+Nb1b K1a O2b 145.5(5) 1_445 1_554 n
+Nb1b K1a O3b 88.51(27) 1_445 1_544 n
+Nb1b K1a O3b 33.26(15) 1_445 1_545 n
+Nb1b K1a O3b 142.96(22) 1_445 1_554 n
+Nb1b K1a Nb1b 71.38(6) 1_454 1_455 n
+Nb1b K1a Nb1b 107.54(20) 1_454 1_544 n
+Nb1b K1a Nb1b 176.81(20) 1_454 1_545 n
+Nb1b K1a Nb1b 70.11(10) 1_454 1_554 n
+Nb1b K1a Nb1b 109.939(8) 1_454 1_555 n
+Nb1b K1a O1a 35.06(6) 1_454 1_554 n
+Nb1b K1a O1a 89.78(27) 1_454 1_555 n
+Nb1b K1a O1a 87.2(4) 1_454 1_654 n
+Nb1b K1a O1a 145.06(6) 1_454 1_655 n
+Nb1b K1a O2b 89.20(32) 1_454 1_444 n
+Nb1b K1a O2b 36.5(4) 1_454 1_454 n
+Nb1b K1a O2b 143.1(5) 1_454 1_544 n
+Nb1b K1a O2b 88.91(31) 1_454 1_554 n
+Nb1b K1a O3b 87.73(28) 1_454 1_544 n
+Nb1b K1a O3b 143.87(22) 1_454 1_545 n
+Nb1b K1a O3b 32.34(15) 1_454 1_554 n
+Nb1b K1a Nb1b 178.17(12) 1_455 1_544 n
+Nb1b K1a Nb1b 111.41(21) 1_455 1_545 n
+Nb1b K1a Nb1b 110.056(6) 1_455 1_554 n
+Nb1b K1a Nb1b 72.07(10) 1_455 1_555 n
+Nb1b K1a O1a 88.61(21) 1_455 1_554 n
+Nb1b K1a O1a 35.92(7) 1_455 1_555 n
+Nb1b K1a O1a 144.07(7) 1_455 1_654 n
+Nb1b K1a O1a 89.40(28) 1_455 1_655 n
+Nb1b K1a O2b 89.34(27) 1_455 1_444 n
+Nb1b K1a O2b 34.9(4) 1_455 1_454 n
+Nb1b K1a O2b 145.5(5) 1_455 1_544 n
+Nb1b K1a O2b 89.21(25) 1_455 1_554 n
+Nb1b K1a O3b 142.96(22) 1_455 1_544 n
+Nb1b K1a O3b 89.46(34) 1_455 1_545 n
+Nb1b K1a O3b 88.51(27) 1_455 1_554 n
+Nb1b K1a Nb1b 69.63(6) 1_544 1_545 n
+Nb1b K1a Nb1b 68.12(11) 1_544 1_554 n
+Nb1b K1a Nb1b 107.14(11) 1_544 1_555 n
+Nb1b K1a O1a 91.24(27) 1_544 1_554 n
+Nb1b K1a O1a 145.89(4) 1_544 1_555 n
+Nb1b K1a O1a 34.10(5) 1_544 1_654 n
+Nb1b K1a O1a 90.80(22) 1_544 1_655 n
+Nb1b K1a O2b 92.14(25) 1_544 1_444 n
+Nb1b K1a O2b 144.0(5) 1_544 1_454 n
+Nb1b K1a O2b 35.6(4) 1_544 1_544 n
+Nb1b K1a O2b 89.29(28) 1_544 1_554 n
+Nb1b K1a O3b 37.79(17) 1_544 1_544 n
+Nb1b K1a O3b 92.23(26) 1_544 1_545 n
+Nb1b K1a O3b 89.85(35) 1_544 1_554 n
+Nb1b K1a Nb1b 107.14(11) 1_545 1_554 n
+Nb1b K1a Nb1b 70.06(12) 1_545 1_555 n
+Nb1b K1a O1a 144.96(6) 1_545 1_554 n
+Nb1b K1a O1a 93.4(4) 1_545 1_555 n
+Nb1b K1a O1a 89.60(28) 1_545 1_654 n
+Nb1b K1a O1a 35.16(6) 1_545 1_655 n
+Nb1b K1a O2b 92.34(29) 1_545 1_444 n
+Nb1b K1a O2b 146.3(5) 1_545 1_454 n
+Nb1b K1a O2b 34.1(4) 1_545 1_544 n
+Nb1b K1a O2b 89.59(33) 1_545 1_554 n
+Nb1b K1a O3b 90.65(19) 1_545 1_544 n
+Nb1b K1a O3b 38.84(15) 1_545 1_545 n
+Nb1b K1a O3b 144.94(23) 1_545 1_554 n
+Nb1b K1a Nb1b 69.63(6) 1_554 1_555 n
+Nb1b K1a O1a 91.24(27) 1_554 1_554 n
+Nb1b K1a O1a 145.89(4) 1_554 1_555 n
+Nb1b K1a O1a 34.10(5) 1_554 1_654 n
+Nb1b K1a O1a 90.80(22) 1_554 1_655 n
+Nb1b K1a O2b 144.0(5) 1_554 1_444 n
+Nb1b K1a O2b 92.14(25) 1_554 1_454 n
+Nb1b K1a O2b 89.29(28) 1_554 1_544 n
+Nb1b K1a O2b 35.6(4) 1_554 1_554 n
+Nb1b K1a O3b 89.85(35) 1_554 1_544 n
+Nb1b K1a O3b 145.98(22) 1_554 1_545 n
+Nb1b K1a O3b 37.79(17) 1_554 1_554 n
+Nb1b K1a O1a 144.96(6) 1_555 1_554 n
+Nb1b K1a O1a 93.4(4) 1_555 1_555 n
+Nb1b K1a O1a 89.60(28) 1_555 1_654 n
+Nb1b K1a O1a 35.16(6) 1_555 1_655 n
+Nb1b K1a O2b 146.3(5) 1_555 1_444 n
+Nb1b K1a O2b 92.34(29) 1_555 1_454 n
+Nb1b K1a O2b 89.59(33) 1_555 1_544 n
+Nb1b K1a O2b 34.1(4) 1_555 1_554 n
+Nb1b K1a O3b 144.94(23) 1_555 1_544 n
+Nb1b K1a O3b 91.76(29) 1_555 1_545 n
+Nb1b K1a O3b 90.65(19) 1_555 1_554 n
+O1a K1a O1a 86.61(29) 1_554 1_555 n
+O1a K1a O1a 89.7(6) 1_554 1_654 n
+O1a K1a O1a 177.5(5) 1_554 1_655 n
+O1a K1a O2b 58.2(4) 1_554 1_444 n
+O1a K1a O2b 58.2(4) 1_554 1_454 n
+O1a K1a O2b 120.2(4) 1_554 1_544 n
+O1a K1a O2b 120.2(4) 1_554 1_554 n
+O1a K1a O3b 59.12(24) 1_554 1_544 n
+O1a K1a O3b 117.65(23) 1_554 1_545 n
+O1a K1a O3b 59.12(24) 1_554 1_554 n
+O1a K1a O1a 176.3(8) 1_555 1_654 n
+O1a K1a O1a 90.9(6) 1_555 1_655 n
+O1a K1a O2b 58.1(4) 1_555 1_444 n
+O1a K1a O2b 58.1(4) 1_555 1_454 n
+O1a K1a O2b 121.0(4) 1_555 1_544 n
+O1a K1a O2b 121.0(4) 1_555 1_554 n
+O1a K1a O3b 117.44(29) 1_555 1_544 n
+O1a K1a O3b 59.5(4) 1_555 1_545 n
+O1a K1a O3b 117.44(29) 1_555 1_554 n
+O1a K1a O1a 92.73(32) 1_654 1_655 n
+O1a K1a O2b 119.7(4) 1_654 1_444 n
+O1a K1a O2b 119.7(4) 1_654 1_454 n
+O1a K1a O2b 61.1(4) 1_654 1_544 n
+O1a K1a O2b 61.1(4) 1_654 1_554 n
+O1a K1a O3b 60.4(4) 1_654 1_544 n
+O1a K1a O3b 122.56(28) 1_654 1_545 n
+O1a K1a O3b 60.4(4) 1_654 1_554 n
+O1a K1a O2b 120.3(4) 1_655 1_444 n
+O1a K1a O2b 120.3(4) 1_655 1_454 n
+O1a K1a O2b 61.2(4) 1_655 1_544 n
+O1a K1a O2b 61.2(4) 1_655 1_554 n
+O1a K1a O3b 122.27(22) 1_655 1_544 n
+O1a K1a O3b 60.89(26) 1_655 1_545 n
+O1a K1a O3b 122.27(22) 1_655 1_554 n
+O2b K1a O2b 87.17(34) 1_444 1_454 n
+O2b K1a O2b 90.783(14) 1_444 1_544 n
+O2b K1a O2b 177.9(4) 1_444 1_554 n
+O2b K1a O3b 59.3(4) 1_444 1_544 n
+O2b K1a O3b 59.4(4) 1_444 1_545 n
+O2b K1a O3b 117.3(5) 1_444 1_554 n
+O2b K1a O2b 177.9(4) 1_454 1_544 n
+O2b K1a O2b 90.783(14) 1_454 1_554 n
+O2b K1a O3b 117.3(5) 1_454 1_544 n
+O2b K1a O3b 117.6(4) 1_454 1_545 n
+O2b K1a O3b 59.3(4) 1_454 1_554 n
+O2b K1a O2b 91.3(4) 1_544 1_554 n
+O2b K1a O3b 61.1(4) 1_544 1_544 n
+O2b K1a O3b 61.5(4) 1_544 1_545 n
+O2b K1a O3b 121.5(4) 1_544 1_554 n
+O2b K1a O3b 121.5(4) 1_554 1_544 n
+O2b K1a O3b 122.1(5) 1_554 1_545 n
+O2b K1a O3b 61.1(4) 1_554 1_554 n
+O3b K1a O3b 90.346(11) 1_544 1_545 n
+O3b K1a O3b 89.4(6) 1_544 1_554 n
+O3b K1a O3b 176.21(34) 1_545 1_554 n
+K1a Nb1b K1a 69.63(6) 1_555 1_556 n
+K1a Nb1b K1a 70.06(12) 1_555 1_565 n
+K1a Nb1b K1a 107.14(11) 1_555 1_566 n
+K1a Nb1b K1a 72.07(10) 1_555 1_655 n
+K1a Nb1b K1a 109.939(8) 1_555 1_656 n
+K1a Nb1b K1a 111.41(21) 1_555 1_665 n
+K1a Nb1b K1a 176.81(20) 1_555 1_666 n
+K1a Nb1b O1a 52.5(5) 1_555 1_655 n
+K1a Nb1b O1a 122.3(5) 1_555 1_665 n
+K1a Nb1b O2b 53.34(26) 1_555 1_554 n
+K1a Nb1b O2b 121.03(22) 1_555 1_555 n
+K1a Nb1b O3b 54.3(4) 1_555 1_555 n
+K1a Nb1b O3b 128.3(4) 1_555 1_655 n
+K1a Nb1b K1a 107.14(11) 1_556 1_565 n
+K1a Nb1b K1a 68.12(11) 1_556 1_566 n
+K1a Nb1b K1a 110.056(6) 1_556 1_655 n
+K1a Nb1b K1a 70.11(10) 1_556 1_656 n
+K1a Nb1b K1a 178.17(12) 1_556 1_665 n
+K1a Nb1b K1a 107.54(20) 1_556 1_666 n
+K1a Nb1b O1a 51.45(34) 1_556 1_655 n
+K1a Nb1b O1a 119.49(30) 1_556 1_665 n
+K1a Nb1b O2b 122.87(26) 1_556 1_554 n
+K1a Nb1b O2b 51.48(22) 1_556 1_555 n
+K1a Nb1b O3b 52.80(34) 1_556 1_555 n
+K1a Nb1b O3b 124.5(4) 1_556 1_655 n
+K1a Nb1b K1a 69.63(6) 1_565 1_566 n
+K1a Nb1b K1a 111.41(21) 1_565 1_655 n
+K1a Nb1b K1a 176.81(20) 1_565 1_656 n
+K1a Nb1b K1a 72.07(10) 1_565 1_665 n
+K1a Nb1b K1a 109.939(8) 1_565 1_666 n
+K1a Nb1b O1a 122.3(5) 1_565 1_655 n
+K1a Nb1b O1a 52.5(5) 1_565 1_665 n
+K1a Nb1b O2b 53.34(26) 1_565 1_554 n
+K1a Nb1b O2b 121.03(22) 1_565 1_555 n
+K1a Nb1b O3b 54.3(4) 1_565 1_555 n
+K1a Nb1b O3b 128.3(4) 1_565 1_655 n
+K1a Nb1b K1a 178.17(12) 1_566 1_655 n
+K1a Nb1b K1a 107.54(20) 1_566 1_656 n
+K1a Nb1b K1a 110.056(6) 1_566 1_665 n
+K1a Nb1b K1a 70.11(10) 1_566 1_666 n
+K1a Nb1b O1a 119.49(30) 1_566 1_655 n
+K1a Nb1b O1a 51.45(34) 1_566 1_665 n
+K1a Nb1b O2b 122.87(26) 1_566 1_554 n
+K1a Nb1b O2b 51.48(22) 1_566 1_555 n
+K1a Nb1b O3b 52.80(34) 1_566 1_555 n
+K1a Nb1b O3b 124.5(4) 1_566 1_655 n
+K1a Nb1b K1a 71.38(6) 1_655 1_656 n
+K1a Nb1b K1a 71.77(12) 1_655 1_665 n
+K1a Nb1b K1a 110.61(12) 1_655 1_666 n
+K1a Nb1b O1a 58.69(32) 1_655 1_655 n
+K1a Nb1b O1a 130.38(31) 1_655 1_665 n
+K1a Nb1b O2b 58.10(22) 1_655 1_554 n
+K1a Nb1b O2b 127.37(25) 1_655 1_555 n
+K1a Nb1b O3b 126.40(34) 1_655 1_555 n
+K1a Nb1b O3b 56.2(4) 1_655 1_655 n
+K1a Nb1b K1a 110.61(12) 1_656 1_665 n
+K1a Nb1b K1a 69.87(12) 1_656 1_666 n
+K1a Nb1b O1a 57.5(5) 1_656 1_655 n
+K1a Nb1b O1a 127.1(5) 1_656 1_665 n
+K1a Nb1b O2b 129.38(19) 1_656 1_554 n
+K1a Nb1b O2b 56.08(27) 1_656 1_555 n
+K1a Nb1b O3b 122.89(33) 1_656 1_555 n
+K1a Nb1b O3b 54.4(4) 1_656 1_655 n
+K1a Nb1b K1a 71.38(6) 1_665 1_666 n
+K1a Nb1b O1a 130.38(31) 1_665 1_655 n
+K1a Nb1b O1a 58.69(32) 1_665 1_665 n
+K1a Nb1b O2b 58.10(22) 1_665 1_554 n
+K1a Nb1b O2b 127.37(25) 1_665 1_555 n
+K1a Nb1b O3b 126.40(34) 1_665 1_555 n
+K1a Nb1b O3b 56.2(4) 1_665 1_655 n
+K1a Nb1b O1a 127.1(5) 1_666 1_655 n
+K1a Nb1b O1a 57.5(5) 1_666 1_665 n
+K1a Nb1b O2b 129.38(19) 1_666 1_554 n
+K1a Nb1b O2b 56.08(27) 1_666 1_555 n
+K1a Nb1b O3b 122.89(33) 1_666 1_555 n
+K1a Nb1b O3b 54.4(4) 1_666 1_655 n
+O1a Nb1b O1a 169.7(5) 1_655 1_665 n
+O1a Nb1b O2b 91.1(5) 1_655 1_554 n
+O1a Nb1b O2b 88.2(5) 1_655 1_555 n
+O1a Nb1b O3b 85.01(31) 1_655 1_555 n
+O1a Nb1b O3b 94.90(33) 1_655 1_655 n
+O1a Nb1b O2b 91.1(5) 1_665 1_554 n
+O1a Nb1b O2b 88.2(5) 1_665 1_555 n
+O1a Nb1b O3b 85.01(31) 1_665 1_555 n
+O1a Nb1b O3b 94.90(33) 1_665 1_655 n
+O2b Nb1b O2b 172.2(6) 1_554 1_555 n
+O2b Nb1b O3b 87.8(5) 1_554 1_555 n
+O2b Nb1b O3b 95.9(6) 1_554 1_655 n
+O2b Nb1b O3b 84.4(6) 1_555 1_555 n
+O2b Nb1b O3b 91.9(6) 1_555 1_655 n
+O3b Nb1b O3b 176.3(10) 1_555 1_655 n
+K1a O1a K1a 92.73(32) 1_455 1_456 n
+K1a O1a K1a 90.9(6) 1_455 1_555 n
+K1a O1a K1a 177.5(5) 1_455 1_556 n
+K1a O1a Nb1b 92.4(5) 1_455 1_445 n
+K1a O1a Nb1b 92.4(5) 1_455 1_455 n
+K1a O1a K1a 176.3(8) 1_456 1_555 n
+K1a O1a K1a 89.7(6) 1_456 1_556 n
+K1a O1a Nb1b 94.45(33) 1_456 1_445 n
+K1a O1a Nb1b 94.45(33) 1_456 1_455 n
+K1a O1a K1a 86.61(29) 1_555 1_556 n
+K1a O1a Nb1b 85.39(30) 1_555 1_445 n
+K1a O1a Nb1b 85.39(30) 1_555 1_455 n
+K1a O1a Nb1b 87.4(5) 1_556 1_445 n
+K1a O1a Nb1b 87.4(5) 1_556 1_455 n
+Nb1b O1a Nb1b 169.7(5) 1_445 1_455 n
+K1a O2b K1a 91.3(4) 1_556 1_566 n
+K1a O2b K1a 90.783(14) 1_556 1_656 n
+K1a O2b K1a 177.9(4) 1_556 1_666 n
+K1a O2b Nb1b 92.9(5) 1_556 1_555 n
+K1a O2b Nb1b 92.5(5) 1_556 1_556 n
+K1a O2b K1a 177.9(4) 1_566 1_656 n
+K1a O2b K1a 90.783(14) 1_566 1_666 n
+K1a O2b Nb1b 92.9(5) 1_566 1_555 n
+K1a O2b Nb1b 92.5(5) 1_566 1_556 n
+K1a O2b K1a 87.17(34) 1_656 1_666 n
+K1a O2b Nb1b 87.4(4) 1_656 1_555 n
+K1a O2b Nb1b 87.0(5) 1_656 1_556 n
+K1a O2b Nb1b 87.4(4) 1_666 1_555 n
+K1a O2b Nb1b 87.0(5) 1_666 1_556 n
+Nb1b O2b Nb1b 172.2(6) 1_555 1_556 n
+K1a O3b K1a 90.346(11) 1_555 1_556 n
+K1a O3b K1a 89.7(6) 1_555 1_565 n
+K1a O3b K1a 176.21(34) 1_555 1_566 n
+K1a O3b Nb1b 90.5(4) 1_555 1_455 n
+K1a O3b Nb1b 86.8(4) 1_555 1_555 n
+K1a O3b K1a 176.21(34) 1_556 1_565 n
+K1a O3b K1a 89.4(6) 1_556 1_566 n
+K1a O3b Nb1b 93.3(5) 1_556 1_455 n
+K1a O3b Nb1b 89.41(30) 1_556 1_555 n
+K1a O3b K1a 90.346(11) 1_565 1_566 n
+K1a O3b Nb1b 90.5(4) 1_565 1_455 n
+K1a O3b Nb1b 86.8(4) 1_565 1_555 n
+K1a O3b Nb1b 93.3(5) 1_566 1_455 n
+K1a O3b Nb1b 89.41(30) 1_566 1_555 n
+Nb1b O3b Nb1b 176.3(10) 1_455 1_555 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+K1a K1a 4.04976(6) 1_455 n
+K1a K1a 3.99218(6) 1_545 n
+K1a K1a 4.02076(7) 1_554 n
+K1a K1a 4.02076(7) 1_556 n
+K1a K1a 3.99218(6) 1_565 n
+K1a K1a 4.04976(6) 1_655 n
+K1a Nb1b 3.486(5) 1_444 n
+K1a Nb1b 3.405(5) 1_445 n
+K1a Nb1b 3.486(5) 1_454 n
+K1a Nb1b 3.405(5) 1_455 n
+K1a Nb1b 3.564(5) 1_544 n
+K1a Nb1b 3.478(5) 1_545 n
+K1a Nb1b 3.564(5) 1_554 n
+K1a Nb1b 3.478(5) 1_555 n
+K1a O1a 2.943(19) 1_554 n
+K1a O1a 2.919(13) 1_555 n
+K1a O1a 2.796(14) 1_654 n
+K1a O1a 2.760(20) 1_655 n
+K1a O2b 2.895(9) 1_444 n
+K1a O2b 2.895(9) 1_454 n
+K1a O2b 2.792(9) 1_544 n
+K1a O2b 2.792(9) 1_554 n
+K1a O3b 2.839(15) 1_544 n
+K1a O3b 2.830(15) 1_545 n
+K1a O3b 2.839(15) 1_554 n
+K1a O3b 2.830(15) 1_555 n
+Nb1b K1a 3.478(5) 1_555 n
+Nb1b K1a 3.564(5) 1_556 n
+Nb1b K1a 3.478(5) 1_565 n
+Nb1b K1a 3.564(5) 1_566 n
+Nb1b K1a 3.405(5) 1_655 n
+Nb1b K1a 3.486(5) 1_656 n
+Nb1b K1a 3.405(5) 1_665 n
+Nb1b K1a 3.486(5) 1_666 n
+Nb1b O1a 2.0042(8) 1_655 n
+Nb1b O1a 2.0042(8) 1_665 n
+Nb1b O2b 1.953(19) 1_554 n
+Nb1b O2b 2.077(19) 1_555 n
+Nb1b O3b 2.184(7) 1_555 n
+Nb1b O3b 1.868(7) 1_655 n
+O1a K1a 2.760(20) 1_455 n
+O1a K1a 2.796(14) 1_456 n
+O1a K1a 2.919(13) 1_555 n
+O1a K1a 2.943(19) 1_556 n
+O1a Nb1b 2.0042(8) 1_445 n
+O1a Nb1b 2.0042(8) 1_455 n
+O2b K1a 2.792(9) 1_556 n
+O2b K1a 2.792(9) 1_566 n
+O2b K1a 2.895(9) 1_656 n
+O2b K1a 2.895(9) 1_666 n
+O2b Nb1b 2.077(19) 1_555 n
+O2b Nb1b 1.953(19) 1_556 n
+O3b K1a 2.830(15) 1_555 n
+O3b K1a 2.839(15) 1_556 n
+O3b K1a 2.830(15) 1_565 n
+O3b K1a 2.839(15) 1_566 n
+O3b Nb1b 1.868(7) 1_455 n
+O3b Nb1b 2.184(7) 1_555 n

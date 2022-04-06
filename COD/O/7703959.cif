@@ -1,0 +1,275 @@
+#------------------------------------------------------------------------------
+#$Date: 2020-04-04 19:29:17 +0300 (Sat, 04 Apr 2020) $
+#$Revision: 250133 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/7/70/39/7703959.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7703959
+loop_
+_publ_author_name
+'Li, Gui-Hua'
+'Yang, Nian'
+'Guo, Jian-Gang'
+'Wang, Zheng-Liang'
+'Cai, Ge-Mei'
+'Wang, Xiao-Jun'
+_publ_section_title
+;
+ Efficient and stable
+ Sr<sub>3</sub>Eu<sub>2</sub>B<sub>4</sub>O<sub>12</sub> red phosphor
+ benefiting from low symmetry and distorted local environment.
+;
+_journal_issue                   10
+_journal_name_full
+'Dalton transactions (Cambridge, England : 2003)'
+_journal_page_first              3260
+_journal_page_last               3271
+_journal_paper_doi               10.1039/c9dt04769g
+_journal_volume                  49
+_journal_year                    2020
+_chemical_formula_iupac          'Sr3 Eu2 B4 O12'
+_chemical_formula_moiety         'B4 Eu2 O12 Sr0.365, 2.636(Sr)'
+_chemical_formula_structural     'Eu2 Sr3 (B O3)4'
+_chemical_formula_sum            'B4 Eu2.001 O12 Sr3.001'
+_chemical_formula_weight         802.28
+_chemical_melting_point          1573
+_chemical_name_common            'Strontium Europium Oxide Borate'
+_chemical_name_systematic        Sr3Eu2B4O12
+_space_group_IT_number           62
+_space_group_name_Hall           '-P 2ac 2n'
+_space_group_name_H-M_alt        'P n m a'
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2ac 2n'
+_symmetry_space_group_name_H-M   'P n m a'
+_audit_update_record
+;
+2019-11-26 deposited with the CCDC.	2020-02-12 downloaded from the CCDC.
+;
+_cell_angle_alpha                90.0000
+_cell_angle_beta                 90.0000
+_cell_angle_gamma                90.0000
+_cell_formula_units_Z            4
+_cell_length_a                   7.29913(16)
+_cell_length_b                   15.8333(3)
+_cell_length_c                   8.64504(18)
+_cell_measurement_temperature    297
+_cell_volume                     999.10(4)
+_computing_structure_refinement  FULLPROF
+_diffrn_ambient_temperature      297
+_diffrn_detector                 'scintillation counter'
+_diffrn_measurement_device_type  'PANalytical X'Pert Pro'
+_diffrn_radiation_monochromator  'equatorial mounted graphite'
+_diffrn_radiation_type           CuK\a
+_diffrn_radiation_wavelength     1.5418
+_diffrn_source                   'rotating-anode X-ray tube'
+_diffrn_source_target            Cu
+_exptl_crystal_colour            white
+_exptl_crystal_density_diffrn    5.3332
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       plate
+_exptl_crystal_F_000             1424.4
+_pd_char_colour                  white
+_pd_char_particle_morphology     plate-like
+_pd_meas_2theta_range_inc        0.017000
+_pd_meas_2theta_range_max        129.99100
+_pd_meas_2theta_range_min        10.00400
+_pd_meas_number_of_points        7059
+_pd_meas_scan_method             step
+_pd_prep_temperature             1473
+_pd_proc_2theta_range_inc        0.017000
+_pd_proc_2theta_range_max        130.1038
+_pd_proc_2theta_range_min        10.1168
+_pd_proc_info_excluded_regions   none
+_pd_proc_ls_background_function  'square polynomial for each range'
+_pd_proc_ls_pref_orient_corr
+; I~corr~ = I~obs~[G~2~+(1-G~2~)exp(G~1~a^2^)], 
+   axis (211),
+;
+_pd_proc_ls_profile_function     pseudo-Voigt
+_pd_proc_ls_prof_R_factor        2.3180
+_pd_proc_ls_prof_wR_expected     1.3615
+_pd_proc_ls_prof_wR_factor       3.2207
+_pd_proc_wavelength              1.540560
+_pd_spec_mounting                'quartz capillary'
+_pd_spec_mount_mode              reflection
+_pd_spec_shape                   flat_sheet
+_pd_spec_size_axial              15
+_pd_spec_size_equat              35
+_pd_spec_size_thick              1
+_refine_ls_goodness_of_fit_all   2.05
+_refine_ls_hydrogen_treatment    constr
+_refine_ls_matrix_type           fullcycle
+_refine_ls_number_constraints    7
+_refine_ls_number_parameters     134
+_refine_ls_number_reflns         1806
+_refine_ls_number_restraints     7
+_refine_ls_R_I_factor            6.7604
+_refine_ls_shift/su_max          0
+_cod_data_source_file            c9dt04769g3.cif
+_cod_data_source_block           Sr3Eu2B4O12
+_cod_original_formula_sum        'O12 Sr3.001 Eu2.001 B4'
+_cod_database_code               7703959
+_publcif_datablock.id            {51941eb8-95c8-40dd-bf0b-e3970b13048d}
+_pd_proc_ls_prof_cr_factor       22.7970
+_pd_proc_ls_prof_cwr_factor      18.2487
+_pd_proc_ls_prof_cwr_expected    7.7145
+_pd_proc_ls_prof_chi2            5.5956
+_pd_proc_ls_prof_echi2           5.7448
+_publcif_funding_html
+;
+;
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x+1/2,-y+1/2,-z+1/2
+-x,y+1/2,-z
+-x+1/2,-y,z+1/2
+-x,-y,-z
+-x+1/2,y+1/2,z+1/2
+x,-y+1/2,z
+x+1/2,y,-z+1/2
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+_atom_site_adp_type
+_atom_site_type_symbol
+O1 0.448(2) 0.3233(7) 0.0740(18) 0.00633 1.00000 Uiso O
+Sr1 0.1798(6) 0.25000 0.9670(4) 0.006(2) 0.365(14) Uiso Sr
+Eu2 -0.1947(4) 0.37329(18) 0.1571(3) 0.0093(19) 0.343(10) Uiso Eu
+Sr2 -0.1947(4) 0.37329(18) 0.1571(3) 0.0093(19) 0.658(10) Uiso Sr
+Eu3 -0.0209(4) 0.41868(18) 0.6788(4) 0.0054(17) 0.340(10) Uiso Eu
+Sr3 -0.0209(4) 0.41868(18) 0.6788(4) 0.0054(17) 0.660(10) Uiso Sr
+Eu1 0.1798(6) 0.25000 0.9670(4) 0.006(2) 0.635(14) Uiso Eu
+O2 0.125(2) 0.25000 0.2475(17) 0.00633 1.000(14) Uiso O
+O3 -0.311(2) 0.3144(7) 0.7879(18) 0.00633 1.000(14) Uiso O
+O4 0.381(3) 0.25000 0.5196(19) 0.00633 1.000(14) Uiso O
+O5 0.108(2) 0.4046(9) 0.9322(17) 0.00633 1.000(14) Uiso O
+O6 -0.403(2) 0.4469(11) 0.3210(12) 0.00633 1.000(14) Uiso O
+O7 0.2030(17) 0.4866(8) 0.5099(20) 0.00633 1.000(14) Uiso O
+B1 0.50700 0.25000 0.13400 0.00633 1.000(14) Uiso B
+B2 0.26800 0.25000 0.63900 0.00633 1.000(14) Uiso B
+B3 0.16600 0.45760 0.04070 0.00633 1.000(14) Uiso B
+loop_
+_atom_type_symbol
+_atom_type_scat_Cromer_Mann_a1
+_atom_type_scat_Cromer_Mann_b1
+_atom_type_scat_Cromer_Mann_a2
+_atom_type_scat_Cromer_Mann_b2
+_atom_type_scat_Cromer_Mann_a3
+_atom_type_scat_Cromer_Mann_b3
+_atom_type_scat_Cromer_Mann_a4
+_atom_type_scat_Cromer_Mann_b4
+_atom_type_scat_Cromer_Mann_c
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+O 3.04850 13.27710 2.28680 5.70110 1.54630 0.32390 0.86700 32.90890 0.25080
+0.04700 0.03200
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+Sr 17.56630 1.55640 9.81840 14.09880 5.42200 0.16640 2.66940 132.37601 2.50640
+-0.46500 1.82000
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+Eu 24.62740 2.38790 19.08860 0.19420 13.76030 13.75460 2.92270 123.17400
+2.57450 -7.71800 11.27600
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+B 2.05450 23.21850 1.33260 1.02100 1.09790 60.34980 0.70680 0.14030 -0.19320
+0.00800 0.00400
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O2 B1 O1 2_555 1_555 1_555 120.151(618) yes
+O2 B1 O1 2_555 1_555 7_555 120.151(618) yes
+O1 B1 O1 1_555 1_555 7_555 119.696(675) yes
+O4 B2 O3 1_555 1_555 2_556 129.893(623) yes
+O4 B2 O3 1_555 1_555 8_556 129.893(623) yes
+O3 B2 O3 2_556 1_555 8_556 100.007(719) yes
+O6 B3 O5 8_555 1_555 1_554 116.164(801) yes
+O6 B3 O7 8_555 1_555 4_564 123.106(862) yes
+O5 B3 O7 1_554 1_555 4_564 120.534(844) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Eu1 O4 1_555 2_456 2.1841(233) yes
+Eu1 O3 1_555 8_556 2.4290(152) yes
+Eu1 O3 1_555 2_556 2.4290(152) yes
+Eu1 O1 1_555 7_556 2.4566(145) yes
+Eu1 O1 1_555 1_556 2.4566(145) yes
+Eu1 O2 1_555 1_556 2.4577(151) yes
+Eu1 O5 1_555 1_555 2.5213(143) yes
+Eu1 O5 1_555 7_555 2.5213(143) yes
+Sr1 O4 1_555 2_456 2.1841(233) yes
+Sr1 O3 1_555 8_556 2.4290(152) yes
+Sr1 O3 1_555 2_556 2.4290(152) yes
+Sr1 O1 1_555 7_556 2.4566(145) yes
+Sr1 O1 1_555 1_556 2.4566(145) yes
+Sr1 O2 1_555 1_556 2.4577(151) yes
+Sr1 O5 1_555 1_555 2.5213(143) yes
+Sr1 O5 1_555 7_555 2.5213(143) yes
+Eu2 O6 1_555 1_555 2.3828(143) yes
+Eu2 O7 1_555 8_455 2.4209(147) yes
+Eu2 O6 1_555 8_555 2.4347(155) yes
+Eu2 O2 1_555 2_455 2.4946(95) yes
+Eu2 O4 1_555 2_455 2.5396(113) yes
+Eu2 O1 1_555 8_455 2.6675(153) yes
+Eu2 O1 1_555 1_455 2.8185(147) yes
+Eu2 O5 1_555 1_554 2.9846(149) yes
+Sr2 O6 1_555 1_555 2.3828(143) yes
+Sr2 O7 1_555 8_455 2.4209(147) yes
+Sr2 O6 1_555 8_555 2.4347(155) yes
+Sr2 O2 1_555 2_455 2.4946(95) yes
+Sr2 O4 1_555 2_455 2.5396(113) yes
+Sr2 O1 1_555 8_455 2.6675(153) yes
+Sr2 O1 1_555 1_455 2.8185(147) yes
+Sr2 O5 1_555 1_554 2.9846(149) yes
+Eu3 O3 1_555 8_556 2.2707(132) yes
+Eu3 O5 1_555 1_555 2.3946(151) yes
+Eu3 O7 1_555 1_555 2.4412(147) yes
+Eu3 O6 1_555 4_465 2.5198(162) yes
+Eu3 O7 1_555 5_566 2.5840(15) yes
+Eu3 O1 1_555 8_455 2.6662(146) yes
+Eu3 O3 1_555 1_555 2.8459(140) yes
+Eu3 O5 1_555 8_456 2.8823(149) yes
+Sr3 O3 1_555 8_556 2.2707(132) yes
+Sr3 O5 1_555 1_555 2.3946(151) yes
+Sr3 O7 1_555 1_555 2.4412(147) yes
+Sr3 O6 1_555 4_465 2.5198(162) yes
+Sr3 O7 1_555 5_566 2.5840(15) yes
+Sr3 O1 1_555 8_455 2.6662(146) yes
+Sr3 O3 1_555 1_555 2.8459(140) yes
+Sr3 O5 1_555 8_456 2.8823(149) yes
+B1 O2 1_555 2_555 1.3384(124) yes
+B1 O1 1_555 7_555 1.3422(122) yes
+B1 O1 1_555 1_555 1.3422(122) yes
+B2 O4 1_555 1_555 1.3213(187) yes
+B2 O3 1_555 8_556 1.3310(129) yes
+B2 O3 1_555 2_556 1.3310(139) yes
+B3 O6 1_555 8_555 1.3084(112) yes
+B3 O5 1_555 1_554 1.3279(145) yes
+B3 O7 1_555 4_564 1.3288(128) yes
+loop_
+_publcif_info_exptl_table_extra_item
+?
+loop_
+_publcif_info_exptl_table_header_item
+?

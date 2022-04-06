@@ -1,0 +1,802 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 02:53:41 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176768 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/05/2100514.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2100514
+loop_
+_publ_author_name
+'Barnes, Paris W.'
+'Lufaso, Michael W.'
+'Woodward, Patrick M.'
+_publ_section_title
+;
+ Structure determination of <i>A</i>~2~<i>M</i>^3+^TaO~6~ and
+ <i>A</i>~2~<i>M</i>^3+^NbO~6~ ordered perovskites: octahedral tilting
+ and pseudosymmetry
+;
+_journal_coeditor_code           WS5031
+_journal_date_accepted           2006-01-19
+_journal_date_recd_electronic    2005-06-10
+_journal_issue                   3
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              384
+_journal_page_last               396
+_journal_paper_category          FA
+_journal_paper_doi               10.1107/S0108768106002448
+_journal_volume                  62
+_journal_year                    2006
+_chemical_formula_sum            'Ca2 Cr O6 Ta'
+_chemical_formula_weight         409.098
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2yn'
+_symmetry_space_group_name_H-M   'P 1 21/n 1'
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.017(6)
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            2
+_cell_length_a                   5.42609(8)
+_cell_length_b                   5.49922(7)
+_cell_length_c                   7.71863(11)
+_cell_volume                     230.318(6)
+_computing_structure_refinement  GSAS
+_diffrn_ambient_temperature      298
+_diffrn_measurement_device       HFBR
+_diffrn_measurement_method       reactor
+_diffrn_radiation_probe          neutron
+_diffrn_radiation_source         'Brookhaven National Laboratory'
+_diffrn_radiation_type           neutron
+_diffrn_radiation_wavelength     1.8857
+_exptl_crystal_density_diffrn    5.899
+_refine_ls_goodness_of_fit_all   1.29
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     29
+_refine_ls_number_restraints     0
+_refine_ls_shift/su_max          0.05
+_refine_ls_shift/su_mean         0.01
+_cod_data_source_file            ws5031.cif
+_cod_data_source_block           Ca2CrTaO6
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_geom_bond_publ_flag' value 'N' changed to 'n' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (110
+times).
+
+'_geom_angle_publ_flag' value 'N' changed to 'n' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (547 times).
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+
+The following automatic conversions were performed:
+
+'_geom_bond_publ_flag' value 'N' changed to 'n' according to
+/home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (110
+times).
+
+'_geom_angle_publ_flag' value 'N' changed to 'n' according
+to /home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary
+named 'cif_core.dic' version 2.4.1 from 2010-06-29 (547 times).
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_original_cell_volume        230.318(7)
+_cod_original_sg_symbol_H-M      P21/n
+_cod_database_code               2100514
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -x+1/2,+y+1/2,-z+1/2
+-1 -x,-y,-z
+-2 +x+1/2,-y+1/2,+z+1/2
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_occupancy
+CR Cr1 0.0 0.5 0.0 0.0043(3) Uiso 0.795(11)
+TA Ta1 0.0 0.5 0.0 0.0043(3) Uiso 0.205(11)
+CR Cr2 0.5 0.0 0.0 0.0043(3) Uiso 0.205(11)
+TA Ta2 0.5 0.0 0.0 0.0043(3) Uiso 0.795(11)
+O O1 0.2079(8) 0.2089(7) -0.0370(5) 0.0148(12) Uiso 1.0
+O O2 0.2931(7) 0.7077(6) -0.0435(5) 0.0001(9) Uiso 1.0
+O O3 0.4224(2) -0.01935(18) 0.2518(8) 0.0059(3) Uiso 1.0
+CA Ca 0.5055(3) 0.5382(2) 0.2488(10) 0.0124(3) Uiso 1.0
+loop_
+_atom_type_symbol
+Ca
+Cr
+Ta
+O
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O1 Cr1 O1 1_555 -1_565 179.9802 n
+O1 Cr1 O2 1_555 1_555 89.1(2) n
+O1 Cr1 O2 1_555 -1_565 90.9(2) n
+O1 Cr1 O3 1_555 2_555 88.56(13) n
+O1 Cr1 O3 1_555 -2_565 91.44(13) n
+O1 Cr1 Ca 1_555 1_455 126.71(11) n
+O1 Cr1 Ca 1_555 2_545 56.65(13) n
+O1 Cr1 Ca 1_555 -1_665 53.29(11) n
+O1 Cr1 Ca 1_555 -2_575 123.35(13) n
+O1 Cr1 O2 -1_565 1_555 90.9(2) n
+O1 Cr1 O2 -1_565 -1_565 89.1(2) n
+O1 Cr1 O3 -1_565 2_555 91.44(13) n
+O1 Cr1 O3 -1_565 -2_565 88.56(13) n
+O1 Cr1 Ca -1_565 1_455 53.29(11) n
+O1 Cr1 Ca -1_565 2_545 123.35(13) n
+O1 Cr1 Ca -1_565 -1_665 126.71(11) n
+O1 Cr1 Ca -1_565 -2_575 56.65(13) n
+O2 Cr1 O2 1_555 -1_565 180.0 n
+O2 Cr1 O3 1_555 2_555 91.40(11) n
+O2 Cr1 O3 1_555 -2_565 88.60(11) n
+O2 Cr1 Ca 1_555 1_455 135.34(11) n
+O2 Cr1 Ca 1_555 2_545 124.55(11) n
+O2 Cr1 Ca 1_555 -1_665 44.66(11) n
+O2 Cr1 Ca 1_555 -2_575 55.45(11) n
+O2 Cr1 O3 -1_565 2_555 88.60(11) n
+O2 Cr1 O3 -1_565 -2_565 91.40(11) n
+O2 Cr1 Ca -1_565 1_455 44.66(11) n
+O2 Cr1 Ca -1_565 2_545 55.45(11) n
+O2 Cr1 Ca -1_565 -1_665 135.34(11) n
+O2 Cr1 Ca -1_565 -2_575 124.55(11) n
+O3 Cr1 O3 2_555 -2_565 180.0 n
+O3 Cr1 Ca 2_555 1_455 67.10(12) n
+O3 Cr1 Ca 2_555 2_545 50.74(12) n
+O3 Cr1 Ca 2_555 -1_665 112.90(12) n
+O3 Cr1 Ca 2_555 -2_575 129.26(12) n
+O3 Cr1 Ca -2_565 1_455 112.90(12) n
+O3 Cr1 Ca -2_565 2_545 129.26(12) n
+O3 Cr1 Ca -2_565 -1_665 67.10(12) n
+O3 Cr1 Ca -2_565 -2_575 50.74(12) n
+Ca Cr1 Ca 1_455 2_545 71.96(4) n
+Ca Cr1 Ca 1_455 -1_665 180.0 n
+Ca Cr1 Ca 1_455 -2_575 108.04(4) n
+Ca Cr1 Ca 2_545 -1_665 108.04(4) n
+Ca Cr1 Ca 2_545 -2_575 179.972 n
+Ca Cr1 Ca -1_665 -2_575 71.96(4) n
+O1 Ta1 O1 1_555 -1_565 179.9802 n
+O1 Ta1 O2 1_555 1_555 89.1(2) n
+O1 Ta1 O2 1_555 -1_565 90.9(2) n
+O1 Ta1 O3 1_555 2_555 88.56(13) n
+O1 Ta1 O3 1_555 -2_565 91.44(13) n
+O1 Ta1 Ca 1_555 1_455 126.71(11) n
+O1 Ta1 Ca 1_555 1_555 70.56(12) n
+O1 Ta1 Ca 1_555 2_545 56.65(13) n
+O1 Ta1 Ca 1_555 -1_565 109.44(12) n
+O1 Ta1 Ca 1_555 -1_665 53.29(11) n
+O1 Ta1 Ca 1_555 -2_575 123.35(13) n
+O1 Ta1 O2 -1_565 1_555 90.9(2) n
+O1 Ta1 O2 -1_565 -1_565 89.1(2) n
+O1 Ta1 O3 -1_565 2_555 91.44(13) n
+O1 Ta1 O3 -1_565 -2_565 88.56(13) n
+O1 Ta1 Ca -1_565 1_455 53.29(11) n
+O1 Ta1 Ca -1_565 1_555 109.44(12) n
+O1 Ta1 Ca -1_565 2_545 123.35(13) n
+O1 Ta1 Ca -1_565 -1_565 70.56(12) n
+O1 Ta1 Ca -1_565 -1_665 126.71(11) n
+O1 Ta1 Ca -1_565 -2_575 56.65(13) n
+O2 Ta1 O2 1_555 -1_565 180.0 n
+O2 Ta1 O3 1_555 2_555 91.40(11) n
+O2 Ta1 O3 1_555 -2_565 88.60(11) n
+O2 Ta1 Ca 1_555 1_455 135.34(11) n
+O2 Ta1 Ca 1_555 1_555 53.57(13) n
+O2 Ta1 Ca 1_555 2_545 124.55(11) n
+O2 Ta1 Ca 1_555 -1_565 126.43(13) n
+O2 Ta1 Ca 1_555 -1_665 44.66(11) n
+O2 Ta1 Ca 1_555 -2_575 55.45(11) n
+O2 Ta1 O3 -1_565 2_555 88.60(11) n
+O2 Ta1 O3 -1_565 -2_565 91.40(11) n
+O2 Ta1 Ca -1_565 1_455 44.66(11) n
+O2 Ta1 Ca -1_565 1_555 126.43(13) n
+O2 Ta1 Ca -1_565 2_545 55.45(11) n
+O2 Ta1 Ca -1_565 -1_565 53.57(13) n
+O2 Ta1 Ca -1_565 -1_665 135.34(11) n
+O2 Ta1 Ca -1_565 -2_575 124.55(11) n
+O3 Ta1 O3 2_555 -2_565 180.0 n
+O3 Ta1 Ca 2_555 1_455 67.10(12) n
+O3 Ta1 Ca 2_555 1_555 43.12(13) n
+O3 Ta1 Ca 2_555 2_545 50.74(12) n
+O3 Ta1 Ca 2_555 -1_565 136.88(13) n
+O3 Ta1 Ca 2_555 -1_665 112.90(12) n
+O3 Ta1 Ca 2_555 -2_575 129.26(12) n
+O3 Ta1 Ca -2_565 1_455 112.90(12) n
+O3 Ta1 Ca -2_565 1_555 136.88(13) n
+O3 Ta1 Ca -2_565 2_545 129.26(12) n
+O3 Ta1 Ca -2_565 -1_565 43.12(13) n
+O3 Ta1 Ca -2_565 -1_665 67.10(12) n
+O3 Ta1 Ca -2_565 -2_575 50.74(12) n
+Ca Ta1 Ca 1_455 1_555 109.1(2) n
+Ca Ta1 Ca 1_455 2_545 71.96(4) n
+Ca Ta1 Ca 1_455 -1_565 70.9(2) n
+Ca Ta1 Ca 1_455 -1_665 180.0 n
+Ca Ta1 Ca 1_455 -2_575 108.04(4) n
+Ca Ta1 Ca 1_555 2_545 73.15(4) n
+Ca Ta1 Ca 1_555 -1_565 180.0 n
+Ca Ta1 Ca 1_555 -1_665 70.9(2) n
+Ca Ta1 Ca 1_555 -2_575 106.85(4) n
+Ca Ta1 Ca 2_545 -1_565 106.85(4) n
+Ca Ta1 Ca 2_545 -1_665 108.04(4) n
+Ca Ta1 Ca 2_545 -2_575 179.972 n
+Ca Ta1 Ca -1_565 -1_665 109.1(2) n
+Ca Ta1 Ca -1_565 -2_575 73.15(4) n
+Ca Ta1 Ca -1_665 -2_575 71.96(4) n
+O1 Cr2 O1 1_555 -1_655 180.0 n
+O1 Cr2 O2 1_555 1_545 89.6(2) n
+O1 Cr2 O2 1_555 -1_665 90.4(2) n
+O1 Cr2 O3 1_555 1_555 90.13(13) n
+O1 Cr2 O3 1_555 -1_655 89.87(13) n
+O1 Cr2 Ca 1_555 1_545 123.90(11) n
+O1 Cr2 Ca 1_555 2_645 134.08(13) n
+O1 Cr2 Ca 1_555 -1_665 56.10(11) n
+O1 Cr2 Ca 1_555 -2_565 45.92(13) n
+O1 Cr2 O2 -1_655 1_545 90.4(2) n
+O1 Cr2 O2 -1_655 -1_665 89.6(2) n
+O1 Cr2 O3 -1_655 1_555 89.87(13) n
+O1 Cr2 O3 -1_655 -1_655 90.13(13) n
+O1 Cr2 Ca -1_655 1_545 56.10(11) n
+O1 Cr2 Ca -1_655 2_645 45.92(13) n
+O1 Cr2 Ca -1_655 -1_665 123.90(11) n
+O1 Cr2 Ca -1_655 -2_565 134.08(13) n
+O2 Cr2 O2 1_545 -1_665 179.9802 n
+O2 Cr2 O3 1_545 1_555 90.11(11) n
+O2 Cr2 O3 1_545 -1_655 89.89(11) n
+O2 Cr2 Ca 1_545 1_545 57.48(12) n
+O2 Cr2 Ca 1_545 2_645 127.32(10) n
+O2 Cr2 Ca 1_545 -1_665 122.52(12) n
+O2 Cr2 Ca 1_545 -2_565 52.68(10) n
+O2 Cr2 O3 -1_665 1_555 89.89(11) n
+O2 Cr2 O3 -1_665 -1_655 90.11(11) n
+O2 Cr2 Ca -1_665 1_545 122.52(12) n
+O2 Cr2 Ca -1_665 2_645 52.68(10) n
+O2 Cr2 Ca -1_665 -1_665 57.48(12) n
+O2 Cr2 Ca -1_665 -2_565 127.32(10) n
+O3 Cr2 O3 1_555 -1_655 179.972 n
+O3 Cr2 Ca 1_555 1_545 51.01(11) n
+O3 Cr2 Ca 1_555 2_645 66.67(13) n
+O3 Cr2 Ca 1_555 -1_665 128.99(11) n
+O3 Cr2 Ca 1_555 -2_565 113.33(13) n
+O3 Cr2 Ca -1_655 1_545 128.99(11) n
+O3 Cr2 Ca -1_655 2_645 113.33(13) n
+O3 Cr2 Ca -1_655 -1_665 51.01(11) n
+O3 Cr2 Ca -1_655 -2_565 66.67(13) n
+Ca Cr2 Ca 1_545 2_645 71.97(4) n
+Ca Cr2 Ca 1_545 -1_665 180.0 n
+Ca Cr2 Ca 1_545 -2_565 108.03(4) n
+Ca Cr2 Ca 2_645 -1_665 108.03(4) n
+Ca Cr2 Ca 2_645 -2_565 179.9802 n
+Ca Cr2 Ca -1_665 -2_565 71.97(4) n
+O1 Ta2 O1 1_555 -1_655 180.0 n
+O1 Ta2 O2 1_555 1_545 89.6(2) n
+O1 Ta2 O2 1_555 -1_665 90.4(2) n
+O1 Ta2 O3 1_555 1_555 90.13(13) n
+O1 Ta2 O3 1_555 -1_655 89.87(13) n
+O1 Ta2 Ca 1_555 1_545 123.90(11) n
+O1 Ta2 Ca 1_555 2_545 52.70(14) n
+O1 Ta2 Ca 1_555 2_645 134.08(13) n
+O1 Ta2 Ca 1_555 -1_665 56.10(11) n
+O1 Ta2 Ca 1_555 -2_565 45.92(13) n
+O1 Ta2 Ca 1_555 -2_665 127.30(14) n
+O1 Ta2 O2 -1_655 1_545 90.4(2) n
+O1 Ta2 O2 -1_655 -1_665 89.6(2) n
+O1 Ta2 O3 -1_655 1_555 89.87(13) n
+O1 Ta2 O3 -1_655 -1_655 90.13(13) n
+O1 Ta2 Ca -1_655 1_545 56.10(11) n
+O1 Ta2 Ca -1_655 2_545 127.30(14) n
+O1 Ta2 Ca -1_655 2_645 45.92(13) n
+O1 Ta2 Ca -1_655 -1_665 123.90(11) n
+O1 Ta2 Ca -1_655 -2_565 134.08(13) n
+O1 Ta2 Ca -1_655 -2_665 52.70(14) n
+O2 Ta2 O2 1_545 -1_665 179.9802 n
+O2 Ta2 O3 1_545 1_555 90.11(11) n
+O2 Ta2 O3 1_545 -1_655 89.89(11) n
+O2 Ta2 Ca 1_545 1_545 57.48(12) n
+O2 Ta2 Ca 1_545 2_545 71.79(11) n
+O2 Ta2 Ca 1_545 2_645 127.32(10) n
+O2 Ta2 Ca 1_545 -1_665 122.52(12) n
+O2 Ta2 Ca 1_545 -2_565 52.68(10) n
+O2 Ta2 Ca 1_545 -2_665 108.21(11) n
+O2 Ta2 O3 -1_665 1_555 89.89(11) n
+O2 Ta2 O3 -1_665 -1_655 90.11(11) n
+O2 Ta2 Ca -1_665 1_545 122.52(12) n
+O2 Ta2 Ca -1_665 2_545 108.21(11) n
+O2 Ta2 Ca -1_665 2_645 52.68(10) n
+O2 Ta2 Ca -1_665 -1_665 57.48(12) n
+O2 Ta2 Ca -1_665 -2_565 127.32(10) n
+O2 Ta2 Ca -1_665 -2_665 71.79(11) n
+O3 Ta2 O3 1_555 -1_655 179.972 n
+O3 Ta2 Ca 1_555 1_545 51.01(11) n
+O3 Ta2 Ca 1_555 2_545 43.00(12) n
+O3 Ta2 Ca 1_555 2_645 66.67(13) n
+O3 Ta2 Ca 1_555 -1_665 128.99(11) n
+O3 Ta2 Ca 1_555 -2_565 113.33(13) n
+O3 Ta2 Ca 1_555 -2_665 137.00(12) n
+O3 Ta2 Ca -1_655 1_545 128.99(11) n
+O3 Ta2 Ca -1_655 2_545 137.00(12) n
+O3 Ta2 Ca -1_655 2_645 113.33(13) n
+O3 Ta2 Ca -1_655 -1_665 51.01(11) n
+O3 Ta2 Ca -1_655 -2_565 66.67(13) n
+O3 Ta2 Ca -1_655 -2_665 43.00(12) n
+Ca Ta2 Ca 1_545 2_545 73.13(4) n
+Ca Ta2 Ca 1_545 2_645 71.97(4) n
+Ca Ta2 Ca 1_545 -1_665 180.0 n
+Ca Ta2 Ca 1_545 -2_565 108.03(4) n
+Ca Ta2 Ca 1_545 -2_665 106.87(4) n
+Ca Ta2 Ca 2_545 2_645 108.6(2) n
+Ca Ta2 Ca 2_545 -1_665 106.87(4) n
+Ca Ta2 Ca 2_545 -2_565 71.4(2) n
+Ca Ta2 Ca 2_545 -2_665 179.972 n
+Ca Ta2 Ca 2_645 -1_665 108.03(4) n
+Ca Ta2 Ca 2_645 -2_565 179.9802 n
+Ca Ta2 Ca 2_645 -2_665 71.4(2) n
+Ca Ta2 Ca -1_665 -2_565 71.97(4) n
+Ca Ta2 Ca -1_665 -2_665 73.13(4) n
+Ca Ta2 Ca -2_565 -2_665 108.6(2) n
+Cr1 O1 Cr2 1_555 1_555 154.9(2) n
+Cr1 O1 Ta2 1_555 1_555 154.9(2) n
+Cr1 O1 Ca 1_555 2_545 85.25(15) n
+Cr1 O1 Ca 1_555 -1_665 89.95(14) n
+Cr1 O1 Ca 1_555 -2_565 107.22(17) n
+Ta1 O1 Cr2 1_555 1_555 154.9(2) n
+Ta1 O1 Ta2 1_555 1_555 154.9(2) n
+Ta1 O1 Ca 1_555 2_545 85.25(15) n
+Ta1 O1 Ca 1_555 -1_665 89.95(14) n
+Ta1 O1 Ca 1_555 -2_565 107.22(17) n
+Cr2 O1 Ca 1_555 2_545 91.32(14) n
+Cr2 O1 Ca 1_555 -1_665 85.61(15) n
+Cr2 O1 Ca 1_555 -2_565 97.86(17) n
+Ta2 O1 Ca 1_555 2_545 91.32(14) n
+Ta2 O1 Ca 1_555 -1_665 85.61(15) n
+Ta2 O1 Ca 1_555 -2_565 97.86(17) n
+Ca O1 Ca 2_545 -1_665 161.8(3) n
+Ca O1 Ca 2_545 -2_565 100.1(3) n
+Ca O1 Ca -1_665 -2_565 98.06(14) n
+Cr1 O2 Cr2 1_555 1_565 152.6(2) n
+Cr1 O2 Ta2 1_555 1_565 152.6(2) n
+Cr1 O2 Ca 1_555 1_555 90.11(12) n
+Cr1 O2 Ca 1_555 -1_665 98.94(16) n
+Cr1 O2 Ca 1_555 -2_575 86.21(14) n
+Ta1 O2 Cr2 1_555 1_565 152.6(2) n
+Ta1 O2 Ta2 1_555 1_565 152.6(2) n
+Ta1 O2 Ca 1_555 1_555 90.11(12) n
+Ta1 O2 Ca 1_555 -1_665 98.94(16) n
+Ta1 O2 Ca 1_555 -2_575 86.21(14) n
+Cr2 O2 Ca 1_565 1_555 84.10(13) n
+Cr2 O2 Ca 1_565 -1_665 108.40(16) n
+Cr2 O2 Ca 1_565 -2_575 90.47(13) n
+Ta2 O2 Ca 1_565 1_555 84.10(13) n
+Ta2 O2 Ca 1_565 -1_665 108.40(16) n
+Ta2 O2 Ca 1_565 -2_575 90.47(13) n
+Ca O2 Ca 1_555 -1_665 99.6(3) n
+Ca O2 Ca 1_555 -2_575 160.7(3) n
+Ca O2 Ca -1_665 -2_575 99.78(13) n
+Cr1 O3 Cr2 2_545 1_555 154.64(6) n
+Cr1 O3 Ta2 2_545 1_555 154.64(6) n
+Cr1 O3 Ca 2_545 1_545 91.4(2) n
+Cr1 O3 Ca 2_545 2_545 101.9(3) n
+Ta1 O3 Cr2 2_545 1_555 154.64(6) n
+Ta1 O3 Ta2 2_545 1_555 154.64(6) n
+Ta1 O3 Ca 2_545 1_545 91.4(2) n
+Ta1 O3 Ca 2_545 2_545 101.9(3) n
+Cr2 O3 Ca 1_555 1_545 90.3(2) n
+Cr2 O3 Ca 1_555 2_545 101.6(3) n
+Ta2 O3 Ca 1_555 1_545 90.3(2) n
+Ta2 O3 Ca 1_555 2_545 101.6(3) n
+Ca O3 Ca 1_545 2_545 108.25(6) n
+Cr1 Ca Cr1 1_655 2_555 114.24(4) n
+Cr1 Ca Ta1 1_655 1_555 109.1(2) n
+Cr1 Ca Ta1 1_655 2_555 114.24(4) n
+Cr1 Ca Cr2 1_655 1_565 73.02(13) n
+Cr1 Ca Cr2 1_655 2_655 71.28(4) n
+Cr1 Ca Ta2 1_655 1_565 73.02(13) n
+Cr1 Ca Ta2 1_655 2_555 172.78(4) n
+Cr1 Ca Ta2 1_655 2_655 71.28(4) n
+Cr1 Ca O1 1_655 2_555 148.84(17) n
+Cr1 Ca O1 1_655 -1_665 36.76(11) n
+Cr1 Ca O1 1_655 -2_666 89.60(11) n
+Cr1 Ca O2 1_655 1_555 83.3(2) n
+Cr1 Ca O2 1_655 -1_665 36.41(11) n
+Cr1 Ca O2 1_655 -2_676 84.65(9) n
+Cr1 Ca O3 1_655 1_565 102.47(16) n
+Cr1 Ca O3 1_655 2_555 142.6(3) n
+Cr1 Ca Ca 1_655 2_545 122.3(2) n
+Cr1 Ca Ca 1_655 2_555 128.6(2) n
+Cr1 Ca Ca 1_655 2_645 52.67(12) n
+Cr1 Ca Ca 1_655 2_655 59.00(12) n
+Cr1 Ca Ca 1_655 -1_665 55.13(12) n
+Cr1 Ca Ca 1_655 -1_666 125.67(13) n
+Cr1 Ca Ta1 2_555 1_555 112.91(4) n
+Cr1 Ca Ta1 2_555 1_655 114.24(4) n
+Cr1 Ca Cr2 2_555 1_565 74.45(3) n
+Cr1 Ca Cr2 2_555 2_655 72.74(12) n
+Cr1 Ca Ta2 2_555 1_565 74.45(3) n
+Cr1 Ca Ta2 2_555 2_555 72.07(12) n
+Cr1 Ca Ta2 2_555 2_655 72.74(12) n
+Cr1 Ca O1 2_555 2_555 38.11(11) n
+Cr1 Ca O1 2_555 -1_665 87.87(10) n
+Cr1 Ca O1 2_555 -2_666 92.1(2) n
+Cr1 Ca O2 2_555 1_555 103.21(9) n
+Cr1 Ca O2 2_555 -1_665 150.46(12) n
+Cr1 Ca O2 2_555 -2_676 38.34(10) n
+Cr1 Ca O3 2_555 1_565 37.91(15) n
+Cr1 Ca O3 2_555 2_555 95.68(16) n
+Cr1 Ca Ca 2_555 2_545 123.4(2) n
+Cr1 Ca Ca 2_555 2_555 55.30(11) n
+Cr1 Ca Ca 2_555 2_645 125.1(2) n
+Cr1 Ca Ca 2_555 2_655 55.37(12) n
+Cr1 Ca Ca 2_555 -1_665 133.58(15) n
+Cr1 Ca Ca 2_555 -1_666 58.81(14) n
+Ta1 Ca Ta1 1_555 1_655 109.1(2) n
+Ta1 Ca Ta1 1_555 2_555 112.91(4) n
+Ta1 Ca Cr2 1_555 1_565 72.37(12) n
+Ta1 Ca Cr2 1_555 2_655 172.73(5) n
+Ta1 Ca Ta2 1_555 1_565 72.37(12) n
+Ta1 Ca Ta2 1_555 2_555 70.09(3) n
+Ta1 Ca Ta2 1_555 2_655 172.73(5) n
+Ta1 Ca O1 1_555 2_555 98.27(10) n
+Ta1 Ca O1 1_555 -1_665 99.2(3) n
+Ta1 Ca O1 1_555 -2_666 136.99(11) n
+Ta1 Ca O2 1_555 1_555 36.31(9) n
+Ta1 Ca O2 1_555 -1_665 87.6(2) n
+Ta1 Ca O2 1_555 -2_676 149.84(9) n
+Ta1 Ca O3 1_555 1_565 85.30(14) n
+Ta1 Ca O3 1_555 2_555 34.95(16) n
+Ta1 Ca Ca 1_555 2_545 51.55(11) n
+Ta1 Ca Ca 1_555 2_555 57.75(11) n
+Ta1 Ca Ca 1_555 2_645 121.7(2) n
+Ta1 Ca Ca 1_555 2_655 128.0(2) n
+Ta1 Ca Ca 1_555 -1_665 53.97(11) n
+Ta1 Ca Ca 1_555 -1_666 123.33(13) n
+Ta1 Ca Ta1 1_655 2_555 114.24(4) n
+Ta1 Ca Cr2 1_655 1_565 73.02(13) n
+Ta1 Ca Cr2 1_655 2_655 71.28(4) n
+Ta1 Ca Ta2 1_655 1_565 73.02(13) n
+Ta1 Ca Ta2 1_655 2_555 172.78(4) n
+Ta1 Ca Ta2 1_655 2_655 71.28(4) n
+Ta1 Ca O1 1_655 2_555 148.84(17) n
+Ta1 Ca O1 1_655 -1_665 36.76(11) n
+Ta1 Ca O1 1_655 -2_666 89.60(11) n
+Ta1 Ca O2 1_655 1_555 83.3(2) n
+Ta1 Ca O2 1_655 -1_665 36.41(11) n
+Ta1 Ca O2 1_655 -2_676 84.65(9) n
+Ta1 Ca O3 1_655 1_565 102.47(16) n
+Ta1 Ca O3 1_655 2_555 142.6(3) n
+Ta1 Ca Ca 1_655 2_545 122.3(2) n
+Ta1 Ca Ca 1_655 2_555 128.6(2) n
+Ta1 Ca Ca 1_655 2_645 52.67(12) n
+Ta1 Ca Ca 1_655 2_655 59.00(12) n
+Ta1 Ca Ca 1_655 -1_665 55.13(12) n
+Ta1 Ca Ca 1_655 -1_666 125.67(13) n
+Ta1 Ca Cr2 2_555 1_565 74.45(3) n
+Ta1 Ca Cr2 2_555 2_655 72.74(12) n
+Ta1 Ca Ta2 2_555 1_565 74.45(3) n
+Ta1 Ca Ta2 2_555 2_555 72.07(12) n
+Ta1 Ca Ta2 2_555 2_655 72.74(12) n
+Ta1 Ca O1 2_555 2_555 38.11(11) n
+Ta1 Ca O1 2_555 -1_665 87.87(10) n
+Ta1 Ca O1 2_555 -2_666 92.1(2) n
+Ta1 Ca O2 2_555 1_555 103.21(9) n
+Ta1 Ca O2 2_555 -1_665 150.46(12) n
+Ta1 Ca O2 2_555 -2_676 38.34(10) n
+Ta1 Ca O3 2_555 1_565 37.91(15) n
+Ta1 Ca O3 2_555 2_555 95.68(16) n
+Ta1 Ca Ca 2_555 2_545 123.4(2) n
+Ta1 Ca Ca 2_555 2_555 55.30(11) n
+Ta1 Ca Ca 2_555 2_645 125.1(2) n
+Ta1 Ca Ca 2_555 2_655 55.37(12) n
+Ta1 Ca Ca 2_555 -1_665 133.58(15) n
+Ta1 Ca Ca 2_555 -1_666 58.81(14) n
+Cr2 Ca Cr2 1_565 2_655 114.24(4) n
+Cr2 Ca Ta2 1_565 1_565 0.0 n
+Cr2 Ca Ta2 1_565 2_555 112.93(4) n
+Cr2 Ca Ta2 1_565 2_655 114.24(4) n
+Cr2 Ca O1 1_565 2_555 102.55(9) n
+Cr2 Ca O1 1_565 -1_665 38.28(11) n
+Cr2 Ca O1 1_565 -2_666 150.39(12) n
+Cr2 Ca O2 1_565 1_555 38.42(10) n
+Cr2 Ca O2 1_565 -1_665 93.2(3) n
+Cr2 Ca O2 1_565 -2_676 87.11(9) n
+Cr2 Ca O3 1_565 1_565 38.73(15) n
+Cr2 Ca O3 1_565 2_555 95.59(16) n
+Cr2 Ca Ca 1_565 2_545 123.9(2) n
+Cr2 Ca Ca 1_565 2_555 55.58(11) n
+Cr2 Ca Ca 1_565 2_645 125.7(3) n
+Cr2 Ca Ca 1_565 2_655 55.63(12) n
+Cr2 Ca Ca 1_565 -1_665 59.15(14) n
+Cr2 Ca Ca 1_565 -1_666 133.25(15) n
+Cr2 Ca Ta2 2_655 1_565 114.24(4) n
+Cr2 Ca Ta2 2_655 2_555 108.6(2) n
+Cr2 Ca Ta2 2_655 2_655 0.0 n
+Cr2 Ca O1 2_655 2_555 83.5(2) n
+Cr2 Ca O1 2_655 -1_665 85.36(10) n
+Cr2 Ca O1 2_655 -2_666 36.22(11) n
+Cr2 Ca O2 2_655 1_555 148.84(17) n
+Cr2 Ca O2 2_655 -1_665 88.94(11) n
+Cr2 Ca O2 2_655 -2_676 36.85(10) n
+Cr2 Ca O3 2_655 1_565 101.77(16) n
+Cr2 Ca O3 2_655 2_555 142.6(3) n
+Cr2 Ca Ca 2_655 2_545 121.8(2) n
+Cr2 Ca Ca 2_655 2_555 128.0(2) n
+Cr2 Ca Ca 2_655 2_645 52.41(12) n
+Cr2 Ca Ca 2_655 2_655 58.74(12) n
+Cr2 Ca Ca 2_655 -1_665 125.91(13) n
+Cr2 Ca Ca 2_655 -1_666 54.87(12) n
+Ta2 Ca Ta2 1_565 2_555 112.93(4) n
+Ta2 Ca Ta2 1_565 2_655 114.24(4) n
+Ta2 Ca O1 1_565 2_555 102.55(9) n
+Ta2 Ca O1 1_565 -1_665 38.28(11) n
+Ta2 Ca O1 1_565 -2_666 150.39(12) n
+Ta2 Ca O2 1_565 1_555 38.42(10) n
+Ta2 Ca O2 1_565 -1_665 93.2(3) n
+Ta2 Ca O2 1_565 -2_676 87.11(9) n
+Ta2 Ca O3 1_565 1_565 38.73(15) n
+Ta2 Ca O3 1_565 2_555 95.59(16) n
+Ta2 Ca Ca 1_565 2_545 123.9(2) n
+Ta2 Ca Ca 1_565 2_555 55.58(11) n
+Ta2 Ca Ca 1_565 2_645 125.7(3) n
+Ta2 Ca Ca 1_565 2_655 55.63(12) n
+Ta2 Ca Ca 1_565 -1_665 59.15(14) n
+Ta2 Ca Ca 1_565 -1_666 133.25(15) n
+Ta2 Ca Ta2 2_555 2_655 108.6(2) n
+Ta2 Ca O1 2_555 2_555 35.98(10) n
+Ta2 Ca O1 2_555 -1_665 150.03(10) n
+Ta2 Ca O1 2_555 -2_666 86.6(2) n
+Ta2 Ca O2 2_555 1_555 98.92(9) n
+Ta2 Ca O2 2_555 -1_665 136.97(10) n
+Ta2 Ca O2 2_555 -2_676 99.5(2) n
+Ta2 Ca O3 2_555 1_565 84.68(13) n
+Ta2 Ca O3 2_555 2_555 35.43(17) n
+Ta2 Ca Ca 2_555 2_545 51.28(12) n
+Ta2 Ca Ca 2_555 2_555 57.48(12) n
+Ta2 Ca Ca 2_555 2_645 121.2(2) n
+Ta2 Ca Ca 2_555 2_655 127.4(2) n
+Ta2 Ca Ca 2_555 -1_665 123.60(12) n
+Ta2 Ca Ca 2_555 -1_666 53.69(11) n
+Ta2 Ca O1 2_655 2_555 83.5(2) n
+Ta2 Ca O1 2_655 -1_665 85.36(10) n
+Ta2 Ca O1 2_655 -2_666 36.22(11) n
+Ta2 Ca O2 2_655 1_555 148.84(17) n
+Ta2 Ca O2 2_655 -1_665 88.94(11) n
+Ta2 Ca O2 2_655 -2_676 36.85(10) n
+Ta2 Ca O3 2_655 1_565 101.77(16) n
+Ta2 Ca O3 2_655 2_555 142.6(3) n
+Ta2 Ca Ca 2_655 2_545 121.8(2) n
+Ta2 Ca Ca 2_655 2_555 128.0(2) n
+Ta2 Ca Ca 2_655 2_645 52.41(12) n
+Ta2 Ca Ca 2_655 2_655 58.74(12) n
+Ta2 Ca Ca 2_655 -1_665 125.91(13) n
+Ta2 Ca Ca 2_655 -1_666 54.87(12) n
+O1 Ca O1 2_555 -1_665 125.60(10) n
+O1 Ca O1 2_555 -2_666 79.9(3) n
+O1 Ca O2 2_555 1_555 112.86(6) n
+O1 Ca O2 2_555 -1_665 164.2(3) n
+O1 Ca O2 2_555 -2_676 64.2(2) n
+O1 Ca O3 2_555 1_565 64.44(16) n
+O1 Ca O3 2_555 2_555 67.69(18) n
+O1 Ca Ca 2_555 2_545 86.3(2) n
+O1 Ca Ca 2_555 2_555 56.08(15) n
+O1 Ca Ca 2_555 2_645 123.3(4) n
+O1 Ca Ca 2_555 2_655 92.5(2) n
+O1 Ca Ca 2_555 -1_665 149.00(16) n
+O1 Ca Ca 2_555 -1_666 37.37(16) n
+O1 Ca O1 -1_665 -2_666 116.91(10) n
+O1 Ca O2 -1_665 1_555 63.5(2) n
+O1 Ca O2 -1_665 -1_665 67.3(2) n
+O1 Ca O2 -1_665 -2_676 75.51(5) n
+O1 Ca O3 -1_665 1_565 66.23(13) n
+O1 Ca O3 -1_665 2_555 130.6(3) n
+O1 Ca Ca -1_665 2_545 142.1(4) n
+O1 Ca Ca -1_665 2_555 92.88(18) n
+O1 Ca Ca -1_665 2_645 88.46(18) n
+O1 Ca Ca -1_665 2_655 38.56(13) n
+O1 Ca Ca -1_665 -1_665 56.8(2) n
+O1 Ca Ca -1_665 -1_666 132.7(2) n
+O1 Ca O2 -2_666 1_555 164.7(3) n
+O1 Ca O2 -2_666 -1_665 85.77(6) n
+O1 Ca O2 -2_666 -2_676 67.1(2) n
+O1 Ca O3 -2_666 1_565 129.2(3) n
+O1 Ca O3 -2_666 2_555 112.2(3) n
+O1 Ca Ca -2_666 2_545 85.58(19) n
+O1 Ca Ca -2_666 2_555 135.9(4) n
+O1 Ca Ca -2_666 2_645 43.38(13) n
+O1 Ca Ca -2_666 2_655 95.0(2) n
+O1 Ca Ca -2_666 -1_665 128.97(17) n
+O1 Ca Ca -2_666 -1_666 42.52(16) n
+O2 Ca O2 1_555 -1_665 80.5(3) n
+O2 Ca O2 1_555 -2_676 125.28(10) n
+O2 Ca O3 1_555 1_565 65.83(17) n
+O2 Ca O3 1_555 2_555 67.79(17) n
+O2 Ca Ca 1_555 2_545 86.8(2) n
+O2 Ca Ca 1_555 2_555 57.16(15) n
+O2 Ca Ca 1_555 2_645 123.3(4) n
+O2 Ca Ca 1_555 2_655 93.0(2) n
+O2 Ca Ca 1_555 -1_665 36.90(15) n
+O2 Ca Ca 1_555 -1_666 149.46(17) n
+O2 Ca O2 -1_665 -2_676 116.05(10) n
+O2 Ca O3 -1_665 1_565 131.0(3) n
+O2 Ca O3 -1_665 2_555 112.4(3) n
+O2 Ca Ca -1_665 2_545 85.91(17) n
+O2 Ca Ca -1_665 2_555 137.6(4) n
+O2 Ca Ca -1_665 2_645 42.87(12) n
+O2 Ca Ca -1_665 2_655 95.4(2) n
+O2 Ca Ca -1_665 -1_665 43.54(17) n
+O2 Ca Ca -1_665 -1_666 127.95(17) n
+O2 Ca O3 -2_676 1_565 65.23(13) n
+O2 Ca O3 -2_676 2_555 131.2(3) n
+O2 Ca Ca -2_676 2_545 142.2(4) n
+O2 Ca Ca -2_676 2_555 92.51(17) n
+O2 Ca Ca -2_676 2_645 88.14(17) n
+O2 Ca Ca -2_676 2_655 37.36(12) n
+O2 Ca Ca -2_676 -1_665 132.1(2) n
+O2 Ca Ca -2_676 -1_666 57.44(19) n
+O3 Ca O3 1_565 2_555 87.26(6) n
+O3 Ca Ca 1_565 2_545 124.25(8) n
+O3 Ca Ca 1_565 2_555 34.74(3) n
+O3 Ca Ca 1_565 2_645 146.51(8) n
+O3 Ca Ca 1_565 2_655 54.48(3) n
+O3 Ca Ca 1_565 -1_665 96.5(3) n
+O3 Ca Ca 1_565 -1_666 95.4(3) n
+O3 Ca Ca 2_555 2_545 37.00(4) n
+O3 Ca Ca 2_555 2_555 52.52(5) n
+O3 Ca Ca 2_555 2_645 126.22(5) n
+O3 Ca Ca 2_555 2_655 141.73(5) n
+O3 Ca Ca 2_555 -1_665 88.2(2) n
+O3 Ca Ca 2_555 -1_666 88.4(3) n
+Ca Ca Ca 2_545 2_555 89.51(7) n
+Ca Ca Ca 2_545 2_645 89.218(3) n
+Ca Ca Ca 2_545 2_655 178.6(2) n
+Ca Ca Ca 2_545 -1_665 85.3(2) n
+Ca Ca Ca 2_545 -1_666 84.7(2) n
+Ca Ca Ca 2_555 2_645 178.6(2) n
+Ca Ca Ca 2_555 2_655 89.218(3) n
+Ca Ca Ca 2_555 -1_665 94.1(3) n
+Ca Ca Ca 2_555 -1_666 93.4(3) n
+Ca Ca Ca 2_645 2_655 92.04(7) n
+Ca Ca Ca 2_645 -1_665 86.4(2) n
+Ca Ca Ca 2_645 -1_666 85.9(2) n
+Ca Ca Ca 2_655 -1_665 95.4(3) n
+Ca Ca Ca 2_655 -1_666 94.8(3) n
+Ca Ca Ca -1_665 -1_666 167.46(7) n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Cr1 O1 1_555 1.979(4) n
+Cr1 O1 -1_565 1.979(4) n
+Cr1 O2 1_555 1.987(3) n
+Cr1 O2 -1_565 1.987(3) n
+Cr1 O3 2_555 1.964(6) n
+Cr1 O3 -2_565 1.964(6) n
+Cr1 Ca 1_455 3.306(5) n
+Cr1 Ca 1_555 3.354(5) n
+Cr1 Ca 2_545 3.196(5) n
+Cr1 Ca 2_555 3.538(4) n
+Cr1 Ca -1_565 3.354(5) n
+Cr1 Ca -1_665 3.306(5) n
+Cr1 Ca -2_565 3.538(4) n
+Cr1 Ca -2_575 3.196(5) n
+Ta1 O1 1_555 1.979(4) n
+Ta1 O1 -1_565 1.979(4) n
+Ta1 O2 1_555 1.987(3) n
+Ta1 O2 -1_565 1.987(3) n
+Ta1 O3 2_555 1.964(6) n
+Ta1 O3 -2_565 1.964(6) n
+Ta1 Ca 1_455 3.306(5) n
+Ta1 Ca 1_555 3.354(5) n
+Ta1 Ca 2_545 3.196(5) n
+Ta1 Ca 2_555 3.538(4) n
+Ta1 Ca -1_565 3.354(5) n
+Ta1 Ca -1_665 3.306(5) n
+Ta1 Ca -2_565 3.538(4) n
+Ta1 Ca -2_575 3.196(5) n
+Cr2 O1 1_555 1.978(4) n
+Cr2 O1 -1_655 1.978(4) n
+Cr2 O2 1_545 1.989(4) n
+Cr2 O2 -1_665 1.989(4) n
+Cr2 O3 1_555 1.992(6) n
+Cr2 O3 -1_655 1.992(6) n
+Cr2 Ca 1_545 3.184(5) n
+Cr2 Ca 1_555 3.528(4) n
+Cr2 Ca 2_545 3.366(5) n
+Cr2 Ca 2_645 3.317(5) n
+Cr2 Ca -1_655 3.528(4) n
+Cr2 Ca -1_665 3.184(5) n
+Cr2 Ca -2_565 3.317(5) n
+Cr2 Ca -2_665 3.366(5) n
+Ta2 O1 1_555 1.978(4) n
+Ta2 O1 -1_655 1.978(4) n
+Ta2 O2 1_545 1.989(4) n
+Ta2 O2 -1_665 1.989(4) n
+Ta2 O3 1_555 1.992(6) n
+Ta2 O3 -1_655 1.992(6) n
+Ta2 Ca 1_545 3.184(5) n
+Ta2 Ca 1_555 3.528(4) n
+Ta2 Ca 2_545 3.366(5) n
+Ta2 Ca 2_645 3.317(5) n
+Ta2 Ca -1_655 3.528(4) n
+Ta2 Ca -1_665 3.184(5) n
+Ta2 Ca -2_565 3.317(5) n
+Ta2 Ca -2_665 3.366(5) n
+O1 Cr1 1_555 1.979(4) n
+O1 Ta1 1_555 1.979(4) n
+O1 Cr2 1_555 1.978(4) n
+O1 Ta2 1_555 1.978(4) n
+O1 Ca 2_545 2.678(8) n
+O1 Ca -1_665 2.651(6) n
+O1 Ca -2_565 2.405(6) n
+O2 Cr1 1_555 1.987(3) n
+O2 Ta1 1_555 1.987(3) n
+O2 Cr2 1_565 1.989(4) n
+O2 Ta2 1_565 1.989(4) n
+O2 Ca 1_555 2.699(7) n
+O2 Ca -1_665 2.353(6) n
+O2 Ca -2_575 2.638(6) n
+O3 Cr1 2_545 1.964(6) n
+O3 Ta1 2_545 1.964(6) n
+O3 Cr2 1_555 1.992(6) n
+O3 Ta2 1_555 1.992(6) n
+O3 Ca 1_545 2.4748(14) n
+O3 Ca 1_555 3.0990(14) n
+O3 Ca 2_545 2.344(2) n
+O3 Ca 2_645 3.120(2) n
+Ca Cr1 1_555 3.354(5) n
+Ca Cr1 1_655 3.306(5) n
+Ca Cr1 2_545 3.538(4) n
+Ca Cr1 2_555 3.196(5) n
+Ca Ta1 1_555 3.354(5) n
+Ca Ta1 1_655 3.306(5) n
+Ca Ta1 2_545 3.538(4) n
+Ca Ta1 2_555 3.196(5) n
+Ca Cr2 1_555 3.528(4) n
+Ca Cr2 1_565 3.184(5) n
+Ca Cr2 2_555 3.366(5) n
+Ca Cr2 2_655 3.317(5) n
+Ca Ta2 1_555 3.528(4) n
+Ca Ta2 1_565 3.184(5) n
+Ca Ta2 2_555 3.366(5) n
+Ca Ta2 2_655 3.317(5) n
+Ca O1 2_555 2.678(8) n
+Ca O1 -1_665 2.651(6) n
+Ca O1 -2_666 2.405(6) n
+Ca O2 1_555 2.699(7) n
+Ca O2 -1_665 2.353(6) n
+Ca O2 -2_676 2.638(6) n
+Ca O3 1_555 3.0990(14) n
+Ca O3 1_565 2.4748(14) n
+Ca O3 2_555 2.344(2) n
+Ca O3 2_655 3.120(2) n
+Ca Ca 2_545 3.905(3) n
+Ca Ca 2_555 3.905(3) n
+Ca Ca 2_645 3.821(2) n
+Ca Ca 2_655 3.821(2) n
+Ca Ca -1_665 3.863(16) n
+Ca Ca -1_666 3.902(16) n

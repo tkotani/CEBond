@@ -1,0 +1,259 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-19 16:29:56 +0200 (Fri, 19 Feb 2016) $
+#$Revision: 176759 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/67/2006739.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2006739
+loop_
+_publ_author_name
+'Yamane, Hisanori'
+'Nagasawa, Toru'
+'Shimada, Masahiko'
+'Endo, Tadashi'
+_publ_section_title
+;
+ Ca~3~Y~2~(Si~3~O~9~)~2~
+;
+_journal_issue                   11
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              1533
+_journal_page_last               1536
+_journal_paper_doi               10.1107/S010827019700721X
+_journal_volume                  53
+_journal_year                    1997
+_chemical_formula_moiety         'Ca3 Y2 (Si3 O9)2'
+_chemical_formula_structural
+;
+(Ca0.89Y0.11)2 (Ca0.54Y0.46)2 (Ca0.14Y0.86) (Si3O9)2
+;
+_chemical_formula_sum            'Ca3 O18 Si6 Y2'
+_chemical_formula_weight         754.60
+_chemical_name_common            'calcium yttrium silicate'
+_chemical_name_systematic
+;
+ ?
+;
+_space_group_IT_number           15
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-C 2yc'
+_symmetry_space_group_name_H-M   'C 1 2/c 1'
+_audit_creation_method           SHELXL
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.256(14)
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   13.320(3)
+_cell_length_b                   7.729(2)
+_cell_length_c                   14.785(2)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    298(2)
+_cell_measurement_theta_max      29.92
+_cell_measurement_theta_min      28.98
+_cell_volume                     1522.1(6)
+_computing_cell_refinement       'CONTROL program set V)'
+_computing_data_collection
+'CONTROL program set V (Rigaku Corporation, 1992)'
+_computing_data_reduction
+;
+PROCESS in TEXSAN (Molecular Structure Corporation, 1992)
+;
+_computing_molecular_graphics    'ATOMS2.0 (Dowty, 1991)'
+_computing_publication_material  SHELXL93
+_computing_structure_refinement  'SHELXL93 (Sheldrick, 1993)'
+_computing_structure_solution    'SIR92 (Altomare et al., 1994)'
+_diffrn_ambient_temperature      298(2)
+_diffrn_measurement_device       'Rigaku AFC-7R'
+_diffrn_measurement_method       '\w/2\q scans'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'Rigaku Denki rotating Mo anode'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71069
+_diffrn_reflns_av_R_equivalents  0.0182
+_diffrn_reflns_av_sigmaI/netI    0.0122
+_diffrn_reflns_limit_h_max       1
+_diffrn_reflns_limit_h_min       -15
+_diffrn_reflns_limit_k_max       1
+_diffrn_reflns_limit_k_min       -9
+_diffrn_reflns_limit_l_max       17
+_diffrn_reflns_limit_l_min       -17
+_diffrn_reflns_number            1781
+_diffrn_reflns_theta_max         25.01
+_diffrn_reflns_theta_min         2.76
+_diffrn_standards_decay_%        0.0
+_diffrn_standards_interval_count 150
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    9.176
+_exptl_absorpt_correction_T_max  0.37558
+_exptl_absorpt_correction_T_min  0.36542
+_exptl_absorpt_correction_type   sphere
+_exptl_crystal_colour            Transparent
+_exptl_crystal_density_diffrn    3.293
+_exptl_crystal_density_meas      3.280(10)
+_exptl_crystal_density_method    pycnometry
+_exptl_crystal_description       Sphere
+_exptl_crystal_F_000             1464
+_exptl_crystal_size_rad          0.076
+_refine_diff_density_max         0.328
+_refine_diff_density_min         -0.735
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_all   1.063
+_refine_ls_goodness_of_fit_obs   1.107
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     138
+_refine_ls_number_reflns         1340
+_refine_ls_number_restraints     4
+_refine_ls_restrained_S_all      1.063
+_refine_ls_restrained_S_obs      1.107
+_refine_ls_R_factor_all          0.0327
+_refine_ls_R_factor_obs          .0212
+_refine_ls_shift/esd_max         0.000
+_refine_ls_shift/esd_mean        0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w = 1/[\s^2^(Fo^2^)+(0.0369P)^2^+2.2321P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         0.0629
+_refine_ls_wR_factor_obs         .0577
+_reflns_number_observed          1068
+_reflns_number_total             1340
+_reflns_observed_criterion       >2sigma(I)
+_cod_data_source_file            ta1157.cif
+_cod_data_source_block           qten
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'calc w =
+1/[\s^2^(Fo^2^)+(0.0369P)^2^+2.2321P] where P=(Fo^2^+2Fc^2^)/3' was
+changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to 'w =
+1/[\s^2^(Fo^2^)+(0.0369P)^2^+2.2321P] where P=(Fo^2^+2Fc^2^)/3'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        1522.0(5)
+_cod_original_sg_symbol_H-M      'C 2/c'
+_cod_database_code               2006739
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, y, -z+1/2'
+'x+1/2, y+1/2, z'
+'-x+1/2, y+1/2, -z+1/2'
+'-x, -y, -z'
+'x, -y, z-1/2'
+'-x+1/2, -y+1/2, -z'
+'x+1/2, -y+1/2, z-1/2'
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Ca1 .0086(3) .0095(3) .0099(3) -.0002(3) .0008(2) -.0017(2)
+Y1 .0086(3) .0095(3) .0099(3) -.0002(3) .0008(2) -.0017(2)
+Ca2 .0088(3) .0059(2) .0078(2) .0003(2) .0001(2) -.0005(2)
+Y2 .0088(3) .0059(2) .0078(2) .0003(2) .0001(2) -.0005(2)
+Ca3 .0059(2) .0070(3) .0066(2) .000 -.0008(2) .000
+Y3 .0059(2) .0070(3) .0066(2) .000 -.0008(2) .000
+Si1 .0051(4) .0053(4) .0065(4) .0009(3) -.0004(3) -.0003(3)
+Si2 .0060(4) .0051(4) .0052(4) -.0004(4) -.0004(3) -.0003(3)
+Si3 .0068(4) .0048(4) .0066(4) .0010(3) .0000(3) .0010(3)
+O1 .0090(10) .0120(11) .0133(11) .0034(9) .0004(8) -.0029(9)
+O2 .0132(10) .0065(10) .0131(10) -.0005(9) -.0070(8) .0008(9)
+O3 .0075(10) .0180(12) .0142(11) -.0008(10) .0017(8) -.0002(10)
+O4 .0174(11) .0194(13) .0118(11) -.0061(10) .0046(9) .0017(9)
+O5 .0138(11) .0064(10) .0138(10) .0003(9) -.0077(9) .0003(9)
+O6 .0190(11) .0101(10) .0071(10) -.0007(10) .0027(8) .0001(9)
+O7 .0144(11) .0049(10) .0123(10) -.0010(9) -.0056(8) .0008(9)
+O8 .0126(10) .0117(11) .0104(10) -.0013(10) .0016(8) .0014(9)
+O9 .0133(11) .0107(11) .0159(11) -.0066(9) -.0002(9) .0010(9)
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+_atom_site_disorder_group
+_atom_site_type_symbol
+Ca1 .16155(4) .11853(7) 0.41270(3) .0093(2) Uani d P .888(3) . Ca
+Y1 .16155(4) .11853(7) 0.41270(3) .0093(2) Uani d P .111(2) . Y
+Ca2 .33485(3) .12649(5) 0.08416(2) .0075(2) Uani d P .538(3) . Ca
+Y2 .33485(3) .12649(5) 0.08416(2) .0075(2) Uani d P .461(2) . Y
+Ca3 0 .37890(6) 0.25 .0065(2) Uani d SP .145(4) . Ca
+Y3 0 .37890(6) 0.25 .0065(2) Uani d SP .855(4) . Y
+Si1 .09475(6) .07335(11) 0.09901(5) .0056(2) Uani d . 1 . Si
+Si2 .27403(6) .37315(11) 0.26967(5) .0054(2) Uani d . 1 . Si
+Si3 .40206(6) .18031(11) 0.40679(5) .0061(2) Uani d . 1 . Si
+O1 .0014(2) .1754(3) 0.13787(14) .0114(5) Uani d . 1 . O
+O2 .0630(2) .1227(3) 0.56374(13) .0109(4) Uani d . 1 . O
+O3 .1584(2) .3787(3) 0.29922(14) .0132(5) Uani d . 1 . O
+O4 .1588(2) .1532(3) 0.01777(15) .0162(5) Uani d . 1 . O
+O5 .1794(2) .0447(3) 0.17946(14) .0114(5) Uani d . 1 . O
+O6 .3048(2) .3694(3) 0.16674(13) .0120(5) Uani d . 1 . O
+O7 .3202(2) .2041(3) 0.32360(13) .0105(5) Uani d . 1 . O
+O8 .3352(2) .1108(3) 0.49013(14) .0116(5) Uani d . 1 . O
+O9 .5035(2) .0737(3) 0.12785(14) .0133(5) Uani d . 1 . O
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Si Si 0.0817 0.0704 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ca Ca 0.2262 0.3064 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Y Y -2.7962 3.5667 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Ca1/Y1 O6 4_545 2.301(2) yes
+Ca1/Y1 O1 2 2.335(2) yes
+Ca1/Y1 O8 7_556 2.538(2) yes
+Ca1/Y1 O8 . 2.577(2) yes
+Ca1/Y1 O7 . 2.582(2) yes
+Ca1/Y1 O2 . 2.595(2) yes
+Ca1/Y1 O4 6_556 2.613(2) yes
+Ca1/Y1 O3 . 2.619(2) yes
+Ca2/Y2 O4 7 2.275(2) yes
+Ca2/Y2 O6 . 2.276(2) yes
+Ca2/Y2 O8 6 2.301(2) yes
+Ca2/Y2 O9 . 2.370(2) yes
+Ca2/Y2 O4 . 2.547(2) yes
+Ca2/Y2 O3 4_545 2.578(2) yes
+Ca2/Y2 O5 . 2.588(2) yes
+Ca3/Y3 O3 2 2.228(2) yes
+Ca3/Y3 O3 . 2.228(2) yes
+Ca3/Y3 O1 . 2.285(2) yes
+Ca3/Y3 O1 2 2.285(2) yes
+Ca3/Y3 O9 4 2.352(2) yes
+Ca3/Y3 O9 3_455 2.352(2) yes
+Si1 O1 . 1.582(2) yes
+Si1 O4 . 1.600(2) yes
+Si1 O5 . 1.650(2) yes
+Si1 O2 6 1.657(2) yes
+Si2 O6 . 1.578(2) yes
+Si2 O3 . 1.604(2) yes
+Si2 O5 4 1.644(2) yes
+Si2 O7 . 1.648(2) yes
+Si3 O9 2_655 1.590(2) yes
+Si3 O8 . 1.616(2) yes

@@ -1,0 +1,155 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-13 21:28:24 +0200 (Sat, 13 Feb 2016) $
+#$Revision: 176429 $
+#$URL: svn://www.crystallography.net/cod/cif/2/30/05/2300504.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2300504
+loop_
+_publ_author_name
+'Gemmi, Mauro'
+'La Placa, Maria G. I.'
+'Galanis, Athanassios S.'
+'Rauch, Edgar F.'
+'Nicolopoulos, Stavros'
+_publ_section_title
+;
+ Fast electron diffraction tomography
+;
+_journal_coeditor_code           KS5462SUP1
+_journal_issue                   3
+_journal_name_full               'Journal of Applied Crystallography'
+_journal_page_first
+;
+;
+_journal_paper_doi               10.1107/S1600576715004604
+_journal_volume                  48
+_journal_year                    2015
+_chemical_formula_structural     'Mg (Mo O4)'
+_chemical_formula_sum            'Mg Mo O4'
+_chemical_formula_weight         184.24
+_chemical_name_systematic
+;
+Magnesium Molybdate
+;
+_space_group_IT_number           12
+_symmetry_cell_setting           monoclinic
+_symmetry_Int_Tables_number      12
+_symmetry_space_group_name_Hall  '-C 2y'
+_symmetry_space_group_name_H-M   'C 1 2/m 1'
+_audit_creation_date             2014/11/24
+_cell_angle_alpha                90.000
+_cell_angle_beta                 105.900
+_cell_angle_gamma                90.000
+_cell_formula_units_Z            8
+_cell_length_a                   10.157
+_cell_length_b                   9.246
+_cell_length_c                   7.030
+_cell_measurement_reflns_used    1608
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      0.00
+_cell_measurement_theta_min      0.00
+_cell_measurement_wavelength     0.03350
+_cell_volume                     634.940
+_computing_structure_solution    ' SIR2011 (Burla et al., 2011)'
+_diffrn_ambient_temperature      293
+_diffrn_radiation_probe          electron
+_diffrn_radiation_wavelength     0.03350
+_reflns_d_resolution_high        0.730
+_reflns_d_resolution_low         6.737
+_reflns_limit_h_max              13
+_reflns_limit_h_min              0
+_reflns_limit_k_max              12
+_reflns_limit_k_min              0
+_reflns_limit_l_max              9
+_reflns_limit_l_min              -9
+_reflns_number_gt                711
+_reflns_number_total             711
+_reflns_threshold_expression     ' F >3.0 \s(F) '
+_cod_data_source_file            ks5462sup1.cf
+_cod_data_source_block           I
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Monoclinic' changed to 'monoclinic'
+according to
+/usr/data/users/saulius/crontab/automatic-downloads/rss-feeds/IUCr/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 from 2011-04-26.
+
+'_atom_site_thermal_displace_type' value 'uiso' changed to 'Uiso'
+according to
+/usr/data/users/saulius/crontab/automatic-downloads/rss-feeds/IUCr/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 from 2011-04-26 (9
+times).
+
+Automatic conversion script
+Id: cif_fix_values 3271 2015-04-21 07:52:19Z andrius 
+;
+_cod_original_cell_volume        634.6
+_cod_original_sg_symbol_H-M      'C 2/m'
+_cod_original_formula_sum        'Mg1 Mo1 O4'
+_cod_database_code               2300504
+_cod_database_fobs_code          2300504
+#BEGIN Tags that were not found in dictionaries:
+_publcif_datablock.id            {32b45e52-05a3-4f64-8f85-e255554c055a}
+_publcif_info_exptl_table_max_cols 4
+_publcif_info_exptl_table_use_headnotes n
+#END Tags that were not found in dictionaries
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -x,y,-z
+3 -x,-y,-z
+4 x,-y,z
+5 1/2+x,1/2+y,z
+6 1/2-x,1/2+y,-z
+7 1/2-x,1/2-y,-z
+8 1/2+x,1/2-y,z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+Mo1 0.0000 0.2534 0.5000 1.000 0.00746 Uiso Mo 4
+Mo2 -0.2712 0.0000 0.0953 1.000 0.00707 Uiso Mo 4
+Mg1 0.0000 0.8234 0.0000 1.000 0.00777 Uiso Mg 4
+Mg2 0.1986 0.0000 0.3593 1.000 0.00008 Uiso Mg 4
+O1 0.5387 0.6513 0.3036 1.000 0.00324 Uiso O 8
+O2 -0.8691 0.6518 0.0225 1.000 0.00953 Uiso O 8
+O3 -0.8658 0.3573 0.6113 1.000 0.01570 Uiso O 8
+O4 0.6393 0.5000 0.0383 1.000 0.00178 Uiso O 4
+O5 0.2003 0.0000 0.6318 1.000 0.00760 Uiso O 4
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+'O   ' 32 'Oxygen      ' 0.0106 0.0060 ' Int. Tab. C, 4.2.6.8, 6.1.1.4'
+'Mg  ' 8 'Magnesium   ' 0.0486 0.0363 ' Int. Tab. C, 4.2.6.8, 6.1.1.4'
+'Mo  ' 8 'Molybdenum  ' -1.6832 0.6857 ' Int. Tab. C, 4.2.6.8, 6.1.1.4'
+#BEGIN Loops that were not found in dictionaries:
+loop_
+_publcif_info_datablock.id
+_publcif_info_datablock.publ_exptl
+_publcif_info_datablock.publ_geom
+_publcif_info_datablock.structure
+{59f04108-e8b7-4279-8aa5-0addd28512e4} ? ? ?
+{32b45e52-05a3-4f64-8f85-e255554c055a} y y y
+#END Loops that were not found in dictionaries

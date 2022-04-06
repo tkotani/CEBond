@@ -1,0 +1,113 @@
+#------------------------------------------------------------------------------
+#$Date: 2021-06-02 10:58:57 +0300 (Wed, 02 Jun 2021) $
+#$Revision: 265669 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/56/30/1563079.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1563079
+loop_
+_publ_author_name
+'Day, Bradley E.'
+'Bley, Nicholas D.'
+'Jones, Heather R.'
+'McCullough, Ryan M.'
+'Eng, Hank W.'
+'Porter, Spencer H.'
+'Woodward, Patrick M.'
+'Barnes, Paris W.'
+_publ_section_title
+;
+ Structures of ordered tungsten- or molybdenum-containing quaternary
+ perovskite oxides
+;
+_journal_name_full               'Journal of Solid State Chemistry'
+_journal_page_first              107
+_journal_page_last               116
+_journal_paper_doi               10.1016/j.jssc.2011.11.007
+_journal_volume                  185
+_journal_year                    2012
+_chemical_formula_sum            'Ba2 Ca O6 W'
+_chemical_formula_weight         594.58
+_space_group_IT_number           87
+_space_group_name_Hall           '-I 4'
+_space_group_name_H-M_alt        'I 4/m'
+_symmetry_cell_setting           tetragonal
+_symmetry_space_group_name_H-M   'I 4/m'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            2
+_cell_length_a                   5.93741(35)
+_cell_length_b                   5.93741
+_cell_length_c                   8.4015(7)
+_cell_volume                     296.18(3)
+_computing_structure_refinement  GSAS
+_pd_proc_ls_prof_R_factor        0.0499
+_pd_proc_ls_prof_wR_factor       0.0806
+_refine_ls_goodness_of_fit_all   1.23
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     52
+_refine_ls_number_restraints     6
+_refine_ls_shift/su_max          0.04
+_refine_ls_shift/su_mean         0.01
+_cod_data_source_file            mmc2.cif
+_cod_data_source_block           BA2CAWO6-I4M
+_cod_original_cell_volume        296.18(4)
+_cod_database_code               1563079
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -y,+x,+z
+3 -x,-y,+z
+4 +y,-x,+z
+-1 -x,-y,-z
+-2 +y,-x,-z
+-3 +x,+y,-z
+-4 -y,+x,-z
+101 +x+1/2,+y+1/2,+z+1/2
+102 -y+1/2,+x+1/2,+z+1/2
+103 -x+1/2,-y+1/2,+z+1/2
+104 +y+1/2,-x+1/2,+z+1/2
+-101 -x+1/2,-y+1/2,-z+1/2
+-102 +y+1/2,-x+1/2,-z+1/2
+-103 +x+1/2,+y+1/2,-z+1/2
+-104 -y+1/2,+x+1/2,-z+1/2
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_22
+_atom_site_aniso_U_23
+_atom_site_aniso_U_33
+O1 0.0185(21) 0.0 0.0 0.0185(21) 0.0 0.0032(24)
+O2 0.0161(17) -0.0122(14) 0.0 0.0188(16) 0.0 0.0156(21)
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+Ba Ba 0.0 0.5 0.25 1.0 Uiso 0.00806(20) 4
+Ca Ca 0.0 0.0 0.0 1.0 Uiso 0.00558(34) 2
+W W 0.5 0.5 0.0 1.0 Uiso 0.00395(31) 2
+O O1 0.0 0.0 0.2733(6) 1.0 Uani 0.01343 4
+O O2 0.26188(35) 0.2793(5) 0.0 1.0 Uani 0.01686 8
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+Ba 4.0
+Ca 2.0
+W 2.0
+O 12.0

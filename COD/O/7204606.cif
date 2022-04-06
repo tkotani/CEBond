@@ -1,0 +1,367 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-09-27 16:12:17 +0300 (Wed, 27 Sep 2017) $
+#$Revision: 201370 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/7/20/46/7204606.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7204606
+loop_
+_publ_author_name
+'Sebastian, Litty'
+'Piffard, Y.'
+'Shukla, A. K.'
+'Taulelle, F.'
+'Gopalakrishnan, J.'
+_publ_section_title
+;
+ Synthesis, structure and lithium-ion conductivity of
+ Li2?2xMg2+x(MoO4)3 and Li3M(MoO4)3 (MIII = Cr, Fe)Electronic
+ supplementary information (ESI) available: anisotropic displacement
+ parameters and XRPD data for Li2Mg2(MoO4)3. See
+ http://www.rsc.org/suppdata/jm/b3/b301189e/
+;
+_journal_issue                   7
+_journal_name_full               'Journal of Materials Chemistry'
+_journal_page_first              1797
+_journal_paper_doi               10.1039/b301189e
+_journal_volume                  13
+_journal_year                    2003
+_chemical_formula_sum            'Li2 Mg2 Mo3 O12'
+_chemical_formula_weight         539.3
+_space_group_IT_number           62
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2ac 2n'
+_symmetry_space_group_name_H-M   'P n m a'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   5.1167
+_cell_length_b                   10.4646
+_cell_length_c                   17.6228
+_cell_measurement_pressure       normal
+_cell_measurement_radiation      'Cu K\a1'
+_cell_measurement_reflns_used    'full pattern matching'
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      114.6
+_cell_measurement_theta_min      8.0
+_cell_measurement_wavelength     1.540598
+_cell_volume                     943.599
+_diffrn_measurement_device       'four-circle diffractometer'
+_diffrn_measurement_device_type  CAD4
+_diffrn_measurement_method       \q/2\q
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0343
+_diffrn_reflns_av_sigmaI/netI    0.0474
+_diffrn_reflns_limit_h_max       8
+_diffrn_reflns_limit_h_min       -1
+_diffrn_reflns_limit_k_max       18
+_diffrn_reflns_limit_k_min       -1
+_diffrn_reflns_limit_l_max       30
+_diffrn_reflns_limit_l_min       -1
+_diffrn_reflns_number            3472
+_diffrn_reflns_theta_max         37.93
+_diffrn_reflns_theta_min         2.27
+_diffrn_standards_decay_%        0.2
+_diffrn_standards_interval_time  3600
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    4.122
+_exptl_absorpt_correction_T_max  1.000
+_exptl_absorpt_correction_T_min  1.000
+_exptl_absorpt_correction_type   none
+_exptl_crystal_colour            colorless
+_exptl_crystal_density_meas      3.798
+_exptl_crystal_description       parallelepiped
+_exptl_crystal_F_000             1008
+_exptl_crystal_size_max          0.17
+_exptl_crystal_size_mid          0.045
+_exptl_crystal_size_min          0.045
+_refine_diff_density_max         2.60
+_refine_diff_density_min         -2.35
+_refine_ls_extinction_coef       0.026(1)
+_refine_ls_extinction_method     'B-C type 1 Lorentzian isotropic'
+_refine_ls_goodness_of_fit_all   1.70
+_refine_ls_goodness_of_fit_obs   1.43
+_refine_ls_number_parameters     85
+_refine_ls_number_reflns         2645
+_refine_ls_R_factor_all          0.0660
+_refine_ls_R_factor_gt           0.0308
+_refine_ls_shift/esd_max         0.0006
+_refine_ls_shift/esd_mean        0.0001
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     w=1/\s^2^(F)
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_all         0.0251
+_refine_ls_wR_factor_gt          0.0240
+_reflns_limit_h_max              8
+_reflns_limit_h_min              0
+_reflns_limit_k_max              18
+_reflns_limit_k_min              0
+_reflns_limit_l_max              30
+_reflns_limit_l_min              0
+_reflns_number_observed          1740
+_reflns_number_total             2645
+_reflns_observed_criterion       3
+_cod_data_source_file            b301189e.txt
+_cod_data_source_block           Li2Mg2(MoO4)3
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_diffrn_radiation_probe' value 'X-ray' changed to 'x-ray' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+;
+_cod_original_formula_sum        'Li2 O12 Mg2 Mo3'
+_cod_database_code               7204606
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 1/2+x,y,1/2-z
+3 1/2-x,1/2+y,1/2+z
+4 -x,1/2+y,-z
+5 -x,-y,-z
+6 1/2-x,-y,1/2+z
+7 1/2+x,1/2-y,1/2-z
+8 x,1/2-y,z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Mo1 0.0080(1) 0.0071(1) 0.0065(1) 0 0.0001(1) 0
+Mo2 0.00933(9) 0.00716(8) 0.00785(8) 0.00082(9) 0.00038(9) -0.00100(7)
+O1 0.0134(9) 0.0113(9) 0.0113(8) -0.0021(8) -0.0001(7) 0.0006(8)
+O2 0.014(1) 0.013(1) 0.006(1) 0 0.002(1) 0
+O3 0.0102(8) 0.0094(8) 0.0119(8) 0.0010(7) 0.0010(7) -0.0021(7)
+O4 0.011(1) 0.010(1) 0.011(1) 0 0.000(1) 0
+O5 0.0113(8) 0.0096(8) 0.0110(7) 0.0004(8) 0.0015(7) -0.0026(7)
+O6 0.0108(9) 0.0139(9) 0.0101(8) 0.0004(8) 0.0020(7) 0.0009(7)
+O7 0.0145(9) 0.0148(9) 0.0143(9) 0.0024(8) -0.0004(8) 0.0038(8)
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_occupancy
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+Mo1 Mo 2 1 0.22044(7) 0.25 0.05688(2) 0.00721(7)
+Mo2 Mo 1 1 0.27554(5) 0.02686(2) 0.84338(1) 0.00811(5)
+Mg1 Mg 1 0.659(3) 0.7529(3) 0.0750(1) 0.97230(6) 0.0099(2)
+Li1 Li 1 0.341(3) 0.7529(3) 0.0750(1) 0.97230(6) 0.0099(2)
+Mg2 Mg 2 0.471(5) 0.3984(5) 0.25 0.2492(1) 0.0153(6)
+Li2 Li 2 0.529(5) 0.3984(5) 0.25 0.2492(1) 0.0153(6)
+Mg3 Mg 2 0.210(4) 0.7433(7) 0.25 0.8013(2) 0.0123(9)
+Li3 Li 2 0.790(4) 0.7433(7) 0.25 0.8013(2) 0.0123(9)
+O1 O 1 1 0.5578(4) 0.1130(2) 0.8729(1) 0.0120(5)
+O2 O 2 1 0.1445(5) 0.25 0.1534(1) 0.0108(6)
+O3 O 1 1 0.4175(4) 0.1159(2) 0.0364(1) 0.0105(5)
+O4 O 2 1 0.9428(5) 0.25 0.9948(1) 0.0109(7)
+O5 O 1 1 0.3510(4) 0.8836(2) 0.7950(1) 0.0106(4)
+O6 O 1 1 0.0813(4) 0.9905(2) 0.9247(1) 0.0116(5)
+O7 O 1 1 0.0772(4) 0.1242(2) 0.7868(1) 0.0145(5)
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+_atom_type_number_in_cell
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+_atom_type_scat_versus_stol_list
+Li 0 16 0.000 0.000 International_Tables_Vol_C
+;
+stol      0.00    0.05    0.10    0.15    0.20    0.25    0.30    0.35    0.40  
+f       3.000   2.708   2.214   1.904   1.742   1.625   1.511   1.393   1.271  
+stol      0.45    0.50    0.55    0.60    0.65    0.70    0.75    0.80    0.85  
+f       1.151   1.035   0.925   0.823   0.731   0.648   0.575   0.510   0.453  
+stol      0.90    0.95    1.00    1.05    1.10    1.15    1.20    1.25    1.30  
+f       0.404   0.360   0.321   0.287   0.257   0.230   0.206   0.185   0.166  
+stol      1.35    1.40    1.45    1.50    1.55    1.60    1.65    1.70    1.75  
+f       0.149   0.134   0.120   0.108   0.098   0.088   0.081   0.074   0.068  
+stol      1.80    1.85    1.90    1.95    2.00    2.05    2.10    2.15    2.20  
+f       0.063   0.058   0.055   0.051   0.049   0.047   0.045   0.043   0.042  
+stol      2.25    2.30    2.35    2.40    2.45    2.50    2.55    2.60    2.65  
+f       0.041   0.041   0.040   0.039   0.039   0.039   0.039   0.038   0.038  
+;
+O 0 96 0.011 0.006 International_Tables_Vol_C
+;
+stol      0.00    0.05    0.10    0.15    0.20    0.25    0.30    0.35    0.40  
+f       8.000   7.798   7.246   6.472   5.623   4.808   4.089   3.489   3.006  
+stol      0.45    0.50    0.55    0.60    0.65    0.70    0.75    0.80    0.85  
+f       2.628   2.337   2.115   1.946   1.816   1.715   1.634   1.568   1.512  
+stol      0.90    0.95    1.00    1.05    1.10    1.15    1.20    1.25    1.30  
+f       1.463   1.419   1.377   1.337   1.298   1.260   1.221   1.183   1.145  
+stol      1.35    1.40    1.45    1.50    1.55    1.60    1.65    1.70    1.75  
+f       1.108   1.070   1.033   0.997   0.961   0.926   0.891   0.857   0.824  
+stol      1.80    1.85    1.90    1.95    2.00    2.05    2.10    2.15    2.20  
+f       0.792   0.761   0.731   0.702   0.674   0.647   0.621   0.597   0.573  
+stol      2.25    2.30    2.35    2.40    2.45    2.50    2.55    2.60    2.65  
+f       0.551   0.530   0.509   0.490   0.472   0.455   0.439   0.424   0.410  
+;
+Mg 0 16 0.049 0.036 International_Tables_Vol_C
+;
+stol      0.00    0.05    0.10    0.15    0.20    0.25    0.30    0.35    0.40  
+f      12.000  11.515  10.481   9.489   8.729   8.086   7.456   6.819   6.191  
+stol      0.45    0.50    0.55    0.60    0.65    0.70    0.75    0.80    0.85  
+f       5.589   5.029   4.518   4.060   3.655   3.301   2.994   2.730   2.506  
+stol      0.90    0.95    1.00    1.05    1.10    1.15    1.20    1.25    1.30  
+f       2.315   2.154   2.019   1.905   1.810   1.729   1.660   1.601   1.549  
+stol      1.35    1.40    1.45    1.50    1.55    1.60    1.65    1.70    1.75  
+f       1.503   1.461   1.424   1.389   1.356   1.325   1.296   1.268   1.242  
+stol      1.80    1.85    1.90    1.95    2.00    2.05    2.10    2.15    2.20  
+f       1.216   1.192   1.169   1.147   1.126   1.106   1.087   1.069   1.053  
+stol      2.25    2.30    2.35    2.40    2.45    2.50    2.55    2.60    2.65  
+f       1.037   1.022   1.008   0.995   0.983   0.972   0.962   0.952   0.943  
+;
+Mo 0 24 -1.683 0.686 International_Tables_Vol_C
+;
+stol      0.00    0.05    0.10    0.15    0.20    0.25    0.30    0.35    0.40  
+f      42.000  41.022  38.693  35.879  33.162  30.679  28.417  26.387  24.609  
+stol      0.45    0.50    0.55    0.60    0.65    0.70    0.75    0.80    0.85  
+f      23.082  21.771  20.627  19.601  18.652  17.753  16.887  16.047  15.231  
+stol      0.90    0.95    1.00    1.05    1.10    1.15    1.20    1.25    1.30  
+f      14.442  13.682  12.955  12.264  11.612  11.000  10.429   9.899   9.410  
+stol      1.35    1.40    1.45    1.50    1.55    1.60    1.65    1.70    1.75  
+f       8.961   8.550   8.176   7.836   7.529   7.251   7.001   6.776   6.573  
+stol      1.80    1.85    1.90    1.95    2.00    2.05    2.10    2.15    2.20  
+f       6.391   6.226   6.079   5.945   5.824   5.715   5.615   5.524   5.441  
+stol      2.25    2.30    2.35    2.40    2.45    2.50    2.55    2.60    2.65  
+f       5.365   5.294   5.229   5.169   5.113   5.061   5.012   4.966   4.924  
+;
+loop_
+_diffrn_standard_refln_index_h
+_diffrn_standard_refln_index_k
+_diffrn_standard_refln_index_l
+0 4 0
+1 5 3
+1 -5 3
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+O2 Mo1 O3 109.03(8) . . .
+O2 Mo1 O3 109.03(8) . . 8_555
+O2 Mo1 O4 114.7(1) . . 1_454
+O3 Mo1 O3 105.30(9) . . 8_555
+O3 Mo1 O4 109.16(8) . . 1_454
+O3 Mo1 O3 105.30(9) 8_555 . .
+O3 Mo1 O4 109.16(8) 8_555 . 1_454
+O1 Mo2 O5 113.16(8) . . 1_545
+O1 Mo2 O6 108.97(9) . . 1_545
+O1 Mo2 O7 110.02(9) . . .
+O5 Mo2 O6 109.16(8) 1_545 . 1_545
+O5 Mo2 O7 110.21(8) 1_545 . .
+O6 Mo2 O7 104.99(9) 1_545 . .
+O1 Mg1 O3 91.29(9) . . 1_556
+O1 Mg1 O3 85.56(8) . . 5_656
+O1 Mg1 O4 102.5(1) . . .
+O1 Mg1 O6 97.55(9) . . 1_645
+O1 Mg1 O6 171.1(1) . . 5_667
+O3 Mg1 O3 84.14(8) 1_556 . 5_656
+O3 Mg1 O4 95.6(1) 1_556 . .
+O3 Mg1 O6 165.0(1) 1_556 . 1_645
+O3 Mg1 O6 86.11(8) 1_556 . 5_667
+O3 Mg1 O3 84.14(8) 5_656 . 1_556
+O3 Mg1 O4 171.9(1) 5_656 . .
+O3 Mg1 O6 84.53(8) 5_656 . 1_645
+O3 Mg1 O6 85.67(8) 5_656 . 5_667
+O4 Mg1 O6 94.2(1) . . 1_645
+O4 Mg1 O6 86.3(1) . . 5_667
+O6 Mg1 O6 83.32(9) 1_645 . 5_667
+O6 Mg1 O6 83.32(9) 5_667 . 1_645
+O2 Mg2 O2 178.7(2) . . 2_555
+O2 Mg2 O5 94.7(1) . . 5_666
+O2 Mg2 O5 86.1(1) . . 6_564
+O2 Mg2 O5 86.1(1) . . 3_544
+O2 Mg2 O5 94.7(1) . . 4_646
+O2 Mg2 O2 178.7(2) 2_555 . .
+O2 Mg2 O5 86.3(1) 2_555 . 5_666
+O2 Mg2 O5 92.9(1) 2_555 . 6_564
+O2 Mg2 O5 92.9(1) 2_555 . 3_544
+O2 Mg2 O5 86.3(1) 2_555 . 4_646
+O5 Mg2 O5 94.20(7) 5_666 . 6_564
+O5 Mg2 O5 179.2(2) 5_666 . 3_544
+O5 Mg2 O5 86.0(1) 5_666 . 4_646
+O5 Mg2 O5 94.20(7) 6_564 . 5_666
+O5 Mg2 O5 85.6(1) 6_564 . 3_544
+O5 Mg2 O5 179.2(2) 6_564 . 4_646
+O5 Mg2 O5 179.2(2) 3_544 . 5_666
+O5 Mg2 O5 85.6(1) 3_544 . 6_564
+O5 Mg2 O5 94.20(7) 3_544 . 4_646
+O5 Mg2 O5 86.0(1) 4_646 . 5_666
+O5 Mg2 O5 179.2(2) 4_646 . 6_564
+O5 Mg2 O5 94.20(7) 4_646 . 3_544
+O1 Mg3 O1 84.5(1) . . 8_555
+O1 Mg3 O7 90.68(9) . . 1_655
+O1 Mg3 O7 81.0(1) . . 2_556
+O1 Mg3 O7 130.3(2) . . 7_556
+O1 Mg3 O7 145.8(2) . . 8_655
+O1 Mg3 O1 84.5(1) 8_555 . .
+O1 Mg3 O7 145.8(2) 8_555 . 1_655
+O1 Mg3 O7 130.3(2) 8_555 . 2_556
+O1 Mg3 O7 81.0(1) 8_555 . 7_556
+O1 Mg3 O7 90.68(9) 8_555 . 8_655
+O7 Mg3 O7 81.9(1) 1_655 . 2_556
+O7 Mg3 O7 125.6(2) 1_655 . 7_556
+O7 Mg3 O7 74.6(1) 1_655 . 8_655
+O7 Mg3 O7 81.9(1) 2_556 . 1_655
+O7 Mg3 O7 73.3(1) 2_556 . 7_556
+O7 Mg3 O7 125.6(2) 2_556 . 8_655
+O7 Mg3 O7 125.6(2) 7_556 . 1_655
+O7 Mg3 O7 73.3(1) 7_556 . 2_556
+O7 Mg3 O7 81.9(1) 7_556 . 8_655
+O7 Mg3 O7 74.6(1) 8_655 . 1_655
+O7 Mg3 O7 125.6(2) 8_655 . 2_556
+O7 Mg3 O7 81.9(1) 8_655 . 7_556
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+Mo1 O2 1.745(2) . .
+Mo1 O3 1.765(2) . .
+Mo1 O3 1.765(2) . 8_555
+Mo1 O4 1.793(3) . 1_454
+Mo2 O1 1.780(2) . .
+Mo2 O5 1.768(2) . 1_545
+Mo2 O6 1.786(2) . 1_545
+Mo2 O7 1.749(2) . .
+Mg1 O1 2.055(2) . .
+Mg1 O3 2.099(2) . 1_556
+Mg1 O3 2.185(2) . 5_656
+Mg1 O4 2.111(2) . .
+Mg1 O6 2.076(2) . 1_645
+Mg1 O6 2.117(2) . 5_667
+Mg2 O2 2.129(4) . .
+Mg2 O2 2.129(4) . 2_555
+Mg2 O5 2.050(3) . 5_666
+Mg2 O5 2.057(3) . 6_564
+Mg2 O5 2.057(3) . 3_544
+Mg2 O5 2.050(3) . 4_646
+Mg3 O1 2.133(3) . .
+Mg3 O1 2.133(3) . 8_555
+Mg3 O7 2.172(4) . 1_655
+Mg3 O7 2.206(3) . 2_556
+Mg3 O7 2.206(3) . 7_556
+Mg3 O7 2.172(4) . 8_655

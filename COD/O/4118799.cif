@@ -1,0 +1,469 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-16 22:30:59 +0200 (Tue, 16 Feb 2016) $
+#$Revision: 176467 $
+#$URL: svn://www.crystallography.net/cod/cif/4/11/87/4118799.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4118799
+loop_
+_publ_author_name
+'Magdalena M. Lozinska'
+'Enzo Mangano'
+'John P. S. Mowat'
+'Ashley M. Shepherd'
+'Russell F. Howe'
+'Stephen P. Thompson'
+'Julia E. Parker'
+'Stefano Brandani'
+'Paul A. Wright'
+_publ_section_title
+;
+ Understanding Carbon Dioxide Adsorption on Univalent Cation Forms of the
+ Flexible Zeolite Rho at Conditions Relevant to Carbon Capture from Flue
+ Gases
+;
+_journal_name_full               'Journal of the American Chemical Society'
+_journal_page_first              17628
+_journal_page_last               17642
+_journal_paper_doi               10.1021/ja3070864
+_journal_volume                  134
+_journal_year                    2012
+_chemical_formula_sum            'Al0.1 Na0.09 O Si0.4'
+_chemical_formula_weight         32.11
+_space_group_IT_number           217
+_symmetry_cell_setting           cubic
+_symmetry_space_group_name_Hall  'I -4 2 3'
+_symmetry_space_group_name_H-M   'I -4 3 m'
+_audit_author_name               jpsm
+_audit_creation_date             2012-07-11T17:02
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_audit_update_record
+' 2012-07-11T17:02  Initial CIF as created by GSAS2CIF'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            96
+_cell_length_a                   14.41336(10)
+_cell_length_b                   14.41336
+_cell_length_c                   14.41336
+_cell_measurement_temperature    298
+_cell_volume                     2994.30(2)
+_computing_structure_refinement  GSAS
+_diffrn_ambient_temperature      298
+_diffrn_measurement_device_type  synchrotron
+_diffrn_radiation_polarisn_ratio 0.93
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_type           synchrotron
+_diffrn_radiation_wavelength     0.827159
+_exptl_absorpt_correction_T_max  1.00000
+_exptl_absorpt_correction_T_min  1.00000
+_exptl_absorpt_process_details
+;   GSAS Absorption/surface roughness correction: function number 0
+ No correction is applied.
+;
+_pd_block_id                     2012-07-11T17:02|Na-Rho|JPSM|i11
+_pd_calc_method                  'Rietveld Refinement'
+_pd_char_colour                  white
+_pd_meas_2theta_range_inc        0.005
+_pd_meas_2theta_range_max        49.9975
+_pd_meas_2theta_range_min        2.0025
+_pd_meas_number_of_points        9600
+_pd_phase_name                   'from D:/gsas/MyWork/MML269a/NaRho.EXP'
+_pd_proc_2theta_range_inc        0.005
+_pd_proc_2theta_range_max        49.99749
+_pd_proc_2theta_range_min        2.00249
+_pd_proc_info_datetime           2012-07-11T17:02:34
+_pd_proc_ls_background_function
+;   GSAS Background function number 7 with 30 terms.
+ Linear interpolation
+      1:    163.589     2:    101.239     3:    80.2873     4:    72.4667    
+      5:    75.1749     6:    112.992     7:    139.164     8:    99.0981    
+      9:    75.7076    10:    63.3395    11:    51.7694    12:    43.5294    
+     13:    46.2881    14:    42.9369    15:    45.3759    16:    43.2239    
+     17:    41.8309    18:    43.8143    19:    47.8809    20:    42.4235    
+     21:    48.9649    22:    45.8471    23:    44.9038    24:    43.6738    
+     25:    40.5249    26:    28.9289    27:    26.8405    28:    27.2822    
+     29:    27.9624    30:    27.1324    
+;
+_pd_proc_ls_peak_cutoff          0.00050
+_pd_proc_ls_profile_function
+;
+ CW Profile function number 3 with  19 terms
+ Pseudovoigt profile coefficients as parameterized in
+ P. Thompson, D.E. Cox & J.B. Hastings (1987). J. Appl. Cryst.,20,79-83.
+ Asymmetry correction of L.W. Finger, D.E. Cox & A. P. Jephcoat (1994).
+ J. Appl. Cryst.,27,892-900.
+ Peak tails are ignored  where the intensity is below 0.0005 times the peak
+   Aniso. broadening axis   0.0   0.0   1.0
+;
+_pd_proc_ls_prof_R_factor        0.0770
+_pd_proc_ls_prof_wR_expected     0.0689
+_pd_proc_ls_prof_wR_factor       0.1034
+_pd_proc_number_of_points        9600
+_refine_ls_goodness_of_fit_all   1.53
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     16
+_refine_ls_number_restraints     12
+_refine_ls_R_Fsqd_factor         0.06993
+_refine_ls_shift/su_max          0.05
+_refine_ls_shift/su_mean         0.00
+_reflns_d_resolution_high        0.985
+_reflns_d_resolution_low         10.192
+_reflns_limit_h_max              15
+_reflns_limit_h_min              1
+_reflns_limit_k_max              10
+_reflns_limit_k_min              0
+_reflns_limit_l_max              8
+_reflns_limit_l_min              0
+_reflns_number_total             195
+_cod_data_source_file            ja3070864_si_002_1.cif
+_cod_data_source_block           Na-Rho_publ
+_cod_depositor_comments          'Adding Fobs data.'
+_cod_original_cell_volume        2994.30(6)
+_cod_original_formula_sum        'Al0.10 Na0.09 O Si0.40'
+_cod_database_code               4118799
+_cod_database_fobs_code          4118799
+#BEGIN Tags that were not found in dictionaries:
+_gsas_exptl_extinct_corr_t_min   1.00000
+_gsas_exptl_extinct_corr_t_max   1.00000
+#END Tags that were not found in dictionaries
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 +z,+x,+y
+3 +y,+z,+x
+4 +y,-x,-z
+5 -z,+y,-x
+6 -x,-z,+y
+7 -x,-y,+z
+8 -z,+x,-y
+9 -y,-z,+x
+10 +x,-y,-z
+11 +z,-x,-y
+12 -y,+z,-x
+13 -y,+x,-z
+14 -z,-y,+x
+15 +x,-z,-y
+16 +x,+z,+y
+17 +y,+x,+z
+18 +z,+y,+x
+19 +y,-z,-x
+20 -y,-x,+z
+21 +z,-y,-x
+22 -x,+z,-y
+23 -x,+y,-z
+24 -z,-x,+y
+101 +x+1/2,+y+1/2,+z+1/2
+102 +z+1/2,+x+1/2,+y+1/2
+103 +y+1/2,+z+1/2,+x+1/2
+104 +y+1/2,-x+1/2,-z+1/2
+105 -z+1/2,+y+1/2,-x+1/2
+106 -x+1/2,-z+1/2,+y+1/2
+107 -x+1/2,-y+1/2,+z+1/2
+108 -z+1/2,+x+1/2,-y+1/2
+109 -y+1/2,-z+1/2,+x+1/2
+110 +x+1/2,-y+1/2,-z+1/2
+111 +z+1/2,-x+1/2,-y+1/2
+112 -y+1/2,+z+1/2,-x+1/2
+113 -y+1/2,+x+1/2,-z+1/2
+114 -z+1/2,-y+1/2,+x+1/2
+115 +x+1/2,-z+1/2,-y+1/2
+116 +x+1/2,+z+1/2,+y+1/2
+117 +y+1/2,+x+1/2,+z+1/2
+118 +z+1/2,+y+1/2,+x+1/2
+119 +y+1/2,-z+1/2,-x+1/2
+120 -y+1/2,-x+1/2,+z+1/2
+121 +z+1/2,-y+1/2,-x+1/2
+122 -x+1/2,+z+1/2,-y+1/2
+123 -x+1/2,+y+1/2,-z+1/2
+124 -z+1/2,-x+1/2,+y+1/2
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+Si Si1 0.27429(15) 0.12260(18) 0.42518(17) 0.8 Uiso 0.0132(5) 48
+Al Al1 0.27429(15) 0.12260(18) 0.42518(17) 0.2 Uiso 0.0132(5) 48
+O O1 0.03882(25) 0.21133(23) 0.38675(30) 1.0 Uiso 0.0045(8) 48
+O O2 0.21936(29) 0.21936(29) 0.4039(5) 1.0 Uiso 0.0045(8) 24
+O O3 0.11701(28) 0.11701(28) 0.6275(4) 1.0 Uiso 0.0045(8) 24
+Na Na2 0.3103(8) 0.3103(8) 0.3103(8) 0.38869 Uiso 0.0490(5) 8
+Na Na1 0.3869(9) 0.0 0.0 0.5 Uiso 0.0490(5) 12
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_Cromer_Mann_a1
+_atom_type_scat_Cromer_Mann_a2
+_atom_type_scat_Cromer_Mann_a3
+_atom_type_scat_Cromer_Mann_a4
+_atom_type_scat_Cromer_Mann_b1
+_atom_type_scat_Cromer_Mann_b2
+_atom_type_scat_Cromer_Mann_b3
+_atom_type_scat_Cromer_Mann_b4
+_atom_type_scat_Cromer_Mann_c
+_atom_type_scat_source
+Si 38.4 0.000 0.000 6.29150 2.43860 3.03530 32.3337 1.98910 0.67850 1.54100
+81.6937 1.14070 International_Tables_Vol_C
+Al 9.6 0.000 0.000 6.42020 3.03870 1.90020 0.74260 1.59360 31.5472 1.96460
+85.0886 1.11510 International_Tables_Vol_C
+O 96.0 0.000 0.000 3.04850 13.2771 2.28680 5.70110 1.54630 0.32390 0.86700
+32.9089 0.25080 International_Tables_Vol_C
+Na 9.11 0.000 0.000 4.76260 3.28500 3.17360 8.84220 1.26740 0.31360 1.11280
+129.424 0.67600 International_Tables_Vol_C
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O1 Si1 O1 110.5(4) 17_555 109_555 n
+O1 Si1 O2 107.63(25) 17_555 1_555 n
+O1 Si1 O3 115.64(29) 17_555 112_545 n
+O1 Si1 Na2 123.1(4) 17_555 1_555 n
+O1 Si1 O2 108.43(33) 109_555 1_555 n
+O1 Si1 O3 104.14(23) 109_555 112_545 n
+O1 Si1 Na2 123.9(4) 109_555 1_555 n
+O2 Si1 O3 110.33(34) 1_555 112_545 n
+O2 Si1 Na2 42.48(23) 1_555 1_555 n
+O3 Si1 Na2 68.14(23) 112_545 1_555 n
+O1 Al1 O1 110.5(4) 17_555 109_555 n
+O1 Al1 O2 107.63(25) 17_555 1_555 n
+O1 Al1 O3 115.64(29) 17_555 112_545 n
+O1 Al1 Na2 123.1(4) 17_555 1_555 n
+O1 Al1 O2 108.43(33) 109_555 1_555 n
+O1 Al1 O3 104.14(23) 109_555 112_545 n
+O1 Al1 Na2 123.9(4) 109_555 1_555 n
+O2 Al1 O3 110.33(34) 1_555 112_545 n
+O2 Al1 Na2 42.48(23) 1_555 1_555 n
+O3 Al1 Na2 68.14(23) 112_545 1_555 n
+Si1 O1 Si1 134.39(28) 17_555 111_455 n
+Si1 O1 Al1 0.0 17_555 17_555 n
+Si1 O1 Al1 134.39(28) 17_555 111_455 n
+Si1 O1 Al1 134.39(28) 111_455 17_555 n
+Si1 O1 Al1 0.0 111_455 111_455 n
+Al1 O1 Al1 134.39(28) 17_555 111_455 n
+Si1 O2 Si1 142.5(5) 1_555 17_555 n
+Si1 O2 Al1 0.0 1_555 1_555 n
+Si1 O2 Al1 142.5(5) 1_555 17_555 n
+Si1 O2 Na2 108.77(25) 1_555 1_555 n
+Si1 O2 Al1 142.5(5) 17_555 1_555 n
+Si1 O2 Al1 0.0 17_555 17_555 n
+Si1 O2 Na2 108.77(25) 17_555 1_555 n
+Al1 O2 Al1 142.5(5) 1_555 17_555 n
+Al1 O2 Na2 108.77(25) 1_555 1_555 n
+Al1 O2 Na2 108.77(25) 17_555 1_555 n
+Si1 O3 Si1 132.2(4) 106_555 124_555 n
+Si1 O3 Al1 0.0 106_555 106_555 n
+Si1 O3 Al1 132.2(4) 106_555 124_555 n
+Si1 O3 Na1 113.44(21) 106_555 5_556 n
+Si1 O3 Al1 132.2(4) 124_555 106_555 n
+Si1 O3 Al1 0.0 124_555 124_555 n
+Si1 O3 Na1 113.44(21) 124_555 5_556 n
+Al1 O3 Al1 132.2(4) 106_555 124_555 n
+Al1 O3 Na1 113.44(21) 106_555 5_556 n
+Al1 O3 Na1 113.44(21) 124_555 5_556 n
+Si1 Na2 Si1 112.39(30) 1_555 2_555 n
+Si1 Na2 Si1 112.39(30) 1_555 3_555 n
+Si1 Na2 Si1 147.3(7) 1_555 16_555 n
+Si1 Na2 Si1 57.50(14) 1_555 17_555 n
+Si1 Na2 Si1 57.17(14) 1_555 18_555 n
+Si1 Na2 Al1 0.0 1_555 1_555 n
+Si1 Na2 Al1 112.39(30) 1_555 2_555 n
+Si1 Na2 Al1 112.39(30) 1_555 3_555 n
+Si1 Na2 Al1 147.3(7) 1_555 16_555 n
+Si1 Na2 Al1 57.50(14) 1_555 17_555 n
+Si1 Na2 Al1 57.17(14) 1_555 18_555 n
+Si1 Na2 O2 28.75(7) 1_555 1_555 n
+Si1 Na2 O2 84.74(25) 1_555 2_555 n
+Si1 Na2 O2 134.2(6) 1_555 3_555 n
+Si1 Na2 Si1 112.39(30) 2_555 3_555 n
+Si1 Na2 Si1 57.17(14) 2_555 16_555 n
+Si1 Na2 Si1 147.3(7) 2_555 17_555 n
+Si1 Na2 Si1 57.50(14) 2_555 18_555 n
+Si1 Na2 Al1 112.39(30) 2_555 1_555 n
+Si1 Na2 Al1 0.0 2_555 2_555 n
+Si1 Na2 Al1 112.39(30) 2_555 3_555 n
+Si1 Na2 Al1 57.17(14) 2_555 16_555 n
+Si1 Na2 Al1 147.3(7) 2_555 17_555 n
+Si1 Na2 Al1 57.50(14) 2_555 18_555 n
+Si1 Na2 O2 134.2(6) 2_555 1_555 n
+Si1 Na2 O2 28.75(7) 2_555 2_555 n
+Si1 Na2 O2 84.74(25) 2_555 3_555 n
+Si1 Na2 Si1 57.50(14) 3_555 16_555 n
+Si1 Na2 Si1 57.17(14) 3_555 17_555 n
+Si1 Na2 Si1 147.3(7) 3_555 18_555 n
+Si1 Na2 Al1 112.39(30) 3_555 1_555 n
+Si1 Na2 Al1 112.39(30) 3_555 2_555 n
+Si1 Na2 Al1 0.0 3_555 3_555 n
+Si1 Na2 Al1 57.50(14) 3_555 16_555 n
+Si1 Na2 Al1 57.17(14) 3_555 17_555 n
+Si1 Na2 Al1 147.3(7) 3_555 18_555 n
+Si1 Na2 O2 84.74(25) 3_555 1_555 n
+Si1 Na2 O2 134.2(6) 3_555 2_555 n
+Si1 Na2 O2 28.75(7) 3_555 3_555 n
+Si1 Na2 Si1 112.39(30) 16_555 17_555 n
+Si1 Na2 Si1 112.39(30) 16_555 18_555 n
+Si1 Na2 Al1 147.3(7) 16_555 1_555 n
+Si1 Na2 Al1 57.17(14) 16_555 2_555 n
+Si1 Na2 Al1 57.50(14) 16_555 3_555 n
+Si1 Na2 Al1 0.0 16_555 16_555 n
+Si1 Na2 Al1 112.39(30) 16_555 17_555 n
+Si1 Na2 Al1 112.39(30) 16_555 18_555 n
+Si1 Na2 O2 134.2(6) 16_555 1_555 n
+Si1 Na2 O2 84.74(25) 16_555 2_555 n
+Si1 Na2 O2 28.75(7) 16_555 3_555 n
+Si1 Na2 Si1 112.39(30) 17_555 18_555 n
+Si1 Na2 Al1 57.50(14) 17_555 1_555 n
+Si1 Na2 Al1 147.3(7) 17_555 2_555 n
+Si1 Na2 Al1 57.17(14) 17_555 3_555 n
+Si1 Na2 Al1 112.39(30) 17_555 16_555 n
+Si1 Na2 Al1 0.0 17_555 17_555 n
+Si1 Na2 Al1 112.39(30) 17_555 18_555 n
+Si1 Na2 O2 28.75(7) 17_555 1_555 n
+Si1 Na2 O2 134.2(6) 17_555 2_555 n
+Si1 Na2 O2 84.74(25) 17_555 3_555 n
+Si1 Na2 Al1 57.17(14) 18_555 1_555 n
+Si1 Na2 Al1 57.50(14) 18_555 2_555 n
+Si1 Na2 Al1 147.3(7) 18_555 3_555 n
+Si1 Na2 Al1 112.39(30) 18_555 16_555 n
+Si1 Na2 Al1 112.39(30) 18_555 17_555 n
+Si1 Na2 Al1 0.0 18_555 18_555 n
+Si1 Na2 O2 84.74(25) 18_555 1_555 n
+Si1 Na2 O2 28.75(7) 18_555 2_555 n
+Si1 Na2 O2 134.2(6) 18_555 3_555 n
+Al1 Na2 Al1 112.39(30) 1_555 2_555 n
+Al1 Na2 Al1 112.39(30) 1_555 3_555 n
+Al1 Na2 Al1 147.3(7) 1_555 16_555 n
+Al1 Na2 Al1 57.50(14) 1_555 17_555 n
+Al1 Na2 Al1 57.17(14) 1_555 18_555 n
+Al1 Na2 O2 28.75(7) 1_555 1_555 n
+Al1 Na2 O2 84.74(25) 1_555 2_555 n
+Al1 Na2 O2 134.2(6) 1_555 3_555 n
+Al1 Na2 Al1 112.39(30) 2_555 3_555 n
+Al1 Na2 Al1 57.17(14) 2_555 16_555 n
+Al1 Na2 Al1 147.3(7) 2_555 17_555 n
+Al1 Na2 Al1 57.50(14) 2_555 18_555 n
+Al1 Na2 O2 134.2(6) 2_555 1_555 n
+Al1 Na2 O2 28.75(7) 2_555 2_555 n
+Al1 Na2 O2 84.74(25) 2_555 3_555 n
+Al1 Na2 Al1 57.50(14) 3_555 16_555 n
+Al1 Na2 Al1 57.17(14) 3_555 17_555 n
+Al1 Na2 Al1 147.3(7) 3_555 18_555 n
+Al1 Na2 O2 84.74(25) 3_555 1_555 n
+Al1 Na2 O2 134.2(6) 3_555 2_555 n
+Al1 Na2 O2 28.75(7) 3_555 3_555 n
+Al1 Na2 Al1 112.39(30) 16_555 17_555 n
+Al1 Na2 Al1 112.39(30) 16_555 18_555 n
+Al1 Na2 O2 134.2(6) 16_555 1_555 n
+Al1 Na2 O2 84.74(25) 16_555 2_555 n
+Al1 Na2 O2 28.75(7) 16_555 3_555 n
+Al1 Na2 Al1 112.39(30) 17_555 18_555 n
+Al1 Na2 O2 28.75(7) 17_555 1_555 n
+Al1 Na2 O2 134.2(6) 17_555 2_555 n
+Al1 Na2 O2 84.74(25) 17_555 3_555 n
+Al1 Na2 O2 84.74(25) 18_555 1_555 n
+Al1 Na2 O2 28.75(7) 18_555 2_555 n
+Al1 Na2 O2 134.2(6) 18_555 3_555 n
+O2 Na2 O2 110.2(5) 1_555 2_555 n
+O2 Na2 O2 110.2(5) 1_555 3_555 n
+O2 Na2 O2 110.2(5) 2_555 3_555 n
+O3 Na1 O3 170.0(7) 5_655 14_655 n
+O3 Na1 Na1 95.00(33) 5_655 6_655 n
+O3 Na1 Na1 95.00(33) 14_655 6_655 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Si1 Si1 3.010(4) 106_555 n
+Si1 Si1 3.010(4) 122_545 n
+Si1 Al1 3.092(5) 17_555 n
+Si1 Al1 3.076(5) 18_555 n
+Si1 Al1 3.010(4) 106_555 n
+Si1 Al1 3.010(4) 122_545 n
+Si1 O1 1.6089(33) 17_555 n
+Si1 O1 1.6565(33) 109_555 n
+Si1 O2 1.6328(33) 1_555 n
+Si1 O3 1.6822(29) 112_545 n
+Si1 Na2 3.214(6) 1_555 n
+Si1 Na1 3.4301(23) 104_555 n
+Al1 Si1 3.092(5) 17_555 n
+Al1 Si1 3.076(5) 18_555 n
+Al1 Si1 3.010(4) 106_555 n
+Al1 Si1 3.010(4) 122_545 n
+Al1 Al1 3.092(5) 17_555 n
+Al1 Al1 3.076(5) 18_555 n
+Al1 Al1 3.010(4) 106_555 n
+Al1 Al1 3.010(4) 122_545 n
+Al1 O1 1.6089(33) 17_555 n
+Al1 O1 1.6565(33) 109_555 n
+Al1 O2 1.6328(33) 1_555 n
+Al1 O3 1.6822(29) 112_545 n
+Al1 Na2 3.214(6) 1_555 n
+Al1 Na1 3.4301(23) 104_555 n
+O1 Si1 1.6089(33) 17_555 n
+O1 Si1 1.6565(33) 111_455 n
+O1 Al1 1.6089(33) 17_555 n
+O1 Al1 1.6565(33) 111_455 n
+O1 Na1 3.0969(32) 3_555 n
+O2 Si1 1.6328(33) 1_555 n
+O2 Si1 1.6328(33) 17_555 n
+O2 Al1 1.6328(33) 1_555 n
+O2 Al1 1.6328(33) 17_555 n
+O2 Na2 2.292(8) 1_555 n
+O3 Si1 1.6822(29) 106_555 n
+O3 Si1 1.6822(29) 124_555 n
+O3 Al1 1.6822(29) 106_555 n
+O3 Al1 1.6822(29) 124_555 n
+O3 Na2 3.022(5) 106_555 n
+O3 Na1 2.394(6) 5_556 n
+Na2 Si1 3.214(6) 1_555 n
+Na2 Si1 3.214(6) 2_555 n
+Na2 Si1 3.214(6) 3_555 n
+Na2 Si1 3.214(6) 16_555 n
+Na2 Si1 3.214(6) 17_555 n
+Na2 Si1 3.214(6) 18_555 n
+Na2 Al1 3.214(6) 1_555 n
+Na2 Al1 3.214(6) 2_555 n
+Na2 Al1 3.214(6) 3_555 n
+Na2 Al1 3.214(6) 16_555 n
+Na2 Al1 3.214(6) 17_555 n
+Na2 Al1 3.214(6) 18_555 n
+Na2 O2 2.292(8) 1_555 n
+Na2 O2 2.292(8) 2_555 n
+Na2 O2 2.292(8) 3_555 n
+Na2 O3 3.022(5) 107_554 n
+Na2 O3 3.022(5) 111_455 n
+Na2 O3 3.022(5) 112_545 n
+Na1 Si1 3.4301(23) 109_554 n
+Na1 Si1 3.4301(23) 112_545 n
+Na1 Si1 3.4301(23) 113_545 n
+Na1 Si1 3.4301(23) 120_554 n
+Na1 Al1 3.4301(23) 109_554 n
+Na1 Al1 3.4301(23) 112_545 n
+Na1 Al1 3.4301(23) 113_545 n
+Na1 Al1 3.4301(23) 120_554 n
+Na1 O1 3.0969(32) 2_555 n
+Na1 O1 3.0969(32) 11_555 n
+Na1 O1 3.0969(32) 18_555 n
+Na1 O1 3.0969(32) 21_555 n
+Na1 O3 2.394(6) 5_655 n
+Na1 O3 2.394(6) 14_655 n
+Na1 Na1 3.259(26) 6_655 n

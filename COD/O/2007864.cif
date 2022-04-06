@@ -1,0 +1,304 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-19 16:29:56 +0200 (Fri, 19 Feb 2016) $
+#$Revision: 176759 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/78/2007864.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2007864
+loop_
+_publ_author_name
+'Meetsma, Auke'
+'de Boer, Jan L.'
+'Damascelli, A.'
+' Jegoudez, J.'
+' Revcolevschi, A.'
+'Palstra, T.T.M.'
+_publ_section_title
+;
+ Inversion Symmetry in the Spin-Peierls Compound \a'-NaV~2~O~5~
+;
+_journal_issue                   11
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              1558
+_journal_page_last               1561
+_journal_paper_doi               10.1107/S0108270198004855
+_journal_volume                  54
+_journal_year                    1998
+_chemical_formula_moiety         'Na V2 O5'
+_chemical_formula_sum            'Na O5 V2'
+_chemical_formula_weight         204.87
+_chemical_name_systematic
+;
+ ?
+;
+_space_group_IT_number           59
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2ab 2a'
+_symmetry_space_group_name_H-M   'P m m n :2'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   11.3110(10)
+_cell_length_b                   3.6100(10)
+_cell_length_c                   4.8000(10)
+_cell_measurement_reflns_used    22
+_cell_measurement_temperature    295
+_cell_measurement_theta_max      22.37
+_cell_measurement_theta_min      14.57
+_cell_volume                     196.00(7)
+_computing_cell_refinement       'SET4 (de Boer & Duisenberg, 1984)'
+_computing_data_collection       'CAD4-UNIX Software (Enraf-Nonius, 1994)'
+_computing_data_reduction        'HELENA (Spek, 1993)'
+_computing_molecular_graphics
+;
+ Ca.R.Ine (Boudias & Monceau, 1996),
+ ORTEP (Johnson, 1965),
+ PLATON (Spek, 1994, 1996)
+;
+_computing_publication_material  'PLATON (Spek, 1990)'
+_computing_structure_refinement  'SHELXL97 (Sheldrick, 1997b)'
+_computing_structure_solution
+;
+ SHELXS97 (Sheldrick, 1997a)
+;
+_diffrn_ambient_temperature      295
+_diffrn_measurement_device_type
+;
+    Enraf Nonius CAD-4F diffractometer
+;
+_diffrn_measurement_method       \w/2\q
+_diffrn_radiation_monochromator  'perpendicular mounted graphite'
+_diffrn_radiation_source         'fine focus sealed Philips Mo tube'
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     .71073
+_diffrn_reflns_av_R_equivalents  0.0232
+_diffrn_reflns_av_sigmaI/netI    0.0198
+_diffrn_reflns_limit_h_max       20
+_diffrn_reflns_limit_h_min       -20
+_diffrn_reflns_limit_k_max       6
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       8
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            1472
+_diffrn_reflns_reduction_process
+;
+ Intensity data were corrected for Lorentz and polarization  effects, scale
+ variation, for absorption and reduced to F~o~^2^
+;
+_diffrn_reflns_theta_max         39.96
+_diffrn_reflns_theta_min         3.60
+_diffrn_standards_decay_%        1.0
+_diffrn_standards_interval_time  180
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    4.77
+_exptl_absorpt_correction_T_max  0.938
+_exptl_absorpt_correction_T_min  0.601
+_exptl_absorpt_correction_type   'Gaussian integration (Spek, 1983)'
+_exptl_crystal_colour            black
+_exptl_crystal_density_diffrn    3.471
+_exptl_crystal_density_meas      ?
+_exptl_crystal_description       'rectangle plate'
+_exptl_crystal_F_000             194
+_exptl_crystal_size_max          0.20
+_exptl_crystal_size_mid          0.15
+_exptl_crystal_size_min          0.013
+_refine_diff_density_max         .675
+_refine_diff_density_min         -.429
+_refine_ls_extinction_coef       0.067(4)
+_refine_ls_extinction_method     SHELXL97_(Sheldrick,_1997)
+_refine_ls_goodness_of_fit_ref   1.126
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     28
+_refine_ls_number_reflns         701
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.126
+_refine_ls_R_factor_all          0.0176
+_refine_ls_R_factor_gt           0.0151
+_refine_ls_shift/su_max          0.001
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w = 1/[\s^2^(Fo^2^)+(0.0189P)^2^] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_ref         0.0386
+_reflns_number_gt                650
+_reflns_number_total             701
+_reflns_threshold_expression     I>2\s(I)
+_cod_data_source_file            sk1183.cif
+_cod_data_source_block           sk1183
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_symmetry_cell_setting' value 'Orthorhombic' changed to 'orthorhombic'
+according to '/home/saulius/struct/CIF-dictionaries/cif_core.dic'
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Orthorhombic' changed to
+'orthorhombic' according to
+/home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+
+The following automatic conversions were performed:
+
+'_exptl_crystal_density_meas' value 'Not measured' was changed to '?'
+- the value is perceived as not measured.
+
+Automatic conversion script
+Id: cif_fix_values 3008 2015-01-20 13:52:24Z robertas 
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'calc w =
+1/[\s^2^(Fo^2^)+(0.0189P)^2^] where P=(Fo^2^+2Fc^2^)/3' was changed
+to 'calc'. New tag '_refine_ls_weighting_details' was created. The
+value of the new tag was set to 'w = 1/[\s^2^(Fo^2^)+(0.0189P)^2^]
+where P=(Fo^2^+2Fc^2^)/3'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_sg_symbol_H-M      'P m m n'
+_cod_database_code               2007864
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+1/2-x,1/2-y,z
+1/2+x,-y,-z
+-x,1/2+y,-z
+-x,-y,-z
+1/2+x,1/2+y,-z
+1/2-x,y,z
+x,1/2-y,z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+V .00580(10) .00490(10) .01130(10) .0000 -.00220(10) .0000
+O1 .0064(3) .0084(4) .0135(4) .0000 .0000 .0000
+O2 .0140(3) .0181(4) .0132(3) .0000 -.0008(2) .0000
+O3 .0066(2) .0053(2) .0173(3) .0000 -.0018(2) .0000
+Na .0230(3) .0125(3) .0154(3) .0000 .0000 .0000
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_occupancy
+V .097880(10) .75000 .60781(3) .00730(10) Uani 1.000
+O1 .25000 .75000 .4805(2) .0094(2) Uani 1.000
+O2 .11452(7) .75000 .94197(17) .0151(2) Uani 1.000
+O3 .07302(6) .25000 .48769(16) .00970(10) Uani 1.000
+Na .25000 .25000 .14080(15) .0170(2) Uani 1.000
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+V V .3005 .5294 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O .0106 .0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Na Na .0362 .0249 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_diffrn_standard_refln_index_h
+_diffrn_standard_refln_index_k
+3 1
+-3 -1
+-3 1
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O1 V O2 . . 102.86(4) yes
+O1 V O3 . . 92.15(2) yes
+O1 V O3 . 1_565 92.15(2) yes
+O1 V O3 . 4_556 147.11(4) yes
+O2 V O3 . . 108.42(2) yes
+O2 V O3 . 1_565 108.42(2) yes
+O2 V O3 . 4_556 110.03(4) yes
+O3 V O3 . 1_565 140.87(3) yes
+O3 V O3 . 4_556 77.74(2) yes
+O3 V O3 1_565 4_556 77.74(2) yes
+V O1 V . 2_565 140.89(6) yes
+V O3 V . 1_545 140.87(4) yes
+V O3 V . 4_546 102.26(2) yes
+V O3 V 1_545 4_546 102.26(2) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+V O1 . . 1.8259(6) yes
+V O2 . . 1.6150(9) yes
+V O3 . . 1.9156(6) yes
+V O3 . 1_565 1.9156(6) yes
+V O3 . 4_556 1.9867(9) yes
+loop_
+_geom_contact_atom_site_label_1
+_geom_contact_atom_site_label_2
+_geom_contact_distance
+_geom_contact_site_symmetry_2
+_geom_contact_publ_flag
+V V 3.0384(9) 4_556 no
+V V 3.0384(9) 4_546 no
+V O2 3.2016(12) 1_554 no
+V Na 3.3531(11) 1_555 no
+V Na 3.3531(11) 1_565 no
+V V 3.4413(10) 2_565 no
+V Na 3.5726(11) 1_556 no
+V Na 3.5726(11) 1_566 no
+V V 3.6100(10) 1_545 no
+V V 3.6100(10) 1_565 no
+V O2 3.6270(13) 2_565 no
+V O2 3.7013(12) 4_547 no
+V O2 3.7013(12) 4_557 no
+Na O1 2.4325(11) 1_545 yes
+Na O1 2.4325(11) 1_555 yes
+Na O2 2.5529(9) 1_544 yes
+Na O2 2.5529(9) 1_554 yes
+Na O2 2.5529(9) 2_554 yes
+Na O2 2.5529(9) 2_564 yes
+Na O3 2.6038(11) 2_555 yes
+Na O3 2.6038(11) 1_555 yes
+Na V 3.3531(11) 1_545 no
+Na V 3.3531(11) 1_555 no
+Na V 3.3531(11) 2_555 no
+Na V 3.3531(11) 2_565 no
+Na V 3.5726(11) 1_544 no
+Na V 3.5726(11) 1_554 no
+Na V 3.5726(11) 2_554 no
+Na V 3.5726(11) 2_564 no
+Na Na 3.6100(10) 1_545 no
+Na Na 3.6100(10) 1_565 no
+Na O1 3.6473(15) 1_544 no
+Na O1 3.6473(15) 1_554 no
+Na O3 3.7196(14) 1_554 no
+Na O3 3.7196(14) 2_554 no

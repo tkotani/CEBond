@@ -1,0 +1,441 @@
+#------------------------------------------------------------------------------
+#$Date: 2021-04-19 10:54:58 +0300 (Mon, 19 Apr 2021) $
+#$Revision: 264299 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/56/19/1561904.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1561904
+loop_
+_publ_author_name
+'Wang, Nannan'
+'He, Zhangzhen'
+'Cui, Meiyan'
+'Guo, Wenbin'
+'Zhang, Suyun'
+'Yang, Ming'
+'Tang, Yingying'
+_publ_section_title
+;
+ Syntheses, structure and magnetic properties of two vanadate garnets
+ Ca5M4V6O24 (M=Co, Ni)
+;
+_journal_name_full               'Journal of Solid State Chemistry'
+_journal_page_first              245
+_journal_page_last               249
+_journal_paper_doi               10.1016/j.jssc.2015.05.004
+_journal_volume                  228
+_journal_year                    2015
+_chemical_formula_sum            'Ca5 Co4 O24 V6'
+_chemical_formula_weight         1124.96
+_space_group_IT_number           230
+_space_group_name_Hall           '-I 4bd 2c 3'
+_space_group_name_H-M_alt        'I a -3 d'
+_symmetry_cell_setting           cubic
+_symmetry_space_group_name_H-M   'I a -3 d'
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   12.4394(4)
+_cell_length_b                   12.4394(4)
+_cell_length_c                   12.4394(4)
+_cell_measurement_temperature    293(2)
+_cell_volume                     1924.86(11)
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measured_fraction_theta_full 1.000
+_diffrn_measured_fraction_theta_max 1.000
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0399
+_diffrn_reflns_av_sigmaI/netI    0.0126
+_diffrn_reflns_limit_h_max       16
+_diffrn_reflns_limit_h_min       -16
+_diffrn_reflns_limit_k_max       14
+_diffrn_reflns_limit_k_min       -16
+_diffrn_reflns_limit_l_max       16
+_diffrn_reflns_limit_l_min       -16
+_diffrn_reflns_number            6269
+_diffrn_reflns_theta_full        27.43
+_diffrn_reflns_theta_max         27.43
+_diffrn_reflns_theta_min         4.01
+_exptl_absorpt_coefficient_mu    7.589
+_exptl_crystal_density_diffrn    3.890
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       block
+_exptl_crystal_F_000             2155.2
+_refine_diff_density_max         0.357
+_refine_diff_density_min         -0.363
+_refine_diff_density_rms         0.092
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   1.188
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     17
+_refine_ls_number_reflns         187
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.188
+_refine_ls_R_factor_all          0.0346
+_refine_ls_R_factor_gt           0.0346
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0195P)^2^+45.9490P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0761
+_refine_ls_wR_factor_ref         0.0761
+_reflns_number_gt                187
+_reflns_number_total             187
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            JSSC-2015-228-245.cif
+_cod_data_source_block           2
+_cod_original_sg_symbol_H-M      Ia-3d
+_cod_database_code               1561904
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x+1/2, -y, z+1/2'
+'-x, y+1/2, -z+1/2'
+'x+1/2, -y+1/2, -z'
+'z, x, y'
+'z+1/2, -x+1/2, -y'
+'-z+1/2, -x, y+1/2'
+'-z, x+1/2, -y+1/2'
+'y, z, x'
+'-y, z+1/2, -x+1/2'
+'y+1/2, -z+1/2, -x'
+'-y+1/2, -z, x+1/2'
+'y+3/4, x+1/4, -z+1/4'
+'-y+3/4, -x+3/4, -z+3/4'
+'y+1/4, -x+1/4, z+3/4'
+'-y+1/4, x+3/4, z+1/4'
+'x+3/4, z+1/4, -y+1/4'
+'-x+1/4, z+3/4, y+1/4'
+'-x+3/4, -z+3/4, -y+3/4'
+'x+1/4, -z+1/4, y+3/4'
+'z+3/4, y+1/4, -x+1/4'
+'z+1/4, -y+1/4, x+3/4'
+'-z+1/4, y+3/4, x+1/4'
+'-z+3/4, -y+3/4, -x+3/4'
+'x+1/2, y+1/2, z+1/2'
+'-x+1, -y+1/2, z+1'
+'-x+1/2, y+1, -z+1'
+'x+1, -y+1, -z+1/2'
+'z+1/2, x+1/2, y+1/2'
+'z+1, -x+1, -y+1/2'
+'-z+1, -x+1/2, y+1'
+'-z+1/2, x+1, -y+1'
+'y+1/2, z+1/2, x+1/2'
+'-y+1/2, z+1, -x+1'
+'y+1, -z+1, -x+1/2'
+'-y+1, -z+1/2, x+1'
+'y+5/4, x+3/4, -z+3/4'
+'-y+5/4, -x+5/4, -z+5/4'
+'y+3/4, -x+3/4, z+5/4'
+'-y+3/4, x+5/4, z+3/4'
+'x+5/4, z+3/4, -y+3/4'
+'-x+3/4, z+5/4, y+3/4'
+'-x+5/4, -z+5/4, -y+5/4'
+'x+3/4, -z+3/4, y+5/4'
+'z+5/4, y+3/4, -x+3/4'
+'z+3/4, -y+3/4, x+5/4'
+'-z+3/4, y+5/4, x+3/4'
+'-z+5/4, -y+5/4, -x+5/4'
+'-x, -y, -z'
+'x-1/2, y, -z-1/2'
+'x, -y-1/2, z-1/2'
+'-x-1/2, y-1/2, z'
+'-z, -x, -y'
+'-z-1/2, x-1/2, y'
+'z-1/2, x, -y-1/2'
+'z, -x-1/2, y-1/2'
+'-y, -z, -x'
+'y, -z-1/2, x-1/2'
+'-y-1/2, z-1/2, x'
+'y-1/2, z, -x-1/2'
+'-y-3/4, -x-1/4, z-1/4'
+'y-3/4, x-3/4, z-3/4'
+'-y-1/4, x-1/4, -z-3/4'
+'y-1/4, -x-3/4, -z-1/4'
+'-x-3/4, -z-1/4, y-1/4'
+'x-1/4, -z-3/4, -y-1/4'
+'x-3/4, z-3/4, y-3/4'
+'-x-1/4, z-1/4, -y-3/4'
+'-z-3/4, -y-1/4, x-1/4'
+'-z-1/4, y-1/4, -x-3/4'
+'z-1/4, -y-3/4, -x-1/4'
+'z-3/4, y-3/4, x-3/4'
+'-x+1/2, -y+1/2, -z+1/2'
+'x, y+1/2, -z'
+'x+1/2, -y, z'
+'-x, y, z+1/2'
+'-z+1/2, -x+1/2, -y+1/2'
+'-z, x, y+1/2'
+'z, x+1/2, -y'
+'z+1/2, -x, y'
+'-y+1/2, -z+1/2, -x+1/2'
+'y+1/2, -z, x'
+'-y, z, x+1/2'
+'y, z+1/2, -x'
+'-y-1/4, -x+1/4, z+1/4'
+'y-1/4, x-1/4, z-1/4'
+'-y+1/4, x+1/4, -z-1/4'
+'y+1/4, -x-1/4, -z+1/4'
+'-x-1/4, -z+1/4, y+1/4'
+'x+1/4, -z-1/4, -y+1/4'
+'x-1/4, z-1/4, y-1/4'
+'-x+1/4, z+1/4, -y-1/4'
+'-z-1/4, -y+1/4, x+1/4'
+'-z+1/4, y+1/4, -x-1/4'
+'z+1/4, -y-1/4, -x+1/4'
+'z-1/4, y-1/4, x-1/4'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+V1 V 0.0000 0.2500 0.8750 0.0059(4) Uani 1 4 d S . .
+Co1 Co 0.0000 0.5000 0.0000 0.0077(4) Uani 1 6 d S . .
+Ca1 Ca 0.0000 0.2500 0.1250 0.0072(5) Uani 0.84 4 d SP . .
+O1 O 0.0524(2) 0.1555(2) 0.9617(3) 0.0100(6) Uani 1 1 d . . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+V1 0.0058(5) 0.0058(5) 0.0059(7) 0.000 0.000 0.000
+Co1 0.0077(4) 0.0077(4) 0.0077(4) 0.0002(3) 0.0002(3) -0.0002(3)
+Ca1 0.0090(6) 0.0090(6) 0.0037(9) 0.000 0.000 -0.0004(8)
+O1 0.0091(15) 0.0094(15) 0.0113(15) -0.0002(12) 0.0004(11) -0.0001(12)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ca Ca 0.2262 0.3064 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+V V 0.3005 0.5294 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Co Co 0.3494 0.9721 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ni Ni 0.3393 1.1124 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+O1 V1 O1 113.04(11) 26_454 87_557
+O1 V1 O1 113.04(11) 26_454 64_567
+O1 V1 O1 102.5(2) 87_557 64_567
+O1 V1 O1 102.5(2) 26_454 .
+O1 V1 O1 113.04(11) 87_557 .
+O1 V1 O1 113.04(11) 64_567 .
+O1 V1 Ca1 128.73(11) 26_454 51_566
+O1 V1 Ca1 51.27(11) 87_557 51_566
+O1 V1 Ca1 51.27(11) 64_567 51_566
+O1 V1 Ca1 128.73(11) . 51_566
+O1 V1 Ca1 51.27(11) 26_454 1_556
+O1 V1 Ca1 128.73(11) 87_557 1_556
+O1 V1 Ca1 128.73(11) 64_567 1_556
+O1 V1 Ca1 51.27(11) . 1_556
+Ca1 V1 Ca1 180.0 51_566 1_556
+O1 Co1 O1 90.37(12) 74_556 36_464
+O1 Co1 O1 180.00(17) 74_556 26_453
+O1 Co1 O1 89.63(12) 36_464 26_453
+O1 Co1 O1 89.63(12) 74_556 79_455
+O1 Co1 O1 90.37(12) 36_464 79_455
+O1 Co1 O1 90.37(12) 26_453 79_455
+O1 Co1 O1 90.37(12) 74_556 31_554
+O1 Co1 O1 89.63(12) 36_464 31_554
+O1 Co1 O1 89.63(12) 26_453 31_554
+O1 Co1 O1 180.00(16) 79_455 31_554
+O1 Co1 O1 89.63(12) 74_556 84_545
+O1 Co1 O1 180.00(17) 36_464 84_545
+O1 Co1 O1 90.37(12) 26_453 84_545
+O1 Co1 O1 89.63(12) 79_455 84_545
+O1 Co1 O1 90.37(12) 31_554 84_545
+O1 Co1 Ca1 46.29(8) 74_556 59_665
+O1 Co1 Ca1 136.35(9) 36_464 59_665
+O1 Co1 Ca1 133.71(9) 26_453 59_665
+O1 Co1 Ca1 93.69(9) 79_455 59_665
+O1 Co1 Ca1 86.31(9) 31_554 59_665
+O1 Co1 Ca1 43.65(9) 84_545 59_665
+O1 Co1 Ca1 43.65(9) 74_556 49_565
+O1 Co1 Ca1 86.31(9) 36_464 49_565
+O1 Co1 Ca1 136.35(9) 26_453 49_565
+O1 Co1 Ca1 46.29(8) 79_455 49_565
+O1 Co1 Ca1 133.71(8) 31_554 49_565
+O1 Co1 Ca1 93.69(9) 84_545 49_565
+Ca1 Co1 Ca1 66.4 59_665 49_565
+O1 Co1 Ca1 133.71(8) 74_556 11_455
+O1 Co1 Ca1 43.65(9) 36_464 11_455
+O1 Co1 Ca1 46.29(9) 26_453 11_455
+O1 Co1 Ca1 86.31(9) 79_455 11_455
+O1 Co1 Ca1 93.69(9) 31_554 11_455
+O1 Co1 Ca1 136.35(9) 84_545 11_455
+Ca1 Co1 Ca1 180.0 59_665 11_455
+Ca1 Co1 Ca1 113.6 49_565 11_455
+O1 Co1 Ca1 86.31(9) 74_556 31_454
+O1 Co1 Ca1 46.29(8) 36_464 31_454
+O1 Co1 Ca1 93.69(9) 26_453 31_454
+O1 Co1 Ca1 136.35(9) 79_455 31_454
+O1 Co1 Ca1 43.65(9) 31_554 31_454
+O1 Co1 Ca1 133.71(8) 84_545 31_454
+Ca1 Co1 Ca1 113.6 59_665 31_454
+Ca1 Co1 Ca1 113.6 49_565 31_454
+Ca1 Co1 Ca1 66.4 11_455 31_454
+O1 Co1 Ca1 93.69(9) 74_556 79
+O1 Co1 Ca1 133.71(8) 36_464 79
+O1 Co1 Ca1 86.31(9) 26_453 79
+O1 Co1 Ca1 43.65(9) 79_455 79
+O1 Co1 Ca1 136.35(9) 31_554 79
+O1 Co1 Ca1 46.29(8) 84_545 79
+Ca1 Co1 Ca1 66.4 59_665 79
+Ca1 Co1 Ca1 66.4 49_565 79
+Ca1 Co1 Ca1 113.6 11_455 79
+Ca1 Co1 Ca1 180.0 31_454 79
+O1 Co1 Ca1 136.35(9) 74_556 .
+O1 Co1 Ca1 93.69(9) 36_464 .
+O1 Co1 Ca1 43.65(9) 26_453 .
+O1 Co1 Ca1 133.71(8) 79_455 .
+O1 Co1 Ca1 46.29(8) 31_554 .
+O1 Co1 Ca1 86.31(9) 84_545 .
+Ca1 Co1 Ca1 113.6 59_665 .
+Ca1 Co1 Ca1 180.0 49_565 .
+Ca1 Co1 Ca1 66.4 11_455 .
+Ca1 Co1 Ca1 66.4 31_454 .
+Ca1 Co1 Ca1 113.6 79 .
+O1 Ca1 O1 162.52(14) 26_453 38_445
+O1 Ca1 O1 66.99(15) 26_453 1_554
+O1 Ca1 O1 115.92(15) 38_445 1_554
+O1 Ca1 O1 115.92(15) 26_453 13_456
+O1 Ca1 O1 66.99(15) 38_445 13_456
+O1 Ca1 O1 162.52(14) 1_554 13_456
+O1 Ca1 O1 72.95(14) 26_453 31_554
+O1 Ca1 O1 92.53(9) 38_445 31_554
+O1 Ca1 O1 122.88(6) 1_554 31_554
+O1 Ca1 O1 72.91(12) 13_456 31_554
+O1 Ca1 O1 92.53(9) 26_453 43_454
+O1 Ca1 O1 72.95(14) 38_445 43_454
+O1 Ca1 O1 72.91(12) 1_554 43_454
+O1 Ca1 O1 122.88(6) 13_456 43_454
+O1 Ca1 O1 69.94(14) 31_554 43_454
+O1 Ca1 O1 72.91(12) 26_453 17_445
+O1 Ca1 O1 122.88(6) 38_445 17_445
+O1 Ca1 O1 92.53(9) 1_554 17_445
+O1 Ca1 O1 72.95(14) 13_456 17_445
+O1 Ca1 O1 112.83(14) 31_554 17_445
+O1 Ca1 O1 162.78(14) 43_454 17_445
+O1 Ca1 O1 122.88(6) 26_453 5_455
+O1 Ca1 O1 72.91(12) 38_445 5_455
+O1 Ca1 O1 72.95(14) 1_554 5_455
+O1 Ca1 O1 92.53(9) 13_456 5_455
+O1 Ca1 O1 162.78(14) 31_554 5_455
+O1 Ca1 O1 112.83(14) 43_454 5_455
+O1 Ca1 O1 69.94(14) 17_445 5_455
+O1 Ca1 V1 33.50(7) 26_453 1_554
+O1 Ca1 V1 146.50(7) 38_445 1_554
+O1 Ca1 V1 33.50(7) 1_554 1_554
+O1 Ca1 V1 146.50(7) 13_456 1_554
+O1 Ca1 V1 98.61(7) 31_554 1_554
+O1 Ca1 V1 81.39(7) 43_454 1_554
+O1 Ca1 V1 81.39(7) 17_445 1_554
+O1 Ca1 V1 98.61(7) 5_455 1_554
+O1 Ca1 V1 146.50(7) 26_453 51_565
+O1 Ca1 V1 33.50(7) 38_445 51_565
+O1 Ca1 V1 146.50(7) 1_554 51_565
+O1 Ca1 V1 33.50(7) 13_456 51_565
+O1 Ca1 V1 81.39(7) 31_554 51_565
+O1 Ca1 V1 98.61(7) 43_454 51_565
+O1 Ca1 V1 98.61(7) 17_445 51_565
+O1 Ca1 V1 81.39(7) 5_455 51_565
+V1 Ca1 V1 180.0 1_554 51_565
+O1 Ca1 Co1 127.76(7) 26_453 13_455
+O1 Ca1 Co1 36.43(7) 38_445 13_455
+O1 Ca1 Co1 97.67(7) 1_554 13_455
+O1 Ca1 Co1 93.37(7) 13_456 13_455
+O1 Ca1 Co1 76.39(7) 31_554 13_455
+O1 Ca1 Co1 36.76(7) 43_454 13_455
+O1 Ca1 Co1 159.25(7) 17_445 13_455
+O1 Ca1 Co1 95.82(7) 5_455 13_455
+V1 Ca1 Co1 116.6 1_554 13_455
+V1 Ca1 Co1 63.4 51_565 13_455
+O1 Ca1 Co1 93.37(7) 26_453 26_454
+O1 Ca1 Co1 97.67(7) 38_445 26_454
+O1 Ca1 Co1 36.43(7) 1_554 26_454
+O1 Ca1 Co1 127.76(7) 13_456 26_454
+O1 Ca1 Co1 159.25(7) 31_554 26_454
+O1 Ca1 Co1 95.82(7) 43_454 26_454
+O1 Ca1 Co1 76.39(7) 17_445 26_454
+O1 Ca1 Co1 36.76(7) 5_455 26_454
+V1 Ca1 Co1 63.4 1_554 26_454
+V1 Ca1 Co1 116.6 51_565 26_454
+Co1 Ca1 Co1 101.5 13_455 26_454
+V1 O1 Co1 130.85(17) . 26_455
+V1 O1 Ca1 95.23(13) . 1_556
+Co1 O1 Ca1 99.92(12) 26_455 1_556
+V1 O1 Ca1 125.96(15) . 9_556
+Co1 O1 Ca1 96.95(12) 26_455 9_556
+Ca1 O1 Ca1 100.08(11) 1_556 9_556
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+V1 O1 1.723(3) 26_454
+V1 O1 1.723(3) 87_557
+V1 O1 1.723(3) 64_567
+V1 O1 1.723(3) .
+V1 Ca1 3.10985(11) 51_566
+V1 Ca1 3.1098 1_556
+Co1 O1 2.096(3) 74_556
+Co1 O1 2.096(3) 36_464
+Co1 O1 2.096(3) 26_453
+Co1 O1 2.096(3) 79_455
+Co1 O1 2.096(3) 31_554
+Co1 O1 2.096(3) 84_545
+Co1 Ca1 3.47692(11) 59_665
+Co1 Ca1 3.47692(11) 49_565
+Co1 Ca1 3.47692(11) 11_455
+Co1 Ca1 3.47692(11) 31_454
+Co1 Ca1 3.47692(11) 79
+Co1 Ca1 3.47692(11) .
+Ca1 O1 2.436(3) 26_453
+Ca1 O1 2.436(3) 38_445
+Ca1 O1 2.436(3) 1_554
+Ca1 O1 2.436(3) 13_456
+Ca1 O1 2.532(3) 31_554
+Ca1 O1 2.532(3) 43_454
+Ca1 O1 2.532(3) 17_445
+Ca1 O1 2.532(3) 5_455
+Ca1 V1 3.1098 1_554
+Ca1 V1 3.10985(10) 51_565
+Ca1 Co1 3.47692(11) 13_455
+Ca1 Co1 3.47692(11) 26_454
+O1 Co1 2.096(3) 26_455
+O1 Ca1 2.436(3) 1_556
+O1 Ca1 2.532(3) 9_556

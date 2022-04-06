@@ -1,0 +1,191 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/01/38/2013810.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2013810
+loop_
+_publ_author_name
+'Juarez-Arellano, Erick A.'
+'Rosales, Ivonne'
+'Oliver, Alicia'
+'Ruvalcaba, Jose Luis'
+'Carbonio, Raul E.'
+'Bucio, Lauro'
+'Orozco, Eligio'
+_publ_section_title
+;
+ In~1.06~Ho~0.94~Ge~2~O~7~: a thortveitite-type compound
+;
+_journal_issue                   2
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              i14
+_journal_page_last               i16
+_journal_paper_doi               10.1107/S0108270103029056
+_journal_volume                  60
+_journal_year                    2004
+_chemical_formula_iupac          'In1.06 Ho0.94 Ge2 O7'
+_chemical_formula_moiety         'Ge2 Ho1 In1 O7'
+_chemical_formula_structural     'In1 Ho1 Ge2 O7'
+_chemical_formula_sum            'Ge2 Ho In O7'
+_chemical_formula_weight         536.97
+_chemical_name_systematic
+;
+indium holmiuium digermanate
+;
+_space_group_IT_number           15
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-C 2yc'
+_symmetry_space_group_name_H-M   'C 1 2/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 101.7890(10)
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   6.8348(2)
+_cell_length_b                   8.8863(3)
+_cell_length_c                   9.8177(3)
+_cell_measurement_temperature    295
+_cell_volume                     583.71(3)
+_computing_cell_refinement       'DICVOL91 (Boultif & Lou\"er, 1991)'
+_computing_data_collection       'DIFFRAC/AT (Siemens, 1993)'
+_computing_data_reduction        'Please provide missing details'
+_computing_molecular_graphics    'ATOMS (Dowty, 1994)'
+_computing_structure_refinement  'FULLPROF (Rodr\'iguez-Carvajal, 1990)'
+_computing_structure_solution    'Please provide missing details'
+_diffrn_ambient_temperature      295
+_diffrn_measurement_device_type  'Siemens D5000'
+_diffrn_radiation_monochromator  graphite
+_exptl_absorpt_coefficient_mu    67.299
+_exptl_absorpt_correction_type   none
+_exptl_crystal_density_diffrn    6.110(2)
+_exptl_crystal_density_meas      ?
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_F_000             944.0
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_all   1.43
+_refine_ls_hydrogen_treatment    none
+_refine_ls_matrix_type           fullcycle
+_refine_ls_number_parameters     34
+_refine_ls_shift/su_max          0.01
+_refine_ls_structure_factor_coef Inet
+_refine_ls_weighting_scheme      sigma
+_cod_data_source_file            iz1037.cif
+_cod_data_source_block           I
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_exptl_crystal_density_meas' value 'not measured' was changed to '?'
+- the value is perceived as not measured.
+
+Automatic conversion script
+Id: cif_fix_values 3008 2015-01-20 13:52:24Z robertas 
+;
+_cod_original_sg_symbol_H-M      'C 2/c'
+_cod_original_formula_sum        'Ge2 Ho1 In1 O7'
+_cod_database_code               2013810
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -x,y,-z+1/2
+3 -x,-y,-z
+4 x,-y,z+1/2
+5 x+1/2,y+1/2,z
+6 -x+1/2,y+1/2,-z+1/2
+7 -x+1/2,-y+1/2,-z
+8 x+1/2,-y+1/2,z+1/2
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+_atom_site_aniso_type_symbol
+? ? ? ? ? ? ? ?
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+In 0.0055(7) 0.30440(10) 0.4984(5) 0.0110(6) 0.5
+Ho 0.0055(7) 0.30440(10) 0.4984(5) 0.0110(6) 0.5
+Ge 0.2284(3) 0.0030(10) 0.2050(2) 0.0052(8) 1.0
+O1 0.00000 0.025(3) 0.25 0.014(2) 1.0
+O2 0.3790(10) -0.017(3) 0.3557(9) 0.014(2) 1.0
+O3 0.245(4) 0.175(3) 0.112(2) 0.014(2) 1.0
+O4 0.239(4) -0.144(2) 0.119(2) 0.014(2) 1.0
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+In In -0.1260 5.0450 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ho Ho -9.2420 11.9788 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ge Ge -1.1630 0.8860 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0470 0.0320 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_diffrn_radiation_type
+_diffrn_radiation_wavelength
+CuK\a 1.54180
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O2 In O2 5_455 7_556 81.3(9) yes
+O2 In O3 5_455 2_555 84.0(14) yes
+O2 In O3 5_455 8_455 90.6(12) yes
+O2 In O4 5_455 4_555 159.0(16) yes
+O2 In O4 5_455 6_555 77.1(11) yes
+O2 In O3 7_556 2_555 147.9(16) no
+O2 In O3 7_556 8_455 80.7(11) no
+O2 In O4 7_556 4_555 94.3(14) no
+O2 In O4 7_556 6_555 87.2(11) no
+O3 In O3 2_555 8_455 71.0(12) no
+O3 In O4 2_555 4_555 108.9(15) no
+O3 In O4 2_555 6_555 117.0(16) no
+O3 In O4 8_455 4_555 109.1(9) no
+O3 In O4 8_455 6_555 164(2) no
+O4 In O4 4_555 6_555 82.2(13) no
+O1 Ge O2 1_555 1_555 102.6(3) yes
+O1 Ge O3 1_555 1_555 100.9(15) yes
+O1 Ge O4 1_555 1_555 112.1(17) yes
+O2 Ge O3 1_555 1_555 117.4(18) yes
+O2 Ge O4 1_555 1_555 108.0(18) no
+O3 Ge O4 1_555 1_555 114.9(10) no
+Ge O1 Ge 1_555 2_555 167.0(3) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+In O2 . 5_455 2.17(2) yes
+In O2 . 7_556 2.40(2) yes
+In O3 . 2_555 2.16(2) yes
+In O3 . 8_455 2.30(2) yes
+In O4 . 4_555 2.28(2) yes
+In O4 . 6_555 2.33(2) yes
+Ge O1 . 1_555 1.718(4) yes
+Ge O2 . 1_555 1.630(10) yes
+Ge O3 . 1_555 1.79(2) yes
+Ge O4 . 1_555 1.56(2) yes

@@ -1,0 +1,4 @@
+#!/bin/bash
+./CifFilter.py N |& tee CifFilter_N.log
+./CifFilter.py F |& tee CifFilter_F.log
+./CifFilter.py O |& tee CifFilter_O.log

@@ -1,0 +1,158 @@
+#------------------------------------------------------------------------------
+#$Date: 2018-06-09 17:13:19 +0300 (Sat, 09 Jun 2018) $
+#$Revision: 208231 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/10/16/2101621.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2101621
+loop_
+_publ_author_name
+'D'yachenko, O. G.'
+'Tabachenko, V. V.'
+'Tali, R.'
+'Kovba, L. M.'
+'Marinder, B.-O.'
+'Sundberg, M.'
+_publ_section_title
+;
+ Structure of UMoO~5~ studied by single-crystal X-ray diffraction and
+ high-resolution transmission electron microscopy
+;
+_journal_issue                   6
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              961
+_journal_page_last               965
+_journal_paper_doi               10.1107/S0108768196009597
+_journal_volume                  52
+_journal_year                    1996
+_chemical_formula_sum            'Mo O5 U'
+_chemical_formula_weight         414.0
+_chemical_name_systematic        'molybdenum uranium pentoxide'
+_space_group_crystal_system      orthorhombic
+_space_group_IT_number           54
+_space_group_name_Hall           '-P 2a -2b'
+_space_group_name_H-M_alt        'P b a a'
+_atom_type_scat_source           IntTabIV
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            4
+_cell_length_a                   12.7460(10)
+_cell_length_b                   7.3494(7)
+_cell_length_c                   4.1252(2)
+_cell_measurement_reflns_used    24
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      22
+_cell_measurement_theta_min      19
+_cell_volume                     386.43(5)
+_diffrn_measurement_device       'Enraf-Nonius CAD-4'
+_diffrn_measurement_method       \w-2\q
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_limit_h_max       22
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       12
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       7
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            1055
+_diffrn_reflns_theta_max         38
+_diffrn_standards_decay_%        <2
+_diffrn_standards_interval_time  120
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    42.8
+_exptl_absorpt_correction_T_max  0.999
+_exptl_absorpt_correction_T_min  0.793
+_exptl_absorpt_correction_type   '\y scans (empirical)'
+_exptl_crystal_colour            brown-black
+_exptl_crystal_density_diffrn    7.116
+_exptl_crystal_description       parallelepiped
+_exptl_crystal_size_max          0.05
+_exptl_crystal_size_mid          0.03
+_exptl_crystal_size_min          0.03
+_refine_diff_density_max         0.30
+_refine_diff_density_min         -0.24
+_refine_ls_extinction_coef       'g = 3.07(8)E-7'
+_refine_ls_extinction_method     '|F~c~| = |F~o~|(1+gI~c~)'
+_refine_ls_number_parameters     22
+_refine_ls_number_reflns         723
+_refine_ls_R_factor_obs          0.037
+_refine_ls_shift/esd_max         0.005
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w = [1.3216 -0.0692|F~o~| + 0.0037|F~o~|^2^]^-1^'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.037
+_reflns_number_observed          723
+_reflns_number_total             1055
+_reflns_observed_criterion       I>3\s(I)
+_cod_data_source_file            ab0350.cif
+_cod_data_source_block           ab0350a
+_cod_depositor_comments
+;
+ Updating space group information.
+
+ Antanas Vaitkus,
+ 2018-06-10
+
+    Adding symmetry operators
+        -x+1/2,y+1/2,-z
+        -x,-y,-z
+        x+1/2,y,-z
+        x,-y+1/2,-z
+    to the _symmetry_equiv_pos_as_xyz loop, because:
+
+    a) These symmetry operators are required to constitute the full
+       group of symmetry operators for symmetry space group 'P b a a'.
+
+    b) Calculated formula match authors' formula after the augmention
+       of _symmetry_equiv_pos_as_xyz loop.
+
+    Andrius Merkys
+    2014-07-07
+
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'w = [1.3216 -0.0692|F~o~| +
+0.0037|F~o~|^2^]^-1^' was changed to 'calc'. New tag
+'_refine_ls_weighting_details' was created. The value of the new tag
+was set to 'w = [1.3216 -0.0692|F~o~| + 0.0037|F~o~|^2^]^-1^'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        386.40(10)
+_cod_original_sg_symbol_Hall     'P 2a -2b'
+_cod_original_formula_sum        'Mo1 O5 U1'
+_cod_database_code               2101621
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 -x,1/2+y,z
+3 1/2+x,1/2-y,z
+4 1/2-x,-y,z
+5 -x+1/2,y+1/2,-z
+6 -x,-y,-z
+7 x+1/2,y,-z
+8 x,-y+1/2,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+U1 .47583(3) .25 .0
+Mo1 .25 .5 .1069(3)
+O1 .0994(5) .4561(9) .0020(10)
+O2 .2878(7) .25 .0
+O3 .9735(9) .25 .5
+O4 .25 .5 -.492(2)

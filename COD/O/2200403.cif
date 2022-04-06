@@ -1,0 +1,121 @@
+#------------------------------------------------------------------------------
+#$Date: 2015-01-27 21:58:39 +0200 (Tue, 27 Jan 2015) $
+#$Revision: 130149 $
+#$URL: svn://www.crystallography.net/cod/cif/2/20/04/2200403.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_2200403
+loop_
+_publ_author_name
+'Park, Hyunsoo'
+'Jacques Barbier'
+_publ_section_title
+;
+PbGaBO~4~, an orthoborate with a new structure-type
+;
+_journal_name_full               'Acta Crystallographica, Section E'
+_journal_page_first              i82
+_journal_page_last               i84
+_journal_paper_doi               10.1107/S1600536801013940
+_journal_volume                  57
+_journal_year                    2001
+_chemical_formula_iupac          'Pb Ga B O4'
+_chemical_formula_moiety         'B Ga O4 Pb'
+_chemical_formula_sum            'B Ga O4 Pb'
+_chemical_formula_weight         351.72
+_chemical_name_common            'lead gallium borate'
+_space_group_IT_number           62
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2ac 2n'
+_symmetry_space_group_name_H-M   'P n m a'
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   6.9944(10)
+_cell_length_b                   5.8925(8)
+_cell_length_c                   8.2495(11)
+_cell_measurement_temperature    299(2)
+_cell_volume                     340.00(8)
+_diffrn_ambient_temperature      299(2)
+_exptl_crystal_density_diffrn    6.871
+_cod_database_code               2200403
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x+1/2, -y, z+1/2'
+'-x, y+1/2, -z'
+'x+1/2, -y+1/2, -z+1/2'
+'-x, -y, -z'
+'x-1/2, y, -z-1/2'
+'x, -y-1/2, z'
+'-x-1/2, y-1/2, z-1/2'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+_atom_site_type_symbol
+Pb .06200(2) .2500 .358777(19) .00640(5) Uani d S 1 . . Pb
+Ga .0000 .0000 .0000 .00398(8) Uani d S 1 . . Ga
+O3 -.1783(5) -.2500 .0921(4) .0069(5) Uani d S 1 . . O
+O1 .1013(5) -.2500 -.1146(4) .0041(4) Uani d S 1 . . O
+O2 .1717(4) -.0466(4) .1922(3) .0073(3) Uani d . 1 . . O
+B -.2237(7) .2500 -.2639(6) .0036(6) Uani d S 1 . . B
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Pb .00665(7) .00891(7) .00364(7) .000 .00060(4) .000
+Ga .00501(16) .00327(14) .00366(16) .00093(12) -.00066(13) -.00089(12)
+O3 .0085(12) .0073(10) .0048(12) .000 .0040(10) .000
+O1 .0025(9) .0038(9) .0059(11) .000 .0005(8) .000
+O2 .0103(9) .0052(7) .0064(9) .0016(7) -.0051(7) -.0001(6)
+B .0034(14) .0045(13) .0030(15) .000 -.0012(11) .000
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Pb O1 5 2.316(4) y
+Pb O2 . 2.352(2) y
+Pb O2 7_565 2.352(2) y
+Pb O1 2 2.365(3) y
+Pb Ga . 3.3344(4) ?
+Pb Ga 3 3.3344(4) ?
+Ga O1 . 1.888(2) y
+Ga O1 5 1.888(2) y
+Ga O2 . 2.008(2) y
+Ga O2 5 2.008(2) y
+Ga O3 . 2.074(2) y
+Ga O3 5 2.074(2) y
+Ga Ga 3_545 2.9463(4) ?
+Ga Ga 3 2.9463(4) ?
+Ga Pb 5 3.3344(4) ?
+O3 B 2_455 1.372(6) ?
+O3 Ga 3_545 2.074(2) ?
+O1 Ga 3_545 1.888(2) ?
+O1 Pb 5 2.316(4) ?
+O1 Pb 2_554 2.365(3) ?
+O2 B 5 1.385(3) ?
+B O3 2_454 1.372(6) y
+B O2 3 1.385(3) y
+B O2 5 1.385(3) y

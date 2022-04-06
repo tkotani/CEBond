@@ -1,0 +1,390 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-23 03:47:51 +0200 (Wed, 23 Mar 2016) $
+#$Revision: 179263 $
+#$URL: svn://www.crystallography.net/cod/cif/4/31/83/4318319.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4318319
+loop_
+_publ_author_name
+'Chun-Yi Li'
+'Chan-Yen Hsieh'
+'Hsiu-Mei Lin'
+'Hsien-Ming Kao'
+'Kwang-Hwa Lii'
+_publ_section_title
+;
+ High-Temperature, High-Pressure Hydrothermal Synthesis, Crystal
+ Structure, and Solid State NMR Spectroscopy of a New Vanadium(IV)
+ Silicate: Rb2(VO)(Si4O10).xH2O
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              4206
+_journal_page_last               4210
+_journal_paper_doi               10.1021/ic020187q
+_journal_volume                  41
+_journal_year                    2002
+_chemical_formula_moiety         Rb2(VO)(Si4O10).xH2O
+_chemical_formula_sum            'O11 Rb2 Si4 V'
+_chemical_formula_weight         510.24
+_chemical_name_systematic
+;
+  ?
+;
+_space_group_IT_number           109
+_symmetry_cell_setting           tetragonal
+_symmetry_space_group_name_Hall  'I 4bw -2'
+_symmetry_space_group_name_H-M   'I 41 m d'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   12.2225(7)
+_cell_length_b                   12.2225(7)
+_cell_length_c                   7.7948(6)
+_cell_measurement_temperature    295(2)
+_cell_volume                     1164.46(13)
+_computing_molecular_graphics    'XP, Diamond'
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      295(2)
+_diffrn_measured_fraction_theta_full 0.991
+_diffrn_measured_fraction_theta_max 0.991
+_diffrn_measurement_device_type  'Siemens Smart CCD'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0405
+_diffrn_reflns_av_sigmaI/netI    0.0233
+_diffrn_reflns_limit_h_max       14
+_diffrn_reflns_limit_h_min       -15
+_diffrn_reflns_limit_k_max       12
+_diffrn_reflns_limit_k_min       -16
+_diffrn_reflns_limit_l_max       10
+_diffrn_reflns_limit_l_min       -6
+_diffrn_reflns_number            3629
+_diffrn_reflns_theta_full        28.28
+_diffrn_reflns_theta_max         28.28
+_diffrn_reflns_theta_min         3.10
+_exptl_absorpt_coefficient_mu    9.617
+_exptl_absorpt_correction_T_max  0.862
+_exptl_absorpt_correction_T_min  0.353
+_exptl_absorpt_correction_type   'empirical based on symmetry equivalents'
+_exptl_crystal_colour            green
+_exptl_crystal_density_diffrn    2.910
+_exptl_crystal_density_meas      ?
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       dipyramidal
+_exptl_crystal_F_000             964
+_exptl_crystal_size_max          0.3
+_exptl_crystal_size_mid          0.2
+_exptl_crystal_size_min          0.2
+_refine_diff_density_max         0.939
+_refine_diff_density_min         -0.717
+_refine_diff_density_rms         0.131
+_refine_ls_abs_structure_details 'Flack H D (1983), Acta Cryst. A39, 876-881'
+_refine_ls_abs_structure_Flack   0.043(11)
+_refine_ls_extinction_coef       0.0032(5)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_ref   1.133
+_refine_ls_hydrogen_treatment    mixed
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     51
+_refine_ls_number_reflns         686
+_refine_ls_number_restraints     1
+_refine_ls_restrained_S_all      1.132
+_refine_ls_R_factor_all          0.0292
+_refine_ls_R_factor_gt           0.0286
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0469P)^2^+1.8995P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0721
+_refine_ls_wR_factor_ref         0.0723
+_reflns_number_gt                669
+_reflns_number_total             686
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            ic020187q.cif
+_cod_data_source_block           au07sad
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_exptl_crystal_density_meas' value 'not measured' was changed to '?'
+- the value is perceived as not measured.
+
+Automatic conversion script
+Id: cif_fix_values 3008 2015-01-20 13:52:24Z robertas 
+;
+_cod_database_code               4318319
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x+1/2, -y+1/2, z+1/2'
+'-y, x+1/2, z+1/4'
+'y+1/2, -x, z+3/4'
+'x, -y, z'
+'-x+1/2, y+1/2, z+1/2'
+'-y, -x+1/2, z+1/4'
+'y+1/2, x, z+3/4'
+'x+1/2, y+1/2, z+1/2'
+'-x+1, -y+1, z+1'
+'-y+1/2, x+1, z+3/4'
+'y+1, -x+1/2, z+5/4'
+'x+1/2, -y+1/2, z+1/2'
+'-x+1, y+1, z+1'
+'-y+1/2, -x+1, z+3/4'
+'y+1, x+1/2, z+5/4'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Rb Rb 0.0000 0.21221(5) 0.05787(7) 0.0283(2) Uani 1 2 d S . .
+V V 0.0000 0.0000 -0.29715(18) 0.0119(3) Uani 1 4 d S . .
+Si Si 0.29137(8) 0.11965(8) 0.26536(13) 0.0107(3) Uani 1 1 d . . .
+O1 O 0.2515(4) 0.0000 0.1978(6) 0.0182(8) Uani 1 2 d S . .
+O2 O 0.1841(3) 0.1812(3) 0.3393(5) 0.0261(7) Uani 1 1 d . . .
+O3 O 0.3897(3) 0.1120(3) 0.3967(5) 0.0249(8) Uani 1 1 d . . .
+O4 O 0.0000 0.0000 -0.0914(10) 0.0292(15) Uani 1 4 d S . .
+OW O 0.0000 0.0000 0.336(13) 0.050 Uiso 0.12(2) 4 d SP . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Rb 0.0454(4) 0.0189(3) 0.0206(4) 0.0035(2) 0.000 0.000
+V 0.0151(6) 0.0101(6) 0.0104(7) 0.000 0.000 0.000
+Si 0.0122(4) 0.0103(5) 0.0096(6) -0.0005(3) 0.0011(4) 0.0009(3)
+O1 0.023(2) 0.0118(18) 0.019(2) 0.000 -0.0124(18) 0.000
+O2 0.0248(15) 0.0318(17) 0.0218(19) -0.0078(14) 0.0056(13) 0.0104(13)
+O3 0.0253(15) 0.0169(14) 0.033(2) -0.0091(12) -0.0135(14) 0.0049(11)
+O4 0.049(5) 0.026(3) 0.013(3) 0.000 0.000 0.000
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Si Si 0.0817 0.0704 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+V V 0.3005 0.5294 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Rb Rb -0.9393 2.9676 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O3 Rb O3 56.90(13) 2_554 13_454 ?
+O3 Rb O4 120.71(14) 2_554 . ?
+O3 Rb O4 120.71(14) 13_454 . ?
+O3 Rb O1 109.25(11) 2_554 12_454 ?
+O3 Rb O1 109.25(11) 13_454 12_454 ?
+O4 Rb O1 122.47(16) . 12_454 ?
+O3 Rb O2 93.44(10) 2_554 . ?
+O3 Rb O2 137.50(10) 13_454 . ?
+O4 Rb O2 100.04(12) . . ?
+O1 Rb O2 48.05(6) 12_454 . ?
+O3 Rb O2 137.50(10) 2_554 14_444 ?
+O3 Rb O2 93.44(10) 13_454 14_444 ?
+O4 Rb O2 100.04(12) . 14_444 ?
+O1 Rb O2 48.05(6) 12_454 14_444 ?
+O2 Rb O2 90.61(13) . 14_444 ?
+O3 Rb OW 150.1(4) 2_554 . ?
+O3 Rb OW 150.1(4) 13_454 . ?
+O4 Rb OW 64.1(13) . . ?
+O1 Rb OW 58.4(13) 12_454 . ?
+O2 Rb OW 57.6(7) . . ?
+O2 Rb OW 57.6(7) 14_444 . ?
+O3 Rb O4 49.90(11) 2_554 3 ?
+O3 Rb O4 49.90(11) 13_454 3 ?
+O4 Rb O4 168.4(3) . 3 ?
+O1 Rb O4 69.12(15) 12_454 3 ?
+O2 Rb O4 88.06(10) . 3 ?
+O2 Rb O4 88.06(10) 14_444 3 ?
+OW Rb O4 127.5(13) . 3 ?
+O3 Rb V 32.88(6) 2_554 3 ?
+O3 Rb V 32.88(6) 13_454 3 ?
+O4 Rb V 142.73(15) . 3 ?
+O1 Rb V 94.80(9) 12_454 3 ?
+O2 Rb V 105.89(7) . 3 ?
+O2 Rb V 105.89(7) 14_444 3 ?
+OW Rb V 153.2(13) . 3 ?
+O4 Rb V 25.68(12) 3 3 ?
+O3 Rb V 101.25(8) 2_554 . ?
+O3 Rb V 101.25(8) 13_454 . ?
+O4 Rb V 22.69(14) . . ?
+O1 Rb V 145.16(8) 12_454 . ?
+O2 Rb V 115.07(6) . . ?
+O2 Rb V 115.07(6) 14_444 . ?
+OW Rb V 86.7(13) . . ?
+O4 Rb V 145.72(12) 3 . ?
+V Rb V 120.04(4) 3 . ?
+O3 Rb Si 103.80(8) 2_554 12_454 ?
+O3 Rb Si 126.87(8) 13_454 12_454 ?
+O4 Rb Si 111.62(13) . 12_454 ?
+O1 Rb Si 23.96(3) 12_454 12_454 ?
+O2 Rb Si 24.18(6) . 12_454 ?
+O2 Rb Si 68.11(6) 14_444 12_454 ?
+OW Rb Si 53.0(12) . 12_454 ?
+O4 Rb Si 79.02(11) 3 12_454 ?
+V Rb Si 102.75(3) 3 12_454 ?
+V Rb Si 131.86(2) . 12_454 ?
+O3 Rb Si 126.87(8) 2_554 7 ?
+O3 Rb Si 103.80(8) 13_454 7 ?
+O4 Rb Si 111.62(13) . 7 ?
+O1 Rb Si 23.96(3) 12_454 7 ?
+O2 Rb Si 68.11(6) . 7 ?
+O2 Rb Si 24.18(6) 14_444 7 ?
+OW Rb Si 53.0(12) . 7 ?
+O4 Rb Si 79.02(11) 3 7 ?
+V Rb Si 102.75(3) 3 7 ?
+V Rb Si 131.86(2) . 7 ?
+Si Rb Si 44.59(3) 12_454 7 ?
+O4 V O3 102.84(12) . 3_544 ?
+O4 V O3 102.84(12) . 12_453 ?
+O3 V O3 154.3(2) 3_544 12_453 ?
+O4 V O3 102.84(12) . 16_443 ?
+O3 V O3 87.98(19) 3_544 16_443 ?
+O3 V O3 86.4(2) 12_453 16_443 ?
+O4 V O3 102.84(12) . 7_554 ?
+O3 V O3 86.4(2) 3_544 7_554 ?
+O3 V O3 87.98(19) 12_453 7_554 ?
+O3 V O3 154.3(2) 16_443 7_554 ?
+O4 V Rb 76.90(2) . 11_544 ?
+O3 V Rb 136.62(10) 3_544 11_544 ?
+O3 V Rb 51.24(9) 12_453 11_544 ?
+O3 V Rb 51.24(9) 16_443 11_544 ?
+O3 V Rb 136.62(10) 7_554 11_544 ?
+O4 V Rb 76.90(2) . 4_454 ?
+O3 V Rb 51.24(9) 3_544 4_454 ?
+O3 V Rb 136.62(10) 12_453 4_454 ?
+O3 V Rb 136.62(10) 16_443 4_454 ?
+O3 V Rb 51.24(9) 7_554 4_454 ?
+Rb V Rb 153.80(5) 11_544 4_454 ?
+O4 V Rb 43.145(17) . . ?
+O3 V Rb 129.06(10) 3_544 . ?
+O3 V Rb 72.20(12) 12_453 . ?
+O3 V Rb 129.06(10) 16_443 . ?
+O3 V Rb 72.20(12) 7_554 . ?
+Rb V Rb 80.48(2) 11_544 . ?
+Rb V Rb 80.48(2) 4_454 . ?
+O4 V Rb 43.145(17) . 10_444 ?
+O3 V Rb 72.20(12) 3_544 10_444 ?
+O3 V Rb 129.06(10) 12_453 10_444 ?
+O3 V Rb 72.20(12) 16_443 10_444 ?
+O3 V Rb 129.06(10) 7_554 10_444 ?
+Rb V Rb 80.48(2) 11_544 10_444 ?
+Rb V Rb 80.48(2) 4_454 10_444 ?
+Rb V Rb 86.29(3) . 10_444 ?
+O3 Si O2 114.38(19) . . ?
+O3 Si O2 114.9(2) . 11_544 ?
+O2 Si O2 104.1(2) . 11_544 ?
+O3 Si O1 112.55(19) . . ?
+O2 Si O1 106.9(2) . . ?
+O2 Si O1 103.0(2) 11_544 . ?
+O3 Si Rb 125.81(14) . 11_544 ?
+O2 Si Rb 119.79(14) . 11_544 ?
+O2 Si Rb 53.29(13) 11_544 11_544 ?
+O1 Si Rb 49.96(17) . 11_544 ?
+O3 Si Rb 34.42(12) . 2 ?
+O2 Si Rb 94.30(14) . 2 ?
+O2 Si Rb 95.81(13) 11_544 2 ?
+O1 Si Rb 146.96(15) . 2 ?
+Rb Si Rb 136.99(3) 11_544 2 ?
+O3 Si Rb 159.76(14) . . ?
+O2 Si Rb 45.85(14) . . ?
+O2 Si Rb 73.10(14) 11_544 . ?
+O1 Si Rb 81.91(15) . . ?
+Rb Si Rb 74.22(2) 11_544 . ?
+Rb Si Rb 130.00(2) 2 . ?
+Si O1 Si 127.7(3) . 5 ?
+Si O1 Rb 106.08(18) . 11_544 ?
+Si O1 Rb 106.08(18) 5 11_544 ?
+Si O2 Si 142.5(3) . 12_454 ?
+Si O2 Rb 112.64(18) . . ?
+Si O2 Rb 102.52(14) 12_454 . ?
+Si O3 V 134.8(2) . 11_545 ?
+Si O3 Rb 127.19(17) . 2 ?
+V O3 Rb 95.88(11) 11_545 2 ?
+V O4 Rb 114.17(14) . . ?
+V O4 Rb 114.17(14) . 10_444 ?
+Rb O4 Rb 131.7(3) . 10_444 ?
+V O4 Rb 77.42(12) . 4_454 ?
+Rb O4 Rb 95.12(2) . 4_454 ?
+Rb O4 Rb 95.12(2) 10_444 4_454 ?
+V O4 Rb 77.42(12) . 11_544 ?
+Rb O4 Rb 95.12(2) . 11_544 ?
+Rb O4 Rb 95.12(2) 10_444 11_544 ?
+Rb O4 Rb 154.8(2) 4_454 11_544 ?
+Rb OW Rb 100(3) 10_444 . ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Rb O3 2.831(3) 2_554 ?
+Rb O3 2.831(3) 13_454 ?
+Rb O4 2.843(3) . ?
+Rb O1 3.071(5) 12_454 ?
+Rb O2 3.165(4) . ?
+Rb O2 3.165(4) 14_444 ?
+Rb OW 3.38(7) . ?
+Rb O4 3.6041(18) 3 ?
+Rb V 3.6115(7) 3 ?
+Rb V 3.7928(12) . ?
+Rb Si 3.8545(12) 12_454 ?
+Rb Si 3.8545(12) 7 ?
+V O4 1.604(8) . ?
+V O3 1.971(3) 3_544 ?
+V O3 1.971(3) 12_453 ?
+V O3 1.971(3) 16_443 ?
+V O3 1.971(3) 7_554 ?
+V Rb 3.6115(7) 11_544 ?
+V Rb 3.6115(7) 4_454 ?
+V Rb 3.7928(12) 10_444 ?
+Si O3 1.581(3) . ?
+Si O2 1.617(3) . ?
+Si O2 1.618(4) 11_544 ?
+Si O1 1.629(2) . ?
+Si Rb 3.8545(12) 11_544 ?
+Si Rb 3.9906(11) 2 ?
+O1 Si 1.629(2) 5 ?
+O1 Rb 3.071(5) 11_544 ?
+O2 Si 1.618(4) 12_454 ?
+O3 V 1.971(3) 11_545 ?
+O3 Rb 2.831(3) 2 ?
+O4 Rb 2.843(3) 10_444 ?
+O4 Rb 3.6041(18) 4_454 ?
+O4 Rb 3.6041(18) 11_544 ?
+OW Rb 3.38(7) 10_444 ?

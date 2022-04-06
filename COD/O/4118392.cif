@@ -1,0 +1,322 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-22 12:34:31 +0200 (Tue, 22 Mar 2016) $
+#$Revision: 178954 $
+#$URL: svn://www.crystallography.net/cod/cif/4/11/83/4118392.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4118392
+loop_
+_publ_author_name
+'Yuri Janssen'
+'Derek S. Middlemiss'
+'Shou-Hang Bo'
+'Clare P. Grey'
+'Peter G. Khalifah'
+_publ_section_title
+;
+ Structural Modulation in the High Capacity Battery Cathode Material
+ LiFeBO3
+;
+_journal_name_full               'Journal of the American Chemical Society'
+_journal_page_first              12516
+_journal_page_last               12527
+_journal_paper_doi               10.1021/ja301881c
+_journal_volume                  134
+_journal_year                    2012
+_chemical_formula_sum            'B4 Fe4 Li4 O12'
+_chemical_formula_weight         486.4
+_chemical_name_systematic        ' ?'
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_Int_Tables_number      14
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_audit_creation_method           'Jana2006 Version : 20/02/2012'
+_cell_angle_alpha                90
+_cell_angle_beta                 91.514(8)
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   10.3362(6)
+_cell_length_b                   8.8687(8)
+_cell_length_c                   10.1656(9)
+_cell_measurement_temperature    293
+_cell_volume                     931.54(13)
+_diffrn_ambient_temperature      293
+_diffrn_measured_fraction_theta_full 0.99
+_diffrn_measured_fraction_theta_max 0.99
+_diffrn_measurement_device       'four-cycle diffractometer'
+_diffrn_measurement_device_type  'Oxford Diffraction CCD'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_source         'X-ray tube'
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.052
+_diffrn_reflns_av_sigmaI/netI    0.0441
+_diffrn_reflns_limit_h_max       20
+_diffrn_reflns_limit_h_min       -20
+_diffrn_reflns_limit_k_max       17
+_diffrn_reflns_limit_k_min       -17
+_diffrn_reflns_limit_l_max       20
+_diffrn_reflns_limit_l_min       -14
+_diffrn_reflns_number            48940
+_diffrn_reflns_theta_full        45.83
+_diffrn_reflns_theta_max         45.83
+_diffrn_reflns_theta_min         3.66
+_exptl_absorpt_coefficient_mu    6.177
+_exptl_absorpt_correction_T_max  1.00000
+_exptl_absorpt_correction_T_min  0.42648
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details
+;
+CrysAlisPro, Oxford Diffraction Ltd.,
+Version 1.171.33.55 (release 05-01-2010 CrysAlis171 .NET)
+(compiled Jan  5 2010,16:28:46)
+empirical absorption correction using spherical harmonics,
+ implemented in SCALE3 ABSPACK scaling algorithm.
+;
+_exptl_crystal_density_diffrn    3.4669
+_exptl_crystal_F_000             928
+_exptl_crystal_size_max          0.2925
+_exptl_crystal_size_mid          0.1535
+_exptl_crystal_size_min          0.0621
+_refine_ls_extinction_coef       380(30)
+_cod_data_source_file            ja301881c_si_001_2.cif
+_cod_data_source_block           LFB_supercell_unrefined
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_diffrn_radiation_probe' value 'X-ray' changed to 'x-ray' according
+to the built-in table from CIF Core dictionary named 'cif_core.dic'
+version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_database_code               4118392
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -x,y+1/2,-z+1/2
+3 -x,-y,-z
+4 x,-y+1/2,z+1/2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_adp_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+_atom_site_occupancy
+_atom_site_calc_flag
+Fe1a Fe 0.9177 0.661074 0.126221 Uani 0.0101 4 1 d
+Fe1b Fe 0.421019 0.66684 0.122933 Uani 0.0101 4 1 d
+O2a O 0.610996 0.693909 0.156964 Uani 0.0091 4 1 d
+O2b O 0.108691 0.697795 0.158034 Uani 0.0091 4 1 d
+O1a O 0.797512 0.839359 0.092722 Uani 0.0093 4 1 d
+O1b O 0.297573 0.837975 0.09194 Uani 0.0093 4 1 d
+O3a O 0.594559 0.959178 0.138968 Uani 0.0117 4 1 d
+O3b O 0.092877 0.960002 0.111978 Uani 0.0117 4 1 d
+B1a B 0.66756 0.830819 0.127968 Uani 0.0074 4 1 d
+B1b B 0.166739 0.833475 0.122484 Uani 0.0074 4 1 d
+Li1a Li 0.917519 0.990696 0.157638 Uani 0.0181 4 1 d
+Li1b Li 0.419997 0.004766 0.095052 Uani 0.0181 4 1 d
+Fe1c Fe 0.671774 0.16213 0.120472 Uani 0.0101 4 1 d
+Fe1d Fe 0.166945 0.165784 0.128682 Uani 0.0101 4 1 d
+O2c O 0.359162 0.194803 0.158465 Uani 0.0091 4 1 d
+O2d O 0.860525 0.196901 0.156533 Uani 0.0091 4 1 d
+O1c O 0.546809 0.33725 0.092216 Uani 0.0093 4 1 d
+O1d O 0.048276 0.340084 0.092446 Uani 0.0093 4 1 d
+O3c O 0.345685 0.46082 0.140864 Uani 0.0117 4 1 d
+O3d O 0.841751 0.45836 0.110082 Uani 0.0117 4 1 d
+B1c B 0.417366 0.332036 0.129565 Uani 0.0074 4 1 d
+B1d B 0.916932 0.332258 0.120887 Uani 0.0074 4 1 d
+Li1c Li 0.667471 0.489735 0.157735 Uani 0.0181 4 1 d
+Li1d Li 0.170045 0.505727 0.094955 Uani 0.0181 4 1 d
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_type_symbol
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Fe1a Fe 0.009465 0.009954 0.01095 0.000469 0.000883 0.000744
+Fe1b Fe 0.009465 0.009954 0.01095 0.000469 0.000883 0.000744
+O2a O 0.008757 0.007184 0.011175 -0.001193 0.000479 0.000575
+O2b O 0.008757 0.007184 0.011175 -0.001193 0.000479 0.000575
+O1a O 0.006366 0.010611 0.010725 0.000409 0.001255 0.000986
+O1b O 0.006366 0.010611 0.010725 0.000409 0.001255 0.000986
+O3a O 0.009379 0.006977 0.018536 0.001829 0.002458 0.000603
+O3b O 0.009379 0.006977 0.018536 0.001829 0.002458 0.000603
+B1a B 0.006907 0.006881 0.008538 -0.000037 0.000181 -0.000726
+B1b B 0.006907 0.006881 0.008538 -0.000037 0.000181 -0.000726
+Li1a Li 0.012705 0.013086 0.028564 -0.000014 0.000899 -0.003068
+Li1b Li 0.012705 0.013086 0.028564 -0.000014 0.000899 -0.003068
+Fe1c Fe 0.009465 0.009954 0.01095 0.000469 0.000883 0.000744
+Fe1d Fe 0.009465 0.009954 0.01095 0.000469 0.000883 0.000744
+O2c O 0.008757 0.007184 0.011175 -0.001193 0.000479 0.000575
+O2d O 0.008757 0.007184 0.011175 -0.001193 0.000479 0.000575
+O1c O 0.006366 0.010611 0.010725 0.000409 0.001255 0.000986
+O1d O 0.006366 0.010611 0.010725 0.000409 0.001255 0.000986
+O3c O 0.009379 0.006977 0.018536 0.001829 0.002458 0.000603
+O3d O 0.009379 0.006977 0.018536 0.001829 0.002458 0.000603
+B1c B 0.006907 0.006881 0.008538 -0.000037 0.000181 -0.000726
+B1d B 0.006907 0.006881 0.008538 -0.000037 0.000181 -0.000726
+Li1c Li 0.012705 0.013086 0.028564 -0.000014 0.000899 -0.003068
+Li1d Li 0.012705 0.013086 0.028564 -0.000014 0.000899 -0.003068
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+B 0.0013 0.0007 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+Fe 0.3463 0.8444 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+Li -0.0003 0.0001 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+O 0.0106 0.0060 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+O2-2 Fe1-1 O1-1 1_655 . 119.924(4)
+O2-2 Fe1-1 O1-2 1_655 3_665 91.491(8)
+O2-2 Fe1-1 O21-1 1_655 2_655 85.315(8)
+O2-2 Fe1-1 O31-2 1_655 . 123.3361(13)
+O1-1 Fe1-1 O1-2 . 3_665 85.082(5)
+O1-1 Fe1-1 O21-1 . 2_655 89.960(5)
+O1-1 Fe1-1 O31-2 . . 116.521(5)
+O1-2 Fe1-1 O21-1 3_665 2_655 171.7970(17)
+O1-2 Fe1-1 O31-2 3_665 . 88.553(3)
+O21-1 Fe1-1 O31-2 2_655 . 99.519(3)
+O2-1 Fe1-2 O1-1 . 3_665 93.135(8)
+O2-1 Fe1-2 O1-2 . . 124.128(4)
+O2-1 Fe1-2 O21-2 . 2_655 86.090(8)
+O2-1 Fe1-2 O31-1 . . 118.2462(18)
+O1-1 Fe1-2 O1-2 3_665 . 86.603(5)
+O1-1 Fe1-2 O21-2 3_665 2_655 174.6870(7)
+O1-1 Fe1-2 O31-1 3_665 . 96.600(3)
+O1-2 Fe1-2 O21-2 . 2_655 89.480(5)
+O1-2 Fe1-2 O31-1 . . 117.251(5)
+O21-2 Fe1-2 O31-1 2_655 . 88.384(3)
+O2-1 B1-1 O1-1 . . 120.530(2)
+O2-1 B1-1 O3-1 . . 119.088(5)
+O1-1 B1-1 O3-1 . . 120.342(3)
+O2-2 B1-2 O1-2 . . 119.858(3)
+O2-2 B1-2 O3-2 . . 119.663(5)
+O1-2 B1-2 O3-2 . . 120.406(3)
+O1-1 Li-1 O3-2 . 1_655 115.713(5)
+O1-1 Li-1 O21-2 . 1_565 117.019(5)
+O1-1 Li-1 O31-1 . 2_655 102.755(6)
+O3-2 Li-1 O21-2 1_655 1_565 115.4901(11)
+O3-2 Li-1 O31-1 1_655 2_655 105.327(8)
+O21-2 Li-1 O31-1 1_565 2_655 96.639(3)
+O1-2 Li-2 O3-1 1_545 1_545 117.416(4)
+O1-2 Li-2 O21-1 1_545 . 117.945(5)
+O1-2 Li-2 O31-2 1_545 3_655 92.701(5)
+O3-1 Li-2 O21-1 1_545 . 114.382(3)
+O3-1 Li-2 O31-2 1_545 3_655 109.961(8)
+O21-1 Li-2 O31-2 . 3_655 99.764(4)
+O2-1 Fe11-1 O3-1 2_645 1_545 88.243(4)
+O2-1 Fe11-1 O21-2 2_645 . 85.436(8)
+O2-1 Fe11-1 O11-1 2_645 . 88.161(5)
+O2-1 Fe11-1 O11-1 2_645 3_655 172.8050(9)
+O3-1 Fe11-1 O21-2 1_545 . 120.7876(18)
+O3-1 Fe11-1 O11-1 1_545 . 116.751(5)
+O3-1 Fe11-1 O11-1 1_545 3_655 98.397(3)
+O21-2 Fe11-1 O11-1 . . 121.776(4)
+O21-2 Fe11-1 O11-1 . 3_655 93.465(8)
+O11-1 Fe11-1 O11-1 . 3_655 86.377(5)
+O2-2 Fe11-2 O3-2 2_545 1_545 99.574(3)
+O2-2 Fe11-2 O21-1 2_545 . 85.959(8)
+O2-2 Fe11-2 O11-2 2_545 . 91.328(5)
+O2-2 Fe11-2 O11-2 2_545 3_555 173.527(2)
+O3-2 Fe11-2 O21-1 1_545 . 120.5797(15)
+O3-2 Fe11-2 O11-2 1_545 . 116.830(5)
+O3-2 Fe11-2 O11-2 1_545 3_555 86.881(3)
+O21-1 Fe11-2 O11-2 . . 122.161(4)
+O21-1 Fe11-2 O11-2 . 3_555 91.178(8)
+O11-2 Fe11-2 O11-2 . 3_555 85.276(5)
+O21-1 B11-1 O11-1 . . 119.962(3)
+O21-1 B11-1 O31-1 . . 119.050(5)
+O11-1 B11-1 O31-1 . . 120.979(3)
+O21-2 B11-2 O11-2 . 1_655 120.320(3)
+O21-2 B11-2 O31-2 . . 119.718(5)
+O11-2 B11-2 O31-2 1_655 . 119.936(3)
+O2-1 Li1-1 O3-1 . 2_645 96.749(3)
+O2-1 Li1-1 O11-1 . . 117.092(5)
+O2-1 Li1-1 O31-2 . . 115.6731(11)
+O3-1 Li1-1 O11-1 2_645 . 102.971(6)
+O3-1 Li1-1 O31-2 2_645 . 105.589(8)
+O11-1 Li1-1 O31-2 . . 115.090(5)
+O2-2 Li1-2 O3-2 . 3_565 100.023(4)
+O2-2 Li1-2 O11-2 . . 117.921(5)
+O2-2 Li1-2 O31-1 . . 114.008(3)
+O3-2 Li1-2 O11-2 3_565 . 92.148(5)
+O3-2 Li1-2 O31-1 3_565 . 110.612(8)
+O11-2 Li1-2 O31-1 . . 117.602(4)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+Fe1-1 O2-2 1_655 2.0351(2)
+Fe1-1 O1-1 . 2.0449(2)
+Fe1-1 O1-2 3_665 2.2372(4)
+Fe1-1 O21-1 2_655 2.2193(4)
+Fe1-1 O31-2 . 1.9703(3)
+Fe1-2 O2-1 . 2.0172(2)
+Fe1-2 O1-1 3_665 2.2084(4)
+Fe1-2 O1-2 . 2.0130(2)
+Fe1-2 O21-2 2_655 2.2726(4)
+Fe1-2 O31-1 . 1.9926(3)
+B1-1 O2-1 . 1.3762(2)
+B1-1 O1-1 . 1.38308(17)
+B1-1 O3-1 . 1.36869(18)
+B1-2 O2-2 . 1.38819(19)
+B1-2 O1-2 . 1.38007(17)
+B1-2 O3-2 . 1.36299(17)
+Li-1 O1-1 . 1.9542(2)
+Li-1 O3-2 1_655 1.8789(2)
+Li-1 O21-2 1_565 1.9214(3)
+Li-1 O31-1 2_655 2.0663(4)
+Li-2 O1-2 1_545 1.9474(2)
+Li-2 O3-1 1_545 1.9133(2)
+Li-2 O21-1 . 1.9053(3)
+Li-2 O31-2 3_655 2.1174(4)
+Fe11-1 O2-1 2_645 2.2962(4)
+Fe11-1 O3-1 1_545 1.9759(3)
+Fe11-1 O21-2 . 2.0183(2)
+Fe11-1 O11-1 . 2.0451(2)
+Fe11-1 O11-1 3_655 2.1779(4)
+Fe11-2 O2-2 2_545 2.1958(4)
+Fe11-2 O3-2 1_545 1.9881(3)
+Fe11-2 O21-1 . 2.0340(2)
+Fe11-2 O11-2 . 2.0134(2)
+Fe11-2 O11-2 3_555 2.2677(4)
+B11-1 O21-1 . 1.3857(2)
+B11-1 O11-1 . 1.38187(17)
+B11-1 O31-1 . 1.36460(18)
+B11-2 O21-2 . 1.37882(19)
+B11-2 O11-2 1_655 1.38230(16)
+B11-2 O31-2 . 1.36791(17)
+Li1-1 O2-1 . 1.9026(3)
+Li1-1 O3-1 2_645 2.0848(4)
+Li1-1 O11-1 . 1.9677(2)
+Li1-1 O31-2 . 1.8738(2)
+Li1-2 O2-2 . 1.9218(3)
+Li1-2 O3-2 3_565 2.1331(4)
+Li1-2 O11-2 . 1.9351(2)
+Li1-2 O31-1 . 1.9280(2)

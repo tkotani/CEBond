@@ -1,0 +1,624 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-23 00:16:49 +0200 (Wed, 23 Mar 2016) $
+#$Revision: 179102 $
+#$URL: svn://www.crystallography.net/cod/cif/4/30/64/4306485.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4306485
+loop_
+_publ_author_name
+'Fang Kong'
+'Hai-Long Jiang'
+'Ting Hu'
+'Jiang-Gao Mao'
+_publ_section_title
+;
+CsB3GeO7 and K2B2Ge3O10: Explorations of New Second-Order Nonlinear Optical
+Materials in the Borogermanate Systems
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              10611
+_journal_page_last               10617
+_journal_paper_doi               10.1021/ic801292p
+_journal_volume                  47
+_journal_year                    2008
+_chemical_formula_sum            'B2 Ge3 K2 O10'
+_chemical_formula_weight         477.59
+_chemical_name_systematic
+; 
+ ? 
+;
+_space_group_IT_number           5
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  'I 2y'
+_symmetry_space_group_name_H-M   'I 1 2 1'
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 96.696(6)
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   11.860(6)
+_cell_length_b                   6.160(2)
+_cell_length_c                   12.000(9)
+_cell_measurement_reflns_used    1328
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      27.4603
+_cell_measurement_theta_min      2.5689
+_cell_volume                     870.7(8)
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measured_fraction_theta_full 0.965
+_diffrn_measured_fraction_theta_max 0.965
+_diffrn_measurement_device_type  Saturn70
+_diffrn_measurement_method       CCD_Profile_fitting
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0191
+_diffrn_reflns_av_sigmaI/netI    0.0434
+_diffrn_reflns_limit_h_max       14
+_diffrn_reflns_limit_h_min       -15
+_diffrn_reflns_limit_k_max       7
+_diffrn_reflns_limit_k_min       -7
+_diffrn_reflns_limit_l_max       14
+_diffrn_reflns_limit_l_min       -15
+_diffrn_reflns_number            3274
+_diffrn_reflns_theta_full        27.47
+_diffrn_reflns_theta_max         27.47
+_diffrn_reflns_theta_min         2.28
+_exptl_absorpt_coefficient_mu    11.292
+_exptl_absorpt_correction_T_max  1.0000
+_exptl_absorpt_correction_T_min  0.8592
+_exptl_absorpt_correction_type   multi-scan
+_exptl_crystal_colour            Colorless
+_exptl_crystal_density_diffrn    3.643
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       Prism
+_exptl_crystal_F_000             896
+_exptl_crystal_size_max          0.10
+_exptl_crystal_size_mid          0.08
+_exptl_crystal_size_min          0.04
+_refine_diff_density_max         1.787
+_refine_diff_density_min         -0.702
+_refine_diff_density_rms         0.126
+_refine_ls_abs_structure_details 'Flack H D (1983), Acta Cryst. A39, 876-881'
+_refine_ls_abs_structure_Flack   0.025(16)
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   1.043
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     143
+_refine_ls_number_reflns         1862
+_refine_ls_number_restraints     1
+_refine_ls_restrained_S_all      1.043
+_refine_ls_R_factor_all          0.0243
+_refine_ls_R_factor_gt           0.0222
+_refine_ls_shift/su_max          0.001
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0288P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0577
+_refine_ls_wR_factor_ref         0.0581
+_reflns_number_gt                1732
+_reflns_number_total             1862
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            ic801292p_si_001_2.cif
+_cod_data_source_block           K2B2Ge3O10
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_exptl_absorpt_correction_type' value 'Multi-scan' changed to
+'multi-scan' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+;
+_cod_original_sg_symbol_H-M      'I 2'
+_cod_database_code               4306485
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, y, -z'
+'x+1/2, y+1/2, z+1/2'
+'-x+1/2, y+1/2, -z+1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+K1 K 0.85293(10) 1.0537(2) 0.73789(10) 0.0175(3) Uani 1 1 d . . .
+K2 K 0.76286(11) 0.8065(2) 1.14935(10) 0.0188(3) Uani 1 1 d . . .
+Ge1 Ge 1.0000 0.89848(13) 1.0000 0.00906(18) Uani 1 2 d S . .
+Ge2 Ge 0.86506(4) 1.31997(8) 1.04201(4) 0.00764(13) Uani 1 1 d . . .
+Ge3 Ge 0.56078(4) 1.06694(9) 0.87556(4) 0.00823(12) Uani 1 1 d . . .
+Ge4 Ge 0.5000 0.64326(12) 1.0000 0.01155(18) Uani 1 2 d S . .
+B1 B 1.0647(5) 0.5476(10) 1.1401(4) 0.008 Uiso 1 1 d . . .
+B2 B 0.6326(5) 1.3014(10) 1.0787(4) 0.008 Uiso 1 1 d . . .
+O1 O 0.9994(3) 0.7512(6) 1.1212(3) 0.0117(8) Uani 1 1 d . . .
+O2 O 0.8753(3) 1.0550(7) 0.9882(3) 0.0109(7) Uani 1 1 d . . .
+O3 O 0.9878(3) 1.3570(6) 1.1357(3) 0.0096(7) Uani 1 1 d . . .
+O4 O 0.8489(3) 1.5183(6) 0.9386(3) 0.0099(8) Uani 1 1 d . . .
+O5 O 0.7575(3) 1.3157(7) 1.1279(3) 0.0117(7) Uani 1 1 d . . .
+O6 O 0.5808(3) 1.5052(6) 1.1050(3) 0.0116(8) Uani 1 1 d . . .
+O7 O 0.6326(3) 1.2660(6) 0.9565(3) 0.0085(7) Uani 1 1 d . . .
+O8 O 0.4154(3) 1.1127(6) 0.8640(3) 0.0127(8) Uani 1 1 d . . .
+O9 O 0.6266(3) 1.0591(7) 0.7545(3) 0.0121(7) Uani 1 1 d . . .
+O10 O 0.5907(3) 0.8094(6) 0.9338(3) 0.0125(7) Uani 1 1 d . . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+K1 0.0158(6) 0.0177(6) 0.0190(6) 0.0031(5) 0.0020(5) 0.0000(5)
+K2 0.0194(6) 0.0173(6) 0.0205(6) -0.0001(5) 0.0060(5) -0.0014(6)
+Ge1 0.0093(4) 0.0084(3) 0.0097(4) 0.000 0.0018(3) 0.000
+Ge2 0.0073(3) 0.0071(2) 0.0088(2) 0.0007(2) 0.00220(19) 0.0002(2)
+Ge3 0.0084(3) 0.0079(2) 0.0087(2) -0.0003(2) 0.00213(19) -0.0005(2)
+Ge4 0.0127(4) 0.0098(4) 0.0123(4) 0.000 0.0023(3) 0.000
+O1 0.014(2) 0.0140(19) 0.0079(17) -0.0020(14) 0.0030(15) -0.0004(15)
+O2 0.0093(17) 0.0108(17) 0.0125(17) 0.0018(16) 0.0004(14) 0.0005(16)
+O3 0.0108(18) 0.0064(19) 0.0109(17) 0.0024(13) -0.0015(14) 0.0003(14)
+O4 0.0113(18) 0.010(2) 0.0091(17) 0.0032(13) 0.0020(14) 0.0004(14)
+O5 0.0076(17) 0.0169(18) 0.0103(17) 0.0029(17) 0.0001(13) -0.0028(17)
+O6 0.0102(19) 0.011(2) 0.0140(19) -0.0036(14) 0.0030(15) 0.0001(14)
+O7 0.0100(19) 0.0079(18) 0.0078(16) -0.0011(13) 0.0020(14) -0.0002(14)
+O8 0.0135(19) 0.010(2) 0.0156(19) -0.0047(13) 0.0040(15) 0.0004(14)
+O9 0.0073(17) 0.0178(17) 0.0105(17) -0.0026(17) -0.0018(14) 0.0011(17)
+O10 0.0118(17) 0.0097(17) 0.0163(18) 0.0040(16) 0.0034(14) 0.0038(16)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+B B 0.0013 0.0007 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+K K 0.2009 0.2494 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ge Ge 0.1547 1.8001 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O9 K1 O10 112.25(11) . 4_656 ?
+O9 K1 O3 122.27(12) . 2_757 ?
+O10 K1 O3 79.87(12) 4_656 2_757 ?
+O9 K1 O7 102.41(11) . 4_646 ?
+O10 K1 O7 73.08(11) 4_656 4_646 ?
+O3 K1 O7 133.99(11) 2_757 4_646 ?
+O9 K1 O1 119.44(11) . 2_757 ?
+O10 K1 O1 127.86(12) 4_656 2_757 ?
+O3 K1 O1 78.68(10) 2_757 2_757 ?
+O7 K1 O1 89.33(11) 4_646 2_757 ?
+O9 K1 O2 84.17(10) . . ?
+O10 K1 O2 139.02(12) 4_656 . ?
+O3 K1 O2 60.27(10) 2_757 . ?
+O7 K1 O2 142.26(12) 4_646 . ?
+O1 K1 O2 56.50(10) 2_757 . ?
+O9 K1 O4 48.82(10) . 4_646 ?
+O10 K1 O4 75.91(11) 4_656 4_646 ?
+O3 K1 O4 144.70(11) 2_757 4_646 ?
+O7 K1 O4 61.03(10) 4_646 4_646 ?
+O1 K1 O4 136.62(12) 2_757 4_646 ?
+O2 K1 O4 132.66(11) . 4_646 ?
+O9 K1 O9 94.92(12) . 4_646 ?
+O10 K1 O9 124.79(11) 4_656 4_646 ?
+O3 K1 O9 124.94(11) 2_757 4_646 ?
+O7 K1 O9 54.07(10) 4_646 4_646 ?
+O1 K1 O9 46.68(10) 2_757 4_646 ?
+O2 K1 O9 88.59(11) . 4_646 ?
+O4 K1 O9 90.14(9) 4_646 4_646 ?
+O9 K1 O9 93.41(12) . 4_656 ?
+O10 K1 O9 54.78(11) 4_656 4_656 ?
+O3 K1 O9 46.39(9) 2_757 4_656 ?
+O7 K1 O9 127.61(11) 4_646 4_656 ?
+O1 K1 O9 125.02(11) 2_757 4_656 ?
+O2 K1 O9 88.31(11) . 4_656 ?
+O4 K1 O9 98.35(10) 4_646 4_656 ?
+O9 K1 O9 170.76(14) 4_646 4_656 ?
+O9 K1 O6 155.09(10) . 3_544 ?
+O10 K1 O6 53.43(10) 4_656 3_544 ?
+O3 K1 O6 78.16(10) 2_757 3_544 ?
+O7 K1 O6 55.83(10) 4_646 3_544 ?
+O1 K1 O6 75.84(11) 2_757 3_544 ?
+O2 K1 O6 120.25(10) . 3_544 ?
+O4 K1 O6 106.34(11) 4_646 3_544 ?
+O9 K1 O6 81.83(10) 4_646 3_544 ?
+O9 K1 O6 92.24(10) 4_656 3_544 ?
+O9 K1 B1 100.98(13) . 2_767 ?
+O10 K1 B1 74.40(13) 4_656 2_767 ?
+O3 K1 B1 25.10(11) 2_757 2_767 ?
+O7 K1 B1 145.22(12) 4_646 2_767 ?
+O1 K1 B1 101.13(13) 2_757 2_767 ?
+O2 K1 B1 65.48(12) . 2_767 ?
+O4 K1 B1 121.46(12) 4_646 2_767 ?
+O9 K1 B1 147.63(12) 4_646 2_767 ?
+O9 K1 B1 25.30(11) 4_656 2_767 ?
+O6 K1 B1 94.41(12) 3_544 2_767 ?
+O9 K1 B1 23.78(11) . 3_454 ?
+O10 K1 B1 93.96(12) 4_656 3_454 ?
+O3 K1 B1 136.46(13) 2_757 3_454 ?
+O7 K1 B1 82.68(12) 4_646 3_454 ?
+O1 K1 B1 132.84(13) 2_757 3_454 ?
+O2 K1 B1 107.91(11) . 3_454 ?
+O4 K1 B1 25.09(11) 4_646 3_454 ?
+O9 K1 B1 94.05(12) 4_646 3_454 ?
+O9 K1 B1 95.18(12) 4_656 3_454 ?
+O6 K1 B1 131.43(12) 3_544 3_454 ?
+B1 K1 B1 111.65(16) 2_767 3_454 ?
+O5 K2 O8 83.68(11) 4_647 2_657 ?
+O5 K2 O6 92.58(12) 4_647 1_545 ?
+O8 K2 O6 83.03(11) 2_657 1_545 ?
+O5 K2 O1 108.50(11) 4_647 . ?
+O8 K2 O1 143.52(12) 2_657 . ?
+O6 K2 O1 128.84(12) 1_545 . ?
+O5 K2 O2 138.12(12) 4_647 . ?
+O8 K2 O2 90.50(11) 2_657 . ?
+O6 K2 O2 127.91(12) 1_545 . ?
+O1 K2 O2 57.12(11) . . ?
+O5 K2 O5 95.79(12) 4_647 1_545 ?
+O8 K2 O5 130.74(11) 2_657 1_545 ?
+O6 K2 O5 47.72(10) 1_545 1_545 ?
+O1 K2 O5 83.31(11) . 1_545 ?
+O2 K2 O5 118.34(11) . 1_545 ?
+O5 K2 O10 134.09(11) 4_647 . ?
+O8 K2 O10 62.18(11) 2_657 . ?
+O6 K2 O10 55.78(11) 1_545 . ?
+O1 K2 O10 117.23(11) . . ?
+O2 K2 O10 75.56(11) . . ?
+O5 K2 O10 85.99(10) 1_545 . ?
+O5 K2 O5 93.23(12) 4_647 . ?
+O8 K2 O5 47.29(10) 2_657 . ?
+O6 K2 O5 128.77(12) 1_545 . ?
+O1 K2 O5 96.82(11) . . ?
+O2 K2 O5 55.09(10) . . ?
+O5 K2 O5 170.44(14) 1_545 . ?
+O10 K2 O5 85.47(10) . . ?
+O5 K2 O8 47.28(10) 4_647 3_545 ?
+O8 K2 O8 130.08(8) 2_657 3_545 ?
+O6 K2 O8 104.61(11) 1_545 3_545 ?
+O1 K2 O8 65.42(11) . 3_545 ?
+O2 K2 O8 118.13(11) . 3_545 ?
+O5 K2 O8 72.60(10) 1_545 3_545 ?
+O10 K2 O8 158.16(11) . 3_545 ?
+O5 K2 O8 116.19(10) . 3_545 ?
+O5 K2 O4 145.70(11) 4_647 1_545 ?
+O8 K2 O4 127.16(11) 2_657 1_545 ?
+O6 K2 O4 78.72(10) 1_545 1_545 ?
+O1 K2 O4 57.48(10) . 1_545 ?
+O2 K2 O4 64.72(11) . 1_545 ?
+O5 K2 O4 54.01(9) 1_545 1_545 ?
+O10 K2 O4 66.55(10) . 1_545 ?
+O5 K2 O4 118.18(10) . 1_545 ?
+O8 K2 O4 102.52(11) 3_545 1_545 ?
+O5 K2 B2 26.68(12) 4_647 4_647 ?
+O8 K2 B2 104.53(13) 2_657 4_647 ?
+O6 K2 B2 111.21(13) 1_545 4_647 ?
+O1 K2 B2 81.86(13) . 4_647 ?
+O2 K2 B2 120.39(13) . 4_647 ?
+O5 K2 B2 94.29(13) 1_545 4_647 ?
+O10 K2 B2 160.74(12) . 4_647 ?
+O5 K2 B2 95.19(12) . 4_647 ?
+O8 K2 B2 26.25(12) 3_545 4_647 ?
+O4 K2 B2 128.31(13) 1_545 4_647 ?
+O5 K2 B2 97.69(12) 4_647 . ?
+O8 K2 B2 24.79(12) 2_657 . ?
+O6 K2 B2 102.71(13) 1_545 . ?
+O1 K2 B2 119.05(13) . . ?
+O2 K2 B2 66.53(12) . . ?
+O5 K2 B2 148.05(13) 1_545 . ?
+O10 K2 B2 63.98(12) . . ?
+O5 K2 B2 26.14(11) . . ?
+O8 K2 B2 135.75(12) 3_545 . ?
+O4 K2 B2 116.56(12) 1_545 . ?
+B2 K2 B2 110.41(16) 4_647 . ?
+O1 Ge1 O1 116.1(3) 2_757 . ?
+O1 Ge1 O2 105.77(17) 2_757 2_757 ?
+O1 Ge1 O2 107.96(18) . 2_757 ?
+O1 Ge1 O2 107.96(18) 2_757 . ?
+O1 Ge1 O2 105.77(17) . . ?
+O2 Ge1 O2 113.5(3) 2_757 . ?
+O1 Ge1 K1 147.65(13) 2_757 2_757 ?
+O1 Ge1 K1 55.97(14) . 2_757 ?
+O2 Ge1 K1 57.19(11) 2_757 2_757 ?
+O2 Ge1 K1 104.25(12) . 2_757 ?
+O1 Ge1 K1 55.97(13) 2_757 . ?
+O1 Ge1 K1 147.65(14) . . ?
+O2 Ge1 K1 104.25(12) 2_757 . ?
+O2 Ge1 K1 57.19(11) . . ?
+K1 Ge1 K1 148.72(6) 2_757 . ?
+O1 Ge1 K2 53.55(13) 2_757 2_757 ?
+O1 Ge1 K2 115.18(13) . 2_757 ?
+O2 Ge1 K2 54.53(12) 2_757 2_757 ?
+O2 Ge1 K2 139.05(12) . 2_757 ?
+K1 Ge1 K2 98.86(5) 2_757 2_757 ?
+K1 Ge1 K2 86.10(5) . 2_757 ?
+O1 Ge1 K2 115.18(14) 2_757 . ?
+O1 Ge1 K2 53.55(13) . . ?
+O2 Ge1 K2 139.05(12) 2_757 . ?
+O2 Ge1 K2 54.53(12) . . ?
+K1 Ge1 K2 86.10(5) 2_757 . ?
+K1 Ge1 K2 98.86(5) . . ?
+K2 Ge1 K2 161.64(6) 2_757 . ?
+O5 Ge2 O4 114.14(18) . . ?
+O5 Ge2 O3 103.60(17) . . ?
+O4 Ge2 O3 112.47(17) . . ?
+O5 Ge2 O2 106.88(18) . . ?
+O4 Ge2 O2 113.32(17) . . ?
+O3 Ge2 O2 105.59(17) . . ?
+O5 Ge2 K2 59.19(14) . 1_565 ?
+O4 Ge2 K2 69.49(13) . 1_565 ?
+O3 Ge2 K2 87.14(12) . 1_565 ?
+O2 Ge2 K2 163.62(12) . 1_565 ?
+O5 Ge2 K2 58.79(14) . . ?
+O4 Ge2 K2 147.47(12) . . ?
+O3 Ge2 K2 99.85(12) . . ?
+O2 Ge2 K2 51.06(12) . . ?
+K2 Ge2 K2 117.48(5) 1_565 . ?
+O5 Ge2 K1 126.02(13) . . ?
+O4 Ge2 K1 69.28(13) . . ?
+O3 Ge2 K1 125.52(13) . . ?
+O2 Ge2 K1 44.06(11) . . ?
+K2 Ge2 K1 134.86(3) 1_565 . ?
+K2 Ge2 K1 89.34(5) . . ?
+O7 Ge3 O9 104.53(18) . . ?
+O7 Ge3 O8 110.45(17) . . ?
+O9 Ge3 O8 118.64(17) . . ?
+O7 Ge3 O10 110.82(18) . . ?
+O9 Ge3 O10 102.67(18) . . ?
+O8 Ge3 O10 109.38(17) . . ?
+O7 Ge3 K1 57.44(12) . 4_656 ?
+O9 Ge3 K1 60.99(15) . 4_656 ?
+O8 Ge3 K1 99.36(13) . 4_656 ?
+O10 Ge3 K1 151.25(12) . 4_656 ?
+O7 Ge3 K1 133.36(12) . 4_646 ?
+O9 Ge3 K1 59.11(15) . 4_646 ?
+O8 Ge3 K1 115.57(12) . 4_646 ?
+O10 Ge3 K1 46.33(12) . 4_646 ?
+K1 Ge3 K1 119.48(5) 4_656 4_646 ?
+O6 Ge4 O6 120.6(2) 1_545 2_647 ?
+O6 Ge4 O10 107.71(18) 1_545 . ?
+O6 Ge4 O10 106.13(18) 2_647 . ?
+O6 Ge4 O10 106.13(18) 1_545 2_657 ?
+O6 Ge4 O10 107.71(18) 2_647 2_657 ?
+O10 Ge4 O10 108.0(2) . 2_657 ?
+O6 Ge4 K2 52.30(13) 1_545 . ?
+O6 Ge4 K2 153.10(13) 2_647 . ?
+O10 Ge4 K2 60.80(12) . . ?
+O10 Ge4 K2 98.95(13) 2_657 . ?
+O6 Ge4 K2 153.10(13) 1_545 2_657 ?
+O6 Ge4 K2 52.30(13) 2_647 2_657 ?
+O10 Ge4 K2 98.95(12) . 2_657 ?
+O10 Ge4 K2 60.80(12) 2_657 2_657 ?
+K2 Ge4 K2 147.14(6) . 2_657 ?
+O6 Ge4 K1 103.17(14) 1_545 4_646 ?
+O6 Ge4 K1 67.57(13) 2_647 4_646 ?
+O10 Ge4 K1 48.59(13) . 4_646 ?
+O10 Ge4 K1 147.53(13) 2_657 4_646 ?
+K2 Ge4 K1 88.01(5) . 4_646 ?
+K2 Ge4 K1 97.04(5) 2_657 4_646 ?
+O6 Ge4 K1 67.57(13) 1_545 3_445 ?
+O6 Ge4 K1 103.17(14) 2_647 3_445 ?
+O10 Ge4 K1 147.53(13) . 3_445 ?
+O10 Ge4 K1 48.59(13) 2_657 3_445 ?
+K2 Ge4 K1 97.04(5) . 3_445 ?
+K2 Ge4 K1 88.01(5) 2_657 3_445 ?
+K1 Ge4 K1 162.15(6) 4_646 3_445 ?
+O1 B1 O9 107.2(4) . 3_545 ?
+O1 B1 O3 110.9(4) . 1_545 ?
+O9 B1 O3 107.9(4) 3_545 1_545 ?
+O1 B1 O4 113.2(4) . 2_747 ?
+O9 B1 O4 106.9(4) 3_545 2_747 ?
+O3 B1 O4 110.4(4) 1_545 2_747 ?
+O1 B1 K1 157.9(3) . 2_747 ?
+O9 B1 K1 64.3(3) 3_545 2_747 ?
+O3 B1 K1 57.5(2) 1_545 2_747 ?
+O4 B1 K1 88.9(3) 2_747 2_747 ?
+O1 B1 K1 121.3(3) . 3_545 ?
+O9 B1 K1 47.6(2) 3_545 3_545 ?
+O3 B1 K1 126.6(3) 1_545 3_545 ?
+O4 B1 K1 59.5(2) 2_747 3_545 ?
+K1 B1 K1 69.51(11) 2_747 3_545 ?
+O1 B1 K1 55.2(2) . 2_757 ?
+O9 B1 K1 59.4(3) 3_545 2_757 ?
+O3 B1 K1 148.4(3) 1_545 2_757 ?
+O4 B1 K1 101.1(3) 2_747 2_757 ?
+K1 B1 K1 123.27(15) 2_747 2_757 ?
+K1 B1 K1 68.76(10) 3_545 2_757 ?
+O6 B2 O7 113.0(4) . . ?
+O6 B2 O8 112.3(4) . 2_657 ?
+O7 B2 O8 112.6(4) . 2_657 ?
+O6 B2 O5 106.4(4) . . ?
+O7 B2 O5 106.2(4) . . ?
+O8 B2 O5 105.7(4) 2_657 . ?
+O6 B2 K2 84.2(3) . 4_657 ?
+O7 B2 K2 157.1(3) . 4_657 ?
+O8 B2 K2 71.2(2) 2_657 4_657 ?
+O5 B2 K2 52.6(2) . 4_657 ?
+O6 B2 K2 153.4(3) . . ?
+O7 B2 K2 93.5(3) . . ?
+O8 B2 K2 52.3(2) 2_657 . ?
+O5 B2 K2 64.8(3) . . ?
+K2 B2 K2 70.59(11) 4_657 . ?
+O6 B2 K2 50.9(2) . 1_565 ?
+O7 B2 K2 108.4(3) . 1_565 ?
+O8 B2 K2 138.9(3) 2_657 1_565 ?
+O5 B2 K2 58.7(2) . 1_565 ?
+K2 B2 K2 69.91(11) 4_657 1_565 ?
+K2 B2 K2 122.96(16) . 1_565 ?
+B1 O1 Ge1 121.7(3) . . ?
+B1 O1 K2 125.6(3) . . ?
+Ge1 O1 K2 97.88(16) . . ?
+B1 O1 K1 100.5(3) . 2_757 ?
+Ge1 O1 K1 95.22(16) . 2_757 ?
+K2 O1 K1 112.27(13) . 2_757 ?
+Ge1 O2 Ge2 124.8(2) . . ?
+Ge1 O2 K2 95.99(16) . . ?
+Ge2 O2 K2 100.79(15) . . ?
+Ge1 O2 K1 93.14(14) . . ?
+Ge2 O2 K1 111.66(16) . . ?
+K2 O2 K1 132.37(14) . . ?
+B1 O3 Ge2 126.1(3) 1_565 . ?
+B1 O3 K1 97.4(3) 1_565 2_757 ?
+Ge2 O3 K1 133.14(18) . 2_757 ?
+B1 O4 Ge2 120.9(3) 2_767 . ?
+B1 O4 K1 95.4(3) 2_767 4_656 ?
+Ge2 O4 K1 124.45(17) . 4_656 ?
+B1 O4 K2 135.3(3) 2_767 1_565 ?
+Ge2 O4 K2 81.44(13) . 1_565 ?
+K1 O4 K2 101.86(11) 4_656 1_565 ?
+B2 O5 Ge2 121.2(3) . . ?
+B2 O5 K2 100.7(2) . 4_657 ?
+Ge2 O5 K2 138.05(17) . 4_657 ?
+B2 O5 K2 95.7(3) . 1_565 ?
+Ge2 O5 K2 91.46(15) . 1_565 ?
+K2 O5 K2 86.60(11) 4_657 1_565 ?
+B2 O5 K2 89.1(3) . . ?
+Ge2 O5 K2 93.14(16) . . ?
+K2 O5 K2 84.38(10) 4_657 . ?
+K2 O5 K2 170.44(14) 1_565 . ?
+B2 O6 Ge4 119.0(3) . 1_565 ?
+B2 O6 K2 105.9(3) . 1_565 ?
+Ge4 O6 K2 99.23(16) 1_565 1_565 ?
+B2 O6 K1 125.0(3) . 3_455 ?
+Ge4 O6 K1 83.76(14) 1_565 3_455 ?
+K2 O6 K1 119.66(12) 1_565 3_455 ?
+B2 O7 Ge3 127.1(3) . . ?
+B2 O7 K1 134.5(3) . 4_656 ?
+Ge3 O7 K1 93.01(15) . 4_656 ?
+B2 O8 Ge3 121.1(3) 2_657 . ?
+B2 O8 K2 102.9(3) 2_657 2_657 ?
+Ge3 O8 K2 128.73(18) . 2_657 ?
+B2 O8 K2 82.6(3) 2_657 3_454 ?
+Ge3 O8 K2 125.98(18) . 3_454 ?
+K2 O8 K2 81.62(10) 2_657 3_454 ?
+B1 O9 Ge3 123.8(3) 3_454 . ?
+B1 O9 K1 108.6(3) 3_454 . ?
+Ge3 O9 K1 127.58(16) . . ?
+B1 O9 K1 96.0(3) 3_454 4_656 ?
+Ge3 O9 K1 89.38(16) . 4_656 ?
+K1 O9 K1 86.50(11) . 4_656 ?
+B1 O9 K1 90.4(3) 3_454 4_646 ?
+Ge3 O9 K1 92.55(17) . 4_646 ?
+K1 O9 K1 85.17(11) . 4_646 ?
+K1 O9 K1 170.76(13) 4_656 4_646 ?
+Ge4 O10 Ge3 127.3(2) . . ?
+Ge4 O10 K1 102.89(18) . 4_646 ?
+Ge3 O10 K1 106.08(15) . 4_646 ?
+Ge4 O10 K2 89.85(14) . . ?
+Ge3 O10 K2 114.86(17) . . ?
+K1 O10 K2 115.41(13) 4_646 . ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+K1 O9 2.714(4) . ?
+K1 O10 2.737(4) 4_656 ?
+K1 O3 2.948(4) 2_757 ?
+K1 O7 2.950(4) 4_646 ?
+K1 O1 2.951(4) 2_757 ?
+K1 O2 2.984(4) . ?
+K1 O4 3.014(4) 4_646 ?
+K1 O9 3.057(5) 4_646 ?
+K1 O9 3.123(5) 4_656 ?
+K1 O6 3.308(4) 3_544 ?
+K1 B1 3.467(6) 2_767 ?
+K1 B1 3.483(6) 3_454 ?
+K2 O5 2.712(4) 4_647 ?
+K2 O8 2.824(4) 2_657 ?
+K2 O6 2.850(4) 1_545 ?
+K2 O1 2.884(4) . ?
+K2 O2 2.909(4) . ?
+K2 O5 3.034(4) 1_545 ?
+K2 O10 3.103(4) . ?
+K2 O5 3.147(4) . ?
+K2 O8 3.201(4) 3_545 ?
+K2 O4 3.345(4) 1_545 ?
+K2 B2 3.353(6) 4_647 ?
+K2 B2 3.478(6) . ?
+Ge1 O1 1.715(4) 2_757 ?
+Ge1 O1 1.715(4) . ?
+Ge1 O2 1.758(4) 2_757 ?
+Ge1 O2 1.758(4) . ?
+Ge1 K1 3.545(2) 2_757 ?
+Ge1 K2 3.5521(19) 2_757 ?
+Ge2 O5 1.731(4) . ?
+Ge2 O4 1.736(3) . ?
+Ge2 O3 1.748(4) . ?
+Ge2 O2 1.765(4) . ?
+Ge2 K2 3.5317(18) 1_565 ?
+Ge3 O7 1.726(4) . ?
+Ge3 O9 1.728(4) . ?
+Ge3 O8 1.737(4) . ?
+Ge3 O10 1.753(4) . ?
+Ge3 K1 3.4949(19) 4_656 ?
+Ge3 K1 3.6363(19) 4_646 ?
+Ge4 O6 1.717(4) 1_545 ?
+Ge4 O6 1.717(4) 2_647 ?
+Ge4 O10 1.742(4) . ?
+Ge4 O10 1.742(4) 2_657 ?
+Ge4 K2 3.5551(19) 2_657 ?
+Ge4 K1 3.558(2) 4_646 ?
+Ge4 K1 3.558(2) 3_445 ?
+B1 O1 1.478(7) . ?
+B1 O9 1.482(6) 3_545 ?
+B1 O3 1.483(7) 1_545 ?
+B1 O4 1.484(6) 2_747 ?
+B1 K1 3.467(6) 2_747 ?
+B1 K1 3.483(6) 3_545 ?
+B1 K1 3.533(6) 2_757 ?
+B2 O6 1.448(7) . ?
+B2 O7 1.483(6) . ?
+B2 O8 1.496(7) 2_657 ?
+B2 O5 1.532(7) . ?
+B2 K2 3.353(6) 4_657 ?
+B2 K2 3.533(6) 1_565 ?
+O1 K1 2.951(4) 2_757 ?
+O3 B1 1.483(7) 1_565 ?
+O3 K1 2.948(4) 2_757 ?
+O4 B1 1.484(6) 2_767 ?
+O4 K1 3.014(4) 4_656 ?
+O4 K2 3.345(4) 1_565 ?
+O5 K2 2.712(4) 4_657 ?
+O5 K2 3.034(4) 1_565 ?
+O6 Ge4 1.717(4) 1_565 ?
+O6 K2 2.850(4) 1_565 ?
+O6 K1 3.308(4) 3_455 ?
+O7 K1 2.950(4) 4_656 ?
+O8 B2 1.496(7) 2_657 ?
+O8 K2 2.824(4) 2_657 ?
+O8 K2 3.201(4) 3_454 ?
+O9 B1 1.482(6) 3_454 ?
+O9 K1 3.057(5) 4_656 ?
+O9 K1 3.123(5) 4_646 ?
+O10 K1 2.737(4) 4_646 ?

@@ -1,0 +1,162 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-23 16:50:47 +0200 (Wed, 23 Mar 2016) $
+#$Revision: 179396 $
+#$URL: svn://www.crystallography.net/cod/cif/4/32/93/4329324.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4329324
+loop_
+_publ_author_name
+'Andrew C. Malingowski'
+'Peter W. Stephens'
+'Ashfia Huq'
+'Qingzhen Huang'
+'Syed Khalid'
+'Peter G. Khalifah'
+_publ_section_title
+;
+ Substitutional Mechanism of Ni into the Wide-Band-Gap Semiconductor
+ InTaO4 and Its Implications for Water Splitting Activity in the
+ Wolframite Structure Type
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              6096
+_journal_page_last               6103
+_journal_paper_doi               10.1021/ic202715c
+_journal_volume                  51
+_journal_year                    2012
+_chemical_formula_sum            'In0.91 Ni0.06 O4 Ta1.03'
+_chemical_formula_weight         358.45
+_space_group_IT_number           13
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2yc'
+_symmetry_space_group_name_H-M   'P 1 2/c 1'
+_audit_author_name               'Andrew Malingowski'
+_audit_creation_date             2011-12-12T16:15
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_audit_update_record
+' 2011-12-12T16:15  Initial CIF as created by GSAS2CIF'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 91.3467(4)
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            2
+_cell_length_a                   4.818630(23)
+_cell_length_b                   5.770230(26)
+_cell_length_c                   5.152369(23)
+_cell_volume                     143.2200(11)
+_computing_structure_refinement  GSAS
+_diffrn_radiation_probe          neutron
+_exptl_absorpt_correction_T_max  0.93006
+_exptl_absorpt_correction_T_min  0.83080
+_exptl_absorpt_process_details
+;   GSAS Absorption/surface roughness correction: function number 0
+ Debye-Scherrer absorption correction
+Term (= MU.r/wave) =     0.57258E-01
+Correction is not refined.
+;
+_pd_calc_method                  'Rietveld Refinement'
+_pd_meas_2theta_fixed            115.000
+_pd_phase_name                   InTaO4
+_pd_proc_info_datetime           2011-12-12T16:15:09
+_pd_proc_ls_background_function
+;   GSAS Background function number 1 with  3 terms.
+ Shifted Chebyshev function of 1st kind
+      1:   0.263164     2:   3.042950E-02 3:   9.967500E-03
+;
+_pd_proc_ls_prof_R_factor        0.0556
+_pd_proc_ls_prof_wR_expected     0.0295
+_pd_proc_ls_prof_wR_factor       0.0521
+_refine_ls_goodness_of_fit_all   0.99
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     32
+_refine_ls_number_restraints     0
+_refine_ls_R_Fsqd_factor         0.08053
+_refine_ls_shift/su_max          0.61
+_refine_ls_shift/su_mean         0.20
+_cod_data_source_file            ic202715c_si_001_4.cif
+_cod_data_source_block           IN9NI1TAO4_3_COREF2_phase_1
+_cod_original_cell_volume        143.2200(10)
+_cod_database_code               4329324
+#BEGIN Tags that were not found in dictionaries:
+_gsas_exptl_extinct_corr_t_min   1.00000
+_gsas_exptl_extinct_corr_t_max   1.00000
+#END Tags that were not found in dictionaries
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -x,+y,-z+1/2
+-1 -x,-y,-z
+-2 +x,-y,+z+1/2
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_22
+_atom_site_aniso_U_23
+_atom_site_aniso_U_33
+O2 0.00651(35 -0.00211(32 -0.00475(29 0.0053(4) -0.00018(30 0.00425(34
+O1 0.0095(4) -0.00172(34 0.00252(31 0.0051(4) -0.00243(32 0.00329(34
+Ta1 0.00261(26 0.0 -0.00095(20 0.00009(25 0.0 0.00015(24
+In1 0.0045(4) 0.0 -0.00051(33 0.0044(4) 0.00055 0.0037(4)
+Ta2 0.0045(4) 0.0 -0.00051(33 0.0044(4) 0.0 0.0037(4)
+Ni 0.0045(4) 0.0 -0.00051(33 0.0044(4) 0.0 0.0037(4)
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+O O2 0.23935(20) 0.11854(18) 0.59755(18) 1.0 Uani 0.00543 4
+O O1 0.28398(20) 0.39617(16) 0.06422(19) 1.0 Uani 0.00595 4
+Ta Ta1 0.5 0.67384(10) 0.25 1.0 Uani 0.00096 2
+In In1 0.0 0.17641(18) 0.25 0.9146 Uani 0.00421 2
+Ta Ta2 0.0 0.17641(18) 0.25 0.02847 Uani 0.00421 2
+Ni Ni 0.0 0.17641(18) 0.25 0.05693 Uani 0.00421 2
+loop_
+_atom_type_symbol
+_atom_type_scat_length_neutron
+_atom_type_scat_source
+_atom_type_number_in_cell
+O 0.5805 International_Tables_Vol_C 8.0
+Ta 0.6910 International_Tables_Vol_C 2.057
+In 0.4065 International_Tables_Vol_C 1.829
+Ni 1.0300 International_Tables_Vol_C 0.114
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+O2 In1 2.1334(10) 1_555 n
+O2 In1 2.2105(12) -1_556 n
+O1 Ta1 2.1260(10) 1_555 n
+O1 Ta1 1.9867(9) -1_665 n
+O1 In1 2.1115(11) 1_555 n
+Ta1 O2 1.8930(10) -1_666 n
+Ta1 O2 1.8930(10) -2_564 n
+Ta1 O1 2.1260(10) 1_555 n
+Ta1 O1 2.1260(10) 2_655 n
+Ta1 O1 1.9867(9) -1_665 n
+Ta1 O1 1.9867(9) -2_565 n
+Ta1 Ta1 3.2652(7) -1_665 n
+Ta1 Ta1 3.2652(7) -1_666 n
+In1 O2 2.1334(10) 1_555 n
+In1 O2 2.1334(10) 2_555 n
+In1 O2 2.2105(12) -1_556 n
+In1 O2 2.2105(12) -2_554 n
+In1 O1 2.1115(11) 1_555 n
+In1 O1 2.1115(11) 2_555 n
+In1 In1 3.2835(13) -1_555 n
+In1 In1 3.2835(13) -1_556 n

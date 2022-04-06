@@ -1,0 +1,191 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-21 01:21:50 +0200 (Mon, 21 Mar 2016) $
+#$Revision: 178377 $
+#$URL: svn://www.crystallography.net/cod/cif/4/00/12/4001209.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4001209
+loop_
+_publ_author_name
+'Zhou, Yongkai'
+'Adams, Stefan'
+'Rao, R. Prasada'
+'Edwards, Doreen D.'
+'Neiman, Arkady'
+'Pestereva, N.'
+_publ_section_title
+;
+ Charge Transport by Polyatomic Anion Diffusion in Sc2(WO4)3
+;
+_journal_issue                   20
+_journal_name_full               'Chemistry of Materials'
+_journal_page_first              6335
+_journal_paper_doi               10.1021/cm800466y
+_journal_volume                  20
+_journal_year                    2008
+_chemical_formula_sum            'O12 Sc6 W'
+_chemical_formula_weight         645.57
+_chemical_name_systematic        ' ?'
+_space_group_IT_number           148
+_symmetry_cell_setting           trigonal
+_symmetry_space_group_name_Hall  '-P 3*'
+_symmetry_space_group_name_H-M   'R -3 :R'
+_cell_angle_alpha                98.9226(17)
+_cell_angle_beta                 98.9226
+_cell_angle_gamma                98.9226
+_cell_formula_units_Z            1
+_cell_length_a                   6.13563(10)
+_cell_length_b                   6.13563
+_cell_length_c                   6.13563
+_cell_volume                     221.594(4)
+_pd_block_id
+2008-01-25T12:33|T1300KF2PHASE_phase2|Zhou_Yongkai||
+_pd_phase_name                   Sc6WO12
+_cod_data_source_file            cm800466y_si_027.cif
+_cod_data_source_block           T1300KF2PHASE_phase_2
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_geom_bond_publ_flag' value 'N' changed to 'n' according to
+/home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (36
+times).
+
+'_geom_angle_publ_flag' value 'N' changed to 'n' according
+to /home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary
+named 'cif_core.dic' version 2.4.1 from 2010-06-29 (39 times).
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_original_cell_volume        221.594(10)
+_cod_original_sg_symbol_H-M      'R -3'
+_cod_database_code               4001209
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 +z,+x,+y
+3 +y,+z,+x
+-1 -x,-y,-z
+-2 -z,-x,-y
+-3 -y,-z,-x
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+W+ W1 0.0 0.0 0.0 1.0 Uiso 0.069(10) 1
+Sc Sc2 0.1445(33) 0.3187(30) 0.6142(30) 1.0 Uiso 0.017(7) 6
+O- O3 -0.003(12) 0.044(14) 0.291(5) 1.0 Uiso 0.107(17) 6
+O- O4 0.432(11) 0.509(11) 0.846(6) 1.0 Uiso 0.107(17) 6
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+W+ 1.0
+Sc 6.0
+O- 12.0
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O3 W1 O3 92.4(14) 1_555 2_555 n
+O3 W1 O3 92.4(14) 1_555 3_555 n
+O3 W1 O3 180.0 1_555 -1_555 n
+O3 W1 O3 87.6(14) 1_555 -2_555 n
+O3 W1 O3 87.6(14) 1_555 -3_555 n
+O3 W1 O3 92.4(14) 2_555 3_555 n
+O3 W1 O3 87.6(14) 2_555 -1_555 n
+O3 W1 O3 180.0 2_555 -2_555 n
+O3 W1 O3 87.6(14) 2_555 -3_555 n
+O3 W1 O3 87.6(14) 3_555 -1_555 n
+O3 W1 O3 87.6(14) 3_555 -2_555 n
+O3 W1 O3 180.0 3_555 -3_555 n
+O3 W1 O3 92.4(14) -1_555 -2_555 n
+O3 W1 O3 92.4(14) -1_555 -3_555 n
+O3 W1 O3 92.4(14) -2_555 -3_555 n
+O3 Sc2 O3 68.4(18) 1_555 -1_556 n
+O3 Sc2 O4 148.6(27) 1_555 1_555 n
+O3 Sc2 O4 81.0(26) 1_555 2_455 n
+O3 Sc2 O4 99.8(26) 1_555 -2_666 n
+O3 Sc2 O4 80.5(27) 1_555 -3_666 n
+O3 Sc2 O4 113.9(22) -1_556 1_555 n
+O3 Sc2 O4 102(4) -1_556 2_455 n
+O3 Sc2 O4 160.7(32) -1_556 -2_666 n
+O3 Sc2 O4 84.5(21) -1_556 -3_666 n
+O4 Sc2 O4 126.2(21) 1_555 2_455 n
+O4 Sc2 O4 84.3(16) 1_555 -2_666 n
+O4 Sc2 O4 68.9(26) 1_555 -3_666 n
+O4 Sc2 O4 60.1(26) 2_455 -2_666 n
+O4 Sc2 O4 156.4(29) 2_455 -3_666 n
+O4 Sc2 O4 109.2(29) -2_666 -3_666 n
+W1 O3 Sc2 139.3(26) 1_555 1_555 n
+W1 O3 Sc2 107.9(29) 1_555 -1_556 n
+Sc2 O3 Sc2 111.6(18) 1_555 -1_556 n
+Sc2 O4 Sc2 106.3(33) 1_555 3_556 n
+Sc2 O4 Sc2 90.8(19) 1_555 -2_666 n
+Sc2 O4 Sc2 115(4) 1_555 -3_666 n
+Sc2 O4 Sc2 96(4) 3_556 -2_666 n
+Sc2 O4 Sc2 119.9(26) 3_556 -3_666 n
+Sc2 O4 Sc2 123.7(29) -2_666 -3_666 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+W1 Sc2 3.430(19) 1_554 n
+W1 Sc2 3.430(19) 2_455 n
+W1 Sc2 3.430(19) 3_545 n
+W1 Sc2 3.430(19) -1_556 n
+W1 Sc2 3.430(19) -2_655 n
+W1 Sc2 3.430(19) -3_565 n
+W1 O3 1.764(29) 1_555 n
+W1 O3 1.764(29) 2_555 n
+W1 O3 1.764(29) 3_555 n
+W1 O3 1.764(29) -1_555 n
+W1 O3 1.764(29) -2_555 n
+W1 O3 1.764(29) -3_555 n
+Sc2 W1 3.430(19) 1_556 n
+Sc2 Sc2 3.392(16) 2_455 n
+Sc2 Sc2 3.392(16) 3_556 n
+Sc2 Sc2 3.39(4) -1_566 n
+Sc2 Sc2 3.452(19) -2_656 n
+Sc2 Sc2 3.330(31) -2_666 n
+Sc2 Sc2 3.452(19) -3_566 n
+Sc2 Sc2 3.330(31) -3_666 n
+Sc2 O3 2.35(5) 1_555 n
+Sc2 O3 2.55(10) 3_556 n
+Sc2 O3 2.45(5) -1_556 n
+Sc2 O4 2.14(4) 1_555 n
+Sc2 O4 2.10(5) 2_455 n
+Sc2 O4 1.81(8) -2_666 n
+Sc2 O4 2.52(7) -3_666 n
+O3 W1 1.764(29) 1_555 n
+O3 Sc2 2.35(5) 1_555 n
+O3 Sc2 2.55(10) 2_455 n
+O3 Sc2 2.45(5) -1_556 n
+O4 Sc2 2.14(4) 1_555 n
+O4 Sc2 2.10(5) 3_556 n
+O4 Sc2 2.52(7) -2_666 n
+O4 Sc2 1.81(8) -3_666 n
+O4 O4 1.98(8) -1_667 n
+loop_
+_pd_block_diffractogram_id
+2008-01-25T12:33|T1300KF2PHASE_H_01|Zhou_Yongkai|

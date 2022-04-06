@@ -1,0 +1,145 @@
+#------------------------------------------------------------------------------
+#$Date: 2019-12-26 20:51:30 +0200 (Thu, 26 Dec 2019) $
+#$Revision: 246084 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/31/16/2311689.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2311689
+loop_
+_publ_author_name
+'S\/lawi\'nski, Wojciech A'
+'Fjellv\%ag, \/Oystein S'
+'Ruud, Amund'
+'Fjellv\%ag, Helmer'
+_publ_section_title
+;
+ A novel polytype - the stacking fault based \g-MoO3 nanobelts.
+;
+_journal_coeditor_code           BM5082
+_journal_issue                   'Pt 2'
+_journal_name_full
+'Acta crystallographica Section B, Structural science, crystal engineering and materials'
+_journal_page_first              201
+_journal_page_last               208
+_journal_paper_doi               10.1107/S2052520615024804
+_journal_volume                  72
+_journal_year                    2016
+_chemical_formula_sum            'Mo O3'
+_chemical_formula_weight         143.9
+_space_group_IT_number           62
+_space_group_name_Hall           '-P 2n 2a'
+_space_group_name_H-M_alt        'P m c n'
+_symmetry_cell_setting           orthorhombic
+_symmetry_Int_Tables_number      62
+_symmetry_space_group_name_Hall  '-P 2n 2a'
+_symmetry_space_group_name_H-M   'P m c n'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   3.69610(4)
+_cell_length_b                   3.96122(5)
+_cell_length_c                   13.85331(19)
+_cell_measurement_temperature    293
+_cell_volume                     202.827(4)
+_diffrn_ambient_temperature      293
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_wavelength     0.50566
+_exptl_absorpt_coefficient_mu    15.213
+_exptl_crystal_density_diffrn    4.7136
+_exptl_crystal_F_000             264
+_pd_instr_location               ' ?'
+_pd_meas_2theta_range_inc        0.005
+_pd_meas_2theta_range_max        37.495
+_pd_meas_2theta_range_min        1.000
+_pd_meas_number_of_points        7300
+_pd_proc_2theta_range_inc        0.005
+_pd_proc_2theta_range_max        37.495
+_pd_proc_2theta_range_min        1
+_pd_proc_ls_background_function  '5 Legendre polynoms'
+_pd_proc_ls_pref_orient_corr     none
+_pd_proc_ls_profile_function     Pseudo-Voigt
+_pd_proc_ls_prof_R_factor        0.2262
+_pd_proc_ls_prof_wR_expected     0.2830
+_pd_proc_ls_prof_wR_factor       0.2843
+_refine_ls_goodness_of_fit_all   1.00
+_refine_ls_number_constraints    3
+_refine_ls_number_parameters     27
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          0.0669
+_refine_ls_R_factor_gt           0.0624
+_refine_ls_shift/su_max          0.1275
+_refine_ls_shift/su_mean         0.0173
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_all         0.0649
+_refine_ls_wR_factor_gt          0.0636
+_cod_data_source_file            bm5082sup1.cif
+_cod_data_source_block           I
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+data item '_diffrn_radiation_probe' value 'X-ray' was changed to
+'x-ray' in accordance with the
+/home/saulius/struct/COD-crude-data/automatic-downloads/DataCite-retrospective/IUCr/depositions/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 last updated on
+2011-04-26.
+
+Automatic conversion script
+Id: cif_fix_values 7556 2019-12-06 15:28:31Z antanas 
+;
+_cod_original_sg_symbol_Hall     '-P -2xa;-2ybc;-2zabc'
+_cod_original_formula_sum        'Mo1 O3'
+_cod_database_code               2311689
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 -x+1/2,-y+1/2,z+1/2
+3 -x,y+1/2,-z+1/2
+4 x+1/2,-y,-z
+5 -x,-y,-z
+6 x+1/2,y+1/2,-z+1/2
+7 x,-y+1/2,z+1/2
+8 -x+1/2,y,z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_adp_type
+_atom_site_U_iso_or_equiv
+_atom_site_site_symmetry_multiplicity
+_atom_site_occupancy
+_atom_site_calc_flag
+O1 O 0.25 0.542(2) 0.0875(7) Uiso 0.0036(16) 4 1 d
+Mo1 Mo 0.25 0.0814(3) 0.10140(9) Uiso 0.0069(3) 4 1 d
+O2 O 0.25 0.042(3) 0.2216(7) Uiso 0.0036(16) 4 1 d
+O3 O 0.25 0.497(2) 0.4312(7) Uiso 0.0036(16) 4 1 d
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Mo -0.5331 2.6274 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+O 0.0045 0.0029 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+Mo1 O1 1_545 2.144(9)
+Mo1 O1 . 1.835(9)
+Mo1 O2 . 1.673(10)
+Mo1 O3 2_554 2.379(9)
+Mo1 O3 3_545 1.931(3)
+Mo1 O3 3_645 1.931(3)

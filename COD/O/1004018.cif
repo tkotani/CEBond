@@ -1,0 +1,142 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-01-05 17:45:31 +0200 (Thu, 05 Jan 2017) $
+#$Revision: 189900 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/00/40/1004018.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1004018
+loop_
+_publ_author_name
+'Bordet, P.'
+'Capponi, J.-J.'
+'Chaillout, C.'
+'Chateigner, D.'
+'Chenavas, J.'
+'Fournier, T.'
+'Hodeau, J.-L.'
+'Marezio, M.'
+'Perroux, M.'
+'Thomas, G.'
+'Varela, A.'
+_publ_section_title
+;
+ High pressure synthesis and structural study of R2CuO4 compounds with
+ R=Y,Tb,Dy,Ho,Er,Tm
+;
+_journal_name_full               'Physica C'
+_journal_page_first              178
+_journal_page_last               188
+_journal_paper_doi               10.1016/0921-4534(92)90885-G
+_journal_volume                  193
+_journal_year                    1992
+_chemical_formula_structural     'Tm2 Cu O4'
+_chemical_formula_sum            'Cu O4 Tm2'
+_chemical_name_systematic        'Thulium copper oxide'
+_space_group_IT_number           139
+_symmetry_cell_setting           tetragonal
+_symmetry_space_group_name_Hall  '-I 4 2'
+_symmetry_space_group_name_H-M   'I 4/m m m'
+_audit_creation_method           Chateigner
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   3.83
+_cell_length_b                   3.83
+_cell_length_c                   11.6
+_cell_volume                     170.159
+_cod_data_source_file            1004018.cif
+_cod_data_source_block           1004018
+_cod_depositor_comments
+;
+ Correcting a typo in the _atom_site_aniso_U_33 data item
+ by replacing value '0.11(l)' with value '0.11(1)'.
+
+ Antanas Vaitkus,
+ 2016-01-05
+
+ Correcting a typo in the _atom_site_aniso_label data item
+ by replacing value 'C1' with value 'Cu1'.
+
+ Antanas Vaitkus,
+ 2016-01-05
+
+ 1. Adding commas to author names, to indicate family names
+ correctly;
+ 2. Correcting compound name (Terbium -> Thulium);
+ 3. Adding
+ U11, U22 and U33 from the paper text;
+ 4. Adding the Z value so that Tm
+ and Cu contents match the declared formula;
+
+ J.J. replaced by J.-J. and J.L. by J.-L.
+;
+_cod_original_formula_sum        'Tm2 Cu O4'
+_cod_database_code               1004018
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,z
+-y,x,z
+y,-x,z
+-x,y,-z
+x,-y,-z
+y,x,-z
+-y,-x,-z
+-x,-y,-z
+x,y,-z
+y,-x,-z
+-y,x,-z
+x,-y,z
+-x,y,z
+-y,-x,z
+y,x,z
+1/2+x,1/2+y,1/2+z
+1/2-x,1/2-y,1/2+z
+1/2-y,1/2+x,1/2+z
+1/2+y,1/2-x,1/2+z
+1/2-x,1/2+y,1/2-z
+1/2+x,1/2-y,1/2-z
+1/2+y,1/2+x,1/2-z
+1/2-y,1/2-x,1/2-z
+1/2-x,1/2-y,1/2-z
+1/2+x,1/2+y,1/2-z
+1/2+y,1/2-x,1/2-z
+1/2-y,1/2+x,1/2-z
+1/2+x,1/2-y,1/2+z
+1/2-x,1/2+y,1/2+z
+1/2-y,1/2-x,1/2+z
+1/2+y,1/2+x,1/2+z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+Tm1 0.0255(7) 0.0255 0.0364(5)
+Cu1 0.014(2) 0.014 0.006(1)
+O1 0.007(25) 0.007(12) 0.11(1)
+O2 0.022(9) 0.022 0.078(8)
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Tm1 Tm3+ 4 e 0. 0. 0.34579(9)
+Cu1 Cu2+ 2 a 0. 0. 0
+O1 O2- 8 j 0.091(7) 0.5 0
+O2 O2- 4 d 0 0.5 0.25
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Tm3+ 3.000
+Cu2+ 2.000
+O2- -2.000

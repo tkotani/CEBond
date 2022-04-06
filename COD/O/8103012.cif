@@ -1,0 +1,373 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-18 14:25:00 +0200 (Thu, 18 Feb 2016) $
+#$Revision: 176728 $
+#$URL: svn://www.crystallography.net/cod/cif/8/10/30/8103012.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_8103012
+loop_
+_publ_author_name
+'Steffen Pfeiffer'
+'Martin Jansen'
+_publ_section_title
+;
+ Crystal structure of disodium dimanganate(II), Na2Mn2O3
+;
+_journal_issue                   2
+_journal_name_full
+'Zeitschrift f\"ur Kristallographie - New Crystal Structures'
+_journal_page_first              163
+_journal_volume                  224
+_journal_year                    2009
+_chemical_formula_sum            'Mn2 Na2 O3'
+_chemical_formula_weight         203.86
+_chemical_name_systematic
+; 
+ disodium dimanganate(II)
+;
+_space_group_IT_number           96
+_symmetry_cell_setting           tetragonal
+_symmetry_space_group_name_Hall  'P 4nw 2abw'
+_symmetry_space_group_name_H-M   'P 43 21 2'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   6.4205(9)
+_cell_length_b                   6.4205(9)
+_cell_length_c                   9.4765(19)
+_cell_measurement_reflns_used    865
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      35.02
+_cell_measurement_theta_min      3.83
+_cell_volume                     390.65(11)
+_computing_molecular_graphics    'DIAMOND [9]'
+_computing_publication_material  CIFTAB
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997) [8]'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 1997) [7]'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measured_fraction_theta_full 0.995
+_diffrn_measured_fraction_theta_max 0.995
+_diffrn_measurement_device_type  'Stoe IPDS II'
+_diffrn_measurement_method       omega
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0000
+_diffrn_reflns_av_sigmaI/netI    0.0563
+_diffrn_reflns_limit_h_max       7
+_diffrn_reflns_limit_h_min       -6
+_diffrn_reflns_limit_k_max       10
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       15
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            865
+_diffrn_reflns_theta_full        35.02
+_diffrn_reflns_theta_max         35.02
+_diffrn_reflns_theta_min         3.83
+_diffrn_standards_decay_%        0
+_diffrn_standards_interval_count 0
+_diffrn_standards_interval_time  0
+_diffrn_standards_number         0
+_exptl_absorpt_coefficient_mu    6.522
+_exptl_crystal_colour            red
+_exptl_crystal_density_diffrn    3.466
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       unregular
+_exptl_crystal_F_000             384
+_exptl_crystal_size_max          0.2
+_exptl_crystal_size_mid          0.1
+_exptl_crystal_size_min          0.05
+_refine_diff_density_max         0.814
+_refine_diff_density_min         -1.166
+_refine_diff_density_rms         0.207
+_refine_ls_abs_structure_details 'Flack H D (1983), Acta Cryst. A39, 876-881'
+_refine_ls_abs_structure_Flack   0.24(5)
+_refine_ls_extinction_coef       0.100(3)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_ref   0.828
+_refine_ls_hydrogen_treatment    mixed
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     35
+_refine_ls_number_reflns         865
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      0.828
+_refine_ls_R_factor_all          0.0376
+_refine_ls_R_factor_gt           0.0247
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0312P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0547
+_refine_ls_wR_factor_ref         0.0581
+_reflns_number_gt                651
+_reflns_number_total             865
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            409981.cff
+_cod_data_source_block           pfe14_tp
+_cod_original_sg_symbol_H-M      P43212
+_cod_database_code               8103012
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, -y, z+1/2'
+'-y+1/2, x+1/2, z+3/4'
+'y+1/2, -x+1/2, z+1/4'
+'-x+1/2, y+1/2, -z+3/4'
+'x+1/2, -y+1/2, -z+1/4'
+'y, x, -z'
+'-y, -x, -z+1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Mn1 Mn 0.75352(11) 0.54232(7) 0.11387(5) 0.00870(11) Uani 1 1 d . . .
+Na1 Na 0.47551(19) 0.2601(3) 0.86178(13) 0.0138(3) Uani 1 1 d . . .
+O1 O 0.0000(3) 0.2572(7) 0.64613(19) 0.0095(4) Uani 1 1 d . . .
+O2 O 0.1844(4) 0.1844(4) 0.0000 0.0140(6) Uani 1 2 d S . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Mn1 0.00880(18) 0.00877(17) 0.00852(16) 0.00091(15) 0.0005(2) -0.0006(2)
+Na1 0.0113(5) 0.0173(5) 0.0129(5) -0.0002(7) 0.0011(5) -0.0019(7)
+O1 0.0100(8) 0.0097(9) 0.0088(8) -0.0015(15) 0.0014(5) -0.0014(6)
+O2 0.0151(9) 0.0151(9) 0.0119(12) 0.0031(7) -0.0031(7) 0.0012(11)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Na Na 0.0362 0.0249 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Mn Mn 0.3368 0.7283 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O2 Mn1 O1 122.02(8) 4 2_664 ?
+O2 Mn1 O1 123.24(7) 4 4_554 ?
+O1 Mn1 O1 102.70(14) 2_664 4_554 ?
+O2 Mn1 O1 109.30(13) 4 5 ?
+O1 Mn1 O1 100.85(2) 2_664 5 ?
+O1 Mn1 O1 92.81(13) 4_554 5 ?
+O2 Mn1 Mn1 136.19(6) 4 7 ?
+O1 Mn1 Mn1 100.25(8) 2_664 7 ?
+O1 Mn1 Mn1 47.60(8) 4_554 7 ?
+O1 Mn1 Mn1 46.01(5) 5 7 ?
+O2 Mn1 Na1 72.43(8) 4 2_664 ?
+O1 Mn1 Na1 89.78(9) 2_664 2_664 ?
+O1 Mn1 Na1 145.48(12) 4_554 2_664 ?
+O1 Mn1 Na1 52.96(5) 5 2_664 ?
+Mn1 Mn1 Na1 98.86(4) 7 2_664 ?
+O2 Mn1 Na1 154.49(10) 4 5_655 ?
+O1 Mn1 Na1 52.30(6) 2_664 5_655 ?
+O1 Mn1 Na1 50.72(10) 4_554 5_655 ?
+O1 Mn1 Na1 96.10(8) 5 5_655 ?
+Mn1 Mn1 Na1 62.28(3) 7 5_655 ?
+Na1 Mn1 Na1 128.06(2) 2_664 5_655 ?
+O2 Mn1 Na1 137.46(7) 4 4_564 ?
+O1 Mn1 Na1 50.69(10) 2_664 4_564 ?
+O1 Mn1 Na1 97.13(6) 4_554 4_564 ?
+O1 Mn1 Na1 50.52(10) 5 4_564 ?
+Mn1 Mn1 Na1 62.09(4) 7 4_564 ?
+Na1 Mn1 Na1 66.13(6) 2_664 4_564 ?
+Na1 Mn1 Na1 62.33(6) 5_655 4_564 ?
+O2 Mn1 Na1 68.66(8) 4 7_556 ?
+O1 Mn1 Na1 146.21(11) 2_664 7_556 ?
+O1 Mn1 Na1 93.73(13) 4_554 7_556 ?
+O1 Mn1 Na1 48.42(10) 5 7_556 ?
+Mn1 Mn1 Na1 69.66(3) 7 7_556 ?
+Na1 Mn1 Na1 61.54(4) 2_664 7_556 ?
+Na1 Mn1 Na1 131.81(4) 5_655 7_556 ?
+Na1 Mn1 Na1 98.49(5) 4_564 7_556 ?
+O2 Mn1 Na1 94.55(8) 4 7_656 ?
+O1 Mn1 Na1 46.55(11) 2_664 7_656 ?
+O1 Mn1 Na1 92.37(13) 4_554 7_656 ?
+O1 Mn1 Na1 147.26(11) 5 7_656 ?
+Mn1 Mn1 Na1 125.33(3) 7 7_656 ?
+Na1 Mn1 Na1 118.51(2) 2_664 7_656 ?
+Na1 Mn1 Na1 63.314(17) 5_655 7_656 ?
+Na1 Mn1 Na1 96.75(5) 4_564 7_656 ?
+Na1 Mn1 Na1 162.74(4) 7_556 7_656 ?
+O2 Mn1 Na1 43.70(7) 4 4_554 ?
+O1 Mn1 Na1 127.97(13) 2_664 4_554 ?
+O1 Mn1 Na1 82.14(6) 4_554 4_554 ?
+O1 Mn1 Na1 130.93(12) 5 4_554 ?
+Mn1 Mn1 Na1 118.11(3) 7 4_554 ?
+Na1 Mn1 Na1 115.27(3) 2_664 4_554 ?
+Na1 Mn1 Na1 116.17(2) 5_655 4_554 ?
+Na1 Mn1 Na1 178.34(8) 4_564 4_554 ?
+Na1 Mn1 Na1 83.06(4) 7_556 4_554 ?
+Na1 Mn1 Na1 81.81(4) 7_656 4_554 ?
+O2 Mn1 Na1 87.13(4) 4 1_554 ?
+O1 Mn1 Na1 144.88(6) 2_664 1_554 ?
+O1 Mn1 Na1 42.21(11) 4_554 1_554 ?
+O1 Mn1 Na1 85.14(9) 5 1_554 ?
+Mn1 Mn1 Na1 59.46(3) 7 1_554 ?
+Na1 Mn1 Na1 119.80(3) 2_664 1_554 ?
+Na1 Mn1 Na1 92.82(3) 5_655 1_554 ?
+Na1 Mn1 Na1 121.46(4) 4_564 1_554 ?
+Na1 Mn1 Na1 58.28(4) 7_556 1_554 ?
+Na1 Mn1 Na1 119.09(2) 7_656 1_554 ?
+Na1 Mn1 Na1 58.88(5) 4_554 1_554 ?
+O2 Na1 O1 116.50(12) 1_556 8_656 ?
+O2 Na1 O1 131.43(11) 1_556 4 ?
+O1 Na1 O1 84.93(4) 8_656 4 ?
+O2 Na1 O1 126.99(9) 1_556 6_556 ?
+O1 Na1 O1 83.76(9) 8_656 6_556 ?
+O1 Na1 O1 96.66(9) 4 6_556 ?
+O2 Na1 Mn1 97.64(5) 1_556 2_665 ?
+O1 Na1 Mn1 127.71(6) 8_656 2_665 ?
+O1 Na1 Mn1 101.60(8) 4 2_665 ?
+O1 Na1 Mn1 44.07(8) 6_556 2_665 ?
+O2 Na1 Mn1 138.16(9) 1_556 5_645 ?
+O1 Na1 Mn1 42.26(5) 8_656 5_645 ?
+O1 Na1 Mn1 87.70(8) 4 5_645 ?
+O1 Na1 Mn1 41.73(7) 6_556 5_645 ?
+Mn1 Na1 Mn1 85.79(3) 2_665 5_645 ?
+O2 Na1 Mn1 142.60(6) 1_556 3_645 ?
+O1 Na1 Mn1 43.49(8) 8_656 3_645 ?
+O1 Na1 Mn1 41.72(8) 4 3_645 ?
+O1 Na1 Mn1 86.65(6) 6_556 3_645 ?
+Mn1 Na1 Mn1 119.53(5) 2_665 3_645 ?
+Mn1 Na1 Mn1 55.63(3) 5_645 3_645 ?
+O2 Na1 Na1 155.02(5) 1_556 8_666 ?
+O1 Na1 Na1 88.23(8) 8_656 8_666 ?
+O1 Na1 Na1 49.41(6) 4 8_666 ?
+O1 Na1 Na1 47.96(9) 6_556 8_666 ?
+Mn1 Na1 Na1 61.65(4) 2_665 8_666 ?
+Mn1 Na1 Na1 58.91(3) 5_645 8_666 ?
+Mn1 Na1 Na1 58.75(5) 3_645 8_666 ?
+O2 Na1 Mn1 105.81(8) 1_556 7_556 ?
+O1 Na1 Mn1 126.54(10) 8_656 7_556 ?
+O1 Na1 Mn1 41.79(8) 4 7_556 ?
+O1 Na1 Mn1 96.19(13) 6_556 7_556 ?
+Mn1 Na1 Mn1 73.06(4) 2_665 7_556 ?
+Mn1 Na1 Mn1 114.93(4) 5_645 7_556 ?
+Mn1 Na1 Mn1 83.06(4) 3_645 7_556 ?
+Na1 Na1 Mn1 56.81(4) 8_666 7_556 ?
+O2 Na1 Na1 45.52(7) 1_556 7_557 ?
+O1 Na1 Na1 128.54(8) 8_656 7_557 ?
+O1 Na1 Na1 86.48(8) 4 7_557 ?
+O1 Na1 Na1 147.68(13) 6_556 7_557 ?
+Mn1 Na1 Na1 103.73(7) 2_665 7_557 ?
+Mn1 Na1 Na1 169.68(7) 5_645 7_557 ?
+Mn1 Na1 Na1 115.07(5) 3_645 7_557 ?
+Na1 Na1 Na1 122.01(4) 8_666 7_557 ?
+Mn1 Na1 Na1 65.21(3) 7_556 7_557 ?
+O2 Na1 Mn1 81.91(7) 1_556 7_546 ?
+O1 Na1 Mn1 38.68(9) 8_656 7_546 ?
+O1 Na1 Mn1 121.83(9) 4 7_546 ?
+O1 Na1 Mn1 90.97(13) 6_556 7_546 ?
+Mn1 Na1 Mn1 121.91(5) 2_665 7_546 ?
+Mn1 Na1 Mn1 61.82(3) 5_645 7_546 ?
+Mn1 Na1 Mn1 81.70(4) 3_645 7_546 ?
+Na1 Na1 Mn1 120.11(3) 8_666 7_546 ?
+Mn1 Na1 Mn1 162.74(4) 7_556 7_546 ?
+Na1 Na1 Mn1 114.67(5) 7_557 7_546 ?
+O2 Na1 Mn1 36.21(3) 1_556 3_545 ?
+O1 Na1 Mn1 135.04(12) 8_656 3_545 ?
+O1 Na1 Mn1 139.60(12) 4 3_545 ?
+O1 Na1 Mn1 93.99(6) 6_556 3_545 ?
+Mn1 Na1 Mn1 61.80(3) 2_665 3_545 ?
+Mn1 Na1 Mn1 124.14(5) 5_645 3_545 ?
+Mn1 Na1 Mn1 178.34(8) 3_645 3_545 ?
+Na1 Na1 Mn1 122.74(4) 8_666 3_545 ?
+Mn1 Na1 Mn1 98.39(5) 7_556 3_545 ?
+Na1 Na1 Mn1 65.01(5) 7_557 3_545 ?
+Mn1 Na1 Mn1 96.75(5) 7_546 3_545 ?
+Mn1 O1 Mn1 104.73(11) 2_665 3_545 ?
+Mn1 O1 Mn1 168.88(9) 2_665 5_545 ?
+Mn1 O1 Mn1 86.39(11) 3_545 5_545 ?
+Mn1 O1 Na1 94.76(19) 2_665 8_566 ?
+Mn1 O1 Na1 87.02(10) 3_545 8_566 ?
+Mn1 O1 Na1 85.99(7) 5_545 8_566 ?
+Mn1 O1 Na1 87.58(8) 2_665 3_544 ?
+Mn1 O1 Na1 102.12(15) 3_545 3_544 ?
+Mn1 O1 Na1 89.79(17) 5_545 3_544 ?
+Na1 O1 Na1 169.68(9) 8_566 3_544 ?
+Mn1 O1 Na1 85.97(10) 2_665 6_456 ?
+Mn1 O1 Na1 168.35(11) 3_545 6_456 ?
+Mn1 O1 Na1 82.97(8) 5_545 6_456 ?
+Na1 O1 Na1 87.50(11) 8_566 6_456 ?
+Na1 O1 Na1 82.64(10) 3_544 6_456 ?
+Mn1 O2 Mn1 137.95(18) 6_455 3_544 ?
+Mn1 O2 Na1 100.09(6) 6_455 7_556 ?
+Mn1 O2 Na1 109.68(7) 3_544 7_556 ?
+Mn1 O2 Na1 109.68(7) 6_455 1_554 ?
+Mn1 O2 Na1 100.09(6) 3_544 1_554 ?
+Na1 O2 Na1 88.95(14) 7_556 1_554 ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Mn1 O2 1.9951(13) 4 ?
+Mn1 O1 2.062(3) 2_664 ?
+Mn1 O1 2.0814(19) 4_554 ?
+Mn1 O1 2.136(3) 5 ?
+Mn1 Mn1 2.8871(11) 7 ?
+Mn1 Na1 3.0482(16) 2_664 ?
+Mn1 Na1 3.0909(16) 5_655 ?
+Mn1 Na1 3.0961(15) 4_564 ?
+Mn1 Na1 3.205(2) 7_556 ?
+Mn1 Na1 3.289(2) 7_656 ?
+Mn1 Na1 3.3250(15) 4_554 ?
+Mn1 Na1 3.4896(18) 1_554 ?
+Na1 O2 2.333(3) 1_556 ?
+Na1 O1 2.396(4) 8_656 ?
+Na1 O1 2.398(4) 4 ?
+Na1 O1 2.452(2) 6_556 ?
+Na1 Mn1 3.0482(16) 2_665 ?
+Na1 Mn1 3.0909(16) 5_645 ?
+Na1 Mn1 3.0961(15) 3_645 ?
+Na1 Na1 3.202(3) 8_666 ?
+Na1 Mn1 3.205(2) 7_556 ?
+Na1 Na1 3.269(3) 7_557 ?
+Na1 Mn1 3.289(2) 7_546 ?
+Na1 Mn1 3.3250(15) 3_545 ?
+O1 Mn1 2.062(3) 2_665 ?
+O1 Mn1 2.0814(19) 3_545 ?
+O1 Mn1 2.136(3) 5_545 ?
+O1 Na1 2.396(4) 8_566 ?
+O1 Na1 2.398(4) 3_544 ?
+O1 Na1 2.452(2) 6_456 ?
+O2 Mn1 1.9951(13) 6_455 ?
+O2 Mn1 1.9951(13) 3_544 ?
+O2 Na1 2.333(3) 7_556 ?
+O2 Na1 2.333(3) 1_554 ?

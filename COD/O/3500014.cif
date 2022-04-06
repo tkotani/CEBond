@@ -1,0 +1,179 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-27 05:23:43 +0300 (Sun, 27 Mar 2016) $
+#$Revision: 180538 $
+#$URL: svn://www.crystallography.net/cod/cif/3/50/00/3500014.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_3500014
+loop_
+_publ_author_name
+'Efremov, V. A.'
+'Gutnikov, S. I.'
+'Kartashov, A. A.'
+'Lazoryak, B.I.'
+_publ_section_exptl_prep
+; The mixture with a stoichiometric ratio of calcium carbonate and aluminum 
+oxide was ground and annealed three times for 24 hours at 1600 \%C. After every
+annealing the mixture was ground again.
+;
+_publ_section_references
+;Petricek, V., Dusek, M. & Palatinus L. (2006). Jana2006.
+Structure Determination Software Programs.
+Institute of Physics, Praha, Czech Republic.
+
+Palatinus L. & Chapuis G. (2007). J. Appl. Cryst. 40, 786-790.
+
+Altomare, A., Burla, M.C., Giacovazzo, C., Guagliardi, A., Moliterni, A.G.G., 
+Polidori G., Rizzi R. (2001). J. Appl. Cryst. 34, 392-397.
+
+Larson A.C., Von Dreele R.B. (2004). 
+General Structure Analysis System (GSAS) 
+Los Alamos National Laboratory Report LAUR, 86-748
+
+Toby B.H. (2001). J. Appl. Cryst. 34, 210-221.
+
+Luterotti L., Bortolotti M.  (2003). IUCr: Compcomm Newsletter 1, 43-50.
+;
+_publ_section_title
+;
+ Average grossite crystal structure
+;
+_journal_name_full               'Personal communication to COD'
+_journal_year                    2012
+_chemical_compound_source        synthetic
+_chemical_formula_moiety         'Al4 O7, Ca'
+_chemical_formula_structural
+;
+Ca (Al4 O7)
+;
+_chemical_formula_sum            'Al4 Ca O7'
+_chemical_formula_weight         260
+_chemical_name_common            'Calcium dialuminate'
+_chemical_name_mineral           Grossite
+_chemical_name_systematic        ' tetraaluminium calcium heptaoxide'
+_space_group_IT_number           15
+_symmetry_cell_setting           monoclinic
+_symmetry_Int_Tables_number      15
+_symmetry_space_group_name_Hall  '-C 2yc'
+_symmetry_space_group_name_H-M   'C 1 2/c 1'
+_audit_creation_method           'Jana2006 Version : 04/07/2012'
+_cell_angle_alpha                90
+_cell_angle_beta                 106.905(6)
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   12.886(6)
+_cell_length_b                   8.8830(12)
+_cell_length_c                   5.4423(27)
+_cell_measurement_reflns_used    311
+_cell_measurement_temperature    295
+_cell_measurement_theta_max      100
+_cell_measurement_theta_min      10
+_cell_special_details
+; Cell parameters was refined by full-profile analysis (Jana2006, GSAS,
+Moud, Quanto). Pseudo-Voigt function was used as profile function.
+Pearson VII function was used in addition (in Quanto only).
+Cell parameters determined as the weighted average of 85 calculations 
+(17 samples x 5 methods). Grossite mass fraction was used as a weight.
+;
+_cell_volume                     596.0(4)
+_computing_cell_refinement
+'Jana2006 (Petricek, Dusek & Palatinus, 2006)'
+_computing_data_collection       'Huber software'
+_computing_data_reduction        'XRUtils (Efremov,private)'
+_computing_molecular_graphics    'VESTA 3 ( Momma & Izumi, 2011 )'
+_computing_structure_refinement
+'Jana2006 (Petricek, Dusek & Palatinus, 2006)'
+_computing_structure_solution    'Superflip (Palatinus & Chapuis, 2007)'
+_diffrn_ambient_temperature      295
+_diffrn_detector                 'Image plate'
+_diffrn_detector_type            Huber
+_diffrn_measurement_device       'Guinier powder diffractometer'
+_diffrn_radiation_monochromator  'curved Ge 111'
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_type           'Cu K\a~1~'
+_diffrn_radiation_wavelength     1.540598
+_diffrn_source                   'sealed x-ray tube'
+_diffrn_source_target            Cu
+_exptl_absorpt_coefficient_mu    14.972
+_exptl_crystal_density_diffrn    2.898
+_exptl_crystal_F_000             512
+_pd_char_colour                  colourless
+_pd_meas_2theta_range_inc        0.01
+_pd_meas_2theta_range_max        100.000
+_pd_meas_2theta_range_min        3.500
+_pd_meas_number_of_points        9651
+_pd_meas_scan_method             fixed
+_pd_meas_special_details
+; Sum of 3 measurements 20 min each (total 60 min),
+Number of measurement points 20001. Step size (2-Theta) 0.005
+;
+_pd_proc_2theta_range_inc        0.01
+_pd_proc_2theta_range_max        100
+_pd_proc_2theta_range_min        9.47
+_pd_proc_info_data_reduction
+; A number of intensities 
+values was reduced by using triangular smooth. The principle of this method is 
+the averaging of the experimental intensities, that separated by "doubling"
+step-size away from each other by Ij =( I2j-1 + 2*I2j + I2j+1)/4). x-ray
+camera geometric factor (G=cos(2*theta-beta)), beta = 45) was added.
+;
+_pd_proc_ls_special_details
+;Atom sites was calculated as an average of 
+jana2006 (RF% = 3.32, Rw% = 3.45, GOF = 1.05, Rp% = 2.57, Rwp% = 3.37) and 
+GSAS (RF% = 4.58, Rw% = 5.97, GOF = 1, Rp% = 2.52, Rwp% = 3.25) data. 
+;
+_pd_spec_mount_mode              transmission
+_pd_spec_shape                   flat_sheet
+_pd_spec_size_thick              0.05
+_refine_special_details
+;background approximation: 12 Legendre polynomials (jana2006),
+shifted Chebyshev function of 1st kind with 12 terms. (GSAS)
+;
+_cod_data_source_file            Grossite_Mean.cif
+_cod_data_source_block           global
+_cod_original_sg_symbol_H-M      'C 2/c'
+_cod_database_code               3500014
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -x,y,-z+1/2
+3 -x,-y,-z
+4 x,-y,z+1/2
+5 x+1/2,y+1/2,z
+6 -x+1/2,y+1/2,-z+1/2
+7 -x+1/2,-y+1/2,-z
+8 x+1/2,-y+1/2,z+1/2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_adp_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+_atom_site_occupancy
+_atom_site_calc_flag
+Ca1 Ca 0 0.3106(9) 0.25 Uiso 0.0116(28) 4 1 d
+Al1 Al 0.3370(7) 0.0854(9) 0.1924(18) Uiso 0.0106(28) 8 1 d
+Al2 Al 0.3788(7) 0.4414(10) 0.2581(16) Uiso 0.0132(28) 8 1 d
+O1 O 0 0.0286(23) 0.25 Uiso 0.021(8) 4 1 d
+O2 O 0.1155(11) 0.4486(14) 0.0653(27) Uiso 0.001(5) 8 1 d
+O3 O 0.3817(10) 0.2535(17) 0.3517(28) Uiso 0.004(5) 8 1 d
+O4 O 0.1952(5) 0.0570(7) 0.0829(14) Uiso 0.001(3) 8 1 d
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Al 3
+Ca 2
+O -2
+loop_
+_pd_proc_info_excluded_regions
+'from 0 to 9.460'

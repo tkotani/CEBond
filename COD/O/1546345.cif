@@ -1,0 +1,170 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-06-19 11:33:06 +0300 (Mon, 19 Jun 2017) $
+#$Revision: 197920 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/54/63/1546345.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1546345
+loop_
+_publ_author_name
+'Bialek, R.'
+'Meier, W. M.'
+'Davis, M.'
+'Annen, M. J.'
+_publ_section_title
+;
+ The synthesis and structure of SSZ-24, the silica analog of AlPO4-5
+;
+_journal_name_full               Zeolites
+_journal_page_first              438
+_journal_page_last               442
+_journal_paper_doi               10.1016/S0144-2449(05)80114-9
+_journal_volume                  11
+_journal_year                    1991
+_chemical_formula_sum            'O2 Si'
+_chemical_formula_weight         60.0843
+_space_group_IT_number           192
+_symmetry_cell_setting           hexagonal
+_symmetry_Int_Tables_number      192
+_symmetry_space_group_name_Hall  '-P 6 2c'
+_symmetry_space_group_name_H-M   'P 6/m c c'
+_cell_angle_alpha                90.
+_cell_angle_beta                 90.
+_cell_angle_gamma                120.
+_cell_formula_units_Z            12
+_cell_length_a                   13.671
+_cell_length_b                   13.671
+_cell_length_c                   8.328
+_cell_volume                     1347.944
+_diffrn_ambient_temperature      293
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_type           CuK\a
+_diffrn_radiation_wavelength     1.54184
+_pd_proc_ls_prof_wR_expected     0.036
+_pd_proc_ls_prof_wR_factor       0.158
+_refine_ls_number_parameters     26
+_refine_ls_number_reflns         199
+_refine_ls_R_Fsqd_factor         0.093
+_cod_data_source_file            Zeolites-1991-11-438-442-1.cif
+_cod_data_source_block           SSZ-24-calcined
+_cod_depositor_comments
+;
+One N,N,N-trimethyl-1-adamantammonium cation per unit cell
+in the as-synthesized form in split position with occupancy
+factor 1/8
+;
+_cod_database_code               1546345
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 x-y,x,z
+3 -y,x-y,z
+4 -x,-y,z
+5 -x+y,-x,z
+6 y,-x+y,z
+7 -y,-x,1/2-z
+8 x-y,-y,1/2-z
+9 x,x-y,1/2-z
+10 y,x,1/2-z
+11 -x+y,y,1/2-z
+12 -x,-x+y,1/2-z
+13 -x,-y,-z
+14 -x+y,-x,-z
+15 y,-x+y,-z
+16 x,y,-z
+17 x-y,x,-z
+18 -y,x-y,-z
+19 y,x,1/2+z
+20 -x+y,y,1/2+z
+21 -x,-x+y,1/2+z
+22 -y,-x,1/2+z
+23 x-y,-y,1/2+z
+24 x,x-y,1/2+z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_thermal_displace_type
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Si Si Uiso 0.4568(3) 0.3358(3) 0.1898(3) 1.000 0.0260(10) . . . .
+O1 O Uiso 0.2106(3) 0.4212(3) 0.25000 1.000 0.032(3) . . . .
+O2 O Uiso 0.3583(8) 0.00000 0.25000 1.000 0.062(5) . . . .
+O3 O Uiso 0.5804(4) 0.4196(4) 0.25000 1.000 0.023(3) . . . .
+O41 O Uiso 0.4389(19) 0.328(3) 0.00000 0.500 0.076(5) . . . .
+O42 O Uiso 0.486(2) 0.345(3) 0.00000 0.500 0.076(5) . . . .
+ONF1 O Uiso 0.00000 0.00000 0.12500 1.000 5.2(3) . . . .
+ONF2 O Uiso 0.00000 0.00000 0.12500 0.60(10) 5.2(3) . . . .
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O3 Si O41 115.9(12) . . . yes
+O3 Si O42 97.0(12) . . . yes
+O2 Si O3 117.3(4) 2_555 . . yes
+O1 Si O3 108.6(3) 6_555 . . yes
+O41 Si O42 20.2(17) . . . yes
+O2 Si O41 102.0(12) 2_555 . . yes
+O1 Si O41 106.5(13) 6_555 . . yes
+O2 Si O42 119.2(12) 2_555 . . yes
+O1 Si O42 108.6(13) 6_555 . . yes
+O1 Si O2 105.7(4) 6_555 . 2_555 yes
+Si O1 Si 149.6(3) 2_555 . 10_555 yes
+Si O2 Si 142.2(8) 6_555 . 9_555 yes
+Si O3 Si 145.2(5) . . 7_665 yes
+Si O41 O42 82.4(12) . . . yes
+Si O41 Si 165(2) . . 16_555 yes
+Si O41 O42 82.4(12) 16_555 . . yes
+Si O42 O41 77.4(12) . . . yes
+Si O42 Si 155(2) . . 16_555 yes
+Si O42 O41 77.4(12) 16_555 . . yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Si O3 1.576(7) . . yes
+Si O41 1.595(5) . . yes
+Si O42 1.620(8) . . yes
+Si O2 1.604(12) . 2_555 yes
+Si O1 1.608(6) . 6_555 yes
+O41 O42 0.57(5) . . yes
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion
+_geom_torsion_site_symmetry_1
+_geom_torsion_site_symmetry_2
+_geom_torsion_site_symmetry_3
+_geom_torsion_site_symmetry_4
+_geom_torsion_publ_flag
+O41 Si O3 Si 93.7(14) . . . 7_665 no
+O42 Si O3 Si 101.1(13) . . . 7_665 no
+O3 Si O41 O42 22(5) . . . . no
+O3 Si O42 O41 -161(5) . . . . no
+O3 Si O42 Si -158(5) . . . 16_555 no
+O41 Si O42 Si 3(4) . . . 16_555 no
+Si O41 O42 Si -178.7(19) . . . 16_555 no
+Si O41 O42 Si 178.7(19) 16_555 . . . no

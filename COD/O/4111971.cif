@@ -1,0 +1,188 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-22 11:13:47 +0200 (Tue, 22 Mar 2016) $
+#$Revision: 178890 $
+#$URL: svn://www.crystallography.net/cod/cif/4/11/19/4111971.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4111971
+loop_
+_publ_author_name
+'H. Gijs Schimmel'
+'Jacques Huot'
+'Laurent C. Chapon'
+'Frans D. Tichelaar'
+'Fokko M. Mulder'
+_publ_section_title
+;
+ Hydrogen Cycling of Niobium and Vanadium Catalyzed Nanostructured
+ Magnesium
+;
+_journal_name_full               'Journal of the American Chemical Society'
+_journal_page_first              14348
+_journal_page_last               14354
+_journal_paper_doi               10.1021/ja051508a
+_journal_volume                  127
+_journal_year                    2005
+_chemical_formula_sum            'Mg0.33 Nb1.67 O3'
+_chemical_formula_weight         210.94
+_space_group_IT_number           221
+_symmetry_cell_setting           cubic
+_symmetry_space_group_name_Hall  '-P 4 2 3'
+_symmetry_space_group_name_H-M   'P m -3 m'
+_audit_author_name               'H.G. Schimmel'
+_audit_creation_date             2005-02-09T16:36
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_audit_update_record
+' 2005-02-09T16:36  Initial CIF as created by GSAS2CIF'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            1
+_cell_length_a                   4.07047
+_cell_length_b                   4.07047
+_cell_length_c                   4.07047
+_cell_volume                     67.443
+_pd_block_id
+2005-02-09T16:36|PEROV_FOKKO_GIJS_CIF|H.G._Schimmel|Overall
+_pd_phase_name                   'Nb-Mg Perovskite'
+_cod_data_source_file            ja051508asi20050309_061025.cif
+_cod_data_source_block           PEROV_FOKKO_GIJS_CIF_publ
+_cod_original_cell_volume        67.4426
+_cod_database_code               4111971
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 +z,+x,+y
+3 +y,+z,+x
+4 +x,+y,-z
+5 -z,+x,+y
+6 +y,-z,+x
+7 -z,+x,-y
+8 -y,-z,+x
+9 +y,-z,-x
+10 -x,+y,-z
+11 -z,-x,+y
+12 +x,-y,-z
+13 +y,+x,+z
+14 +z,+y,+x
+15 +x,+z,+y
+16 +y,+x,-z
+17 -z,+y,+x
+18 +x,-z,+y
+19 -z,+y,-x
+20 -x,-z,+y
+21 +x,-z,-y
+22 -y,+x,-z
+23 -z,-y,+x
+24 +y,-x,-z
+-1 -x,-y,-z
+-2 -z,-x,-y
+-3 -y,-z,-x
+-4 -x,-y,+z
+-5 +z,-x,-y
+-6 -y,+z,-x
+-7 +z,-x,+y
+-8 +y,+z,-x
+-9 -y,+z,+x
+-10 +x,-y,+z
+-11 +z,+x,-y
+-12 -x,+y,+z
+-13 -y,-x,-z
+-14 -z,-y,-x
+-15 -x,-z,-y
+-16 -y,-x,+z
+-17 +z,-y,-x
+-18 -x,+z,-y
+-19 +z,-y,+x
+-20 +x,+z,-y
+-21 -x,+z,+y
+-22 +y,-x,+z
+-23 +z,+y,-x
+-24 -y,+x,+z
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+NB Nb1 0.0 0.0 0.0 1.0 Uiso 0.05144 1
+O O2 0.0 0.5 0.5 1.0 Uiso 0.03 3
+MG Mg3 0.5 0.5 0.5 0.3333 Uiso 0.05 1
+NB Nb4 0.5 0.5 0.5 0.6667 Uiso 0.03152 1
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+Mg3 O2 Mg3 180.0 1_455 1_555 n
+Mg3 O2 Nb4 0.0 1_455 1_455 n
+Mg3 O2 Nb4 180.0 1_455 1_555 n
+Mg3 O2 Nb4 180.0 1_555 1_455 n
+Mg3 O2 Nb4 0.0 1_555 1_555 n
+Nb4 O2 Nb4 180.0 1_455 1_555 n
+O2 Mg3 O2 180.0 1_555 1_655 n
+O2 Mg3 O2 90.0 1_555 2_555 n
+O2 Mg3 O2 90.0 1_555 2_565 n
+O2 Mg3 O2 90.0 1_555 3_555 n
+O2 Mg3 O2 90.0 1_555 3_556 n
+O2 Mg3 O2 90.0 1_655 2_555 n
+O2 Mg3 O2 90.0 1_655 2_565 n
+O2 Mg3 O2 90.0 1_655 3_555 n
+O2 Mg3 O2 90.0 1_655 3_556 n
+O2 Mg3 O2 180.0 2_555 2_565 n
+O2 Mg3 O2 90.0 2_555 3_555 n
+O2 Mg3 O2 90.0 2_555 3_556 n
+O2 Mg3 O2 90.0 2_565 3_555 n
+O2 Mg3 O2 90.0 2_565 3_556 n
+O2 Mg3 O2 180.0 3_555 3_556 n
+O2 Nb4 O2 180.0 1_555 1_655 n
+O2 Nb4 O2 90.0 1_555 2_555 n
+O2 Nb4 O2 90.0 1_555 2_565 n
+O2 Nb4 O2 90.0 1_555 3_555 n
+O2 Nb4 O2 90.0 1_555 3_556 n
+O2 Nb4 O2 90.0 1_655 2_555 n
+O2 Nb4 O2 90.0 1_655 2_565 n
+O2 Nb4 O2 90.0 1_655 3_555 n
+O2 Nb4 O2 90.0 1_655 3_556 n
+O2 Nb4 O2 180.0 2_555 2_565 n
+O2 Nb4 O2 90.0 2_555 3_555 n
+O2 Nb4 O2 90.0 2_555 3_556 n
+O2 Nb4 O2 90.0 2_565 3_555 n
+O2 Nb4 O2 90.0 2_565 3_556 n
+O2 Nb4 O2 180.0 3_555 3_556 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+O2 Mg3 2.03524 1_455 n
+O2 Mg3 2.03524 1_555 n
+O2 Nb4 2.03524 1_455 n
+O2 Nb4 2.03524 1_555 n
+Mg3 O2 2.03524 1_555 n
+Mg3 O2 2.03524 1_655 n
+Mg3 O2 2.03524 2_555 n
+Mg3 O2 2.03524 2_565 n
+Mg3 O2 2.03524 3_555 n
+Mg3 O2 2.03524 3_556 n
+Nb4 O2 2.03524 1_555 n
+Nb4 O2 2.03524 1_655 n
+Nb4 O2 2.03524 2_555 n
+Nb4 O2 2.03524 2_565 n
+Nb4 O2 2.03524 3_555 n
+Nb4 O2 2.03524 3_556 n

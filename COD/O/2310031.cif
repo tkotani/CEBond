@@ -1,0 +1,478 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-21 11:56:54 +0200 (Sun, 21 Feb 2016) $
+#$Revision: 176809 $
+#$URL: svn://www.crystallography.net/cod/cif/2/31/00/2310031.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2310031
+loop_
+_publ_author_name
+'Michiue, Yuichi'
+'Kimizuka, Noboru'
+'Kanke, Yasushi'
+'Mori, Takao'
+_publ_section_title
+;
+ Structure of (Ga~2~O~3~)~2~(ZnO)~13~ and a unified description of the
+ homologous series (Ga~2~O~3~)~2~(ZnO)~2~~<i>n~+1</i>
+;
+_journal_coeditor_code           DK5003
+_journal_issue                   3
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              250
+_journal_page_last               260
+_journal_paper_doi               10.1107/S0108768112016084
+_journal_volume                  68
+_journal_year                    2012
+_chemical_formula_sum            'Ga0.889 O4.222 Zn2.889'
+_chemical_formula_weight         318.4
+_chemical_name_systematic        ' ?'
+_space_group_ssg_name            C2/m(\a0\g)00
+_symmetry_cell_setting           monoclinic
+_cell_angle_alpha                90
+_cell_angle_beta                 105.90(10)
+_cell_angle_gamma                90
+_cell_formula_units_Z            1
+_cell_length_a                   19.66(4)
+_cell_length_b                   3.2487(5)
+_cell_length_c                   1.6065(12)
+_cell_measurement_temperature    293
+_cell_modulation_dimension       1
+_cell_subsystems_number          2
+_cell_volume                     98.7(2)
+_diffrn_ambient_temperature      293
+_diffrn_measured_fraction_theta_full 0.98
+_diffrn_measured_fraction_theta_max 0.98
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_source         'X-ray tube'
+_diffrn_radiation_wavelength     0.71069
+_diffrn_reflns_av_R_equivalents  0.0875
+_diffrn_reflns_av_sigmaI/netI    0.0756
+_diffrn_reflns_limit_h_max       38
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_index_m_1_max 8
+_diffrn_reflns_limit_index_m_1_min -8
+_diffrn_reflns_limit_k_max       6
+_diffrn_reflns_limit_k_min       -6
+_diffrn_reflns_limit_l_max       3
+_diffrn_reflns_limit_l_min       -3
+_diffrn_reflns_number            14188
+_diffrn_reflns_theta_full        45.38
+_diffrn_reflns_theta_max         45.38
+_diffrn_reflns_theta_min         2.7
+_exptl_absorpt_coefficient_mu    23.236
+_exptl_crystal_density_diffrn    5.3552
+_exptl_crystal_F_000             157
+_refine_diff_density_max         3.28
+_refine_diff_density_min         -3.55
+_refine_ls_extinction_coef       310(20)
+_refine_ls_extinction_method
+'B-C type 1 Gaussian isotropic (Becker & Coppens, 1974)'
+_refine_ls_goodness_of_fit_all   2.98
+_refine_ls_goodness_of_fit_gt    2.72
+_refine_ls_number_constraints    13
+_refine_ls_number_parameters     179
+_refine_ls_number_reflns         7763
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          0.1130
+_refine_ls_R_factor_gt           0.0656
+_refine_ls_shift/su_max          0.0350
+_refine_ls_shift/su_mean         0.0045
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details     w=1/(\s^2^(I)+0.0001I^2^)
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_all         0.2022
+_refine_ls_wR_factor_gt          0.1421
+_reflns_number_gt                4676
+_reflns_number_total             7763
+_reflns_threshold_expression     I>2\s(I)
+_cod_data_source_file            dk5003.cif
+_cod_data_source_block           II
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_diffrn_radiation_probe' value 'X-ray' changed to 'x-ray' according
+to /home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary
+named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1891 2012-01-12 08:04:46Z andrius 
+;
+_cod_database_code               2310031
+#BEGIN Tags that were not found in dictionaries:
+_jana_cell_commen_supercell_matrix_1_1 1
+_jana_cell_commen_supercell_matrix_1_2 0
+_jana_cell_commen_supercell_matrix_1_3 0
+_jana_cell_commen_supercell_matrix_2_1 0
+_jana_cell_commen_supercell_matrix_2_2 1
+_jana_cell_commen_supercell_matrix_2_3 0
+_jana_cell_commen_supercell_matrix_3_1 0
+_jana_cell_commen_supercell_matrix_3_2 0
+_jana_cell_commen_supercell_matrix_3_3 17
+_jana_cell_commen_t_section_1    0
+#END Tags that were not found in dictionaries
+loop_
+_space_group_symop_ssg_id
+_space_group_symop_ssg_operation_algebraic
+1 x1,x2,x3,x4
+2 -x1,x2,-x3,-x4
+3 -x1,-x2,-x3,-x4
+4 x1,-x2,x3,x4
+5 x1+1/2,x2+1/2,x3,x4
+6 -x1+1/2,x2+1/2,-x3,-x4
+7 -x1+1/2,-x2+1/2,-x3,-x4
+8 x1+1/2,-x2+1/2,x3,x4
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_adp_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+_atom_site_occupancy
+_atom_site_calc_flag
+_atom_site_subsystem_code
+Zn1 Zn 0.1829(3) 0 -0.1054(8) Uani 0.0130(6) 4 0.7647 d 1
+Zn1a Zn 1.97979(18) 0 0.012(3) Uani 0.0440(16) 4 0.0208(2) d 1
+Zn1b Zn 1.95398(10) 0.5 0.0088(14) Uani 0.0095(5) 4 0.0241(2) d 1
+Zn2 Zn 0.38666(11) 0 0.0873(3) Uani 0.0064(5) 4 0.7647 d 1
+Ga1 Ga 0.1829(3) 0 -0.1054(8) Uani 0.0130(6) 4 0.2353 d 1
+Ga1a Ga 1.97979(18) 0 0.012(3) Uani 0.0440(16) 4 0.00641(6) d 1
+Ga1b Ga 1.95398(10) 0.5 0.0088(14) Uani 0.0095(5) 4 0.00743(6) d 1
+Ga2 Ga 0.38666(11) 0 0.0873(3) Uani 0.0064(5) 4 0.2353 d 1
+O1 O 0.8835(10) 0 0.428(2) Uani 0.0166(12) 4 1 d 2
+O2 O 0.8865(8) 0 0.566(2) Uani 0.0204(10) 4 1 d 2
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_type_symbol
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Zn1 Zn 0.0080(8) 0.0097(9) 0.0223(11) 0 0.0057(8) 0
+Zn1a Zn 0.0149(13) 0.073(4) 0.048(2) 0 0.0152(14) 0
+Zn1b Zn 0.0066(7) 0.0121(10) 0.0100(8) 0 0.0024(6) 0
+Zn2 Zn 0.0075(7) 0.0044(9) 0.0060(10) 0 -0.0003(7) 0
+Ga1 Ga 0.0080(8) 0.0097(9) 0.0223(11) 0 0.0057(8) 0
+Ga1a Ga 0.0149(13) 0.073(4) 0.048(2) 0 0.0152(14) 0
+Ga1b Ga 0.0066(7) 0.0121(10) 0.0100(8) 0 0.0024(6) 0
+Ga2 Ga 0.0075(7) 0.0044(9) 0.0060(10) 0 -0.0003(7) 0
+O1 O 0.0164(17) 0.011(2) 0.021(2) 0 0.0027(15) 0
+O2 O 0.0129(11) 0.019(2) 0.0255(18) 0 -0.0010(12) 0
+loop_
+_atom_site_displace_Fourier_atom_site_label
+_atom_site_displace_Fourier_axis
+_atom_site_displace_Fourier_wave_vector_seq_id
+_atom_site_displace_Fourier_param_cos
+_atom_site_displace_Fourier_param_sin
+Zn1 x 1 0 0
+Zn1 y 1 0 0
+Zn1 z 1 0 0
+Zn1 x 2 0 -0.0058(4)
+Zn1 y 2 0 0
+Zn1 z 2 0 -0.260(6)
+Zn1 x 3 0.0105(3) 0.0132(8)
+Zn1 y 3 0 0
+Zn1 z 3 0.096(5) 0.411(12)
+Zn1 x 4 -0.0171(5) -0.0122(6)
+Zn1 y 4 0 0
+Zn1 z 4 -0.220(8) -0.295(9)
+Zn1 x 5 0.0108(3) 0.0035(2)
+Zn1 y 5 0 0
+Zn1 z 5 0.156(4) 0.088(3)
+Zn2 x 1 0 0
+Zn2 y 1 0 0
+Zn2 z 1 0 0
+Zn2 x 2 0 -0.0050(4)
+Zn2 y 2 0 0
+Zn2 z 2 0 -0.065(5)
+Zn2 x 3 -0.00342(8) -0.0051(7)
+Zn2 y 3 0 0
+Zn2 z 3 -0.0127(11) -0.019(11)
+Zn2 x 4 -0.00423(13) -0.0004(7)
+Zn2 y 4 0 0
+Zn2 z 4 0.010(2) 0.022(11)
+Zn2 x 5 -0.00236(9) 0.0003(3)
+Zn2 y 5 0 0
+Zn2 z 5 0.0478(14) 0.019(4)
+Ga1 x 1 0 0
+Ga1 y 1 0 0
+Ga1 z 1 0 0
+Ga1 x 2 0 -0.0058(4)
+Ga1 y 2 0 0
+Ga1 z 2 0 -0.260(6)
+Ga1 x 3 0.0105(3) 0.0132(8)
+Ga1 y 3 0 0
+Ga1 z 3 0.096(5) 0.411(12)
+Ga1 x 4 -0.0171(5) -0.0122(6)
+Ga1 y 4 0 0
+Ga1 z 4 -0.220(8) -0.295(9)
+Ga1 x 5 0.0108(3) 0.0035(2)
+Ga1 y 5 0 0
+Ga1 z 5 0.156(4) 0.088(3)
+Ga2 x 1 0 0
+Ga2 y 1 0 0
+Ga2 z 1 0 0
+Ga2 x 2 0 -0.0050(4)
+Ga2 y 2 0 0
+Ga2 z 2 0 -0.065(5)
+Ga2 x 3 -0.00342(8) -0.0051(7)
+Ga2 y 3 0 0
+Ga2 z 3 -0.0127(11) -0.019(11)
+Ga2 x 4 -0.00423(13) -0.0004(7)
+Ga2 y 4 0 0
+Ga2 z 4 0.010(2) 0.022(11)
+Ga2 x 5 -0.00236(9) 0.0003(3)
+Ga2 y 5 0 0
+Ga2 z 5 0.0478(14) 0.019(4)
+O1 x 1 0 0
+O1 y 1 0 0
+O1 z 1 0 0
+O1 x 2 0 -0.0121(4)
+O1 y 2 0 0
+O1 z 2 0 -0.089(6)
+O1 x 3 0.0009(3) -0.0028(10)
+O1 y 3 0 0
+O1 z 3 -0.024(5) -0.115(15)
+O1 x 4 -0.0001(3) 0.0041(10)
+O1 y 4 0 0
+O1 z 4 0.087(4) 0.114(16)
+O1 x 5 0.0025(3) -0.0024(6)
+O1 y 5 0 0
+O1 z 5 0.006(4) -0.080(9)
+O2 x 1 0 0
+O2 y 1 0 0
+O2 z 1 0 0
+O2 x 2 0 0.0156(14)
+O2 y 2 0 0
+O2 z 2 0 -0.20(2)
+O2 x 3 0.0004(4) 0.009(3)
+O2 y 3 0 0
+O2 z 3 -0.052(6) -0.21(5)
+O2 x 4 -0.0003(6) 0.006(3)
+O2 y 4 0 0
+O2 z 4 -0.158(9) -0.17(5)
+O2 x 5 -0.0002(5) 0.0022(12)
+O2 y 5 0 0
+O2 z 5 -0.087(7) -0.06(2)
+loop_
+_atom_site_displace_special_func_atom_site_label
+_atom_site_displace_special_func_sawtooth_ax
+_atom_site_displace_special_func_sawtooth_ay
+_atom_site_displace_special_func_sawtooth_az
+_atom_site_displace_special_func_sawtooth_c
+_atom_site_displace_special_func_sawtooth_w
+Zn1 1.5882 0 0 -0.03561(5) 0.4706
+Zn2 -1.4118 0 0 0.505138(19) 0.4706
+Ga1 1.5882 0 0 -0.03561(5) 0.4706
+Ga2 -1.4118 0 0 0.505138(19) 0.4706
+O1 1.9737 0 0 -0.00378(13) 0.5263
+O2 -1.5987 0 0 0.50350(12) 0.4737
+loop_
+_atom_site_Fourier_wave_vector_seq_id
+_jana_atom_site_fourier_wave_vector_q1_coeff
+1 1
+2 2
+3 3
+4 4
+5 5
+loop_
+_atom_site_occ_special_func_atom_site_label
+_atom_site_occ_special_func_crenel_c
+_atom_site_occ_special_func_crenel_w
+Zn1a 0.23598(17) 0.0588
+Zn1b 0.23581(8) 0.0588
+Ga1a 0.23598(17) 0.0588
+Ga1b 0.23581(8) 0.0588
+loop_
+_atom_site_U_Fourier_atom_site_label
+_atom_site_U_Fourier_tens_elem
+_atom_site_U_Fourier_wave_vector_seq_id
+_atom_site_U_Fourier_param_cos
+_atom_site_U_Fourier_param_sin
+Zn1 U11 1 0 0
+Zn1 U22 1 0 0
+Zn1 U33 1 0 0
+Zn1 U12 1 0 0
+Zn1 U13 1 0 0
+Zn1 U23 1 0 0
+Zn1 U11 2 0.007(2) -0.0043(11)
+Zn1 U22 2 -0.012(3) 0.0059(13)
+Zn1 U33 2 -0.010(3) -0.0013(16)
+Zn1 U12 2 0 0
+Zn1 U13 2 0.003(2) -0.0037(11)
+Zn1 U23 2 0 0
+Zn1 U11 3 -0.006(2) 0.0060(19)
+Zn1 U22 3 0.011(3) -0.010(2)
+Zn1 U33 3 0.015(4) -0.007(3)
+Zn1 U12 3 0 0
+Zn1 U13 3 0.001(2) 0.0020(19)
+Zn1 U23 3 0 0
+Zn1 U11 4 0.0004(10) -0.0030(11)
+Zn1 U22 4 -0.0040(12) 0.0056(13)
+Zn1 U33 4 -0.0111(15) 0.0027(16)
+Zn1 U12 4 0 0
+Zn1 U13 4 -0.0035(10) -0.0011(11)
+Zn1 U23 4 0 0
+Zn2 U11 1 0 0
+Zn2 U22 1 0 0
+Zn2 U33 1 0 0
+Zn2 U12 1 0 0
+Zn2 U13 1 0 0
+Zn2 U23 1 0 0
+Zn2 U11 2 -0.002(2) -0.0002(2)
+Zn2 U22 2 0.005(3) 0.0003(3)
+Zn2 U33 2 0.038(3) 0.0040(3)
+Zn2 U12 2 0 0
+Zn2 U13 2 0.003(2) -0.00004(19)
+Zn2 U23 2 0 0
+Zn2 U11 3 -0.002(3) -0.0001(2)
+Zn2 U22 3 0.008(4) -0.0002(3)
+Zn2 U33 3 0.044(4) 0.0018(3)
+Zn2 U12 3 0 0
+Zn2 U13 3 0.004(3) -0.0004(2)
+Zn2 U23 3 0 0
+Zn2 U11 4 -0.0006(12) 0
+Zn2 U22 4 0.0031(17) 0
+Zn2 U33 4 0.0174(18) 0
+Zn2 U12 4 0 0
+Zn2 U13 4 0.0026(13) 0
+Zn2 U23 4 0 0
+Ga1 U11 1 0 0
+Ga1 U22 1 0 0
+Ga1 U33 1 0 0
+Ga1 U12 1 0 0
+Ga1 U13 1 0 0
+Ga1 U23 1 0 0
+Ga1 U11 2 0.007(2) -0.0043(11)
+Ga1 U22 2 -0.012(3) 0.0059(13)
+Ga1 U33 2 -0.010(3) -0.0013(16)
+Ga1 U12 2 0 0
+Ga1 U13 2 0.003(2) -0.0037(11)
+Ga1 U23 2 0 0
+Ga1 U11 3 -0.006(2) 0.0060(19)
+Ga1 U22 3 0.011(3) -0.010(2)
+Ga1 U33 3 0.015(4) -0.007(3)
+Ga1 U12 3 0 0
+Ga1 U13 3 0.001(2) 0.0020(19)
+Ga1 U23 3 0 0
+Ga1 U11 4 0.0004(10) -0.0030(11)
+Ga1 U22 4 -0.0040(12) 0.0056(13)
+Ga1 U33 4 -0.0111(15) 0.0027(16)
+Ga1 U12 4 0 0
+Ga1 U13 4 -0.0035(10) -0.0011(11)
+Ga1 U23 4 0 0
+Ga2 U11 1 0 0
+Ga2 U22 1 0 0
+Ga2 U33 1 0 0
+Ga2 U12 1 0 0
+Ga2 U13 1 0 0
+Ga2 U23 1 0 0
+Ga2 U11 2 -0.002(2) -0.0002(2)
+Ga2 U22 2 0.005(3) 0.0003(3)
+Ga2 U33 2 0.038(3) 0.0040(3)
+Ga2 U12 2 0 0
+Ga2 U13 2 0.003(2) -0.00004(19)
+Ga2 U23 2 0 0
+Ga2 U11 3 -0.002(3) -0.0001(2)
+Ga2 U22 3 0.008(4) -0.0002(3)
+Ga2 U33 3 0.044(4) 0.0018(3)
+Ga2 U12 3 0 0
+Ga2 U13 3 0.004(3) -0.0004(2)
+Ga2 U23 3 0 0
+Ga2 U11 4 -0.0006(12) 0
+Ga2 U22 4 0.0031(17) 0
+Ga2 U33 4 0.0174(18) 0
+Ga2 U12 4 0 0
+Ga2 U13 4 0.0026(13) 0
+Ga2 U23 4 0 0
+O1 U11 1 0 0
+O1 U22 1 0 0
+O1 U33 1 0 0
+O1 U12 1 0 0
+O1 U13 1 0 0
+O1 U23 1 0 0
+O1 U11 2 0.003(6) -0.0053(17)
+O1 U22 2 0.008(8) -0.018(3)
+O1 U33 2 0.061(7) -0.005(2)
+O1 U12 2 0 0
+O1 U13 2 0.014(5) -0.0015(16)
+O1 U23 2 0 0
+O1 U11 3 0.000(7) 0.006(2)
+O1 U22 3 -0.031(11) 0.021(4)
+O1 U33 3 -0.041(9) 0.000(2)
+O1 U12 3 0 0
+O1 U13 3 -0.020(7) 0.0046(18)
+O1 U23 3 0 0
+O1 U11 4 0.005(4) -0.003(2)
+O1 U22 4 0.019(6) -0.002(3)
+O1 U33 4 0.037(6) -0.001(3)
+O1 U12 4 0 0
+O1 U13 4 0.014(4) 0.001(2)
+O1 U23 4 0 0
+O2 U11 1 0 0
+O2 U22 1 0 0
+O2 U33 1 0 0
+O2 U12 1 0 0
+O2 U13 1 0 0
+O2 U23 1 0 0
+O2 U11 2 -0.003(3) 0.0016(12)
+O2 U22 2 -0.025(4) 0.011(2)
+O2 U33 2 -0.001(3) 0.0032(17)
+O2 U12 2 0 0
+O2 U13 2 -0.002(2) -0.0005(12)
+O2 U23 2 0 0
+O2 U11 3 -0.004(2) 0.0014(15)
+O2 U22 3 -0.017(4) 0.013(3)
+O2 U33 3 -0.015(3) 0.009(2)
+O2 U12 3 0 0
+O2 U13 3 0.004(2) -0.0031(14)
+O2 U23 3 0 0
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Ga 0.2307 1.6083 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+O 0.0106 0.0060 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+Zn 0.2839 1.4301 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+loop_
+_cell_subsystem_code
+_cell_subsystem_description
+_cell_subsystem_matrix_W_1_1
+_cell_subsystem_matrix_W_1_2
+_cell_subsystem_matrix_W_1_3
+_cell_subsystem_matrix_W_1_4
+_cell_subsystem_matrix_W_2_1
+_cell_subsystem_matrix_W_2_2
+_cell_subsystem_matrix_W_2_3
+_cell_subsystem_matrix_W_2_4
+_cell_subsystem_matrix_W_3_1
+_cell_subsystem_matrix_W_3_2
+_cell_subsystem_matrix_W_3_3
+_cell_subsystem_matrix_W_3_4
+_cell_subsystem_matrix_W_4_1
+_cell_subsystem_matrix_W_4_2
+_cell_subsystem_matrix_W_4_3
+_cell_subsystem_matrix_W_4_4
+1 '1-st subsystem' 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1
+2 '2-nd subsystem' 1 0 0 0 0 1 0 0 0 0 1 2 0 0 0 1
+loop_
+_cell_wave_vector_seq_id
+_cell_wave_vector_x
+_cell_wave_vector_y
+_cell_wave_vector_z
+1 0.000000 0.000000 0.058824

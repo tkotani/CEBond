@@ -1,0 +1,497 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/20/63/2206347.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2206347
+loop_
+_publ_author_name
+'Friese, K.'
+'Grzechnik, A.'
+'Morgenroth, W.'
+'Buth, G.'
+'Doyle, S.'
+'Gesland, J.-Y.'
+_publ_section_title
+;
+Synchrotron study of pyrochlore-related NaCdZn~2~F~7~
+;
+_journal_coeditor_code           BR6202
+_journal_issue                   8
+_journal_name_full               'Acta Crystallographica, Section E'
+_journal_page_first              i182
+_journal_page_last               i184
+_journal_paper_doi               10.1107/S160053680502297X
+_journal_volume                  61
+_journal_year                    2005
+_chemical_formula_iupac          'Na Cd Zn2 F7'
+_chemical_formula_structural     'Na Cd Zn2 F7'
+_chemical_formula_sum            'Cd F7 Na Zn2'
+_chemical_formula_weight         399.13
+_chemical_name_systematic
+;
+sodium cadmium dizinc heptafluoride
+;
+_space_group_IT_number           227
+_symmetry_cell_setting           cubic
+_symmetry_space_group_name_Hall  '-F 4vw 2vw 3'
+_symmetry_space_group_name_H-M   'F d -3 m :2'
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            8
+_cell_length_a                   10.34657(3)
+_cell_length_b                   10.34657(3)
+_cell_length_c                   10.34657(3)
+_cell_measurement_reflns_used    67
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      35.0
+_cell_measurement_theta_min      3
+_cell_volume                     1107.615(3)
+_computing_cell_refinement
+;
+LeBail fit of synchrotron powder data (JANA2000;  Pet\<ri\<cek & Du\<sek,
+2000)
+;
+_computing_data_collection       'DIF4 (Eichhorn & Lippmann, 2001)'
+_computing_data_reduction
+'REDUCE (Eichhorn, 1995) and AVSORT (Eichhorn, 1992)'
+_computing_molecular_graphics    'ATOMS (Dowty, 1999)'
+_computing_publication_material  JANA2000'
+_computing_structure_refinement  JANA2000
+_computing_structure_solution    'SIR97 (Altomare <i>et al.</i>, 1999)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measured_fraction_theta_full 1.000
+_diffrn_measured_fraction_theta_max 1.000
+_diffrn_measurement_device_type  'Beamline D3 four-circle'
+_diffrn_measurement_method       \w
+_diffrn_radiation_monochromator  'double crystal Si (111)'
+_diffrn_radiation_source         'Hasylab, Hamburg, Germany'
+_diffrn_radiation_type           synchrotron
+_diffrn_radiation_wavelength     0.45
+_diffrn_reflns_av_R_equivalents  0.0538
+_diffrn_reflns_limit_h_max       24
+_diffrn_reflns_limit_h_min       -7
+_diffrn_reflns_limit_k_max       24
+_diffrn_reflns_limit_k_min       -24
+_diffrn_reflns_limit_l_max       23
+_diffrn_reflns_limit_l_min       -24
+_diffrn_reflns_number            8160
+_diffrn_reflns_theta_full        31.95
+_diffrn_reflns_theta_max         31.8
+_diffrn_reflns_theta_min         1.50
+_diffrn_standards_decay_%        0
+_diffrn_standards_interval_time  '45 min'
+_diffrn_standards_number         2
+_exptl_absorpt_coefficient_mu    8.902
+_exptl_absorpt_correction_T_max  0.4972
+_exptl_absorpt_correction_T_min  0.2653
+_exptl_absorpt_correction_type   numerical
+_exptl_absorpt_process_details   '(JANA2000; Pet\<ri\<cek & Du\<sek, 2000)'
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    4.7856
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       irregular
+_exptl_crystal_F_000             1456
+_exptl_crystal_size_max          0.06
+_exptl_crystal_size_mid          0.04
+_exptl_crystal_size_min          0.0115
+_refine_diff_density_max         3.97
+_refine_diff_density_min         -1.18
+_refine_ls_extinction_coef       0.21(2)
+_refine_ls_extinction_method     'Gaussian Type I (Becker & Coppens, 1974)'
+_refine_ls_goodness_of_fit_ref   2.30
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     11
+_refine_ls_number_reflns         404
+_refine_ls_number_restraints     3
+_refine_ls_R_factor_all          0.0393
+_refine_ls_R_factor_gt           0.0317
+_refine_ls_shift/su_max          -0.0137
+_refine_ls_shift/su_mean         0.0031
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 1/[\s^2^(F~o~)+ (0.01F~o~)^2^]'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0230
+_refine_ls_wR_factor_ref         0.0393
+_reflns_number_gt                324
+_reflns_number_total             404
+_reflns_threshold_expression     I>3\s(I)
+_cod_data_source_file            br6202.cif
+_cod_original_sg_symbol_H-M      'F d -3 m'
+_cod_original_formula_sum        'Cd1 F7 Na1 Zn2'
+_cod_database_code               2206347
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -y,1/4+x,1/4+z
+3 x,1/4-y,1/4-z
+4 z,x,y
+5 1/4-x,1/4-y,z
+6 1/4+y,1/4+x,-z
+7 -x,1/4+z,1/4+y
+8 1/4+y,-x,1/4+z
+9 1/4-x,y,1/4-z
+10 1/4-z,1/4-x,y
+11 -y,-x,-z
+12 1/4+x,-z,1/4+y
+13 z,1/4-x,1/4-y
+14 1/4+x,1/4+z,-y
+15 1/4-z,x,1/4-y
+16 -x,-z,-y
+17 1/4+z,-y,1/4+x
+18 y,z,x
+19 -z,1/4+y,1/4+x
+20 1/4-y,1/4-z,x
+21 1/4+z,1/4+y,-x
+22 1/4-y,z,1/4-x
+23 -z,-y,-x
+24 y,1/4-z,1/4-x
+25 -x,-y,-z
+26 y,1/4-x,1/4-z
+27 -x,1/4+y,1/4+z
+28 -z,-x,-y
+29 1/4+x,1/4+y,-z
+30 1/4-y,1/4-x,z
+31 x,1/4-z,1/4-y
+32 1/4-y,x,1/4-z
+33 1/4+x,-y,1/4+z
+34 1/4+z,1/4+x,-y
+35 y,x,z
+36 1/4-x,z,1/4-y
+37 -z,1/4+x,1/4+y
+38 1/4-x,1/4-z,y
+39 1/4+z,-x,1/4+y
+40 x,z,y
+41 1/4-z,y,1/4-x
+42 -y,-z,-x
+43 z,1/4-y,1/4-x
+44 1/4+y,1/4+z,-x
+45 1/4-z,1/4-y,x
+46 1/4+y,-z,1/4+x
+47 z,y,x
+48 -y,1/4+z,1/4+x
+49 x,1/2+y,1/2+z
+50 -y,3/4+x,3/4+z
+51 x,3/4-y,3/4-z
+52 z,1/2+x,1/2+y
+53 1/4-x,3/4-y,1/2+z
+54 1/4+y,3/4+x,1/2-z
+55 -x,3/4+z,3/4+y
+56 1/4+y,1/2-x,3/4+z
+57 1/4-x,1/2+y,3/4-z
+58 1/4-z,3/4-x,1/2+y
+59 -y,1/2-x,1/2-z
+60 1/4+x,1/2-z,3/4+y
+61 z,3/4-x,3/4-y
+62 1/4+x,3/4+z,1/2-y
+63 1/4-z,1/2+x,3/4-y
+64 -x,1/2-z,1/2-y
+65 1/4+z,1/2-y,3/4+x
+66 y,1/2+z,1/2+x
+67 -z,3/4+y,3/4+x
+68 1/4-y,3/4-z,1/2+x
+69 1/4+z,3/4+y,1/2-x
+70 1/4-y,1/2+z,3/4-x
+71 -z,1/2-y,1/2-x
+72 y,3/4-z,3/4-x
+73 -x,1/2-y,1/2-z
+74 y,3/4-x,3/4-z
+75 -x,3/4+y,3/4+z
+76 -z,1/2-x,1/2-y
+77 1/4+x,3/4+y,1/2-z
+78 1/4-y,3/4-x,1/2+z
+79 x,3/4-z,3/4-y
+80 1/4-y,1/2+x,3/4-z
+81 1/4+x,1/2-y,3/4+z
+82 1/4+z,3/4+x,1/2-y
+83 y,1/2+x,1/2+z
+84 1/4-x,1/2+z,3/4-y
+85 -z,3/4+x,3/4+y
+86 1/4-x,3/4-z,1/2+y
+87 1/4+z,1/2-x,3/4+y
+88 x,1/2+z,1/2+y
+89 1/4-z,1/2+y,3/4-x
+90 -y,1/2-z,1/2-x
+91 z,3/4-y,3/4-x
+92 1/4+y,3/4+z,1/2-x
+93 1/4-z,3/4-y,1/2+x
+94 1/4+y,1/2-z,3/4+x
+95 z,1/2+y,1/2+x
+96 -y,3/4+z,3/4+x
+97 1/2+x,y,1/2+z
+98 1/2-y,1/4+x,3/4+z
+99 1/2+x,1/4-y,3/4-z
+100 1/2+z,x,1/2+y
+101 3/4-x,1/4-y,1/2+z
+102 3/4+y,1/4+x,1/2-z
+103 1/2-x,1/4+z,3/4+y
+104 3/4+y,-x,3/4+z
+105 3/4-x,y,3/4-z
+106 3/4-z,1/4-x,1/2+y
+107 1/2-y,-x,1/2-z
+108 3/4+x,-z,3/4+y
+109 1/2+z,1/4-x,3/4-y
+110 3/4+x,1/4+z,1/2-y
+111 3/4-z,x,3/4-y
+112 1/2-x,-z,1/2-y
+113 3/4+z,-y,3/4+x
+114 1/2+y,z,1/2+x
+115 1/2-z,1/4+y,3/4+x
+116 3/4-y,1/4-z,1/2+x
+117 3/4+z,1/4+y,1/2-x
+118 3/4-y,z,3/4-x
+119 1/2-z,-y,1/2-x
+120 1/2+y,1/4-z,3/4-x
+121 1/2-x,-y,1/2-z
+122 1/2+y,1/4-x,3/4-z
+123 1/2-x,1/4+y,3/4+z
+124 1/2-z,-x,1/2-y
+125 3/4+x,1/4+y,1/2-z
+126 3/4-y,1/4-x,1/2+z
+127 1/2+x,1/4-z,3/4-y
+128 3/4-y,x,3/4-z
+129 3/4+x,-y,3/4+z
+130 3/4+z,1/4+x,1/2-y
+131 1/2+y,x,1/2+z
+132 3/4-x,z,3/4-y
+133 1/2-z,1/4+x,3/4+y
+134 3/4-x,1/4-z,1/2+y
+135 3/4+z,-x,3/4+y
+136 1/2+x,z,1/2+y
+137 3/4-z,y,3/4-x
+138 1/2-y,-z,1/2-x
+139 1/2+z,1/4-y,3/4-x
+140 3/4+y,1/4+z,1/2-x
+141 3/4-z,1/4-y,1/2+x
+142 3/4+y,-z,3/4+x
+143 1/2+z,y,1/2+x
+144 1/2-y,1/4+z,3/4+x
+145 1/2+x,1/2+y,z
+146 1/2-y,3/4+x,1/4+z
+147 1/2+x,3/4-y,1/4-z
+148 1/2+z,1/2+x,y
+149 3/4-x,3/4-y,z
+150 3/4+y,3/4+x,-z
+151 1/2-x,3/4+z,1/4+y
+152 3/4+y,1/2-x,1/4+z
+153 3/4-x,1/2+y,1/4-z
+154 3/4-z,3/4-x,y
+155 1/2-y,1/2-x,-z
+156 3/4+x,1/2-z,1/4+y
+157 1/2+z,3/4-x,1/4-y
+158 3/4+x,3/4+z,-y
+159 3/4-z,1/2+x,1/4-y
+160 1/2-x,1/2-z,-y
+161 3/4+z,1/2-y,1/4+x
+162 1/2+y,1/2+z,x
+163 1/2-z,3/4+y,1/4+x
+164 3/4-y,3/4-z,x
+165 3/4+z,3/4+y,-x
+166 3/4-y,1/2+z,1/4-x
+167 1/2-z,1/2-y,-x
+168 1/2+y,3/4-z,1/4-x
+169 1/2-x,1/2-y,-z
+170 1/2+y,3/4-x,1/4-z
+171 1/2-x,3/4+y,1/4+z
+172 1/2-z,1/2-x,-y
+173 3/4+x,3/4+y,-z
+174 3/4-y,3/4-x,z
+175 1/2+x,3/4-z,1/4-y
+176 3/4-y,1/2+x,1/4-z
+177 3/4+x,1/2-y,1/4+z
+178 3/4+z,3/4+x,-y
+179 1/2+y,1/2+x,z
+180 3/4-x,1/2+z,1/4-y
+181 1/2-z,3/4+x,1/4+y
+182 3/4-x,3/4-z,y
+183 3/4+z,1/2-x,1/4+y
+184 1/2+x,1/2+z,y
+185 3/4-z,1/2+y,1/4-x
+186 1/2-y,1/2-z,-x
+187 1/2+z,3/4-y,1/4-x
+188 3/4+y,3/4+z,-x
+189 3/4-z,3/4-y,x
+190 3/4+y,1/2-z,1/4+x
+191 1/2+z,1/2+y,x
+192 1/2-y,3/4+z,1/4+x
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_occupancy
+_atom_site_type_symbol
+Na 0 0 0 0.01952(5) Uani d 0.5 Na
+Cd 0 0 0 0.01952(5) Uani d 0.5 Cd
+Zn 0.5 0.5 0.5 0.01159(3) Uani d 1 Zn
+F1 0.125 0.125 0.125 0.0198(2) Uani d 1 F
+F2 0.125 0.125 0.41728(12) 0.0267(2) Uani d 1 F
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+_atom_site_aniso_type_symbol
+Na 0.01952(8) 0.01952(8) 0.01952(8) -0.00344(5) -0.00344(5) -0.00344(5) Na
+Cd 0.01952(8) 0.01952(8) 0.01952(8) -0.00368(7) -0.00368(7) -0.00368(7) Cd
+Zn 0.01159(7) 0.01159(7) 0.01159(7) -0.00036(3) -0.00036(3) -0.00036(3) Zn
+F1 0.0198(4) 0.0198(4) 0.0198(4) 0 0 0 F
+F2 0.0250(3) 0.0250(3) 0.0302(6) -0.0131(4) 0 0 F
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Na 0.013 0.010 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.1'
+Cd -2.522 3.404 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.1'
+Zn 0.286 0.632 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.1'
+F 0.005 0.004 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.1'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+F1 Na F1 . 25 180.0 y
+F1 Na F2 . 26 78.67(2) y
+F1 Na F2 . 50_544 101.33(2) y
+F1 Na F2 . 55_544 101.33(2) n
+F1 Na F2 . 31 78.67(2) n
+F2 Na F2 50_544 26 180.0 n
+F1 Na F2 . 178_445 101.33(2) n
+F1 Na F2 . 10 78.67(2) n
+F2 Na F2 50_544 31 63.750(10) y
+F2 Na F2 50_544 55_544 116.250(10) y
+F1 Na F2 25 50_544 78.67(2) n
+F1 Na F2 25 26 101.33(2) n
+F2 Na F2 50_544 10 63.750(10) n
+F2 Na F2 26 50_544 180.0 n
+F1 Na F2 25 31 101.33(2) n
+F1 Na F2 25 55_544 78.67(2) n
+F2 Na F2 26 55_544 63.750(10) n
+F2 Na F2 26 31 116.250(10) n
+F2 Na F2 26 10 116.250(10) n
+F2 Na F2 26 178_445 63.750(10) n
+F1 Na F2 25 178_445 78.67(2) n
+F1 Na F1 . 25 180.0 n
+F1 Cd F2 . 26 78.67(2) n
+F1 Cd F2 . 50_544 101.33(2) n
+F1 Cd F2 . 55_544 101.33(2) n
+F1 Cd F2 . 31 78.67(2) n
+F2 Cd F2 50_544 26 180.0 n
+F1 Cd F2 . 178_445 101.33(2) n
+F1 Cd F2 . 10 78.67(2) n
+F2 Cd F2 50_544 31 63.750(10) n
+F2 Cd F2 50_544 55_544 116.250(10) n
+F1 Cd F2 25 50_544 78.67(2) n
+F1 Cd F2 25 26 101.33(2) n
+F2 Cd F2 50_544 10 63.750(10) n
+F2 Cd F2 26 50_544 180.0 n
+F1 Cd F2 25 31 101.33(2) n
+F1 Cd F2 25 55_544 78.67(2) n
+F2 Cd F2 26 55_544 63.750(10) n
+F2 Cd F2 26 31 116.250(10) n
+F2 Cd F2 26 10 116.250(10) n
+F2 Cd F2 26 178_445 63.750(10) n
+F1 Cd F2 25 178_445 78.67(2) n
+F2 Zn F2 145 169_556 180.0 y
+F2 Zn F2 145 76_655 82.35(3) y
+F2 Zn F2 145 52 97.65(3) y
+F2 Zn F2 145 132 97.65(3) n
+F2 Zn F2 145 12_565 82.35(3) n
+F2 Zn F2 169_556 76_655 97.65(3) n
+F2 Zn F2 169_556 52 82.35(3) n
+F2 Zn F2 169_556 132 82.35(3) n
+F2 Zn F2 169_556 12_565 97.65(3) n
+F2 Zn F2 52 12_565 82.35(3) n
+F2 Zn F2 52 132 97.65(3) n
+F2 Zn F2 52 76_655 180.0 n
+Cd F1 Cd . 2 109.471 n
+Na F1 Na . 2 109.471 n
+Na F1 Na . 5 109.471 n
+Cd F1 Cd . 5 109.471 n
+Na F1 Na . 8 109.471 n
+Cd F1 Cd . 8 109.471 n
+Na F1 Na 2 5 109.471 n
+Cd F1 Cd 2 5 109.471 n
+Na F1 Na 2 8 109.471 n
+Cd F1 Cd 2 8 109.471 n
+Na F1 Na 5 8 109.471 n
+Cd F1 Cd 5 8 109.471 n
+Zn F2 Zn 145_445 149 129.80(6) y
+Zn F2 Na 145_445 2 106.946(14) n
+Zn F2 Cd 145_445 2 106.946(14) n
+Zn F2 Na 145_445 8 106.946(14) n
+Zn F2 Cd 145_445 8 106.946(14) n
+Zn F2 Na 149 2 106.946(14) n
+Zn F2 Cd 149 2 106.946(14) n
+Zn F2 Na 149 8 106.946(14) n
+Zn F2 Cd 149 8 106.946(14) n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Na F1 . 2.2401 y
+Na F1 25 2.2401 n
+Na F2 50_544 2.5176(9) y
+Na F2 26 2.5176(9) n
+Na F2 55_544 2.5176(9) n
+Na F2 31 2.5176(9) n
+Na F2 10 2.5176(9) n
+Na F2 178_445 2.5176(9) n
+Na Na 2 3.6581 n
+Na Cd 2 3.6581 n
+Na Cd 50_544 3.6581 n
+Na Cd 5 3.6581 n
+Cd F1 . 2.2401 n
+Cd F1 25 2.2401 n
+Cd F2 50_544 2.5176(9) n
+Cd F2 26 2.5176(9) n
+Cd F2 55_544 2.5176(9) n
+Cd F2 31 2.5176(9) n
+Cd F2 10 2.5176(9) n
+Cd F2 178_445 2.5176(9) n
+Cd Na 2 3.6581 n
+Cd Na 50_544 3.6581 n
+Cd Na 5 3.6581 n
+Zn F2 145 2.0197(5) y
+Zn F2 169_556 2.0197(5) n
+Zn F2 52 2.0197(5) n
+Zn F2 76_655 2.0197(5) n
+Zn F2 12_565 2.0197(5) n
+Zn F2 132 2.0197(5) n
+Zn Na 98 3.6581 n
+Zn Na 146 3.6581 n
+Zn Na 53 3.6581 n
+F1 F2 50_544 3.0233(13) y
+F2 F2 100_455 3.0406(13) n
+F2 F2 124 2.6593(3) y
+F2 F2 151_545 2.6593(3) n
+F2 F2 79 3.0406(13) y
+F2 F2 106 3.0406(13) n
+F2 F2 130_455 2.6593(3) n
+F2 F2 156_455 2.6593(3) n
+F2 F2 84.545 3.0406(13) n

@@ -1,0 +1,204 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 06:40:26 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176432 $
+#$URL: svn://www.crystallography.net/cod/cif/2/01/07/2010794.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2010794
+loop_
+_publ_author_name
+'\%Asberg Dahlborg, Magnus B.'
+'Svensson, G\"oran'
+'Ouvarova, Tatiana'
+_publ_section_title
+;
+ Mercury(II) tungstate from neutron powder data
+;
+_journal_issue                   4
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              397
+_journal_page_last               398
+_journal_paper_doi               10.1107/S0108270199013864
+_journal_volume                  56
+_journal_year                    2000
+_chemical_formula_moiety         HgWO4
+_chemical_formula_sum            'Hg O4 W'
+_chemical_formula_weight         448.44
+_chemical_name_systematic        ' mercury(II) tungstate'
+_space_group_IT_number           15
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-C 2yc'
+_symmetry_space_group_name_H-M   'C 1 2/c 1'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 113.159(4)
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            4
+_cell_length_a                   11.3606(8)
+_cell_length_b                   6.0125(4)
+_cell_length_c                   5.1482(4)
+_cell_measurement_temperature    295
+_cell_volume                     323.31(4)
+_computing_cell_refinement       Fullprof
+_computing_data_collection       'Fullprof (Rodriguez-Carvajal, 1997)'
+_computing_data_reduction        Fullprof
+_computing_molecular_graphics    'ATOMS (Dowty, 1998)'
+_computing_publication_material
+'WinPLOTR (Roisnel and Rodriguez-Carvajal, 1999)'
+_computing_structure_refinement  Fullprof
+_computing_structure_solution    Fullprof
+_diffrn_ambient_temperature      295
+_diffrn_measurement_device_type  'neutron powder diffractometer'
+_diffrn_radiation_monochromator  Cu(220)
+_diffrn_radiation_probe          neutron
+_diffrn_radiation_type           neutron
+_diffrn_radiation_wavelength     1.470
+_exptl_crystal_density_diffrn    9.212
+_exptl_crystal_density_method    'not measured'
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_all   1.23
+_refine_ls_matrix_type           fullcycle
+_refine_ls_number_parameters     27
+_refine_ls_shift/su_max          <0.01
+_refine_ls_structure_factor_coef Inet
+_refine_ls_weighting_scheme      sigma
+_cod_data_source_file            br1261.cif
+_cod_data_source_block           I
+_cod_original_cell_volume        323.32(4)
+_cod_original_sg_symbol_Hall     -c_2yc
+_cod_original_sg_symbol_H-M      'C 2/c'
+_cod_database_code               2010794
+loop_
+_symmetry_equiv_pos_as_xyz
+'+x,  +y,  +z'
+'-x,  +y,  1/2-z'
+'-x,  -y,  -z'
+'+x,  -y,  1/2+z'
+'1/2+x, 1/2+y, +z'
+'1/2-x, 1/2+y, 1/2-z'
+'1/2-x, 1/2-y, -z'
+'1/2+x, 1/2-y, 1/2+z'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_occupancy
+Hg .25 .25 0 .0096(5) Uiso 1
+W 0 .1879(8) .25 .0082(14) Uiso 1
+O1 .0966(3) .0918(5) .0279(6) .0065(8) Uiso 1
+O2 .1160(3) .3678(5) .4745(7) .0134(9) Uiso 1
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_source
+Hg Hg 'Fullprof 3.5'
+W W 'Fullprof 3.5'
+O O 'Fullprof 3.5'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O1 Hg O1 . . 7 180 yes
+O2 Hg O2 . '4 565' '7 566' 180 no
+O2 Hg O2 '4 564' '4 565' '6 556' 180 no
+W Hg W '1 565' '4 565' '3 565' 54.18(7) no
+W Hg W '1 565' '4 565' '3 566' 56.08(7) no
+W Hg Hg '1 565' '4 565' . 120.59(3) no
+W Hg Hg '1 565' '4 565' '1 556' 124.65(3) no
+W Hg Hg '1 565' '4 565' '1 565' 55.35(3) no
+W Hg Hg '1 565' '4 565' '1 566' 59.41(4) no
+W Hg W '1 565' '4 565' 5 123.92(7) no
+W Hg W '1 565' '4 565' '5 556' 125.82(7) no
+W Hg W '1 565' '4 565' '7 556' 180 no
+O1 Hg O2 6 '4 565' . 94.57(12) no
+O1 Hg O2 6 '4 565' '4 564' 88.10(11) no
+O1 Hg O2 6 '4 565' '6 556' 91.90(11) no
+O1 Hg O2 6 '4 565' '7 566' 85.43(12) no
+O2 Hg O2 . '4 565' '4 564' 68.73(11) no
+O2 Hg O2 . '4 565' '6 556' 111.27(11) no
+O2 Hg O1 . '4 565' '4 565' 85.43(12) no
+W Hg W '3 565' '4 565' '3 566' 88.476(11) no
+W Hg Hg '3 565' '4 565' . 66.77(6) no
+W Hg Hg '3 565' '4 565' '1 556' 122.92(6) no
+W Hg Hg '3 565' '4 565' '1 565' 57.08(6) no
+W Hg Hg '3 565' '4 565' '1 566' 113.23(6) no
+W Hg W '3 565' '4 565' 5 91.524(12) no
+W Hg W '3 565' '4 565' '5 556' 180 no
+W Hg O2 '3 565' '4 565' '6 556' 156.54(10) no
+W Hg W '3 565' '4 565' '7 556' 125.82(6) no
+W Hg Hg '3 566' '4 565' . 121.17(6) no
+W Hg Hg '3 566' '4 565' '1 556' 68.99(7) no
+W Hg Hg '3 566' '4 565' '1 565' 111.01(7) no
+W Hg Hg '3 566' '4 565' '1 566' 58.83(6) no
+Hg Hg Hg . '4 565' '1 556' 81.144(6) no
+Hg Hg Hg . '4 565' '1 565' 98.856(6) no
+Hg Hg Hg . '4 565' '1 566' 180 no
+Hg Hg Hg '1 565' '4 565' '1 566' 81.144(6) no
+Hg W Hg '4 565' '1 565' '3 565' 89.65(10) no
+Hg W W '4 565' '1 565' '3 565' 64.32(8) no
+Hg W W '4 565' '1 565' '3 566' 59.85(7) no
+Hg W Hg '4 565' '1 565' '1 565' 65.82(3) no
+Hg W Hg '4 565' '1 565' '1 566' 63.51(3) no
+O2 W O2 '1 565' '1 565' '2 565' 103.4(3) no
+O2 W O1 '1 565' '1 565' '2 565' 104.30(17) no
+O2 W O1 '1 565' '1 565' '1 565' 96.83(17) no
+O2 W O1 '1 565' '1 565' '4 565' 89.39(13) no
+O2 W O1 '1 565' '1 565' '3 565' 163.3(2) no
+Hg W W '2 564' '1 565' '3 565' 61.50(4) no
+Hg W W '2 564' '1 565' '3 566' 127.34(9) no
+Hg W Hg '2 564' '1 565' '1 565' 90.346(16) no
+Hg W Hg '2 564' '1 565' '1 566' 168.74(14) no
+W W Hg '3 565' '1 565' '2 565' 125.12(9) no
+W W W '3 565' '1 565' '3 566' 97.46(15) no
+W W Hg '3 565' '1 565' '1 565' 64.07(4) no
+Hg W Hg '2 565' '1 565' '1 565' 167.98(15) no
+O1 W O1 '2 565' '1 565' '1 565' 145.7(3) no
+O1 W O1 '2 565' '1 565' '4 565' 69.25(17) no
+O1 W O1 '2 565' '1 565' '3 565' 84.45(18) no
+O1 W O1 '4 565' '1 565' '3 565' 80.37(19) no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Hg O1 . . 2.039(4) yes
+Hg O2 . '7 556' 2.627(3) yes
+Hg O2 . '4 564' 2.731(3) yes
+W O2 . . 1.745(4) yes
+W O1 . . 1.958(4) yes
+W O1 . 3 2.201(5) yes
+Hg W . . 3.5690(5) yes
+Hg W . 3 3.712(3) yes
+Hg W . '7 556' 3.8064(5) yes
+Hg Hg . 4 3.9577(2) yes
+W W . 3 3.425(4) yes
+Hg Hg '4 565' '1 556' 3.9577(2) no
+Hg Hg '4 565' '1 565' 3.9577(2) no
+Hg Hg '4 565' '1 566' 3.9577(2) no
+Hg W '4 565' 5 3.5690(5) no
+Hg W '4 565' '5 556' 3.8064(5) no
+Hg O2 '4 565' '6 556' 2.627(3) no
+Hg W '4 565' '7 556' 3.712(3) no
+Hg O1 '4 565' '4 565' 2.039(4) no
+Hg O2 '4 565' '7 566' 2.731(3) no
+W O2 '1 565' '2 565' 1.745(4) no
+W W '1 565' '3 566' 3.425(4) no
+W O1 '1 565' '1 565' 1.958(4) no
+W O1 '1 565' '3 565' 2.201(5) no

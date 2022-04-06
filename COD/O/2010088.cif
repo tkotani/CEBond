@@ -1,0 +1,332 @@
+#------------------------------------------------------------------------------
+#$Date: 2018-01-31 17:35:22 +0200 (Wed, 31 Jan 2018) $
+#$Revision: 205968 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/01/00/2010088.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2010088
+loop_
+_publ_author_name
+'Bell, A.M.T.'
+'Henderson, C.M.B.'
+_publ_section_title
+;
+ Rietveld refinement of the structures of dry-synthesized
+ <i>M</i>Fe^III^Si~2~O~6~ leucites (<i>M</i> = K, Rb, Cs) by
+ synchrotron X-ray powder diffraction
+;
+_journal_issue                   10
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              1531
+_journal_page_last               1536
+_journal_paper_doi               10.1107/S0108270194004014
+_journal_volume                  50
+_journal_year                    1994
+_chemical_formula_moiety         'Cs Fe Si2 O6'
+_chemical_formula_sum            'Cs Fe O6 Si2'
+_chemical_formula_weight         340.92
+_space_group_crystal_system      cubic
+_space_group_IT_number           230
+_space_group_name_Hall           '-I 4bd 2c 3'
+_space_group_name_H-M_alt        'I a -3 d'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            16
+_cell_length_a                   13.85420(10)
+_cell_length_b                   13.85420(10)
+_cell_length_c                   13.85420(10)
+_cell_measurement_temperature    293
+_cell_volume                     2659.16(3)
+_computing_cell_refinement       'PDPL refcel program'
+_computing_data_collection       'In house software'
+_computing_molecular_graphics    'Molecular Simulations CERIUS software'
+_computing_structure_refinement  'PDPL mprof Rietveld program'
+_diffrn_ambient_temperature      293
+_diffrn_measurement_device
+' high resolution powder diffractometer, SRS station 8.3'
+_diffrn_radiation_monochromator  'germanium 1 1 1'
+_diffrn_radiation_source         'Daresbury SRS bending magnet'
+_diffrn_radiation_type           synchrotron
+_diffrn_radiation_wavelength     1.80067
+_exptl_crystal_description       'powder sample'
+_refine_ls_goodness_of_fit_obs   1.171
+_refine_ls_number_constraints    0
+_refine_ls_number_parameters     15
+_refine_ls_number_reflns         122
+_refine_ls_R_factor_obs          0.106
+_refine_ls_weighting_scheme
+;The raw synchrotron powder diffraction data were normalized to
+account for the decay of the synchrotron radiation beam. Weighting scheme
+used: weight = normalisation factor/(profile intensity + background)
+;
+_refine_ls_wR_factor_obs         0.173
+_cod_data_source_file            br1077.cif
+_cod_data_source_block           3
+_cod_original_cell_volume        2653.98(3)
+_cod_original_sg_symbol_H-M      'I a-3d'
+_cod_original_formula_sum        'Cs Fe Si2 O6'
+_cod_database_code               2010088
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 -y+1/4,x+3/4,z+1/4
+3 -x+1/2,-y,z+1/2
+4 y+1/4,-x+1/4,z+3/4
+5 x,-y,-z+1/2
+6 y+1/4,x+3/4,-z+3/4
+7 -x+1/2,y,-z
+8 -y+1/4,-x+1/4,-z+1/4
+9 z,x,y
+10 -x+1/4,z+3/4,y+1/4
+11 -z+1/2,-x,y+1/2
+12 x+1/4,-z+1/4,y+3/4
+13 z,-x,-y+1/2
+14 x+1/4,z+3/4,-y+3/4
+15 -z+1/2,x,-y
+16 -x+1/4,-z+1/4,-y+1/4
+17 y,z,x
+18 y+1/2,-z+1/2,-x
+19 z+3/4,y+1/4,-x+1/4
+20 -y,z+1/2,-x+1/2
+21 -z+1/4,-y+1/4,-x+1/4
+22 -y+1/2,-z,x+1/2
+23 z+3/4,-y+3/4,x+1/4
+24 -z+3/4,y+1/4,x+3/4
+25 -x,-y,-z
+26 y+3/4,-x+1/4,-z+3/4
+27 x+1/2,y,-z+1/2
+28 -y+3/4,x+3/4,-z+1/4
+29 -x,y,z+1/2
+30 -y+3/4,-x+1/4,z+1/4
+31 x+1/2,-y,z
+32 y+3/4,x+3/4,z+3/4
+33 -z,-x,-y
+34 x+3/4,-z+1/4,-y+3/4
+35 z+1/2,x,-y+1/2
+36 -x+3/4,z+3/4,-y+1/4
+37 -z,x,y+1/2
+38 -x+3/4,-z+1/4,y+1/4
+39 z+1/2,-x,y
+40 x+3/4,z+3/4,y+3/4
+41 -y,-z,-x
+42 -y+1/2,z+1/2,x
+43 -z+1/4,-y+3/4,x+3/4
+44 y,-z+1/2,x+1/2
+45 z+3/4,y+3/4,x+3/4
+46 y+1/2,z,-x+1/2
+47 -z+1/4,y+1/4,-x+3/4
+48 z+1/4,-y+3/4,-x+1/4
+49 x+1/2,y+1/2,z+1/2
+50 -y+3/4,x+1/4,z+3/4
+51 -x,-y+1/2,z
+52 y+3/4,-x+3/4,z+1/4
+53 x+1/2,-y+1/2,-z
+54 y+3/4,x+1/4,-z+1/4
+55 -x,y+1/2,-z+1/2
+56 -y+3/4,-x+3/4,-z+3/4
+57 z+1/2,x+1/2,y+1/2
+58 -x+3/4,z+1/4,y+3/4
+59 -z,-x+1/2,y
+60 x+3/4,-z+3/4,y+1/4
+61 z+1/2,-x+1/2,-y
+62 x+3/4,z+1/4,-y+1/4
+63 -z,x+1/2,-y+1/2
+64 -x+3/4,-z+3/4,-y+3/4
+65 y+1/2,z+1/2,x+1/2
+66 y,-z,-x+1/2
+67 z+1/4,y+3/4,-x+3/4
+68 -y+1/2,z,-x
+69 -z+3/4,-y+3/4,-x+3/4
+70 -y,-z+1/2,x
+71 z+1/4,-y+1/4,x+3/4
+72 -z+1/4,y+3/4,x+1/4
+73 -x+1/2,-y+1/2,-z+1/2
+74 y+1/4,-x+3/4,-z+1/4
+75 x,y+1/2,-z
+76 -y+1/4,x+1/4,-z+3/4
+77 -x+1/2,y+1/2,z
+78 -y+1/4,-x+3/4,z+3/4
+79 x,-y+1/2,z+1/2
+80 y+1/4,x+1/4,z+1/4
+81 -z+1/2,-x+1/2,-y+1/2
+82 x+1/4,-z+3/4,-y+1/4
+83 z,x+1/2,-y
+84 -x+1/4,z+1/4,-y+3/4
+85 -z+1/2,x+1/2,y
+86 -x+1/4,-z+3/4,y+3/4
+87 z,-x+1/2,y+1/2
+88 x+1/4,z+1/4,y+1/4
+89 -y+1/2,-z+1/2,-x+1/2
+90 -y,z,x+1/2
+91 -z+3/4,-y+1/4,x+1/4
+92 y+1/2,-z,x
+93 z+1/4,y+1/4,x+1/4
+94 y,z+1/2,-x
+95 -z+3/4,y+3/4,-x+1/4
+96 z+3/4,-y+1/4,-x+3/4
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+1/2+x,1/2-y,-z
+-x,1/2+y,1/2-z
+1/2-x,-y,1/2+z
+z,x,y
+1/2+z,1/2-x,-y
+-z,1/2+x,1/2-y
+1/2-z,-x,1/2+y
+y,z,x
+1/2+y,1/2-z,-x
+-y,1/2+z,1/2-x
+1/2-y,-z,1/2+x
+1/4+x,1/4+z,1/4+y
+1/4+y,1/4+x,1/4+z
+1/4+z,1/4+y,1/4+x
+3/4+x,1/4-z,3/4-y
+3/4+y,1/4-x,3/4-z
+3/4+z,1/4-y,3/4-x
+3/4-x,3/4+z,1/4-y
+3/4-y,3/4+x,1/4-z
+3/4-z,3/4+y,1/4-x
+1/4-x,3/4-z,3/4+y
+1/4-y,3/4-x,3/4+z
+1/4-z,3/4-y,3/4+x
+-x,-y,-z
+1/2-x,1/2+y,z
+x,1/2-y,1/2+z
+1/2+x,y,1/2-z
+-z,-x,-y
+1/2-z,1/2+x,y
+z,1/2-x,1/2+y
+1/2+z,x,1/2-y
+-y,-z,-x
+1/2-y,1/2+z,x
+y,1/2-z,1/2+x
+1/2+y,z,1/2-x
+3/4-x,3/4-z,3/4-y
+3/4-y,3/4-x,3/4-z
+3/4-z,3/4-y,3/4-x
+1/4-x,3/4+z,1/4+y
+1/4-y,3/4+x,1/4+z
+1/4-z,3/4+y,1/4+x
+1/4+x,1/4-z,3/4+y
+1/4+y,1/4-x,3/4+z
+1/4+z,1/4-y,3/4+x
+3/4+x,1/4+z,1/4-y
+3/4+y,1/4+x,1/4-z
+3/4+z,1/4+y,1/4-x
+1/2+x,1/2+y,1/2+z
+x,-y,1/2-z
+1/2-x,y,-z
+-x,1/2-y,z
+1/2+z,1/2+x,1/2+y
+z,-x,1/2-y
+1/2-z,x,-y
+-z,1/2-x,y
+1/2+y,1/2+z,1/2+x
+y,-z,1/2-x
+1/2-y,z,-x
+-y,1/2-z,x
+3/4+x,3/4+z,3/4+y
+3/4+y,3/4+x,3/4+z
+3/4+z,3/4+y,3/4+x
+1/4+x,3/4-z,1/4-y
+1/4+y,3/4-x,1/4-z
+1/4+z,3/4-y,1/4-x
+1/4-x,1/4+z,3/4-y
+1/4-y,1/4+x,3/4-z
+1/4-z,1/4+y,3/4-x
+3/4-x,1/4-z,1/4+y
+3/4-y,1/4-x,1/4+z
+3/4-z,1/4-y,1/4+x
+1/2-x,1/2-y,1/2-z
+-x,y,1/2+z
+1/2+x,-y,z
+x,1/2+y,-z
+1/2-z,1/2-x,1/2-y
+-z,x,1/2+y
+1/2+z,-x,y
+z,1/2+x,-y
+1/2-y,1/2-z,1/2-x
+-y,z,1/2+x
+1/2+y,-z,x
+y,1/2+z,-x
+3/4-x,3/4-z,3/4-y
+3/4-y,3/4-x,3/4-z
+3/4-z,3/4-y,3/4-x
+1/4-x,3/4+z,1/4+y
+1/4-y,3/4+x,1/4+z
+1/4-z,3/4+y,1/4+x
+1/4+x,1/4-z,3/4+y
+1/4+y,1/4-x,3/4+z
+1/4+z,1/4-y,3/4-x
+3/4+x,1/4+z,1/4-y
+3/4+y,1/4+x,1/4-z
+3/4+z,1/4+y,1/4-x
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_calc_flag
+_atom_site_calc_attached_atom
+_atom_site_occupancy
+Cs 0.125 0.125 0.125 3.10(3) Uiso ? ? 1.000
+Si 0.125 0.66280(10) 0.58730(10) 4.04(6) Uiso ? ? 0.667
+Fe 0.125 0.66280(10) 0.58730(10) 4.04(6) Uiso ? ? 0.333
+O 0.4686(3) 0.3859(3) 0.1509(3) 4.50(10) Uiso ? ? 1.000
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Cs 0 0 International_Tables_Vol_IV_Table_2.3.1
+Fe 0 0 International_Tables_Vol_IV_Table_2.3.1
+Si 0 0 International_Tables_Vol_IV_Table_2.3.1
+O 0 0 International_Tables_Vol_IV_Table_2.3.1
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+O Si O 114.2(2) yes
+O Si O 113.8(2) yes
+O Si O 99.7(2) yes
+O Si O 101.8(2) yes
+O Si O 114.2(2) no
+O Si O 113.8(2) no
+O Fe O 114.2(2) no
+O Fe O 113.8(2) no
+O Fe O 99.7(2) no
+O Fe O 101.8(2) no
+O Fe O 114.2(2) no
+O Fe O 113.8(2) no
+Si O Si 140.1(2) yes
+Si O Fe 140.1(2) no
+Fe O Si 140.1(2) no
+Fe O Fe 140.1(2) no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Si O . . 1.706(4) yes
+Si O . . 1.658(4) yes
+Fe O . . 1.706(4) no
+Fe O . . 1.658(4) no
+Cs O . . 3.573(4) yes
+Cs O . . 3.365(4) yes

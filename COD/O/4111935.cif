@@ -1,0 +1,449 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-16 22:30:59 +0200 (Tue, 16 Feb 2016) $
+#$Revision: 176467 $
+#$URL: svn://www.crystallography.net/cod/cif/4/11/19/4111935.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4111935
+loop_
+_publ_author_name
+'J\"urgen K\"ohler'
+'Holger Friedrich'
+'Myung-Hwan Whangbo'
+'Antoine Villesuzanne'
+_publ_contact_author
+;
+        Juergen Koehler
+        Max-Planck-Institut fuer Festkoerperforschung
+        Heisenbergstrasse 1
+        70569 Stuttgart
+        Bundesrepublik Deutschland
+;
+_publ_contact_author_email       J.KOEHLER@FKF.MPG.de
+_publ_contact_author_fax         '049 711 689-1091'
+_publ_contact_author_phone       '049 711 689-1647'
+_publ_section_title
+;
+ Synthesis and Characterization of [PtIn6](GeO4)2O and Its Solid Solution
+ [PtIn6](GaO4)2-x(GeO4)xOx/2 (0 <=x<= 2): Gradual Color Change of the
+ Solid Solution from Black (x= 0) to Yellow (x= 2) as a Consequence of
+ Quantum Dot Effect
+;
+_journal_name_full               'Journal of the American Chemical Society'
+_journal_page_first              12990
+_journal_page_last               12996
+_journal_paper_doi               10.1021/ja053280x
+_journal_volume                  127
+_journal_year                    2005
+_chemical_formula_sum            'Ge2 In6 O9 Pt'
+_chemical_formula_weight         1173.21
+_chemical_name_systematic
+;
+ Platinumhexaindiumoxidegermanate
+;
+_space_group_IT_number           225
+_symmetry_cell_setting           cubic
+_symmetry_space_group_name_Hall  '-F 4 2 3'
+_symmetry_space_group_name_H-M   'F m -3 m'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_conform_dict_location     ftp://ftp.iucr.org/pub/cif_core.dic
+_audit_conform_dict_name         cif_core.dic
+_audit_conform_dict_version      2.2
+_audit_creation_date             2005-05-12T10:39:16-00:00
+_audit_creation_method           'WinGX routine CIF_UPDATE'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   10.0600(12)
+_cell_length_b                   10.0600(12)
+_cell_length_c                   10.0600(12)
+_cell_measurement_temperature    293(2)
+_cell_volume                     1018.1(2)
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measured_fraction_theta_full 1
+_diffrn_measured_fraction_theta_max 1
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0929
+_diffrn_reflns_av_unetI/netI     0.0239
+_diffrn_reflns_limit_h_max       14
+_diffrn_reflns_limit_h_min       -14
+_diffrn_reflns_limit_k_max       14
+_diffrn_reflns_limit_k_min       -14
+_diffrn_reflns_limit_l_max       14
+_diffrn_reflns_limit_l_min       -14
+_diffrn_reflns_number            3516
+_diffrn_reflns_theta_full        30.3
+_diffrn_reflns_theta_max         30.3
+_diffrn_reflns_theta_min         3.51
+_exptl_absorpt_coefficient_mu    32.858
+_exptl_absorpt_correction_type   none
+_exptl_crystal_density_diffrn    7.654
+_exptl_crystal_F_000             2032
+_refine_diff_density_max         0.976
+_refine_diff_density_min         -1.19
+_refine_diff_density_rms         0.263
+_refine_ls_extinction_coef       0.00217(14)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_ref   1.39
+_refine_ls_hydrogen_treatment    mixed
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     11
+_refine_ls_number_reflns         110
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.39
+_refine_ls_R_factor_all          0.0165
+_refine_ls_R_factor_gt           0.0162
+_refine_ls_shift/su_max          0.004
+_refine_ls_shift/su_mean         0.001
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0196P)^2^+4.6359P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.042
+_refine_ls_wR_factor_ref         0.0421
+_reflns_number_gt                108
+_reflns_number_total             110
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            ja053280xsi20050722_043857.cif
+_cod_data_source_block           test0
+_cod_original_formula_sum        'Pt In6 Ge2 O9'
+_cod_database_code               4111935
+_cod_database_fobs_code          4111935
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, -y, z'
+'-x, y, -z'
+'x, -y, -z'
+'z, x, y'
+'z, -x, -y'
+'-z, -x, y'
+'-z, x, -y'
+'y, z, x'
+'-y, z, -x'
+'y, -z, -x'
+'-y, -z, x'
+'y, x, -z'
+'-y, -x, -z'
+'y, -x, z'
+'-y, x, z'
+'x, z, -y'
+'-x, z, y'
+'-x, -z, -y'
+'x, -z, y'
+'z, y, -x'
+'z, -y, x'
+'-z, y, x'
+'-z, -y, -x'
+'x, y+1/2, z+1/2'
+'-x, -y+1/2, z+1/2'
+'-x, y+1/2, -z+1/2'
+'x, -y+1/2, -z+1/2'
+'z, x+1/2, y+1/2'
+'z, -x+1/2, -y+1/2'
+'-z, -x+1/2, y+1/2'
+'-z, x+1/2, -y+1/2'
+'y, z+1/2, x+1/2'
+'-y, z+1/2, -x+1/2'
+'y, -z+1/2, -x+1/2'
+'-y, -z+1/2, x+1/2'
+'y, x+1/2, -z+1/2'
+'-y, -x+1/2, -z+1/2'
+'y, -x+1/2, z+1/2'
+'-y, x+1/2, z+1/2'
+'x, z+1/2, -y+1/2'
+'-x, z+1/2, y+1/2'
+'-x, -z+1/2, -y+1/2'
+'x, -z+1/2, y+1/2'
+'z, y+1/2, -x+1/2'
+'z, -y+1/2, x+1/2'
+'-z, y+1/2, x+1/2'
+'-z, -y+1/2, -x+1/2'
+'x+1/2, y, z+1/2'
+'-x+1/2, -y, z+1/2'
+'-x+1/2, y, -z+1/2'
+'x+1/2, -y, -z+1/2'
+'z+1/2, x, y+1/2'
+'z+1/2, -x, -y+1/2'
+'-z+1/2, -x, y+1/2'
+'-z+1/2, x, -y+1/2'
+'y+1/2, z, x+1/2'
+'-y+1/2, z, -x+1/2'
+'y+1/2, -z, -x+1/2'
+'-y+1/2, -z, x+1/2'
+'y+1/2, x, -z+1/2'
+'-y+1/2, -x, -z+1/2'
+'y+1/2, -x, z+1/2'
+'-y+1/2, x, z+1/2'
+'x+1/2, z, -y+1/2'
+'-x+1/2, z, y+1/2'
+'-x+1/2, -z, -y+1/2'
+'x+1/2, -z, y+1/2'
+'z+1/2, y, -x+1/2'
+'z+1/2, -y, x+1/2'
+'-z+1/2, y, x+1/2'
+'-z+1/2, -y, -x+1/2'
+'x+1/2, y+1/2, z'
+'-x+1/2, -y+1/2, z'
+'-x+1/2, y+1/2, -z'
+'x+1/2, -y+1/2, -z'
+'z+1/2, x+1/2, y'
+'z+1/2, -x+1/2, -y'
+'-z+1/2, -x+1/2, y'
+'-z+1/2, x+1/2, -y'
+'y+1/2, z+1/2, x'
+'-y+1/2, z+1/2, -x'
+'y+1/2, -z+1/2, -x'
+'-y+1/2, -z+1/2, x'
+'y+1/2, x+1/2, -z'
+'-y+1/2, -x+1/2, -z'
+'y+1/2, -x+1/2, z'
+'-y+1/2, x+1/2, z'
+'x+1/2, z+1/2, -y'
+'-x+1/2, z+1/2, y'
+'-x+1/2, -z+1/2, -y'
+'x+1/2, -z+1/2, y'
+'z+1/2, y+1/2, -x'
+'z+1/2, -y+1/2, x'
+'-z+1/2, y+1/2, x'
+'-z+1/2, -y+1/2, -x'
+'-x, -y, -z'
+'x, y, -z'
+'x, -y, z'
+'-x, y, z'
+'-z, -x, -y'
+'-z, x, y'
+'z, x, -y'
+'z, -x, y'
+'-y, -z, -x'
+'y, -z, x'
+'-y, z, x'
+'y, z, -x'
+'-y, -x, z'
+'y, x, z'
+'-y, x, -z'
+'y, -x, -z'
+'-x, -z, y'
+'x, -z, -y'
+'x, z, y'
+'-x, z, -y'
+'-z, -y, x'
+'-z, y, -x'
+'z, -y, -x'
+'z, y, x'
+'-x, -y+1/2, -z+1/2'
+'x, y+1/2, -z+1/2'
+'x, -y+1/2, z+1/2'
+'-x, y+1/2, z+1/2'
+'-z, -x+1/2, -y+1/2'
+'-z, x+1/2, y+1/2'
+'z, x+1/2, -y+1/2'
+'z, -x+1/2, y+1/2'
+'-y, -z+1/2, -x+1/2'
+'y, -z+1/2, x+1/2'
+'-y, z+1/2, x+1/2'
+'y, z+1/2, -x+1/2'
+'-y, -x+1/2, z+1/2'
+'y, x+1/2, z+1/2'
+'-y, x+1/2, -z+1/2'
+'y, -x+1/2, -z+1/2'
+'-x, -z+1/2, y+1/2'
+'x, -z+1/2, -y+1/2'
+'x, z+1/2, y+1/2'
+'-x, z+1/2, -y+1/2'
+'-z, -y+1/2, x+1/2'
+'-z, y+1/2, -x+1/2'
+'z, -y+1/2, -x+1/2'
+'z, y+1/2, x+1/2'
+'-x+1/2, -y, -z+1/2'
+'x+1/2, y, -z+1/2'
+'x+1/2, -y, z+1/2'
+'-x+1/2, y, z+1/2'
+'-z+1/2, -x, -y+1/2'
+'-z+1/2, x, y+1/2'
+'z+1/2, x, -y+1/2'
+'z+1/2, -x, y+1/2'
+'-y+1/2, -z, -x+1/2'
+'y+1/2, -z, x+1/2'
+'-y+1/2, z, x+1/2'
+'y+1/2, z, -x+1/2'
+'-y+1/2, -x, z+1/2'
+'y+1/2, x, z+1/2'
+'-y+1/2, x, -z+1/2'
+'y+1/2, -x, -z+1/2'
+'-x+1/2, -z, y+1/2'
+'x+1/2, -z, -y+1/2'
+'x+1/2, z, y+1/2'
+'-x+1/2, z, -y+1/2'
+'-z+1/2, -y, x+1/2'
+'-z+1/2, y, -x+1/2'
+'z+1/2, -y, -x+1/2'
+'z+1/2, y, x+1/2'
+'-x+1/2, -y+1/2, -z'
+'x+1/2, y+1/2, -z'
+'x+1/2, -y+1/2, z'
+'-x+1/2, y+1/2, z'
+'-z+1/2, -x+1/2, -y'
+'-z+1/2, x+1/2, y'
+'z+1/2, x+1/2, -y'
+'z+1/2, -x+1/2, y'
+'-y+1/2, -z+1/2, -x'
+'y+1/2, -z+1/2, x'
+'-y+1/2, z+1/2, x'
+'y+1/2, z+1/2, -x'
+'-y+1/2, -x+1/2, z'
+'y+1/2, x+1/2, z'
+'-y+1/2, x+1/2, -z'
+'y+1/2, -x+1/2, -z'
+'-x+1/2, -z+1/2, y'
+'x+1/2, -z+1/2, -y'
+'x+1/2, z+1/2, y'
+'-x+1/2, z+1/2, -y'
+'-z+1/2, -y+1/2, x'
+'-z+1/2, y+1/2, -x'
+'z+1/2, -y+1/2, -x'
+'z+1/2, y+1/2, x'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+Pt Pt 0 0 0 0.0049(3) Uani 1 48 d S
+In In 0.26057(7) 0 0 0.0067(2) Uani 1 8 d S
+Ge Ge 0.25 0.25 0.25 0.0051(3) Uani 1 24 d S
+O1 O 0.3506(3) 0.1494(3) 0.1494(3) 0.0078(10) Uani 1 6 d S
+O2 O 0.5 0 0 0.011(3) Uani 1 48 d S
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Pt 0.0049(3) 0.0049(3) 0.0049(3) 0 0 0
+In 0.0055(3) 0.0073(3) 0.0073(3) 0 0 0
+Ge 0.0051(3) 0.0051(3) 0.0051(3) 0 0 0
+O1 0.0078(10) 0.0078(10) 0.0078(10) -0.0012(12) 0.0012(12) 0.0012(12)
+O2 0.011(3) 0.011(3) 0.011(3) 0 0 0
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+O O 0.0106 0.006 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ge Ge 0.1547 1.8001 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+In In -0.7276 1.31 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Pt Pt -1.7033 8.3905 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+In Pt In 90 105 101
+In Pt In 90 105 97
+In Pt In 90 101 97
+In Pt In 90 105 .
+In Pt In 90 101 .
+In Pt In 180 97 .
+In Pt In 90 105 5
+In Pt In 180 101 5
+In Pt In 90 97 5
+In Pt In 90 . 5
+In Pt In 180 105 9
+In Pt In 90 101 9
+In Pt In 90 97 9
+In Pt In 90 . 9
+In Pt In 90 5 9
+O1 In O1 133.9(2) . 4
+O1 In O1 81.17(9) . 99
+O1 In O1 81.17(9) 4 99
+O1 In O1 81.17(9) . 98
+O1 In O1 81.17(9) 4 98
+O1 In O1 133.9(2) 99 98
+O1 In O2 66.93(12) . .
+O1 In O2 66.93(12) 4 .
+O1 In O2 66.93(12) 99 .
+O1 In O2 66.93(12) 98 .
+O1 In Pt 113.07(12) . .
+O1 In Pt 113.07(12) 4 .
+O1 In Pt 113.07(12) 99 .
+O1 In Pt 113.07(12) 98 .
+O2 In Pt 180 . .
+O1 Ge O1 109.5 28 51
+O1 Ge O1 109.5 28 74
+O1 Ge O1 109.5 51 74
+O1 Ge O1 109.4710(10) 28 .
+O1 Ge O1 109.5 51 .
+O1 Ge O1 109.5 74 .
+Ge O1 In 121.67(12) . .
+Ge O1 In 121.67(12) . 153
+In O1 In 94.97(16) . 153
+Ge O1 In 121.67(12) . 173
+In O1 In 94.97(16) . 173
+In O1 In 94.97(16) 153 173
+In O2 In 90 153 173
+In O2 In 90 153 .
+In O2 In 90 173 .
+In O2 In 90 153 77_545
+In O2 In 180 173 77_545
+In O2 In 90 . 77_545
+In O2 In 90 153 97_655
+In O2 In 90 173 97_655
+In O2 In 180 . 97_655
+In O2 In 90 77_545 97_655
+In O2 In 180 153 57_554
+In O2 In 90 173 57_554
+In O2 In 90 . 57_554
+In O2 In 90 77_545 57_554
+In O2 In 90 97_655 57_554
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Pt In 2.6213(8) 105
+Pt In 2.6213(8) 101
+Pt In 2.6213(8) 97
+Pt In 2.6213(8) .
+Pt In 2.6213(8) 5
+Pt In 2.6213(8) 9
+In O1 2.311(3) .
+In O1 2.311(3) 4
+In O1 2.311(3) 99
+In O1 2.311(3) 98
+In O2 2.4087(8) .
+Ge O1 1.752(6) 28
+Ge O1 1.752(6) 51
+Ge O1 1.752(6) 74
+Ge O1 1.752(6) .
+O1 In 2.311(3) 153
+O1 In 2.311(3) 173
+O2 In 2.4087(8) 153
+O2 In 2.4087(8) 173
+O2 In 2.4087(8) 77_545
+O2 In 2.4087(8) 97_655
+O2 In 2.4087(8) 57_554

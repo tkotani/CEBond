@@ -1,0 +1,269 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-01-10 18:29:56 +0200 (Tue, 10 Jan 2017) $
+#$Revision: 190344 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/10/36/2103618.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2103618
+loop_
+_publ_author_name
+'Arakcheeva, Alla'
+'Chapuis, Gervais'
+'Grinevitch, Vladimir'
+'Shamray, Vladimir'
+_publ_section_title
+;
+ A novel perovskite-like Ta-bronze KTa~1+<i>z~</i>O~3~: preparation,
+ stoichiometry, conductivity and crystal structure studies
+;
+_journal_issue                   2
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              157
+_journal_page_last               162
+_journal_paper_doi               10.1107/S0108768100018917
+_journal_volume                  57
+_journal_year                    2001
+_chemical_formula_sum            'K0.934 O2.94 Ta'
+_chemical_formula_weight         264.5
+_space_group_IT_number           221
+_symmetry_cell_setting           cubic
+_symmetry_space_group_name_Hall  '-P 4 2 3'
+_symmetry_space_group_name_H-M   'P m -3 m'
+_cell_angle_alpha                90.000(10)
+_cell_angle_beta                 90.000(10)
+_cell_angle_gamma                90.000(10)
+_cell_formula_units_Z            1
+_cell_length_a                   4.0050(4)
+_cell_length_b                   4.0050(4)
+_cell_length_c                   4.0050(4)
+_cell_measurement_pressure       '1 atm'
+_cell_measurement_reflns_used    3320
+_cell_measurement_temperature    295
+_cell_measurement_theta_max      71.04
+_cell_measurement_theta_min      5.08
+_cell_volume                     64.240(11)
+_diffrn_measurement_device       KUMA/Oxford
+_diffrn_measurement_device_type  KM4
+_diffrn_measurement_method       CCD
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     .71073
+_diffrn_reflns_av_R_equivalents  .0252
+_diffrn_reflns_av_sigmaI/netI    .0061
+_diffrn_reflns_limit_h_max       10
+_diffrn_reflns_limit_h_min       -10
+_diffrn_reflns_limit_k_max       10
+_diffrn_reflns_limit_k_min       -9
+_diffrn_reflns_limit_l_max       8
+_diffrn_reflns_limit_l_min       -10
+_diffrn_reflns_number            3320
+_diffrn_reflns_theta_max         71.33
+_diffrn_reflns_theta_min         5.09
+_exptl_absorpt_coefficient_mu    43.966
+_exptl_absorpt_correction_T_max  .770
+_exptl_absorpt_correction_T_min  .290
+_exptl_absorpt_correction_type   'Gaussian integration'
+_exptl_crystal_colour            'Black metallic'
+_exptl_crystal_density_diffrn    6.835
+_exptl_crystal_density_meas      ?
+_exptl_crystal_description       Box
+_exptl_crystal_F_000             113
+_exptl_crystal_size_max          .054
+_exptl_crystal_size_mid          .050
+_exptl_crystal_size_min          .030
+_refine_diff_density_max         .82
+_refine_diff_density_min         -.86
+_refine_ls_extinction_coef       .014922
+_refine_ls_extinction_method     'B-C type 1 Gaussian isotropic'
+_refine_ls_goodness_of_fit_obs   3.05
+_refine_ls_goodness_of_fit_ref   3.05
+_refine_ls_number_parameters     16
+_refine_ls_number_reflns         148
+_refine_ls_R_factor_all          .0094
+_refine_ls_R_factor_gt           .0094
+_refine_ls_shift/su_max          .0139
+_refine_ls_shift/su_mean         .0073
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     w=1/\s^2^(F)
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_ref         .0060
+_reflns_number_observed          148
+_reflns_number_total             148
+_reflns_observed_criterion       3
+_cod_data_source_file            os0066.cif
+_cod_data_source_block           I
+_cod_depositor_comments
+;
+ Moving the _atom_site_adp_type, _atom_site_occupancy and
+ _atom_site_type_symbol data items into the main _atom_site
+ loop.
+
+ Antanas Vaitkus,
+ 2017-01-10
+
+The following automatic conversions were performed:
+
+'_exptl_crystal_density_meas' value 'none' was changed to '?' - the
+value is perceived as not measured.
+
+Automatic conversion script
+Id: cif_fix_values 3008 2015-01-20 13:52:24Z robertas 
+;
+_cod_original_sg_symbol_H-M      'P m-3m'
+_cod_original_formula_sum        'K0.934 O2.94 Ta1'
+_cod_database_code               2103618
+_cod_database_fobs_code          2103618
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -y,x,z
+3 x,-y,-z
+4 z,x,y
+5 -x,-y,z
+6 y,x,-z
+7 -x,z,y
+8 y,-x,z
+9 -x,y,-z
+10 -z,-x,y
+11 -y,-x,-z
+12 x,-z,y
+13 z,-x,-y
+14 x,z,-y
+15 -z,x,-y
+16 -x,-z,-y
+17 z,-y,x
+18 y,z,x
+19 -z,y,x
+20 -y,-z,x
+21 z,y,-x
+22 -y,z,-x
+23 -z,-y,-x
+24 y,-z,-x
+25 -x,-y,-z
+26 y,-x,-z
+27 -x,y,z
+28 -z,-x,-y
+29 x,y,-z
+30 -y,-x,z
+31 x,-z,-y
+32 -y,x,-z
+33 x,-y,z
+34 z,x,-y
+35 y,x,z
+36 -x,z,-y
+37 -z,x,y
+38 -x,-z,y
+39 z,-x,y
+40 x,z,y
+41 -z,y,-x
+42 -y,-z,-x
+43 z,-y,-x
+44 y,z,-x
+45 -z,-y,x
+46 y,-z,x
+47 z,y,x
+48 -y,z,x
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+Ta Ta 0 0 0 .00650(10) 1.0 Uani
+K K .5 .5 .5 .0042(2) .9590(10) Uani
+O O .5150(10) 0 0 .00543(13) .493(8) Uani
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+_atom_site_aniso_type_symbol
+Ta .00650(10) .00650(10) .00650(10) 0 0 0 Ta
+K .004208 .0042(2) .0042(2) 0 0 0 K
+O .0006(2) .0078(2) .0078(2) 0 0 0 O
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+K .201 .249 International_Tables_Vol_C
+Ta -.705 6.523 International_Tables_Vol_C
+O .011 .006 International_Tables_Vol_C
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+Ta O 1_455 1.944
+Ta O . 2.061
+Ta O 25_555 2.061
+Ta O 25_655 1.944
+Ta O 2_545 1.944
+Ta O 2_555 2.061
+Ta O 26_555 2.061
+Ta O 26_565 1.944
+Ta O 17_554 1.944
+Ta O 17_555 2.061
+Ta O 41_555 2.061
+Ta O 41_556 1.944
+K O . 2.8326
+K O 1_556 2.8326
+K O 1_565 2.8326
+K O 1_566 2.8326
+K O 25_655 2.8326
+K O 25_656 2.8326
+K O 25_665 2.8326
+K O 25_666 2.8326
+K O 2_555 2.8326
+K O 2_556 2.8326
+K O 2_655 2.8326
+K O 2_656 2.8326
+K O 26_565 2.8326
+K O 26_566 2.8326
+K O 26_665 2.8326
+K O 26_666 2.8326
+K O 17_555 2.8326
+K O 17_565 2.8326
+K O 17_655 2.8326
+K O 17_665 2.8326
+K O 41_556 2.8326
+K O 41_566 2.8326
+K O 41_656 2.8326
+K O 41_666 2.8326
+O Ta . 2.061
+O Ta 1_655 1.944
+O K 1_544 2.8326
+O K 1_545 2.8326
+O K 1_554 2.8326
+O K . 2.8326
+O O 25_655 .117
+O O 2_545 2.8332
+O O 2_555 2.9147
+O O 2_645 2.7492
+O O 2_655 2.8332
+O O 26_555 2.9147
+O O 26_565 2.8332
+O O 26_655 2.8332
+O O 26_665 2.7492
+O O 17_554 2.8332
+O O 17_555 2.9147
+O O 17_654 2.7492
+O O 17_655 2.8332
+O O 41_555 2.9147
+O O 41_556 2.8332
+O O 41_655 2.8332
+O O 41_656 2.7492

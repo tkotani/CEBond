@@ -1,0 +1,228 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/01/00/2010087.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2010087
+loop_
+_publ_author_name
+'Bell, A.M.T.'
+'Henderson, C.M.B.'
+_publ_section_title
+;
+ Rietveld refinement of the structures of dry-synthesized
+ <i>M</i>Fe^III^Si~2~O~6~ leucites (<i>M</i> = K, Rb, Cs) by
+ synchrotron X-ray powder diffraction
+;
+_journal_issue                   10
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              1531
+_journal_page_last               1536
+_journal_paper_doi               10.1107/S0108270194004014
+_journal_volume                  50
+_journal_year                    1994
+_chemical_formula_moiety         'Rb Fe Si2 O6'
+_chemical_formula_sum            'Fe O6 Rb Si2'
+_chemical_formula_weight         293.48
+_chemical_name_systematic        ' ?'
+_space_group_IT_number           88
+_symmetry_cell_setting           tetragonal
+_symmetry_space_group_name_Hall  '-I 4ad'
+_symmetry_space_group_name_H-M   'I 41/a :2'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            16
+_cell_length_a                   13.45860(10)
+_cell_length_b                   13.45860(10)
+_cell_length_c                   13.93800(10)
+_cell_measurement_temperature    293
+_cell_volume                     2524.64(3)
+_computing_cell_refinement       'PDPL refcel program'
+_computing_data_collection       'In house software'
+_computing_molecular_graphics    'Molecular Simulations CERIUS software'
+_computing_structure_refinement  'PDPL mprof Rietveld program'
+_diffrn_ambient_temperature      293
+_diffrn_measurement_device
+'high resolution powder diffractometer, SRS station 8.3'
+_diffrn_radiation_monochromator  'germanium 1 1 1'
+_diffrn_radiation_source         'Daresbury SRS bending magnet'
+_diffrn_radiation_type           synchrotron
+_diffrn_radiation_wavelength     1.80067
+_exptl_crystal_description       'powder sample'
+_refine_ls_goodness_of_fit_obs   2.898
+_refine_ls_number_constraints    0
+_refine_ls_number_parameters     43
+_refine_ls_number_reflns         626
+_refine_ls_R_factor_obs          0.089
+_refine_ls_weighting_scheme
+;The raw synchrotron powder diffraction data were normalized to
+account for the decay of the synchrotron radiation beam. Weighting scheme
+used: weight = normalisation factor/(profile intensity + background)
+;
+_refine_ls_wR_factor_obs         0.174
+_cod_data_source_file            br1077.cif
+_cod_data_source_block           2
+_cod_original_cell_volume        2524.63(5)
+_cod_original_sg_symbol_H-M      ' I 41/a'
+_cod_original_formula_sum        'Rb Fe Si2 O6'
+_cod_database_code               2010087
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,0.5-y,z
+0.75-y,0.25+x,0.25+z
+0.25+y,0.25-x,0.25+z
+-x,-y,-z
+x,0.5+y,-z
+0.25+y,0.75-x,0.75-z
+0.75-y,0.75+x,0.75-z
+0.5+x,0.5+y,0.5+z
+0.5-x,-y,0.5+z
+0.25-y,0.75+x,0.75+z
+0.75+y,0.75-x,0.75+z
+0.5-x,0.5-y,0.5-z
+0.5+x,y,0.5-z
+0.75+y,0.25-x,0.25-z
+0.25-y,0.25+x,0.25-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+Rb 0.3655(2) 0.3632(2) 0.1213(2) 4.51(7) 1.000
+Si1 0.0645(4) 0.3937(4) 0.1629(3) 2.62(9) 0.690(10)
+Si2 0.1685(4) 0.6062(4) 0.1272(4) 2.62(9) 0.640(10)
+Si3 0.3883(4) 0.6473(4) 0.0885(4) 2.62(9) 0.670(10)
+Fe1 0.0645(4) 0.3937(4) 0.1629(3) 2.62(9) 0.310(10)
+Fe2 0.1685(4) 0.6062(4) 0.1272(4) 2.62(9) 0.360(10)
+Fe3 0.3883(4) 0.6473(4) 0.0885(4) 2.62(9) 0.330(10)
+O1 0.1360(10) 0.3122(8) 0.1040(8) 3.00(10) 1.000
+O2 0.0959(9) 0.5032(9) 0.1227(7) 3.00(10) 1.000
+O3 0.1463(9) 0.6690(7) 0.2226(8) 3.00(10) 1.000
+O4 0.1332(9) 0.6734(7) 0.0357(8) 3.00(10) 1.000
+O5 0.2911(9) 0.5590(10) 0.1236(9) 3.00(10) 1.000
+O6 0.4795(9) 0.6110(9) 0.1563(9) 3.00(10) 1.000
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Rb 0 0 International_Tables_Vol_IV_Table_2.3.1
+Fe 0 0 International_Tables_Vol_IV_Table_2.3.1
+Si 0 0 International_Tables_Vol_IV_Table_2.3.1
+O 0 0 International_Tables_Vol_IV_Table_2.3.1
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+O1 Si1 O1 117.3(5) yes
+O1 Si1 O2 106.0(6) yes
+O1 Si1 O4 112.3(6) yes
+O1 Si1 O2 105.4(6) yes
+O1 Si1 O4 102.9(6) yes
+O2 Si1 O4 112.9(6) yes
+O1 Fe1 O1 117.3(5) no
+O1 Fe1 O2 106.0(6) no
+O1 Fe1 O4 112.3(6) no
+O1 Fe1 O2 105.4(6) no
+O1 Fe1 O4 102.9(6) no
+O2 Fe1 O4 112.9(6) no
+O2 Si2 O3 110.7(6) yes
+O2 Si2 O4 104.9(6) yes
+O2 Si2 O5 104.2(5) yes
+O3 Si2 O4 107.5(6) yes
+O3 Si2 O5 112.7(5) yes
+O4 Si2 O5 116.6(5) yes
+O2 Fe2 O3 110.7(6) no
+O2 Fe2 O4 104.9(6) no
+O2 Fe2 O5 104.2(5) no
+O3 Fe2 O4 107.5(6) no
+O3 Fe2 O5 112.7(5) no
+O4 Fe2 O5 116.6(5) no
+O3 Si3 O5 101.3(5) yes
+O3 Si3 O6 104.9(6) yes
+O3 Si3 O6 114.3(6) yes
+O5 Si3 O6 101.0(6) yes
+O5 Si3 O6 117.8(6) yes
+O6 Si3 O6 115.6(7) yes
+O3 Fe3 O5 101.3(5) no
+O3 Fe3 O6 104.9(6) no
+O3 Fe3 O6 114.3(6) no
+O5 Fe3 O6 101.0(6) no
+O5 Fe3 O6 117.8(6) no
+O6 Fe3 O6 115.6(7) no
+Si1 O1 Si1 138.7(8) yes
+Si1 O1 Fe1 138.7(8) no
+Fe1 O1 Si1 138.7(8) no
+Fe1 O1 Fe1 138.7(8) no
+Si1 O2 Si2 150.9(8) yes
+Si1 O2 Fe2 150.9(8) no
+Fe1 O2 Si2 150.9(8) no
+Fe1 O2 Fe2 150.9(8) no
+Si2 O3 Si3 134.2(7) yes
+Si2 O3 Fe3 134.2(7) no
+Fe2 O3 Si3 134.2(7) no
+Fe2 O3 Fe3 134.2(7) no
+Si1 O4 Si2 143.4(7) yes
+Si1 O4 Fe2 143.4(7) no
+Fe1 O4 Si2 143.4(7) no
+Fe1 O4 Fe2 143.4(7) no
+Si2 O5 Si3 116.3(8) yes
+Si2 O5 Fe3 116.3(8) no
+Fe2 O5 Si3 116.3(8) no
+Fe2 O5 Fe3 116.3(8) no
+Si3 O6 Si3 134.2(8) yes
+Si3 O6 Fe3 134.2(8) no
+Fe3 O6 Si3 134.2(8) no
+Fe3 O6 Fe3 134.2(8) no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Si1 O1 . . 1.670(10) yes
+Si1 O1 . . 1.720(10) yes
+Si1 O2 . . 1.630(10) yes
+Si1 O4 . . 1.730(10) yes
+Fe1 O1 . . 1.670(10) no
+Fe1 O1 . . 1.720(10) no
+Fe1 O2 . . 1.630(10) no
+Fe1 O4 . . 1.730(10) no
+Si2 O2 . . 1.700(10) yes
+Si2 O3 . . 1.600(10) yes
+Si2 O4 . . 1.630(10) yes
+Si2 O5 . . 1.770(10) yes
+Fe2 O2 . . 1.700(10) no
+Fe2 O3 . . 1.600(10) no
+Fe2 O4 . . 1.630(10) no
+Fe2 O5 . . 1.770(10) no
+Si3 O3 . . 1.770(10) yes
+Si3 O5 . . 1.830(10) yes
+Si3 O6 . . 1.620(10) yes
+Si3 O6 . . 1.700(10) yes
+Fe3 O3 . . 1.770(10) no
+Fe3 O5 . . 1.830(10) no
+Fe3 O6 . . 1.620(10) no
+Fe3 O6 . . 1.700(10) no
+Rb O1 . . 3.180(10) yes
+Rb O2 . . 3.200(10) yes
+Rb O3 . . 3.210(10) yes
+Rb O4 . . 3.130(10) yes
+Rb O5 . . 2.820(10) yes
+Rb O6 . . 3.250(10) yes

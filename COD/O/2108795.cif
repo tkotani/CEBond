@@ -1,0 +1,3129 @@
+#------------------------------------------------------------------------------
+#$Date: 2021-03-27 07:57:33 +0200 (Sat, 27 Mar 2021) $
+#$Revision: 263389 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/10/87/2108795.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2108795
+loop_
+_publ_author_name
+'Aksenov, Sergey M.'
+'Ryanskaya, Anastasia D.'
+'Shchapova, Yuliya V.'
+'Chukanov, Nikita V.'
+'Vladykin, Nikolay V.'
+'Votyakov, Sergey L.'
+'Rastsvetaeva, Ramiza K.'
+_publ_section_title
+;
+ Crystal chemistry of lamprophyllite-group minerals from the Murun
+ alkaline complex (Russia) and pegmatites of Rocky Boy and Gordon Butte
+ (USA): single crystal X-ray diffraction and Raman spectroscopy study
+;
+_journal_coeditor_code           RA5083SUP1
+_journal_issue                   2
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first
+;
+;
+_journal_paper_doi               10.1107/S2052520621000354
+_journal_volume                  77
+_journal_year                    2021
+_chemical_formula_sum
+'Ba0.08 Ca0.16 Fe0.38 K0.36 Mg0.1 Mn0.18 Na2.77 O18 Si4 Sr1.45 Ti2.52'
+_chemical_formula_weight         776.7
+_space_group_IT_number           12
+_space_group_name_Hall           '-C 2y'
+_space_group_name_H-M_alt        'C 1 2/m 1'
+_symmetry_cell_setting           monoclinic
+_symmetry_Int_Tables_number      12
+_symmetry_space_group_name_Hall  '-C 2y'
+_symmetry_space_group_name_H-M   'C 1 2/m 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 96.739(11)
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   19.405(2)
+_cell_length_b                   7.0885(9)
+_cell_length_c                   5.3988(6)
+_cell_measurement_reflns_used    2681
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      30.92
+_cell_measurement_theta_min      3.8
+_cell_volume                     737.49(15)
+_diffrn_ambient_temperature      293
+_diffrn_detector                 'CCD plate'
+_diffrn_measured_fraction_theta_full 0.98
+_diffrn_measured_fraction_theta_max 0.87
+_diffrn_measurement_device       'four-circle diffractometer'
+_diffrn_measurement_device_type  'Xcalibur, Sapphire3'
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_source         'X-ray tube'
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.71075
+_diffrn_reflns_av_R_equivalents  0.042
+_diffrn_reflns_av_unetI/netI     0.0404
+_diffrn_reflns_limit_h_max       26
+_diffrn_reflns_limit_h_min       -22
+_diffrn_reflns_limit_k_max       9
+_diffrn_reflns_limit_k_min       -5
+_diffrn_reflns_limit_l_max       7
+_diffrn_reflns_limit_l_min       -7
+_diffrn_reflns_number            2681
+_diffrn_reflns_theta_full        29.07
+_diffrn_reflns_theta_max         30.92
+_diffrn_reflns_theta_min         3.8
+_diffrn_source                   'fine-focus sealed X-ray tube'
+_exptl_absorpt_coefficient_mu    7.923
+_exptl_absorpt_correction_T_max  1.00000
+_exptl_absorpt_correction_T_min  0.21228
+_exptl_absorpt_correction_type   multi-scan
+_exptl_crystal_density_diffrn    3.4978
+_exptl_crystal_description       grain
+_exptl_crystal_F_000             742
+_refine_diff_density_max         0.95
+_refine_diff_density_min         -0.98
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_gt    1.50
+_refine_ls_goodness_of_fit_ref   1.46
+_refine_ls_number_constraints    36
+_refine_ls_number_parameters     81
+_refine_ls_number_reflns         993
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          0.0560
+_refine_ls_R_factor_gt           0.0509
+_refine_ls_shift/su_max          0.0342
+_refine_ls_shift/su_mean         0.0142
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     w=1/(\s^2^(F)+0.0004F^2^)
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_gt          0.0550
+_refine_ls_wR_factor_ref         0.0565
+_reflns_number_gt                905
+_reflns_number_total             993
+_reflns_threshold_expression     I>2\s(I)
+_cod_data_source_file            ra5083sup1.cif
+_cod_data_source_block           184-11
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+data item '_diffrn_radiation_probe' value 'X-ray' was changed to
+'x-ray' in accordance with the
+/home/data/users/saulius/crontab/automatic-downloads/rss-feeds/IUCr/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 last updated on
+2011-04-26.
+
+Automatic conversion script
+Id: cif_fix_values 7556 2019-12-06 15:28:31Z antanas 
+;
+_cod_original_cell_volume        737.48(16)
+_cod_database_code               2108795
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 -x,y,-z
+3 -x,-y,-z
+4 x,-y,z
+5 x+1/2,y+1/2,z
+6 -x+1/2,y+1/2,-z
+7 -x+1/2,-y+1/2,-z
+8 x+1/2,-y+1/2,z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_adp_type
+_atom_site_U_iso_or_equiv
+_atom_site_site_symmetry_multiplicity
+_atom_site_occupancy
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Sr_a Sr 0.28405(4) 0 0.26218(12) Uani 0.0141(2) 4 0.725 d . . .
+Ti_l Ti 0.34997(6) 0.5 0.29275(17) Uani 0.0064(3) 4 1 d . . .
+Na_m1 Na 0.5 0.5 0 Uani 0.0167(12) 2 1 d . . .
+Na_m2 Na 0 0.2606(3) 0.5 Uani 0.0074(6) 4 0.83 d . . .
+Ti_m3 Ti 0 0.5 0 Uani 0.0274(6) 2 0.52 d . . .
+Si Si 0.35724(6) 0.78436(17) 0.79587(19) Uani 0.0067(3) 8 1 d . . .
+O1 O 0.32595(19) 0.6888(5) 0.5341(5) Uani 0.0134(9) 8 1 d . . .
+O2 O 0.4371(3) 0.5 0.3317(8) Uani 0.0177(15) 4 1 d . . .
+O3 O 0.32500(17) 0.6873(5) 1.0283(5) Uani 0.0116(9) 8 1 d . . .
+O4 O 0.3240(2) 1 0.7798(7) Uani 0.0082(12) 4 1 d . . .
+O5 O 0.44076(18) 0.7952(5) 0.8281(6) Uani 0.0120(9) 8 1 d . . .
+O_x O -0.0589(3) 0.5 0.2722(9) Uani 0.0201(16) 4 1 d . . .
+K_a K 0.28405(4) 0 0.26218(12) Uani 0.0141(2) 4 0.18 d . . .
+Na_a Na 0.28405(4) 0 0.26218(12) Uani 0.0141(2) 4 0.055 d . . .
+Ba_a Ba 0.28405(4) 0 0.26218(12) Uani 0.0141(2) 4 0.04 d . . .
+Mn_m2 Mn 0 0.2606(3) 0.5 Uani 0.0074(6) 4 0.09 d . . .
+Ca_m2 Ca 0 0.2606(3) 0.5 Uani 0.0074(6) 4 0.08 d . . .
+Fe_m3 Fe 0 0.5 0 Uani 0.0274(6) 2 0.38 d . . .
+Mg_m3 Mg 0 0.5 0 Uani 0.0274(6) 2 0.1 d . . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_type_symbol
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Sr_a Sr 0.0221(4) 0.0120(4) 0.0082(3) 0 0.0015(3) 0
+Ti_l Ti 0.0111(6) 0.0066(5) 0.0015(5) 0 0.0007(4) 0
+Na_m1 Na 0.019(2) 0.020(2) 0.0122(17) 0 0.0060(15) 0
+Na_m2 Na 0.0142(11) 0.0058(10) 0.0032(8) 0 0.0053(7) 0
+Ti_m3 Ti 0.0332(12) 0.0106(9) 0.0318(10) 0 -0.0236(9) 0
+Si Si 0.0124(6) 0.0058(6) 0.0018(5) 0.0002(4) 0.0001(4) 0.0001(4)
+O1 O 0.0242(19) 0.0079(15) 0.0074(13) 0.0024(13) -0.0010(12) -0.0027(11)
+O2 O 0.010(2) 0.029(3) 0.012(2) 0 -0.0016(18) 0
+O3 O 0.0166(17) 0.0096(15) 0.0090(13) 0.0023(12) 0.0036(12) 0.0047(11)
+O4 O 0.014(2) 0.0011(19) 0.0094(18) 0 0.0004(16) 0
+O5 O 0.0112(16) 0.0141(16) 0.0098(14) 0.0029(13) -0.0029(12) -0.0014(12)
+O_x O 0.023(3) 0.020(3) 0.017(2) 0 0.004(2) 0
+K_a K 0.0221(4) 0.0120(4) 0.0082(3) 0 0.0015(3) 0
+Na_a Na 0.0221(4) 0.0120(4) 0.0082(3) 0 0.0015(3) 0
+Ba_a Ba 0.0221(4) 0.0120(4) 0.0082(3) 0 0.0015(3) 0
+Mn_m2 Mn 0.0142(11) 0.0058(10) 0.0032(8) 0 0.0053(7) 0
+Ca_m2 Ca 0.0142(11) 0.0058(10) 0.0032(8) 0 0.0053(7) 0
+Fe_m3 Fe 0.0332(12) 0.0106(9) 0.0318(10) 0 -0.0236(9) 0
+Mg_m3 Mg 0.0332(12) 0.0106(9) 0.0318(10) 0 -0.0236(9) 0
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Ba -0.3244 2.2819 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+Ca 0.2262 0.3064 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+Fe 0.3463 0.8444 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+K 0.2009 0.2494 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+Mg 0.0486 0.0363 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+Mn 0.3368 0.7283 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+Na 0.0362 0.0249 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+O 0.0106 0.0060 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+Si 0.0817 0.0704 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+Sr -1.5307 3.2498 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+Ti 0.2776 0.4457 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+Ti_l Sr_a Ti_l 1_545 . . 140.56(3) ?
+Ti_l Sr_a Ti_l 1_545 . 6_545 103.680(18) ?
+Ti_l Sr_a Ti_l 1_545 . 6_546 103.30(2) ?
+Ti_l Sr_a Si 1_545 . 1_544 55.89(3) ?
+Ti_l Sr_a Si 1_545 . 1_545 55.73(2) ?
+Ti_l Sr_a Si 1_545 . 6_546 146.23(3) ?
+Ti_l Sr_a Si 1_545 . 7_556 73.20(3) ?
+Ti_l Sr_a Si 1_545 . 4_564 106.66(3) ?
+Ti_l Sr_a Si 1_545 . 4_565 106.17(3) ?
+Ti_l Sr_a K_a 1_545 . . 0 ?
+Ti_l Sr_a K_a 1_545 . 6_545 51.496(17) ?
+Ti_l Sr_a K_a 1_545 . 6_546 51.427(19) ?
+Ti_l Sr_a K_a 1_545 . 6_555 144.92(2) ?
+Ti_l Sr_a K_a 1_545 . 6_556 144.00(2) ?
+Ti_l Sr_a Na_a 1_545 . . 0 ?
+Ti_l Sr_a Ba_a 1_545 . . 0 ?
+Ti_l Sr_a Ti_l . . 6_545 103.680(18) ?
+Ti_l Sr_a Ti_l . . 6_546 103.30(2) ?
+Ti_l Sr_a Si . . 1_544 106.66(3) ?
+Ti_l Sr_a Si . . 1_545 106.17(3) ?
+Ti_l Sr_a Si . . 6_546 73.20(3) ?
+Ti_l Sr_a Si . . 7_556 146.23(3) ?
+Ti_l Sr_a Si . . 4_564 55.89(3) ?
+Ti_l Sr_a Si . . 4_565 55.73(2) ?
+Ti_l Sr_a K_a . . . 0 ?
+Ti_l Sr_a K_a . . 6_545 144.92(2) ?
+Ti_l Sr_a K_a . . 6_546 144.00(2) ?
+Ti_l Sr_a K_a . . 6_555 51.496(17) ?
+Ti_l Sr_a K_a . . 6_556 51.427(19) ?
+Ti_l Sr_a Na_a . . . 0 ?
+Ti_l Sr_a Ba_a . . . 0 ?
+Ti_l Sr_a Ti_l 6_545 . 6_546 92.53(3) ?
+Ti_l Sr_a Si 6_545 . 1_544 73.58(3) ?
+Ti_l Sr_a Si 6_545 . 1_545 149.12(3) ?
+Ti_l Sr_a Si 6_545 . 6_546 56.31(2) ?
+Ti_l Sr_a Si 6_545 . 7_556 56.31(2) ?
+Ti_l Sr_a Si 6_545 . 4_564 73.58(3) ?
+Ti_l Sr_a Si 6_545 . 4_565 149.12(3) ?
+Ti_l Sr_a K_a 6_545 . . 0 ?
+Ti_l Sr_a K_a 6_545 . 6_545 52.184(11) ?
+Ti_l Sr_a K_a 6_545 . 6_546 103.10(2) ?
+Ti_l Sr_a K_a 6_545 . 6_555 52.184(11) ?
+Ti_l Sr_a K_a 6_545 . 6_556 103.10(2) ?
+Ti_l Sr_a Na_a 6_545 . . 0 ?
+Ti_l Sr_a Ba_a 6_545 . . 0 ?
+Ti_l Sr_a Si 6_546 . 1_544 149.17(3) ?
+Ti_l Sr_a Si 6_546 . 1_545 73.15(3) ?
+Ti_l Sr_a Si 6_546 . 6_546 56.19(3) ?
+Ti_l Sr_a Si 6_546 . 7_556 56.19(3) ?
+Ti_l Sr_a Si 6_546 . 4_564 149.17(3) ?
+Ti_l Sr_a Si 6_546 . 4_565 73.15(3) ?
+Ti_l Sr_a K_a 6_546 . . 0 ?
+Ti_l Sr_a K_a 6_546 . 6_545 102.860(19) ?
+Ti_l Sr_a K_a 6_546 . 6_546 51.869(12) ?
+Ti_l Sr_a K_a 6_546 . 6_555 102.860(19) ?
+Ti_l Sr_a K_a 6_546 . 6_556 51.869(12) ?
+Ti_l Sr_a Na_a 6_546 . . 0 ?
+Ti_l Sr_a Ba_a 6_546 . . 0 ?
+Si Sr_a Si 1_544 . 1_545 104.77(3) ?
+Si Sr_a Si 1_544 . 6_546 127.13(3) ?
+Si Sr_a Si 1_544 . 7_556 93.89(3) ?
+Si Sr_a Si 1_544 . 4_564 53.51(3) ?
+Si Sr_a Si 1_544 . 4_565 131.10(4) ?
+Si Sr_a K_a 1_544 . . 0 ?
+Si Sr_a K_a 1_544 . 6_545 46.87(2) ?
+Si Sr_a K_a 1_544 . 6_546 103.68(2) ?
+Si Sr_a K_a 1_544 . 6_555 90.31(3) ?
+Si Sr_a K_a 1_544 . 6_556 157.16(2) ?
+Si Sr_a Na_a 1_544 . . 0 ?
+Si Sr_a Ba_a 1_544 . . 0 ?
+Si Sr_a Si 1_545 . 6_546 126.55(4) ?
+Si Sr_a Si 1_545 . 7_556 93.64(3) ?
+Si Sr_a Si 1_545 . 4_564 131.10(4) ?
+Si Sr_a Si 1_545 . 4_565 53.10(3) ?
+Si Sr_a K_a 1_545 . . 0 ?
+Si Sr_a K_a 1_545 . 6_545 103.50(2) ?
+Si Sr_a K_a 1_545 . 6_546 46.53(2) ?
+Si Sr_a K_a 1_545 . 6_555 156.59(2) ?
+Si Sr_a K_a 1_545 . 6_556 89.56(3) ?
+Si Sr_a Na_a 1_545 . . 0 ?
+Si Sr_a Ba_a 1_545 . . 0 ?
+Si Sr_a Si 6_546 . 7_556 73.03(3) ?
+Si Sr_a Si 6_546 . 4_564 93.89(3) ?
+Si Sr_a Si 6_546 . 4_565 93.64(3) ?
+Si Sr_a K_a 6_546 . . 0 ?
+Si Sr_a K_a 6_546 . 6_545 103.24(3) ?
+Si Sr_a K_a 6_546 . 6_546 102.99(3) ?
+Si Sr_a K_a 6_546 . 6_555 47.02(2) ?
+Si Sr_a K_a 6_546 . 6_556 47.11(2) ?
+Si Sr_a Na_a 6_546 . . 0 ?
+Si Sr_a Ba_a 6_546 . . 0 ?
+Si Sr_a Si 7_556 . 4_564 127.13(3) ?
+Si Sr_a Si 7_556 . 4_565 126.55(4) ?
+Si Sr_a K_a 7_556 . . 0 ?
+Si Sr_a K_a 7_556 . 6_545 47.02(2) ?
+Si Sr_a K_a 7_556 . 6_546 47.11(2) ?
+Si Sr_a K_a 7_556 . 6_555 103.24(3) ?
+Si Sr_a K_a 7_556 . 6_556 102.99(3) ?
+Si Sr_a Na_a 7_556 . . 0 ?
+Si Sr_a Ba_a 7_556 . . 0 ?
+Si Sr_a Si 4_564 . 4_565 104.77(3) ?
+Si Sr_a K_a 4_564 . . 0 ?
+Si Sr_a K_a 4_564 . 6_545 90.31(3) ?
+Si Sr_a K_a 4_564 . 6_546 157.16(2) ?
+Si Sr_a K_a 4_564 . 6_555 46.87(2) ?
+Si Sr_a K_a 4_564 . 6_556 103.68(2) ?
+Si Sr_a Na_a 4_564 . . 0 ?
+Si Sr_a Ba_a 4_564 . . 0 ?
+Si Sr_a K_a 4_565 . . 0 ?
+Si Sr_a K_a 4_565 . 6_545 156.59(2) ?
+Si Sr_a K_a 4_565 . 6_546 89.56(3) ?
+Si Sr_a K_a 4_565 . 6_555 103.50(2) ?
+Si Sr_a K_a 4_565 . 6_556 46.53(2) ?
+Si Sr_a Na_a 4_565 . . 0 ?
+Si Sr_a Ba_a 4_565 . . 0 ?
+K_a Sr_a K_a . . 6_545 0 ?
+K_a Sr_a K_a . . 6_546 0 ?
+K_a Sr_a K_a . . 6_555 0 ?
+K_a Sr_a K_a . . 6_556 0 ?
+K_a Sr_a Na_a . . . 0 ?
+K_a Sr_a Ba_a . . . 0 ?
+K_a Sr_a K_a 6_545 . 6_546 71.070(13) ?
+K_a Sr_a K_a 6_545 . 6_555 99.879(17) ?
+K_a Sr_a K_a 6_545 . 6_556 147.17(2) ?
+K_a Sr_a Na_a 6_545 . . 0 ?
+K_a Sr_a Ba_a 6_545 . . 0 ?
+K_a Sr_a K_a 6_546 . 6_555 147.17(2) ?
+K_a Sr_a K_a 6_546 . 6_556 99.082(18) ?
+K_a Sr_a Na_a 6_546 . . 0 ?
+K_a Sr_a Ba_a 6_546 . . 0 ?
+K_a Sr_a K_a 6_555 . 6_556 71.070(13) ?
+K_a Sr_a Na_a 6_555 . . 0 ?
+K_a Sr_a Ba_a 6_555 . . 0 ?
+K_a Sr_a Na_a 6_556 . . 0 ?
+K_a Sr_a Ba_a 6_556 . . 0 ?
+Na_a Sr_a Ba_a . . . 0 ?
+Sr_a Ti_l Sr_a . . 1_565 140.56(4) ?
+Sr_a Ti_l Sr_a . . 6_555 76.320(18) ?
+Sr_a Ti_l Sr_a . . 6_556 76.70(2) ?
+Sr_a Ti_l Na_m1 . . . 106.19(2) ?
+Sr_a Ti_l Na_m2 . . 5_555 140.57(4) ?
+Sr_a Ti_l Na_m2 . . 7_556 77.52(3) ?
+Sr_a Ti_l O1 . . . 124.43(11) ?
+Sr_a Ti_l O1 . . 4_565 44.02(9) ?
+Sr_a Ti_l O2 . . . 109.72(2) ?
+Sr_a Ti_l O3 . . 1_554 123.35(10) ?
+Sr_a Ti_l O3 . . 4_564 43.92(9) ?
+Sr_a Ti_l K_a . . . 0.0(5) ?
+Sr_a Ti_l K_a . . 1_565 140.56(4) ?
+Sr_a Ti_l K_a . . 6_555 76.320(18) ?
+Sr_a Ti_l K_a . . 6_556 76.70(2) ?
+Sr_a Ti_l Ba_a . . . 0.0(5) ?
+Sr_a Ti_l Ba_a . . 1_565 140.56(4) ?
+Sr_a Ti_l Ba_a . . 6_555 76.320(18) ?
+Sr_a Ti_l Ba_a . . 6_556 76.70(2) ?
+Sr_a Ti_l Ca_m2 . . 5_555 140.57(4) ?
+Sr_a Ti_l Ca_m2 . . 7_556 77.52(3) ?
+Sr_a Ti_l Sr_a 1_565 . 6_555 76.320(18) ?
+Sr_a Ti_l Sr_a 1_565 . 6_556 76.70(2) ?
+Sr_a Ti_l Na_m1 1_565 . . 106.19(2) ?
+Sr_a Ti_l Na_m2 1_565 . 5_555 77.52(3) ?
+Sr_a Ti_l Na_m2 1_565 . 7_556 140.57(4) ?
+Sr_a Ti_l O1 1_565 . . 44.02(9) ?
+Sr_a Ti_l O1 1_565 . 4_565 124.43(11) ?
+Sr_a Ti_l O2 1_565 . . 109.72(2) ?
+Sr_a Ti_l O3 1_565 . 1_554 43.92(9) ?
+Sr_a Ti_l O3 1_565 . 4_564 123.35(10) ?
+Sr_a Ti_l K_a 1_565 . . 140.56(4) ?
+Sr_a Ti_l K_a 1_565 . 1_565 0.0(5) ?
+Sr_a Ti_l K_a 1_565 . 6_555 76.320(18) ?
+Sr_a Ti_l K_a 1_565 . 6_556 76.70(2) ?
+Sr_a Ti_l Ba_a 1_565 . . 140.56(4) ?
+Sr_a Ti_l Ba_a 1_565 . 1_565 0.0(5) ?
+Sr_a Ti_l Ba_a 1_565 . 6_555 76.320(18) ?
+Sr_a Ti_l Ba_a 1_565 . 6_556 76.70(2) ?
+Sr_a Ti_l Ca_m2 1_565 . 5_555 77.52(3) ?
+Sr_a Ti_l Ca_m2 1_565 . 7_556 140.57(4) ?
+Sr_a Ti_l Sr_a 6_555 . 6_556 92.53(3) ?
+Sr_a Ti_l Na_m1 6_555 . . 100.21(3) ?
+Sr_a Ti_l Na_m2 6_555 . 5_555 136.76(3) ?
+Sr_a Ti_l Na_m2 6_555 . 7_556 136.76(3) ?
+Sr_a Ti_l O1 6_555 . . 109.63(10) ?
+Sr_a Ti_l O1 6_555 . 4_565 109.63(10) ?
+Sr_a Ti_l O2 6_555 . . 134.22(16) ?
+Sr_a Ti_l O3 6_555 . 1_554 47.80(9) ?
+Sr_a Ti_l O3 6_555 . 4_564 47.80(9) ?
+Sr_a Ti_l K_a 6_555 . . 76.320(18) ?
+Sr_a Ti_l K_a 6_555 . 1_565 76.320(18) ?
+Sr_a Ti_l K_a 6_555 . 6_555 0.0(5) ?
+Sr_a Ti_l K_a 6_555 . 6_556 92.53(3) ?
+Sr_a Ti_l Ba_a 6_555 . . 76.320(18) ?
+Sr_a Ti_l Ba_a 6_555 . 1_565 76.320(18) ?
+Sr_a Ti_l Ba_a 6_555 . 6_555 0.0(5) ?
+Sr_a Ti_l Ba_a 6_555 . 6_556 92.53(3) ?
+Sr_a Ti_l Ca_m2 6_555 . 5_555 136.76(3) ?
+Sr_a Ti_l Ca_m2 6_555 . 7_556 136.76(3) ?
+Sr_a Ti_l Na_m1 6_556 . . 167.26(3) ?
+Sr_a Ti_l Na_m2 6_556 . 5_555 114.04(3) ?
+Sr_a Ti_l Na_m2 6_556 . 7_556 114.04(3) ?
+Sr_a Ti_l O1 6_556 . . 48.43(10) ?
+Sr_a Ti_l O1 6_556 . 4_565 48.43(10) ?
+Sr_a Ti_l O2 6_556 . . 133.25(16) ?
+Sr_a Ti_l O3 6_556 . 1_554 109.59(11) ?
+Sr_a Ti_l O3 6_556 . 4_564 109.59(11) ?
+Sr_a Ti_l K_a 6_556 . . 76.70(2) ?
+Sr_a Ti_l K_a 6_556 . 1_565 76.70(2) ?
+Sr_a Ti_l K_a 6_556 . 6_555 92.53(3) ?
+Sr_a Ti_l K_a 6_556 . 6_556 0.0(5) ?
+Sr_a Ti_l Ba_a 6_556 . . 76.70(2) ?
+Sr_a Ti_l Ba_a 6_556 . 1_565 76.70(2) ?
+Sr_a Ti_l Ba_a 6_556 . 6_555 92.53(3) ?
+Sr_a Ti_l Ba_a 6_556 . 6_556 0.0(5) ?
+Sr_a Ti_l Ca_m2 6_556 . 5_555 114.04(3) ?
+Sr_a Ti_l Ca_m2 6_556 . 7_556 114.04(3) ?
+Na_m1 Ti_l Na_m2 . . 5_555 55.80(2) ?
+Na_m1 Ti_l Na_m2 . . 7_556 55.80(2) ?
+Na_m1 Ti_l O1 . . . 125.42(11) ?
+Na_m1 Ti_l O1 . . 4_565 125.42(11) ?
+Na_m1 Ti_l O2 . . . 34.01(16) ?
+Na_m1 Ti_l O3 . . 1_554 79.51(10) ?
+Na_m1 Ti_l O3 . . 4_564 79.51(10) ?
+Na_m1 Ti_l K_a . . . 106.19(2) ?
+Na_m1 Ti_l K_a . . 1_565 106.19(2) ?
+Na_m1 Ti_l K_a . . 6_555 100.21(3) ?
+Na_m1 Ti_l K_a . . 6_556 167.26(3) ?
+Na_m1 Ti_l Ba_a . . . 106.19(2) ?
+Na_m1 Ti_l Ba_a . . 1_565 106.19(2) ?
+Na_m1 Ti_l Ba_a . . 6_555 100.21(3) ?
+Na_m1 Ti_l Ba_a . . 6_556 167.26(3) ?
+Na_m1 Ti_l Ca_m2 . . 5_555 55.80(2) ?
+Na_m1 Ti_l Ca_m2 . . 7_556 55.80(2) ?
+Na_m2 Ti_l Na_m2 5_555 . 7_556 63.34(4) ?
+Na_m2 Ti_l O1 5_555 . . 71.51(11) ?
+Na_m2 Ti_l O1 5_555 . 4_565 113.53(10) ?
+Na_m2 Ti_l O2 5_555 . . 34.57(6) ?
+Na_m2 Ti_l O3 5_555 . 1_554 90.03(10) ?
+Na_m2 Ti_l O3 5_555 . 4_564 135.15(11) ?
+Na_m2 Ti_l K_a 5_555 . . 140.57(4) ?
+Na_m2 Ti_l K_a 5_555 . 1_565 77.52(3) ?
+Na_m2 Ti_l K_a 5_555 . 6_555 136.76(3) ?
+Na_m2 Ti_l K_a 5_555 . 6_556 114.04(3) ?
+Na_m2 Ti_l Ba_a 5_555 . . 140.57(4) ?
+Na_m2 Ti_l Ba_a 5_555 . 1_565 77.52(3) ?
+Na_m2 Ti_l Ba_a 5_555 . 6_555 136.76(3) ?
+Na_m2 Ti_l Ba_a 5_555 . 6_556 114.04(3) ?
+Na_m2 Ti_l Ca_m2 5_555 . 5_555 0.0(5) ?
+Na_m2 Ti_l Ca_m2 5_555 . 7_556 63.34(4) ?
+Na_m2 Ti_l O1 7_556 . . 113.53(10) ?
+Na_m2 Ti_l O1 7_556 . 4_565 71.51(11) ?
+Na_m2 Ti_l O2 7_556 . . 34.57(6) ?
+Na_m2 Ti_l O3 7_556 . 1_554 135.15(11) ?
+Na_m2 Ti_l O3 7_556 . 4_564 90.03(10) ?
+Na_m2 Ti_l K_a 7_556 . . 77.52(3) ?
+Na_m2 Ti_l K_a 7_556 . 1_565 140.57(4) ?
+Na_m2 Ti_l K_a 7_556 . 6_555 136.76(3) ?
+Na_m2 Ti_l K_a 7_556 . 6_556 114.04(3) ?
+Na_m2 Ti_l Ba_a 7_556 . . 77.52(3) ?
+Na_m2 Ti_l Ba_a 7_556 . 1_565 140.57(4) ?
+Na_m2 Ti_l Ba_a 7_556 . 6_555 136.76(3) ?
+Na_m2 Ti_l Ba_a 7_556 . 6_556 114.04(3) ?
+Na_m2 Ti_l Ca_m2 7_556 . 5_555 63.34(4) ?
+Na_m2 Ti_l Ca_m2 7_556 . 7_556 0.0(5) ?
+O1 Ti_l O1 . . 4_565 86.05(14) ?
+O1 Ti_l O2 . . . 103.36(16) ?
+O1 Ti_l O3 . . 1_554 87.94(13) ?
+O1 Ti_l O3 . . 4_564 152.20(15) ?
+O1 Ti_l K_a . . . 124.43(11) ?
+O1 Ti_l K_a . . 1_565 44.02(9) ?
+O1 Ti_l K_a . . 6_555 109.63(10) ?
+O1 Ti_l K_a . . 6_556 48.43(10) ?
+O1 Ti_l Ba_a . . . 124.43(11) ?
+O1 Ti_l Ba_a . . 1_565 44.02(9) ?
+O1 Ti_l Ba_a . . 6_555 109.63(10) ?
+O1 Ti_l Ba_a . . 6_556 48.43(10) ?
+O1 Ti_l Ca_m2 . . 5_555 71.51(11) ?
+O1 Ti_l Ca_m2 . . 7_556 113.53(10) ?
+O1 Ti_l O2 4_565 . . 103.36(16) ?
+O1 Ti_l O3 4_565 . 1_554 152.20(15) ?
+O1 Ti_l O3 4_565 . 4_564 87.94(13) ?
+O1 Ti_l K_a 4_565 . . 44.02(9) ?
+O1 Ti_l K_a 4_565 . 1_565 124.43(11) ?
+O1 Ti_l K_a 4_565 . 6_555 109.63(10) ?
+O1 Ti_l K_a 4_565 . 6_556 48.43(10) ?
+O1 Ti_l Ba_a 4_565 . . 44.02(9) ?
+O1 Ti_l Ba_a 4_565 . 1_565 124.43(11) ?
+O1 Ti_l Ba_a 4_565 . 6_555 109.63(10) ?
+O1 Ti_l Ba_a 4_565 . 6_556 48.43(10) ?
+O1 Ti_l Ca_m2 4_565 . 5_555 113.53(10) ?
+O1 Ti_l Ca_m2 4_565 . 7_556 71.51(11) ?
+O2 Ti_l O3 . . 1_554 104.43(16) ?
+O2 Ti_l O3 . . 4_564 104.43(16) ?
+O2 Ti_l K_a . . . 109.72(2) ?
+O2 Ti_l K_a . . 1_565 109.72(2) ?
+O2 Ti_l K_a . . 6_555 134.22(16) ?
+O2 Ti_l K_a . . 6_556 133.25(16) ?
+O2 Ti_l Ba_a . . . 109.72(2) ?
+O2 Ti_l Ba_a . . 1_565 109.72(2) ?
+O2 Ti_l Ba_a . . 6_555 134.22(16) ?
+O2 Ti_l Ba_a . . 6_556 133.25(16) ?
+O2 Ti_l Ca_m2 . . 5_555 34.57(6) ?
+O2 Ti_l Ca_m2 . . 7_556 34.57(6) ?
+O3 Ti_l O3 1_554 . 4_564 84.85(13) ?
+O3 Ti_l K_a 1_554 . . 123.35(10) ?
+O3 Ti_l K_a 1_554 . 1_565 43.92(9) ?
+O3 Ti_l K_a 1_554 . 6_555 47.80(9) ?
+O3 Ti_l K_a 1_554 . 6_556 109.59(11) ?
+O3 Ti_l Ba_a 1_554 . . 123.35(10) ?
+O3 Ti_l Ba_a 1_554 . 1_565 43.92(9) ?
+O3 Ti_l Ba_a 1_554 . 6_555 47.80(9) ?
+O3 Ti_l Ba_a 1_554 . 6_556 109.59(11) ?
+O3 Ti_l Ca_m2 1_554 . 5_555 90.03(10) ?
+O3 Ti_l Ca_m2 1_554 . 7_556 135.15(11) ?
+O3 Ti_l K_a 4_564 . . 43.92(9) ?
+O3 Ti_l K_a 4_564 . 1_565 123.35(10) ?
+O3 Ti_l K_a 4_564 . 6_555 47.80(9) ?
+O3 Ti_l K_a 4_564 . 6_556 109.59(11) ?
+O3 Ti_l Ba_a 4_564 . . 43.92(9) ?
+O3 Ti_l Ba_a 4_564 . 1_565 123.35(10) ?
+O3 Ti_l Ba_a 4_564 . 6_555 47.80(9) ?
+O3 Ti_l Ba_a 4_564 . 6_556 109.59(11) ?
+O3 Ti_l Ca_m2 4_564 . 5_555 135.15(11) ?
+O3 Ti_l Ca_m2 4_564 . 7_556 90.03(10) ?
+K_a Ti_l K_a . . 1_565 140.56(4) ?
+K_a Ti_l K_a . . 6_555 76.320(18) ?
+K_a Ti_l K_a . . 6_556 76.70(2) ?
+K_a Ti_l Ba_a . . . 0.0(5) ?
+K_a Ti_l Ba_a . . 1_565 140.56(4) ?
+K_a Ti_l Ba_a . . 6_555 76.320(18) ?
+K_a Ti_l Ba_a . . 6_556 76.70(2) ?
+K_a Ti_l Ca_m2 . . 5_555 140.57(4) ?
+K_a Ti_l Ca_m2 . . 7_556 77.52(3) ?
+K_a Ti_l K_a 1_565 . 6_555 76.320(18) ?
+K_a Ti_l K_a 1_565 . 6_556 76.70(2) ?
+K_a Ti_l Ba_a 1_565 . . 140.56(4) ?
+K_a Ti_l Ba_a 1_565 . 1_565 0.0(5) ?
+K_a Ti_l Ba_a 1_565 . 6_555 76.320(18) ?
+K_a Ti_l Ba_a 1_565 . 6_556 76.70(2) ?
+K_a Ti_l Ca_m2 1_565 . 5_555 77.52(3) ?
+K_a Ti_l Ca_m2 1_565 . 7_556 140.57(4) ?
+K_a Ti_l K_a 6_555 . 6_556 92.53(3) ?
+K_a Ti_l Ba_a 6_555 . . 76.320(18) ?
+K_a Ti_l Ba_a 6_555 . 1_565 76.320(18) ?
+K_a Ti_l Ba_a 6_555 . 6_555 0.0(5) ?
+K_a Ti_l Ba_a 6_555 . 6_556 92.53(3) ?
+K_a Ti_l Ca_m2 6_555 . 5_555 136.76(3) ?
+K_a Ti_l Ca_m2 6_555 . 7_556 136.76(3) ?
+K_a Ti_l Ba_a 6_556 . . 76.70(2) ?
+K_a Ti_l Ba_a 6_556 . 1_565 76.70(2) ?
+K_a Ti_l Ba_a 6_556 . 6_555 92.53(3) ?
+K_a Ti_l Ba_a 6_556 . 6_556 0.0(5) ?
+K_a Ti_l Ca_m2 6_556 . 5_555 114.04(3) ?
+K_a Ti_l Ca_m2 6_556 . 7_556 114.04(3) ?
+Ba_a Ti_l Ba_a . . 1_565 140.56(4) ?
+Ba_a Ti_l Ba_a . . 6_555 76.320(18) ?
+Ba_a Ti_l Ba_a . . 6_556 76.70(2) ?
+Ba_a Ti_l Ca_m2 . . 5_555 140.57(4) ?
+Ba_a Ti_l Ca_m2 . . 7_556 77.52(3) ?
+Ba_a Ti_l Ba_a 1_565 . 6_555 76.320(18) ?
+Ba_a Ti_l Ba_a 1_565 . 6_556 76.70(2) ?
+Ba_a Ti_l Ca_m2 1_565 . 5_555 77.52(3) ?
+Ba_a Ti_l Ca_m2 1_565 . 7_556 140.57(4) ?
+Ba_a Ti_l Ba_a 6_555 . 6_556 92.53(3) ?
+Ba_a Ti_l Ca_m2 6_555 . 5_555 136.76(3) ?
+Ba_a Ti_l Ca_m2 6_555 . 7_556 136.76(3) ?
+Ba_a Ti_l Ca_m2 6_556 . 5_555 114.04(3) ?
+Ba_a Ti_l Ca_m2 6_556 . 7_556 114.04(3) ?
+Ca_m2 Ti_l Ca_m2 5_555 . 7_556 63.34(4) ?
+Ti_l Na_m1 Ti_l . . 2_655 180.0(5) ?
+Ti_l Na_m1 Na_m2 . . 5_554 117.189(17) ?
+Ti_l Na_m1 Na_m2 . . 5_555 62.811(17) ?
+Ti_l Na_m1 Na_m2 . . 7_555 117.189(17) ?
+Ti_l Na_m1 Na_m2 . . 7_556 62.811(17) ?
+Ti_l Na_m1 Ti_m3 . . 5_545 90 ?
+Ti_l Na_m1 Ti_m3 . . 5_555 90 ?
+Ti_l Na_m1 O2 . . . 24.31(12) ?
+Ti_l Na_m1 O2 . . 2_655 155.69(12) ?
+Ti_l Na_m1 Mn_m2 . . 5_554 117.189(17) ?
+Ti_l Na_m1 Mn_m2 . . 5_555 62.811(17) ?
+Ti_l Na_m1 Mn_m2 . . 7_555 117.189(17) ?
+Ti_l Na_m1 Mn_m2 . . 7_556 62.811(17) ?
+Ti_l Na_m1 Ca_m2 . . 5_554 117.189(17) ?
+Ti_l Na_m1 Ca_m2 . . 5_555 62.811(17) ?
+Ti_l Na_m1 Ca_m2 . . 7_555 117.189(17) ?
+Ti_l Na_m1 Ca_m2 . . 7_556 62.811(17) ?
+Ti_l Na_m1 Mg_m3 . . 5_545 90 ?
+Ti_l Na_m1 Mg_m3 . . 5_555 90 ?
+Ti_l Na_m1 Na_m2 2_655 . 5_554 62.811(17) ?
+Ti_l Na_m1 Na_m2 2_655 . 5_555 117.189(17) ?
+Ti_l Na_m1 Na_m2 2_655 . 7_555 62.811(17) ?
+Ti_l Na_m1 Na_m2 2_655 . 7_556 117.189(17) ?
+Ti_l Na_m1 Ti_m3 2_655 . 5_545 90 ?
+Ti_l Na_m1 Ti_m3 2_655 . 5_555 90 ?
+Ti_l Na_m1 O2 2_655 . . 155.69(12) ?
+Ti_l Na_m1 O2 2_655 . 2_655 24.31(12) ?
+Ti_l Na_m1 Mn_m2 2_655 . 5_554 62.811(17) ?
+Ti_l Na_m1 Mn_m2 2_655 . 5_555 117.189(17) ?
+Ti_l Na_m1 Mn_m2 2_655 . 7_555 62.811(17) ?
+Ti_l Na_m1 Mn_m2 2_655 . 7_556 117.189(17) ?
+Ti_l Na_m1 Ca_m2 2_655 . 5_554 62.811(17) ?
+Ti_l Na_m1 Ca_m2 2_655 . 5_555 117.189(17) ?
+Ti_l Na_m1 Ca_m2 2_655 . 7_555 62.811(17) ?
+Ti_l Na_m1 Ca_m2 2_655 . 7_556 117.189(17) ?
+Ti_l Na_m1 Mg_m3 2_655 . 5_545 90 ?
+Ti_l Na_m1 Mg_m3 2_655 . 5_555 90 ?
+Na_m2 Na_m1 Na_m2 5_554 . 5_555 111.24(4) ?
+Na_m2 Na_m1 Na_m2 5_554 . 7_555 68.76(4) ?
+Na_m2 Na_m1 Na_m2 5_554 . 7_556 180.0(5) ?
+Na_m2 Na_m1 Ti_m3 5_554 . 5_545 124.38(3) ?
+Na_m2 Na_m1 Ti_m3 5_554 . 5_555 55.62(3) ?
+Na_m2 Na_m1 O2 5_554 . . 134.37(7) ?
+Na_m2 Na_m1 O2 5_554 . 2_655 45.63(7) ?
+Na_m2 Na_m1 Mn_m2 5_554 . 5_554 0.0(5) ?
+Na_m2 Na_m1 Mn_m2 5_554 . 5_555 111.24(4) ?
+Na_m2 Na_m1 Mn_m2 5_554 . 7_555 68.76(4) ?
+Na_m2 Na_m1 Mn_m2 5_554 . 7_556 180.0(5) ?
+Na_m2 Na_m1 Ca_m2 5_554 . 5_554 0.0(5) ?
+Na_m2 Na_m1 Ca_m2 5_554 . 5_555 111.24(4) ?
+Na_m2 Na_m1 Ca_m2 5_554 . 7_555 68.76(4) ?
+Na_m2 Na_m1 Ca_m2 5_554 . 7_556 180.0(5) ?
+Na_m2 Na_m1 Mg_m3 5_554 . 5_545 124.38(3) ?
+Na_m2 Na_m1 Mg_m3 5_554 . 5_555 55.62(3) ?
+Na_m2 Na_m1 Na_m2 5_555 . 7_555 180.0(5) ?
+Na_m2 Na_m1 Na_m2 5_555 . 7_556 68.76(4) ?
+Na_m2 Na_m1 Ti_m3 5_555 . 5_545 124.38(3) ?
+Na_m2 Na_m1 Ti_m3 5_555 . 5_555 55.62(3) ?
+Na_m2 Na_m1 O2 5_555 . . 45.63(7) ?
+Na_m2 Na_m1 O2 5_555 . 2_655 134.37(7) ?
+Na_m2 Na_m1 Mn_m2 5_555 . 5_554 111.24(4) ?
+Na_m2 Na_m1 Mn_m2 5_555 . 5_555 0.0(5) ?
+Na_m2 Na_m1 Mn_m2 5_555 . 7_555 180.0(5) ?
+Na_m2 Na_m1 Mn_m2 5_555 . 7_556 68.76(4) ?
+Na_m2 Na_m1 Ca_m2 5_555 . 5_554 111.24(4) ?
+Na_m2 Na_m1 Ca_m2 5_555 . 5_555 0.0(5) ?
+Na_m2 Na_m1 Ca_m2 5_555 . 7_555 180.0(5) ?
+Na_m2 Na_m1 Ca_m2 5_555 . 7_556 68.76(4) ?
+Na_m2 Na_m1 Mg_m3 5_555 . 5_545 124.38(3) ?
+Na_m2 Na_m1 Mg_m3 5_555 . 5_555 55.62(3) ?
+Na_m2 Na_m1 Na_m2 7_555 . 7_556 111.24(4) ?
+Na_m2 Na_m1 Ti_m3 7_555 . 5_545 55.62(3) ?
+Na_m2 Na_m1 Ti_m3 7_555 . 5_555 124.38(3) ?
+Na_m2 Na_m1 O2 7_555 . . 134.37(7) ?
+Na_m2 Na_m1 O2 7_555 . 2_655 45.63(7) ?
+Na_m2 Na_m1 Mn_m2 7_555 . 5_554 68.76(4) ?
+Na_m2 Na_m1 Mn_m2 7_555 . 5_555 180.0(5) ?
+Na_m2 Na_m1 Mn_m2 7_555 . 7_555 0.0(5) ?
+Na_m2 Na_m1 Mn_m2 7_555 . 7_556 111.24(4) ?
+Na_m2 Na_m1 Ca_m2 7_555 . 5_554 68.76(4) ?
+Na_m2 Na_m1 Ca_m2 7_555 . 5_555 180.0(5) ?
+Na_m2 Na_m1 Ca_m2 7_555 . 7_555 0.0(5) ?
+Na_m2 Na_m1 Ca_m2 7_555 . 7_556 111.24(4) ?
+Na_m2 Na_m1 Mg_m3 7_555 . 5_545 55.62(3) ?
+Na_m2 Na_m1 Mg_m3 7_555 . 5_555 124.38(3) ?
+Na_m2 Na_m1 Ti_m3 7_556 . 5_545 55.62(3) ?
+Na_m2 Na_m1 Ti_m3 7_556 . 5_555 124.38(3) ?
+Na_m2 Na_m1 O2 7_556 . . 45.63(7) ?
+Na_m2 Na_m1 O2 7_556 . 2_655 134.37(7) ?
+Na_m2 Na_m1 Mn_m2 7_556 . 5_554 180.0(5) ?
+Na_m2 Na_m1 Mn_m2 7_556 . 5_555 68.76(4) ?
+Na_m2 Na_m1 Mn_m2 7_556 . 7_555 111.24(4) ?
+Na_m2 Na_m1 Mn_m2 7_556 . 7_556 0.0(5) ?
+Na_m2 Na_m1 Ca_m2 7_556 . 5_554 180.0(5) ?
+Na_m2 Na_m1 Ca_m2 7_556 . 5_555 68.76(4) ?
+Na_m2 Na_m1 Ca_m2 7_556 . 7_555 111.24(4) ?
+Na_m2 Na_m1 Ca_m2 7_556 . 7_556 0.0(5) ?
+Na_m2 Na_m1 Mg_m3 7_556 . 5_545 55.62(3) ?
+Na_m2 Na_m1 Mg_m3 7_556 . 5_555 124.38(3) ?
+Ti_m3 Na_m1 Ti_m3 5_545 . 5_555 180.0(5) ?
+Ti_m3 Na_m1 O2 5_545 . . 90 ?
+Ti_m3 Na_m1 O2 5_545 . 2_655 90 ?
+Ti_m3 Na_m1 Mn_m2 5_545 . 5_554 124.38(3) ?
+Ti_m3 Na_m1 Mn_m2 5_545 . 5_555 124.38(3) ?
+Ti_m3 Na_m1 Mn_m2 5_545 . 7_555 55.62(3) ?
+Ti_m3 Na_m1 Mn_m2 5_545 . 7_556 55.62(3) ?
+Ti_m3 Na_m1 Ca_m2 5_545 . 5_554 124.38(3) ?
+Ti_m3 Na_m1 Ca_m2 5_545 . 5_555 124.38(3) ?
+Ti_m3 Na_m1 Ca_m2 5_545 . 7_555 55.62(3) ?
+Ti_m3 Na_m1 Ca_m2 5_545 . 7_556 55.62(3) ?
+Ti_m3 Na_m1 Mg_m3 5_545 . 5_545 0.0(5) ?
+Ti_m3 Na_m1 Mg_m3 5_545 . 5_555 180.0(5) ?
+Ti_m3 Na_m1 O2 5_555 . . 90 ?
+Ti_m3 Na_m1 O2 5_555 . 2_655 90 ?
+Ti_m3 Na_m1 Mn_m2 5_555 . 5_554 55.62(3) ?
+Ti_m3 Na_m1 Mn_m2 5_555 . 5_555 55.62(3) ?
+Ti_m3 Na_m1 Mn_m2 5_555 . 7_555 124.38(3) ?
+Ti_m3 Na_m1 Mn_m2 5_555 . 7_556 124.38(3) ?
+Ti_m3 Na_m1 Ca_m2 5_555 . 5_554 55.62(3) ?
+Ti_m3 Na_m1 Ca_m2 5_555 . 5_555 55.62(3) ?
+Ti_m3 Na_m1 Ca_m2 5_555 . 7_555 124.38(3) ?
+Ti_m3 Na_m1 Ca_m2 5_555 . 7_556 124.38(3) ?
+Ti_m3 Na_m1 Mg_m3 5_555 . 5_545 180.0(5) ?
+Ti_m3 Na_m1 Mg_m3 5_555 . 5_555 0.0(5) ?
+O2 Na_m1 O2 . . 2_655 180.0(5) ?
+O2 Na_m1 Mn_m2 . . 5_554 134.37(7) ?
+O2 Na_m1 Mn_m2 . . 5_555 45.63(7) ?
+O2 Na_m1 Mn_m2 . . 7_555 134.37(7) ?
+O2 Na_m1 Mn_m2 . . 7_556 45.63(7) ?
+O2 Na_m1 Ca_m2 . . 5_554 134.37(7) ?
+O2 Na_m1 Ca_m2 . . 5_555 45.63(7) ?
+O2 Na_m1 Ca_m2 . . 7_555 134.37(7) ?
+O2 Na_m1 Ca_m2 . . 7_556 45.63(7) ?
+O2 Na_m1 Mg_m3 . . 5_545 90 ?
+O2 Na_m1 Mg_m3 . . 5_555 90 ?
+O2 Na_m1 Mn_m2 2_655 . 5_554 45.63(7) ?
+O2 Na_m1 Mn_m2 2_655 . 5_555 134.37(7) ?
+O2 Na_m1 Mn_m2 2_655 . 7_555 45.63(7) ?
+O2 Na_m1 Mn_m2 2_655 . 7_556 134.37(7) ?
+O2 Na_m1 Ca_m2 2_655 . 5_554 45.63(7) ?
+O2 Na_m1 Ca_m2 2_655 . 5_555 134.37(7) ?
+O2 Na_m1 Ca_m2 2_655 . 7_555 45.63(7) ?
+O2 Na_m1 Ca_m2 2_655 . 7_556 134.37(7) ?
+O2 Na_m1 Mg_m3 2_655 . 5_545 90 ?
+O2 Na_m1 Mg_m3 2_655 . 5_555 90 ?
+Mn_m2 Na_m1 Mn_m2 5_554 . 5_555 111.24(4) ?
+Mn_m2 Na_m1 Mn_m2 5_554 . 7_555 68.76(4) ?
+Mn_m2 Na_m1 Mn_m2 5_554 . 7_556 180.0(5) ?
+Mn_m2 Na_m1 Ca_m2 5_554 . 5_554 0.0(5) ?
+Mn_m2 Na_m1 Ca_m2 5_554 . 5_555 111.24(4) ?
+Mn_m2 Na_m1 Ca_m2 5_554 . 7_555 68.76(4) ?
+Mn_m2 Na_m1 Ca_m2 5_554 . 7_556 180.0(5) ?
+Mn_m2 Na_m1 Mg_m3 5_554 . 5_545 124.38(3) ?
+Mn_m2 Na_m1 Mg_m3 5_554 . 5_555 55.62(3) ?
+Mn_m2 Na_m1 Mn_m2 5_555 . 7_555 180.0(5) ?
+Mn_m2 Na_m1 Mn_m2 5_555 . 7_556 68.76(4) ?
+Mn_m2 Na_m1 Ca_m2 5_555 . 5_554 111.24(4) ?
+Mn_m2 Na_m1 Ca_m2 5_555 . 5_555 0.0(5) ?
+Mn_m2 Na_m1 Ca_m2 5_555 . 7_555 180.0(5) ?
+Mn_m2 Na_m1 Ca_m2 5_555 . 7_556 68.76(4) ?
+Mn_m2 Na_m1 Mg_m3 5_555 . 5_545 124.38(3) ?
+Mn_m2 Na_m1 Mg_m3 5_555 . 5_555 55.62(3) ?
+Mn_m2 Na_m1 Mn_m2 7_555 . 7_556 111.24(4) ?
+Mn_m2 Na_m1 Ca_m2 7_555 . 5_554 68.76(4) ?
+Mn_m2 Na_m1 Ca_m2 7_555 . 5_555 180.0(5) ?
+Mn_m2 Na_m1 Ca_m2 7_555 . 7_555 0.0(5) ?
+Mn_m2 Na_m1 Ca_m2 7_555 . 7_556 111.24(4) ?
+Mn_m2 Na_m1 Mg_m3 7_555 . 5_545 55.62(3) ?
+Mn_m2 Na_m1 Mg_m3 7_555 . 5_555 124.38(3) ?
+Mn_m2 Na_m1 Ca_m2 7_556 . 5_554 180.0(5) ?
+Mn_m2 Na_m1 Ca_m2 7_556 . 5_555 68.76(4) ?
+Mn_m2 Na_m1 Ca_m2 7_556 . 7_555 111.24(4) ?
+Mn_m2 Na_m1 Ca_m2 7_556 . 7_556 0.0(5) ?
+Mn_m2 Na_m1 Mg_m3 7_556 . 5_545 55.62(3) ?
+Mn_m2 Na_m1 Mg_m3 7_556 . 5_555 124.38(3) ?
+Ca_m2 Na_m1 Ca_m2 5_554 . 5_555 111.24(4) ?
+Ca_m2 Na_m1 Ca_m2 5_554 . 7_555 68.76(4) ?
+Ca_m2 Na_m1 Ca_m2 5_554 . 7_556 180.0(5) ?
+Ca_m2 Na_m1 Mg_m3 5_554 . 5_545 124.38(3) ?
+Ca_m2 Na_m1 Mg_m3 5_554 . 5_555 55.62(3) ?
+Ca_m2 Na_m1 Ca_m2 5_555 . 7_555 180.0(5) ?
+Ca_m2 Na_m1 Ca_m2 5_555 . 7_556 68.76(4) ?
+Ca_m2 Na_m1 Mg_m3 5_555 . 5_545 124.38(3) ?
+Ca_m2 Na_m1 Mg_m3 5_555 . 5_555 55.62(3) ?
+Ca_m2 Na_m1 Ca_m2 7_555 . 7_556 111.24(4) ?
+Ca_m2 Na_m1 Mg_m3 7_555 . 5_545 55.62(3) ?
+Ca_m2 Na_m1 Mg_m3 7_555 . 5_555 124.38(3) ?
+Ca_m2 Na_m1 Mg_m3 7_556 . 5_545 55.62(3) ?
+Ca_m2 Na_m1 Mg_m3 7_556 . 5_555 124.38(3) ?
+Mg_m3 Na_m1 Mg_m3 5_545 . 5_555 180.0(5) ?
+Ti_l Na_m2 Ti_l 5_445 . 6_546 116.66(5) ?
+Ti_l Na_m2 Na_m1 5_445 . 5_445 61.39(3) ?
+Ti_l Na_m2 Na_m1 5_445 . 5_446 83.45(3) ?
+Ti_l Na_m2 Na_m2 5_445 . 3_556 58.33(3) ?
+Ti_l Na_m2 Na_m2 5_445 . 3_566 121.67(3) ?
+Ti_l Na_m2 Ti_m3 5_445 . . 95.303(16) ?
+Ti_l Na_m2 Ti_m3 5_445 . 1_556 117.809(18) ?
+Ti_l Na_m2 O2 5_445 . 5_445 24.06(11) ?
+Ti_l Na_m2 O2 5_445 . 6_546 94.80(11) ?
+Ti_l Na_m2 O5 5_445 . 5_445 80.01(9) ?
+Ti_l Na_m2 O5 5_445 . 6_546 106.80(9) ?
+Ti_l Na_m2 O_x 5_445 . . 82.97(11) ?
+Ti_l Na_m2 O_x 5_445 . 2_556 153.07(14) ?
+Ti_l Na_m2 Mn_m2 5_445 . . 0 ?
+Ti_l Na_m2 Mn_m2 5_445 . 3_566 121.67(3) ?
+Ti_l Na_m2 Ca_m2 5_445 . . 0 ?
+Ti_l Na_m2 Ca_m2 5_445 . 3_556 58.33(3) ?
+Ti_l Na_m2 Ca_m2 5_445 . 3_566 121.67(3) ?
+Ti_l Na_m2 Fe_m3 5_445 . . 95.303(16) ?
+Ti_l Na_m2 Fe_m3 5_445 . 1_556 117.809(18) ?
+Ti_l Na_m2 Mg_m3 5_445 . . 95.303(16) ?
+Ti_l Na_m2 Mg_m3 5_445 . 1_556 117.809(18) ?
+Ti_l Na_m2 Na_m1 6_546 . 5_445 83.45(3) ?
+Ti_l Na_m2 Na_m1 6_546 . 5_446 61.39(3) ?
+Ti_l Na_m2 Na_m2 6_546 . 3_556 58.33(3) ?
+Ti_l Na_m2 Na_m2 6_546 . 3_566 121.67(3) ?
+Ti_l Na_m2 Ti_m3 6_546 . . 117.809(18) ?
+Ti_l Na_m2 Ti_m3 6_546 . 1_556 95.303(16) ?
+Ti_l Na_m2 O2 6_546 . 5_445 94.80(11) ?
+Ti_l Na_m2 O2 6_546 . 6_546 24.06(11) ?
+Ti_l Na_m2 O5 6_546 . 5_445 106.80(9) ?
+Ti_l Na_m2 O5 6_546 . 6_546 80.01(9) ?
+Ti_l Na_m2 O_x 6_546 . . 153.07(14) ?
+Ti_l Na_m2 O_x 6_546 . 2_556 82.97(11) ?
+Ti_l Na_m2 Mn_m2 6_546 . . 0 ?
+Ti_l Na_m2 Mn_m2 6_546 . 3_566 121.67(3) ?
+Ti_l Na_m2 Ca_m2 6_546 . . 0 ?
+Ti_l Na_m2 Ca_m2 6_546 . 3_556 58.33(3) ?
+Ti_l Na_m2 Ca_m2 6_546 . 3_566 121.67(3) ?
+Ti_l Na_m2 Fe_m3 6_546 . . 117.809(18) ?
+Ti_l Na_m2 Fe_m3 6_546 . 1_556 95.303(16) ?
+Ti_l Na_m2 Mg_m3 6_546 . . 117.809(18) ?
+Ti_l Na_m2 Mg_m3 6_546 . 1_556 95.303(16) ?
+Na_m1 Na_m2 Na_m1 5_445 . 5_446 111.24(5) ?
+Na_m1 Na_m2 Na_m2 5_445 . 3_556 55.62(3) ?
+Na_m1 Na_m2 Na_m2 5_445 . 3_566 124.38(3) ?
+Na_m1 Na_m2 Ti_m3 5_445 . . 66.541(9) ?
+Na_m1 Na_m2 Ti_m3 5_445 . 1_556 177.78(5) ?
+Na_m1 Na_m2 O2 5_445 . 5_445 44.25(12) ?
+Na_m1 Na_m2 O2 5_445 . 6_546 79.87(11) ?
+Na_m1 Na_m2 O5 5_445 . 5_445 139.99(10) ?
+Na_m1 Na_m2 O5 5_445 . 6_546 50.08(8) ?
+Na_m1 Na_m2 O_x 5_445 . . 91.34(10) ?
+Na_m1 Na_m2 O_x 5_445 . 2_556 143.51(14) ?
+Na_m1 Na_m2 Mn_m2 5_445 . . 0 ?
+Na_m1 Na_m2 Mn_m2 5_445 . 3_566 124.38(3) ?
+Na_m1 Na_m2 Ca_m2 5_445 . . 0 ?
+Na_m1 Na_m2 Ca_m2 5_445 . 3_556 55.62(3) ?
+Na_m1 Na_m2 Ca_m2 5_445 . 3_566 124.38(3) ?
+Na_m1 Na_m2 Fe_m3 5_445 . . 66.541(9) ?
+Na_m1 Na_m2 Fe_m3 5_445 . 1_556 177.78(5) ?
+Na_m1 Na_m2 Mg_m3 5_445 . . 66.541(9) ?
+Na_m1 Na_m2 Mg_m3 5_445 . 1_556 177.78(5) ?
+Na_m1 Na_m2 Na_m2 5_446 . 3_556 55.62(3) ?
+Na_m1 Na_m2 Na_m2 5_446 . 3_566 124.38(3) ?
+Na_m1 Na_m2 Ti_m3 5_446 . . 177.78(5) ?
+Na_m1 Na_m2 Ti_m3 5_446 . 1_556 66.541(9) ?
+Na_m1 Na_m2 O2 5_446 . 5_445 79.87(11) ?
+Na_m1 Na_m2 O2 5_446 . 6_546 44.25(12) ?
+Na_m1 Na_m2 O5 5_446 . 5_445 50.08(8) ?
+Na_m1 Na_m2 O5 5_446 . 6_546 139.99(10) ?
+Na_m1 Na_m2 O_x 5_446 . . 143.51(14) ?
+Na_m1 Na_m2 O_x 5_446 . 2_556 91.34(10) ?
+Na_m1 Na_m2 Mn_m2 5_446 . . 0 ?
+Na_m1 Na_m2 Mn_m2 5_446 . 3_566 124.38(3) ?
+Na_m1 Na_m2 Ca_m2 5_446 . . 0 ?
+Na_m1 Na_m2 Ca_m2 5_446 . 3_556 55.62(3) ?
+Na_m1 Na_m2 Ca_m2 5_446 . 3_566 124.38(3) ?
+Na_m1 Na_m2 Fe_m3 5_446 . . 177.78(5) ?
+Na_m1 Na_m2 Fe_m3 5_446 . 1_556 66.541(9) ?
+Na_m1 Na_m2 Mg_m3 5_446 . . 177.78(5) ?
+Na_m1 Na_m2 Mg_m3 5_446 . 1_556 66.541(9) ?
+Na_m2 Na_m2 Na_m2 3_556 . 3_566 180.0(5) ?
+Na_m2 Na_m2 Ti_m3 3_556 . . 122.16(3) ?
+Na_m2 Na_m2 Ti_m3 3_556 . 1_556 122.16(3) ?
+Na_m2 Na_m2 O2 3_556 . 5_445 37.81(9) ?
+Na_m2 Na_m2 O2 3_556 . 6_546 37.81(9) ?
+Na_m2 Na_m2 O5 3_556 . 5_445 96.31(10) ?
+Na_m2 Na_m2 O5 3_556 . 6_546 96.31(10) ?
+Na_m2 Na_m2 O_x 3_556 . . 137.10(9) ?
+Na_m2 Na_m2 O_x 3_556 . 2_556 137.10(9) ?
+Na_m2 Na_m2 Mn_m2 3_556 . . 0 ?
+Na_m2 Na_m2 Mn_m2 3_556 . 3_566 180.0(5) ?
+Na_m2 Na_m2 Ca_m2 3_556 . . 0 ?
+Na_m2 Na_m2 Ca_m2 3_556 . 3_556 0.0(5) ?
+Na_m2 Na_m2 Ca_m2 3_556 . 3_566 180.0(5) ?
+Na_m2 Na_m2 Fe_m3 3_556 . . 122.16(3) ?
+Na_m2 Na_m2 Fe_m3 3_556 . 1_556 122.16(3) ?
+Na_m2 Na_m2 Mg_m3 3_556 . . 122.16(3) ?
+Na_m2 Na_m2 Mg_m3 3_556 . 1_556 122.16(3) ?
+Na_m2 Na_m2 Ti_m3 3_566 . . 57.84(3) ?
+Na_m2 Na_m2 Ti_m3 3_566 . 1_556 57.84(3) ?
+Na_m2 Na_m2 O2 3_566 . 5_445 142.19(9) ?
+Na_m2 Na_m2 O2 3_566 . 6_546 142.19(9) ?
+Na_m2 Na_m2 O5 3_566 . 5_445 83.69(10) ?
+Na_m2 Na_m2 O5 3_566 . 6_546 83.69(10) ?
+Na_m2 Na_m2 O_x 3_566 . . 42.90(9) ?
+Na_m2 Na_m2 O_x 3_566 . 2_556 42.90(9) ?
+Na_m2 Na_m2 Mn_m2 3_566 . . 0 ?
+Na_m2 Na_m2 Mn_m2 3_566 . 3_566 0.0(5) ?
+Na_m2 Na_m2 Ca_m2 3_566 . . 0 ?
+Na_m2 Na_m2 Ca_m2 3_566 . 3_556 180.0(5) ?
+Na_m2 Na_m2 Ca_m2 3_566 . 3_566 0.0(5) ?
+Na_m2 Na_m2 Fe_m3 3_566 . . 57.84(3) ?
+Na_m2 Na_m2 Fe_m3 3_566 . 1_556 57.84(3) ?
+Na_m2 Na_m2 Mg_m3 3_566 . . 57.84(3) ?
+Na_m2 Na_m2 Mg_m3 3_566 . 1_556 57.84(3) ?
+Ti_m3 Na_m2 Ti_m3 . . 1_556 115.68(6) ?
+Ti_m3 Na_m2 O2 . . 5_445 98.24(10) ?
+Ti_m3 Na_m2 O2 . . 6_546 134.25(12) ?
+Ti_m3 Na_m2 O5 . . 5_445 131.56(10) ?
+Ti_m3 Na_m2 O5 . . 6_546 38.70(8) ?
+Ti_m3 Na_m2 O_x . . . 37.79(14) ?
+Ti_m3 Na_m2 O_x . . 2_556 90.60(11) ?
+Ti_m3 Na_m2 Mn_m2 . . . 0 ?
+Ti_m3 Na_m2 Mn_m2 . . 3_566 57.84(3) ?
+Ti_m3 Na_m2 Ca_m2 . . . 0 ?
+Ti_m3 Na_m2 Ca_m2 . . 3_556 122.16(3) ?
+Ti_m3 Na_m2 Ca_m2 . . 3_566 57.84(3) ?
+Ti_m3 Na_m2 Fe_m3 . . . 0.0(5) ?
+Ti_m3 Na_m2 Fe_m3 . . 1_556 115.68(6) ?
+Ti_m3 Na_m2 Mg_m3 . . . 0.0(5) ?
+Ti_m3 Na_m2 Mg_m3 . . 1_556 115.68(6) ?
+Ti_m3 Na_m2 O2 1_556 . 5_445 134.25(12) ?
+Ti_m3 Na_m2 O2 1_556 . 6_546 98.24(10) ?
+Ti_m3 Na_m2 O5 1_556 . 5_445 38.70(8) ?
+Ti_m3 Na_m2 O5 1_556 . 6_546 131.56(10) ?
+Ti_m3 Na_m2 O_x 1_556 . . 90.60(11) ?
+Ti_m3 Na_m2 O_x 1_556 . 2_556 37.79(14) ?
+Ti_m3 Na_m2 Mn_m2 1_556 . . 0 ?
+Ti_m3 Na_m2 Mn_m2 1_556 . 3_566 57.84(3) ?
+Ti_m3 Na_m2 Ca_m2 1_556 . . 0 ?
+Ti_m3 Na_m2 Ca_m2 1_556 . 3_556 122.16(3) ?
+Ti_m3 Na_m2 Ca_m2 1_556 . 3_566 57.84(3) ?
+Ti_m3 Na_m2 Fe_m3 1_556 . . 115.68(6) ?
+Ti_m3 Na_m2 Fe_m3 1_556 . 1_556 0.0(5) ?
+Ti_m3 Na_m2 Mg_m3 1_556 . . 115.68(6) ?
+Ti_m3 Na_m2 Mg_m3 1_556 . 1_556 0.0(5) ?
+O2 Na_m2 O2 5_445 . 6_546 75.63(14) ?
+O2 Na_m2 O5 5_445 . 5_445 95.82(15) ?
+O2 Na_m2 O5 5_445 . 6_546 94.15(15) ?
+O2 Na_m2 O_x 5_445 . . 99.79(13) ?
+O2 Na_m2 O_x 5_445 . 2_556 170.88(16) ?
+O2 Na_m2 Mn_m2 5_445 . . 0 ?
+O2 Na_m2 Mn_m2 5_445 . 3_566 142.19(9) ?
+O2 Na_m2 Ca_m2 5_445 . . 0 ?
+O2 Na_m2 Ca_m2 5_445 . 3_556 37.81(9) ?
+O2 Na_m2 Ca_m2 5_445 . 3_566 142.19(9) ?
+O2 Na_m2 Fe_m3 5_445 . . 98.24(10) ?
+O2 Na_m2 Fe_m3 5_445 . 1_556 134.25(12) ?
+O2 Na_m2 Mg_m3 5_445 . . 98.24(10) ?
+O2 Na_m2 Mg_m3 5_445 . 1_556 134.25(12) ?
+O2 Na_m2 O5 6_546 . 5_445 94.15(15) ?
+O2 Na_m2 O5 6_546 . 6_546 95.82(15) ?
+O2 Na_m2 O_x 6_546 . . 170.88(16) ?
+O2 Na_m2 O_x 6_546 . 2_556 99.79(13) ?
+O2 Na_m2 Mn_m2 6_546 . . 0 ?
+O2 Na_m2 Mn_m2 6_546 . 3_566 142.19(9) ?
+O2 Na_m2 Ca_m2 6_546 . . 0 ?
+O2 Na_m2 Ca_m2 6_546 . 3_556 37.81(9) ?
+O2 Na_m2 Ca_m2 6_546 . 3_566 142.19(9) ?
+O2 Na_m2 Fe_m3 6_546 . . 134.25(12) ?
+O2 Na_m2 Fe_m3 6_546 . 1_556 98.24(10) ?
+O2 Na_m2 Mg_m3 6_546 . . 134.25(12) ?
+O2 Na_m2 Mg_m3 6_546 . 1_556 98.24(10) ?
+O5 Na_m2 O5 5_445 . 6_546 167.37(15) ?
+O5 Na_m2 O_x 5_445 . . 94.17(16) ?
+O5 Na_m2 O_x 5_445 . 2_556 76.48(16) ?
+O5 Na_m2 Mn_m2 5_445 . . 0 ?
+O5 Na_m2 Mn_m2 5_445 . 3_566 83.69(10) ?
+O5 Na_m2 Ca_m2 5_445 . . 0 ?
+O5 Na_m2 Ca_m2 5_445 . 3_556 96.31(10) ?
+O5 Na_m2 Ca_m2 5_445 . 3_566 83.69(10) ?
+O5 Na_m2 Fe_m3 5_445 . . 131.56(10) ?
+O5 Na_m2 Fe_m3 5_445 . 1_556 38.70(8) ?
+O5 Na_m2 Mg_m3 5_445 . . 131.56(10) ?
+O5 Na_m2 Mg_m3 5_445 . 1_556 38.70(8) ?
+O5 Na_m2 O_x 6_546 . . 76.48(16) ?
+O5 Na_m2 O_x 6_546 . 2_556 94.17(16) ?
+O5 Na_m2 Mn_m2 6_546 . . 0 ?
+O5 Na_m2 Mn_m2 6_546 . 3_566 83.69(10) ?
+O5 Na_m2 Ca_m2 6_546 . . 0 ?
+O5 Na_m2 Ca_m2 6_546 . 3_556 96.31(10) ?
+O5 Na_m2 Ca_m2 6_546 . 3_566 83.69(10) ?
+O5 Na_m2 Fe_m3 6_546 . . 38.70(8) ?
+O5 Na_m2 Fe_m3 6_546 . 1_556 131.56(10) ?
+O5 Na_m2 Mg_m3 6_546 . . 38.70(8) ?
+O5 Na_m2 Mg_m3 6_546 . 1_556 131.56(10) ?
+O_x Na_m2 O_x . . 2_556 85.81(14) ?
+O_x Na_m2 Mn_m2 . . . 0 ?
+O_x Na_m2 Mn_m2 . . 3_566 42.90(9) ?
+O_x Na_m2 Ca_m2 . . . 0 ?
+O_x Na_m2 Ca_m2 . . 3_556 137.10(9) ?
+O_x Na_m2 Ca_m2 . . 3_566 42.90(9) ?
+O_x Na_m2 Fe_m3 . . . 37.79(14) ?
+O_x Na_m2 Fe_m3 . . 1_556 90.60(11) ?
+O_x Na_m2 Mg_m3 . . . 37.79(14) ?
+O_x Na_m2 Mg_m3 . . 1_556 90.60(11) ?
+O_x Na_m2 Mn_m2 2_556 . . 0 ?
+O_x Na_m2 Mn_m2 2_556 . 3_566 42.90(9) ?
+O_x Na_m2 Ca_m2 2_556 . . 0 ?
+O_x Na_m2 Ca_m2 2_556 . 3_556 137.10(9) ?
+O_x Na_m2 Ca_m2 2_556 . 3_566 42.90(9) ?
+O_x Na_m2 Fe_m3 2_556 . . 90.60(11) ?
+O_x Na_m2 Fe_m3 2_556 . 1_556 37.79(14) ?
+O_x Na_m2 Mg_m3 2_556 . . 90.60(11) ?
+O_x Na_m2 Mg_m3 2_556 . 1_556 37.79(14) ?
+Mn_m2 Na_m2 Mn_m2 . . 3_566 0 ?
+Mn_m2 Na_m2 Ca_m2 . . . 0 ?
+Mn_m2 Na_m2 Ca_m2 . . 3_556 0 ?
+Mn_m2 Na_m2 Ca_m2 . . 3_566 0 ?
+Mn_m2 Na_m2 Fe_m3 . . . 0 ?
+Mn_m2 Na_m2 Fe_m3 . . 1_556 0 ?
+Mn_m2 Na_m2 Mg_m3 . . . 0 ?
+Mn_m2 Na_m2 Mg_m3 . . 1_556 0 ?
+Mn_m2 Na_m2 Ca_m2 3_566 . . 0 ?
+Mn_m2 Na_m2 Ca_m2 3_566 . 3_556 180.0(5) ?
+Mn_m2 Na_m2 Ca_m2 3_566 . 3_566 0.0(5) ?
+Mn_m2 Na_m2 Fe_m3 3_566 . . 57.84(3) ?
+Mn_m2 Na_m2 Fe_m3 3_566 . 1_556 57.84(3) ?
+Mn_m2 Na_m2 Mg_m3 3_566 . . 57.84(3) ?
+Mn_m2 Na_m2 Mg_m3 3_566 . 1_556 57.84(3) ?
+Ca_m2 Na_m2 Ca_m2 . . 3_556 0 ?
+Ca_m2 Na_m2 Ca_m2 . . 3_566 0 ?
+Ca_m2 Na_m2 Fe_m3 . . . 0 ?
+Ca_m2 Na_m2 Fe_m3 . . 1_556 0 ?
+Ca_m2 Na_m2 Mg_m3 . . . 0 ?
+Ca_m2 Na_m2 Mg_m3 . . 1_556 0 ?
+Ca_m2 Na_m2 Ca_m2 3_556 . 3_566 180.0(5) ?
+Ca_m2 Na_m2 Fe_m3 3_556 . . 122.16(3) ?
+Ca_m2 Na_m2 Fe_m3 3_556 . 1_556 122.16(3) ?
+Ca_m2 Na_m2 Mg_m3 3_556 . . 122.16(3) ?
+Ca_m2 Na_m2 Mg_m3 3_556 . 1_556 122.16(3) ?
+Ca_m2 Na_m2 Fe_m3 3_566 . . 57.84(3) ?
+Ca_m2 Na_m2 Fe_m3 3_566 . 1_556 57.84(3) ?
+Ca_m2 Na_m2 Mg_m3 3_566 . . 57.84(3) ?
+Ca_m2 Na_m2 Mg_m3 3_566 . 1_556 57.84(3) ?
+Fe_m3 Na_m2 Fe_m3 . . 1_556 115.68(6) ?
+Fe_m3 Na_m2 Mg_m3 . . . 0.0(5) ?
+Fe_m3 Na_m2 Mg_m3 . . 1_556 115.68(6) ?
+Fe_m3 Na_m2 Mg_m3 1_556 . . 115.68(6) ?
+Fe_m3 Na_m2 Mg_m3 1_556 . 1_556 0.0(5) ?
+Mg_m3 Na_m2 Mg_m3 . . 1_556 115.68(6) ?
+Na_m1 Ti_m3 Na_m1 5_445 . 5_455 180.0(5) ?
+Na_m1 Ti_m3 Na_m2 5_445 . 1_554 57.84(3) ?
+Na_m1 Ti_m3 Na_m2 5_445 . . 57.84(3) ?
+Na_m1 Ti_m3 Na_m2 5_445 . 3_565 122.16(3) ?
+Na_m1 Ti_m3 Na_m2 5_445 . 3_566 122.16(3) ?
+Na_m1 Ti_m3 O5 5_445 . 5_444 43.76(9) ?
+Na_m1 Ti_m3 O5 5_445 . 6_546 43.76(9) ?
+Na_m1 Ti_m3 O5 5_445 . 7_566 136.24(9) ?
+Na_m1 Ti_m3 O5 5_445 . 8_464 136.24(9) ?
+Na_m1 Ti_m3 O_x 5_445 . . 90 ?
+Na_m1 Ti_m3 O_x 5_445 . 2_555 90 ?
+Na_m1 Ti_m3 Ca_m2 5_445 . 1_554 57.84(3) ?
+Na_m1 Ti_m3 Ca_m2 5_445 . . 57.84(3) ?
+Na_m1 Ti_m3 Ca_m2 5_445 . 3_565 122.16(3) ?
+Na_m1 Ti_m3 Ca_m2 5_445 . 3_566 122.16(3) ?
+Na_m1 Ti_m3 Fe_m3 5_445 . . 0 ?
+Na_m1 Ti_m3 Mg_m3 5_445 . . 0 ?
+Na_m1 Ti_m3 Na_m2 5_455 . 1_554 122.16(3) ?
+Na_m1 Ti_m3 Na_m2 5_455 . . 122.16(3) ?
+Na_m1 Ti_m3 Na_m2 5_455 . 3_565 57.84(3) ?
+Na_m1 Ti_m3 Na_m2 5_455 . 3_566 57.84(3) ?
+Na_m1 Ti_m3 O5 5_455 . 5_444 136.24(9) ?
+Na_m1 Ti_m3 O5 5_455 . 6_546 136.24(9) ?
+Na_m1 Ti_m3 O5 5_455 . 7_566 43.76(9) ?
+Na_m1 Ti_m3 O5 5_455 . 8_464 43.76(9) ?
+Na_m1 Ti_m3 O_x 5_455 . . 90 ?
+Na_m1 Ti_m3 O_x 5_455 . 2_555 90 ?
+Na_m1 Ti_m3 Ca_m2 5_455 . 1_554 122.16(3) ?
+Na_m1 Ti_m3 Ca_m2 5_455 . . 122.16(3) ?
+Na_m1 Ti_m3 Ca_m2 5_455 . 3_565 57.84(3) ?
+Na_m1 Ti_m3 Ca_m2 5_455 . 3_566 57.84(3) ?
+Na_m1 Ti_m3 Fe_m3 5_455 . . 0 ?
+Na_m1 Ti_m3 Mg_m3 5_455 . . 0 ?
+Na_m2 Ti_m3 Na_m2 1_554 . . 115.68(4) ?
+Na_m2 Ti_m3 Na_m2 1_554 . 3_565 64.32(4) ?
+Na_m2 Ti_m3 Na_m2 1_554 . 3_566 180.0(5) ?
+Na_m2 Ti_m3 O5 1_554 . 5_444 44.07(10) ?
+Na_m2 Ti_m3 O5 1_554 . 6_546 87.11(9) ?
+Na_m2 Ti_m3 O5 1_554 . 7_566 135.93(10) ?
+Na_m2 Ti_m3 O5 1_554 . 8_464 92.89(9) ?
+Na_m2 Ti_m3 O_x 1_554 . . 133.71(10) ?
+Na_m2 Ti_m3 O_x 1_554 . 2_555 46.29(10) ?
+Na_m2 Ti_m3 Ca_m2 1_554 . 1_554 0.0(5) ?
+Na_m2 Ti_m3 Ca_m2 1_554 . . 115.68(4) ?
+Na_m2 Ti_m3 Ca_m2 1_554 . 3_565 64.32(4) ?
+Na_m2 Ti_m3 Ca_m2 1_554 . 3_566 180.0(5) ?
+Na_m2 Ti_m3 Fe_m3 1_554 . . 0 ?
+Na_m2 Ti_m3 Mg_m3 1_554 . . 0 ?
+Na_m2 Ti_m3 Na_m2 . . 3_565 180.0(5) ?
+Na_m2 Ti_m3 Na_m2 . . 3_566 64.32(4) ?
+Na_m2 Ti_m3 O5 . . 5_444 87.11(9) ?
+Na_m2 Ti_m3 O5 . . 6_546 44.07(10) ?
+Na_m2 Ti_m3 O5 . . 7_566 92.89(9) ?
+Na_m2 Ti_m3 O5 . . 8_464 135.93(10) ?
+Na_m2 Ti_m3 O_x . . . 46.29(10) ?
+Na_m2 Ti_m3 O_x . . 2_555 133.71(10) ?
+Na_m2 Ti_m3 Ca_m2 . . 1_554 115.68(4) ?
+Na_m2 Ti_m3 Ca_m2 . . . 0.0(5) ?
+Na_m2 Ti_m3 Ca_m2 . . 3_565 180.0(5) ?
+Na_m2 Ti_m3 Ca_m2 . . 3_566 64.32(4) ?
+Na_m2 Ti_m3 Fe_m3 . . . 0 ?
+Na_m2 Ti_m3 Mg_m3 . . . 0 ?
+Na_m2 Ti_m3 Na_m2 3_565 . 3_566 115.68(4) ?
+Na_m2 Ti_m3 O5 3_565 . 5_444 92.89(9) ?
+Na_m2 Ti_m3 O5 3_565 . 6_546 135.93(10) ?
+Na_m2 Ti_m3 O5 3_565 . 7_566 87.11(9) ?
+Na_m2 Ti_m3 O5 3_565 . 8_464 44.07(10) ?
+Na_m2 Ti_m3 O_x 3_565 . . 133.71(10) ?
+Na_m2 Ti_m3 O_x 3_565 . 2_555 46.29(10) ?
+Na_m2 Ti_m3 Ca_m2 3_565 . 1_554 64.32(4) ?
+Na_m2 Ti_m3 Ca_m2 3_565 . . 180.0(5) ?
+Na_m2 Ti_m3 Ca_m2 3_565 . 3_565 0.0(5) ?
+Na_m2 Ti_m3 Ca_m2 3_565 . 3_566 115.68(4) ?
+Na_m2 Ti_m3 Fe_m3 3_565 . . 0 ?
+Na_m2 Ti_m3 Mg_m3 3_565 . . 0 ?
+Na_m2 Ti_m3 O5 3_566 . 5_444 135.93(10) ?
+Na_m2 Ti_m3 O5 3_566 . 6_546 92.89(9) ?
+Na_m2 Ti_m3 O5 3_566 . 7_566 44.07(10) ?
+Na_m2 Ti_m3 O5 3_566 . 8_464 87.11(9) ?
+Na_m2 Ti_m3 O_x 3_566 . . 46.29(10) ?
+Na_m2 Ti_m3 O_x 3_566 . 2_555 133.71(10) ?
+Na_m2 Ti_m3 Ca_m2 3_566 . 1_554 180.0(5) ?
+Na_m2 Ti_m3 Ca_m2 3_566 . . 64.32(4) ?
+Na_m2 Ti_m3 Ca_m2 3_566 . 3_565 115.68(4) ?
+Na_m2 Ti_m3 Ca_m2 3_566 . 3_566 0.0(5) ?
+Na_m2 Ti_m3 Fe_m3 3_566 . . 0 ?
+Na_m2 Ti_m3 Mg_m3 3_566 . . 0 ?
+O5 Ti_m3 O5 5_444 . 6_546 87.52(13) ?
+O5 Ti_m3 O5 5_444 . 7_566 180.0(5) ?
+O5 Ti_m3 O5 5_444 . 8_464 92.48(13) ?
+O5 Ti_m3 O_x 5_444 . . 89.66(14) ?
+O5 Ti_m3 O_x 5_444 . 2_555 90.34(14) ?
+O5 Ti_m3 Ca_m2 5_444 . 1_554 44.07(10) ?
+O5 Ti_m3 Ca_m2 5_444 . . 87.11(9) ?
+O5 Ti_m3 Ca_m2 5_444 . 3_565 92.89(9) ?
+O5 Ti_m3 Ca_m2 5_444 . 3_566 135.93(10) ?
+O5 Ti_m3 Fe_m3 5_444 . . 0 ?
+O5 Ti_m3 Mg_m3 5_444 . . 0 ?
+O5 Ti_m3 O5 6_546 . 7_566 92.48(13) ?
+O5 Ti_m3 O5 6_546 . 8_464 180.0(5) ?
+O5 Ti_m3 O_x 6_546 . . 90.34(14) ?
+O5 Ti_m3 O_x 6_546 . 2_555 89.66(14) ?
+O5 Ti_m3 Ca_m2 6_546 . 1_554 87.11(9) ?
+O5 Ti_m3 Ca_m2 6_546 . . 44.07(10) ?
+O5 Ti_m3 Ca_m2 6_546 . 3_565 135.93(10) ?
+O5 Ti_m3 Ca_m2 6_546 . 3_566 92.89(9) ?
+O5 Ti_m3 Fe_m3 6_546 . . 0 ?
+O5 Ti_m3 Mg_m3 6_546 . . 0 ?
+O5 Ti_m3 O5 7_566 . 8_464 87.52(13) ?
+O5 Ti_m3 O_x 7_566 . . 90.34(14) ?
+O5 Ti_m3 O_x 7_566 . 2_555 89.66(14) ?
+O5 Ti_m3 Ca_m2 7_566 . 1_554 135.93(10) ?
+O5 Ti_m3 Ca_m2 7_566 . . 92.89(9) ?
+O5 Ti_m3 Ca_m2 7_566 . 3_565 87.11(9) ?
+O5 Ti_m3 Ca_m2 7_566 . 3_566 44.07(10) ?
+O5 Ti_m3 Fe_m3 7_566 . . 0 ?
+O5 Ti_m3 Mg_m3 7_566 . . 0 ?
+O5 Ti_m3 O_x 8_464 . . 89.66(14) ?
+O5 Ti_m3 O_x 8_464 . 2_555 90.34(14) ?
+O5 Ti_m3 Ca_m2 8_464 . 1_554 92.89(9) ?
+O5 Ti_m3 Ca_m2 8_464 . . 135.93(10) ?
+O5 Ti_m3 Ca_m2 8_464 . 3_565 44.07(10) ?
+O5 Ti_m3 Ca_m2 8_464 . 3_566 87.11(9) ?
+O5 Ti_m3 Fe_m3 8_464 . . 0 ?
+O5 Ti_m3 Mg_m3 8_464 . . 0 ?
+O_x Ti_m3 O_x . . 2_555 180.0(5) ?
+O_x Ti_m3 Ca_m2 . . 1_554 133.71(10) ?
+O_x Ti_m3 Ca_m2 . . . 46.29(10) ?
+O_x Ti_m3 Ca_m2 . . 3_565 133.71(10) ?
+O_x Ti_m3 Ca_m2 . . 3_566 46.29(10) ?
+O_x Ti_m3 Fe_m3 . . . 0 ?
+O_x Ti_m3 Mg_m3 . . . 0 ?
+O_x Ti_m3 Ca_m2 2_555 . 1_554 46.29(10) ?
+O_x Ti_m3 Ca_m2 2_555 . . 133.71(10) ?
+O_x Ti_m3 Ca_m2 2_555 . 3_565 46.29(10) ?
+O_x Ti_m3 Ca_m2 2_555 . 3_566 133.71(10) ?
+O_x Ti_m3 Fe_m3 2_555 . . 0 ?
+O_x Ti_m3 Mg_m3 2_555 . . 0 ?
+Ca_m2 Ti_m3 Ca_m2 1_554 . . 115.68(4) ?
+Ca_m2 Ti_m3 Ca_m2 1_554 . 3_565 64.32(4) ?
+Ca_m2 Ti_m3 Ca_m2 1_554 . 3_566 180.0(5) ?
+Ca_m2 Ti_m3 Fe_m3 1_554 . . 0 ?
+Ca_m2 Ti_m3 Mg_m3 1_554 . . 0 ?
+Ca_m2 Ti_m3 Ca_m2 . . 3_565 180.0(5) ?
+Ca_m2 Ti_m3 Ca_m2 . . 3_566 64.32(4) ?
+Ca_m2 Ti_m3 Fe_m3 . . . 0 ?
+Ca_m2 Ti_m3 Mg_m3 . . . 0 ?
+Ca_m2 Ti_m3 Ca_m2 3_565 . 3_566 115.68(4) ?
+Ca_m2 Ti_m3 Fe_m3 3_565 . . 0 ?
+Ca_m2 Ti_m3 Mg_m3 3_565 . . 0 ?
+Ca_m2 Ti_m3 Fe_m3 3_566 . . 0 ?
+Ca_m2 Ti_m3 Mg_m3 3_566 . . 0 ?
+Fe_m3 Ti_m3 Mg_m3 . . . 0 ?
+Sr_a Si Sr_a 1_565 . 1_566 104.77(4) ?
+Sr_a Si Sr_a 1_565 . 6_556 86.36(3) ?
+Sr_a Si O1 1_565 . . 51.36(12) ?
+Sr_a Si O3 1_565 . . 133.05(13) ?
+Sr_a Si O4 1_565 . . 54.76(14) ?
+Sr_a Si O5 1_565 . . 112.50(12) ?
+Sr_a Si K_a 1_565 . 1_565 0.0(5) ?
+Sr_a Si K_a 1_565 . 1_566 104.77(4) ?
+Sr_a Si K_a 1_565 . 6_556 86.36(3) ?
+Sr_a Si Ba_a 1_565 . 1_565 0.0(5) ?
+Sr_a Si Ba_a 1_565 . 1_566 104.77(4) ?
+Sr_a Si Ba_a 1_565 . 6_556 86.36(3) ?
+Sr_a Si Sr_a 1_566 . 6_556 86.11(3) ?
+Sr_a Si O1 1_566 . . 133.52(14) ?
+Sr_a Si O3 1_566 . . 51.95(12) ?
+Sr_a Si O4 1_566 . . 55.24(15) ?
+Sr_a Si O5 1_566 . . 113.65(12) ?
+Sr_a Si K_a 1_566 . 1_565 104.77(4) ?
+Sr_a Si K_a 1_566 . 1_566 0.0(5) ?
+Sr_a Si K_a 1_566 . 6_556 86.11(3) ?
+Sr_a Si Ba_a 1_566 . 1_565 104.77(4) ?
+Sr_a Si Ba_a 1_566 . 1_566 0.0(5) ?
+Sr_a Si Ba_a 1_566 . 6_556 86.11(3) ?
+Sr_a Si O1 6_556 . . 56.91(13) ?
+Sr_a Si O3 6_556 . . 55.74(11) ?
+Sr_a Si O4 6_556 . . 103.81(16) ?
+Sr_a Si O5 6_556 . . 146.23(13) ?
+Sr_a Si K_a 6_556 . 1_565 86.36(3) ?
+Sr_a Si K_a 6_556 . 1_566 86.11(3) ?
+Sr_a Si K_a 6_556 . 6_556 0.0(5) ?
+Sr_a Si Ba_a 6_556 . 1_565 86.36(3) ?
+Sr_a Si Ba_a 6_556 . 1_566 86.11(3) ?
+Sr_a Si Ba_a 6_556 . 6_556 0.0(5) ?
+O1 Si O3 . . . 111.05(17) ?
+O1 Si O4 . . . 103.67(19) ?
+O1 Si O5 . . . 112.55(18) ?
+O1 Si K_a . . 1_565 51.36(12) ?
+O1 Si K_a . . 1_566 133.52(14) ?
+O1 Si K_a . . 6_556 56.91(13) ?
+O1 Si Ba_a . . 1_565 51.36(12) ?
+O1 Si Ba_a . . 1_566 133.52(14) ?
+O1 Si Ba_a . . 6_556 56.91(13) ?
+O3 Si O4 . . . 104.4(2) ?
+O3 Si O5 . . . 114.30(17) ?
+O3 Si K_a . . 1_565 133.05(13) ?
+O3 Si K_a . . 1_566 51.95(12) ?
+O3 Si K_a . . 6_556 55.74(11) ?
+O3 Si Ba_a . . 1_565 133.05(13) ?
+O3 Si Ba_a . . 1_566 51.95(12) ?
+O3 Si Ba_a . . 6_556 55.74(11) ?
+O4 Si O5 . . . 110.0(2) ?
+O4 Si K_a . . 1_565 54.76(14) ?
+O4 Si K_a . . 1_566 55.24(15) ?
+O4 Si K_a . . 6_556 103.81(16) ?
+O4 Si Ba_a . . 1_565 54.76(14) ?
+O4 Si Ba_a . . 1_566 55.24(15) ?
+O4 Si Ba_a . . 6_556 103.81(16) ?
+O5 Si K_a . . 1_565 112.50(12) ?
+O5 Si K_a . . 1_566 113.65(12) ?
+O5 Si K_a . . 6_556 146.23(13) ?
+O5 Si Ba_a . . 1_565 112.50(12) ?
+O5 Si Ba_a . . 1_566 113.65(12) ?
+O5 Si Ba_a . . 6_556 146.23(13) ?
+K_a Si K_a 1_565 . 1_566 104.77(4) ?
+K_a Si K_a 1_565 . 6_556 86.36(3) ?
+K_a Si Ba_a 1_565 . 1_565 0.0(5) ?
+K_a Si Ba_a 1_565 . 1_566 104.77(4) ?
+K_a Si Ba_a 1_565 . 6_556 86.36(3) ?
+K_a Si K_a 1_566 . 6_556 86.11(3) ?
+K_a Si Ba_a 1_566 . 1_565 104.77(4) ?
+K_a Si Ba_a 1_566 . 1_566 0.0(5) ?
+K_a Si Ba_a 1_566 . 6_556 86.11(3) ?
+K_a Si Ba_a 6_556 . 1_565 86.36(3) ?
+K_a Si Ba_a 6_556 . 1_566 86.11(3) ?
+K_a Si Ba_a 6_556 . 6_556 0.0(5) ?
+Ba_a Si Ba_a 1_565 . 1_566 104.77(4) ?
+Ba_a Si Ba_a 1_565 . 6_556 86.36(3) ?
+Ba_a Si Ba_a 1_566 . 6_556 86.11(3) ?
+Ti_l O1 Si . . . 140.4(2) ?
+Ti_l O1 K_a . . 1_565 105.91(12) ?
+Ti_l O1 K_a . . 6_556 100.55(13) ?
+Ti_l O1 Ba_a . . 1_565 105.91(12) ?
+Ti_l O1 Ba_a . . 6_556 100.55(13) ?
+Si O1 K_a . . 1_565 100.93(15) ?
+Si O1 K_a . . 6_556 94.63(14) ?
+Si O1 Ba_a . . 1_565 100.93(15) ?
+Si O1 Ba_a . . 6_556 94.63(14) ?
+K_a O1 K_a 1_565 . 6_556 113.54(12) ?
+K_a O1 Ba_a 1_565 . 1_565 0.0(5) ?
+K_a O1 Ba_a 1_565 . 6_556 113.54(12) ?
+K_a O1 Ba_a 6_556 . 1_565 113.54(12) ?
+K_a O1 Ba_a 6_556 . 6_556 0.0(5) ?
+Ba_a O1 Ba_a 1_565 . 6_556 113.54(12) ?
+Ti_l O2 Na_m1 . . . 121.7(2) ?
+Ti_l O2 Na_m2 . . 5_555 121.37(14) ?
+Ti_l O2 Na_m2 . . 7_556 121.37(14) ?
+Ti_l O2 Ca_m2 . . 5_555 121.37(14) ?
+Ti_l O2 Ca_m2 . . 7_556 121.37(14) ?
+Na_m1 O2 Na_m2 . . 5_555 90.13(15) ?
+Na_m1 O2 Na_m2 . . 7_556 90.13(15) ?
+Na_m1 O2 Ca_m2 . . 5_555 90.13(15) ?
+Na_m1 O2 Ca_m2 . . 7_556 90.13(15) ?
+Na_m2 O2 Na_m2 5_555 . 7_556 104.37(18) ?
+Na_m2 O2 Ca_m2 5_555 . 5_555 0.0(5) ?
+Na_m2 O2 Ca_m2 5_555 . 7_556 104.37(18) ?
+Na_m2 O2 Ca_m2 7_556 . 5_555 104.37(18) ?
+Na_m2 O2 Ca_m2 7_556 . 7_556 0.0(5) ?
+Ca_m2 O2 Ca_m2 5_555 . 7_556 104.37(18) ?
+Ti_l O3 Si 1_556 . . 139.8(2) ?
+Ti_l O3 K_a 1_556 . 1_566 105.89(12) ?
+Ti_l O3 K_a 1_556 . 6_556 101.00(13) ?
+Ti_l O3 Ba_a 1_556 . 1_566 105.89(12) ?
+Ti_l O3 Ba_a 1_556 . 6_556 101.00(13) ?
+Si O3 K_a . . 1_566 100.04(15) ?
+Si O3 K_a . . 6_556 95.87(13) ?
+Si O3 Ba_a . . 1_566 100.04(15) ?
+Si O3 Ba_a . . 6_556 95.87(13) ?
+K_a O3 K_a 1_566 . 6_556 113.72(12) ?
+K_a O3 Ba_a 1_566 . 1_566 0.0(5) ?
+K_a O3 Ba_a 1_566 . 6_556 113.72(12) ?
+K_a O3 Ba_a 6_556 . 1_566 113.72(12) ?
+K_a O3 Ba_a 6_556 . 6_556 0.0(5) ?
+Ba_a O3 Ba_a 1_566 . 6_556 113.72(12) ?
+Si O4 Si . . 4_575 134.6(3) ?
+Si O4 K_a . . 1_565 96.45(15) ?
+Si O4 K_a . . 1_566 95.71(15) ?
+Si O4 Ba_a . . 1_565 96.45(15) ?
+Si O4 Ba_a . . 1_566 95.71(15) ?
+Si O4 K_a 4_575 . 1_565 96.45(15) ?
+Si O4 K_a 4_575 . 1_566 95.71(15) ?
+Si O4 Ba_a 4_575 . 1_565 96.45(15) ?
+Si O4 Ba_a 4_575 . 1_566 95.71(15) ?
+K_a O4 K_a 1_565 . 1_566 148.13(18) ?
+K_a O4 Ba_a 1_565 . 1_565 0.0(5) ?
+K_a O4 Ba_a 1_565 . 1_566 148.13(18) ?
+K_a O4 Ba_a 1_566 . 1_565 148.13(18) ?
+K_a O4 Ba_a 1_566 . 1_566 0.0(5) ?
+Ba_a O4 Ba_a 1_565 . 1_566 148.13(18) ?
+Na_m2 O5 Ti_m3 5_555 . 5_556 97.23(14) ?
+Na_m2 O5 Si 5_555 . . 120.88(16) ?
+Na_m2 O5 Ca_m2 5_555 . 5_555 0.0(5) ?
+Na_m2 O5 Fe_m3 5_555 . 5_556 97.23(14) ?
+Na_m2 O5 Mg_m3 5_555 . 5_556 97.23(14) ?
+Ti_m3 O5 Si 5_556 . . 126.7(2) ?
+Ti_m3 O5 Ca_m2 5_556 . 5_555 97.23(14) ?
+Ti_m3 O5 Fe_m3 5_556 . 5_556 0.0(5) ?
+Ti_m3 O5 Mg_m3 5_556 . 5_556 0.0(5) ?
+Si O5 Ca_m2 . . 5_555 120.88(16) ?
+Si O5 Fe_m3 . . 5_556 126.7(2) ?
+Si O5 Mg_m3 . . 5_556 126.7(2) ?
+Ca_m2 O5 Fe_m3 5_555 . 5_556 97.23(14) ?
+Ca_m2 O5 Mg_m3 5_555 . 5_556 97.23(14) ?
+Fe_m3 O5 Mg_m3 5_556 . 5_556 0.0(5) ?
+Na_m2 O_x Na_m2 . . 3_566 94.19(18) ?
+Na_m2 O_x Ti_m3 . . . 95.92(19) ?
+Na_m2 O_x Ca_m2 . . . 0.0(5) ?
+Na_m2 O_x Ca_m2 . . 3_566 94.19(18) ?
+Na_m2 O_x Fe_m3 . . . 95.92(19) ?
+Na_m2 O_x Mg_m3 . . . 95.92(19) ?
+Na_m2 O_x Ti_m3 3_566 . . 95.92(19) ?
+Na_m2 O_x Ca_m2 3_566 . . 94.19(18) ?
+Na_m2 O_x Ca_m2 3_566 . 3_566 0.0(5) ?
+Na_m2 O_x Fe_m3 3_566 . . 95.92(19) ?
+Na_m2 O_x Mg_m3 3_566 . . 95.92(19) ?
+Ti_m3 O_x Ca_m2 . . . 95.92(19) ?
+Ti_m3 O_x Ca_m2 . . 3_566 95.92(19) ?
+Ti_m3 O_x Fe_m3 . . . 0.0(5) ?
+Ti_m3 O_x Mg_m3 . . . 0.0(5) ?
+Ca_m2 O_x Ca_m2 . . 3_566 94.19(18) ?
+Ca_m2 O_x Fe_m3 . . . 95.92(19) ?
+Ca_m2 O_x Mg_m3 . . . 95.92(19) ?
+Ca_m2 O_x Fe_m3 3_566 . . 95.92(19) ?
+Ca_m2 O_x Mg_m3 3_566 . . 95.92(19) ?
+Fe_m3 O_x Mg_m3 . . . 0.0(5) ?
+Sr_a K_a Sr_a . . 6_545 0 ?
+Sr_a K_a Sr_a . . 6_546 0 ?
+Sr_a K_a Sr_a . . 6_555 0 ?
+Sr_a K_a Sr_a . . 6_556 0 ?
+Sr_a K_a Ti_l . . 1_545 0 ?
+Sr_a K_a Ti_l . . . 0 ?
+Sr_a K_a Ti_l . . 6_545 0 ?
+Sr_a K_a Ti_l . . 6_546 0 ?
+Sr_a K_a Si . . 1_544 0 ?
+Sr_a K_a Si . . 1_545 0 ?
+Sr_a K_a Si . . 6_546 0 ?
+Sr_a K_a Si . . 7_556 0 ?
+Sr_a K_a Si . . 4_564 0 ?
+Sr_a K_a Si . . 4_565 0 ?
+Sr_a K_a O1 . . 1_545 0 ?
+Sr_a K_a O1 . . 6_546 0 ?
+Sr_a K_a O1 . . 7_556 0 ?
+Sr_a K_a O1 . . 4_565 0 ?
+Sr_a K_a O3 . . 1_544 0 ?
+Sr_a K_a O3 . . 6_546 0 ?
+Sr_a K_a O3 . . 7_556 0 ?
+Sr_a K_a O3 . . 4_564 0 ?
+Sr_a K_a O4 . . 1_544 0 ?
+Sr_a K_a O4 . . 1_545 0 ?
+Sr_a K_a K_a . . 6_545 0 ?
+Sr_a K_a K_a . . 6_546 0 ?
+Sr_a K_a K_a . . 6_555 0 ?
+Sr_a K_a K_a . . 6_556 0 ?
+Sr_a K_a Na_a . . . 0 ?
+Sr_a K_a Ba_a . . . 0 ?
+Sr_a K_a Ba_a . . 6_545 0 ?
+Sr_a K_a Ba_a . . 6_546 0 ?
+Sr_a K_a Ba_a . . 6_555 0 ?
+Sr_a K_a Ba_a . . 6_556 0 ?
+Sr_a K_a Sr_a 6_545 . 6_546 71.070(13) ?
+Sr_a K_a Sr_a 6_545 . 6_555 99.879(17) ?
+Sr_a K_a Sr_a 6_545 . 6_556 147.17(2) ?
+Sr_a K_a Ti_l 6_545 . 1_545 51.496(17) ?
+Sr_a K_a Ti_l 6_545 . . 144.92(2) ?
+Sr_a K_a Ti_l 6_545 . 6_545 52.184(11) ?
+Sr_a K_a Ti_l 6_545 . 6_546 102.860(19) ?
+Sr_a K_a Si 6_545 . 1_544 46.87(2) ?
+Sr_a K_a Si 6_545 . 1_545 103.50(2) ?
+Sr_a K_a Si 6_545 . 6_546 103.24(3) ?
+Sr_a K_a Si 6_545 . 7_556 47.02(2) ?
+Sr_a K_a Si 6_545 . 4_564 90.31(3) ?
+Sr_a K_a Si 6_545 . 4_565 156.59(2) ?
+Sr_a K_a O1 6_545 . 1_545 75.83(6) ?
+Sr_a K_a O1 6_545 . 6_546 115.01(7) ?
+Sr_a K_a O1 6_545 . 7_556 72.74(6) ?
+Sr_a K_a O1 6_545 . 4_565 175.00(7) ?
+Sr_a K_a O3 6_545 . 1_544 33.81(7) ?
+Sr_a K_a O3 6_545 . 6_546 83.02(6) ?
+Sr_a K_a O3 6_545 . 7_556 32.47(7) ?
+Sr_a K_a O3 6_545 . 4_564 114.74(6) ?
+Sr_a K_a O4 6_545 . 1_544 61.47(5) ?
+Sr_a K_a O4 6_545 . 1_545 129.301(18) ?
+Sr_a K_a K_a 6_545 . 6_545 0.0(5) ?
+Sr_a K_a K_a 6_545 . 6_546 71.070(13) ?
+Sr_a K_a K_a 6_545 . 6_555 99.879(17) ?
+Sr_a K_a K_a 6_545 . 6_556 147.17(2) ?
+Sr_a K_a Na_a 6_545 . . 0 ?
+Sr_a K_a Ba_a 6_545 . . 0 ?
+Sr_a K_a Ba_a 6_545 . 6_545 0.0(5) ?
+Sr_a K_a Ba_a 6_545 . 6_546 71.070(13) ?
+Sr_a K_a Ba_a 6_545 . 6_555 99.879(17) ?
+Sr_a K_a Ba_a 6_545 . 6_556 147.17(2) ?
+Sr_a K_a Sr_a 6_546 . 6_555 147.17(2) ?
+Sr_a K_a Sr_a 6_546 . 6_556 99.082(18) ?
+Sr_a K_a Ti_l 6_546 . 1_545 51.427(19) ?
+Sr_a K_a Ti_l 6_546 . . 144.00(2) ?
+Sr_a K_a Ti_l 6_546 . 6_545 103.10(2) ?
+Sr_a K_a Ti_l 6_546 . 6_546 51.869(12) ?
+Sr_a K_a Si 6_546 . 1_544 103.68(2) ?
+Sr_a K_a Si 6_546 . 1_545 46.53(2) ?
+Sr_a K_a Si 6_546 . 6_546 102.99(3) ?
+Sr_a K_a Si 6_546 . 7_556 47.11(2) ?
+Sr_a K_a Si 6_546 . 4_564 157.16(2) ?
+Sr_a K_a Si 6_546 . 4_565 89.56(3) ?
+Sr_a K_a O1 6_546 . 1_545 34.09(8) ?
+Sr_a K_a O1 6_546 . 6_546 82.57(7) ?
+Sr_a K_a O1 6_546 . 7_556 32.37(7) ?
+Sr_a K_a O1 6_546 . 4_565 113.93(7) ?
+Sr_a K_a O3 6_546 . 1_544 75.69(7) ?
+Sr_a K_a O3 6_546 . 6_546 115.01(7) ?
+Sr_a K_a O3 6_546 . 7_556 72.83(6) ?
+Sr_a K_a O3 6_546 . 4_564 174.16(6) ?
+Sr_a K_a O4 6_546 . 1_544 129.753(16) ?
+Sr_a K_a O4 6_546 . 1_545 60.99(5) ?
+Sr_a K_a K_a 6_546 . 6_545 71.070(13) ?
+Sr_a K_a K_a 6_546 . 6_546 0.0(5) ?
+Sr_a K_a K_a 6_546 . 6_555 147.17(2) ?
+Sr_a K_a K_a 6_546 . 6_556 99.082(18) ?
+Sr_a K_a Na_a 6_546 . . 0 ?
+Sr_a K_a Ba_a 6_546 . . 0 ?
+Sr_a K_a Ba_a 6_546 . 6_545 71.070(13) ?
+Sr_a K_a Ba_a 6_546 . 6_546 0.0(5) ?
+Sr_a K_a Ba_a 6_546 . 6_555 147.17(2) ?
+Sr_a K_a Ba_a 6_546 . 6_556 99.082(18) ?
+Sr_a K_a Sr_a 6_555 . 6_556 71.070(13) ?
+Sr_a K_a Ti_l 6_555 . 1_545 144.92(2) ?
+Sr_a K_a Ti_l 6_555 . . 51.496(17) ?
+Sr_a K_a Ti_l 6_555 . 6_545 52.184(11) ?
+Sr_a K_a Ti_l 6_555 . 6_546 102.860(19) ?
+Sr_a K_a Si 6_555 . 1_544 90.31(3) ?
+Sr_a K_a Si 6_555 . 1_545 156.59(2) ?
+Sr_a K_a Si 6_555 . 6_546 47.02(2) ?
+Sr_a K_a Si 6_555 . 7_556 103.24(3) ?
+Sr_a K_a Si 6_555 . 4_564 46.87(2) ?
+Sr_a K_a Si 6_555 . 4_565 103.50(2) ?
+Sr_a K_a O1 6_555 . 1_545 175.00(7) ?
+Sr_a K_a O1 6_555 . 6_546 72.74(6) ?
+Sr_a K_a O1 6_555 . 7_556 115.01(7) ?
+Sr_a K_a O1 6_555 . 4_565 75.83(6) ?
+Sr_a K_a O3 6_555 . 1_544 114.74(6) ?
+Sr_a K_a O3 6_555 . 6_546 32.47(7) ?
+Sr_a K_a O3 6_555 . 7_556 83.02(6) ?
+Sr_a K_a O3 6_555 . 4_564 33.81(7) ?
+Sr_a K_a O4 6_555 . 1_544 61.47(5) ?
+Sr_a K_a O4 6_555 . 1_545 129.301(18) ?
+Sr_a K_a K_a 6_555 . 6_545 99.879(17) ?
+Sr_a K_a K_a 6_555 . 6_546 147.17(2) ?
+Sr_a K_a K_a 6_555 . 6_555 0.0(5) ?
+Sr_a K_a K_a 6_555 . 6_556 71.070(13) ?
+Sr_a K_a Na_a 6_555 . . 0 ?
+Sr_a K_a Ba_a 6_555 . . 0 ?
+Sr_a K_a Ba_a 6_555 . 6_545 99.879(17) ?
+Sr_a K_a Ba_a 6_555 . 6_546 147.17(2) ?
+Sr_a K_a Ba_a 6_555 . 6_555 0.0(5) ?
+Sr_a K_a Ba_a 6_555 . 6_556 71.070(13) ?
+Sr_a K_a Ti_l 6_556 . 1_545 144.00(2) ?
+Sr_a K_a Ti_l 6_556 . . 51.427(19) ?
+Sr_a K_a Ti_l 6_556 . 6_545 103.10(2) ?
+Sr_a K_a Ti_l 6_556 . 6_546 51.869(12) ?
+Sr_a K_a Si 6_556 . 1_544 157.16(2) ?
+Sr_a K_a Si 6_556 . 1_545 89.56(3) ?
+Sr_a K_a Si 6_556 . 6_546 47.11(2) ?
+Sr_a K_a Si 6_556 . 7_556 102.99(3) ?
+Sr_a K_a Si 6_556 . 4_564 103.68(2) ?
+Sr_a K_a Si 6_556 . 4_565 46.53(2) ?
+Sr_a K_a O1 6_556 . 1_545 113.93(7) ?
+Sr_a K_a O1 6_556 . 6_546 32.37(7) ?
+Sr_a K_a O1 6_556 . 7_556 82.57(7) ?
+Sr_a K_a O1 6_556 . 4_565 34.09(8) ?
+Sr_a K_a O3 6_556 . 1_544 174.16(6) ?
+Sr_a K_a O3 6_556 . 6_546 72.83(6) ?
+Sr_a K_a O3 6_556 . 7_556 115.01(7) ?
+Sr_a K_a O3 6_556 . 4_564 75.69(7) ?
+Sr_a K_a O4 6_556 . 1_544 129.753(16) ?
+Sr_a K_a O4 6_556 . 1_545 60.99(5) ?
+Sr_a K_a K_a 6_556 . 6_545 147.17(2) ?
+Sr_a K_a K_a 6_556 . 6_546 99.082(18) ?
+Sr_a K_a K_a 6_556 . 6_555 71.070(13) ?
+Sr_a K_a K_a 6_556 . 6_556 0.0(5) ?
+Sr_a K_a Na_a 6_556 . . 0 ?
+Sr_a K_a Ba_a 6_556 . . 0 ?
+Sr_a K_a Ba_a 6_556 . 6_545 147.17(2) ?
+Sr_a K_a Ba_a 6_556 . 6_546 99.082(18) ?
+Sr_a K_a Ba_a 6_556 . 6_555 71.070(13) ?
+Sr_a K_a Ba_a 6_556 . 6_556 0.0(5) ?
+Ti_l K_a Ti_l 1_545 . . 140.56(3) ?
+Ti_l K_a Ti_l 1_545 . 6_545 103.680(18) ?
+Ti_l K_a Ti_l 1_545 . 6_546 103.30(2) ?
+Ti_l K_a Si 1_545 . 1_544 55.89(3) ?
+Ti_l K_a Si 1_545 . 1_545 55.73(2) ?
+Ti_l K_a Si 1_545 . 6_546 146.23(3) ?
+Ti_l K_a Si 1_545 . 7_556 73.20(3) ?
+Ti_l K_a Si 1_545 . 4_564 106.66(3) ?
+Ti_l K_a Si 1_545 . 4_565 106.17(3) ?
+Ti_l K_a O1 1_545 . 1_545 30.08(7) ?
+Ti_l K_a O1 1_545 . 6_546 133.77(7) ?
+Ti_l K_a O1 1_545 . 7_556 78.86(7) ?
+Ti_l K_a O1 1_545 . 4_565 131.38(7) ?
+Ti_l K_a O3 1_545 . 1_544 30.19(6) ?
+Ti_l K_a O3 1_545 . 6_546 134.26(7) ?
+Ti_l K_a O3 1_545 . 7_556 79.03(7) ?
+Ti_l K_a O3 1_545 . 4_564 132.24(8) ?
+Ti_l K_a O4 1_545 . 1_544 84.90(4) ?
+Ti_l K_a O4 1_545 . 1_545 84.47(4) ?
+Ti_l K_a K_a 1_545 . 6_545 51.496(17) ?
+Ti_l K_a K_a 1_545 . 6_546 51.427(19) ?
+Ti_l K_a K_a 1_545 . 6_555 144.92(2) ?
+Ti_l K_a K_a 1_545 . 6_556 144.00(2) ?
+Ti_l K_a Na_a 1_545 . . 0 ?
+Ti_l K_a Ba_a 1_545 . . 0 ?
+Ti_l K_a Ba_a 1_545 . 6_545 51.496(17) ?
+Ti_l K_a Ba_a 1_545 . 6_546 51.427(19) ?
+Ti_l K_a Ba_a 1_545 . 6_555 144.92(2) ?
+Ti_l K_a Ba_a 1_545 . 6_556 144.00(2) ?
+Ti_l K_a Ti_l . . 6_545 103.680(18) ?
+Ti_l K_a Ti_l . . 6_546 103.30(2) ?
+Ti_l K_a Si . . 1_544 106.66(3) ?
+Ti_l K_a Si . . 1_545 106.17(3) ?
+Ti_l K_a Si . . 6_546 73.20(3) ?
+Ti_l K_a Si . . 7_556 146.23(3) ?
+Ti_l K_a Si . . 4_564 55.89(3) ?
+Ti_l K_a Si . . 4_565 55.73(2) ?
+Ti_l K_a O1 . . 1_545 131.38(7) ?
+Ti_l K_a O1 . . 6_546 78.86(7) ?
+Ti_l K_a O1 . . 7_556 133.77(7) ?
+Ti_l K_a O1 . . 4_565 30.08(7) ?
+Ti_l K_a O3 . . 1_544 132.24(8) ?
+Ti_l K_a O3 . . 6_546 79.03(7) ?
+Ti_l K_a O3 . . 7_556 134.26(7) ?
+Ti_l K_a O3 . . 4_564 30.19(6) ?
+Ti_l K_a O4 . . 1_544 84.90(4) ?
+Ti_l K_a O4 . . 1_545 84.47(4) ?
+Ti_l K_a K_a . . 6_545 144.92(2) ?
+Ti_l K_a K_a . . 6_546 144.00(2) ?
+Ti_l K_a K_a . . 6_555 51.496(17) ?
+Ti_l K_a K_a . . 6_556 51.427(19) ?
+Ti_l K_a Na_a . . . 0 ?
+Ti_l K_a Ba_a . . . 0 ?
+Ti_l K_a Ba_a . . 6_545 144.92(2) ?
+Ti_l K_a Ba_a . . 6_546 144.00(2) ?
+Ti_l K_a Ba_a . . 6_555 51.496(17) ?
+Ti_l K_a Ba_a . . 6_556 51.427(19) ?
+Ti_l K_a Ti_l 6_545 . 6_546 92.53(3) ?
+Ti_l K_a Si 6_545 . 1_544 73.58(3) ?
+Ti_l K_a Si 6_545 . 1_545 149.12(3) ?
+Ti_l K_a Si 6_545 . 6_546 56.31(2) ?
+Ti_l K_a Si 6_545 . 7_556 56.31(2) ?
+Ti_l K_a Si 6_545 . 4_564 73.58(3) ?
+Ti_l K_a Si 6_545 . 4_565 149.12(3) ?
+Ti_l K_a O1 6_545 . 1_545 124.72(7) ?
+Ti_l K_a O1 6_545 . 6_546 80.02(6) ?
+Ti_l K_a O1 6_545 . 7_556 80.02(6) ?
+Ti_l K_a O1 6_545 . 4_565 124.72(7) ?
+Ti_l K_a O3 6_545 . 1_544 80.85(6) ?
+Ti_l K_a O3 6_545 . 6_546 31.20(6) ?
+Ti_l K_a O3 6_545 . 7_556 31.20(6) ?
+Ti_l K_a O3 6_545 . 4_564 80.85(6) ?
+Ti_l K_a O4 6_545 . 1_544 59.78(9) ?
+Ti_l K_a O4 6_545 . 1_545 152.09(10) ?
+Ti_l K_a K_a 6_545 . 6_545 52.184(11) ?
+Ti_l K_a K_a 6_545 . 6_546 103.10(2) ?
+Ti_l K_a K_a 6_545 . 6_555 52.184(11) ?
+Ti_l K_a K_a 6_545 . 6_556 103.10(2) ?
+Ti_l K_a Na_a 6_545 . . 0 ?
+Ti_l K_a Ba_a 6_545 . . 0 ?
+Ti_l K_a Ba_a 6_545 . 6_545 52.184(11) ?
+Ti_l K_a Ba_a 6_545 . 6_546 103.10(2) ?
+Ti_l K_a Ba_a 6_545 . 6_555 52.184(11) ?
+Ti_l K_a Ba_a 6_545 . 6_556 103.10(2) ?
+Ti_l K_a Si 6_546 . 1_544 149.17(3) ?
+Ti_l K_a Si 6_546 . 1_545 73.15(3) ?
+Ti_l K_a Si 6_546 . 6_546 56.19(3) ?
+Ti_l K_a Si 6_546 . 7_556 56.19(3) ?
+Ti_l K_a Si 6_546 . 4_564 149.17(3) ?
+Ti_l K_a Si 6_546 . 4_565 73.15(3) ?
+Ti_l K_a O1 6_546 . 1_545 80.78(8) ?
+Ti_l K_a O1 6_546 . 6_546 31.03(6) ?
+Ti_l K_a O1 6_546 . 7_556 31.03(6) ?
+Ti_l K_a O1 6_546 . 4_565 80.78(8) ?
+Ti_l K_a O3 6_546 . 1_544 124.19(7) ?
+Ti_l K_a O3 6_546 . 6_546 79.86(7) ?
+Ti_l K_a O3 6_546 . 7_556 79.86(7) ?
+Ti_l K_a O3 6_546 . 4_564 124.19(7) ?
+Ti_l K_a O4 6_546 . 1_544 152.31(10) ?
+Ti_l K_a O4 6_546 . 1_545 59.55(10) ?
+Ti_l K_a K_a 6_546 . 6_545 102.860(19) ?
+Ti_l K_a K_a 6_546 . 6_546 51.869(12) ?
+Ti_l K_a K_a 6_546 . 6_555 102.860(19) ?
+Ti_l K_a K_a 6_546 . 6_556 51.869(12) ?
+Ti_l K_a Na_a 6_546 . . 0 ?
+Ti_l K_a Ba_a 6_546 . . 0 ?
+Ti_l K_a Ba_a 6_546 . 6_545 102.860(19) ?
+Ti_l K_a Ba_a 6_546 . 6_546 51.869(12) ?
+Ti_l K_a Ba_a 6_546 . 6_555 102.860(19) ?
+Ti_l K_a Ba_a 6_546 . 6_556 51.869(12) ?
+Si K_a Si 1_544 . 1_545 104.77(3) ?
+Si K_a Si 1_544 . 6_546 127.13(3) ?
+Si K_a Si 1_544 . 7_556 93.89(3) ?
+Si K_a Si 1_544 . 4_564 53.51(3) ?
+Si K_a Si 1_544 . 4_565 131.10(4) ?
+Si K_a O1 1_544 . 1_545 84.87(7) ?
+Si K_a O1 1_544 . 6_546 153.59(7) ?
+Si K_a O1 1_544 . 7_556 118.19(7) ?
+Si K_a O1 1_544 . 4_565 129.83(8) ?
+Si K_a O3 1_544 . 1_544 28.01(7) ?
+Si K_a O3 1_544 . 6_546 98.73(7) ?
+Si K_a O3 1_544 . 7_556 74.16(7) ?
+Si K_a O3 1_544 . 4_564 81.49(7) ?
+Si K_a O4 1_544 . 1_544 29.05(4) ?
+Si K_a O4 1_544 . 1_545 130.26(8) ?
+Si K_a K_a 1_544 . 6_545 46.87(2) ?
+Si K_a K_a 1_544 . 6_546 103.68(2) ?
+Si K_a K_a 1_544 . 6_555 90.31(3) ?
+Si K_a K_a 1_544 . 6_556 157.16(2) ?
+Si K_a Na_a 1_544 . . 0 ?
+Si K_a Ba_a 1_544 . . 0 ?
+Si K_a Ba_a 1_544 . 6_545 46.87(2) ?
+Si K_a Ba_a 1_544 . 6_546 103.68(2) ?
+Si K_a Ba_a 1_544 . 6_555 90.31(3) ?
+Si K_a Ba_a 1_544 . 6_556 157.16(2) ?
+Si K_a Si 1_545 . 6_546 126.55(4) ?
+Si K_a Si 1_545 . 7_556 93.64(3) ?
+Si K_a Si 1_545 . 4_564 131.10(4) ?
+Si K_a Si 1_545 . 4_565 53.10(3) ?
+Si K_a O1 1_545 . 1_545 27.71(7) ?
+Si K_a O1 1_545 . 6_546 98.09(6) ?
+Si K_a O1 1_545 . 7_556 73.77(7) ?
+Si K_a O1 1_545 . 4_565 80.76(7) ?
+Si K_a O3 1_545 . 1_544 84.94(6) ?
+Si K_a O3 1_545 . 6_546 153.01(7) ?
+Si K_a O3 1_545 . 7_556 117.99(7) ?
+Si K_a O3 1_545 . 4_564 129.89(7) ?
+Si K_a O4 1_545 . 1_544 130.53(8) ?
+Si K_a O4 1_545 . 1_545 28.78(4) ?
+Si K_a K_a 1_545 . 6_545 103.50(2) ?
+Si K_a K_a 1_545 . 6_546 46.53(2) ?
+Si K_a K_a 1_545 . 6_555 156.59(2) ?
+Si K_a K_a 1_545 . 6_556 89.56(3) ?
+Si K_a Na_a 1_545 . . 0 ?
+Si K_a Ba_a 1_545 . . 0 ?
+Si K_a Ba_a 1_545 . 6_545 103.50(2) ?
+Si K_a Ba_a 1_545 . 6_546 46.53(2) ?
+Si K_a Ba_a 1_545 . 6_555 156.59(2) ?
+Si K_a Ba_a 1_545 . 6_556 89.56(3) ?
+Si K_a Si 6_546 . 7_556 73.03(3) ?
+Si K_a Si 6_546 . 4_564 93.89(3) ?
+Si K_a Si 6_546 . 4_565 93.64(3) ?
+Si K_a O1 6_546 . 1_545 136.03(8) ?
+Si K_a O1 6_546 . 6_546 28.46(6) ?
+Si K_a O1 6_546 . 7_556 71.35(7) ?
+Si K_a O1 6_546 . 4_565 75.81(8) ?
+Si K_a O3 6_546 . 1_544 136.09(7) ?
+Si K_a O3 6_546 . 6_546 28.40(7) ?
+Si K_a O3 6_546 . 7_556 71.44(7) ?
+Si K_a O3 6_546 . 4_564 75.47(7) ?
+Si K_a O4 6_546 . 1_544 102.90(8) ?
+Si K_a O4 6_546 . 1_545 102.59(8) ?
+Si K_a K_a 6_546 . 6_545 103.24(3) ?
+Si K_a K_a 6_546 . 6_546 102.99(3) ?
+Si K_a K_a 6_546 . 6_555 47.02(2) ?
+Si K_a K_a 6_546 . 6_556 47.11(2) ?
+Si K_a Na_a 6_546 . . 0 ?
+Si K_a Ba_a 6_546 . . 0 ?
+Si K_a Ba_a 6_546 . 6_545 103.24(3) ?
+Si K_a Ba_a 6_546 . 6_546 102.99(3) ?
+Si K_a Ba_a 6_546 . 6_555 47.02(2) ?
+Si K_a Ba_a 6_546 . 6_556 47.11(2) ?
+Si K_a Si 7_556 . 4_564 127.13(3) ?
+Si K_a Si 7_556 . 4_565 126.55(4) ?
+Si K_a O1 7_556 . 1_545 75.81(8) ?
+Si K_a O1 7_556 . 6_546 71.35(7) ?
+Si K_a O1 7_556 . 7_556 28.46(6) ?
+Si K_a O1 7_556 . 4_565 136.03(8) ?
+Si K_a O3 7_556 . 1_544 75.47(7) ?
+Si K_a O3 7_556 . 6_546 71.44(7) ?
+Si K_a O3 7_556 . 7_556 28.40(7) ?
+Si K_a O3 7_556 . 4_564 136.09(7) ?
+Si K_a O4 7_556 . 1_544 102.90(8) ?
+Si K_a O4 7_556 . 1_545 102.59(8) ?
+Si K_a K_a 7_556 . 6_545 47.02(2) ?
+Si K_a K_a 7_556 . 6_546 47.11(2) ?
+Si K_a K_a 7_556 . 6_555 103.24(3) ?
+Si K_a K_a 7_556 . 6_556 102.99(3) ?
+Si K_a Na_a 7_556 . . 0 ?
+Si K_a Ba_a 7_556 . . 0 ?
+Si K_a Ba_a 7_556 . 6_545 47.02(2) ?
+Si K_a Ba_a 7_556 . 6_546 47.11(2) ?
+Si K_a Ba_a 7_556 . 6_555 103.24(3) ?
+Si K_a Ba_a 7_556 . 6_556 102.99(3) ?
+Si K_a Si 4_564 . 4_565 104.77(3) ?
+Si K_a O1 4_564 . 1_545 129.83(8) ?
+Si K_a O1 4_564 . 6_546 118.19(7) ?
+Si K_a O1 4_564 . 7_556 153.59(7) ?
+Si K_a O1 4_564 . 4_565 84.87(7) ?
+Si K_a O3 4_564 . 1_544 81.49(7) ?
+Si K_a O3 4_564 . 6_546 74.16(7) ?
+Si K_a O3 4_564 . 7_556 98.73(7) ?
+Si K_a O3 4_564 . 4_564 28.01(7) ?
+Si K_a O4 4_564 . 1_544 29.05(4) ?
+Si K_a O4 4_564 . 1_545 130.26(8) ?
+Si K_a K_a 4_564 . 6_545 90.31(3) ?
+Si K_a K_a 4_564 . 6_546 157.16(2) ?
+Si K_a K_a 4_564 . 6_555 46.87(2) ?
+Si K_a K_a 4_564 . 6_556 103.68(2) ?
+Si K_a Na_a 4_564 . . 0 ?
+Si K_a Ba_a 4_564 . . 0 ?
+Si K_a Ba_a 4_564 . 6_545 90.31(3) ?
+Si K_a Ba_a 4_564 . 6_546 157.16(2) ?
+Si K_a Ba_a 4_564 . 6_555 46.87(2) ?
+Si K_a Ba_a 4_564 . 6_556 103.68(2) ?
+Si K_a O1 4_565 . 1_545 80.76(7) ?
+Si K_a O1 4_565 . 6_546 73.77(7) ?
+Si K_a O1 4_565 . 7_556 98.09(6) ?
+Si K_a O1 4_565 . 4_565 27.71(7) ?
+Si K_a O3 4_565 . 1_544 129.89(7) ?
+Si K_a O3 4_565 . 6_546 117.99(7) ?
+Si K_a O3 4_565 . 7_556 153.01(7) ?
+Si K_a O3 4_565 . 4_564 84.94(6) ?
+Si K_a O4 4_565 . 1_544 130.53(8) ?
+Si K_a O4 4_565 . 1_545 28.78(4) ?
+Si K_a K_a 4_565 . 6_545 156.59(2) ?
+Si K_a K_a 4_565 . 6_546 89.56(3) ?
+Si K_a K_a 4_565 . 6_555 103.50(2) ?
+Si K_a K_a 4_565 . 6_556 46.53(2) ?
+Si K_a Na_a 4_565 . . 0 ?
+Si K_a Ba_a 4_565 . . 0 ?
+Si K_a Ba_a 4_565 . 6_545 156.59(2) ?
+Si K_a Ba_a 4_565 . 6_546 89.56(3) ?
+Si K_a Ba_a 4_565 . 6_555 103.50(2) ?
+Si K_a Ba_a 4_565 . 6_556 46.53(2) ?
+O1 K_a O1 1_545 . 6_546 111.27(10) ?
+O1 K_a O1 1_545 . 7_556 66.46(10) ?
+O1 K_a O1 1_545 . 4_565 108.34(9) ?
+O1 K_a O3 1_545 . 1_544 60.26(9) ?
+O1 K_a O3 1_545 . 6_546 147.22(10) ?
+O1 K_a O3 1_545 . 7_556 94.34(9) ?
+O1 K_a O3 1_545 . 4_564 145.84(11) ?
+O1 K_a O4 1_545 . 1_544 113.80(8) ?
+O1 K_a O4 1_545 . 1_545 55.49(7) ?
+O1 K_a K_a 1_545 . 6_545 75.83(6) ?
+O1 K_a K_a 1_545 . 6_546 34.09(8) ?
+O1 K_a K_a 1_545 . 6_555 175.00(7) ?
+O1 K_a K_a 1_545 . 6_556 113.93(7) ?
+O1 K_a Na_a 1_545 . . 0 ?
+O1 K_a Ba_a 1_545 . . 0 ?
+O1 K_a Ba_a 1_545 . 6_545 75.83(6) ?
+O1 K_a Ba_a 1_545 . 6_546 34.09(8) ?
+O1 K_a Ba_a 1_545 . 6_555 175.00(7) ?
+O1 K_a Ba_a 1_545 . 6_556 113.93(7) ?
+O1 K_a O1 6_546 . 7_556 56.08(9) ?
+O1 K_a O1 6_546 . 4_565 66.46(10) ?
+O1 K_a O3 6_546 . 1_544 146.81(10) ?
+O1 K_a O3 6_546 . 6_546 56.27(9) ?
+O1 K_a O3 6_546 . 7_556 83.59(9) ?
+O1 K_a O3 6_546 . 4_564 93.98(10) ?
+O1 K_a O4 6_546 . 1_544 131.34(9) ?
+O1 K_a O4 6_546 . 1_545 75.41(10) ?
+O1 K_a K_a 6_546 . 6_545 115.01(7) ?
+O1 K_a K_a 6_546 . 6_546 82.57(7) ?
+O1 K_a K_a 6_546 . 6_555 72.74(6) ?
+O1 K_a K_a 6_546 . 6_556 32.37(7) ?
+O1 K_a Na_a 6_546 . . 0 ?
+O1 K_a Ba_a 6_546 . . 0 ?
+O1 K_a Ba_a 6_546 . 6_545 115.01(7) ?
+O1 K_a Ba_a 6_546 . 6_546 82.57(7) ?
+O1 K_a Ba_a 6_546 . 6_555 72.74(6) ?
+O1 K_a Ba_a 6_546 . 6_556 32.37(7) ?
+O1 K_a O1 7_556 . 4_565 111.27(10) ?
+O1 K_a O3 7_556 . 1_544 93.98(10) ?
+O1 K_a O3 7_556 . 6_546 83.59(9) ?
+O1 K_a O3 7_556 . 7_556 56.27(9) ?
+O1 K_a O3 7_556 . 4_564 146.81(10) ?
+O1 K_a O4 7_556 . 1_544 131.34(9) ?
+O1 K_a O4 7_556 . 1_545 75.41(10) ?
+O1 K_a K_a 7_556 . 6_545 72.74(6) ?
+O1 K_a K_a 7_556 . 6_546 32.37(7) ?
+O1 K_a K_a 7_556 . 6_555 115.01(7) ?
+O1 K_a K_a 7_556 . 6_556 82.57(7) ?
+O1 K_a Na_a 7_556 . . 0 ?
+O1 K_a Ba_a 7_556 . . 0 ?
+O1 K_a Ba_a 7_556 . 6_545 72.74(6) ?
+O1 K_a Ba_a 7_556 . 6_546 32.37(7) ?
+O1 K_a Ba_a 7_556 . 6_555 115.01(7) ?
+O1 K_a Ba_a 7_556 . 6_556 82.57(7) ?
+O1 K_a O3 4_565 . 1_544 145.84(11) ?
+O1 K_a O3 4_565 . 6_546 94.34(9) ?
+O1 K_a O3 4_565 . 7_556 147.22(10) ?
+O1 K_a O3 4_565 . 4_564 60.26(9) ?
+O1 K_a O4 4_565 . 1_544 113.80(8) ?
+O1 K_a O4 4_565 . 1_545 55.49(7) ?
+O1 K_a K_a 4_565 . 6_545 175.00(7) ?
+O1 K_a K_a 4_565 . 6_546 113.93(7) ?
+O1 K_a K_a 4_565 . 6_555 75.83(6) ?
+O1 K_a K_a 4_565 . 6_556 34.09(8) ?
+O1 K_a Na_a 4_565 . . 0 ?
+O1 K_a Ba_a 4_565 . . 0 ?
+O1 K_a Ba_a 4_565 . 6_545 175.00(7) ?
+O1 K_a Ba_a 4_565 . 6_546 113.93(7) ?
+O1 K_a Ba_a 4_565 . 6_555 75.83(6) ?
+O1 K_a Ba_a 4_565 . 6_556 34.09(8) ?
+O3 K_a O3 1_544 . 6_546 111.59(9) ?
+O3 K_a O3 1_544 . 7_556 66.28(10) ?
+O3 K_a O3 1_544 . 4_564 109.41(10) ?
+O3 K_a O4 1_544 . 1_544 55.94(7) ?
+O3 K_a O4 1_544 . 1_545 113.61(8) ?
+O3 K_a K_a 1_544 . 6_545 33.81(7) ?
+O3 K_a K_a 1_544 . 6_546 75.69(7) ?
+O3 K_a K_a 1_544 . 6_555 114.74(6) ?
+O3 K_a K_a 1_544 . 6_556 174.16(6) ?
+O3 K_a Na_a 1_544 . . 0 ?
+O3 K_a Ba_a 1_544 . . 0 ?
+O3 K_a Ba_a 1_544 . 6_545 33.81(7) ?
+O3 K_a Ba_a 1_544 . 6_546 75.69(7) ?
+O3 K_a Ba_a 1_544 . 6_555 114.74(6) ?
+O3 K_a Ba_a 1_544 . 6_556 174.16(6) ?
+O3 K_a O3 6_546 . 7_556 56.30(9) ?
+O3 K_a O3 6_546 . 4_564 66.28(10) ?
+O3 K_a O4 6_546 . 1_544 75.78(10) ?
+O3 K_a O4 6_546 . 1_545 130.97(10) ?
+O3 K_a K_a 6_546 . 6_545 83.02(6) ?
+O3 K_a K_a 6_546 . 6_546 115.01(7) ?
+O3 K_a K_a 6_546 . 6_555 32.47(7) ?
+O3 K_a K_a 6_546 . 6_556 72.83(6) ?
+O3 K_a Na_a 6_546 . . 0 ?
+O3 K_a Ba_a 6_546 . . 0 ?
+O3 K_a Ba_a 6_546 . 6_545 83.02(6) ?
+O3 K_a Ba_a 6_546 . 6_546 115.01(7) ?
+O3 K_a Ba_a 6_546 . 6_555 32.47(7) ?
+O3 K_a Ba_a 6_546 . 6_556 72.83(6) ?
+O3 K_a O3 7_556 . 4_564 111.59(9) ?
+O3 K_a O4 7_556 . 1_544 75.78(10) ?
+O3 K_a O4 7_556 . 1_545 130.97(10) ?
+O3 K_a K_a 7_556 . 6_545 32.47(7) ?
+O3 K_a K_a 7_556 . 6_546 72.83(6) ?
+O3 K_a K_a 7_556 . 6_555 83.02(6) ?
+O3 K_a K_a 7_556 . 6_556 115.01(7) ?
+O3 K_a Na_a 7_556 . . 0 ?
+O3 K_a Ba_a 7_556 . . 0 ?
+O3 K_a Ba_a 7_556 . 6_545 32.47(7) ?
+O3 K_a Ba_a 7_556 . 6_546 72.83(6) ?
+O3 K_a Ba_a 7_556 . 6_555 83.02(6) ?
+O3 K_a Ba_a 7_556 . 6_556 115.01(7) ?
+O3 K_a O4 4_564 . 1_544 55.94(7) ?
+O3 K_a O4 4_564 . 1_545 113.61(8) ?
+O3 K_a K_a 4_564 . 6_545 114.74(6) ?
+O3 K_a K_a 4_564 . 6_546 174.16(6) ?
+O3 K_a K_a 4_564 . 6_555 33.81(7) ?
+O3 K_a K_a 4_564 . 6_556 75.69(7) ?
+O3 K_a Na_a 4_564 . . 0 ?
+O3 K_a Ba_a 4_564 . . 0 ?
+O3 K_a Ba_a 4_564 . 6_545 114.74(6) ?
+O3 K_a Ba_a 4_564 . 6_546 174.16(6) ?
+O3 K_a Ba_a 4_564 . 6_555 33.81(7) ?
+O3 K_a Ba_a 4_564 . 6_556 75.69(7) ?
+O4 K_a O4 1_544 . 1_545 148.13(14) ?
+O4 K_a K_a 1_544 . 6_545 61.47(5) ?
+O4 K_a K_a 1_544 . 6_546 129.753(16) ?
+O4 K_a K_a 1_544 . 6_555 61.47(5) ?
+O4 K_a K_a 1_544 . 6_556 129.753(16) ?
+O4 K_a Na_a 1_544 . . 0 ?
+O4 K_a Ba_a 1_544 . . 0 ?
+O4 K_a Ba_a 1_544 . 6_545 61.47(5) ?
+O4 K_a Ba_a 1_544 . 6_546 129.753(16) ?
+O4 K_a Ba_a 1_544 . 6_555 61.47(5) ?
+O4 K_a Ba_a 1_544 . 6_556 129.753(16) ?
+O4 K_a K_a 1_545 . 6_545 129.301(18) ?
+O4 K_a K_a 1_545 . 6_546 60.99(5) ?
+O4 K_a K_a 1_545 . 6_555 129.301(18) ?
+O4 K_a K_a 1_545 . 6_556 60.99(5) ?
+O4 K_a Na_a 1_545 . . 0 ?
+O4 K_a Ba_a 1_545 . . 0 ?
+O4 K_a Ba_a 1_545 . 6_545 129.301(18) ?
+O4 K_a Ba_a 1_545 . 6_546 60.99(5) ?
+O4 K_a Ba_a 1_545 . 6_555 129.301(18) ?
+O4 K_a Ba_a 1_545 . 6_556 60.99(5) ?
+K_a K_a K_a 6_545 . 6_546 71.070(13) ?
+K_a K_a K_a 6_545 . 6_555 99.879(17) ?
+K_a K_a K_a 6_545 . 6_556 147.17(2) ?
+K_a K_a Na_a 6_545 . . 0 ?
+K_a K_a Ba_a 6_545 . . 0 ?
+K_a K_a Ba_a 6_545 . 6_545 0.0(5) ?
+K_a K_a Ba_a 6_545 . 6_546 71.070(13) ?
+K_a K_a Ba_a 6_545 . 6_555 99.879(17) ?
+K_a K_a Ba_a 6_545 . 6_556 147.17(2) ?
+K_a K_a K_a 6_546 . 6_555 147.17(2) ?
+K_a K_a K_a 6_546 . 6_556 99.082(18) ?
+K_a K_a Na_a 6_546 . . 0 ?
+K_a K_a Ba_a 6_546 . . 0 ?
+K_a K_a Ba_a 6_546 . 6_545 71.070(13) ?
+K_a K_a Ba_a 6_546 . 6_546 0.0(5) ?
+K_a K_a Ba_a 6_546 . 6_555 147.17(2) ?
+K_a K_a Ba_a 6_546 . 6_556 99.082(18) ?
+K_a K_a K_a 6_555 . 6_556 71.070(13) ?
+K_a K_a Na_a 6_555 . . 0 ?
+K_a K_a Ba_a 6_555 . . 0 ?
+K_a K_a Ba_a 6_555 . 6_545 99.879(17) ?
+K_a K_a Ba_a 6_555 . 6_546 147.17(2) ?
+K_a K_a Ba_a 6_555 . 6_555 0.0(5) ?
+K_a K_a Ba_a 6_555 . 6_556 71.070(13) ?
+K_a K_a Na_a 6_556 . . 0 ?
+K_a K_a Ba_a 6_556 . . 0 ?
+K_a K_a Ba_a 6_556 . 6_545 147.17(2) ?
+K_a K_a Ba_a 6_556 . 6_546 99.082(18) ?
+K_a K_a Ba_a 6_556 . 6_555 71.070(13) ?
+K_a K_a Ba_a 6_556 . 6_556 0.0(5) ?
+Na_a K_a Ba_a . . . 0 ?
+Na_a K_a Ba_a . . 6_545 0 ?
+Na_a K_a Ba_a . . 6_546 0 ?
+Na_a K_a Ba_a . . 6_555 0 ?
+Na_a K_a Ba_a . . 6_556 0 ?
+Ba_a K_a Ba_a . . 6_545 0 ?
+Ba_a K_a Ba_a . . 6_546 0 ?
+Ba_a K_a Ba_a . . 6_555 0 ?
+Ba_a K_a Ba_a . . 6_556 0 ?
+Ba_a K_a Ba_a 6_545 . 6_546 71.070(13) ?
+Ba_a K_a Ba_a 6_545 . 6_555 99.879(17) ?
+Ba_a K_a Ba_a 6_545 . 6_556 147.17(2) ?
+Ba_a K_a Ba_a 6_546 . 6_555 147.17(2) ?
+Ba_a K_a Ba_a 6_546 . 6_556 99.082(18) ?
+Ba_a K_a Ba_a 6_555 . 6_556 71.070(13) ?
+Sr_a Na_a K_a . . . 0 ?
+Sr_a Na_a Ba_a . . . 0 ?
+K_a Na_a Ba_a . . . 0 ?
+Sr_a Ba_a Ti_l . . 1_545 0 ?
+Sr_a Ba_a Ti_l . . . 0 ?
+Sr_a Ba_a Ti_l . . 6_545 0 ?
+Sr_a Ba_a Ti_l . . 6_546 0 ?
+Sr_a Ba_a Si . . 1_544 0 ?
+Sr_a Ba_a Si . . 1_545 0 ?
+Sr_a Ba_a Si . . 6_546 0 ?
+Sr_a Ba_a Si . . 7_556 0 ?
+Sr_a Ba_a Si . . 4_564 0 ?
+Sr_a Ba_a Si . . 4_565 0 ?
+Sr_a Ba_a O1 . . 1_545 0 ?
+Sr_a Ba_a O1 . . 6_546 0 ?
+Sr_a Ba_a O1 . . 7_556 0 ?
+Sr_a Ba_a O1 . . 4_565 0 ?
+Sr_a Ba_a O3 . . 1_544 0 ?
+Sr_a Ba_a O3 . . 6_546 0 ?
+Sr_a Ba_a O3 . . 7_556 0 ?
+Sr_a Ba_a O3 . . 4_564 0 ?
+Sr_a Ba_a O4 . . 1_544 0 ?
+Sr_a Ba_a O4 . . 1_545 0 ?
+Sr_a Ba_a K_a . . . 0 ?
+Sr_a Ba_a K_a . . 6_545 0 ?
+Sr_a Ba_a K_a . . 6_546 0 ?
+Sr_a Ba_a K_a . . 6_555 0 ?
+Sr_a Ba_a K_a . . 6_556 0 ?
+Sr_a Ba_a Na_a . . . 0 ?
+Sr_a Ba_a Ba_a . . 6_545 0 ?
+Sr_a Ba_a Ba_a . . 6_546 0 ?
+Sr_a Ba_a Ba_a . . 6_555 0 ?
+Sr_a Ba_a Ba_a . . 6_556 0 ?
+Ti_l Ba_a Ti_l 1_545 . . 140.56(3) ?
+Ti_l Ba_a Ti_l 1_545 . 6_545 103.680(18) ?
+Ti_l Ba_a Ti_l 1_545 . 6_546 103.30(2) ?
+Ti_l Ba_a Si 1_545 . 1_544 55.89(3) ?
+Ti_l Ba_a Si 1_545 . 1_545 55.73(2) ?
+Ti_l Ba_a Si 1_545 . 6_546 146.23(3) ?
+Ti_l Ba_a Si 1_545 . 7_556 73.20(3) ?
+Ti_l Ba_a Si 1_545 . 4_564 106.66(3) ?
+Ti_l Ba_a Si 1_545 . 4_565 106.17(3) ?
+Ti_l Ba_a O1 1_545 . 1_545 30.08(7) ?
+Ti_l Ba_a O1 1_545 . 6_546 133.77(7) ?
+Ti_l Ba_a O1 1_545 . 7_556 78.86(7) ?
+Ti_l Ba_a O1 1_545 . 4_565 131.38(7) ?
+Ti_l Ba_a O3 1_545 . 1_544 30.19(6) ?
+Ti_l Ba_a O3 1_545 . 6_546 134.26(7) ?
+Ti_l Ba_a O3 1_545 . 7_556 79.03(7) ?
+Ti_l Ba_a O3 1_545 . 4_564 132.24(8) ?
+Ti_l Ba_a O4 1_545 . 1_544 84.90(4) ?
+Ti_l Ba_a O4 1_545 . 1_545 84.47(4) ?
+Ti_l Ba_a K_a 1_545 . . 0 ?
+Ti_l Ba_a K_a 1_545 . 6_545 51.496(17) ?
+Ti_l Ba_a K_a 1_545 . 6_546 51.427(19) ?
+Ti_l Ba_a K_a 1_545 . 6_555 144.92(2) ?
+Ti_l Ba_a K_a 1_545 . 6_556 144.00(2) ?
+Ti_l Ba_a Na_a 1_545 . . 0 ?
+Ti_l Ba_a Ba_a 1_545 . 6_545 51.496(17) ?
+Ti_l Ba_a Ba_a 1_545 . 6_546 51.427(19) ?
+Ti_l Ba_a Ba_a 1_545 . 6_555 144.92(2) ?
+Ti_l Ba_a Ba_a 1_545 . 6_556 144.00(2) ?
+Ti_l Ba_a Ti_l . . 6_545 103.680(18) ?
+Ti_l Ba_a Ti_l . . 6_546 103.30(2) ?
+Ti_l Ba_a Si . . 1_544 106.66(3) ?
+Ti_l Ba_a Si . . 1_545 106.17(3) ?
+Ti_l Ba_a Si . . 6_546 73.20(3) ?
+Ti_l Ba_a Si . . 7_556 146.23(3) ?
+Ti_l Ba_a Si . . 4_564 55.89(3) ?
+Ti_l Ba_a Si . . 4_565 55.73(2) ?
+Ti_l Ba_a O1 . . 1_545 131.38(7) ?
+Ti_l Ba_a O1 . . 6_546 78.86(7) ?
+Ti_l Ba_a O1 . . 7_556 133.77(7) ?
+Ti_l Ba_a O1 . . 4_565 30.08(7) ?
+Ti_l Ba_a O3 . . 1_544 132.24(8) ?
+Ti_l Ba_a O3 . . 6_546 79.03(7) ?
+Ti_l Ba_a O3 . . 7_556 134.26(7) ?
+Ti_l Ba_a O3 . . 4_564 30.19(6) ?
+Ti_l Ba_a O4 . . 1_544 84.90(4) ?
+Ti_l Ba_a O4 . . 1_545 84.47(4) ?
+Ti_l Ba_a K_a . . . 0 ?
+Ti_l Ba_a K_a . . 6_545 144.92(2) ?
+Ti_l Ba_a K_a . . 6_546 144.00(2) ?
+Ti_l Ba_a K_a . . 6_555 51.496(17) ?
+Ti_l Ba_a K_a . . 6_556 51.427(19) ?
+Ti_l Ba_a Na_a . . . 0 ?
+Ti_l Ba_a Ba_a . . 6_545 144.92(2) ?
+Ti_l Ba_a Ba_a . . 6_546 144.00(2) ?
+Ti_l Ba_a Ba_a . . 6_555 51.496(17) ?
+Ti_l Ba_a Ba_a . . 6_556 51.427(19) ?
+Ti_l Ba_a Ti_l 6_545 . 6_546 92.53(3) ?
+Ti_l Ba_a Si 6_545 . 1_544 73.58(3) ?
+Ti_l Ba_a Si 6_545 . 1_545 149.12(3) ?
+Ti_l Ba_a Si 6_545 . 6_546 56.31(2) ?
+Ti_l Ba_a Si 6_545 . 7_556 56.31(2) ?
+Ti_l Ba_a Si 6_545 . 4_564 73.58(3) ?
+Ti_l Ba_a Si 6_545 . 4_565 149.12(3) ?
+Ti_l Ba_a O1 6_545 . 1_545 124.72(7) ?
+Ti_l Ba_a O1 6_545 . 6_546 80.02(6) ?
+Ti_l Ba_a O1 6_545 . 7_556 80.02(6) ?
+Ti_l Ba_a O1 6_545 . 4_565 124.72(7) ?
+Ti_l Ba_a O3 6_545 . 1_544 80.85(6) ?
+Ti_l Ba_a O3 6_545 . 6_546 31.20(6) ?
+Ti_l Ba_a O3 6_545 . 7_556 31.20(6) ?
+Ti_l Ba_a O3 6_545 . 4_564 80.85(6) ?
+Ti_l Ba_a O4 6_545 . 1_544 59.78(9) ?
+Ti_l Ba_a O4 6_545 . 1_545 152.09(10) ?
+Ti_l Ba_a K_a 6_545 . . 0 ?
+Ti_l Ba_a K_a 6_545 . 6_545 52.184(11) ?
+Ti_l Ba_a K_a 6_545 . 6_546 103.10(2) ?
+Ti_l Ba_a K_a 6_545 . 6_555 52.184(11) ?
+Ti_l Ba_a K_a 6_545 . 6_556 103.10(2) ?
+Ti_l Ba_a Na_a 6_545 . . 0 ?
+Ti_l Ba_a Ba_a 6_545 . 6_545 52.184(11) ?
+Ti_l Ba_a Ba_a 6_545 . 6_546 103.10(2) ?
+Ti_l Ba_a Ba_a 6_545 . 6_555 52.184(11) ?
+Ti_l Ba_a Ba_a 6_545 . 6_556 103.10(2) ?
+Ti_l Ba_a Si 6_546 . 1_544 149.17(3) ?
+Ti_l Ba_a Si 6_546 . 1_545 73.15(3) ?
+Ti_l Ba_a Si 6_546 . 6_546 56.19(3) ?
+Ti_l Ba_a Si 6_546 . 7_556 56.19(3) ?
+Ti_l Ba_a Si 6_546 . 4_564 149.17(3) ?
+Ti_l Ba_a Si 6_546 . 4_565 73.15(3) ?
+Ti_l Ba_a O1 6_546 . 1_545 80.78(8) ?
+Ti_l Ba_a O1 6_546 . 6_546 31.03(6) ?
+Ti_l Ba_a O1 6_546 . 7_556 31.03(6) ?
+Ti_l Ba_a O1 6_546 . 4_565 80.78(8) ?
+Ti_l Ba_a O3 6_546 . 1_544 124.19(7) ?
+Ti_l Ba_a O3 6_546 . 6_546 79.86(7) ?
+Ti_l Ba_a O3 6_546 . 7_556 79.86(7) ?
+Ti_l Ba_a O3 6_546 . 4_564 124.19(7) ?
+Ti_l Ba_a O4 6_546 . 1_544 152.31(10) ?
+Ti_l Ba_a O4 6_546 . 1_545 59.55(10) ?
+Ti_l Ba_a K_a 6_546 . . 0 ?
+Ti_l Ba_a K_a 6_546 . 6_545 102.860(19) ?
+Ti_l Ba_a K_a 6_546 . 6_546 51.869(12) ?
+Ti_l Ba_a K_a 6_546 . 6_555 102.860(19) ?
+Ti_l Ba_a K_a 6_546 . 6_556 51.869(12) ?
+Ti_l Ba_a Na_a 6_546 . . 0 ?
+Ti_l Ba_a Ba_a 6_546 . 6_545 102.860(19) ?
+Ti_l Ba_a Ba_a 6_546 . 6_546 51.869(12) ?
+Ti_l Ba_a Ba_a 6_546 . 6_555 102.860(19) ?
+Ti_l Ba_a Ba_a 6_546 . 6_556 51.869(12) ?
+Si Ba_a Si 1_544 . 1_545 104.77(3) ?
+Si Ba_a Si 1_544 . 6_546 127.13(3) ?
+Si Ba_a Si 1_544 . 7_556 93.89(3) ?
+Si Ba_a Si 1_544 . 4_564 53.51(3) ?
+Si Ba_a Si 1_544 . 4_565 131.10(4) ?
+Si Ba_a O1 1_544 . 1_545 84.87(7) ?
+Si Ba_a O1 1_544 . 6_546 153.59(7) ?
+Si Ba_a O1 1_544 . 7_556 118.19(7) ?
+Si Ba_a O1 1_544 . 4_565 129.83(8) ?
+Si Ba_a O3 1_544 . 1_544 28.01(7) ?
+Si Ba_a O3 1_544 . 6_546 98.73(7) ?
+Si Ba_a O3 1_544 . 7_556 74.16(7) ?
+Si Ba_a O3 1_544 . 4_564 81.49(7) ?
+Si Ba_a O4 1_544 . 1_544 29.05(4) ?
+Si Ba_a O4 1_544 . 1_545 130.26(8) ?
+Si Ba_a K_a 1_544 . . 0 ?
+Si Ba_a K_a 1_544 . 6_545 46.87(2) ?
+Si Ba_a K_a 1_544 . 6_546 103.68(2) ?
+Si Ba_a K_a 1_544 . 6_555 90.31(3) ?
+Si Ba_a K_a 1_544 . 6_556 157.16(2) ?
+Si Ba_a Na_a 1_544 . . 0 ?
+Si Ba_a Ba_a 1_544 . 6_545 46.87(2) ?
+Si Ba_a Ba_a 1_544 . 6_546 103.68(2) ?
+Si Ba_a Ba_a 1_544 . 6_555 90.31(3) ?
+Si Ba_a Ba_a 1_544 . 6_556 157.16(2) ?
+Si Ba_a Si 1_545 . 6_546 126.55(4) ?
+Si Ba_a Si 1_545 . 7_556 93.64(3) ?
+Si Ba_a Si 1_545 . 4_564 131.10(4) ?
+Si Ba_a Si 1_545 . 4_565 53.10(3) ?
+Si Ba_a O1 1_545 . 1_545 27.71(7) ?
+Si Ba_a O1 1_545 . 6_546 98.09(6) ?
+Si Ba_a O1 1_545 . 7_556 73.77(7) ?
+Si Ba_a O1 1_545 . 4_565 80.76(7) ?
+Si Ba_a O3 1_545 . 1_544 84.94(6) ?
+Si Ba_a O3 1_545 . 6_546 153.01(7) ?
+Si Ba_a O3 1_545 . 7_556 117.99(7) ?
+Si Ba_a O3 1_545 . 4_564 129.89(7) ?
+Si Ba_a O4 1_545 . 1_544 130.53(8) ?
+Si Ba_a O4 1_545 . 1_545 28.78(4) ?
+Si Ba_a K_a 1_545 . . 0 ?
+Si Ba_a K_a 1_545 . 6_545 103.50(2) ?
+Si Ba_a K_a 1_545 . 6_546 46.53(2) ?
+Si Ba_a K_a 1_545 . 6_555 156.59(2) ?
+Si Ba_a K_a 1_545 . 6_556 89.56(3) ?
+Si Ba_a Na_a 1_545 . . 0 ?
+Si Ba_a Ba_a 1_545 . 6_545 103.50(2) ?
+Si Ba_a Ba_a 1_545 . 6_546 46.53(2) ?
+Si Ba_a Ba_a 1_545 . 6_555 156.59(2) ?
+Si Ba_a Ba_a 1_545 . 6_556 89.56(3) ?
+Si Ba_a Si 6_546 . 7_556 73.03(3) ?
+Si Ba_a Si 6_546 . 4_564 93.89(3) ?
+Si Ba_a Si 6_546 . 4_565 93.64(3) ?
+Si Ba_a O1 6_546 . 1_545 136.03(8) ?
+Si Ba_a O1 6_546 . 6_546 28.46(6) ?
+Si Ba_a O1 6_546 . 7_556 71.35(7) ?
+Si Ba_a O1 6_546 . 4_565 75.81(8) ?
+Si Ba_a O3 6_546 . 1_544 136.09(7) ?
+Si Ba_a O3 6_546 . 6_546 28.40(7) ?
+Si Ba_a O3 6_546 . 7_556 71.44(7) ?
+Si Ba_a O3 6_546 . 4_564 75.47(7) ?
+Si Ba_a O4 6_546 . 1_544 102.90(8) ?
+Si Ba_a O4 6_546 . 1_545 102.59(8) ?
+Si Ba_a K_a 6_546 . . 0 ?
+Si Ba_a K_a 6_546 . 6_545 103.24(3) ?
+Si Ba_a K_a 6_546 . 6_546 102.99(3) ?
+Si Ba_a K_a 6_546 . 6_555 47.02(2) ?
+Si Ba_a K_a 6_546 . 6_556 47.11(2) ?
+Si Ba_a Na_a 6_546 . . 0 ?
+Si Ba_a Ba_a 6_546 . 6_545 103.24(3) ?
+Si Ba_a Ba_a 6_546 . 6_546 102.99(3) ?
+Si Ba_a Ba_a 6_546 . 6_555 47.02(2) ?
+Si Ba_a Ba_a 6_546 . 6_556 47.11(2) ?
+Si Ba_a Si 7_556 . 4_564 127.13(3) ?
+Si Ba_a Si 7_556 . 4_565 126.55(4) ?
+Si Ba_a O1 7_556 . 1_545 75.81(8) ?
+Si Ba_a O1 7_556 . 6_546 71.35(7) ?
+Si Ba_a O1 7_556 . 7_556 28.46(6) ?
+Si Ba_a O1 7_556 . 4_565 136.03(8) ?
+Si Ba_a O3 7_556 . 1_544 75.47(7) ?
+Si Ba_a O3 7_556 . 6_546 71.44(7) ?
+Si Ba_a O3 7_556 . 7_556 28.40(7) ?
+Si Ba_a O3 7_556 . 4_564 136.09(7) ?
+Si Ba_a O4 7_556 . 1_544 102.90(8) ?
+Si Ba_a O4 7_556 . 1_545 102.59(8) ?
+Si Ba_a K_a 7_556 . . 0 ?
+Si Ba_a K_a 7_556 . 6_545 47.02(2) ?
+Si Ba_a K_a 7_556 . 6_546 47.11(2) ?
+Si Ba_a K_a 7_556 . 6_555 103.24(3) ?
+Si Ba_a K_a 7_556 . 6_556 102.99(3) ?
+Si Ba_a Na_a 7_556 . . 0 ?
+Si Ba_a Ba_a 7_556 . 6_545 47.02(2) ?
+Si Ba_a Ba_a 7_556 . 6_546 47.11(2) ?
+Si Ba_a Ba_a 7_556 . 6_555 103.24(3) ?
+Si Ba_a Ba_a 7_556 . 6_556 102.99(3) ?
+Si Ba_a Si 4_564 . 4_565 104.77(3) ?
+Si Ba_a O1 4_564 . 1_545 129.83(8) ?
+Si Ba_a O1 4_564 . 6_546 118.19(7) ?
+Si Ba_a O1 4_564 . 7_556 153.59(7) ?
+Si Ba_a O1 4_564 . 4_565 84.87(7) ?
+Si Ba_a O3 4_564 . 1_544 81.49(7) ?
+Si Ba_a O3 4_564 . 6_546 74.16(7) ?
+Si Ba_a O3 4_564 . 7_556 98.73(7) ?
+Si Ba_a O3 4_564 . 4_564 28.01(7) ?
+Si Ba_a O4 4_564 . 1_544 29.05(4) ?
+Si Ba_a O4 4_564 . 1_545 130.26(8) ?
+Si Ba_a K_a 4_564 . . 0 ?
+Si Ba_a K_a 4_564 . 6_545 90.31(3) ?
+Si Ba_a K_a 4_564 . 6_546 157.16(2) ?
+Si Ba_a K_a 4_564 . 6_555 46.87(2) ?
+Si Ba_a K_a 4_564 . 6_556 103.68(2) ?
+Si Ba_a Na_a 4_564 . . 0 ?
+Si Ba_a Ba_a 4_564 . 6_545 90.31(3) ?
+Si Ba_a Ba_a 4_564 . 6_546 157.16(2) ?
+Si Ba_a Ba_a 4_564 . 6_555 46.87(2) ?
+Si Ba_a Ba_a 4_564 . 6_556 103.68(2) ?
+Si Ba_a O1 4_565 . 1_545 80.76(7) ?
+Si Ba_a O1 4_565 . 6_546 73.77(7) ?
+Si Ba_a O1 4_565 . 7_556 98.09(6) ?
+Si Ba_a O1 4_565 . 4_565 27.71(7) ?
+Si Ba_a O3 4_565 . 1_544 129.89(7) ?
+Si Ba_a O3 4_565 . 6_546 117.99(7) ?
+Si Ba_a O3 4_565 . 7_556 153.01(7) ?
+Si Ba_a O3 4_565 . 4_564 84.94(6) ?
+Si Ba_a O4 4_565 . 1_544 130.53(8) ?
+Si Ba_a O4 4_565 . 1_545 28.78(4) ?
+Si Ba_a K_a 4_565 . . 0 ?
+Si Ba_a K_a 4_565 . 6_545 156.59(2) ?
+Si Ba_a K_a 4_565 . 6_546 89.56(3) ?
+Si Ba_a K_a 4_565 . 6_555 103.50(2) ?
+Si Ba_a K_a 4_565 . 6_556 46.53(2) ?
+Si Ba_a Na_a 4_565 . . 0 ?
+Si Ba_a Ba_a 4_565 . 6_545 156.59(2) ?
+Si Ba_a Ba_a 4_565 . 6_546 89.56(3) ?
+Si Ba_a Ba_a 4_565 . 6_555 103.50(2) ?
+Si Ba_a Ba_a 4_565 . 6_556 46.53(2) ?
+O1 Ba_a O1 1_545 . 6_546 111.27(10) ?
+O1 Ba_a O1 1_545 . 7_556 66.46(10) ?
+O1 Ba_a O1 1_545 . 4_565 108.34(9) ?
+O1 Ba_a O3 1_545 . 1_544 60.26(9) ?
+O1 Ba_a O3 1_545 . 6_546 147.22(10) ?
+O1 Ba_a O3 1_545 . 7_556 94.34(9) ?
+O1 Ba_a O3 1_545 . 4_564 145.84(11) ?
+O1 Ba_a O4 1_545 . 1_544 113.80(8) ?
+O1 Ba_a O4 1_545 . 1_545 55.49(7) ?
+O1 Ba_a K_a 1_545 . . 0 ?
+O1 Ba_a K_a 1_545 . 6_545 75.83(6) ?
+O1 Ba_a K_a 1_545 . 6_546 34.09(8) ?
+O1 Ba_a K_a 1_545 . 6_555 175.00(7) ?
+O1 Ba_a K_a 1_545 . 6_556 113.93(7) ?
+O1 Ba_a Na_a 1_545 . . 0 ?
+O1 Ba_a Ba_a 1_545 . 6_545 75.83(6) ?
+O1 Ba_a Ba_a 1_545 . 6_546 34.09(8) ?
+O1 Ba_a Ba_a 1_545 . 6_555 175.00(7) ?
+O1 Ba_a Ba_a 1_545 . 6_556 113.93(7) ?
+O1 Ba_a O1 6_546 . 7_556 56.08(9) ?
+O1 Ba_a O1 6_546 . 4_565 66.46(10) ?
+O1 Ba_a O3 6_546 . 1_544 146.81(10) ?
+O1 Ba_a O3 6_546 . 6_546 56.27(9) ?
+O1 Ba_a O3 6_546 . 7_556 83.59(9) ?
+O1 Ba_a O3 6_546 . 4_564 93.98(10) ?
+O1 Ba_a O4 6_546 . 1_544 131.34(9) ?
+O1 Ba_a O4 6_546 . 1_545 75.41(10) ?
+O1 Ba_a K_a 6_546 . . 0 ?
+O1 Ba_a K_a 6_546 . 6_545 115.01(7) ?
+O1 Ba_a K_a 6_546 . 6_546 82.57(7) ?
+O1 Ba_a K_a 6_546 . 6_555 72.74(6) ?
+O1 Ba_a K_a 6_546 . 6_556 32.37(7) ?
+O1 Ba_a Na_a 6_546 . . 0 ?
+O1 Ba_a Ba_a 6_546 . 6_545 115.01(7) ?
+O1 Ba_a Ba_a 6_546 . 6_546 82.57(7) ?
+O1 Ba_a Ba_a 6_546 . 6_555 72.74(6) ?
+O1 Ba_a Ba_a 6_546 . 6_556 32.37(7) ?
+O1 Ba_a O1 7_556 . 4_565 111.27(10) ?
+O1 Ba_a O3 7_556 . 1_544 93.98(10) ?
+O1 Ba_a O3 7_556 . 6_546 83.59(9) ?
+O1 Ba_a O3 7_556 . 7_556 56.27(9) ?
+O1 Ba_a O3 7_556 . 4_564 146.81(10) ?
+O1 Ba_a O4 7_556 . 1_544 131.34(9) ?
+O1 Ba_a O4 7_556 . 1_545 75.41(10) ?
+O1 Ba_a K_a 7_556 . . 0 ?
+O1 Ba_a K_a 7_556 . 6_545 72.74(6) ?
+O1 Ba_a K_a 7_556 . 6_546 32.37(7) ?
+O1 Ba_a K_a 7_556 . 6_555 115.01(7) ?
+O1 Ba_a K_a 7_556 . 6_556 82.57(7) ?
+O1 Ba_a Na_a 7_556 . . 0 ?
+O1 Ba_a Ba_a 7_556 . 6_545 72.74(6) ?
+O1 Ba_a Ba_a 7_556 . 6_546 32.37(7) ?
+O1 Ba_a Ba_a 7_556 . 6_555 115.01(7) ?
+O1 Ba_a Ba_a 7_556 . 6_556 82.57(7) ?
+O1 Ba_a O3 4_565 . 1_544 145.84(11) ?
+O1 Ba_a O3 4_565 . 6_546 94.34(9) ?
+O1 Ba_a O3 4_565 . 7_556 147.22(10) ?
+O1 Ba_a O3 4_565 . 4_564 60.26(9) ?
+O1 Ba_a O4 4_565 . 1_544 113.80(8) ?
+O1 Ba_a O4 4_565 . 1_545 55.49(7) ?
+O1 Ba_a K_a 4_565 . . 0 ?
+O1 Ba_a K_a 4_565 . 6_545 175.00(7) ?
+O1 Ba_a K_a 4_565 . 6_546 113.93(7) ?
+O1 Ba_a K_a 4_565 . 6_555 75.83(6) ?
+O1 Ba_a K_a 4_565 . 6_556 34.09(8) ?
+O1 Ba_a Na_a 4_565 . . 0 ?
+O1 Ba_a Ba_a 4_565 . 6_545 175.00(7) ?
+O1 Ba_a Ba_a 4_565 . 6_546 113.93(7) ?
+O1 Ba_a Ba_a 4_565 . 6_555 75.83(6) ?
+O1 Ba_a Ba_a 4_565 . 6_556 34.09(8) ?
+O3 Ba_a O3 1_544 . 6_546 111.59(9) ?
+O3 Ba_a O3 1_544 . 7_556 66.28(10) ?
+O3 Ba_a O3 1_544 . 4_564 109.41(10) ?
+O3 Ba_a O4 1_544 . 1_544 55.94(7) ?
+O3 Ba_a O4 1_544 . 1_545 113.61(8) ?
+O3 Ba_a K_a 1_544 . . 0 ?
+O3 Ba_a K_a 1_544 . 6_545 33.81(7) ?
+O3 Ba_a K_a 1_544 . 6_546 75.69(7) ?
+O3 Ba_a K_a 1_544 . 6_555 114.74(6) ?
+O3 Ba_a K_a 1_544 . 6_556 174.16(6) ?
+O3 Ba_a Na_a 1_544 . . 0 ?
+O3 Ba_a Ba_a 1_544 . 6_545 33.81(7) ?
+O3 Ba_a Ba_a 1_544 . 6_546 75.69(7) ?
+O3 Ba_a Ba_a 1_544 . 6_555 114.74(6) ?
+O3 Ba_a Ba_a 1_544 . 6_556 174.16(6) ?
+O3 Ba_a O3 6_546 . 7_556 56.30(9) ?
+O3 Ba_a O3 6_546 . 4_564 66.28(10) ?
+O3 Ba_a O4 6_546 . 1_544 75.78(10) ?
+O3 Ba_a O4 6_546 . 1_545 130.97(10) ?
+O3 Ba_a K_a 6_546 . . 0 ?
+O3 Ba_a K_a 6_546 . 6_545 83.02(6) ?
+O3 Ba_a K_a 6_546 . 6_546 115.01(7) ?
+O3 Ba_a K_a 6_546 . 6_555 32.47(7) ?
+O3 Ba_a K_a 6_546 . 6_556 72.83(6) ?
+O3 Ba_a Na_a 6_546 . . 0 ?
+O3 Ba_a Ba_a 6_546 . 6_545 83.02(6) ?
+O3 Ba_a Ba_a 6_546 . 6_546 115.01(7) ?
+O3 Ba_a Ba_a 6_546 . 6_555 32.47(7) ?
+O3 Ba_a Ba_a 6_546 . 6_556 72.83(6) ?
+O3 Ba_a O3 7_556 . 4_564 111.59(9) ?
+O3 Ba_a O4 7_556 . 1_544 75.78(10) ?
+O3 Ba_a O4 7_556 . 1_545 130.97(10) ?
+O3 Ba_a K_a 7_556 . . 0 ?
+O3 Ba_a K_a 7_556 . 6_545 32.47(7) ?
+O3 Ba_a K_a 7_556 . 6_546 72.83(6) ?
+O3 Ba_a K_a 7_556 . 6_555 83.02(6) ?
+O3 Ba_a K_a 7_556 . 6_556 115.01(7) ?
+O3 Ba_a Na_a 7_556 . . 0 ?
+O3 Ba_a Ba_a 7_556 . 6_545 32.47(7) ?
+O3 Ba_a Ba_a 7_556 . 6_546 72.83(6) ?
+O3 Ba_a Ba_a 7_556 . 6_555 83.02(6) ?
+O3 Ba_a Ba_a 7_556 . 6_556 115.01(7) ?
+O3 Ba_a O4 4_564 . 1_544 55.94(7) ?
+O3 Ba_a O4 4_564 . 1_545 113.61(8) ?
+O3 Ba_a K_a 4_564 . . 0 ?
+O3 Ba_a K_a 4_564 . 6_545 114.74(6) ?
+O3 Ba_a K_a 4_564 . 6_546 174.16(6) ?
+O3 Ba_a K_a 4_564 . 6_555 33.81(7) ?
+O3 Ba_a K_a 4_564 . 6_556 75.69(7) ?
+O3 Ba_a Na_a 4_564 . . 0 ?
+O3 Ba_a Ba_a 4_564 . 6_545 114.74(6) ?
+O3 Ba_a Ba_a 4_564 . 6_546 174.16(6) ?
+O3 Ba_a Ba_a 4_564 . 6_555 33.81(7) ?
+O3 Ba_a Ba_a 4_564 . 6_556 75.69(7) ?
+O4 Ba_a O4 1_544 . 1_545 148.13(14) ?
+O4 Ba_a K_a 1_544 . . 0 ?
+O4 Ba_a K_a 1_544 . 6_545 61.47(5) ?
+O4 Ba_a K_a 1_544 . 6_546 129.753(16) ?
+O4 Ba_a K_a 1_544 . 6_555 61.47(5) ?
+O4 Ba_a K_a 1_544 . 6_556 129.753(16) ?
+O4 Ba_a Na_a 1_544 . . 0 ?
+O4 Ba_a Ba_a 1_544 . 6_545 61.47(5) ?
+O4 Ba_a Ba_a 1_544 . 6_546 129.753(16) ?
+O4 Ba_a Ba_a 1_544 . 6_555 61.47(5) ?
+O4 Ba_a Ba_a 1_544 . 6_556 129.753(16) ?
+O4 Ba_a K_a 1_545 . . 0 ?
+O4 Ba_a K_a 1_545 . 6_545 129.301(18) ?
+O4 Ba_a K_a 1_545 . 6_546 60.99(5) ?
+O4 Ba_a K_a 1_545 . 6_555 129.301(18) ?
+O4 Ba_a K_a 1_545 . 6_556 60.99(5) ?
+O4 Ba_a Na_a 1_545 . . 0 ?
+O4 Ba_a Ba_a 1_545 . 6_545 129.301(18) ?
+O4 Ba_a Ba_a 1_545 . 6_546 60.99(5) ?
+O4 Ba_a Ba_a 1_545 . 6_555 129.301(18) ?
+O4 Ba_a Ba_a 1_545 . 6_556 60.99(5) ?
+K_a Ba_a K_a . . 6_545 0 ?
+K_a Ba_a K_a . . 6_546 0 ?
+K_a Ba_a K_a . . 6_555 0 ?
+K_a Ba_a K_a . . 6_556 0 ?
+K_a Ba_a Na_a . . . 0 ?
+K_a Ba_a Ba_a . . 6_545 0 ?
+K_a Ba_a Ba_a . . 6_546 0 ?
+K_a Ba_a Ba_a . . 6_555 0 ?
+K_a Ba_a Ba_a . . 6_556 0 ?
+K_a Ba_a K_a 6_545 . 6_546 71.070(13) ?
+K_a Ba_a K_a 6_545 . 6_555 99.879(17) ?
+K_a Ba_a K_a 6_545 . 6_556 147.17(2) ?
+K_a Ba_a Na_a 6_545 . . 0 ?
+K_a Ba_a Ba_a 6_545 . 6_545 0.0(5) ?
+K_a Ba_a Ba_a 6_545 . 6_546 71.070(13) ?
+K_a Ba_a Ba_a 6_545 . 6_555 99.879(17) ?
+K_a Ba_a Ba_a 6_545 . 6_556 147.17(2) ?
+K_a Ba_a K_a 6_546 . 6_555 147.17(2) ?
+K_a Ba_a K_a 6_546 . 6_556 99.082(18) ?
+K_a Ba_a Na_a 6_546 . . 0 ?
+K_a Ba_a Ba_a 6_546 . 6_545 71.070(13) ?
+K_a Ba_a Ba_a 6_546 . 6_546 0.0(5) ?
+K_a Ba_a Ba_a 6_546 . 6_555 147.17(2) ?
+K_a Ba_a Ba_a 6_546 . 6_556 99.082(18) ?
+K_a Ba_a K_a 6_555 . 6_556 71.070(13) ?
+K_a Ba_a Na_a 6_555 . . 0 ?
+K_a Ba_a Ba_a 6_555 . 6_545 99.879(17) ?
+K_a Ba_a Ba_a 6_555 . 6_546 147.17(2) ?
+K_a Ba_a Ba_a 6_555 . 6_555 0.0(5) ?
+K_a Ba_a Ba_a 6_555 . 6_556 71.070(13) ?
+K_a Ba_a Na_a 6_556 . . 0 ?
+K_a Ba_a Ba_a 6_556 . 6_545 147.17(2) ?
+K_a Ba_a Ba_a 6_556 . 6_546 99.082(18) ?
+K_a Ba_a Ba_a 6_556 . 6_555 71.070(13) ?
+K_a Ba_a Ba_a 6_556 . 6_556 0.0(5) ?
+Na_a Ba_a Ba_a . . 6_545 0 ?
+Na_a Ba_a Ba_a . . 6_546 0 ?
+Na_a Ba_a Ba_a . . 6_555 0 ?
+Na_a Ba_a Ba_a . . 6_556 0 ?
+Ba_a Ba_a Ba_a 6_545 . 6_546 71.070(13) ?
+Ba_a Ba_a Ba_a 6_545 . 6_555 99.879(17) ?
+Ba_a Ba_a Ba_a 6_545 . 6_556 147.17(2) ?
+Ba_a Ba_a Ba_a 6_546 . 6_555 147.17(2) ?
+Ba_a Ba_a Ba_a 6_546 . 6_556 99.082(18) ?
+Ba_a Ba_a Ba_a 6_555 . 6_556 71.070(13) ?
+Na_m1 Mn_m2 Na_m1 5_445 . 5_446 111.24(5) ?
+Na_m1 Mn_m2 Na_m2 5_445 . . 0 ?
+Na_m1 Mn_m2 Na_m2 5_445 . 3_566 124.38(3) ?
+Na_m1 Mn_m2 Ca_m2 5_445 . . 0 ?
+Na_m1 Mn_m2 Ca_m2 5_445 . 3_566 124.38(3) ?
+Na_m1 Mn_m2 Na_m2 5_446 . . 0 ?
+Na_m1 Mn_m2 Na_m2 5_446 . 3_566 124.38(3) ?
+Na_m1 Mn_m2 Ca_m2 5_446 . . 0 ?
+Na_m1 Mn_m2 Ca_m2 5_446 . 3_566 124.38(3) ?
+Na_m2 Mn_m2 Na_m2 . . 3_566 0 ?
+Na_m2 Mn_m2 Ca_m2 . . . 0 ?
+Na_m2 Mn_m2 Ca_m2 . . 3_566 0 ?
+Na_m2 Mn_m2 Ca_m2 3_566 . . 0 ?
+Na_m2 Mn_m2 Ca_m2 3_566 . 3_566 0.0(5) ?
+Ca_m2 Mn_m2 Ca_m2 . . 3_566 0 ?
+Ti_l Ca_m2 Ti_l 5_445 . 6_546 116.66(5) ?
+Ti_l Ca_m2 Na_m1 5_445 . 5_445 61.39(3) ?
+Ti_l Ca_m2 Na_m1 5_445 . 5_446 83.45(3) ?
+Ti_l Ca_m2 Na_m2 5_445 . . 0 ?
+Ti_l Ca_m2 Na_m2 5_445 . 3_556 58.33(3) ?
+Ti_l Ca_m2 Na_m2 5_445 . 3_566 121.67(3) ?
+Ti_l Ca_m2 Ti_m3 5_445 . . 95.303(16) ?
+Ti_l Ca_m2 Ti_m3 5_445 . 1_556 117.809(18) ?
+Ti_l Ca_m2 O2 5_445 . 5_445 24.06(11) ?
+Ti_l Ca_m2 O2 5_445 . 6_546 94.80(11) ?
+Ti_l Ca_m2 O5 5_445 . 5_445 80.01(9) ?
+Ti_l Ca_m2 O5 5_445 . 6_546 106.80(9) ?
+Ti_l Ca_m2 O_x 5_445 . . 82.97(11) ?
+Ti_l Ca_m2 O_x 5_445 . 2_556 153.07(14) ?
+Ti_l Ca_m2 Mn_m2 5_445 . . 0 ?
+Ti_l Ca_m2 Mn_m2 5_445 . 3_566 121.67(3) ?
+Ti_l Ca_m2 Ca_m2 5_445 . 3_556 58.33(3) ?
+Ti_l Ca_m2 Ca_m2 5_445 . 3_566 121.67(3) ?
+Ti_l Ca_m2 Fe_m3 5_445 . . 95.303(16) ?
+Ti_l Ca_m2 Fe_m3 5_445 . 1_556 117.809(18) ?
+Ti_l Ca_m2 Mg_m3 5_445 . . 95.303(16) ?
+Ti_l Ca_m2 Mg_m3 5_445 . 1_556 117.809(18) ?
+Ti_l Ca_m2 Na_m1 6_546 . 5_445 83.45(3) ?
+Ti_l Ca_m2 Na_m1 6_546 . 5_446 61.39(3) ?
+Ti_l Ca_m2 Na_m2 6_546 . . 0 ?
+Ti_l Ca_m2 Na_m2 6_546 . 3_556 58.33(3) ?
+Ti_l Ca_m2 Na_m2 6_546 . 3_566 121.67(3) ?
+Ti_l Ca_m2 Ti_m3 6_546 . . 117.809(18) ?
+Ti_l Ca_m2 Ti_m3 6_546 . 1_556 95.303(16) ?
+Ti_l Ca_m2 O2 6_546 . 5_445 94.80(11) ?
+Ti_l Ca_m2 O2 6_546 . 6_546 24.06(11) ?
+Ti_l Ca_m2 O5 6_546 . 5_445 106.80(9) ?
+Ti_l Ca_m2 O5 6_546 . 6_546 80.01(9) ?
+Ti_l Ca_m2 O_x 6_546 . . 153.07(14) ?
+Ti_l Ca_m2 O_x 6_546 . 2_556 82.97(11) ?
+Ti_l Ca_m2 Mn_m2 6_546 . . 0 ?
+Ti_l Ca_m2 Mn_m2 6_546 . 3_566 121.67(3) ?
+Ti_l Ca_m2 Ca_m2 6_546 . 3_556 58.33(3) ?
+Ti_l Ca_m2 Ca_m2 6_546 . 3_566 121.67(3) ?
+Ti_l Ca_m2 Fe_m3 6_546 . . 117.809(18) ?
+Ti_l Ca_m2 Fe_m3 6_546 . 1_556 95.303(16) ?
+Ti_l Ca_m2 Mg_m3 6_546 . . 117.809(18) ?
+Ti_l Ca_m2 Mg_m3 6_546 . 1_556 95.303(16) ?
+Na_m1 Ca_m2 Na_m1 5_445 . 5_446 111.24(5) ?
+Na_m1 Ca_m2 Na_m2 5_445 . . 0 ?
+Na_m1 Ca_m2 Na_m2 5_445 . 3_556 55.62(3) ?
+Na_m1 Ca_m2 Na_m2 5_445 . 3_566 124.38(3) ?
+Na_m1 Ca_m2 Ti_m3 5_445 . . 66.541(9) ?
+Na_m1 Ca_m2 Ti_m3 5_445 . 1_556 177.78(5) ?
+Na_m1 Ca_m2 O2 5_445 . 5_445 44.25(12) ?
+Na_m1 Ca_m2 O2 5_445 . 6_546 79.87(11) ?
+Na_m1 Ca_m2 O5 5_445 . 5_445 139.99(10) ?
+Na_m1 Ca_m2 O5 5_445 . 6_546 50.08(8) ?
+Na_m1 Ca_m2 O_x 5_445 . . 91.34(10) ?
+Na_m1 Ca_m2 O_x 5_445 . 2_556 143.51(14) ?
+Na_m1 Ca_m2 Mn_m2 5_445 . . 0 ?
+Na_m1 Ca_m2 Mn_m2 5_445 . 3_566 124.38(3) ?
+Na_m1 Ca_m2 Ca_m2 5_445 . 3_556 55.62(3) ?
+Na_m1 Ca_m2 Ca_m2 5_445 . 3_566 124.38(3) ?
+Na_m1 Ca_m2 Fe_m3 5_445 . . 66.541(9) ?
+Na_m1 Ca_m2 Fe_m3 5_445 . 1_556 177.78(5) ?
+Na_m1 Ca_m2 Mg_m3 5_445 . . 66.541(9) ?
+Na_m1 Ca_m2 Mg_m3 5_445 . 1_556 177.78(5) ?
+Na_m1 Ca_m2 Na_m2 5_446 . . 0 ?
+Na_m1 Ca_m2 Na_m2 5_446 . 3_556 55.62(3) ?
+Na_m1 Ca_m2 Na_m2 5_446 . 3_566 124.38(3) ?
+Na_m1 Ca_m2 Ti_m3 5_446 . . 177.78(5) ?
+Na_m1 Ca_m2 Ti_m3 5_446 . 1_556 66.541(9) ?
+Na_m1 Ca_m2 O2 5_446 . 5_445 79.87(11) ?
+Na_m1 Ca_m2 O2 5_446 . 6_546 44.25(12) ?
+Na_m1 Ca_m2 O5 5_446 . 5_445 50.08(8) ?
+Na_m1 Ca_m2 O5 5_446 . 6_546 139.99(10) ?
+Na_m1 Ca_m2 O_x 5_446 . . 143.51(14) ?
+Na_m1 Ca_m2 O_x 5_446 . 2_556 91.34(10) ?
+Na_m1 Ca_m2 Mn_m2 5_446 . . 0 ?
+Na_m1 Ca_m2 Mn_m2 5_446 . 3_566 124.38(3) ?
+Na_m1 Ca_m2 Ca_m2 5_446 . 3_556 55.62(3) ?
+Na_m1 Ca_m2 Ca_m2 5_446 . 3_566 124.38(3) ?
+Na_m1 Ca_m2 Fe_m3 5_446 . . 177.78(5) ?
+Na_m1 Ca_m2 Fe_m3 5_446 . 1_556 66.541(9) ?
+Na_m1 Ca_m2 Mg_m3 5_446 . . 177.78(5) ?
+Na_m1 Ca_m2 Mg_m3 5_446 . 1_556 66.541(9) ?
+Na_m2 Ca_m2 Na_m2 . . 3_556 0 ?
+Na_m2 Ca_m2 Na_m2 . . 3_566 0 ?
+Na_m2 Ca_m2 Ti_m3 . . . 0 ?
+Na_m2 Ca_m2 Ti_m3 . . 1_556 0 ?
+Na_m2 Ca_m2 O2 . . 5_445 0 ?
+Na_m2 Ca_m2 O2 . . 6_546 0 ?
+Na_m2 Ca_m2 O5 . . 5_445 0 ?
+Na_m2 Ca_m2 O5 . . 6_546 0 ?
+Na_m2 Ca_m2 O_x . . . 0 ?
+Na_m2 Ca_m2 O_x . . 2_556 0 ?
+Na_m2 Ca_m2 Mn_m2 . . . 0 ?
+Na_m2 Ca_m2 Mn_m2 . . 3_566 0 ?
+Na_m2 Ca_m2 Ca_m2 . . 3_556 0 ?
+Na_m2 Ca_m2 Ca_m2 . . 3_566 0 ?
+Na_m2 Ca_m2 Fe_m3 . . . 0 ?
+Na_m2 Ca_m2 Fe_m3 . . 1_556 0 ?
+Na_m2 Ca_m2 Mg_m3 . . . 0 ?
+Na_m2 Ca_m2 Mg_m3 . . 1_556 0 ?
+Na_m2 Ca_m2 Na_m2 3_556 . 3_566 180.0(5) ?
+Na_m2 Ca_m2 Ti_m3 3_556 . . 122.16(3) ?
+Na_m2 Ca_m2 Ti_m3 3_556 . 1_556 122.16(3) ?
+Na_m2 Ca_m2 O2 3_556 . 5_445 37.81(9) ?
+Na_m2 Ca_m2 O2 3_556 . 6_546 37.81(9) ?
+Na_m2 Ca_m2 O5 3_556 . 5_445 96.31(10) ?
+Na_m2 Ca_m2 O5 3_556 . 6_546 96.31(10) ?
+Na_m2 Ca_m2 O_x 3_556 . . 137.10(9) ?
+Na_m2 Ca_m2 O_x 3_556 . 2_556 137.10(9) ?
+Na_m2 Ca_m2 Mn_m2 3_556 . . 0 ?
+Na_m2 Ca_m2 Mn_m2 3_556 . 3_566 180.0(5) ?
+Na_m2 Ca_m2 Ca_m2 3_556 . 3_556 0.0(5) ?
+Na_m2 Ca_m2 Ca_m2 3_556 . 3_566 180.0(5) ?
+Na_m2 Ca_m2 Fe_m3 3_556 . . 122.16(3) ?
+Na_m2 Ca_m2 Fe_m3 3_556 . 1_556 122.16(3) ?
+Na_m2 Ca_m2 Mg_m3 3_556 . . 122.16(3) ?
+Na_m2 Ca_m2 Mg_m3 3_556 . 1_556 122.16(3) ?
+Na_m2 Ca_m2 Ti_m3 3_566 . . 57.84(3) ?
+Na_m2 Ca_m2 Ti_m3 3_566 . 1_556 57.84(3) ?
+Na_m2 Ca_m2 O2 3_566 . 5_445 142.19(9) ?
+Na_m2 Ca_m2 O2 3_566 . 6_546 142.19(9) ?
+Na_m2 Ca_m2 O5 3_566 . 5_445 83.69(10) ?
+Na_m2 Ca_m2 O5 3_566 . 6_546 83.69(10) ?
+Na_m2 Ca_m2 O_x 3_566 . . 42.90(9) ?
+Na_m2 Ca_m2 O_x 3_566 . 2_556 42.90(9) ?
+Na_m2 Ca_m2 Mn_m2 3_566 . . 0 ?
+Na_m2 Ca_m2 Mn_m2 3_566 . 3_566 0.0(5) ?
+Na_m2 Ca_m2 Ca_m2 3_566 . 3_556 180.0(5) ?
+Na_m2 Ca_m2 Ca_m2 3_566 . 3_566 0.0(5) ?
+Na_m2 Ca_m2 Fe_m3 3_566 . . 57.84(3) ?
+Na_m2 Ca_m2 Fe_m3 3_566 . 1_556 57.84(3) ?
+Na_m2 Ca_m2 Mg_m3 3_566 . . 57.84(3) ?
+Na_m2 Ca_m2 Mg_m3 3_566 . 1_556 57.84(3) ?
+Ti_m3 Ca_m2 Ti_m3 . . 1_556 115.68(6) ?
+Ti_m3 Ca_m2 O2 . . 5_445 98.24(10) ?
+Ti_m3 Ca_m2 O2 . . 6_546 134.25(12) ?
+Ti_m3 Ca_m2 O5 . . 5_445 131.56(10) ?
+Ti_m3 Ca_m2 O5 . . 6_546 38.70(8) ?
+Ti_m3 Ca_m2 O_x . . . 37.79(14) ?
+Ti_m3 Ca_m2 O_x . . 2_556 90.60(11) ?
+Ti_m3 Ca_m2 Mn_m2 . . . 0 ?
+Ti_m3 Ca_m2 Mn_m2 . . 3_566 57.84(3) ?
+Ti_m3 Ca_m2 Ca_m2 . . 3_556 122.16(3) ?
+Ti_m3 Ca_m2 Ca_m2 . . 3_566 57.84(3) ?
+Ti_m3 Ca_m2 Fe_m3 . . . 0.0(5) ?
+Ti_m3 Ca_m2 Fe_m3 . . 1_556 115.68(6) ?
+Ti_m3 Ca_m2 Mg_m3 . . . 0.0(5) ?
+Ti_m3 Ca_m2 Mg_m3 . . 1_556 115.68(6) ?
+Ti_m3 Ca_m2 O2 1_556 . 5_445 134.25(12) ?
+Ti_m3 Ca_m2 O2 1_556 . 6_546 98.24(10) ?
+Ti_m3 Ca_m2 O5 1_556 . 5_445 38.70(8) ?
+Ti_m3 Ca_m2 O5 1_556 . 6_546 131.56(10) ?
+Ti_m3 Ca_m2 O_x 1_556 . . 90.60(11) ?
+Ti_m3 Ca_m2 O_x 1_556 . 2_556 37.79(14) ?
+Ti_m3 Ca_m2 Mn_m2 1_556 . . 0 ?
+Ti_m3 Ca_m2 Mn_m2 1_556 . 3_566 57.84(3) ?
+Ti_m3 Ca_m2 Ca_m2 1_556 . 3_556 122.16(3) ?
+Ti_m3 Ca_m2 Ca_m2 1_556 . 3_566 57.84(3) ?
+Ti_m3 Ca_m2 Fe_m3 1_556 . . 115.68(6) ?
+Ti_m3 Ca_m2 Fe_m3 1_556 . 1_556 0.0(5) ?
+Ti_m3 Ca_m2 Mg_m3 1_556 . . 115.68(6) ?
+Ti_m3 Ca_m2 Mg_m3 1_556 . 1_556 0.0(5) ?
+O2 Ca_m2 O2 5_445 . 6_546 75.63(14) ?
+O2 Ca_m2 O5 5_445 . 5_445 95.82(15) ?
+O2 Ca_m2 O5 5_445 . 6_546 94.15(15) ?
+O2 Ca_m2 O_x 5_445 . . 99.79(13) ?
+O2 Ca_m2 O_x 5_445 . 2_556 170.88(16) ?
+O2 Ca_m2 Mn_m2 5_445 . . 0 ?
+O2 Ca_m2 Mn_m2 5_445 . 3_566 142.19(9) ?
+O2 Ca_m2 Ca_m2 5_445 . 3_556 37.81(9) ?
+O2 Ca_m2 Ca_m2 5_445 . 3_566 142.19(9) ?
+O2 Ca_m2 Fe_m3 5_445 . . 98.24(10) ?
+O2 Ca_m2 Fe_m3 5_445 . 1_556 134.25(12) ?
+O2 Ca_m2 Mg_m3 5_445 . . 98.24(10) ?
+O2 Ca_m2 Mg_m3 5_445 . 1_556 134.25(12) ?
+O2 Ca_m2 O5 6_546 . 5_445 94.15(15) ?
+O2 Ca_m2 O5 6_546 . 6_546 95.82(15) ?
+O2 Ca_m2 O_x 6_546 . . 170.88(16) ?
+O2 Ca_m2 O_x 6_546 . 2_556 99.79(13) ?
+O2 Ca_m2 Mn_m2 6_546 . . 0 ?
+O2 Ca_m2 Mn_m2 6_546 . 3_566 142.19(9) ?
+O2 Ca_m2 Ca_m2 6_546 . 3_556 37.81(9) ?
+O2 Ca_m2 Ca_m2 6_546 . 3_566 142.19(9) ?
+O2 Ca_m2 Fe_m3 6_546 . . 134.25(12) ?
+O2 Ca_m2 Fe_m3 6_546 . 1_556 98.24(10) ?
+O2 Ca_m2 Mg_m3 6_546 . . 134.25(12) ?
+O2 Ca_m2 Mg_m3 6_546 . 1_556 98.24(10) ?
+O5 Ca_m2 O5 5_445 . 6_546 167.37(15) ?
+O5 Ca_m2 O_x 5_445 . . 94.17(16) ?
+O5 Ca_m2 O_x 5_445 . 2_556 76.48(16) ?
+O5 Ca_m2 Mn_m2 5_445 . . 0 ?
+O5 Ca_m2 Mn_m2 5_445 . 3_566 83.69(10) ?
+O5 Ca_m2 Ca_m2 5_445 . 3_556 96.31(10) ?
+O5 Ca_m2 Ca_m2 5_445 . 3_566 83.69(10) ?
+O5 Ca_m2 Fe_m3 5_445 . . 131.56(10) ?
+O5 Ca_m2 Fe_m3 5_445 . 1_556 38.70(8) ?
+O5 Ca_m2 Mg_m3 5_445 . . 131.56(10) ?
+O5 Ca_m2 Mg_m3 5_445 . 1_556 38.70(8) ?
+O5 Ca_m2 O_x 6_546 . . 76.48(16) ?
+O5 Ca_m2 O_x 6_546 . 2_556 94.17(16) ?
+O5 Ca_m2 Mn_m2 6_546 . . 0 ?
+O5 Ca_m2 Mn_m2 6_546 . 3_566 83.69(10) ?
+O5 Ca_m2 Ca_m2 6_546 . 3_556 96.31(10) ?
+O5 Ca_m2 Ca_m2 6_546 . 3_566 83.69(10) ?
+O5 Ca_m2 Fe_m3 6_546 . . 38.70(8) ?
+O5 Ca_m2 Fe_m3 6_546 . 1_556 131.56(10) ?
+O5 Ca_m2 Mg_m3 6_546 . . 38.70(8) ?
+O5 Ca_m2 Mg_m3 6_546 . 1_556 131.56(10) ?
+O_x Ca_m2 O_x . . 2_556 85.81(14) ?
+O_x Ca_m2 Mn_m2 . . . 0 ?
+O_x Ca_m2 Mn_m2 . . 3_566 42.90(9) ?
+O_x Ca_m2 Ca_m2 . . 3_556 137.10(9) ?
+O_x Ca_m2 Ca_m2 . . 3_566 42.90(9) ?
+O_x Ca_m2 Fe_m3 . . . 37.79(14) ?
+O_x Ca_m2 Fe_m3 . . 1_556 90.60(11) ?
+O_x Ca_m2 Mg_m3 . . . 37.79(14) ?
+O_x Ca_m2 Mg_m3 . . 1_556 90.60(11) ?
+O_x Ca_m2 Mn_m2 2_556 . . 0 ?
+O_x Ca_m2 Mn_m2 2_556 . 3_566 42.90(9) ?
+O_x Ca_m2 Ca_m2 2_556 . 3_556 137.10(9) ?
+O_x Ca_m2 Ca_m2 2_556 . 3_566 42.90(9) ?
+O_x Ca_m2 Fe_m3 2_556 . . 90.60(11) ?
+O_x Ca_m2 Fe_m3 2_556 . 1_556 37.79(14) ?
+O_x Ca_m2 Mg_m3 2_556 . . 90.60(11) ?
+O_x Ca_m2 Mg_m3 2_556 . 1_556 37.79(14) ?
+Mn_m2 Ca_m2 Mn_m2 . . 3_566 0 ?
+Mn_m2 Ca_m2 Ca_m2 . . 3_556 0 ?
+Mn_m2 Ca_m2 Ca_m2 . . 3_566 0 ?
+Mn_m2 Ca_m2 Fe_m3 . . . 0 ?
+Mn_m2 Ca_m2 Fe_m3 . . 1_556 0 ?
+Mn_m2 Ca_m2 Mg_m3 . . . 0 ?
+Mn_m2 Ca_m2 Mg_m3 . . 1_556 0 ?
+Mn_m2 Ca_m2 Ca_m2 3_566 . 3_556 180.0(5) ?
+Mn_m2 Ca_m2 Ca_m2 3_566 . 3_566 0.0(5) ?
+Mn_m2 Ca_m2 Fe_m3 3_566 . . 57.84(3) ?
+Mn_m2 Ca_m2 Fe_m3 3_566 . 1_556 57.84(3) ?
+Mn_m2 Ca_m2 Mg_m3 3_566 . . 57.84(3) ?
+Mn_m2 Ca_m2 Mg_m3 3_566 . 1_556 57.84(3) ?
+Ca_m2 Ca_m2 Ca_m2 3_556 . 3_566 180.0(5) ?
+Ca_m2 Ca_m2 Fe_m3 3_556 . . 122.16(3) ?
+Ca_m2 Ca_m2 Fe_m3 3_556 . 1_556 122.16(3) ?
+Ca_m2 Ca_m2 Mg_m3 3_556 . . 122.16(3) ?
+Ca_m2 Ca_m2 Mg_m3 3_556 . 1_556 122.16(3) ?
+Ca_m2 Ca_m2 Fe_m3 3_566 . . 57.84(3) ?
+Ca_m2 Ca_m2 Fe_m3 3_566 . 1_556 57.84(3) ?
+Ca_m2 Ca_m2 Mg_m3 3_566 . . 57.84(3) ?
+Ca_m2 Ca_m2 Mg_m3 3_566 . 1_556 57.84(3) ?
+Fe_m3 Ca_m2 Fe_m3 . . 1_556 115.68(6) ?
+Fe_m3 Ca_m2 Mg_m3 . . . 0.0(5) ?
+Fe_m3 Ca_m2 Mg_m3 . . 1_556 115.68(6) ?
+Fe_m3 Ca_m2 Mg_m3 1_556 . . 115.68(6) ?
+Fe_m3 Ca_m2 Mg_m3 1_556 . 1_556 0.0(5) ?
+Mg_m3 Ca_m2 Mg_m3 . . 1_556 115.68(6) ?
+Na_m2 Fe_m3 Na_m2 1_554 . . 115.68(4) ?
+Na_m2 Fe_m3 Na_m2 1_554 . 3_565 64.32(4) ?
+Na_m2 Fe_m3 Na_m2 1_554 . 3_566 180.0(5) ?
+Na_m2 Fe_m3 Ti_m3 1_554 . . 0 ?
+Na_m2 Fe_m3 O5 1_554 . 5_444 44.07(10) ?
+Na_m2 Fe_m3 O5 1_554 . 6_546 87.11(9) ?
+Na_m2 Fe_m3 O5 1_554 . 7_566 135.93(10) ?
+Na_m2 Fe_m3 O5 1_554 . 8_464 92.89(9) ?
+Na_m2 Fe_m3 O_x 1_554 . . 133.71(10) ?
+Na_m2 Fe_m3 O_x 1_554 . 2_555 46.29(10) ?
+Na_m2 Fe_m3 Ca_m2 1_554 . 1_554 0.0(5) ?
+Na_m2 Fe_m3 Ca_m2 1_554 . . 115.68(4) ?
+Na_m2 Fe_m3 Ca_m2 1_554 . 3_565 64.32(4) ?
+Na_m2 Fe_m3 Ca_m2 1_554 . 3_566 180.0(5) ?
+Na_m2 Fe_m3 Mg_m3 1_554 . . 0 ?
+Na_m2 Fe_m3 Na_m2 . . 3_565 180.0(5) ?
+Na_m2 Fe_m3 Na_m2 . . 3_566 64.32(4) ?
+Na_m2 Fe_m3 Ti_m3 . . . 0 ?
+Na_m2 Fe_m3 O5 . . 5_444 87.11(9) ?
+Na_m2 Fe_m3 O5 . . 6_546 44.07(10) ?
+Na_m2 Fe_m3 O5 . . 7_566 92.89(9) ?
+Na_m2 Fe_m3 O5 . . 8_464 135.93(10) ?
+Na_m2 Fe_m3 O_x . . . 46.29(10) ?
+Na_m2 Fe_m3 O_x . . 2_555 133.71(10) ?
+Na_m2 Fe_m3 Ca_m2 . . 1_554 115.68(4) ?
+Na_m2 Fe_m3 Ca_m2 . . . 0.0(5) ?
+Na_m2 Fe_m3 Ca_m2 . . 3_565 180.0(5) ?
+Na_m2 Fe_m3 Ca_m2 . . 3_566 64.32(4) ?
+Na_m2 Fe_m3 Mg_m3 . . . 0 ?
+Na_m2 Fe_m3 Na_m2 3_565 . 3_566 115.68(4) ?
+Na_m2 Fe_m3 Ti_m3 3_565 . . 0 ?
+Na_m2 Fe_m3 O5 3_565 . 5_444 92.89(9) ?
+Na_m2 Fe_m3 O5 3_565 . 6_546 135.93(10) ?
+Na_m2 Fe_m3 O5 3_565 . 7_566 87.11(9) ?
+Na_m2 Fe_m3 O5 3_565 . 8_464 44.07(10) ?
+Na_m2 Fe_m3 O_x 3_565 . . 133.71(10) ?
+Na_m2 Fe_m3 O_x 3_565 . 2_555 46.29(10) ?
+Na_m2 Fe_m3 Ca_m2 3_565 . 1_554 64.32(4) ?
+Na_m2 Fe_m3 Ca_m2 3_565 . . 180.0(5) ?
+Na_m2 Fe_m3 Ca_m2 3_565 . 3_565 0.0(5) ?
+Na_m2 Fe_m3 Ca_m2 3_565 . 3_566 115.68(4) ?
+Na_m2 Fe_m3 Mg_m3 3_565 . . 0 ?
+Na_m2 Fe_m3 Ti_m3 3_566 . . 0 ?
+Na_m2 Fe_m3 O5 3_566 . 5_444 135.93(10) ?
+Na_m2 Fe_m3 O5 3_566 . 6_546 92.89(9) ?
+Na_m2 Fe_m3 O5 3_566 . 7_566 44.07(10) ?
+Na_m2 Fe_m3 O5 3_566 . 8_464 87.11(9) ?
+Na_m2 Fe_m3 O_x 3_566 . . 46.29(10) ?
+Na_m2 Fe_m3 O_x 3_566 . 2_555 133.71(10) ?
+Na_m2 Fe_m3 Ca_m2 3_566 . 1_554 180.0(5) ?
+Na_m2 Fe_m3 Ca_m2 3_566 . . 64.32(4) ?
+Na_m2 Fe_m3 Ca_m2 3_566 . 3_565 115.68(4) ?
+Na_m2 Fe_m3 Ca_m2 3_566 . 3_566 0.0(5) ?
+Na_m2 Fe_m3 Mg_m3 3_566 . . 0 ?
+Ti_m3 Fe_m3 O5 . . 5_444 0 ?
+Ti_m3 Fe_m3 O5 . . 6_546 0 ?
+Ti_m3 Fe_m3 O5 . . 7_566 0 ?
+Ti_m3 Fe_m3 O5 . . 8_464 0 ?
+Ti_m3 Fe_m3 O_x . . . 0 ?
+Ti_m3 Fe_m3 O_x . . 2_555 0 ?
+Ti_m3 Fe_m3 Ca_m2 . . 1_554 0 ?
+Ti_m3 Fe_m3 Ca_m2 . . . 0 ?
+Ti_m3 Fe_m3 Ca_m2 . . 3_565 0 ?
+Ti_m3 Fe_m3 Ca_m2 . . 3_566 0 ?
+Ti_m3 Fe_m3 Mg_m3 . . . 0 ?
+O5 Fe_m3 O5 5_444 . 6_546 87.52(13) ?
+O5 Fe_m3 O5 5_444 . 7_566 180.0(5) ?
+O5 Fe_m3 O5 5_444 . 8_464 92.48(13) ?
+O5 Fe_m3 O_x 5_444 . . 89.66(14) ?
+O5 Fe_m3 O_x 5_444 . 2_555 90.34(14) ?
+O5 Fe_m3 Ca_m2 5_444 . 1_554 44.07(10) ?
+O5 Fe_m3 Ca_m2 5_444 . . 87.11(9) ?
+O5 Fe_m3 Ca_m2 5_444 . 3_565 92.89(9) ?
+O5 Fe_m3 Ca_m2 5_444 . 3_566 135.93(10) ?
+O5 Fe_m3 Mg_m3 5_444 . . 0 ?
+O5 Fe_m3 O5 6_546 . 7_566 92.48(13) ?
+O5 Fe_m3 O5 6_546 . 8_464 180.0(5) ?
+O5 Fe_m3 O_x 6_546 . . 90.34(14) ?
+O5 Fe_m3 O_x 6_546 . 2_555 89.66(14) ?
+O5 Fe_m3 Ca_m2 6_546 . 1_554 87.11(9) ?
+O5 Fe_m3 Ca_m2 6_546 . . 44.07(10) ?
+O5 Fe_m3 Ca_m2 6_546 . 3_565 135.93(10) ?
+O5 Fe_m3 Ca_m2 6_546 . 3_566 92.89(9) ?
+O5 Fe_m3 Mg_m3 6_546 . . 0 ?
+O5 Fe_m3 O5 7_566 . 8_464 87.52(13) ?
+O5 Fe_m3 O_x 7_566 . . 90.34(14) ?
+O5 Fe_m3 O_x 7_566 . 2_555 89.66(14) ?
+O5 Fe_m3 Ca_m2 7_566 . 1_554 135.93(10) ?
+O5 Fe_m3 Ca_m2 7_566 . . 92.89(9) ?
+O5 Fe_m3 Ca_m2 7_566 . 3_565 87.11(9) ?
+O5 Fe_m3 Ca_m2 7_566 . 3_566 44.07(10) ?
+O5 Fe_m3 Mg_m3 7_566 . . 0 ?
+O5 Fe_m3 O_x 8_464 . . 89.66(14) ?
+O5 Fe_m3 O_x 8_464 . 2_555 90.34(14) ?
+O5 Fe_m3 Ca_m2 8_464 . 1_554 92.89(9) ?
+O5 Fe_m3 Ca_m2 8_464 . . 135.93(10) ?
+O5 Fe_m3 Ca_m2 8_464 . 3_565 44.07(10) ?
+O5 Fe_m3 Ca_m2 8_464 . 3_566 87.11(9) ?
+O5 Fe_m3 Mg_m3 8_464 . . 0 ?
+O_x Fe_m3 O_x . . 2_555 180.0(5) ?
+O_x Fe_m3 Ca_m2 . . 1_554 133.71(10) ?
+O_x Fe_m3 Ca_m2 . . . 46.29(10) ?
+O_x Fe_m3 Ca_m2 . . 3_565 133.71(10) ?
+O_x Fe_m3 Ca_m2 . . 3_566 46.29(10) ?
+O_x Fe_m3 Mg_m3 . . . 0 ?
+O_x Fe_m3 Ca_m2 2_555 . 1_554 46.29(10) ?
+O_x Fe_m3 Ca_m2 2_555 . . 133.71(10) ?
+O_x Fe_m3 Ca_m2 2_555 . 3_565 46.29(10) ?
+O_x Fe_m3 Ca_m2 2_555 . 3_566 133.71(10) ?
+O_x Fe_m3 Mg_m3 2_555 . . 0 ?
+Ca_m2 Fe_m3 Ca_m2 1_554 . . 115.68(4) ?
+Ca_m2 Fe_m3 Ca_m2 1_554 . 3_565 64.32(4) ?
+Ca_m2 Fe_m3 Ca_m2 1_554 . 3_566 180.0(5) ?
+Ca_m2 Fe_m3 Mg_m3 1_554 . . 0 ?
+Ca_m2 Fe_m3 Ca_m2 . . 3_565 180.0(5) ?
+Ca_m2 Fe_m3 Ca_m2 . . 3_566 64.32(4) ?
+Ca_m2 Fe_m3 Mg_m3 . . . 0 ?
+Ca_m2 Fe_m3 Ca_m2 3_565 . 3_566 115.68(4) ?
+Ca_m2 Fe_m3 Mg_m3 3_565 . . 0 ?
+Ca_m2 Fe_m3 Mg_m3 3_566 . . 0 ?
+Na_m1 Mg_m3 Na_m1 5_445 . 5_455 180.0(5) ?
+Na_m1 Mg_m3 Na_m2 5_445 . 1_554 57.84(3) ?
+Na_m1 Mg_m3 Na_m2 5_445 . . 57.84(3) ?
+Na_m1 Mg_m3 Na_m2 5_445 . 3_565 122.16(3) ?
+Na_m1 Mg_m3 Na_m2 5_445 . 3_566 122.16(3) ?
+Na_m1 Mg_m3 Ti_m3 5_445 . . 0 ?
+Na_m1 Mg_m3 O5 5_445 . 5_444 43.76(9) ?
+Na_m1 Mg_m3 O5 5_445 . 6_546 43.76(9) ?
+Na_m1 Mg_m3 O5 5_445 . 7_566 136.24(9) ?
+Na_m1 Mg_m3 O5 5_445 . 8_464 136.24(9) ?
+Na_m1 Mg_m3 O_x 5_445 . . 90 ?
+Na_m1 Mg_m3 O_x 5_445 . 2_555 90 ?
+Na_m1 Mg_m3 Ca_m2 5_445 . 1_554 57.84(3) ?
+Na_m1 Mg_m3 Ca_m2 5_445 . . 57.84(3) ?
+Na_m1 Mg_m3 Ca_m2 5_445 . 3_565 122.16(3) ?
+Na_m1 Mg_m3 Ca_m2 5_445 . 3_566 122.16(3) ?
+Na_m1 Mg_m3 Fe_m3 5_445 . . 0 ?
+Na_m1 Mg_m3 Na_m2 5_455 . 1_554 122.16(3) ?
+Na_m1 Mg_m3 Na_m2 5_455 . . 122.16(3) ?
+Na_m1 Mg_m3 Na_m2 5_455 . 3_565 57.84(3) ?
+Na_m1 Mg_m3 Na_m2 5_455 . 3_566 57.84(3) ?
+Na_m1 Mg_m3 Ti_m3 5_455 . . 0 ?
+Na_m1 Mg_m3 O5 5_455 . 5_444 136.24(9) ?
+Na_m1 Mg_m3 O5 5_455 . 6_546 136.24(9) ?
+Na_m1 Mg_m3 O5 5_455 . 7_566 43.76(9) ?
+Na_m1 Mg_m3 O5 5_455 . 8_464 43.76(9) ?
+Na_m1 Mg_m3 O_x 5_455 . . 90 ?
+Na_m1 Mg_m3 O_x 5_455 . 2_555 90 ?
+Na_m1 Mg_m3 Ca_m2 5_455 . 1_554 122.16(3) ?
+Na_m1 Mg_m3 Ca_m2 5_455 . . 122.16(3) ?
+Na_m1 Mg_m3 Ca_m2 5_455 . 3_565 57.84(3) ?
+Na_m1 Mg_m3 Ca_m2 5_455 . 3_566 57.84(3) ?
+Na_m1 Mg_m3 Fe_m3 5_455 . . 0 ?
+Na_m2 Mg_m3 Na_m2 1_554 . . 115.68(4) ?
+Na_m2 Mg_m3 Na_m2 1_554 . 3_565 64.32(4) ?
+Na_m2 Mg_m3 Na_m2 1_554 . 3_566 180.0(5) ?
+Na_m2 Mg_m3 Ti_m3 1_554 . . 0 ?
+Na_m2 Mg_m3 O5 1_554 . 5_444 44.07(10) ?
+Na_m2 Mg_m3 O5 1_554 . 6_546 87.11(9) ?
+Na_m2 Mg_m3 O5 1_554 . 7_566 135.93(10) ?
+Na_m2 Mg_m3 O5 1_554 . 8_464 92.89(9) ?
+Na_m2 Mg_m3 O_x 1_554 . . 133.71(10) ?
+Na_m2 Mg_m3 O_x 1_554 . 2_555 46.29(10) ?
+Na_m2 Mg_m3 Ca_m2 1_554 . 1_554 0.0(5) ?
+Na_m2 Mg_m3 Ca_m2 1_554 . . 115.68(4) ?
+Na_m2 Mg_m3 Ca_m2 1_554 . 3_565 64.32(4) ?
+Na_m2 Mg_m3 Ca_m2 1_554 . 3_566 180.0(5) ?
+Na_m2 Mg_m3 Fe_m3 1_554 . . 0 ?
+Na_m2 Mg_m3 Na_m2 . . 3_565 180.0(5) ?
+Na_m2 Mg_m3 Na_m2 . . 3_566 64.32(4) ?
+Na_m2 Mg_m3 Ti_m3 . . . 0 ?
+Na_m2 Mg_m3 O5 . . 5_444 87.11(9) ?
+Na_m2 Mg_m3 O5 . . 6_546 44.07(10) ?
+Na_m2 Mg_m3 O5 . . 7_566 92.89(9) ?
+Na_m2 Mg_m3 O5 . . 8_464 135.93(10) ?
+Na_m2 Mg_m3 O_x . . . 46.29(10) ?
+Na_m2 Mg_m3 O_x . . 2_555 133.71(10) ?
+Na_m2 Mg_m3 Ca_m2 . . 1_554 115.68(4) ?
+Na_m2 Mg_m3 Ca_m2 . . . 0.0(5) ?
+Na_m2 Mg_m3 Ca_m2 . . 3_565 180.0(5) ?
+Na_m2 Mg_m3 Ca_m2 . . 3_566 64.32(4) ?
+Na_m2 Mg_m3 Fe_m3 . . . 0 ?
+Na_m2 Mg_m3 Na_m2 3_565 . 3_566 115.68(4) ?
+Na_m2 Mg_m3 Ti_m3 3_565 . . 0 ?
+Na_m2 Mg_m3 O5 3_565 . 5_444 92.89(9) ?
+Na_m2 Mg_m3 O5 3_565 . 6_546 135.93(10) ?
+Na_m2 Mg_m3 O5 3_565 . 7_566 87.11(9) ?
+Na_m2 Mg_m3 O5 3_565 . 8_464 44.07(10) ?
+Na_m2 Mg_m3 O_x 3_565 . . 133.71(10) ?
+Na_m2 Mg_m3 O_x 3_565 . 2_555 46.29(10) ?
+Na_m2 Mg_m3 Ca_m2 3_565 . 1_554 64.32(4) ?
+Na_m2 Mg_m3 Ca_m2 3_565 . . 180.0(5) ?
+Na_m2 Mg_m3 Ca_m2 3_565 . 3_565 0.0(5) ?
+Na_m2 Mg_m3 Ca_m2 3_565 . 3_566 115.68(4) ?
+Na_m2 Mg_m3 Fe_m3 3_565 . . 0 ?
+Na_m2 Mg_m3 Ti_m3 3_566 . . 0 ?
+Na_m2 Mg_m3 O5 3_566 . 5_444 135.93(10) ?
+Na_m2 Mg_m3 O5 3_566 . 6_546 92.89(9) ?
+Na_m2 Mg_m3 O5 3_566 . 7_566 44.07(10) ?
+Na_m2 Mg_m3 O5 3_566 . 8_464 87.11(9) ?
+Na_m2 Mg_m3 O_x 3_566 . . 46.29(10) ?
+Na_m2 Mg_m3 O_x 3_566 . 2_555 133.71(10) ?
+Na_m2 Mg_m3 Ca_m2 3_566 . 1_554 180.0(5) ?
+Na_m2 Mg_m3 Ca_m2 3_566 . . 64.32(4) ?
+Na_m2 Mg_m3 Ca_m2 3_566 . 3_565 115.68(4) ?
+Na_m2 Mg_m3 Ca_m2 3_566 . 3_566 0.0(5) ?
+Na_m2 Mg_m3 Fe_m3 3_566 . . 0 ?
+Ti_m3 Mg_m3 O5 . . 5_444 0 ?
+Ti_m3 Mg_m3 O5 . . 6_546 0 ?
+Ti_m3 Mg_m3 O5 . . 7_566 0 ?
+Ti_m3 Mg_m3 O5 . . 8_464 0 ?
+Ti_m3 Mg_m3 O_x . . . 0 ?
+Ti_m3 Mg_m3 O_x . . 2_555 0 ?
+Ti_m3 Mg_m3 Ca_m2 . . 1_554 0 ?
+Ti_m3 Mg_m3 Ca_m2 . . . 0 ?
+Ti_m3 Mg_m3 Ca_m2 . . 3_565 0 ?
+Ti_m3 Mg_m3 Ca_m2 . . 3_566 0 ?
+Ti_m3 Mg_m3 Fe_m3 . . . 0 ?
+O5 Mg_m3 O5 5_444 . 6_546 87.52(13) ?
+O5 Mg_m3 O5 5_444 . 7_566 180.0(5) ?
+O5 Mg_m3 O5 5_444 . 8_464 92.48(13) ?
+O5 Mg_m3 O_x 5_444 . . 89.66(14) ?
+O5 Mg_m3 O_x 5_444 . 2_555 90.34(14) ?
+O5 Mg_m3 Ca_m2 5_444 . 1_554 44.07(10) ?
+O5 Mg_m3 Ca_m2 5_444 . . 87.11(9) ?
+O5 Mg_m3 Ca_m2 5_444 . 3_565 92.89(9) ?
+O5 Mg_m3 Ca_m2 5_444 . 3_566 135.93(10) ?
+O5 Mg_m3 Fe_m3 5_444 . . 0 ?
+O5 Mg_m3 O5 6_546 . 7_566 92.48(13) ?
+O5 Mg_m3 O5 6_546 . 8_464 180.0(5) ?
+O5 Mg_m3 O_x 6_546 . . 90.34(14) ?
+O5 Mg_m3 O_x 6_546 . 2_555 89.66(14) ?
+O5 Mg_m3 Ca_m2 6_546 . 1_554 87.11(9) ?
+O5 Mg_m3 Ca_m2 6_546 . . 44.07(10) ?
+O5 Mg_m3 Ca_m2 6_546 . 3_565 135.93(10) ?
+O5 Mg_m3 Ca_m2 6_546 . 3_566 92.89(9) ?
+O5 Mg_m3 Fe_m3 6_546 . . 0 ?
+O5 Mg_m3 O5 7_566 . 8_464 87.52(13) ?
+O5 Mg_m3 O_x 7_566 . . 90.34(14) ?
+O5 Mg_m3 O_x 7_566 . 2_555 89.66(14) ?
+O5 Mg_m3 Ca_m2 7_566 . 1_554 135.93(10) ?
+O5 Mg_m3 Ca_m2 7_566 . . 92.89(9) ?
+O5 Mg_m3 Ca_m2 7_566 . 3_565 87.11(9) ?
+O5 Mg_m3 Ca_m2 7_566 . 3_566 44.07(10) ?
+O5 Mg_m3 Fe_m3 7_566 . . 0 ?
+O5 Mg_m3 O_x 8_464 . . 89.66(14) ?
+O5 Mg_m3 O_x 8_464 . 2_555 90.34(14) ?
+O5 Mg_m3 Ca_m2 8_464 . 1_554 92.89(9) ?
+O5 Mg_m3 Ca_m2 8_464 . . 135.93(10) ?
+O5 Mg_m3 Ca_m2 8_464 . 3_565 44.07(10) ?
+O5 Mg_m3 Ca_m2 8_464 . 3_566 87.11(9) ?
+O5 Mg_m3 Fe_m3 8_464 . . 0 ?
+O_x Mg_m3 O_x . . 2_555 180.0(5) ?
+O_x Mg_m3 Ca_m2 . . 1_554 133.71(10) ?
+O_x Mg_m3 Ca_m2 . . . 46.29(10) ?
+O_x Mg_m3 Ca_m2 . . 3_565 133.71(10) ?
+O_x Mg_m3 Ca_m2 . . 3_566 46.29(10) ?
+O_x Mg_m3 Fe_m3 . . . 0 ?
+O_x Mg_m3 Ca_m2 2_555 . 1_554 46.29(10) ?
+O_x Mg_m3 Ca_m2 2_555 . . 133.71(10) ?
+O_x Mg_m3 Ca_m2 2_555 . 3_565 46.29(10) ?
+O_x Mg_m3 Ca_m2 2_555 . 3_566 133.71(10) ?
+O_x Mg_m3 Fe_m3 2_555 . . 0 ?
+Ca_m2 Mg_m3 Ca_m2 1_554 . . 115.68(4) ?
+Ca_m2 Mg_m3 Ca_m2 1_554 . 3_565 64.32(4) ?
+Ca_m2 Mg_m3 Ca_m2 1_554 . 3_566 180.0(5) ?
+Ca_m2 Mg_m3 Fe_m3 1_554 . . 0 ?
+Ca_m2 Mg_m3 Ca_m2 . . 3_565 180.0(5) ?
+Ca_m2 Mg_m3 Ca_m2 . . 3_566 64.32(4) ?
+Ca_m2 Mg_m3 Fe_m3 . . . 0 ?
+Ca_m2 Mg_m3 Ca_m2 3_565 . 3_566 115.68(4) ?
+Ca_m2 Mg_m3 Fe_m3 3_565 . . 0 ?
+Ca_m2 Mg_m3 Fe_m3 3_566 . . 0 ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Sr_a Ti_l . 1_545 3.7651(10) ?
+Sr_a Ti_l . . 3.7651(10) ?
+Sr_a Ti_l . 6_545 3.7297(15) ?
+Sr_a Ti_l . 6_546 3.7421(15) ?
+Sr_a Si . 1_544 3.3956(14) ?
+Sr_a Si . 1_545 3.4198(14) ?
+Sr_a Si . 6_546 3.3876(15) ?
+Sr_a Si . 7_556 3.3876(15) ?
+Sr_a Si . 4_564 3.3956(14) ?
+Sr_a Si . 4_565 3.4198(14) ?
+Sr_a K_a . . 0 ?
+Sr_a K_a . 6_545 4.6308(10) ?
+Sr_a K_a . 6_546 4.6581(10) ?
+Sr_a K_a . 6_555 4.6308(10) ?
+Sr_a K_a . 6_556 4.6581(10) ?
+Sr_a Na_a . . 0 ?
+Sr_a Ba_a . . 0 ?
+Ti_l Na_m1 . . 3.4719(13) ?
+Ti_l Na_m2 . 5_555 3.5177(15) ?
+Ti_l Na_m2 . 7_556 3.5177(15) ?
+Ti_l O1 . . 1.962(3) ?
+Ti_l O1 . 4_565 1.962(3) ?
+Ti_l O2 . . 1.679(5) ?
+Ti_l O3 . 1_554 1.968(3) ?
+Ti_l O3 . 4_564 1.968(3) ?
+Ti_l K_a . . 3.7651(10) ?
+Ti_l K_a . 1_565 3.7651(10) ?
+Ti_l K_a . 6_555 3.7297(15) ?
+Ti_l K_a . 6_556 3.7421(15) ?
+Ti_l Ba_a . . 3.7651(10) ?
+Ti_l Ba_a . 1_565 3.7651(10) ?
+Ti_l Ba_a . 6_555 3.7297(15) ?
+Ti_l Ba_a . 6_556 3.7421(15) ?
+Ti_l Ca_m2 . 5_555 3.5177(15) ?
+Ti_l Ca_m2 . 7_556 3.5177(15) ?
+Na_m1 Na_m2 . 5_554 3.2708(12) ?
+Na_m1 Na_m2 . 5_555 3.2708(12) ?
+Na_m1 Na_m2 . 7_555 3.2708(12) ?
+Na_m1 Na_m2 . 7_556 3.2708(12) ?
+Na_m1 Ti_m3 . 5_545 3.5443(9) ?
+Na_m1 Ti_m3 . 5_555 3.5443(9) ?
+Na_m1 O2 . . 2.282(5) ?
+Na_m1 O2 . 2_655 2.282(5) ?
+Na_m1 Mn_m2 . 5_554 3.2708(12) ?
+Na_m1 Mn_m2 . 5_555 3.2708(12) ?
+Na_m1 Mn_m2 . 7_555 3.2708(12) ?
+Na_m1 Mn_m2 . 7_556 3.2708(12) ?
+Na_m1 Ca_m2 . 5_554 3.2708(12) ?
+Na_m1 Ca_m2 . 5_555 3.2708(12) ?
+Na_m1 Ca_m2 . 7_555 3.2708(12) ?
+Na_m1 Ca_m2 . 7_556 3.2708(12) ?
+Na_m1 Mg_m3 . 5_545 3.5443(9) ?
+Na_m1 Mg_m3 . 5_555 3.5443(9) ?
+Na_m2 Na_m2 . 3_556 3.694(3) ?
+Na_m2 Na_m2 . 3_566 3.395(3) ?
+Na_m2 Ti_m3 . . 3.1887(11) ?
+Na_m2 Ti_m3 . 1_556 3.1887(11) ?
+Na_m2 O2 . 5_445 2.338(3) ?
+Na_m2 O2 . 6_546 2.338(3) ?
+Na_m2 O5 . 5_445 2.236(3) ?
+Na_m2 O5 . 6_546 2.236(3) ?
+Na_m2 O_x . . 2.317(4) ?
+Na_m2 O_x . 2_556 2.317(4) ?
+Na_m2 Mn_m2 . . 0 ?
+Na_m2 Mn_m2 . 3_566 3.395(3) ?
+Na_m2 Ca_m2 . . 0 ?
+Na_m2 Ca_m2 . 3_556 3.694(3) ?
+Na_m2 Ca_m2 . 3_566 3.395(3) ?
+Na_m2 Fe_m3 . . 3.1887(11) ?
+Na_m2 Fe_m3 . 1_556 3.1887(11) ?
+Na_m2 Mg_m3 . . 3.1887(11) ?
+Na_m2 Mg_m3 . 1_556 3.1887(11) ?
+Ti_m3 O5 . 5_444 2.010(3) ?
+Ti_m3 O5 . 6_546 2.010(3) ?
+Ti_m3 O5 . 7_566 2.010(3) ?
+Ti_m3 O5 . 8_464 2.010(3) ?
+Ti_m3 O_x . . 1.964(6) ?
+Ti_m3 O_x . 2_555 1.964(6) ?
+Ti_m3 Ca_m2 . 1_554 3.1887(11) ?
+Ti_m3 Ca_m2 . . 3.1887(11) ?
+Ti_m3 Ca_m2 . 3_565 3.1887(11) ?
+Ti_m3 Ca_m2 . 3_566 3.1887(11) ?
+Ti_m3 Fe_m3 . . 0 ?
+Ti_m3 Mg_m3 . . 0 ?
+Si O1 . . 1.620(3) ?
+Si O3 . . 1.620(3) ?
+Si O4 . . 1.657(2) ?
+Si O5 . . 1.612(4) ?
+Si K_a . 1_565 3.4198(14) ?
+Si K_a . 1_566 3.3956(14) ?
+Si K_a . 6_556 3.3876(15) ?
+Si Ba_a . 1_565 3.4198(14) ?
+Si Ba_a . 1_566 3.3956(14) ?
+Si Ba_a . 6_556 3.3876(15) ?
+O1 K_a . 1_565 2.720(3) ?
+O1 K_a . 6_556 2.848(4) ?
+O1 Ba_a . 1_565 2.720(3) ?
+O1 Ba_a . 6_556 2.848(4) ?
+O2 Ca_m2 . 5_555 2.338(3) ?
+O2 Ca_m2 . 7_556 2.338(3) ?
+O3 K_a . 1_566 2.716(3) ?
+O3 K_a . 6_556 2.815(3) ?
+O3 Ba_a . 1_566 2.716(3) ?
+O3 Ba_a . 6_556 2.815(3) ?
+O4 K_a . 1_565 2.811(4) ?
+O4 K_a . 1_566 2.803(4) ?
+O4 Ba_a . 1_565 2.811(4) ?
+O4 Ba_a . 1_566 2.803(4) ?
+O5 Ca_m2 . 5_555 2.236(3) ?
+O5 Fe_m3 . 5_556 2.010(3) ?
+O5 Mg_m3 . 5_556 2.010(3) ?
+O_x Ca_m2 . . 2.317(4) ?
+O_x Ca_m2 . 3_566 2.317(4) ?
+O_x Fe_m3 . . 1.964(6) ?
+O_x Mg_m3 . . 1.964(6) ?
+K_a K_a . 6_545 4.6308(10) ?
+K_a K_a . 6_546 4.6581(10) ?
+K_a K_a . 6_555 4.6308(10) ?
+K_a K_a . 6_556 4.6581(10) ?
+K_a Na_a . . 0 ?
+K_a Ba_a . . 0 ?
+K_a Ba_a . 6_545 4.6308(10) ?
+K_a Ba_a . 6_546 4.6581(10) ?
+K_a Ba_a . 6_555 4.6308(10) ?
+K_a Ba_a . 6_556 4.6581(10) ?
+Na_a Ba_a . . 0 ?
+Ba_a Ba_a . 6_545 4.6308(10) ?
+Ba_a Ba_a . 6_546 4.6581(10) ?
+Ba_a Ba_a . 6_555 4.6308(10) ?
+Ba_a Ba_a . 6_556 4.6581(10) ?
+Mn_m2 Ca_m2 . . 0 ?
+Mn_m2 Ca_m2 . 3_566 3.395(3) ?
+Ca_m2 Ca_m2 . 3_556 3.694(3) ?
+Ca_m2 Ca_m2 . 3_566 3.395(3) ?
+Ca_m2 Fe_m3 . . 3.1887(11) ?
+Ca_m2 Fe_m3 . 1_556 3.1887(11) ?
+Ca_m2 Mg_m3 . . 3.1887(11) ?
+Ca_m2 Mg_m3 . 1_556 3.1887(11) ?
+Fe_m3 Mg_m3 . . 0 ?
+loop_
+_twin_individual_id
+_twin_individual_mass_fraction_refined
+_twin_individual_twin_matrix_11
+_twin_individual_twin_matrix_12
+_twin_individual_twin_matrix_13
+_twin_individual_twin_matrix_21
+_twin_individual_twin_matrix_22
+_twin_individual_twin_matrix_23
+_twin_individual_twin_matrix_31
+_twin_individual_twin_matrix_32
+_twin_individual_twin_matrix_33
+1 0.833(11) 1 0 0 0 1 0 0 0 1
+2 0.167(11) -1 0 0 0 -1 0 -0.8436 0 1
+
+_cod_database_fobs_code 2108795

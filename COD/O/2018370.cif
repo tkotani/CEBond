@@ -1,0 +1,582 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 00:18:51 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176760 $
+#$URL: svn://www.crystallography.net/cod/cif/2/01/83/2018370.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2018370
+loop_
+_publ_author_name
+'Albino, Marjorie'
+'Pechev, Stanislav'
+'Veber, Philippe'
+'Velazquez, Matias'
+'Josse, Michael'
+_publ_section_title
+;
+ Cation ordering in the double tungstate LiFe(WO~4~)~2~
+;
+_journal_coeditor_code           FA3264
+_journal_issue                   2
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              i7
+_journal_page_last               i8
+_journal_paper_doi               10.1107/S0108270111053832
+_journal_volume                  68
+_journal_year                    2012
+_chemical_formula_iupac          'Li Fe (W O4)2'
+_chemical_formula_sum            'Fe Li O8 W2'
+_chemical_formula_weight         558.46
+_chemical_name_systematic
+;
+lithium iron tungstate
+;
+_space_group_IT_number           15
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-C 2yc'
+_symmetry_space_group_name_H-M   'C 1 2/c 1'
+_audit_creation_method           'WinGX routine CIF_UPDATE'
+_cell_angle_alpha                90
+_cell_angle_beta                 90.597(2)
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   9.2884(3)
+_cell_length_b                   11.4181(3)
+_cell_length_c                   4.90180(10)
+_cell_measurement_reflns_used    6452
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      32.032
+_cell_measurement_theta_min      2.91
+_cell_volume                     519.84(2)
+_computing_cell_refinement       'SCALEPACK (Otwinowski & Minor, 1997)'
+_computing_data_collection       'COLLECT (Bruker, 2008)'
+_computing_data_reduction
+'DENZO and SCALEPACK (Otwinowski & Minor, 1997)'
+_computing_molecular_graphics    'DIAMOND (Brandenburg 1999)'
+_computing_publication_material  'WinGX (Farrugia, 1999)'
+_computing_structure_refinement  'SHELXL97 (Sheldrick, 2008)'
+_computing_structure_solution    'SIR92 (Altomare <i>et al.</i>, 1994)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measured_fraction_theta_full 0.999
+_diffrn_measured_fraction_theta_max 0.999
+_diffrn_measurement_device       '95mm CCD camera on \k-goniostat'
+_diffrn_measurement_device_type  'Nonius KappaCCD'
+_diffrn_measurement_method       '\f scans, and \w scans'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0805
+_diffrn_reflns_limit_h_max       13
+_diffrn_reflns_limit_h_min       -13
+_diffrn_reflns_limit_k_max       16
+_diffrn_reflns_limit_k_min       -16
+_diffrn_reflns_limit_l_max       7
+_diffrn_reflns_limit_l_min       -7
+_diffrn_reflns_number            11306
+_diffrn_reflns_theta_full        31.99
+_diffrn_reflns_theta_max         31.99
+_diffrn_reflns_theta_min         3.57
+_exptl_absorpt_coefficient_mu    46.901
+_exptl_absorpt_correction_T_max  0.6299
+_exptl_absorpt_correction_T_min  0.0895
+_exptl_absorpt_correction_type   gaussian
+_exptl_absorpt_process_details
+;
+a grid of  8 x  8 x 52 =  3328 sampling points
+;
+_exptl_crystal_colour            yellow
+_exptl_crystal_density_diffrn    7.136
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       needle
+_exptl_crystal_F_000             964
+_exptl_crystal_size_max          0.15
+_exptl_crystal_size_mid          0.03
+_exptl_crystal_size_min          0.02
+_refine_diff_density_max         1.667
+_refine_diff_density_min         -2.571
+_refine_ls_extinction_coef       0.0091(2)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     'SHELXL97 (Sheldrick, 2008)'
+_refine_ls_goodness_of_fit_ref   1.119
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     57
+_refine_ls_number_reflns         906
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.119
+_refine_ls_R_factor_gt           0.0177
+_refine_ls_shift/su_max          0.002
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0165P)^2^+1.2747P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_ref         0.0413
+_reflns_number_gt                827
+_reflns_number_total             906
+_reflns_threshold_expression     I>2\s(I)
+_iucr_refine_instructions_details
+;
+TITL import in C 2/c  (compo a)
+CELL   0.71073   9.2884  11.4181   4.9018  90.000  90.597  90.000
+ZERR     4       0.0003   0.0003   0.0001   0.000   0.002   0.000
+LATT    7
+SYMM   -X,+Y,1/2-Z
+SFAC  Fe      11.76951  4.76111  7.35731  0.30720   3.52220  15.35351 =
+         2.30450  76.88058   1.03690   0.346   0.844  3490.000  0.49  55.845
+SFAC  Li       1.12820  3.95460  0.75080  1.05240   0.61750  85.39058 =
+         0.46530 168.26120   0.03770   0.000   0.000     2.280  0.59  6.941
+SFAC  O        3.04850 13.27711  2.28680  5.70111   1.54630   0.32390 =
+         0.86700  32.90894   0.25080   0.011   0.006    32.500  1.38 15.999
+SFAC  W       29.08183  1.72029 15.43001  9.22591  14.43271   0.32170 =
+         5.11983  57.05606   9.88751  -0.849   6.872 28600.000  0.60 183.840
+UNIT  4    4    32    8
+TEMP    20
+SIZE  0.02 0.025 0.15
+BOND
+FMAP 2
+PLAN 20
+ACTA
+WGHT    0.016500    1.274700
+EXTI    0.009096
+FVAR       0.10383
+LI1   2    0.500000    0.342826    0.250000    10.50000    0.00858    0.02021 =
+         0.00302    0.00000    0.00137    0.00000
+FE1   1    0.500000    0.165229    0.750000    10.50000    0.00624    0.00634 =
+         0.00661    0.00000    0.00016    0.00000
+W1    4    0.247439    0.091398    0.246123    11.00000    0.00575    0.00383 =
+         0.00374   -0.00011   -0.00002    0.00030
+O1    3    0.363305    0.059069    0.924243    11.00000    0.00755    0.00541 =
+         0.00662    0.00037    0.00063   -0.00123
+O2    3    0.380459    0.182223    0.411044    11.00000    0.00822    0.00772 =
+         0.00703   -0.00028   -0.00107   -0.00020
+O3    3    0.144912    0.048339    0.554219    11.00000    0.00727    0.00587 =
+         0.00606    0.00080   -0.00003    0.00054
+O4    3    0.122617    0.194221    0.107953    11.00000    0.00745    0.00658 =
+         0.00753   -0.00025   -0.00059    0.00077
+L.S.6
+HKLF 4
+REM  import in C 2/c  (compo a)
+REM R1 =  0.0177 for    827 Fo > 4sig(Fo)  and  0.0204 for all    906 data
+REM     57 parameters refined using      0 restraints
+END
+;
+_cod_data_source_file            fa3264.cif
+_cod_data_source_block           I
+_cod_original_sg_symbol_H-M      'C 2/c'
+_cod_database_code               2018370
+_cod_database_fobs_code          2018370
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, y, -z+1/2'
+'x+1/2, y+1/2, z'
+'-x+1/2, y+1/2, -z+1/2'
+'-x, -y, -z'
+'x, -y, z-1/2'
+'-x+1/2, -y+1/2, -z'
+'x+1/2, -y+1/2, z-1/2'
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+Li Li1 0.5 0.3428(7) 0.25 0.011(2) Uani 1 2
+Fe Fe1 0.5 0.16523(6) 0.75 0.00640(17) Uani 1 2
+W W1 0.247439(12) 0.091398(11) 0.24612(2) 0.00444(8) Uani 1 1
+O O1 0.3633(3) 0.0591(2) 0.9242(5) 0.0065(4) Uani 1 1
+O O2 0.3805(3) 0.1822(3) 0.4110(5) 0.0077(5) Uani 1 1
+O O3 0.1449(3) 0.0483(2) 0.5542(5) 0.0064(5) Uani 1 1
+O O4 0.1226(3) 0.1942(2) 0.1080(5) 0.0072(5) Uani 1 1
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Li1 0.009(5) 0.020(6) 0.003(4) 0 0.001(4) 0
+Fe1 0.0062(4) 0.0063(4) 0.0066(4) 0 0.0002(3) 0
+W1 0.00575(10) 0.00383(10) 0.00374(11) 0.00030(4) -0.00002(6) -0.00011(3)
+O1 0.0076(11) 0.0054(10) 0.0066(11) -0.0012(9) 0.0006(9) 0.0004(9)
+O2 0.0082(12) 0.0077(10) 0.0070(11) -0.0002(10) -0.0011(9) -0.0003(9)
+O3 0.0073(11) 0.0059(11) 0.0061(11) 0.0005(9) 0.0000(9) 0.0008(8)
+O4 0.0075(11) 0.0066(11) 0.0075(11) 0.0008(9) -0.0006(9) -0.0003(9)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Fe Fe 0.346 0.844 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Li Li 0 0 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.011 0.006 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+W W -0.849 6.872 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+O3 Li1 O3 7_556 8 106.4(4)
+O3 Li1 O4 7_556 7 99.00(15)
+O3 Li1 O4 8 7 94.71(14)
+O3 Li1 O4 7_556 8_556 94.71(14)
+O3 Li1 O4 8 8_556 99.00(15)
+O4 Li1 O4 7 8_556 157.0(5)
+O3 Li1 O2 7_556 . 90.05(11)
+O3 Li1 O2 8 . 163.5(3)
+O4 Li1 O2 7 . 82.4(2)
+O4 Li1 O2 8_556 . 79.2(2)
+O3 Li1 O2 7_556 2_655 163.5(3)
+O3 Li1 O2 8 2_655 90.05(11)
+O4 Li1 O2 7 2_655 79.2(2)
+O4 Li1 O2 8_556 2_655 82.4(2)
+O2 Li1 O2 . 2_655 73.5(3)
+O1 Fe1 O1 . 2_656 103.50(16)
+O1 Fe1 O2 . . 93.76(11)
+O1 Fe1 O2 2_656 . 93.13(11)
+O1 Fe1 O2 . 2_656 93.13(11)
+O1 Fe1 O2 2_656 2_656 93.76(11)
+O2 Fe1 O2 . 2_656 168.85(17)
+O1 Fe1 O4 . 7_556 88.39(10)
+O1 Fe1 O4 2_656 7_556 168.01(12)
+O2 Fe1 O4 . 7_556 84.40(10)
+O2 Fe1 O4 2_656 7_556 87.05(11)
+O1 Fe1 O4 . 8_556 168.01(12)
+O1 Fe1 O4 2_656 8_556 88.39(10)
+O2 Fe1 O4 . 8_556 87.05(11)
+O2 Fe1 O4 2_656 8_556 84.40(10)
+O4 Fe1 O4 7_556 8_556 79.77(15)
+O4 W1 O2 . . 103.45(15)
+O4 W1 O3 . . 98.42(12)
+O2 W1 O3 . . 98.20(11)
+O4 W1 O1 . 1_554 100.34(11)
+O2 W1 O1 . 1_554 95.18(12)
+O3 W1 O1 . 1_554 153.71(13)
+O4 W1 O3 . 6 92.33(11)
+O2 W1 O3 . 6 162.85(12)
+O3 W1 O3 . 6 85.90(8)
+O1 W1 O3 1_554 6 75.12(11)
+O4 W1 O1 . 6 168.33(12)
+O2 W1 O1 . 6 86.62(11)
+O3 W1 O1 . 6 73.99(11)
+O1 W1 O1 1_554 6 84.36(9)
+O3 W1 O1 6 6 78.48(12)
+Fe1 O1 W1 . 1_556 126.89(14)
+Fe1 O1 W1 . 6_556 128.78(12)
+W1 O1 W1 1_556 6_556 101.33(11)
+Fe1 O1 O3 . 6_556 164.12(17)
+W1 O1 O3 1_556 6_556 54.73(9)
+W1 O1 O3 6_556 6_556 46.61(8)
+Fe1 O1 O3 . . 102.73(11)
+W1 O1 O3 1_556 . 97.71(13)
+W1 O1 O3 6_556 . 48.72(7)
+O3 O1 O3 6_556 . 62.44(10)
+Fe1 O1 O2 . 6_556 124.74(13)
+W1 O1 O2 1_556 6_556 103.88(11)
+O3 O1 O2 6_556 6_556 63.67(11)
+O3 O1 O2 . 6_556 88.98(9)
+Fe1 O1 O2 . 1_556 91.70(11)
+W1 O1 O2 6_556 1_556 139.47(12)
+O3 O1 O2 6_556 1_556 94.02(12)
+O3 O1 O2 . 1_556 129.41(13)
+O2 O1 O2 6_556 1_556 121.57(13)
+Fe1 O1 O1 . 6 84.86(7)
+W1 O1 O1 1_556 6 143.46(10)
+O3 O1 O1 6_556 6 89.66(14)
+O3 O1 O1 . 6 53.03(8)
+O2 O1 O1 6_556 6 59.85(12)
+O2 O1 O1 1_556 6 176.29(10)
+Fe1 O1 O1 . 6_556 133.36(8)
+W1 O1 O1 1_556 6_556 51.59(5)
+W1 O1 O1 6_556 6_556 88.09(13)
+O3 O1 O1 6_556 6_556 61.65(11)
+O3 O1 O1 . 6_556 123.90(9)
+O2 O1 O1 6_556 6_556 62.60(12)
+O2 O1 O1 1_556 6_556 59.41(7)
+O1 O1 O1 6 6_556 122.35(19)
+Fe1 O1 O4 . 7_556 47.74(8)
+W1 O1 O4 1_556 7_556 83.28(11)
+W1 O1 O4 6_556 7_556 141.11(12)
+O3 O1 O4 6_556 7_556 123.40(15)
+O3 O1 O4 . 7_556 92.43(9)
+O2 O1 O4 6_556 7_556 172.46(14)
+O2 O1 O4 1_556 7_556 62.61(9)
+O1 O1 O4 6 7_556 115.56(11)
+O1 O1 O4 6_556 7_556 122.02(12)
+Fe1 O1 O4 . 1_556 108.35(13)
+W1 O1 O4 6_556 1_556 99.49(11)
+O3 O1 O4 6_556 1_556 62.58(10)
+O3 O1 O4 . 1_556 69.76(10)
+O2 O1 O4 6_556 1_556 126.12(11)
+O2 O1 O4 1_556 1_556 59.68(11)
+O1 O1 O4 6 1_556 122.78(8)
+O1 O1 O4 6_556 1_556 88.70(7)
+O4 O1 O4 7_556 1_556 61.17(11)
+W1 O1 O2 1_556 2_656 98.18(11)
+W1 O1 O2 6_556 2_656 153.25(14)
+O3 O1 O2 6_556 2_656 148.67(15)
+O3 O1 O2 . 2_656 145.33(12)
+O2 O1 O2 6_556 2_656 116.57(12)
+O2 O1 O2 1_556 2_656 57.99(11)
+O1 O1 O2 6 2_656 118.34(7)
+O1 O1 O2 6_556 2_656 89.85(7)
+O4 O1 O2 7_556 2_656 59.26(10)
+O4 O1 O2 1_556 2_656 107.13(13)
+W1 O2 Fe1 . . 133.70(15)
+W1 O2 Li1 . . 129.83(13)
+Fe1 O2 Li1 . . 95.58(11)
+W1 O2 O2 . 2_655 107.36(13)
+Fe1 O2 O2 . 2_655 91.86(14)
+Li1 O2 O2 . 2_655 53.26(14)
+W1 O2 O4 . 7_556 131.95(12)
+Fe1 O2 O4 . 7_556 49.24(7)
+Li1 O2 O4 . 7_556 83.92(15)
+O2 O2 O4 2_655 7_556 120.70(12)
+W1 O2 O1 . 6 52.81(9)
+Fe1 O2 O1 . 6 85.14(11)
+Li1 O2 O1 . 6 146.74(18)
+O2 O2 O1 2_655 6 93.49(8)
+O4 O2 O1 7_556 6 119.42(12)
+Fe1 O2 O3 . . 99.76(12)
+Li1 O2 O3 . . 156.70(17)
+O2 O2 O3 2_655 . 142.64(10)
+O4 O2 O3 7_556 . 92.91(9)
+O1 O2 O3 6 . 52.87(10)
+Fe1 O2 O1 . 1_554 133.85(15)
+Li1 O2 O1 . 1_554 97.66(13)
+O2 O2 O1 2_655 1_554 62.84(10)
+O4 O2 O1 7_556 1_554 176.09(11)
+O1 O2 O1 6 1_554 60.74(9)
+O3 O2 O1 . 1_554 84.23(11)
+Fe1 O2 O4 . . 155.23(16)
+Li1 O2 O4 . . 101.10(11)
+O2 O2 O4 2_655 . 112.78(16)
+O4 O2 O4 7_556 . 114.36(10)
+O1 O2 O4 6 . 90.69(9)
+O3 O2 O4 . . 59.25(10)
+O1 O2 O4 1_554 . 61.87(9)
+W1 O2 O4 . 8_556 170.09(18)
+Fe1 O2 O4 . 8_556 47.85(8)
+Li1 O2 O4 . 8_556 47.81(8)
+O2 O2 O4 2_655 8_556 63.13(11)
+O4 O2 O4 7_556 8_556 57.61(12)
+O1 O2 O4 6 8_556 122.54(14)
+O3 O2 O4 . 8_556 145.17(15)
+O1 O2 O4 1_554 8_556 125.97(14)
+O4 O2 O4 . 8_556 146.12(11)
+W1 O2 O1 . 2_656 114.04(15)
+Li1 O2 O1 . 2_656 94.91(14)
+O2 O2 O1 2_655 2_656 59.17(10)
+O4 O2 O1 7_556 2_656 91.50(9)
+O1 O2 O1 6 2_656 63.43(12)
+O3 O2 O1 . 2_656 108.26(13)
+O1 O2 O1 1_554 2_656 91.93(13)
+O4 O2 O1 . 2_656 150.68(12)
+O4 O2 O1 8_556 2_656 59.51(10)
+W1 O2 O1 . . 93.84(12)
+Li1 O2 O1 . . 136.22(13)
+O2 O2 O1 2_655 . 123.69(14)
+O4 O2 O1 7_556 . 60.09(8)
+O1 O2 O1 6 . 59.33(8)
+O3 O2 O1 . . 57.23(10)
+O1 O2 O1 1_554 . 119.97(15)
+O4 O2 O1 . . 115.47(13)
+O4 O2 O1 8_556 . 89.80(11)
+O1 O2 O1 2_656 . 64.53(11)
+W1 O3 Li1 . 7_556 123.9(2)
+W1 O3 W1 . 6_556 109.54(12)
+Li1 O3 W1 7_556 6_556 123.16(17)
+W1 O3 O1 . 6 59.40(10)
+Li1 O3 O1 7_556 6 163.57(17)
+W1 O3 O1 6_556 6 50.15(9)
+W1 O3 O3 . 6 50.46(5)
+Li1 O3 O3 7_556 6 132.37(8)
+W1 O3 O3 6_556 6 95.34(13)
+O1 O3 O3 6 6 63.34(11)
+W1 O3 O3 . 6_556 148.62(9)
+Li1 O3 O3 7_556 6_556 79.52(14)
+O1 O3 O3 6 6_556 92.25(13)
+O3 O3 O3 6 6_556 131.5(2)
+W1 O3 O1 . . 98.37(13)
+Li1 O3 O1 7_556 . 98.51(11)
+W1 O3 O1 6_556 . 52.80(8)
+O1 O3 O1 6 . 65.31(11)
+O3 O3 O1 6 . 128.44(9)
+O3 O3 O1 6_556 . 54.22(8)
+Li1 O3 O4 7_556 . 87.79(17)
+W1 O3 O4 6_556 . 148.62(12)
+O1 O3 O4 6 . 98.69(13)
+O3 O3 O4 6 . 61.65(8)
+O3 O3 O4 6_556 . 166.25(15)
+O1 O3 O4 . . 123.61(12)
+Li1 O3 O2 7_556 . 107.8(2)
+W1 O3 O2 6_556 . 100.33(11)
+O1 O3 O2 6 . 63.46(11)
+O3 O3 O2 6 . 89.32(8)
+O3 O3 O2 6_556 . 117.77(8)
+O1 O3 O2 . . 63.65(10)
+O4 O3 O2 . . 61.15(11)
+W1 O3 O4 . 6_556 112.22(11)
+Li1 O3 O4 7_556 6_556 120.1(2)
+O1 O3 O4 6 6_556 65.91(11)
+O3 O3 O4 6 6_556 71.28(12)
+O3 O3 O4 6_556 6_556 60.37(12)
+O1 O3 O4 . 6_556 92.15(9)
+O4 O3 O4 . 6_556 132.06(12)
+O2 O3 O4 . 6_556 129.23(11)
+W1 O3 O3 . 5_556 115.23(14)
+Li1 O3 O3 7_556 5_556 73.29(17)
+W1 O3 O3 6_556 5_556 101.95(13)
+O1 O3 O3 6 5_556 121.31(17)
+O3 O3 O3 6 5_556 72.00(10)
+O3 O3 O3 6_556 5_556 90.11(12)
+O1 O3 O3 . 5_556 144.31(16)
+O4 O3 O3 . 5_556 91.27(12)
+O2 O3 O3 . 5_556 152.03(15)
+O4 O3 O3 6_556 5_556 65.00(11)
+W1 O3 O4 . 2 93.77(10)
+W1 O3 O4 6_556 2 153.40(13)
+O1 O3 O4 6 2 149.95(14)
+O3 O3 O4 6 2 89.68(7)
+O3 O3 O4 6_556 2 116.65(8)
+O1 O3 O4 . 2 137.95(11)
+O4 O3 O4 . 2 54.27(11)
+O2 O3 O4 . 2 105.85(12)
+O4 O3 O4 6_556 2 119.96(11)
+O3 O3 O4 5_556 2 54.95(9)
+W1 O4 Fe1 . 7_556 137.28(14)
+W1 O4 Li1 . 7 121.6(2)
+Fe1 O4 Li1 7_556 7 98.0(2)
+W1 O4 O4 . 2 110.85(13)
+Fe1 O4 O4 7_556 2 50.12(8)
+Li1 O4 O4 7 2 88.74(13)
+W1 O4 O2 . 7_556 91.42(10)
+Fe1 O4 O2 7_556 7_556 46.36(9)
+Li1 O4 O2 7 7_556 143.19(18)
+O4 O4 O2 2 7_556 62.49(10)
+Fe1 O4 O3 7_556 . 103.66(11)
+Li1 O4 O3 7 . 124.8(2)
+O4 O4 O3 2 . 69.21(10)
+O2 O4 O3 7_556 . 68.32(8)
+W1 O4 O3 . 6 48.10(8)
+Fe1 O4 O3 7_556 6 146.55(14)
+Li1 O4 O3 7 6 76.4(2)
+O4 O4 O3 2 6 96.51(8)
+O2 O4 O3 7_556 6 126.30(13)
+O3 O4 O3 . 6 57.98(8)
+Fe1 O4 O2 7_556 . 109.01(11)
+Li1 O4 O2 7 . 150.94(18)
+O4 O4 O2 2 . 116.71(17)
+O2 O4 O2 7_556 . 65.64(10)
+O3 O4 O2 . . 59.60(9)
+O3 O4 O2 6 . 86.43(9)
+W1 O4 O2 . 8_455 167.37(18)
+Fe1 O4 O2 7_556 8_455 45.10(8)
+Li1 O4 O2 7 8_455 52.95(19)
+O4 O4 O2 2 8_455 59.90(11)
+O2 O4 O2 7_556 8_455 91.23(14)
+O3 O4 O2 . 8_455 128.89(14)
+O3 O4 O2 6 8_455 121.64(14)
+O2 O4 O2 . 8_455 151.53(11)
+W1 O4 O1 . 7_556 130.47(14)
+Li1 O4 O1 7 7_556 100.2(2)
+O4 O4 O1 2 7_556 93.96(7)
+O2 O4 O1 7_556 7_556 62.41(11)
+O3 O4 O1 . 7_556 130.10(12)
+O3 O4 O1 6 7_556 168.89(13)
+O2 O4 O1 . 7_556 92.21(9)
+O2 O4 O1 8_455 7_556 61.23(10)
+Fe1 O4 O1 7_556 1_554 161.09(14)
+Li1 O4 O1 7 1_554 92.66(16)
+O4 O4 O1 2 1_554 146.27(9)
+O2 O4 O1 7_556 1_554 124.09(10)
+O3 O4 O1 . 1_554 82.63(11)
+O3 O4 O1 6 1_554 51.51(9)
+O2 O4 O1 . 1_554 58.46(9)
+O2 O4 O1 8_455 1_554 141.61(14)
+O1 O4 O1 7_556 1_554 118.83(11)
+W1 O4 O4 . 7 84.13(13)
+Fe1 O4 O4 7_556 7 103.53(15)
+Li1 O4 O4 7 7 102.63(16)
+O4 O4 O4 2 7 152.99(11)
+O2 O4 O4 7_556 7 95.94(14)
+O3 O4 O4 . 7 120.05(15)
+O3 O4 O4 6 7 109.89(14)
+O2 O4 O4 . 7 61.28(11)
+O2 O4 O4 8_455 7 107.87(17)
+O1 O4 O4 7_556 7 60.18(11)
+O1 O4 O4 1_554 7 58.65(10)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+Li1 O3 8 2.075(6)
+Li1 O4 7 2.124(3)
+Li1 O4 8_556 2.124(3)
+Li1 O2 . 2.288(7)
+Li1 O2 2_655 2.288(7)
+Fe1 O1 . 1.958(3)
+Fe1 O1 2_656 1.958(3)
+Fe1 O2 . 1.998(3)
+Fe1 O2 2_656 1.998(3)
+Fe1 O4 7_556 2.091(3)
+Fe1 O4 8_556 2.091(3)
+W1 O4 . 1.779(3)
+W1 O2 . 1.799(3)
+W1 O3 . 1.860(2)
+W1 O1 1_554 1.954(2)
+W1 O3 6 2.078(3)
+W1 O1 6 2.203(3)
+O1 W1 1_556 1.954(2)
+O1 W1 6_556 2.203(3)
+O1 O3 6_556 2.460(4)
+O1 O3 . 2.710(4)
+O1 O2 6_556 2.760(3)
+O1 O2 1_556 2.773(4)
+O1 O1 6 2.798(3)
+O1 O1 6_556 2.798(3)
+O1 O4 7_556 2.824(3)
+O1 O4 1_556 2.869(4)
+O1 O2 2_656 2.873(4)
+O2 O2 2_655 2.738(5)
+O2 O4 7_556 2.748(3)
+O2 O1 6 2.760(3)
+O2 O3 . 2.766(4)
+O2 O1 1_554 2.773(4)
+O2 O4 . 2.808(5)
+O2 O4 8_556 2.817(5)
+O2 O1 2_656 2.873(4)
+O3 Li1 7_556 2.075(6)
+O3 W1 6_556 2.078(3)
+O3 O1 6 2.460(4)
+O3 O3 6 2.688(2)
+O3 O3 6_556 2.688(2)
+O3 O4 . 2.756(4)
+O3 O4 6_556 2.790(3)
+O3 O3 5_556 2.953(5)
+O3 O4 2 3.089(4)
+O4 Fe1 7_556 2.091(3)
+O4 Li1 7 2.124(3)
+O4 O4 2 2.682(5)
+O4 O2 7_556 2.748(3)
+O4 O3 6 2.790(3)
+O4 O2 8_455 2.817(5)
+O4 O1 7_556 2.824(3)
+O4 O1 1_554 2.869(4)
+O4 O4 7 2.897(5)

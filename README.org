@@ -1,0 +1,98 @@
+# -*- Mode: org ; Coding: utf-8-unix -*-
+#+TITLE: Bond-Length Analyzer based on Chemenv
+#+AUTHOR: Motonari Sawada, Ryoga Iwamoto, and Takao Kotani 
+#+email: takaokotani@gmail.com
+#+LANGUAGE: en
+#+STARTUP: showall
+#+OPTIONS: \n:t
+
+* Get sets of cif files and Histogram of ionic radius (Fig.1)
+
+We have to run following commands step by step.
+All results and intermediate files 
+(*.dat *.png *.svg *.log COD/*/*  neighbour_*/*) 
+are included in the package. 
+*.log are just log files (not read by other obs).
+
+We can reproduce all things just by bash scripts
+job* files successively in the following manner.
+Time consuming part can be skipped because intermediate files 
+are already in this package.
+
+
+** prerequisite ===================================
+We need python3, matplotlib, numpy, bash, gfortran, pymatgen.
+sudo apt-get install pip3
+xxx sudo apt-get install gfortran
+
+
+We have to compile a fortran code
+>gfortran neib.F
+ a.out is generated. 
+ This is for generating neighbour table used for the bond valence sum procedure for Fig.5
+
+
+** Download cif files from COD =============================
+>./job_download
+This bash script downloads cif files from Crystal Open database(COD).
+In this script, pickup-COD-structures_O.sql is used for SQL query to COD.
+Results of this query is in ListDownloadCif_O.dat, N and F as well,
+where we have cif number, chemical formula and sub version id.
+Then job_download executes DownloadCif.py to download cif files 
+at ./COD/O/*.cif. At 2022-03-25, the number of downloaded files are 
+|   | ListDownloadCif |
+|---+-----------------|
+| N |             674 |
+| F |            1415 |
+| O |           16131 |
+These are at COD/O/*.cif, COD/F/*.cif, and COD/N/*cif.
+These are the line numbers of ListDownloadCif_O.dat and so on.
+
+
+** CifFilter =============================
+>./job_CifFilter
+This performs 'CifFilter.py O' and so on.
+Then we get a list of cif files, list_O.dat, list_F.dat, and list_N.dat,
+whose number of lines show the number of selected files.
+The CifFilter.py takes cif files satisfying
+ 1. Structure is recognized by pymatgen (pymatgen.Structure.from_file do not show error).
+ 2. Site occupancy is almost stoichiometric 
+    ( occupancy is less than 10 percent or more than 90 percent). 
+　  We read occupancy via pymatgen.Structure.species_and_occu.
+ 3. Not in skiplist.py 
+    This is mainly to avoid errors during chemenv_analysis.py afterwards. See skiplist.py. 
+
+The number of cif files reduced by the CifFilter as
+|   | ListDownloadCif_* | list_* |
+|---+-------------------+--------|
+| N |               674 |    497 |
+| F |              1415 |   1085 |
+| O |             16131 |   8120 |
+
+log files are in CifFilter*.log
+
+
+** Generate AnionPacking figure, Fig.1  =============================
+>./job_APfig
+  This calls anion_radius_histogram.py O
+  and so on to generate anion-packing figure, Fig.1.
+  We will have *.png and *.svg (just the difference of format).
+We can use viewer such as eog.
+
+
+** Chemenv analysis  =============================
+>./job_chemenv_analysis
+ This performs ./chemenv_analysis.py N (as well as F and O) successively. 
+ Data files are stored into neighbour_*/.
+ This step is time-consuming. It takes ~30 hours in our laptop.
+
+If Chemenv cause error, we have sign such as 'error lgf.setup_structure(structure)'
+in the console output (ChemO.log and so on during job_chemenv_analysis).
+Since we have removed error files in skiplist.py in advance, we see no error.
+
+
+** Create BondLengthHistogram for Fig.2,3,4,5  =============================
+>./job_hist
+ This performs 'bondlength_histogram.py N' and so on.
+ PNG files for Fig2-Fig.5 are created.
+ ~ 10minutes per one png file.

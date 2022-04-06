@@ -1,0 +1,178 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-26 17:10:38 +0200 (Sat, 26 Mar 2016) $
+#$Revision: 180379 $
+#$URL: svn://www.crystallography.net/cod/cif/7/20/48/7204804.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7204804
+loop_
+_publ_author_name
+'Laura Le\'on-Reina'
+'Enrique R. Losilla'
+'Mar\'ia Mart\'inez-Lara'
+'Sebasti\'an Bruque'
+'Miguel A. G. Aranda'
+_publ_section_title
+;
+ Interstitial oxygen conduction in lanthanum oxy-apatite electrolytes
+;
+_journal_issue                   7
+_journal_name_full               'J. Mater. Chem.'
+_journal_page_first              1142
+_journal_page_last               1149
+_journal_paper_doi               10.1039/b315257j
+_journal_volume                  14
+_journal_year                    2004
+_chemical_formula_sum            'La1.59 O4.36 Si'
+_chemical_formula_weight         318.92
+_chemical_name_systematic        ' ?'
+_space_group_IT_number           176
+_symmetry_cell_setting           hexagonal
+_symmetry_space_group_name_Hall  '-P 6c'
+_symmetry_space_group_name_H-M   'P 63/m'
+_audit_creation_date             2003-09-18T13:17
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_audit_update_record
+' 2003-09-18T13:17  Initial CIF as created by GSAS2CIF'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                120.0
+_cell_formula_units_Z            6
+_cell_length_a                   9.72566(4)
+_cell_length_b                   9.72566
+_cell_length_c                   7.18636(4)
+_cell_volume                     588.678(4)
+_computing_structure_refinement  GSAS
+_exptl_absorpt_correction_T_max  1.00000
+_exptl_absorpt_correction_T_min  1.00000
+_exptl_absorpt_process_details
+;   GSAS Absorption/surface roughness correction: function number 0
+No correction is applied.
+;
+_pd_block_id                     2003-09-18T13:17|LA955SI_RT||Overall
+_pd_calc_method                  'Rietveld Refinement'
+_pd_phase_name                   La9.55Si6O26.325
+_pd_proc_info_datetime           2003-09-18T13:17:02
+_pd_proc_ls_background_function
+;   GSAS Background function number 7 with 36 terms.
+Linear interpolation
+1:    262.822     2:    179.214     3:    212.804     4:    185.495
+5:    136.456     6:    169.595     7:    115.501     8:    109.212
+9:    113.082    10:    124.517    11:    119.154    12:    144.085
+13:    143.151    14:    168.197    15:    113.914    16:    106.643
+17:    96.9342    18:    107.919    19:    103.212    20:    90.2960
+21:    87.0013    22:    82.6587    23:    87.3404    24:    104.939
+25:    101.409    26:    90.2478    27:    95.1814    28:    95.5179
+29:    96.0519    30:    85.8099    31:    80.6924    32:    92.1068
+33:    88.9361    34:    93.6357    35:    93.0526    36:    94.8351
+;
+_pd_proc_ls_prof_R_factor        0.0282
+_pd_proc_ls_prof_wR_expected     0.0461
+_pd_proc_ls_prof_wR_factor       0.0318
+_refine_ls_goodness_of_fit_all   91.35
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     116
+_refine_ls_number_restraints     0
+_refine_ls_R_Fsqd_factor         0.03241
+_refine_ls_shift/su_max          0.08
+_refine_ls_shift/su_mean         0.00
+_cod_data_source_file            b315257j.txt
+_cod_data_source_block           LA955SI_RT_publ
+_cod_original_cell_volume        588.67871
+_cod_database_code               7204804
+#BEGIN Tags that were not found in dictionaries:
+_gsas_exptl_extinct_corr_t_min   1.00000
+_gsas_exptl_extinct_corr_t_max   1.00000
+#END Tags that were not found in dictionaries
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 x-y,+x,+z+1/2
+3 -y,x-y,+z
+4 -x,-y,+z+1/2
+5 y-x,-x,+z
+6 +y,y-x,+z+1/2
+-1 -x,-y,-z
+-2 y-x,-x,-z+1/2
+-3 +y,y-x,-z
+-4 +x,+y,-z+1/2
+-5 x-y,+x,-z
+-6 -y,x-y,-z+1/2
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_22
+_atom_site_aniso_U_23
+_atom_site_aniso_U_33
+La1 0.0100(5) 0.0022(4) 0.0 0.0049(5) 0.0 0.0055(4)
+La2 0.0077(4) 0.00384(22) 0.0 0.0077(4) 0.0 0.0255(7)
+SI 0.0079(9) 0.0059(8) 0.0 0.0041(8) 0.0 0.0075(9)
+O1 0.0268(9) 0.0234(8) 0.0 0.0276(11) 0.0 0.0177(9)
+O2 0.0094(7) 0.0038(7) 0.0 0.0072(8) 0.0 0.0203(8)
+O3 0.0479(9) 0.0174(6) -0.0168(4) 0.0149(6) -0.0077(4) 0.0131(5)
+O4 0.0051(11) 0.0025(5) 0.0 0.0051(11) 0.0 0.211(4)
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+LA La1 0.22824(10) -0.01255(12) 0.25 1.0 Uani 0.0075 6
+LA La2 0.3333 0.6667 -0.00152(20) 0.887 Uani 0.01363 4
+SI SI 0.40142(19) 0.37118(18) 0.25 1.0 Uani 0.00519 6
+O O1 0.32274(17) 0.48395(19) 0.25 1.0 Uani 0.01969 6
+O O2 0.59498(15) 0.47319(17) 0.25 1.0 Uani 0.01241 6
+O O3 0.34667(14) 0.25656(12) 0.06956(11) 1.0 Uani 0.02453 12
+O O4 0.0 0.0 0.25 0.973(8) Uani 0.0736 2
+O O5 -0.001(9) 0.224(8) 0.580(6) 0.0185(19) Uiso 0.03 12
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+LA 9.548
+SI 6.0
+O 26.169
+loop_
+_diffrn_radiation_wavelength
+_diffrn_radiation_wavelength_wt
+_diffrn_radiation_type
+_diffrn_radiation_wavelength_id
+1.540598 1.000 K\a~1~ 1
+1.544398 0.470 K\a~2~ 2
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+? ? ? ? ? ? ? ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+? ? ? ? ? ?
+loop_
+_pd_block_diffractogram_id
+2003-09-18T13:17|LA955SI_RT_H_01||
+2003-09-18T13:17|LA955SI_RT_H_02||
+loop_
+_pd_phase_block_id
+2003-09-18T13:17|LA955SI_RT_phase1|||

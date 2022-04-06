@@ -1,0 +1,336 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-13 14:50:18 +0200 (Sat, 13 Feb 2016) $
+#$Revision: 176428 $
+#$URL: svn://www.crystallography.net/cod/cif/4/34/32/4343241.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4343241
+loop_
+_publ_author_name
+'Smith, Anna L.'
+'Hen, Amir'
+'Raison, Philippe E.'
+'Colineau, Eric'
+'Griveau, Jean-Christophe'
+'Magnani, Nicola'
+'Sanchez, Jean-Pierre'
+'Konings, Rudy J. M.'
+'Caciuffo, Roberto'
+'Cheetham, Anthony K.'
+_publ_section_title
+;
+ X-ray Diffraction, M\"ossbauer Spectroscopy, Magnetic Susceptibility, and
+ Specific Heat Investigations of Na4NpO5 and Na5NpO6.
+;
+_journal_issue                   9
+_journal_name_full               'Inorganic chemistry'
+_journal_page_first              4556
+_journal_page_last               4564
+_journal_paper_doi               10.1021/acs.inorgchem.5b00462
+_journal_volume                  54
+_journal_year                    2015
+_chemical_formula_moiety         'Np O6, 5(Na)'
+_chemical_formula_structural     'Na5 Np O6'
+_chemical_formula_sum            'Na5 Np O6'
+_chemical_formula_weight         448
+_chemical_name_common            'Sodium neptunate'
+_chemical_name_systematic        ' Na5NpO6'
+_space_group_IT_number           12
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-C 2y'
+_symmetry_space_group_name_H-M   'C 1 2/m 1'
+_cell_angle_alpha                90.00000
+_cell_angle_beta                 110.7292(5)
+_cell_angle_gamma                90.00000
+_cell_formula_units_Z            2
+_cell_length_a                   5.82924(6)
+_cell_length_b                   9.99620(11)
+_cell_length_c                   5.75771(6)
+_cell_measurement_temperature    298
+_cell_volume                     313.784(6)
+_computing_structure_refinement  FULLPROF
+_diffrn_ambient_temperature      298
+_diffrn_detector                 'LinxEye position sensitive detector'
+_diffrn_detector_type            'LinxEye position sensitive detector'
+_diffrn_measurement_device_type  'Bruker D8 Advance X-ray diffractometer'
+_diffrn_measurement_method       X-Ray
+_diffrn_radiation_monochromator  Ge[111]
+_diffrn_radiation_type           'Cu K\a'
+_diffrn_radiation_wavelength     1.540598
+_diffrn_source                   'Copper X-ray tube'
+_diffrn_source_target            Cu
+_exptl_absorpt_coefficient_mu    83.194
+_exptl_crystal_density_diffrn    4.742
+_exptl_crystal_F_000             392.0
+_pd_instr_location
+'  Institute for Transuranium Elements, Bruker D8 diffractometer'
+_pd_meas_2theta_range_inc        0.019729
+_pd_meas_2theta_range_max        120.02919
+_pd_meas_2theta_range_min        10.00000
+_pd_meas_number_of_points        5578
+_pd_meas_scan_method             step
+_pd_proc_2theta_range_inc        0.019729
+_pd_proc_2theta_range_max        120.0292
+_pd_proc_2theta_range_min        10.0000
+_pd_proc_ls_prof_R_factor        4.9446
+_pd_proc_ls_prof_wR_expected     2.1388
+_pd_proc_ls_prof_wR_factor       7.4328
+_pd_proc_wavelength              1.540598
+_refine_ls_goodness_of_fit_all   3.47524
+_refine_ls_number_parameters     14
+_refine_ls_number_reflns         272
+_refine_ls_number_restraints     0
+_refine_ls_R_I_factor            5.8567
+_cod_data_source_file            ic5b00462_si_002.cif
+_cod_data_source_block           Na5NpO6
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Monoclinic' changed to 'monoclinic'
+according to
+/usr/data/users/saulius/crontab/automatic-downloads/current/ACS/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 from 2011-04-26.
+
+Automatic conversion script
+Id: cif_fix_values 3271 2015-04-21 07:52:19Z andrius 
+;
+_cod_original_sg_symbol_H-M      'C 2/m'
+_cod_database_code               4343241
+#BEGIN Tags that were not found in dictionaries:
+_pd_proc_ls_prof_cr_factor       12.6348
+_pd_proc_ls_prof_cwr_factor      13.7395
+_pd_proc_ls_prof_cwr_expected    3.9535
+_pd_proc_ls_prof_chi2            12.0773
+_pd_proc_ls_prof_echi2           12.9764
+#END Tags that were not found in dictionaries
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,y,-z
+-x,-y,-z
+x,-y,z
+x+1/2,y+1/2,z
+-x+1/2,y+1/2,-z
+-x+1/2,-y+1/2,-z
+x+1/2,-y+1/2,z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+_atom_site_adp_type
+_atom_site_type_symbol
+Np1 0.00000 0.00000 0.00000 0.00830 1.00000 Uiso Np
+Na1 0.00000 0.66445 0.00000 0.00365 1.00000 Uiso Na
+Na2 0.00000 0.50000 0.50000 0.00365 1.00000 Uiso Na
+Na3 0.50000 0.33044 0.50000 0.00365 1.00000 Uiso Na
+O2 0.27132 0.35420 0.78402 0.0199(14) 1.00000 Uiso O
+O1 0.26669 0.50000 0.20236 0.0199(14) 1.00000 Uiso O
+loop_
+_atom_type_symbol
+_atom_type_scat_Cromer_Mann_a1
+_atom_type_scat_Cromer_Mann_b1
+_atom_type_scat_Cromer_Mann_a2
+_atom_type_scat_Cromer_Mann_b2
+_atom_type_scat_Cromer_Mann_a3
+_atom_type_scat_Cromer_Mann_b3
+_atom_type_scat_Cromer_Mann_a4
+_atom_type_scat_Cromer_Mann_b4
+_atom_type_scat_Cromer_Mann_c
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+np+6 35.01360 0.48981 22.72860 2.81099 14.38840 12.33000 1.75669 22.65810
+13.11300 -5.52900 13.96700
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+na+1 3.25650 2.66710 3.93620 6.11530 1.39980 0.20010 1.00320 14.03900 0.40400
+0.12900 0.12400
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+o-2 4.75800 7.83100 3.63700 30.05000 0.00000 0.00000 0.00000 0.00000 1.59400
+0.04700 0.03200
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+O2 Np1 O2 90.3453(13) 5_444 6_546
+O2 Np1 O2 180.0000(18 5_444 7_556
+O2 Np1 O2 89.6547(14) 5_444 8_454
+O2 Np1 O1 85.7981(11) 5_444 5_445
+O2 Np1 O1 94.2019(12) 5_444 6_545
+O2 Np1 O2 89.6547(14) 6_546 7_556
+O2 Np1 O2 180.0000(18 6_546 8_454
+O2 Np1 O1 94.2019(12) 6_546 5_445
+O2 Np1 O1 85.7981(11) 6_546 6_545
+O2 Np1 O2 90.3453(13) 7_556 8_454
+O2 Np1 O1 94.2019(12) 7_556 5_445
+O2 Np1 O1 85.7981(11) 7_556 6_545
+O2 Np1 O1 85.7981(11) 8_454 5_445
+O2 Np1 O1 94.2019(12) 8_454 6_545
+O1 Np1 O1 180.0000(19 5_445 6_545
+O2 Na1 O2 170.8600(19 3_566 4_564
+O2 Na1 O2 88.9901(11) 3_566 5_454
+O2 Na1 O2 98.2620(12) 3_566 6_556
+O2 Na1 O1 97.9264(13) 3_566 1_555
+O2 Na1 O1 75.3546(9) 3_566 2_555
+O2 Na1 O2 98.2620(12) 4_564 5_454
+O2 Na1 O2 88.9901(11) 4_564 6_556
+O2 Na1 O1 75.3546(9) 4_564 1_555
+O2 Na1 O1 97.9264(13) 4_564 2_555
+O2 Na1 O2 75.4098(10) 5_454 6_556
+O2 Na1 O1 171.5901(18 5_454 1_555
+O2 Na1 O1 98.7462(16) 5_454 2_555
+O2 Na1 O1 98.7462(16) 6_556 1_555
+O2 Na1 O1 171.5901(18 6_556 2_555
+O1 Na1 O1 87.6803(12) 1_555 2_555
+O2 Na2 O2 102.8964(15 1_555 2_556
+O2 Na2 O2 180.0000(18 1_555 3_566
+O2 Na2 O2 77.1036(11) 1_555 4_565
+O2 Na2 O1 92.5888(12) 1_555 1_555
+O2 Na2 O1 87.4112(11) 1_555 2_556
+O2 Na2 O2 77.1036(11) 2_556 3_566
+O2 Na2 O2 180.0000(18 2_556 4_565
+O2 Na2 O1 87.4112(11) 2_556 1_555
+O2 Na2 O1 92.5888(12) 2_556 2_556
+O2 Na2 O2 102.8964(15 3_566 4_565
+O2 Na2 O1 87.4113(11) 3_566 1_555
+O2 Na2 O1 92.5888(12) 3_566 2_556
+O2 Na2 O1 92.5888(12) 4_565 1_555
+O2 Na2 O1 87.4112(11) 4_565 2_556
+O1 Na2 O1 180.0000(19 1_555 2_556
+O2 Na3 O2 168.9183(19 1_555 2_656
+O2 Na3 O2 97.7366(12) 1_555 7_556
+O2 Na3 O2 90.1464(11) 1_555 8_555
+O2 Na3 O1 95.7899(13) 1_555 1_555
+O2 Na3 O1 76.4437(10) 1_555 2_656
+O2 Na3 O2 90.1464(11) 2_656 7_556
+O2 Na3 O2 97.7366(12) 2_656 8_555
+O2 Na3 O1 76.4436(10) 2_656 1_555
+O2 Na3 O1 95.7899(13) 2_656 2_656
+O2 Na3 O2 89.4750(12) 7_556 8_555
+O2 Na3 O1 89.2937(14) 7_556 1_555
+O2 Na3 O1 174.0477(18 7_556 2_656
+O2 Na3 O1 174.0477(18 8_555 1_555
+O2 Na3 O1 89.2937(14) 8_555 2_656
+O1 Na3 O1 92.5152(13) 1_555 2_656
+Np1 O2 Na1 98.6101(13) 5_556 3_566
+Np1 O2 Na1 97.1225(16) 5_556 5_546
+Np1 O2 Na2 96.5323(14) 5_556 1_555
+Np1 O2 Na3 94.7140(12) 5_556 1_555
+Np1 O2 Na3 176.9575(18 5_556 7_556
+Np1 O2 O2 45.1726(8) 5_556 4_565
+Np1 O2 O1 47.2976(7) 5_556 1_556
+Na1 O2 Na1 91.0099(11) 3_566 5_546
+Na1 O2 Na2 90.2427(11) 3_566 1_555
+Na1 O2 Na3 166.6372(19 3_566 1_555
+Na1 O2 Na3 84.4061(11) 3_566 7_556
+Na1 O2 O2 97.5787(16) 3_566 2_657
+Na1 O2 O2 94.5699(12) 3_566 4_565
+Na1 O2 O1 51.3474(7) 3_566 1_556
+Na1 O2 Na2 165.9411(18 5_546 1_555
+Na1 O2 Na3 86.3178(11) 5_546 1_555
+Na1 O2 Na3 82.3735(11) 5_546 7_556
+Na1 O2 O2 52.2951(8) 5_546 2_657
+Na1 O2 O2 142.295(2) 5_546 4_565
+Na1 O2 O1 97.8941(13) 5_546 1_556
+Na2 O2 Na3 89.2441(11) 1_555 1_555
+Na2 O2 Na3 83.8143(13) 1_555 7_556
+Na2 O2 O2 141.2497(20 1_555 2_657
+Na2 O2 O2 51.4482(8) 1_555 4_565
+Na2 O2 O1 93.8148(15) 1_555 1_556
+Na3 O2 Na3 82.2634(10) 1_555 7_556
+Na3 O2 O2 91.1402(15) 1_555 2_657
+Na3 O2 O2 95.5408(12) 1_555 4_565
+Na3 O2 O1 142.0000(18 1_555 1_556
+Na3 O2 O2 134.5806(18 7_556 2_657
+Na3 O2 O2 135.262(2) 7_556 4_565
+Na3 O2 O1 135.7303(17 7_556 1_556
+O2 O2 O2 90.0000(12) 2_657 4_565
+O2 O2 O1 63.6942(9) 2_657 1_556
+O2 O2 O1 58.9244(9) 4_565 1_556
+Np1 O1 Na1 100.1665(13 5_555 1_555
+Np1 O1 Na1 100.1665(13 5_555 3_565
+Np1 O1 Na2 175.0221(20 5_555 1_555
+Np1 O1 Na3 94.6236(12) 5_555 1_555
+Np1 O1 Na3 94.6236(12) 5_555 3_666
+Np1 O1 O2 46.9043(7) 5_555 1_554
+Np1 O1 O2 46.9043(7) 5_555 4_564
+Na1 O1 Na1 92.3197(14) 1_555 3_565
+Na1 O1 Na2 83.2391(11) 1_555 1_555
+Na1 O1 Na3 164.8708(18 1_555 1_555
+Na1 O1 Na3 88.1625(12) 1_555 3_666
+Na1 O1 O2 98.4500(12) 1_555 1_554
+Na1 O1 O2 53.2980(7) 1_555 4_564
+Na1 O1 Na2 83.2391(11) 3_565 1_555
+Na1 O1 Na3 88.1625(12) 3_565 1_555
+Na1 O1 Na3 164.8707(18 3_565 3_666
+Na1 O1 O2 53.2980(7) 3_565 1_554
+Na1 O1 O2 98.4500(12) 3_565 4_564
+Na2 O1 Na3 81.8016(10) 1_555 1_555
+Na2 O1 Na3 81.8015(10) 1_555 3_666
+Na2 O1 O2 136.5072(17 1_555 1_554
+Na2 O1 O2 136.5072(17 1_555 4_564
+Na3 O1 Na3 87.4848(13) 1_555 3_666
+Na3 O1 O2 93.9572(15) 1_555 1_554
+Na3 O1 O2 141.5164(17 1_555 4_564
+Na3 O1 O2 141.5164(17 3_666 1_554
+Na3 O1 O2 93.9572(15) 3_666 4_564
+O2 O1 O2 62.1512(9) 1_554 4_564
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Np1 O2 2.06740(10) 5_444
+Np1 O2 2.06740(10) 6_546
+Np1 O2 2.06740(10) 7_556
+Np1 O2 2.06740(10) 8_454
+Np1 O1 2.080607(17 5_445
+Np1 O1 2.080607(17 6_545
+Na1 O2 2.339849(19 3_566
+Na1 O2 2.339849(19 4_564
+Na1 O2 2.397430(19 5_454
+Na1 O2 2.397430(19 6_556
+Na1 O1 2.279124(17 1_555
+Na1 O1 2.279124(17 2_555
+Na2 O2 2.338565(17 1_555
+Na2 O2 2.338565(17 2_556
+Na2 O2 2.338565(17 3_566
+Na2 O2 2.338565(17 4_565
+Na2 O1 2.69065(2) 1_555
+Na2 O1 2.69065(2) 2_556
+Na3 O2 2.459831(19 1_555
+Na3 O2 2.459831(19 2_656
+Na3 O2 2.598335(19 7_556
+Na3 O2 2.598335(19 8_555
+Na3 O1 2.451422(18 1_555
+Na3 O1 2.451422(18 2_656
+O2 Np1 2.06740(10) 5_556
+O2 Na1 2.339849(19 3_566
+O2 Na1 2.397431(19 5_546
+O2 Na2 2.338565(17 1_555
+O2 Na3 2.459831(19 1_555
+O2 Na3 2.598335(19 7_556
+O2 O2 2.93251(3) 2_657
+O2 O2 2.91489(3) 4_565
+O2 O1 2.82359(2) 1_556
+O1 Np1 2.080607(17 5_555
+O1 Na1 2.279124(17 1_555
+O1 Na1 2.279124(17 3_565
+O1 Na2 2.69065(2) 1_555
+O1 Na3 2.451422(18 1_555
+O1 Na3 2.451422(18 3_666
+O1 O2 2.82359(2) 1_554
+O1 O2 2.82359(2) 4_564

@@ -1,0 +1,102 @@
+#------------------------------------------------------------------------------
+#$Date: 2015-01-27 21:58:39 +0200 (Tue, 27 Jan 2015) $
+#$Revision: 130149 $
+#$URL: svn://www.crystallography.net/cod/cif/1/00/13/1001353.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1001353
+loop_
+_publ_author_name
+'Mezaoui, D'
+'Michel, C'
+'Groult, D'
+'Raveau, B'
+_publ_section_title
+;
+A M~3~ O~9~ (M~2~ O~4~)~n~: A series of oxides derived from the rutile
+structure by chemical twinning
+;
+_journal_coden_ASTM              MRBUAC
+_journal_name_full               'Materials Research Bulletin'
+_journal_page_first              1039
+_journal_page_last               1044
+_journal_paper_doi               10.1016/0025-5408(86)90218-7
+_journal_volume                  21
+_journal_year                    1986
+_chemical_formula_structural     'Ba Ti3 Nb4 O17'
+_chemical_formula_sum            'Ba Nb4 O17 Ti3'
+_chemical_name_systematic        'Barium titanium niobium oxide (1/3/4/17)'
+_space_group_IT_number           63
+_symmetry_cell_setting           orthorhombic
+_symmetry_Int_Tables_number      63
+_symmetry_space_group_name_Hall  '-C 2c 2'
+_symmetry_space_group_name_H-M   'C m c m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   6.639(7)
+_cell_length_b                   8.957(11)
+_cell_length_c                   21.145(16)
+_cell_volume                     1257.4
+_exptl_crystal_density_meas      4.89
+_refine_ls_R_factor_all          0.09
+_cod_database_code               1001353
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x,-y,-z
+x,y,1/2-z
+x,-y,1/2+z
+-x,-y,-z
+-x,y,z
+-x,-y,1/2+z
+-x,y,1/2-z
+1/2+x,1/2+y,z
+1/2+x,1/2-y,-z
+1/2+x,1/2+y,1/2-z
+1/2+x,1/2-y,1/2+z
+1/2-x,1/2-y,-z
+1/2-x,1/2+y,z
+1/2-x,1/2-y,1/2+z
+1/2-x,1/2+y,1/2-z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_calc_flag
+Ba1 Ba2+ 4 c 0. 0.9807(9) 0.25 1. 0 d
+Ti1 Ti4+ 8 f 0. 0.1026(13) 0.0568(4) 0.6 0 d
+Nb1 Nb5+ 8 f 0. 0.1026(13) 0.0568(4) 0.4 0 d
+Ti2 Ti4+ 8 f 0. 0.3446(10) 0.3404(4) 0.225 0 d
+Nb2 Nb5+ 8 f 0. 0.3446(10) 0.3404(4) 0.775 0 d
+Ti3 Ti4+ 8 f 0. 0.7359(10) 0.3878(6) 0.3 0 d
+Nb3 Nb5+ 8 f 0. 0.7359(10) 0.3878(6) 0.7 0 d
+Ti4 Ti4+ 4 b 0. 0.5 0.5 0.75 0 d
+Nb4 Nb5+ 4 b 0. 0.5 0.5 0.25 0 d
+O1 O2- 8 f 0. 0.546(5) 0.3365(14) 1. 0 d
+O2 O2- 4 c 0. 0.304(5) 0.25 1. 0 d
+O3 O2- 8 f 0. 0.315(4) 0.4549(18) 1. 0 d
+O4 O2- 8 f 0. 0.889(5) 0.4539(13) 1. 0 d
+O5 O2- 8 f 0. 0.120(4) 0.3570(16) 1. 0 d
+O6 O2- 16 h 0.195(3) 0.197(3) 0.6571(10) 1. 0 d
+O7 O2- 16 h 0.280(4) 0.096(3) 0.4562(13) 1. 0 d
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Ba2+ 2.000
+Ti4+ 4.000
+Nb5+ 5.000
+O2- -2.000

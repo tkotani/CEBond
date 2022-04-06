@@ -1,0 +1,587 @@
+#------------------------------------------------------------------------------
+#$Date: 2018-01-18 11:51:46 +0200 (Thu, 18 Jan 2018) $
+#$Revision: 205363 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/54/87/1548717.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1548717
+loop_
+_publ_author_name
+'Udo Haefeker'
+'Reinhard Kaindl'
+'Peter Tropper'
+'Hannes Kruger'
+'Volker Kahlenberg'
+'Maria Orlova'
+_publ_section_title
+;
+ Structural investigations of the two polymorphs of synthetic
+ Fe-cordierite and Raman spectroscopy of hexagonal Fe-cordierite
+;
+_journal_name_full               'Mineralogy and Petrology'
+_journal_page_first              469
+_journal_page_last               478
+_journal_paper_doi               10.1007/s00710-013-0313-3
+_journal_volume                  108
+_journal_year                    2014
+_chemical_absolute_configuration .
+_chemical_formula_sum            'Al4 Fe2 O18 Si5'
+_chemical_formula_weight         648
+_space_group_IT_number           66
+_symmetry_cell_setting           orthorhombic
+_symmetry_Int_Tables_number      66
+_symmetry_space_group_name_Hall  '-C 2 2c'
+_symmetry_space_group_name_H-M   'C c c m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   17.2306(2)
+_cell_length_b                   9.82390(10)
+_cell_length_c                   9.28920(10)
+_cell_measurement_temperature    298
+_cell_volume                     1572.40(3)
+_diffrn_ambient_temperature      298
+_diffrn_detector                 'image plate (34 cm diameter)'
+_diffrn_detector_area_resol_mean 6.67
+_diffrn_detector_type            STOE
+_diffrn_measured_fraction_theta_full 0.98
+_diffrn_measured_fraction_theta_max 0.97
+_diffrn_measurement_details      ' 360 frames, detector distance = 100 mm'
+_diffrn_measurement_device       '2-circle goniometer'
+_diffrn_measurement_device_type  'STOE IPDS 2'
+_diffrn_measurement_method       'rotation method'
+_diffrn_measurement_specimen_support fibre
+_diffrn_radiation_collimation    '0.5 mm diameter, multiple pinhole'
+_diffrn_radiation_monochromator  'plane graphite'
+_diffrn_radiation_polarisn_norm  0
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0572
+_diffrn_reflns_av_sigmaI/netI    0.0137
+_diffrn_reflns_limit_h_max       23
+_diffrn_reflns_limit_h_min       -23
+_diffrn_reflns_limit_k_max       13
+_diffrn_reflns_limit_k_min       -13
+_diffrn_reflns_limit_l_max       12
+_diffrn_reflns_limit_l_min       -12
+_diffrn_reflns_number            7043
+_diffrn_reflns_reduction_process
+;
+ STOE X-AREA/INTEGRATE 1.39
+;
+_diffrn_reflns_theta_full        29.26
+_diffrn_reflns_theta_max         29.31
+_diffrn_reflns_theta_min         2.37
+_diffrn_source
+'sealed X-ray tube, 12 x 0.4 mm long-fine focus'
+_diffrn_source_current           40
+_diffrn_source_power             2.00
+_diffrn_source_voltage           50
+_exptl_absorpt_coefficient_mu    2.54
+_exptl_absorpt_correction_T_max  0.8499
+_exptl_absorpt_correction_T_min  0.7671
+_exptl_absorpt_correction_type   integration
+_exptl_absorpt_process_details
+;
+ STOE XRED32 1.31
+;
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    2.7365
+_exptl_crystal_description       fragment
+_exptl_crystal_F_000             1272
+_exptl_crystal_size_max          0.18
+_exptl_crystal_size_mid          0.12
+_exptl_crystal_size_min          0.08
+_refine_diff_density_max         1.67
+_refine_diff_density_min         -0.80
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_gt    2.95
+_refine_ls_goodness_of_fit_ref   2.89
+_refine_ls_number_constraints    0
+_refine_ls_number_parameters     79
+_refine_ls_number_reflns         1123
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          0.0497
+_refine_ls_R_factor_gt           0.0448
+_refine_ls_shift/su_max          0.0188
+_refine_ls_shift/su_mean         0.0051
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     w=1/(\s^2^(F)+0.0001F^2^)
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_gt          0.0471
+_refine_ls_wR_factor_ref         0.0478
+_reflns_number_gt                1052
+_reflns_number_total             1123
+_reflns_threshold_expression     I>3\s(I)
+_cod_data_source_file            710_2013_313_MOESM1_ESM.cif
+_cod_data_source_block           Orthorh-Fe2Al4Si5O18
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_diffrn_radiation_probe' value 'X-ray' changed to 'x-ray' according
+to the built-in table from CIF Core dictionary named 'cif_core.dic'
+version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 5376 2017-05-30 11:51:03Z andrius 
+;
+_cod_original_sg_symbol_Hall     '-C -2xc;-2yc;-2z'
+_cod_database_code               1548717
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -x,-y,z
+3 -x,y,-z+1/2
+4 x,-y,-z+1/2
+5 -x,-y,-z
+6 x,y,-z
+7 x,-y,z+1/2
+8 -x,y,z+1/2
+9 x+1/2,y+1/2,z
+10 -x+1/2,-y+1/2,z
+11 -x+1/2,y+1/2,-z+1/2
+12 x+1/2,-y+1/2,-z+1/2
+13 -x+1/2,-y+1/2,-z
+14 x+1/2,y+1/2,-z
+15 x+1/2,-y+1/2,z+1/2
+16 -x+1/2,y+1/2,z+1/2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_adp_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+_atom_site_occupancy
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Fe1 Fe 0.16316(11) 0.5 0.25 Uani 0.0135(4) 8 1 d . . .
+Si23 Si 0.63450(19) 0.7350(3) 0 Uani 0.0111(8) 8 1 d . . .
+Si21 Si 0.69041(18) 0.5781(3) 0.5 Uani 0.0123(8) 8 1 d . . .
+Al26 Al 0.0488(2) 0.6934(3) 0 Uani 0.0107(8) 8 1 d . . .
+Si16 Si 0 0.5 0.25 Uani 0.0130(13) 4 1 d . . .
+Al11 Al 0.75 0.75 0.2497(5) Uani 0.0119(9) 8 1 d . . .
+O11 O 0.7443(3) 0.6050(6) 0.3597(6) Uani 0.0149(15) 16 1 d . . .
+O13 O 0.6734(3) 0.8056(6) 0.1434(7) Uani 0.0180(18) 16 1 d . . .
+O16 O 0.0611(3) 0.5866(5) 0.1518(6) Uani 0.0130(14) 16 1 d . . .
+O26 O 0.5423(5) 0.7476(7) 0 Uani 0.0146(19) 8 1 d . . .
+O23 O 0.6621(4) 0.5739(9) 0 Uani 0.017(2) 8 1 d . . .
+O21 O 0.6221(5) 0.6865(9) 0.5 Uani 0.024(3) 8 1 d . . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_type_symbol
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Fe1 Fe 0.0115(7) 0.0132(7) 0.0158(4) 0 0 -0.0003(6)
+Si23 Si 0.0164(14) 0.0077(12) 0.0092(15) 0.0009(10) 0 0
+Si21 Si 0.0112(12) 0.0116(13) 0.0142(15) -0.0018(10) 0 0
+Al26 Al 0.0145(15) 0.0101(13) 0.0076(14) -0.0006(10) 0 0
+Si16 Si 0.0115(19) 0.017(2) 0.010(2) 0 0 0
+Al11 Al 0.0128(15) 0.0108(16) 0.0121(13) 0.0006(12) 0 0
+O11 O 0.016(2) 0.015(3) 0.014(3) 0.0017(19) -0.002(2) -0.001(2)
+O13 O 0.013(3) 0.018(3) 0.023(3) 0.007(2) -0.003(2) -0.001(2)
+O16 O 0.015(2) 0.018(3) 0.007(2) 0.004(2) 0.0003(18) 0.0027(18)
+O26 O 0.013(3) 0.014(3) 0.017(4) -0.003(2) 0 0
+O23 O 0.013(3) 0.021(4) 0.016(4) -0.008(3) 0 0
+O21 O 0.013(4) 0.019(4) 0.039(6) 0.005(3) 0 0
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Al 0.0645 0.0514 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+Fe 0.3463 0.8444 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+O 0.0106 0.0060 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+Si 0.0817 0.0704 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+loop_
+_exptl_crystal_face_index_h
+_exptl_crystal_face_index_k
+_exptl_crystal_face_index_l
+_exptl_crystal_face_perp_dist
+10 6 -1 0.0590
+4 -6 -11 0.0660
+-8 -9 -4 0.0490
+-12 -4 5 0.0560
+-8 4 -1 0.0530
+10 -5 -7 0.0670
+2 -1 0 0.0630
+10 0 1 0.0430
+-11 -1 -4 0.0410
+-13 1 3 0.0570
+17 -2 -5 0.0640
+-13 2 7 0.0680
+-11 -3 -3 0.0280
+-7 -3 -5 0.0380
+5 1 -3 0.0720
+-9 -5 9 0.0570
+-1 -4 7 0.0650
+0 1 -11 0.0690
+14 1 13 0.0600
+-3 16 1 0.0720
+-8 7 1 0.0570
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle
+Si16 Fe1 Al11 . . 9_445 121.35(3)
+Si16 Fe1 Al11 . . 3_655 121.35(3)
+Si16 Fe1 O11 . . 2_665 137.73(16)
+Si16 Fe1 O11 . . 3_655 137.73(16)
+Si16 Fe1 O13 . . 9_445 94.67(16)
+Si16 Fe1 O13 . . 12_465 94.67(16)
+Si16 Fe1 O16 . . . 35.35(14)
+Si16 Fe1 O16 . . 4_565 35.35(14)
+Al11 Fe1 Al11 9_445 . 3_655 117.30(6)
+Al11 Fe1 O11 9_445 . 2_665 37.52(18)
+Al11 Fe1 O11 9_445 . 3_655 91.32(17)
+Al11 Fe1 O13 9_445 . 9_445 37.02(18)
+Al11 Fe1 O13 9_445 . 12_465 135.53(18)
+Al11 Fe1 O16 9_445 . . 139.56(16)
+Al11 Fe1 O16 9_445 . 4_565 95.03(15)
+Al11 Fe1 O11 3_655 . 2_665 91.32(17)
+Al11 Fe1 O11 3_655 . 3_655 37.52(18)
+Al11 Fe1 O13 3_655 . 9_445 135.53(18)
+Al11 Fe1 O13 3_655 . 12_465 37.02(18)
+Al11 Fe1 O16 3_655 . . 95.03(15)
+Al11 Fe1 O16 3_655 . 4_565 139.56(16)
+O11 Fe1 O11 2_665 . 3_655 84.5(2)
+O11 Fe1 O13 2_665 . 9_445 74.5(2)
+O11 Fe1 O13 2_665 . 12_465 98.4(2)
+O11 Fe1 O16 2_665 . . 172.9(2)
+O11 Fe1 O16 2_665 . 4_565 102.4(2)
+O11 Fe1 O13 3_655 . 9_445 98.4(2)
+O11 Fe1 O13 3_655 . 12_465 74.5(2)
+O11 Fe1 O16 3_655 . . 102.4(2)
+O11 Fe1 O16 3_655 . 4_565 172.9(2)
+O13 Fe1 O13 9_445 . 12_465 170.7(2)
+O13 Fe1 O16 9_445 . . 102.8(2)
+O13 Fe1 O16 9_445 . 4_565 84.9(2)
+O13 Fe1 O16 12_465 . . 84.9(2)
+O13 Fe1 O16 12_465 . 4_565 102.8(2)
+O16 Fe1 O16 . . 4_565 70.7(2)
+O13 Si23 O13 . . 6_555 108.2(3)
+O13 Si23 O26 . . . 111.9(3)
+O13 Si23 O23 . . . 106.7(3)
+O13 Si23 O26 6_555 . . 111.9(3)
+O13 Si23 O23 6_555 . . 106.7(3)
+O26 Si23 O23 . . . 111.2(4)
+O11 Si21 O11 . . 6_556 107.0(3)
+O11 Si21 O23 . . 4_565 109.4(3)
+O11 Si21 O21 . . . 108.4(3)
+O11 Si21 O23 6_556 . 4_565 109.4(3)
+O11 Si21 O21 6_556 . . 108.4(3)
+O23 Si21 O21 4_565 . . 114.1(5)
+O16 Al26 O16 . . 6_555 105.6(3)
+O16 Al26 O26 . . 10_565 108.5(3)
+O16 Al26 O21 . . 12_465 108.5(3)
+O16 Al26 O26 6_555 . 10_565 108.5(3)
+O16 Al26 O21 6_555 . 12_465 108.5(3)
+O26 Al26 O21 10_565 . 12_465 116.7(4)
+Fe1 Si16 Fe1 . . 2_565 180.0(5)
+Fe1 Si16 O16 . . . 49.83(19)
+Fe1 Si16 O16 . . 2_565 130.17(19)
+Fe1 Si16 O16 . . 3_555 130.17(19)
+Fe1 Si16 O16 . . 4_565 49.83(19)
+Fe1 Si16 O16 2_565 . . 130.17(19)
+Fe1 Si16 O16 2_565 . 2_565 49.83(19)
+Fe1 Si16 O16 2_565 . 3_555 49.83(19)
+Fe1 Si16 O16 2_565 . 4_565 130.17(19)
+O16 Si16 O16 . . 2_565 112.1(3)
+O16 Si16 O16 . . 3_555 117.1(3)
+O16 Si16 O16 . . 4_565 99.7(3)
+O16 Si16 O16 2_565 . 3_555 99.7(3)
+O16 Si16 O16 2_565 . 4_565 117.1(3)
+O16 Si16 O16 3_555 . 4_565 112.1(3)
+Fe1 Al11 Fe1 9_555 . 2_665 179.9(2)
+Fe1 Al11 O11 9_555 . . 131.5(2)
+Fe1 Al11 O11 9_555 . 10_665 48.37(19)
+Fe1 Al11 O13 9_555 . . 48.4(2)
+Fe1 Al11 O13 9_555 . 10_665 131.6(3)
+Fe1 Al11 O11 2_665 . . 48.37(19)
+Fe1 Al11 O11 2_665 . 10_665 131.5(2)
+Fe1 Al11 O13 2_665 . . 131.6(3)
+Fe1 Al11 O13 2_665 . 10_665 48.4(2)
+O11 Al11 O11 . . 10_665 108.9(4)
+O11 Al11 O13 . . . 122.9(3)
+O11 Al11 O13 . . 10_665 96.8(3)
+O11 Al11 O13 10_665 . . 96.8(3)
+O11 Al11 O13 10_665 . 10_665 122.9(3)
+O13 Al11 O13 . . 10_665 110.7(4)
+Fe1 O11 Si21 2_665 . . 136.5(4)
+Fe1 O11 Al11 2_665 . . 94.1(3)
+Fe1 O11 O11 2_665 . 10_665 115.2(3)
+Fe1 O11 O11 2_665 . 4_565 47.73(17)
+Fe1 O11 O11 2_665 . 6_556 118.2(3)
+Fe1 O11 O13 2_665 . 10_665 52.79(18)
+Fe1 O11 O23 2_665 . 4_565 108.4(3)
+Fe1 O11 O21 2_665 . . 169.3(3)
+Si21 O11 Al11 . . . 129.2(4)
+Si21 O11 O11 . . 10_665 101.6(3)
+Si21 O11 O11 . . 4_565 116.7(3)
+Si21 O11 O11 . . 6_556 36.5(2)
+Si21 O11 O13 . . 10_665 169.7(4)
+Si21 O11 O23 . . 4_565 34.7(2)
+Si21 O11 O21 . . . 35.4(2)
+Al11 O11 O11 . . 10_665 35.6(2)
+Al11 O11 O11 . . 4_565 99.7(3)
+Al11 O11 O11 . . 6_556 125.6(3)
+Al11 O11 O13 . . 10_665 41.3(2)
+Al11 O11 O23 . . 4_565 150.3(3)
+Al11 O11 O21 . . . 95.0(3)
+O11 O11 O11 10_665 . 4_565 135.2(3)
+O11 O11 O11 10_665 . 6_556 90.0(3)
+O11 O11 O13 10_665 . 10_665 68.1(2)
+O11 O11 O23 10_665 . 4_565 135.2(3)
+O11 O11 O21 10_665 . . 75.4(3)
+O11 O11 O11 4_565 . 6_556 134.7(3)
+O11 O11 O13 4_565 . 10_665 72.5(2)
+O11 O11 O23 4_565 . 4_565 82.6(2)
+O11 O11 O21 4_565 . . 124.8(3)
+O11 O11 O13 6_556 . 10_665 140.3(3)
+O11 O11 O23 6_556 . 4_565 60.0(2)
+O11 O11 O21 6_556 . . 59.9(2)
+O13 O11 O23 10_665 . 4_565 155.1(3)
+O13 O11 O21 10_665 . . 136.1(3)
+O23 O11 O21 4_565 . . 61.2(3)
+Fe1 O13 Si23 9_555 . . 135.4(4)
+Fe1 O13 Al11 9_555 . . 94.5(3)
+Fe1 O13 O11 9_555 . 10_665 52.67(19)
+Fe1 O13 O13 9_555 . 10_665 114.4(3)
+Fe1 O13 O13 9_555 . 6_555 117.3(3)
+Fe1 O13 O16 9_555 . 12_565 47.51(16)
+Fe1 O13 O26 9_555 . . 110.3(3)
+Fe1 O13 O23 9_555 . . 170.7(3)
+Si23 O13 Al11 . . . 129.6(4)
+Si23 O13 O11 . . 10_665 170.5(4)
+Si23 O13 O13 . . 10_665 102.4(3)
+Si23 O13 O13 . . 6_555 35.9(2)
+Si23 O13 O16 . . 12_565 114.3(3)
+Si23 O13 O26 . . . 33.43(19)
+Si23 O13 O23 . . . 36.8(2)
+Al11 O13 O11 . . 10_665 41.9(2)
+Al11 O13 O13 . . 10_665 34.7(2)
+Al11 O13 O13 . . 6_555 124.7(3)
+Al11 O13 O16 . . 12_565 104.3(3)
+Al11 O13 O26 . . . 148.8(3)
+Al11 O13 O23 . . . 94.1(3)
+O11 O13 O13 10_665 . 10_665 68.1(2)
+O11 O13 O13 10_665 . 6_555 140.3(3)
+O11 O13 O16 10_665 . 12_565 74.7(2)
+O11 O13 O26 10_665 . . 155.6(3)
+O11 O13 O23 10_665 . . 135.8(3)
+O13 O13 O13 10_665 . 6_555 90.0(3)
+O13 O13 O16 10_665 . 12_565 138.8(3)
+O13 O13 O26 10_665 . . 134.2(3)
+O13 O13 O23 10_665 . . 74.9(3)
+O13 O13 O16 6_555 . 12_565 130.8(3)
+O13 O13 O26 6_555 . . 60.2(2)
+O13 O13 O23 6_555 . . 59.8(2)
+O16 O13 O26 12_565 . . 80.9(2)
+O16 O13 O23 12_565 . . 126.4(3)
+O26 O13 O23 . . . 60.4(3)
+Fe1 O16 Al26 . . . 131.9(3)
+Fe1 O16 Si16 . . . 94.8(2)
+Fe1 O16 O13 . . 12_465 47.58(16)
+Fe1 O16 O16 . . 2_565 112.7(2)
+Fe1 O16 O16 . . 3_555 109.9(2)
+Fe1 O16 O16 . . 4_565 54.65(17)
+Fe1 O16 O16 . . 6_555 115.0(2)
+Fe1 O16 O26 . . 10_565 164.4(3)
+Fe1 O16 O21 . . 12_465 102.6(3)
+Al26 O16 Si16 . . . 132.6(3)
+Al26 O16 O13 . . 12_465 112.6(3)
+Al26 O16 O16 . . 2_565 106.2(3)
+Al26 O16 O16 . . 3_555 115.5(3)
+Al26 O16 O16 . . 4_565 170.6(3)
+Al26 O16 O16 . . 6_555 37.18(18)
+Al26 O16 O26 . . 10_565 34.59(19)
+Al26 O16 O21 . . 12_465 35.3(2)
+Si16 O16 O13 . . 12_465 104.7(3)
+Si16 O16 O16 . . 2_565 33.96(16)
+Si16 O16 O16 . . 3_555 31.43(15)
+Si16 O16 O16 . . 4_565 40.17(17)
+Si16 O16 O16 . . 6_555 124.0(3)
+Si16 O16 O26 . . 10_565 100.0(3)
+Si16 O16 O21 . . 12_465 157.8(3)
+O13 O16 O16 12_465 . 2_565 138.2(3)
+O13 O16 O16 12_465 . 3_555 94.3(2)
+O13 O16 O16 12_465 . 4_565 76.7(2)
+O13 O16 O16 12_465 . 6_555 130.8(3)
+O13 O16 O26 12_465 . 10_565 122.8(3)
+O13 O16 O21 12_465 . 12_465 78.1(2)
+O16 O16 O16 2_565 . 3_555 54.00(19)
+O16 O16 O16 2_565 . 4_565 64.6(2)
+O16 O16 O16 2_565 . 6_555 90.0(2)
+O16 O16 O26 2_565 . 10_565 82.6(2)
+O16 O16 O21 2_565 . 12_465 141.4(3)
+O16 O16 O16 3_555 . 4_565 61.4(2)
+O16 O16 O16 3_555 . 6_555 130.9(2)
+O16 O16 O26 3_555 . 10_565 81.3(2)
+O16 O16 O21 3_555 . 12_465 127.2(3)
+O16 O16 O16 4_565 . 6_555 137.0(3)
+O16 O16 O26 4_565 . 10_565 140.0(3)
+O16 O16 O21 4_565 . 12_465 154.0(3)
+O16 O16 O26 6_555 . 10_565 59.70(17)
+O16 O16 O21 6_555 . 12_465 60.21(18)
+O26 O16 O21 10_565 . 12_465 61.8(3)
+Si23 O26 Al26 . . 10_565 164.2(5)
+Si23 O26 O13 . . . 34.65(18)
+Si23 O26 O13 . . 6_555 34.65(18)
+Si23 O26 O16 . . 10_565 132.9(3)
+Si23 O26 O16 . . 13_565 132.9(3)
+Si23 O26 O23 . . . 35.1(3)
+Si23 O26 O21 . . 3_655 163.6(5)
+Al26 O26 O13 10_565 . . 135.7(3)
+Al26 O26 O13 10_565 . 6_555 135.7(3)
+Al26 O26 O16 10_565 . 10_565 36.90(17)
+Al26 O26 O16 10_565 . 13_565 36.90(17)
+Al26 O26 O23 10_565 . . 160.7(5)
+Al26 O26 O21 10_565 . 3_655 32.2(3)
+O13 O26 O13 . . 6_555 59.5(3)
+O13 O26 O16 . . 10_565 99.3(2)
+O13 O26 O16 . . 13_565 131.5(3)
+O13 O26 O23 . . . 59.1(2)
+O13 O26 O21 . . 3_655 150.16(16)
+O13 O26 O16 6_555 . 10_565 131.5(3)
+O13 O26 O16 6_555 . 13_565 99.3(2)
+O13 O26 O23 6_555 . . 59.1(2)
+O13 O26 O21 6_555 . 3_655 150.16(16)
+O16 O26 O16 10_565 . 13_565 60.6(2)
+O16 O26 O23 10_565 . . 149.58(14)
+O16 O26 O21 10_565 . 3_655 59.8(2)
+O16 O26 O23 13_565 . . 149.58(14)
+O16 O26 O21 13_565 . 3_655 59.8(2)
+O23 O26 O21 . . 3_655 128.5(4)
+Si23 O23 Si21 . . 4_565 178.6(6)
+Si23 O23 O11 . . 4_565 143.3(3)
+Si23 O23 O11 . . 7_564 143.3(3)
+Si23 O23 O13 . . . 36.6(2)
+Si23 O23 O13 . . 6_555 36.6(2)
+Si23 O23 O26 . . . 33.7(3)
+Si23 O23 O21 . . 4_565 148.2(5)
+Si21 O23 O11 4_565 . 4_565 35.95(19)
+Si21 O23 O11 4_565 . 7_564 35.95(19)
+Si21 O23 O13 4_565 . . 142.7(3)
+Si21 O23 O13 4_565 . 6_555 142.7(3)
+Si21 O23 O26 4_565 . . 147.7(5)
+Si21 O23 O21 4_565 . 4_565 33.2(3)
+O11 O23 O11 4_565 . 7_564 60.0(3)
+O11 O23 O13 4_565 . . 106.8(2)
+O11 O23 O13 4_565 . 6_555 142.4(4)
+O11 O23 O26 4_565 . . 148.03(19)
+O11 O23 O21 4_565 . 4_565 59.4(3)
+O11 O23 O13 7_564 . . 142.4(4)
+O11 O23 O13 7_564 . 6_555 106.8(2)
+O11 O23 O26 7_564 . . 148.03(19)
+O11 O23 O21 7_564 . 4_565 59.4(3)
+O13 O23 O13 . . 6_555 60.5(3)
+O13 O23 O26 . . . 60.5(3)
+O13 O23 O21 . . 4_565 148.2(2)
+O13 O23 O26 6_555 . . 60.5(3)
+O13 O23 O21 6_555 . 4_565 148.2(2)
+O26 O23 O21 . . 4_565 114.5(4)
+Si21 O21 Al26 . . 12_565 179.1(6)
+Si21 O21 O11 . . . 36.3(2)
+Si21 O21 O11 . . 6_556 36.3(2)
+Si21 O21 O16 . . 12_565 143.2(3)
+Si21 O21 O16 . . 15_565 143.2(3)
+Si21 O21 O26 . . 3_655 149.8(5)
+Si21 O21 O23 . . 4_565 32.8(3)
+Al26 O21 O11 12_565 . . 143.3(3)
+Al26 O21 O11 12_565 . 6_556 143.3(3)
+Al26 O21 O16 12_565 . 12_565 36.26(18)
+Al26 O21 O16 12_565 . 15_565 36.26(18)
+Al26 O21 O26 12_565 . 3_655 31.1(3)
+Al26 O21 O23 12_565 . 4_565 148.1(5)
+O11 O21 O11 . . 6_556 60.1(3)
+O11 O21 O16 . . 12_565 107.0(2)
+O11 O21 O16 . . 15_565 142.2(4)
+O11 O21 O26 . . 3_655 148.77(19)
+O11 O21 O23 . . 4_565 59.5(3)
+O11 O21 O16 6_556 . 12_565 142.2(4)
+O11 O21 O16 6_556 . 15_565 107.0(2)
+O11 O21 O26 6_556 . 3_655 148.77(19)
+O11 O21 O23 6_556 . 4_565 59.5(3)
+O16 O21 O16 12_565 . 15_565 59.6(2)
+O16 O21 O26 12_565 . 3_655 58.3(2)
+O16 O21 O23 12_565 . 4_565 148.67(18)
+O16 O21 O26 15_565 . 3_655 58.3(2)
+O16 O21 O23 15_565 . 4_565 148.67(18)
+O26 O21 O23 3_655 . 4_565 117.0(4)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+Fe1 Si16 . . 2.8114(19)
+Fe1 Al11 . 9_445 2.8759(10)
+Fe1 Al11 . 3_655 2.8759(10)
+Fe1 O11 . 2_665 2.155(6)
+Fe1 O11 . 3_655 2.155(6)
+Fe1 O13 . 9_445 2.159(6)
+Fe1 O13 . 12_465 2.159(6)
+Fe1 O16 . . 2.156(5)
+Fe1 O16 . 4_565 2.156(5)
+Si23 O13 . . 1.644(7)
+Si23 O13 . 6_555 1.644(7)
+Si23 O26 . . 1.593(8)
+Si23 O23 . . 1.652(9)
+Si21 O11 . . 1.622(6)
+Si21 O11 . 6_556 1.622(6)
+Si21 O23 . 4_565 1.571(9)
+Si21 O21 . . 1.587(9)
+Al26 O16 . . 1.770(6)
+Al26 O16 . 6_555 1.770(6)
+Al26 O26 . 10_565 1.674(8)
+Al26 O21 . 12_465 1.728(10)
+Si16 O16 . . 1.632(5)
+Si16 O16 . 2_565 1.632(5)
+Si16 O16 . 3_555 1.632(5)
+Si16 O16 . 4_565 1.632(5)
+Al11 O11 . . 1.756(7)
+Al11 O11 . 10_665 1.756(7)
+Al11 O13 . . 1.737(7)
+Al11 O13 . 10_665 1.737(7)
+O11 O11 . 10_665 2.857(8)
+O11 O11 . 4_565 2.899(8)
+O11 O11 . 6_556 2.607(8)
+O11 O13 . 10_665 2.612(9)
+O11 O23 . 4_565 2.606(9)
+O11 O21 . . 2.603(10)
+O13 O13 . 10_665 2.858(8)
+O13 O13 . 6_555 2.663(10)
+O13 O16 . 12_565 2.912(8)
+O13 O26 . . 2.682(9)
+O13 O23 . . 2.644(10)
+O16 O16 . 2_565 2.708(7)
+O16 O16 . 3_555 2.786(8)
+O16 O16 . 4_565 2.495(8)
+O16 O16 . 6_555 2.821(8)
+O16 O26 . 10_565 2.796(8)
+O16 O21 . 12_465 2.839(9)
+O26 O23 . . 2.678(11)
+O26 O21 . 3_655 2.896(12)
+O23 O21 . 4_565 2.650(12)

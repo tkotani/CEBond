@@ -1,0 +1,149 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-01-11 19:22:50 +0200 (Wed, 11 Jan 2017) $
+#$Revision: 190406 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/54/38/1543882.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1543882
+loop_
+_publ_author_name
+'Molero-S\'anchez, Beatriz'
+'Prado-Gonjal, Jes\'us'
+'\'Avila-Brande, David'
+'Birss, Viola'
+'Mor\'an, Emilio'
+_publ_section_title
+;
+ Microwave-assisted synthesis and characterization of new cathodic
+ material for solid oxide fuel cells: La0.3Ca0.7Fe0.7Cr0.3O3&#x2212;\d
+;
+_journal_issue                   7
+_journal_name_full               'Ceramics International'
+_journal_page_first              8411
+_journal_paper_doi               10.1016/j.ceramint.2015.03.041
+_journal_volume                  41
+_journal_year                    2015
+_chemical_formula_moiety         'Cr1.20 Fe2.80 La1.20 O12, 2.8(Ca'
+_chemical_formula_sum            'Ca2.8 Cr1.2 Fe2.8 La1.2 O12'
+_chemical_formula_weight         689.696
+_space_group_IT_number           62
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2ac 2n'
+_symmetry_space_group_name_H-M   'P n m a'
+_cell_angle_alpha                90.00000
+_cell_angle_beta                 90.00000
+_cell_angle_gamma                90.00000
+_cell_formula_units_Z            1
+_cell_length_a                   5.4615(13)
+_cell_length_b                   7.7470(8)
+_cell_length_c                   5.4620(11)
+_cell_volume                     231.10(8)
+_computing_structure_refinement  FULLPROF
+_diffrn_radiation_type           X-ray
+_exptl_crystal_density_diffrn    4.956
+_pd_instr_location               ' ?'
+_pd_meas_2theta_range_inc        0.017000
+_pd_meas_2theta_range_max        119.98600
+_pd_meas_2theta_range_min        5.01500
+_pd_meas_number_of_points        6764
+_pd_proc_2theta_range_inc        0.017000
+_pd_proc_2theta_range_max        119.9042
+_pd_proc_2theta_range_min        4.9332
+_pd_proc_ls_pref_orient_corr     ' ?'
+_pd_proc_ls_prof_R_factor        1.7521
+_pd_proc_ls_prof_wR_expected     1.9640
+_pd_proc_ls_prof_wR_factor       2.4222
+_pd_proc_wavelength              1.540560
+_pd_spec_mounting                ' ?'
+_refine_ls_number_parameters     59
+_refine_ls_number_reflns         204
+_refine_ls_number_restraints     0
+_refine_ls_R_I_factor            3.1713
+_cod_data_source_file            LCFC_atom.cif
+_cod_data_source_block           LCFC
+_cod_depositor_comments
+;
+ Changing the _atom_type_symbol and _atom_site_type_symbol data
+ item values to match each other.
+
+ Antanas Vaitkus,
+ 2017-01-11
+
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Orthorhombic' changed to
+'orthorhombic' according to the built-in table from CIF Core
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 4624 2016-04-14 12:54:50Z antanas 
+;
+_cod_original_formula_sum        'Ca2.80 Cr1.20 Fe2.80 La1.20 O12'
+_cod_database_code               1543882
+#BEGIN Tags that were not found in dictionaries:
+_crystal_density                 4.956
+_dx,g                            'cm-3 4.956'
+_z                               1
+_pd_proc_ls_prof_chi2            1.5211
+_pd_proc_ls_prof_echi2           1.5841
+#END Tags that were not found in dictionaries
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x+1/2,-y+1/2,-z+1/2
+-x,y+1/2,-z
+-x+1/2,-y,z+1/2
+-x,-y,-z
+-x+1/2,y+1/2,z+1/2
+x,-y+1/2,z
+x+1/2,y,-z+1/2
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+_atom_site_adp_type
+_atom_site_type_symbol
+La 0.0196(7) 0.25000 -0.0027(12) 0.00000 0.30000 Uiso La
+Ca 0.0196(7) 0.25000 -0.0027(12) 0.00000 0.70000 Uiso Ca
+Fe 0.00000 0.00000 0.50000 0.00000 0.70000 Uiso Fe
+Cr 0.00000 0.00000 0.50000 0.00000 0.30000 Uiso Cr
+O1 0.503(4) 0.25000 0.106(3) 0.00349 1.00000 Uiso O
+O2 0.257(3) 0.00570 -0.302(2) 0.00349 1.00000 Uiso O
+loop_
+_atom_type_symbol
+_atom_type_scat_Cromer_Mann_a1
+_atom_type_scat_Cromer_Mann_b1
+_atom_type_scat_Cromer_Mann_a2
+_atom_type_scat_Cromer_Mann_b2
+_atom_type_scat_Cromer_Mann_a3
+_atom_type_scat_Cromer_Mann_b3
+_atom_type_scat_Cromer_Mann_a4
+_atom_type_scat_Cromer_Mann_b4
+_atom_type_scat_Cromer_Mann_c
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+La 20.57800 2.94817 19.59900 0.24448 11.37270 18.77260 3.28719 133.12399
+2.14678 -1.71600 9.03600
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+Ca 8.62660 10.44210 7.38730 0.65990 1.58990 85.74840 1.02110 178.43700 1.37510
+0.34100 1.28600
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+Fe 11.76950 4.76110 7.35730 0.30720 3.52220 15.35350 2.30450 76.88050 1.03690
+-1.17900 3.20400
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+Cr 10.64060 6.10380 7.35370 0.39200 3.32400 20.26260 1.49220 98.73990 1.18320
+-0.19800 2.44300
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+O 3.04850 13.27710 2.28680 5.70110 1.54630 0.32390 0.86700 32.90890 0.25080
+0.04700 0.03200
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5

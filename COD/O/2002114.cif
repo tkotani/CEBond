@@ -1,0 +1,84 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-19 16:29:56 +0200 (Fri, 19 Feb 2016) $
+#$Revision: 176759 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/21/2002114.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_2002114
+loop_
+_publ_author_name
+'Wichmann, R'
+'Muller-Buschbaum, H'
+_publ_section_title              'Zur Kenntnis von Ba Ni~2~ V~2~ O~8~'
+_journal_name_full               'Revue de Chimie Minerale'
+_journal_page_first              824
+_journal_page_last               829
+_journal_volume                  21
+_journal_year                    1984
+_chemical_formula_structural     'Ba Ni2 V2 O8'
+_chemical_formula_sum            'Ba Ni2 O8 V2'
+_chemical_name_systematic        'Barium dinickel(II) divanadate(V)'
+_space_group_IT_number           148
+_symmetry_cell_setting           trigonal
+_symmetry_space_group_name_Hall  '-R 3'
+_symmetry_space_group_name_H-M   'R -3 :H'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            3
+_cell_length_a                   5.0375
+_cell_length_b                   5.0375
+_cell_length_c                   22.33
+_cell_volume                     490.7
+_refine_ls_R_factor_all          0.049
+_cod_original_sg_symbol_H-M      'R -3 H'
+_cod_database_code               2002114
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-y,x-y,z
+y-x,-x,z
+-x,-y,-z
+y,y-x,-z
+x-y,x,-z
+1/3+x,2/3+y,2/3+z
+2/3+x,1/3+y,1/3+z
+1/3-y,2/3+x-y,2/3+z
+2/3-y,1/3+x-y,1/3+z
+1/3-x+y,2/3-x,2/3+z
+2/3-x+y,1/3-x,1/3+z
+1/3-x,2/3-y,2/3-z
+2/3-x,1/3-y,1/3-z
+1/3+y,2/3-x+y,2/3-z
+2/3+y,1/3-x+y,1/3-z
+1/3+x-y,2/3+x,2/3-z
+2/3+x-y,1/3+x,1/3-z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_calc_flag
+Ba1 Ba2+ 3 a 0. 0. 0. 1. 0 d
+V1 V5+ 6 c 0. 0. 0.42458(7) 1. 0 d
+Ni1 Ni2+ 6 c 0. 0. 0.16972(6) 1. 0 d
+O1 O2- 6 c 0. 0. 0.3507(4) 1. 0 d
+O2 O2- 18 f 0.658(1) 0.004(1) 0.2195(2) 1. 0 d
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Ba2+ 2.000
+V5+ 5.000
+Ni2+ 2.000
+O2- -2.000

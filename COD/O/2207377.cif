@@ -1,0 +1,184 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-10-15 03:23:08 +0300 (Sun, 15 Oct 2017) $
+#$Revision: 202022 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/20/73/2207377.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2207377
+loop_
+_publ_author_name
+'Chen, Jianrong'
+'Lager, George A.'
+'Kunz, Martin'
+'Hansen, Thomas C.'
+'Ulmer, Peter'
+_publ_section_title
+;
+A Rietveld refinement using neutron powder diffraction data
+of a fully deuterated topaz, Al~2~SiO~4~(OD)~2~
+;
+_journal_coeditor_code           WM6096
+_journal_issue                   11
+_journal_name_full               'Acta Crystallographica, Section E'
+_journal_page_first              i253
+_journal_page_last               i255
+_journal_paper_doi               10.1107/S1600536805034811
+_journal_volume                  61
+_journal_year                    2005
+_chemical_formula_iupac          'Al2 Si O4 (O D)2'
+_chemical_formula_moiety         'Al2 D2 O6 Si'
+_chemical_formula_structural     'Al2 Si O4 (O D)2'
+_chemical_formula_sum            'Al2 D2 O6 Si'
+_chemical_formula_weight         182.07
+_chemical_name_common            Topaz-OD
+_chemical_name_systematic        'Dialuminium orthosilicate dihydroxide'
+_space_group_crystal_system      orthorhombic
+_space_group_IT_number           62
+_space_group_name_Hall           '-P 2c 2ab'
+_space_group_name_H-M_alt        'P b n m'
+_symmetry_space_group_name_Hall  '-P 2c 2ab'
+_symmetry_space_group_name_H-M   'P b n m'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            4
+_cell_length_a                   4.72820(10)
+_cell_length_b                   8.9320(2)
+_cell_length_c                   8.4309(2)
+_cell_measurement_temperature    295
+_cell_volume                     356.060(10)
+_computing_cell_refinement       'GSAS (Larson & Von Dreele, 2000)'
+_computing_data_collection       'MAD  (Local program in D20 diffractometer)'
+_computing_data_reduction        'LAMP (Richard et al., 2004)'
+_computing_molecular_graphics    'Diamond (Brandenburg, 2005)'
+_computing_publication_material  'GSAS (Larson & Von Dreele, 2000)'
+_computing_structure_refinement  'GSAS (Larson & Von Dreele, 2000)'
+_diffrn_ambient_temperature      295
+_diffrn_measurement_device_type
+;
+The PSD powder diffractometer D20, at ILL
+;
+_diffrn_radiation_monochromator  Germanium
+_diffrn_radiation_probe          neutron
+_diffrn_radiation_type           neutron
+_diffrn_radiation_wavelength     1.37404
+_exptl_crystal_density_diffrn    3.396
+_exptl_crystal_density_method    'not measured'
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_all   1.32
+_refine_ls_matrix_type           full
+_refine_ls_number_constraints    0
+_refine_ls_number_parameters     52
+_refine_ls_number_restraints     0
+_refine_ls_shift/su_max          0.01
+_refine_ls_shift/su_mean         0.00
+_refine_ls_weighting_scheme      calc
+_cod_data_source_file            wm6096.cif
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_geom_bond_publ_flag' value 'Y' changed to 'y' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (12
+times).
+
+'_geom_angle_publ_flag' value 'Y' changed to 'y' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (4 times).
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+;
+_cod_database_code               2207377
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -x+1/2,+y+1/2,+z
+3 +x+1/2,-y+1/2,+z+1/2
+4 -x,-y,+z+1/2
+5 -x,-y,-z
+6 +x+1/2,-y+1/2,-z
+7 -x+1/2,+y+1/2,-z+1/2
+8 +x,+y,-z+1/2
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+Al 0.9071(6) 0.1325(3) 0.0779(3) 0.0030(4) 1.0
+Si 0.4032(6) 0.9404(3) 0.25 0.0002(5) 1.0
+O1 0.7080(5) 0.0260(2) 0.25 0.0015(4) 1.0
+O2 0.4431(4) 0.7551(3) 0.25 0.0017(5) 1.0
+O3 0.2129(3) 0.9922(2) 0.0946(2) 0.0031(3) 1.0
+O4 0.5917(3) 0.2504(2) 0.0661(2) 0.0048(3) 1.0
+D1 0.4400(10) 0.1858(5) 0.1031(8) 0.0450(10) 0.5
+D2 0.5320(10) 0.2811(7) 0.1675(6) 0.0480(10) 0.5
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_source
+Al Al International_Tables_Vol_C
+Si Si International_Tables_Vol_C
+O O International_Tables_Vol_C
+D D International_Tables_Vol_C
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+Al O4 D1 1_555 1_555 104.0(3) y
+Al O4 D2 1_555 1_555 111.3(4) y
+Al O4 D1 6_455 1_555 101.7(4) y
+Al O4 D2 6_455 1_555 107.1(4) y
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Al O1 1_555 1.974(3) y
+Al O2 2_645 1.951(3) y
+Al O3 1_645 1.918(3) y
+Al O3 5_665 1.917(3) y
+Al O4 1_555 1.829(3) y
+Al O4 6_555 1.825(3) y
+Si O1 1_565 1.631(4) y
+Si O2 1_555 1.666(4) y
+Si O3 1_555 1.656(3) y
+Si O3 8_555 1.656(3) y
+D1 O4 1_555 0.971(5) y
+D2 O4 1_555 0.941(5) y
+loop_
+_geom_hbond_atom_site_label_D
+_geom_hbond_atom_site_label_H
+_geom_hbond_atom_site_label_A
+_geom_hbond_site_symmetry_A
+_geom_hbond_distance_DH
+_geom_hbond_distance_HA
+_geom_hbond_distance_DA
+_geom_hbond_angle_DHA
+O4 D1 O4 6_455 0.971(5) 2.253(6) 2.614(2) 100.7(4)
+O4 D1 O2 7_545 0.971(5) 2.281(6) 2.966(2) 126.8(4)
+O4 D1 O3 1_545 0.971(5) 2.038(5) 2.930(2) 151.9(4)
+O4 D2 O1 1_555 0.941(5) 2.524(6) 2.593(2) 83.6(4)
+O4 D2 O2 7_545 0.941(5) 2.363(6) 2.966(2) 121.6(4)
+O4 D2 O4 8_555 0.941(5) 2.280(5) 3.101(2) 145.3(4)
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 MPOD 1000137

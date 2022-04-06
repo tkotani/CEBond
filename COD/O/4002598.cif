@@ -1,0 +1,698 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-13 21:28:24 +0200 (Sat, 13 Feb 2016) $
+#$Revision: 176429 $
+#$URL: svn://www.crystallography.net/cod/cif/4/00/25/4002598.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4002598
+loop_
+_publ_author_name
+'Ishizawa, Nobuo'
+'Asaka, Toru'
+'Kudo, Tatsunari'
+'Fukuda, Koichiro'
+'Yasuhara, Akira'
+'Abe, Nobuyuki'
+'Arima, Taka-hisa'
+_publ_section_title
+;
+ Structural Evolution of GdBaCo2O5+\d(\d = 7/18) at Elevated Temperatures
+;
+_journal_name_full               'Chemistry of Materials'
+_journal_page_first              141114094038007
+_journal_paper_doi               10.1021/cm503132e
+_journal_year                    2014
+_chemical_formula_sum            'Ba Co2 Gd O5.389'
+_chemical_formula_weight         498.7
+_chemical_name_systematic        ' ?'
+_space_group_IT_number           123
+_symmetry_cell_setting           tetragonal
+_symmetry_Int_Tables_number      123
+_symmetry_space_group_name_Hall  '-P 4 2'
+_symmetry_space_group_name_H-M   'P 4/m m m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            9
+_cell_length_a                   11.68030(10)
+_cell_length_b                   11.68030(10)
+_cell_length_c                   7.53020(10)
+_cell_measurement_temperature    327
+_cell_volume                     1027.341(18)
+_diffrn_ambient_temperature      327
+_diffrn_measured_fraction_theta_full 1
+_diffrn_measured_fraction_theta_max 1
+_diffrn_measurement_device       'four-cycle diffractometer'
+_diffrn_measurement_device_type  'Bruker CCD'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_source         'X-ray tube'
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0361
+_diffrn_reflns_av_sigmaI/netI    0.052
+_diffrn_reflns_limit_h_max       16
+_diffrn_reflns_limit_h_min       -15
+_diffrn_reflns_limit_k_max       16
+_diffrn_reflns_limit_k_min       -16
+_diffrn_reflns_limit_l_max       9
+_diffrn_reflns_limit_l_min       -10
+_diffrn_reflns_number            6146
+_diffrn_reflns_theta_full        30.03
+_diffrn_reflns_theta_max         30.03
+_diffrn_reflns_theta_min         1.74
+_exptl_absorpt_coefficient_mu    29.913
+_exptl_absorpt_correction_T_max  0.2118
+_exptl_absorpt_correction_T_min  0.1521
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details   '(SADABS; Sheldrick, 1996)'
+_exptl_crystal_density_diffrn    7.2543
+_exptl_crystal_description       sphere
+_exptl_crystal_F_000             1954
+_exptl_crystal_size_max          0.08
+_exptl_crystal_size_mid          0.08
+_exptl_crystal_size_min          0.08
+_exptl_crystal_size_rad          0.04
+_refine_diff_density_max         1.21
+_refine_diff_density_min         -1.60
+_refine_ls_extinction_coef       450(50)
+_refine_ls_extinction_method
+'B-C type 1 Gaussian isotropic (Becker & Coppens, 1974)'
+_refine_ls_goodness_of_fit_gt    1.94
+_refine_ls_goodness_of_fit_ref   1.68
+_refine_ls_number_constraints    0
+_refine_ls_number_parameters     68
+_refine_ls_number_reflns         934
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          0.0519
+_refine_ls_R_factor_gt           0.0355
+_refine_ls_shift/su_max          0.0086
+_refine_ls_shift/su_mean         0.0013
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     w=1/(\s^2^(F)+0.0001F^2^)
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_gt          0.0637
+_refine_ls_wR_factor_ref         0.0676
+_reflns_number_gt                645
+_reflns_number_total             934
+_reflns_threshold_expression     I>3\s(I)
+_cod_data_source_file            cm503132e_si_002.cif
+_cod_data_source_block           55c
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_diffrn_radiation_probe' value 'X-ray' changed to 'x-ray' according
+to /home/saulius/struct/CIF-dictionaries/IUCr/cif_core.dic dictionary
+named 'cif_core.dic' version 2.4.5 from 2014-11-21.
+
+Automatic conversion script
+Id: cif_fix_values 3866 2015-08-17 15:13:47Z robertas 
+;
+_cod_original_sg_symbol_Hall     '-P 4;-2'
+_cod_original_formula_sum        'Ba1 Co2 Gd1 O5.389'
+_cod_database_code               4002598
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 -x,-y,z
+3 -y,x,z
+4 y,-x,z
+5 -x,y,-z
+6 x,-y,-z
+7 y,x,-z
+8 -y,-x,-z
+9 -x,-y,-z
+10 x,y,-z
+11 y,-x,-z
+12 -y,x,-z
+13 x,-y,z
+14 -x,y,z
+15 -y,-x,z
+16 y,x,z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_adp_type
+_atom_site_U_iso_or_equiv
+_atom_site_site_symmetry_multiplicity
+_atom_site_occupancy
+_atom_site_calc_flag
+Gd1a Gd 0 0.31985(20) 0.5 Uani 0.0141(6) 4 1 d
+Gd1b Gd 0.32838(9) 0.32838(9) 0.5 Uani 0.0105(3) 4 1 d
+Gd1c Gd 0 0 0.5 Uani 0.0136(4) 1 1 d
+Ba1a Ba 0 0.33334(6) 0 Uani 0.0078(3) 4 1 d
+Ba1b Ba 0.33531(4) 0.33531(4) 0 Uani 0.0084(3) 4 1 d
+Ba1c Ba 0 0 0 Uani 0.0062(4) 1 1 d
+Co1a Co 0.16716(6) 0.16716(6) 0.25145(15) Uani 0.0066(5) 8 1 d
+Co1b Co 0.16450(9) 0.5 0.25486(18) Uani 0.0067(6) 8 1 d
+Co1c Co 0.5 0.5 0.2597(4) Uani 0.0079(7) 2 1 d
+O1a O 0.1676(7) 0.5 0 Uiso 0.011(2) 4 1 d
+O1b O 0.1741(5) 0.1741(5) 0 Uiso 0.010(2) 4 1 d
+O1c O 0.5 0.5 0 Uiso 0.006(3) 1 1 d
+O2a O 0 0.5 0.3057(13) Uiso 0.015(2) 4 1 d
+O2b O 0 0.1691(5) 0.2756(10) Uiso 0.0175(16) 8 1 d
+O2c O 0.1668(3) 0.3378(3) 0.2983(7) Uiso 0.0092(10) 16 1 d
+O2d O 0.3327(5) 0.5 0.3081(8) Uiso 0.0070(13) 8 1 d
+O3 O 0.1549(7) 0.1549(7) 0.5 Uiso 0.034(3) 4 0.875 d
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_type_symbol
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Gd1a Gd 0.0090(10) 0.0293(11) 0.0041(12) 0 0 0
+Gd1b Gd 0.0132(5) 0.0132(5) 0.0050(6) 0.0015(3) 0 0
+Gd1c Gd 0.0153(6) 0.0153(6) 0.0103(9) 0 0 0
+Ba1a Ba 0.0081(5) 0.0078(5) 0.0075(7) 0 0 0
+Ba1b Ba 0.0079(5) 0.0079(5) 0.0096(7) 0.0001(3) 0 0
+Ba1c Ba 0.0067(6) 0.0067(6) 0.0054(9) 0 0 0
+Co1a Co 0.0071(8) 0.0071(8) 0.0056(12) 0.0002(5) 0.0000(3) 0.0000(3)
+Co1b Co 0.0081(9) 0.0057(9) 0.0063(12) 0 -0.0003(5) 0
+Co1c Co 0.0078(10) 0.0078(10) 0.0080(15) 0 0 0
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Ba -0.3244 2.2819 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+Co 0.3494 0.9721 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+Gd -0.1653 3.9035 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+O 0.0106 0.0060 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+O2a Gd1a O2a . 5_556 69.6(3)
+O2a Gd1a O2b . . 101.4(2)
+O2a Gd1a O2b . 5_556 171.0(3)
+O2a Gd1a O2c . . 65.22(13)
+O2a Gd1a O2c . 5_556 106.28(15)
+O2a Gd1a O2c . 10_556 106.28(15)
+O2a Gd1a O2c . 14_555 65.22(13)
+O2a Gd1a O3 . . 126.75(16)
+O2a Gd1a O3 . 3_555 126.75(16)
+O2a Gd1a O2b 5_556 . 171.0(3)
+O2a Gd1a O2b 5_556 5_556 101.4(2)
+O2a Gd1a O2c 5_556 . 106.28(15)
+O2a Gd1a O2c 5_556 5_556 65.22(13)
+O2a Gd1a O2c 5_556 10_556 65.22(13)
+O2a Gd1a O2c 5_556 14_555 106.28(15)
+O2a Gd1a O3 5_556 . 126.75(16)
+O2a Gd1a O3 5_556 3_555 126.75(16)
+O2b Gd1a O2b . 5_556 87.6(2)
+O2b Gd1a O2c . . 68.71(13)
+O2b Gd1a O2c . 5_556 119.02(13)
+O2b Gd1a O2c . 10_556 119.02(13)
+O2b Gd1a O2c . 14_555 68.71(13)
+O2b Gd1a O3 . . 58.27(15)
+O2b Gd1a O3 . 3_555 58.27(15)
+O2b Gd1a O2c 5_556 . 119.02(13)
+O2b Gd1a O2c 5_556 5_556 68.71(13)
+O2b Gd1a O2c 5_556 10_556 68.71(13)
+O2b Gd1a O2c 5_556 14_555 119.02(13)
+O2b Gd1a O3 5_556 . 58.27(15)
+O2b Gd1a O3 5_556 3_555 58.27(15)
+O2c Gd1a O2c . 5_556 170.30(16)
+O2c Gd1a O2c . 10_556 75.56(16)
+O2c Gd1a O2c . 14_555 103.60(16)
+O2c Gd1a O3 . . 61.54(16)
+O2c Gd1a O3 . 3_555 126.85(17)
+O2c Gd1a O2c 5_556 10_556 103.60(16)
+O2c Gd1a O2c 5_556 14_555 75.56(16)
+O2c Gd1a O3 5_556 . 126.85(17)
+O2c Gd1a O3 5_556 3_555 61.54(16)
+O2c Gd1a O2c 10_556 14_555 170.30(16)
+O2c Gd1a O3 10_556 . 61.54(16)
+O2c Gd1a O3 10_556 3_555 126.85(17)
+O2c Gd1a O3 14_555 . 126.85(17)
+O2c Gd1a O3 14_555 3_555 61.54(16)
+O3 Gd1a O3 . 3_555 86.4(3)
+O2c Gd1b O2c . 7_556 117.57(14)
+O2c Gd1b O2c . 10_556 77.57(16)
+O2c Gd1b O2c . 16_555 71.22(14)
+O2c Gd1b O2d . . 67.23(16)
+O2c Gd1b O2d . 3_655 105.30(16)
+O2c Gd1b O2d . 6_566 110.22(16)
+O2c Gd1b O2d . 7_556 175.15(16)
+O2c Gd1b O2c 7_556 10_556 71.22(14)
+O2c Gd1b O2c 7_556 16_555 77.57(16)
+O2c Gd1b O2d 7_556 . 175.15(16)
+O2c Gd1b O2d 7_556 3_655 110.22(16)
+O2c Gd1b O2d 7_556 6_566 105.30(16)
+O2c Gd1b O2d 7_556 7_556 67.23(16)
+O2c Gd1b O2c 10_556 16_555 117.57(14)
+O2c Gd1b O2d 10_556 . 110.22(16)
+O2c Gd1b O2d 10_556 3_655 175.15(16)
+O2c Gd1b O2d 10_556 6_566 67.23(16)
+O2c Gd1b O2d 10_556 7_556 105.30(16)
+O2c Gd1b O2d 16_555 . 105.30(16)
+O2c Gd1b O2d 16_555 3_655 67.23(16)
+O2c Gd1b O2d 16_555 6_566 175.15(16)
+O2c Gd1b O2d 16_555 7_556 110.22(16)
+O2d Gd1b O2d . 3_655 67.95(18)
+O2d Gd1b O2d . 6_566 71.57(17)
+O2d Gd1b O2d . 7_556 107.97(18)
+O2d Gd1b O2d 3_655 6_566 107.97(18)
+O2d Gd1b O2d 3_655 7_556 71.57(17)
+O2d Gd1b O2d 6_566 7_556 67.95(18)
+O2b Gd1c O2b . 2_555 98.9(2)
+O2b Gd1c O2b . 3_555 65.00(12)
+O2b Gd1c O2b . 4_555 65.00(12)
+O2b Gd1c O2b . 5_556 81.1(2)
+O2b Gd1c O2b . 6_556 180.0(5)
+O2b Gd1c O2b . 7_556 115.00(12)
+O2b Gd1c O2b . 8_556 115.00(12)
+O2b Gd1c O3 . . 57.50(15)
+O2b Gd1c O3 . 2_555 122.50(15)
+O2b Gd1c O3 . 3_555 57.50(15)
+O2b Gd1c O3 . 4_555 122.50(15)
+O2b Gd1c O2b 2_555 3_555 65.00(12)
+O2b Gd1c O2b 2_555 4_555 65.00(12)
+O2b Gd1c O2b 2_555 5_556 180.0(5)
+O2b Gd1c O2b 2_555 6_556 81.1(2)
+O2b Gd1c O2b 2_555 7_556 115.00(12)
+O2b Gd1c O2b 2_555 8_556 115.00(12)
+O2b Gd1c O3 2_555 . 122.50(15)
+O2b Gd1c O3 2_555 2_555 57.50(15)
+O2b Gd1c O3 2_555 3_555 122.50(15)
+O2b Gd1c O3 2_555 4_555 57.50(15)
+O2b Gd1c O2b 3_555 4_555 98.9(2)
+O2b Gd1c O2b 3_555 5_556 115.00(12)
+O2b Gd1c O2b 3_555 6_556 115.00(12)
+O2b Gd1c O2b 3_555 7_556 180.0(5)
+O2b Gd1c O2b 3_555 8_556 81.1(2)
+O2b Gd1c O3 3_555 . 122.50(15)
+O2b Gd1c O3 3_555 2_555 57.50(15)
+O2b Gd1c O3 3_555 3_555 57.50(15)
+O2b Gd1c O3 3_555 4_555 122.50(15)
+O2b Gd1c O2b 4_555 5_556 115.00(12)
+O2b Gd1c O2b 4_555 6_556 115.00(12)
+O2b Gd1c O2b 4_555 7_556 81.1(2)
+O2b Gd1c O2b 4_555 8_556 180.0(5)
+O2b Gd1c O3 4_555 . 57.50(15)
+O2b Gd1c O3 4_555 2_555 122.50(15)
+O2b Gd1c O3 4_555 3_555 122.50(15)
+O2b Gd1c O3 4_555 4_555 57.50(15)
+O2b Gd1c O2b 5_556 6_556 98.9(2)
+O2b Gd1c O2b 5_556 7_556 65.00(12)
+O2b Gd1c O2b 5_556 8_556 65.00(12)
+O2b Gd1c O3 5_556 . 57.50(15)
+O2b Gd1c O3 5_556 2_555 122.50(15)
+O2b Gd1c O3 5_556 3_555 57.50(15)
+O2b Gd1c O3 5_556 4_555 122.50(15)
+O2b Gd1c O2b 6_556 7_556 65.00(12)
+O2b Gd1c O2b 6_556 8_556 65.00(12)
+O2b Gd1c O3 6_556 . 122.50(15)
+O2b Gd1c O3 6_556 2_555 57.50(15)
+O2b Gd1c O3 6_556 3_555 122.50(15)
+O2b Gd1c O3 6_556 4_555 57.50(15)
+O2b Gd1c O2b 7_556 8_556 98.9(2)
+O2b Gd1c O3 7_556 . 57.50(15)
+O2b Gd1c O3 7_556 2_555 122.50(15)
+O2b Gd1c O3 7_556 3_555 122.50(15)
+O2b Gd1c O3 7_556 4_555 57.50(15)
+O2b Gd1c O3 8_556 . 122.50(15)
+O2b Gd1c O3 8_556 2_555 57.50(15)
+O2b Gd1c O3 8_556 3_555 57.50(15)
+O2b Gd1c O3 8_556 4_555 122.50(15)
+O3 Gd1c O3 . 2_555 180.0(5)
+O3 Gd1c O3 . 3_555 90.0(3)
+O3 Gd1c O3 . 4_555 90.0(3)
+O3 Gd1c O3 2_555 3_555 90.0(3)
+O3 Gd1c O3 2_555 4_555 90.0(3)
+O3 Gd1c O3 3_555 4_555 180.0(5)
+O1a Ba1a O1a . 2_565 90.33(16)
+O1a Ba1a O1b . . 87.30(16)
+O1a Ba1a O1b . 3_555 177.63(16)
+O1a Ba1a O2a . . 62.92(9)
+O1a Ba1a O2a . 5_555 62.92(9)
+O1a Ba1a O2b . . 118.60(10)
+O1a Ba1a O2b . 5_555 118.60(10)
+O1a Ba1a O2c . . 61.52(10)
+O1a Ba1a O2c . 5_555 116.89(10)
+O1a Ba1a O2c . 10_555 61.52(10)
+O1a Ba1a O2c . 14_555 116.89(10)
+O1a Ba1a O1b 2_565 . 177.63(16)
+O1a Ba1a O1b 2_565 3_555 87.30(16)
+O1a Ba1a O2a 2_565 . 62.92(9)
+O1a Ba1a O2a 2_565 5_555 62.92(9)
+O1a Ba1a O2b 2_565 . 118.60(10)
+O1a Ba1a O2b 2_565 5_555 118.60(10)
+O1a Ba1a O2c 2_565 . 116.89(10)
+O1a Ba1a O2c 2_565 5_555 61.52(10)
+O1a Ba1a O2c 2_565 10_555 116.89(10)
+O1a Ba1a O2c 2_565 14_555 61.52(10)
+O1b Ba1a O1b . 3_555 95.07(16)
+O1b Ba1a O2a . . 115.85(9)
+O1b Ba1a O2a . 5_555 115.85(9)
+O1b Ba1a O2b . . 62.72(10)
+O1b Ba1a O2b . 5_555 62.72(10)
+O1b Ba1a O2c . . 61.86(10)
+O1b Ba1a O2c . 5_555 119.68(10)
+O1b Ba1a O2c . 10_555 61.86(10)
+O1b Ba1a O2c . 14_555 119.68(10)
+O1b Ba1a O2a 3_555 . 115.85(9)
+O1b Ba1a O2a 3_555 5_555 115.85(9)
+O1b Ba1a O2b 3_555 . 62.72(10)
+O1b Ba1a O2b 3_555 5_555 62.72(10)
+O1b Ba1a O2c 3_555 . 119.68(10)
+O1b Ba1a O2c 3_555 5_555 61.86(10)
+O1b Ba1a O2c 3_555 10_555 119.68(10)
+O1b Ba1a O2c 3_555 14_555 61.86(10)
+O2a Ba1a O2a . 5_555 99.56(17)
+O2a Ba1a O2b . . 82.97(18)
+O2a Ba1a O2b . 5_555 177.47(18)
+O2a Ba1a O2c . . 53.99(11)
+O2a Ba1a O2c . 5_555 124.43(11)
+O2a Ba1a O2c . 10_555 124.43(11)
+O2a Ba1a O2c . 14_555 53.99(11)
+O2a Ba1a O2b 5_555 . 177.47(18)
+O2a Ba1a O2b 5_555 5_555 82.97(18)
+O2a Ba1a O2c 5_555 . 124.43(11)
+O2a Ba1a O2c 5_555 5_555 53.99(11)
+O2a Ba1a O2c 5_555 10_555 53.99(11)
+O2a Ba1a O2c 5_555 14_555 124.43(11)
+O2b Ba1a O2b . 5_555 94.50(19)
+O2b Ba1a O2c . . 57.13(12)
+O2b Ba1a O2c . 5_555 124.50(11)
+O2b Ba1a O2c . 10_555 124.50(11)
+O2b Ba1a O2c . 14_555 57.13(12)
+O2b Ba1a O2c 5_555 . 124.50(11)
+O2b Ba1a O2c 5_555 5_555 57.13(12)
+O2b Ba1a O2c 5_555 10_555 57.13(12)
+O2b Ba1a O2c 5_555 14_555 124.50(11)
+O2c Ba1a O2c . 5_555 178.00(11)
+O2c Ba1a O2c . 10_555 98.10(12)
+O2c Ba1a O2c . 14_555 81.87(12)
+O2c Ba1a O2c 5_555 10_555 81.87(12)
+O2c Ba1a O2c 5_555 14_555 98.10(12)
+O2c Ba1a O2c 10_555 14_555 178.00(11)
+O1a Ba1b O1a . 3_655 178.96(16)
+O1a Ba1b O1b . . 89.48(16)
+O1a Ba1b O1c . . 90.52(11)
+O1a Ba1b O2c . . 61.51(10)
+O1a Ba1b O2c . 7_555 117.95(10)
+O1a Ba1b O2c . 10_555 61.51(10)
+O1a Ba1b O2c . 16_555 117.95(10)
+O1a Ba1b O2d . . 62.98(11)
+O1a Ba1b O2d . 3_655 117.54(11)
+O1a Ba1b O2d . 6_565 62.98(11)
+O1a Ba1b O2d . 7_555 117.54(11)
+O1a Ba1b O1b 3_655 . 89.48(16)
+O1a Ba1b O1c 3_655 . 90.52(11)
+O1a Ba1b O2c 3_655 . 117.95(10)
+O1a Ba1b O2c 3_655 7_555 61.51(10)
+O1a Ba1b O2c 3_655 10_555 117.95(10)
+O1a Ba1b O2c 3_655 16_555 61.51(10)
+O1a Ba1b O2d 3_655 . 117.54(11)
+O1a Ba1b O2d 3_655 3_655 62.98(11)
+O1a Ba1b O2d 3_655 6_565 117.54(11)
+O1a Ba1b O2d 3_655 7_555 62.98(11)
+O1b Ba1b O1c . . 180.0(5)
+O1b Ba1b O2c . . 62.67(10)
+O1b Ba1b O2c . 7_555 62.67(10)
+O1b Ba1b O2c . 10_555 62.67(10)
+O1b Ba1b O2c . 16_555 62.67(10)
+O1b Ba1b O2d . . 116.38(11)
+O1b Ba1b O2d . 3_655 116.38(11)
+O1b Ba1b O2d . 6_565 116.38(11)
+O1b Ba1b O2d . 7_555 116.38(11)
+O1c Ba1b O2c . . 117.33(8)
+O1c Ba1b O2c . 7_555 117.33(8)
+O1c Ba1b O2c . 10_555 117.33(8)
+O1c Ba1b O2c . 16_555 117.33(8)
+O1c Ba1b O2d . . 63.62(9)
+O1c Ba1b O2d . 3_655 63.62(9)
+O1c Ba1b O2d . 6_565 63.62(9)
+O1c Ba1b O2d . 7_555 63.62(9)
+O2c Ba1b O2c . 7_555 125.34(11)
+O2c Ba1b O2c . 10_555 97.55(12)
+O2c Ba1b O2c . 16_555 56.43(11)
+O2c Ba1b O2d . . 53.73(12)
+O2c Ba1b O2d . 3_655 80.90(11)
+O2c Ba1b O2d . 6_565 124.48(12)
+O2c Ba1b O2d . 7_555 178.44(12)
+O2c Ba1b O2c 7_555 10_555 56.43(11)
+O2c Ba1b O2c 7_555 16_555 97.55(12)
+O2c Ba1b O2d 7_555 . 178.44(12)
+O2c Ba1b O2d 7_555 3_655 124.48(12)
+O2c Ba1b O2d 7_555 6_565 80.90(11)
+O2c Ba1b O2d 7_555 7_555 53.73(12)
+O2c Ba1b O2c 10_555 16_555 125.34(11)
+O2c Ba1b O2d 10_555 . 124.48(12)
+O2c Ba1b O2d 10_555 3_655 178.44(12)
+O2c Ba1b O2d 10_555 6_565 53.73(12)
+O2c Ba1b O2d 10_555 7_555 80.90(11)
+O2c Ba1b O2d 16_555 . 80.90(11)
+O2c Ba1b O2d 16_555 3_655 53.73(12)
+O2c Ba1b O2d 16_555 6_565 178.44(12)
+O2c Ba1b O2d 16_555 7_555 124.48(12)
+O2d Ba1b O2d . 3_655 54.56(13)
+O2d Ba1b O2d . 6_565 100.66(11)
+O2d Ba1b O2d . 7_555 127.24(13)
+O2d Ba1b O2d 3_655 6_565 127.24(13)
+O2d Ba1b O2d 3_655 7_555 100.66(11)
+O2d Ba1b O2d 6_565 7_555 54.56(13)
+O1b Ba1c O1b . 2_555 180.0(5)
+O1b Ba1c O1b . 3_555 90.00(15)
+O1b Ba1c O1b . 4_555 90.00(15)
+O1b Ba1c O2b . . 60.83(10)
+O1b Ba1c O2b . 2_555 119.17(10)
+O1b Ba1c O2b . 3_555 119.17(10)
+O1b Ba1c O2b . 4_555 60.83(10)
+O1b Ba1c O2b . 5_555 60.83(10)
+O1b Ba1c O2b . 6_555 119.17(10)
+O1b Ba1c O2b . 7_555 60.83(10)
+O1b Ba1c O2b . 8_555 119.17(10)
+O1b Ba1c O1b 2_555 3_555 90.00(15)
+O1b Ba1c O1b 2_555 4_555 90.00(15)
+O1b Ba1c O2b 2_555 . 119.17(10)
+O1b Ba1c O2b 2_555 2_555 60.83(10)
+O1b Ba1c O2b 2_555 3_555 60.83(10)
+O1b Ba1c O2b 2_555 4_555 119.17(10)
+O1b Ba1c O2b 2_555 5_555 119.17(10)
+O1b Ba1c O2b 2_555 6_555 60.83(10)
+O1b Ba1c O2b 2_555 7_555 119.17(10)
+O1b Ba1c O2b 2_555 8_555 60.83(10)
+O1b Ba1c O1b 3_555 4_555 180.0(5)
+O1b Ba1c O2b 3_555 . 60.83(10)
+O1b Ba1c O2b 3_555 2_555 119.17(10)
+O1b Ba1c O2b 3_555 3_555 60.83(10)
+O1b Ba1c O2b 3_555 4_555 119.17(10)
+O1b Ba1c O2b 3_555 5_555 60.83(10)
+O1b Ba1c O2b 3_555 6_555 119.17(10)
+O1b Ba1c O2b 3_555 7_555 119.17(10)
+O1b Ba1c O2b 3_555 8_555 60.83(10)
+O1b Ba1c O2b 4_555 . 119.17(10)
+O1b Ba1c O2b 4_555 2_555 60.83(10)
+O1b Ba1c O2b 4_555 3_555 119.17(10)
+O1b Ba1c O2b 4_555 4_555 60.83(10)
+O1b Ba1c O2b 4_555 5_555 119.17(10)
+O1b Ba1c O2b 4_555 6_555 60.83(10)
+O1b Ba1c O2b 4_555 7_555 60.83(10)
+O1b Ba1c O2b 4_555 8_555 119.17(10)
+O2b Ba1c O2b . 2_555 87.15(19)
+O2b Ba1c O2b . 3_555 58.34(11)
+O2b Ba1c O2b . 4_555 58.34(11)
+O2b Ba1c O2b . 5_555 92.85(19)
+O2b Ba1c O2b . 6_555 180.0(5)
+O2b Ba1c O2b . 7_555 121.66(11)
+O2b Ba1c O2b . 8_555 121.66(11)
+O2b Ba1c O2b 2_555 3_555 58.34(11)
+O2b Ba1c O2b 2_555 4_555 58.34(11)
+O2b Ba1c O2b 2_555 5_555 180.0(5)
+O2b Ba1c O2b 2_555 6_555 92.85(19)
+O2b Ba1c O2b 2_555 7_555 121.66(11)
+O2b Ba1c O2b 2_555 8_555 121.66(11)
+O2b Ba1c O2b 3_555 4_555 87.15(19)
+O2b Ba1c O2b 3_555 5_555 121.66(11)
+O2b Ba1c O2b 3_555 6_555 121.66(11)
+O2b Ba1c O2b 3_555 7_555 180.0(5)
+O2b Ba1c O2b 3_555 8_555 92.85(19)
+O2b Ba1c O2b 4_555 5_555 121.66(11)
+O2b Ba1c O2b 4_555 6_555 121.66(11)
+O2b Ba1c O2b 4_555 7_555 92.85(19)
+O2b Ba1c O2b 4_555 8_555 180.0(5)
+O2b Ba1c O2b 5_555 6_555 87.15(19)
+O2b Ba1c O2b 5_555 7_555 58.34(11)
+O2b Ba1c O2b 5_555 8_555 58.34(11)
+O2b Ba1c O2b 6_555 7_555 58.34(11)
+O2b Ba1c O2b 6_555 8_555 58.34(11)
+O2b Ba1c O2b 7_555 8_555 87.15(19)
+O1b Co1a O2b . . 97.7(3)
+O1b Co1a O2b . 4_555 97.7(3)
+O1b Co1a O2c . . 97.6(2)
+O1b Co1a O2c . 16_555 97.6(2)
+O1b Co1a O3 . . 177.3(3)
+O2b Co1a O2b . 4_555 90.8(3)
+O2b Co1a O2c . . 88.3(2)
+O2b Co1a O2c . 16_555 164.6(3)
+O2b Co1a O3 . . 80.4(3)
+O2b Co1a O2c 4_555 . 164.6(3)
+O2b Co1a O2c 4_555 16_555 88.3(2)
+O2b Co1a O3 4_555 . 80.4(3)
+O2c Co1a O2c . 16_555 88.48(15)
+O2c Co1a O3 . . 84.3(3)
+O2c Co1a O3 16_555 . 84.3(3)
+O1a Co1b O2a . . 102.3(4)
+O1a Co1b O2c . . 99.77(16)
+O1a Co1b O2c . 13_565 99.77(16)
+O1a Co1b O2d . . 100.4(3)
+O2a Co1b O2c . . 88.89(13)
+O2a Co1b O2c . 13_565 88.89(13)
+O2a Co1b O2d . . 157.2(3)
+O2c Co1b O2c . 13_565 160.4(2)
+O2c Co1b O2d . . 87.26(12)
+O2c Co1b O2d 13_565 . 87.26(12)
+O1c Co1c O2d . . 100.6(2)
+O1c Co1c O2d . 2_665 100.6(2)
+O1c Co1c O2d . 3_655 100.6(2)
+O1c Co1c O2d . 4_565 100.6(2)
+O2d Co1c O2d . 2_665 158.9(3)
+O2d Co1c O2d . 3_655 88.07(5)
+O2d Co1c O2d . 4_565 88.07(5)
+O2d Co1c O2d 2_665 3_655 88.07(5)
+O2d Co1c O2d 2_665 4_565 88.07(5)
+O2d Co1c O2d 3_655 4_565 158.9(3)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+Gd1a O2a . 2.563(6)
+Gd1a O2a 5_556 2.563(6)
+Gd1a O2b . 2.440(7)
+Gd1a O2b 5_556 2.440(7)
+Gd1a O2c . 2.480(4)
+Gd1a O2c 5_556 2.480(4)
+Gd1a O2c 10_556 2.480(4)
+Gd1a O2c 14_555 2.480(4)
+Gd1a O3 . 2.643(9)
+Gd1a O3 3_555 2.643(9)
+Gd1b O2c . 2.425(4)
+Gd1b O2c 7_556 2.425(4)
+Gd1b O2c 10_556 2.425(4)
+Gd1b O2c 16_555 2.425(4)
+Gd1b O2d . 2.472(4)
+Gd1b O2d 3_655 2.472(4)
+Gd1b O2d 6_566 2.472(4)
+Gd1b O2d 7_556 2.472(4)
+Gd1c O2b . 2.599(7)
+Gd1c O2b 2_555 2.599(7)
+Gd1c O2b 3_555 2.599(7)
+Gd1c O2b 4_555 2.599(7)
+Gd1c O2b 5_556 2.599(7)
+Gd1c O2b 6_556 2.599(7)
+Gd1c O2b 7_556 2.599(7)
+Gd1c O2b 8_556 2.599(7)
+Gd1c O3 . 2.559(9)
+Gd1c O3 2_555 2.559(9)
+Gd1c O3 3_555 2.559(9)
+Gd1c O3 4_555 2.559(9)
+Ba1a O1a . 2.761(6)
+Ba1a O1a 2_565 2.761(6)
+Ba1a O1b . 2.756(6)
+Ba1a O1b 3_555 2.756(6)
+Ba1a O2a . 3.015(8)
+Ba1a O2a 5_555 3.015(8)
+Ba1a O2b . 2.827(7)
+Ba1a O2b 5_555 2.827(7)
+Ba1a O2c . 2.974(5)
+Ba1a O2c 5_555 2.974(5)
+Ba1a O2c 10_555 2.974(5)
+Ba1a O2c 14_555 2.974(5)
+Ba1b O1a . 2.745(6)
+Ba1b O1a 3_655 2.745(6)
+Ba1b O1b . 2.664(6)
+Ba1b O1c . 2.7204(5)
+Ba1b O2c . 2.986(5)
+Ba1b O2c 7_555 2.986(5)
+Ba1b O2c 10_555 2.986(5)
+Ba1b O2c 16_555 2.986(5)
+Ba1b O2d . 3.014(5)
+Ba1b O2d 3_655 3.014(5)
+Ba1b O2d 6_565 3.014(5)
+Ba1b O2d 7_555 3.014(5)
+Ba1c O1b . 2.875(5)
+Ba1c O1b 2_555 2.875(5)
+Ba1c O1b 3_555 2.875(5)
+Ba1c O1b 4_555 2.875(5)
+Ba1c O2b . 2.865(7)
+Ba1c O2b 2_555 2.865(7)
+Ba1c O2b 3_555 2.865(7)
+Ba1c O2b 4_555 2.865(7)
+Ba1c O2b 5_555 2.865(7)
+Ba1c O2b 6_555 2.865(7)
+Ba1c O2b 7_555 2.865(7)
+Ba1c O2b 8_555 2.865(7)
+Co1a O1b . 1.8969(12)
+Co1a O2b . 1.9611(10)
+Co1a O2b 4_555 1.9611(10)
+Co1a O2c . 2.024(4)
+Co1a O2c 16_555 2.024(4)
+Co1a O3 . 1.8825(14)
+Co1b O1a . 1.9195(14)
+Co1b O2a . 1.959(2)
+Co1b O2c . 1.923(4)
+Co1b O2c 13_565 1.923(4)
+Co1b O2d . 2.006(6)
+Co1c O1c . 1.955(3)
+Co1c O2d . 1.987(6)
+Co1c O2d 2_665 1.987(6)
+Co1c O2d 3_655 1.987(6)
+Co1c O2d 4_565 1.987(6)
+#BEGIN Loops that were not found in dictionaries:
+loop_
+_jana_atom_site_adp_c_label
+_jana_atom_site_adp_c_type_symbol
+_jana_atom_site_adp_c_111
+_jana_atom_site_adp_c_112
+_jana_atom_site_adp_c_113
+_jana_atom_site_adp_c_122
+_jana_atom_site_adp_c_123
+_jana_atom_site_adp_c_133
+_jana_atom_site_adp_c_222
+_jana_atom_site_adp_c_223
+_jana_atom_site_adp_c_233
+_jana_atom_site_adp_c_333
+Gd1a Gd 0 0.00090(11) 0 0 0 0 0.0052(3) 0 -0.0003(2) 0
+Gd1b Gd 0.00090(11) 0.00023(7) 0 0.00023(7) 0 0.00007(13) 0.00090(11) 0
+0.00007(13) 0
+loop_
+_jana_atom_site_adp_d_label
+_jana_atom_site_adp_d_type_symbol
+_jana_atom_site_adp_d_1111
+_jana_atom_site_adp_d_1112
+_jana_atom_site_adp_d_1113
+_jana_atom_site_adp_d_1122
+_jana_atom_site_adp_d_1123
+_jana_atom_site_adp_d_1133
+_jana_atom_site_adp_d_1222
+_jana_atom_site_adp_d_1223
+_jana_atom_site_adp_d_1233
+_jana_atom_site_adp_d_1333
+_jana_atom_site_adp_d_2222
+_jana_atom_site_adp_d_2223
+_jana_atom_site_adp_d_2233
+_jana_atom_site_adp_d_2333
+_jana_atom_site_adp_d_3333
+Gd1a Gd -0.00004(10) 0 0 -0.00007(5) 0 -0.00014(9) 0 0 0 0 0.00015(16) 0
+-0.00016(12) 0 -0.0001(8)
+#END Loops that were not found in dictionaries

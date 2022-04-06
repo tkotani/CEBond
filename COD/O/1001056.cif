@@ -1,0 +1,93 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/1/00/10/1001056.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1001056
+loop_
+_publ_author_name
+'Desgardin, G'
+'Raveau, B'
+_publ_section_title
+;
+Sur de nouvelles phases non stoechiometriques de type Perovskite Gd~x~
+(Ta~3x~ W~1-3x~) O~3~
+;
+_journal_coden_ASTM              JINCAO
+_journal_name_full               'Journal of Inorganic and Nuclear Chemistry'
+_journal_page_first              509
+_journal_page_last               516
+_journal_paper_doi               10.1016/0022-1902(72)80429-9
+_journal_volume                  34
+_journal_year                    1972
+_chemical_formula_structural     'Gd.07 (Ta.21 W.79) O3'
+_chemical_formula_sum            'Gd0.07 O3 Ta0.21 W0.79'
+_chemical_name_systematic
+;
+Gadolinium tantalum tungsten oxide (0.1/0.2/0.8/3)
+;
+_space_group_IT_number           65
+_symmetry_cell_setting           orthorhombic
+_symmetry_Int_Tables_number      65
+_symmetry_space_group_name_Hall  '-C 2 2'
+_symmetry_space_group_name_H-M   'C m m m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   5.326
+_cell_length_b                   5.383
+_cell_length_c                   3.786
+_cell_volume                     108.5
+_exptl_crystal_density_meas      7.45
+_refine_ls_R_factor_all          0.087
+_cod_original_formula_sum        'Gd.07 O3 Ta.21 W.79'
+_cod_database_code               1001056
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,z
+x,-y,-z
+-x,y,-z
+-x,-y,-z
+x,y,-z
+-x,y,z
+x,-y,z
+1/2+x,1/2+y,z
+1/2-x,1/2-y,z
+1/2+x,1/2-y,-z
+1/2-x,1/2+y,-z
+1/2-x,1/2-y,-z
+1/2+x,1/2+y,-z
+1/2-x,1/2+y,z
+1/2+x,1/2-y,z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_calc_flag
+Gd1 Gd3+ 2 a 0. 0. 0. 0.07 0 d
+Ta1 Ta5+ 2 c 0.5 0. 0.5 0.21 0 d
+W1 W6+ 2 c 0.5 0. 0.5 0.79 0 d
+O1 O2- 2 b 0.5 0. 0. 1. 0 d
+O2 O2- 4 f 0.25 0.25 0.5 1. 0 d
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Gd3+ 3.000
+Ta5+ 5.000
+W6+ 6.000
+O2- -2.000

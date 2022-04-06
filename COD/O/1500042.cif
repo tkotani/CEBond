@@ -1,0 +1,121 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-01-11 18:54:48 +0200 (Wed, 11 Jan 2017) $
+#$Revision: 190403 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/50/00/1500042.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1500042
+loop_
+_publ_author_name
+'Abbattista, F'
+'Mazza, D'
+'Vallino, M'
+_publ_section_title
+;
+ New Phase with K2 Ni F4 Structure in the La-Li-Fe-O System
+;
+_journal_coden_ASTM              MRBUA
+_journal_name_full               'Materials Research Bulletin'
+_journal_page_first              393
+_journal_page_last               398
+_journal_paper_doi               10.1016/0025-5408(85)90006-6
+_journal_volume                  20
+_journal_year                    1985
+_chemical_formula_structural     'La1.75 Li0.75 Fe0.5 O3.92'
+_chemical_formula_sum            'Fe0.5 La1.75 Li0.75 O3.92'
+_space_group_IT_number           139
+_symmetry_cell_setting           tetragonal
+_symmetry_space_group_name_Hall  '-I 4 2'
+_symmetry_space_group_name_H-M   'I 4/m m m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   3.765(1)
+_cell_length_b                   3.765(1)
+_cell_length_c                   12.918(10)
+_cell_volume                     183.12(16)
+_refine_ls_R_factor_all          0.061
+_cod_data_source_file            La175Li075Fe05O.cif
+_cod_data_source_block           0000000
+_cod_depositor_comments
+;
+ Changing _atom_site_label data item values to unique ones after consulting
+ the original publication.
+
+ Antanas Vaitkus,
+ 2017-01-11
+
+ Adding missing _atom_type_symbol and _atom_type_oxidation_number data
+ item values that correspond to the _atom_site_type_symbol data item
+ values ('Ba3+', 'Li+').
+
+ Antanas Vaitkus,
+ 2017-01-11
+;
+_cod_original_cell_volume        183.1
+_cod_original_formula_sum        'La1.75 Li0.75 Fe0.5 O3.92'
+_cod_database_code               1500042
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,z
+-x,y,z
+x,-y,z
+-y,x,z
+y,-x,z
+y,x,z
+-y,-x,z
+-x,-y,-z
+x,y,-z
+x,-y,-z
+-x,y,-z
+y,-x,-z
+-y,x,-z
+-y,-x,-z
+y,x,-z
+1/2+x,1/2+y,1/2+z
+1/2-x,1/2-y,1/2+z
+1/2-x,1/2+y,1/2+z
+1/2+x,1/2-y,1/2+z
+1/2-y,1/2+x,1/2+z
+1/2+y,1/2-x,1/2+z
+1/2+y,1/2+x,1/2+z
+1/2-y,1/2-x,1/2+z
+1/2-x,1/2-y,1/2-z
+1/2+x,1/2+y,1/2-z
+1/2+x,1/2-y,1/2-z
+1/2-x,1/2+y,1/2-z
+1/2+y,1/2-x,1/2-z
+1/2-y,1/2+x,1/2-z
+1/2-y,1/2-x,1/2-z
+1/2+y,1/2+x,1/2-z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+La La3+ 4 e 0 0 0.362 0.875 0.40
+Li1 Li+ 4 e 0 0 0.362 0.125 2.50
+Fe Fe3+ 2 a 0 0 0 0.5 3.30
+Li2 Li+ 2 a 0 0 0 0.5 0.10
+O2 O2- 4 c 0.5 0 0 1.0 0.10
+O1 O2- 4 e 0 0 0.184 0.96 0.10
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Fe3+ 3.000
+O2- -2.000
+La3+ 3.000
+Li+ 1.000

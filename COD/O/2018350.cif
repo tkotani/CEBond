@@ -1,0 +1,401 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 00:18:51 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176760 $
+#$URL: svn://www.crystallography.net/cod/cif/2/01/83/2018350.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2018350
+loop_
+_publ_author_name
+'Artner, Christine'
+'Weil, Matthias'
+_publ_section_title
+;
+ PbCa~2~[Al~8~O~15~] with a novel three-dimensional aluminate anion
+;
+_journal_coeditor_code           LG3070
+_journal_issue                   1
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              i1
+_journal_page_last               i3
+_journal_paper_doi               10.1107/S0108270111054679
+_journal_volume                  68
+_journal_year                    2012
+_chemical_formula_iupac          'Pb Ca2 [Al8 O15]'
+_chemical_formula_structural     'Pb Ca2 [Al8 O15]'
+_chemical_formula_sum            'Al8 Ca2 O15 Pb'
+_chemical_formula_weight         743.19
+_chemical_name_systematic        'lead(II) dicalcium octaaluminate'
+_space_group_IT_number           62
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2ac 2n'
+_symmetry_space_group_name_H-M   'P n m a'
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   5.37020(10)
+_cell_length_b                   27.9903(4)
+_cell_length_c                   8.88110(10)
+_cell_measurement_reflns_used    14887
+_cell_measurement_temperature    296(2)
+_cell_measurement_theta_max      45.002
+_cell_measurement_theta_min      2.911
+_cell_volume                     1334.95(3)
+_computing_cell_refinement       'SAINT (Bruker, 2008)'
+_computing_data_collection       'APEX2 (Bruker, 2008)'
+_computing_data_reduction        'SAINT (Bruker, 2008)'
+_computing_molecular_graphics    'ATOMS for Windows (Dowty, 2008)'
+_computing_publication_material  'publCIF (Westrip, 2010)'
+_computing_structure_refinement  'SHELXL97 (Sheldrick, 2008)'
+_computing_structure_solution    'SHELXS97 (Sheldrick, 2008)'
+_diffrn_ambient_temperature      296(2)
+_diffrn_measured_fraction_theta_full 0.998
+_diffrn_measured_fraction_theta_max 0.998
+_diffrn_measurement_device_type  'Bruker APEXII CCD area-detector'
+_diffrn_measurement_method       '\w and \f scans'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0367
+_diffrn_reflns_av_sigmaI/netI    0.0233
+_diffrn_reflns_limit_h_max       5
+_diffrn_reflns_limit_h_min       -10
+_diffrn_reflns_limit_k_max       55
+_diffrn_reflns_limit_k_min       -55
+_diffrn_reflns_limit_l_max       17
+_diffrn_reflns_limit_l_min       -17
+_diffrn_reflns_number            39453
+_diffrn_reflns_theta_full        45.07
+_diffrn_reflns_theta_max         45.07
+_diffrn_reflns_theta_min         2.91
+_diffrn_standards_number         0
+_exptl_absorpt_coefficient_mu    14.023
+_exptl_absorpt_correction_T_max  0.246
+_exptl_absorpt_correction_T_min  0.187
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details   '(SADABS; Bruker, 2008)'
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    3.698
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       block
+_exptl_crystal_F_000             1384
+_exptl_crystal_size_max          0.12
+_exptl_crystal_size_mid          0.12
+_exptl_crystal_size_min          0.10
+_refine_diff_density_max         3.914
+_refine_diff_density_min         -3.206
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   1.057
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     121
+_refine_ls_number_reflns         5602
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.057
+_refine_ls_R_factor_all          0.0289
+_refine_ls_R_factor_gt           0.0242
+_refine_ls_shift/su_max          0.003
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w = 1/[\s^2^(Fo^2^)+(0.0289P)^2^+2.4320P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0582
+_refine_ls_wR_factor_ref         0.0597
+_reflns_number_gt                5068
+_reflns_number_total             5602
+_reflns_threshold_expression     I>2\s(I)
+_iucr_refine_instructions_details
+;
+TITL PbCaAl4O16 in Pnma
+CELL 0.71073   5.3702  27.9903   8.8811  90.000  90.000  90.000
+ZERR    4.00   0.0001   0.0004   0.0001   0.000   0.000   0.000
+LATT  1
+SYMM 0.5-X, -Y, 0.5+Z
+SYMM -X, 0.5+Y, -Z
+SYMM 0.5+X, 0.5-Y, 0.5-Z
+SFAC O AL CA PB
+UNIT 60 32 8 4
+TEMP 23.000
+L.S. 4
+BOND
+FMAP 2
+PLAN 20
+size 0.12 0.12 0.096
+omit     0   2   0!         -1.91      47018.89      31.32       0.449      14.0
+acta
+SIZE 0.12 0.12 0.096
+conn 7 Pb1 3.0
+WGHT      0.0289      2.4320
+FVAR       0.06618
+PB1   4    0.428096    0.250000    1.044280    10.50000    0.00860    0.00848 =
+         0.01142    0.00000    0.00116    0.00000
+CA1   3    0.060479    0.110812    0.566405    11.00000    0.00480    0.00603 =
+         0.00653    0.00050   -0.00031   -0.00098
+AL1   2    0.126044    0.038859    0.837002    11.00000    0.00483    0.00669 =
+         0.00517   -0.00047   -0.00011   -0.00032
+AL2   2    0.018495    0.189427    0.847180    11.00000    0.00503    0.00585 =
+         0.00565    0.00014   -0.00012   -0.00049
+AL3   2   -0.026871    0.161644    1.187729    11.00000    0.00624    0.00637 =
+         0.00576    0.00041   -0.00010    0.00052
+AL4   2    0.190077    0.058665    1.193841    11.00000    0.00831    0.00789 =
+         0.00534    0.00068    0.00083    0.00240
+O1    1    0.397459    0.023345    1.303569    11.00000    0.00778    0.00692 =
+         0.01060    0.00172   -0.00195   -0.00065
+O2    1    0.042389    0.250000    0.897860    10.50000    0.01220    0.00591 =
+         0.01173    0.00000   -0.00140    0.00000
+O3    1   -0.111934    0.159161    1.000452    11.00000    0.01078    0.01123 =
+         0.00601    0.00108   -0.00009   -0.00453
+O4    1   -0.167662    0.173413    0.690524    11.00000    0.00633    0.01197 =
+         0.00885   -0.00230   -0.00220    0.00147
+O5    1    0.030948    0.106930    1.282284    11.00000    0.01479    0.00847 =
+         0.00799    0.00077    0.00131    0.00382
+O6    1    0.254371    0.058248    1.003776    11.00000    0.00894    0.01306 =
+         0.00510   -0.00106    0.00008   -0.00322
+O7    1   -0.242363    0.193585    1.299530    11.00000    0.00716    0.00933 =
+         0.01216   -0.00378    0.00213   -0.00151
+O8    1    0.335267    0.063582    0.704345    11.00000    0.00562    0.00923 =
+         0.00890    0.00197    0.00176    0.00076
+HKLF 4
+REM  PbCaAl4O16 in Pnma
+REM R1 =  0.0242 for   5068 Fo > 4sig(Fo)  and  0.0289 for all   5602 data
+REM    121 parameters refined using      0 restraints
+END
+;
+_cod_data_source_file            lg3070.cif
+_cod_data_source_block           I
+_cod_database_code               2018350
+_cod_database_fobs_code          2018350
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x+1/2, -y, z+1/2'
+'-x, y+1/2, -z'
+'x+1/2, -y+1/2, -z+1/2'
+'-x, -y, -z'
+'x-1/2, y, -z-1/2'
+'x, -y-1/2, z'
+'-x-1/2, y-1/2, z-1/2'
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+Pb Pb1 0.428096(16) 0.2500 1.044280(10) 0.00950(2) Uani d S 1 2
+Ca Ca1 0.06048(5) 0.110812(11) 0.56641(3) 0.00579(4) Uani d . 1 1
+Al Al1 0.12604(10) 0.038859(18) 0.83700(6) 0.00556(7) Uani d . 1 1
+Al Al2 0.01849(10) 0.189427(18) 0.84718(6) 0.00551(7) Uani d . 1 1
+Al Al3 -0.02687(10) 0.161644(19) 1.18773(6) 0.00613(7) Uani d . 1 1
+Al Al4 0.19008(11) 0.058665(19) 1.19384(6) 0.00718(8) Uani d . 1 1
+O O1 0.3975(2) 0.02335(4) 1.30357(15) 0.00844(17) Uani d . 1 1
+O O2 0.0424(4) 0.2500 0.8979(2) 0.0099(3) Uani d S 1 2
+O O3 -0.1119(2) 0.15916(5) 1.00045(14) 0.00934(18) Uani d . 1 1
+O O4 -0.1677(2) 0.17341(5) 0.69052(14) 0.00905(17) Uani d . 1 1
+O O5 0.0309(3) 0.10693(5) 1.28228(14) 0.01041(19) Uani d . 1 1
+O O6 0.2544(2) 0.05825(5) 1.00378(13) 0.00903(17) Uani d . 1 1
+O O7 -0.2424(2) 0.19359(5) 1.29953(15) 0.00955(18) Uani d . 1 1
+O O8 0.3353(2) 0.06358(4) 0.70435(14) 0.00792(16) Uani d . 1 1
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Pb1 0.00860(3) 0.00848(3) 0.01142(3) 0.000 0.00116(2) 0.000
+Ca1 0.00480(9) 0.00603(9) 0.00653(9) -0.00098(7) -0.00031(7) 0.00050(7)
+Al1 0.00483(16) 0.00669(17) 0.00517(16) -0.00032(14) -0.00011(13) -0.00047(13)
+Al2 0.00503(16) 0.00585(17) 0.00565(17) -0.00049(14) -0.00012(14) 0.00014(13)
+Al3 0.00624(17) 0.00637(18) 0.00576(17) 0.00052(14) -0.00010(14) 0.00041(13)
+Al4 0.00831(19) 0.00789(18) 0.00534(17) 0.00240(15) 0.00083(15) 0.00068(14)
+O1 0.0078(4) 0.0069(4) 0.0106(4) -0.0006(3) -0.0019(3) 0.0017(3)
+O2 0.0122(7) 0.0059(5) 0.0117(6) 0.000 -0.0014(5) 0.000
+O3 0.0108(4) 0.0112(4) 0.0060(4) -0.0045(4) -0.0001(3) 0.0011(3)
+O4 0.0063(4) 0.0120(4) 0.0089(4) 0.0015(3) -0.0022(3) -0.0023(3)
+O5 0.0148(5) 0.0085(4) 0.0080(4) 0.0038(4) 0.0013(4) 0.0008(3)
+O6 0.0089(4) 0.0131(4) 0.0051(4) -0.0032(4) 0.0001(3) -0.0011(3)
+O7 0.0072(4) 0.0093(4) 0.0122(4) -0.0015(3) 0.0021(3) -0.0038(3)
+O8 0.0056(4) 0.0092(4) 0.0089(4) 0.0008(3) 0.0018(3) 0.0020(3)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Al Al 0.0645 0.0514 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ca Ca 0.2262 0.3064 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Pb Pb -3.3944 10.1111 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+O7 Pb1 O7 4_557 6_658 87.07(7)
+O7 Pb1 O2 4_557 . 89.06(5)
+O7 Pb1 O2 6_658 . 89.06(5)
+O7 Pb1 O4 4_557 6_657 146.59(4)
+O7 Pb1 O4 6_658 6_657 82.04(4)
+O2 Pb1 O4 . 6_657 59.41(4)
+O7 Pb1 O4 4_557 4_556 82.04(4)
+O7 Pb1 O4 6_658 4_556 146.59(4)
+O2 Pb1 O4 . 4_556 59.41(4)
+O4 Pb1 O4 6_657 4_556 89.89(5)
+O7 Pb1 O7 4_557 7_665 57.71(2)
+O7 Pb1 O7 6_658 7_665 97.40(3)
+O2 Pb1 O7 . 7_665 145.51(3)
+O4 Pb1 O7 6_657 7_665 154.99(3)
+O4 Pb1 O7 4_556 7_665 103.07(3)
+O7 Pb1 O7 4_557 1_655 97.40(3)
+O7 Pb1 O7 6_658 1_655 57.71(2)
+O2 Pb1 O7 . 1_655 145.51(3)
+O4 Pb1 O7 6_657 1_655 103.07(3)
+O4 Pb1 O7 4_556 1_655 154.99(3)
+O7 Pb1 O7 7_665 1_655 57.54(4)
+O6 Ca1 O3 6_557 6_657 148.96(4)
+O6 Ca1 O8 6_557 . 103.47(5)
+O3 Ca1 O8 6_657 . 89.15(5)
+O6 Ca1 O4 6_557 . 103.11(5)
+O3 Ca1 O4 6_657 . 94.55(5)
+O8 Ca1 O4 . . 119.67(4)
+O6 Ca1 O5 6_557 1_554 69.90(4)
+O3 Ca1 O5 6_657 1_554 79.37(5)
+O8 Ca1 O5 . 1_554 122.66(4)
+O4 Ca1 O5 . 1_554 117.15(4)
+O6 Ca1 O8 6_557 6_557 64.63(4)
+O3 Ca1 O8 6_657 6_557 145.34(4)
+O8 Ca1 O8 . 6_557 67.11(2)
+O4 Ca1 O8 . 6_557 77.52(4)
+O5 Ca1 O8 1_554 6_557 134.40(4)
+O6 Al1 O8 . 6_557 114.44(7)
+O6 Al1 O8 . . 101.27(6)
+O8 Al1 O8 6_557 . 105.83(5)
+O6 Al1 O1 . 2_554 118.87(7)
+O8 Al1 O1 6_557 2_554 106.89(6)
+O8 Al1 O1 . 2_554 108.56(6)
+O3 Al2 O2 . . 107.27(8)
+O3 Al2 O4 . . 105.23(7)
+O2 Al2 O4 . . 119.09(8)
+O3 Al2 O4 . 6_657 113.85(7)
+O2 Al2 O4 . 6_657 102.85(8)
+O4 Al2 O4 . 6_657 108.89(5)
+O3 Al3 O7 . . 112.85(7)
+O3 Al3 O7 . 6_658 108.04(7)
+O7 Al3 O7 . 6_658 105.85(7)
+O3 Al3 O5 . . 117.88(7)
+O7 Al3 O5 . . 106.58(7)
+O7 Al3 O5 6_658 . 104.72(7)
+O3 Al3 O5 . 6_558 81.22(5)
+O7 Al3 O5 . 6_558 70.88(5)
+O7 Al3 O5 6_658 6_558 170.62(6)
+O5 Al3 O5 . 6_558 68.67(5)
+O6 Al4 O1 . . 114.03(7)
+O6 Al4 O5 . . 122.23(7)
+O1 Al4 O5 . . 118.69(7)
+O6 Al4 O1 . 6_558 100.26(6)
+O1 Al4 O1 . 6_558 103.12(6)
+O5 Al4 O1 . 6_558 89.56(7)
+O6 Al4 O5 . 6_658 86.24(6)
+O1 Al4 O5 . 6_658 77.07(5)
+O5 Al4 O5 . 6_658 83.97(6)
+O1 Al4 O5 6_558 6_658 172.62(6)
+Al4 O1 Al4 . 6_658 103.92(7)
+Al1 O1 Al1 2 5_657 66.70(4)
+Al4 O1 Al1 . 5_657 124.39(6)
+Al4 O1 Al1 6_658 5_657 68.50(4)
+Al1 O1 Al1 2 6_658 89.65(5)
+Al4 O1 Al1 . 6_658 131.29(6)
+Al2 O2 Al2 . 7_565 149.14(12)
+Al2 O2 Pb1 . . 101.41(6)
+Al2 O2 Pb1 7_565 . 101.41(6)
+Al2 O2 Pb1 . 1_455 91.49(7)
+Al2 O2 Pb1 7_565 1_455 91.49(7)
+Pb1 O2 Pb1 . 1_455 126.37(7)
+Al3 O3 Al2 . . 128.62(8)
+Al3 O3 Ca1 . 6_557 118.38(6)
+Al2 O3 Ca1 . 6_557 113.00(6)
+Al2 O4 Al2 . 6_557 128.32(8)
+Al2 O4 Ca1 . . 104.88(6)
+Al2 O4 Ca1 6_557 . 125.51(6)
+Al2 O4 Pb1 . 6_557 105.39(6)
+Al2 O4 Pb1 6_557 6_557 81.54(5)
+Ca1 O4 Pb1 . 6_557 96.51(4)
+Al3 O5 Al4 . . 122.01(8)
+Al3 O5 Al4 . 6_558 114.46(7)
+Al4 O5 Al4 . 6_558 88.67(6)
+Al3 O5 Ca1 . 1_556 116.48(6)
+Al4 O5 Ca1 . 1_556 116.25(6)
+Al4 O5 Ca1 6_558 1_556 89.03(5)
+Al1 O6 Al4 . . 139.90(8)
+Al1 O6 Ca1 . 6_657 104.80(6)
+Al4 O6 Ca1 . 6_657 113.94(6)
+Al1 O6 Al4 . 6_658 155.89(7)
+Al3 O7 Al3 . 6_558 110.17(7)
+Al3 O7 Pb1 . 6_558 115.27(6)
+Al3 O7 Pb1 6_558 6_558 130.73(7)
+Al3 O7 Pb1 . 1_455 102.03(6)
+Al1 O8 Al1 6_657 . 123.56(7)
+Al1 O8 Ca1 6_657 . 132.88(7)
+Al1 O8 Ca1 . . 99.78(6)
+Al1 O8 Ca1 6_657 6_657 87.26(5)
+Al1 O8 Ca1 . 6_657 88.51(5)
+Ca1 O8 Ca1 . 6_657 113.62(5)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Pb1 O7 4_557 2.2925(12) ?
+Pb1 O7 6_658 2.2925(12) ?
+Pb1 O2 . 2.4457(19) ?
+Pb1 O4 6_657 3.0345(13) ?
+Pb1 O4 4_556 3.0345(13) ?
+Pb1 O7 7_665 3.2809(14) ?
+Pb1 O7 1_655 3.2809(14) ?
+Ca1 O6 6_557 2.2925(13) ?
+Ca1 O3 6_657 2.2976(13) ?
+Ca1 O8 . 2.3294(12) ?
+Ca1 O4 . 2.4055(13) ?
+Ca1 O5 1_554 2.5306(13) ?
+Ca1 O8 6_557 2.7121(13) ?
+Al1 O6 . 1.7214(13) y
+Al1 O8 6_557 1.7470(13) y
+Al1 O8 . 1.7690(13) y
+Al1 O1 2_554 1.7708(13) y
+Al2 O3 . 1.7496(13) y
+Al2 O2 . 1.7589(7) y
+Al2 O4 . 1.7709(13) y
+Al2 O4 6_657 1.7758(13) y
+Al3 O3 . 1.7262(14) y
+Al3 O7 . 1.7676(13) y
+Al3 O7 6_658 1.7738(14) y
+Al3 O5 . 1.7740(14) y
+Al3 O5 6_558 2.8381(16) ?
+Al4 O6 . 1.7230(13) y
+Al4 O1 . 1.7797(13) y
+Al4 O5 . 1.7811(14) y
+Al4 O1 6_558 1.8567(14) y
+Al4 O5 6_658 2.2849(16) y

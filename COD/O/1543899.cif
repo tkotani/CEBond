@@ -1,0 +1,266 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-08-17 04:28:47 +0300 (Wed, 17 Aug 2016) $
+#$Revision: 185841 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/54/38/1543899.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1543899
+loop_
+_publ_author_name
+'Tarantino, Serena C.'
+'Giannini, Mattia'
+'Carpenter, Michael A.'
+'Zema, Michele'
+_publ_section_title
+;
+ Cooperative Jahn--Teller effect and the role of strain in the
+ tetragonal-to-cubic phase transition in
+ Mg<i>~x~</i>Cu~1{\hskip0.16667em~{-}{\hskip0.16667em}<i>x</i>}Cr~2~O~4~
+;
+_journal_coeditor_code           LC5068SUP1
+_journal_issue                   5
+_journal_name_full               IUCrJ
+_journal_page_first
+;
+;
+_journal_paper_doi               10.1107/S2052252516012574
+_journal_volume                  3
+_journal_year                    2016
+_chemical_formula_sum            'Cr2 Cu O4'
+_chemical_formula_weight         231.54
+_chemical_name_systematic
+;
+ ?
+;
+_space_group_IT_number           141
+_symmetry_cell_setting           tetragonal
+_symmetry_space_group_name_Hall  '-I 4bd 2'
+_symmetry_space_group_name_H-M   'I 41/a m d :2'
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   6.02870(10)
+_cell_length_b                   6.02870(10)
+_cell_length_c                   7.7803(2)
+_cell_measurement_temperature    293(2)
+_cell_volume                     282.777(10)
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 2008)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measured_fraction_theta_full 0.997
+_diffrn_measured_fraction_theta_max 0.997
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0000
+_diffrn_reflns_av_sigmaI/netI    0.0240
+_diffrn_reflns_limit_h_max       11
+_diffrn_reflns_limit_h_min       -11
+_diffrn_reflns_limit_k_max       11
+_diffrn_reflns_limit_k_min       -11
+_diffrn_reflns_limit_l_max       14
+_diffrn_reflns_limit_l_min       -14
+_diffrn_reflns_number            4312
+_diffrn_reflns_theta_full        42.71
+_diffrn_reflns_theta_max         42.71
+_diffrn_reflns_theta_min         4.28
+_exptl_absorpt_coefficient_mu    14.810
+_exptl_crystal_density_diffrn    5.439
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_F_000             436
+_refine_diff_density_max         0.634
+_refine_diff_density_min         -1.140
+_refine_diff_density_rms         0.209
+_refine_ls_extinction_coef       0.0216(7)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_ref   1.087
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     16
+_refine_ls_number_reflns         4312
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.087
+_refine_ls_R_factor_all          0.0291
+_refine_ls_R_factor_gt           0.0250
+_refine_ls_shift/su_max          0.001
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0361P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0640
+_refine_ls_wR_factor_ref         0.0658
+_reflns_number_gt                3682
+_reflns_number_total             4312
+_reflns_threshold_expression     >2\s(I)
+_cod_data_source_file            lc5068.cif
+_cod_data_source_block           Cu100_RT_CCD_T
+_cod_original_sg_symbol_H-M      'I 41/a m d'
+_cod_database_code               1543899
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, -y+1/2, z'
+'x, -y, -z'
+'-x, y+1/2, -z'
+'-y+1/4, -x+1/4, -z+3/4'
+'y+1/4, x+3/4, -z+1/4'
+'y+1/4, -x+1/4, z+3/4'
+'-y+1/4, x+3/4, z+1/4'
+'x+1/2, y+1/2, z+1/2'
+'-x+1/2, -y+1, z+1/2'
+'x+1/2, -y+1/2, -z+1/2'
+'-x+1/2, y+1, -z+1/2'
+'-y+3/4, -x+3/4, -z+5/4'
+'y+3/4, x+5/4, -z+3/4'
+'y+3/4, -x+3/4, z+5/4'
+'-y+3/4, x+5/4, z+3/4'
+'-x, -y, -z'
+'x, y-1/2, -z'
+'-x, y, z'
+'x, -y-1/2, z'
+'y-1/4, x-1/4, z-3/4'
+'-y-1/4, -x-3/4, z-1/4'
+'-y-1/4, x-1/4, -z-3/4'
+'y-1/4, -x-3/4, -z-1/4'
+'-x+1/2, -y+1/2, -z+1/2'
+'x+1/2, y, -z+1/2'
+'-x+1/2, y+1/2, z+1/2'
+'x+1/2, -y, z+1/2'
+'y+1/4, x+1/4, z-1/4'
+'-y+1/4, -x-1/4, z+1/4'
+'-y+1/4, x+1/4, -z-1/4'
+'y+1/4, -x-1/4, -z+1/4'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+Cu01 Cu 0.0000 0.2500 0.3750 0.00847(4) Uani 1 8 d S
+Cr02 Cr 0.0000 0.0000 0.0000 0.00445(4) Uani 1 4 d S
+O003 O 0.0000 0.53493(7) 0.25374(6) 0.00545(8) Uani 1 2 d S
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Cu01 0.00544(5) 0.00544(5) 0.01451(8) 0.000 0.000 0.000
+Cr02 0.00474(6) 0.00372(6) 0.00490(6) 0.00000(4) 0.000 0.000
+O003 0.00552(17) 0.00474(16) 0.00607(17) 0.00050(14) 0.000 0.000
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Cr Cr 0.3209 0.6236 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Cu Cu 0.3201 1.2651 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+O003 Cu01 O003 103.399(12) 14_445 2
+O003 Cu01 O003 103.399(12) 14_445 .
+O003 Cu01 O003 122.45(3) 2 .
+O003 Cu01 O003 122.45(3) 14_445 5
+O003 Cu01 O003 103.399(12) 2 5
+O003 Cu01 O003 103.399(12) . 5
+O003 Cr02 O003 180.00(3) 2 18
+O003 Cr02 O003 93.774(18) 2 22_665
+O003 Cr02 O003 86.226(18) 18 22_665
+O003 Cr02 O003 86.226(18) 2 6_445
+O003 Cr02 O003 93.774(18) 18 6_445
+O003 Cr02 O003 180.0 22_665 6_445
+O003 Cr02 O003 93.774(18) 2 29_455
+O003 Cr02 O003 86.226(18) 18 29_455
+O003 Cr02 O003 81.399(19) 22_665 29_455
+O003 Cr02 O003 98.601(19) 6_445 29_455
+O003 Cr02 O003 86.226(18) 2 13_544
+O003 Cr02 O003 93.774(18) 18 13_544
+O003 Cr02 O003 98.601(19) 22_665 13_544
+O003 Cr02 O003 81.399(19) 6_445 13_544
+O003 Cr02 O003 180.000(19) 29_455 13_544
+O003 Cr02 Cr02 43.475(8) 2 6_545
+O003 Cr02 Cr02 136.525(8) 18 6_545
+O003 Cr02 Cr02 92.604(11) 22_665 6_545
+O003 Cr02 Cr02 87.396(11) 6_445 6_545
+O003 Cr02 Cr02 136.605(14) 29_455 6_545
+O003 Cr02 Cr02 43.395(14) 13_544 6_545
+O003 Cr02 Cr02 136.525(8) 2 14_444
+O003 Cr02 Cr02 43.475(8) 18 14_444
+O003 Cr02 Cr02 87.396(11) 22_665 14_444
+O003 Cr02 Cr02 92.604(11) 6_445 14_444
+O003 Cr02 Cr02 43.395(14) 29_455 14_444
+O003 Cr02 Cr02 136.605(14) 13_544 14_444
+Cr02 Cr02 Cr02 180.0 6_545 14_444
+O003 Cr02 Cr02 43.475(8) 2 13_444
+O003 Cr02 Cr02 136.525(8) 18 13_444
+O003 Cr02 Cr02 136.605(14) 22_665 13_444
+O003 Cr02 Cr02 43.395(14) 6_445 13_444
+O003 Cr02 Cr02 92.604(11) 29_455 13_444
+O003 Cr02 Cr02 87.396(11) 13_544 13_444
+Cr02 Cr02 Cr02 62.975(1) 6_545 13_444
+Cr02 Cr02 Cr02 117.025(1) 14_444 13_444
+O003 Cr02 Cr02 136.525(8) 2 5_554
+O003 Cr02 Cr02 43.475(8) 18 5_554
+O003 Cr02 Cr02 43.395(14) 22_665 5_554
+O003 Cr02 Cr02 136.605(14) 6_445 5_554
+O003 Cr02 Cr02 87.396(11) 29_455 5_554
+O003 Cr02 Cr02 92.604(11) 13_544 5_554
+Cr02 Cr02 Cr02 117.025(1) 6_545 5_554
+Cr02 Cr02 Cr02 62.975(1) 14_444 5_554
+Cr02 Cr02 Cr02 180.0 13_444 5_554
+Cu01 O003 Cr02 112.69(2) . 2
+Cu01 O003 Cr02 125.353(13) . 6
+Cr02 O003 Cr02 93.130(16) 2 6
+Cu01 O003 Cr02 125.353(13) . 13_454
+Cr02 O003 Cr02 93.130(16) 2 13_454
+Cr02 O003 Cr02 98.576(19) 6 13_454
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Cu01 O003 1.9598(4) 14_445
+Cu01 O003 1.9598(4) 2
+Cu01 O003 1.9598(4) .
+Cu01 O003 1.9598(4) 5
+Cr02 O003 1.9854(5) 2
+Cr02 O003 1.9854(5) 18
+Cr02 O003 1.9884(3) 22_665
+Cr02 O003 1.9884(3) 6_445
+Cr02 O003 1.9884(3) 29_455
+Cr02 O003 1.9884(3) 13_544
+Cr02 Cr02 2.8856 6_545
+Cr02 Cr02 2.8856 14_444
+Cr02 Cr02 2.8856 13_444
+Cr02 Cr02 2.8856 5_554
+O003 Cr02 1.9854(5) 2
+O003 Cr02 1.9884(3) 6
+O003 Cr02 1.9884(3) 13_454

@@ -1,0 +1,203 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-16 22:30:59 +0200 (Tue, 16 Feb 2016) $
+#$Revision: 176467 $
+#$URL: svn://www.crystallography.net/cod/cif/4/33/01/4330137.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4330137
+loop_
+_publ_author_name
+'Laurent Jantsky'
+'Hiroshi Okamoto'
+'Antoine Demont'
+'Helmer Fjellv\%ag'
+_publ_contact_author_address
+;Centre for Materials Science and Nanotechnology, 
+Department of Chemistry,
+University of Oslo
+P.O.Box 1033, Blindern,
+N-0315 Oslo, 
+Norway
+;
+_publ_contact_author_email       helmer.fjellvag@kjemi.uio.no
+_publ_contact_author_name        'Professor H. Fjellv\%ag'
+_publ_section_title
+;
+ Tuning of Water and Hydroxide Content of Intercalated
+ Ruddlesden-Popper-type Oxides in the PrSr3Co1.5Fe1.5O10-\dSystem
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              9181
+_journal_page_last               9191
+_journal_paper_doi               10.1021/ic300001s
+_journal_volume                  51
+_journal_year                    2012
+_chemical_formula_sum            'Co0.5 Fe0.5 O3 Pr0.25 Sr0.75'
+_chemical_formula_weight         206.35
+_chemical_name_systematic        ' Pr0.25Sr0.75Co0.5Fe0.5O3-d'
+_space_group_IT_number           221
+_symmetry_cell_setting           cubic
+_symmetry_space_group_name_Hall  '-P 4 2 3'
+_symmetry_space_group_name_H-M   'P m -3 m'
+_cell_angle_alpha                90.00000
+_cell_angle_beta                 90.00000
+_cell_angle_gamma                90.00000
+_cell_formula_units_Z            1
+_cell_length_a                   3.8832(5)
+_cell_length_b                   3.8832(5)
+_cell_length_c                   3.8832(5)
+_cell_measurement_temperature    343.15
+_cell_volume                     58.556(13)
+_computing_structure_refinement  FULLPROF
+_diffrn_detector_type            Mar345
+_diffrn_measurement_device_type  Image-plate
+_diffrn_radiation_monochromator  Si
+_diffrn_radiation_type           synchrotron
+_diffrn_radiation_wavelength     0.70417
+_diffrn_source                   ESRF
+_pd_char_colour                  black
+_pd_char_particle_morphology     powder
+_pd_instr_location
+' SNBL, station BM 01A, ESRF Grenoble, France'
+_pd_meas_2theta_range_inc        0.022727
+_pd_meas_2theta_range_max        36.98864
+_pd_meas_2theta_range_min        0.14764
+_pd_meas_number_of_points        1623
+_pd_proc_2theta_range_inc        0.022727
+_pd_proc_2theta_range_max        37.0055
+_pd_proc_2theta_range_min        0.1645
+_pd_proc_ls_background_function  User-Defined
+_pd_proc_ls_pref_orient_corr     ' none'
+_pd_proc_ls_profile_function     TCH-PseudoVoigt
+_pd_proc_ls_prof_R_factor        1.3182
+_pd_proc_ls_prof_wR_expected     3.5373
+_pd_proc_ls_prof_wR_factor       1.8560
+_pd_proc_wavelength              0.704170
+_pd_spec_mounting                ' Quartz glass capillary.'
+_pd_spec_mount_mode              transmission
+_pd_spec_shape                   cylinder
+_refine_ls_number_parameters     17
+_refine_ls_number_reflns         13
+_refine_ls_number_restraints     0
+_refine_ls_R_I_factor            5.8711
+_cod_data_source_file            ic300001s_si_003_1.cif
+_cod_data_source_block           ABO3_impurity
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_cell_measurement_temperature' value '70C' was changed to '343.15' -
+it was converted from degrees Celsius(C) to Kelvins(K).
+
+Automatic conversion script
+Id: cif_fix_values 1891 2012-01-12 08:04:46Z andrius 
+;
+_cod_original_cell_volume        58.557(13)
+_cod_original_formula_sum        Co0.5Fe0.5O3Pr0.25Sr0.75
+_cod_database_code               4330137
+#BEGIN Tags that were not found in dictionaries:
+_pd_proc_ls_prof_cr_factor       15.4161
+_pd_proc_ls_prof_cwr_factor      10.9597
+_pd_proc_ls_prof_cwr_expected    20.8877
+_pd_proc_ls_prof_chi2            0.2753
+_pd_proc_ls_prof_echi2           0.2964
+#END Tags that were not found in dictionaries
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x,-y,-z
+-x,y,-z
+-x,-y,z
+y,z,x
+-y,-z,x
+y,-z,-x
+-y,z,-x
+z,x,y
+-z,x,-y
+-z,-x,y
+z,-x,-y
+y,x,z
+-y,x,-z
+y,-x,-z
+-y,-x,z
+z,y,x
+-z,-y,x
+-z,y,-x
+z,-y,-x
+x,z,y
+x,-z,-y
+-x,-z,y
+-x,z,-y
+-x,-y,-z
+-x,y,z
+x,-y,z
+x,y,-z
+-y,-z,-x
+y,z,-x
+-y,z,x
+y,-z,x
+-z,-x,-y
+z,-x,y
+z,x,-y
+-z,x,y
+-y,-x,-z
+y,-x,z
+-y,x,z
+y,x,-z
+-z,-y,-x
+z,y,-x
+z,-y,x
+-z,y,x
+-x,-z,-y
+-x,z,y
+x,z,-y
+x,-z,y
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+_atom_site_adp_type
+_atom_site_type_symbol
+O1 0.50000 0.00000 0.00000 0.01267 1.00000 Uiso O
+Pr1 0.50000 0.50000 0.50000 0.00317 0.25008 Uiso Pr
+Sr1 0.50000 0.50000 0.50000 0.00317 0.75024 Uiso Sr
+Co1 0.00000 0.00000 0.00000 0.00633 0.49968 Uiso Co
+Fe1 0.00000 0.00000 0.00000 0.00633 0.50016 Uiso Fe
+loop_
+_atom_type_symbol
+_atom_type_scat_Cromer_Mann_a1
+_atom_type_scat_Cromer_Mann_b1
+_atom_type_scat_Cromer_Mann_a2
+_atom_type_scat_Cromer_Mann_b2
+_atom_type_scat_Cromer_Mann_a3
+_atom_type_scat_Cromer_Mann_b3
+_atom_type_scat_Cromer_Mann_a4
+_atom_type_scat_Cromer_Mann_b4
+_atom_type_scat_Cromer_Mann_c
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+o 3.04850 13.27710 2.28680 5.70110 1.54630 0.32390 0.86700 32.90890 0.25080
+0.00800 0.00600
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+pr 22.04400 2.77393 19.66970 0.22209 12.38560 16.76690 2.82428 143.64400
+2.05830 -0.53000 2.84500
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+sr 17.56630 1.55640 9.81840 14.09880 5.42200 0.16640 2.66940 132.37601 2.50640
+-1.65700 3.26400
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+co 12.28410 4.27910 7.34090 0.27840 4.00340 13.53590 2.34880 71.16920 1.01180
+0.29900 0.97300
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+fe 11.76950 4.76110 7.35730 0.30720 3.52220 15.35350 2.30450 76.88050 1.03690
+0.30100 0.84500
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5

@@ -1,0 +1,299 @@
+#------------------------------------------------------------------------------
+#$Date: 2018-01-31 17:35:22 +0200 (Wed, 31 Jan 2018) $
+#$Revision: 205968 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/10/14/2101484.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2101484
+loop_
+_publ_author_name
+'Pilati, T.'
+'Demartin, F.'
+'Gramaccioli, C. M.'
+_publ_section_title
+;
+ Atomic displacement parameters for garnets: a lattice-dynamical
+ evaluation
+;
+_journal_issue                   2
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              239
+_journal_page_last               250
+_journal_paper_doi               10.1107/S0108768195010925
+_journal_volume                  52
+_journal_year                    1996
+_chemical_formula_sum            'Ca3 Fe2 O12 Si3'
+_space_group_crystal_system      cubic
+_space_group_IT_number           230
+_space_group_name_Hall           '-I 4bd 2c 3'
+_space_group_name_H-M_alt        'I a -3 d'
+_atom_type_scat_source           IntTabIV
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            8
+_cell_length_a                   12.0643(3)
+_cell_length_b                   12.0643(3)
+_cell_length_c                   12.0643(3)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      20.1
+_cell_measurement_theta_min      15.6
+_cell_volume                     1756
+_diffrn_measurement_device       'Nonius CAD-4'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.016
+_diffrn_reflns_limit_h_max       19
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       19
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       19
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            2174
+_diffrn_reflns_theta_max         35
+_exptl_absorpt_correction_T_max  1.00
+_exptl_absorpt_correction_T_min  0.90
+_exptl_absorpt_correction_type   '\y scan (North, Phillips & Mathews, 1968)'
+_exptl_crystal_size_max          0.15
+_exptl_crystal_size_mid          0.15
+_exptl_crystal_size_min          0.10
+_refine_diff_density_max         0.4
+_refine_ls_extinction_coef       'g = 2.31(4)E-6'
+_refine_ls_extinction_method     secondary
+_refine_ls_number_reflns         201
+_refine_ls_R_factor_obs          0.011
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 1/\s^2^(F)'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.013
+_reflns_number_observed          201
+_reflns_number_total             421
+_reflns_observed_criterion       I>3\s(I)
+_cod_data_source_file            cr0497.cif
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'w = 1/\s^2^(F)' was changed to
+'calc'. New tag '_refine_ls_weighting_details' was created. The value
+of the new tag was set to 'w = 1/\s^2^(F)'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_database_code               2101484
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 -y+1/4,x+3/4,z+1/4
+3 -x+1/2,-y,z+1/2
+4 y+1/4,-x+1/4,z+3/4
+5 x,-y,-z+1/2
+6 y+1/4,x+3/4,-z+3/4
+7 -x+1/2,y,-z
+8 -y+1/4,-x+1/4,-z+1/4
+9 z,x,y
+10 -x+1/4,z+3/4,y+1/4
+11 -z+1/2,-x,y+1/2
+12 x+1/4,-z+1/4,y+3/4
+13 z,-x,-y+1/2
+14 x+1/4,z+3/4,-y+3/4
+15 -z+1/2,x,-y
+16 -x+1/4,-z+1/4,-y+1/4
+17 y,z,x
+18 y+1/2,-z+1/2,-x
+19 z+3/4,y+1/4,-x+1/4
+20 -y,z+1/2,-x+1/2
+21 -z+1/4,-y+1/4,-x+1/4
+22 -y+1/2,-z,x+1/2
+23 z+3/4,-y+3/4,x+1/4
+24 -z+3/4,y+1/4,x+3/4
+25 -x,-y,-z
+26 y+3/4,-x+1/4,-z+3/4
+27 x+1/2,y,-z+1/2
+28 -y+3/4,x+3/4,-z+1/4
+29 -x,y,z+1/2
+30 -y+3/4,-x+1/4,z+1/4
+31 x+1/2,-y,z
+32 y+3/4,x+3/4,z+3/4
+33 -z,-x,-y
+34 x+3/4,-z+1/4,-y+3/4
+35 z+1/2,x,-y+1/2
+36 -x+3/4,z+3/4,-y+1/4
+37 -z,x,y+1/2
+38 -x+3/4,-z+1/4,y+1/4
+39 z+1/2,-x,y
+40 x+3/4,z+3/4,y+3/4
+41 -y,-z,-x
+42 -y+1/2,z+1/2,x
+43 -z+1/4,-y+3/4,x+3/4
+44 y,-z+1/2,x+1/2
+45 z+3/4,y+3/4,x+3/4
+46 y+1/2,z,-x+1/2
+47 -z+1/4,y+1/4,-x+3/4
+48 z+1/4,-y+3/4,-x+1/4
+49 x+1/2,y+1/2,z+1/2
+50 -y+3/4,x+1/4,z+3/4
+51 -x,-y+1/2,z
+52 y+3/4,-x+3/4,z+1/4
+53 x+1/2,-y+1/2,-z
+54 y+3/4,x+1/4,-z+1/4
+55 -x,y+1/2,-z+1/2
+56 -y+3/4,-x+3/4,-z+3/4
+57 z+1/2,x+1/2,y+1/2
+58 -x+3/4,z+1/4,y+3/4
+59 -z,-x+1/2,y
+60 x+3/4,-z+3/4,y+1/4
+61 z+1/2,-x+1/2,-y
+62 x+3/4,z+1/4,-y+1/4
+63 -z,x+1/2,-y+1/2
+64 -x+3/4,-z+3/4,-y+3/4
+65 y+1/2,z+1/2,x+1/2
+66 y,-z,-x+1/2
+67 z+1/4,y+3/4,-x+3/4
+68 -y+1/2,z,-x
+69 -z+3/4,-y+3/4,-x+3/4
+70 -y,-z+1/2,x
+71 z+1/4,-y+1/4,x+3/4
+72 -z+1/4,y+3/4,x+1/4
+73 -x+1/2,-y+1/2,-z+1/2
+74 y+1/4,-x+3/4,-z+1/4
+75 x,y+1/2,-z
+76 -y+1/4,x+1/4,-z+3/4
+77 -x+1/2,y+1/2,z
+78 -y+1/4,-x+3/4,z+3/4
+79 x,-y+1/2,z+1/2
+80 y+1/4,x+1/4,z+1/4
+81 -z+1/2,-x+1/2,-y+1/2
+82 x+1/4,-z+3/4,-y+1/4
+83 z,x+1/2,-y
+84 -x+1/4,z+1/4,-y+3/4
+85 -z+1/2,x+1/2,y
+86 -x+1/4,-z+3/4,y+3/4
+87 z,-x+1/2,y+1/2
+88 x+1/4,z+1/4,y+1/4
+89 -y+1/2,-z+1/2,-x+1/2
+90 -y,z,x+1/2
+91 -z+3/4,-y+1/4,x+1/4
+92 y+1/2,-z,x
+93 z+1/4,y+1/4,x+1/4
+94 y,z+1/2,-x
+95 -z+3/4,y+3/4,-x+1/4
+96 z+3/4,-y+1/4,-x+3/4
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+1/2+x,y,1/2-z
+x,1/2-y,1/2+z
+1/2-x,1/2+y,z
+-z,-x,-y
+1/2-z,1/2+x,y
+1/2+z,x,1/2-y
+z,1/2-x,1/2+y
+-y,-z,-x
+y,1/2-z,1/2+x
+1/2-y,1/2+z,x
+1/2+y,z,1/2-x
+1/4-y,3/4-x,3/4+z
+1/4+y,1/4+x,1/4+z
+3/4-y,3/4+x,1/4-z
+3/4+y,1/4-x,3/4-z
+1/4-x,3/4-z,3/4+y
+3/4+x,1/4-z,3/4-y
+1/4+x,1/4+z,1/4+y
+3/4-x,3/4+z,1/4-y
+1/4-z,3/4-y,3/4+x
+3/4-z,3/4+y,1/4-x
+3/4+z,1/4-y,3/4-x
+1/4+z,1/4+y,1/4+x
+-x,-y,-z
+1/2-x,-y,1/2+z
+-x,1/2+y,1/2-z
+1/2+x,1/2-y,-z
+z,x,y
+1/2+z,1/2-x,-y
+1/2-z,-x,1/2+y
+-z,1/2+x,1/2-y
+y,z,x
+-y,1/2+z,1/2-x
+1/2+y,1/2-z,-x
+1/2-y,-z,1/2+x
+3/4+y,1/4+x,1/4-z
+3/4-y,3/4-x,3/4-z
+1/4+y,1/4-x,3/4+z
+1/4-y,3/4+x,1/4+z
+3/4+x,1/4+z,1/4-y
+1/4-x,3/4+z,1/4+y
+3/4-x,3/4-z,3/4-y
+1/4+x,1/4-z,3/4+y
+3/4+z,1/4+y,1/4-x
+1/4+z,1/4-y,3/4+x
+1/4-z,3/4+y,1/4+x
+3/4-z,3/4-y,3/4-x
+1/2+x,1/2+y,1/2+z
+x,1/2+y,-z
+1/2+x,-y,z
+-x,y,1/2+z
+1/2-z,1/2-x,1/2-y
+-z,x,1/2+y
+z,1/2+x,-y
+1/2+z,-x,y
+1/2-y,1/2-z,1/2-x
+1/2+y,-z,x
+-y,z,1/2+x
+y,1/2+z,-x
+3/4-y,1/4-x,1/4+z
+3/4+y,3/4+x,3/4+z
+1/4-y,1/4+x,3/4-z
+1/4+y,3/4-x,1/4-z
+3/4-x,1/4-z,1/4+y
+1/4+x,3/4-z,1/4-y
+3/4+x,3/4+z,3/4+y
+1/4-x,1/4+z,3/4-y
+3/4-z,1/4-y,1/4+x
+1/4-z,1/4+y,3/4-x
+1/4+z,3/4-y,1/4-x
+3/4+z,3/4+y,3/4+x
+1/2-x,1/2-y,1/2-z
+-x,1/2-y,z
+1/2-x,y,-z
+x,-y,1/2-z
+1/2+z,1/2+x,1/2+y
+z,-x,1/2-y
+-z,1/2-x,y
+1/2-z,x,-y
+1/2+y,1/2+z,1/2+x
+1/2-y,z,-x
+y,-z,1/2-x
+-y,1/2-z,x
+1/4+y,3/4+x,3/4-z
+1/4-y,1/4-x,1/4-z
+3/4+y,3/4-x,1/4+z
+3/4-y,1/4+x,3/4+z
+1/4+x,3/4+z,3/4-y
+3/4-x,1/4+z,3/4+y
+1/4-x,1/4-z,1/4-y
+3/4+x,3/4-z,1/4+y
+1/4+z,3/4+y,3/4-x
+3/4+z,3/4-y,1/4+x
+3/4-z,1/4+y,3/4+x
+1/4-z,1/4-y,1/4-x
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Fe .0 .0 .0
+Ca .125 .0 .25
+Si .375 .0 .25
+O .03932(2) .04863(4) .65537(4)

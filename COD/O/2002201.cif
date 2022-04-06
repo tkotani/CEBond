@@ -1,0 +1,87 @@
+#------------------------------------------------------------------------------
+#$Date: 2015-01-27 21:58:39 +0200 (Tue, 27 Jan 2015) $
+#$Revision: 130149 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/22/2002201.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_2002201
+loop_
+_publ_author_name
+'Mueller-Buschbaum, Hk'
+'Freund, R'
+_publ_section_title              'Zur kristallchemie von Ga2 Ti O5'
+_journal_name_full
+;
+Zeitschrift fuer Naturforschung, Teil B. Anorganische Chemie,
+Organische Chemie (2,1947-32,1977)
+;
+_journal_page_first              590
+_journal_page_last               593
+_journal_volume                  29
+_journal_year                    1974
+_chemical_formula_structural     'Ga2 (Ti O5)'
+_chemical_formula_sum            'Ga2 O5 Ti'
+_chemical_name_systematic        'Digallium titanate'
+_space_group_IT_number           63
+_symmetry_cell_setting           orthorhombic
+_symmetry_Int_Tables_number      63
+_symmetry_space_group_name_Hall  '-B 2 2b'
+_symmetry_space_group_name_H-M   'B b m m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   9.792
+_cell_length_b                   9.966
+_cell_length_c                   3.597
+_cell_volume                     351.0
+_refine_ls_R_factor_all          0.08
+_cod_database_code               2002201
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,z
+x,1/2-y,z
+-x,1/2+y,z
+-x,-y,-z
+x,y,-z
+-x,1/2+y,-z
+x,1/2-y,-z
+1/2+x,y,1/2+z
+1/2-x,-y,1/2+z
+1/2+x,1/2-y,1/2+z
+1/2-x,1/2+y,1/2+z
+1/2-x,-y,1/2-z
+1/2+x,y,1/2-z
+1/2-x,1/2+y,1/2-z
+1/2+x,1/2-y,1/2-z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_calc_flag
+Ti1 Ti4+ 8 f 0.134 0.564 0. 0.25 0 d
+Ga1 Ga3+ 8 f 0.134 0.564 0. 0.75 0 d
+Ti2 Ti4+ 4 c 0.182 0.25 0. 0.5 0 d
+Ga2 Ga3+ 4 c 0.182 0.25 0. 0.5 0 d
+O1 O2- 8 f 0.309 0.074 0. 1. 0 d
+O2 O2- 8 f 0.045 0.118 0. 1. 0 d
+O3 O2- 4 c 0.754 0.25 0. 1. 0 d
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Ti4+ 4.000
+Ga3+ 3.000
+O2- -2.000

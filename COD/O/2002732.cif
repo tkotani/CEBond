@@ -1,0 +1,102 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/27/2002732.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_2002732
+loop_
+_publ_author_name
+'Sedello, O'
+'Mueller-Buschbaum, Hk'
+_publ_section_title
+;
+Synthese und Kristallstruktur von K Cr0.8 Al0.2 Mo2 O8
+;
+_journal_name_full               'Journal of Alloys Compd.'
+_journal_page_first              331
+_journal_page_last               334
+_journal_paper_doi               10.1016/0925-8388(94)90158-9
+_journal_volume                  210
+_journal_year                    1994
+_chemical_formula_structural     'K (Al0.2 Cr0.8) Mo2 O8'
+_chemical_formula_sum            'Al0.2 Cr0.8 K Mo2 O8'
+_chemical_name_systematic
+;
+Potassium aluminium chromium molybdenum oxide (1/0.2/0.8/2/8)
+;
+_space_group_IT_number           15
+_symmetry_cell_setting           monoclinic
+_symmetry_Int_Tables_number      15
+_symmetry_space_group_name_Hall  '-C 2yc'
+_symmetry_space_group_name_H-M   'C 1 2/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 119.40(1)
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   17.44498(100)
+_cell_length_b                   5.649(1)
+_cell_length_c                   8.997(4)
+_cell_volume                     772.4
+_refine_ls_R_factor_all          0.104
+_cod_original_formula_sum        'Al.2 Cr.8 K Mo2 O8'
+_cod_database_code               2002732
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,y,1/2-z
+-x,-y,-z
+x,-y,1/2+z
+1/2+x,1/2+y,z
+1/2-x,1/2+y,1/2-z
+1/2-x,1/2-y,-z
+1/2+x,1/2-y,1/2+z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_22
+_atom_site_aniso_U_23
+_atom_site_aniso_U_33
+Mo1 0.01519(1) -0.00024(2) 0.00652(1) 0.00495(1) 0. 0.01162(1)
+Cr1 0.01377(4) 0.00029(4) 0.00778(4) 0.00220(4) 0.00041(3) 0.01098(4)
+Al1 0.01377(4) 0.00029(4) 0.00778(4) 0.00220(4) 0.00041(3) 0.01098(4)
+K1 0.01648(6) 0. 0.00934(5) 0.01840(8) 0. 0.03243(8)
+O1 0.0327(1) 0.0015(1) 0.0196(9) 0.0089(1) 0. 0.0205(1)
+O2 0.0232(2) -0.0088(2) 0.0038(2) 0.0251(2) -0.0059(1) 0.0218(2)
+O3 0.0249(2) 0.0063(1) 0.01680(1) 0.0105(2) 0.0055(1) 0.0231(2)
+O4 0.0156(2) 0.0004(1) 0.0073(1) 0.0083(2) -0.0026(1) 0.0165(2)
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_calc_flag
+Mo1 Mo6+ 8 f 0.3504 0.2278(1) 0.2337 1. 0 d
+Cr1 Cr3+ 4 d 0.25 0.25 0.5 0.8087(13) 0 d
+Al1 Al3+ 4 d 0.25 0.25 0.5 0.1913(13) 0 d
+K1 K1+ 4 e 0. 0.1876(4) 0.25 1. 0 d
+O1 O2- 8 f 0.2789(3) 0.2238(8) 0.3192(5) 1. 0 d
+O2 O2- 8 f 0.4558(3) 0.2791(10) 0.3938(6) 1. 0 d
+O3 O2- 8 f 0.3221(3) 0.4621(8) 0.0817(6) 1. 0 d
+O4 O2- 8 f 0.3514(3) -0.0538(7) 0.1443(5) 1. 0 d
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Mo6+ 6.000
+Cr3+ 3.000
+Al3+ 3.000
+K1+ 1.000
+O2- -2.000

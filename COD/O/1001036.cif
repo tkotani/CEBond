@@ -1,0 +1,87 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/1/00/10/1001036.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1001036
+loop_
+_publ_author_name
+'Goreaud, M'
+'Choisnet, J'
+'Raveau, B'
+'Deschanvres, A'
+_publ_section_title
+;
+Sur les silicogermanates Ba(Si~2-x~ Ge~x~) O~5~ isotypes de la
+sanbornite
+;
+_journal_coden_ASTM              RVCMA8
+_journal_name_full               'Revue de Chimie Minerale'
+_journal_page_first              207
+_journal_page_last               216
+_journal_volume                  11
+_journal_year                    1974
+_chemical_formula_structural     'Ba Si1.5 Ge0.5 O5'
+_chemical_formula_sum            'Ba Ge0.5 O5 Si1.5'
+_chemical_name_systematic
+;
+Barium silicon germanium oxide (1/1.5/0.5/5)
+;
+_space_group_IT_number           62
+_symmetry_cell_setting           orthorhombic
+_symmetry_Int_Tables_number      62
+_symmetry_space_group_name_Hall  '-P 2n 2ac'
+_symmetry_space_group_name_H-M   'P c m n'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   4.649
+_cell_length_b                   7.739
+_cell_length_c                   13.596
+_cell_volume                     489.2
+_exptl_crystal_density_meas      3.98
+_refine_ls_R_factor_all          0.067
+_cod_original_formula_sum        'Ba Ge.5 O5 Si1.5'
+_cod_database_code               1001036
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+1/2-x,1/2-y,1/2+z
+-x,1/2+y,-z
+1/2+x,-y,1/2-z
+-x,-y,-z
+1/2+x,1/2+y,1/2-z
+x,1/2-y,z
+1/2-x,y,1/2+z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_calc_flag
+Ba1 Ba2+ 4 c 0.282 0.25 0.045 1. 0 d
+Si1 Si4+ 8 d 0.368 0.049 0.325 0.75 0 d
+Ge1 Ge4+ 8 d 0.368 0.049 0.325 0.25 0 d
+O1 O2- 4 c 0.451 0.25 0.338 1. 0 d
+O2 O2- 8 d 0.171 0.043 0.218 1. 0 d
+O3 O2- 8 d 0.188 0.923 0.422 1. 0 d
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Ba2+ 2.000
+Si4+ 4.000
+Ge4+ 4.000
+O2- -2.000

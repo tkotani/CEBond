@@ -1,0 +1,252 @@
+#------------------------------------------------------------------------------
+#$Date: 2021-06-21 11:51:55 +0300 (Mon, 21 Jun 2021) $
+#$Revision: 266604 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/56/36/1563633.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1563633
+loop_
+_publ_author_name
+'Zubkov, Vladimir G.'
+'Tarakina, Nadezda V.'
+'Leonidov, Ivan I.'
+'Tyutyunnik, Alexander P.'
+'Surat, Ludmila L.'
+'Melkozerova, Marina A.'
+'Zabolotskaya, Elena V.'
+'Kellerman, Dina G.'
+_publ_section_title
+;
+ Synthesis and crystal structure of Ln2M2+Ge4O12, Ln=rare-earth element or
+ Y; M=Ca, Mn, Zn
+;
+_journal_issue                   5
+_journal_name_full               'Journal of Solid State Chemistry'
+_journal_page_first              1186
+_journal_page_last               1193
+_journal_paper_doi               10.1016/j.jssc.2010.03.027
+_journal_volume                  183
+_journal_year                    2010
+_chemical_formula_sum            'Ge4 Lu2 Mn O12'
+_chemical_formula_weight         887.22
+_space_group_IT_number           125
+_space_group_name_Hall           '-P 4a 2b'
+_space_group_name_H-M_alt        'P 4/n b m :2'
+_symmetry_cell_setting           tetragonal
+_symmetry_space_group_name_H-M   'P 4/n b m :2'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            2
+_cell_length_a                   9.80527(4)
+_cell_length_b                   9.80527
+_cell_length_c                   4.938894(24)
+_cell_volume                     474.842(3)
+_computing_structure_refinement  GSAS
+_refine_ls_goodness_of_fit_all   1.33
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     59
+_refine_ls_number_restraints     0
+_refine_ls_shift/su_max          0.02
+_refine_ls_shift/su_mean         0.00
+_cod_data_source_file            LU2MNGE4O12.cif
+_cod_data_source_block           LU2MNGE4O12_publ
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+data item '_geom_angle_publ_flag' value 'N' was changed to 'n' in
+accordance with the built-in table derived from the CIF Core
+dictionary named 'cif_core.dic' version 2.4.5 last updated on
+2014-11-21 (64 times).
+
+data item '_geom_bond_publ_flag' value 'N' was changed to 'n' in
+accordance with the built-in table derived from the CIF Core
+dictionary named 'cif_core.dic' version 2.4.5 last updated on
+2014-11-21 (50 times).
+
+Automatic conversion script
+Id: cif_fix_values 8369 2020-08-20 11:38:08Z andrius 
+;
+_cod_original_cell_volume        474.842(5)
+_cod_original_sg_symbol_H-M      'P 4/n b m'
+_cod_original_formula_sum        'Ge4 Lu2.00 Mn1.00 O12'
+_cod_database_code               1563633
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -y+1/2,+x,+z
+3 -x+1/2,-y+1/2,+z
+4 +y,-x+1/2,+z
+5 -x,+y+1/2,+z
+6 -y,-x,+z
+7 +x+1/2,-y,+z
+8 +y+1/2,+x+1/2,+z
+-1 -x,-y,-z
+-2 +y+1/2,-x,-z
+-3 +x+1/2,+y+1/2,-z
+-4 -y,+x+1/2,-z
+-5 +x,-y+1/2,-z
+-6 +y,+x,-z
+-7 -x+1/2,+y,-z
+-8 -y+1/2,-x+1/2,-z
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+Mn Mn 0.0 0.0 0.5 0.5 Uiso 0.0210(5) 4
+Lu Lu1 0.0 0.0 0.5 0.5 Uiso 0.0210(5) 4
+Lu Lu2 0.25 0.25 0.5 1.0 Uiso 0.0144(6) 2
+Ge GE 0.98001(8) 0.25 0.0 1.0 Uiso 0.0163(5) 8
+O O1 0.1309(4) 0.8691(4) 0.8318(8) 1.0 Uiso 0.0123(14) 8
+O O2 0.16891(34) 0.06545(30) 0.2586(6) 1.0 Uiso 0.0122(10) 16
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+Mn 2.0
+Lu 4.0
+Ge 8.0
+O 24.0
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O2 Mn O2 98.86(17) 1_555 . 6_555 n
+O2 Mn O2 180.0 1_555 . -1_556 n
+O2 Mn O2 81.14(17) 1_555 . -6_556 n
+O2 Mn O2 81.14(17) 6_555 . -1_556 n
+O2 Mn O2 180.0 6_555 . -6_556 n
+O2 Mn O2 98.86(17) -1_556 . -6_556 n
+O1 Lu1 O1 180.0 1_545 . -1_566 n
+O1 Lu1 O2 97.15(12) 1_545 . 1_555 n
+O1 Lu1 O2 97.15(12) 1_545 . 6_555 n
+O1 Lu1 O2 82.85(12) 1_545 . -1_556 n
+O1 Lu1 O2 82.85(12) 1_545 . -6_556 n
+O1 Lu1 O2 82.85(12) -1_566 . 1_555 n
+O1 Lu1 O2 82.85(12) -1_566 . 6_555 n
+O1 Lu1 O2 97.15(12) -1_566 . -1_556 n
+O1 Lu1 O2 97.15(12) -1_566 . -6_556 n
+O2 Lu1 O2 98.86(17) 1_555 . 6_555 n
+O2 Lu1 O2 180.0 1_555 . -1_556 n
+O2 Lu1 O2 81.14(17) 1_555 . -6_556 n
+O2 Lu1 O2 81.14(17) 6_555 . -1_556 n
+O2 Lu1 O2 180.0 6_555 . -6_556 n
+O2 Lu1 O2 98.86(17) -1_556 . -6_556 n
+O2 Lu2 O2 74.53(7) 1_555 . 2_555 n
+O2 Lu2 O2 117.81(16) 1_555 . 3_555 n
+O2 Lu2 O2 74.53(7) 1_555 . 4_555 n
+O2 Lu2 O2 139.70(15) 1_555 . -5_456 n
+O2 Lu2 O2 74.13(16) 1_555 . -6_556 n
+O2 Lu2 O2 76.75(14) 1_555 . -7_546 n
+O2 Lu2 O2 143.79(14) 1_555 . -8_556 n
+O2 Lu2 O2 74.53(7) 2_555 . 3_555 n
+O2 Lu2 O2 117.81(16) 2_555 . 4_555 n
+O2 Lu2 O2 143.79(14) 2_555 . -5_456 n
+O2 Lu2 O2 139.70(15) 2_555 . -6_556 n
+O2 Lu2 O2 74.13(16) 2_555 . -7_546 n
+O2 Lu2 O2 76.75(14) 2_555 . -8_556 n
+O2 Lu2 O2 74.53(7) 3_555 . 4_555 n
+O2 Lu2 O2 76.75(14) 3_555 . -5_456 n
+O2 Lu2 O2 143.79(14) 3_555 . -6_556 n
+O2 Lu2 O2 139.70(15) 3_555 . -7_546 n
+O2 Lu2 O2 74.13(16) 3_555 . -8_556 n
+O2 Lu2 O2 74.13(16) 4_555 . -5_456 n
+O2 Lu2 O2 76.75(14) 4_555 . -6_556 n
+O2 Lu2 O2 143.79(14) 4_555 . -7_546 n
+O2 Lu2 O2 139.70(15) 4_555 . -8_556 n
+O2 Lu2 O2 74.53(7) -5_456 . -6_556 n
+O2 Lu2 O2 117.81(16) -5_456 . -7_546 n
+O2 Lu2 O2 74.53(7) -5_456 . -8_556 n
+O2 Lu2 O2 74.53(7) -6_556 . -7_546 n
+O2 Lu2 O2 117.81(16) -6_556 . -8_556 n
+O2 Lu2 O2 74.53(7) -7_546 . -8_556 n
+O1 GE O1 105.58(29) 4_554 . -1_666 n
+O1 GE O2 109.70(22) 4_554 . 4_655 n
+O1 GE O2 104.55(17) 4_554 . -6_655 n
+O1 GE O2 104.55(17) -1_666 . 4_655 n
+O1 GE O2 109.70(22) -1_666 . -6_655 n
+O2 GE O2 121.78(23) 4_655 . -6_655 n
+Lu1 O1 GE 109.43(15) 1_565 . 2_556 n
+Lu1 O1 GE 109.43(15) 1_565 . 5_656 n
+GE O1 GE 124.86(24) 2_556 . 5_656 n
+Mn O2 Lu1 0.0 1_555 . 1_555 n
+Mn O2 Lu2 102.36(12) 1_555 . 1_555 n
+Mn O2 GE 128.67(19) 1_555 . 2_545 n
+Lu1 O2 Lu2 102.36(12) 1_555 . 1_555 n
+Lu1 O2 GE 128.67(19) 1_555 . 2_545 n
+Lu2 O2 GE 127.26(19) 1_555 . 2_545 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Mn O1 2.446(4) . 1_545 n
+Mn O1 2.446(4) . -1_566 n
+Mn O2 2.1391(34) . 1_555 n
+Mn O2 2.1391(34) . 6_555 n
+Mn O2 2.1391(34) . -1_556 n
+Mn O2 2.1391(34) . -6_556 n
+Lu1 Lu2 3.466690(10) . 1_555 n
+Lu1 Lu2 3.466690(10) . 5_545 n
+Lu1 GE 3.48505(5) . 1_455 n
+Lu1 GE 3.48505(5) . 1_456 n
+Lu1 GE 3.48505(5) . 2_545 n
+Lu1 GE 3.48505(5) . 2_546 n
+Lu1 GE 3.48505(5) . 5_645 n
+Lu1 GE 3.48505(5) . 5_646 n
+Lu1 GE 3.48505(5) . 6_565 n
+Lu1 GE 3.48505(5) . 6_566 n
+Lu1 O1 2.446(4) . 1_545 n
+Lu1 O1 2.446(4) . -1_566 n
+Lu1 O2 2.1391(34) . 1_555 n
+Lu1 O2 2.1391(34) . 6_555 n
+Lu1 O2 2.1391(34) . -1_556 n
+Lu1 O2 2.1391(34) . -6_556 n
+Lu2 Lu1 3.466690(10) . 1_555 n
+Lu2 Lu1 3.466690(10) . 2_555 n
+Lu2 Lu1 3.466690(10) . 3_555 n
+Lu2 Lu1 3.466690(10) . 4_555 n
+Lu2 O2 2.3081(33) . 1_555 n
+Lu2 O2 2.3081(33) . 2_555 n
+Lu2 O2 2.3081(33) . 3_555 n
+Lu2 O2 2.3081(33) . 4_555 n
+Lu2 O2 2.3081(33) . -5_556 n
+Lu2 O2 2.3081(33) . -6_556 n
+Lu2 O2 2.3081(33) . -7_556 n
+Lu2 O2 2.3081(33) . -8_556 n
+GE Lu1 3.48505(5) . 1_654 n
+GE Lu1 3.48505(5) . 1_655 n
+GE Lu1 3.48505(5) . 4_654 n
+GE Lu1 3.48505(5) . 4_655 n
+GE O1 1.7990(19) . 4_554 n
+GE O1 1.7991(19) . -1_666 n
+GE O2 1.7222(29) . 4_655 n
+GE O2 1.7222(29) . -6_655 n
+O1 Mn 2.446(4) . 1_565 n
+O1 Lu1 2.446(4) . 1_565 n
+O1 GE 1.7990(19) . 2_556 n
+O1 GE 1.7991(19) . 5_656 n
+O2 Mn 2.1391(34) . 1_555 n
+O2 Lu1 2.1391(34) . 1_555 n
+O2 Lu2 2.3081(33) . 1_555 n
+O2 GE 1.7222(29) . 2_545 n

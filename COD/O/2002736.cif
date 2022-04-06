@@ -1,0 +1,109 @@
+#------------------------------------------------------------------------------
+#$Date: 2015-01-27 21:58:39 +0200 (Tue, 27 Jan 2015) $
+#$Revision: 130149 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/27/2002736.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_2002736
+loop_
+_publ_author_name
+'Kluever, E'
+'Mueller-Buschbaum, Hk'
+_publ_section_title
+;
+Ueber einen Lanthanoid-Mangan-Apatit: Nd4 Mn (Si O4)3 O
+;
+_journal_name_full
+;
+Zeitschrift fuer Naturforschung, Teil B. Anorganische Chemie,
+Organische Chemie (42,1987-)
+;
+_journal_page_first              61
+_journal_page_last               65
+_journal_volume                  50
+_journal_year                    1995
+_chemical_formula_structural     'Nd4 Mn (Si O4)3 O'
+_chemical_formula_sum            'Mn Nd4 O13 Si3'
+_chemical_name_systematic
+;
+Tetraneodymium manganese tris(silicate) oxide
+;
+_space_group_IT_number           176
+_symmetry_cell_setting           hexagonal
+_symmetry_Int_Tables_number      176
+_symmetry_space_group_name_Hall  '-P 6c'
+_symmetry_space_group_name_H-M   'P 63/m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            2
+_cell_length_a                   9.4986(9)
+_cell_length_b                   9.4986(9)
+_cell_length_c                   6.9436(15)
+_cell_volume                     542.5
+_refine_ls_R_factor_all          0.0632
+_cod_database_code               2002736
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-y,x-y,z
+y-x,-x,z
+-x,-y,1/2+z
+y,y-x,1/2+z
+x-y,x,1/2+z
+-x,-y,-z
+y,y-x,-z
+x-y,x,-z
+x,y,1/2-z
+-y,x-y,1/2-z
+y-x,-x,1/2-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_22
+_atom_site_aniso_U_23
+_atom_site_aniso_U_33
+Nd1 0.01105(1) 0.00455(1) 0. 0.00888(1) 0. 0.01036(2)
+Nd2 0.00628(2) 0.00314(1) 0. 0.00628(2) 0. 0.01472(4)
+Mn1 0.00628(2) 0.00314(1) 0. 0.00628(2) 0. 0.01472(4)
+Si1 0.00926(7) 0.00364(5) 0. 0.00657(7) 0. 0.01224(10)
+O1 0.0107(3) 0.0053(2) 0. 0.0107(3) 0. 0.111(2)
+O2 0.0115(2) 0.0048(2) 0.0041(3) 0.0155(3) 0.0068(3) 0.0136(7)
+O3 0.0263(2) 0.01885(15) 0. 0.0204(2) 0. 0.0218(4)
+O4 0.0204(3) 0.0135(2) 0.0002(3) 0.0224(3) -0.0012(3) 0.0097(4)
+O5 0.0454(5) 0.0109(3) -0.0163(4) 0.0105(3) -0.0013(3) 0.0114(4)
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_calc_flag
+Nd1 Nd3+ 6 h 0.229320(5) -0.011530(5) 0.25 1. 0 d
+Nd2 Nd3+ 4 f 0.3333 0.6667 -0.00361(2) 0.5 0 d
+Mn1 Mn2+ 4 f 0.3333 0.6667 -0.00361(2) 0.5 0 d
+Si1 Si4+ 6 h 0.40390(3) 0.37570(3) 0.25 1. 0 d
+O1 O2- 2 a 0. 0. 0.25 1. 0 d
+O2 O2- 12 i 0.59707(9) 0.46697(10) 0.21307(13) 0.5 0 d
+O3 O2- 6 h 0.32972(8) 0.49600(8) 0.25 1. 0 d
+O4 O2- 12 i 0.37023(11) 0.26755(11) 0.0582(2) 0.5 0 d
+O5 O2- 12 i 0.3068(2) 0.24266(11) 0.0817(2) 0.5 0 d
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Nd3+ 3.000
+Mn2+ 2.000
+Si4+ 4.000
+O2- -2.000

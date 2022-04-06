@@ -1,0 +1,416 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-13 21:28:24 +0200 (Sat, 13 Feb 2016) $
+#$Revision: 176429 $
+#$URL: svn://www.crystallography.net/cod/cif/4/00/26/4002616.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4002616
+loop_
+_publ_author_name
+'Ishizawa, Nobuo'
+'Asaka, Toru'
+'Kudo, Tatsunari'
+'Fukuda, Koichiro'
+'Yasuhara, Akira'
+'Abe, Nobuyuki'
+'Arima, Taka-hisa'
+_publ_section_title
+;
+ Structural Evolution of GdBaCo2O5+\d(\d = 7/18) at Elevated Temperatures
+;
+_journal_name_full               'Chemistry of Materials'
+_journal_page_first              141114094038007
+_journal_paper_doi               10.1021/cm503132e
+_journal_year                    2014
+_chemical_formula_sum            'Ba Co2 Gd O5.389'
+_chemical_formula_weight         498.7
+_chemical_name_systematic        ' ?'
+_space_group_IT_number           123
+_symmetry_cell_setting           tetragonal
+_symmetry_space_group_name_Hall  '-P 4 2'
+_symmetry_space_group_name_H-M   'P 4/m m m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            1
+_cell_length_a                   3.89300(10)
+_cell_length_b                   3.89300(10)
+_cell_length_c                   7.52430(10)
+_cell_measurement_temperature    294
+_cell_modulation_dimension       2
+_cell_volume                     114.034(4)
+_diffrn_ambient_temperature      294
+_diffrn_measured_fraction_theta_full 1
+_diffrn_measured_fraction_theta_max 1
+_diffrn_measurement_device       'four-cycle diffractometer'
+_diffrn_measurement_device_type  'Bruker CCD'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_source         'X-ray tube'
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0252
+_diffrn_reflns_av_unetI/netI     0.0154
+_diffrn_reflns_limit_h_max       5
+_diffrn_reflns_limit_h_min       -5
+_diffrn_reflns_limit_index_m_1_max 1
+_diffrn_reflns_limit_index_m_1_min -1
+_diffrn_reflns_limit_index_m_2_max 1
+_diffrn_reflns_limit_index_m_2_min -1
+_diffrn_reflns_limit_k_max       5
+_diffrn_reflns_limit_k_min       -5
+_diffrn_reflns_limit_l_max       9
+_diffrn_reflns_limit_l_min       -10
+_diffrn_reflns_number            5018
+_diffrn_reflns_theta_full        30.04
+_diffrn_reflns_theta_max         30.04
+_diffrn_reflns_theta_min         3.24
+_exptl_absorpt_coefficient_mu    29.943
+_exptl_absorpt_correction_T_max  0.2118
+_exptl_absorpt_correction_T_min  0.1521
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details   '(SADABS; Sheldrick, 1996)'
+_exptl_crystal_density_diffrn    7.2592
+_exptl_crystal_description       sphere
+_exptl_crystal_F_000             217
+_exptl_crystal_size_max          0.08
+_exptl_crystal_size_mid          0.08
+_exptl_crystal_size_min          0.08
+_exptl_crystal_size_rad          0.04
+_refine_diff_density_max         7.31
+_refine_diff_density_min         -15.80
+_refine_ls_extinction_coef       310(20)
+_refine_ls_extinction_method
+'B-C type 1 Gaussian isotropic (Becker & Coppens, 1974)'
+_refine_ls_goodness_of_fit_gt    2.47
+_refine_ls_goodness_of_fit_ref   2.16
+_refine_ls_number_constraints    0
+_refine_ls_number_parameters     50
+_refine_ls_number_reflns         931
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          0.0630
+_refine_ls_R_factor_gt           0.0443
+_refine_ls_shift/su_max          0.0169
+_refine_ls_shift/su_mean         0.0034
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     w=1/(\s^2^(F)+0.0001F^2^)
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_gt          0.0567
+_refine_ls_wR_factor_ref         0.0600
+_reflns_number_gt                647
+_reflns_number_total             931
+_reflns_threshold_expression     I>3\s(I)
+_cod_data_source_file            cm503132e_si_002.cif
+_cod_data_source_block           23h-incomm
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_diffrn_radiation_probe' value 'X-ray' changed to 'x-ray' according
+to /home/saulius/struct/CIF-dictionaries/IUCr/cif_core.dic dictionary
+named 'cif_core.dic' version 2.4.5 from 2014-11-21.
+
+Automatic conversion script
+Id: cif_fix_values 3866 2015-08-17 15:13:47Z robertas 
+;
+_cod_original_formula_sum        'Ba1 Co2 Gd1 O5.389'
+_cod_database_code               4002616
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 -x,-y,z
+3 -y,x,z
+4 y,-x,z
+5 -x,y,-z
+6 x,-y,-z
+7 y,x,-z
+8 -y,-x,-z
+9 -x,-y,-z
+10 x,y,-z
+11 y,-x,-z
+12 -y,x,-z
+13 x,-y,z
+14 -x,y,z
+15 -y,-x,z
+16 y,x,z
+loop_
+_space_group_symop_ssg_id
+_space_group_symop_ssg_operation_algebraic
+1 x1,x2,x3,x4,x5
+2 -x1,-x2,x3,-x4,-x5
+3 -x2,x1,x3,-x5,x4
+4 x2,-x1,x3,x5,-x4
+5 -x1,x2,-x3,-x4,x5
+6 x1,-x2,-x3,x4,-x5
+7 x2,x1,-x3,x5,x4
+8 -x2,-x1,-x3,-x5,-x4
+9 -x1,-x2,-x3,-x4,-x5
+10 x1,x2,-x3,x4,x5
+11 x2,-x1,-x3,x5,-x4
+12 -x2,x1,-x3,-x5,x4
+13 x1,-x2,x3,x4,-x5
+14 -x1,x2,x3,-x4,x5
+15 -x2,-x1,x3,-x5,-x4
+16 x2,x1,x3,x5,x4
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_adp_type
+_atom_site_U_iso_or_equiv
+_atom_site_site_symmetry_mutiplicity
+_atom_site_occupancy
+_atom_site_calc_flag
+Gd1 Gd 0 0 0.5 Uani 0.00570(18) 1 1 d
+Ba1 Ba 0 0 0 Uani 0.00625(18) 1 1 d
+Co1 Co 0.5 0.5 0.25401(12) Uani 0.0053(3) 2 1 d
+O1 O 0.5 0.5 0 Uiso 0.0050(15) 1 1 d
+O2 O 0.5 0 0.2975(6) Uiso 0.0098(8) 4 1 d
+O3 O 0.5 0.5 0.5 Uiso 0.012(3) 1 0.389 d
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_type_symbol
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Gd1 Gd 0.0057(3) 0.0057(3) 0.0058(3) 0 0 0
+Ba1 Ba 0.0051(3) 0.0051(3) 0.0086(4) 0 0 0
+Co1 Co 0.0040(4) 0.0040(4) 0.0078(7) 0 0 0
+loop_
+_atom_site_displace_Fourier_atom_site_label
+_atom_site_displace_Fourier_axis
+_atom_site_displace_Fourier_wave_vector_seq_id
+_atom_site_displace_Fourier_param_cos
+_atom_site_displace_Fourier_param_sin
+Gd1 x 1 0 -0.03469(17)
+Gd1 y 1 0 0
+Gd1 z 1 0 0
+Gd1 x 2 0 0
+Gd1 y 2 0 -0.03469(17)
+Gd1 z 2 0 0
+Gd1 x 3 0 -0.01290(13)
+Gd1 y 3 0 -0.01290(13)
+Gd1 z 3 0 0
+Gd1 x 4 0 -0.01290(13)
+Gd1 y 4 0 0.01290(13)
+Gd1 z 4 0 0
+Gd1 x 5 0 0.0215(5)
+Gd1 y 5 0 0
+Gd1 z 5 0 0
+Gd1 x 6 0 0
+Gd1 y 6 0 0.0215(5)
+Gd1 z 6 0 0
+Gd1 x 7 0 0.0114(3)
+Gd1 y 7 0 -0.0061(4)
+Gd1 z 7 0 0
+Gd1 x 8 0 -0.0061(4)
+Gd1 y 8 0 -0.0114(3)
+Gd1 z 8 0 0
+Gd1 x 9 0 0.0114(3)
+Gd1 y 9 0 0.0061(4)
+Gd1 z 9 0 0
+Gd1 x 10 0 -0.0061(4)
+Gd1 y 10 0 0.0114(3)
+Gd1 z 10 0 0
+Ba1 x 1 0 0.00497(13)
+Ba1 y 1 0 0
+Ba1 z 1 0 0
+Ba1 x 2 0 0
+Ba1 y 2 0 0.00497(13)
+Ba1 z 2 0 0
+Ba1 x 3 0 -0.00268(13)
+Ba1 y 3 0 -0.00268(13)
+Ba1 z 3 0 0
+Ba1 x 4 0 -0.00268(13)
+Ba1 y 4 0 0.00268(13)
+Ba1 z 4 0 0
+Co1 x 1 0 -0.0017(2)
+Co1 y 1 0 0
+Co1 z 1 -0.00310(11) 0
+Co1 x 2 0 0
+Co1 y 2 0 -0.0017(2)
+Co1 z 2 -0.00310(11) 0
+Co1 x 3 0 0.00360(18)
+Co1 y 3 0 0.00360(18)
+Co1 z 3 0.0003(2) 0
+Co1 x 4 0 0.00360(18)
+Co1 y 4 0 -0.00360(18)
+Co1 z 4 0.0003(2) 0
+O1 x 1 0 0.0174(15)
+O1 y 1 0 0
+O1 z 1 0 0
+O1 x 2 0 0
+O1 y 2 0 0.0174(15)
+O1 z 2 0 0
+O1 x 3 0 0.0070(12)
+O1 y 3 0 0.0070(12)
+O1 z 3 0 0
+O1 x 4 0 0.0070(12)
+O1 y 4 0 -0.0070(12)
+O1 z 4 0 0
+O2 x 1 0 0.0021(10)
+O2 y 1 0 0
+O2 z 1 -0.0128(6) 0
+O2 x 2 0 0
+O2 y 2 0 0.0097(11)
+O2 z 2 -0.0105(6) 0
+O2 x 3 0 0.0031(10)
+O2 y 3 0 0.0048(10)
+O2 z 3 -0.0064(6) 0
+O2 x 4 0 0.0031(10)
+O2 y 4 0 -0.0048(10)
+O2 z 4 -0.0064(6) 0
+O3 x 1 0 -0.067(5)
+O3 y 1 0 0
+O3 z 1 0 0
+O3 x 2 0 0
+O3 y 2 0 -0.067(5)
+O3 z 2 0 0
+loop_
+_atom_site_Fourier_wave_vector_seq_id
+_jana_atom_site_fourier_wave_vector_q1_coeff
+_jana_atom_site_fourier_wave_vector_q2_coeff
+1 1 0
+2 0 1
+3 1 1
+4 1 -1
+5 2 0
+6 0 2
+7 2 1
+8 1 -2
+9 2 -1
+10 1 2
+loop_
+_atom_site_occ_Fourier_atom_site_label
+_atom_site_occ_Fourier_wave_vector_seq_id
+_atom_site_occ_Fourier_param_cos
+_atom_site_occ_Fourier_param_sin
+O3 1 0.327(19) 0
+O3 2 0.327(19) 0
+O3 3 0.13(2) 0
+O3 4 0.13(2) 0
+loop_
+_atom_site_U_Fourier_atom_site_label
+_atom_site_U_Fourier_tens_elem
+_atom_site_U_Fourier_wave_vector_seq_id
+_atom_site_U_Fourier_param_cos
+_atom_site_U_Fourier_param_sin
+Ba1 U11 1 -0.0007(2) 0
+Ba1 U22 1 -0.0003(2) 0
+Ba1 U33 1 -0.0016(3) 0
+Ba1 U12 1 0 0
+Ba1 U13 1 0 0
+Ba1 U23 1 0 0
+Ba1 U11 2 -0.0003(2) 0
+Ba1 U22 2 -0.0007(2) 0
+Ba1 U33 2 -0.0016(3) 0
+Ba1 U12 2 0 0
+Ba1 U13 2 0 0
+Ba1 U23 2 0 0
+Ba1 U11 3 -0.0001(2) 0
+Ba1 U22 3 -0.0001(2) 0
+Ba1 U33 3 0.0007(4) 0
+Ba1 U12 3 -0.0004(3) 0
+Ba1 U13 3 0 0
+Ba1 U23 3 0 0
+Ba1 U11 4 -0.0001(2) 0
+Ba1 U22 4 -0.0001(2) 0
+Ba1 U33 4 0.0007(4) 0
+Ba1 U12 4 0.0004(3) 0
+Ba1 U13 4 0 0
+Ba1 U23 4 0 0
+Co1 U11 1 0.0008(4) 0
+Co1 U22 1 -0.0011(4) 0
+Co1 U33 1 -0.0011(4) 0
+Co1 U12 1 0 0
+Co1 U13 1 0 0.0000(3)
+Co1 U23 1 0 0
+Co1 U11 2 -0.0011(4) 0
+Co1 U22 2 0.0008(4) 0
+Co1 U33 2 -0.0011(4) 0
+Co1 U12 2 0 0
+Co1 U13 2 0 0
+Co1 U23 2 0 0.0000(3)
+Co1 U11 3 -0.0002(3) 0
+Co1 U22 3 -0.0002(3) 0
+Co1 U33 3 0.0002(6) 0
+Co1 U12 3 0.0002(4) 0
+Co1 U13 3 0 0.0001(3)
+Co1 U23 3 0 0.0001(3)
+Co1 U11 4 -0.0002(3) 0
+Co1 U22 4 -0.0002(3) 0
+Co1 U33 4 0.0002(6) 0
+Co1 U12 4 -0.0002(4) 0
+Co1 U13 4 0 0.0001(3)
+Co1 U23 4 0 -0.0001(3)
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Ba -0.3244 2.2819 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+Co 0.3494 0.9721 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+Gd -0.1653 3.9035 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+O 0.0106 0.0060 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+loop_
+_cell_wave_vector_seq_id
+_cell_wave_vector_x
+_cell_wave_vector_y
+_cell_wave_vector_z
+1 0.338900 0.000000 0.000000
+2 0.000000 0.338900 0.000000
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_ssg_symmetry_2
+_geom_bond_distance_av
+_geom_bond_distance_min
+_geom_bond_distance_max
+Gd1 O2 1_45555 2.486(9) 2.270(10) 2.729(11)
+Gd1 O2 . 2.486(9) 2.270(10) 2.729(11)
+Gd1 O2 3_54555 2.486(9) 2.270(10) 2.729(11)
+Gd1 O2 3_55555 2.486(9) 2.270(10) 2.729(11)
+Gd1 O2 5_55655 2.486(9) 2.270(10) 2.729(11)
+Gd1 O2 5_65655 2.486(9) 2.270(10) 2.729(11)
+Gd1 O2 7_54655 2.486(9) 2.270(10) 2.729(11)
+Gd1 O2 7_55655 2.486(9) 2.270(10) 2.729(11)
+Gd1 O3 1_44555 2.744(11) 2.371(17) 3.079(17)
+Gd1 O3 1_45555 2.744(11) 2.371(17) 3.079(17)
+Gd1 O3 1_54555 2.744(11) 2.371(17) 3.079(17)
+Gd1 O3 . 2.744(11) 2.371(17) 3.079(17)
+Ba1 O1 1_44555 2.757(8) 2.673(7) 2.869(8)
+Ba1 O1 1_45555 2.757(8) 2.673(7) 2.869(8)
+Ba1 O1 1_54555 2.757(8) 2.673(7) 2.869(8)
+Ba1 O1 . 2.757(8) 2.673(7) 2.869(8)
+Ba1 O2 1_45555 2.963(9) 2.764(13) 3.058(10)
+Ba1 O2 . 2.963(9) 2.764(13) 3.058(10)
+Ba1 O2 3_54555 2.963(9) 2.764(13) 3.058(10)
+Ba1 O2 3_55555 2.963(9) 2.764(13) 3.058(10)
+Ba1 O2 5_55555 2.963(9) 2.764(13) 3.058(10)
+Ba1 O2 5_65555 2.963(9) 2.764(13) 3.058(10)
+Ba1 O2 7_54555 2.963(9) 2.764(13) 3.058(10)
+Ba1 O2 7_55555 2.963(9) 2.764(13) 3.058(10)
+Co1 O1 . 1.912(3) 1.869(5) 1.962(5)
+Co1 O2 . 1.975(6) 1.897(12) 2.030(12)
+Co1 O2 1_56555 1.978(7) 1.897(12) 2.029(12)
+Co1 O2 3_55555 1.975(6) 1.897(12) 2.030(12)
+Co1 O2 3_65555 1.978(7) 1.897(12) 2.029(12)
+Co1 O3 . 1.870(3) 1.801(5) 1.902(3)
+#BEGIN Loops that were not found in dictionaries:
+loop_
+_jana_atom_site_occ_fourier_absolute_site_label
+_jana_atom_site_occ_fourier_absolute
+O3 0.389
+#END Loops that were not found in dictionaries

@@ -1,0 +1,303 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/37/2003774.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2003774
+loop_
+_publ_author_name
+'Kerihuel, G.'
+'Gougeon, P.'
+_publ_section_title
+;
+ PrMo~8~O~14~, a Fourth Crystalline Form of the Series
+ <i>R</i>Mo~8~O~14~ (<i>R</i> = La, Ce, Pr, Nd, Sm)
+;
+_journal_issue                   8
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              1475
+_journal_page_last               1478
+_journal_paper_doi               10.1107/S0108270195002423
+_journal_volume                  51
+_journal_year                    1995
+_chemical_formula_sum            'Mo8 O14 Pr'
+_chemical_formula_weight         1132.42
+_space_group_IT_number           61
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2ac 2ab'
+_symmetry_space_group_name_H-M   'P b c a'
+_atom_type_scat_source           IntTabIV
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            12
+_cell_length_a                   9.2037(6)
+_cell_length_b                   11.114(2)
+_cell_length_c                   30.012(5)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    295
+_cell_measurement_theta_max      15.4
+_cell_measurement_theta_min      7
+_cell_volume                     3069.9(8)
+_computing_cell_refinement
+;
+CAD 4 Software (Enraf-Nonius, 1989)
+;
+_computing_data_collection
+;
+CAD 4 Software (Enraf-Nonius, 1989)
+;
+_computing_data_reduction
+;
+MolEN (Fair, 1990)
+;
+_computing_molecular_graphics
+;
+ORTEPII (Johnson, 1976)
+;
+_computing_publication_material
+;
+MoleN (Fair, 1990)
+;
+_computing_structure_refinement
+;
+MolEN (Fiar, 1990)
+;
+_computing_structure_solution
+;
+MULTAN 11/82 (Main, Fiske, Hull, Lessinger, Germain, Declercq & Woolfson, 198
+2)
+;
+_diffrn_measurement_device       'Enraf-Nonius CAD-4'
+_diffrn_measurement_method       '\w/2\q scans'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_limit_h_max       14
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       17
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       48
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            7445
+_diffrn_reflns_theta_max         35
+_diffrn_standards_decay_%        <1
+_diffrn_standards_interval_time  90
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    13.995
+_exptl_absorpt_correction_T_max  1.097
+_exptl_absorpt_correction_T_min  0.901
+_exptl_absorpt_correction_type   'empirical (DIFABS; Walker & Stuart, 1983)'
+_exptl_crystal_colour            black
+_exptl_crystal_density_diffrn    7.350
+_exptl_crystal_description       irregular
+_exptl_crystal_size_max          0.12
+_exptl_crystal_size_mid          0.10
+_exptl_crystal_size_min          0.10
+_refine_diff_density_max         3.34
+_refine_diff_density_min         -1.21
+_refine_ls_extinction_coef       6.84E-8(2)
+_refine_ls_extinction_method     'Stout & Jensen (1968)'
+_refine_ls_goodness_of_fit_obs   1.649
+_refine_ls_number_parameters     209
+_refine_ls_number_reflns         3150
+_refine_ls_R_factor_obs          0.042
+_refine_ls_shift/esd_max         <0.01
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details
+'w = 4F~o~^2^/[\s^2^(F~o~)^2^+(0.02F~o~^2^)^2^]'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.044
+_reflns_number_observed          3150
+_reflns_number_total             7445
+_reflns_observed_criterion       I>2.5\s(I)
+_cod_data_source_file            du1118.cif
+_cod_data_source_block           du1118a
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value '
+4F~o~^2^/[\s^2^(F~o~)^2^+(0.02F~o~^2^)^2^]' was changed to 'calc'.
+New tag '_refine_ls_weighting_details' was created. The value of the
+new tag was set to 'w = 4F~o~^2^/[\s^2^(F~o~)^2^+(0.02F~o~^2^)^2^]'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_formula_sum        'Pr Mo8 O14'
+_cod_database_code               2003774
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+1/2+x,y,1/2-z
+x,1/2-y,1/2+z
+1/2-x,1/2+y,z
+-x,-y,-z
+1/2-x,-y,1/2+z
+-x,1/2+y,1/2-z
+1/2+x,1/2-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_B_iso_or_equiv
+Pr(1) 1.000 0.000 0.500 0.65(1)
+Pr(2) 1.0008(1) 0.02713(5) 0.16395(2) 0.474(8)
+Mo(1) 0.8766(1) 0.22522(8) 0.05281(3) 0.23(1)
+Mo(2) 0.8783(1) -0.00928(8) 0.05283(3) 0.23(1)
+Mo(3) 1.1211(1) 0.12316(8) 0.02879(3) 0.23(1)
+Mo(4) 0.6237(1) 0.62350(8) 0.97526(3) 0.24(1)
+Mo(5) 0.8799(1) -0.12861(8) 0.30879(3) 0.26(1)
+Mo(6) 1.1193(1) -0.12910(8) 0.35857(3) 0.24(1)
+Mo(7) 1.1209(1) -0.00674(7) 0.27996(3) 0.20(1)
+Mo(8) 0.8795(1) -0.00171(8) 0.38690(3) 0.23(1)
+Mo(9) 0.8774(1) 0.11496(8) 0.30403(3) 0.26(1)
+Mo(10) 1.1260(1) 0.11661(8) 0.36182(3) 0.27(1)
+Mo(11) 0.8773(1) -0.27331(8) 0.22102(3) 0.24(1)
+Mo(12) 0.8786(1) 0.23197(8) 0.38876(3) 0.24(1)
+O(1) 0.761(1) 0.3689(7) 0.0246(3) 0.6(1)
+O(2) 0.7586(9) 0.2384(7) 0.1108(3) 0.4(1)
+O(3) 0.513(1) 0.6310(7) 0.5840(2) 0.5(1)
+O(4) 0.739(1) 0.4899(7) 0.1139(3) 0.6(1)
+O(5) 0.991(1) 0.8927(7) 0.9121(3) 0.6(1)
+O(6) 0.7576(9) 0.2447(7) 0.4411(3) 0.4(1)
+O(7) 0.728(1) 0.3934(7) 0.5253(3) 0.4(1)
+O(8) 0.993(1) -0.2597(7) 0.0005(2) 0.4(1)
+O(9) 0.508(1) 0.8675(6) 0.4158(2) 0.4(1)
+O(10) 0.769(1) 0.5019(7) 0.9469(3) 0.5(1)
+O(11) 0.7398(9) 0.2372(7) 0.2761(3) 0.5(1)
+O(12) 0.994(1) -0.2553(6) 0.3335(3) 0.4(1)
+O(13) 0.987(1) 0.8639(6) 0.2516(3) 0.4(1)
+O(14) 0.754(1) 0.8641(7) 0.1930(3) 0.5(1)
+O(15) 0.758(1) 0.3714(7) 0.3602(3) 0.5(1)
+O(16) 0.736(1) 0.5094(6) 0.7807(3) 0.3(1)
+O(17) 1.010(1) 0.8927(6) 0.7551(2) 0.4(1)
+O(18) 0.765(1) 0.3893(7) 0.6918(3) 0.4(1)
+O(19) 0.764(1) 0.6154(7) 0.3583(3) 0.5(1)
+O(20) 0.986(1) 0.8894(7) 0.5786(2) 0.4(1)
+O(21) 0.995(1) 0.2617(6) 0.3332(3) 0.37(9)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Mo(1) Mo(4) 2.587(2) yes
+Mo(1) Mo(2) 2.6060(10) yes
+Mo(1) Mo(3) 2.621(2) yes
+Mo(2) Mo(3) 2.771(2) yes
+Mo(2) Mo(3) 2.757(2) yes
+Mo(2) Mo(4) 2.757(2) yes
+Mo(2) Mo(4) 2.725(2) yes
+Mo(3) Mo(4) 2.744(2) yes
+Mo(3) Mo(4) 2.767(2) yes
+Mo(4) Mo(12) 3.0530(10) yes
+Mo(1) O(8) 2.039(8) yes
+Mo(1) O(2) 2.056(9) yes
+Mo(1) O(7) 2.069(10) yes
+Mo(1) O(5) 2.079(11) yes
+Mo(1) O(1) 2.094(10) yes
+Mo(1) O(3) 2.113(9) yes
+Mo(2) O(9) 2.045(10) yes
+Mo(2) O(1) 2.050(11) yes
+Mo(2) O(5) 2.061(10) yes
+Mo(2) O(7) 2.061(10) yes
+Mo(2) O(4) 2.125(11) yes
+Mo(3) O(8) 2.042(8) yes
+Mo(3) O(6) 2.054(8) yes
+Mo(3) O(5) 2.058(10) yes
+Mo(3) O(1) 2.062(11) yes
+Mo(3) O(10) 2.0770(10) yes
+Mo(4) O(7) 2.036(9) yes
+Mo(4) O(8) 2.068(9) yes
+Mo(4) O(9) 2.080(10) yes
+Mo(4) O(10) 2.081(11) yes
+Mo(4) O(6) 2.095(9) yes
+Mo(5) Mo(6) 2.662(2) yes
+Mo(5) Mo(9) 2.711(2) yes
+Mo(5) Mo(8) 2.736(2) yes
+Mo(5) Mo(7) 2.740(2) yes
+Mo(5) Mo(11) 3.086(2) yes
+Mo(6) Mo(7) 2.723(2) yes
+Mo(6) Mo(10) 2.733(2) yes
+Mo(6) Mo(8) 2.756(2) yes
+Mo(7) Mo(11) 2.5950(10) yes
+Mo(7) Mo(9) 2.715(2) yes
+Mo(7) Mo(10) 2.814(2) yes
+Mo(5) O(12) 1.907(13) yes
+Mo(5) O(13) 1.983(10) yes
+Mo(5) O(15) 1.999(10) yes
+Mo(5) O(16) 2.052(10) yes
+Mo(5) O(11) 2.097(9) yes
+Mo(6) O(12) 1.965(14) yes
+Mo(6) O(3) 1.984(10) yes
+Mo(6) O(14) 1.986(10) yes
+Mo(6) O(4) 2.035(11) yes
+Mo(6) O(2) 2.068(8) yes
+Mo(8) Mo(12) 2.5980(10) yes
+Mo(8) Mo(10) 2.728(2) yes
+Mo(8) Mo(9) 2.805(2) yes
+Mo(9) Mo(11) 2.684(2) yes
+Mo(9) Mo(12) 2.856(2) yes
+Mo(9) Mo(10) 2.871(2) yes
+Mo(10) Mo(12) 2.735(2) yes
+Mo(10) Mo(11) 2.771(2) yes
+Mo(9) O(16) 2.022(10) yes
+Mo(9) O(11) 2.038(9) yes
+Mo(9) O(17) 2.060(10) yes
+Mo(9) O(19) 2.087(10) yes
+Mo(9) O(21) 2.144(13) yes
+Mo(10) O(2) 1.999(8) yes
+Mo(10) O(4) 2.016(11) yes
+Mo(10) O(18) 2.056(10) yes
+Mo(10) O(20) 2.064(9) yes
+Mo(10) O(21) 2.189(13) yes
+Mo(7) O(17) 2.039(11) yes
+Mo(7) O(18) 2.045(10) yes
+Mo(7) O(14) 2.054(10) yes
+Mo(7) O(13) 2.073(11) yes
+Mo(7) O(16) 2.107(11) yes
+Mo(8) O(20) 2.039(10) yes
+Mo(8) O(19) 2.044(10) yes
+Mo(8) O(15) 2.061(10) yes
+Mo(8) O(10) 2.070(11) yes
+Mo(8) O(3) 2.082(10) yes
+Mo(11) O(11) 1.977(10) yes
+Mo(11) O(18) 2.036(10) yes
+Mo(11) O(21) 2.044(14) yes
+Mo(11) O(13) 2.049(10) yes
+Mo(11) O(17) 2.071(11) yes
+Mo(11) O(14) 2.079(10) yes
+Mo(12) O(6) 1.931(9) yes
+Mo(12) O(9) 2.006(10) yes
+Mo(12) O(21) 2.010(4) yes
+Mo(12) O(19) 2.059(10) yes
+Mo(12) O(20) 2.081(10) yes
+Mo(12) O(15) 2.088(10) yes
+Pr(1) O(7) 2.530(10) yes
+Pr(1) O(10) 2.659(12) yes
+Pr(1) O(20) 2.664(8) yes
+Pr(1) O(8) 2.671(8) yes
+Pr(1) O(1) 2.737(11) yes
+Pr(1) O(3) 2.913(8) yes
+Pr(2) O(12) 2.420(7) yes
+Pr(2) O(5) 2.452(8) yes
+Pr(2) O(19) 2.468(11) yes
+Pr(2) O(18) 2.504(11) yes
+Pr(2) O(17) 2.589(8) yes
+Pr(2) O(4) 2.701(13) yes
+Pr(2) O(16) 2.763(12) yes
+Pr(2) O(15) 2.903(10) yes
+Pr(2) O(21) 2.951(7) yes
+Pr(2) O(9) 2.981(8) yes
+Pr(2) O(14) 3.033(10) yes
+Pr(2) O(13) 3.198(8) yes

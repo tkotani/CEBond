@@ -1,0 +1,484 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-21 01:21:50 +0200 (Mon, 21 Mar 2016) $
+#$Revision: 178377 $
+#$URL: svn://www.crystallography.net/cod/cif/4/00/17/4001765.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4001765
+loop_
+_publ_author_name
+'An, Tao'
+'Baikie, Tom'
+'Wei, Fengxia'
+'Pramana, Stevin S.'
+'Schreyer, Martin K.'
+'Piltz, Ross O.'
+'Shin, J. Felix'
+'Wei, Jun'
+'Slater, Peter R.'
+'White, Tim J.'
+_publ_section_title
+;
+ Crystallographic Correlations with Anisotropic Oxide Ion Conduction in
+ Aluminum-Doped Neodymium Silicate Apatite Electrolytes
+;
+_journal_issue                   7
+_journal_name_full               'Chemistry of Materials'
+_journal_page_first              1109
+_journal_paper_doi               10.1021/cm4000685
+_journal_volume                  25
+_journal_year                    2013
+_chemical_formula_iupac          'Nd9.50 Al0.5 Si5.5 O26'
+_chemical_formula_sum            'Al0.5 Nd9.508 O26 Si5.5'
+_chemical_formula_weight         1955.4
+_chemical_melting_point          ?
+_chemical_name_systematic        ' ?'
+_space_group_IT_number           176
+_symmetry_cell_setting           hexagonal
+_symmetry_Int_Tables_number      176
+_symmetry_space_group_name_Hall  '-P 6c'
+_symmetry_space_group_name_H-M   'P 63/m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            1
+_cell_length_a                   9.5516(2)
+_cell_length_b                   9.5516(2)
+_cell_length_c                   7.0288(2)
+_cell_measurement_reflns_used    3630
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      32.57
+_cell_measurement_theta_min      2.46
+_cell_volume                     555.35(2)
+_diffrn_ambient_temperature      293
+_diffrn_measured_fraction_theta_full 1
+_diffrn_measured_fraction_theta_max 1
+_diffrn_measurement_device       'four-cycle diffractometer'
+_diffrn_measurement_device_type  'Bruker CCD'
+_diffrn_measurement_method       \w/2\q
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'X-ray tube'
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0266
+_diffrn_reflns_av_sigmaI/netI    0.015
+_diffrn_reflns_limit_h_max       5
+_diffrn_reflns_limit_h_min       -14
+_diffrn_reflns_limit_k_max       12
+_diffrn_reflns_limit_k_min       -13
+_diffrn_reflns_limit_l_max       10
+_diffrn_reflns_limit_l_min       -10
+_diffrn_reflns_number            4914
+_diffrn_reflns_theta_full        32.57
+_diffrn_reflns_theta_max         32.57
+_diffrn_reflns_theta_min         2.46
+_exptl_absorpt_coefficient_mu    22.223
+_exptl_absorpt_correction_T_max  1
+_exptl_absorpt_correction_T_min  0.5731
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details
+"'R.H. Blessing, Acta Crystallogr., Sect A 1995, 51, 33-38. '"
+_exptl_crystal_colour            'violet under sunlight'
+_exptl_crystal_density_diffrn    5.8449
+_exptl_crystal_density_meas      ?
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       irregular
+_exptl_crystal_F_000             862
+_exptl_crystal_size_max          0.15
+_exptl_crystal_size_mid          0.1
+_exptl_crystal_size_min          0.08
+_refine_diff_density_max         1.55
+_refine_diff_density_min         -1.49
+_refine_ls_extinction_coef       360(50)
+_refine_ls_extinction_method
+'B-C type 1 Gaussian isotropic (Becker & Coppens, 1974)'
+_refine_ls_goodness_of_fit_gt    2.32
+_refine_ls_goodness_of_fit_ref   2.30
+_refine_ls_number_constraints    6
+_refine_ls_number_parameters     41
+_refine_ls_number_reflns         724
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          0.0233
+_refine_ls_R_factor_gt           0.0221
+_refine_ls_shift/su_max          0.0062
+_refine_ls_shift/su_mean         0.0008
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details     w=1/(\s^2^(I)+0.0004I^2^)
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_gt          0.0703
+_refine_ls_wR_factor_ref         0.0707
+_reflns_number_gt                707
+_reflns_number_total             724
+_reflns_threshold_expression     I>3\s(I)
+_cod_data_source_file            cm4000685_si_011.cif
+_cod_data_source_block           I
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_chemical_melting_point' value 'not measured' was changed to '?' -
+the value is undefined or not given.
+
+Automatic conversion script
+Id: cif_fix_values 1891 2012-01-12 08:04:46Z andrius 
+
+The following automatic conversions were performed:
+
+'_exptl_crystal_density_meas' value 'not measured' was changed to '?'
+- the value is perceived as not measured.
+
+Automatic conversion script
+Id: cif_fix_values 3008 2015-01-20 13:52:24Z robertas 
+;
+_cod_database_code               4001765
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -y,x-y,z
+3 -x+y,-x,z
+4 -x,-y,z+1/2
+5 y,-x+y,z+1/2
+6 x-y,x,z+1/2
+7 -x,-y,-z
+8 y,-x+y,-z
+9 x-y,x,-z
+10 x,y,-z+1/2
+11 -y,x-y,-z+1/2
+12 -x+y,-x,-z+1/2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_adp_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+_atom_site_occupancy
+_atom_site_calc_flag
+Nd1 Nd 0.333333 0.666667 -0.00052(7) Uani 0.01153(16) 4 0.877(3) d
+Nd2 Nd 0.23154(4) -0.01036(4) 0.25 Uani 0.00708(14) 6 1 d
+Si Si 0.40072(19) 0.3716(2) 0.25 Uani 0.0056(5) 6 0.9166 d
+Al Al 0.40072(19) 0.3716(2) 0.25 Uani 0.0056(5) 6 0.0834 d
+O1 O 0.3195(7) 0.4861(7) 0.25 Uani 0.018(2) 6 1 d
+O2 O 0.5974(6) 0.4734(6) 0.25 Uani 0.0149(17) 6 1 d
+O3 O 0.3442(6) 0.2523(5) 0.0646(5) Uani 0.0224(16) 12 1 d
+O4 O 0 0 0.25 Uani 0.017(2) 2 1 d
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_type_symbol
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Nd1 Nd 0.0092(2) 0.0092(2) 0.0161(3) 0.00462(10) 0 0
+Nd2 Nd 0.00801(19) 0.00653(18) 0.00745(19) 0.00419(12) 0 0
+Si Si 0.0053(7) 0.0060(7) 0.0065(7) 0.0035(6) 0 0
+Al Al 0.0053(7) 0.0060(7) 0.0065(7) 0.0035(6) 0 0
+O1 O 0.026(3) 0.020(3) 0.017(2) 0.019(2) 0 0
+O2 O 0.010(2) 0.010(2) 0.022(3) 0.0033(17) 0 0
+O3 O 0.041(2) 0.0140(17) 0.0127(18) 0.0144(17) -0.0133(16) -0.0043(13)
+O4 O 0.010(2) 0.010(2) 0.032(5) 0.0048(11) 0 0
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Al 0.0645 0.0514 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+Nd -0.1943 3.0179 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+O 0.0106 0.0060 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+Si 0.0817 0.0704 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+O1 Nd1 O1 . 2_665 73.0(2)
+O1 Nd1 O1 . 3_565 73.0(2)
+O1 Nd1 O2 . 4_664 93.66(17)
+O1 Nd1 O2 . 5_564 154.3(2)
+O1 Nd1 O2 . 6_554 124.96(15)
+O1 Nd1 O3 . 7_665 88.54(18)
+O1 Nd1 O3 . 8_565 139.59(17)
+O1 Nd1 O3 . 9_555 67.27(14)
+O1 Nd1 O1 2_665 3_565 73.0(2)
+O1 Nd1 O2 2_665 4_664 125.0(2)
+O1 Nd1 O2 2_665 5_564 93.66(15)
+O1 Nd1 O2 2_665 6_554 154.3(3)
+O1 Nd1 O3 2_665 7_665 67.27(18)
+O1 Nd1 O3 2_665 8_565 88.5(2)
+O1 Nd1 O3 2_665 9_555 139.59(18)
+O1 Nd1 O2 3_565 4_664 154.26(15)
+O1 Nd1 O2 3_565 5_564 125.0(2)
+O1 Nd1 O2 3_565 6_554 93.7(2)
+O1 Nd1 O3 3_565 7_665 139.59(17)
+O1 Nd1 O3 3_565 8_565 67.27(19)
+O1 Nd1 O3 3_565 9_555 88.54(17)
+O2 Nd1 O2 4_664 5_564 75.79(19)
+O2 Nd1 O2 4_664 6_554 75.8(2)
+O2 Nd1 O3 4_664 7_665 59.05(13)
+O2 Nd1 O3 4_664 8_565 125.76(13)
+O2 Nd1 O3 4_664 9_555 65.85(15)
+O2 Nd1 O2 5_564 6_554 75.79(13)
+O2 Nd1 O3 5_564 7_665 65.85(18)
+O2 Nd1 O3 5_564 8_565 59.1(2)
+O2 Nd1 O3 5_564 9_555 125.76(12)
+O2 Nd1 O3 6_554 7_665 125.76(15)
+O2 Nd1 O3 6_554 8_565 65.85(17)
+O2 Nd1 O3 6_554 9_555 59.05(17)
+O3 Nd1 O3 7_665 8_565 117.48(12)
+O3 Nd1 O3 7_665 9_555 117.48(17)
+O3 Nd1 O3 8_565 9_555 117.48(17)
+O1 Nd2 O2 3_555 2_655 98.6(3)
+O1 Nd2 O3 3_555 . 146.47(13)
+O1 Nd2 O3 3_555 5_555 69.75(16)
+O1 Nd2 O3 3_555 8_555 69.75(16)
+O1 Nd2 O3 3_555 10_555 146.47(13)
+O1 Nd2 O4 3_555 . 110.67(19)
+O2 Nd2 O3 2_655 . 70.9(2)
+O2 Nd2 O3 2_655 5_555 84.78(12)
+O2 Nd2 O3 2_655 8_555 84.78(12)
+O2 Nd2 O3 2_655 10_555 70.9(2)
+O2 Nd2 O4 2_655 . 150.77(19)
+O3 Nd2 O3 . 5_555 137.27(15)
+O3 Nd2 O3 . 8_555 77.49(17)
+O3 Nd2 O3 . 10_555 61.72(12)
+O3 Nd2 O4 . . 84.10(13)
+O3 Nd2 O3 5_555 8_555 136.0(2)
+O3 Nd2 O3 5_555 10_555 77.49(17)
+O3 Nd2 O4 5_555 . 104.89(13)
+O3 Nd2 O3 8_555 10_555 137.27(15)
+O3 Nd2 O4 8_555 . 104.89(13)
+O3 Nd2 O4 10_555 . 84.10(13)
+Al Si O1 . . 0
+Al Si O2 . . 0
+Al Si O3 . . 0
+Al Si O3 . 10_555 0
+O1 Si O2 . . 113.2(3)
+O1 Si O3 . . 111.5(2)
+O1 Si O3 . 10_555 111.5(2)
+O2 Si O3 . . 107.3(2)
+O2 Si O3 . 10_555 107.3(2)
+O3 Si O3 . 10_555 105.7(2)
+Si Al O1 . . 0
+Si Al O2 . . 0
+Si Al O3 . . 0
+Si Al O3 . 10_555 0
+O1 Al O2 . . 113.2(3)
+O1 Al O3 . . 111.5(2)
+O1 Al O3 . 10_555 111.5(2)
+O2 Al O3 . . 107.3(2)
+O2 Al O3 . 10_555 107.3(2)
+O3 Al O3 . 10_555 105.7(2)
+Nd1 O1 Nd1 . 10_555 93.3(2)
+Nd1 O1 Nd2 . 2_555 105.2(2)
+Nd1 O1 Si . . 127.19(19)
+Nd1 O1 Al . . 127.19(19)
+Nd1 O1 O1 . 2_665 53.52(13)
+Nd1 O1 O1 . 3_565 53.52(16)
+Nd1 O1 O2 . . 108.98(17)
+Nd1 O1 O3 . . 104.02(11)
+Nd1 O1 O3 . 6_555 130.1(3)
+Nd1 O1 O3 . 9_555 62.76(12)
+Nd1 O1 O3 . 10_555 161.0(3)
+Nd1 O1 Nd2 10_555 2_555 105.2(2)
+Nd1 O1 Si 10_555 . 127.19(19)
+Nd1 O1 Al 10_555 . 127.19(19)
+Nd1 O1 O1 10_555 2_665 53.52(13)
+Nd1 O1 O1 10_555 3_565 53.52(16)
+Nd1 O1 O2 10_555 . 108.98(17)
+Nd1 O1 O3 10_555 . 161.0(3)
+Nd1 O1 O3 10_555 6_555 62.76(12)
+Nd1 O1 O3 10_555 9_555 130.1(3)
+Nd1 O1 O3 10_555 10_555 104.02(11)
+Nd2 O1 Si 2_555 . 95.9(2)
+Nd2 O1 Al 2_555 . 95.9(2)
+Nd2 O1 O1 2_555 2_665 142.4(4)
+Nd2 O1 O1 2_555 3_565 82.4(2)
+Nd2 O1 O2 2_555 . 129.3(3)
+Nd2 O1 O3 2_555 . 78.17(16)
+Nd2 O1 O3 2_555 6_555 50.10(11)
+Nd2 O1 O3 2_555 9_555 50.10(11)
+Nd2 O1 O3 2_555 10_555 78.17(16)
+Si O1 Al . . 0.0(5)
+Si O1 O1 . 2_665 121.7(3)
+Si O1 O1 . 3_565 178.3(3)
+Si O1 O2 . . 33.40(17)
+Si O1 O3 . . 34.36(14)
+Si O1 O3 . 6_555 100.5(2)
+Si O1 O3 . 9_555 100.5(2)
+Si O1 O3 . 10_555 34.36(14)
+Al O1 O1 . 2_665 121.7(3)
+Al O1 O1 . 3_565 178.3(3)
+Al O1 O2 . . 33.40(17)
+Al O1 O3 . . 34.36(14)
+Al O1 O3 . 6_555 100.5(2)
+Al O1 O3 . 9_555 100.5(2)
+Al O1 O3 . 10_555 34.36(14)
+O1 O1 O1 2_665 3_565 60.0(2)
+O1 O1 O2 2_665 . 88.3(2)
+O1 O1 O3 2_665 . 133.0(2)
+O1 O1 O3 2_665 6_555 115.9(2)
+O1 O1 O3 2_665 9_555 115.9(2)
+O1 O1 O3 2_665 10_555 133.0(2)
+O1 O1 O2 3_565 . 148.3(2)
+O1 O1 O3 3_565 . 144.74(19)
+O1 O1 O3 3_565 6_555 78.4(2)
+O1 O1 O3 3_565 9_555 78.4(2)
+O1 O1 O3 3_565 10_555 144.74(19)
+O2 O1 O3 . . 58.1(2)
+O2 O1 O3 . 6_555 119.8(2)
+O2 O1 O3 . 9_555 119.8(2)
+O2 O1 O3 . 10_555 58.1(2)
+O3 O1 O3 . 6_555 109.6(2)
+O3 O1 O3 . 9_555 66.56(19)
+O3 O1 O3 . 10_555 57.8(2)
+O3 O1 O3 6_555 9_555 98.6(2)
+O3 O1 O3 6_555 10_555 66.56(19)
+O3 O1 O3 9_555 10_555 109.6(2)
+Nd1 O2 Nd1 4_665 7_665 89.7(2)
+Nd1 O2 Nd2 4_665 3_665 115.96(13)
+Nd1 O2 Si 4_665 . 102.51(17)
+Nd1 O2 Al 4_665 . 102.51(17)
+Nd1 O2 O1 4_665 . 123.53(13)
+Nd1 O2 O3 4_665 . 107.6(2)
+Nd1 O2 O3 4_665 3_665 100.0(2)
+Nd1 O2 O3 4_665 10_555 66.65(14)
+Nd1 O2 O3 4_665 12_665 62.48(14)
+Nd1 O2 Nd2 7_665 3_665 115.96(13)
+Nd1 O2 Si 7_665 . 102.51(17)
+Nd1 O2 Al 7_665 . 102.51(17)
+Nd1 O2 O1 7_665 . 123.53(13)
+Nd1 O2 O3 7_665 . 66.65(14)
+Nd1 O2 O3 7_665 3_665 62.48(14)
+Nd1 O2 O3 7_665 10_555 107.6(2)
+Nd1 O2 O3 7_665 12_665 100.0(2)
+Nd2 O2 Si 3_665 . 124.1(4)
+Nd2 O2 Al 3_665 . 124.1(4)
+Nd2 O2 O1 3_665 . 90.7(2)
+Nd2 O2 O3 3_665 . 136.2(2)
+Nd2 O2 O3 3_665 3_665 56.08(14)
+Nd2 O2 O3 3_665 10_555 136.2(2)
+Nd2 O2 O3 3_665 12_665 56.08(14)
+Si O2 Al . . 0.0(5)
+Si O2 O1 . . 33.4(2)
+Si O2 O3 . . 36.46(13)
+Si O2 O3 . 3_665 152.87(12)
+Si O2 O3 . 10_555 36.46(13)
+Si O2 O3 . 12_665 152.87(12)
+Al O2 O1 . . 33.4(2)
+Al O2 O3 . . 36.46(13)
+Al O2 O3 . 3_665 152.87(12)
+Al O2 O3 . 10_555 36.46(13)
+Al O2 O3 . 12_665 152.87(12)
+O1 O2 O3 . . 60.54(19)
+O1 O2 O3 . 3_665 134.7(2)
+O1 O2 O3 . 10_555 60.54(19)
+O1 O2 O3 . 12_665 134.7(2)
+O3 O2 O3 . 3_665 121.05(14)
+O3 O2 O3 . 10_555 59.47(14)
+O3 O2 O3 . 12_665 164.3(3)
+O3 O2 O3 3_665 10_555 164.3(3)
+O3 O2 O3 3_665 12_665 53.53(14)
+O3 O2 O3 10_555 12_665 121.05(14)
+Nd1 O3 Nd2 7_665 . 102.63(19)
+Nd1 O3 Nd2 7_665 6_554 102.77(15)
+Nd1 O3 Si 7_665 . 90.07(19)
+Nd1 O3 Al 7_665 . 90.07(19)
+Nd1 O3 O1 7_665 . 112.76(17)
+Nd1 O3 O1 7_665 5_554 49.97(13)
+Nd1 O3 O2 7_665 . 54.30(15)
+Nd1 O3 O2 7_665 2_655 51.67(12)
+Nd1 O3 O3 7_665 10_555 99.22(19)
+Nd2 O3 Nd2 . 6_554 116.09(13)
+Nd2 O3 Si . . 96.24(17)
+Nd2 O3 Al . . 96.24(17)
+Nd2 O3 O1 . . 113.65(16)
+Nd2 O3 O1 . 5_554 97.9(2)
+Nd2 O3 O2 . . 107.73(18)
+Nd2 O3 O2 . 2_655 52.98(13)
+Nd2 O3 O3 . 10_555 59.14(12)
+Nd2 O3 Si 6_554 . 140.9(3)
+Nd2 O3 Al 6_554 . 140.9(3)
+Nd2 O3 O1 6_554 . 108.4(2)
+Nd2 O3 O1 6_554 5_554 60.15(16)
+Nd2 O3 O2 6_554 . 134.50(16)
+Nd2 O3 O2 6_554 2_655 133.7(2)
+Nd2 O3 O3 6_554 10_555 158.0(3)
+Si O3 Al . . 0.0(5)
+Si O3 O1 . . 34.16(18)
+Si O3 O1 . 5_554 139.6(3)
+Si O3 O2 . . 36.28(15)
+Si O3 O2 . 2_655 82.9(2)
+Si O3 O3 . 10_555 37.15(13)
+Al O3 O1 . . 34.16(18)
+Al O3 O1 . 5_554 139.6(3)
+Al O3 O2 . . 36.28(15)
+Al O3 O2 . 2_655 82.9(2)
+Al O3 O3 . 10_555 37.15(13)
+O1 O3 O1 . 5_554 147.6(2)
+O1 O3 O2 . . 61.4(2)
+O1 O3 O2 . 2_655 117.0(2)
+O1 O3 O3 . 10_555 61.09(17)
+O1 O3 O2 5_554 . 103.4(2)
+O1 O3 O2 5_554 2_655 76.1(2)
+O1 O3 O3 5_554 10_555 139.3(3)
+O2 O3 O2 . 2_655 67.0(2)
+O2 O3 O3 . 10_555 60.26(12)
+O2 O3 O3 2_655 10_555 63.23(18)
+Nd2 O4 Nd2 . 2_555 120.000(11)
+Nd2 O4 Nd2 . 3_555 120.000(16)
+Nd2 O4 Nd2 2_555 3_555 120.000(16)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+Nd1 O1 . 2.422(5)
+Nd1 O1 2_665 2.422(4)
+Nd1 O1 3_565 2.422(7)
+Nd1 O2 4_664 2.487(5)
+Nd1 O2 5_564 2.487(4)
+Nd1 O2 6_554 2.487(5)
+Nd1 O3 7_665 2.812(5)
+Nd1 O3 8_565 2.812(7)
+Nd1 O3 9_555 2.812(4)
+Nd2 O1 3_555 2.697(7)
+Nd2 O2 2_655 2.444(5)
+Nd2 O3 . 2.540(4)
+Nd2 O3 5_555 2.385(4)
+Nd2 O3 8_555 2.385(4)
+Nd2 O3 10_555 2.540(4)
+Nd2 O4 . 2.2626(4)
+Si Al . 0
+Si O1 . 1.626(8)
+Si O2 . 1.628(5)
+Si O3 . 1.635(4)
+Si O3 10_555 1.635(4)
+Al O1 . 1.626(8)
+Al O2 . 1.628(5)
+Al O3 . 1.635(4)
+Al O3 10_555 1.635(4)
+O1 O1 2_665 2.880(9)
+O1 O1 3_565 2.880(13)
+O1 O2 . 2.717(10)
+O1 O3 . 2.695(8)
+O1 O3 6_555 2.917(6)
+O1 O3 9_555 2.917(6)
+O1 O3 10_555 2.695(8)
+O2 O3 . 2.627(5)
+O2 O3 3_665 2.893(7)
+O2 O3 10_555 2.627(5)
+O2 O3 12_665 2.893(7)
+O3 O3 10_555 2.606(5)

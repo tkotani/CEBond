@@ -1,0 +1,189 @@
+#------------------------------------------------------------------------------
+#$Date: 2018-01-23 14:43:58 +0200 (Tue, 23 Jan 2018) $
+#$Revision: 205493 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/52/94/1529499.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1529499
+loop_
+_publ_author_name
+'Ming Guan'
+'Hong Zheng'
+'Lefu Mei'
+'Maxim S. Molokeev'
+'Jing Xie'
+'Tao Yang'
+'Xiaowen Wu'
+'Saifang Huang'
+'Zhaohui Huang'
+_publ_section_title
+;
+ Preparation, Structure and Up-conversion Luminescence of Yb3+/Er3+
+ co-doped SrIn2O4 Phosphors
+;
+_journal_issue                   4
+_journal_name_full               'Journal of the American Ceramic Society'
+_journal_page_first              1182
+_journal_page_last               1187
+_journal_paper_doi               10.1111/jace.13415
+_journal_volume                  98
+_journal_year                    2015
+_chemical_formula_moiety         'Er0.04 In7.96 O16, 4(Sr)'
+_chemical_formula_sum            'Er0.04 In7.96 O16 Sr4'
+_chemical_formula_weight         1527.14
+_space_group_IT_number           62
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2ac 2n'
+_symmetry_space_group_name_H-M   'P n m a'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            1
+_cell_length_a                   9.83173(14)
+_cell_length_b                   3.266226(48)
+_cell_length_c                   11.49502(18)
+_cell_measurement_temperature    300
+_cell_volume                     369.136(10)
+_diffrn_ambient_temperature      300
+_diffrn_measurement_device_type
+;
+D8 ADVANCE Bruker
+;
+_diffrn_radiation_monochromator  none
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_type
+;
+ Cu K\a~1~~2~
+;
+_exptl_absorpt_coefficient_mu    116.632
+_exptl_crystal_density_diffrn    6.9080(11)
+_pd_char_colour
+;
+colourless
+;
+_pd_meas_2theta_range_inc        0.02
+_pd_meas_2theta_range_max        100
+_pd_meas_2theta_range_min        5
+_pd_meas_scan_method             step
+_pd_proc_ls_pref_orient_corr
+;
+Anisotropic model of PO. Spherical harmonics 4 ordrer.
+ Jarvinen (1993). Application of symmetrized harmonics expansion to correction
+of the preferred orientation effect. - J. Appl. Cryst. 26 p525-531.
+;
+_pd_proc_ls_profile_function     PearsonVII
+_pd_proc_ls_prof_R_factor        6.119
+_pd_proc_ls_prof_wR_expected     6.758
+_pd_proc_ls_prof_wR_factor       9.612
+_pd_proc_number_of_points        4750
+_pd_spec_mount_mode              reflection
+_refine_ls_goodness_of_fit_all   1.422
+_refine_ls_R_I_factor            2.67
+_refine_ls_shift/su_max          0.01000
+_cod_data_source_file            SrIn2O4_0p01Er.cif
+_cod_data_source_block           a
+_cod_original_cell_volume        369.1355(95)
+_cod_original_sg_symbol_Hall
+;
+-P 2ac 2n
+;
+_cod_original_sg_symbol_H-M      Pnma
+_cod_original_formula_sum
+;
+Er0.04 In7.96 O16 Sr4
+;
+_cod_database_code               1529499
+_cod_database_fobs_code          1529499
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, -y, -z'
+'-x, y+1/2, -z'
+'-x+1/2, -y, z+1/2'
+'-x+1/2, y+1/2, z+1/2'
+'x, -y+1/2, z'
+'x+1/2, -y+1/2, -z+1/2'
+'x+1/2, y, -z+1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_B_iso_or_equiv
+Sr Sr 0.24522(23) 0.25 0.65337(16) 1 0.384(87)
+In1 In 0.08099(15) 0.25 0.39406(11) 0.995 0.244(90)
+Er1 Er 0.08099(15) 0.25 0.39406(11) 0.005 0.244(90)
+In2 In 0.56923(15) 0.25 0.61152(11) 0.995 0.313(85)
+Er2 Er 0.56923(15) 0.25 0.61152(11) 0.005 0.313(85)
+O1 O 0.2911(12) 0.25 0.3322(12) 1 0.65(18)
+O2 O 0.1209(12) 0.75 0.5207(10) 1 0.65(18)
+O3 O 0.0215(14) 0.75 0.2777(11) 1 0.65(18)
+O4 O 0.4207(13) 0.75 0.57934(98) 1 0.65(18)
+loop_
+_diffrn_radiation_wavelength
+_diffrn_radiation_wavelength_wt
+1.5406 1.0000
+1.5443 0.5000
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+O1 Sr O1 76.2(41) 4_555 4_565
+O1 Sr O2 142.7(12) 4_555 1_555
+O1 Sr O2 90.27(30) 4_555 1_545
+O1 Sr O3 69.4(53) 4_555 2_566
+O1 Sr O3 72.79(48) 4_555 4_565
+O1 Sr O4 138.8(11) 4_555 1_555
+O1 Sr O4 87.41(29) 4_555 1_545
+O2 Sr O2 79.76(32) 1_555 1_545
+O2 Sr O3 73.37(46) 1_555 2_566
+O2 Sr O3 136.4(11) 1_555 4_565
+O2 Sr O4 73.21(38) 1_555 1_555
+O2 Sr O4 122.76(60) 1_555 1_545
+O3 Sr O3 131.3(11) 2_566 4_565
+O3 Sr O4 138.8(12) 2_566 1_555
+O3 Sr O4 66.4(58) 4_565 1_555
+O4 Sr O4 80.66(34) 1_555 1_545
+O1 In1 O2 92.65(39) 1_555 1_555
+O1 In1 O3 93.08(43) 1_555 1_555
+O2 In1 O2 94.57(29) 1_555 1_545
+O2 In1 O2 82.44(39) 1_555 2_566
+O2 In1 O3 84.22(31) 1_555 1_555
+O2 In1 O3 91.77(41) 2_566 1_555
+O3 In1 O3 96.41(33) 1_555 1_545
+O1 In2 O1 94.19(31) 2_656 2_666
+O1 In2 O3 89.87(43) 2_656 4_565
+O1 In2 O4 85.11(31) 2_656 1_545
+O1 In2 O4 105.19(49) 2_656 2_666
+O3 In2 O4 82.69(41) 4_565 1_555
+O4 In2 O4 94.62(32) 1_555 1_545
+O4 In2 O4 82.14(39) 1_555 2_666
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Sr O1 2.650(11) 4_555
+Sr O2 2.5469(90) .
+Sr O3 2.739(14) 2_566
+Sr O3 2.702(14) 4_565
+Sr O4 2.5234(97) .
+In1 O1 2.185(12) .
+In1 O2 2.2226(79) .
+In1 O2 2.214(12) 2_566
+In1 O3 2.1905(86) .
+In2 O1 2.2296(84) 2_656
+In2 O3 2.108(13) 4_565
+In2 O4 2.2218(87) .
+In2 O4 2.196(11) 2_666

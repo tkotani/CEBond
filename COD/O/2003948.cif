@@ -1,0 +1,201 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-19 16:29:56 +0200 (Fri, 19 Feb 2016) $
+#$Revision: 176759 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/39/2003948.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2003948
+loop_
+_publ_author_name
+'Becker, P.'
+'Bohat\'y, L.'
+'Fr\"ohlich, R.'
+_publ_section_title
+;
+ CsNbOB~2~O~5~: the Basic Structure Type of the Borates
+ <i>AM</i>OB~2~O~5~ (<i>A</i> = K, Rb, Cs, Tl; <i>M</i> = Nb, Ta)
+;
+_journal_issue                   9
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              1721
+_journal_page_last               1723
+_journal_paper_doi               10.1107/S0108270195002617
+_journal_volume                  51
+_journal_year                    1995
+_chemical_compound_source        'see text'
+_chemical_formula_sum            'B2 Cs Nb O6'
+_chemical_formula_weight         343.44
+_space_group_IT_number           31
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  'P 2ac -2'
+_symmetry_space_group_name_H-M   'P m n 21'
+_atom_type_scat_source           IntTabC
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   7.5320(10)
+_cell_length_b                   3.9920(10)
+_cell_length_c                   9.7280(10)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      25.76
+_cell_measurement_theta_min      11.25
+_cell_volume                     292.50(9)
+_diffrn_measurement_device       'Enraf-Nonius CAD-4'
+_diffrn_measurement_method       \w/2\q
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     .71073
+_diffrn_reflns_av_R_equivalents  .0093
+_diffrn_reflns_limit_h_max       0
+_diffrn_reflns_limit_h_min       -011
+_diffrn_reflns_limit_k_max       0
+_diffrn_reflns_limit_k_min       -06
+_diffrn_reflns_limit_l_max       15
+_diffrn_reflns_limit_l_min       -015
+_diffrn_reflns_number            1355
+_diffrn_reflns_theta_max         34.20
+_diffrn_standards_decay_%        0
+_diffrn_standards_interval_count '200 (orientation'
+_diffrn_standards_interval_time  '120 (intensity)'
+_diffrn_standards_number
+;3 intensity and 2 orientation control refletions; orientation control
+every 200 reflections, intensity control every 120 mins
+;
+_exptl_absorpt_coefficient_mu    8.149
+_exptl_absorpt_correction_T_max  .999
+_exptl_absorpt_correction_T_min  .949
+_exptl_absorpt_correction_type   'empirical psi scan'
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    3.899
+_exptl_crystal_description       cube
+_exptl_crystal_size_max          .12
+_exptl_crystal_size_mid          .12
+_exptl_crystal_size_min          .12
+_refine_diff_density_max         1.764
+_refine_diff_density_min         -03.28
+_refine_ls_abs_structure_details '\c = 0.00(2) (Flack, 1983)'
+_refine_ls_extinction_coef       '\c = 0.111(5)'
+_refine_ls_extinction_method
+'empirical, F~c~^*^ = |F~c~|k(1+0.001\cF~c~^2^\l^3^/sin2\q)^-1/4^'
+_refine_ls_goodness_of_fit_obs   1.023
+_refine_ls_number_parameters     53
+_refine_ls_number_reflns         1293
+_refine_ls_R_factor_obs          .0241
+_refine_ls_shift/esd_max         .001
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w = 1/[\s^2^(F~o~^2^)+(0.060P)^2^ where P = (F~o~^2^+2F~c~^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         .0661
+_reflns_number_observed          1279
+_reflns_number_total             1293
+_reflns_observed_criterion       I>2\s(I)
+_cod_data_source_file            sh1104.cif
+_cod_data_source_block           sh1104a
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'w =
+1/[\s^2^(F~o~^2^)+(0.060P)^2^ where P = (F~o~^2^+2F~c~^2^)/3' was
+changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to 'w =
+1/[\s^2^(F~o~^2^)+(0.060P)^2^ where P = (F~o~^2^+2F~c~^2^)/3'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        292.5
+_cod_database_code               2003948
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+1/2-x,-y,1/2+z
+1/2+x,-y,1/2+z
+-x,y,z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+Nb .0000 .38460(10) .99580(10) .0060(10)
+Cs .5000 .97170(10) .10470(10) .0200(10)
+O(1) .1787(3) .4455(8) .1480(2) .0150(10)
+O(2) .1893(4) .4386(9) .8612(3) .0200(10)
+O(3) .5000 .4646(13) .8496(4) .0190(10)
+O(4) .5000 .0602(11) .4956(6) .0260(10)
+B .3363(4) .4877(9) .7839(4) .0130(10)
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O(4) Nb O(4) 2_555 2_565 179.9(3) yes
+O(2) Nb O(1) . 1_556 89.50(10) yes
+O(2) Nb O(1) 4_555 4_556 89.50(10) yes
+O(2) Nb O(4) . 2_565 83.60(10) yes
+O(2) Nb O(4) . 2_565 83.60(10) yes
+O(2) Nb O(2) 4_555 . 94.1(2) yes
+O(2) B O(1) . 2_565 120.2(3) yes
+O(1) B O(3) 2_565 . 122.4(3) yes
+B O(3) B . 4_655 124.7(4) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Nb O(4) 2_555 1.775(5) yes
+Nb O(2) . 1.948(3) yes
+Nb O(2) 4_555 1.948(3) yes
+Nb O(1) 1_556 2.016(3) yes
+Nb O(1) 4_556 2.016(2) yes
+Nb O(4) 2_565 2.217(5) yes
+B O(1) 2_565 1.353(4) yes
+B O(2) . 1.353(4) yes
+B O(3) . 1.392(4) yes
+Cs O(1) 4_665 3.101(3) yes
+Cs O(1) 1_565 3.101(3) yes
+Cs O(1) . 3.232(3) yes
+Cs O(1) 4_655 3.232(3) yes
+Cs O(2) 3_564 3.308(3) yes
+Cs O(2) 2_564 3.308(3) yes
+Cs O(3) 1_564 3.167(4) yes
+Cs O(3) 1_554 3.202(5) yes
+Cs B 3_564 3.580(4) yes
+Cs B 2_564 3.580(4) yes
+Nb Cs . 4.0613(6) no
+Nb Cs . 4.2454(5) no
+Nb Cs . 4.2454(5) no
+Nb Cs . 4.5605(6) no
+Nb Cs . 4.5605(6) no
+Cs O(2) . 3.715(4) no
+Cs O(2) . 3.715(4) no
+O(1) B . 1.353(4) no
+O(1) Nb . 2.016(3) no
+O(1) Cs . 3.101(3) no
+O(2) B . 1.353(5) no
+O(2) Nb . 1.948(3) no
+O(2) Cs . 3.308(3) no
+O(2) Cs . 3.715(3) no
+O(3) B . 1.392(4) no
+O(3) B . 1.392(4) no
+O(3) Cs . 3.167(5) no
+O(4) Nb . 1.775(5) no
+O(4) Nb . 2.217(5) no
+B Cs . 3.580(4) no
+B Cs . 3.757(4) no
+B Cs . 3.937(4) no

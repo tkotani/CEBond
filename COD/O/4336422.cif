@@ -1,0 +1,263 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-23 22:06:20 +0200 (Wed, 23 Mar 2016) $
+#$Revision: 179467 $
+#$URL: svn://www.crystallography.net/cod/cif/4/33/64/4336422.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4336422
+loop_
+_publ_author_name
+'Vladimir B. Nalbandyan'
+'Elena A. Zvereva'
+'Galina E. Yalovega'
+'Igor L. Shukaev'
+'Anastasiya P. Ryzhakova'
+'Alexander A. Guda'
+'Alessandro Stroppa'
+'Silvia Picozzi'
+'Alexander N. Vasiliev'
+'Myung-Hwan Whangbo'
+_publ_contact_author_address     '7 ul. Zorge, Rostov-na-Donu, 344090 Russia'
+_publ_contact_author_email       vbn@sfedu.ru
+_publ_contact_author_name        'Vladimir B. Nalbandyan'
+_publ_section_title
+;
+ Synthesis and Characterization of MnCrO4, a New Mixed-Valence
+ Antiferromagnet
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              11850
+_journal_page_last               11858
+_journal_paper_doi               10.1021/ic401391b
+_journal_volume                  52
+_journal_year                    2013
+_chemical_formula_sum            'Cr Mn O4'
+_chemical_formula_weight         170.93
+_space_group_IT_number           63
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-C 2c 2'
+_symmetry_space_group_name_H-M   'C m c m'
+_audit_author_name               mncro4_
+_audit_creation_date             2013-04-13T17:57
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_audit_update_record
+;
+2013-04-13T17:57  Initial CIF as created by GSAS2CIF
+
+2013-05-29 
+;
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            4
+_cell_length_a                   5.58762(16)
+_cell_length_b                   8.45679(27)
+_cell_length_c                   6.52132(23)
+_cell_measurement_temperature    298
+_cell_volume                     308.154(17)
+_computing_structure_refinement  GSAS
+_diffrn_ambient_temperature      298
+_diffrn_measurement_device_type  ARL'Xtra
+_diffrn_radiation_polarisn_ratio 0.803
+_diffrn_radiation_probe          x-ray
+_exptl_absorpt_correction_T_max  1.00000
+_exptl_absorpt_correction_T_min  1.00000
+_exptl_absorpt_process_details
+;   GSAS Absorption/surface roughness correction: function number 0
+ No correction is applied.
+;
+_exptl_crystal_density_diffrn    3.685
+_pd_calc_method                  'Rietveld Refinement'
+_pd_char_colour                  black
+_pd_meas_2theta_range_inc        0.02
+_pd_meas_2theta_range_max        99.96
+_pd_meas_2theta_range_min        15.04
+_pd_phase_name
+'from E:/SHUKAEV/SCIENTIA/Str_An_2012/MnCrO4.VBN/VAR3/MnCrO4.cif'
+_pd_proc_2theta_range_inc        0.02
+_pd_proc_2theta_range_max        99.96452
+_pd_proc_2theta_range_min        15.04452
+_pd_proc_info_datetime           2013-04-13T17:57:26
+_pd_proc_ls_background_function
+;   GSAS Background function number 1 with 16 terms.
+ Shifted Chebyshev function of 1st kind
+      1:    62.0260     2:   -57.3275     3:    35.9441     4:   -25.8909    
+      5:    21.2783     6:   -14.0700     7:    8.87208     8:   -8.34675    
+      9:    6.09039    10:   0.141170    11:  -0.802661    12:   0.969665    
+     13:  -0.607585    14:    2.09344    15:   -3.38773    16:    3.49820    
+;
+_pd_proc_ls_peak_cutoff          0.00100
+_pd_proc_ls_pref_orient_corr
+;   March-Dollase
+ AXIS  1 Ratio=     2.207 Frac     0.028  h= 0.000  k= 0.000  l= 1.000
+ AXIS  2 Ratio=     0.919 Frac     0.972  h= 1.000  k= 1.000  l= 0.000
+ Prefered orientation correction range: Min=   0.85910, Max=   1.19625
+;
+_pd_proc_ls_profile_function
+;
+ CW Profile function number 3 with  19 terms
+ Pseudovoigt profile coefficients as parameterized in
+ P. Thompson, D.E. Cox & J.B. Hastings (1987). J. Appl. Cryst.,20,79-83.
+ Asymmetry correction of L.W. Finger, D.E. Cox & A. P. Jephcoat (1994).
+ J. Appl. Cryst.,27,892-900.
+ Peak tails are ignored  where the intensity is below 0.0010 times the peak
+   Aniso. broadening axis   0.0   0.0   1.0
+;
+_pd_proc_ls_prof_R_factor        0.0972
+_pd_proc_ls_prof_wR_expected     0.1049
+_pd_proc_ls_prof_wR_factor       0.1285
+_refine_ls_goodness_of_fit_all   1.23
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     46
+_refine_ls_number_restraints     0
+_refine_ls_R_Fsqd_factor         0.10136
+_refine_ls_shift/su_max          0.03
+_refine_ls_shift/su_mean         0.01
+_reflns_d_resolution_high        1.013
+_reflns_d_resolution_low         4.662
+_reflns_limit_h_max              5
+_reflns_limit_h_min              0
+_reflns_limit_k_max              8
+_reflns_limit_k_min              0
+_reflns_limit_l_max              6
+_reflns_limit_l_min              0
+_reflns_number_total             196
+_cod_data_source_file            ic401391b_si_002.cif
+_cod_data_source_block           MNCRO4_VAR8_publ
+_cod_database_code               4336422
+_cod_database_fobs_code          4336422
+#BEGIN Tags that were not found in dictionaries:
+_gsas_exptl_extinct_corr_t_min   1.00000
+_gsas_exptl_extinct_corr_t_max   1.00000
+#END Tags that were not found in dictionaries
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -x,+y,+z
+3 +x,-y,+z+1/2
+4 -x,-y,+z+1/2
+-1 -x,-y,-z
+-2 +x,-y,-z
+-3 -x,+y,-z+1/2
+-4 +x,+y,-z+1/2
+101 +x+1/2,+y+1/2,+z
+102 -x+1/2,+y+1/2,+z
+103 +x+1/2,-y+1/2,+z+1/2
+104 -x+1/2,-y+1/2,+z+1/2
+-101 -x+1/2,-y+1/2,-z
+-102 +x+1/2,-y+1/2,-z
+-103 -x+1/2,+y+1/2,-z+1/2
+-104 +x+1/2,+y+1/2,-z+1/2
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_22
+_atom_site_aniso_U_23
+_atom_site_aniso_U_33
+Mn1 0.0198(14) 0.0 0.0 0.0427(18) -0.0021(18) 0.0184(16)
+Cr1 0.0242(14) 0.0 0.0 0.0221(16) 0.0 0.0266(17)
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+Mn Mn1 0.0 0.0 0.0 1.0 Uani 0.02699 4
+Cr Cr1 0.0 0.36038(31) 0.25 1.0 Uani 0.02427 4
+O O1 0.0 0.2474(6) 0.0414(8) 1.0 Uiso 0.0183(19) 8
+O O2 0.2463(8) 0.4725(6) 0.25 1.0 Uiso 0.0162(18) 8
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_Cromer_Mann_a1
+_atom_type_scat_Cromer_Mann_a2
+_atom_type_scat_Cromer_Mann_a3
+_atom_type_scat_Cromer_Mann_a4
+_atom_type_scat_Cromer_Mann_b1
+_atom_type_scat_Cromer_Mann_b2
+_atom_type_scat_Cromer_Mann_b3
+_atom_type_scat_Cromer_Mann_b4
+_atom_type_scat_Cromer_Mann_c
+_atom_type_scat_source
+Mn 4.0 0.000 0.000 11.2819 5.34090 7.35730 0.34320 3.01930 17.8674 2.24410
+83.7543 1.08960 International_Tables_Vol_C
+Cr 4.0 0.000 0.000 10.6406 6.10380 7.35370 0.39200 3.32400 20.2626 1.49220
+98.7399 1.18320 International_Tables_Vol_C
+O 16.0 0.000 0.000 3.04850 13.2771 2.28680 5.70110 1.54630 0.32390 0.86700
+32.9089 0.25080 International_Tables_Vol_C
+loop_
+_diffrn_radiation_wavelength
+_diffrn_radiation_wavelength_wt
+_diffrn_radiation_type
+_diffrn_radiation_wavelength_id
+1.540600 1.000 'Cu K\a~1~' 1
+1.544400 0.500 'Cu K\a~2~' 2
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O1 Mn1 O1 180.0 1_555 -1_555 n
+O1 Mn1 O2 90.57(18) 1_555 101_445 n
+O1 Mn1 O2 90.57(18) 1_555 102_545 n
+O1 Mn1 O2 89.43(18) 1_555 103_454 n
+O1 Mn1 O2 89.43(18) 1_555 104_554 n
+O1 Mn1 O2 89.43(18) -1_555 101_445 n
+O1 Mn1 O2 89.43(18) -1_555 102_545 n
+O1 Mn1 O2 90.57(18) -1_555 103_454 n
+O1 Mn1 O2 90.57(18) -1_555 104_554 n
+O2 Mn1 O2 81.45(18) 101_445 102_545 n
+O2 Mn1 O2 98.55(18) 101_445 103_454 n
+O2 Mn1 O2 180.0 101_445 104_554 n
+O2 Mn1 O2 180.0 102_545 103_454 n
+O2 Mn1 O2 98.55(18) 102_545 104_554 n
+O2 Mn1 O2 81.45(18) 103_454 104_554 n
+O1 Cr1 O1 109.8(4) 1_555 -3_446 n
+O1 Cr1 O2 109.04(12) 1_555 1_555 n
+O1 Cr1 O2 109.04(12) 1_555 2_555 n
+O1 Cr1 O2 109.04(12) -3_446 1_555 n
+O1 Cr1 O2 109.04(12) -3_446 2_555 n
+O2 Cr1 O2 110.9(4) 1_555 2_555 n
+Mn1 O1 Cr1 132.45(31) 1_555 1_555 n
+Mn1 O2 Mn1 97.23(18) 101_555 103_555 n
+Mn1 O2 Cr1 126.72(15) 101_555 1_555 n
+Mn1 O2 Cr1 126.72(15) 103_555 1_555 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Mn1 O1 2.109(5) 1_555 n
+Mn1 O1 2.109(5) -1_555 n
+Mn1 O2 2.1730(30) 101_445 n
+Mn1 O2 2.1730(30) 102_545 n
+Mn1 O2 2.1730(30) 103_454 n
+Mn1 O2 2.1730(30) 104_554 n
+Cr1 O1 1.662(5) 1_555 n
+Cr1 O1 1.662(5) -3_555 n
+Cr1 O2 1.671(5) 1_555 n
+Cr1 O2 1.671(5) 2_555 n
+O1 Mn1 2.109(5) 1_555 n
+O1 Cr1 1.662(5) 1_555 n
+O2 Mn1 2.1730(30) 101_555 n
+O2 Mn1 2.1730(30) 103_555 n
+O2 Cr1 1.671(5) 1_555 n

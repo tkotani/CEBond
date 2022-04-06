@@ -1,0 +1,295 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 06:40:26 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176432 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/30/2003027.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2003027
+loop_
+_publ_author_name
+'de Jong, B. H. W. S.'
+'Sup\`er, H. T. J.'
+'Spek, A. L.'
+'Veldman, N.'
+'Nachtegaal, G.'
+'Fischer, J. C.'
+_publ_section_title
+;
+ Mixed Alkali Systems: Structure and ^29^Si MASNMR of Li~2~Si~2~O~5~
+ and K~2~Si~2~O~5~
+;
+_journal_issue                   5
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              568
+_journal_page_last               577
+_journal_paper_doi               10.1107/S0108768198001062
+_journal_volume                  54
+_journal_year                    1998
+_chemical_formula_moiety         'Li2 Si2 O5'
+_chemical_formula_sum            'Li2 O5 Si2'
+_chemical_formula_weight         150.05
+_chemical_name_systematic
+;
+ Lithium Disilicate
+;
+_space_group_IT_number           37
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  'C 2 -2c'
+_symmetry_space_group_name_H-M   'C c c 2'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   5.807(2)
+_cell_length_b                   14.582(7)
+_cell_length_c                   4.773(3)
+_cell_measurement_reflns_used    10
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      13
+_cell_measurement_theta_min      11
+_cell_volume                     404.2(3)
+_computing_publication_material  'PLATON (Spek, 1990)'
+_diffrn_ambient_temperature      293
+_diffrn_measurement_device_type  CAD4-T
+_diffrn_measurement_method       \w-2\q-scan
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'Rotating Anode'
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0639
+_diffrn_reflns_av_sigmaI/netI    0.0383
+_diffrn_reflns_limit_h_max       7
+_diffrn_reflns_limit_h_min       -7
+_diffrn_reflns_limit_k_max       18
+_diffrn_reflns_limit_k_min       -18
+_diffrn_reflns_limit_l_max       6
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            967
+_diffrn_reflns_theta_max         27.46
+_diffrn_reflns_theta_min         2.79
+_diffrn_standards_decay_%        1
+_diffrn_standards_interval_time  60
+_diffrn_standards_number         1
+_exptl_absorpt_coefficient_mu    0.78
+_exptl_absorpt_correction_T_max  0.991
+_exptl_absorpt_correction_T_min  0.789
+_exptl_absorpt_correction_type   'analytical (Spek, 1990)'
+_exptl_absorpt_process_details   'de Meulenaar & Tompa'
+_exptl_crystal_colour            colorless
+_exptl_crystal_density_diffrn    2.466
+_exptl_crystal_density_meas      ?
+_exptl_crystal_description       'thin plate'
+_exptl_crystal_F_000             296
+_exptl_crystal_size_max          0.50
+_exptl_crystal_size_mid          0.15
+_exptl_crystal_size_min          0.012
+_refine_diff_density_max         0.818
+_refine_diff_density_min         -0.579
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   1.133
+_refine_ls_hydrogen_treatment    'H-atom refinement: see text '
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     42
+_refine_ls_number_reflns         261
+_refine_ls_number_restraints     1
+_refine_ls_restrained_S_all      1.130
+_refine_ls_R_factor_all          0.0464
+_refine_ls_R_factor_gt           0.0450
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w = 1/[\s^2^(Fo^2^)+(0.0883P)^2^+0.0491P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_ref         0.1138
+_reflns_number_gt                249
+_reflns_number_total             261
+_reflns_threshold_expression     'I > 2 \s(I)'
+_cod_data_source_file            na0083.cif
+_cod_data_source_block           s737a
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_symmetry_cell_setting' value 'Orthorhombic' changed to 'orthorhombic'
+according to '/home/saulius/struct/CIF-dictionaries/cif_core.dic'
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Orthorhombic' changed to
+'orthorhombic' according to
+/home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'w =
+1/[\s^2^(Fo^2^)+(0.0883P)^2^+0.0491P] where P=(Fo^2^+2Fc^2^)/3' was
+changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to 'w =
+1/[\s^2^(Fo^2^)+(0.0883P)^2^+0.0491P] where P=(Fo^2^+2Fc^2^)/3'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_sg_symbol_Hall     'C 2 -c'
+_cod_database_code               2003027
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,y,1/2+z
+x,-y,1/2+z
+-x,-y,z
+1/2+x,1/2+y,z
+1/2-x,1/2+y,1/2+z
+1/2+x,1/2-y,1/2+z
+1/2-x,1/2-y,z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Si 0.0058(7) 0.0092(7) 0.0064(7) 0.0002(3) 0.0007(5) 0.0002(6)
+O1 0.0097(15) 0.0127(15) 0.0090(17) 0.0026(11) 0.0009(11) -0.0013(12)
+O2 0.0064(15) 0.0172(16) 0.0080(18) -0.0005(12) -0.0012(16) 0.0006(13)
+O3 0.016(2) 0.0088(18) 0.016(3) -0.0031(18) 0.0000 0.0000
+Li 0.012(3) 0.014(3) 0.019(4) -0.005(3) -0.001(4) 0.002(5)
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_occupancy
+Si 0.34480(18) 0.85156(7) 0.50757(16) 0.0071(4) Uani 1.000
+O1 0.1703(6) 0.9278(2) 0.5978(11) 0.0105(9) Uani 1.000
+O2 0.5924(7) 0.8623(2) 0.6716(9) 0.0105(9) Uani 1.000
+O3 0.25000 0.75000 0.5639(12) 0.0136(13) Uani 1.000
+Li 0.8484(13) 0.9418(5) 0.510(3) 0.0150(19) Uani 1.000
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Si Si 0.0817 0.0704 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Li Li -0.0003 0.0001 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O1 Si O2 . . 111.6(2) yes
+O1 Si O3 . . 112.83(16) yes
+O1 Si O2 . 2_654 110.0(2) yes
+O2 Si O3 . . 107.96(17) yes
+O2 Si O2 . 2_654 105.1(2) yes
+O2 Si O3 2_654 . 109.0(2) yes
+Si O2 Si . 2_655 130.2(3) yes
+Si O3 Si . 8_565 160.7(4) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Si O1 . 1.565(4) yes
+Si O2 . 1.645(4) yes
+Si O3 . 1.6027(17) yes
+Si O2 2_654 1.652(4) yes
+loop_
+_geom_contact_atom_site_label_1
+_geom_contact_atom_site_label_2
+_geom_contact_distance
+_geom_contact_site_symmetry_2
+_geom_contact_publ_flag
+Si Li 3.169(8) 1_455 no
+Si Li 3.207(8) . no
+Si O1 3.743(5) 2_554 no
+Si Li 2.938(13) 2_654 no
+Si Li 2.957(13) 2_655 no
+Si Li 3.215(8) 4_675 no
+Si O2 3.801(4) 7_464 no
+Si O3 3.495(4) 7_564 no
+O1 Li 1.927(9) 1_455 no
+O1 Si 3.743(5) 2_555 no
+O1 O1 3.100(7) 2_554 no
+O1 O1 3.100(7) 2_555 no
+O1 O2 3.211(7) 2_655 no
+O1 Li 2.815(15) 2_654 no
+O1 Li 1.981(15) 2_655 no
+O1 O1 3.183(7) 3_574 no
+O1 O1 3.183(7) 3_575 no
+O1 Li 3.314(11) 3_475 no
+O1 O1 2.889(5) 4_575 no
+O1 Li 1.950(8) 4_675 no
+O2 Li 2.037(10) . no
+O2 O1 3.211(7) 2_654 no
+O2 Li 3.241(11) 2_655 no
+O2 Li 3.603(10) 3_575 no
+O2 Si 3.801(4) 7_565 no
+O2 O3 2.651(6) 7_565 no
+O3 Li 3.651(8) 1_455 no
+O3 Li 3.561(11) 2_655 no
+O3 O2 2.651(6) 7_464 no
+O3 Li 3.561(11) 7_465 no
+O3 Li 3.651(8) 8_665 no
+Li Si 3.207(8) . no
+Li Si 3.169(8) 1_655 no
+Li O1 1.927(9) 1_655 no
+Li O2 2.037(10) . no
+Li O3 3.651(8) 1_655 no
+Li Si 2.957(13) 2_654 no
+Li Si 2.938(13) 2_655 no
+Li O1 1.981(15) 2_654 no
+Li O1 2.815(15) 2_655 no
+Li O2 3.241(11) 2_654 no
+Li O3 3.561(11) 2_654 no
+Li Li 2.966(18) 2_754 no
+Li Li 2.966(18) 2_755 no
+Li O1 3.314(11) 3_674 no
+Li O2 3.603(10) 3_574 no
+Li Li 2.929(18) 3_574 no
+Li Li 2.929(18) 3_575 no
+Li Si 3.215(8) 4_675 no
+Li O1 1.950(8) 4_675 no
+Li Li 2.446(11) . no
+Li O3 3.561(11) 7_564 no
+Li O3 3.651(8) . no
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion_site_symmetry_1
+_geom_torsion_site_symmetry_3
+_geom_torsion_site_symmetry_4
+_geom_torsion
+_geom_torsion_publ_flag
+O1 Si O2 Si . . 2_655 65.5(3) no
+O3 Si O2 Si . . 2_655 -59.0(3) no
+O2 Si O2 Si 2_654 . 2_655 -175.3(2) no
+O1 Si O2 Si . 2_654 2_654 139.3(2) no
+O2 Si O2 Si . 2_654 2_654 19.0(3) no

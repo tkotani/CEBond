@@ -1,0 +1,367 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-13 21:28:24 +0200 (Sat, 13 Feb 2016) $
+#$Revision: 176429 $
+#$URL: svn://www.crystallography.net/cod/cif/4/00/26/4002615.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4002615
+loop_
+_publ_author_name
+'Ishizawa, Nobuo'
+'Asaka, Toru'
+'Kudo, Tatsunari'
+'Fukuda, Koichiro'
+'Yasuhara, Akira'
+'Abe, Nobuyuki'
+'Arima, Taka-hisa'
+_publ_section_title
+;
+ Structural Evolution of GdBaCo2O5+\d(\d = 7/18) at Elevated Temperatures
+;
+_journal_name_full               'Chemistry of Materials'
+_journal_page_first              141114094038007
+_journal_paper_doi               10.1021/cm503132e
+_journal_year                    2014
+_chemical_formula_sum            'Ba Co2 Gd O5.19'
+_chemical_formula_weight         495.5
+_chemical_name_systematic        ' ?'
+_space_group_IT_number           123
+_symmetry_cell_setting           tetragonal
+_symmetry_Int_Tables_number      123
+_symmetry_space_group_name_Hall  '-P 4 2'
+_symmetry_space_group_name_H-M   'P 4/m m m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            1
+_cell_length_a                   3.9094(4)
+_cell_length_b                   3.9094(4)
+_cell_length_c                   7.5127(16)
+_cell_measurement_temperature    294
+_cell_volume                     114.82(3)
+_diffrn_ambient_temperature      294
+_diffrn_measured_fraction_theta_full 0.96
+_diffrn_measured_fraction_theta_max 0.96
+_diffrn_measurement_device       'four-cycle diffractometer'
+_diffrn_measurement_device_type  'Bruker CCD'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_source         'X-ray tube'
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0179
+_diffrn_reflns_av_sigmaI/netI    0.0144
+_diffrn_reflns_limit_h_max       5
+_diffrn_reflns_limit_h_min       -5
+_diffrn_reflns_limit_k_max       4
+_diffrn_reflns_limit_k_min       -5
+_diffrn_reflns_limit_l_max       10
+_diffrn_reflns_limit_l_min       -3
+_diffrn_reflns_number            605
+_diffrn_reflns_theta_full        30.04
+_diffrn_reflns_theta_max         30.04
+_diffrn_reflns_theta_min         5.88
+_exptl_absorpt_coefficient_mu    29.732
+_exptl_absorpt_correction_T_max  0.1240
+_exptl_absorpt_correction_T_min  0.0681
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details   '(SADABS; Sheldrick, 1996)'
+_exptl_crystal_density_diffrn    7.1659
+_exptl_crystal_description       'triangular pyramidal'
+_exptl_crystal_F_000             216
+_exptl_crystal_size_max          0.1
+_exptl_crystal_size_mid          0.1
+_exptl_crystal_size_min          0.075
+_refine_diff_density_max         0.94
+_refine_diff_density_min         -0.82
+_refine_ls_extinction_coef       290(20)
+_refine_ls_extinction_method
+'B-C type 1 Gaussian isotropic (Becker & Coppens, 1974)'
+_refine_ls_goodness_of_fit_gt    1.79
+_refine_ls_goodness_of_fit_ref   1.68
+_refine_ls_number_constraints    0
+_refine_ls_number_parameters     16
+_refine_ls_number_reflns         132
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          0.0244
+_refine_ls_R_factor_gt           0.0229
+_refine_ls_shift/su_max          0.0052
+_refine_ls_shift/su_mean         0.0009
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     w=1/(\s^2^(F)+0.0001F^2^)
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_gt          0.0251
+_refine_ls_wR_factor_ref         0.0253
+_reflns_number_gt                117
+_reflns_number_total             132
+_reflns_threshold_expression     I>3\s(I)
+_cod_data_source_file            cm503132e_si_002.cif
+_cod_data_source_block           c23
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_diffrn_radiation_probe' value 'X-ray' changed to 'x-ray' according
+to /home/saulius/struct/CIF-dictionaries/IUCr/cif_core.dic dictionary
+named 'cif_core.dic' version 2.4.5 from 2014-11-21.
+
+Automatic conversion script
+Id: cif_fix_values 3866 2015-08-17 15:13:47Z robertas 
+;
+_cod_original_sg_symbol_Hall     '-P 4;-2'
+_cod_original_formula_sum        'Ba1 Co2 Gd1 O5.19'
+_cod_database_code               4002615
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 -x,-y,z
+3 -y,x,z
+4 y,-x,z
+5 -x,y,-z
+6 x,-y,-z
+7 y,x,-z
+8 -y,-x,-z
+9 -x,-y,-z
+10 x,y,-z
+11 y,-x,-z
+12 -y,x,-z
+13 x,-y,z
+14 -x,y,z
+15 -y,-x,z
+16 y,x,z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_adp_type
+_atom_site_U_iso_or_equiv
+_atom_site_site_symmetry_multiplicity
+_atom_site_occupancy
+_atom_site_calc_flag
+Gd1 Gd 0 0 0.5 Uani 0.0181(2) 1 1 d
+Ba1 Ba 0 0 0 Uani 0.0114(2) 1 1 d
+Co1 Co 0.5 0.5 0.25422(10) Uani 0.0104(3) 2 1 d
+O1 O 0.5 0.5 0 Uani 0.0156(15) 1 1 d
+O2 O 0.5 0 0.3017(6) Uani 0.0183(11) 4 1 d
+O3 O 0.5 0.5 0.5 Uiso 0.021(9) 1 0.19 d
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_type_symbol
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Gd1 Gd 0.0223(3) 0.0223(3) 0.0098(4) 0 0 0
+Ba1 Ba 0.0109(3) 0.0109(3) 0.0123(4) 0 0 0
+Co1 Co 0.0102(4) 0.0102(4) 0.0109(7) 0 0 0
+O1 O 0.017(2) 0.017(2) 0.013(3) 0 0 0
+O2 O 0.0143(18) 0.0154(18) 0.025(2) 0 0 0
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Ba -0.3244 2.2819 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+Co 0.3494 0.9721 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+Gd -0.1653 3.9035 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+O 0.0106 0.0060 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+O2 Gd1 O2 1_455 . 105.39(12)
+O2 Gd1 O2 1_455 3_545 68.45(6)
+O2 Gd1 O2 1_455 3_555 68.45(6)
+O2 Gd1 O2 1_455 5_556 74.61(12)
+O2 Gd1 O2 1_455 5_656 180.0(5)
+O2 Gd1 O2 1_455 7_546 111.55(6)
+O2 Gd1 O2 1_455 7_556 111.55(6)
+O2 Gd1 O3 1_455 1_445 55.78(4)
+O2 Gd1 O3 1_455 1_455 55.78(4)
+O2 Gd1 O3 1_455 1_545 124.22(4)
+O2 Gd1 O3 1_455 . 124.22(4)
+O2 Gd1 O2 . 3_545 68.45(6)
+O2 Gd1 O2 . 3_555 68.45(6)
+O2 Gd1 O2 . 5_556 180.0(5)
+O2 Gd1 O2 . 5_656 74.61(12)
+O2 Gd1 O2 . 7_546 111.55(6)
+O2 Gd1 O2 . 7_556 111.55(6)
+O2 Gd1 O3 . 1_445 124.22(4)
+O2 Gd1 O3 . 1_455 124.22(4)
+O2 Gd1 O3 . 1_545 55.78(4)
+O2 Gd1 O3 . . 55.78(4)
+O2 Gd1 O2 3_545 3_555 105.39(12)
+O2 Gd1 O2 3_545 5_556 111.55(6)
+O2 Gd1 O2 3_545 5_656 111.55(6)
+O2 Gd1 O2 3_545 7_546 74.61(12)
+O2 Gd1 O2 3_545 7_556 180.0(5)
+O2 Gd1 O3 3_545 1_445 55.78(4)
+O2 Gd1 O3 3_545 1_455 124.22(4)
+O2 Gd1 O3 3_545 1_545 55.78(4)
+O2 Gd1 O3 3_545 . 124.22(4)
+O2 Gd1 O2 3_555 5_556 111.55(6)
+O2 Gd1 O2 3_555 5_656 111.55(6)
+O2 Gd1 O2 3_555 7_546 180.0(5)
+O2 Gd1 O2 3_555 7_556 74.61(12)
+O2 Gd1 O3 3_555 1_445 124.22(4)
+O2 Gd1 O3 3_555 1_455 55.78(4)
+O2 Gd1 O3 3_555 1_545 124.22(4)
+O2 Gd1 O3 3_555 . 55.78(4)
+O2 Gd1 O2 5_556 5_656 105.39(12)
+O2 Gd1 O2 5_556 7_546 68.45(6)
+O2 Gd1 O2 5_556 7_556 68.45(6)
+O2 Gd1 O3 5_556 1_445 55.78(4)
+O2 Gd1 O3 5_556 1_455 55.78(4)
+O2 Gd1 O3 5_556 1_545 124.22(4)
+O2 Gd1 O3 5_556 . 124.22(4)
+O2 Gd1 O2 5_656 7_546 68.45(6)
+O2 Gd1 O2 5_656 7_556 68.45(6)
+O2 Gd1 O3 5_656 1_445 124.22(4)
+O2 Gd1 O3 5_656 1_455 124.22(4)
+O2 Gd1 O3 5_656 1_545 55.78(4)
+O2 Gd1 O3 5_656 . 55.78(4)
+O2 Gd1 O2 7_546 7_556 105.39(12)
+O2 Gd1 O3 7_546 1_445 55.78(4)
+O2 Gd1 O3 7_546 1_455 124.22(4)
+O2 Gd1 O3 7_546 1_545 55.78(4)
+O2 Gd1 O3 7_546 . 124.22(4)
+O2 Gd1 O3 7_556 1_445 124.22(4)
+O2 Gd1 O3 7_556 1_455 55.78(4)
+O2 Gd1 O3 7_556 1_545 124.22(4)
+O2 Gd1 O3 7_556 . 55.78(4)
+O3 Gd1 O3 1_445 1_455 90.000(8)
+O3 Gd1 O3 1_445 1_545 90.000(8)
+O3 Gd1 O3 1_445 . 180.0(5)
+O3 Gd1 O3 1_455 1_545 180.0(5)
+O3 Gd1 O3 1_455 . 90.000(8)
+O3 Gd1 O3 1_545 . 90.000(8)
+O1 Ba1 O1 1_445 1_455 90.000(8)
+O1 Ba1 O1 1_445 1_545 90.000(8)
+O1 Ba1 O1 1_445 . 180.0(5)
+O1 Ba1 O2 1_445 1_455 62.50(4)
+O1 Ba1 O2 1_445 . 117.50(4)
+O1 Ba1 O2 1_445 3_545 62.50(4)
+O1 Ba1 O2 1_445 3_555 117.50(4)
+O1 Ba1 O2 1_445 5_555 62.50(4)
+O1 Ba1 O2 1_445 5_655 117.50(4)
+O1 Ba1 O2 1_445 7_545 62.50(4)
+O1 Ba1 O2 1_445 7_555 117.50(4)
+O1 Ba1 O1 1_455 1_545 180.0(5)
+O1 Ba1 O1 1_455 . 90.000(8)
+O1 Ba1 O2 1_455 1_455 62.50(4)
+O1 Ba1 O2 1_455 . 117.50(4)
+O1 Ba1 O2 1_455 3_545 117.50(4)
+O1 Ba1 O2 1_455 3_555 62.50(4)
+O1 Ba1 O2 1_455 5_555 62.50(4)
+O1 Ba1 O2 1_455 5_655 117.50(4)
+O1 Ba1 O2 1_455 7_545 117.50(4)
+O1 Ba1 O2 1_455 7_555 62.50(4)
+O1 Ba1 O1 1_545 . 90.000(8)
+O1 Ba1 O2 1_545 1_455 117.50(4)
+O1 Ba1 O2 1_545 . 62.50(4)
+O1 Ba1 O2 1_545 3_545 62.50(4)
+O1 Ba1 O2 1_545 3_555 117.50(4)
+O1 Ba1 O2 1_545 5_555 117.50(4)
+O1 Ba1 O2 1_545 5_655 62.50(4)
+O1 Ba1 O2 1_545 7_545 62.50(4)
+O1 Ba1 O2 1_545 7_555 117.50(4)
+O1 Ba1 O2 . 1_455 117.50(4)
+O1 Ba1 O2 . . 62.50(4)
+O1 Ba1 O2 . 3_545 117.50(4)
+O1 Ba1 O2 . 3_555 62.50(4)
+O1 Ba1 O2 . 5_555 117.50(4)
+O1 Ba1 O2 . 5_655 62.50(4)
+O1 Ba1 O2 . 7_545 117.50(4)
+O1 Ba1 O2 . 7_555 62.50(4)
+O2 Ba1 O2 1_455 . 81.54(8)
+O2 Ba1 O2 1_455 3_545 55.00(5)
+O2 Ba1 O2 1_455 3_555 55.00(5)
+O2 Ba1 O2 1_455 5_555 98.46(8)
+O2 Ba1 O2 1_455 5_655 180.0(5)
+O2 Ba1 O2 1_455 7_545 125.00(5)
+O2 Ba1 O2 1_455 7_555 125.00(5)
+O2 Ba1 O2 . 3_545 55.00(5)
+O2 Ba1 O2 . 3_555 55.00(5)
+O2 Ba1 O2 . 5_555 180.0(5)
+O2 Ba1 O2 . 5_655 98.46(8)
+O2 Ba1 O2 . 7_545 125.00(5)
+O2 Ba1 O2 . 7_555 125.00(5)
+O2 Ba1 O2 3_545 3_555 81.54(8)
+O2 Ba1 O2 3_545 5_555 125.00(5)
+O2 Ba1 O2 3_545 5_655 125.00(5)
+O2 Ba1 O2 3_545 7_545 98.46(8)
+O2 Ba1 O2 3_545 7_555 180.0(5)
+O2 Ba1 O2 3_555 5_555 125.00(5)
+O2 Ba1 O2 3_555 5_655 125.00(5)
+O2 Ba1 O2 3_555 7_545 180.0(5)
+O2 Ba1 O2 3_555 7_555 98.46(8)
+O2 Ba1 O2 5_555 5_655 81.54(8)
+O2 Ba1 O2 5_555 7_545 55.00(5)
+O2 Ba1 O2 5_555 7_555 55.00(5)
+O2 Ba1 O2 5_655 7_545 55.00(5)
+O2 Ba1 O2 5_655 7_555 55.00(5)
+O2 Ba1 O2 7_545 7_555 81.54(8)
+O1 Co1 O2 . . 100.35(13)
+O1 Co1 O2 . 1_565 100.35(13)
+O1 Co1 O2 . 3_555 100.35(13)
+O1 Co1 O2 . 3_655 100.35(13)
+O1 Co1 O3 . . 180.0(5)
+O2 Co1 O2 . 1_565 159.30(19)
+O2 Co1 O2 . 3_555 88.15(3)
+O2 Co1 O2 . 3_655 88.15(3)
+O2 Co1 O3 . . 79.65(13)
+O2 Co1 O2 1_565 3_555 88.15(3)
+O2 Co1 O2 1_565 3_655 88.15(3)
+O2 Co1 O3 1_565 . 79.65(13)
+O2 Co1 O2 3_555 3_655 159.30(19)
+O2 Co1 O3 3_555 . 79.65(13)
+O2 Co1 O3 3_655 . 79.65(13)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+Gd1 O2 1_455 2.457(3)
+Gd1 O2 . 2.457(3)
+Gd1 O2 3_545 2.457(3)
+Gd1 O2 3_555 2.457(3)
+Gd1 O2 5_556 2.457(3)
+Gd1 O2 5_656 2.457(3)
+Gd1 O2 7_546 2.457(3)
+Gd1 O2 7_556 2.457(3)
+Gd1 O3 1_445 2.7644(4)
+Gd1 O3 1_455 2.7644(4)
+Gd1 O3 1_545 2.7644(4)
+Gd1 O3 . 2.7644(4)
+Ba1 O1 1_445 2.7644(4)
+Ba1 O1 1_455 2.7644(4)
+Ba1 O1 1_545 2.7644(4)
+Ba1 O1 . 2.7644(4)
+Ba1 O2 1_455 2.993(4)
+Ba1 O2 . 2.993(4)
+Ba1 O2 3_545 2.993(4)
+Ba1 O2 3_555 2.993(4)
+Ba1 O2 5_555 2.993(4)
+Ba1 O2 5_655 2.993(4)
+Ba1 O2 7_545 2.993(4)
+Ba1 O2 7_555 2.993(4)
+Co1 O1 . 1.9099(11)
+Co1 O2 . 1.9870(9)
+Co1 O2 1_565 1.9870(9)
+Co1 O2 3_555 1.9870(9)
+Co1 O2 3_655 1.9870(9)
+Co1 O3 . 1.8464(11)

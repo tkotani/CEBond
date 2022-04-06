@@ -1,0 +1,124 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-11 02:03:02 +0200 (Thu, 11 Feb 2016) $
+#$Revision: 176343 $
+#$URL: svn://www.crystallography.net/cod/cif/1/00/15/1001528.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1001528
+loop_
+_publ_author_name
+'Rouillon, T'
+'Hervieu, M'
+'Domenges, B'
+'Raveau, B'
+_publ_section_title
+;
+Structural study of the oxide Pb~2~Sr~2~PrCeCu~3~O~10~, intergrowth of
+0201- and 0222-type structures
+;
+_journal_coden_ASTM              JSSCBI
+_journal_name_full               'Journal of Solid State Chemistry'
+_journal_page_first              63
+_journal_page_last               74
+_journal_paper_doi               10.1006/jssc.1993.1079
+_journal_volume                  103
+_journal_year                    1993
+_chemical_formula_structural     'Pb2.02 Sr2.02 (Pr Ce) Cu3.01 O10.056'
+_chemical_formula_sum            'Ce Cu3.01 O10.056 Pb2.02 Pr Sr2.02'
+_chemical_name_systematic
+;
+Lead strontium praseodymium cerium copper oxide (2./2./1/1/3./10.1)
+;
+_space_group_IT_number           69
+_symmetry_cell_setting           orthorhombic
+_symmetry_Int_Tables_number      69
+_symmetry_space_group_name_Hall  '-F 2 2'
+_symmetry_space_group_name_H-M   'F m m m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   5.4512(1)
+_cell_length_b                   5.4799(1)
+_cell_length_c                   37.0107(8)
+_cell_volume                     1105.6
+_refine_ls_R_factor_all          0.029
+_cod_depositor_comments
+;
+Luca Lutterotti, 10/5/2013
+
+Problem with occupancy exceeding 1. We re-normalize everything to 1 for the maximum.
+
+;
+_cod_database_code               1001528
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x,-y,-z
+-x,y,-z
+-x,-y,z
+-x,-y,-z
+-x,y,z
+x,-y,z
+x,y,-z
+x,1/2+y,1/2+z
+1/2+x,y,1/2+z
+1/2+x,1/2+y,z
+x,1/2-y,1/2-z
+1/2+x,-y,1/2-z
+1/2+x,1/2-y,-z
+-x,1/2+y,1/2-z
+1/2-x,y,1/2-z
+1/2-x,1/2+y,-z
+-x,1/2-y,1/2+z
+1/2-x,-y,1/2+z
+1/2-x,1/2-y,z
+-x,1/2-y,1/2-z
+1/2-x,-y,1/2-z
+1/2-x,1/2-y,-z
+-x,1/2+y,1/2+z
+1/2-x,y,1/2+z
+1/2-x,1/2+y,z
+x,1/2-y,1/2+z
+1/2+x,-y,1/2+z
+1/2+x,1/2-y,z
+x,1/2+y,1/2-z
+1/2+x,y,1/2-z
+1/2+x,1/2+y,-z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_calc_flag
+Cu1 Cu2+ 4 a 0. 0. 0. 1.00(2) 0 d
+Pb1 Pb2+ 8 i 0.5 0. 0.0475(1) 1.00(2) 0 d
+Sr1 Sr2+ 8 i 0. 0. 0.1184(1) 1.00(2) 0 d
+Cu2 Cu2+ 8 i 0.5 0. 0.1665(1) 1.0 0 d
+Pr1 Pr3+ 8 i 0. 0. 0.2146(2) 0.50(1) 0 d
+Ce1 Ce3+ 8 i 0. 0. 0.2146(2) 0.50(1) 0 d
+O1 O2- 8 e 0.25 0.25 0. 0.02(1) 0 d
+O2 O2- 32 p 0.0608(17) 0.0693(15) 0.0491(2) 0.250(5) 0 d
+O3 O2- 8 i 0.5 0. 0.1050(2) 1.0 0 d
+O4 O2- 16 j 0.25 0.25 0.1717(1) 1.0 0 d
+O5 O2- 8 f 0.25 0.25 0.25 1.0 0 d
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Cu2+ 2.000
+Pb2+ 2.000
+Sr2+ 2.000
+Pr3+ 3.000
+Ce3+ 3.000
+O2- -2.000

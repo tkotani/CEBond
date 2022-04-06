@@ -1,0 +1,126 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/19/2101924.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2101924
+loop_
+_publ_author_name
+'Hester, J. R.'
+'Tomimoto, K.'
+'Noma, H.'
+'Okamura, F. P.'
+'Akimitsu, J.'
+_publ_section_title
+;
+ Electron Density in YTiO~3~
+;
+_journal_issue                   5
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              739
+_journal_page_last               744
+_journal_paper_doi               10.1107/S010876819700551X
+_journal_volume                  53
+_journal_year                    1997
+_chemical_formula_sum            'O3 Ti Y'
+_chemical_formula_weight         184.79
+_space_group_IT_number           62
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2ac 2n'
+_symmetry_space_group_name_H-M   'P n m a'
+_atom_type_scat_source           IntTabC
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            4
+_cell_length_a                   5.6901(4)
+_cell_length_b                   7.6130(7)
+_cell_length_c                   5.3381(6)
+_cell_measurement_reflns_used    3
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      6.9
+_cell_measurement_theta_min      4.5
+_cell_volume                     231.24(4)
+_diffrn_measurement_device       Huber
+_diffrn_measurement_method       \q
+_diffrn_radiation_type           WK\a
+_diffrn_radiation_wavelength     0.21060
+_diffrn_reflns_av_R_equivalents  0.0230
+_diffrn_reflns_limit_h_max       16
+_diffrn_reflns_limit_h_min       -22
+_diffrn_reflns_limit_k_max       21
+_diffrn_reflns_limit_k_min       -21
+_diffrn_reflns_limit_l_max       15
+_diffrn_reflns_limit_l_min       -15
+_diffrn_reflns_number            13340
+_diffrn_reflns_theta_max         25
+_diffrn_standards_decay_%        0
+_diffrn_standards_interval_count 100
+_diffrn_standards_number         6
+_exptl_absorpt_coefficient_mu    1.02
+_exptl_absorpt_correction_T_max  0.322
+_exptl_absorpt_correction_T_min  0.310
+_exptl_absorpt_correction_type   'spherical (Tibballs, 1982)'
+_exptl_crystal_colour            black
+_exptl_crystal_density_diffrn    5.308
+_exptl_crystal_description       sphere
+_exptl_crystal_size_rad          0.40
+_refine_diff_density_max         1.60
+_refine_diff_density_min         -1.53
+_refine_ls_extinction_coef       'y = 0.84'
+_refine_ls_extinction_method     'Zachariasen (1967)'
+_refine_ls_goodness_of_fit_obs   1.64(2)
+_refine_ls_number_parameters     29
+_refine_ls_number_reflns         2898
+_refine_ls_R_factor_obs          0.0024
+_refine_ls_shift/esd_max         0.0016
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 1/\s^2^(F)'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.0017
+_reflns_number_observed          2898
+_reflns_number_total             2996
+_reflns_observed_criterion       F>0
+_cod_data_source_file            oa0005.cif
+_cod_data_source_block           2
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'w = 1/\s^2^(F)' was changed to
+'calc'. New tag '_refine_ls_weighting_details' was created. The value
+of the new tag was set to 'w = 1/\s^2^(F)'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_formula_sum        'O3 Ti1 Y1'
+_cod_database_code               2101924
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+1/2+x,y,1/2-z
+x,1/2-y,z
+1/2-x,1/2+y,1/2+z
+-x,-y,-z
+1/2-x,-y,1/2+z
+-x,1/2+y,-z
+1/2+x,1/2-y,1/2-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Y .073390(10) .25 .978950(10)
+Ti .5 .0 .0
+O1 .45736(9) .25 .12090(10)
+O2 .30942(6) .05824(6) .69031(7)

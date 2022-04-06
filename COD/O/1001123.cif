@@ -1,0 +1,93 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/1/00/11/1001123.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1001123
+loop_
+_publ_author_name
+'Studer, F'
+'Montfort, Y'
+'Raveau, B'
+_publ_section_title
+;
+Evolution structurale de nouvelles Perovskites lacunaires Y~x~ (Ta~3x~
+W~1-3X~) O~3~
+;
+_journal_coden_ASTM              JSSCBI
+_journal_name_full               'Journal of Solid State Chemistry'
+_journal_page_first              269
+_journal_page_last               276
+_journal_paper_doi               10.1016/0022-4596(73)90133-3
+_journal_volume                  7
+_journal_year                    1973
+_chemical_formula_structural     'Y0.06 (TA0.18 W0.82) O3'
+_chemical_formula_sum            'O3 Ta0.18 W0.82 Y0.06'
+_chemical_name_systematic
+;
+Yttrium tantalum tungsten oxide (0.06/0.2/0.8/3)
+;
+_space_group_IT_number           65
+_symmetry_cell_setting           orthorhombic
+_symmetry_Int_Tables_number      65
+_symmetry_space_group_name_Hall  '-C 2 2'
+_symmetry_space_group_name_H-M   'C m m m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   5.298
+_cell_length_b                   5.377
+_cell_length_c                   3.774
+_cell_volume                     107.5
+_refine_ls_R_factor_all          0.067
+_cod_original_formula_sum        'O3 Ta.18 W.82 Y.06'
+_cod_database_code               1001123
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,z
+x,-y,-z
+-x,y,-z
+-x,-y,-z
+x,y,-z
+-x,y,z
+x,-y,z
+1/2+x,1/2+y,z
+1/2-x,1/2-y,z
+1/2+x,1/2-y,-z
+1/2-x,1/2+y,-z
+1/2-x,1/2-y,-z
+1/2+x,1/2+y,-z
+1/2-x,1/2+y,z
+1/2+x,1/2-y,z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_calc_flag
+Ta1 Ta5+ 2 c 0.5 0. 0.5 0.18 0 d
+W1 W6+ 2 c 0.5 0. 0.5 0.82 0 d
+Y1 Y3+ 2 a 0. 0. 0. 0.06 0 d
+O1 O2- 2 b 0.5 0. 0. 1. 0 d
+O2 O2- 4 f 0.25 0.25 0.5 1. 0 d
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Ta5+ 5.000
+W6+ 6.000
+Y3+ 3.000
+O2- -2.000

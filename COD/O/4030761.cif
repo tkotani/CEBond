@@ -1,0 +1,209 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-21 05:35:49 +0200 (Mon, 21 Mar 2016) $
+#$Revision: 178486 $
+#$URL: svn://www.crystallography.net/cod/cif/4/03/07/4030761.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4030761
+loop_
+_publ_author_name
+'Tyutyunnik, A. P.'
+'Zubkov, V. G.'
+'Kellerman, D. G.'
+'Pereliaev, V. A.'
+'Kar Kin, A. E.'
+'Svensson, G.'
+_publ_section_title
+;
+ Synthesis, superconducting properties and structural (including electron
+ diffraction) studies of NaxNbO2 and LixNbO2
+;
+_journal_name_full
+'European Journal of Solid State and Inorganic Chemistry'
+_journal_page_first              53
+_journal_page_last               65
+_journal_volume                  33
+_journal_year                    1996
+_chemical_formula_sum            'Na0.5 Nb O2'
+_chemical_formula_weight         136.4
+_space_group_IT_number           194
+_symmetry_cell_setting           hexagonal
+_symmetry_Int_Tables_number      194
+_symmetry_space_group_name_Hall  '-P 6c 2c'
+_symmetry_space_group_name_H-M   'P 63/m m c'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            2
+_cell_length_a                   2.9478(1)
+_cell_length_b                   2.9478(1)
+_cell_length_c                   11.6985(1)
+_cell_volume                     88.035(4)
+_diffrn_ambient_temperature      293
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_type           CuK\a
+_diffrn_radiation_wavelength     1.54056
+_exptl_absorpt_coefficient_mu    53.75
+_exptl_crystal_density_diffrn    5.285
+_exptl_crystal_F_000             129
+_pd_proc_ls_prof_R_factor        0.074
+_pd_proc_ls_prof_wR_expected     0.0337
+_pd_proc_ls_prof_wR_factor       0.102
+_refine_ls_R_I_factor            0.053
+_cod_data_source_file            EJSSIC-1996-33-53-65-1.cif
+_cod_data_source_block           NaxNbO2
+_cod_depositor_comments
+;
+Rietveld refinements, no thermal parameters provided
+;
+_cod_original_cell_volume        88.035(7)
+_cod_database_code               4030761
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 x-y,x,1/2+z
+3 -y,x-y,z
+4 -x,-y,1/2+z
+5 -x+y,-x,z
+6 y,-x+y,1/2+z
+7 -y,-x,1/2-z
+8 x-y,-y,-z
+9 x,x-y,1/2-z
+10 y,x,-z
+11 -x+y,y,1/2-z
+12 -x,-x+y,-z
+13 -x,-y,-z
+14 -x+y,-x,1/2-z
+15 y,-x+y,-z
+16 x,y,1/2-z
+17 x-y,x,-z
+18 -y,x-y,1/2-z
+19 y,x,1/2+z
+20 -x+y,y,z
+21 -x,-x+y,1/2+z
+22 -y,-x,z
+23 x-y,-y,1/2+z
+24 x,x-y,z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_thermal_displace_type
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+Nb Nb Uiso 0.66667 0.33333 0.25000 1.000 1.0000
+O O Uiso 0.33333 0.66667 0.1427(2) 1.000 1.0000
+Na Na Uiso 0.00000 0.00000 0.00000 0.66(5) 1.0000
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Na Na 0.1353 0.1239 ' International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Nb Nb -0.1121 2.4826 ' International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0492 0.0322 ' International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+Nb Nb O 90.00 1_445 . yes
+Nb Nb O 45.82(4) 1_455 . yes
+Nb Nb O 134.18(4) 1_545 . yes
+O Nb O 88.37(5) . 1_545 yes
+Nb Nb O 45.82(4) 1_565 . yes
+Nb Nb O 134.18(4) 1_655 . yes
+O Nb O 88.37(5) . 1_655 yes
+Nb Nb O 90.00 1_665 . yes
+O Nb O 132.54(2) . 7_655 yes
+O Nb O 72.82(7) . 7_665 yes
+O Nb O 132.54(2) . 7_765 yes
+Nb Nb Nb 60.00 1_445 1_455 yes
+Nb Nb Nb 60.00 1_445 1_545 yes
+Nb Nb O 45.82(4) 1_445 1_545 yes
+Nb Nb Nb 120.00 1_445 1_565 yes
+Nb Nb Nb 120.00 1_445 1_655 yes
+Nb Nb O 134.18(4) 1_445 1_655 yes
+Nb Nb Nb 180.00 1_445 1_665 yes
+Nb Nb O 45.82(4) 1_445 7_655 yes
+Nb Nb O 90.00 1_445 7_665 yes
+Nb Nb O 134.18(4) 1_445 7_765 yes
+Nb Nb Nb 120.00 1_455 1_545 yes
+Nb Nb O 90.00 1_455 1_545 yes
+Nb Nb Nb 60.00 1_455 1_565 yes
+Nb Nb Nb 180.00 1_455 1_655 yes
+Nb Nb O 134.18(4) 1_455 1_655 yes
+Nb Nb Nb 120.00 1_455 1_665 yes
+Nb Nb O 90.00 1_455 7_655 yes
+Nb Nb O 45.82(4) 1_455 7_665 yes
+Nb Nb O 134.18(4) 1_455 7_765 yes
+Nb Nb O 45.82(4) 1_545 1_545 yes
+Nb Nb Nb 180.00 1_545 1_565 yes
+Nb Nb Nb 60.00 1_545 1_655 yes
+Nb Nb O 90.00 1_545 1_655 yes
+Nb Nb Nb 120.00 1_545 1_665 yes
+Nb Nb O 45.82(4) 1_545 7_655 yes
+Nb Nb O 134.18(4) 1_545 7_665 yes
+Nb Nb O 90.00 1_545 7_765 yes
+Nb Nb O 134.18(4) 1_565 1_545 yes
+Nb Nb O 90.00 1_655 1_545 yes
+O Nb O 88.37(5) 1_545 1_655 yes
+Nb Nb O 134.18(4) 1_665 1_545 yes
+O Nb O 72.82(7) 1_545 7_655 yes
+O Nb O 132.54(2) 1_545 7_665 yes
+O Nb O 132.54(2) 1_545 7_765 yes
+Nb Nb Nb 120.00 1_565 1_655 yes
+Nb Nb O 90.00 1_565 1_655 yes
+Nb Nb Nb 60.00 1_565 1_665 yes
+Nb Nb O 134.18(4) 1_565 7_655 yes
+Nb Nb O 45.82(4) 1_565 7_665 yes
+Nb Nb O 90.00 1_565 7_765 yes
+Nb Nb O 45.82(4) 1_655 1_655 yes
+Nb Nb Nb 60.00 1_655 1_665 yes
+Nb Nb O 90.00 1_655 7_655 yes
+Nb Nb O 134.18(4) 1_655 7_665 yes
+Nb Nb O 45.82(4) 1_655 7_765 yes
+Nb Nb O 45.82(4) 1_665 1_655 yes
+O Nb O 132.54(2) 1_655 7_655 yes
+O Nb O 132.54(2) 1_655 7_665 yes
+O Nb O 72.82(7) 1_655 7_765 yes
+Nb Nb O 134.18(4) 1_665 7_655 yes
+Nb Nb O 90.00 1_665 7_665 yes
+Nb Nb O 45.82(4) 1_665 7_765 yes
+O Nb O 88.37(5) 7_655 7_665 yes
+O Nb O 88.37(5) 7_655 7_765 yes
+O Nb O 88.37(5) 7_665 7_765 yes
+Nb O Nb 88.37(7) . 1_455 yes
+Nb O Nb 88.37(7) . 1_565 yes
+Nb O Nb 88.37(7) 1_455 1_565 yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Nb O 2.1148(14) . yes
+Nb Nb 2.9478(1) 1_445 yes
+Nb Nb 2.9478(1) 1_455 yes
+Nb Nb 2.9478(1) 1_545 yes
+Nb O 2.1148(14) 1_545 yes
+Nb Nb 2.9478(1) 1_565 yes
+Nb Nb 2.9478(1) 1_655 yes
+Nb O 2.1148(14) 1_655 yes
+Nb Nb 2.9478(1) 1_665 yes
+Nb O 2.1148(14) 7_655 yes
+Nb O 2.1148(14) 7_665 yes
+Nb O 2.1148(14) 7_765 yes

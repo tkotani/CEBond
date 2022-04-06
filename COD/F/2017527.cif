@@ -1,0 +1,230 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 00:18:51 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176760 $
+#$URL: svn://www.crystallography.net/cod/cif/2/01/75/2017527.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2017527
+loop_
+_publ_author_name
+'Smr\<cok, \<Lubom\'ir'
+'\<Cern\'y, Radovan'
+'Bo\<ca, Miroslav'
+'Mackov\'a, Iveta'
+'Kub\'ikov\'a, Blanka'
+_publ_section_title
+;
+ K~3~TaF~8~ from laboratory X-ray powder data
+;
+_journal_coeditor_code           SQ3230
+_journal_issue                   2
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              i16
+_journal_page_last               i18
+_journal_paper_doi               10.1107/S0108270109055140
+_journal_volume                  66
+_journal_year                    2010
+_chemical_formula_iupac          'K3 Ta F8'
+_chemical_formula_moiety         '3(K +), F7 Ta 2-, F -'
+_chemical_formula_sum            'F8 K3 Ta'
+_chemical_formula_weight         450.25
+_chemical_name_systematic
+;
+tripotassium octafluorotantalate
+;
+_space_group_IT_number           186
+_symmetry_cell_setting           hexagonal
+_symmetry_space_group_name_Hall  'P 6c -2c'
+_symmetry_space_group_name_H-M   'P 63 m c'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            2
+_cell_length_a                   8.2533(4)
+_cell_length_b                   8.2533(4)
+_cell_length_c                   6.3196(4)
+_cell_measurement_temperature    298
+_cell_volume                     372.80(3)
+_computing_cell_refinement       'ITO (Visser, 1969)'
+_computing_data_collection       'X-POW (Stoe & Cie, DATE?)'
+_computing_data_reduction        X-POW
+_computing_molecular_graphics    'DIAMOND (Brandenburg, 2000)'
+_computing_publication_material  'Platon (Spek, 2009)'
+_computing_structure_refinement
+;
+VASP (Kresse & Furthm\"uller, 1996; Kresse
+& Hafner, 1993) and Fullprof (Rodriguez-Carvajal, 1993)
+;
+_computing_structure_solution    'Fox (Favre-Nicolin & \<Cern\'y, 2002)'
+_diffrn_ambient_temperature      298
+_diffrn_measurement_device_type  'Stoe Stadi P'
+_diffrn_radiation_monochromator  Ge(111)
+_diffrn_radiation_wavelength     1.78892
+_exptl_crystal_density_diffrn    4.011
+_pd_char_colour                  white
+_pd_instr_location
+;
+?
+;
+_pd_meas_2theta_range_inc        0.02
+_pd_meas_2theta_range_max        69.98
+_pd_meas_2theta_range_min        7.12
+_pd_meas_number_of_points        3144
+_pd_meas_scan_method             step
+_pd_proc_info_excluded_regions   none
+_pd_proc_ls_background_function  'Linear interpolation'
+_pd_proc_ls_pref_orient_corr
+;
+None
+;
+_pd_proc_ls_profile_function     'Modified Lorentzian'
+_pd_proc_ls_prof_R_factor        12.7252
+_pd_proc_ls_prof_wR_expected     12.4904
+_pd_proc_ls_prof_wR_factor       15.8702
+_pd_spec_mounting
+' The sample was mounted between two  Mylar foils.'
+_pd_spec_mount_mode              transmission
+_pd_spec_shape                   flat_sheet
+_pd_spec_size_equat              0.1
+_refine_ls_matrix_type           full
+_refine_ls_number_constraints    0
+_refine_ls_number_parameters     4
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.6
+_refine_ls_shift/su_max          0.01
+_refine_ls_shift/su_mean         0.03
+_refine_ls_weighting_scheme      sigma
+_cod_data_source_file            sq3230.cif
+_cod_data_source_block           I
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_symmetry_cell_setting' value 'Hexagonal' changed to 'hexagonal'
+according to '/home/saulius/struct/CIF-dictionaries/cif_core.dic'
+dictionary named 'cif_core.dic' version 2.4.1 from
+2010-06-29.
+
+'_refine_ls_matrix_type' value 'Full' changed to 'full'
+according to '/home/saulius/struct/CIF-dictionaries/cif_core.dic'
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Hexagonal' changed to 'hexagonal'
+according to /home/saulius/struct/CIF-dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.1 from
+2010-06-29.
+
+'_refine_ls_matrix_type' value 'Full' changed to 'full'
+according to /home/saulius/struct/CIF-dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_original_cell_volume        372.79(3)
+_cod_database_code               2017527
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 x-y,x,1/2+z
+3 -y,x-y,z
+4 -x,-y,1/2+z
+5 -x+y,-x,z
+6 y,-x+y,1/2+z
+7 y,x,1/2+z
+8 -x+y,y,z
+9 -x,-x+y,1/2+z
+10 -y,-x,z
+11 x-y,-y,1/2+z
+12 x,x-y,z
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+Ta Ta1 0.33333 0.66667 0.74070 0.080(2) Uiso . . 1.000
+K K1 0.15470 0.30940 0.24310 0.090(3) Uiso . . 1.000
+F F1 0.00000 0.00000 0.00220 0.091(5) Uiso . . 1.000
+F F2 0.43900 0.56100 0.53440 0.091(5) Uiso . . 1.000
+F F3 0.33333 0.66667 1.05470 0.091(5) Uiso . . 1.000
+F F4 0.20030 0.79970 0.81850 0.091(5) Uiso . . 1.000
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Ta Ta -0.7052 6.5227 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+K K 0.2009 0.2494 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+F F 0.0171 0.0103 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+F2 Ta1 F3 . . . 130.80 no
+F2 Ta1 F4 . . . 153.70 no
+F2 Ta1 F2 . . 3_665 81.93 no
+F2 Ta1 F4 . . 3_665 78.29 no
+F2 Ta1 F2 . . 5_565 81.93 no
+F2 Ta1 F4 . . 5_565 78.29 no
+F3 Ta1 F4 . . . 75.50 no
+F2 Ta1 F3 3_665 . . 130.80 no
+F3 Ta1 F4 . . 3_665 75.50 no
+F2 Ta1 F3 5_565 . . 130.80 no
+F3 Ta1 F4 . . 5_565 75.50 no
+F2 Ta1 F4 3_665 . . 78.29 no
+F4 Ta1 F4 . . 3_665 113.96 no
+F2 Ta1 F4 5_565 . . 78.29 no
+F4 Ta1 F4 . . 5_565 113.96 no
+F2 Ta1 F4 3_665 . 3_665 153.70 no
+F2 Ta1 F2 3_665 . 5_565 81.93 no
+F2 Ta1 F4 3_665 . 5_565 78.29 no
+F2 Ta1 F4 5_565 . 3_665 78.29 no
+F4 Ta1 F4 3_665 . 5_565 113.96 no
+F2 Ta1 F4 5_565 . 5_565 153.70 no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Ta1 F2 . . 1.99530(10) yes
+Ta1 F3 . . 1.98440(10) yes
+Ta1 F4 . . 1.96430(10) yes
+Ta1 F2 . 3_665 1.99530(10) no
+Ta1 F4 . 3_665 1.96430(10) no
+Ta1 F2 . 5_565 1.99530(10) no
+Ta1 F4 . 5_565 1.96430(10) no
+K1 F4 . 4_564 2.6427(2) no
+K1 F4 . 2_654 2.6427(2) yes
+K1 F1 . . 2.6848(2) yes
+K1 F1 . 2_555 2.7517(2) yes
+K1 F4 . 3_664 2.7614(2) yes
+K1 F3 . 1_554 2.8175(2) yes
+K1 F2 . . 2.8869(2) yes
+K1 F2 . 5_565 2.8869(2) no

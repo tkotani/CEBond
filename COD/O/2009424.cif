@@ -1,0 +1,144 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/94/2009424.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2009424
+loop_
+_publ_author_name
+'Giaquinta, D.M.'
+'Davis, W.M.'
+'Zur Loye, H.-C.'
+_publ_section_title
+;
+ Structure of indium iron oxide
+;
+_journal_issue                   1
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              5
+_journal_page_last               7
+_journal_paper_doi               10.1107/S0108270193007723
+_journal_volume                  50
+_journal_year                    1994
+_chemical_formula_moiety         'In1 Fe1 O3'
+_chemical_formula_sum            'Fe In O3'
+_chemical_formula_weight         218.67
+_symmetry_cell_setting           hexagonal
+_symmetry_space_group_name_Hall  '-P 6c 2c'
+_symmetry_space_group_name_H-M   'P 63/m m c'
+_atom_type_scat_source
+;International Tables for X-ray Crystallography (1974, Vol. IV, Tables 2.2A,
+2.3.1)
+;
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            2
+_cell_length_a                   3.3270(2)
+_cell_length_b                   3.3270(2)
+_cell_length_c                   12.17500(10)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    296
+_cell_measurement_theta_max      12
+_cell_measurement_theta_min      9
+_cell_volume                     116.709(10)
+_diffrn_measurement_device       'Enraf-Nonius CAD-4'
+_diffrn_measurement_method       \w/2\q
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71069
+_diffrn_reflns_av_R_equivalents  0.028
+_diffrn_reflns_limit_h_max       4
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       4
+_diffrn_reflns_limit_k_min       -4
+_diffrn_reflns_limit_l_max       16
+_diffrn_reflns_limit_l_min       -16
+_diffrn_reflns_number            1027
+_diffrn_reflns_theta_max         29.8
+_diffrn_standards_decay_%        'no decay'
+_diffrn_standards_interval_time  60
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    15.66
+_exptl_absorpt_correction_T_max  1.10
+_exptl_absorpt_correction_T_min  0.89
+_exptl_absorpt_correction_type   'empirical (DIFABS; Walker & Stuart, 1983)'
+_exptl_crystal_colour            brown
+_exptl_crystal_density_diffrn    6.219
+_exptl_crystal_description       'hexagonal plate'
+_exptl_crystal_size_max          0.08
+_exptl_crystal_size_mid          0.08
+_exptl_crystal_size_min          0.02
+_refine_diff_density_max         0.54
+_refine_diff_density_min         -0.74
+_refine_ls_extinction_coef       0.2545(2)E-4
+_refine_ls_extinction_method     'secondary- TEXSAN'
+_refine_ls_goodness_of_fit_obs   1.28
+_refine_ls_number_parameters     11
+_refine_ls_number_reflns         85
+_refine_ls_R_factor_obs          0.014
+_refine_ls_shift/esd_max         0.01
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 4F~o~^2^/\s^2^(F~o~^2^)'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.015
+_reflns_number_observed          85
+_reflns_number_total             113
+_reflns_observed_criterion       I>3.00\s(I)
+_cod_data_source_file            st1059.cif
+_cod_data_source_block           st1059_structure_1_of_1
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value '4F~o~^2^/\s^2^(F~o~^2^)' was
+changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to 'w =
+4F~o~^2^/\s^2^(F~o~^2^)'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        116.76(2)
+_cod_original_formula_sum        'Fe1 In1 O3'
+_cod_database_code               2009424
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+In .0 .0 .0 .48(2)
+Fe 0.666666666666667 0.333333333333333 0.25 .32(3)
+O(1) 0.666666666666667 0.333333333333333 .0850(3) .55(8)
+O(2) .0 .0 0.25 .70(10)
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+O(1) In O(1) 99.30(10) yes
+O(1) In O(1) 80.70(10) yes
+O(1) In O(1) 180 yes
+O(1) Fe O(2) 90 yes
+O(2) Fe O(2) 120 yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_publ_flag
+In In 3.3270(2) yes
+In O(1) 2.182(2) yes
+Fe O(1) 2.008(4) yes
+Fe O(2) 1.92080(10) yes
+In Fe 3.59920(10) yes
+Fe Fe 3.3270(2) yes

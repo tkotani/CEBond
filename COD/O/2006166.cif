@@ -1,0 +1,215 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-19 16:29:56 +0200 (Fri, 19 Feb 2016) $
+#$Revision: 176759 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/61/2006166.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2006166
+loop_
+_publ_author_name
+'Nishi, Fumito'
+_publ_section_title
+;
+ Strontium Metasilicate, SrSiO~3~
+;
+_journal_issue                   5
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              534
+_journal_page_last               536
+_journal_paper_doi               10.1107/S0108270196015338
+_journal_volume                  53
+_journal_year                    1997
+_chemical_formula_iupac          'Sr Si O3'
+_chemical_formula_sum            'O3 Si Sr'
+_chemical_formula_weight         163.71
+_space_group_IT_number           15
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-C 2yc'
+_symmetry_space_group_name_H-M   'C 1 2/c 1'
+_atom_type_scat_source           IntTabIV
+_cell_angle_alpha                90
+_cell_angle_beta                 111.570(10)
+_cell_angle_gamma                90
+_cell_formula_units_Z            12
+_cell_length_a                   12.333(2)
+_cell_length_b                   7.1460(10)
+_cell_length_c                   10.8850(10)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      34.10
+_cell_measurement_theta_min      33.15
+_cell_volume                     892.1(2)
+_computing_cell_refinement       'MSC/AFC Diffractometer Control Software'
+_computing_data_collection
+;
+MSC/AFC Diffractometer Control Software (Molecular Structure
+Corporation, 1992a)
+;
+_computing_data_reduction
+'TEXSAN (Molecular Structure Corporation, 1992b)'
+_computing_structure_refinement
+;
+LINUS (Coppens & Hamilton, 1970). Program(s) used to calculate Fourier maps:
+ORFFE (Busing, Martin & Levy, 1964)
+;
+_computing_structure_solution    'MITHRIL (Gilmore, 1983) in TEXSAN'
+_diffrn_measurement_device       'Rigaku AFC-5'
+_diffrn_measurement_method       \w/2\q
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.030
+_diffrn_reflns_limit_h_max       18
+_diffrn_reflns_limit_h_min       -19
+_diffrn_reflns_limit_k_max       11
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       17
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            2253
+_diffrn_reflns_theta_max         35
+_diffrn_standards_decay_%        0.5
+_diffrn_standards_interval_count 150
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    16.32
+_exptl_absorpt_correction_T_max  0.168
+_exptl_absorpt_correction_T_min  0.141
+_exptl_absorpt_correction_type   spherical
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    3.67
+_exptl_crystal_description       Sphere
+_exptl_crystal_F_000             912
+_exptl_crystal_size_rad          0.14
+_refine_diff_density_max         0.41
+_refine_diff_density_min         -0.39
+_refine_ls_extinction_coef       3.1E-6(4)
+_refine_ls_extinction_method     'isotropic (Zachariasen, 1963)'
+_refine_ls_goodness_of_fit_obs   1.34
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     72
+_refine_ls_number_reflns         1006
+_refine_ls_R_factor_obs          .056
+_refine_ls_shift/esd_max         0.06
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 1/\s^2^(F)'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         .067
+_reflns_number_observed          1006
+_reflns_number_total             2029
+_reflns_observed_criterion       I>3\s(I)
+_cod_data_source_file            ta1133.cif
+_cod_data_source_block           a
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'w = 1/\s^2^(F)' was changed to
+'calc'. New tag '_refine_ls_weighting_details' was created. The value
+of the new tag was set to 'w = 1/\s^2^(F)'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_sg_symbol_H-M      'C 2/c'
+_cod_database_code               2006166
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+1/2+x,1/2+y,z
+x,-y,1/2+z
+1/2+x,1/2-y,1/2+z
+-x,-y,-z
+1/2-x,1/2-y,-z
+-x,y,1/2-z
+1/2-x,1/2+y,1/2-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Sr(1) .0039(3) .0043(4) .0066(4) .0011(4) .0017(3) -.0007(4)
+Sr(2) .0034(5) .0063(8) .0063(7) .0014(5) .0017(5) .0003(6)
+Si(1) .0024(11) .0042(12) .0032(11) .0014(9) .0007(9) .0005(10)
+Si(2) .0031(16) .0042(16) .0045(18) .0 .0021(14) .0
+O(1) .011(3) .008(3) .005(3) -.004(3) .003(3) -.005(3)
+O(2) .003(3) .013(4) .018(4) -.003(3) .005(3) .001(4)
+O(3) .009(3) .004(3) .004(3) .001(2) .005(3) .000(2)
+O(4) .006(3) .008(3) .009(3) -.001(3) .005(3) .003(3)
+O(5) .009(5) .005(5) .005(5) .0 .002(4) .0
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+Sr(1) .08730(10) .2396(2) .4992(2) .0051(2)
+Sr(2) .25 .25 0 .0050(3)
+Si(1) .1241(3) .4574(5) .2460(4) .0031(5)
+Si(2) 0 .8319(7) .25 .0035(7)
+O(1) .1272(9) .4067(15) .1045(9) .0087(15)
+O(2) .2220(8) .4059(16) .3832(11) .0102(16)
+O(3) .1072(8) .6903(13) .2495(10) .0049(13)
+O(4) .0468(8) .9342(14) .3888(9) .0069(14)
+O(5) 0 .369(2) .25 .006(2)
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O(2) Si(1) O(1) . . 125.3(7) yes
+O(2) Si(1) O(3) . . 105.5(5) yes
+O(2) Si(1) O(5) . . 106.0(5) yes
+O(1) Si(1) O(3) . . 107.1(6) yes
+O(1) Si(1) O(5) . . 106.7(4) yes
+O(3) Si(1) O(5) . . 104.6(7) yes
+O(4) Si(2) O(4) . 7_555 125.0(6) yes
+O(4) Si(2) O(3) . . 105.8(5) yes
+O(4) Si(2) O(3) . 7_555 106.8(6) yes
+O(4) Si(2) O(3) 7_555 . 106.8(6) yes
+O(4) Si(2) O(3) 7_555 7_555 105.8(5) yes
+O(3) Si(2) O(3) . 7_555 105.2(6) yes
+Si(2) O(3) Si(1) . . 135.0(6) yes
+Si(1) O(5) Si(1) . 7_555 135.6(8) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Sr(1) O(4) . 1_545 2.453(11) yes
+Sr(1) O(2) . 6_556 2.457(9) yes
+Sr(1) O(5) . . 2.688(5) yes
+Sr(1) O(3) . 3_565 2.691(11) yes
+Sr(1) O(4) . 5_566 2.692(11) yes
+Sr(1) O(2) . . 2.703(13) yes
+Sr(1) O(1) . 7_555 2.739(10) yes
+Sr(1) O(1) . 3_565 2.744(11) yes
+Sr(2) O(1) . . 2.471(12) yes
+Sr(2) O(1) . 6_555 2.471(12) yes
+Sr(2) O(3) . 3_564 2.681(9) yes
+Sr(2) O(3) . 8_545 2.681(9) yes
+Sr(2) O(4) . 3_564 2.692(9) yes
+Sr(2) O(4) . 8_545 2.692(9) yes
+Sr(2) O(2) . 3_564 2.731(12) yes
+Sr(2) O(2) . 8_545 2.731(12) yes
+Si(1) O(2) . . 1.580(10) yes
+Si(1) O(1) . . 1.596(12) yes
+Si(1) O(5) . . 1.671(7) yes
+Si(1) O(3) . . 1.679(10) yes
+Si(2) O(4) . . 1.584(10) yes
+Si(2) O(4) . 7_555 1.584(10) yes
+Si(2) O(3) . . 1.666(11) yes
+Si(2) O(3) . 7_555 1.666(11) yes

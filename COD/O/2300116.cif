@@ -1,0 +1,283 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-10-13 13:16:50 +0300 (Fri, 13 Oct 2017) $
+#$Revision: 201980 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/30/01/2300116.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2300116
+loop_
+_publ_author_name
+'Sowa, Heidrun'
+'Ahsbahs, Hans'
+_publ_section_title
+;
+ High-pressure X-ray investigation of zincite ZnO single crystals using
+ diamond anvils with an improved shape
+;
+_journal_coeditor_code           KO5022
+_journal_issue                   2
+_journal_name_full               'Journal of Applied Crystallography'
+_journal_page_first              169
+_journal_page_last               175
+_journal_paper_doi               10.1107/S0021889805042457
+_journal_volume                  39
+_journal_year                    2006
+_chemical_formula_sum            'O Zn'
+_chemical_formula_weight         81.37
+_chemical_melting_point          2521
+_chemical_name_common            zinc_oxide
+_chemical_name_systematic
+;
+ ?
+;
+_space_group_IT_number           186
+_symmetry_cell_setting           hexagonal
+_symmetry_space_group_name_Hall  'P 6c -2c'
+_symmetry_space_group_name_H-M   'P 63 m c'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                120.00
+_cell_formula_units_Z            2
+_cell_length_a                   3.1950(3)
+_cell_length_b                   3.1950(3)
+_cell_length_c                   5.1027(4)
+_cell_measurement_reflns_used    16
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      40.3
+_cell_measurement_theta_min      8.0
+_cell_volume                     45.110(7)
+_computing_cell_refinement
+'Ralph & Finger, J. Appl. Cryst. 15 (1982)537'
+_computing_data_collection       'STOE DIF 4, vers. 6.2.D, mod. by A. Kutoglu'
+_computing_data_reduction        'Kutoglu, CRYMIS, Univ. of Marburg, 1995'
+_computing_structure_refinement  'SHELXL-93 (Sheldrick, 1993)'
+_computing_structure_solution    'SHELXS-86 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measurement_device       STOE
+_diffrn_measurement_method       '\w scans'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0333
+_diffrn_reflns_av_sigmaI/netI    0.0181
+_diffrn_reflns_limit_h_max       2
+_diffrn_reflns_limit_h_min       -2
+_diffrn_reflns_limit_k_max       3
+_diffrn_reflns_limit_k_min       -3
+_diffrn_reflns_limit_l_max       8
+_diffrn_reflns_limit_l_min       -8
+_diffrn_reflns_number            164
+_diffrn_reflns_theta_max         34.87
+_diffrn_reflns_theta_min         7.38
+_diffrn_standards_interval_time  3_h
+_diffrn_standards_number         2
+_exptl_absorpt_coefficient_mu    26.125
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    5.991
+_exptl_crystal_description       'rectangular piece'
+_exptl_crystal_F_000             76
+_exptl_crystal_size_max          0.130
+_exptl_crystal_size_mid          0.110
+_exptl_crystal_size_min          0.03
+_refine_diff_density_max         0.507
+_refine_diff_density_min         -0.397
+_refine_ls_abs_structure_details 'Flack H D (1983), Acta Cryst. A39, 876-881'
+_refine_ls_abs_structure_Flack   -0.09(10)
+_refine_ls_extinction_coef       0.29(3)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_all   1.194
+_refine_ls_goodness_of_fit_obs   1.194
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     7
+_refine_ls_number_reflns         59
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.194
+_refine_ls_restrained_S_obs      1.194
+_refine_ls_R_factor_all          0.0140
+_refine_ls_R_factor_obs          0.0140
+_refine_ls_shift/esd_max         0.001
+_refine_ls_shift/esd_mean        0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w=1/[\s^2^(Fo^2^)+(0.0206P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         0.0325
+_refine_ls_wR_factor_obs         0.0325
+_reflns_number_observed          59
+_reflns_number_total             59
+_reflns_observed_criterion       >2sigma(I)
+_cod_data_source_file            ko5022.cif
+_cod_data_source_block           zno87
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_chemical_melting_point' value '2521_K' was changed to '2521' - the
+value should be numeric and without a unit designator.
+
+Automatic conversion script
+Id: cif_fix_values 1646 2011-03-28 12:23:43Z adriana 
+
+The following automatic conversions were performed:
+
+'_chemical_melting_point' value '2521_K' was changed to '2521' - the
+value should be numeric and without a unit designator.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'calc
+w=1/[\s^2^(Fo^2^)+(0.0206P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3' was
+changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to
+'w=1/[\s^2^(Fo^2^)+(0.0206P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_database_code               2300116
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-y, x-y, z'
+'-x+y, -x, z'
+'-x, -y, z+1/2'
+'y, -x+y, z+1/2'
+'x-y, x, z+1/2'
+'-y, -x, z'
+'-x+y, y, z'
+'x, x-y, z'
+'y, x, z+1/2'
+'x-y, -y, z+1/2'
+'-x, -x+y, z+1/2'
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Zn 0.0069(3) 0.0069(3) 0.0066(3) 0.0035(2) 0.000 0.000
+O 0.007(2) 0.007(2) 0.008(2) 0.0037(8) 0.000 0.000
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+_atom_site_disorder_group
+Zn Zn 0.3333 0.6667 0.0000 0.0068(3) Uani d S 1 .
+O O 0.3333 0.6667 0.3813(9) 0.0076(10) Uani d S 1 .
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Zn Zn 0.2839 1.4301 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O Zn O 4_564 4_674 110.73(12) ?
+O Zn O 4_564 4_664 110.73(12) ?
+O Zn O 4_674 4_664 110.73(12) ?
+O Zn O 4_564 . 108.18(13) ?
+O Zn O 4_674 . 108.18(13) ?
+O Zn O 4_664 . 108.18(13) ?
+O Zn Zn 4_564 4_564 35.95(13) ?
+O Zn Zn 4_674 4_564 91.46(11) ?
+O Zn Zn 4_664 4_564 91.46(11) ?
+O Zn Zn . 4_564 144.133(3) ?
+O Zn Zn 4_564 4_675 122.09(10) ?
+O Zn Zn 4_674 4_675 72.31(13) ?
+O Zn Zn 4_664 4_675 122.08(10) ?
+O Zn Zn . 4_675 35.867(3) ?
+Zn Zn Zn 4_564 4_675 145.932(3) ?
+O Zn Zn 4_564 4_565 72.31(13) ?
+O Zn Zn 4_674 4_565 122.09(10) ?
+O Zn Zn 4_664 4_565 122.08(10) ?
+O Zn Zn . 4_565 35.867(3) ?
+Zn Zn Zn 4_564 4_565 108.266(7) ?
+Zn Zn Zn 4_675 4_565 60.983(5) ?
+O Zn Zn 4_564 4_674 91.46(11) ?
+O Zn Zn 4_674 4_674 35.95(13) ?
+O Zn Zn 4_664 4_674 91.46(11) ?
+O Zn Zn . 4_674 144.133(3) ?
+Zn Zn Zn 4_564 4_674 60.983(5) ?
+Zn Zn Zn 4_675 4_674 108.266(7) ?
+Zn Zn Zn 4_565 4_674 145.932(3) ?
+O Zn Zn 4_564 4_665 122.08(10) ?
+O Zn Zn 4_674 4_665 122.08(10) ?
+O Zn Zn 4_664 4_665 72.31(13) ?
+O Zn Zn . 4_665 35.868(3) ?
+Zn Zn Zn 4_564 4_665 145.930(3) ?
+Zn Zn Zn 4_675 4_665 60.983(5) ?
+Zn Zn Zn 4_565 4_665 60.983(5) ?
+Zn Zn Zn 4_674 4_665 145.930(3) ?
+O Zn Zn 4_564 4_664 91.46(11) ?
+O Zn Zn 4_674 4_664 91.46(11) ?
+O Zn Zn 4_664 4_664 35.95(13) ?
+O Zn Zn . 4_664 144.132(3) ?
+Zn Zn Zn 4_564 4_664 60.983(5) ?
+Zn Zn Zn 4_675 4_664 145.930(3) ?
+Zn Zn Zn 4_565 4_664 145.930(3) ?
+Zn Zn Zn 4_674 4_664 60.983(5) ?
+Zn Zn Zn 4_665 4_664 108.265(7) ?
+Zn O Zn 4_675 4_565 110.73(12) ?
+Zn O Zn 4_675 4_665 110.73(12) ?
+Zn O Zn 4_565 4_665 110.73(12) ?
+Zn O Zn 4_675 . 108.18(13) ?
+Zn O Zn 4_565 . 108.18(13) ?
+Zn O Zn 4_665 . 108.18(13) ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Zn O 4_564 1.9415(14) ?
+Zn O 4_674 1.9415(14) ?
+Zn O 4_664 1.9416(14) ?
+Zn O . 1.946(4) ?
+Zn Zn 4_564 3.1483(2) ?
+Zn Zn 4_675 3.1483(2) ?
+Zn Zn 4_565 3.1483(2) ?
+Zn Zn 4_674 3.1483(2) ?
+Zn Zn 4_665 3.1484(2) ?
+Zn Zn 4_664 3.1484(2) ?
+O Zn 4_675 1.9415(14) ?
+O Zn 4_565 1.9415(14) ?
+O Zn 4_665 1.9416(14) ?
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 ChemSpider 2277402

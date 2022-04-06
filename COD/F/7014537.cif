@@ -1,0 +1,2345 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 06:40:26 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176432 $
+#$URL: svn://www.crystallography.net/cod/cif/7/01/45/7014537.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7014537
+loop_
+_publ_author_name
+'Friese, Karen'
+'Morgenroth, Wolfgang'
+'Posse, Jos\'e Maria'
+'Grzechnik, Andrzej'
+_publ_section_title
+;
+ Disorder in BaThF(6)- refinement of anharmonic displacement parameters
+ from high-pressure single-crystal X-ray diffraction data.
+;
+_journal_issue                   9
+_journal_name_full
+'Dalton transactions (Cambridge, England : 2003)'
+_journal_page_first              1902
+_journal_page_last               1910
+_journal_paper_doi               10.1039/c0dt00924e
+_journal_volume                  40
+_journal_year                    2011
+_chemical_formula_moiety         'Ba1 F6 Th1'
+_chemical_formula_sum            'Ba F6 Th'
+_chemical_formula_weight         483.4
+_chemical_name_systematic
+;
+barium thorium hexafluorid
+;
+_space_group_IT_number           194
+_symmetry_cell_setting           hexagonal
+_symmetry_space_group_name_Hall  '-P 6c 2c'
+_symmetry_space_group_name_H-M   'P 63/m m c'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            1
+_cell_length_a                   4.2960(10)
+_cell_length_b                   4.2960(10)
+_cell_length_c                   7.5710(10)
+_cell_measurement_reflns_used    11349
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      32.53
+_cell_measurement_theta_min      3.68
+_cell_volume                     121.01(4)
+_computing_cell_refinement       XDS
+_computing_data_collection       Mar
+_computing_data_reduction        'XDS, Jana2006'
+_computing_molecular_graphics    'Atoms Version 5.0.7'
+_computing_structure_refinement  Jana2006
+_computing_structure_solution    'coordinates from model'
+_diffrn_ambient_temperature      293
+_diffrn_detector                 MarCCD165
+_diffrn_measured_fraction_theta_full 0.99
+_diffrn_measured_fraction_theta_max 0.99
+_diffrn_measurement_device       'Huber 4-circle'
+_diffrn_measurement_method       phi-scans
+_diffrn_radiation_source         Hasylab
+_diffrn_radiation_type           synchrotron
+_diffrn_radiation_wavelength     0.47686
+_diffrn_reflns_av_R_equivalents  0.0678
+_diffrn_reflns_av_sigmaI/netI    0.0379
+_diffrn_reflns_limit_h_max       9
+_diffrn_reflns_limit_h_min       -9
+_diffrn_reflns_limit_k_max       9
+_diffrn_reflns_limit_k_min       -9
+_diffrn_reflns_limit_l_max       16
+_diffrn_reflns_limit_l_min       -16
+_diffrn_reflns_number            10630
+_diffrn_reflns_reduction_process 'XDS, Jana2006'
+_diffrn_reflns_theta_full        32.51
+_diffrn_reflns_theta_max         32.51
+_diffrn_reflns_theta_min         3.67
+_exptl_absorpt_coefficient_mu    19.085
+_exptl_absorpt_correction_T_max  0.1160
+_exptl_absorpt_correction_T_min  0.0600
+_exptl_absorpt_correction_type   numerical
+_exptl_absorpt_process_details
+'Jana2006 (Petricek, Dusek & Palatinus, 2000)'
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    6.6309
+_exptl_crystal_description       irregular
+_exptl_crystal_F_000             200
+_exptl_crystal_size_max          0.1
+_exptl_crystal_size_mid          0.09
+_exptl_crystal_size_min          0.08
+_refine_diff_density_max         2.00
+_refine_diff_density_min         -1.30
+_refine_ls_extinction_coef       1100(200)
+_refine_ls_extinction_method
+'B-C type 1 Gaussian isotropic (Becker & Coppens, 1974)'
+_refine_ls_goodness_of_fit_gt    2.10
+_refine_ls_goodness_of_fit_ref   2.06
+_refine_ls_number_constraints    14
+_refine_ls_number_parameters     13
+_refine_ls_number_reflns         313
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          0.0220
+_refine_ls_R_factor_gt           0.0206
+_refine_ls_shift/su_max          0.0437
+_refine_ls_shift/su_mean         0.0083
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     w=1/(\s^2^(F)+0.0001F^2^)
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_gt          0.0386
+_refine_ls_wR_factor_ref         0.0391
+_reflns_number_gt                293
+_reflns_number_total             313
+_reflns_threshold_expression     I>3\s(I)
+_cod_data_source_file            C0DT00924E.TXT
+_cod_data_source_block           BaThF6_split_RT
+_cod_original_sg_symbol_Hall     '-P 6c;-2c'
+_cod_original_formula_sum        'Ba1 F6 Th1'
+_cod_database_code               7014537
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -y,x-y,z
+3 -x+y,-x,z
+4 -x,-y,z+1/2
+5 y,-x+y,z+1/2
+6 x-y,x,z+1/2
+7 y,x,-z
+8 x-y,-y,-z
+9 -x,-x+y,-z
+10 -y,-x,-z+1/2
+11 -x+y,y,-z+1/2
+12 x,x-y,-z+1/2
+13 -x,-y,-z
+14 y,-x+y,-z
+15 x-y,x,-z
+16 x,y,-z+1/2
+17 -y,x-y,-z+1/2
+18 -x+y,-x,-z+1/2
+19 -y,-x,z
+20 -x+y,y,z
+21 x,x-y,z
+22 y,x,z+1/2
+23 x-y,-y,z+1/2
+24 -x,-x+y,z+1/2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_adp_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+_atom_site_occupancy
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Ba Ba 0.333333 0.666667 0.75 Uani 0.01252(8) 2 0.5 d . . .
+Th Th 0.30722(8) 0.61443(17) 0.75 Uani 0.01252(8) 6 0.1667 d . . .
+F1 F 0.255(7) 0.662(4) 0.412(5) Uani 0.065(12) 24 0.1667 d . . .
+F2 F 0 0 0.692(5) Uani 0.069(10) 4 0.5 d . . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_type_symbol
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Ba Ba 0.01199(11) 0.01199(11) 0.01357(13) 0.00599(5) 0 0
+Th Th 0.01199(11) 0.01199(11) 0.01357(13) 0.00599(5) 0 0
+F1 F 0.054(15) 0.054(15) 0.09(2) 0.027(7) 0 0
+F2 F 0.064(8) 0.064(8) 0.08(2) 0.032(4) 0 0
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Ba -0.960 1.137 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+Th -1.892 7.724 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+F 0.006 0.004 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+loop_
+_diffrn_standard_refln_index_h
+_diffrn_standard_refln_index_k
+_diffrn_standard_refln_index_l
+? ? ?
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+Th Ba Th . . 2_665 120.0(3) yes
+Th Ba Th . . 3_565 120.0(2) yes
+Th Ba F1 . . . 89.6(4) yes
+Th Ba Th 2_665 . 3_565 120.0(3) yes
+F1 Ba F1 . . 4_565 112.9(11) yes
+F1 Ba F1 . . 4_675 117.1(8) yes
+F1 Ba F1 . . 5_455 109.1(10) yes
+F1 Ba F1 . . 5_555 125.4(12) yes
+F1 Ba F1 . . 6_655 121.3(11) yes
+F1 Ba F1 . . 6_665 118.9(10) yes
+F1 Ba F1 . . 7_456 58.1(9) yes
+F1 Ba F1 . . 7_566 62.0(9) yes
+F1 Ba F1 . . 8_666 66.7(11) yes
+F1 Ba F1 . . 8_676 63.8(8) yes
+F1 Ba F1 . . 9_556 54.2(11) yes
+F1 Ba F1 . . 9_656 70.6(11) yes
+F1 Ba F1 . . 10_666 167.9(10) yes
+F1 Ba F1 . . 11_556 179.2(5) yes
+F1 Ba F1 . . 12_566 167.0(9) yes
+F1 Ba F1 . . 13_566 54.6(10) yes
+F1 Ba F1 . . 13_676 65.6(8) yes
+F1 Ba F1 . . 14_456 57.2(10) yes
+F1 Ba F1 . . 14_556 67.2(11) yes
+F1 Ba F1 . . 15_656 69.7(11) yes
+F1 Ba F1 . . 15_666 61.0(9) yes
+F1 Ba F1 . . 16_556 165.5(10) yes
+F1 Ba F1 . . 17_666 172.8(6) yes
+F1 Ba F1 . . 18_566 172.8(10) yes
+F1 Ba F1 . . 22_455 109.9(10) yes
+F1 Ba F1 . . 22_565 119.8(9) yes
+F1 Ba F1 . . 23_665 124.9(11) yes
+F1 Ba F1 . . 23_675 115.2(9) yes
+F1 Ba F1 . . 24_555 112.5(11) yes
+F1 Ba F1 . . 24_655 122.4(11) yes
+F1 Ba F2 . . . 79.7(10) yes
+F1 Ba F2 . . 1_565 74.0(11) yes
+F1 Ba F2 . . 1_665 86.5(11) yes
+F1 Ba F2 . . 10_556 99.5(9) yes
+F1 Ba F2 . . 10_566 93.9(11) yes
+F1 Ba F2 . . 10_666 106.5(11) yes
+F1 Ba F1 2_665 . 3_565 12.6(10) yes
+F1 Ba F1 2_665 . 4_565 118.9(9) yes
+F1 Ba F1 2_665 . 4_675 121.3(10) yes
+F1 Ba F1 2_665 . 5_455 117.1(8) yes
+F1 Ba F1 2_665 . 5_555 112.9(12) yes
+F1 Ba F1 2_665 . 6_655 109.1(12) yes
+F1 Ba F1 2_665 . 6_665 125.4(11) yes
+F1 Ba F1 2_665 . 7_456 63.8(8) yes
+F1 Ba F1 2_665 . 7_566 66.7(11) yes
+F1 Ba F1 2_665 . 8_666 54.2(12) yes
+F1 Ba F1 2_665 . 8_676 70.6(11) yes
+F1 Ba F1 2_665 . 9_556 62.0(10) yes
+F1 Ba F1 2_665 . 9_656 58.1(11) yes
+F1 Ba F1 2_665 . 10_666 179.2(5) yes
+F1 Ba F1 2_665 . 11_556 167.0(11) yes
+F1 Ba F1 2_665 . 12_566 167.9(10) yes
+F1 Ba F1 2_665 . 13_566 61.0(9) yes
+F1 Ba F1 2_665 . 13_676 69.7(10) yes
+F1 Ba F1 2_665 . 14_456 65.6(9) yes
+F1 Ba F1 2_665 . 14_556 54.6(12) yes
+F1 Ba F1 2_665 . 15_656 57.2(12) yes
+F1 Ba F1 2_665 . 15_666 67.2(12) yes
+F1 Ba F1 2_665 . 16_556 172.8(6) yes
+F1 Ba F1 2_665 . 17_666 165.5(12) yes
+F1 Ba F1 2_665 . 18_566 172.8(10) yes
+F1 Ba F1 2_665 . 22_455 115.2(8) yes
+F1 Ba F1 2_665 . 22_565 124.9(11) yes
+F1 Ba F1 2_665 . 23_665 112.5(12) yes
+F1 Ba F1 2_665 . 23_675 122.4(11) yes
+F1 Ba F1 2_665 . 24_555 119.8(9) yes
+F1 Ba F1 2_665 . 24_655 109.9(11) yes
+F1 Ba F2 2_665 . . 74.0(11) yes
+F1 Ba F2 2_665 . 1_565 86.5(12) yes
+F1 Ba F2 2_665 . 1_665 79.7(9) yes
+F1 Ba F2 2_665 . 10_556 93.9(11) yes
+F1 Ba F2 2_665 . 10_566 106.5(12) yes
+F1 Ba F2 2_665 . 10_666 99.5(10) yes
+F1 Ba F1 3_565 . 4_565 125.4(11) yes
+F1 Ba F1 3_565 . 4_675 109.1(10) yes
+F1 Ba F1 3_565 . 5_455 121.3(11) yes
+F1 Ba F1 3_565 . 5_555 118.9(13) yes
+F1 Ba F1 3_565 . 6_655 117.1(12) yes
+F1 Ba F1 3_565 . 6_665 112.9(11) yes
+F1 Ba F1 3_565 . 7_456 70.6(10) yes
+F1 Ba F1 3_565 . 7_566 54.2(11) yes
+F1 Ba F1 3_565 . 8_666 62.0(13) yes
+F1 Ba F1 3_565 . 8_676 58.1(10) yes
+F1 Ba F1 3_565 . 9_556 66.7(11) yes
+F1 Ba F1 3_565 . 9_656 63.8(13) yes
+F1 Ba F1 3_565 . 10_666 167.0(9) yes
+F1 Ba F1 3_565 . 11_556 167.9(10) yes
+F1 Ba F1 3_565 . 12_566 179.2(13) yes
+F1 Ba F1 3_565 . 13_566 67.2(11) yes
+F1 Ba F1 3_565 . 13_676 57.2(10) yes
+F1 Ba F1 3_565 . 14_456 69.7(11) yes
+F1 Ba F1 3_565 . 14_556 61.0(13) yes
+F1 Ba F1 3_565 . 15_656 65.6(12) yes
+F1 Ba F1 3_565 . 15_666 54.6(11) yes
+F1 Ba F1 3_565 . 16_556 172.8(10) yes
+F1 Ba F1 3_565 . 17_666 172.8(10) yes
+F1 Ba F1 3_565 . 18_566 165.5(8) yes
+F1 Ba F1 3_565 . 22_455 122.4(10) yes
+F1 Ba F1 3_565 . 22_565 112.5(10) yes
+F1 Ba F1 3_565 . 23_665 119.8(13) yes
+F1 Ba F1 3_565 . 23_675 109.9(10) yes
+F1 Ba F1 3_565 . 24_555 124.9(12) yes
+F1 Ba F1 3_565 . 24_655 115.2(12) yes
+F1 Ba F2 3_565 . . 86.5(11) yes
+F1 Ba F2 3_565 . 1_565 79.7(13) yes
+F1 Ba F2 3_565 . 1_665 74.0(11) yes
+F1 Ba F2 3_565 . 10_556 106.5(11) yes
+F1 Ba F2 3_565 . 10_566 99.5(13) yes
+F1 Ba F2 3_565 . 10_666 93.9(11) yes
+F1 Ba F1 4_565 . 4_675 107.7(10) yes
+F1 Ba F1 4_565 . 5_455 10.5(10) yes
+F1 Ba F1 4_565 . 5_555 98.2(10) yes
+F1 Ba F1 4_565 . 6_655 92.2(10) yes
+F1 Ba F1 4_565 . 6_665 98.2(10) yes
+F1 Ba F1 4_565 . 7_456 55.2(11) yes
+F1 Ba F1 4_565 . 7_566 134.7(9) yes
+F1 Ba F1 4_565 . 8_666 121.8(7) yes
+F1 Ba F1 4_565 . 8_676 124.2(10) yes
+F1 Ba F1 4_565 . 9_556 58.8(12) yes
+F1 Ba F1 4_565 . 9_656 130.4(8) yes
+F1 Ba F1 4_565 . 10_666 62.0(9) yes
+F1 Ba F1 4_565 . 11_556 66.7(11) yes
+F1 Ba F1 4_565 . 12_566 54.2(11) yes
+F1 Ba F1 4_565 . 13_566 58.4(12) yes
+F1 Ba F1 4_565 . 13_676 137.0(9) yes
+F1 Ba F1 4_565 . 14_456 56.2(12) yes
+F1 Ba F1 4_565 . 14_556 128.2(8) yes
+F1 Ba F1 4_565 . 15_656 117.8(8) yes
+F1 Ba F1 4_565 . 15_666 128.2(11) yes
+F1 Ba F1 4_565 . 16_556 54.6(10) yes
+F1 Ba F1 4_565 . 17_666 61.0(9) yes
+F1 Ba F1 4_565 . 18_566 67.2(11) yes
+F1 Ba F1 4_565 . 19_665 119.8(9) yes
+F1 Ba F1 4_565 . 20_555 124.9(11) yes
+F1 Ba F1 4_565 . 21_565 112.5(10) yes
+F1 Ba F1 4_565 . 22_565 103.2(9) yes
+F1 Ba F1 4_565 . 23_665 93.0(11) yes
+F1 Ba F1 4_565 . 23_675 97.8(9) yes
+F1 Ba F1 4_565 . 24_655 102.8(10) yes
+F1 Ba F2 4_565 . . 66.8(8) yes
+F1 Ba F2 4_565 . 1_565 72.9(9) yes
+F1 Ba F2 4_565 . 1_665 160.5(12) yes
+F1 Ba F2 4_565 . 10_556 55.7(7) yes
+F1 Ba F2 4_565 . 10_566 62.4(7) yes
+F1 Ba F2 4_565 . 10_666 140.6(12) yes
+F1 Ba F1 4_675 . 5_455 102.3(10) yes
+F1 Ba F1 4_675 . 5_555 92.2(10) yes
+F1 Ba F1 4_675 . 6_655 102.3(9) yes
+F1 Ba F1 4_675 . 6_665 10.5(11) yes
+F1 Ba F1 4_675 . 7_456 139.6(10) yes
+F1 Ba F1 4_675 . 7_566 55.2(11) yes
+F1 Ba F1 4_675 . 8_666 124.2(9) yes
+F1 Ba F1 4_675 . 8_676 53.8(11) yes
+F1 Ba F1 4_675 . 9_556 130.4(11) yes
+F1 Ba F1 4_675 . 9_656 113.8(9) yes
+F1 Ba F1 4_675 . 10_666 58.1(9) yes
+F1 Ba F1 4_675 . 11_556 63.8(8) yes
+F1 Ba F1 4_675 . 12_566 70.6(10) yes
+F1 Ba F1 4_675 . 13_566 137.0(9) yes
+F1 Ba F1 4_675 . 13_676 51.9(11) yes
+F1 Ba F1 4_675 . 14_456 126.6(10) yes
+F1 Ba F1 4_675 . 14_556 117.8(8) yes
+F1 Ba F1 4_675 . 15_656 126.6(9) yes
+F1 Ba F1 4_675 . 15_666 56.2(11) yes
+F1 Ba F1 4_675 . 16_556 65.6(8) yes
+F1 Ba F1 4_675 . 17_666 69.7(10) yes
+F1 Ba F1 4_675 . 18_566 57.2(10) yes
+F1 Ba F1 4_675 . 19_665 109.9(10) yes
+F1 Ba F1 4_675 . 20_555 115.2(8) yes
+F1 Ba F1 4_675 . 21_565 122.4(10) yes
+F1 Ba F1 4_675 . 22_455 112.3(10) yes
+F1 Ba F1 4_675 . 23_665 97.8(9) yes
+F1 Ba F1 4_675 . 23_675 13.3(10) yes
+F1 Ba F1 4_675 . 24_555 102.8(11) yes
+F1 Ba F1 4_675 . 24_655 91.2(10) yes
+F1 Ba F2 4_675 . . 162.6(11) yes
+F1 Ba F2 4_675 . 1_565 74.7(8) yes
+F1 Ba F2 4_675 . 1_665 62.5(9) yes
+F1 Ba F2 4_675 . 10_556 143.3(12) yes
+F1 Ba F2 4_675 . 10_566 65.4(8) yes
+F1 Ba F2 4_675 . 10_666 52.1(8) yes
+F1 Ba F1 5_455 . 5_555 107.7(10) yes
+F1 Ba F1 5_455 . 6_655 102.3(11) yes
+F1 Ba F1 5_455 . 6_665 92.2(11) yes
+F1 Ba F1 5_455 . 7_456 53.8(11) yes
+F1 Ba F1 5_455 . 7_566 124.2(10) yes
+F1 Ba F1 5_455 . 8_666 130.4(9) yes
+F1 Ba F1 5_455 . 8_676 113.8(11) yes
+F1 Ba F1 5_455 . 9_556 55.2(12) yes
+F1 Ba F1 5_455 . 9_656 139.6(9) yes
+F1 Ba F1 5_455 . 10_666 63.8(8) yes
+F1 Ba F1 5_455 . 11_556 70.6(11) yes
+F1 Ba F1 5_455 . 12_566 58.1(10) yes
+F1 Ba F1 5_455 . 13_566 56.2(12) yes
+F1 Ba F1 5_455 . 13_676 126.6(10) yes
+F1 Ba F1 5_455 . 14_456 51.9(11) yes
+F1 Ba F1 5_455 . 14_556 137.0(9) yes
+F1 Ba F1 5_455 . 15_656 126.6(9) yes
+F1 Ba F1 5_455 . 15_666 117.8(12) yes
+F1 Ba F1 5_455 . 16_556 57.2(10) yes
+F1 Ba F1 5_455 . 17_666 65.6(9) yes
+F1 Ba F1 5_455 . 18_566 69.7(11) yes
+F1 Ba F1 5_455 . 19_665 115.2(9) yes
+F1 Ba F1 5_455 . 20_555 122.4(11) yes
+F1 Ba F1 5_455 . 21_565 109.9(10) yes
+F1 Ba F1 5_455 . 22_565 97.8(9) yes
+F1 Ba F1 5_455 . 23_665 102.8(11) yes
+F1 Ba F1 5_455 . 23_675 91.2(10) yes
+F1 Ba F1 5_455 . 24_655 112.3(10) yes
+F1 Ba F2 5_455 . . 74.7(9) yes
+F1 Ba F2 5_455 . 1_565 62.5(9) yes
+F1 Ba F2 5_455 . 1_665 162.6(11) yes
+F1 Ba F2 5_455 . 10_556 65.4(8) yes
+F1 Ba F2 5_455 . 10_566 52.1(9) yes
+F1 Ba F2 5_455 . 10_666 143.3(11) yes
+F1 Ba F1 5_555 . 6_665 98.2(12) yes
+F1 Ba F1 5_555 . 7_456 124.2(9) yes
+F1 Ba F1 5_555 . 7_566 121.8(7) yes
+F1 Ba F1 5_555 . 8_666 58.8(13) yes
+F1 Ba F1 5_555 . 8_676 130.4(9) yes
+F1 Ba F1 5_555 . 9_556 134.7(10) yes
+F1 Ba F1 5_555 . 9_656 55.2(12) yes
+F1 Ba F1 5_555 . 10_666 66.7(11) yes
+F1 Ba F1 5_555 . 11_556 54.2(12) yes
+F1 Ba F1 5_555 . 12_566 62.0(13) yes
+F1 Ba F1 5_555 . 13_566 128.2(8) yes
+F1 Ba F1 5_555 . 13_676 117.8(8) yes
+F1 Ba F1 5_555 . 14_456 137.0(9) yes
+F1 Ba F1 5_555 . 14_556 58.4(13) yes
+F1 Ba F1 5_555 . 15_656 56.2(12) yes
+F1 Ba F1 5_555 . 15_666 128.2(10) yes
+F1 Ba F1 5_555 . 16_556 67.2(11) yes
+F1 Ba F1 5_555 . 17_666 54.6(12) yes
+F1 Ba F1 5_555 . 18_566 61.0(13) yes
+F1 Ba F1 5_555 . 19_665 124.9(11) yes
+F1 Ba F1 5_555 . 20_555 112.5(12) yes
+F1 Ba F1 5_555 . 21_565 119.8(13) yes
+F1 Ba F1 5_555 . 22_455 97.8(9) yes
+F1 Ba F1 5_555 . 22_565 93.0(11) yes
+F1 Ba F1 5_555 . 23_675 102.8(11) yes
+F1 Ba F1 5_555 . 24_555 103.2(11) yes
+F1 Ba F2 5_555 . . 72.9(8) yes
+F1 Ba F2 5_555 . 1_565 160.5(13) yes
+F1 Ba F2 5_555 . 1_665 66.8(8) yes
+F1 Ba F2 5_555 . 10_556 62.4(7) yes
+F1 Ba F2 5_555 . 10_566 140.6(13) yes
+F1 Ba F2 5_555 . 10_666 55.7(6) yes
+F1 Ba F1 6_655 . 6_665 107.7(12) yes
+F1 Ba F1 6_655 . 7_456 113.8(9) yes
+F1 Ba F1 6_655 . 7_566 130.4(8) yes
+F1 Ba F1 6_655 . 8_666 55.2(12) yes
+F1 Ba F1 6_655 . 8_676 139.6(9) yes
+F1 Ba F1 6_655 . 9_556 124.2(10) yes
+F1 Ba F1 6_655 . 9_656 53.8(12) yes
+F1 Ba F1 6_655 . 10_666 70.6(11) yes
+F1 Ba F1 6_655 . 11_556 58.1(11) yes
+F1 Ba F1 6_655 . 12_566 63.8(13) yes
+F1 Ba F1 6_655 . 13_566 117.8(8) yes
+F1 Ba F1 6_655 . 13_676 126.6(9) yes
+F1 Ba F1 6_655 . 14_456 126.6(9) yes
+F1 Ba F1 6_655 . 14_556 56.2(12) yes
+F1 Ba F1 6_655 . 15_656 51.9(12) yes
+F1 Ba F1 6_655 . 15_666 137.0(10) yes
+F1 Ba F1 6_655 . 16_556 69.7(11) yes
+F1 Ba F1 6_655 . 17_666 57.2(12) yes
+F1 Ba F1 6_655 . 18_566 65.6(12) yes
+F1 Ba F1 6_655 . 19_665 122.4(11) yes
+F1 Ba F1 6_655 . 20_555 109.9(11) yes
+F1 Ba F1 6_655 . 21_565 115.2(12) yes
+F1 Ba F1 6_655 . 22_455 91.2(10) yes
+F1 Ba F1 6_655 . 22_565 102.8(10) yes
+F1 Ba F1 6_655 . 23_675 112.3(10) yes
+F1 Ba F1 6_655 . 24_555 97.8(12) yes
+F1 Ba F2 6_655 . . 62.5(8) yes
+F1 Ba F2 6_655 . 1_565 162.6(12) yes
+F1 Ba F2 6_655 . 1_665 74.7(7) yes
+F1 Ba F2 6_655 . 10_556 52.1(6) yes
+F1 Ba F2 6_655 . 10_566 143.3(12) yes
+F1 Ba F2 6_655 . 10_666 65.4(6) yes
+F1 Ba F1 6_665 . 7_456 130.4(11) yes
+F1 Ba F1 6_665 . 7_566 58.8(12) yes
+F1 Ba F1 6_665 . 8_666 134.7(10) yes
+F1 Ba F1 6_665 . 8_676 55.2(12) yes
+F1 Ba F1 6_665 . 9_556 121.8(13) yes
+F1 Ba F1 6_665 . 9_656 124.2(10) yes
+F1 Ba F1 6_665 . 10_666 54.2(11) yes
+F1 Ba F1 6_665 . 11_556 62.0(10) yes
+F1 Ba F1 6_665 . 12_566 66.7(11) yes
+F1 Ba F1 6_665 . 13_566 128.2(11) yes
+F1 Ba F1 6_665 . 13_676 56.2(11) yes
+F1 Ba F1 6_665 . 14_456 117.8(12) yes
+F1 Ba F1 6_665 . 14_556 128.2(10) yes
+F1 Ba F1 6_665 . 15_656 137.0(10) yes
+F1 Ba F1 6_665 . 15_666 58.4(12) yes
+F1 Ba F1 6_665 . 16_556 61.0(9) yes
+F1 Ba F1 6_665 . 17_666 67.2(12) yes
+F1 Ba F1 6_665 . 18_566 54.6(11) yes
+F1 Ba F1 6_665 . 19_665 112.5(11) yes
+F1 Ba F1 6_665 . 20_555 119.8(9) yes
+F1 Ba F1 6_665 . 21_565 124.9(12) yes
+F1 Ba F1 6_665 . 22_455 102.8(11) yes
+F1 Ba F1 6_665 . 23_665 103.2(11) yes
+F1 Ba F1 6_665 . 24_555 93.0(12) yes
+F1 Ba F1 6_665 . 24_655 97.8(12) yes
+F1 Ba F2 6_665 . . 160.5(12) yes
+F1 Ba F2 6_665 . 1_565 66.8(11) yes
+F1 Ba F2 6_665 . 1_665 72.9(10) yes
+F1 Ba F2 6_665 . 10_556 140.6(12) yes
+F1 Ba F2 6_665 . 10_566 55.7(10) yes
+F1 Ba F2 6_665 . 10_666 62.4(10) yes
+F1 Ba F1 7_456 . 7_566 107.7(10) yes
+F1 Ba F1 7_456 . 8_666 92.2(10) yes
+F1 Ba F1 7_456 . 8_676 102.3(10) yes
+F1 Ba F1 7_456 . 9_556 10.5(11) yes
+F1 Ba F1 7_456 . 9_656 102.3(9) yes
+F1 Ba F1 7_456 . 10_666 117.1(8) yes
+F1 Ba F1 7_456 . 11_556 121.3(10) yes
+F1 Ba F1 7_456 . 12_566 109.1(10) yes
+F1 Ba F1 7_456 . 13_676 112.3(10) yes
+F1 Ba F1 7_456 . 14_456 13.3(10) yes
+F1 Ba F1 7_456 . 14_556 97.8(9) yes
+F1 Ba F1 7_456 . 15_656 91.2(10) yes
+F1 Ba F1 7_456 . 15_666 102.8(11) yes
+F1 Ba F1 7_456 . 16_556 109.9(10) yes
+F1 Ba F1 7_456 . 17_666 115.2(8) yes
+F1 Ba F1 7_456 . 18_566 122.4(10) yes
+F1 Ba F1 7_456 . 19_665 65.6(8) yes
+F1 Ba F1 7_456 . 20_555 69.7(10) yes
+F1 Ba F1 7_456 . 21_565 57.2(10) yes
+F1 Ba F1 7_456 . 22_455 51.9(11) yes
+F1 Ba F1 7_456 . 22_565 137.0(9) yes
+F1 Ba F1 7_456 . 23_665 117.8(8) yes
+F1 Ba F1 7_456 . 23_675 126.6(10) yes
+F1 Ba F1 7_456 . 24_555 56.2(11) yes
+F1 Ba F1 7_456 . 24_655 126.6(9) yes
+F1 Ba F2 7_456 . . 52.1(8) yes
+F1 Ba F2 7_456 . 1_565 65.4(8) yes
+F1 Ba F2 7_456 . 1_665 143.3(12) yes
+F1 Ba F2 7_456 . 10_556 62.5(9) yes
+F1 Ba F2 7_456 . 10_566 74.7(8) yes
+F1 Ba F2 7_456 . 10_666 162.6(11) yes
+F1 Ba F1 7_566 . 8_666 98.2(10) yes
+F1 Ba F1 7_566 . 8_676 10.5(10) yes
+F1 Ba F1 7_566 . 9_556 98.2(10) yes
+F1 Ba F1 7_566 . 9_656 92.2(10) yes
+F1 Ba F1 7_566 . 10_666 112.9(11) yes
+F1 Ba F1 7_566 . 11_556 118.9(9) yes
+F1 Ba F1 7_566 . 12_566 125.4(11) yes
+F1 Ba F1 7_566 . 13_566 103.2(9) yes
+F1 Ba F1 7_566 . 14_456 97.8(9) yes
+F1 Ba F1 7_566 . 14_556 93.0(11) yes
+F1 Ba F1 7_566 . 15_656 102.8(10) yes
+F1 Ba F1 7_566 . 16_556 119.8(9) yes
+F1 Ba F1 7_566 . 17_666 124.9(11) yes
+F1 Ba F1 7_566 . 18_566 112.5(10) yes
+F1 Ba F1 7_566 . 19_665 54.6(10) yes
+F1 Ba F1 7_566 . 20_555 61.0(9) yes
+F1 Ba F1 7_566 . 21_565 67.2(11) yes
+F1 Ba F1 7_566 . 22_455 137.0(9) yes
+F1 Ba F1 7_566 . 22_565 58.4(12) yes
+F1 Ba F1 7_566 . 23_665 128.2(8) yes
+F1 Ba F1 7_566 . 23_675 56.2(12) yes
+F1 Ba F1 7_566 . 24_555 128.2(11) yes
+F1 Ba F1 7_566 . 24_655 117.8(8) yes
+F1 Ba F2 7_566 . . 140.6(12) yes
+F1 Ba F2 7_566 . 1_565 62.4(7) yes
+F1 Ba F2 7_566 . 1_665 55.7(7) yes
+F1 Ba F2 7_566 . 10_556 160.5(12) yes
+F1 Ba F2 7_566 . 10_566 72.9(9) yes
+F1 Ba F2 7_566 . 10_666 66.8(8) yes
+F1 Ba F1 8_666 . 8_676 107.7(10) yes
+F1 Ba F1 8_666 . 9_556 98.2(12) yes
+F1 Ba F1 8_666 . 9_656 10.5(8) yes
+F1 Ba F1 8_666 . 10_666 125.4(12) yes
+F1 Ba F1 8_666 . 11_556 112.9(12) yes
+F1 Ba F1 8_666 . 12_566 118.9(13) yes
+F1 Ba F1 8_666 . 13_566 93.0(11) yes
+F1 Ba F1 8_666 . 13_676 97.8(9) yes
+F1 Ba F1 8_666 . 14_456 102.8(11) yes
+F1 Ba F1 8_666 . 15_666 103.2(11) yes
+F1 Ba F1 8_666 . 16_556 124.9(11) yes
+F1 Ba F1 8_666 . 17_666 112.5(12) yes
+F1 Ba F1 8_666 . 18_566 119.8(13) yes
+F1 Ba F1 8_666 . 19_665 67.2(11) yes
+F1 Ba F1 8_666 . 20_555 54.6(12) yes
+F1 Ba F1 8_666 . 21_565 61.0(13) yes
+F1 Ba F1 8_666 . 22_455 117.8(8) yes
+F1 Ba F1 8_666 . 22_565 128.2(8) yes
+F1 Ba F1 8_666 . 23_665 58.4(13) yes
+F1 Ba F1 8_666 . 23_675 137.0(9) yes
+F1 Ba F1 8_666 . 24_555 128.2(10) yes
+F1 Ba F1 8_666 . 24_655 56.2(12) yes
+F1 Ba F2 8_666 . . 55.7(6) yes
+F1 Ba F2 8_666 . 1_565 140.6(13) yes
+F1 Ba F2 8_666 . 1_665 62.4(7) yes
+F1 Ba F2 8_666 . 10_556 66.8(8) yes
+F1 Ba F2 8_666 . 10_566 160.5(13) yes
+F1 Ba F2 8_666 . 10_666 72.9(8) yes
+F1 Ba F1 8_676 . 9_556 92.2(11) yes
+F1 Ba F1 8_676 . 9_656 102.3(11) yes
+F1 Ba F1 8_676 . 10_666 109.1(10) yes
+F1 Ba F1 8_676 . 11_556 117.1(8) yes
+F1 Ba F1 8_676 . 12_566 121.3(11) yes
+F1 Ba F1 8_676 . 13_566 97.8(9) yes
+F1 Ba F1 8_676 . 14_456 91.2(10) yes
+F1 Ba F1 8_676 . 14_556 102.8(11) yes
+F1 Ba F1 8_676 . 15_656 112.3(10) yes
+F1 Ba F1 8_676 . 16_556 115.2(9) yes
+F1 Ba F1 8_676 . 17_666 122.4(11) yes
+F1 Ba F1 8_676 . 18_566 109.9(10) yes
+F1 Ba F1 8_676 . 19_665 57.2(10) yes
+F1 Ba F1 8_676 . 20_555 65.6(9) yes
+F1 Ba F1 8_676 . 21_565 69.7(11) yes
+F1 Ba F1 8_676 . 22_455 126.6(10) yes
+F1 Ba F1 8_676 . 22_565 56.2(12) yes
+F1 Ba F1 8_676 . 23_665 137.0(9) yes
+F1 Ba F1 8_676 . 23_675 51.9(11) yes
+F1 Ba F1 8_676 . 24_555 117.8(12) yes
+F1 Ba F1 8_676 . 24_655 126.6(9) yes
+F1 Ba F2 8_676 . . 143.3(11) yes
+F1 Ba F2 8_676 . 1_565 52.1(9) yes
+F1 Ba F2 8_676 . 1_665 65.4(8) yes
+F1 Ba F2 8_676 . 10_556 162.6(11) yes
+F1 Ba F2 8_676 . 10_566 62.5(9) yes
+F1 Ba F2 8_676 . 10_666 74.7(9) yes
+F1 Ba F1 9_556 . 9_656 107.7(12) yes
+F1 Ba F1 9_556 . 10_666 118.9(10) yes
+F1 Ba F1 9_556 . 11_556 125.4(11) yes
+F1 Ba F1 9_556 . 12_566 112.9(11) yes
+F1 Ba F1 9_556 . 13_676 102.8(11) yes
+F1 Ba F1 9_556 . 14_556 103.2(11) yes
+F1 Ba F1 9_556 . 15_656 97.8(12) yes
+F1 Ba F1 9_556 . 15_666 93.0(12) yes
+F1 Ba F1 9_556 . 16_556 112.5(11) yes
+F1 Ba F1 9_556 . 17_666 119.8(9) yes
+F1 Ba F1 9_556 . 18_566 124.9(12) yes
+F1 Ba F1 9_556 . 19_665 61.0(9) yes
+F1 Ba F1 9_556 . 20_555 67.2(12) yes
+F1 Ba F1 9_556 . 21_565 54.6(11) yes
+F1 Ba F1 9_556 . 22_455 56.2(11) yes
+F1 Ba F1 9_556 . 22_565 128.2(11) yes
+F1 Ba F1 9_556 . 23_665 128.2(10) yes
+F1 Ba F1 9_556 . 23_675 117.8(12) yes
+F1 Ba F1 9_556 . 24_555 58.4(12) yes
+F1 Ba F1 9_556 . 24_655 137.0(10) yes
+F1 Ba F2 9_556 . . 62.4(10) yes
+F1 Ba F2 9_556 . 1_565 55.7(10) yes
+F1 Ba F2 9_556 . 1_665 140.6(12) yes
+F1 Ba F2 9_556 . 10_556 72.9(10) yes
+F1 Ba F2 9_556 . 10_566 66.8(11) yes
+F1 Ba F2 9_556 . 10_666 160.5(12) yes
+F1 Ba F1 9_656 . 10_666 121.3(11) yes
+F1 Ba F1 9_656 . 11_556 109.1(12) yes
+F1 Ba F1 9_656 . 12_566 117.1(12) yes
+F1 Ba F1 9_656 . 13_566 102.8(10) yes
+F1 Ba F1 9_656 . 13_676 91.2(10) yes
+F1 Ba F1 9_656 . 14_456 112.3(10) yes
+F1 Ba F1 9_656 . 15_666 97.8(12) yes
+F1 Ba F1 9_656 . 16_556 122.4(11) yes
+F1 Ba F1 9_656 . 17_666 109.9(11) yes
+F1 Ba F1 9_656 . 18_566 115.2(12) yes
+F1 Ba F1 9_656 . 19_665 69.7(11) yes
+F1 Ba F1 9_656 . 20_555 57.2(12) yes
+F1 Ba F1 9_656 . 21_565 65.6(12) yes
+F1 Ba F1 9_656 . 22_455 126.6(9) yes
+F1 Ba F1 9_656 . 22_565 117.8(8) yes
+F1 Ba F1 9_656 . 23_665 56.2(12) yes
+F1 Ba F1 9_656 . 23_675 126.6(9) yes
+F1 Ba F1 9_656 . 24_555 137.0(10) yes
+F1 Ba F1 9_656 . 24_655 51.9(12) yes
+F1 Ba F2 9_656 . . 65.4(6) yes
+F1 Ba F2 9_656 . 1_565 143.3(12) yes
+F1 Ba F2 9_656 . 1_665 52.1(6) yes
+F1 Ba F2 9_656 . 10_556 74.7(7) yes
+F1 Ba F2 9_656 . 10_566 162.6(12) yes
+F1 Ba F2 9_656 . 10_666 62.5(8) yes
+F1 Ba F1 10_666 . 13_566 119.8(9) yes
+F1 Ba F1 10_666 . 13_676 109.9(10) yes
+F1 Ba F1 10_666 . 14_456 115.2(9) yes
+F1 Ba F1 10_666 . 14_556 124.9(11) yes
+F1 Ba F1 10_666 . 15_656 122.4(11) yes
+F1 Ba F1 10_666 . 15_666 112.5(11) yes
+F1 Ba F1 10_666 . 19_665 165.5(10) yes
+F1 Ba F1 10_666 . 20_555 172.8(6) yes
+F1 Ba F1 10_666 . 21_565 172.8(10) yes
+F1 Ba F1 10_666 . 22_455 65.6(8) yes
+F1 Ba F1 10_666 . 22_565 54.6(10) yes
+F1 Ba F1 10_666 . 23_665 67.2(11) yes
+F1 Ba F1 10_666 . 23_675 57.2(10) yes
+F1 Ba F1 10_666 . 24_555 61.0(9) yes
+F1 Ba F1 10_666 . 24_655 69.7(11) yes
+F1 Ba F2 10_666 . . 106.5(11) yes
+F1 Ba F2 10_666 . 1_565 93.9(11) yes
+F1 Ba F2 10_666 . 1_665 99.5(9) yes
+F1 Ba F2 10_666 . 10_556 86.5(11) yes
+F1 Ba F2 10_666 . 10_566 74.0(11) yes
+F1 Ba F2 10_666 . 10_666 79.7(10) yes
+F1 Ba F1 11_556 . 13_566 124.9(11) yes
+F1 Ba F1 11_556 . 13_676 115.2(8) yes
+F1 Ba F1 11_556 . 14_456 122.4(11) yes
+F1 Ba F1 11_556 . 14_556 112.5(12) yes
+F1 Ba F1 11_556 . 15_656 109.9(11) yes
+F1 Ba F1 11_556 . 15_666 119.8(9) yes
+F1 Ba F1 11_556 . 19_665 172.8(6) yes
+F1 Ba F1 11_556 . 20_555 165.5(12) yes
+F1 Ba F1 11_556 . 21_565 172.8(10) yes
+F1 Ba F1 11_556 . 22_455 69.7(10) yes
+F1 Ba F1 11_556 . 22_565 61.0(9) yes
+F1 Ba F1 11_556 . 23_665 54.6(12) yes
+F1 Ba F1 11_556 . 23_675 65.6(9) yes
+F1 Ba F1 11_556 . 24_555 67.2(12) yes
+F1 Ba F1 11_556 . 24_655 57.2(12) yes
+F1 Ba F2 11_556 . . 99.5(10) yes
+F1 Ba F2 11_556 . 1_565 106.5(12) yes
+F1 Ba F2 11_556 . 1_665 93.9(11) yes
+F1 Ba F2 11_556 . 10_556 79.7(9) yes
+F1 Ba F2 11_556 . 10_566 86.5(12) yes
+F1 Ba F2 11_556 . 10_666 74.0(11) yes
+F1 Ba F1 12_566 . 13_566 112.5(10) yes
+F1 Ba F1 12_566 . 13_676 122.4(10) yes
+F1 Ba F1 12_566 . 14_456 109.9(10) yes
+F1 Ba F1 12_566 . 14_556 119.8(13) yes
+F1 Ba F1 12_566 . 15_656 115.2(12) yes
+F1 Ba F1 12_566 . 15_666 124.9(12) yes
+F1 Ba F1 12_566 . 19_665 172.8(10) yes
+F1 Ba F1 12_566 . 20_555 172.8(10) yes
+F1 Ba F1 12_566 . 21_565 165.5(8) yes
+F1 Ba F1 12_566 . 22_455 57.2(10) yes
+F1 Ba F1 12_566 . 22_565 67.2(11) yes
+F1 Ba F1 12_566 . 23_665 61.0(13) yes
+F1 Ba F1 12_566 . 23_675 69.7(11) yes
+F1 Ba F1 12_566 . 24_555 54.6(11) yes
+F1 Ba F1 12_566 . 24_655 65.6(12) yes
+F1 Ba F2 12_566 . . 93.9(11) yes
+F1 Ba F2 12_566 . 1_565 99.5(13) yes
+F1 Ba F2 12_566 . 1_665 106.5(11) yes
+F1 Ba F2 12_566 . 10_556 74.0(11) yes
+F1 Ba F2 12_566 . 10_566 79.7(13) yes
+F1 Ba F2 12_566 . 10_666 86.5(11) yes
+F1 Ba F1 13_566 . 13_676 107.7(10) yes
+F1 Ba F1 13_566 . 14_456 10.5(10) yes
+F1 Ba F1 13_566 . 14_556 98.2(10) yes
+F1 Ba F1 13_566 . 15_656 92.2(10) yes
+F1 Ba F1 13_566 . 15_666 98.2(10) yes
+F1 Ba F1 13_566 . 16_556 112.9(11) yes
+F1 Ba F1 13_566 . 17_666 118.9(9) yes
+F1 Ba F1 13_566 . 18_566 125.4(11) yes
+F1 Ba F1 13_566 . 19_665 62.0(9) yes
+F1 Ba F1 13_566 . 20_555 66.7(11) yes
+F1 Ba F1 13_566 . 21_565 54.2(11) yes
+F1 Ba F1 13_566 . 22_455 55.2(11) yes
+F1 Ba F1 13_566 . 22_565 134.7(9) yes
+F1 Ba F1 13_566 . 23_665 121.8(7) yes
+F1 Ba F1 13_566 . 23_675 124.2(10) yes
+F1 Ba F1 13_566 . 24_555 58.8(12) yes
+F1 Ba F1 13_566 . 24_655 130.4(8) yes
+F1 Ba F2 13_566 . . 55.7(7) yes
+F1 Ba F2 13_566 . 1_565 62.4(7) yes
+F1 Ba F2 13_566 . 1_665 140.6(12) yes
+F1 Ba F2 13_566 . 10_556 66.8(8) yes
+F1 Ba F2 13_566 . 10_566 72.9(9) yes
+F1 Ba F2 13_566 . 10_666 160.5(12) yes
+F1 Ba F1 13_676 . 14_456 102.3(10) yes
+F1 Ba F1 13_676 . 14_556 92.2(10) yes
+F1 Ba F1 13_676 . 15_656 102.3(9) yes
+F1 Ba F1 13_676 . 16_556 117.1(8) yes
+F1 Ba F1 13_676 . 17_666 121.3(10) yes
+F1 Ba F1 13_676 . 18_566 109.1(10) yes
+F1 Ba F1 13_676 . 19_665 58.1(9) yes
+F1 Ba F1 13_676 . 20_555 63.8(8) yes
+F1 Ba F1 13_676 . 21_565 70.6(10) yes
+F1 Ba F1 13_676 . 22_455 139.6(10) yes
+F1 Ba F1 13_676 . 22_565 55.2(11) yes
+F1 Ba F1 13_676 . 23_665 124.2(9) yes
+F1 Ba F1 13_676 . 23_675 53.8(11) yes
+F1 Ba F1 13_676 . 24_555 130.4(11) yes
+F1 Ba F1 13_676 . 24_655 113.8(9) yes
+F1 Ba F2 13_676 . . 143.3(12) yes
+F1 Ba F2 13_676 . 1_565 65.4(8) yes
+F1 Ba F2 13_676 . 1_665 52.1(8) yes
+F1 Ba F2 13_676 . 10_556 162.6(11) yes
+F1 Ba F2 13_676 . 10_566 74.7(8) yes
+F1 Ba F2 13_676 . 10_666 62.5(9) yes
+F1 Ba F1 14_456 . 14_556 107.7(10) yes
+F1 Ba F1 14_456 . 15_656 102.3(11) yes
+F1 Ba F1 14_456 . 15_666 92.2(11) yes
+F1 Ba F1 14_456 . 16_556 109.1(10) yes
+F1 Ba F1 14_456 . 17_666 117.1(8) yes
+F1 Ba F1 14_456 . 18_566 121.3(11) yes
+F1 Ba F1 14_456 . 19_665 63.8(8) yes
+F1 Ba F1 14_456 . 20_555 70.6(11) yes
+F1 Ba F1 14_456 . 21_565 58.1(10) yes
+F1 Ba F1 14_456 . 22_455 53.8(11) yes
+F1 Ba F1 14_456 . 22_565 124.2(10) yes
+F1 Ba F1 14_456 . 23_665 130.4(9) yes
+F1 Ba F1 14_456 . 23_675 113.8(11) yes
+F1 Ba F1 14_456 . 24_555 55.2(12) yes
+F1 Ba F1 14_456 . 24_655 139.6(9) yes
+F1 Ba F2 14_456 . . 65.4(8) yes
+F1 Ba F2 14_456 . 1_565 52.1(9) yes
+F1 Ba F2 14_456 . 1_665 143.3(11) yes
+F1 Ba F2 14_456 . 10_556 74.7(9) yes
+F1 Ba F2 14_456 . 10_566 62.5(9) yes
+F1 Ba F2 14_456 . 10_666 162.6(11) yes
+F1 Ba F1 14_556 . 15_666 98.2(12) yes
+F1 Ba F1 14_556 . 16_556 125.4(12) yes
+F1 Ba F1 14_556 . 17_666 112.9(12) yes
+F1 Ba F1 14_556 . 18_566 118.9(13) yes
+F1 Ba F1 14_556 . 19_665 66.7(11) yes
+F1 Ba F1 14_556 . 20_555 54.2(12) yes
+F1 Ba F1 14_556 . 21_565 62.0(13) yes
+F1 Ba F1 14_556 . 22_455 124.2(9) yes
+F1 Ba F1 14_556 . 22_565 121.8(7) yes
+F1 Ba F1 14_556 . 23_665 58.8(13) yes
+F1 Ba F1 14_556 . 23_675 130.4(9) yes
+F1 Ba F1 14_556 . 24_555 134.7(10) yes
+F1 Ba F1 14_556 . 24_655 55.2(12) yes
+F1 Ba F2 14_556 . . 62.4(7) yes
+F1 Ba F2 14_556 . 1_565 140.6(13) yes
+F1 Ba F2 14_556 . 1_665 55.7(6) yes
+F1 Ba F2 14_556 . 10_556 72.9(8) yes
+F1 Ba F2 14_556 . 10_566 160.5(13) yes
+F1 Ba F2 14_556 . 10_666 66.8(8) yes
+F1 Ba F1 15_656 . 15_666 107.7(12) yes
+F1 Ba F1 15_656 . 16_556 121.3(11) yes
+F1 Ba F1 15_656 . 17_666 109.1(12) yes
+F1 Ba F1 15_656 . 18_566 117.1(12) yes
+F1 Ba F1 15_656 . 19_665 70.6(11) yes
+F1 Ba F1 15_656 . 20_555 58.1(11) yes
+F1 Ba F1 15_656 . 21_565 63.8(13) yes
+F1 Ba F1 15_656 . 22_455 113.8(9) yes
+F1 Ba F1 15_656 . 22_565 130.4(8) yes
+F1 Ba F1 15_656 . 23_665 55.2(12) yes
+F1 Ba F1 15_656 . 23_675 139.6(9) yes
+F1 Ba F1 15_656 . 24_555 124.2(10) yes
+F1 Ba F1 15_656 . 24_655 53.8(12) yes
+F1 Ba F2 15_656 . . 52.1(6) yes
+F1 Ba F2 15_656 . 1_565 143.3(12) yes
+F1 Ba F2 15_656 . 1_665 65.4(6) yes
+F1 Ba F2 15_656 . 10_556 62.5(8) yes
+F1 Ba F2 15_656 . 10_566 162.6(12) yes
+F1 Ba F2 15_656 . 10_666 74.7(7) yes
+F1 Ba F1 15_666 . 16_556 118.9(10) yes
+F1 Ba F1 15_666 . 17_666 125.4(11) yes
+F1 Ba F1 15_666 . 18_566 112.9(11) yes
+F1 Ba F1 15_666 . 19_665 54.2(11) yes
+F1 Ba F1 15_666 . 20_555 62.0(10) yes
+F1 Ba F1 15_666 . 21_565 66.7(11) yes
+F1 Ba F1 15_666 . 22_455 130.4(11) yes
+F1 Ba F1 15_666 . 22_565 58.8(12) yes
+F1 Ba F1 15_666 . 23_665 134.7(10) yes
+F1 Ba F1 15_666 . 23_675 55.2(12) yes
+F1 Ba F1 15_666 . 24_555 121.8(13) yes
+F1 Ba F1 15_666 . 24_655 124.2(10) yes
+F1 Ba F2 15_666 . . 140.6(12) yes
+F1 Ba F2 15_666 . 1_565 55.7(10) yes
+F1 Ba F2 15_666 . 1_665 62.4(10) yes
+F1 Ba F2 15_666 . 10_556 160.5(12) yes
+F1 Ba F2 15_666 . 10_566 66.8(11) yes
+F1 Ba F2 15_666 . 10_666 72.9(10) yes
+F1 Ba F1 16_556 . 19_665 167.9(10) yes
+F1 Ba F1 16_556 . 20_555 179.2(5) yes
+F1 Ba F1 16_556 . 21_565 167.0(9) yes
+F1 Ba F1 16_556 . 22_455 58.1(9) yes
+F1 Ba F1 16_556 . 22_565 62.0(9) yes
+F1 Ba F1 16_556 . 23_665 66.7(11) yes
+F1 Ba F1 16_556 . 23_675 63.8(8) yes
+F1 Ba F1 16_556 . 24_555 54.2(11) yes
+F1 Ba F1 16_556 . 24_655 70.6(11) yes
+F1 Ba F2 16_556 . . 99.5(9) yes
+F1 Ba F2 16_556 . 1_565 93.9(11) yes
+F1 Ba F2 16_556 . 1_665 106.5(11) yes
+F1 Ba F2 16_556 . 10_556 79.7(10) yes
+F1 Ba F2 16_556 . 10_566 74.0(11) yes
+F1 Ba F2 16_556 . 10_666 86.5(11) yes
+F1 Ba F1 17_666 . 19_665 179.2(5) yes
+F1 Ba F1 17_666 . 20_555 167.0(11) yes
+F1 Ba F1 17_666 . 21_565 167.9(10) yes
+F1 Ba F1 17_666 . 22_455 63.8(8) yes
+F1 Ba F1 17_666 . 22_565 66.7(11) yes
+F1 Ba F1 17_666 . 23_665 54.2(12) yes
+F1 Ba F1 17_666 . 23_675 70.6(11) yes
+F1 Ba F1 17_666 . 24_555 62.0(10) yes
+F1 Ba F1 17_666 . 24_655 58.1(11) yes
+F1 Ba F2 17_666 . . 93.9(11) yes
+F1 Ba F2 17_666 . 1_565 106.5(12) yes
+F1 Ba F2 17_666 . 1_665 99.5(10) yes
+F1 Ba F2 17_666 . 10_556 74.0(11) yes
+F1 Ba F2 17_666 . 10_566 86.5(12) yes
+F1 Ba F2 17_666 . 10_666 79.7(9) yes
+F1 Ba F1 18_566 . 19_665 167.0(9) yes
+F1 Ba F1 18_566 . 20_555 167.9(10) yes
+F1 Ba F1 18_566 . 21_565 179.2(13) yes
+F1 Ba F1 18_566 . 22_455 70.6(10) yes
+F1 Ba F1 18_566 . 22_565 54.2(11) yes
+F1 Ba F1 18_566 . 23_665 62.0(13) yes
+F1 Ba F1 18_566 . 23_675 58.1(10) yes
+F1 Ba F1 18_566 . 24_555 66.7(11) yes
+F1 Ba F1 18_566 . 24_655 63.8(13) yes
+F1 Ba F2 18_566 . . 106.5(11) yes
+F1 Ba F2 18_566 . 1_565 99.5(13) yes
+F1 Ba F2 18_566 . 1_665 93.9(11) yes
+F1 Ba F2 18_566 . 10_556 86.5(11) yes
+F1 Ba F2 18_566 . 10_566 79.7(13) yes
+F1 Ba F2 18_566 . 10_666 74.0(11) yes
+F1 Ba F1 19_665 . 22_455 117.1(8) yes
+F1 Ba F1 19_665 . 22_565 112.9(11) yes
+F1 Ba F1 19_665 . 23_665 125.4(12) yes
+F1 Ba F1 19_665 . 23_675 109.1(10) yes
+F1 Ba F1 19_665 . 24_555 118.9(10) yes
+F1 Ba F1 19_665 . 24_655 121.3(11) yes
+F1 Ba F2 19_665 . . 86.5(11) yes
+F1 Ba F2 19_665 . 1_565 74.0(11) yes
+F1 Ba F2 19_665 . 1_665 79.7(10) yes
+F1 Ba F2 19_665 . 10_556 106.5(11) yes
+F1 Ba F2 19_665 . 10_566 93.9(11) yes
+F1 Ba F2 19_665 . 10_666 99.5(9) yes
+F1 Ba F1 20_555 . 22_455 121.3(10) yes
+F1 Ba F1 20_555 . 22_565 118.9(9) yes
+F1 Ba F1 20_555 . 23_665 112.9(12) yes
+F1 Ba F1 20_555 . 23_675 117.1(8) yes
+F1 Ba F1 20_555 . 24_555 125.4(11) yes
+F1 Ba F1 20_555 . 24_655 109.1(12) yes
+F1 Ba F2 20_555 . . 79.7(9) yes
+F1 Ba F2 20_555 . 1_565 86.5(12) yes
+F1 Ba F2 20_555 . 1_665 74.0(11) yes
+F1 Ba F2 20_555 . 10_556 99.5(10) yes
+F1 Ba F2 20_555 . 10_566 106.5(12) yes
+F1 Ba F2 20_555 . 10_666 93.9(11) yes
+F1 Ba F1 21_565 . 22_455 109.1(10) yes
+F1 Ba F1 21_565 . 22_565 125.4(11) yes
+F1 Ba F1 21_565 . 23_665 118.9(13) yes
+F1 Ba F1 21_565 . 23_675 121.3(11) yes
+F1 Ba F1 21_565 . 24_555 112.9(11) yes
+F1 Ba F1 21_565 . 24_655 117.1(12) yes
+F1 Ba F2 21_565 . . 74.0(11) yes
+F1 Ba F2 21_565 . 1_565 79.7(13) yes
+F1 Ba F2 21_565 . 1_665 86.5(11) yes
+F1 Ba F2 21_565 . 10_556 93.9(11) yes
+F1 Ba F2 21_565 . 10_566 99.5(13) yes
+F1 Ba F2 21_565 . 10_666 106.5(11) yes
+F1 Ba F1 22_455 . 22_565 107.7(10) yes
+F1 Ba F1 22_455 . 23_665 92.2(10) yes
+F1 Ba F1 22_455 . 23_675 102.3(10) yes
+F1 Ba F1 22_455 . 24_555 10.5(11) yes
+F1 Ba F1 22_455 . 24_655 102.3(9) yes
+F1 Ba F2 22_455 . . 62.5(9) yes
+F1 Ba F2 22_455 . 1_565 74.7(8) yes
+F1 Ba F2 22_455 . 1_665 162.6(11) yes
+F1 Ba F2 22_455 . 10_556 52.1(8) yes
+F1 Ba F2 22_455 . 10_566 65.4(8) yes
+F1 Ba F2 22_455 . 10_666 143.3(12) yes
+F1 Ba F1 22_565 . 23_665 98.2(10) yes
+F1 Ba F1 22_565 . 24_555 98.2(10) yes
+F1 Ba F1 22_565 . 24_655 92.2(10) yes
+F1 Ba F2 22_565 . . 160.5(12) yes
+F1 Ba F2 22_565 . 1_565 72.9(9) yes
+F1 Ba F2 22_565 . 1_665 66.8(8) yes
+F1 Ba F2 22_565 . 10_556 140.6(12) yes
+F1 Ba F2 22_565 . 10_566 62.4(7) yes
+F1 Ba F2 22_565 . 10_666 55.7(7) yes
+F1 Ba F1 23_665 . 23_675 107.7(10) yes
+F1 Ba F1 23_665 . 24_555 98.2(12) yes
+F1 Ba F2 23_665 . . 66.8(8) yes
+F1 Ba F2 23_665 . 1_565 160.5(13) yes
+F1 Ba F2 23_665 . 1_665 72.9(8) yes
+F1 Ba F2 23_665 . 10_556 55.7(6) yes
+F1 Ba F2 23_665 . 10_566 140.6(13) yes
+F1 Ba F2 23_665 . 10_666 62.4(7) yes
+F1 Ba F1 23_675 . 24_555 92.2(11) yes
+F1 Ba F1 23_675 . 24_655 102.3(11) yes
+F1 Ba F2 23_675 . . 162.6(11) yes
+F1 Ba F2 23_675 . 1_565 62.5(9) yes
+F1 Ba F2 23_675 . 1_665 74.7(9) yes
+F1 Ba F2 23_675 . 10_556 143.3(11) yes
+F1 Ba F2 23_675 . 10_566 52.1(9) yes
+F1 Ba F2 23_675 . 10_666 65.4(8) yes
+F1 Ba F1 24_555 . 24_655 107.7(12) yes
+F1 Ba F2 24_555 . . 72.9(10) yes
+F1 Ba F2 24_555 . 1_565 66.8(11) yes
+F1 Ba F2 24_555 . 1_665 160.5(12) yes
+F1 Ba F2 24_555 . 10_556 62.4(10) yes
+F1 Ba F2 24_555 . 10_566 55.7(10) yes
+F1 Ba F2 24_555 . 10_666 140.6(12) yes
+F1 Ba F2 24_655 . . 74.7(7) yes
+F1 Ba F2 24_655 . 1_565 162.6(12) yes
+F1 Ba F2 24_655 . 1_665 62.5(8) yes
+F1 Ba F2 24_655 . 10_556 65.4(6) yes
+F1 Ba F2 24_655 . 10_566 143.3(12) yes
+F1 Ba F2 24_655 . 10_666 52.1(6) yes
+F2 Ba F2 . . 1_565 117.1(4) yes
+F2 Ba F2 . . 1_665 117.1(4) yes
+F2 Ba F2 . . 10_566 121.00(13) yes
+F2 Ba F2 . . 10_666 121.00(13) yes
+F2 Ba F2 1_565 . 1_665 117.1(4) yes
+F2 Ba F2 1_565 . 10_556 121.00(13) yes
+F2 Ba F2 1_565 . 10_666 121.00(13) yes
+F2 Ba F2 1_665 . 10_556 121.00(13) yes
+F2 Ba F2 1_665 . 10_566 121.00(13) yes
+F2 Ba F2 10_556 . 10_566 117.1(4) yes
+F2 Ba F2 10_556 . 10_666 117.1(4) yes
+F2 Ba F2 10_566 . 10_666 117.1(4) yes
+F1 Th F1 . . 4_565 115.8(11) yes
+F1 Th F1 . . 4_665 122.8(11) yes
+F1 Th F1 . . 4_675 111.1(8) yes
+F1 Th F1 . . 5_455 110.8(10) yes
+F1 Th F1 . . 5_555 128.2(12) yes
+F1 Th F1 . . 6_555 110.3(10) yes
+F1 Th F1 . . 6_655 125.2(11) yes
+F1 Th F1 . . 6_665 112.6(9) yes
+F1 Th F1 . . 7_456 59.4(10) yes
+F1 Th F1 . . 7_556 73.4(10) yes
+F1 Th F1 . . 7_566 59.6(9) yes
+F1 Th F1 . . 8_566 60.4(10) yes
+F1 Th F1 . . 8_666 67.9(12) yes
+F1 Th F1 . . 8_676 61.1(8) yes
+F1 Th F1 . . 9_556 54.8(11) yes
+F1 Th F1 . . 9_656 71.5(11) yes
+F1 Th F1 . . 10_666 162.0(9) yes
+F1 Th F1 . . 11_556 172.2(5) yes
+F1 Th F1 . . 12_566 168.6(12) yes
+F1 Th F1 . . 13_566 55.5(10) yes
+F1 Th F1 . . 13_666 73.6(11) yes
+F1 Th F1 . . 13_676 62.9(8) yes
+F1 Th F1 . . 14_456 58.0(10) yes
+F1 Th F1 . . 14_556 68.1(12) yes
+F1 Th F1 . . 15_556 61.2(10) yes
+F1 Th F1 . . 15_656 71.2(11) yes
+F1 Th F1 . . 15_666 58.7(9) yes
+F1 Th F1 . . 16_556 163.6(10) yes
+F1 Th F1 . . 17_666 176.1(11) yes
+F1 Th F1 . . 18_566 164.9(8) yes
+F1 Th F1 . . 22_455 112.9(10) yes
+F1 Th F1 . . 22_555 123.0(10) yes
+F1 Th F1 . . 22_565 113.5(9) yes
+F1 Th F1 . . 23_565 109.3(10) yes
+F1 Th F1 . . 23_665 128.6(12) yes
+F1 Th F1 . . 23_675 109.4(8) yes
+F1 Th F1 . . 24_555 114.6(11) yes
+F1 Th F1 . . 24_655 124.6(11) yes
+F1 Th F2 . . . 83.2(10) yes
+F1 Th F2 . . 1_565 72.2(11) yes
+F1 Th F2 . . 1_665 84.3(10) yes
+F1 Th F2 . . 10_556 104.6(10) yes
+F1 Th F2 . . 10_566 91.4(11) yes
+F1 Th F2 . . 10_666 103.4(10) yes
+F1 Th F1 2_665 . 4_565 122.9(9) yes
+F1 Th F1 2_665 . 4_665 110.2(11) yes
+F1 Th F1 2_665 . 4_675 115.5(10) yes
+F1 Th F1 2_665 . 5_455 119.8(9) yes
+F1 Th F1 2_665 . 5_555 115.7(12) yes
+F1 Th F1 2_665 . 6_555 117.3(8) yes
+F1 Th F1 2_665 . 6_655 112.7(12) yes
+F1 Th F1 2_665 . 6_665 119.1(11) yes
+F1 Th F1 2_665 . 7_456 65.4(9) yes
+F1 Th F1 2_665 . 7_556 60.9(11) yes
+F1 Th F1 2_665 . 7_566 64.4(11) yes
+F1 Th F1 2_665 . 8_566 68.5(9) yes
+F1 Th F1 2_665 . 8_666 55.3(12) yes
+F1 Th F1 2_665 . 8_676 68.0(11) yes
+F1 Th F1 2_665 . 9_556 63.0(10) yes
+F1 Th F1 2_665 . 9_656 59.1(11) yes
+F1 Th F1 2_665 . 10_666 171.0(9) yes
+F1 Th F1 2_665 . 11_556 168.6(9) yes
+F1 Th F1 2_665 . 12_566 176.5(10) yes
+F1 Th F1 2_665 . 13_566 62.3(10) yes
+F1 Th F1 2_665 . 13_666 61.1(11) yes
+F1 Th F1 2_665 . 13_676 67.0(10) yes
+F1 Th F1 2_665 . 14_456 66.7(9) yes
+F1 Th F1 2_665 . 14_556 55.6(12) yes
+F1 Th F1 2_665 . 15_556 67.8(9) yes
+F1 Th F1 2_665 . 15_656 58.7(12) yes
+F1 Th F1 2_665 . 15_666 64.9(11) yes
+F1 Th F1 2_665 . 16_556 176.1(11) yes
+F1 Th F1 2_665 . 17_666 171.3(11) yes
+F1 Th F1 2_665 . 18_566 168.5(7) yes
+F1 Th F1 2_665 . 22_455 119.3(9) yes
+F1 Th F1 2_665 . 22_555 110.4(11) yes
+F1 Th F1 2_665 . 22_565 118.6(10) yes
+F1 Th F1 2_665 . 23_565 117.6(9) yes
+F1 Th F1 2_665 . 23_665 116.0(12) yes
+F1 Th F1 2_665 . 23_675 116.5(10) yes
+F1 Th F1 2_665 . 24_555 123.1(10) yes
+F1 Th F1 2_665 . 24_655 112.2(11) yes
+F1 Th F2 2_665 . . 77.5(12) yes
+F1 Th F2 2_665 . 1_565 84.7(12) yes
+F1 Th F2 2_665 . 1_665 78.1(9) yes
+F1 Th F2 2_665 . 10_556 99.1(12) yes
+F1 Th F2 2_665 . 10_566 103.9(12) yes
+F1 Th F2 2_665 . 10_666 97.2(9) yes
+F1 Th F1 3_565 . 4_565 128.1(12) yes
+F1 Th F1 3_565 . 4_665 115.2(12) yes
+F1 Th F1 3_565 . 4_675 103.3(9) yes
+F1 Th F1 3_565 . 5_455 122.6(11) yes
+F1 Th F1 3_565 . 5_555 120.4(13) yes
+F1 Th F1 3_565 . 6_555 122.7(11) yes
+F1 Th F1 3_565 . 6_655 119.7(13) yes
+F1 Th F1 3_565 . 6_665 106.6(10) yes
+F1 Th F1 3_565 . 7_456 71.9(10) yes
+F1 Th F1 3_565 . 7_556 68.3(12) yes
+F1 Th F1 3_565 . 7_566 52.0(10) yes
+F1 Th F1 3_565 . 8_566 72.8(10) yes
+F1 Th F1 3_565 . 8_666 62.7(13) yes
+F1 Th F1 3_565 . 8_676 55.5(10) yes
+F1 Th F1 3_565 . 9_556 67.2(11) yes
+F1 Th F1 3_565 . 9_656 64.3(13) yes
+F1 Th F1 3_565 . 10_666 158.6(9) yes
+F1 Th F1 3_565 . 11_556 162.0(8) yes
+F1 Th F1 3_565 . 12_566 171.0(10) yes
+F1 Th F1 3_565 . 13_566 68.0(11) yes
+F1 Th F1 3_565 . 13_666 67.0(12) yes
+F1 Th F1 3_565 . 13_676 54.7(9) yes
+F1 Th F1 3_565 . 14_456 70.2(11) yes
+F1 Th F1 3_565 . 14_556 61.4(13) yes
+F1 Th F1 3_565 . 15_556 73.6(10) yes
+F1 Th F1 3_565 . 15_656 66.8(12) yes
+F1 Th F1 3_565 . 15_666 52.4(11) yes
+F1 Th F1 3_565 . 16_556 164.9(8) yes
+F1 Th F1 3_565 . 17_666 168.5(7) yes
+F1 Th F1 3_565 . 18_566 157.6(8) yes
+F1 Th F1 3_565 . 22_455 125.4(11) yes
+F1 Th F1 3_565 . 22_555 116.9(12) yes
+F1 Th F1 3_565 . 22_565 106.2(10) yes
+F1 Th F1 3_565 . 23_565 121.3(11) yes
+F1 Th F1 3_565 . 23_665 122.2(13) yes
+F1 Th F1 3_565 . 23_675 104.0(10) yes
+F1 Th F1 3_565 . 24_555 126.6(12) yes
+F1 Th F1 3_565 . 24_655 116.3(12) yes
+F1 Th F2 3_565 . . 89.9(11) yes
+F1 Th F2 3_565 . 1_565 77.3(12) yes
+F1 Th F2 3_565 . 1_665 71.8(11) yes
+F1 Th F2 3_565 . 10_556 111.5(11) yes
+F1 Th F2 3_565 . 10_566 96.2(12) yes
+F1 Th F2 3_565 . 10_666 90.9(11) yes
+F1 Th F1 4_565 . 4_665 105.9(10) yes
+F1 Th F1 4_565 . 4_675 104.9(9) yes
+F1 Th F1 4_565 . 5_555 102.6(11) yes
+F1 Th F1 4_565 . 6_655 96.8(11) yes
+F1 Th F1 4_565 . 6_665 96.0(10) yes
+F1 Th F1 4_565 . 7_456 57.5(12) yes
+F1 Th F1 4_565 . 7_556 127.4(7) yes
+F1 Th F1 4_565 . 7_566 130.4(9) yes
+F1 Th F1 4_565 . 8_566 55.3(12) yes
+F1 Th F1 4_565 . 8_666 129.9(7) yes
+F1 Th F1 4_565 . 8_676 120.6(10) yes
+F1 Th F1 4_565 . 9_556 60.9(13) yes
+F1 Th F1 4_565 . 9_656 138.1(8) yes
+F1 Th F1 4_565 . 10_666 62.7(9) yes
+F1 Th F1 4_565 . 11_556 67.9(11) yes
+F1 Th F1 4_565 . 12_566 55.3(11) yes
+F1 Th F1 4_565 . 13_566 60.7(13) yes
+F1 Th F1 4_565 . 13_666 133.9(7) yes
+F1 Th F1 4_565 . 13_676 132.3(9) yes
+F1 Th F1 4_565 . 14_456 57.9(12) yes
+F1 Th F1 4_565 . 14_556 136.5(8) yes
+F1 Th F1 4_565 . 15_556 55.1(12) yes
+F1 Th F1 4_565 . 15_656 125.2(8) yes
+F1 Th F1 4_565 . 15_666 124.5(11) yes
+F1 Th F1 4_565 . 16_556 55.5(10) yes
+F1 Th F1 4_565 . 17_666 62.3(10) yes
+F1 Th F1 4_565 . 18_566 68.0(11) yes
+F1 Th F1 4_565 . 19_665 122.2(10) yes
+F1 Th F1 4_565 . 20_555 128.6(11) yes
+F1 Th F1 4_565 . 21_565 116.0(11) yes
+F1 Th F1 4_565 . 22_555 100.6(9) yes
+F1 Th F1 4_565 . 22_565 100.7(9) yes
+F1 Th F1 4_565 . 23_665 97.5(11) yes
+F1 Th F1 4_565 . 23_675 95.3(9) yes
+F1 Th F1 4_565 . 24_655 107.0(11) yes
+F1 Th F2 4_565 . . 71.3(8) yes
+F1 Th F2 4_565 . 1_565 72.5(9) yes
+F1 Th F2 4_565 . 1_665 158.9(12) yes
+F1 Th F2 4_565 . 10_556 59.3(7) yes
+F1 Th F2 4_565 . 10_566 62.0(7) yes
+F1 Th F2 4_565 . 10_666 139.8(12) yes
+F1 Th F1 4_665 . 4_675 93.0(8) yes
+F1 Th F1 4_665 . 5_455 115.4(10) yes
+F1 Th F1 4_665 . 6_555 109.0(10) yes
+F1 Th F1 4_665 . 6_665 99.5(10) yes
+F1 Th F1 4_665 . 7_456 129.7(8) yes
+F1 Th F1 4_665 . 7_556 49.9(11) yes
+F1 Th F1 4_665 . 7_566 117.0(7) yes
+F1 Th F1 4_665 . 8_566 139.2(5) yes
+F1 Th F1 4_665 . 8_666 55.3(12) yes
+F1 Th F1 4_665 . 8_676 125.4(8) yes
+F1 Th F1 4_665 . 9_556 140.8(10) yes
+F1 Th F1 4_665 . 9_656 51.3(12) yes
+F1 Th F1 4_665 . 10_666 72.8(10) yes
+F1 Th F1 4_665 . 11_556 60.4(11) yes
+F1 Th F1 4_665 . 12_566 68.5(12) yes
+F1 Th F1 4_665 . 13_566 133.9(7) yes
+F1 Th F1 4_665 . 13_666 49.2(11) yes
+F1 Th F1 4_665 . 13_676 113.3(8) yes
+F1 Th F1 4_665 . 14_456 143.2(8) yes
+F1 Th F1 4_665 . 14_556 54.7(12) yes
+F1 Th F1 4_665 . 15_556 132.4(8) yes
+F1 Th F1 4_665 . 15_656 52.7(11) yes
+F1 Th F1 4_665 . 15_666 123.1(9) yes
+F1 Th F1 4_665 . 16_556 73.6(11) yes
+F1 Th F1 4_665 . 17_666 61.1(11) yes
+F1 Th F1 4_665 . 18_566 67.0(12) yes
+F1 Th F1 4_665 . 19_665 121.3(10) yes
+F1 Th F1 4_665 . 20_555 109.3(11) yes
+F1 Th F1 4_665 . 21_565 117.6(12) yes
+F1 Th F1 4_665 . 22_455 105.1(9) yes
+F1 Th F1 4_665 . 22_565 94.2(8) yes
+F1 Th F1 4_665 . 23_565 114.2(9) yes
+F1 Th F1 4_665 . 23_675 103.7(9) yes
+F1 Th F1 4_665 . 24_555 110.9(12) yes
+F1 Th F2 4_665 . . 74.7(6) yes
+F1 Th F2 4_665 . 1_565 161.6(9) yes
+F1 Th F2 4_665 . 1_665 64.7(7) yes
+F1 Th F2 4_665 . 10_556 65.1(5) yes
+F1 Th F2 4_665 . 10_566 144.1(11) yes
+F1 Th F2 4_665 . 10_666 55.5(5) yes
+F1 Th F1 4_675 . 5_455 99.4(10) yes
+F1 Th F1 4_675 . 5_555 89.5(10) yes
+F1 Th F1 4_675 . 6_555 109.1(10) yes
+F1 Th F1 4_675 . 6_655 100.4(9) yes
+F1 Th F1 4_675 . 6_665 9.8(10) yes
+F1 Th F1 4_675 . 7_456 135.7(10) yes
+F1 Th F1 4_675 . 7_556 120.0(7) yes
+F1 Th F1 4_675 . 7_566 51.6(11) yes
+F1 Th F1 4_675 . 8_566 125.4(8) yes
+F1 Th F1 4_675 . 8_666 120.6(9) yes
+F1 Th F1 4_675 . 8_676 50.4(10) yes
+F1 Th F1 4_675 . 9_556 125.5(11) yes
+F1 Th F1 4_675 . 9_656 110.3(9) yes
+F1 Th F1 4_675 . 10_666 55.5(9) yes
+F1 Th F1 4_675 . 11_556 61.1(8) yes
+F1 Th F1 4_675 . 12_566 68.0(10) yes
+F1 Th F1 4_675 . 13_566 132.3(9) yes
+F1 Th F1 4_675 . 13_666 113.3(8) yes
+F1 Th F1 4_675 . 13_676 48.6(10) yes
+F1 Th F1 4_675 . 14_456 122.1(10) yes
+F1 Th F1 4_675 . 14_556 113.9(8) yes
+F1 Th F1 4_675 . 15_556 132.2(10) yes
+F1 Th F1 4_675 . 15_656 123.6(9) yes
+F1 Th F1 4_675 . 15_666 52.4(11) yes
+F1 Th F1 4_675 . 16_556 62.9(8) yes
+F1 Th F1 4_675 . 17_666 67.0(10) yes
+F1 Th F1 4_675 . 18_566 54.7(9) yes
+F1 Th F1 4_675 . 19_665 104.0(9) yes
+F1 Th F1 4_675 . 20_555 109.4(8) yes
+F1 Th F1 4_675 . 21_565 116.5(10) yes
+F1 Th F1 4_675 . 22_455 110.0(10) yes
+F1 Th F1 4_675 . 22_555 98.9(9) yes
+F1 Th F1 4_675 . 23_565 103.7(8) yes
+F1 Th F1 4_675 . 23_665 95.3(9) yes
+F1 Th F1 4_675 . 24_555 99.7(11) yes
+F1 Th F1 4_675 . 24_655 88.8(9) yes
+F1 Th F2 4_675 . . 165.0(11) yes
+F1 Th F2 4_675 . 1_565 70.3(8) yes
+F1 Th F2 4_675 . 1_665 58.9(8) yes
+F1 Th F2 4_675 . 10_556 144.2(12) yes
+F1 Th F2 4_675 . 10_566 61.7(7) yes
+F1 Th F2 4_675 . 10_666 49.2(7) yes
+F1 Th F1 5_455 . 5_555 111.7(11) yes
+F1 Th F1 5_455 . 6_555 10.8(10) yes
+F1 Th F1 5_455 . 6_655 106.6(11) yes
+F1 Th F1 5_455 . 6_665 90.0(11) yes
+F1 Th F1 5_455 . 7_456 55.5(11) yes
+F1 Th F1 5_455 . 7_556 136.4(9) yes
+F1 Th F1 5_455 . 7_566 120.1(10) yes
+F1 Th F1 5_455 . 8_566 51.3(11) yes
+F1 Th F1 5_455 . 8_666 138.1(9) yes
+F1 Th F1 5_455 . 8_676 110.3(11) yes
+F1 Th F1 5_455 . 9_556 56.7(12) yes
+F1 Th F1 5_455 . 9_656 147.2(9) yes
+F1 Th F1 5_455 . 10_666 64.3(8) yes
+F1 Th F1 5_455 . 11_556 71.5(11) yes
+F1 Th F1 5_455 . 12_566 59.1(10) yes
+F1 Th F1 5_455 . 13_566 57.9(12) yes
+F1 Th F1 5_455 . 13_666 143.2(8) yes
+F1 Th F1 5_455 . 13_676 122.1(10) yes
+F1 Th F1 5_455 . 14_456 53.1(11) yes
+F1 Th F1 5_455 . 14_556 144.9(9) yes
+F1 Th F1 5_455 . 15_556 52.6(11) yes
+F1 Th F1 5_455 . 15_656 133.8(9) yes
+F1 Th F1 5_455 . 15_666 114.1(12) yes
+F1 Th F1 5_455 . 16_556 58.0(10) yes
+F1 Th F1 5_455 . 17_666 66.7(9) yes
+F1 Th F1 5_455 . 18_566 70.2(11) yes
+F1 Th F1 5_455 . 19_665 116.3(9) yes
+F1 Th F1 5_455 . 20_555 124.6(11) yes
+F1 Th F1 5_455 . 21_565 112.2(10) yes
+F1 Th F1 5_455 . 22_455 13.7(10) yes
+F1 Th F1 5_455 . 22_555 110.5(10) yes
+F1 Th F1 5_455 . 22_565 95.3(9) yes
+F1 Th F1 5_455 . 23_665 107.0(12) yes
+F1 Th F1 5_455 . 23_675 88.8(10) yes
+F1 Th F1 5_455 . 24_655 116.2(11) yes
+F1 Th F2 5_455 . . 78.9(9) yes
+F1 Th F2 5_455 . 1_565 62.2(10) yes
+F1 Th F2 5_455 . 1_665 157.7(10) yes
+F1 Th F2 5_455 . 10_556 68.8(9) yes
+F1 Th F2 5_455 . 10_566 52.0(9) yes
+F1 Th F2 5_455 . 10_666 140.9(11) yes
+F1 Th F1 5_555 . 6_555 106.1(10) yes
+F1 Th F1 5_555 . 6_655 11.2(8) yes
+F1 Th F1 5_555 . 6_665 95.5(12) yes
+F1 Th F1 5_555 . 7_456 131.9(9) yes
+F1 Th F1 5_555 . 7_556 55.5(12) yes
+F1 Th F1 5_555 . 7_566 117.8(7) yes
+F1 Th F1 5_555 . 8_566 140.8(7) yes
+F1 Th F1 5_555 . 8_666 60.9(13) yes
+F1 Th F1 5_555 . 8_676 125.5(9) yes
+F1 Th F1 5_555 . 9_556 143.1(11) yes
+F1 Th F1 5_555 . 9_656 56.7(12) yes
+F1 Th F1 5_555 . 10_666 67.2(12) yes
+F1 Th F1 5_555 . 11_556 54.8(12) yes
+F1 Th F1 5_555 . 12_566 63.0(13) yes
+F1 Th F1 5_555 . 13_566 136.5(8) yes
+F1 Th F1 5_555 . 13_666 54.7(12) yes
+F1 Th F1 5_555 . 13_676 113.9(8) yes
+F1 Th F1 5_555 . 14_456 144.9(9) yes
+F1 Th F1 5_555 . 14_556 60.2(13) yes
+F1 Th F1 5_555 . 15_556 134.2(9) yes
+F1 Th F1 5_555 . 15_656 58.3(13) yes
+F1 Th F1 5_555 . 15_666 123.6(10) yes
+F1 Th F1 5_555 . 16_556 68.1(12) yes
+F1 Th F1 5_555 . 17_666 55.6(12) yes
+F1 Th F1 5_555 . 18_566 61.4(13) yes
+F1 Th F1 5_555 . 19_665 126.6(11) yes
+F1 Th F1 5_555 . 20_555 114.6(12) yes
+F1 Th F1 5_555 . 21_565 123.1(13) yes
+F1 Th F1 5_555 . 22_455 102.3(10) yes
+F1 Th F1 5_555 . 22_565 90.5(10) yes
+F1 Th F1 5_555 . 23_565 110.9(10) yes
+F1 Th F1 5_555 . 23_675 99.7(11) yes
+F1 Th F1 5_555 . 24_555 107.3(12) yes
+F1 Th F2 5_555 . . 77.5(9) yes
+F1 Th F2 5_555 . 1_565 156.5(12) yes
+F1 Th F2 5_555 . 1_665 66.2(8) yes
+F1 Th F2 5_555 . 10_556 66.1(7) yes
+F1 Th F2 5_555 . 10_566 138.6(12) yes
+F1 Th F2 5_555 . 10_666 55.2(7) yes
+F1 Th F1 6_555 . 6_655 99.5(10) yes
+F1 Th F1 6_555 . 6_665 99.9(10) yes
+F1 Th F1 6_555 . 7_456 51.9(11) yes
+F1 Th F1 6_555 . 7_556 125.6(8) yes
+F1 Th F1 6_555 . 7_566 129.8(10) yes
+F1 Th F1 6_555 . 8_566 49.9(11) yes
+F1 Th F1 6_555 . 8_666 127.4(8) yes
+F1 Th F1 6_555 . 8_676 120.0(11) yes
+F1 Th F1 6_555 . 9_556 55.5(12) yes
+F1 Th F1 6_555 . 9_656 136.4(9) yes
+F1 Th F1 6_555 . 10_666 68.3(8) yes
+F1 Th F1 6_555 . 11_556 73.4(10) yes
+F1 Th F1 6_555 . 12_566 60.9(10) yes
+F1 Th F1 6_555 . 13_566 55.1(12) yes
+F1 Th F1 6_555 . 13_666 132.4(8) yes
+F1 Th F1 6_555 . 13_676 132.2(10) yes
+F1 Th F1 6_555 . 14_456 52.6(11) yes
+F1 Th F1 6_555 . 14_556 134.2(9) yes
+F1 Th F1 6_555 . 15_556 49.5(11) yes
+F1 Th F1 6_555 . 15_656 123.0(9) yes
+F1 Th F1 6_555 . 15_666 123.7(12) yes
+F1 Th F1 6_555 . 16_556 61.2(10) yes
+F1 Th F1 6_555 . 17_666 67.8(9) yes
+F1 Th F1 6_555 . 18_566 73.6(10) yes
+F1 Th F1 6_555 . 19_665 116.9(9) yes
+F1 Th F1 6_555 . 20_555 123.0(10) yes
+F1 Th F1 6_555 . 21_565 110.4(10) yes
+F1 Th F1 6_555 . 22_555 103.4(9) yes
+F1 Th F1 6_555 . 22_565 104.9(9) yes
+F1 Th F1 6_555 . 23_665 100.6(11) yes
+F1 Th F1 6_555 . 23_675 98.9(10) yes
+F1 Th F1 6_555 . 24_555 9.4(11) yes
+F1 Th F1 6_555 . 24_655 110.5(10) yes
+F1 Th F2 6_555 . . 68.3(9) yes
+F1 Th F2 6_555 . 1_565 71.2(9) yes
+F1 Th F2 6_555 . 1_665 164.5(11) yes
+F1 Th F2 6_555 . 10_556 58.2(8) yes
+F1 Th F2 6_555 . 10_566 62.4(8) yes
+F1 Th F2 6_555 . 10_666 145.4(11) yes
+F1 Th F1 6_655 . 6_665 105.8(11) yes
+F1 Th F1 6_655 . 7_456 120.7(9) yes
+F1 Th F1 6_655 . 7_556 51.9(12) yes
+F1 Th F1 6_655 . 7_566 127.3(8) yes
+F1 Th F1 6_655 . 8_566 129.7(7) yes
+F1 Th F1 6_655 . 8_666 57.5(13) yes
+F1 Th F1 6_655 . 8_676 135.7(9) yes
+F1 Th F1 6_655 . 9_556 131.9(10) yes
+F1 Th F1 6_655 . 9_656 55.5(12) yes
+F1 Th F1 6_655 . 10_666 71.9(11) yes
+F1 Th F1 6_655 . 11_556 59.4(11) yes
+F1 Th F1 6_655 . 12_566 65.4(13) yes
+F1 Th F1 6_655 . 13_566 125.2(8) yes
+F1 Th F1 6_655 . 13_666 52.7(11) yes
+F1 Th F1 6_655 . 13_676 123.6(9) yes
+F1 Th F1 6_655 . 14_456 133.8(9) yes
+F1 Th F1 6_655 . 14_556 58.3(13) yes
+F1 Th F1 6_655 . 15_556 123.0(9) yes
+F1 Th F1 6_655 . 15_656 54.0(12) yes
+F1 Th F1 6_655 . 15_666 133.4(10) yes
+F1 Th F1 6_655 . 16_556 71.2(11) yes
+F1 Th F1 6_655 . 17_666 58.7(12) yes
+F1 Th F1 6_655 . 18_566 66.8(12) yes
+F1 Th F1 6_655 . 19_665 125.4(11) yes
+F1 Th F1 6_655 . 20_555 112.9(12) yes
+F1 Th F1 6_655 . 21_565 119.3(13) yes
+F1 Th F1 6_655 . 22_455 95.6(10) yes
+F1 Th F1 6_655 . 22_565 101.1(10) yes
+F1 Th F1 6_655 . 23_565 105.1(10) yes
+F1 Th F1 6_655 . 23_675 110.0(10) yes
+F1 Th F1 6_655 . 24_555 102.3(12) yes
+F1 Th F2 6_655 . . 66.4(8) yes
+F1 Th F2 6_655 . 1_565 162.6(12) yes
+F1 Th F2 6_655 . 1_665 74.9(7) yes
+F1 Th F2 6_655 . 10_556 55.2(7) yes
+F1 Th F2 6_655 . 10_566 143.4(12) yes
+F1 Th F2 6_655 . 10_666 65.7(6) yes
+F1 Th F1 6_665 . 7_456 127.3(11) yes
+F1 Th F1 6_665 . 7_556 129.8(9) yes
+F1 Th F1 6_665 . 7_566 54.8(12) yes
+F1 Th F1 6_665 . 8_566 117.0(10) yes
+F1 Th F1 6_665 . 8_666 130.4(10) yes
+F1 Th F1 6_665 . 8_676 51.6(11) yes
+F1 Th F1 6_665 . 9_556 117.8(13) yes
+F1 Th F1 6_665 . 9_656 120.1(10) yes
+F1 Th F1 6_665 . 10_666 52.0(10) yes
+F1 Th F1 6_665 . 11_556 59.6(9) yes
+F1 Th F1 6_665 . 12_566 64.4(11) yes
+F1 Th F1 6_665 . 13_566 124.5(11) yes
+F1 Th F1 6_665 . 13_666 123.1(9) yes
+F1 Th F1 6_665 . 13_676 52.4(11) yes
+F1 Th F1 6_665 . 14_456 114.1(12) yes
+F1 Th F1 6_665 . 14_556 123.6(10) yes
+F1 Th F1 6_665 . 15_556 123.7(12) yes
+F1 Th F1 6_665 . 15_656 133.4(10) yes
+F1 Th F1 6_665 . 15_666 54.3(12) yes
+F1 Th F1 6_665 . 16_556 58.7(9) yes
+F1 Th F1 6_665 . 17_666 64.9(11) yes
+F1 Th F1 6_665 . 18_566 52.4(11) yes
+F1 Th F1 6_665 . 19_665 106.2(10) yes
+F1 Th F1 6_665 . 20_555 113.5(9) yes
+F1 Th F1 6_665 . 21_565 118.6(11) yes
+F1 Th F1 6_665 . 22_455 101.1(11) yes
+F1 Th F1 6_665 . 22_555 104.9(11) yes
+F1 Th F1 6_665 . 23_565 94.2(9) yes
+F1 Th F1 6_665 . 23_665 100.7(11) yes
+F1 Th F1 6_665 . 24_555 90.5(11) yes
+F1 Th F1 6_665 . 24_655 95.3(11) yes
+F1 Th F2 6_665 . . 163.3(12) yes
+F1 Th F2 6_665 . 1_565 62.9(10) yes
+F1 Th F2 6_665 . 1_665 68.6(9) yes
+F1 Th F2 6_665 . 10_556 141.9(13) yes
+F1 Th F2 6_665 . 10_566 52.6(9) yes
+F1 Th F2 6_665 . 10_666 58.8(9) yes
+F1 Th F1 7_456 . 7_556 99.5(9) yes
+F1 Th F1 7_456 . 7_566 105.8(10) yes
+F1 Th F1 7_456 . 8_666 96.8(11) yes
+F1 Th F1 7_456 . 8_676 100.4(10) yes
+F1 Th F1 7_456 . 9_656 106.6(10) yes
+F1 Th F1 7_456 . 10_666 119.7(9) yes
+F1 Th F1 7_456 . 11_556 125.2(10) yes
+F1 Th F1 7_456 . 12_566 112.7(10) yes
+F1 Th F1 7_456 . 13_666 105.1(9) yes
+F1 Th F1 7_456 . 13_676 110.0(10) yes
+F1 Th F1 7_456 . 14_556 102.3(10) yes
+F1 Th F1 7_456 . 15_656 95.6(10) yes
+F1 Th F1 7_456 . 15_666 101.1(11) yes
+F1 Th F1 7_456 . 16_556 112.9(10) yes
+F1 Th F1 7_456 . 17_666 119.3(9) yes
+F1 Th F1 7_456 . 18_566 125.4(11) yes
+F1 Th F1 7_456 . 19_665 66.8(8) yes
+F1 Th F1 7_456 . 20_555 71.2(10) yes
+F1 Th F1 7_456 . 21_565 58.7(10) yes
+F1 Th F1 7_456 . 22_455 54.0(11) yes
+F1 Th F1 7_456 . 22_555 123.0(8) yes
+F1 Th F1 7_456 . 22_565 133.4(9) yes
+F1 Th F1 7_456 . 23_565 52.7(11) yes
+F1 Th F1 7_456 . 23_665 125.2(8) yes
+F1 Th F1 7_456 . 23_675 123.6(10) yes
+F1 Th F1 7_456 . 24_555 58.3(12) yes
+F1 Th F1 7_456 . 24_655 133.8(9) yes
+F1 Th F2 7_456 . . 55.2(8) yes
+F1 Th F2 7_456 . 1_565 65.7(8) yes
+F1 Th F2 7_456 . 1_665 143.4(12) yes
+F1 Th F2 7_456 . 10_556 66.4(9) yes
+F1 Th F2 7_456 . 10_566 74.9(9) yes
+F1 Th F2 7_456 . 10_666 162.6(12) yes
+F1 Th F1 7_556 . 7_566 99.9(9) yes
+F1 Th F1 7_556 . 8_566 109.0(8) yes
+F1 Th F1 7_556 . 8_676 109.1(10) yes
+F1 Th F1 7_556 . 9_556 106.1(11) yes
+F1 Th F1 7_556 . 10_666 122.7(10) yes
+F1 Th F1 7_556 . 11_556 110.3(11) yes
+F1 Th F1 7_556 . 12_566 117.3(12) yes
+F1 Th F1 7_556 . 13_566 100.6(9) yes
+F1 Th F1 7_556 . 13_676 98.9(9) yes
+F1 Th F1 7_556 . 14_456 110.5(10) yes
+F1 Th F1 7_556 . 15_556 103.4(9) yes
+F1 Th F1 7_556 . 15_666 104.9(11) yes
+F1 Th F1 7_556 . 16_556 123.0(10) yes
+F1 Th F1 7_556 . 17_666 110.4(11) yes
+F1 Th F1 7_556 . 18_566 116.9(12) yes
+F1 Th F1 7_556 . 19_665 73.6(10) yes
+F1 Th F1 7_556 . 20_555 61.2(11) yes
+F1 Th F1 7_556 . 21_565 67.8(12) yes
+F1 Th F1 7_556 . 22_455 123.0(8) yes
+F1 Th F1 7_556 . 22_555 49.5(11) yes
+F1 Th F1 7_556 . 22_565 123.7(6) yes
+F1 Th F1 7_556 . 23_565 132.4(6) yes
+F1 Th F1 7_556 . 23_665 55.1(12) yes
+F1 Th F1 7_556 . 23_675 132.2(8) yes
+F1 Th F1 7_556 . 24_555 134.2(10) yes
+F1 Th F1 7_556 . 24_655 52.6(11) yes
+F1 Th F2 7_556 . . 58.2(5) yes
+F1 Th F2 7_556 . 1_565 145.4(11) yes
+F1 Th F2 7_556 . 1_665 62.4(5) yes
+F1 Th F2 7_556 . 10_556 68.3(7) yes
+F1 Th F2 7_556 . 10_566 164.5(11) yes
+F1 Th F2 7_556 . 10_666 71.2(6) yes
+F1 Th F1 7_566 . 8_566 99.5(8) yes
+F1 Th F1 7_566 . 8_666 96.0(9) yes
+F1 Th F1 7_566 . 8_676 9.8(9) yes
+F1 Th F1 7_566 . 9_556 95.5(10) yes
+F1 Th F1 7_566 . 9_656 90.0(10) yes
+F1 Th F1 7_566 . 10_666 106.6(10) yes
+F1 Th F1 7_566 . 11_556 112.6(9) yes
+F1 Th F1 7_566 . 12_566 119.1(11) yes
+F1 Th F1 7_566 . 13_566 100.7(9) yes
+F1 Th F1 7_566 . 13_666 94.2(8) yes
+F1 Th F1 7_566 . 14_456 95.3(9) yes
+F1 Th F1 7_566 . 14_556 90.5(10) yes
+F1 Th F1 7_566 . 15_556 104.9(9) yes
+F1 Th F1 7_566 . 15_656 101.1(10) yes
+F1 Th F1 7_566 . 16_556 113.5(9) yes
+F1 Th F1 7_566 . 17_666 118.6(10) yes
+F1 Th F1 7_566 . 18_566 106.2(10) yes
+F1 Th F1 7_566 . 19_665 52.4(10) yes
+F1 Th F1 7_566 . 20_555 58.7(9) yes
+F1 Th F1 7_566 . 21_565 64.9(10) yes
+F1 Th F1 7_566 . 22_455 133.4(9) yes
+F1 Th F1 7_566 . 22_555 123.7(6) yes
+F1 Th F1 7_566 . 22_565 54.3(12) yes
+F1 Th F1 7_566 . 23_565 123.1(8) yes
+F1 Th F1 7_566 . 23_665 124.5(8) yes
+F1 Th F1 7_566 . 23_675 52.4(11) yes
+F1 Th F1 7_566 . 24_555 123.6(11) yes
+F1 Th F1 7_566 . 24_655 114.1(8) yes
+F1 Th F2 7_566 . . 141.9(13) yes
+F1 Th F2 7_566 . 1_565 58.8(7) yes
+F1 Th F2 7_566 . 1_665 52.6(7) yes
+F1 Th F2 7_566 . 10_556 163.3(13) yes
+F1 Th F2 7_566 . 10_566 68.6(8) yes
+F1 Th F2 7_566 . 10_666 62.9(8) yes
+F1 Th F1 8_566 . 8_666 105.9(11) yes
+F1 Th F1 8_566 . 8_676 93.0(8) yes
+F1 Th F1 8_566 . 9_656 115.4(10) yes
+F1 Th F1 8_566 . 10_666 115.2(9) yes
+F1 Th F1 8_566 . 11_556 122.8(11) yes
+F1 Th F1 8_566 . 12_566 110.2(10) yes
+F1 Th F1 8_566 . 13_666 114.2(9) yes
+F1 Th F1 8_566 . 13_676 103.7(8) yes
+F1 Th F1 8_566 . 14_556 110.9(10) yes
+F1 Th F1 8_566 . 15_656 105.1(10) yes
+F1 Th F1 8_566 . 15_666 94.2(9) yes
+F1 Th F1 8_566 . 16_556 109.3(10) yes
+F1 Th F1 8_566 . 17_666 117.6(9) yes
+F1 Th F1 8_566 . 18_566 121.3(11) yes
+F1 Th F1 8_566 . 19_665 67.0(8) yes
+F1 Th F1 8_566 . 20_555 73.6(11) yes
+F1 Th F1 8_566 . 21_565 61.1(10) yes
+F1 Th F1 8_566 . 22_455 52.7(11) yes
+F1 Th F1 8_566 . 22_555 132.4(6) yes
+F1 Th F1 8_566 . 22_565 123.1(8) yes
+F1 Th F1 8_566 . 23_565 49.2(11) yes
+F1 Th F1 8_566 . 23_665 133.9(6) yes
+F1 Th F1 8_566 . 23_675 113.3(9) yes
+F1 Th F1 8_566 . 24_555 54.7(12) yes
+F1 Th F1 8_566 . 24_655 143.2(7) yes
+F1 Th F2 8_566 . . 65.1(6) yes
+F1 Th F2 8_566 . 1_565 55.5(6) yes
+F1 Th F2 8_566 . 1_665 144.1(11) yes
+F1 Th F2 8_566 . 10_556 74.7(6) yes
+F1 Th F2 8_566 . 10_566 64.7(7) yes
+F1 Th F2 8_566 . 10_666 161.6(9) yes
+F1 Th F1 8_666 . 8_676 104.9(10) yes
+F1 Th F1 8_666 . 9_556 102.6(13) yes
+F1 Th F1 8_666 . 9_656 10.4(8) yes
+F1 Th F1 8_666 . 10_666 128.1(12) yes
+F1 Th F1 8_666 . 11_556 115.8(12) yes
+F1 Th F1 8_666 . 12_566 122.9(13) yes
+F1 Th F1 8_666 . 13_566 97.5(11) yes
+F1 Th F1 8_666 . 13_666 8.4(10) yes
+F1 Th F1 8_666 . 13_676 95.3(9) yes
+F1 Th F1 8_666 . 14_456 107.0(12) yes
+F1 Th F1 8_666 . 15_556 100.6(11) yes
+F1 Th F1 8_666 . 15_666 100.7(11) yes
+F1 Th F1 8_666 . 16_556 128.6(12) yes
+F1 Th F1 8_666 . 17_666 116.0(12) yes
+F1 Th F1 8_666 . 18_566 122.2(13) yes
+F1 Th F1 8_666 . 19_665 68.0(12) yes
+F1 Th F1 8_666 . 20_555 55.5(12) yes
+F1 Th F1 8_666 . 21_565 62.3(13) yes
+F1 Th F1 8_666 . 22_455 125.2(8) yes
+F1 Th F1 8_666 . 22_555 55.1(12) yes
+F1 Th F1 8_666 . 22_565 124.5(8) yes
+F1 Th F1 8_666 . 23_565 133.9(6) yes
+F1 Th F1 8_666 . 23_665 60.7(13) yes
+F1 Th F1 8_666 . 23_675 132.3(9) yes
+F1 Th F1 8_666 . 24_555 136.5(10) yes
+F1 Th F1 8_666 . 24_655 57.9(13) yes
+F1 Th F2 8_666 . . 59.3(7) yes
+F1 Th F2 8_666 . 1_565 139.8(12) yes
+F1 Th F2 8_666 . 1_665 62.0(7) yes
+F1 Th F2 8_666 . 10_556 71.3(8) yes
+F1 Th F2 8_666 . 10_566 158.9(12) yes
+F1 Th F2 8_666 . 10_666 72.5(8) yes
+F1 Th F1 8_676 . 9_556 89.5(11) yes
+F1 Th F1 8_676 . 9_656 99.4(10) yes
+F1 Th F1 8_676 . 10_666 103.3(10) yes
+F1 Th F1 8_676 . 11_556 111.1(8) yes
+F1 Th F1 8_676 . 12_566 115.5(11) yes
+F1 Th F1 8_676 . 13_566 95.3(9) yes
+F1 Th F1 8_676 . 13_666 103.7(9) yes
+F1 Th F1 8_676 . 13_676 12.5(10) yes
+F1 Th F1 8_676 . 14_456 88.8(10) yes
+F1 Th F1 8_676 . 14_556 99.7(11) yes
+F1 Th F1 8_676 . 15_556 98.9(10) yes
+F1 Th F1 8_676 . 15_656 110.0(10) yes
+F1 Th F1 8_676 . 16_556 109.4(8) yes
+F1 Th F1 8_676 . 17_666 116.5(10) yes
+F1 Th F1 8_676 . 18_566 104.0(10) yes
+F1 Th F1 8_676 . 19_665 54.7(10) yes
+F1 Th F1 8_676 . 20_555 62.9(8) yes
+F1 Th F1 8_676 . 21_565 67.0(10) yes
+F1 Th F1 8_676 . 22_455 123.6(10) yes
+F1 Th F1 8_676 . 22_555 132.2(8) yes
+F1 Th F1 8_676 . 22_565 52.4(11) yes
+F1 Th F1 8_676 . 23_565 113.3(9) yes
+F1 Th F1 8_676 . 23_665 132.3(9) yes
+F1 Th F1 8_676 . 23_675 48.6(10) yes
+F1 Th F1 8_676 . 24_555 113.9(12) yes
+F1 Th F1 8_676 . 24_655 122.1(9) yes
+F1 Th F2 8_676 . . 144.2(12) yes
+F1 Th F2 8_676 . 1_565 49.2(8) yes
+F1 Th F2 8_676 . 1_665 61.7(8) yes
+F1 Th F2 8_676 . 10_556 165.0(11) yes
+F1 Th F2 8_676 . 10_566 58.9(9) yes
+F1 Th F2 8_676 . 10_666 70.3(8) yes
+F1 Th F1 9_556 . 9_656 111.7(12) yes
+F1 Th F1 9_556 . 10_666 120.4(10) yes
+F1 Th F1 9_556 . 11_556 128.2(12) yes
+F1 Th F1 9_556 . 12_566 115.7(11) yes
+F1 Th F1 9_556 . 13_666 110.9(12) yes
+F1 Th F1 9_556 . 13_676 99.7(11) yes
+F1 Th F1 9_556 . 14_556 107.3(12) yes
+F1 Th F1 9_556 . 15_656 102.3(12) yes
+F1 Th F1 9_556 . 15_666 90.5(11) yes
+F1 Th F1 9_556 . 16_556 114.6(11) yes
+F1 Th F1 9_556 . 17_666 123.1(10) yes
+F1 Th F1 9_556 . 18_566 126.6(12) yes
+F1 Th F1 9_556 . 19_665 61.4(9) yes
+F1 Th F1 9_556 . 20_555 68.1(12) yes
+F1 Th F1 9_556 . 21_565 55.6(11) yes
+F1 Th F1 9_556 . 22_455 58.3(12) yes
+F1 Th F1 9_556 . 22_555 134.2(10) yes
+F1 Th F1 9_556 . 22_565 123.6(11) yes
+F1 Th F1 9_556 . 23_565 54.7(12) yes
+F1 Th F1 9_556 . 23_665 136.5(10) yes
+F1 Th F1 9_556 . 23_675 113.9(12) yes
+F1 Th F1 9_556 . 24_555 60.2(13) yes
+F1 Th F1 9_556 . 24_655 144.9(11) yes
+F1 Th F2 9_556 . . 66.1(10) yes
+F1 Th F2 9_556 . 1_565 55.2(10) yes
+F1 Th F2 9_556 . 1_665 138.6(12) yes
+F1 Th F2 9_556 . 10_556 77.5(10) yes
+F1 Th F2 9_556 . 10_566 66.2(11) yes
+F1 Th F2 9_556 . 10_666 156.5(11) yes
+F1 Th F1 9_656 . 10_666 122.6(10) yes
+F1 Th F1 9_656 . 11_556 110.8(12) yes
+F1 Th F1 9_656 . 12_566 119.8(13) yes
+F1 Th F1 9_656 . 13_566 107.0(11) yes
+F1 Th F1 9_656 . 13_676 88.8(9) yes
+F1 Th F1 9_656 . 14_456 116.2(11) yes
+F1 Th F1 9_656 . 15_556 110.5(10) yes
+F1 Th F1 9_656 . 15_666 95.3(11) yes
+F1 Th F1 9_656 . 16_556 124.6(11) yes
+F1 Th F1 9_656 . 17_666 112.2(11) yes
+F1 Th F1 9_656 . 18_566 116.3(12) yes
+F1 Th F1 9_656 . 19_665 70.2(11) yes
+F1 Th F1 9_656 . 20_555 58.0(12) yes
+F1 Th F1 9_656 . 21_565 66.7(12) yes
+F1 Th F1 9_656 . 22_455 133.8(9) yes
+F1 Th F1 9_656 . 22_555 52.6(11) yes
+F1 Th F1 9_656 . 22_565 114.1(8) yes
+F1 Th F1 9_656 . 23_565 143.2(7) yes
+F1 Th F1 9_656 . 23_665 57.9(13) yes
+F1 Th F1 9_656 . 23_675 122.1(9) yes
+F1 Th F1 9_656 . 24_555 144.9(11) yes
+F1 Th F1 9_656 . 24_655 53.1(12) yes
+F1 Th F2 9_656 . . 68.8(7) yes
+F1 Th F2 9_656 . 1_565 140.9(12) yes
+F1 Th F2 9_656 . 1_665 52.0(7) yes
+F1 Th F2 9_656 . 10_556 78.9(8) yes
+F1 Th F2 9_656 . 10_566 157.7(10) yes
+F1 Th F2 9_656 . 10_666 62.2(8) yes
+F1 Th F1 10_666 . 13_566 122.2(10) yes
+F1 Th F1 10_666 . 13_666 121.3(10) yes
+F1 Th F1 10_666 . 13_676 104.0(9) yes
+F1 Th F1 10_666 . 14_456 116.3(9) yes
+F1 Th F1 10_666 . 14_556 126.6(11) yes
+F1 Th F1 10_666 . 15_556 116.9(9) yes
+F1 Th F1 10_666 . 15_656 125.4(11) yes
+F1 Th F1 10_666 . 15_666 106.2(10) yes
+F1 Th F1 10_666 . 19_665 157.6(10) yes
+F1 Th F1 10_666 . 20_555 164.9(6) yes
+F1 Th F1 10_666 . 21_565 168.5(12) yes
+F1 Th F1 10_666 . 22_455 66.8(8) yes
+F1 Th F1 10_666 . 22_555 73.6(10) yes
+F1 Th F1 10_666 . 22_565 52.4(10) yes
+F1 Th F1 10_666 . 23_565 67.0(8) yes
+F1 Th F1 10_666 . 23_665 68.0(12) yes
+F1 Th F1 10_666 . 23_675 54.7(10) yes
+F1 Th F1 10_666 . 24_555 61.4(9) yes
+F1 Th F1 10_666 . 24_655 70.2(11) yes
+F1 Th F2 10_666 . . 111.5(11) yes
+F1 Th F2 10_666 . 1_565 90.9(11) yes
+F1 Th F2 10_666 . 1_665 96.2(9) yes
+F1 Th F2 10_666 . 10_556 89.9(11) yes
+F1 Th F2 10_666 . 10_566 71.8(11) yes
+F1 Th F2 10_666 . 10_666 77.3(9) yes
+F1 Th F1 11_556 . 12_566 12.6(10) yes
+F1 Th F1 11_556 . 13_566 128.6(11) yes
+F1 Th F1 11_556 . 13_666 109.3(11) yes
+F1 Th F1 11_556 . 13_676 109.4(8) yes
+F1 Th F1 11_556 . 14_456 124.6(11) yes
+F1 Th F1 11_556 . 14_556 114.6(12) yes
+F1 Th F1 11_556 . 15_556 123.0(10) yes
+F1 Th F1 11_556 . 15_656 112.9(12) yes
+F1 Th F1 11_556 . 15_666 113.5(9) yes
+F1 Th F1 11_556 . 19_665 164.9(6) yes
+F1 Th F1 11_556 . 20_555 163.6(10) yes
+F1 Th F1 11_556 . 21_565 176.1(9) yes
+F1 Th F1 11_556 . 22_455 71.2(10) yes
+F1 Th F1 11_556 . 22_555 61.2(11) yes
+F1 Th F1 11_556 . 22_565 58.7(9) yes
+F1 Th F1 11_556 . 23_565 73.6(11) yes
+F1 Th F1 11_556 . 23_665 55.5(12) yes
+F1 Th F1 11_556 . 23_675 62.9(8) yes
+F1 Th F1 11_556 . 24_555 68.1(12) yes
+F1 Th F1 11_556 . 24_655 58.0(12) yes
+F1 Th F2 11_556 . . 104.6(10) yes
+F1 Th F2 11_556 . 1_565 103.4(11) yes
+F1 Th F2 11_556 . 1_665 91.4(11) yes
+F1 Th F2 11_556 . 10_556 83.2(10) yes
+F1 Th F2 11_556 . 10_566 84.3(11) yes
+F1 Th F2 11_556 . 10_666 72.2(11) yes
+F1 Th F1 12_566 . 13_566 116.0(11) yes
+F1 Th F1 12_566 . 13_666 117.6(12) yes
+F1 Th F1 12_566 . 13_676 116.5(10) yes
+F1 Th F1 12_566 . 14_456 112.2(10) yes
+F1 Th F1 12_566 . 14_556 123.1(13) yes
+F1 Th F1 12_566 . 15_556 110.4(10) yes
+F1 Th F1 12_566 . 15_656 119.3(13) yes
+F1 Th F1 12_566 . 15_666 118.6(11) yes
+F1 Th F1 12_566 . 19_665 168.5(12) yes
+F1 Th F1 12_566 . 20_555 176.1(9) yes
+F1 Th F1 12_566 . 21_565 171.3(9) yes
+F1 Th F1 12_566 . 22_455 58.7(10) yes
+F1 Th F1 12_566 . 22_555 67.8(12) yes
+F1 Th F1 12_566 . 22_565 64.9(10) yes
+F1 Th F1 12_566 . 23_565 61.1(10) yes
+F1 Th F1 12_566 . 23_665 62.3(13) yes
+F1 Th F1 12_566 . 23_675 67.0(10) yes
+F1 Th F1 12_566 . 24_555 55.6(11) yes
+F1 Th F1 12_566 . 24_655 66.7(12) yes
+F1 Th F2 12_566 . . 99.1(12) yes
+F1 Th F2 12_566 . 1_565 97.2(13) yes
+F1 Th F2 12_566 . 1_665 103.9(10) yes
+F1 Th F2 12_566 . 10_556 77.5(12) yes
+F1 Th F2 12_566 . 10_566 78.1(13) yes
+F1 Th F2 12_566 . 10_666 84.7(10) yes
+F1 Th F1 13_566 . 13_666 105.9(10) yes
+F1 Th F1 13_566 . 13_676 104.9(9) yes
+F1 Th F1 13_566 . 14_456 10.4(10) yes
+F1 Th F1 13_566 . 14_556 102.6(11) yes
+F1 Th F1 13_566 . 15_656 96.8(11) yes
+F1 Th F1 13_566 . 15_666 96.0(10) yes
+F1 Th F1 13_566 . 16_556 115.8(11) yes
+F1 Th F1 13_566 . 17_666 122.9(9) yes
+F1 Th F1 13_566 . 18_566 128.1(12) yes
+F1 Th F1 13_566 . 19_665 62.7(9) yes
+F1 Th F1 13_566 . 20_555 67.9(11) yes
+F1 Th F1 13_566 . 21_565 55.3(11) yes
+F1 Th F1 13_566 . 22_455 57.5(12) yes
+F1 Th F1 13_566 . 22_555 127.4(7) yes
+F1 Th F1 13_566 . 22_565 130.4(9) yes
+F1 Th F1 13_566 . 23_565 55.3(12) yes
+F1 Th F1 13_566 . 23_665 129.9(7) yes
+F1 Th F1 13_566 . 23_675 120.6(10) yes
+F1 Th F1 13_566 . 24_555 60.9(13) yes
+F1 Th F1 13_566 . 24_655 138.1(8) yes
+F1 Th F2 13_566 . . 59.3(7) yes
+F1 Th F2 13_566 . 1_565 62.0(7) yes
+F1 Th F2 13_566 . 1_665 139.8(12) yes
+F1 Th F2 13_566 . 10_556 71.3(8) yes
+F1 Th F2 13_566 . 10_566 72.5(9) yes
+F1 Th F2 13_566 . 10_666 158.9(12) yes
+F1 Th F1 13_666 . 13_676 93.0(8) yes
+F1 Th F1 13_666 . 14_456 115.4(10) yes
+F1 Th F1 13_666 . 15_556 109.0(10) yes
+F1 Th F1 13_666 . 15_666 99.5(10) yes
+F1 Th F1 13_666 . 16_556 122.8(11) yes
+F1 Th F1 13_666 . 17_666 110.2(11) yes
+F1 Th F1 13_666 . 18_566 115.2(12) yes
+F1 Th F1 13_666 . 19_665 72.8(10) yes
+F1 Th F1 13_666 . 20_555 60.4(11) yes
+F1 Th F1 13_666 . 21_565 68.5(12) yes
+F1 Th F1 13_666 . 22_455 129.7(8) yes
+F1 Th F1 13_666 . 22_555 49.9(11) yes
+F1 Th F1 13_666 . 22_565 117.0(7) yes
+F1 Th F1 13_666 . 23_565 139.2(5) yes
+F1 Th F1 13_666 . 23_665 55.3(12) yes
+F1 Th F1 13_666 . 23_675 125.4(8) yes
+F1 Th F1 13_666 . 24_555 140.8(10) yes
+F1 Th F1 13_666 . 24_655 51.3(12) yes
+F1 Th F2 13_666 . . 65.1(5) yes
+F1 Th F2 13_666 . 1_565 144.1(11) yes
+F1 Th F2 13_666 . 1_665 55.5(5) yes
+F1 Th F2 13_666 . 10_556 74.7(6) yes
+F1 Th F2 13_666 . 10_566 161.6(9) yes
+F1 Th F2 13_666 . 10_666 64.7(7) yes
+F1 Th F1 13_676 . 14_456 99.4(10) yes
+F1 Th F1 13_676 . 14_556 89.5(10) yes
+F1 Th F1 13_676 . 15_556 109.1(10) yes
+F1 Th F1 13_676 . 15_656 100.4(9) yes
+F1 Th F1 13_676 . 16_556 111.1(8) yes
+F1 Th F1 13_676 . 17_666 115.5(10) yes
+F1 Th F1 13_676 . 18_566 103.3(9) yes
+F1 Th F1 13_676 . 19_665 55.5(9) yes
+F1 Th F1 13_676 . 20_555 61.1(8) yes
+F1 Th F1 13_676 . 21_565 68.0(10) yes
+F1 Th F1 13_676 . 22_455 135.7(10) yes
+F1 Th F1 13_676 . 22_555 120.0(7) yes
+F1 Th F1 13_676 . 22_565 51.6(11) yes
+F1 Th F1 13_676 . 23_565 125.4(8) yes
+F1 Th F1 13_676 . 23_665 120.6(9) yes
+F1 Th F1 13_676 . 23_675 50.4(10) yes
+F1 Th F1 13_676 . 24_555 125.5(11) yes
+F1 Th F1 13_676 . 24_655 110.3(9) yes
+F1 Th F2 13_676 . . 144.2(12) yes
+F1 Th F2 13_676 . 1_565 61.7(7) yes
+F1 Th F2 13_676 . 1_665 49.2(7) yes
+F1 Th F2 13_676 . 10_556 165.0(11) yes
+F1 Th F2 13_676 . 10_566 70.3(8) yes
+F1 Th F2 13_676 . 10_666 58.9(8) yes
+F1 Th F1 14_456 . 14_556 111.7(11) yes
+F1 Th F1 14_456 . 15_556 10.8(10) yes
+F1 Th F1 14_456 . 15_656 106.6(11) yes
+F1 Th F1 14_456 . 15_666 90.0(11) yes
+F1 Th F1 14_456 . 16_556 110.8(10) yes
+F1 Th F1 14_456 . 17_666 119.8(9) yes
+F1 Th F1 14_456 . 18_566 122.6(11) yes
+F1 Th F1 14_456 . 19_665 64.3(8) yes
+F1 Th F1 14_456 . 20_555 71.5(11) yes
+F1 Th F1 14_456 . 21_565 59.1(10) yes
+F1 Th F1 14_456 . 22_455 55.5(11) yes
+F1 Th F1 14_456 . 22_555 136.4(9) yes
+F1 Th F1 14_456 . 22_565 120.1(10) yes
+F1 Th F1 14_456 . 23_565 51.3(11) yes
+F1 Th F1 14_456 . 23_665 138.1(9) yes
+F1 Th F1 14_456 . 23_675 110.3(11) yes
+F1 Th F1 14_456 . 24_555 56.7(12) yes
+F1 Th F1 14_456 . 24_655 147.2(9) yes
+F1 Th F2 14_456 . . 68.8(9) yes
+F1 Th F2 14_456 . 1_565 52.0(9) yes
+F1 Th F2 14_456 . 1_665 140.9(11) yes
+F1 Th F2 14_456 . 10_556 78.9(9) yes
+F1 Th F2 14_456 . 10_566 62.2(10) yes
+F1 Th F2 14_456 . 10_666 157.7(10) yes
+F1 Th F1 14_556 . 15_556 106.1(10) yes
+F1 Th F1 14_556 . 15_656 11.2(8) yes
+F1 Th F1 14_556 . 15_666 95.5(12) yes
+F1 Th F1 14_556 . 16_556 128.2(12) yes
+F1 Th F1 14_556 . 17_666 115.7(12) yes
+F1 Th F1 14_556 . 18_566 120.4(13) yes
+F1 Th F1 14_556 . 19_665 67.2(12) yes
+F1 Th F1 14_556 . 20_555 54.8(12) yes
+F1 Th F1 14_556 . 21_565 63.0(13) yes
+F1 Th F1 14_556 . 22_455 131.9(9) yes
+F1 Th F1 14_556 . 22_555 55.5(12) yes
+F1 Th F1 14_556 . 22_565 117.8(7) yes
+F1 Th F1 14_556 . 23_565 140.8(7) yes
+F1 Th F1 14_556 . 23_665 60.9(13) yes
+F1 Th F1 14_556 . 23_675 125.5(9) yes
+F1 Th F1 14_556 . 24_555 143.1(11) yes
+F1 Th F1 14_556 . 24_655 56.7(12) yes
+F1 Th F2 14_556 . . 66.1(7) yes
+F1 Th F2 14_556 . 1_565 138.6(12) yes
+F1 Th F2 14_556 . 1_665 55.2(7) yes
+F1 Th F2 14_556 . 10_556 77.5(9) yes
+F1 Th F2 14_556 . 10_566 156.5(12) yes
+F1 Th F2 14_556 . 10_666 66.2(8) yes
+F1 Th F1 15_556 . 15_656 99.5(10) yes
+F1 Th F1 15_556 . 15_666 99.9(10) yes
+F1 Th F1 15_556 . 16_556 110.3(10) yes
+F1 Th F1 15_556 . 17_666 117.3(8) yes
+F1 Th F1 15_556 . 18_566 122.7(11) yes
+F1 Th F1 15_556 . 19_665 68.3(8) yes
+F1 Th F1 15_556 . 20_555 73.4(10) yes
+F1 Th F1 15_556 . 21_565 60.9(10) yes
+F1 Th F1 15_556 . 22_455 51.9(11) yes
+F1 Th F1 15_556 . 22_555 125.6(8) yes
+F1 Th F1 15_556 . 22_565 129.8(10) yes
+F1 Th F1 15_556 . 23_565 49.9(11) yes
+F1 Th F1 15_556 . 23_665 127.4(8) yes
+F1 Th F1 15_556 . 23_675 120.0(11) yes
+F1 Th F1 15_556 . 24_555 55.5(12) yes
+F1 Th F1 15_556 . 24_655 136.4(9) yes
+F1 Th F2 15_556 . . 58.2(8) yes
+F1 Th F2 15_556 . 1_565 62.4(8) yes
+F1 Th F2 15_556 . 1_665 145.4(11) yes
+F1 Th F2 15_556 . 10_556 68.3(9) yes
+F1 Th F2 15_556 . 10_566 71.2(9) yes
+F1 Th F2 15_556 . 10_666 164.5(11) yes
+F1 Th F1 15_656 . 15_666 105.8(11) yes
+F1 Th F1 15_656 . 16_556 125.2(11) yes
+F1 Th F1 15_656 . 17_666 112.7(12) yes
+F1 Th F1 15_656 . 18_566 119.7(13) yes
+F1 Th F1 15_656 . 19_665 71.9(11) yes
+F1 Th F1 15_656 . 20_555 59.4(11) yes
+F1 Th F1 15_656 . 21_565 65.4(13) yes
+F1 Th F1 15_656 . 22_455 120.7(9) yes
+F1 Th F1 15_656 . 22_555 51.9(12) yes
+F1 Th F1 15_656 . 22_565 127.3(8) yes
+F1 Th F1 15_656 . 23_565 129.7(7) yes
+F1 Th F1 15_656 . 23_665 57.5(13) yes
+F1 Th F1 15_656 . 23_675 135.7(9) yes
+F1 Th F1 15_656 . 24_555 131.9(10) yes
+F1 Th F1 15_656 . 24_655 55.5(12) yes
+F1 Th F2 15_656 . . 55.2(7) yes
+F1 Th F2 15_656 . 1_565 143.4(12) yes
+F1 Th F2 15_656 . 1_665 65.7(6) yes
+F1 Th F2 15_656 . 10_556 66.4(8) yes
+F1 Th F2 15_656 . 10_566 162.6(12) yes
+F1 Th F2 15_656 . 10_666 74.9(7) yes
+F1 Th F1 15_666 . 16_556 112.6(9) yes
+F1 Th F1 15_666 . 17_666 119.1(11) yes
+F1 Th F1 15_666 . 18_566 106.6(10) yes
+F1 Th F1 15_666 . 19_665 52.0(10) yes
+F1 Th F1 15_666 . 20_555 59.6(9) yes
+F1 Th F1 15_666 . 21_565 64.4(11) yes
+F1 Th F1 15_666 . 22_455 127.3(11) yes
+F1 Th F1 15_666 . 22_555 129.8(9) yes
+F1 Th F1 15_666 . 22_565 54.8(12) yes
+F1 Th F1 15_666 . 23_565 117.0(10) yes
+F1 Th F1 15_666 . 23_665 130.4(10) yes
+F1 Th F1 15_666 . 23_675 51.6(11) yes
+F1 Th F1 15_666 . 24_555 117.8(13) yes
+F1 Th F1 15_666 . 24_655 120.1(10) yes
+F1 Th F2 15_666 . . 141.9(13) yes
+F1 Th F2 15_666 . 1_565 52.6(9) yes
+F1 Th F2 15_666 . 1_665 58.8(9) yes
+F1 Th F2 15_666 . 10_556 163.3(12) yes
+F1 Th F2 15_666 . 10_566 62.9(10) yes
+F1 Th F2 15_666 . 10_666 68.6(9) yes
+F1 Th F1 16_556 . 17_666 12.6(11) yes
+F1 Th F1 16_556 . 18_566 12.5(9) yes
+F1 Th F1 16_556 . 19_665 162.0(9) yes
+F1 Th F1 16_556 . 20_555 172.2(5) yes
+F1 Th F1 16_556 . 21_565 168.6(12) yes
+F1 Th F1 16_556 . 22_455 59.4(10) yes
+F1 Th F1 16_556 . 22_555 73.4(10) yes
+F1 Th F1 16_556 . 22_565 59.6(9) yes
+F1 Th F1 16_556 . 23_565 60.4(10) yes
+F1 Th F1 16_556 . 23_665 67.9(12) yes
+F1 Th F1 16_556 . 23_675 61.1(8) yes
+F1 Th F1 16_556 . 24_555 54.8(11) yes
+F1 Th F1 16_556 . 24_655 71.5(11) yes
+F1 Th F2 16_556 . . 104.6(10) yes
+F1 Th F2 16_556 . 1_565 91.4(11) yes
+F1 Th F2 16_556 . 1_665 103.4(10) yes
+F1 Th F2 16_556 . 10_556 83.2(10) yes
+F1 Th F2 16_556 . 10_566 72.2(11) yes
+F1 Th F2 16_556 . 10_666 84.3(10) yes
+F1 Th F1 17_666 . 18_566 12.5(10) yes
+F1 Th F1 17_666 . 19_665 171.0(9) yes
+F1 Th F1 17_666 . 20_555 168.6(9) yes
+F1 Th F1 17_666 . 21_565 176.5(10) yes
+F1 Th F1 17_666 . 22_455 65.4(9) yes
+F1 Th F1 17_666 . 22_555 60.9(11) yes
+F1 Th F1 17_666 . 22_565 64.4(11) yes
+F1 Th F1 17_666 . 23_565 68.5(9) yes
+F1 Th F1 17_666 . 23_665 55.3(12) yes
+F1 Th F1 17_666 . 23_675 68.0(11) yes
+F1 Th F1 17_666 . 24_555 63.0(10) yes
+F1 Th F1 17_666 . 24_655 59.1(11) yes
+F1 Th F2 17_666 . . 99.1(12) yes
+F1 Th F2 17_666 . 1_565 103.9(12) yes
+F1 Th F2 17_666 . 1_665 97.2(9) yes
+F1 Th F2 17_666 . 10_556 77.5(12) yes
+F1 Th F2 17_666 . 10_566 84.7(12) yes
+F1 Th F2 17_666 . 10_666 78.1(9) yes
+F1 Th F1 18_566 . 19_665 158.6(9) yes
+F1 Th F1 18_566 . 20_555 162.0(8) yes
+F1 Th F1 18_566 . 21_565 171.0(10) yes
+F1 Th F1 18_566 . 22_455 71.9(10) yes
+F1 Th F1 18_566 . 22_555 68.3(12) yes
+F1 Th F1 18_566 . 22_565 52.0(10) yes
+F1 Th F1 18_566 . 23_565 72.8(10) yes
+F1 Th F1 18_566 . 23_665 62.7(13) yes
+F1 Th F1 18_566 . 23_675 55.5(10) yes
+F1 Th F1 18_566 . 24_555 67.2(11) yes
+F1 Th F1 18_566 . 24_655 64.3(13) yes
+F1 Th F2 18_566 . . 111.5(11) yes
+F1 Th F2 18_566 . 1_565 96.2(12) yes
+F1 Th F2 18_566 . 1_665 90.9(11) yes
+F1 Th F2 18_566 . 10_556 89.9(11) yes
+F1 Th F2 18_566 . 10_566 77.3(12) yes
+F1 Th F2 18_566 . 10_666 71.8(11) yes
+F1 Th F1 19_665 . 20_555 12.5(10) yes
+F1 Th F1 19_665 . 21_565 12.5(9) yes
+F1 Th F1 19_665 . 22_455 119.7(9) yes
+F1 Th F1 19_665 . 22_555 122.7(10) yes
+F1 Th F1 19_665 . 22_565 106.6(10) yes
+F1 Th F1 19_665 . 23_565 115.2(9) yes
+F1 Th F1 19_665 . 23_665 128.1(12) yes
+F1 Th F1 19_665 . 23_675 103.3(10) yes
+F1 Th F1 19_665 . 24_555 120.4(10) yes
+F1 Th F1 19_665 . 24_655 122.6(10) yes
+F1 Th F2 19_665 . . 89.9(11) yes
+F1 Th F2 19_665 . 1_565 71.8(11) yes
+F1 Th F2 19_665 . 1_665 77.3(9) yes
+F1 Th F2 19_665 . 10_556 111.5(11) yes
+F1 Th F2 19_665 . 10_566 90.9(11) yes
+F1 Th F2 19_665 . 10_666 96.2(9) yes
+F1 Th F1 20_555 . 21_565 12.6(10) yes
+F1 Th F1 20_555 . 22_455 125.2(10) yes
+F1 Th F1 20_555 . 22_555 110.3(11) yes
+F1 Th F1 20_555 . 22_565 112.6(9) yes
+F1 Th F1 20_555 . 23_565 122.8(11) yes
+F1 Th F1 20_555 . 23_665 115.8(12) yes
+F1 Th F1 20_555 . 23_675 111.1(8) yes
+F1 Th F1 20_555 . 24_555 128.2(12) yes
+F1 Th F1 20_555 . 24_655 110.8(12) yes
+F1 Th F2 20_555 . . 83.2(10) yes
+F1 Th F2 20_555 . 1_565 84.3(11) yes
+F1 Th F2 20_555 . 1_665 72.2(11) yes
+F1 Th F2 20_555 . 10_556 104.6(10) yes
+F1 Th F2 20_555 . 10_566 103.4(11) yes
+F1 Th F2 20_555 . 10_666 91.4(11) yes
+F1 Th F1 21_565 . 22_455 112.7(10) yes
+F1 Th F1 21_565 . 22_555 117.3(12) yes
+F1 Th F1 21_565 . 22_565 119.1(11) yes
+F1 Th F1 21_565 . 23_565 110.2(10) yes
+F1 Th F1 21_565 . 23_665 122.9(13) yes
+F1 Th F1 21_565 . 23_675 115.5(11) yes
+F1 Th F1 21_565 . 24_555 115.7(11) yes
+F1 Th F1 21_565 . 24_655 119.8(13) yes
+F1 Th F2 21_565 . . 77.5(12) yes
+F1 Th F2 21_565 . 1_565 78.1(13) yes
+F1 Th F2 21_565 . 1_665 84.7(10) yes
+F1 Th F2 21_565 . 10_556 99.1(12) yes
+F1 Th F2 21_565 . 10_566 97.2(13) yes
+F1 Th F2 21_565 . 10_666 103.9(10) yes
+F1 Th F1 22_455 . 22_555 99.5(9) yes
+F1 Th F1 22_455 . 22_565 105.8(10) yes
+F1 Th F1 22_455 . 23_565 10.4(9) yes
+F1 Th F1 22_455 . 23_665 96.8(11) yes
+F1 Th F1 22_455 . 23_675 100.4(10) yes
+F1 Th F1 22_455 . 24_555 11.2(11) yes
+F1 Th F1 22_455 . 24_655 106.6(10) yes
+F1 Th F2 22_455 . . 66.4(9) yes
+F1 Th F2 22_455 . 1_565 74.9(9) yes
+F1 Th F2 22_455 . 1_665 162.6(12) yes
+F1 Th F2 22_455 . 10_556 55.2(8) yes
+F1 Th F2 22_455 . 10_566 65.7(8) yes
+F1 Th F2 22_455 . 10_666 143.4(12) yes
+F1 Th F1 22_555 . 22_565 99.9(9) yes
+F1 Th F1 22_555 . 23_565 109.0(8) yes
+F1 Th F1 22_555 . 23_665 5.6(12) yes
+F1 Th F1 22_555 . 23_675 109.1(10) yes
+F1 Th F1 22_555 . 24_555 106.1(11) yes
+F1 Th F1 22_555 . 24_655 10.8(7) yes
+F1 Th F2 22_555 . . 68.3(7) yes
+F1 Th F2 22_555 . 1_565 164.5(11) yes
+F1 Th F2 22_555 . 1_665 71.2(6) yes
+F1 Th F2 22_555 . 10_556 58.2(5) yes
+F1 Th F2 22_555 . 10_566 145.4(11) yes
+F1 Th F2 22_555 . 10_666 62.4(5) yes
+F1 Th F1 22_565 . 23_565 99.5(8) yes
+F1 Th F1 22_565 . 23_665 96.0(9) yes
+F1 Th F1 22_565 . 23_675 9.8(9) yes
+F1 Th F1 22_565 . 24_555 95.5(10) yes
+F1 Th F1 22_565 . 24_655 90.0(10) yes
+F1 Th F2 22_565 . . 163.3(13) yes
+F1 Th F2 22_565 . 1_565 68.6(8) yes
+F1 Th F2 22_565 . 1_665 62.9(8) yes
+F1 Th F2 22_565 . 10_556 141.9(13) yes
+F1 Th F2 22_565 . 10_566 58.8(7) yes
+F1 Th F2 22_565 . 10_666 52.6(7) yes
+F1 Th F1 23_565 . 23_665 105.9(11) yes
+F1 Th F1 23_565 . 23_675 93.0(8) yes
+F1 Th F1 23_565 . 24_555 5.6(11) yes
+F1 Th F1 23_565 . 24_655 115.4(10) yes
+F1 Th F2 23_565 . . 74.7(6) yes
+F1 Th F2 23_565 . 1_565 64.7(7) yes
+F1 Th F2 23_565 . 1_665 161.6(9) yes
+F1 Th F2 23_565 . 10_556 65.1(6) yes
+F1 Th F2 23_565 . 10_566 55.5(6) yes
+F1 Th F2 23_565 . 10_666 144.1(11) yes
+F1 Th F1 23_665 . 23_675 104.9(10) yes
+F1 Th F1 23_665 . 24_555 102.6(13) yes
+F1 Th F1 23_665 . 24_655 10.4(8) yes
+F1 Th F2 23_665 . . 71.3(8) yes
+F1 Th F2 23_665 . 1_565 158.9(12) yes
+F1 Th F2 23_665 . 1_665 72.5(8) yes
+F1 Th F2 23_665 . 10_556 59.3(7) yes
+F1 Th F2 23_665 . 10_566 139.8(12) yes
+F1 Th F2 23_665 . 10_666 62.0(7) yes
+F1 Th F1 23_675 . 24_555 89.5(11) yes
+F1 Th F1 23_675 . 24_655 99.4(10) yes
+F1 Th F2 23_675 . . 165.0(11) yes
+F1 Th F2 23_675 . 1_565 58.9(9) yes
+F1 Th F2 23_675 . 1_665 70.3(8) yes
+F1 Th F2 23_675 . 10_556 144.2(12) yes
+F1 Th F2 23_675 . 10_566 49.2(8) yes
+F1 Th F2 23_675 . 10_666 61.7(8) yes
+F1 Th F1 24_555 . 24_655 111.7(12) yes
+F1 Th F2 24_555 . . 77.5(10) yes
+F1 Th F2 24_555 . 1_565 66.2(11) yes
+F1 Th F2 24_555 . 1_665 156.5(11) yes
+F1 Th F2 24_555 . 10_556 66.1(10) yes
+F1 Th F2 24_555 . 10_566 55.2(10) yes
+F1 Th F2 24_555 . 10_666 138.6(12) yes
+F1 Th F2 24_655 . . 78.9(8) yes
+F1 Th F2 24_655 . 1_565 157.7(10) yes
+F1 Th F2 24_655 . 1_665 62.2(8) yes
+F1 Th F2 24_655 . 10_556 68.8(7) yes
+F1 Th F2 24_655 . 10_566 140.9(12) yes
+F1 Th F2 24_655 . 10_666 52.0(7) yes
+F2 Th F2 . . 1_565 120.4(4) yes
+F2 Th F2 . . 1_665 120.4(4) yes
+F2 Th F2 . . 10_556 21.7(14) yes
+F2 Th F2 . . 10_566 124.69(12) yes
+F2 Th F2 . . 10_666 124.69(12) yes
+F2 Th F2 1_565 . 1_665 110.2(3) yes
+F2 Th F2 1_565 . 10_556 124.69(12) yes
+F2 Th F2 1_565 . 10_566 19.2(12) yes
+F2 Th F2 1_565 . 10_666 113.60(14) yes
+F2 Th F2 1_665 . 10_556 124.69(12) yes
+F2 Th F2 1_665 . 10_566 113.60(14) yes
+F2 Th F2 1_665 . 10_666 19.2(12) yes
+F2 Th F2 10_556 . 10_566 120.4(4) yes
+F2 Th F2 10_556 . 10_666 120.4(4) yes
+F2 Th F2 10_566 . 10_666 110.2(3) yes
+Ba F1 Ba . . 4_564 125.4(12) yes
+Ba F1 Ba . . 4_674 114.4(9) yes
+Ba F1 Th . . 4_564 126.8(13) yes
+Ba F1 Th . . 4_664 108.0(12) yes
+Ba F1 Th . . 4_674 112.8(8) yes
+Ba F1 Th . . 5_454 123.4(12) yes
+Ba F1 Th . . 5_554 108.6(12) yes
+Ba F1 Th . . 5_564 115.9(9) yes
+Ba F1 Th . . 6_554 125.9(12) yes
+Ba F1 Th . . 6_664 114.5(9) yes
+Ba F1 Ba 4_564 . 4_674 107.7(13) yes
+Ba F1 Th 4_564 . . 122.7(12) yes
+Ba F1 Th 4_564 . 2_665 129.6(13) yes
+Ba F1 Th 4_564 . 3_565 123.5(12) yes
+Ba F1 Th 4_564 . 4_664 103.7(11) yes
+Ba F1 Th 4_564 . 4_674 108.6(13) yes
+Ba F1 Th 4_564 . 5_554 98.5(10) yes
+Ba F1 Th 4_564 . 5_564 104.7(13) yes
+Ba F1 Th 4_564 . 6_664 109.8(13) yes
+Ba F1 Th 4_674 . . 118.6(9) yes
+Ba F1 Th 4_674 . 2_665 111.6(8) yes
+Ba F1 Th 4_674 . 3_565 112.9(8) yes
+Ba F1 Th 4_674 . 4_564 104.1(13) yes
+Ba F1 Th 4_674 . 4_664 91.8(10) yes
+Ba F1 Th 4_674 . 5_454 108.9(13) yes
+Ba F1 Th 4_674 . 5_554 97.3(10) yes
+Ba F1 Th 4_674 . 6_554 109.9(14) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Ba Th . . 0.1943(6) yes
+Ba Th . 2_665 0.1943(6) yes
+Ba Th . 3_565 0.1943(8) yes
+Ba F1 . . 2.58(4) yes
+Ba F1 . 2_665 2.58(4) yes
+Ba F1 . 3_565 2.58(4) yes
+Ba F1 . 4_565 2.51(3) yes
+Ba F1 . 4_675 2.80(2) yes
+Ba F1 . 5_455 2.80(2) yes
+Ba F1 . 5_555 2.51(4) yes
+Ba F1 . 6_655 2.80(4) yes
+Ba F1 . 6_665 2.51(3) yes
+Ba F1 . 7_456 2.80(2) yes
+Ba F1 . 7_566 2.51(3) yes
+Ba F1 . 8_666 2.51(4) yes
+Ba F1 . 8_676 2.80(2) yes
+Ba F1 . 9_556 2.51(3) yes
+Ba F1 . 9_656 2.80(4) yes
+Ba F1 . 10_666 2.58(4) yes
+Ba F1 . 11_556 2.58(4) yes
+Ba F1 . 12_566 2.58(4) yes
+Ba F1 . 13_566 2.51(3) yes
+Ba F1 . 13_676 2.80(2) yes
+Ba F1 . 14_456 2.80(2) yes
+Ba F1 . 14_556 2.51(4) yes
+Ba F1 . 15_656 2.80(4) yes
+Ba F1 . 15_666 2.51(3) yes
+Ba F1 . 16_556 2.58(4) yes
+Ba F1 . 17_666 2.58(4) yes
+Ba F1 . 18_566 2.58(4) yes
+Ba F1 . 19_665 2.58(4) yes
+Ba F1 . 20_555 2.58(4) yes
+Ba F1 . 21_565 2.58(4) yes
+Ba F1 . 22_455 2.80(2) yes
+Ba F1 . 22_565 2.51(3) yes
+Ba F1 . 23_665 2.51(4) yes
+Ba F1 . 23_675 2.80(2) yes
+Ba F1 . 24_555 2.51(3) yes
+Ba F1 . 24_655 2.80(4) yes
+Ba F2 . . 2.519(7) yes
+Ba F2 . 1_565 2.519(7) yes
+Ba F2 . 1_665 2.519(7) yes
+Ba F2 . 10_556 2.519(7) yes
+Ba F2 . 10_566 2.519(7) yes
+Ba F2 . 10_666 2.519(7) yes
+Th Th . 2_665 0.3366(7) yes
+Th Th . 3_565 0.3366(9) yes
+Th F1 . . 2.59(4) yes
+Th F1 . 2_665 2.57(4) yes
+Th F1 . 3_565 2.61(4) yes
+Th F1 . 4_565 2.42(3) yes
+Th F1 . 4_665 2.95(3) yes
+Th F1 . 4_675 2.98(2) yes
+Th F1 . 5_455 2.74(2) yes
+Th F1 . 5_555 2.44(4) yes
+Th F1 . 6_555 2.92(3) yes
+Th F1 . 6_655 2.70(4) yes
+Th F1 . 6_665 2.68(3) yes
+Th F1 . 7_456 2.70(2) yes
+Th F1 . 7_556 2.92(3) yes
+Th F1 . 7_566 2.68(3) yes
+Th F1 . 8_566 2.95(4) yes
+Th F1 . 8_666 2.42(4) yes
+Th F1 . 8_676 2.98(2) yes
+Th F1 . 9_556 2.44(3) yes
+Th F1 . 9_656 2.74(4) yes
+Th F1 . 10_666 2.61(4) yes
+Th F1 . 11_556 2.59(4) yes
+Th F1 . 12_566 2.57(4) yes
+Th F1 . 13_566 2.42(3) yes
+Th F1 . 13_666 2.95(3) yes
+Th F1 . 13_676 2.98(2) yes
+Th F1 . 14_456 2.74(2) yes
+Th F1 . 14_556 2.44(4) yes
+Th F1 . 15_556 2.92(3) yes
+Th F1 . 15_656 2.70(4) yes
+Th F1 . 15_666 2.68(3) yes
+Th F1 . 16_556 2.59(4) yes
+Th F1 . 17_666 2.57(4) yes
+Th F1 . 18_566 2.61(4) yes
+Th F1 . 19_665 2.61(4) yes
+Th F1 . 20_555 2.59(4) yes
+Th F1 . 21_565 2.57(4) yes
+Th F1 . 22_455 2.70(2) yes
+Th F1 . 22_555 2.92(3) yes
+Th F1 . 22_565 2.68(3) yes
+Th F1 . 23_565 2.95(4) yes
+Th F1 . 23_665 2.42(4) yes
+Th F1 . 23_675 2.98(2) yes
+Th F1 . 24_555 2.44(3) yes
+Th F1 . 24_655 2.74(4) yes
+Th F2 . . 2.327(8) yes
+Th F2 . 1_565 2.620(7) yes
+Th F2 . 1_665 2.620(7) yes
+Th F2 . 10_556 2.327(8) yes
+Th F2 . 10_566 2.620(7) yes
+Th F2 . 10_666 2.620(7) yes
+F1 F1 . 2_665 0.56(5) yes
+F1 F1 . 3_565 0.56(4) yes
+F1 F1 . 7_456 2.62(4) yes
+F1 F1 . 7_566 2.62(4) yes
+F1 F1 . 8_566 2.80(5) yes
+F1 F1 . 8_666 2.80(5) yes
+F1 F1 . 8_676 2.85(3) yes
+F1 F1 . 9_556 2.32(5) yes
+F1 F1 . 10_665 2.48(6) yes
+F1 F1 . 11_555 2.54(6) yes
+F1 F1 . 12_565 2.47(6) yes
+F1 F1 . 13_566 2.34(4) yes
+F1 F1 . 13_676 2.92(3) yes
+F1 F1 . 14_456 2.59(4) yes
+F1 F1 . 14_556 2.82(5) yes
+F1 F1 . 15_556 2.82(4) yes
+F1 F1 . 15_666 2.59(4) yes
+F1 F1 . 16_555 2.45(6) yes
+F1 F1 . 17_665 2.52(6) yes
+F1 F1 . 18_565 2.52(6) yes
+F1 F1 . 19_665 0.36(3) yes
+F1 F1 . 20_555 0.65(5) yes
+F1 F1 . 21_565 0.29(5) yes
+F1 F2 . 4_554 2.99(3) yes
+F1 F2 . 4_564 2.77(4) yes
+F1 F2 . 7_556 2.61(2) yes
+F1 F2 . 7_566 2.35(3) yes
+F1 F2 . 7_666 2.89(3) yes
+F2 F2 . 7_556 2.91(6) yes
+F2 F2 . 10_556 0.87(6) yes
+loop_
+_geom_hbond_atom_site_label_D
+_geom_hbond_atom_site_label_H
+_geom_hbond_atom_site_label_A
+_geom_hbond_site_symmetry_D
+_geom_hbond_site_symmetry_H
+_geom_hbond_site_symmetry_A
+_geom_hbond_distance_DH
+_geom_hbond_distance_HA
+_geom_hbond_distance_DA
+_geom_hbond_angle_DHA
+_geom_hbond_publ_flag
+? ? ? ? ? ? ? ? ? ? ?
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion_site_symmetry_1
+_geom_torsion_site_symmetry_2
+_geom_torsion_site_symmetry_3
+_geom_torsion_site_symmetry_4
+_geom_torsion
+_geom_torsion_publ_flag
+? ? ? ? ? ? ? ? ? ?

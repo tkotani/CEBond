@@ -1,0 +1,128 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-01-19 10:15:36 +0200 (Thu, 19 Jan 2017) $
+#$Revision: 190700 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/54/50/1545073.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1545073
+loop_
+_publ_author_name
+PANalytical
+_publ_section_title
+;
+ AgCaVO4 : structure solution from a benchtop X-ray powder diffractometer
+;
+_journal_name_full               'Aeris Research Edition'
+_journal_page_first              1
+_journal_page_last               2
+_journal_volume                  1
+_journal_year                    2017
+_chemical_formula_sum            'Ag Ca O4 V'
+_chemical_formula_weight         262.885
+_space_group_IT_number           62
+_symmetry_cell_setting           orthorhombic
+_symmetry_Int_Tables_number      62
+_symmetry_space_group_name_Hall  '-P 2ac 2n'
+_symmetry_space_group_name_H-M   'P n m a'
+_cell_angle_alpha                90.
+_cell_angle_beta                 90.
+_cell_angle_gamma                90.
+_cell_formula_units_Z            4
+_cell_length_a                   7.03255(3)
+_cell_length_b                   5.86684(2)
+_cell_length_c                   9.38560(4)
+_cell_volume                     387.239(3)
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_type           CuK\a
+_diffrn_radiation_wavelength     1.54184
+_exptl_absorpt_coefficient_mu    71.497
+_exptl_crystal_density_diffrn    4.509
+_exptl_crystal_F_000             488
+_cod_data_source_file            AgCaVO4-PANalytical.cif
+_cod_data_source_block           AgCaVO4
+_cod_depositor_comments
+;
+Powder job
+No thermal parameters given, abrbitrary values set at 0.01
+No Rietveld R values provided
+Indexing using DICVOL
+Space group determination using Ext Sym
+Intensity extracted by using the Pawley method
+Structure solution by using Superflip
+;
+_cod_database_code               1545073
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 1/2-x,-y,1/2+z
+3 1/2+x,1/2-y,1/2-z
+4 -x,1/2+y,-z
+5 -x,-y,-z
+6 1/2+x,y,1/2-z
+7 1/2-x,1/2+y,1/2+z
+8 x,1/2-y,z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_thermal_displace_type
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Ag Ag Uiso 0.19623(6) 0.25000 0.06801(5) 1.000 0.0100 . . . .
+V V Uiso 0.23610(10) 0.25000 0.39860(10) 1.000 0.0100 . . . .
+O1 O Uiso 0.5179(5) 0.25000 0.0258(4) 1.000 0.0100 . . . .
+O2 O Uiso 0.2401(3) 0.5094(3) 0.7935(2) 1.000 0.0100 . . . .
+O3 O Uiso 0.3998(4) 0.25000 0.5292(4) 1.000 0.0100 . . . .
+Ca Ca Uiso -0.00030(10) 0.25000 0.72560(10) 1.000 0.0100 . . . .
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O1 Ag O2 88.32(9) . . 2_564 yes
+O1 Ag O3 146.43(13) . . 3_455 yes
+O1 Ag O2 88.32(9) . . 7_544 yes
+O2 Ag O3 119.16(9) 2_564 . 3_455 yes
+O2 Ag O2 66.25(6) 2_564 . 7_544 yes
+O2 Ag O3 119.16(9) 7_544 . 3_455 yes
+O2 V O3 110.45(9) 2_564 . . yes
+O1 V O3 108.39(18) 3_455 . . yes
+O2 V O3 110.45(9) 7_544 . . yes
+O1 V O2 109.09(10) 3_455 . 2_564 yes
+O2 V O2 109.34(10) 2_564 . 7_544 yes
+O1 V O2 109.09(10) 3_455 . 7_544 yes
+Ag O1 V 145.3(2) . . 3_555 yes
+Ag O2 V 90.26(8) 2_565 . 2_565 yes
+Ag O3 V 109.57(18) 3_555 . . yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Ag O1 2.297(4) . . yes
+Ag O2 2.5830(19) . 2_564 yes
+Ag O3 2.276(3) . 3_455 yes
+Ag O2 2.5830(19) . 7_544 yes
+V O3 1.682(3) . . yes
+V O2 1.7302(19) . 2_564 yes
+V O1 1.691(4) . 3_455 yes
+V O2 1.7302(19) . 7_544 yes

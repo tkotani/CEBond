@@ -1,0 +1,101 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-02-13 13:29:56 +0200 (Mon, 13 Feb 2017) $
+#$Revision: 192015 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/00/28/2002894.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2002894
+loop_
+_publ_author_name
+'Thompson, John G'
+'Withers, Ray L.'
+'Melnitchenko, Alexandra'
+'Palethorpe, Stephen R.'
+_publ_section_title
+;
+ Cristobalite-Related Phases in the NaAlO~2~--NaAlSiO~4~ System. I. Two
+ Tetragonal and Two Orthorhombic Structures
+;
+_journal_issue                   5
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              531
+_journal_page_last               546
+_journal_paper_doi               10.1107/S0108768197019927
+_journal_volume                  54
+_journal_year                    1998
+_chemical_formula_sum            'Al1.65 Na1.65 O4 Si0.35'
+_chemical_formula_weight         156.28
+_chemical_name_systematic        ?
+_space_group_IT_number           92
+_symmetry_space_group_name_Hall  'P 4abw 2nw'
+_symmetry_space_group_name_H-M   'P 41 21 2'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            8
+_cell_length_a                   10.3872(7)
+_cell_length_b                   10.3872(7)
+_cell_length_c                   7.1589(8)
+_cell_measurement_temperature    293
+_cell_volume                     772.40(11)
+_diffrn_ambient_temperature      293
+_diffrn_measurement_device       'Siemens D-5000'
+_diffrn_measurement_method       'profile data from theta/2theta scan'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'sealed tube'
+_diffrn_radiation_type           'Cu K\a'
+_diffrn_radiation_wavelength     1.5418
+_exptl_crystal_density_diffrn    2.688
+_cod_data_source_file            ab0390.cif
+_cod_data_source_block           Na1.65Al1.65Si0.35O4
+_cod_depositor_comments
+;
+ Correcting the tag order in the _atom_site loop. The
+ _atom_site_U_iso_or_equiv and the _atom_site_occupancy
+ labels were switched places.
+
+ Antanas Vaitkus,
+ 2017-02-13
+;
+_cod_original_cell_volume        772.40(10)
+_cod_original_formula_sum        'Na1.65 Al1.65 Si0.35 O4'
+_cod_database_code               2002894
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,1/2+z
+1/2-y,1/2+x,1/4+z
+1/2+y,1/2-x,3/4+z
+1/2-x,1/2+y,1/4-z
+1/2+x,1/2-y,3/4-z
+y,x,-z
+-y,-x,1/2-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+M1 0.1530(10) 0.1530(10) 0.000 0.825 0.034(2) Al
+M1 0.1530(10) 0.1530(10) 0.000 0.175 0.034(2) Si
+M2 0.3990(10) 0.3990(10) 0.500 0.825 0.034(2) Al
+M2 0.3990(10) 0.3990(10) 0.500 0.175 0.034(2) Si
+M3 0.3940(10) 0.1400(10) 0.263(2) 0.825 0.034(2) Al
+M3 0.3940(10) 0.1400(10) 0.263(2) 0.175 0.034(2) Si
+Na1 0.164(2) 0.164(2) 0.500 0.84(2) ? Na
+Na2 0.4000(10) 0.4000(10) 0.000 0.704(19) ? Na
+Na3 0.385(2) 0.099(2) 0.745(8) 0.844(15) ? Na
+O1 0.0670(10) 0.118(2) 0.202(2) 1.0 0.128(5) O
+O2 0.3140(10) 0.129(2) 0.052(3) 1.0 0.128(5) O
+O3 0.3010(10) 0.357(2) 0.683(2) 1.0 0.128(5) O
+O4 0.0510(10) 0.339(2) 0.556(3) 1.0 0.128(5) O

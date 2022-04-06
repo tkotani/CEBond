@@ -1,0 +1,259 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 00:18:51 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176760 $
+#$URL: svn://www.crystallography.net/cod/cif/2/01/09/2010992.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2010992
+loop_
+_publ_author_name
+'Krivovichev, Sergey V.'
+'Kir'yanova, Elena V.'
+'Filatov, Stanislav K.'
+'Burns, Peter C.'
+_publ_section_title
+;
+ \b-K~2~Cr~2~O~7~
+;
+_journal_issue                   6
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              629
+_journal_page_last               630
+_journal_paper_doi               10.1107/S0108270100003917
+_journal_volume                  56
+_journal_year                    2000
+_chemical_formula_moiety         'K2 Cr2 O7'
+_chemical_formula_sum            'Cr2 K2 O7'
+_chemical_formula_weight         294.20
+_chemical_name_common            'dipotassium dichromate'
+_chemical_name_systematic        'dipotassium dichromate'
+_space_group_IT_number           15
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-C 2yc'
+_symmetry_space_group_name_H-M   'C 1 2/c 1'
+_cell_angle_alpha                90.00
+_cell_angle_beta                 91.923(2)
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   13.0339(17)
+_cell_length_b                   7.3750(10)
+_cell_length_c                   7.4672(10)
+_cell_measurement_reflns_used    523
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      23
+_cell_measurement_theta_min      3
+_cell_volume                     717.38(17)
+_computing_cell_refinement       'SAINT-NT (Bruker, 1998)'
+_computing_data_collection       'SMART-NT (Bruker, 1998)'
+_computing_data_reduction        SAINT-NT
+_computing_molecular_graphics    'CRYSTALMAKER (Palmer, 1999)'
+_computing_publication_material  SHELXTL
+_computing_structure_refinement  SHELXTL
+_computing_structure_solution    'SHELXTL (Bruker, 1997)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measured_fraction_theta_full .911
+_diffrn_measured_fraction_theta_max .911
+_diffrn_measurement_device_type
+'Bruker PLATFORM with a SMART CCD area detector'
+_diffrn_measurement_method       \w
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     .71073
+_diffrn_reflns_av_R_equivalents  .045
+_diffrn_reflns_av_sigmaI/netI    .029
+_diffrn_reflns_limit_h_max       17
+_diffrn_reflns_limit_h_min       -16
+_diffrn_reflns_limit_k_max       9
+_diffrn_reflns_limit_k_min       -9
+_diffrn_reflns_limit_l_max       9
+_diffrn_reflns_limit_l_min       -6
+_diffrn_reflns_number            1779
+_diffrn_reflns_theta_full        28.26
+_diffrn_reflns_theta_max         28.26
+_diffrn_reflns_theta_min         3.13
+_diffrn_standards_decay_%        none
+_diffrn_standards_interval_time  100
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    4.175
+_exptl_absorpt_correction_T_max  .686
+_exptl_absorpt_correction_T_min  .317
+_exptl_absorpt_correction_type   \y-scan
+_exptl_absorpt_process_details   'empirical (SAINT-NT; Bruker, 1998)'
+_exptl_crystal_colour            orange
+_exptl_crystal_density_diffrn    2.724
+_exptl_crystal_density_meas      ?
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       plate
+_exptl_crystal_F_000             568
+_exptl_crystal_size_max          .46
+_exptl_crystal_size_mid          .24
+_exptl_crystal_size_min          .09
+_refine_diff_density_max         .495
+_refine_diff_density_min         -.516
+_refine_ls_extinction_coef       .0074(11)
+_refine_ls_extinction_method     'SHELXL97 (Sheldrick, 1997)'
+_refine_ls_goodness_of_fit_ref   1.107
+_refine_ls_hydrogen_treatment    none
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     52
+_refine_ls_number_reflns         798
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.107
+_refine_ls_R_factor_all          .032
+_refine_ls_R_factor_gt           .029
+_refine_ls_shift/su_max          <0.001
+_refine_ls_shift/su_mean         .000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w = 1/[\s^2^(Fo^2^)+(0.0513P)^2^+0.5383P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_ref         .084
+_reflns_number_gt                718
+_reflns_number_total             798
+_reflns_threshold_expression     I>2\s(I)
+_cod_data_source_file            fg1580.cif
+_cod_data_source_block           I
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_exptl_crystal_density_meas' value 'not measured' was changed to '?'
+- the value is perceived as not measured.
+
+Automatic conversion script
+Id: cif_fix_values 3008 2015-01-20 13:52:24Z robertas 
+;
+_cod_original_sg_symbol_H-M      'C 2/c'
+_cod_database_code               2010992
+_cod_database_fobs_code          2010992
+_amcsd_database_code             AMCSD#0010003
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, y, -z+1/2'
+'x+1/2, y+1/2, z'
+'-x+1/2, y+1/2, -z+1/2'
+'-x, -y, -z'
+'x, -y, z-1/2'
+'-x+1/2, -y+1/2, -z'
+'x+1/2, -y+1/2, z-1/2'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+_atom_site_type_symbol
+Cr 0.39714(3) .17429(5) 0.13497(5) .0213(2) Uani d . 1 . . Cr
+K 0.14473(5) .15065(9) 0.35562(8) .0328(2) Uani d . 1 . . K
+O1 0.44153(18) .3071(3) -0.0176(3) .0337(5) Uani d . 1 . . O
+O2 0.33753(18) .2974(3) 0.2780(3) .0341(5) Uani d . 1 . . O
+O3 0.5 .0595(4) 0.25 .0283(6) Uani d S 1 . . O
+O4 0.32025(19) .0254(3) 0.0494(3) .0408(6) Uani d . 1 . . O
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Cr .0206(3) .0226(3) .0207(3) -.00247(14) .00292(18) -.00125(14)
+K .0336(4) .0382(4) .0266(4) -.0056(3) .0002(3) -.0043(2)
+O1 .0334(12) .0398(11) .0281(10) -.0049(9) .0069(9) .0076(8)
+O2 .0379(12) .0373(10) .0277(10) .0088(9) .0082(9) -.0012(8)
+O3 .0256(13) .0251(12) .0343(15) 0 .0020(11) 0
+O4 .0371(12) .0368(11) .0479(13) -.0112(9) -.0072(11) -.0054(10)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+O O .0106 .0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+K K .2009 .2494 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Cr Cr .3209 .6236 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O4 Cr O2 . . 109.82(13) y
+O4 Cr O1 . . 111.46(12) y
+O2 Cr O1 . . 108.33(12) y
+O4 Cr O3 . . 108.45(11) y
+O2 Cr O3 . . 108.56(9) y
+O1 Cr O3 . . 110.17(9) y
+Cr O3 Cr 2_655 . 123.25(15) y
+O1 K O2 7 7_556 155.77(7) n
+O1 K O2 7 4_545 79.30(6) n
+O2 K O2 7_556 4_545 118.43(6) n
+O1 K O2 7 . 96.20(7) n
+O2 K O2 7_556 . 96.02(6) n
+O2 K O2 4_545 . 101.49(5) n
+O1 K O1 7 8_456 86.37(7) n
+O2 K O1 7_556 8_456 72.84(7) n
+O2 K O1 4_545 8_456 107.91(7) n
+O2 K O1 . 8_456 150.43(6) n
+O1 K O4 7 4 100.01(6) n
+O2 K O4 7_556 4 67.47(7) n
+O2 K O4 4_545 4 164.51(7) n
+O2 K O4 . 4 63.09(7) n
+O1 K O4 8_456 4 87.42(7) n
+O1 K O4 7 6_556 141.59(7) n
+O2 K O4 7_556 6_556 62.63(7) n
+O2 K O4 4_545 6_556 72.24(7) n
+O2 K O4 . 6_556 65.75(7) n
+O1 K O4 8_456 6_556 126.46(7) n
+O4 K O4 4 6_556 100.75(6) n
+O1 K O1 7 4_545 108.35(7) n
+O2 K O1 7_556 4_545 75.01(6) n
+O2 K O1 4_545 4_545 53.33(6) n
+O2 K O1 . 4_545 138.36(7) n
+O1 K O1 8_456 4_545 66.42(7) n
+O4 K O1 4 4_545 139.30(7) n
+O4 K O1 6_556 4_545 74.36(7) n
+O1 K O4 7 . 71.22(6) n
+O2 K O4 7_556 . 131.63(6) n
+O2 K O4 4_545 . 56.30(6) n
+O2 K O4 . . 48.95(6) n
+O1 K O4 8_456 . 154.12(6) n
+O4 K O4 4 . 108.63(6) n
+O4 K O4 6_556 . 71.65(5) n
+O1 K O4 4_545 . 107.83(6) n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Cr O1 . 1.624(2) y
+Cr O2 . 1.620(2) y
+Cr O3 . 1.7819(13) y
+Cr O4 . 1.605(2) y
+K O1 7 2.746(2) y
+K O1 8_456 2.859(2) y
+K O1 4_545 3.039(2) y
+K O2 7_556 2.764(2) y
+K O2 4_545 2.802(2) y
+K O2 . 2.814(3) y
+K O4 4 2.886(2) y
+K O4 6_556 2.965(2) y

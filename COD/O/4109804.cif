@@ -1,0 +1,248 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-04-07 14:05:55 +0300 (Thu, 07 Apr 2016) $
+#$Revision: 181959 $
+#$URL: svn://www.crystallography.net/cod/cif/4/10/98/4109804.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4109804
+loop_
+_publ_author_name
+'Efrain E. Rodriguez'
+'Frederic Poineau'
+'Anna Llobet'
+'Alfred P. Sattelberger'
+'Joydeep Bhattacharjee'
+'Umesh V. Waghmare'
+'Thomas Hartmann'
+'Anthony K. Cheetham'
+_publ_contact_author_address
+; Materials Research Laboratory
+University of California
+Santa Barbara, CA 93106
+;
+_publ_contact_author_email       cheetham@mrl.ucsb.edu
+_publ_contact_author_fax         '(805) 893-8797'
+_publ_contact_author_name        'Anthony K. Cheetham'
+_publ_contact_author_phone       '(805) 893-8767'
+_publ_section_title
+;
+ Structural Studies of TcO2 by Neutron Powder Diffraction and
+ First-Principles Calculations
+;
+_journal_coden_ASTM              JACSAT
+_journal_issue                   33
+_journal_name_full               'Journal of the American Chemical Society'
+_journal_page_first              10244
+_journal_page_last               10248
+_journal_paper_doi               10.1021/ja0727363
+_journal_volume                  129
+_journal_year                    2007
+_chemical_formula_analytical     'O1 Tc2'
+_chemical_formula_structural     TcO2
+_chemical_formula_sum            'O7.9 Tc4'
+_chemical_formula_weight         518.78
+_chemical_melting_point          1273
+_chemical_name_common            'Technetium dioxide'
+_chemical_name_systematic        'Technetium (IV) oxide'
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_audit_author_name               'Efrain E. Rodriguez'
+_audit_creation_date             2007-04-18T23:18
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_audit_update_record
+' 2007-04-18T23:18  Initial CIF as created by GSAS2CIF'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 121.4532(11)
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            1
+_cell_length_a                   5.68908(8)
+_cell_length_b                   4.75461(8)
+_cell_length_c                   5.51948(12)
+_cell_measurement_temperature    295
+_cell_volume                     127.361(4)
+_computing_molecular_graphics
+'Diamond 3.1d, Klaus Brandenburg, Crystal Impact GbR, Bonn, Germany'
+_computing_publication_material
+'GSAS, A. C. Larson and R. B. Von Dreele, LANL, LAUR 86-748 (2004)'
+_computing_structure_refinement  GSAS
+_computing_structure_solution
+'GSAS, A. C. Larson and R. B. Von Dreele, LANL LAUR 86-748 (2004)'
+_diffrn_ambient_temperature      295
+_diffrn_detector                 'He-3 tubes'
+_diffrn_measurement_device_type  'High Intensity Powder Diffractometer (HIPD)'
+_diffrn_radiation_probe          neutron
+_diffrn_source                   neutron
+_diffrn_source_target            W
+_diffrn_source_type              'Spallation source'
+_exptl_absorpt_correction_T_max  0.92652
+_exptl_absorpt_correction_T_min  0.52673
+_exptl_absorpt_process_details
+;   GSAS Absorption/surface roughness correction: function number 0
+ Debye-Scherrer absorption correction
+Term (= MU.r/wave) =     0.66833E-01
+Correction is not refined.
+;
+_exptl_crystal_density_diffrn    6.83
+_pd_block_id
+2007-04-18T23:18|TCO2_295K_HIPD_12-1-_phase1|Efrain_E._Rodriguez||
+_pd_calc_method                  'Rietveld Refinement'
+_pd_char_colour                  'dark grey'
+_pd_instr_location
+'Manuel Lujan Jr. Neutron Scattering Center, LANSCE'
+_pd_meas_2theta_fixed            153.00
+_pd_meas_scan_method             tof
+_pd_phase_name                   'TcO2 monoclinic phase'
+_pd_prep_pressure                101.325
+_pd_prep_temperature             973
+_pd_proc_info_data_reduction     'Used FITSPEC to normalize data'
+_pd_proc_info_datetime           2007-04-18T23:18:31
+_pd_proc_info_excluded_regions
+'Low and high TOF data were excluded due to lower statistics'
+_pd_proc_ls_background_function
+;   GSAS Background function number 1 with  6 terms.
+ Shifted Chebyshev function of 1st kind
+      1:   0.217841     2:  -5.001020E-02 3:   1.260920E-02 4:  -5.216770E-03
+      5:   4.200020E-03 6:  -6.091590E-03
+;
+_pd_proc_ls_prof_R_factor        0.0173
+_pd_proc_ls_prof_wR_expected     0.0143
+_pd_proc_ls_prof_wR_factor       0.0231
+_pd_spec_mounting                'Sample holder is a vanadium can'
+_pd_spec_shape                   cylinder
+_refine_ls_goodness_of_fit_all   1.58
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     19
+_refine_ls_number_restraints     0
+_refine_ls_R_Fsqd_factor         0.07578
+_refine_ls_shift/su_max          0.01
+_refine_ls_shift/su_mean         0.00
+_reflns_d_resolution_high        0.394
+_reflns_d_resolution_low         3.407
+_reflns_limit_h_max              16
+_reflns_limit_h_min              0
+_reflns_limit_k_max              13
+_reflns_limit_k_min              0
+_reflns_limit_l_max              13
+_reflns_limit_l_min              -16
+_reflns_number_total             5911
+_cod_data_source_file            ja0727363si20070419_084817.cif
+_cod_data_source_block           TCO2_295K_HIPD_12-1-_phase_1
+_cod_original_cell_volume        127.3610(20)
+_cod_original_formula_sum        'O7.90 Tc4.00'
+_cod_database_code               4109804
+_cod_database_fobs_code          4109804
+#BEGIN Tags that were not found in dictionaries:
+_gsas_exptl_extinct_corr_t_min   1.00000
+_gsas_exptl_extinct_corr_t_max   1.00000
+#END Tags that were not found in dictionaries
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -x,+y+1/2,-z+1/2
+-1 -x,-y,-z
+-2 +x,-y+1/2,+z+1/2
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+O O1 0.10374(23) 0.18825(20) 0.19497(17) 0.975(5) Uiso 0.00471(20) 4
+O O2 0.39193(21) 0.70847(18) 0.27042(16) 1.000(5) Uiso 0.00399(20) 4
+Tc TC3 0.26209(14) 1.00731(28) -0.01561(19) 1.0011(12) Uiso 0.00091(7) 4
+loop_
+_atom_type_symbol
+_atom_type_scat_length_neutron
+_atom_type_scat_source
+_atom_type_number_in_cell
+O 0.5805 International_Tables_Vol_C 7.898
+Tc 0.6000 International_Tables_Vol_C 4.004
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+TC3 O1 TC3 100.360(34) 1_545 -1_565 n
+TC3 O1 TC3 128.87(7) 1_545 -2_576 n
+TC3 O1 TC3 130.69(6) -1_565 -2_576 n
+TC3 O2 TC3 136.95(7) 1_555 2_645 n
+TC3 O2 TC3 139.18(7) 1_555 -2_576 n
+TC3 O2 TC3 83.56(4) 2_645 -2_576 n
+O1 TC3 O1 79.640(34) 1_565 -1_565 n
+O1 TC3 O1 90.06(5) 1_565 -2_564 n
+O1 TC3 O2 86.47(5) 1_565 1_555 n
+O1 TC3 O2 89.05(7) 1_565 2_655 n
+O1 TC3 O2 173.52(7) 1_565 -2_575 n
+O1 TC3 TC3 137.41(9) 1_565 -1_675 n
+O1 TC3 O1 91.29(4) -1_565 -2_564 n
+O1 TC3 O2 85.37(8) -1_565 1_555 n
+O1 TC3 O2 167.51(5) -1_565 2_655 n
+O1 TC3 O2 94.56(7) -1_565 -2_575 n
+O1 TC3 TC3 142.15(10) -1_565 -1_675 n
+O1 TC3 O2 175.57(6) -2_575 1_555 n
+O1 TC3 O2 94.03(8) -2_575 2_655 n
+O1 TC3 O2 92.96(5) -2_575 -2_575 n
+O1 TC3 TC3 95.25(6) -2_575 -1_675 n
+O2 TC3 O2 88.68(4) 1_555 2_655 n
+O2 TC3 O2 90.21(5) 1_555 -2_575 n
+O2 TC3 TC3 89.17(5) 1_555 -1_675 n
+O2 TC3 O2 96.44(4) 2_655 -2_575 n
+O2 TC3 TC3 48.48(4) 2_655 -1_675 n
+O2 TC3 TC3 47.96(4) -2_575 -1_675 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+O1 TC3 1.9988(13) 1_545 n
+O1 TC3 2.0065(14) -1_565 n
+O1 TC3 1.9892(15) -2_565 n
+O2 TC3 1.9596(15) 1_555 n
+O2 TC3 1.9597(13) 2_645 n
+O2 TC3 1.9757(13) -2_565 n
+TC3 O1 1.9988(13) 1_565 n
+TC3 O1 2.0065(14) -1_565 n
+TC3 O1 1.9892(15) -2_564 n
+TC3 O2 1.9596(15) 1_555 n
+TC3 O2 1.9597(13) 2_655 n
+TC3 O2 1.9757(13) -2_564 n
+TC3 TC3 3.0763(11) -1_575 n
+TC3 TC3 2.6221(11) -1_675 n
+loop_
+_pd_block_diffractogram_id
+2007-04-18T23:18|TCO2_295K_HIPD_12-1-_H_01|Efrain_E._Rodriguez|HIPD
+2007-04-18T23:18|TCO2_295K_HIPD_12-1-_H_02|Efrain_E._Rodriguez|HIPD
+2007-04-18T23:18|TCO2_295K_HIPD_12-1-_H_03|Efrain_E._Rodriguez|HIPD
+2007-04-18T23:18|TCO2_295K_HIPD_12-1-_H_04|Efrain_E._Rodriguez|HIPD
+loop_
+_pd_phase_id
+_pd_phase_block_id
+_pd_proc_ls_profile_function
+_pd_proc_ls_peak_cutoff
+1 2007-04-18T23:18|TCO2_295K_HIPD_12-1-_phase1|Efrain_E._Rodriguez||
+;
+ TOF Profile function number 4 with  21 terms
+ Profile coefficients for exponential pseudovoigt
+  convolution Von Dreele, 1990 (unpublished)
+ Microstrain broadening by P.W. Stephens,  (1999). J. Appl. Cryst.,32,281-289.
+ Peak tails are ignored  where the intensity is below 0.0001 times the peak
+   Aniso. broadening axis   0.0   0.0   1.0
+;
+0.00010

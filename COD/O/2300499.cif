@@ -1,0 +1,203 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/30/04/2300499.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2300499
+loop_
+_publ_author_name
+'Orayech, B.'
+'Faik, A.'
+'L\'opez, G. A.'
+'Fabelo, O.'
+'Igartua, J. M.'
+_publ_section_title
+;
+ Mode-crystallography analysis of the crystal structures and the low- and
+ high-temperature phase transitions in Na~0.5~K~0.5~NbO~3~
+;
+_journal_coeditor_code           NB5132
+_journal_issue                   2
+_journal_name_full               'Journal of Applied Crystallography'
+_journal_page_first
+;
+;
+_journal_paper_doi               10.1107/S1600576715000941
+_journal_volume                  48
+_journal_year                    2015
+_chemical_formula_structural     'Na K (Nb O)3'
+_chemical_formula_sum            'K0.5 Na0.5 Nb O3'
+_chemical_formula_weight         171.94
+_chemical_name_common            'Sodium Potassium Niobate oxide'
+_chemical_name_systematic        'Sodium Potassium Niobate oxide'
+_space_group_IT_number           38
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  'A 2 -2'
+_symmetry_space_group_name_H-M   'A m m 2'
+_cell_angle_alpha                90.00000
+_cell_angle_beta                 90.00000
+_cell_angle_gamma                90.00000
+_cell_formula_units_Z            2
+_cell_length_a                   3.9443(3)
+_cell_length_b                   5.6425(6)
+_cell_length_c                   5.6763(6)
+_cell_measurement_temperature    295
+_cell_volume                     126.33(2)
+_computing_structure_refinement  FULLPROF
+_diffrn_ambient_temperature      295
+_diffrn_radiation_type           'Cu K\a'
+_diffrn_radiation_wavelength     1.540560
+_diffrn_source_target            Cu
+_pd_instr_location               ' ?'
+_pd_meas_2theta_range_inc        0.033344
+_pd_meas_2theta_range_max        110.00202
+_pd_meas_2theta_range_min        8.50000
+_pd_meas_number_of_points        3046
+_pd_meas_scan_method             step
+_pd_proc_2theta_range_inc        0.033344
+_pd_proc_2theta_range_max        109.8246
+_pd_proc_2theta_range_min        8.3226
+_pd_proc_ls_background_function  'Set of experimental background points'
+_pd_proc_ls_pref_orient_corr     ' ?'
+_pd_proc_ls_profile_function     pseudo-Voigt
+_pd_proc_ls_prof_R_factor        14.7186
+_pd_proc_ls_prof_wR_expected     6.0316
+_pd_proc_ls_prof_wR_factor       18.8044
+_pd_proc_wavelength              1.540560
+_pd_spec_mounting                ' ?'
+_refine_ls_number_parameters     6
+_refine_ls_number_reflns         181
+_refine_ls_number_restraints     0
+_refine_ls_R_I_factor            20.2129
+_cod_data_source_file            nb5132sup1.cf
+_cod_data_source_block           II
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Orthorhombic' changed to
+'orthorhombic' according to
+/usr/data/users/saulius/crontab/automatic-downloads/rss-feeds/IUCr/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 from 2011-04-26.
+
+Automatic conversion script
+Id: cif_fix_values 3008 2015-01-20 13:52:24Z robertas 
+;
+_cod_original_formula_sum        'K0.50 Na0.50 Nb1 O3'
+_cod_database_code               2300499
+#BEGIN Tags that were not found in dictionaries:
+_pd_proc_ls_prof_cr_factor       31.0684
+_pd_proc_ls_prof_cwr_factor      30.6076
+_pd_proc_ls_prof_cwr_expected    9.8175
+_pd_proc_ls_prof_chi2            9.7197
+_pd_proc_ls_prof_echi2           9.7197
+#END Tags that were not found in dictionaries
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,z
+-x,y,z
+x,-y,z
+x,y+1/2,z+1/2
+-x,-y+1/2,z+1/2
+-x,y+1/2,z+1/2
+x,-y+1/2,z+1/2
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+_atom_site_adp_type
+_atom_site_type_symbol
+Na1 0.00000 0.00000 0.0453(11) 0.01092 0.50000 Uiso NA
+K1 0.00000 0.00000 0.0453(11) 0.01092 0.50000 Uiso K
+Nb1 0.50000 0.00000 0.5251(11) 0.00758 1.00000 Uiso NB
+O1 0.00000 0.00000 0.4727(11) 0.00665 1.00000 Uiso O
+O1_2 0.50000 0.7535(8) 0.2285(8) 0.00665 1.00000 Uiso O
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+O1 Na1 O1 98.3(3) 1_555 5_544
+O1 Na1 O1 98.3(3) 1_555 5_554
+O1 Na1 O1_2 66.7(3) 1_555 1_445
+O1 Na1 O1_2 66.7(3) 1_555 1_545
+O1 Na1 O1_2 126.4(3) 1_555 5_444
+O1 Na1 O1_2 126.4(3) 1_555 5_544
+O1 Na1 O1 163.38(4) 5_544 5_554
+O1 Na1 O1_2 62.19(13) 5_544 1_445
+O1 Na1 O1_2 62.19(13) 5_544 1_545
+O1 Na1 O1_2 125.52(19) 5_554 1_445
+O1 Na1 O1_2 125.52(19) 5_554 1_545
+O1 Na1 O1_2 56.41(13) 5_554 5_444
+O1 Na1 O1_2 56.41(13) 5_554 5_544
+O1_2 Na1 O1_2 97.27(12) 1_445 1_545
+O1_2 Na1 O1_2 89.8(2) 1_445 5_444
+O1_2 Na1 O1_2 166.9(2) 1_445 5_544
+O1_2 Na1 O1_2 166.9(2) 1_545 5_444
+O1_2 Na1 O1_2 89.8(2) 1_545 5_544
+O1_2 Na1 O1_2 81.28(14) 5_444 5_544
+O1 K1 O1 98.3(3) 1_555 5_544
+O1 K1 O1 98.3(3) 1_555 5_554
+O1 K1 O1_2 66.7(3) 1_555 1_445
+O1 K1 O1_2 66.7(3) 1_555 1_545
+O1 K1 O1_2 126.4(3) 1_555 5_444
+O1 K1 O1_2 126.4(3) 1_555 5_544
+O1 K1 O1 163.38(4) 5_544 5_554
+O1 K1 O1_2 62.19(13) 5_544 1_445
+O1 K1 O1_2 62.19(13) 5_544 1_545
+O1 K1 O1_2 125.52(19) 5_554 1_445
+O1 K1 O1_2 125.52(19) 5_554 1_545
+O1 K1 O1_2 56.41(13) 5_554 5_444
+O1 K1 O1_2 56.41(13) 5_554 5_544
+O1_2 K1 O1_2 97.27(12) 1_445 1_545
+O1_2 K1 O1_2 89.8(2) 1_445 5_444
+O1_2 K1 O1_2 166.9(2) 1_445 5_544
+O1_2 K1 O1_2 166.9(2) 1_545 5_444
+O1_2 K1 O1_2 89.8(2) 1_545 5_544
+O1_2 K1 O1_2 81.28(14) 5_444 5_544
+O1 Nb1 O1 162.85(6) 1_555 1_655
+O1 Nb1 O1_2 83.4(2) 1_555 1_545
+O1 Nb1 O1_2 95.4(3) 1_555 5_545
+O1 Nb1 O1_2 83.4(2) 1_655 1_545
+O1 Nb1 O1_2 95.4(3) 1_655 5_545
+O1_2 Nb1 O1_2 168.5(4) 1_545 5_545
+O1 Nb1 O1_2 83.4(2) 1_555 1_545
+O1 Nb1 O1_2 95.4(3) 1_555 5_545
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Na1 O1 2.8512(13) 5_544
+Na1 O1 2.8512(13) 5_554
+Na1 O1_2 2.628(4) 1_445
+Na1 O1_2 2.628(4) 1_545
+Na1 O1_2 3.028(5) 5_444
+Na1 O1_2 3.028(5) 5_544
+Nb1 O1 1.9945(13) 1_555
+Nb1 O1 1.9945(13) 1_655
+Nb1 O1_2 2.184(7) 1_545
+Nb1 O1_2 1.838(6) 5_545
+Nb1 O1_2 1.838(6) 5_545
+Nb1 O1_2 2.184(7) 1_545
+K1 O1 2.8512(13) 5_544
+K1 O1 2.8512(13) 5_554
+K1 O1_2 2.628(4) 1_445
+K1 O1_2 2.628(4) 1_545
+K1 O1_2 3.028(5) 5_444
+K1 O1_2 3.028(5) 5_544

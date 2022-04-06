@@ -1,0 +1,259 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 06:40:26 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176432 $
+#$URL: svn://www.crystallography.net/cod/cif/2/01/78/2017880.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_2017880
+loop_
+_publ_author_name
+'Hata, Yoshiaki'
+'Kanke, Yasushi'
+'Kita, Eiji'
+_publ_section_title
+;
+ The structural phase transition in SrV~6~O~11~
+;
+_journal_coeditor_code           FA3226
+_journal_issue                   12
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              i99
+_journal_page_last               i102
+_journal_paper_doi               10.1107/S0108270110046299
+_journal_volume                  66
+_journal_year                    2010
+_chemical_formula_iupac          'Sr V6 O11'
+_chemical_formula_structural     'Sr O11 V6'
+_chemical_formula_sum            'O11 Sr V6'
+_chemical_formula_weight         569.26
+_chemical_name_systematic
+;
+strontium haxavanadium undecaoxide
+;
+_space_group_IT_number           186
+_symmetry_cell_setting           hexagonal
+_symmetry_space_group_name_Hall  'P 6c -2c'
+_symmetry_space_group_name_H-M   'P 63 m c'
+_atom_sites_solution_primary     isomor
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           'using text editor JEdit4&publCIF'
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                120.00
+_cell_formula_units_Z            2
+_cell_length_a                   5.77020(10)
+_cell_length_b                   5.77020(10)
+_cell_length_c                   13.0784(3)
+_cell_measurement_reflns_used    22
+_cell_measurement_temperature    295
+_cell_measurement_theta_max      44.50
+_cell_measurement_theta_min      43.00
+_cell_volume                     377.109(13)
+_computing_cell_refinement       'CAD-4 (Enraf--Nonius, 1981)'
+_computing_data_collection       'CAD-4 (Enraf--Nonius, 1981)'
+_computing_data_reduction
+;
+SDP (Frenz, B. A. & Associates, Inc., 1985)
+;
+_computing_molecular_graphics    'ATOMS (Dowty, 2003)'
+_computing_publication_material  'SHELXL-97 (Sheldrick, 2008)'
+_computing_structure_refinement  'SHELXL97 (Sheldrick, 2008)'
+_computing_structure_solution    'SHELXS97 (Sheldrick, 2008)'
+_diffrn_ambient_temperature      295
+_diffrn_measured_fraction_theta_full 1.00
+_diffrn_measurement_device       'Enraf--Nonius CAD-4'
+_diffrn_measurement_method       \w/2\q-scan
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.016
+_diffrn_reflns_limit_h_max       5
+_diffrn_reflns_limit_h_min       -5
+_diffrn_reflns_limit_k_max       8
+_diffrn_reflns_limit_k_min       -8
+_diffrn_reflns_limit_l_max       25
+_diffrn_reflns_limit_l_min       -25
+_diffrn_reflns_number            1284
+_diffrn_reflns_theta_full        44.99
+_diffrn_reflns_theta_max         44.99
+_diffrn_reflns_theta_min         3.09
+_diffrn_standards_decay_%        0.4
+_diffrn_standards_interval_time  240
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    14.191
+_exptl_absorpt_correction_T_max  0.5291
+_exptl_absorpt_correction_T_min  0.3823
+_exptl_absorpt_correction_type   gaussian
+_exptl_absorpt_process_details
+;
+(SDP; Frenz, B. A. & Associates, Inc., 1985)
+;
+_exptl_crystal_colour            black
+_exptl_crystal_density_diffrn    5.013
+_exptl_crystal_description       plate
+_exptl_crystal_F_000             528
+_exptl_crystal_size_max          0.310
+_exptl_crystal_size_mid          0.135
+_exptl_crystal_size_min          0.075
+_refine_diff_density_max         0.973
+_refine_diff_density_min         -1.267
+_refine_ls_abs_structure_details
+'refinement of absolute structure parameter (Flack, 1983)'
+_refine_ls_abs_structure_Flack   0.434(7)
+_refine_ls_extinction_coef       0.052(2)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_ref   1.205
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     44
+_refine_ls_number_reflns         1065
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.205
+_refine_ls_R_factor_all          0.0216
+_refine_ls_R_factor_gt           0.0216
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0294P)^2^+0.2563P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0548
+_refine_ls_wR_factor_ref         0.0549
+_reflns_number_gt                1065
+_reflns_number_total             1247
+_reflns_threshold_expression     I>1.5\s(I)
+_cod_data_source_file            fa3226.cif
+_cod_data_source_block           I_RT
+_cod_original_sg_symbol_Hall     P6c-2c
+_cod_original_sg_symbol_H-M      P63mc
+_cod_database_code               2017880
+_cod_database_fobs_code          2017880
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-y, x-y, z'
+'-x+y, -x, z'
+'-x, -y, 1/2+z'
+'y, -x+y, 1/2+z'
+'x-y, x, 1/2+z'
+'-y, -x, z'
+'-x+y, y, z'
+'x, x-y, z'
+'y, x, 1/2+z'
+'x-y, -y, 1/2+z'
+'-x, -x+y, 1/2+z'
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Sr Sr1 0.3333 0.6667 0.25372(12) 0.00913(12) Uani d S 1 . .
+V V1 0.50511(3) 0.49489(3) 0.5 0.00503(6) Uani d S 1 . .
+V V21 0.0000 0.0000 0.14466(15) 0.0053(3) Uani d S 1 . .
+V V22 0.0000 0.0000 0.35226(14) 0.0031(2) Uani d S 1 . .
+V V3 0.3333 0.6667 0.74409(12) 0.00449(14) Uani d S 1 . .
+O O11 0.17369(16) 0.3474(3) 0.0836(2) 0.0064(2) Uani d S 1 . .
+O O12 0.17370(17) 0.3474(3) 0.4203(2) 0.0057(2) Uani d S 1 . .
+O O2 0.3057(3) 0.15287(15) 0.2507(2) 0.0076(2) Uani d S 1 . .
+O O31 0.3333 0.6667 0.5882(3) 0.0062(4) Uani d S 1 . .
+O O32 0.6667 0.3333 0.4074(3) 0.0057(4) Uani d S 1 . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Sr1 0.00883(11) 0.00883(11) 0.0097(3) 0.00441(5) 0.000 0.000
+V1 0.00483(8) 0.00483(8) 0.00376(9) 0.00115(7) 0.00005(10) -0.00005(10)
+V21 0.0073(4) 0.0073(4) 0.0012(4) 0.00366(19) 0.000 0.000
+V22 0.0015(3) 0.0015(3) 0.0064(6) 0.00074(14) 0.000 0.000
+V3 0.00384(13) 0.00384(13) 0.0058(4) 0.00192(7) 0.000 0.000
+O11 0.0066(4) 0.0066(4) 0.0061(4) 0.0036(5) 0.0008(2) -0.0008(2)
+O12 0.0054(4) 0.0054(4) 0.0059(5) 0.0025(5) -0.0007(2) 0.0007(2)
+O2 0.0113(4) 0.0113(4) 0.0046(4) 0.0091(5) 0.0002(3) -0.0002(3)
+O31 0.0060(6) 0.0060(6) 0.0064(8) 0.0030(3) 0.000 0.000
+O32 0.0038(6) 0.0038(6) 0.0096(10) 0.0019(3) 0.000 0.000
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Sr Sr -1.5307 3.2498 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+V V 0.3005 0.5294 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O11 V1 O11 5 4_665 90.71(13) no
+O12 V1 O12 . 2_665 89.66(12) no
+O11 V1 O12 5 . 89.72(6) no
+O11 V1 O31 5 . 92.01(10) no
+O12 V1 O32 . . 93.21(10) no
+O11 V1 O32 5 . 90.07(6) no
+O12 V1 O31 . . 84.69(5) no
+O11 V21 O11 . 2 103.77(13) no
+O11 V21 O2 . . 86.82(6) no
+O2 V21 O2 . 2 79.77(13) no
+O12 V22 O12 . 2 100.84(11) no
+O12 V22 O2 . . 87.90(4) no
+O2 V22 O2 . 2 81.62(11) no
+O2 V3 O2 6 5_565 119.774(16) no
+O2 V3 O31 6 . 92.74(9) no
+O2 V3 O32 6 6 87.26(9) no
+V1 O11 V1 6_554 4_664 92.10(11) no
+V1 O12 V1 . 3_565 98.69(11) no
+V1 O31 V1 . 3_565 91.91(12) no
+V1 O32 V1 . 2_655 87.71(13) no
+V21 O2 V22 . . 83.23(6) no
+V1 O11 V21 6_554 . 127.16(7) no
+V1 O12 V22 . . 125.26(5) no
+V1 O31 V3 . . 123.91(8) no
+V1 O32 V3 . 5_554 126.87(9) no
+V21 O2 V3 . 5_554 135.03(16) no
+V22 O2 V3 . 5_554 141.73(15) no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Sr1 O11 . 2.738(2) yes
+Sr1 O12 . 2.700(2) yes
+Sr1 O2 . 2.8887(9) yes
+V1 O11 5 1.9422(18) yes
+V1 O12 . 1.9598(16) yes
+V1 O31 . 2.069(2) yes
+V1 O32 . 2.018(2) yes
+V21 O11 . 1.911(2) yes
+V21 O2 . 2.063(3) yes
+V22 O12 . 1.951(2) yes
+V22 O2 . 2.025(3) yes
+V3 O2 6 1.8057(15) yes
+V3 O31 . 2.038(4) yes
+V3 O32 6 2.136(3) yes
+V1 V1 2_655 2.7966(6) yes
+V1 V1 3_565 2.9736(6) yes
+V21 V22 . 2.7151(8) yes

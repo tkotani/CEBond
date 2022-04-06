@@ -1,0 +1,311 @@
+#------------------------------------------------------------------------------
+#$Date: 2021-06-07 12:55:44 +0300 (Mon, 07 Jun 2021) $
+#$Revision: 266221 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/56/31/1563196.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1563196
+loop_
+_publ_author_name
+'Verbraeken, Maarten C.'
+'Suard, Emmanuelle'
+'Irvine, John T.S.'
+_publ_section_title
+;
+ Order and disorder in Ca2ND0.90H0.10--A structural and thermal study
+;
+_journal_issue                   8
+_journal_name_full               'Journal of Solid State Chemistry'
+_journal_page_first              2088
+_journal_page_last               2096
+_journal_paper_doi               10.1016/j.jssc.2011.05.062
+_journal_volume                  184
+_journal_year                    2011
+_chemical_formula_structural     CaO
+_chemical_formula_sum            'Ca O'
+_chemical_formula_weight         56.08
+_chemical_name_common            'Calcium oxide'
+_space_group_IT_number           225
+_space_group_name_Hall           '-F 4 2 3'
+_space_group_name_H-M_alt        'F m -3 m'
+_symmetry_cell_setting           cubic
+_symmetry_space_group_name_Hall  '-F 4 2 3'
+_symmetry_space_group_name_H-M   'F m -3 m'
+_cell_angle_alpha                90.00000
+_cell_angle_beta                 90.00000
+_cell_angle_gamma                90.00000
+_cell_formula_units_Z            4
+_cell_length_a                   4.8174(4)
+_cell_length_b                   4.8174(4)
+_cell_length_c                   4.8174(4)
+_cell_measurement_temperature    293
+_cell_volume                     111.799(16)
+_computing_structure_refinement  FULLPROF
+_diffrn_ambient_temperature      293
+_diffrn_radiation_type           'Constant Wavelength Neutron Diffraction'
+_diffrn_radiation_wavelength     1.91137
+_diffrn_source                   'nuclear reactor'
+_diffrn_source_type              'D1A, ILL Grenoble'
+_pd_instr_location               'ILL, Grenoble'
+_pd_meas_2theta_range_inc        0.050000
+_pd_meas_2theta_range_max        157.45000
+_pd_meas_2theta_range_min        -22.00000
+_pd_meas_number_of_points        3590
+_pd_meas_scan_method             Step
+_pd_proc_2theta_range_inc        0.050000
+_pd_proc_2theta_range_max        157.3391
+_pd_proc_2theta_range_min        -22.1109
+_pd_proc_info_excluded_regions   '-22.000 - 10.000'
+_pd_proc_ls_prof_R_factor        3.9513
+_pd_proc_ls_prof_wR_expected     2.7894
+_pd_proc_ls_prof_wR_factor       5.1131
+_pd_proc_wavelength              1.911365
+_refine_ls_number_parameters     19
+_refine_ls_number_reflns         9
+_refine_ls_number_restraints     0
+_refine_ls_R_I_factor            16.6889
+_cod_data_source_file            JSSC-2011-184-2088.cif
+_cod_data_source_block           CaO
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+data item '_symmetry_cell_setting' value 'Cubic' was changed to
+'cubic' in accordance with the built-in table derived from the CIF
+Core dictionary named 'cif_core.dic' version 2.4.5 last updated on
+2014-11-21.
+
+Automatic conversion script
+Id: cif_fix_values 8369 2020-08-20 11:38:08Z andrius 
+;
+_cod_original_cell_volume        111.798(15)
+_cod_original_sg_symbol_H-M      'F M 3 M'
+_cod_original_formula_sum        'Ca1 O1'
+_cod_database_code               1563196
+_pd_proc_ls_prof_cr_factor       20.1084
+_pd_proc_ls_prof_cwr_factor      14.9989
+_pd_proc_ls_prof_cwr_expected    8.1827
+_pd_proc_ls_prof_chi2            3.3599
+_pd_proc_ls_prof_echi2           3.6939
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x,-y,-z
+-x,y,-z
+-x,-y,z
+y,z,x
+-y,-z,x
+y,-z,-x
+-y,z,-x
+z,x,y
+-z,x,-y
+-z,-x,y
+z,-x,-y
+y,x,z
+-y,x,-z
+y,-x,-z
+-y,-x,z
+z,y,x
+-z,-y,x
+-z,y,-x
+z,-y,-x
+x,z,y
+x,-z,-y
+-x,-z,y
+-x,z,-y
+-x,-y,-z
+-x,y,z
+x,-y,z
+x,y,-z
+-y,-z,-x
+y,z,-x
+-y,z,x
+y,-z,x
+-z,-x,-y
+z,-x,y
+z,x,-y
+-z,x,y
+-y,-x,-z
+y,-x,z
+-y,x,z
+y,x,-z
+-z,-y,-x
+z,y,-x
+z,-y,x
+-z,y,x
+-x,-z,-y
+-x,z,y
+x,z,-y
+x,-z,y
+x+1/2,y+1/2,z
+x+1/2,-y+1/2,-z
+-x+1/2,y+1/2,-z
+-x+1/2,-y+1/2,z
+y+1/2,z+1/2,x
+-y+1/2,-z+1/2,x
+y+1/2,-z+1/2,-x
+-y+1/2,z+1/2,-x
+z+1/2,x+1/2,y
+-z+1/2,x+1/2,-y
+-z+1/2,-x+1/2,y
+z+1/2,-x+1/2,-y
+y+1/2,x+1/2,z
+-y+1/2,x+1/2,-z
+y+1/2,-x+1/2,-z
+-y+1/2,-x+1/2,z
+z+1/2,y+1/2,x
+-z+1/2,-y+1/2,x
+-z+1/2,y+1/2,-x
+z+1/2,-y+1/2,-x
+x+1/2,z+1/2,y
+x+1/2,-z+1/2,-y
+-x+1/2,-z+1/2,y
+-x+1/2,z+1/2,-y
+-x+1/2,-y+1/2,-z
+-x+1/2,y+1/2,z
+x+1/2,-y+1/2,z
+x+1/2,y+1/2,-z
+-y+1/2,-z+1/2,-x
+y+1/2,z+1/2,-x
+-y+1/2,z+1/2,x
+y+1/2,-z+1/2,x
+-z+1/2,-x+1/2,-y
+z+1/2,-x+1/2,y
+z+1/2,x+1/2,-y
+-z+1/2,x+1/2,y
+-y+1/2,-x+1/2,-z
+y+1/2,-x+1/2,z
+-y+1/2,x+1/2,z
+y+1/2,x+1/2,-z
+-z+1/2,-y+1/2,-x
+z+1/2,y+1/2,-x
+z+1/2,-y+1/2,x
+-z+1/2,y+1/2,x
+-x+1/2,-z+1/2,-y
+-x+1/2,z+1/2,y
+x+1/2,z+1/2,-y
+x+1/2,-z+1/2,y
+x+1/2,y,z+1/2
+x+1/2,-y,-z+1/2
+-x+1/2,y,-z+1/2
+-x+1/2,-y,z+1/2
+y+1/2,z,x+1/2
+-y+1/2,-z,x+1/2
+y+1/2,-z,-x+1/2
+-y+1/2,z,-x+1/2
+z+1/2,x,y+1/2
+-z+1/2,x,-y+1/2
+-z+1/2,-x,y+1/2
+z+1/2,-x,-y+1/2
+y+1/2,x,z+1/2
+-y+1/2,x,-z+1/2
+y+1/2,-x,-z+1/2
+-y+1/2,-x,z+1/2
+z+1/2,y,x+1/2
+-z+1/2,-y,x+1/2
+-z+1/2,y,-x+1/2
+z+1/2,-y,-x+1/2
+x+1/2,z,y+1/2
+x+1/2,-z,-y+1/2
+-x+1/2,-z,y+1/2
+-x+1/2,z,-y+1/2
+-x+1/2,-y,-z+1/2
+-x+1/2,y,z+1/2
+x+1/2,-y,z+1/2
+x+1/2,y,-z+1/2
+-y+1/2,-z,-x+1/2
+y+1/2,z,-x+1/2
+-y+1/2,z,x+1/2
+y+1/2,-z,x+1/2
+-z+1/2,-x,-y+1/2
+z+1/2,-x,y+1/2
+z+1/2,x,-y+1/2
+-z+1/2,x,y+1/2
+-y+1/2,-x,-z+1/2
+y+1/2,-x,z+1/2
+-y+1/2,x,z+1/2
+y+1/2,x,-z+1/2
+-z+1/2,-y,-x+1/2
+z+1/2,y,-x+1/2
+z+1/2,-y,x+1/2
+-z+1/2,y,x+1/2
+-x+1/2,-z,-y+1/2
+-x+1/2,z,y+1/2
+x+1/2,z,-y+1/2
+x+1/2,-z,y+1/2
+x,y+1/2,z+1/2
+x,-y+1/2,-z+1/2
+-x,y+1/2,-z+1/2
+-x,-y+1/2,z+1/2
+y,z+1/2,x+1/2
+-y,-z+1/2,x+1/2
+y,-z+1/2,-x+1/2
+-y,z+1/2,-x+1/2
+z,x+1/2,y+1/2
+-z,x+1/2,-y+1/2
+-z,-x+1/2,y+1/2
+z,-x+1/2,-y+1/2
+y,x+1/2,z+1/2
+-y,x+1/2,-z+1/2
+y,-x+1/2,-z+1/2
+-y,-x+1/2,z+1/2
+z,y+1/2,x+1/2
+-z,-y+1/2,x+1/2
+-z,y+1/2,-x+1/2
+z,-y+1/2,-x+1/2
+x,z+1/2,y+1/2
+x,-z+1/2,-y+1/2
+-x,-z+1/2,y+1/2
+-x,z+1/2,-y+1/2
+-x,-y+1/2,-z+1/2
+-x,y+1/2,z+1/2
+x,-y+1/2,z+1/2
+x,y+1/2,-z+1/2
+-y,-z+1/2,-x+1/2
+y,z+1/2,-x+1/2
+-y,z+1/2,x+1/2
+y,-z+1/2,x+1/2
+-z,-x+1/2,-y+1/2
+z,-x+1/2,y+1/2
+z,x+1/2,-y+1/2
+-z,x+1/2,y+1/2
+-y,-x+1/2,-z+1/2
+y,-x+1/2,z+1/2
+-y,x+1/2,z+1/2
+y,x+1/2,-z+1/2
+-z,-y+1/2,-x+1/2
+z,y+1/2,-x+1/2
+z,-y+1/2,x+1/2
+-z,y+1/2,x+1/2
+-x,-z+1/2,-y+1/2
+-x,z+1/2,y+1/2
+x,z+1/2,-y+1/2
+x,-z+1/2,y+1/2
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+_atom_site_adp_type
+_atom_site_type_symbol
+Ca 0.00000 0.00000 0.00000 0.028(7) 1.00000 Uiso CA
+O 0.50000 0.50000 0.50000 0.021(5) 1.00000 Uiso O
+loop_
+_atom_type_symbol
+_atom_type_scat_length_neutron
+_atom_type_scat_source
+Ca 0.47000 V.F._Sears_Neutron_News_3_26_(1992)
+O 0.58030 V.F._Sears_Neutron_News_3_26_(1992)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+Ca O 2.4087(2)

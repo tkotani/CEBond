@@ -1,0 +1,341 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/91/2009162.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2009162
+loop_
+_publ_author_name
+'Michiue, Yuichi'
+'Brown, Francisco'
+'Kimizuka, Noboru'
+'Watanabe, Mamoru'
+'Orita, Masahiro'
+'Ohta, Hiromichi'
+_publ_section_title
+;
+ Orthorhombic InFe~0.33~Ti~0.67~O~3.33~
+;
+_journal_issue                   11
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              1755
+_journal_page_last               1757
+_journal_paper_doi               10.1107/S0108270199009038
+_journal_volume                  55
+_journal_year                    1999
+_chemical_formula_moiety         'In Fe0.33 Ti0.67 O3.33 '
+_chemical_formula_sum            'Fe0.33 In O3.33 Ti0.67'
+_chemical_formula_weight         218.62
+_chemical_name_systematic        ' ?'
+_space_group_IT_number           63
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-C 2c 2'
+_symmetry_space_group_name_H-M   'C m c m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   3.3504(3)
+_cell_length_b                   5.8341(7)
+_cell_length_c                   12.070(5)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    296.2
+_cell_measurement_theta_max      27.1
+_cell_measurement_theta_min      26.0
+_cell_volume                     235.93(10)
+_computing_cell_refinement       'Rigaku/AFC Diffractometer Control'
+_computing_data_collection
+'Rigaku/AFC Diffractometer Control (Rigaku, 1998)'
+_computing_data_reduction
+'TEXSAN (Molecular Structure Corporation, 1998)'
+_computing_publication_material  TEXSAN
+_computing_structure_refinement  TEXSAN
+_diffrn_ambient_temperature      295
+_diffrn_measurement_device_type  'Rigaku AFC7R'
+_diffrn_measurement_method       \w-2\q
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'Rigaku rotating anode'
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.7107
+_diffrn_reflns_av_R_equivalents  0.048
+_diffrn_reflns_av_sigmaI/netI    0.042
+_diffrn_reflns_limit_h_max       7
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       12
+_diffrn_reflns_limit_k_min       -12
+_diffrn_reflns_limit_l_max       26
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            1416
+_diffrn_reflns_reduction_process 'Lp corrections applied'
+_diffrn_reflns_theta_max         50.07
+_diffrn_reflns_theta_min         3.38
+_diffrn_standards_decay_%        -0.08
+_diffrn_standards_interval_count 200
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    13.795
+_exptl_absorpt_correction_T_max  0.567
+_exptl_absorpt_correction_T_min  0.183
+_exptl_absorpt_correction_type   analytical
+_exptl_absorpt_process_details   'analytical (de Meulenaer & Tompa, 1965)'
+_exptl_crystal_colour            brown
+_exptl_crystal_density_diffrn    6.155
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       plate
+_exptl_crystal_F_000             395.84
+_exptl_crystal_size_max          0.260
+_exptl_crystal_size_mid          0.130
+_exptl_crystal_size_min          0.040
+_refine_diff_density_max         1.17
+_refine_diff_density_min         -1.15
+_refine_ls_extinction_coef       4.3E-6(2)
+_refine_ls_extinction_method
+'Zachariasen (1967) type 2 Gaussian isotropic'
+_refine_ls_goodness_of_fit_all   3.957
+_refine_ls_goodness_of_fit_ref   3.957
+_refine_ls_hydrogen_treatment    none
+_refine_ls_number_constraints    7
+_refine_ls_number_parameters     25
+_refine_ls_number_reflns         708
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          0.0508
+_refine_ls_R_factor_gt           0.0323
+_refine_ls_shift/su_max          0.0430
+_refine_ls_shift/su_mean         0.0100
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_all         0.0569
+_refine_ls_wR_factor_ref         0.0569
+_reflns_number_gt                492
+_reflns_number_total             708
+_reflns_threshold_expression     I>2\s(I)
+_cod_data_source_file            oh1115.cif
+_cod_data_source_block           1
+_cod_original_cell_volume        235.92(7)
+_cod_original_sg_symbol_H-M      'C m c m      '
+_cod_original_formula_sum        'Fe0.33 In O3.33 Ti0.67 '
+_cod_database_code               2009162
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x,-y,-z
+x,y,1/2-z
+x,-y,1/2+z
+-x,-y,-z
+-x,y,z
+-x,-y,1/2+z
+-x,y,1/2-z
+1/2+x,1/2+y,z
+1/2+x,1/2-y,-z
+1/2+x,1/2+y,1/2-z
+1/2+x,1/2-y,1/2+z
+1/2-x,1/2-y,-z
+1/2-x,1/2+y,z
+1/2-x,1/2-y,1/2+z
+1/2-x,1/2+y,1/2-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_type_symbol
+In .0000 .0000 .0000 .00923(7) Uani 1.00 In
+Fe .0000 .333 .2500 .0371 Uani .33 Fe
+Ti .0000 .3330(10) .2500 .0371(5) Uani .67 Ti
+O1 .0000 .3301(6) .0846(2) .0114(6) Uani 1.00 O
+O2 .0000 .988(6) .2500 .057(4) Uani .74 O
+O3 .0000 .673(8) .2500 .068(6) Uani .59 O
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+_atom_site_aniso_type_symbol
+In .00560(10) .0121(2) .01000(10) .0000 .0000 -.0009(3) In
+Fe .0277 .076 .0077 .0000 .0000 .0000 Fe
+Ti .0277(8) .076(2) .0077(5) .0000 .0000 .0000 Ti
+O1 .0090(10) .019(2) .0060(10) .0000 .0000 -.0020(10) O
+O2 .094(9) .064(10) .013(3) .0000 .0000 .0000 O
+O3 .13(2) .060(10) .014(5) .0000 .0000 .0000 O
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_source
+O O 0.011
+;International Tables for Crystallography
+(1992, Vol. C, Tables 4.2.6.8 and 6.1.1.1)
+;
+In In -0.728
+;International Tables for Crystallography
+(1992, Vol. C, Tables 4.2.6.8 and 6.1.1.1)
+;
+Ti Ti 0.278
+;International Tables for Crystallography
+(1992, Vol. C, Tables 4.2.6.8 and 6.1.1.1)
+;
+Fe Fe 0.346
+;International Tables for Crystallography
+(1992, Vol. C, Tables 4.2.6.8 and 6.1.1.1)
+;
+loop_
+_diffrn_standard_refln_index_h
+_diffrn_standard_refln_index_k
+_diffrn_standard_refln_index_l
+2 0 16
+1 3 16
+-2 0 -16
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O1 IN O1 1_555 1_555 2_555 180.0 no
+O1 IN O1 1_555 1_555 10_555 79.59(10) no
+O1 IN O1 1_555 1_555 9_445 100.41(10) no
+O1 IN O1 1_555 1_555 10_455 79.59(10) no
+O1 IN O1 1_555 1_555 9_545 100.41(10) no
+O1 IN O1 2_555 1_555 10_555 100.41(10) no
+O1 IN O1 2_555 1_555 9_445 79.59(10) no
+O1 IN O1 2_555 1_555 10_455 100.41(10) no
+O1 IN O1 2_555 1_555 9_545 79.59(10) no
+O1 IN O1 10_555 1_555 9_445 180.0 no
+O1 IN O1 10_555 1_555 10_455 99.30(10) no
+O1 IN O1 10_555 1_555 9_545 80.70(10) no
+O1 IN O1 9_445 1_555 10_455 80.70(10) no
+O1 IN O1 9_445 1_555 9_545 99.30(10) no
+O1 IN O1 10_455 1_555 9_545 180.0 no
+O1 FE O1 1_555 1_555 3_555 178.9(2) no
+O1 FE O2 1_555 1_555 9_445 90.25(5) no
+O1 FE O2 1_555 1_555 1_545 89.50(10) no
+O1 FE O2 1_555 1_555 9_545 90.25(5) no
+O1 FE O3 1_555 1_555 1_555 90.50(10) no
+O1 FE O3 1_555 1_555 9_445 89.74(5) no
+O1 FE O3 1_555 1_555 9_545 89.74(5) no
+O1 FE O2 3_555 1_555 9_445 90.25(5) no
+O1 FE O2 3_555 1_555 1_545 89.50(10) no
+O1 FE O2 3_555 1_555 9_545 90.25(5) no
+O1 FE O3 3_555 1_555 1_555 90.50(10) no
+O1 FE O3 3_555 1_555 9_445 89.74(5) no
+O1 FE O3 3_555 1_555 9_545 89.74(5) no
+O2 FE O2 9_445 1_555 1_545 118.2(10) no
+O2 FE O2 9_445 1_555 9_545 123.0(10) no
+O2 FE O3 9_445 1_555 1_555 61.8(10) no
+O2 FE O3 9_445 1_555 9_445 57.4(5) no
+O2 FE O3 9_445 1_555 9_545 179(2) no
+O2 FE O2 1_545 1_555 9_545 118.2(10) no
+O2 FE O3 1_545 1_555 1_555 180.0 no
+O2 FE O3 1_545 1_555 9_445 60.0(10) no
+O2 FE O3 1_545 1_555 9_545 60.0(10) no
+O2 FE O3 9_545 1_555 1_555 61.8(10) no
+O2 FE O3 9_545 1_555 9_445 179(2) no
+O2 FE O3 9_545 1_555 9_545 57.4(5) no
+O3 FE O3 1_555 1_555 9_445 119.0(10) no
+O3 FE O3 1_555 1_555 9_545 119.0(10) no
+O3 FE O3 9_445 1_555 9_545 121(2) no
+O1 TI O1 1_555 1_555 3_555 178.9(4) no
+O1 TI O2 1_555 1_555 9_445 90.30(10) no
+O1 TI O2 1_555 1_555 1_545 89.5(2) no
+O1 TI O2 1_555 1_555 9_545 90.30(10) no
+O1 TI O3 1_555 1_555 1_555 90.5(2) no
+O1 TI O3 1_555 1_555 9_445 89.70(10) no
+O1 TI O3 1_555 1_555 9_545 89.70(10) no
+O1 TI O2 3_555 1_555 9_445 90.30(10) no
+O1 TI O2 3_555 1_555 1_545 89.5(2) no
+O1 TI O2 3_555 1_555 9_545 90.30(10) no
+O1 TI O3 3_555 1_555 1_555 90.5(2) no
+O1 TI O3 3_555 1_555 9_445 89.70(10) no
+O1 TI O3 3_555 1_555 9_545 89.70(10) no
+O2 TI O2 9_445 1_555 1_545 118.2(8) no
+O2 TI O2 9_445 1_555 9_545 123.0(10) no
+O2 TI O3 9_445 1_555 1_555 61.8(8) no
+O2 TI O3 9_445 1_555 9_445 57.4(5) no
+O2 TI O3 9_445 1_555 9_545 179.0(10) no
+O2 TI O2 1_545 1_555 9_545 118.2(8) no
+O2 TI O3 1_545 1_555 1_555 180.0 no
+O2 TI O3 1_545 1_555 9_445 60.0(10) no
+O2 TI O3 1_545 1_555 9_545 60.0(10) no
+O2 TI O3 9_545 1_555 1_555 61.8(8) no
+O2 TI O3 9_545 1_555 9_445 179.0(10) no
+O2 TI O3 9_545 1_555 9_545 57.4(5) no
+O3 TI O3 1_555 1_555 9_445 119.0(10) no
+O3 TI O3 1_555 1_555 9_545 119.0(10) no
+O3 TI O3 9_445 1_555 9_545 121(2) no
+IN O1 IN 1_555 1_555 9_555 100.41(10) no
+IN O1 IN 1_555 1_555 9_455 100.41(10) no
+IN O1 FE 1_555 1_555 1_555 118.5(2) no
+IN O1 IN 9_555 1_555 9_455 99.30(10) no
+IN O1 FE 9_555 1_555 1_555 117.40(10) no
+IN O1 FE 9_455 1_555 1_555 117.40(10) no
+FE O2 FE 9_555 1_555 9_455 123.0(10) no
+FE O2 FE 9_555 1_555 1_565 118.2(10) no
+FE O2 O3 9_555 1_555 1_555 61.8(10) no
+FE O2 O3 9_555 1_555 9_555 61.0(10) no
+FE O2 O3 9_555 1_555 9_455 175.0(10) no
+FE O2 FE 9_455 1_555 1_565 118.2(10) no
+FE O2 O3 9_455 1_555 1_555 61.8(10) no
+FE O2 O3 9_455 1_555 9_555 175.0(10) no
+FE O2 O3 9_455 1_555 9_455 61.0(10) no
+FE O2 O3 1_565 1_555 1_555 180.0 no
+FE O2 O3 1_565 1_555 9_555 57.1(5) no
+FE O2 O3 1_565 1_555 9_455 57.1(5) no
+O3 O2 O3 1_555 1_555 9_555 122.9(5) no
+O3 O2 O3 1_555 1_555 9_455 122.9(5) no
+O3 O2 O3 9_555 1_555 9_455 114.2(10) no
+FE O3 FE 1_555 1_555 9_555 119.0(10) no
+FE O3 FE 1_555 1_555 9_455 119.0(10) no
+FE O3 O2 1_555 1_555 1_555 180.0 no
+FE O3 O2 1_555 1_555 9_445 57.1(5) no
+FE O3 O2 1_555 1_555 9_545 57.1(5) no
+FE O3 FE 9_555 1_555 9_455 121(2) no
+FE O3 O2 9_555 1_555 1_555 60.0(10) no
+FE O3 O2 9_555 1_555 9_445 176.0(10) no
+FE O3 O2 9_555 1_555 9_545 62.0(10) no
+FE O3 O2 9_455 1_555 1_555 60.0(10) no
+FE O3 O2 9_455 1_555 9_445 62.0(10) no
+FE O3 O2 9_455 1_555 9_545 176.0(10) no
+O2 O3 O2 1_555 1_555 9_445 122.9(5) no
+O2 O3 O2 1_555 1_555 9_545 122.9(5) no
+O2 O3 O2 9_445 1_555 9_545 114.2(10) no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+In O1 1_555 1_555 2.180(4) yes
+In O1 1_555 2_555 2.180(4) yes
+In O1 1_555 10_555 2.198(2) yes
+In O1 1_555 9_445 2.198(2) yes
+In O1 1_555 10_455 2.198(2) yes
+In O1 1_555 9_545 2.198(2) yes
+Fe/Ti O1 1_555 1_555 1.996(3) yes
+Fe/Ti O1 1_555 3_555 1.996(3) yes
+Fe/Ti O2 1_555 9_445 1.90(2) yes
+Fe/Ti O2 1_555 1_545 2.02(4) yes
+Fe/Ti O2 1_555 9_545 1.90(2) yes
+Fe/Ti O3 1_555 1_555 1.98(5) yes
+Fe/Ti O3 1_555 9_445 1.92(2) yes
+Fe/Ti O3 1_555 9_545 1.92(2) yes
+O2 O3 1_555 1_555 1.83(2) yes
+O2 O3 1_555 9_555 1.990(10) yes
+O2 O3 1_555 9_455 1.990(10) yes

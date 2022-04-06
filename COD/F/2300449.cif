@@ -1,0 +1,375 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-21 11:56:54 +0200 (Sun, 21 Feb 2016) $
+#$Revision: 176809 $
+#$URL: svn://www.crystallography.net/cod/cif/2/30/04/2300449.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2300449
+loop_
+_publ_author_name
+'Schreyer, Martin'
+'Guo, Liangfeng'
+'Thirunahari, Satyanarayana'
+'Gao, Feng'
+'Garland, Marc'
+_publ_section_title
+;
+ Simultaneous determination of several crystal structures from powder
+ mixtures: the combination of powder X-ray diffraction, band-target
+ entropy minimization and Rietveld methods
+;
+_journal_coeditor_code           to5064
+_journal_issue                   2
+_journal_name_full               'Journal of Applied Crystallography'
+_journal_page_first              659
+_journal_page_last               667
+_journal_paper_doi               10.1107/S1600576714003379
+_journal_volume                  47
+_journal_year                    2014
+_chemical_formula_analytical     'Ca F2'
+_chemical_formula_iupac          'Ca F2'
+_chemical_formula_moiety         '2(F), Ca'
+_chemical_formula_structural     'Ca F2'
+_chemical_formula_sum            'Ca F2'
+_chemical_formula_weight         78.08
+_chemical_name_mineral           fluorite
+_chemical_name_systematic        'calcium fluoride'
+_space_group_crystal_system      cubic
+_space_group_IT_number           225
+_space_group_name_Hall           '-F 4 2 3'
+_space_group_name_H-M_alt        'F m -3 m'
+_symmetry_space_group_name_Hall  '-F 4 2 3'
+_symmetry_space_group_name_H-M   'F m -3 m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   5.463209(47)
+_cell_length_b                   5.463209(47)
+_cell_length_c                   5.463209(47)
+_cell_measurement_temperature    298
+_cell_volume                     163.059(2)
+_computing_cell_refinement       'Topas v4.2 (Bruker AXS GmbH, 2009)'
+_computing_data_collection       unknown
+_computing_data_reduction        'Topas v4.2 (Bruker AXS GmbH, 2009)'
+_computing_molecular_graphics    'Diamond 3.1f'
+_computing_publication_material  CSD
+_computing_structure_refinement  'Topas v4.2 (Bruker AXS GmbH, 2009)'
+_computing_structure_solution    'Topas v4.2 (Bruker AXS GmbH, 2009)'
+_diffrn_ambient_temperature      298
+_diffrn_detector                 'Proportional Counter'
+_diffrn_detector_type            'gas filled point detector'
+_diffrn_measurement_device_type  'Philips 3020'
+_diffrn_radiation_monochromator  'Graphite Monochromator'
+_diffrn_radiation_type           'Cu K\a'
+_diffrn_radiation_wavelength     1.54180
+_diffrn_source                   'sealed X-ray tube'
+_diffrn_source_target            Cu
+_exptl_absorpt_coefficient_mu    30.163
+_exptl_crystal_density_diffrn    3.181
+_exptl_crystal_F_000             152
+_pd_char_colour                  colourless
+_pd_meas_2theta_range_inc        0.02
+_pd_meas_2theta_range_max        150
+_pd_meas_2theta_range_min        5
+_pd_meas_number_of_points        7250
+_pd_meas_scan_method             step
+_pd_proc_2theta_range_inc        0.02
+_pd_proc_2theta_range_max        150
+_pd_proc_2theta_range_min        5
+_pd_proc_ls_background_function  'Chebychev of order 3, plus 1/x'
+_pd_proc_ls_pref_orient_corr     none
+_pd_proc_ls_profile_function     'fundamental parameter'
+_pd_proc_ls_prof_R_factor        0.127
+_pd_proc_ls_prof_wR_expected     0.387
+_pd_proc_ls_prof_wR_factor       0.256
+_pd_proc_wavelength              1.541802
+_refine_ls_goodness_of_fit_all   0.66
+_refine_ls_hydrogen_treatment    noref
+_refine_ls_matrix_type           fullcycle
+_refine_ls_number_constraints    0
+_refine_ls_number_parameters     12
+_refine_ls_number_restraints     0
+_refine_ls_R_I_factor            0.015
+_refine_ls_shift/su_max          .01
+_refine_ls_structure_factor_coef Inet
+_refine_ls_weighting_details     1/[Y~i~+\s(Y~i~)]
+_refine_ls_weighting_scheme      sigma
+_cod_data_source_file            to5064sup1.cif
+_cod_data_source_block           CaF2_BTEM
+_cod_original_cell_volume        163.0585(43)
+_cod_database_code               2300449
+_cod_database_fobs_code          2300449
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -x,-y,z
+3 -x,y,-z
+4 x,-y,-z
+5 z,x,y
+6 z,-x,-y
+7 -z,-x,y
+8 -z,x,-y
+9 y,z,x
+10 -y,z,-x
+11 y,-z,-x
+12 -y,-z,x
+13 y,x,-z
+14 -y,-x,-z
+15 y,-x,z
+16 -y,x,z
+17 x,z,-y
+18 -x,z,y
+19 -x,-z,-y
+20 x,-z,y
+21 z,y,-x
+22 z,-y,x
+23 -z,y,x
+24 -z,-y,-x
+25 -x,-y,-z
+26 x,y,-z
+27 x,-y,z
+28 -x,y,z
+29 -z,-x,-y
+30 -z,x,y
+31 z,x,-y
+32 z,-x,y
+33 -y,-z,-x
+34 y,-z,x
+35 -y,z,x
+36 y,z,-x
+37 -y,-x,z
+38 y,x,z
+39 -y,x,-z
+40 y,-x,-z
+41 -x,-z,y
+42 x,-z,-y
+43 x,z,y
+44 -x,z,-y
+45 -z,-y,x
+46 -z,y,-x
+47 z,-y,-x
+48 z,y,x
+49 x,y+1/2,z+1/2
+50 -x,-y+1/2,z+1/2
+51 -x,y+1/2,-z+1/2
+52 x,-y+1/2,-z+1/2
+53 z,x+1/2,y+1/2
+54 z,-x+1/2,-y+1/2
+55 -z,-x+1/2,y+1/2
+56 -z,x+1/2,-y+1/2
+57 y,z+1/2,x+1/2
+58 -y,z+1/2,-x+1/2
+59 y,-z+1/2,-x+1/2
+60 -y,-z+1/2,x+1/2
+61 y,x+1/2,-z+1/2
+62 -y,-x+1/2,-z+1/2
+63 y,-x+1/2,z+1/2
+64 -y,x+1/2,z+1/2
+65 x,z+1/2,-y+1/2
+66 -x,z+1/2,y+1/2
+67 -x,-z+1/2,-y+1/2
+68 x,-z+1/2,y+1/2
+69 z,y+1/2,-x+1/2
+70 z,-y+1/2,x+1/2
+71 -z,y+1/2,x+1/2
+72 -z,-y+1/2,-x+1/2
+73 -x,-y+1/2,-z+1/2
+74 x,y+1/2,-z+1/2
+75 x,-y+1/2,z+1/2
+76 -x,y+1/2,z+1/2
+77 -z,-x+1/2,-y+1/2
+78 -z,x+1/2,y+1/2
+79 z,x+1/2,-y+1/2
+80 z,-x+1/2,y+1/2
+81 -y,-z+1/2,-x+1/2
+82 y,-z+1/2,x+1/2
+83 -y,z+1/2,x+1/2
+84 y,z+1/2,-x+1/2
+85 -y,-x+1/2,z+1/2
+86 y,x+1/2,z+1/2
+87 -y,x+1/2,-z+1/2
+88 y,-x+1/2,-z+1/2
+89 -x,-z+1/2,y+1/2
+90 x,-z+1/2,-y+1/2
+91 x,z+1/2,y+1/2
+92 -x,z+1/2,-y+1/2
+93 -z,-y+1/2,x+1/2
+94 -z,y+1/2,-x+1/2
+95 z,-y+1/2,-x+1/2
+96 z,y+1/2,x+1/2
+97 x+1/2,y,z+1/2
+98 -x+1/2,-y,z+1/2
+99 -x+1/2,y,-z+1/2
+100 x+1/2,-y,-z+1/2
+101 z+1/2,x,y+1/2
+102 z+1/2,-x,-y+1/2
+103 -z+1/2,-x,y+1/2
+104 -z+1/2,x,-y+1/2
+105 y+1/2,z,x+1/2
+106 -y+1/2,z,-x+1/2
+107 y+1/2,-z,-x+1/2
+108 -y+1/2,-z,x+1/2
+109 y+1/2,x,-z+1/2
+110 -y+1/2,-x,-z+1/2
+111 y+1/2,-x,z+1/2
+112 -y+1/2,x,z+1/2
+113 x+1/2,z,-y+1/2
+114 -x+1/2,z,y+1/2
+115 -x+1/2,-z,-y+1/2
+116 x+1/2,-z,y+1/2
+117 z+1/2,y,-x+1/2
+118 z+1/2,-y,x+1/2
+119 -z+1/2,y,x+1/2
+120 -z+1/2,-y,-x+1/2
+121 -x+1/2,-y,-z+1/2
+122 x+1/2,y,-z+1/2
+123 x+1/2,-y,z+1/2
+124 -x+1/2,y,z+1/2
+125 -z+1/2,-x,-y+1/2
+126 -z+1/2,x,y+1/2
+127 z+1/2,x,-y+1/2
+128 z+1/2,-x,y+1/2
+129 -y+1/2,-z,-x+1/2
+130 y+1/2,-z,x+1/2
+131 -y+1/2,z,x+1/2
+132 y+1/2,z,-x+1/2
+133 -y+1/2,-x,z+1/2
+134 y+1/2,x,z+1/2
+135 -y+1/2,x,-z+1/2
+136 y+1/2,-x,-z+1/2
+137 -x+1/2,-z,y+1/2
+138 x+1/2,-z,-y+1/2
+139 x+1/2,z,y+1/2
+140 -x+1/2,z,-y+1/2
+141 -z+1/2,-y,x+1/2
+142 -z+1/2,y,-x+1/2
+143 z+1/2,-y,-x+1/2
+144 z+1/2,y,x+1/2
+145 x+1/2,y+1/2,z
+146 -x+1/2,-y+1/2,z
+147 -x+1/2,y+1/2,-z
+148 x+1/2,-y+1/2,-z
+149 z+1/2,x+1/2,y
+150 z+1/2,-x+1/2,-y
+151 -z+1/2,-x+1/2,y
+152 -z+1/2,x+1/2,-y
+153 y+1/2,z+1/2,x
+154 -y+1/2,z+1/2,-x
+155 y+1/2,-z+1/2,-x
+156 -y+1/2,-z+1/2,x
+157 y+1/2,x+1/2,-z
+158 -y+1/2,-x+1/2,-z
+159 y+1/2,-x+1/2,z
+160 -y+1/2,x+1/2,z
+161 x+1/2,z+1/2,-y
+162 -x+1/2,z+1/2,y
+163 -x+1/2,-z+1/2,-y
+164 x+1/2,-z+1/2,y
+165 z+1/2,y+1/2,-x
+166 z+1/2,-y+1/2,x
+167 -z+1/2,y+1/2,x
+168 -z+1/2,-y+1/2,-x
+169 -x+1/2,-y+1/2,-z
+170 x+1/2,y+1/2,-z
+171 x+1/2,-y+1/2,z
+172 -x+1/2,y+1/2,z
+173 -z+1/2,-x+1/2,-y
+174 -z+1/2,x+1/2,y
+175 z+1/2,x+1/2,-y
+176 z+1/2,-x+1/2,y
+177 -y+1/2,-z+1/2,-x
+178 y+1/2,-z+1/2,x
+179 -y+1/2,z+1/2,x
+180 y+1/2,z+1/2,-x
+181 -y+1/2,-x+1/2,z
+182 y+1/2,x+1/2,z
+183 -y+1/2,x+1/2,-z
+184 y+1/2,-x+1/2,-z
+185 -x+1/2,-z+1/2,y
+186 x+1/2,-z+1/2,-y
+187 x+1/2,z+1/2,y
+188 -x+1/2,z+1/2,-y
+189 -z+1/2,-y+1/2,x
+190 -z+1/2,y+1/2,-x
+191 z+1/2,-y+1/2,-x
+192 z+1/2,y+1/2,x
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+Ca1 Ca 4 0 0 0 1 0.00629(25)
+F1 F 8 0.25 0.25 0.25 1 0.00783(5)
+loop_
+_atom_type_symbol
+_atom_type_scat_source
+Ca 'D. Waasmaier & A. Kirfel. Acta Cryst. (1995). A51, 416-413'
+F 'D. Waasmaier & A. Kirfel. Acta Cryst. (1995). A51, 416-413'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+F1 Ca1 F1 . 49_544 109.47
+F1 Ca1 F1 . 97_454 109.47
+F1 Ca1 F1 . 145_445 109.47
+F1 Ca1 F1 . 13_555 70.53
+F1 Ca1 F1 . 61_545 70.53
+F1 Ca1 F1 . 109_455 70.53
+F1 Ca1 F1 . 157_445 180.0(5)
+F1 Ca1 F1 49_544 97_454 109.47
+F1 Ca1 F1 49_544 145_445 109.47
+F1 Ca1 F1 49_544 13_555 70.53
+F1 Ca1 F1 49_544 61_545 70.53
+F1 Ca1 F1 49_544 109_455 180.0(5)
+F1 Ca1 F1 49_544 157_445 70.53
+F1 Ca1 F1 97_454 145_445 109.47
+F1 Ca1 F1 97_454 13_555 70.53
+F1 Ca1 F1 97_454 61_545 180.0(5)
+F1 Ca1 F1 97_454 109_455 70.53
+F1 Ca1 F1 97_454 157_445 70.53
+F1 Ca1 F1 145_445 13_555 180.0(5)
+F1 Ca1 F1 145_445 61_545 70.53
+F1 Ca1 F1 145_445 109_455 70.53
+F1 Ca1 F1 145_445 157_445 70.53
+F1 Ca1 F1 13_555 61_545 109.47
+F1 Ca1 F1 13_555 109_455 109.47
+F1 Ca1 F1 13_555 157_445 109.47
+F1 Ca1 F1 61_545 109_455 109.47
+F1 Ca1 F1 61_545 157_445 109.47
+F1 Ca1 F1 109_455 157_445 109.47
+Ca1 F1 Ca1 . 49_555 109.47
+Ca1 F1 Ca1 . 97_555 109.47
+Ca1 F1 Ca1 . 145_555 109.47
+Ca1 F1 Ca1 49_555 97_555 109.47
+Ca1 F1 Ca1 49_555 145_555 109.47
+Ca1 F1 Ca1 97_555 145_555 109.47
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+Ca1 F1 . 2.3656
+Ca1 F1 49_544 2.3656
+Ca1 F1 97_454 2.3656
+Ca1 F1 145_445 2.3656
+Ca1 F1 13_555 2.3656
+Ca1 F1 61_545 2.3656
+Ca1 F1 109_455 2.3656
+Ca1 F1 157_445 2.3656

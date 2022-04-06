@@ -1,0 +1,102 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/24/2002449.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_2002449
+loop_
+_publ_author_name
+'Lalla, A'
+'Mueller-Buschbaum, Hk'
+_publ_section_title
+;
+Zur Atomverteilung in Ba2 Sr In2 O6 mit einem Beitrag zur Existenz des
+Calciumferrat(III)-Typs bei Oxoindaten
+;
+_journal_name_full
+;
+Zeitschrift fuer Anorganische und Allgemeine Chemie
+;
+_journal_page_first              117
+_journal_page_last               122
+_journal_paper_doi               10.1002/zaac.19905880115
+_journal_volume                  588
+_journal_year                    1990
+_chemical_formula_structural     'Sr0.93 Ba0.07 In2 O4'
+_chemical_formula_sum            'Ba0.07 In2 O4 Sr0.93'
+_chemical_name_systematic        'Strontium barium indium oxide (0.9/.1/2/4)'
+_space_group_IT_number           62
+_symmetry_cell_setting           orthorhombic
+_symmetry_Int_Tables_number      62
+_symmetry_space_group_name_Hall  '-P 2ac 2n'
+_symmetry_space_group_name_H-M   'P n m a'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   9.858(3)
+_cell_length_b                   3.273(1)
+_cell_length_c                   11.520(4)
+_cell_volume                     371.7
+_refine_ls_R_factor_all          0.04
+_cod_original_formula_sum        'Ba.07 In2 O4 Sr.93'
+_cod_database_code               2002449
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+1/2+x,1/2-y,1/2-z
+-x,1/2+y,-z
+1/2-x,-y,1/2+z
+-x,-y,-z
+1/2-x,1/2+y,1/2+z
+x,1/2-y,z
+1/2+x,y,1/2-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_B_11
+_atom_site_aniso_B_12
+_atom_site_aniso_B_13
+_atom_site_aniso_B_22
+_atom_site_aniso_B_23
+_atom_site_aniso_B_33
+Sr1 0.55(8) 0. .00(8) 0.40(8) 0. 0.40(8)
+Ba1 0.55(8) 0. .00(8) 0.40(8) 0. 0.40(8)
+In1 0.55(8) 0. 0.08(8) 0.32(8) 0. 0.24(8)
+In2 0.55(8) 0. 0.08(8) 0.32(8) 0. 0.24(8)
+O1 0.71(32) 0. -0.08(32) 1.11(40) 0. 0.4(4)
+O2 0.87(32) 0. -0.08(32) 0.08(32) 0. 0.24(40)
+O3 0.95(40) 0. 0.24(32) 1.03(48) 0. 0.16(32)
+O4 0.87(40) 0. -0.24(32) 0.71(40) 0. 0.16(32)
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_calc_flag
+Sr1 Sr2+ 4 c 0.7556(2) 0.25 0.6524(1) 0.93 0 d
+Ba1 Ba2+ 4 c 0.7556(2) 0.25 0.6524(1) 0.07 0 d
+In1 In3+ 4 c 0.4193(1) 0.25 0.1064(1) 1. 0 d
+In2 In3+ 4 c 0.4301(1) 0.25 0.6110(1) 1. 0 d
+O1 O2- 4 c 0.207(1) 0.25 0.164(1) 1. 0 d
+O2 O2- 4 c 0.119(1) 0.25 0.479(1) 1. 0 d
+O3 O2- 4 c 0.523(1) 0.25 0.781(1) 1. 0 d
+O4 O2- 4 c 0.421(1) 0.25 0.427(1) 1. 0 d
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Sr2+ 2.000
+Ba2+ 2.000
+In3+ 3.000
+O2- -2.000

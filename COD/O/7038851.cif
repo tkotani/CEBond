@@ -1,0 +1,221 @@
+#------------------------------------------------------------------------------
+#$Date: 2018-01-23 14:43:58 +0200 (Tue, 23 Jan 2018) $
+#$Revision: 205493 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/7/03/88/7038851.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7038851
+loop_
+_publ_author_name
+'Yufei Xia'
+'Jian Chen'
+'Yan-gai Liu'
+'Maxim S. Molokeev'
+'Ming Guan'
+'Zhaohui Huang'
+'Minghao Fang'
+_publ_section_title
+;
+ Crystal structure evolution and luminescence properties of color tunable
+ solid solution phosphors Ca2+xLa8-x(SiO4)6-x(PO4)xO2:Eu2+
+;
+_journal_issue                   3
+_journal_name_full               'Dalton Transactions'
+_journal_page_first              1007
+_journal_page_last               1015
+_journal_paper_doi               10.1039/C5DT03786G
+_journal_volume                  45
+_journal_year                    2016
+_chemical_formula_moiety         'La7.13 O26 Si6, 2.868(Ca)'
+_chemical_formula_sum            'Ca2.87 La7.13 O26 Si6'
+_chemical_formula_weight         1690.20
+_space_group_IT_number           176
+_symmetry_cell_setting           hexagonal
+_symmetry_space_group_name_Hall  '-P 6c'
+_symmetry_space_group_name_H-M   'P 63/m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            1
+_cell_length_a                   9.65586(14)
+_cell_length_b                   9.65586(14)
+_cell_length_c                   7.15289(12)
+_cell_measurement_temperature    300
+_cell_volume                     577.556(15)
+_diffrn_ambient_temperature      300
+_diffrn_measurement_device_type
+;
+D8 ADVANCE Bruker
+;
+_diffrn_radiation_monochromator  none
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_type
+;
+ Cu K\a~1~~2~
+;
+_exptl_absorpt_coefficient_mu    108.624
+_exptl_crystal_density_diffrn    4.859293
+_pd_char_colour
+;
+colourless
+;
+_pd_meas_2theta_range_inc        0.02
+_pd_meas_2theta_range_max        110
+_pd_meas_2theta_range_min        9
+_pd_meas_scan_method             step
+_pd_proc_ls_pref_orient_corr
+;
+Anisotropic model of PO. Spherical harmonics 6 ordrer.
+ Jarvinen (1993). Application of symmetrized harmonics expansion to correction
+of the preferred orientation effect. - J. Appl. Cryst. 26 p525-531.
+;
+_pd_proc_ls_profile_function     PearsonVII
+_pd_proc_ls_prof_R_factor        7.337
+_pd_proc_ls_prof_wR_expected     1.311
+_pd_proc_ls_prof_wR_factor       10.038
+_pd_proc_number_of_points        5050
+_pd_spec_mount_mode              reflection
+_refine_ls_goodness_of_fit_all   7.655
+_refine_ls_R_I_factor            2.27
+_refine_ls_shift/su_max          0.01000
+_cod_data_source_file            Ca2La8SiO46O2_Eu.cif
+_cod_data_source_block           a
+_cod_original_cell_volume        577.556(20)
+_cod_original_sg_symbol_Hall
+;
+-P 6c
+;
+_cod_original_sg_symbol_H-M      P63/m
+_cod_original_formula_sum
+;
+Ca2.87 La7.13 O26 Si6
+;
+_cod_database_code               7038851
+_cod_database_fobs_code          7038851
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, -y, -z'
+'-x, -y, z+1/2'
+'-x+y, -x, -z+1/2'
+'-x+y, -x, z'
+'-y, x-y, -z+1/2'
+'-y, x-y, z'
+'y, -x+y, -z'
+'y, -x+y, z+1/2'
+'x-y, x, -z'
+'x-y, x, z+1/2'
+'x, y, -z+1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_B_iso_or_equiv
+La1 La 0.23162(20) -0.01407(26) 0.25 0.876(16) 0.295(53)
+Ca1 Ca 0.23162(20) -0.01407(26) 0.25 0.124(16) 0.295(53)
+La2 La 0.6666667 0.3333333 0.00163(76) 0.469(13) 0.385(95)
+Ca2 Ca 0.6666667 0.3333333 0.00163(76) 0.531(13) 0.385(95)
+Si Si 0.40516(87) 0.37362(94) 0.25 1 0.58(20)
+O1 O 0.5990(21) 0.4708(20) 0.25 1 1.02(23)
+O2 O 0.3314(20) 0.4918(19) 0.25 1 1.02(23)
+O3 O 0.3476(13) 0.2581(12) 0.0678(14) 1 1.02(23)
+O4 O 0 0 0.25 1 1.02(23)
+loop_
+_diffrn_radiation_wavelength
+_diffrn_radiation_wavelength_wt
+1.5406 1.0000
+1.5443 0.5000
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+O1 La1 O2 101(50) 6_655 4_555
+O1 La1 O3 69.59(53) 6_655 1_555
+O1 La1 O3 84.28(23) 6_655 8_555
+O1 La1 O4 148.5(12) 6_655 1_555
+O2 La1 O3 147.9(18) 4_555 1_555
+O2 La1 O3 71.13(45) 4_555 8_555
+O2 La1 O4 110.57(41) 4_555 1_555
+O3 La1 O3 77.33(38) 1_555 8_555
+O3 La1 O3 134.78(92) 1_555 9_555
+O3 La1 O3 59.41(61) 1_555 12_555
+O3 La1 O4 83.23(17) 1_555 1_555
+O3 La1 O3 137.48(100) 8_555 9_555
+O3 La1 O4 105.48(23) 8_555 1_555
+O1 Ca1 O2 101(50) 6_655 4_555
+O1 Ca1 O3 69.59(53) 6_655 1_555
+O1 Ca1 O3 84.28(23) 6_655 8_555
+O1 Ca1 O4 148.5(12) 6_655 1_555
+O2 Ca1 O3 147.9(18) 4_555 1_555
+O2 Ca1 O3 71.13(45) 4_555 8_555
+O2 Ca1 O4 110.57(41) 4_555 1_555
+O3 Ca1 O3 77.33(38) 1_555 8_555
+O3 Ca1 O3 134.78(92) 1_555 9_555
+O3 Ca1 O3 59.41(61) 1_555 12_555
+O3 Ca1 O4 83.23(17) 1_555 1_555
+O3 Ca1 O3 137.48(100) 8_555 9_555
+O3 Ca1 O4 105.48(23) 8_555 1_555
+O1 La2 O1 74.81(41) 1_555 4_665
+O1 La2 O2 94.01(33) 1_555 2_665
+O1 La2 O2 127.51(77) 1_555 8_555
+O1 La2 O2 152.2(15) 1_555 10_655
+O1 La2 O3 58.38(59) 1_555 1_555
+O1 La2 O3 66.29(59) 1_555 5_665
+O1 La2 O3 124.66(71) 1_555 7_655
+O2 La2 O2 72.42(48) 2_665 8_555
+O2 La2 O3 86.12(32) 2_665 1_555
+O2 La2 O3 70.04(53) 2_665 5_665
+O2 La2 O3 140.9(11) 2_665 7_655
+O3 La2 O3 117.26(45) 1_555 5_665
+O1 Ca2 O1 74.81(41) 1_555 4_665
+O1 Ca2 O2 94.01(33) 1_555 2_665
+O1 Ca2 O2 127.51(77) 1_555 8_555
+O1 Ca2 O2 152.2(15) 1_555 10_655
+O1 Ca2 O3 58.38(59) 1_555 1_555
+O1 Ca2 O3 66.29(59) 1_555 5_665
+O1 Ca2 O3 124.66(71) 1_555 7_655
+O2 Ca2 O2 72.42(48) 2_665 8_555
+O2 Ca2 O3 86.12(32) 2_665 1_555
+O2 Ca2 O3 70.04(53) 2_665 5_665
+O2 Ca2 O3 140.9(11) 2_665 7_655
+O3 Ca2 O3 117.26(45) 1_555 5_665
+O1 Si O2 112.3(10) 1_555 1_555
+O1 Si O3 107.31(57) 1_555 1_555
+O2 Si O3 111.37(63) 1_555 1_555
+O3 Si O3 106.91(68) 1_555 12_555
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+La1 O1 2.489(17) 6_655
+La1 O2 2.785(16) 4_555
+La1 O3 2.630(10) .
+La1 O3 2.4392(99) 8_555
+La1 O4 2.3074(20) .
+Ca1 O1 2.489(17) 6_655
+Ca1 O2 2.785(16) 4_555
+Ca1 O3 2.630(10) .
+Ca1 O3 2.4392(99) 8_555
+Ca1 O4 2.3074(20) .
+La2 O1 2.492(12) .
+La2 O2 2.462(11) 2_665
+La2 O3 2.8294(98) .
+Ca2 O1 2.492(12) .
+Ca2 O2 2.462(11) 2_665
+Ca2 O3 2.8294(98) .
+Si O1 1.621(13) .
+Si O2 1.619(14) .
+Si O3 1.622(11) .

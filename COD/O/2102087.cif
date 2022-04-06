@@ -1,0 +1,194 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 02:53:41 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176768 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/20/2102087.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2102087
+loop_
+_publ_author_name
+'Zhurova, Elizabeth A.'
+'Ivanov, Yury'
+'Zavodnik, Valery'
+'Tsirelson, Vladimir'
+_publ_section_title
+;
+ Electron density and atomic displacements in KTaO~3~
+;
+_journal_issue                   4
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              594
+_journal_page_last               600
+_journal_paper_doi               10.1107/S0108768100003906
+_journal_volume                  56
+_journal_year                    2000
+_chemical_formula_sum            'K O3 Ta'
+_chemical_formula_weight         268.05
+_space_group_IT_number           221
+_symmetry_cell_setting           cubic
+_symmetry_space_group_name_Hall  '-P 4 2 3'
+_symmetry_space_group_name_H-M   'P m -3 m'
+_atom_type_scat_source
+; calculated in MOLDOS97 using atomic wave functions from Clementi & Roetti
+(1974) and McLean & McLean (1981)
+;
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                90.000
+_cell_formula_units_Z            1
+_cell_length_a                   3.9883(2)
+_cell_length_b                   3.9883(2)
+_cell_length_c                   3.9883(2)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    298
+_cell_measurement_theta_max      45
+_cell_measurement_theta_min      30
+_cell_volume                     63.440(6)
+_computing_data_reduction        'Zucker et al. (1983)'
+_computing_structure_refinement  'Protas, J.(1997)'
+_computing_structure_solution    'Zucker et al. (1983)'
+_diffrn_measurement_device       'Enraf Nonius CAD-4'
+_diffrn_measurement_method       omega/2theta
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     .71069
+_diffrn_reflns_av_R_equivalents  .0200
+_diffrn_reflns_limit_h_max       10
+_diffrn_reflns_limit_h_min       -10
+_diffrn_reflns_limit_k_max       7
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       5
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            2183
+_diffrn_reflns_theta_max         64.50
+_diffrn_standards_decay_%        0
+_diffrn_standards_interval_count 100
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    44.68
+_exptl_absorpt_correction_type   sphere
+_exptl_absorpt_process_details   'Zucker et al. (1983)'
+_exptl_crystal_colour            colorless
+_exptl_crystal_density_diffrn    7.016
+_exptl_crystal_description       sphere
+_exptl_crystal_size_max          .112
+_exptl_crystal_size_mid          .112
+_exptl_crystal_size_min          .112
+_exptl_crystal_size_rad          .0560(10)
+_refine_diff_density_max         .1
+_refine_diff_density_min         -.1
+_refine_ls_extinction_coef       .02085
+_refine_ls_extinction_method     'Becker-Coppens type 2'
+_refine_ls_goodness_of_fit_ref   1.050
+_refine_ls_hydrogen_treatment    none
+_refine_ls_number_parameters     28
+_refine_ls_number_reflns         148
+_refine_ls_R_factor_gt           .0043
+_refine_ls_shift/su_max          .0000
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     w=1/(s**2+0.00002F**2)
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_ref         .0053
+_reflns_number_gt                148
+_reflns_number_total             148
+_reflns_threshold_expression     F>3\s(F)
+_cod_data_source_file            br0094.cif
+_cod_data_source_block           KTaO3
+_cod_original_cell_volume        63.440
+_cod_original_sg_symbol_H-M      Pm-3m
+_cod_database_code               2102087
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +X,+Y,+Z
+2 -X,-Y,+Z
+3 -X,+Y,-Z
+4 +X,-Y,-Z
+5 +Z,+X,+Y
+6 +Z,-X,-Y
+7 -Z,-X,+Y
+8 -Z,+X,-Y
+9 +Y,+Z,+X
+10 -Y,+Z,-X
+11 +Y,-Z,-X
+12 -Y,-Z,+X
+13 +Y,+X,-Z
+14 -Y,-X,-Z
+15 +Y,-X,+Z
+16 -Y,+X,+Z
+17 +X,+Z,-Y
+18 -X,+Z,+Y
+19 -X,-Z,-Y
+20 +X,-Z,+Y
+21 +Z,+Y,-X
+22 +Z,-Y,+X
+23 -Z,+Y,+X
+24 -Z,-Y,-X
+25 -X,-Y,-Z
+26 +X,+Y,-Z
+27 +X,-Y,+Z
+28 -X,+Y,+Z
+29 -Z,-X,-Y
+30 -Z,+X,+Y
+31 +Z,+X,-Y
+32 +Z,-X,+Y
+33 -Y,-Z,-X
+34 +Y,-Z,+X
+35 -Y,+Z,+X
+36 +Y,+Z,-X
+37 -Y,-X,+Z
+38 +Y,+X,+Z
+39 -Y,+X,-Z
+40 +Y,-X,-Z
+41 -X,-Z,+Y
+42 +X,-Z,-Y
+43 +X,+Z,+Y
+44 -X,+Z,-Y
+45 -Z,-Y,+X
+46 -Z,+Y,-X
+47 +Z,-Y,-X
+48 +Z,+Y,+X
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+K .5 .5 .5 .0082(2) Uiso 1.0
+O .5 .0 .0 .0073(8) Uani 1.0
+Ta .0 .0 .0 .00332(3) Uiso 1.0
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+O .0035(8) .0092(4) .0092(4) .0 .0 .0
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+Ta O Ta .0 yes
+O K O 90.0 yes
+K Ta K .0 yes
+K Ta O 54.7 yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_publ_flag
+K Ta 3.454 yes
+K O 2.820 yes
+Ta O 1.994 yes

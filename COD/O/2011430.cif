@@ -1,0 +1,289 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 00:18:51 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176760 $
+#$URL: svn://www.crystallography.net/cod/cif/2/01/14/2011430.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2011430
+loop_
+_publ_author_name
+'Yamane, Hisanori'
+'Takahashi, Hiroki'
+'Kajiwara, Takashi'
+'Shimada, Masahiko'
+_publ_section_title
+;
+ Na~3~Ca~2~TaO~6~, a rock-salt superstructure phase with a fully
+ ordered cation arrangement
+;
+_journal_issue                   10
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              1177
+_journal_page_last               1178
+_journal_paper_doi               10.1107/S0108270100009306
+_journal_volume                  56
+_journal_year                    2000
+_chemical_formula_iupac          'Na3 Ca2 Ta O6'
+_chemical_formula_structural     'Na3 Ca2 Ta O6'
+_chemical_formula_sum            'Ca2 Na3 O6 Ta'
+_chemical_formula_weight         426.08
+_chemical_name_common            'sodium calcium tantalate'
+_chemical_name_systematic
+;
+trisodium dicalcium tantalum hexoxide
+;
+_space_group_IT_number           70
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-F 2uv 2vw'
+_symmetry_space_group_name_H-M   'F d d d :2'
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            8
+_cell_length_a                   6.5948(17)
+_cell_length_b                   9.493(3)
+_cell_length_c                   19.640(5)
+_cell_measurement_reflns_used    1501
+_cell_measurement_temperature    298(2)
+_cell_volume                     1229.6(6)
+_computing_cell_refinement       'SMART and SAINT'
+_computing_data_collection       'SMART and SAINT (Bruker, 1997)'
+_computing_data_reduction        'EXPREP (Bruker, 1997)'
+_computing_molecular_graphics    'ATOMS (Dowty, 1999)'
+_computing_structure_refinement  'SHELXL97 (Sheldrick, 1997)'
+_computing_structure_solution    'SIR92 (Altomare et al., 1994)'
+_diffrn_ambient_temperature      298(2)
+_diffrn_measured_fraction_theta_full 1.000
+_diffrn_measured_fraction_theta_max 1.000
+_diffrn_measurement_device_type  'CCD area-detector'
+_diffrn_measurement_method       '\f and \w'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     .71073
+_diffrn_reflns_av_R_equivalents  .024
+_diffrn_reflns_av_sigmaI/netI    .0213
+_diffrn_reflns_limit_h_max       8
+_diffrn_reflns_limit_h_min       -8
+_diffrn_reflns_limit_k_max       6
+_diffrn_reflns_limit_k_min       -12
+_diffrn_reflns_limit_l_max       25
+_diffrn_reflns_limit_l_min       -24
+_diffrn_reflns_number            1891
+_diffrn_reflns_theta_full        27.46
+_diffrn_reflns_theta_max         27.46
+_diffrn_reflns_theta_min         3.90
+_diffrn_standards_decay_%        .0
+_exptl_absorpt_coefficient_mu    19.730
+_exptl_absorpt_correction_T_max  .295
+_exptl_absorpt_correction_T_min  .197
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details   '(SADABS; Sheldrick, 1996)'
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    4.604
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       granule
+_exptl_crystal_F_000             1552
+_exptl_crystal_size_max          .10
+_exptl_crystal_size_mid          .09
+_exptl_crystal_size_min          .05
+_refine_diff_density_max         .932
+_refine_diff_density_min         -1.514
+_refine_ls_extinction_coef       2E-5(3)
+_refine_ls_extinction_method     SHELXL97
+_refine_ls_goodness_of_fit_ref   1.130
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     32
+_refine_ls_number_reflns         361
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.130
+_refine_ls_R_factor_all          .024
+_refine_ls_R_factor_gt           .015
+_refine_ls_shift/su_max          <0.001
+_refine_ls_shift/su_mean         .000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w = 1/[\s^2^(Fo^2^)+(0.0195P)^2^] where P = (Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_ref         .035
+_reflns_number_gt                305
+_reflns_number_total             361
+_reflns_threshold_expression     I>2\s(I)
+_cod_data_source_file            oa1102.cif
+_cod_data_source_block           I
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_symmetry_cell_setting' value 'Orthorhombic' changed to 'orthorhombic'
+according to '/home/saulius/struct/CIF-dictionaries/cif_core.dic'
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Orthorhombic' changed to
+'orthorhombic' according to
+/home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_original_cell_volume        1229.5(6)
+_cod_original_sg_symbol_H-M      'F d d d'
+_cod_database_code               2011430
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x+3/4, -y+3/4, z'
+'-x+3/4, y, -z+3/4'
+'x, -y+3/4, -z+3/4'
+'x, y+1/2, z+1/2'
+'-x+3/4, -y+5/4, z+1/2'
+'-x+3/4, y+1/2, -z+5/4'
+'x, -y+5/4, -z+5/4'
+'x+1/2, y, z+1/2'
+'-x+5/4, -y+3/4, z+1/2'
+'-x+5/4, y, -z+5/4'
+'x+1/2, -y+3/4, -z+5/4'
+'x+1/2, y+1/2, z'
+'-x+5/4, -y+5/4, z'
+'-x+5/4, y+1/2, -z+3/4'
+'x+1/2, -y+5/4, -z+3/4'
+'-x, -y, -z'
+'x-3/4, y-3/4, -z'
+'x-3/4, -y, z-3/4'
+'-x, y-3/4, z-3/4'
+'-x, -y+1/2, -z+1/2'
+'x-3/4, y-1/4, -z+1/2'
+'x-3/4, -y+1/2, z-1/4'
+'-x, y-1/4, z-1/4'
+'-x+1/2, -y, -z+1/2'
+'x-1/4, y-3/4, -z+1/2'
+'x-1/4, -y, z-1/4'
+'-x+1/2, y-3/4, z-1/4'
+'-x+1/2, -y+1/2, -z'
+'x-1/4, y-1/4, -z'
+'x-1/4, -y+1/2, z-3/4'
+'-x+1/2, y-1/4, z-3/4'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+_atom_site_type_symbol
+Na1 .1250 .1250 .46177(10) .0110(4) Uani d S 1 . . Na
+Na2 .1250 .1250 .6250 .0138(6) Uani d S 1 . . Na
+Ca .1250 .1250 .29439(5) .0088(2) Uani d S 1 . . Ca
+Ta .1250 .1250 .1250 .00649(12) Uani d S 1 . . Ta
+O1 .3407(4) .1287(3) .05153(14) .0094(5) Uani d . 1 . . O
+O2 .1250 .3369(4) .1250 .0102(7) Uani d S 1 . . O
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Na1 .0123(11) .0091(10) .0117(10) -.003(3) .000 .000
+Na2 .0108(14) .0202(17) .0106(14) .000 .000 .000
+Ca .0105(5) .0070(5) .0088(5) .0028(13) .000 .000
+Ta .00736(17) .00529(17) .00683(17) .000 .000 .000
+O1 .0100(12) .0079(14) .0105(12) .0007(13) .0005(10) -.0009(11)
+O2 .0112(17) .0086(17) .0108(17) .000 .0003(16) .000
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+O O .0106 .0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Na Na .0362 .0249 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ca Ca .2262 .3064 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ta Ta -.7052 6.5227 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O2 Na1 O2 21 22_655 89.45(8) yes
+O2 Na1 O1 21 25 97.86(12) yes
+O2 Na1 O1 22_655 25 73.18(13) yes
+O1 Na1 O1 25 26_565 167.67(16) yes
+O2 Na1 O1 21 6_545 171.67(11) yes
+O2 Na1 O1 22_655 6_545 89.08(6) yes
+O1 Na1 O1 25 6_545 89.57(10) yes
+O1 Na1 O1 26_565 6_545 98.90(9) yes
+O1 Na1 O1 6_545 9_455 93.53(14) yes
+O1 Na2 O1 3 9_455 178.30(15) yes
+O1 Na2 O1 3 16_445 104.84(14) yes
+O1 Na2 O1 9_455 16_445 75.19(14) yes
+O1 Na2 O2 3 10_455 89.15(7) yes
+O1 Na2 O2 16_445 10_455 90.85(7) yes
+O2 Na2 O2 10_455 5_545 180.0 yes
+O2 Ca O2 22_655 21 93.66(5) yes
+O2 Ca O1 22_655 31_556 100.53(12) yes
+O2 Ca O1 21 31_556 74.67(13) yes
+O1 Ca O1 31_556 32_556 173.16(14) yes
+O2 Ca O1 22_655 11_454 167.83(10) yes
+O2 Ca O1 21 11_454 96.56(7) yes
+O1 Ca O1 31_556 11_454 88.56(10) yes
+O1 Ca O1 32_556 11_454 96.90(11) yes
+O1 Ca O1 11_454 8_544 74.14(14) yes
+O2 Ta O2 14_445 . 180.0 yes
+O2 Ta O1 14_445 14_445 89.01(9) yes
+O2 Ta O1 . 14_445 90.99(9) yes
+O1 Ta O1 14_445 8_544 178.01(17) yes
+O1 Ta O1 14_445 11_454 90.82(15) yes
+O1 Ta O1 8_544 11_454 89.21(15) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Na1 O2 21 2.3986(16) yes
+Na1 O2 22_655 2.3986(16) yes
+Na1 O1 25 2.433(3) yes
+Na1 O1 26_565 2.433(3) yes
+Na1 O1 6_545 2.573(3) yes
+Na1 O1 9_455 2.573(3) yes
+Na2 O1 3 2.366(3) yes
+Na2 O1 9_455 2.366(3) yes
+Na2 O1 16_445 2.366(3) yes
+Na2 O1 6_545 2.366(3) yes
+Na2 O2 10_455 2.735(4) yes
+Na2 O2 5_545 2.735(4) yes
+Ca O2 22_655 2.3142(10) yes
+Ca O2 21 2.3142(10) yes
+Ca O1 31_556 2.353(3) yes
+Ca O1 32_556 2.353(3) yes
+Ca O1 11_454 2.361(3) yes
+Ca O1 8_544 2.361(3) yes
+Ta O2 14_445 2.012(4) yes
+Ta O2 . 2.012(4) yes
+Ta O1 14_445 2.027(3) yes
+Ta O1 8_544 2.027(3) yes
+Ta O1 11_454 2.027(3) yes
+Ta O1 . 2.027(3) yes

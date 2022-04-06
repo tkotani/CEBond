@@ -1,0 +1,98 @@
+#------------------------------------------------------------------------------
+#$Date: 2015-01-27 21:58:39 +0200 (Tue, 27 Jan 2015) $
+#$Revision: 130149 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/22/2002295.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_2002295
+loop_
+_publ_author_name
+'de Beaulieu, D C'
+'Mueller-Buschbaum, Hk'
+_publ_section_title              'Synthese und Kristallstruktur von Ba V O2.5'
+_journal_name_full
+;
+Monatshefte fuer Chemie und verwandte Teile anderer Wissenschaften
+(109,1978-)
+;
+_journal_page_first              415
+_journal_page_last               420
+_journal_volume                  113
+_journal_year                    1982
+_chemical_formula_structural     'Ba V O2.5'
+_chemical_formula_sum            'Ba O2.5 V'
+_chemical_name_systematic        'Barium vanadium oxide (1/1/2.5)'
+_space_group_IT_number           156
+_symmetry_cell_setting           trigonal
+_symmetry_Int_Tables_number      156
+_symmetry_space_group_name_Hall  'P 3 -2"'
+_symmetry_space_group_name_H-M   'P 3 m 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            5
+_cell_length_a                   5.718
+_cell_length_b                   5.718
+_cell_length_c                   11.613
+_cell_volume                     328.8
+_refine_ls_R_factor_all          0.063
+_cod_database_code               2002295
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-y,x-y,z
+y-x,-x,z
+-y,-x,z
+x,x-y,z
+y-x,y,z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_22
+_atom_site_aniso_U_23
+_atom_site_aniso_U_33
+Ba1 0.0142(7) 0.0071 0. 0.0142(7) 0. 0.0206(13)
+Ba2 0.0213(13) 0.0107 0. 0.0213(13) 0. 0.0338(23)
+Ba3 0.0156(10) 0.0078 0. 0.0156(10) 0. 0.0685(43)
+Ba4 0.0049(10) 0.0025 0. 0.0049(10) 0. 0.0579(33)
+Ba5 0.0043(9) 0.0022 0. 0.0049(9) 0. 0.0466(31)
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_calc_flag
+Ba1 Ba2+ 1 a 0. 0. 0. 1. 0 d
+Ba2 Ba2+ 1 b 0.3333 0.6667 0.7848(7) 1. 0 d
+Ba3 Ba2+ 1 b 0.3333 0.6667 0.4085(10) 1. 0 d
+Ba4 Ba2+ 1 c 0.6667 0.3333 0.2191(7) 1. 0 d
+Ba5 Ba2+ 1 c 0.6667 0.3333 0.5864(8) 1. 0 d
+V1 V3+ 1 a 0. 0. 0.4949(12) 1. 0 d
+V2 V3+ 1 b 0.3333 0.6667 0.0862(8) 1. 0 d
+V3 V3+ 1 a 0. 0. 0.6938(12) 1. 0 d
+V4 V3+ 1 a 0. 0. 0.2753(9) 1. 0 d
+V5 V3+ 1 c 0.6667 0.3333 0.8726(10) 1. 0 d
+O1 O2- 3 d 0.5070(7) 0.0140(14) 0.0010(25) 0.833 0 d
+O2 O2- 3 d 0.1620(39) 0.3240(77) 0.1890(25) 0.833 0 d
+O3 O2- 3 d 0.1510(19) 0.3020(38) 0.5990(16) 0.833 0 d
+O4 O2- 3 d 0.8350(23) 0.6700(23) 0.7990(16) 0.833 0 d
+O5 O2- 3 d 0.8420(57) 0.6840(28) 0.3930(24) 0.833 0 d
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Ba2+ 2.000
+V3+ 3.000
+O2- -2.000

@@ -1,0 +1,127 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 02:53:41 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176768 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/28/2102839.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2102839
+loop_
+_publ_author_name
+'Wakita, Takahiro'
+'Yashima, Masatomo'
+_publ_section_title
+;
+ <i>In situ</i> observation of the tetragonal--cubic phase transition
+ in the CeZrO~4~ solid solution -- a high-temperature neutron
+ diffraction study
+;
+_journal_issue                   3
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              384
+_journal_page_last               389
+_journal_paper_doi               10.1107/S0108768107007720
+_journal_volume                  63
+_journal_year                    2007
+_chemical_formula_analytical     'Ce0.4943(3) Hf0.0035(10)  O2 Zr0.5022(10)'
+_chemical_formula_moiety         'Ce0.4943 Hf0.0035 O2 Zr0.5022'
+_chemical_formula_structural     'Ce0.5 O2 Zr0.5'
+_chemical_formula_sum            'Ce0.5 O2 Zr0.5'
+_chemical_formula_weight         147.698
+_chemical_name_common            'cerium zirconiuim oxide'
+_chemical_name_systematic
+;
+cerium zirconiuim oxide
+;
+_space_group_crystal_system      tetragonal
+_space_group_IT_number           137
+_symmetry_space_group_name_Hall  'P 4n 2n -1n'
+_symmetry_space_group_name_H-M   'P 42/n m c :1'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   3.7191(2)
+_cell_length_b                   3.7191(2)
+_cell_length_c                   5.3057(4)
+_cell_measurement_temperature    296.00(10)
+_cell_volume                     73.387(8)
+_computing_cell_refinement       'RIETAN-2000 (Izumi and Ikeda, 2000)'
+_computing_publication_material  'VICS (Izumi and Dilanian, 2002)'
+_computing_structure_refinement  RIETAN-2000
+_computing_structure_solution    RIETAN-2000
+_diffrn_ambient_temperature      296.00(10)
+_diffrn_measurement_device_type  '150 detector system HERMES'
+_diffrn_radiation_monochromator  none
+_diffrn_radiation_probe          neutron
+_diffrn_radiation_wavelength     1.81430(7)
+_exptl_crystal_density_diffrn    6.683651
+_exptl_crystal_density_method    'not measured'
+_refine_ls_extinction_method     none
+_refine_ls_hydrogen_treatment    noref
+_refine_ls_number_parameters     32
+_cod_data_source_file            og5020.cif
+_cod_data_source_block           296K
+_cod_original_cell_volume        73.389(9)
+_cod_original_sg_symbol_H-M      'P 42/n m c'
+_cod_database_code               2102839
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, -y, z'
+'-y+1/2, x+1/2, z+1/2'
+'y+1/2, -x+1/2, z+1/2'
+'-x+1/2, y+1/2, -z+1/2'
+'x+1/2, -y+1/2, -z+1/2'
+'y, x, -z'
+'-y, -x, -z'
+'-x+1/2, -y+1/2, -z+1/2'
+'x+1/2, y+1/2, -z+1/2'
+'y, -x, -z'
+'-y, x, -z'
+'x, -y, z'
+'-x, y, z'
+'-y+1/2, -x+1/2, z+1/2'
+'y+1/2, x+1/2, z+1/2'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+Ce 0 0 0 0.0079(5) Uiso 0.4943
+Zr 0 0 0 0.0079(5) Uiso 0.5022
+Hf 0 0 0 0.0079(5) Uiso 0.0035
+O 0 0.50000 0.2190(2) 0.0150(4) Uiso 1.0000
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_source
+Ce Ce 'Data in RIETAN-2000, Izumi, F. & Ikeda, T. (2000)'
+Zr Zr 'Data in RIETAN-2000, Izumi, F. & Ikeda, T. (2000)'
+Hf Hf 'Data in RIETAN-2000, Izumi, F. & Ikeda, T. (2000)'
+O O 'Data in RIETAN-2000, Izumi, F. & Ikeda, T. (2000)'
+loop_
+_diffrn_radiation_type
+neutron
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+Ce O Zr 115.99(9)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+Ce O 2.1928(6)
+Zr O 2.1928(6)

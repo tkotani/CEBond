@@ -1,0 +1,156 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-26 16:58:52 +0200 (Sat, 26 Mar 2016) $
+#$Revision: 180366 $
+#$URL: svn://www.crystallography.net/cod/cif/7/20/35/7203531.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7203531
+loop_
+_publ_author_name
+'Harvey, Elizabeth J.'
+'Ashbrook, Sharon E.'
+'Lumpkin, Gregory R.'
+'Redfern, Simon A. T.'
+_publ_section_title
+;
+ Characterisation of the (Y1?xLax)2Ti2O7 system by powder diffraction
+ and nuclear magnetic resonance methods
+;
+_journal_issue                   48
+_journal_name_full               'Journal of Materials Chemistry'
+_journal_page_first              4665
+_journal_paper_doi               10.1039/b608053g
+_journal_volume                  16
+_journal_year                    2006
+_chemical_compound_source        Synthetic
+_chemical_formula_structural     Y0.25La1.75Ti2O7
+_chemical_formula_sum            'La1.75 O7 Ti2 Y0.25'
+_chemical_formula_weight         473.11
+_chemical_melting_point_gt       1500
+_chemical_name_common            'Lanthanum Yttrium Titanate'
+_chemical_name_systematic        'Lanthanum Yttrium Titanate'
+_space_group_IT_number           4
+_symmetry_cell_setting           monoclinic
+_symmetry_Int_Tables_number      4
+_symmetry_space_group_name_Hall  'P 2yb'
+_symmetry_space_group_name_H-M   'P 1 21 1'
+_audit_creation_date             2006-06-02T17:58
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_audit_update_record
+' 2006-06-02T17:58 Initial CIF as created by GSAS2CIF'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 98.586(9)
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            4
+_cell_length_a                   7.7756(4)
+_cell_length_b                   5.52257(27)
+_cell_length_c                   13.0015(7)
+_cell_volume                     552.04(5)
+_computing_structure_refinement  GSAS
+_diffrn_ambient_pressure         101.325
+_diffrn_ambient_temperature      298
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_type           'Cu K\a~1~'
+_diffrn_radiation_wavelength     1.54058
+_diffrn_source                   'Sealed X-ray tube'
+_exptl_crystal_colour            'White Powder'
+_exptl_crystal_description       Powder
+_pd_block_id
+2006-06-02T17:58|YLATI_0_875_2MK1|E_Harvey|Overall
+_pd_phase_name
+'from C:/gsas/GSASace/isis251104/Schmalle_La2Ti2O7(best)_72433.cif'
+_refine_ls_goodness_of_fit_all   0.90
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     28
+_refine_ls_number_restraints     0
+_refine_ls_shift/su_max          5.26
+_refine_ls_shift/su_mean         0.38
+_cod_data_source_file            b608053g.txt
+_cod_data_source_block           YLATI_0_875_2MK1_publ
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_chemical_melting_point' tag was changed to
+'_chemical_melting_point_gt' since the value was specified 'more
+than' ('>') a certain temperature. The value '>1500' was changed to
+'1500' - it should be numeric and without a unit designator.
+
+Automatic conversion script
+Id: cif_fix_values 1569 2011-02-09 13:29:24Z adriana 
+;
+_cod_original_cell_volume        552.05(7)
+_cod_original_sg_symbol_H-M      'P 21'
+_cod_database_code               7203531
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -x,+y+1/2,-z
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+La La1 0.27707 0.25717 0.10617 0.875 Uiso 0.001 2
+La La2 0.7741 0.25797 0.10582 0.875 Uiso 0.001 2
+La La3 0.35224 0.81074 0.39788 0.875 Uiso 0.001 2
+La La4 0.85873 0.84697 0.40743 0.875 Uiso 0.001 2
+Ti Ti1 0.02651 0.75336 0.11582 1.0 Uiso 0.001 2
+Ti Ti2 0.53232 0.74949 0.11811 1.0 Uiso 0.001 2
+Ti Ti3 0.07237 0.28953 0.32608 1.0 Uiso 0.001 2
+Ti Ti4 0.58251 0.28987 0.33341 1.0 Uiso 0.001 2
+O O1 0.7547 0.82165 0.10848 1.0 Uiso 0.001 2
+O O2 0.25397 0.70174 0.10448 1.0 Uiso 0.001 2
+O O3 0.01231 0.05464 0.01873 1.0 Uiso 0.001 2
+O O4 0.53843 0.04866 0.0299 1.0 Uiso 0.001 2
+O O5 0.14367 1.0227 0.1011 1.0 Uiso 0.001 2
+O O6 0.54244 0.99484 0.1906 1.0 Uiso 0.001 2
+O O7 -0.00448 0.48476 0.16209 1.0 Uiso 0.001 2
+O O8 0.51709 0.42719 0.14851 1.0 Uiso 0.001 2
+O O9 0.13315 0.54701 0.38752 1.0 Uiso 0.001 2
+O O10 0.7842 0.61876 0.40052 1.0 Uiso 0.001 2
+O O11 0.11241 0.00882 0.4108 1.0 Uiso 0.001 2
+O O12 0.57634 0.06036 0.42693 1.0 Uiso 0.001 2
+O O13 0.3161 0.3219 0.33737 1.0 Uiso 0.001 2
+O O14 0.8199 0.27537 0.33935 1.0 Uiso 0.001 2
+Y Y1 0.27707 0.25717 0.10617 0.125 Uiso 0.001 2
+Y Y2 0.7741 0.25797 0.10582 0.125 Uiso 0.001 2
+Y Y3 0.35224 0.81074 0.39788 0.125 Uiso 0.001 2
+Y Y4 0.85873 0.84697 0.40743 0.125 Uiso 0.001 2
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+La 7.0
+Ti 8.0
+O 28.0
+Y 1.0
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+? ? ? ? ? ? ? ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+? ? ? ? ? ?

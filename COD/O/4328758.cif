@@ -1,0 +1,1904 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-23 16:42:09 +0200 (Wed, 23 Mar 2016) $
+#$Revision: 179390 $
+#$URL: svn://www.crystallography.net/cod/cif/4/32/87/4328758.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4328758
+loop_
+_publ_author_name
+'Viktor Hlukhyy'
+'Thomas F. F\"assler'
+'Sim\'eon Ponou'
+'Sven Lidin'
+'Natalia P. Ivleva'
+'Reinhard Niessner'
+_publ_contact_author_address
+;  Departement of Chemistry, Technische Universitaet Muenchen,
+   Lichtenbergstrasse 4,
+   85747 Garching, Germany
+;
+_publ_contact_author_email       Thomas.Faessler@lrz.tu-muenchen.de
+_publ_contact_author_fax         '+49-(0) 89 289 13186'
+_publ_contact_author_name        'Thomas F. Faessler'
+_publ_contact_author_phone       '+49-(0) 89 289 13131'
+_publ_section_title
+;
+ Extreme Differences in Oxidation States: Synthesis and Structural
+ Analysis of the Germanide Oxometallates A10[Ge9]2[WO4] As Well As
+ A10+x[Ge9]2[W1-xNbxO4] with A = K and Rb Containing [Ge9]4- Polyanions
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              4058
+_journal_page_last               4065
+_journal_paper_doi               10.1021/ic202234b
+_journal_volume                  51
+_journal_year                    2012
+_chemical_formula_sum            'Ge18 Nb0.35 O4 Rb10.35 W0.65'
+_chemical_formula_weight         2407.26
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.01(3)
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   14.361(3)
+_cell_length_b                   16.356(3)
+_cell_length_c                   17.839(4)
+_cell_measurement_temperature    293(2)
+_cell_volume                     4190.2(15)
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measured_fraction_theta_full 0.980
+_diffrn_measured_fraction_theta_max 0.980
+_diffrn_measurement_device_type  'Stoe IPDS-2T'
+_diffrn_measurement_method       'omega scans'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.2285
+_diffrn_reflns_av_sigmaI/netI    0.1291
+_diffrn_reflns_limit_h_max       15
+_diffrn_reflns_limit_h_min       -16
+_diffrn_reflns_limit_k_max       18
+_diffrn_reflns_limit_k_min       -18
+_diffrn_reflns_limit_l_max       20
+_diffrn_reflns_limit_l_min       -20
+_diffrn_reflns_number            27051
+_diffrn_reflns_theta_full        23.73
+_diffrn_reflns_theta_max         23.73
+_diffrn_reflns_theta_min         3.30
+_exptl_absorpt_coefficient_mu    26.514
+_exptl_absorpt_correction_T_max  0.2240
+_exptl_absorpt_correction_T_min  0.0984
+_exptl_absorpt_correction_type   numerical
+_exptl_crystal_colour            ruby-red
+_exptl_crystal_density_diffrn    3.816
+_exptl_crystal_description       rod-shaped
+_exptl_crystal_F_000             4214
+_exptl_crystal_size_max          0.30
+_exptl_crystal_size_mid          0.10
+_exptl_crystal_size_min          0.10
+_refine_diff_density_max         3.221
+_refine_diff_density_min         -4.310
+_refine_diff_density_rms         0.447
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   1.080
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     281
+_refine_ls_number_reflns         6255
+_refine_ls_number_restraints     30
+_refine_ls_restrained_S_all      1.079
+_refine_ls_R_factor_all          0.1392
+_refine_ls_R_factor_gt           0.1117
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.1243P)^2^+201.6833P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.2672
+_refine_ls_wR_factor_ref         0.2899
+_reflns_number_gt                4726
+_reflns_number_total             6255
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            ic202234b_si_002_4.cif
+_cod_data_source_block           Rb10.35Ge18W0.65Nb0.35O4_2a
+_cod_original_cell_volume        4190.3(15)
+_cod_database_code               4328758
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, y+1/2, -z+1/2'
+'-x, -y, -z'
+'x, -y-1/2, z-1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+W1 W 0.25574(14) 0.04000(12) 0.00486(10) 0.0392(6) Uani 0.648(9) 1 d P
+Nb1 Nb 0.25574(14) 0.04000(12) 0.00486(10) 0.0392(6) Uani 0.352(9) 1 d P
+O1 O 0.344(2) 0.5173(17) 0.5493(16) 0.051(7) Uiso 1 1 d .
+O2 O 0.171(3) 0.524(2) 0.464(2) 0.083(11) Uiso 1 1 d .
+O3 O 0.210(3) 0.105(2) 0.075(2) 0.089(11) Uiso 1 1 d .
+O4 O 0.301(3) 0.401(2) 0.432(2) 0.080(10) Uiso 1 1 d .
+Ge1A Ge 0.6830(3) 0.3475(3) 0.1610(3) 0.0603(13) Uani 1 1 d .
+Ge2A Ge 0.5844(3) 0.3374(3) 0.0410(2) 0.0524(12) Uani 1 1 d .
+Ge3A Ge 0.5424(3) 0.4440(3) 0.1531(3) 0.0574(12) Uani 1 1 d .
+Ge4A Ge 0.5636(4) 0.3185(3) 0.2646(2) 0.0546(12) Uani 1 1 d .
+Ge5A Ge 0.6107(3) 0.2057(3) 0.1538(3) 0.0556(12) Uani 1 1 d .
+Ge6A Ge 0.4170(3) 0.3698(3) 0.0740(3) 0.0588(13) Uani 1 1 d .
+Ge7A Ge 0.4028(4) 0.3686(4) 0.2176(2) 0.0602(13) Uani 1 1 d .
+Ge8A Ge 0.4442(4) 0.2142(3) 0.2073(3) 0.0612(14) Uani 1 1 d .
+Ge9A Ge 0.4726(4) 0.2174(3) 0.0656(2) 0.0537(12) Uani 1 1 d .
+Ge1B Ge 0.0527(10) 0.8145(8) 0.1437(7) 0.187(5) Uani 1 1 d U
+Ge2B Ge 0.0770(13) 0.2470(10) 0.4303(8) 0.228(7) Uani 1 1 d U
+Ge3B Ge 0.1022(8) 0.6915(8) 0.0525(5) 0.177(5) Uani 1 1 d U
+Ge4B Ge 0.1308(5) 0.6996(10) 0.2080(7) 0.196(4) Uani 1 1 d U
+Ge5B Ge 0.0458(6) 0.2415(5) 0.2621(4) 0.098(2) Uani 1 1 d U
+Ge6B Ge 0.0352(6) 0.0965(8) 0.4493(5) 0.157(4) Uani 1 1 d U
+Ge7B Ge 0.1098(6) 0.5655(9) 0.1343(6) 0.163(3) Uani 1 1 d U
+Ge8B Ge -0.0082(8) 0.5894(6) 0.2351(5) 0.144(4) Uani 1 1 d U
+Ge9B Ge 0.1403(4) 0.1422(6) 0.3393(5) 0.119(3) Uani 1 1 d U
+Rb1 Rb 0.3587(3) 0.2470(3) 0.3920(2) 0.0558(11) Uani 1 1 d .
+Rb2 Rb 0.6285(4) 0.1035(3) 0.3376(3) 0.0705(13) Uani 1 1 d .
+Rb3 Rb 0.2562(3) 0.0043(3) 0.4778(2) 0.0616(11) Uani 1 1 d .
+Rb4 Rb 0.2957(5) 0.8203(3) 0.0514(5) 0.110(3) Uani 1 1 d .
+Rb5 Rb 0.2084(4) 0.2588(4) 0.1114(4) 0.0855(16) Uani 1 1 d .
+Rb6 Rb 0.4731(3) 0.4900(3) 0.3941(3) 0.0689(13) Uani 1 1 d .
+Rb7 Rb 0.1788(4) 0.4401(5) 0.3097(3) 0.097(2) Uani 1 1 d .
+Rb8 Rb 0.2812(5) 0.0293(4) 0.2100(3) 0.091(2) Uani 1 1 d .
+Rb9 Rb 0.0669(5) 0.8832(7) 0.3541(4) 0.141(4) Uani 1 1 d .
+Rb10 Rb 0.0038(8) 0.1003(8) 0.0673(7) 0.101(3) Uiso 0.648(9) 1 d P
+Rb12 Rb 0.0222(15) 0.0464(15) 0.0689(12) 0.101(3) Uiso 0.352(9) 1 d P
+Rb11 Rb -0.1481(15) 0.1799(13) 0.1078(12) 0.101(3) Uiso 0.352(9) 1 d P
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+W1 0.0412(10) 0.0492(10) 0.0272(9) 0.0017(8) 0.0061(9) -0.0064(9)
+Nb1 0.0412(10) 0.0492(10) 0.0272(9) 0.0017(8) 0.0061(9) -0.0064(9)
+Ge1A 0.047(3) 0.064(3) 0.070(3) 0.002(3) -0.003(2) -0.004(2)
+Ge2A 0.057(3) 0.063(3) 0.036(2) -0.006(2) 0.017(2) -0.012(2)
+Ge3A 0.055(3) 0.049(3) 0.068(3) -0.014(2) -0.003(3) 0.000(2)
+Ge4A 0.062(3) 0.073(3) 0.0291(19) -0.005(2) -0.005(2) -0.001(3)
+Ge5A 0.052(3) 0.053(3) 0.062(3) 0.001(2) -0.006(2) 0.012(2)
+Ge6A 0.052(3) 0.081(3) 0.043(2) 0.006(2) -0.017(2) 0.017(3)
+Ge7A 0.054(3) 0.087(4) 0.039(2) 0.004(2) 0.013(2) 0.015(3)
+Ge8A 0.070(3) 0.067(3) 0.047(2) 0.000(2) 0.018(2) -0.025(3)
+Ge9A 0.068(3) 0.057(3) 0.036(2) -0.001(2) -0.013(2) -0.014(2)
+Ge1B 0.233(11) 0.178(6) 0.151(8) -0.046(6) 0.122(8) -0.111(7)
+Ge2B 0.316(18) 0.214(10) 0.154(8) -0.117(7) -0.090(12) -0.019(12)
+Ge3B 0.177(9) 0.245(9) 0.108(5) -0.084(5) 0.107(6) -0.139(8)
+Ge4B 0.050(4) 0.361(11) 0.177(7) -0.158(8) -0.042(5) 0.021(5)
+Ge5B 0.108(5) 0.114(5) 0.072(4) 0.031(4) 0.045(4) 0.003(4)
+Ge6B 0.101(6) 0.253(10) 0.118(6) 0.109(7) 0.013(5) 0.071(7)
+Ge7B 0.081(5) 0.253(8) 0.155(8) -0.075(7) 0.006(5) 0.050(6)
+Ge8B 0.189(8) 0.164(7) 0.080(5) 0.054(5) 0.028(5) 0.095(6)
+Ge9B 0.047(3) 0.183(8) 0.126(6) 0.028(5) 0.017(4) 0.024(4)
+Rb1 0.065(2) 0.069(3) 0.0340(19) 0.0029(19) 0.006(2) -0.001(2)
+Rb2 0.066(3) 0.091(4) 0.054(3) 0.005(3) -0.015(2) -0.003(3)
+Rb3 0.065(3) 0.060(2) 0.060(2) -0.010(2) -0.016(2) 0.007(2)
+Rb4 0.106(5) 0.049(3) 0.173(7) -0.011(4) 0.058(5) -0.009(3)
+Rb5 0.070(3) 0.110(4) 0.077(3) -0.002(3) 0.017(3) -0.003(3)
+Rb6 0.054(3) 0.084(3) 0.068(3) -0.022(3) -0.004(2) 0.005(2)
+Rb7 0.081(4) 0.170(6) 0.041(3) -0.006(3) -0.013(2) 0.044(4)
+Rb8 0.105(5) 0.122(5) 0.047(3) 0.021(3) 0.013(3) 0.045(4)
+Rb9 0.080(4) 0.259(11) 0.082(4) 0.008(6) -0.009(4) -0.070(6)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Ge Ge 0.1547 1.8001 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Rb Rb -0.9393 2.9676 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+W W -0.8490 6.8722 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Nb Nb -2.0727 0.6215 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+O4 W1 O3 109.3(19) 4_565 .
+O4 W1 O2 106.5(18) 4_565 4_565
+O3 W1 O2 112.9(19) . 4_565
+O4 W1 O1 111.0(16) 4_565 4_565
+O3 W1 O1 105.7(16) . 4_565
+O2 W1 O1 111.5(16) 4_565 4_565
+O4 W1 Rb12 125.2(13) 4_565 .
+O3 W1 Rb12 53.2(14) . .
+O2 W1 Rb12 59.7(13) 4_565 .
+O1 W1 Rb12 123.4(10) 4_565 .
+O4 W1 Rb7 50.2(13) 4_565 4_565
+O3 W1 Rb7 120.3(13) . 4_565
+O2 W1 Rb7 56.9(13) 4_565 4_565
+O1 W1 Rb7 133.6(9) 4_565 4_565
+Rb12 W1 Rb7 91.1(4) . 4_565
+O4 W1 Rb8 136.6(13) 4_565 .
+O3 W1 Rb8 50.4(13) . .
+O2 W1 Rb8 116.7(13) 4_565 .
+O1 W1 Rb8 57.2(9) 4_565 .
+Rb12 W1 Rb8 77.0(4) . .
+Rb7 W1 Rb8 167.87(15) 4_565 .
+O4 W1 Rb6 50.7(13) 4_565 4_565
+O3 W1 Rb6 140.1(13) . 4_565
+O2 W1 Rb6 106.4(13) 4_565 4_565
+O1 W1 Rb6 64.3(9) 4_565 4_565
+Rb12 W1 Rb6 165.3(4) . 4_565
+Rb7 W1 Rb6 76.17(14) 4_565 4_565
+Rb8 W1 Rb6 115.95(14) . 4_565
+O4 W1 Rb4 130.1(12) 4_565 1_545
+O3 W1 Rb4 118.6(13) . 1_545
+O2 W1 Rb4 68.1(13) 4_565 1_545
+O1 W1 Rb4 43.8(9) 4_565 1_545
+Rb12 W1 Rb4 95.8(4) . 1_545
+Rb7 W1 Rb4 110.1(2) 4_565 1_545
+Rb8 W1 Rb4 73.62(18) . 1_545
+Rb6 W1 Rb4 82.10(13) 4_565 1_545
+O4 W1 Rb10 114.7(13) 4_565 .
+O3 W1 Rb10 45.7(14) . .
+O2 W1 Rb10 68.1(13) 4_565 .
+O1 W1 Rb10 132.1(9) 4_565 .
+Rb12 W1 Rb10 13.0(4) . .
+Rb7 W1 Rb10 88.2(2) 4_565 .
+Rb8 W1 Rb10 79.7(2) . .
+Rb6 W1 Rb10 163.5(2) 4_565 .
+Rb4 W1 Rb10 108.7(2) 1_545 .
+O4 W1 Rb5 85.4(12) 4_565 .
+O3 W1 Rb5 24.2(13) . .
+O2 W1 Rb5 126.4(13) 4_565 .
+O1 W1 Rb5 111.9(9) 4_565 .
+Rb12 W1 Rb5 70.7(4) . .
+Rb7 W1 Rb5 108.18(17) 4_565 .
+Rb8 W1 Rb5 66.29(14) . .
+Rb6 W1 Rb5 119.90(12) 4_565 .
+Rb4 W1 Rb5 139.55(17) 1_545 .
+Rb10 W1 Rb5 59.7(2) . .
+O4 W1 Rb1 21.6(12) 4_565 4_565
+O3 W1 Rb1 88.4(13) . 4_565
+O2 W1 Rb1 121.9(13) 4_565 4_565
+O1 W1 Rb1 113.2(9) 4_565 4_565
+Rb12 W1 Rb1 117.0(4) . 4_565
+Rb7 W1 Rb1 65.55(13) 4_565 4_565
+Rb8 W1 Rb1 118.11(14) . 4_565
+Rb6 W1 Rb1 64.48(10) 4_565 4_565
+Rb4 W1 Rb1 146.50(13) 1_545 4_565
+Rb10 W1 Rb1 104.4(2) . 4_565
+Rb5 W1 Rb1 64.31(11) . 4_565
+Nb1 O1 W1 0.00(14) 4_566 4_566
+Nb1 O1 Rb4 109.7(13) 4_566 4_576
+W1 O1 Rb4 109.7(13) 4_566 4_576
+Nb1 O1 Rb6 144.0(14) 4_566 3_666
+W1 O1 Rb6 144.0(14) 4_566 3_666
+Rb4 O1 Rb6 105.9(10) 4_576 3_666
+Nb1 O1 Rb8 94.2(11) 4_566 4_566
+W1 O1 Rb8 94.2(11) 4_566 4_566
+Rb4 O1 Rb8 98.7(9) 4_576 4_566
+Rb6 O1 Rb8 86.0(8) 3_666 4_566
+Nb1 O1 Rb6 87.5(10) 4_566 .
+W1 O1 Rb6 87.5(10) 4_566 .
+Rb4 O1 Rb6 106.3(9) 4_576 .
+Rb6 O1 Rb6 77.0(7) 3_666 .
+Rb8 O1 Rb6 152.8(10) 4_566 .
+Nb1 O2 W1 0.00(15) 4_566 4_566
+Nb1 O2 Rb10 161(2) 4_566 2
+W1 O2 Rb10 161(2) 4_566 2
+Nb1 O2 Rb12 146(2) 4_566 2
+W1 O2 Rb12 146(2) 4_566 2
+Rb10 O2 Rb12 18.6(5) 2 2
+Nb1 O2 Rb11 142(2) 4_566 2
+W1 O2 Rb11 142(2) 4_566 2
+Rb10 O2 Rb11 54.9(9) 2 2
+Rb12 O2 Rb11 71.6(11) 2 2
+Nb1 O2 Rb12 90.4(15) 4_566 4_566
+W1 O2 Rb12 90.4(15) 4_566 4_566
+Rb10 O2 Rb12 70.9(10) 2 4_566
+Rb12 O2 Rb12 59.9(11) 2 4_566
+Rb11 O2 Rb12 121.8(15) 2 4_566
+Nb1 O2 Rb7 94.5(15) 4_566 .
+W1 O2 Rb7 94.5(15) 4_566 .
+Rb10 O2 Rb7 93.0(12) 2 .
+Rb12 O2 Rb7 84.8(12) 2 .
+Rb11 O2 Rb7 90.0(11) 2 .
+Rb12 O2 Rb7 113.9(13) 4_566 .
+Nb1 O2 Rb4 83.9(14) 4_566 4_576
+W1 O2 Rb4 83.9(14) 4_566 4_576
+Rb10 O2 Rb4 102.7(11) 2 4_576
+Rb12 O2 Rb4 119.9(13) 2 4_576
+Rb11 O2 Rb4 67.0(9) 2 4_576
+Rb12 O2 Rb4 111.2(12) 4_566 4_576
+Rb7 O2 Rb4 134.9(13) . 4_576
+W1 O3 Rb5 140(2) . .
+W1 O3 Rb12 97.3(17) . .
+Rb5 O3 Rb12 108.9(15) . .
+W1 O3 Rb8 101.6(17) . .
+Rb5 O3 Rb8 101.8(14) . .
+Rb12 O3 Rb8 102.8(14) . .
+W1 O3 Rb10 109.1(18) . .
+Rb5 O3 Rb10 91.5(12) . .
+Rb12 O3 Rb10 18.1(5) . .
+Rb8 O3 Rb10 112.3(14) . .
+Nb1 O4 W1 0.00(14) 4_566 4_566
+Nb1 O4 Rb1 144.9(19) 4_566 .
+W1 O4 Rb1 144.9(19) 4_566 .
+Nb1 O4 Rb7 102.1(16) 4_566 .
+W1 O4 Rb7 102.1(16) 4_566 .
+Rb1 O4 Rb7 101.0(12) . .
+Nb1 O4 Rb6 102.1(16) 4_566 .
+W1 O4 Rb6 102.1(16) 4_566 .
+Rb1 O4 Rb6 98.1(12) . .
+Rb7 O4 Rb6 103.0(12) . .
+Ge5A Ge1A Ge4A 66.1(2) . .
+Ge5A Ge1A Ge3A 103.7(2) . .
+Ge4A Ge1A Ge3A 68.1(2) . .
+Ge5A Ge1A Ge2A 71.0(2) . .
+Ge4A Ge1A Ge2A 102.7(2) . .
+Ge3A Ge1A Ge2A 63.9(2) . .
+Ge5A Ge1A Rb9 123.0(3) . 2_645
+Ge4A Ge1A Rb9 137.8(2) . 2_645
+Ge3A Ge1A Rb9 132.2(3) . 2_645
+Ge2A Ge1A Rb9 119.4(2) . 2_645
+Ge5A Ge1A Rb3 134.4(2) . 2_655
+Ge4A Ge1A Rb3 140.7(2) . 2_655
+Ge3A Ge1A Rb3 73.78(19) . 2_655
+Ge2A Ge1A Rb3 67.31(17) . 2_655
+Rb9 Ge1A Rb3 66.70(19) 2_645 2_655
+Ge5A Ge1A Rb11 65.7(3) . 1_655
+Ge4A Ge1A Rb11 118.4(4) . 1_655
+Ge3A Ge1A Rb11 159.5(4) . 1_655
+Ge2A Ge1A Rb11 95.6(4) . 1_655
+Rb9 Ge1A Rb11 57.7(4) 2_645 1_655
+Rb3 Ge1A Rb11 100.6(4) 2_655 1_655
+Ge5A Ge1A Rb8 143.1(2) . 2_655
+Ge4A Ge1A Rb8 78.39(19) . 2_655
+Ge3A Ge1A Rb8 70.0(2) . 2_655
+Ge2A Ge1A Rb8 129.0(2) . 2_655
+Rb9 Ge1A Rb8 77.6(2) 2_645 2_655
+Rb3 Ge1A Rb8 80.20(15) 2_655 2_655
+Rb11 Ge1A Rb8 129.3(4) 1_655 2_655
+Ge6A Ge2A Ge1A 108.4(2) . .
+Ge6A Ge2A Ge9A 61.8(2) . .
+Ge1A Ge2A Ge9A 104.5(2) . .
+Ge6A Ge2A Ge3A 58.96(18) . .
+Ge1A Ge2A Ge3A 57.93(18) . .
+Ge9A Ge2A Ge3A 103.0(2) . .
+Ge6A Ge2A Rb4 136.8(2) . 3_665
+Ge1A Ge2A Rb4 99.6(3) . 3_665
+Ge9A Ge2A Rb4 80.0(2) . 3_665
+Ge3A Ge2A Rb4 157.5(3) . 3_665
+Ge6A Ge2A Rb3 118.0(2) . 2_655
+Ge1A Ge2A Rb3 71.12(17) . 2_655
+Ge9A Ge2A Rb3 175.5(2) . 2_655
+Ge3A Ge2A Rb3 73.86(17) . 2_655
+Rb4 Ge2A Rb3 101.67(17) 3_665 2_655
+Ge6A Ge2A Rb2 109.1(2) . 4_565
+Ge1A Ge2A Rb2 133.2(2) . 4_565
+Ge9A Ge2A Rb2 117.43(19) . 4_565
+Ge3A Ge2A Rb2 125.1(2) . 4_565
+Rb4 Ge2A Rb2 69.98(18) 3_665 4_565
+Rb3 Ge2A Rb2 67.08(13) 2_655 4_565
+Ge1A Ge3A Ge6A 106.8(2) . .
+Ge1A Ge3A Ge7A 106.8(2) . .
+Ge6A Ge3A Ge7A 59.12(19) . .
+Ge1A Ge3A Ge2A 58.13(19) . .
+Ge6A Ge3A Ge2A 56.84(18) . .
+Ge7A Ge3A Ge2A 101.0(2) . .
+Ge1A Ge3A Ge4A 55.93(19) . .
+Ge6A Ge3A Ge4A 96.6(2) . .
+Ge7A Ge3A Ge4A 55.98(18) . .
+Ge2A Ge3A Ge4A 91.58(19) . .
+Ge1A Ge3A Rb2 169.5(2) . 2_655
+Ge6A Ge3A Rb2 83.72(19) . 2_655
+Ge7A Ge3A Rb2 78.39(19) . 2_655
+Ge2A Ge3A Rb2 130.7(2) . 2_655
+Ge4A Ge3A Rb2 124.1(2) . 2_655
+Ge1A Ge3A Rb8 70.4(2) . 2_655
+Ge6A Ge3A Rb8 171.7(2) . 2_655
+Ge7A Ge3A Rb8 113.7(2) . 2_655
+Ge2A Ge3A Rb8 124.2(2) . 2_655
+Ge4A Ge3A Rb8 75.29(18) . 2_655
+Rb2 Ge3A Rb8 99.22(18) 2_655 2_655
+Ge1A Ge3A Rb3 66.36(17) . 2_655
+Ge6A Ge3A Rb3 108.2(2) . 2_655
+Ge7A Ge3A Rb3 164.3(2) . 2_655
+Ge2A Ge3A Rb3 63.33(15) . 2_655
+Ge4A Ge3A Rb3 121.57(19) . 2_655
+Rb2 Ge3A Rb3 110.89(17) 2_655 2_655
+Rb8 Ge3A Rb3 78.11(14) 2_655 2_655
+Ge1A Ge4A Ge7A 107.7(2) . .
+Ge1A Ge4A Ge8A 106.1(2) . .
+Ge7A Ge4A Ge8A 59.8(2) . .
+Ge1A Ge4A Ge5A 56.60(18) . .
+Ge7A Ge4A Ge5A 101.3(2) . .
+Ge8A Ge4A Ge5A 56.81(18) . .
+Ge1A Ge4A Ge3A 55.96(18) . .
+Ge7A Ge4A Ge3A 57.02(18) . .
+Ge8A Ge4A Ge3A 97.2(2) . .
+Ge5A Ge4A Ge3A 90.46(18) . .
+Ge1A Ge4A Rb4 105.1(2) . 2_645
+Ge7A Ge4A Rb4 137.8(2) . 2_645
+Ge8A Ge4A Rb4 132.8(2) . 2_645
+Ge5A Ge4A Rb4 118.8(2) . 2_645
+Ge3A Ge4A Rb4 129.7(2) . 2_645
+Ge1A Ge4A Rb6 121.4(2) . .
+Ge7A Ge4A Rb6 70.35(18) . .
+Ge8A Ge4A Rb6 119.0(2) . .
+Ge5A Ge4A Rb6 170.9(2) . .
+Ge3A Ge4A Rb6 81.93(18) . .
+Rb4 Ge4A Rb6 70.19(14) 2_645 .
+Ge1A Ge4A Rb2 104.5(2) . .
+Ge7A Ge4A Rb2 127.8(2) . .
+Ge8A Ge4A Rb2 72.41(19) . .
+Ge5A Ge4A Rb2 65.05(16) . .
+Ge3A Ge4A Rb2 155.34(19) . .
+Rb4 Ge4A Rb2 66.00(13) 2_645 .
+Rb6 Ge4A Rb2 122.72(16) . .
+Ge1A Ge4A Rb1 168.6(2) . .
+Ge7A Ge4A Rb1 67.10(16) . .
+Ge8A Ge4A Rb1 62.57(16) . .
+Ge5A Ge4A Rb1 113.5(2) . .
+Ge3A Ge4A Rb1 122.6(2) . .
+Rb4 Ge4A Rb1 84.34(14) 2_645 .
+Rb6 Ge4A Rb1 67.34(13) . .
+Rb2 Ge4A Rb1 73.28(14) . .
+Ge1A Ge4A Rb8 64.13(18) . 2_655
+Ge7A Ge4A Rb8 104.6(2) . 2_655
+Ge8A Ge4A Rb8 159.6(2) . 2_655
+Ge5A Ge4A Rb8 120.0(2) . 2_655
+Ge3A Ge4A Rb8 62.41(16) . 2_655
+Rb4 Ge4A Rb8 67.49(14) 2_645 2_655
+Rb6 Ge4A Rb8 60.62(14) . 2_655
+Rb2 Ge4A Rb8 126.32(18) . 2_655
+Rb1 Ge4A Rb8 126.42(16) . 2_655
+Ge9A Ge5A Ge1A 106.3(2) . .
+Ge9A Ge5A Ge8A 60.04(19) . .
+Ge1A Ge5A Ge8A 108.1(2) . .
+Ge9A Ge5A Ge4A 101.5(2) . .
+Ge1A Ge5A Ge4A 57.34(19) . .
+Ge8A Ge5A Ge4A 58.45(19) . .
+Ge9A Ge5A Rb11 128.4(4) . 1_655
+Ge1A Ge5A Rb11 74.0(4) . 1_655
+Ge8A Ge5A Rb11 170.9(4) . 1_655
+Ge4A Ge5A Rb11 118.4(4) . 1_655
+Ge9A Ge5A Rb2 129.7(2) . .
+Ge1A Ge5A Rb2 109.9(2) . .
+Ge8A Ge5A Rb2 76.12(19) . .
+Ge4A Ge5A Rb2 71.74(17) . .
+Rb11 Ge5A Rb2 94.8(4) 1_655 .
+Ge9A Ge5A Rb6 71.64(17) . 2_645
+Ge1A Ge5A Rb6 168.6(2) . 2_645
+Ge8A Ge5A Rb6 80.83(18) . 2_645
+Ge4A Ge5A Rb6 133.9(2) . 2_645
+Rb11 Ge5A Rb6 98.3(4) 1_655 2_645
+Rb2 Ge5A Rb6 78.61(15) . 2_645
+Ge9A Ge5A Rb4 72.4(2) . 3_665
+Ge1A Ge5A Rb4 90.3(2) . 3_665
+Ge8A Ge5A Rb4 132.0(2) . 3_665
+Ge4A Ge5A Rb4 144.8(2) . 3_665
+Rb11 Ge5A Rb4 56.1(4) 1_655 3_665
+Rb2 Ge5A Rb4 139.15(19) . 3_665
+Rb6 Ge5A Rb4 78.41(15) 2_645 3_665
+Ge2A Ge6A Ge7A 107.8(2) . .
+Ge2A Ge6A Ge3A 64.20(19) . .
+Ge7A Ge6A Ge3A 61.0(2) . .
+Ge2A Ge6A Ge9A 59.91(19) . .
+Ge7A Ge6A Ge9A 94.2(2) . .
+Ge3A Ge6A Ge9A 105.4(2) . .
+Ge2A Ge6A Rb3 129.0(2) . 4_565
+Ge7A Ge6A Rb3 115.8(2) . 4_565
+Ge3A Ge6A Rb3 116.4(2) . 4_565
+Ge9A Ge6A Rb3 136.5(2) . 4_565
+Ge2A Ge6A Rb5 137.3(3) . .
+Ge7A Ge6A Rb5 75.1(2) . .
+Ge3A Ge6A Rb5 136.1(2) . .
+Ge9A Ge6A Rb5 77.4(2) . .
+Rb3 Ge6A Rb5 80.74(17) 4_565 .
+Ge2A Ge6A Rb1 84.64(18) . 4_565
+Ge7A Ge6A Rb1 144.9(3) . 4_565
+Ge3A Ge6A Rb1 147.3(2) . 4_565
+Ge9A Ge6A Rb1 63.11(16) . 4_565
+Rb3 Ge6A Rb1 74.85(13) 4_565 4_565
+Rb5 Ge6A Rb1 73.95(16) . 4_565
+Ge2A Ge6A Rb2 115.3(2) . 2_655
+Ge7A Ge6A Rb2 67.61(19) . 2_655
+Ge3A Ge6A Rb2 58.34(16) . 2_655
+Ge9A Ge6A Rb2 159.57(19) . 2_655
+Rb3 Ge6A Rb2 63.19(13) 4_565 2_655
+Rb5 Ge6A Rb2 105.24(17) . 2_655
+Rb1 Ge6A Rb2 137.31(15) 4_565 2_655
+Ge6A Ge7A Ge4A 104.7(2) . .
+Ge6A Ge7A Ge8A 85.3(2) . .
+Ge4A Ge7A Ge8A 60.8(2) . .
+Ge6A Ge7A Ge3A 59.9(2) . .
+Ge4A Ge7A Ge3A 67.0(2) . .
+Ge8A Ge7A Ge3A 104.6(2) . .
+Ge6A Ge7A Rb1 147.7(3) . .
+Ge4A Ge7A Rb1 73.38(17) . .
+Ge8A Ge7A Rb1 65.29(16) . .
+Ge3A Ge7A Rb1 138.1(2) . .
+Ge6A Ge7A Rb7 119.8(2) . .
+Ge4A Ge7A Rb7 135.46(19) . .
+Ge8A Ge7A Rb7 121.5(2) . .
+Ge3A Ge7A Rb7 133.9(3) . .
+Rb1 Ge7A Rb7 70.16(15) . .
+Ge6A Ge7A Rb5 64.39(19) . .
+Ge4A Ge7A Rb5 131.5(2) . .
+Ge8A Ge7A Rb5 71.1(2) . .
+Ge3A Ge7A Rb5 124.2(2) . .
+Rb1 Ge7A Rb5 92.20(17) . .
+Rb7 Ge7A Rb5 74.93(17) . .
+Ge6A Ge7A Rb6 142.1(3) . .
+Ge4A Ge7A Rb6 70.46(17) . .
+Ge8A Ge7A Rb6 119.9(2) . .
+Ge3A Ge7A Rb6 85.2(2) . .
+Rb1 Ge7A Rb6 68.87(14) . .
+Rb7 Ge7A Rb6 73.12(15) . .
+Rb5 Ge7A Rb6 146.86(17) . .
+Ge6A Ge7A Rb2 75.85(19) . 2_655
+Ge4A Ge7A Rb2 119.0(2) . 2_655
+Ge8A Ge7A Rb2 160.5(2) . 2_655
+Ge3A Ge7A Rb2 61.61(17) . 2_655
+Rb1 Ge7A Rb2 134.16(17) . 2_655
+Rb7 Ge7A Rb2 73.43(17) . 2_655
+Rb5 Ge7A Rb2 104.34(17) . 2_655
+Rb6 Ge7A Rb2 74.65(15) . 2_655
+Ge9A Ge8A Ge5A 59.20(19) . .
+Ge9A Ge8A Ge7A 95.0(2) . .
+Ge5A Ge8A Ge7A 106.9(2) . .
+Ge9A Ge8A Ge4A 105.5(2) . .
+Ge5A Ge8A Ge4A 64.7(2) . .
+Ge7A Ge8A Ge4A 59.4(2) . .
+Ge9A Ge8A Rb1 165.1(3) . .
+Ge5A Ge8A Rb1 132.1(2) . .
+Ge7A Ge8A Rb1 73.11(17) . .
+Ge4A Ge8A Rb1 76.52(17) . .
+Ge9A Ge8A Rb8 97.26(19) . .
+Ge5A Ge8A Rb8 122.0(2) . .
+Ge7A Ge8A Rb8 128.8(2) . .
+Ge4A Ge8A Rb8 155.3(2) . .
+Rb1 Ge8A Rb8 84.03(14) . .
+Ge9A Ge8A Rb5 72.5(2) . .
+Ge5A Ge8A Rb5 131.3(2) . .
+Ge7A Ge8A Rb5 69.4(2) . .
+Ge4A Ge8A Rb5 128.5(2) . .
+Rb1 Ge8A Rb5 94.54(17) . .
+Rb8 Ge8A Rb5 67.57(16) . .
+Ge9A Ge8A Rb2 118.8(2) . .
+Ge5A Ge8A Rb2 64.70(18) . .
+Ge7A Ge8A Rb2 123.7(2) . .
+Ge4A Ge8A Rb2 68.41(19) . .
+Rb1 Ge8A Rb2 75.85(15) . .
+Rb8 Ge8A Rb2 92.29(16) . .
+Rb5 Ge8A Rb2 158.72(18) . .
+Ge5A Ge9A Ge8A 60.8(2) . .
+Ge5A Ge9A Ge2A 71.1(2) . .
+Ge8A Ge9A Ge2A 106.5(2) . .
+Ge5A Ge9A Ge6A 105.9(2) . .
+Ge8A Ge9A Ge6A 85.1(2) . .
+Ge2A Ge9A Ge6A 58.28(19) . .
+Ge5A Ge9A Rb1 155.9(2) . 4_565
+Ge8A Ge9A Rb1 142.2(2) . 4_565
+Ge2A Ge9A Rb1 90.72(18) . 4_565
+Ge6A Ge9A Rb1 75.70(17) . 4_565
+Ge5A Ge9A Rb6 69.84(18) . 2_645
+Ge8A Ge9A Rb6 80.19(19) . 2_645
+Ge2A Ge9A Rb6 129.8(2) . 2_645
+Ge6A Ge9A Rb6 164.9(2) . 2_645
+Rb1 Ge9A Rb6 114.37(16) 4_565 2_645
+Ge5A Ge9A Rb5 129.5(2) . .
+Ge8A Ge9A Rb5 69.2(2) . .
+Ge2A Ge9A Rb5 120.3(2) . .
+Ge6A Ge9A Rb5 62.06(19) . .
+Rb1 Ge9A Rb5 73.09(15) 4_565 .
+Rb6 Ge9A Rb5 108.71(17) 2_645 .
+Ge5A Ge9A Rb4 70.1(2) . 3_665
+Ge8A Ge9A Rb4 130.5(3) . 3_665
+Ge2A Ge9A Rb4 60.44(17) . 3_665
+Ge6A Ge9A Rb4 115.6(2) . 3_665
+Rb1 Ge9A Rb4 87.30(19) 4_565 3_665
+Rb6 Ge9A Rb4 77.28(16) 2_645 3_665
+Rb5 Ge9A Rb4 160.3(2) . 3_665
+Ge4B Ge1B Ge5B 65.3(5) . 2
+Ge4B Ge1B Ge2B 104.1(5) . 2
+Ge5B Ge1B Ge2B 74.1(5) 2 2
+Ge4B Ge1B Ge3B 65.9(5) . .
+Ge5B Ge1B Ge3B 101.5(4) 2 .
+Ge2B Ge1B Ge3B 63.4(6) 2 .
+Ge4B Ge1B Rb4 78.8(5) . .
+Ge5B Ge1B Rb4 144.1(7) 2 .
+Ge2B Ge1B Rb4 116.9(5) 2 .
+Ge3B Ge1B Rb4 61.3(3) . .
+Ge4B Ge1B Rb9 75.6(4) . .
+Ge5B Ge1B Rb9 61.5(3) 2 .
+Ge2B Ge1B Rb9 131.4(5) 2 .
+Ge3B Ge1B Rb9 141.4(7) . .
+Rb4 Ge1B Rb9 110.8(4) . .
+Ge4B Ge1B Rb7 132.2(4) . 2
+Ge5B Ge1B Rb7 68.6(4) 2 2
+Ge2B Ge1B Rb7 73.8(6) 2 2
+Ge3B Ge1B Rb7 137.0(6) . 2
+Rb4 Ge1B Rb7 145.9(4) . 2
+Rb9 Ge1B Rb7 72.4(2) . 2
+Ge4B Ge1B Rb12 156.3(6) . 1_565
+Ge5B Ge1B Rb12 127.5(6) 2 1_565
+Ge2B Ge1B Rb12 99.0(7) 2 1_565
+Ge3B Ge1B Rb12 122.1(5) . 1_565
+Rb4 Ge1B Rb12 86.2(4) . 1_565
+Rb9 Ge1B Rb12 93.0(4) . 1_565
+Rb7 Ge1B Rb12 59.8(4) 2 1_565
+Ge4B Ge1B Rb10 140.8(5) . 3_565
+Ge5B Ge1B Rb10 131.9(6) 2 3_565
+Ge2B Ge1B Rb10 61.6(4) 2 3_565
+Ge3B Ge1B Rb10 75.5(4) . 3_565
+Rb4 Ge1B Rb10 77.2(3) . 3_565
+Rb9 Ge1B Rb10 142.4(5) . 3_565
+Rb7 Ge1B Rb10 81.4(4) 2 3_565
+Rb12 Ge1B Rb10 49.9(4) 1_565 3_565
+Ge9B Ge2B Ge1B 103.0(5) . 2_545
+Ge9B Ge2B Ge6B 61.1(4) . .
+Ge1B Ge2B Ge6B 108.4(7) 2_545 .
+Ge9B Ge2B Ge3B 100.7(5) . 2_545
+Ge1B Ge2B Ge3B 60.9(5) 2_545 2_545
+Ge6B Ge2B Ge3B 56.4(5) . 2_545
+Ge9B Ge2B Rb10 175.5(7) . 4_566
+Ge1B Ge2B Rb10 80.8(5) 2_545 4_566
+Ge6B Ge2B Rb10 120.2(7) . 4_566
+Ge3B Ge2B Rb10 83.2(6) 2_545 4_566
+Ge9B Ge2B Rb5 110.8(6) . 4_566
+Ge1B Ge2B Rb5 146.2(6) 2_545 4_566
+Ge6B Ge2B Rb5 88.8(5) . 4_566
+Ge3B Ge2B Rb5 111.5(6) 2_545 4_566
+Rb10 Ge2B Rb5 65.4(3) 4_566 4_566
+Ge9B Ge2B Rb7 93.3(6) . .
+Ge1B Ge2B Rb7 69.7(5) 2_545 .
+Ge6B Ge2B Rb7 153.8(5) . .
+Ge3B Ge2B Rb7 130.5(6) 2_545 .
+Rb10 Ge2B Rb7 85.8(4) 4_566 .
+Rb5 Ge2B Rb7 107.1(4) 4_566 .
+Ge9B Ge2B Rb1 62.5(4) . .
+Ge1B Ge2B Rb1 129.6(7) 2_545 .
+Ge6B Ge2B Rb1 104.6(6) . .
+Ge3B Ge2B Rb1 160.5(6) 2_545 .
+Rb10 Ge2B Rb1 113.3(4) 4_566 .
+Rb5 Ge2B Rb1 69.3(3) 4_566 .
+Rb7 Ge2B Rb1 63.9(3) . .
+Ge6B Ge3B Ge7B 62.4(5) 2 .
+Ge6B Ge3B Ge1B 105.3(4) 2 .
+Ge7B Ge3B Ge1B 105.8(4) . .
+Ge6B Ge3B Ge2B 58.0(5) 2 2
+Ge7B Ge3B Ge2B 104.2(4) . 2
+Ge1B Ge3B Ge2B 55.7(5) . 2
+Ge6B Ge3B Ge4B 99.0(4) 2 .
+Ge7B Ge3B Ge4B 57.4(5) . .
+Ge1B Ge3B Ge4B 53.4(5) . .
+Ge2B Ge3B Ge4B 90.6(4) 2 .
+Ge6B Ge3B Rb4 178.5(4) 2 .
+Ge7B Ge3B Rb4 117.5(5) . .
+Ge1B Ge3B Rb4 76.2(3) . .
+Ge2B Ge3B Rb4 123.2(6) 2 .
+Ge4B Ge3B Rb4 82.0(4) . .
+Ge6B Ge3B Rb11 119.6(6) 2 3_565
+Ge7B Ge3B Rb11 157.6(5) . 3_565
+Ge1B Ge3B Rb11 95.3(6) . 3_565
+Ge2B Ge3B Rb11 93.9(6) 2 3_565
+Ge4B Ge3B Rb11 136.8(6) . 3_565
+Rb4 Ge3B Rb11 59.9(4) . 3_565
+Ge6B Ge3B Rb9 71.5(3) 2 4_575
+Ge7B Ge3B Rb9 106.4(4) . 4_575
+Ge1B Ge3B Rb9 140.8(7) . 4_575
+Ge2B Ge3B Rb9 95.0(5) 2 4_575
+Ge4B Ge3B Rb9 163.8(6) . 4_575
+Rb4 Ge3B Rb9 107.3(3) . 4_575
+Rb11 Ge3B Rb9 58.1(4) 3_565 4_575
+Ge6B Ge3B Rb3 86.4(4) 2 4_565
+Ge7B Ge3B Rb3 61.9(4) . 4_565
+Ge1B Ge3B Rb3 157.3(6) . 4_565
+Ge2B Ge3B Rb3 142.9(5) 2 4_565
+Ge4B Ge3B Rb3 106.1(5) . 4_565
+Rb4 Ge3B Rb3 92.3(3) . 4_565
+Rb11 Ge3B Rb3 95.7(4) 3_565 4_565
+Rb9 Ge3B Rb3 61.1(2) 4_575 4_565
+Ge1B Ge4B Ge7B 111.0(5) . .
+Ge1B Ge4B Ge5B 57.9(4) . 2
+Ge7B Ge4B Ge5B 102.0(4) . 2
+Ge1B Ge4B Ge8B 104.6(4) . .
+Ge7B Ge4B Ge8B 56.1(4) . .
+Ge5B Ge4B Ge8B 56.1(3) 2 .
+Ge1B Ge4B Ge3B 60.7(5) . .
+Ge7B Ge4B Ge3B 55.8(5) . .
+Ge5B Ge4B Ge3B 94.1(4) 2 .
+Ge8B Ge4B Ge3B 92.1(4) . .
+Ge1B Ge4B Rb11 124.6(6) . 2
+Ge7B Ge4B Rb11 115.6(8) . 2
+Ge5B Ge4B Rb11 84.1(5) 2 2
+Ge8B Ge4B Rb11 79.3(6) . 2
+Ge3B Ge4B Rb11 170.7(7) . 2
+Ge1B Ge4B Rb2 127.9(6) . 2_655
+Ge7B Ge4B Rb2 69.7(3) . 2_655
+Ge5B Ge4B Rb2 170.8(6) 2 2_655
+Ge8B Ge4B Rb2 114.9(5) . 2_655
+Ge3B Ge4B Rb2 84.5(4) . 2_655
+Rb11 Ge4B Rb2 95.9(5) 2 2_655
+Ge1B Ge4B Rb9 68.6(4) . .
+Ge7B Ge4B Rb9 157.9(5) . .
+Ge5B Ge4B Rb9 58.1(3) 2 .
+Ge8B Ge4B Rb9 102.0(4) . .
+Ge3B Ge4B Rb9 129.3(6) . .
+Rb11 Ge4B Rb9 57.0(4) 2 .
+Rb2 Ge4B Rb9 129.2(2) 2_655 .
+Ge1B Ge4B Rb4 65.5(4) . .
+Ge7B Ge4B Rb4 97.4(4) . .
+Ge5B Ge4B Rb4 123.5(6) 2 .
+Ge8B Ge4B Rb4 147.9(4) . .
+Ge3B Ge4B Rb4 56.1(3) . .
+Rb11 Ge4B Rb4 132.1(5) 2 .
+Rb2 Ge4B Rb4 62.9(2) 2_655 .
+Rb9 Ge4B Rb4 102.0(4) . .
+Ge1B Ge5B Ge9B 104.1(4) 2_545 .
+Ge1B Ge5B Ge8B 109.4(4) 2_545 2_545
+Ge9B Ge5B Ge8B 58.3(4) . 2_545
+Ge1B Ge5B Ge4B 56.8(6) 2_545 2_545
+Ge9B Ge5B Ge4B 103.6(3) . 2_545
+Ge8B Ge5B Ge4B 63.0(5) 2_545 2_545
+Ge1B Ge5B Rb9 79.6(4) 2_545 2_545
+Ge9B Ge5B Rb9 174.9(3) . 2_545
+Ge8B Ge5B Rb9 124.1(4) 2_545 2_545
+Ge4B Ge5B Rb9 81.4(3) 2_545 2_545
+Ge1B Ge5B Rb5 146.9(4) 2_545 .
+Ge9B Ge5B Rb5 96.3(3) . .
+Ge8B Ge5B Rb5 103.4(3) 2_545 .
+Ge4B Ge5B Rb5 142.1(4) 2_545 .
+Rb9 Ge5B Rb5 78.8(2) 2_545 .
+Ge1B Ge5B Rb7 74.4(4) 2_545 .
+Ge9B Ge5B Rb7 98.9(3) . .
+Ge8B Ge5B Rb7 157.2(4) 2_545 .
+Ge4B Ge5B Rb7 129.7(5) 2_545 .
+Rb9 Ge5B Rb7 78.6(2) 2_545 .
+Rb5 Ge5B Rb7 77.04(19) . .
+Ge1B Ge5B Rb11 100.7(6) 2_545 .
+Ge9B Ge5B Rb11 125.6(5) . .
+Ge8B Ge5B Rb11 67.9(4) 2_545 .
+Ge4B Ge5B Rb11 54.6(4) 2_545 .
+Rb9 Ge5B Rb11 56.2(4) 2_545 .
+Rb5 Ge5B Rb11 87.6(4) . .
+Rb7 Ge5B Rb11 134.4(4) . .
+Ge3B Ge6B Ge2B 65.6(6) 2_545 .
+Ge3B Ge6B Ge9B 105.6(4) 2_545 .
+Ge2B Ge6B Ge9B 58.9(5) . .
+Ge3B Ge6B Ge7B 59.1(5) 2_545 2_545
+Ge2B Ge6B Ge7B 107.3(5) . 2_545
+Ge9B Ge6B Ge7B 95.1(4) . 2_545
+Ge3B Ge6B Rb3 165.2(7) 2_545 .
+Ge2B Ge6B Rb3 102.6(6) . .
+Ge9B Ge6B Rb3 73.1(3) . .
+Ge7B Ge6B Rb3 135.4(6) 2_545 .
+Ge3B Ge6B Rb9 69.9(3) 2_545 3_566
+Ge2B Ge6B Rb9 97.4(6) . 3_566
+Ge9B Ge6B Rb9 153.7(6) . 3_566
+Ge7B Ge6B Rb9 103.6(4) 2_545 3_566
+Rb3 Ge6B Rb9 104.4(3) . 3_566
+Ge3B Ge6B Rb9 129.7(6) 2_545 1_545
+Ge2B Ge6B Rb9 140.8(5) . 1_545
+Ge9B Ge6B Rb9 82.0(4) . 1_545
+Ge7B Ge6B Rb9 70.8(5) 2_545 1_545
+Rb3 Ge6B Rb9 65.1(2) . 1_545
+Rb9 Ge6B Rb9 121.5(3) 3_566 1_545
+Ge8B Ge7B Ge3B 104.9(5) . .
+Ge8B Ge7B Ge4B 65.1(5) . .
+Ge3B Ge7B Ge4B 66.7(5) . .
+Ge8B Ge7B Ge6B 80.8(4) . 2
+Ge3B Ge7B Ge6B 58.5(5) . 2
+Ge4B Ge7B Ge6B 102.7(5) . 2
+Ge8B Ge7B Rb3 169.1(6) . 4_565
+Ge3B Ge7B Rb3 80.8(4) . 4_565
+Ge4B Ge7B Rb3 125.8(5) . 4_565
+Ge6B Ge7B Rb3 94.8(4) 2 4_565
+Ge8B Ge7B Rb2 122.9(5) . 2_655
+Ge3B Ge7B Rb2 89.2(4) . 2_655
+Ge4B Ge7B Rb2 71.4(3) . 2_655
+Ge6B Ge7B Rb2 145.4(6) 2 2_655
+Rb3 Ge7B Rb2 65.76(18) 4_565 2_655
+Ge8B Ge7B Rb7 71.0(4) . .
+Ge3B Ge7B Rb7 155.5(5) . .
+Ge4B Ge7B Rb7 90.5(5) . .
+Ge6B Ge7B Rb7 140.2(5) 2 .
+Rb3 Ge7B Rb7 107.7(3) 4_565 .
+Rb2 Ge7B Rb7 74.3(2) 2_655 .
+Ge8B Ge7B Rb9 69.1(4) . 2_545
+Ge3B Ge7B Rb9 128.5(4) . 2_545
+Ge4B Ge7B Rb9 134.1(4) . 2_545
+Ge6B Ge7B Rb9 70.2(4) 2 2_545
+Rb3 Ge7B Rb9 100.1(3) 4_565 2_545
+Rb2 Ge7B Rb9 138.5(4) 2_655 2_545
+Rb7 Ge7B Rb9 73.7(3) . 2_545
+Ge9B Ge8B Ge7B 100.9(4) 2 .
+Ge9B Ge8B Ge5B 60.4(3) 2 2
+Ge7B Ge8B Ge5B 108.1(5) . 2
+Ge9B Ge8B Ge4B 103.6(4) 2 .
+Ge7B Ge8B Ge4B 58.8(5) . .
+Ge5B Ge8B Ge4B 60.9(4) 2 .
+Ge9B Ge8B Rb10 122.2(4) 2 2
+Ge7B Ge8B Rb10 135.5(5) . 2
+Ge5B Ge8B Rb10 86.3(4) 2 2
+Ge4B Ge8B Rb10 97.5(5) . 2
+Ge9B Ge8B Rb12 123.5(5) 2 2
+Ge7B Ge8B Rb12 135.3(6) . 2
+Ge5B Ge8B Rb12 99.3(5) 2 2
+Ge4B Ge8B Rb12 110.2(6) . 2
+Rb10 Ge8B Rb12 14.9(3) 2 2
+Ge9B Ge8B Rb9 85.2(4) 2 2_545
+Ge7B Ge8B Rb9 73.3(4) . 2_545
+Ge5B Ge8B Rb9 145.4(4) 2 2_545
+Ge4B Ge8B Rb9 132.0(4) . 2_545
+Rb10 Ge8B Rb9 117.6(4) 2 2_545
+Rb12 Ge8B Rb9 102.7(5) 2 2_545
+Ge9B Ge8B Rb7 159.9(5) 2 .
+Ge7B Ge8B Rb7 71.2(4) . .
+Ge5B Ge8B Rb7 139.3(5) 2 .
+Ge4B Ge8B Rb7 88.3(4) . .
+Rb10 Ge8B Rb7 71.1(3) 2 .
+Rb12 Ge8B Rb7 65.0(4) 2 .
+Rb9 Ge8B Rb7 74.9(2) 2_545 .
+Ge9B Ge8B Rb11 134.3(5) 2 2
+Ge7B Ge8B Rb11 100.8(6) . 2
+Ge5B Ge8B Rb11 74.7(5) 2 2
+Ge4B Ge8B Rb11 56.9(5) . 2
+Rb10 Ge8B Rb11 41.4(4) 2 2
+Rb12 Ge8B Rb11 53.2(5) 2 2
+Rb9 Ge8B Rb11 139.8(4) 2_545 2
+Rb7 Ge8B Rb11 65.9(4) . 2
+Ge9B Ge8B Rb8 59.1(3) 2 2
+Ge7B Ge8B Rb8 140.4(5) . 2
+Ge5B Ge8B Rb8 91.5(3) 2 2
+Ge4B Ge8B Rb8 152.4(4) . 2
+Rb10 Ge8B Rb8 78.1(3) 2 2
+Rb12 Ge8B Rb8 70.7(4) 2 2
+Rb9 Ge8B Rb8 71.4(3) 2_545 2
+Rb7 Ge8B Rb8 115.1(3) . 2
+Rb11 Ge8B Rb8 117.7(4) 2 2
+Ge8B Ge9B Ge5B 61.3(4) 2_545 .
+Ge8B Ge9B Ge2B 107.8(5) 2_545 .
+Ge5B Ge9B Ge2B 73.8(5) . .
+Ge8B Ge9B Ge6B 81.9(4) 2_545 .
+Ge5B Ge9B Ge6B 106.7(3) . .
+Ge2B Ge9B Ge6B 60.0(6) . .
+Ge8B Ge9B Rb8 84.7(4) 2_545 .
+Ge5B Ge9B Rb8 106.4(3) . .
+Ge2B Ge9B Rb8 165.0(6) . .
+Ge6B Ge9B Rb8 132.0(5) . .
+Ge8B Ge9B Rb1 161.8(4) 2_545 .
+Ge5B Ge9B Rb1 107.3(4) . .
+Ge2B Ge9B Rb1 80.1(5) . .
+Ge6B Ge9B Rb1 115.9(4) . .
+Rb8 Ge9B Rb1 85.60(19) . .
+Ge8B Ge9B Rb3 119.1(4) 2_545 .
+Ge5B Ge9B Rb3 171.3(4) . .
+Ge2B Ge9B Rb3 98.4(5) . .
+Ge6B Ge9B Rb3 65.4(3) . .
+Rb8 Ge9B Rb3 82.1(2) . .
+Rb1 Ge9B Rb3 74.56(18) . .
+O4 Rb1 Ge9A 76.1(8) . 4_566
+O4 Rb1 Ge8A 119.0(8) . .
+Ge9A Rb1 Ge8A 132.37(18) 4_566 .
+O4 Rb1 Ge9B 103.6(8) . .
+Ge9A Rb1 Ge9B 133.5(2) 4_566 .
+Ge8A Rb1 Ge9B 89.29(19) . .
+O4 Rb1 Ge7A 77.4(8) . .
+Ge9A Rb1 Ge7A 124.00(18) 4_566 .
+Ge8A Rb1 Ge7A 41.59(13) . .
+Ge9B Rb1 Ge7A 100.3(2) . .
+O4 Rb1 Ge6A 107.4(8) . 4_566
+Ge9A Rb1 Ge6A 41.19(12) 4_566 4_566
+Ge8A Rb1 Ge6A 129.06(18) . 4_566
+Ge9B Rb1 Ge6A 99.71(19) . 4_566
+Ge7A Rb1 Ge6A 157.63(17) . 4_566
+O4 Rb1 Ge4A 96.1(8) . .
+Ge9A Rb1 Ge4A 96.42(15) 4_566 .
+Ge8A Rb1 Ge4A 40.92(11) . .
+Ge9B Rb1 Ge4A 129.16(19) . .
+Ge7A Rb1 Ge4A 39.52(11) . .
+Ge6A Rb1 Ge4A 118.40(16) 4_566 .
+O4 Rb1 Ge2B 70.1(8) . .
+Ge9A Rb1 Ge2B 108.0(2) 4_566 .
+Ge8A Rb1 Ge2B 119.6(2) . .
+Ge9B Rb1 Ge2B 37.4(2) . .
+Ge7A Rb1 Ge2B 107.7(3) . .
+Ge6A Rb1 Ge2B 94.2(3) 4_566 .
+Ge4A Rb1 Ge2B 147.3(3) . .
+O4 Rb1 Nb1 13.5(8) . 4_566
+Ge9A Rb1 Nb1 67.41(11) 4_566 4_566
+Ge8A Rb1 Nb1 132.56(15) . 4_566
+Ge9B Rb1 Nb1 101.72(18) . 4_566
+Ge7A Rb1 Nb1 90.97(13) . 4_566
+Ge6A Rb1 Nb1 94.71(12) 4_566 4_566
+Ge4A Rb1 Nb1 106.88(14) . 4_566
+Ge2B Rb1 Nb1 65.25(18) . 4_566
+O4 Rb1 W1 13.5(8) . 4_566
+Ge9A Rb1 W1 67.41(11) 4_566 4_566
+Ge8A Rb1 W1 132.56(15) . 4_566
+Ge9B Rb1 W1 101.72(18) . 4_566
+Ge7A Rb1 W1 90.97(13) . 4_566
+Ge6A Rb1 W1 94.71(12) 4_566 4_566
+Ge4A Rb1 W1 106.88(14) . 4_566
+Ge2B Rb1 W1 65.25(18) . 4_566
+Nb1 Rb1 W1 0.00(7) 4_566 4_566
+O4 Rb1 Rb6 42.7(8) . .
+Ge9A Rb1 Rb6 70.41(13) 4_566 .
+Ge8A Rb1 Rb6 90.88(14) . .
+Ge9B Rb1 Rb6 139.0(2) . .
+Ge7A Rb1 Rb6 56.78(13) . .
+Ge6A Rb1 Rb6 111.54(14) 4_566 .
+Ge4A Rb1 Rb6 55.91(12) . .
+Ge2B Rb1 Rb6 112.0(3) . .
+Nb1 Rb1 Rb6 51.43(9) 4_566 .
+W1 Rb1 Rb6 51.43(9) 4_566 .
+O4 Rb1 Rb7 40.7(8) . .
+Ge9A Rb1 Rb7 116.75(16) 4_566 .
+Ge8A Rb1 Rb7 90.09(15) . .
+Ge9B Rb1 Rb7 75.3(2) . .
+Ge7A Rb1 Rb7 55.47(13) . .
+Ge6A Rb1 Rb7 140.76(15) 4_566 .
+Ge4A Rb1 Rb7 91.93(15) . .
+Ge2B Rb1 Rb7 57.9(3) . .
+Nb1 Rb1 Rb7 50.32(10) 4_566 .
+W1 Rb1 Rb7 50.32(10) 4_566 .
+Rb6 Rb1 Rb7 63.73(14) . .
+Ge3A Rb2 Ge5A 108.88(17) 2_645 .
+Ge3A Rb2 Ge2A 91.52(17) 2_645 4_566
+Ge5A Rb2 Ge2A 136.06(19) . 4_566
+Ge3A Rb2 Ge7B 123.1(3) 2_645 2_645
+Ge5A Rb2 Ge7B 104.9(2) . 2_645
+Ge2A Rb2 Ge7B 94.6(2) 4_566 2_645
+Ge3A Rb2 Ge4A 120.83(17) 2_645 .
+Ge5A Rb2 Ge4A 43.21(11) . .
+Ge2A Rb2 Ge4A 92.87(16) 4_566 .
+Ge7B Rb2 Ge4A 115.3(2) 2_645 .
+Ge3A Rb2 Ge4B 156.0(3) 2_645 2_645
+Ge5A Rb2 Ge4B 72.05(18) . 2_645
+Ge2A Rb2 Ge4B 104.2(3) 4_566 2_645
+Ge7B Rb2 Ge4B 38.9(2) 2_645 2_645
+Ge4A Rb2 Ge4B 77.0(2) . 2_645
+Ge3A Rb2 Ge8A 84.40(14) 2_645 .
+Ge5A Rb2 Ge8A 39.18(11) . .
+Ge2A Rb2 Ge8A 109.38(17) 4_566 .
+Ge7B Rb2 Ge8A 143.5(2) 2_645 .
+Ge4A Rb2 Ge8A 39.18(11) . .
+Ge4B Rb2 Ge8A 106.6(2) 2_645 .
+Ge3A Rb2 Ge7A 40.00(12) 2_645 2_645
+Ge5A Rb2 Ge7A 102.08(15) . 2_645
+Ge2A Rb2 Ge7A 117.43(16) 4_566 2_645
+Ge7B Rb2 Ge7A 89.2(3) 2_645 2_645
+Ge4A Rb2 Ge7A 139.95(16) . 2_645
+Ge4B Rb2 Ge7A 116.0(3) 2_645 2_645
+Ge8A Rb2 Ge7A 102.71(15) . 2_645
+Ge3A Rb2 Rb3 85.76(15) 2_645 3_656
+Ge5A Rb2 Rb3 160.04(18) . 3_656
+Ge2A Rb2 Rb3 53.77(11) 4_566 3_656
+Ge7B Rb2 Rb3 55.17(17) 2_645 3_656
+Ge4A Rb2 Rb3 139.65(17) . 3_656
+Ge4B Rb2 Rb3 89.03(18) 2_645 3_656
+Ge8A Rb2 Rb3 160.23(18) . 3_656
+Ge7A Rb2 Rb3 80.17(14) 2_645 3_656
+Ge3A Rb2 Ge6A 37.94(11) 2_645 2_645
+Ge5A Rb2 Ge6A 137.55(17) . 2_645
+Ge2A Rb2 Ge6A 81.19(14) 4_566 2_645
+Ge7B Rb2 Ge6A 87.5(2) 2_645 2_645
+Ge4A Rb2 Ge6A 156.96(18) . 2_645
+Ge4B Rb2 Ge6A 126.0(2) 2_645 2_645
+Ge8A Rb2 Ge6A 122.29(16) . 2_645
+Ge7A Rb2 Ge6A 36.53(10) 2_645 2_645
+Rb3 Rb2 Ge6A 50.63(11) 3_656 2_645
+Ge3A Rb2 Rb4 140.27(19) 2_645 2_645
+Ge5A Rb2 Rb4 93.09(18) . 2_645
+Ge2A Rb2 Rb4 51.72(14) 4_566 2_645
+Ge7B Rb2 Rb4 79.7(3) 2_645 2_645
+Ge4A Rb2 Rb4 56.89(15) . 2_645
+Ge4B Rb2 Rb4 61.8(3) 2_645 2_645
+Ge8A Rb2 Rb4 93.65(18) . 2_645
+Ge7A Rb2 Rb4 163.16(19) 2_645 2_645
+Rb3 Rb2 Rb4 83.08(16) 3_656 2_645
+Ge6A Rb2 Rb4 129.28(17) 2_645 2_645
+Ge3A Rb2 Rb1 77.66(14) 2_645 .
+Ge5A Rb2 Rb1 84.19(13) . .
+Ge2A Rb2 Rb1 62.12(12) 4_566 .
+Ge7B Rb2 Rb1 150.8(3) 2_645 .
+Ge4A Rb2 Rb1 53.70(12) . .
+Ge4B Rb2 Rb1 125.7(3) 2_645 .
+Ge8A Rb2 Rb1 48.13(10) . .
+Ge7A Rb2 Rb1 116.42(15) 2_645 .
+Rb3 Rb2 Rb1 112.86(14) 3_656 .
+Ge6A Rb2 Rb1 104.65(14) 2_645 .
+Rb4 Rb2 Rb1 71.98(14) 2_645 .
+Ge6A Rb3 Ge6B 113.9(3) 4_566 .
+Ge6A Rb3 Ge2A 94.12(17) 4_566 2_645
+Ge6B Rb3 Ge2A 152.0(3) . 2_645
+Ge6A Rb3 Ge1A 125.37(18) 4_566 2_645
+Ge6B Rb3 Ge1A 114.4(3) . 2_645
+Ge2A Rb3 Ge1A 41.57(12) 2_645 2_645
+Ge6A Rb3 Ge7B 100.7(2) 4_566 4_566
+Ge6B Rb3 Ge7B 74.3(3) . 4_566
+Ge2A Rb3 Ge7B 101.6(3) 2_645 4_566
+Ge1A Rb3 Ge7B 115.6(3) 2_645 4_566
+Ge6A Rb3 Ge9B 105.0(2) 4_566 .
+Ge6B Rb3 Ge9B 41.47(17) . .
+Ge2A Rb3 Ge9B 133.1(2) 2_645 .
+Ge1A Rb3 Ge9B 94.7(2) 2_645 .
+Ge7B Rb3 Ge9B 115.7(2) 4_566 .
+Ge6A Rb3 Ge3A 87.30(16) 4_566 2_645
+Ge6B Rb3 Ge3A 134.0(2) . 2_645
+Ge2A Rb3 Ge3A 42.82(11) 2_645 2_645
+Ge1A Rb3 Ge3A 39.86(12) 2_645 2_645
+Ge7B Rb3 Ge3A 144.3(3) 4_566 2_645
+Ge9B Rb3 Ge3A 95.08(17) . 2_645
+Ge6A Rb3 Rb9 173.5(2) 4_566 1_545
+Ge6B Rb3 Rb9 61.7(3) . 1_545
+Ge2A Rb3 Rb9 90.3(2) 2_645 1_545
+Ge1A Rb3 Rb9 56.40(17) 2_645 1_545
+Ge7B Rb3 Rb9 83.0(2) 4_566 1_545
+Ge9B Rb3 Rb9 68.5(2) . 1_545
+Ge3A Rb3 Rb9 92.81(17) 2_645 1_545
+Ge6A Rb3 Rb2 66.17(13) 4_566 3_656
+Ge6B Rb3 Rb2 131.4(2) . 3_656
+Ge2A Rb3 Rb2 59.14(12) 2_645 3_656
+Ge1A Rb3 Rb2 98.41(15) 2_645 3_656
+Ge7B Rb3 Rb2 59.07(19) 4_566 3_656
+Ge9B Rb3 Rb2 166.8(2) . 3_656
+Ge3A Rb3 Rb2 94.26(15) 2_645 3_656
+Rb9 Rb3 Rb2 120.2(2) 1_545 3_656
+Ge6A Rb3 Ge3B 130.3(2) 4_566 4_566
+Ge6B Rb3 Ge3B 84.0(3) . 4_566
+Ge2A Rb3 Ge3B 77.33(16) 2_645 4_566
+Ge1A Rb3 Ge3B 78.61(18) 2_645 4_566
+Ge7B Rb3 Ge3B 37.3(3) 4_566 4_566
+Ge9B Rb3 Ge3B 116.4(2) . 4_566
+Ge3A Rb3 Ge3B 113.68(17) 2_645 4_566
+Rb9 Rb3 Ge3B 55.3(2) 1_545 4_566
+Rb2 Rb3 Ge3B 67.73(19) 3_656 4_566
+Ge6A Rb3 Rb1 55.80(12) 4_566 .
+Ge6B Rb3 Rb1 82.5(2) . .
+Ge2A Rb3 Rb1 115.56(16) 2_645 .
+Ge1A Rb3 Rb1 107.99(15) 2_645 .
+Ge7B Rb3 Rb1 135.9(3) 4_566 .
+Ge9B Rb3 Rb1 52.30(16) . .
+Ge3A Rb3 Rb1 76.91(13) 2_645 .
+Rb9 Rb3 Rb1 117.93(18) 1_545 .
+Rb2 Rb3 Rb1 121.47(14) 3_656 .
+Ge3B Rb3 Rb1 166.49(18) 4_566 .
+Ge6A Rb3 Rb5 49.90(13) 4_566 4_566
+Ge6B Rb3 Rb5 65.3(3) . 4_566
+Ge2A Rb3 Rb5 141.85(16) 2_645 4_566
+Ge1A Rb3 Rb5 166.78(18) 2_645 4_566
+Ge7B Rb3 Rb5 77.4(3) 4_566 4_566
+Ge9B Rb3 Rb5 76.5(2) . 4_566
+Ge3A Rb3 Rb5 129.99(16) 2_645 4_566
+Rb9 Rb3 Rb5 126.7(2) 1_545 4_566
+Rb2 Rb3 Rb5 90.36(14) 3_656 4_566
+Ge3B Rb3 Rb5 114.05(19) 4_566 4_566
+Rb1 Rb3 Rb5 58.82(11) . 4_566
+O1 Rb4 O2 54.4(9) 4_575 4_575
+O1 Rb4 Ge3B 141.9(7) 4_575 .
+O2 Rb4 Ge3B 91.9(7) 4_575 .
+O1 Rb4 Ge2A 125.4(6) 4_575 3_665
+O2 Rb4 Ge2A 125.5(7) 4_575 3_665
+Ge3B Rb4 Ge2A 87.1(3) . 3_665
+O1 Rb4 Rb11 98.1(7) 4_575 3_565
+O2 Rb4 Rb11 48.3(7) 4_575 3_565
+Ge3B Rb4 Rb11 61.8(4) . 3_565
+Ge2A Rb4 Rb11 85.2(4) 3_665 3_565
+O1 Rb4 Nb1 26.5(6) 4_575 1_565
+O2 Rb4 Nb1 28.0(6) 4_575 1_565
+Ge3B Rb4 Nb1 117.4(3) . 1_565
+Ge2A Rb4 Nb1 132.7(2) 3_665 1_565
+Rb11 Rb4 Nb1 74.4(4) 3_565 1_565
+O1 Rb4 W1 26.5(6) 4_575 1_565
+O2 Rb4 W1 28.0(6) 4_575 1_565
+Ge3B Rb4 W1 117.4(3) . 1_565
+Ge2A Rb4 W1 132.7(2) 3_665 1_565
+Rb11 Rb4 W1 74.4(4) 3_565 1_565
+Nb1 Rb4 W1 0.00(8) 1_565 1_565
+O1 Rb4 Ge4A 83.4(6) 4_575 2_655
+O2 Rb4 Ge4A 131.0(7) 4_575 2_655
+Ge3B Rb4 Ge4A 114.1(3) . 2_655
+Ge2A Rb4 Ge4A 97.9(2) 3_665 2_655
+Rb11 Rb4 Ge4A 174.9(4) 3_565 2_655
+Nb1 Rb4 Ge4A 106.10(19) 1_565 2_655
+W1 Rb4 Ge4A 106.10(19) 1_565 2_655
+O1 Rb4 Ge1B 105.0(7) 4_575 .
+O2 Rb4 Ge1B 75.1(7) 4_575 .
+Ge3B Rb4 Ge1B 42.5(2) . .
+Ge2A Rb4 Ge1B 128.7(2) 3_665 .
+Rb11 Rb4 Ge1B 78.5(4) 3_565 .
+Nb1 Rb4 Ge1B 88.8(3) 1_565 .
+W1 Rb4 Ge1B 88.8(3) 1_565 .
+Ge4A Rb4 Ge1B 96.3(3) 2_655 .
+O1 Rb4 Ge5A 90.3(6) 4_575 3_665
+O2 Rb4 Ge5A 80.7(7) 4_575 3_665
+Ge3B Rb4 Ge5A 102.3(3) . 3_665
+Ge2A Rb4 Ge5A 46.72(14) 3_665 3_665
+Rb11 Rb4 Ge5A 57.1(4) 3_565 3_665
+Nb1 Rb4 Ge5A 87.10(18) 1_565 3_665
+W1 Rb4 Ge5A 87.10(18) 1_565 3_665
+Ge4A Rb4 Ge5A 127.9(2) 2_655 3_665
+Ge1B Rb4 Ge5A 134.9(3) . 3_665
+O1 Rb4 Ge9A 86.0(6) 4_575 3_665
+O2 Rb4 Ge9A 108.0(7) 4_575 3_665
+Ge3B Rb4 Ge9A 125.2(3) . 3_665
+Ge2A Rb4 Ge9A 39.59(12) 3_665 3_665
+Rb11 Rb4 Ge9A 94.6(4) 3_565 3_665
+Nb1 Rb4 Ge9A 99.25(16) 1_565 3_665
+W1 Rb4 Ge9A 99.25(16) 1_565 3_665
+Ge4A Rb4 Ge9A 90.4(2) 2_655 3_665
+Ge1B Rb4 Ge9A 167.6(3) . 3_665
+Ge5A Rb4 Ge9A 37.47(11) 3_665 3_665
+O1 Rb4 Ge4B 127.8(7) 4_575 .
+O2 Rb4 Ge4B 110.7(7) 4_575 .
+Ge3B Rb4 Ge4B 41.9(2) . .
+Ge2A Rb4 Ge4B 104.2(2) 3_665 .
+Rb11 Rb4 Ge4B 101.4(4) 3_565 .
+Nb1 Rb4 Ge4B 121.2(2) 1_565 .
+W1 Rb4 Ge4B 121.2(2) 1_565 .
+Ge4A Rb4 Ge4B 73.9(2) 2_655 .
+Ge1B Rb4 Ge4B 35.6(3) . .
+Ge5A Rb4 Ge4B 140.4(2) 3_665 .
+Ge9A Rb4 Ge4B 139.1(3) 3_665 .
+O3 Rb5 Ge6A 116.0(9) . .
+O3 Rb5 Ge5B 96.8(9) . .
+Ge6A Rb5 Ge5B 136.9(3) . .
+O3 Rb5 Ge2B 76.2(10) . 4_565
+Ge6A Rb5 Ge2B 105.9(3) . 4_565
+Ge5B Rb5 Ge2B 108.5(4) . 4_565
+O3 Rb5 Ge7A 125.0(9) . .
+Ge6A Rb5 Ge7A 40.53(12) . .
+Ge5B Rb5 Ge7A 98.2(2) . .
+Ge2B Rb5 Ge7A 143.9(3) 4_565 .
+O3 Rb5 Ge8A 85.5(9) . .
+Ge6A Rb5 Ge8A 56.12(13) . .
+Ge5B Rb5 Ge8A 103.0(2) . .
+Ge2B Rb5 Ge8A 145.0(4) 4_565 .
+Ge7A Rb5 Ge8A 39.55(13) . .
+O3 Rb5 Ge9A 76.9(9) . .
+Ge6A Rb5 Ge9A 40.50(12) . .
+Ge5B Rb5 Ge9A 140.5(2) . .
+Ge2B Rb5 Ge9A 107.6(3) 4_565 .
+Ge7A Rb5 Ge9A 58.66(13) . .
+Ge8A Rb5 Ge9A 38.29(11) . .
+O3 Rb5 Rb10 47.8(9) . .
+Ge6A Rb5 Rb10 155.6(3) . .
+Ge5B Rb5 Rb10 67.4(2) . .
+Ge2B Rb5 Rb10 56.1(3) 4_565 .
+Ge7A Rb5 Rb10 159.9(3) . .
+Ge8A Rb5 Rb10 127.5(3) . .
+Ge9A Rb5 Rb10 123.7(3) . .
+O3 Rb5 W1 16.1(9) . .
+Ge6A Rb5 W1 102.56(16) . .
+Ge5B Rb5 W1 112.8(2) . .
+Ge2B Rb5 W1 70.2(3) 4_565 .
+Ge7A Rb5 W1 121.16(17) . .
+Ge8A Rb5 W1 83.99(15) . .
+Ge9A Rb5 W1 66.11(12) . .
+Rb10 Rb5 W1 57.7(2) . .
+O3 Rb5 Rb8 41.5(9) . .
+Ge6A Rb5 Rb8 108.59(19) . .
+Ge5B Rb5 Rb8 77.33(19) . .
+Ge2B Rb5 Rb8 117.1(3) 4_565 .
+Ge7A Rb5 Rb8 91.73(19) . .
+Ge8A Rb5 Rb8 55.80(15) . .
+Ge9A Rb5 Rb8 72.48(16) . .
+Rb10 Rb5 Rb8 72.0(2) . .
+W1 Rb5 Rb8 52.05(12) . .
+O3 Rb5 Rb12 37.5(10) . .
+Ge6A Rb5 Rb12 150.5(3) . .
+Ge5B Rb5 Rb12 70.9(3) . .
+Ge2B Rb5 Rb12 62.0(4) 4_565 .
+Ge7A Rb5 Rb12 152.9(4) . .
+Ge8A Rb5 Rb12 117.0(4) . .
+Ge9A Rb5 Rb12 114.1(3) . .
+Rb10 Rb5 Rb12 10.9(3) . .
+W1 Rb5 Rb12 48.7(3) . .
+Rb8 Rb5 Rb12 62.0(3) . .
+O1 Rb6 O4 132.6(10) 3_666 .
+O1 Rb6 O1 103.0(7) 3_666 .
+O4 Rb6 O1 54.1(9) . .
+O1 Rb6 Nb1 125.8(6) 3_666 4_566
+O4 Rb6 Nb1 27.2(7) . 4_566
+O1 Rb6 Nb1 28.3(5) . 4_566
+O1 Rb6 W1 125.8(6) 3_666 4_566
+O4 Rb6 W1 27.2(7) . 4_566
+O1 Rb6 W1 28.3(5) . 4_566
+Nb1 Rb6 W1 0.00(7) 4_566 4_566
+O1 Rb6 Ge5A 114.4(6) 3_666 2_655
+O4 Rb6 Ge5A 104.2(7) . 2_655
+O1 Rb6 Ge5A 83.6(5) . 2_655
+Nb1 Rb6 Ge5A 88.66(13) 4_566 2_655
+W1 Rb6 Ge5A 88.66(13) 4_566 2_655
+O1 Rb6 Ge7A 121.0(6) 3_666 .
+O4 Rb6 Ge7A 73.4(8) . .
+O1 Rb6 Ge7A 126.7(5) . .
+Nb1 Rb6 Ge7A 98.40(14) 4_566 .
+W1 Rb6 Ge7A 98.40(14) 4_566 .
+Ge5A Rb6 Ge7A 102.12(17) 2_655 .
+O1 Rb6 Ge4A 82.5(6) 3_666 .
+O4 Rb6 Ge4A 93.4(7) . .
+O1 Rb6 Ge4A 140.9(5) . .
+Nb1 Rb6 Ge4A 120.25(16) 4_566 .
+W1 Rb6 Ge4A 120.25(16) 4_566 .
+Ge5A Rb6 Ge4A 129.96(18) 2_655 .
+Ge7A Rb6 Ge4A 39.19(11) . .
+O1 Rb6 Ge9A 77.7(6) 3_666 2_655
+O4 Rb6 Ge9A 127.0(7) . 2_655
+O1 Rb6 Ge9A 80.2(5) . 2_655
+Nb1 Rb6 Ge9A 101.36(14) 4_566 2_655
+W1 Rb6 Ge9A 101.36(14) 4_566 2_655
+Ge5A Rb6 Ge9A 38.52(11) 2_655 2_655
+Ge7A Rb6 Ge9A 134.37(19) . 2_655
+Ge4A Rb6 Ge9A 137.92(18) . 2_655
+O1 Rb6 Rb6 57.8(6) 3_666 3_666
+O4 Rb6 Rb6 89.0(8) . 3_666
+O1 Rb6 Rb6 45.1(5) . 3_666
+Nb1 Rb6 Rb6 70.17(15) 4_566 3_666
+W1 Rb6 Rb6 70.17(15) 4_566 3_666
+Ge5A Rb6 Rb6 101.72(19) 2_655 3_666
+Ge7A Rb6 Rb6 153.2(3) . 3_666
+Ge4A Rb6 Rb6 125.4(2) . 3_666
+Ge9A Rb6 Rb6 72.38(16) 2_655 3_666
+O1 Rb6 Rb8 50.0(6) 3_666 2_655
+O4 Rb6 Rb8 156.4(8) . 2_655
+O1 Rb6 Rb8 147.0(5) . 2_655
+Nb1 Rb6 Rb8 175.21(16) 4_566 2_655
+W1 Rb6 Rb8 175.21(16) 4_566 2_655
+Ge5A Rb6 Rb8 91.43(18) 2_655 2_655
+Ge7A Rb6 Rb8 86.26(14) . 2_655
+Ge4A Rb6 Rb8 63.01(14) . 2_655
+Ge9A Rb6 Rb8 75.89(15) 2_655 2_655
+Rb6 Rb6 Rb8 105.14(19) 3_666 2_655
+O1 Rb6 Rb1 108.7(6) 3_666 .
+O4 Rb6 Rb1 39.1(7) . .
+O1 Rb6 Rb1 85.4(5) . .
+Nb1 Rb6 Rb1 64.09(10) 4_566 .
+W1 Rb6 Rb1 64.09(10) 4_566 .
+Ge5A Rb6 Rb1 136.92(15) 2_655 .
+Ge7A Rb6 Rb1 54.35(12) . .
+Ge4A Rb6 Rb1 56.75(12) . .
+Ge9A Rb6 Rb1 165.33(17) 2_655 .
+Rb6 Rb6 Rb1 99.4(2) 3_666 .
+Rb8 Rb6 Rb1 118.47(16) 2_655 .
+O4 Rb7 O2 56.2(11) . .
+O4 Rb7 Nb1 27.7(8) . 4_566
+O2 Rb7 Nb1 28.7(7) . 4_566
+O4 Rb7 W1 27.7(8) . 4_566
+O2 Rb7 W1 28.7(7) . 4_566
+Nb1 Rb7 W1 0.00(9) 4_566 4_566
+O4 Rb7 Ge7A 75.1(8) . .
+O2 Rb7 Ge7A 123.8(8) . .
+Nb1 Rb7 Ge7A 100.54(15) 4_566 .
+W1 Rb7 Ge7A 100.54(15) 4_566 .
+O4 Rb7 Ge5B 106.3(8) . .
+O2 Rb7 Ge5B 123.6(8) . .
+Nb1 Rb7 Ge5B 115.6(2) 4_566 .
+W1 Rb7 Ge5B 115.6(2) 4_566 .
+Ge7A Rb7 Ge5B 93.7(2) . .
+O4 Rb7 Ge8B 145.8(8) . .
+O2 Rb7 Ge8B 90.0(8) . .
+Nb1 Rb7 Ge8B 118.7(2) 4_566 .
+W1 Rb7 Ge8B 118.7(2) 4_566 .
+Ge7A Rb7 Ge8B 129.3(2) . .
+Ge5B Rb7 Ge8B 96.5(3) . .
+O4 Rb7 Ge7B 152.8(8) . .
+O2 Rb7 Ge7B 118.5(8) . .
+Nb1 Rb7 Ge7B 142.9(3) 4_566 .
+W1 Rb7 Ge7B 142.9(3) 4_566 .
+Ge7A Rb7 Ge7B 91.72(19) . .
+Ge5B Rb7 Ge7B 98.1(3) . .
+Ge8B Rb7 Ge7B 37.74(18) . .
+O4 Rb7 Ge1B 103.6(8) . 2_545
+O2 Rb7 Ge1B 90.7(8) . 2_545
+Nb1 Rb7 Ge1B 95.7(2) 4_566 2_545
+W1 Rb7 Ge1B 95.7(2) 4_566 2_545
+Ge7A Rb7 Ge1B 129.6(3) . 2_545
+Ge5B Rb7 Ge1B 37.1(2) . 2_545
+Ge8B Rb7 Ge1B 79.5(3) . 2_545
+Ge7B Rb7 Ge1B 103.2(3) . 2_545
+O4 Rb7 Rb12 97.3(8) . 2
+O2 Rb7 Rb12 45.3(8) . 2
+Nb1 Rb7 Rb12 70.5(3) 4_566 2
+W1 Rb7 Rb12 70.5(3) 4_566 2
+Ge7A Rb7 Rb12 168.0(4) . 2
+Ge5B Rb7 Rb12 97.3(4) . 2
+Ge8B Rb7 Rb12 53.9(4) . 2
+Ge7B Rb7 Rb12 91.3(4) . 2
+Ge1B Rb7 Rb12 60.7(4) 2_545 2
+O4 Rb7 Ge2B 69.3(8) . .
+O2 Rb7 Ge2B 82.0(7) . .
+Nb1 Rb7 Ge2B 71.17(17) 4_566 .
+W1 Rb7 Ge2B 71.17(17) 4_566 .
+Ge7A Rb7 Ge2B 107.0(3) . .
+Ge5B Rb7 Ge2B 44.76(18) . .
+Ge8B Rb7 Ge2B 114.9(4) . .
+Ge7B Rb7 Ge2B 138.0(3) . .
+Ge1B Rb7 Ge2B 36.5(3) 2_545 .
+Rb12 Rb7 Ge2B 78.1(4) 2 .
+O4 Rb7 Rb11 90.4(8) . 2
+O2 Rb7 Rb11 43.0(8) . 2
+Nb1 Rb7 Rb11 67.5(3) 4_566 2
+W1 Rb7 Rb11 67.5(3) 4_566 2
+Ge7A Rb7 Rb11 121.8(4) . 2
+Ge5B Rb7 Rb11 143.9(3) . 2
+Ge8B Rb7 Rb11 57.3(4) . 2
+Ge7B Rb7 Rb11 76.2(4) . 2
+Ge1B Rb7 Rb11 108.6(3) 2_545 2
+Rb12 Rb7 Rb11 48.1(5) 2 2
+Ge2B Rb7 Rb11 119.8(4) . 2
+O3 Rb8 O1 55.8(10) . 4_565
+O3 Rb8 Ge9B 96.8(8) . .
+O1 Rb8 Ge9B 152.5(6) 4_565 .
+O3 Rb8 W1 28.0(8) . .
+O1 Rb8 W1 28.6(5) 4_565 .
+Ge9B Rb8 W1 124.1(2) . .
+O3 Rb8 Ge3A 158.6(8) . 2_645
+O1 Rb8 Ge3A 108.1(6) 4_565 2_645
+Ge9B Rb8 Ge3A 98.8(2) . 2_645
+W1 Rb8 Ge3A 136.48(18) . 2_645
+O3 Rb8 Ge1A 152.5(9) . 2_645
+O1 Rb8 Ge1A 109.2(5) 4_565 2_645
+Ge9B Rb8 Ge1A 95.1(2) . 2_645
+W1 Rb8 Ge1A 130.8(2) . 2_645
+Ge3A Rb8 Ge1A 39.59(12) 2_645 2_645
+O3 Rb8 Ge8A 82.5(8) . .
+O1 Rb8 Ge8A 90.2(5) 4_565 .
+Ge9B Rb8 Ge8A 86.9(2) . .
+W1 Rb8 Ge8A 90.60(15) . .
+Ge3A Rb8 Ge8A 83.69(18) 2_645 .
+Ge1A Rb8 Ge8A 123.0(2) 2_645 .
+O3 Rb8 Rb6 89.6(8) . 2_645
+O1 Rb8 Rb6 44.0(5) 4_565 2_645
+Ge9B Rb8 Rb6 150.7(3) . 2_645
+W1 Rb8 Rb6 68.72(12) . 2_645
+Ge3A Rb8 Rb6 69.72(15) 2_645 2_645
+Ge1A Rb8 Rb6 92.06(16) 2_645 2_645
+Ge8A Rb8 Rb6 65.51(16) . 2_645
+O3 Rb8 Ge4A 129.6(8) . 2_645
+O1 Rb8 Ge4A 74.8(5) 4_565 2_645
+Ge9B Rb8 Ge4A 131.6(2) . 2_645
+W1 Rb8 Ge4A 101.67(15) . 2_645
+Ge3A Rb8 Ge4A 42.30(11) 2_645 2_645
+Ge1A Rb8 Ge4A 37.48(11) 2_645 2_645
+Ge8A Rb8 Ge4A 109.34(19) . 2_645
+Rb6 Rb8 Ge4A 56.37(12) 2_645 2_645
+O3 Rb8 Ge8B 76.3(8) . 2_545
+O1 Rb8 Ge8B 123.5(6) 4_565 2_545
+Ge9B Rb8 Ge8B 36.27(18) . 2_545
+W1 Rb8 Ge8B 97.46(19) . 2_545
+Ge3A Rb8 Ge8B 124.5(2) 2_645 2_545
+Ge1A Rb8 Ge8B 99.8(2) 2_645 2_545
+Ge8A Rb8 Ge8B 113.1(2) . 2_545
+Rb6 Rb8 Ge8B 165.8(2) 2_645 2_545
+Ge4A Rb8 Ge8B 132.9(2) 2_645 2_545
+O3 Rb8 Rb5 36.6(8) . .
+O1 Rb8 Rb5 84.7(5) 4_565 .
+Ge9B Rb8 Rb5 71.0(2) . .
+W1 Rb8 Rb5 61.66(12) . .
+Ge3A Rb8 Rb5 138.8(2) 2_645 .
+Ge1A Rb8 Rb5 166.04(19) 2_645 .
+Ge8A Rb8 Rb5 56.63(15) . .
+Rb6 Rb8 Rb5 99.45(16) 2_645 .
+Ge4A Rb8 Rb5 155.51(18) 2_645 .
+Ge8B Rb8 Rb5 70.06(19) 2_545 .
+Ge5B Rb9 Rb11 69.5(4) 2 2
+Ge5B Rb9 Ge1A 107.8(3) 2 2_655
+Rb11 Rb9 Ge1A 63.0(4) 2 2_655
+Ge5B Rb9 Ge3B 113.7(4) 2 4_576
+Rb11 Rb9 Ge3B 58.6(4) 2 4_576
+Ge1A Rb9 Ge3B 83.4(2) 2_655 4_576
+Ge5B Rb9 Ge6B 115.0(3) 2 3_566
+Rb11 Rb9 Ge6B 91.8(4) 2 3_566
+Ge1A Rb9 Ge6B 117.4(3) 2_655 3_566
+Ge3B Rb9 Ge6B 38.63(17) 4_576 3_566
+Ge5B Rb9 Ge8B 103.6(3) 2 2
+Rb11 Rb9 Ge8B 165.5(4) 2 2
+Ge1A Rb9 Ge8B 109.1(3) 2_655 2
+Ge3B Rb9 Ge8B 134.8(4) 4_576 2
+Ge6B Rb9 Ge8B 102.7(3) 3_566 2
+Ge5B Rb9 Ge6B 142.5(3) 2 1_565
+Rb11 Rb9 Ge6B 141.5(4) 2 1_565
+Ge1A Rb9 Ge6B 106.8(2) 2_655 1_565
+Ge3B Rb9 Ge6B 84.1(3) 4_576 1_565
+Ge6B Rb9 Ge6B 58.5(3) 3_566 1_565
+Ge8B Rb9 Ge6B 50.8(2) 2 1_565
+Ge5B Rb9 Ge7B 103.6(3) 2 2
+Rb11 Rb9 Ge7B 154.8(4) 2 2
+Ge1A Rb9 Ge7B 139.7(3) 2_655 2
+Ge3B Rb9 Ge7B 106.4(3) 4_576 2
+Ge6B Rb9 Ge7B 68.7(3) 3_566 2
+Ge8B Rb9 Ge7B 37.7(2) 2 2
+Ge6B Rb9 Ge7B 39.0(2) 1_565 2
+Ge5B Rb9 Ge1B 38.85(19) 2 .
+Rb11 Rb9 Ge1B 86.1(5) 2 .
+Ge1A Rb9 Ge1B 86.3(3) 2_655 .
+Ge3B Rb9 Ge1B 144.1(4) 4_576 .
+Ge6B Rb9 Ge1B 152.2(3) 3_566 .
+Ge8B Rb9 Ge1B 81.0(3) 2 .
+Ge6B Rb9 Ge1B 131.8(4) 1_565 .
+Ge7B Rb9 Ge1B 103.6(4) 2 .
+Ge5B Rb9 Rb3 164.1(4) 2 1_565
+Rb11 Rb9 Rb3 97.6(4) 2 1_565
+Ge1A Rb9 Rb3 56.90(14) 2_655 1_565
+Ge3B Rb9 Rb3 63.6(3) 4_576 1_565
+Ge6B Rb9 Rb3 73.3(3) 3_566 1_565
+Ge8B Rb9 Rb3 86.7(3) 2 1_565
+Ge6B Rb9 Rb3 53.2(2) 1_565 1_565
+Ge7B Rb9 Rb3 92.0(3) 2 1_565
+Ge1B Rb9 Rb3 134.5(3) . 1_565
+Ge5B Rb9 Ge4B 40.51(19) 2 .
+Rb11 Rb9 Ge4B 50.7(4) 2 .
+Ge1A Rb9 Ge4B 67.3(2) 2_655 .
+Ge3B Rb9 Ge4B 109.3(4) 4_576 .
+Ge6B Rb9 Ge4B 137.5(4) 3_566 .
+Ge8B Rb9 Ge4B 115.7(3) 2 .
+Ge6B Rb9 Ge4B 164.0(4) 1_565 .
+Ge7B Rb9 Ge4B 137.6(3) 2 .
+Ge1B Rb9 Ge4B 35.9(3) . .
+Rb3 Rb9 Ge4B 124.1(2) 1_565 .
+Ge5B Rb9 Rb5 51.28(16) 2 2
+Rb11 Rb9 Rb5 80.8(4) 2 2
+Ge1A Rb9 Rb5 143.6(3) 2_655 2
+Ge3B Rb9 Rb5 80.9(3) 4_576 2
+Ge6B Rb9 Rb5 64.8(2) 3_566 2
+Ge8B Rb9 Rb5 105.2(3) 2 2
+Ge6B Rb9 Rb5 104.0(3) 1_565 2
+Ge7B Rb9 Rb5 76.5(2) 2 2
+Ge1B Rb9 Rb5 87.5(2) . 2
+Rb3 Rb9 Rb5 138.0(2) 1_565 2
+Ge4B Rb9 Rb5 87.3(2) . 2
+Rb12 Rb10 Rb11 134.5(18) . .
+Rb12 Rb10 O2 80.8(18) . 2_545
+Rb11 Rb10 O2 62.9(9) . 2_545
+Rb12 Rb10 O3 74.7(18) . .
+Rb11 Rb10 O3 143.2(11) . .
+O2 Rb10 O3 153.7(13) 2_545 .
+Rb12 Rb10 Rb12 52.0(18) . 3
+Rb11 Rb10 Rb12 116.6(7) . 3
+O2 Rb10 Rb12 57.3(9) 2_545 3
+O3 Rb10 Rb12 99.0(10) . 3
+Rb12 Rb10 Ge8B 85.2(17) . 2_545
+Rb11 Rb10 Ge8B 76.5(6) . 2_545
+O2 Rb10 Ge8B 100.9(9) 2_545 2_545
+O3 Rb10 Ge8B 86.5(9) . 2_545
+Rb12 Rb10 Ge8B 132.3(7) 3 2_545
+Rb12 Rb10 Ge2B 126.4(18) . 4_565
+Rb11 Rb10 Ge2B 94.8(7) . 4_565
+O2 Rb10 Ge2B 114.8(9) 2_545 4_565
+O3 Rb10 Ge2B 74.1(9) . 4_565
+Rb12 Rb10 Ge2B 92.0(5) 3 4_565
+Ge8B Rb10 Ge2B 134.3(5) 2_545 4_565
+Rb12 Rb10 W1 60.1(16) . .
+Rb11 Rb10 W1 165.0(6) . .
+O2 Rb10 W1 130.2(9) 2_545 .
+O3 Rb10 W1 25.2(8) . .
+Rb12 Rb10 W1 73.9(4) 3 .
+Ge8B Rb10 W1 104.8(4) 2_545 .
+Ge2B Rb10 W1 73.5(4) 4_565 .
+Rb12 Rb10 Rb5 113.8(17) . .
+Rb11 Rb10 Rb5 103.5(6) . .
+O2 Rb10 Rb5 165.3(9) 2_545 .
+O3 Rb10 Rb5 40.6(8) . .
+Rb12 Rb10 Rb5 132.2(5) 3 .
+Ge8B Rb10 Rb5 79.8(3) 2_545 .
+Ge2B Rb10 Rb5 58.4(3) 4_565 .
+W1 Rb10 Rb5 62.6(2) . .
+Rb12 Rb10 Rb10 41.7(15) . 3
+Rb11 Rb10 Rb10 122.5(7) . 3
+O2 Rb10 Rb10 60.5(8) 2_545 3
+O3 Rb10 Rb10 94.2(9) . 3
+Rb12 Rb10 Rb10 10.3(4) 3 3
+Ge8B Rb10 Rb10 123.4(5) 2_545 3
+Ge2B Rb10 Rb10 99.4(5) 4_565 3
+W1 Rb10 Rb10 69.7(3) . 3
+Rb5 Rb10 Rb10 131.2(5) . 3
+Rb12 Rb10 Ge1B 114.3(17) . 3_565
+Rb11 Rb10 Ge1B 85.4(6) . 3_565
+O2 Rb10 Ge1B 78.1(8) 2_545 3_565
+O3 Rb10 Ge1B 103.3(9) . 3_565
+Rb12 Rb10 Ge1B 64.3(5) 3 3_565
+Ge8B Rb10 Ge1B 159.8(5) 2_545 3_565
+Ge2B Rb10 Ge1B 37.7(3) 4_565 3_565
+W1 Rb10 Ge1B 90.4(3) . 3_565
+Rb5 Rb10 Ge1B 96.1(3) . 3_565
+Rb10 Rb10 Ge1B 74.1(4) 3 3_565
+Rb10 Rb12 O2 80.7(18) . 2_545
+Rb10 Rb12 O3 87.3(19) . .
+O2 Rb12 O3 164.6(15) 2_545 .
+Rb10 Rb12 Rb12 114(2) . 3
+O2 Rb12 Rb12 63.5(11) 2_545 3
+O3 Rb12 Rb12 113.8(14) . 3
+Rb10 Rb12 O2 123(2) . 4_565
+O2 Rb12 O2 120.1(11) 2_545 4_565
+O3 Rb12 O2 59.4(12) . 4_565
+Rb12 Rb12 O2 56.6(10) 3 4_565
+Rb10 Rb12 Rb11 34.2(14) . .
+O2 Rb12 Rb11 54.4(9) 2_545 .
+O3 Rb12 Rb11 117.5(12) . .
+Rb12 Rb12 Rb11 110.4(11) 3 .
+O2 Rb12 Rb11 151.6(11) 4_565 .
+Rb10 Rb12 Rb10 128.0(18) . 3
+O2 Rb12 Rb10 70.1(9) 2_545 3
+O3 Rb12 Rb10 111.2(11) . 3
+Rb12 Rb12 Rb10 14.2(5) 3 3
+O2 Rb12 Rb10 51.8(9) 4_565 3
+Rb11 Rb12 Rb10 121.5(8) . 3
+Rb10 Rb12 W1 106.8(18) . .
+O2 Rb12 W1 147.9(11) 2_545 .
+O3 Rb12 W1 29.6(9) . .
+Rb12 Rb12 W1 85.5(9) 3 .
+O2 Rb12 W1 29.8(8) 4_565 .
+Rb11 Rb12 W1 140.9(8) . .
+Rb10 Rb12 W1 81.6(5) 3 .
+Rb10 Rb12 Ge8B 79.9(16) . 2_545
+O2 Rb12 Ge8B 99.9(10) 2_545 2_545
+O3 Rb12 Ge8B 87.3(10) . 2_545
+Rb12 Rb12 Ge8B 154.5(12) 3 2_545
+O2 Rb12 Ge8B 135.3(11) 4_565 2_545
+Rb11 Rb12 Ge8B 68.1(6) . 2_545
+Rb10 Rb12 Ge8B 145.5(8) 3 2_545
+W1 Rb12 Ge8B 112.0(6) . 2_545
+Rb10 Rb12 Rb7 103.0(17) . 2_545
+O2 Rb12 Rb7 50.0(9) 2_545 2_545
+O3 Rb12 Rb7 143.5(11) . 2_545
+Rb12 Rb12 Rb7 94.1(9) 3 2_545
+O2 Rb12 Rb7 132.0(10) 4_565 2_545
+Rb11 Rb12 Rb7 69.2(5) . 2_545
+Rb10 Rb12 Rb7 90.1(5) 3 2_545
+W1 Rb12 Rb7 147.5(7) . 2_545
+Ge8B Rb12 Rb7 61.0(4) 2_545 2_545
+Rb10 Rb12 Ge1B 159.9(19) . 1_545
+O2 Rb12 Ge1B 93.1(10) 2_545 1_545
+O3 Rb12 Ge1B 101.5(11) . 1_545
+Rb12 Rb12 Ge1B 79.5(10) 3 1_545
+O2 Rb12 Ge1B 76.9(9) 4_565 1_545
+Rb11 Rb12 Ge1B 128.4(7) . 1_545
+Rb10 Rb12 Ge1B 65.8(6) 3 1_545
+W1 Rb12 Ge1B 88.7(5) . 1_545
+Ge8B Rb12 Ge1B 82.4(5) 2_545 1_545
+Rb7 Rb12 Ge1B 59.5(4) 2_545 1_545
+Rb10 Rb11 O2 62.2(10) . 2_545
+Rb10 Rb11 Ge4B 104.9(7) . 2_545
+O2 Rb11 Ge4B 122.6(11) 2_545 2_545
+Rb10 Rb11 Rb12 11.3(5) . .
+O2 Rb11 Rb12 54.0(10) 2_545 .
+Ge4B Rb11 Rb12 102.4(7) 2_545 .
+Rb10 Rb11 Rb4 105.9(7) . 3_565
+O2 Rb11 Rb4 64.7(9) 2_545 3_565
+Ge4B Rb11 Rb4 147.2(7) 2_545 3_565
+Rb12 Rb11 Rb4 105.7(7) . 3_565
+Rb10 Rb11 Ge5A 156.7(8) . 1_455
+O2 Rb11 Ge5A 95.6(10) 2_545 1_455
+Ge4B Rb11 Ge5A 80.4(5) 2_545 1_455
+Rb12 Rb11 Ge5A 146.0(8) . 1_455
+Rb4 Rb11 Ge5A 66.8(4) 3_565 1_455
+Rb10 Rb11 Rb9 103.9(7) . 2_545
+O2 Rb11 Rb9 160.7(11) 2_545 2_545
+Ge4B Rb11 Rb9 72.4(5) 2_545 2_545
+Rb12 Rb11 Rb9 114.0(7) . 2_545
+Rb4 Rb11 Rb9 110.3(6) 3_565 2_545
+Ge5A Rb11 Rb9 99.3(5) 1_455 2_545
+Rb10 Rb11 Ge3B 85.4(7) . 3_565
+O2 Rb11 Ge3B 100.6(10) 2_545 3_565
+Ge4B Rb11 Ge3B 135.7(7) 2_545 3_565
+Rb12 Rb11 Ge3B 94.7(7) . 3_565
+Rb4 Rb11 Ge3B 58.3(4) 3_565 3_565
+Ge5A Rb11 Ge3B 106.8(6) 1_455 3_565
+Rb9 Rb11 Ge3B 63.3(4) 2_545 3_565
+Rb10 Rb11 Ge1A 162.9(8) . 1_455
+O2 Rb11 Ge1A 133.1(11) 2_545 1_455
+Ge4B Rb11 Ge1A 74.2(5) 2_545 1_455
+Rb12 Rb11 Ge1A 173.0(8) . 1_455
+Rb4 Rb11 Ge1A 79.5(4) 3_565 1_455
+Ge5A Rb11 Ge1A 40.3(3) 1_455 1_455
+Rb9 Rb11 Ge1A 59.3(3) 2_545 1_455
+Ge3B Rb11 Ge1A 83.9(5) 3_565 1_455
+Rb10 Rb11 Ge8B 62.1(5) . 2_545
+O2 Rb11 Ge8B 92.9(10) 2_545 2_545
+Ge4B Rb11 Ge8B 43.8(4) 2_545 2_545
+Rb12 Rb11 Ge8B 58.6(5) . 2_545
+Rb4 Rb11 Ge8B 157.5(6) 3_565 2_545
+Ge5A Rb11 Ge8B 116.0(6) 1_455 2_545
+Rb9 Rb11 Ge8B 91.6(5) 2_545 2_545
+Ge3B Rb11 Ge8B 133.5(6) 3_565 2_545
+Ge1A Rb11 Ge8B 117.8(6) 1_455 2_545
+Rb10 Rb11 Ge5B 74.9(5) . .
+O2 Rb11 Ge5B 127.1(10) 2_545 .
+Ge4B Rb11 Ge5B 41.3(3) 2_545 .
+Rb12 Rb11 Ge5B 78.5(6) . .
+Rb4 Rb11 Ge5B 163.3(6) 3_565 .
+Ge5A Rb11 Ge5B 118.7(6) 1_455 .
+Rb9 Rb11 Ge5B 54.3(3) 2_545 .
+Ge3B Rb11 Ge5B 105.6(5) 3_565 .
+Ge1A Rb11 Ge5B 95.2(5) 1_455 .
+Ge8B Rb11 Ge5B 37.4(3) 2_545 .
+Rb10 Rb11 Rb7 73.9(5) . 2_545
+O2 Rb11 Rb7 47.0(8) 2_545 2_545
+Ge4B Rb11 Rb7 75.6(5) 2_545 2_545
+Rb12 Rb11 Rb7 62.7(5) . 2_545
+Rb4 Rb11 Rb7 102.5(5) 3_565 2_545
+Ge5A Rb11 Rb7 85.9(4) 1_455 2_545
+Rb9 Rb11 Rb7 146.2(6) 2_545 2_545
+Ge3B Rb11 Rb7 146.9(6) 3_565 2_545
+Ge1A Rb11 Rb7 121.4(5) 1_455 2_545
+Ge8B Rb11 Rb7 56.9(3) 2_545 2_545
+Ge5B Rb11 Rb7 93.8(5) . 2_545
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+W1 O4 1.74(4) 4_565
+W1 O3 1.76(4) .
+W1 O2 1.76(4) 4_565
+W1 O1 1.77(3) 4_565
+W1 Rb12 3.54(2) .
+W1 Rb7 3.667(5) 4_565
+W1 Rb8 3.681(5) .
+W1 Rb6 3.727(5) 4_565
+W1 Rb4 3.733(7) 1_545
+W1 Rb10 3.912(12) .
+W1 Rb5 4.109(7) .
+W1 Rb1 4.288(5) 4_565
+O1 Nb1 1.77(3) 4_566
+O1 W1 1.77(3) 4_566
+O1 Rb4 2.75(3) 4_576
+O1 Rb6 2.81(3) 3_666
+O1 Rb8 3.10(3) 4_566
+O1 Rb6 3.36(3) .
+O2 Nb1 1.76(4) 4_566
+O2 W1 1.76(4) 4_566
+O2 Rb10 2.86(4) 2
+O2 Rb12 2.86(5) 2
+O2 Rb11 2.87(4) 2
+O2 Rb12 3.06(5) 4_566
+O2 Rb7 3.08(4) .
+O2 Rb4 3.48(4) 4_576
+O3 Rb5 2.60(4) .
+O3 Rb12 2.86(5) .
+O3 Rb8 2.90(4) .
+O3 Rb10 2.96(4) .
+O4 Nb1 1.74(4) 4_566
+O4 W1 1.74(4) 4_566
+O4 Rb1 2.74(4) .
+O4 Rb7 2.88(4) .
+O4 Rb6 2.95(4) .
+Ge1A Ge5A 2.545(7) .
+Ge1A Ge4A 2.566(7) .
+Ge1A Ge3A 2.567(7) .
+Ge1A Ge2A 2.573(7) .
+Ge1A Rb9 3.648(9) 2_645
+Ge1A Rb3 3.669(7) 2_655
+Ge1A Rb11 3.78(2) 1_655
+Ge1A Rb8 3.795(8) 2_655
+Ge2A Ge6A 2.530(7) .
+Ge2A Ge9A 2.573(7) .
+Ge2A Ge3A 2.721(6) .
+Ge2A Rb4 3.513(8) 3_665
+Ge2A Rb3 3.578(6) 2_655
+Ge2A Rb2 3.807(6) 4_565
+Ge3A Ge6A 2.590(7) .
+Ge3A Ge7A 2.620(7) .
+Ge3A Ge4A 2.875(7) .
+Ge3A Rb2 3.585(7) 2_655
+Ge3A Rb8 3.786(7) 2_655
+Ge3A Rb3 3.846(7) 2_655
+Ge4A Ge7A 2.589(7) .
+Ge4A Ge8A 2.625(7) .
+Ge4A Ge5A 2.786(7) .
+Ge4A Rb4 3.855(11) 2_645
+Ge4A Rb6 3.860(7) .
+Ge4A Rb2 3.864(8) .
+Ge4A Rb1 3.898(7) .
+Ge4A Rb8 4.131(8) 2_655
+Ge5A Ge9A 2.538(7) .
+Ge5A Ge8A 2.578(7) .
+Ge5A Rb11 3.59(2) 1_655
+Ge5A Rb2 3.689(7) .
+Ge5A Rb6 3.825(7) 2_645
+Ge5A Rb4 3.924(9) 3_665
+Ge6A Ge7A 2.570(6) .
+Ge6A Ge9A 2.622(7) .
+Ge6A Rb3 3.538(6) 4_565
+Ge6A Rb5 3.566(8) .
+Ge6A Rb1 3.857(7) 4_565
+Ge6A Rb2 4.186(8) 2_655
+Ge7A Ge8A 2.600(8) .
+Ge7A Rb1 3.747(6) .
+Ge7A Rb7 3.799(7) .
+Ge7A Rb5 3.821(9) .
+Ge7A Rb6 3.858(7) .
+Ge7A Rb2 3.992(8) 2_655
+Ge8A Ge9A 2.560(6) .
+Ge8A Rb1 3.558(6) .
+Ge8A Rb8 3.825(9) .
+Ge8A Rb5 3.862(9) .
+Ge8A Rb2 3.961(8) .
+Ge9A Rb1 3.550(6) 4_565
+Ge9A Rb6 3.867(7) 2_645
+Ge9A Rb5 3.940(8) .
+Ge9A Rb4 3.977(9) 3_665
+Ge1B Ge4B 2.47(2) .
+Ge1B Ge5B 2.501(11) 2
+Ge1B Ge2B 2.54(2) 2
+Ge1B Ge3B 2.684(15) .
+Ge1B Rb4 3.860(13) .
+Ge1B Rb9 3.922(14) .
+Ge1B Rb7 3.995(17) 2
+Ge1B Rb12 4.04(3) 1_565
+Ge1B Rb10 4.096(19) 3_565
+Ge2B Ge9B 2.529(16) .
+Ge2B Ge1B 2.54(2) 2_545
+Ge2B Ge6B 2.56(2) .
+Ge2B Ge3B 2.75(2) 2_545
+Ge2B Rb10 3.650(18) 4_566
+Ge2B Rb5 3.743(14) 4_566
+Ge2B Rb7 4.09(2) .
+Ge2B Rb1 4.10(2) .
+Ge3B Ge6B 2.513(12) 2
+Ge3B Ge7B 2.53(2) .
+Ge3B Ge2B 2.75(2) 2
+Ge3B Ge4B 2.807(15) .
+Ge3B Rb4 3.486(10) .
+Ge3B Rb11 3.61(2) 3_565
+Ge3B Rb9 3.779(11) 4_575
+Ge3B Rb3 4.114(14) 4_565
+Ge4B Ge7B 2.576(17) .
+Ge4B Ge5B 2.681(11) 2
+Ge4B Ge8B 2.733(19) .
+Ge4B Rb11 3.31(3) 2
+Ge4B Rb2 3.884(10) 2_655
+Ge4B Rb9 4.080(15) .
+Ge4B Rb4 4.160(17) .
+Ge5B Ge1B 2.501(11) 2_545
+Ge5B Ge9B 2.525(11) .
+Ge5B Ge8B 2.546(12) 2_545
+Ge5B Ge4B 2.681(11) 2_545
+Ge5B Rb9 3.505(11) 2_545
+Ge5B Rb5 3.571(8) .
+Ge5B Rb7 3.862(12) .
+Ge5B Rb11 4.04(2) .
+Ge6B Ge3B 2.513(12) 2_545
+Ge6B Ge9B 2.586(12) .
+Ge6B Ge7B 2.611(15) 2_545
+Ge6B Rb3 3.551(9) .
+Ge6B Rb9 3.817(13) 3_566
+Ge6B Rb9 3.906(19) 1_545
+Ge7B Ge8B 2.502(13) .
+Ge7B Ge6B 2.610(15) 2
+Ge7B Rb3 3.677(10) 4_565
+Ge7B Rb2 3.842(11) 2_655
+Ge7B Rb7 3.870(15) .
+Ge7B Rb9 3.920(18) 2_545
+Ge8B Ge9B 2.471(13) 2
+Ge8B Ge5B 2.545(12) 2
+Ge8B Rb10 3.530(15) 2
+Ge8B Rb12 3.57(2) 2
+Ge8B Rb9 3.823(17) 2_545
+Ge8B Rb7 3.866(10) .
+Ge8B Rb11 3.88(2) 2
+Ge8B Rb8 4.159(14) 2
+Ge9B Ge8B 2.471(13) 2_545
+Ge9B Rb8 3.582(10) .
+Ge9B Rb1 3.695(10) .
+Ge9B Rb3 3.737(10) .
+Rb1 Ge9A 3.550(6) 4_566
+Rb1 Ge6A 3.858(7) 4_566
+Rb1 Nb1 4.288(5) 4_566
+Rb1 W1 4.288(5) 4_566
+Rb1 Rb6 4.301(7) .
+Rb1 Rb7 4.337(8) .
+Rb2 Ge3A 3.585(7) 2_645
+Rb2 Ge2A 3.807(6) 4_566
+Rb2 Ge7B 3.842(11) 2_645
+Rb2 Ge4B 3.884(10) 2_645
+Rb2 Ge7A 3.992(8) 2_645
+Rb2 Rb3 4.085(6) 3_656
+Rb2 Ge6A 4.186(8) 2_645
+Rb2 Rb4 4.204(9) 2_645
+Rb3 Ge6A 3.538(6) 4_566
+Rb3 Ge2A 3.578(6) 2_645
+Rb3 Ge1A 3.669(7) 2_645
+Rb3 Ge7B 3.677(10) 4_566
+Rb3 Ge3A 3.846(7) 2_645
+Rb3 Rb9 4.022(8) 1_545
+Rb3 Rb2 4.085(6) 3_656
+Rb3 Ge3B 4.114(14) 4_566
+Rb3 Rb5 4.601(8) 4_566
+Rb4 O1 2.75(3) 4_575
+Rb4 O2 3.48(4) 4_575
+Rb4 Ge2A 3.513(8) 3_665
+Rb4 Rb11 3.54(2) 3_565
+Rb4 Nb1 3.733(7) 1_565
+Rb4 W1 3.733(7) 1_565
+Rb4 Ge4A 3.855(11) 2_655
+Rb4 Ge5A 3.924(9) 3_665
+Rb4 Ge9A 3.977(9) 3_665
+Rb5 Ge2B 3.744(14) 4_565
+Rb5 Rb10 3.997(14) .
+Rb5 Rb8 4.274(9) .
+Rb5 Rb12 4.45(2) .
+Rb6 O1 2.81(3) 3_666
+Rb6 Nb1 3.727(5) 4_566
+Rb6 W1 3.727(5) 4_566
+Rb6 Ge5A 3.825(7) 2_655
+Rb6 Ge9A 3.867(7) 2_655
+Rb6 Rb6 3.868(10) 3_666
+Rb6 Rb8 4.040(8) 2_655
+Rb7 Nb1 3.667(5) 4_566
+Rb7 W1 3.667(5) 4_566
+Rb7 Ge1B 3.995(17) 2_545
+Rb7 Rb12 4.01(2) 2
+Rb7 Rb11 4.21(2) 2
+Rb8 O1 3.10(3) 4_565
+Rb8 Ge3A 3.786(7) 2_645
+Rb8 Ge1A 3.795(8) 2_645
+Rb8 Rb6 4.040(8) 2_645
+Rb8 Ge4A 4.131(8) 2_645
+Rb8 Ge8B 4.159(14) 2_545
+Rb9 Ge5B 3.505(11) 2
+Rb9 Rb11 3.59(2) 2
+Rb9 Ge1A 3.648(9) 2_655
+Rb9 Ge3B 3.779(11) 4_576
+Rb9 Ge6B 3.817(13) 3_566
+Rb9 Ge8B 3.823(17) 2
+Rb9 Ge6B 3.906(19) 1_565
+Rb9 Ge7B 3.920(18) 2
+Rb9 Rb3 4.022(8) 1_565
+Rb9 Rb5 4.490(9) 2
+Rb10 Rb12 0.92(2) .
+Rb10 Rb11 2.64(2) .
+Rb10 O2 2.86(4) 2_545
+Rb10 Rb12 3.43(3) 3
+Rb10 Ge8B 3.530(15) 2_545
+Rb10 Ge2B 3.650(18) 4_565
+Rb10 Rb10 4.07(3) 3
+Rb10 Ge1B 4.096(19) 3_565
+Rb12 O2 2.86(5) 2_545
+Rb12 Rb12 2.96(4) 3
+Rb12 O2 3.06(5) 4_565
+Rb12 Rb11 3.35(3) .
+Rb12 Rb10 3.43(3) 3
+Rb12 Ge8B 3.57(2) 2_545
+Rb12 Rb7 4.01(2) 2_545
+Rb12 Ge1B 4.04(3) 1_545
+Rb11 O2 2.87(4) 2_545
+Rb11 Ge4B 3.31(3) 2_545
+Rb11 Rb4 3.54(2) 3_565
+Rb11 Ge5A 3.59(2) 1_455
+Rb11 Rb9 3.59(2) 2_545
+Rb11 Ge3B 3.61(2) 3_565
+Rb11 Ge1A 3.78(2) 1_455
+Rb11 Ge8B 3.88(2) 2_545
+Rb11 Rb7 4.21(2) 2_545

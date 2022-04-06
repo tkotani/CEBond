@@ -1,0 +1,70 @@
+cif name= ./1010410.cif
+./1010410.cif
+Full Formula (Nb3 O3)
+Reduced Formula: NbO
+abc   :   4.200000   4.200000   4.200000
+angles:  90.000000  90.000000  90.000000
+Sites (6)
+  #  SP      a    b    c
+---  ----  ---  ---  ---
+  0  Nb2+  0.5  0.5  0
+  1  Nb2+  0.5  0    0.5
+  2  Nb2+  0    0.5  0.5
+  3  O2-   0.5  0    0
+  4  O2-   0    0    0.5
+  5  O2-   0    0.5  0
+
+space_group_IT_number 221
+
+*** lse ***
+
+
+**isite= 0
+Nb2+1 : [2.1 2.1 0. ]
+
+ce_symbol  = S:4
+ce_fraction=  1.0
+species:coords:index
+O2-1 : [0.  2.1 0. ] : 5
+O2-1 : [2.1 4.2 0. ] : 3
+O2-1 : [2.1 0.  0. ] : 3
+O2-1 : [4.2 2.1 0. ] : 5
+
+
+**isite= 1
+Nb2+1 : [2.1 0.  2.1]
+
+ce_symbol  = S:4
+ce_fraction=  1.0
+species:coords:index
+O2-1 : [0.  0.  2.1] : 4
+O2-1 : [2.1 0.  0. ] : 3
+O2-1 : [4.2 0.  2.1] : 4
+O2-1 : [2.1 0.  4.2] : 3
+
+
+**isite= 2
+Nb2+1 : [0.  2.1 2.1]
+
+ce_symbol  = S:4
+ce_fraction=  1.0
+species:coords:index
+O2-1 : [0.  2.1 4.2] : 5
+O2-1 : [0.  0.  2.1] : 4
+O2-1 : [0.  2.1 0. ] : 5
+O2-1 : [0.  4.2 2.1] : 4
+
+
+**isite= 3
+O2-1 : [2.1 0.  0. ]
+
+
+**isite= 4
+O2-1 : [0.  0.  2.1]
+
+
+**isite= 5
+O2-1 : [0.  2.1 0. ]
+
+END
+

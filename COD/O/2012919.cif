@@ -1,0 +1,391 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 00:18:51 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176760 $
+#$URL: svn://www.crystallography.net/cod/cif/2/01/29/2012919.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2012919
+loop_
+_publ_author_name
+'Valldor, Martin'
+'Bryntse, Ingrid'
+'Morawski, Andrzej'
+_publ_section_title
+;
+ The superconductor (Tl,Hg,Ca)~2~(Ba,Sr)~2~(Ca,Sr,Tl)Cu~2~O~7.6~
+;
+_journal_issue                   9
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              i126
+_journal_page_last               i128
+_journal_paper_doi               10.1107/S0108270102013148
+_journal_volume                  58
+_journal_year                    2002
+_chemical_formula_analytical
+'Ba0.86(3) Ca0.63(2) Cu2.03(6) Hg0.79(4) Sr1.48(4) Tl1.22(4) O7.56'
+_chemical_formula_structural
+;
+(Tl0.582 Hg0.395 Ca0.023)2 (Ba0.435 Sr0.565)2 (Sr0.36 Ca0.594 Tl0.046) Cu2
+O7.56
+;
+_chemical_formula_sum
+'Ba0.87 Ca0.64 Cu2 Hg0.79 O7.56 Sr1.49 Tl1.21'
+_chemical_formula_weight         930.2
+_space_group_IT_number           139
+_symmetry_cell_setting           tetragonal
+_symmetry_space_group_name_Hall  '-I 4 2'
+_symmetry_space_group_name_H-M   'I 4/m m m'
+_audit_creation_method           JANA98
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   3.8380(6)
+_cell_length_b                   3.8380(6)
+_cell_length_c                   29.145(7)
+_cell_measurement_reflns_used    121
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      23.88
+_cell_measurement_theta_min      2.80
+_cell_volume                     429.31(14)
+_computing_cell_refinement       IPDS
+_computing_data_collection       'IPDS (Stoe, 1996)'
+_computing_data_reduction        'X-RED and X-SHAPE (Stoe, 1996)'
+_computing_structure_refinement  JANA98
+_computing_structure_solution    'JANA98 (Petricek & Dusek, 1997)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_detector_area_resol_mean 6.0
+_diffrn_measurement_device       'imaging plate system'
+_diffrn_measurement_device_type  'Stoe IPDS'
+_diffrn_measurement_method       'area detector'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0455
+_diffrn_reflns_av_sigmaI/netI    0.0079
+_diffrn_reflns_limit_h_max       4
+_diffrn_reflns_limit_h_min       -4
+_diffrn_reflns_limit_k_max       4
+_diffrn_reflns_limit_k_min       -4
+_diffrn_reflns_limit_l_max       31
+_diffrn_reflns_limit_l_min       -32
+_diffrn_reflns_number            1228
+_diffrn_reflns_theta_max         23.88
+_diffrn_reflns_theta_min         2.80
+_exptl_absorpt_coefficient_mu    55.064
+_exptl_absorpt_correction_T_max  0.2099
+_exptl_absorpt_correction_T_min  0.0569
+_exptl_absorpt_correction_type   numerical
+_exptl_absorpt_process_details   'X-red version 1.09 (Stoe, 1997)'
+_exptl_crystal_colour            black
+_exptl_crystal_density_diffrn    7.194
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       plate
+_exptl_crystal_F_000             796
+_exptl_crystal_size_max          0.100
+_exptl_crystal_size_mid          0.050
+_exptl_crystal_size_min          0.010
+_refine_diff_density_max         1.39
+_refine_diff_density_min         -2.74
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_obs   2.29
+_refine_ls_goodness_of_fit_ref   2.41
+_refine_ls_number_parameters     22
+_refine_ls_number_reflns         138
+_refine_ls_R_factor_all          0.0292
+_refine_ls_R_factor_gt           0.0204
+_refine_ls_shift/su_max          0.0019
+_refine_ls_shift/su_mean         0.0002
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 1/[\s^2^(F)+0.000036F^2^]'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0202
+_refine_ls_wR_factor_ref         0.0208
+_reflns_number_gt                121
+_reflns_number_total             138
+_reflns_threshold_expression     'I > 3\s(I)'
+_cod_data_source_file            br1382.cif
+_cod_data_source_block           I
+_cod_original_cell_volume        429.30(10)
+_cod_database_code               2012919
+_cod_database_fobs_code          2012919
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-y,x,z
+-x,y,z
+-x,-y,z
+-y,-x,z
+y,-x,z
+x,-y,z
+y,x,z
+-x,-y,-z
+y,-x,-z
+x,-y,-z
+x,y,-z
+y,x,-z
+-y,x,-z
+-x,y,-z
+-y,-x,-z
+1/2+x,1/2+y,1/2+z
+1/2-y,1/2+x,1/2+z
+1/2-x,1/2+y,1/2+z
+1/2-x,1/2-y,1/2+z
+1/2-y,1/2-x,1/2+z
+1/2+y,1/2-x,1/2+z
+1/2+x,1/2-y,1/2+z
+1/2+y,1/2+x,1/2+z
+1/2-x,1/2-y,1/2-z
+1/2+y,1/2-x,1/2-z
+1/2+x,1/2-y,1/2-z
+1/2+x,1/2+y,1/2-z
+1/2+y,1/2+x,1/2-z
+1/2-y,1/2+x,1/2-z
+1/2-x,1/2+y,1/2-z
+1/2-y,1/2-x,1/2-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Tl 0.0169(3) 0.0169(3) 0.0118(3) 0.00 0.00 0.00
+Hg 0.0169(3) 0.0169(3) 0.0118(3) 0.00 0.00 0.00
+Ca 0.0169(3) 0.0169(3) 0.0118(3) 0.00 0.00 0.00
+Ba 0.0060(4) 0.0060(4) 0.0186(6) 0.00 0.00 0.00
+Sr1 0.0060(4) 0.0060(4) 0.0186(6) 0.00 0.00 0.00
+Sr2 0.0030(10) 0.0030(10) 0.0110(10) 0.00 0.00 0.00
+Tl2 0.0030(10) 0.0030(10) 0.0110(10) 0.00 0.00 0.00
+Ca2 0.0030(10) 0.0030(10) 0.0110(10) 0.00 0.00 0.00
+Cu 0.0021(6) 0.0021(6) 0.0178(9) 0.00 0.00 0.00
+O1 0.005(4) 0.013(4) 0.020(3) 0.00 0.00 0.00
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+_atom_site_type_symbol
+Tl 0.5 0.5 0.21267(2) 0.0152(2) 0.582(2) Tl
+Hg 0.5 0.5 0.21267(2) 0.0152(2) 0.395 Hg
+Ca 0.5 0.5 0.21267(2) 0.0152(2) 0.023(2) Ca
+Ba 0.0 0.0 0.12228(3) 0.0102(3) 0.435 Ba
+Sr1 0.0 0.0 0.12228(3) 0.0102(3) 0.565 Sr
+Sr2 0.0 0.0 0.0 0.0060(7) 0.36 Sr
+Tl2 0.0 0.0 0.0 0.0060(7) 0.046(5) Tl
+Ca2 0.0 0.0 0.00 0.0060(7) 0.594(5) Ca
+Cu 0.5 0.5 0.05775(5) 0.0073(4) 1.0 Cu
+O1 0.0 0.5 0.0558(2) 0.012(2) 1.0 O
+O2 0.5 0.5 0.1435(4) 0.017(2) 1.0 O
+O3 0.0 0.0 0.2180(5) 0.040(7) 0.78(5) O
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Tl -2.836 9.669 'International Tables Vol C'
+Hg -2.389 9.227 'International Tables Vol C'
+Ba -0.324 2.282 'International Tables Vol C'
+Sr -1.531 3.250 'International Tables Vol C'
+Ca 0.226 0.306 'International Tables Vol C'
+Cu 0.320 1.265 'International Tables Vol C'
+O 0.011 0.006 'International Tables Vol C'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+O2 Tl O3 . . 93.2(4)
+O2 Tl O3 . 1_565 93.2(4)
+O2 Tl O3 . 1_655 93.2(4)
+O2 Tl O3 . 1_665 93.2(4)
+O2 Tl O3 . 25_555 180
+O3 Tl O3 . 1_565 89.82(4)
+O3 Tl O3 . 1_655 89.82(4)
+O3 Tl O3 . 1_665 173.5(6)
+O3 Tl O3 . 25_555 86.8(4)
+O3 Tl O3 1_565 . 89.82(4)
+O3 Tl O3 1_565 1_655 173.5(6)
+O3 Tl O3 1_565 1_665 89.82(4)
+O3 Tl O3 1_565 25_555 86.8(4)
+O3 Tl O3 1_655 . 89.82(4)
+O3 Tl O3 1_655 1_565 173.5(6)
+O3 Tl O3 1_655 1_665 89.82(4)
+O3 Tl O3 1_655 25_555 86.8(4)
+O3 Tl O3 1_665 . 173.5(6)
+O3 Tl O3 1_665 1_565 89.82(4)
+O3 Tl O3 1_665 1_655 89.82(4)
+O3 Tl O3 1_665 25_555 86.8(4)
+O3 Tl O3 25_555 . 86.8(4)
+O3 Tl O3 25_555 1_565 86.8(4)
+O3 Tl O3 25_555 1_655 86.8(4)
+O3 Tl O3 25_555 1_665 86.8(4)
+O1 Ba O1 1_545 . 89.48(17)
+O1 Ba O1 1_545 2_555 59.70(10)
+O1 Ba O1 1_545 2_655 59.70(10)
+O1 Ba O2 1_545 1_445 70.9(2)
+O1 Ba O2 1_545 1_455 130.0(2)
+O1 Ba O2 1_545 1_545 70.9(2)
+O1 Ba O2 1_545 . 130.0(2)
+O1 Ba O3 1_545 . 135.26(12)
+O1 Ba O1 . 1_545 89.48(17)
+O1 Ba O1 . 2_555 59.70(10)
+O1 Ba O1 . 2_655 59.70(10)
+O1 Ba O2 . 1_445 130.0(2)
+O1 Ba O2 . 1_455 70.9(2)
+O1 Ba O2 . 1_545 130.0(2)
+O1 Ba O2 . . 70.9(2)
+O1 Ba O3 . . 135.26(12)
+O1 Ba O1 2_555 1_545 59.70(10)
+O1 Ba O1 2_555 . 59.70(10)
+O1 Ba O1 2_555 2_655 89.48(17)
+O1 Ba O2 2_555 1_445 70.9(2)
+O1 Ba O2 2_555 1_455 70.9(2)
+O1 Ba O2 2_555 1_545 130.0(2)
+O1 Ba O2 2_555 . 130.0(2)
+O1 Ba O3 2_555 . 135.26(12)
+O1 Ba O1 2_655 1_545 59.70(10)
+O1 Ba O1 2_655 . 59.70(10)
+O1 Ba O1 2_655 2_555 89.48(17)
+O1 Ba O2 2_655 1_445 130.0(2)
+O1 Ba O2 2_655 1_455 130.0(2)
+O1 Ba O2 2_655 1_545 70.9(2)
+O1 Ba O2 2_655 . 70.9(2)
+O1 Ba O3 2_655 . 135.26(12)
+O2 Ba O2 1_445 1_455 87.18(8)
+O2 Ba O2 1_445 1_545 87.18(8)
+O2 Ba O2 1_445 . 154.4(4)
+O2 Ba O3 1_445 . 77.2(3)
+O2 Ba O2 1_455 1_445 87.18(8)
+O2 Ba O2 1_455 1_545 154.4(4)
+O2 Ba O2 1_455 . 87.18(8)
+O2 Ba O3 1_455 . 77.2(3)
+O2 Ba O2 1_545 1_445 87.18(8)
+O2 Ba O2 1_545 1_455 154.4(4)
+O2 Ba O2 1_545 . 87.18(8)
+O2 Ba O3 1_545 . 77.2(3)
+O2 Ba O2 . 1_445 154.4(4)
+O2 Ba O2 . 1_455 87.18(8)
+O2 Ba O2 . 1_545 87.18(8)
+O2 Ba O3 . . 77.2(3)
+O1 Sr2 O1 1_545 . 99.4(2)
+O1 Sr2 O1 1_545 9_555 80.6(2)
+O1 Sr2 O1 1_545 9_565 180
+O1 Sr2 O1 1_545 2_555 65.27(11)
+O1 Sr2 O1 1_545 2_655 65.27(11)
+O1 Sr2 O1 1_545 10_455 114.73(11)
+O1 Sr2 O1 1_545 10_555 114.73(11)
+O1 Sr2 O1 . 1_545 99.4(2)
+O1 Sr2 O1 . 9_555 180
+O1 Sr2 O1 . 9_565 80.6(2)
+O1 Sr2 O1 . 2_555 65.27(11)
+O1 Sr2 O1 . 2_655 65.27(11)
+O1 Sr2 O1 . 10_455 114.73(11)
+O1 Sr2 O1 . 10_555 114.73(11)
+O1 Sr2 O1 9_555 1_545 80.6(2)
+O1 Sr2 O1 9_555 . 180
+O1 Sr2 O1 9_555 9_565 99.4(2)
+O1 Sr2 O1 9_555 2_555 114.73(11)
+O1 Sr2 O1 9_555 2_655 114.73(11)
+O1 Sr2 O1 9_555 10_455 65.27(11)
+O1 Sr2 O1 9_555 10_555 65.27(11)
+O1 Sr2 O1 9_565 1_545 180
+O1 Sr2 O1 9_565 . 80.6(2)
+O1 Sr2 O1 9_565 9_555 99.4(2)
+O1 Sr2 O1 9_565 2_555 114.73(11)
+O1 Sr2 O1 9_565 2_655 114.73(11)
+O1 Sr2 O1 9_565 10_455 65.27(11)
+O1 Sr2 O1 9_565 10_555 65.27(11)
+O1 Sr2 O1 2_555 1_545 65.27(11)
+O1 Sr2 O1 2_555 . 65.27(11)
+O1 Sr2 O1 2_555 9_555 114.73(11)
+O1 Sr2 O1 2_555 9_565 114.73(11)
+O1 Sr2 O1 2_555 2_655 99.4(2)
+O1 Sr2 O1 2_555 10_455 80.6(2)
+O1 Sr2 O1 2_555 10_555 180
+O1 Sr2 O1 2_655 1_545 65.27(11)
+O1 Sr2 O1 2_655 . 65.27(11)
+O1 Sr2 O1 2_655 9_555 114.73(11)
+O1 Sr2 O1 2_655 9_565 114.73(11)
+O1 Sr2 O1 2_655 2_555 99.4(2)
+O1 Sr2 O1 2_655 10_455 180
+O1 Sr2 O1 2_655 10_555 80.6(2)
+O1 Sr2 O1 10_455 1_545 114.73(11)
+O1 Sr2 O1 10_455 . 114.73(11)
+O1 Sr2 O1 10_455 9_555 65.27(11)
+O1 Sr2 O1 10_455 9_565 65.27(11)
+O1 Sr2 O1 10_455 2_555 80.6(2)
+O1 Sr2 O1 10_455 2_655 180
+O1 Sr2 O1 10_455 10_555 99.4(2)
+O1 Sr2 O1 10_555 1_545 114.73(11)
+O1 Sr2 O1 10_555 . 114.73(11)
+O1 Sr2 O1 10_555 9_555 65.27(11)
+O1 Sr2 O1 10_555 9_565 65.27(11)
+O1 Sr2 O1 10_555 2_555 180
+O1 Sr2 O1 10_555 2_655 80.6(2)
+O1 Sr2 O1 10_555 10_455 99.4(2)
+O1 Cu O1 . 1_655 176.7(4)
+O1 Cu O1 . 2_655 89.952(11)
+O1 Cu O1 . 2_665 89.952(11)
+O1 Cu O2 . . 91.7(2)
+O1 Cu O1 1_655 . 176.7(4)
+O1 Cu O1 1_655 2_655 89.952(11)
+O1 Cu O1 1_655 2_665 89.952(11)
+O1 Cu O2 1_655 . 91.7(2)
+O1 Cu O1 2_655 . 89.952(11)
+O1 Cu O1 2_655 1_655 89.952(11)
+O1 Cu O1 2_655 2_665 176.7(4)
+O1 Cu O2 2_655 . 91.7(2)
+O1 Cu O1 2_665 . 89.952(11)
+O1 Cu O1 2_665 1_655 89.952(11)
+O1 Cu O1 2_665 2_655 176.7(4)
+O1 Cu O2 2_665 . 91.7(2)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Tl O2 . . 2.010(10) yes
+Tl O3 . . 2.7183(9) yes
+Tl O3 . 1_565 2.7183(9) no
+Tl O3 . 1_655 2.7183(9) no
+Tl O3 . 1_665 2.7183(9) no
+Tl O3 . 25_555 2.02(2) yes
+Ba O1 . 1_545 2.729(5) yes
+Ba O1 . . 2.729(5) no
+Ba O1 . 2_555 2.729(5) no
+Ba O1 . 2_655 2.729(5) no
+Ba O2 . 1_445 2.784(2) yes
+Ba O2 . 1_455 2.784(2) no
+Ba O2 . 1_545 2.784(2) no
+Ba O2 . . 2.784(2) no
+Ba O3 . . 2.79(2) yes
+Sr2 O1 . 1_545 2.514(4) yes
+Sr2 O1 . . 2.514(4) no
+Sr2 O1 . 9_555 2.514(4) no
+Sr2 O1 . 9_565 2.514(4) no
+Sr2 O1 . 2_555 2.514(4) no
+Sr2 O1 . 2_655 2.514(4) no
+Sr2 O1 . 10_455 2.514(4) no
+Sr2 O1 . 10_555 2.514(4) no
+Cu O1 . . 1.9199(2) yes
+Cu O1 . 1_655 1.9199(2) no
+Cu O1 . 2_655 1.9199(2) no
+Cu O1 . 2_665 1.9199(2) no
+Cu O2 . . 2.500(10) yes

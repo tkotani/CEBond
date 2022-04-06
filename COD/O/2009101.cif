@@ -1,0 +1,279 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-19 16:29:56 +0200 (Fri, 19 Feb 2016) $
+#$Revision: 176759 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/91/2009101.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2009101
+loop_
+_publ_author_name
+'Friese, K.'
+'Madariaga, G.'
+'Breczewski, T.'
+_publ_section_title
+;
+ Tl~2~MoO~4~ at 350K
+;
+_journal_issue                   11
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              1753
+_journal_page_last               1755
+_journal_paper_doi               10.1107/S0108270199008616
+_journal_volume                  55
+_journal_year                    1999
+_chemical_formula_iupac          'Tl2 Mo O4'
+_chemical_formula_structural     Tl2(MoO4)
+_chemical_formula_sum            'Mo O4 Tl2'
+_chemical_formula_weight         568.68
+_chemical_name_common            'Thallium Molybdate'
+_chemical_name_systematic
+;
+Dithallium molybdate
+;
+_space_group_IT_number           164
+_symmetry_cell_setting           trigonal
+_symmetry_space_group_name_Hall  '-P 3 2"'
+_symmetry_space_group_name_H-M   'P -3 m 1'
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                120.00
+_cell_formula_units_Z            2
+_cell_length_a                   6.2660(10)
+_cell_length_b                   6.2660(10)
+_cell_length_c                   8.103(2)
+_cell_measurement_reflns_used    2313
+_cell_measurement_temperature    350.0(10)
+_cell_measurement_theta_max      26
+_cell_measurement_theta_min      2
+_cell_volume                     275.52(9)
+_computing_cell_refinement       EXPOSE
+_computing_data_collection       'EXPOSE (Stoe, 1997)'
+_computing_data_reduction        'X-RED (Stoe, 1998)'
+_computing_molecular_graphics    'ORTEP3 for Windows (Farrugia, 1996)'
+_computing_structure_refinement  'SHELXL93 (Sheldrick, 1993)'
+_diffrn_ambient_temperature      350.0(10)
+_diffrn_measured_fraction_theta_full 0.988
+_diffrn_measured_fraction_theta_max 0.988
+_diffrn_measurement_device_type  'Stoe IPDS'
+_diffrn_measurement_method       'Imaging plate'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.115
+_diffrn_reflns_av_sigmaI/netI    0.052
+_diffrn_reflns_limit_h_max       7
+_diffrn_reflns_limit_h_min       -7
+_diffrn_reflns_limit_k_max       7
+_diffrn_reflns_limit_k_min       -7
+_diffrn_reflns_limit_l_max       9
+_diffrn_reflns_limit_l_min       -9
+_diffrn_reflns_number            2008
+_diffrn_reflns_theta_full        25.99
+_diffrn_reflns_theta_max         26
+_diffrn_reflns_theta_min         2.51
+_diffrn_standards_decay_%        1
+_diffrn_standards_number         50
+_exptl_absorpt_coefficient_mu    60.489
+_exptl_absorpt_correction_T_max  0.041
+_exptl_absorpt_correction_T_min  0.005
+_exptl_absorpt_correction_type   gaussian
+_exptl_absorpt_process_details   'X-RED (Stoe, 1998)'
+_exptl_crystal_colour            yellow
+_exptl_crystal_density_diffrn    6.855
+_exptl_crystal_density_meas      ?
+_exptl_crystal_description       irregular
+_exptl_crystal_F_000             472
+_exptl_crystal_size_max          0.10
+_exptl_crystal_size_mid          0.10
+_exptl_crystal_size_min          0.05
+_refine_diff_density_max         1.306
+_refine_diff_density_min         -1.078
+_refine_ls_extinction_coef       0.0031(10)
+_refine_ls_extinction_method     'SHELXL93 (Sheldrick, 1993)'
+_refine_ls_goodness_of_fit_ref   1.053
+_refine_ls_hydrogen_treatment    none
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     21
+_refine_ls_number_reflns         237
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.053
+_refine_ls_R_factor_all          0.046
+_refine_ls_R_factor_gt           0.039
+_refine_ls_shift/su_max          <0.001
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w = 1/[\s^2^(Fo^2^)+(0.0468P)^2^] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_ref         0.092
+_reflns_number_gt                200
+_reflns_number_total             237
+_reflns_threshold_expression     I>4\s(I)
+_cod_data_source_file            br1242.cif
+_cod_data_source_block           tmo350
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_exptl_absorpt_correction_type' value 'Gaussian' changed to
+'gaussian' according to
+/home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+
+The following automatic conversions were performed:
+
+'_exptl_crystal_density_meas' value 'not measured' was changed to '?'
+- the value is perceived as not measured.
+
+Automatic conversion script
+Id: cif_fix_values 3008 2015-01-20 13:52:24Z robertas 
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'calc w =
+1/[\s^2^(Fo^2^)+(0.0468P)^2^] where P=(Fo^2^+2Fc^2^)/3' was changed
+to 'calc'. New tag '_refine_ls_weighting_details' was created. The
+value of the new tag was set to 'w = 1/[\s^2^(Fo^2^)+(0.0468P)^2^]
+where P=(Fo^2^+2Fc^2^)/3'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_database_code               2009101
+_cod_database_fobs_code          2009101
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-y, x-y, z'
+'-x+y, -x, z'
+'y, x, -z'
+'x-y, -y, -z'
+'-x, -x+y, -z'
+'-x, -y, -z'
+'y, -x+y, -z'
+'x-y, x, -z'
+'-y, -x, z'
+'-x+y, y, z'
+'x, x-y, z'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+_atom_site_type_symbol
+Tl1 0 0 0 .0444(5) Uani d S 1 . . Tl
+Tl2 0 0 0.5 .0620(6) Uani d S 1 . . Tl
+Tl3 0.666666666666667 0.333333333333333 0.17374(10) .0568(5) Uani d S 1 . . Tl
+Mo 0.666666666666667 0.333333333333333 0.6878(2) .0346(6) Uani d S 1 . . Mo
+O1 0.666666666666667 0.333333333333333 0.478(2) .094(7) Uani d S 1 . . O
+O2 0.1852(9) -0.1852(9) 0.2350(15) .100(4) Uani d S 1 . . O
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Tl1 .0453(6) .0453(6) .0425(8) .0226(3) 0 0
+Tl2 .0731(8) .0731(8) .0399(8) .0366(4) 0 0
+Tl3 .0659(7) .0659(7) .0385(7) .0329(3) 0 0
+Mo .0361(9) .0361(9) .0316(9) .0181(4) 0 0
+O1 .124(11) .124(11) .034(9) .062(5) 0 0
+O2 .137(10) .137(10) .080(8) .108(10) -.014(3) .014(3)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Tl Tl -2.8358 9.6688 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Mo Mo -1.6832 0.6857 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O2 Tl1 O2 . 7 180.0(4) yes
+O2 Tl1 O2 . 2 77.9(4) yes
+O2 Tl1 O2 . 8 102.1(4) yes
+O2 Tl1 O2 . 3 77.9(4) no
+O2 Tl1 O2 . 9 102.1(4) no
+O2 Tl1 O2 12 4 102.1(4) no
+O2 Tl2 O2 . 7_556 180.0(4) n
+O2 Tl2 O2 . 2 72.6(4) yes
+O2 Tl2 O2 . 8_556 107.4(4) yes
+O2 Tl2 O1 . . 67.9(4) yes
+O2 Tl2 O1 . 1_455 130.3(4) yes
+O2 Tl2 O1 . 7_666 112.1(4) yes
+O2 Tl2 O1 . 7_656 49.7(4) yes
+O1 Mo O2 . 7_656 111.3(4) yes
+O1 Mo O2 . 8_666 111.3(4) no
+O1 Mo O2 . 9_556 111.3(4) no
+O2 Mo O2 7_656 9_556 107.6(4) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Tl1 O2 . 2.769(10) yes
+Tl1 O2 7 2.769(10) n
+Tl1 O2 2 2.769(10) n
+Tl1 O2 8 2.769(10) n
+Tl1 O2 3 2.769(10) n
+Tl1 O2 9 2.769(10) n
+Tl2 O2 . 2.941(10) yes
+Tl2 O2 7_556 2.941(10) n
+Tl2 O2 2 2.941(10) n
+Tl2 O2 8_556 2.941(10) n
+Tl2 O2 3 2.941(10) n
+Tl2 O2 9_556 2.941(10) n
+Tl2 O1 . 3.622(10) yes
+Tl2 O1 1_455 3.622(10) n
+Tl2 O1 1_445 3.622(10) n
+Tl2 O1 7_666 3.622(10) n
+Tl2 O1 7_656 3.622(10) n
+Tl2 O1 7_556 3.622(10) n
+Tl3 O1 . 2.467(16) yes
+Tl3 O2 . 3.178(16) yes
+Tl3 O2 1_665 3.178(16) n
+Tl3 O2 2_655 3.178(16) n
+Tl3 O2 2 3.178(16) n
+Tl3 O2 3_665 3.178(16) n
+Tl3 O2 3_655 3.178(16) n
+Tl3 O2 7_655 3.682(16) yes
+Tl3 O2 8_665 3.682(16) n
+Tl3 O2 9 3.682(16) n
+Mo O1 . 1.699(16) yes
+Mo O2 7_656 1.725(16) yes
+Mo O2 8_666 1.725(16) n
+Mo O2 9_556 1.725(16) n
+O1 O2 7_656 2.83(2) yes
+O1 O2 8_666 2.83(2) no
+O1 O2 9_556 2.83(2) no
+O2 O2 3_655 2.78(2) yes
+O2 O2 2_545 2.78(2) no

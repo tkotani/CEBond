@@ -1,0 +1,290 @@
+#------------------------------------------------------------------------------
+#$Date: 2019-07-08 11:04:37 +0300 (Mon, 08 Jul 2019) $
+#$Revision: 216824 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/55/20/1552015.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1552015
+loop_
+_publ_author_name
+'Agnes Dewaele'
+'Nicholas Worth'
+'Chris J. Pickard'
+'Richard J. Needs'
+'Sakura Pascarelli'
+'Olivier Mathon'
+'Mohamed Mezouar'
+'Tetsuo Irifune'
+_publ_section_title
+;
+ Synthesis and stability of xenon oxides Xe2O5 and Xe3O2 under pressure
+;
+_journal_name_full               'Nature Chemistry'
+_journal_page_first              784
+_journal_page_last               790
+_journal_paper_doi               10.1038/nchem.2528
+_journal_volume                  8
+_journal_year                    2016
+_chemical_formula_sum            'O Xe2'
+_chemical_formula_weight         278.58
+_space_group_IT_number           12
+_space_group_name_Hall           '-C 2y'
+_space_group_name_H-M_alt        'C 1 2/m 1'
+_symmetry_cell_setting           monoclinic
+_symmetry_Int_Tables_number      12
+_symmetry_space_group_name_Hall  '-C 2y'
+_symmetry_space_group_name_H-M   'C 1 2/m 1'
+_cell_angle_alpha                90.000
+_cell_angle_beta                 93.325
+_cell_angle_gamma                90.000
+_cell_formula_units_Z            8
+_cell_length_a                   10.0009
+_cell_length_b                   3.20600
+_cell_length_c                   11.0813
+_cell_volume                     354.700
+_cod_data_source_file            nchem.2528-s3.cif
+_cod_data_source_block           Xe2O-C2m-83GPa
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+data item '_symmetry_cell_setting' value 'Monoclinic' was changed to
+'monoclinic' in accordance with the built-in table derived from the
+CIF Core dictionary named 'cif_core.dic' version 2.4.5 last updated
+on 2014-11-21.
+
+Automatic conversion script
+Id: cif_fix_values 6909 2019-04-08 15:41:33Z antanas 
+;
+_cod_original_cell_volume        354.70
+_cod_original_sg_symbol_H-M      'C 2/m'
+_cod_database_code               1552015
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -x,y,-z
+3 -x,-y,-z
+4 x,-y,z
+5 1/2+x,1/2+y,z
+6 1/2-x,1/2+y,-z
+7 1/2-x,1/2-y,-z
+8 1/2+x,1/2-y,z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+Xe1 Xe 0.35714 0.00000 0.07658 0.00000 Uiso 1.00
+Xe2 Xe 0.41730 0.50000 0.31208 0.00000 Uiso 1.00
+Xe3 Xe 0.36630 1.00000 0.54164 0.00000 Uiso 1.00
+Xe4 Xe 0.36244 0.00000 -0.19272 0.00000 Uiso 1.00
+O5 O 0.29302 0.50000 -0.29029 0.00000 Uiso 1.00
+O6 O 0.43104 0.50000 -0.09900 0.00000 Uiso 1.00
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+Xe2 Xe1 Xe4 146.01 . . .
+Xe2 Xe1 Xe2 62.46 . . 1_545
+Xe2 Xe1 Xe4 60.62 . . 2_655
+Xe1 Xe1 Xe2 145.51 6_545 . .
+Xe2 Xe1 Xe4 91.48 . . 6_545
+Xe1 Xe1 Xe2 106.76 6_555 . .
+Xe2 Xe1 Xe4 58.87 . . 6_555
+Xe2 Xe1 Xe4 146.01 1_545 . .
+Xe4 Xe1 Xe4 110.86 . . 2_655
+Xe1 Xe1 Xe4 60.34 6_545 . .
+Xe4 Xe1 Xe4 118.33 . . 6_545
+Xe1 Xe1 Xe4 60.34 6_555 . .
+Xe4 Xe1 Xe4 118.33 . . 6_555
+Xe2 Xe1 Xe4 60.62 1_545 . 2_655
+Xe1 Xe1 Xe2 106.76 6_545 . 1_545
+Xe2 Xe1 Xe4 58.87 1_545 . 6_545
+Xe1 Xe1 Xe2 145.51 6_555 . 1_545
+Xe2 Xe1 Xe4 91.48 1_545 . 6_555
+Xe1 Xe1 Xe4 146.00 6_545 . 2_655
+Xe4 Xe1 Xe4 119.49 2_655 . 6_545
+Xe1 Xe1 Xe4 146.00 6_555 . 2_655
+Xe4 Xe1 Xe4 119.49 2_655 . 6_555
+Xe1 Xe1 Xe4 57.98 6_545 . 6_545
+Xe1 Xe1 Xe1 62.24 6_545 . 6_555
+Xe1 Xe1 Xe4 90.63 6_545 . 6_555
+Xe1 Xe1 Xe4 90.63 6_555 . 6_545
+Xe4 Xe1 Xe4 63.14 6_545 . 6_555
+Xe1 Xe1 Xe4 57.98 6_555 . 6_555
+Xe1 Xe2 Xe3 159.26 . . .
+Xe1 Xe2 Xe3 113.24 . . 1_545
+Xe1 Xe2 Xe1 62.46 . . 1_565
+Xe1 Xe2 Xe3 105.72 . . 2_646
+Xe1 Xe2 Xe4 58.49 . . 2_655
+Xe1 Xe2 Xe3 144.19 . . 2_656
+Xe1 Xe2 Xe4 90.94 . . 2_665
+Xe1 Xe2 Xe4 60.07 . . 6_555
+Xe3 Xe2 Xe3 62.86 . . 1_545
+Xe1 Xe2 Xe3 113.24 1_565 . .
+Xe3 Xe2 Xe3 88.92 . . 2_646
+Xe3 Xe2 Xe4 141.52 . . 2_655
+Xe3 Xe2 Xe3 55.81 . . 2_656
+Xe3 Xe2 Xe4 103.93 . . 2_665
+Xe3 Xe2 Xe4 99.68 . . 6_555
+Xe1 Xe2 Xe3 159.26 1_565 . 1_545
+Xe3 Xe2 Xe3 55.81 1_545 . 2_646
+Xe3 Xe2 Xe4 103.93 1_545 . 2_655
+Xe3 Xe2 Xe3 88.92 1_545 . 2_656
+Xe3 Xe2 Xe4 141.52 1_545 . 2_665
+Xe3 Xe2 Xe4 99.68 1_545 . 6_555
+Xe1 Xe2 Xe3 144.19 1_565 . 2_646
+Xe1 Xe2 Xe4 90.94 1_565 . 2_655
+Xe1 Xe2 Xe3 105.72 1_565 . 2_656
+Xe1 Xe2 Xe4 58.49 1_565 . 2_665
+Xe1 Xe2 Xe4 60.07 1_565 . 6_555
+Xe3 Xe2 Xe4 57.13 2_646 . 2_655
+Xe3 Xe2 Xe3 62.77 2_646 . 2_656
+Xe3 Xe2 Xe4 89.92 2_646 . 2_665
+Xe3 Xe2 Xe4 146.58 2_646 . 6_555
+Xe3 Xe2 Xe4 89.92 2_656 . 2_655
+Xe4 Xe2 Xe4 62.64 2_655 . 2_665
+Xe4 Xe2 Xe4 118.56 2_655 . 6_555
+Xe3 Xe2 Xe4 57.13 2_656 . 2_665
+Xe3 Xe2 Xe4 146.58 2_656 . 6_555
+Xe4 Xe2 Xe4 118.56 2_665 . 6_555
+Xe2 Xe3 Xe2 62.86 . . 1_565
+Xe2 Xe3 Xe4 147.05 . . 1_566
+Xe2 Xe3 Xe2 91.08 . . 2_656
+Xe2 Xe3 Xe3 62.16 . . 2_656
+Xe2 Xe3 Xe2 124.19 . . 2_666
+Xe2 Xe3 Xe3 67.72 . . 6_546
+Xe2 Xe3 Xe3 101.04 . . 6_556
+Xe2 Xe3 Xe4 147.05 1_565 . 1_566
+Xe2 Xe3 Xe2 124.19 1_565 . 2_656
+Xe2 Xe3 Xe3 62.16 1_565 . 2_656
+Xe2 Xe3 Xe2 91.08 1_565 . 2_666
+Xe2 Xe3 Xe3 101.04 1_565 . 6_546
+Xe2 Xe3 Xe3 67.72 1_565 . 6_556
+Xe2 Xe3 Xe4 61.53 2_656 . 1_566
+Xe3 Xe3 Xe4 112.74 2_656 . 1_566
+Xe2 Xe3 Xe4 61.53 2_666 . 1_566
+Xe3 Xe3 Xe4 104.98 6_546 . 1_566
+Xe3 Xe3 Xe4 104.98 6_556 . 1_566
+Xe2 Xe3 Xe3 62.03 2_656 . 2_656
+Xe2 Xe3 Xe2 62.77 2_656 . 2_666
+Xe2 Xe3 Xe3 113.71 2_656 . 6_546
+Xe2 Xe3 Xe3 166.41 2_656 . 6_556
+Xe2 Xe3 Xe3 62.03 2_666 . 2_656
+Xe3 Xe3 Xe3 129.37 2_656 . 6_546
+Xe3 Xe3 Xe3 129.37 2_656 . 6_556
+Xe2 Xe3 Xe3 166.41 2_666 . 6_546
+Xe2 Xe3 Xe3 113.71 2_666 . 6_556
+Xe3 Xe3 Xe3 66.34 6_546 . 6_556
+Xe1 Xe4 O5 120.39 . . .
+Xe1 Xe4 O6 60.59 . . .
+Xe1 Xe4 Xe3 179.73 . . 1_544
+Xe1 Xe4 O5 120.39 . . 1_545
+Xe1 Xe4 O6 60.59 . . 1_545
+Xe1 Xe4 Xe2 118.88 . . 2_645
+Xe1 Xe4 Xe1 69.14 . . 2_655
+Xe1 Xe4 Xe2 118.88 . . 2_655
+Xe1 Xe4 Xe1 61.67 . . 6_545
+Xe1 Xe4 Xe2 111.55 . . 6_545
+Xe1 Xe4 Xe1 61.67 . . 6_555
+O5 Xe4 O6 75.03 . . .
+Xe3 Xe4 O5 59.50 1_544 . .
+O5 Xe4 O5 104.08 . . 1_545
+O5 Xe4 O6 178.99 . . 1_545
+Xe2 Xe4 O5 114.34 2_645 . .
+Xe1 Xe4 O5 120.47 2_655 . .
+Xe2 Xe4 O5 65.95 2_655 . .
+Xe1 Xe4 O5 113.90 6_545 . .
+Xe2 Xe4 O5 59.25 6_545 . .
+Xe1 Xe4 O5 65.14 6_555 . .
+Xe3 Xe4 O6 119.51 1_544 . .
+O5 Xe4 O6 178.99 1_545 . .
+O6 Xe4 O6 105.86 . . 1_545
+Xe2 Xe4 O6 113.92 2_645 . .
+Xe1 Xe4 O6 59.89 2_655 . .
+Xe2 Xe4 O6 64.91 2_655 . .
+Xe1 Xe4 O6 115.60 6_545 . .
+Xe2 Xe4 O6 120.37 6_545 . .
+Xe1 Xe4 O6 66.22 6_555 . .
+Xe3 Xe4 O5 59.50 1_544 . 1_545
+Xe3 Xe4 O6 119.51 1_544 . 1_545
+Xe2 Xe4 Xe3 61.34 2_645 . 1_544
+Xe1 Xe4 Xe3 111.13 2_655 . 1_544
+Xe2 Xe4 Xe3 61.34 2_655 . 1_544
+Xe1 Xe4 Xe3 118.11 6_545 . 1_544
+Xe2 Xe4 Xe3 68.19 6_545 . 1_544
+Xe1 Xe4 Xe3 118.11 6_555 . 1_544
+O5 Xe4 O6 75.03 1_545 . 1_545
+Xe2 Xe4 O5 65.95 2_645 . 1_545
+Xe1 Xe4 O5 120.47 2_655 . 1_545
+Xe2 Xe4 O5 114.34 2_655 . 1_545
+Xe1 Xe4 O5 65.14 6_545 . 1_545
+Xe2 Xe4 O5 59.25 6_545 . 1_545
+Xe1 Xe4 O5 113.90 6_555 . 1_545
+Xe2 Xe4 O6 64.91 2_645 . 1_545
+Xe1 Xe4 O6 59.89 2_655 . 1_545
+Xe2 Xe4 O6 113.92 2_655 . 1_545
+Xe1 Xe4 O6 66.22 6_545 . 1_545
+Xe2 Xe4 O6 120.37 6_545 . 1_545
+Xe1 Xe4 O6 115.60 6_555 . 1_545
+Xe1 Xe4 Xe2 60.89 2_655 . 2_645
+Xe2 Xe4 Xe2 62.64 2_645 . 2_655
+Xe1 Xe4 Xe2 117.11 6_545 . 2_645
+Xe2 Xe4 Xe2 118.56 2_645 . 6_545
+Xe1 Xe4 Xe2 179.45 6_555 . 2_645
+Xe1 Xe4 Xe2 60.89 2_655 . 2_655
+Xe1 Xe4 Xe1 119.49 2_655 . 6_545
+Xe1 Xe4 Xe2 179.32 2_655 . 6_545
+Xe1 Xe4 Xe1 119.49 2_655 . 6_555
+Xe1 Xe4 Xe2 179.45 6_545 . 2_655
+Xe2 Xe4 Xe2 118.56 2_655 . 6_545
+Xe1 Xe4 Xe2 117.11 6_555 . 2_655
+Xe1 Xe4 Xe2 61.06 6_545 . 6_545
+Xe1 Xe4 Xe1 63.14 6_545 . 6_555
+Xe1 Xe4 Xe2 61.06 6_555 . 6_545
+Xe4 O5 Xe4 104.08 . . 1_565
+Xe4 O6 Xe4 105.86 . . 1_565
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+Xe1 Xe2 3.0919 . .
+Xe1 Xe4 2.9877 . .
+Xe1 Xe2 3.0919 . 1_545
+Xe1 Xe4 3.0171 . 2_655
+Xe1 Xe1 3.1017 . 6_545
+Xe1 Xe4 3.0621 . 6_545
+Xe1 Xe1 3.1017 . 6_555
+Xe1 Xe4 3.0621 . 6_555
+Xe2 Xe3 3.0743 . .
+Xe2 Xe3 3.0743 . 1_545
+Xe2 Xe3 3.0780 . 2_646
+Xe2 Xe3 3.0780 . 2_656
+Xe2 Xe4 3.0244 6_545 .
+Xe2 Xe4 3.0837 2_645 .
+Xe2 Xe4 3.0837 2_655 .
+Xe3 Xe3 2.8791 . 2_656
+Xe3 Xe4 2.9461 1_544 .
+Xe3 Xe3 2.9298 . 6_556
+Xe3 Xe3 2.9298 . 6_546
+Xe4 O6 2.0090 . .
+Xe4 O6 2.0090 . 1_545
+Xe4 O5 2.0331 . 1_545
+Xe4 O5 2.0331 . .

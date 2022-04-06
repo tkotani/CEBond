@@ -1,0 +1,484 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/01/18/2011855.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2011855
+loop_
+_publ_author_name
+'Smith, Mark D.'
+'zur Loye, Hans-Conrad'
+_publ_section_title
+;
+ Sr~3~ZnPtO~6~ and Sr~3~CdPtO~6~
+;
+_journal_issue                   4
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              337
+_journal_page_last               338
+_journal_paper_doi               10.1107/S0108270100020060
+_journal_volume                  57
+_journal_year                    2001
+_chemical_formula_moiety         'Sr3 Zn Pt O6'
+_chemical_formula_sum            'O6 Pt Sr3 Zn'
+_chemical_formula_weight         619.32
+_chemical_name_systematic
+;
+Tristrontium zinc platinum hexaoxide
+;
+_space_group_IT_number           167
+_symmetry_cell_setting           trigonal
+_symmetry_space_group_name_Hall  '-R 3 2"c'
+_symmetry_space_group_name_H-M   'R -3 c :H'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            6
+_cell_length_a                   9.6267(7)
+_cell_length_b                   9.6267(7)
+_cell_length_c                   11.2292(11)
+_cell_measurement_reflns_used    823
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      36.203
+_cell_measurement_theta_min      4.234
+_cell_volume                     901.23(13)
+_computing_cell_refinement       SMART
+_computing_data_collection       'SMART (Bruker, 1999)'
+_computing_data_reduction        'SHELXTL (Bruker, 1999)'
+_computing_molecular_graphics    SHELXTL
+_computing_publication_material  SHELXTL
+_computing_structure_refinement  'SHELXL97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS97 (Sheldrick, 1997)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measured_fraction_theta_full 1.000
+_diffrn_measured_fraction_theta_max 1.000
+_diffrn_measurement_device_type  'Bruker SMART APEX CCD'
+_diffrn_measurement_method       '\w scans'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     .71073
+_diffrn_reflns_av_R_equivalents  .045
+_diffrn_reflns_av_sigmaI/netI    .046
+_diffrn_reflns_limit_h_max       15
+_diffrn_reflns_limit_h_min       -13
+_diffrn_reflns_limit_k_max       15
+_diffrn_reflns_limit_k_min       -13
+_diffrn_reflns_limit_l_max       17
+_diffrn_reflns_limit_l_min       -18
+_diffrn_reflns_number            2881
+_diffrn_reflns_theta_full        36.32
+_diffrn_reflns_theta_max         36.32
+_diffrn_reflns_theta_min         4.23
+_diffrn_standards_decay_%        none
+_exptl_absorpt_coefficient_mu    53.564
+_exptl_absorpt_correction_T_max  .211
+_exptl_absorpt_correction_T_min  .054
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details   '(SADABS; Bruker, 1999)'
+_exptl_crystal_colour            brown
+_exptl_crystal_density_diffrn    6.847
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       fragment
+_exptl_crystal_F_000             1620
+_exptl_crystal_size_max          .11
+_exptl_crystal_size_mid          .05
+_exptl_crystal_size_min          .03
+_refine_diff_density_max         6.49
+_refine_diff_density_min         -4.57
+_refine_ls_extinction_coef       .00027(5)
+_refine_ls_extinction_method     'SHELXL97 (Sheldrick, 1997)'
+_refine_ls_goodness_of_fit_ref   .981
+_refine_ls_hydrogen_treatment    none
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     20
+_refine_ls_number_reflns         493
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      .981
+_refine_ls_R_factor_all          .036
+_refine_ls_R_factor_gt           .029
+_refine_ls_shift/su_max          <0.001
+_refine_ls_shift/su_mean         .000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w = 1/[\s^2^(Fo^2^)+(0.0272P)^2^] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_ref         .059
+_reflns_number_gt                405
+_reflns_number_total             493
+_reflns_threshold_expression     I>2\s(I)
+_cod_data_source_file            br1306.cif
+_cod_data_source_block           I
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_symmetry_cell_setting' value 'Trigonal' changed to 'trigonal' according
+to '/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Trigonal' changed to 'trigonal'
+according to /home/saulius/struct/CIF-dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_original_sg_symbol_H-M      'R -3 c'
+_cod_original_formula_sum        'Sr3 Zn Pt O6'
+_cod_database_code               2011855
+_cod_database_fobs_code          2011855
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-y, x-y, z'
+'-x+y, -x, z'
+'y, x, -z+1/2'
+'x-y, -y, -z+1/2'
+'-x, -x+y, -z+1/2'
+'x+2/3, y+1/3, z+1/3'
+'-y+2/3, x-y+1/3, z+1/3'
+'-x+y+2/3, -x+1/3, z+1/3'
+'y+2/3, x+1/3, -z+5/6'
+'x-y+2/3, -y+1/3, -z+5/6'
+'-x+2/3, -x+y+1/3, -z+5/6'
+'x+1/3, y+2/3, z+2/3'
+'-y+1/3, x-y+2/3, z+2/3'
+'-x+y+1/3, -x+2/3, z+2/3'
+'y+1/3, x+2/3, -z+7/6'
+'x-y+1/3, -y+2/3, -z+7/6'
+'-x+1/3, -x+y+2/3, -z+7/6'
+'-x, -y, -z'
+'y, -x+y, -z'
+'x-y, x, -z'
+'-y, -x, z-1/2'
+'-x+y, y, z-1/2'
+'x, x-y, z-1/2'
+'-x+2/3, -y+1/3, -z+1/3'
+'y+2/3, -x+y+1/3, -z+1/3'
+'x-y+2/3, x+1/3, -z+1/3'
+'-y+2/3, -x+1/3, z-1/6'
+'-x+y+2/3, y+1/3, z-1/6'
+'x+2/3, x-y+1/3, z-1/6'
+'-x+1/3, -y+2/3, -z+2/3'
+'y+1/3, -x+y+2/3, -z+2/3'
+'x-y+1/3, x+2/3, -z+2/3'
+'-y+1/3, -x+2/3, z+1/6'
+'-x+y+1/3, y+2/3, z+1/6'
+'x+1/3, x-y+2/3, z+1/6'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+_atom_site_type_symbol
+Sr .36425(7) 0 0.25 .00588(16) Uani d S 1 . . Sr
+Zn 0 0 0.25 .0087(3) Uani d S 1 . . Zn
+Pt 0 0 0 .00336(12) Uani d S 1 . . Pt
+O -.0203(5) .1528(5) 0.1135(3) .0092(7) Uani d . 1 . . O
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Sr .0053(2) .0055(3) .0069(3) .00276(15) -.00037(11) -.0007(2)
+Zn .0106(4) .0106(4) .0051(6) .0053(2) 0 0
+Pt .00297(15) .00297(15) .00413(19) .00149(7) 0 0
+O .0099(19) .0083(18) .0103(17) .0053(16) -.0005(14) -.0030(14)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Sr Sr -1.5307 3.2498 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Zn Zn .2839 1.4301 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Pt Pt -1.7033 8.3905 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O .0106 .0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+O Sr O 3 4 77.04(19)
+O Sr O 3 34_545 93.97(12)
+O Sr O 4 34_545 77.03(14)
+O Sr O 3 27 77.03(14)
+O Sr O 4 27 93.97(12)
+O Sr O 34_545 27 168.62(18)
+O Sr O 3 8 132.44(7)
+O Sr O 4 8 73.60(16)
+O Sr O 34_545 8 114.38(14)
+O Sr O 27 8 68.71(15)
+O Sr O 3 18_544 73.60(16)
+O Sr O 4 18_544 132.44(7)
+O Sr O 34_545 18_544 68.71(16)
+O Sr O 27 18_544 114.38(14)
+O Sr O 8 18_544 150.95(18)
+O Sr O 3 25 121.95(6)
+O Sr O 4 25 139.40(13)
+O Sr O 34_545 25 130.09(3)
+O Sr O 27 25 61.27(17)
+O Sr O 8 25 67.64(15)
+O Sr O 18_544 25 88.13(12)
+O Sr O 3 35_545 139.40(13)
+O Sr O 4 35_545 121.95(6)
+O Sr O 34_545 35_545 61.27(17)
+O Sr O 27 35_545 130.09(3)
+O Sr O 8 35_545 88.13(12)
+O Sr O 18_544 35_545 67.64(15)
+O Sr O 25 35_545 69.15(17)
+O Sr Pt 3 7 116.08(9)
+O Sr Pt 4 7 101.38(10)
+O Sr Pt 34_545 7 149.01(9)
+O Sr Pt 27 7 39.06(8)
+O Sr Pt 8 7 39.02(8)
+O Sr Pt 18_544 7 124.94(9)
+O Sr Pt 25 7 38.91(8)
+O Sr Pt 35_545 7 96.19(9)
+O Sr Pt 3 16_544 101.38(10)
+O Sr Pt 4 16_544 116.08(9)
+O Sr Pt 34_545 16_544 39.06(8)
+O Sr Pt 27 16_544 149.01(9)
+O Sr Pt 8 16_544 124.95(9)
+O Sr Pt 18_544 16_544 39.02(8)
+O Sr Pt 25 16_544 96.19(9)
+O Sr Pt 35_545 16_544 38.91(8)
+Pt Sr Pt 7 16_544 131.96(2)
+O Sr Zn 3 . 38.52(9)
+O Sr Zn 4 . 38.52(9)
+O Sr Zn 34_545 . 84.31(9)
+O Sr Zn 27 . 84.31(9)
+O Sr Zn 8 . 104.52(9)
+O Sr Zn 18_544 . 104.52(9)
+O Sr Zn 25 . 145.42(9)
+O Sr Zn 35_545 . 145.42(9)
+Pt Sr Zn 7 . 114.019(12)
+Pt Sr Zn 16_544 . 114.020(12)
+O Sr Sr 3 32 83.84(10)
+O Sr Sr 4 32 49.03(9)
+O Sr Sr 34_545 32 125.23(9)
+O Sr Sr 27 32 47.66(9)
+O Sr Sr 8 32 48.71(9)
+O Sr Sr 18_544 32 154.74(9)
+O Sr Sr 25 32 94.48(8)
+O Sr Sr 35_545 32 136.45(8)
+Pt Sr Sr 7 32 55.9350(10)
+Pt Sr Sr 16_544 32 163.141(12)
+Zn Sr Sr . 32 60.822(9)
+O Zn O 2 6 146.3(2)
+O Zn O 2 4 129.9(2)
+O Zn O 6 4 76.81(16)
+O Zn O 2 5 89.0(2)
+O Zn O 6 5 76.81(16)
+O Zn O 4 5 76.81(16)
+O Zn O 2 3 76.81(16)
+O Zn O 6 3 129.9(2)
+O Zn O 4 3 89.0(2)
+O Zn O 5 3 146.3(2)
+O Zn O 2 . 76.81(16)
+O Zn O 6 . 89.0(2)
+O Zn O 4 . 146.3(2)
+O Zn O 5 . 129.9(2)
+O Zn O 3 . 76.81(16)
+O Zn Pt 2 . 45.84(10)
+O Zn Pt 6 . 134.16(10)
+O Zn Pt 4 . 134.16(10)
+O Zn Pt 5 . 134.16(10)
+O Zn Pt 3 . 45.84(10)
+O Zn Pt . . 45.84(10)
+O Zn Pt 2 4 134.16(10)
+O Zn Pt 6 4 45.84(10)
+O Zn Pt 4 4 45.84(10)
+O Zn Pt 5 4 45.84(10)
+O Zn Pt 3 4 134.16(10)
+O Zn Pt . 4 134.16(10)
+Pt Zn Pt . 4 180.0
+O Zn Sr 2 3 44.50(10)
+O Zn Sr 6 3 115.04(10)
+O Zn Sr 4 3 106.85(11)
+O Zn Sr 5 3 44.50(10)
+O Zn Sr 3 3 115.04(10)
+O Zn Sr . 3 106.85(11)
+Pt Zn Sr . 3 90.0
+Pt Zn Sr 4 3 90.0
+O Zn Sr 2 2 115.04(10)
+O Zn Sr 6 2 44.50(10)
+O Zn Sr 4 2 115.04(10)
+O Zn Sr 5 2 106.85(11)
+O Zn Sr 3 2 106.85(11)
+O Zn Sr . 2 44.50(10)
+Pt Zn Sr . 2 90.0
+Pt Zn Sr 4 2 90.0
+Sr Zn Sr 3 2 120.0
+O Zn Sr 2 . 106.85(11)
+O Zn Sr 6 . 106.85(11)
+O Zn Sr 4 . 44.50(10)
+O Zn Sr 5 . 115.04(10)
+O Zn Sr 3 . 44.50(10)
+O Zn Sr . . 115.04(10)
+Pt Zn Sr . . 90.0
+Pt Zn Sr 4 . 90.0
+Sr Zn Sr 3 . 120.0
+Sr Zn Sr 2 . 120.0
+O Zn Sr 2 27_445 47.06(11)
+O Zn Sr 6 27_445 164.56(10)
+O Zn Sr 4 27_445 87.76(10)
+O Zn Sr 5 27_445 99.38(10)
+O Zn Sr 3 27_445 48.98(11)
+O Zn Sr . 27_445 104.47(10)
+Pt Zn Sr . 27_445 58.640(4)
+Pt Zn Sr 4 27_445 121.360(4)
+Sr Zn Sr 3 27_445 68.692(11)
+Sr Zn Sr 2 27_445 148.310(5)
+Sr Zn Sr . 27_445 60.822(9)
+O Pt O 19 21 84.72(17)
+O Pt O 19 3 95.28(17)
+O Pt O 21 3 180.0(3)
+O Pt O 19 . 180.0(3)
+O Pt O 21 . 95.28(17)
+O Pt O 3 . 84.72(17)
+O Pt O 19 20 84.72(17)
+O Pt O 21 20 84.72(17)
+O Pt O 3 20 95.28(17)
+O Pt O . 20 95.28(17)
+O Pt O 19 2 95.28(17)
+O Pt O 21 2 95.28(17)
+O Pt O 3 2 84.72(17)
+O Pt O . 2 84.72(17)
+O Pt O 20 2 180.0(3)
+O Pt Zn 19 . 128.92(11)
+O Pt Zn 21 . 128.92(11)
+O Pt Zn 3 . 51.08(11)
+O Pt Zn . . 51.08(11)
+O Pt Zn 20 . 128.92(11)
+O Pt Zn 2 . 51.08(11)
+O Pt Zn 19 19 51.08(11)
+O Pt Zn 21 19 51.08(11)
+O Pt Zn 3 19 128.92(11)
+O Pt Zn . 19 128.92(11)
+O Pt Zn 20 19 51.08(11)
+O Pt Zn 2 19 128.92(11)
+Zn Pt Zn . 19 180.0
+O Pt Sr 19 15_554 124.11(11)
+O Pt Sr 21 15_554 57.32(12)
+O Pt Sr 3 15_554 122.68(12)
+O Pt Sr . 15_554 55.89(11)
+O Pt Sr 20 15_554 55.23(11)
+O Pt Sr 2 15_554 124.77(11)
+Zn Pt Sr . 15_554 106.948(2)
+Zn Pt Sr 19 15_554 73.052(2)
+O Pt Sr 19 27_445 55.89(11)
+O Pt Sr 21 27_445 122.68(12)
+O Pt Sr 3 27_445 57.32(12)
+O Pt Sr . 27_445 124.11(11)
+O Pt Sr 20 27_445 124.77(11)
+O Pt Sr 2 27_445 55.23(11)
+Zn Pt Sr . 27_445 73.052(2)
+Zn Pt Sr 19 27_445 106.948(2)
+Sr Pt Sr 15_554 27_445 180.00(2)
+O Pt Sr 19 25 122.68(12)
+O Pt Sr 21 25 124.77(11)
+O Pt Sr 3 25 55.23(11)
+O Pt Sr . 25 57.32(12)
+O Pt Sr 20 25 55.88(11)
+O Pt Sr 2 25 124.12(11)
+Zn Pt Sr . 25 73.052(2)
+Zn Pt Sr 19 25 106.948(3)
+Sr Pt Sr 15_554 25 68.126(2)
+Sr Pt Sr 27_445 25 111.874(2)
+O Pt Sr 19 13_444 57.32(12)
+O Pt Sr 21 13_444 55.23(11)
+O Pt Sr 3 13_444 124.77(11)
+O Pt Sr . 13_444 122.68(12)
+O Pt Sr 20 13_444 124.12(11)
+O Pt Sr 2 13_444 55.88(11)
+Zn Pt Sr . 13_444 106.948(2)
+Zn Pt Sr 19 13_444 73.052(2)
+Sr Pt Sr 15_554 13_444 111.874(2)
+Sr Pt Sr 27_445 13_444 68.126(2)
+Sr Pt Sr 25 13_444 180.00(2)
+Pt O Zn . . 83.09(15)
+Pt O Sr . 2 171.3(2)
+Zn O Sr . 2 96.98(14)
+Pt O Sr . 26_455 85.71(14)
+Zn O Sr . 26_455 95.42(15)
+Sr O Sr 2 26_455 102.97(14)
+Pt O Sr . 15_554 85.10(13)
+Zn O Sr . 15_554 168.08(18)
+Sr O Sr 2 15_554 94.46(14)
+Sr O Sr 26_455 15_554 85.22(11)
+Pt O Sr . 25 83.77(13)
+Zn O Sr . 25 93.38(13)
+Sr O Sr 2 25 87.50(12)
+Sr O Sr 26_455 25 165.37(16)
+Sr O Sr 15_554 25 83.78(12)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Sr O 3 2.476(4) y
+Sr O 4 2.476(4) ?
+Sr O 34_545 2.645(4) ?
+Sr O 27 2.645(4) y
+Sr O 8 2.668(4) y
+Sr O 18_544 2.668(4) ?
+Sr O 25 2.718(4) y
+Sr O 35_545 2.718(4) ?
+Sr Pt 7 3.2103(4) ?
+Sr Pt 16_544 3.2104(4) ?
+Sr Zn . 3.5066(8) ?
+Sr Sr 32 3.5962(3) ?
+Zn O 2 2.200(4) ?
+Zn O 6 2.200(4) ?
+Zn O 4 2.200(4) ?
+Zn O 5 2.200(4) ?
+Zn O 3 2.200(4) ?
+Zn O . 2.200(4) y
+Zn Pt . 2.8073(3) y
+Zn Pt 4 2.8073(3) ?
+Zn Sr 3 3.5066(8) ?
+Zn Sr 2 3.5066(8) ?
+Zn Sr 27_445 3.5962(3) ?
+Pt O 19 2.029(4) ?
+Pt O 21 2.029(4) ?
+Pt O 3 2.029(4) ?
+Pt O . 2.029(4) y
+Pt O 20 2.029(4) ?
+Pt O 2 2.029(4) ?
+Pt Zn 19 2.8073(3) ?
+Pt Sr 15_554 3.2103(4) ?
+Pt Sr 27_445 3.2103(4) ?
+Pt Sr 25 3.2103(4) ?
+Pt Sr 13_444 3.2103(4) ?
+O Sr 2 2.476(4) ?
+O Sr 26_455 2.645(4) ?
+O Sr 15_554 2.668(4) ?
+O Sr 25 2.718(4) ?

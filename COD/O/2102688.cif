@@ -1,0 +1,351 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 02:53:41 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176768 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/26/2102688.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2102688
+loop_
+_publ_author_name
+'van Smaalen, Sander'
+'Dinnebier, Robert '
+'Sofin, Mikhail'
+Jansen,Martin
+_publ_section_title
+;
+ Structures of incommensurate and commensurate composite crystals
+ Na~<i>x~</i>CuO~2~ (<i>x</i> = 1.58, 1.6, 1.62)
+;
+_journal_coeditor_code           CK5018
+_journal_issue                   1
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              17
+_journal_page_last               25
+_journal_paper_doi               10.1107/S0108768106039462
+_journal_volume                  63
+_journal_year                    2007
+_chemical_formula_sum            'Cu5 Na8 O10'
+_chemical_formula_weight         661.6
+_chemical_name_systematic        ' ?'
+_space_group_ssg_name            C2/m(0\b0)s0
+_symmetry_cell_setting           monoclinic
+_cell_angle_alpha                90
+_cell_angle_beta                 111.9709
+_cell_angle_gamma                90
+_cell_formula_units_Z            1
+_cell_length_a                   8.2417
+_cell_length_b                   2.7859
+_cell_length_c                   5.7167
+_cell_modulation_dimension       1
+_cell_subsystems_number          2
+_cell_volume                     121.726
+_computing_publication_material  '(Jana2000; Petricek and Dusek, 2000)'
+_computing_structure_refinement  '(Jana2000; Petricek and Dusek, 2000)'
+_diffrn_ambient_temperature      293
+_diffrn_radiation_type           X-ray
+_diffrn_radiation_wavelength     0.70926
+_exptl_absorpt_coefficient_mu    22.317
+_exptl_absorpt_correction_T_max  1.000
+_exptl_absorpt_correction_T_min  1.000
+_exptl_absorpt_correction_type   none
+_exptl_crystal_density_diffrn    9.0229
+_exptl_crystal_F_000             125
+_refine_ls_goodness_of_fit_ref   2.95
+_refine_ls_number_parameters     107
+_refine_ls_number_reflns         5656
+_refine_ls_R_factor_all          0.0418
+_refine_ls_R_factor_gt           0.0347
+_refine_ls_shift/su_max          0.0018
+_refine_ls_shift/su_mean         0.0002
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     w=1/\s^2^(F)
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_gt          0.0332
+_refine_ls_wR_factor_ref         0.0334
+_reflns_number_gt                4523
+_reflns_number_total             5656
+_reflns_threshold_expression     I>3\s(I)
+_cod_data_source_file            ck5018.cif
+_cod_data_source_block           II
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_exptl_absorpt_correction_type' value 'None' changed to 'none' according
+to '/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+
+The following automatic conversions were performed:
+
+'_exptl_absorpt_correction_type' value 'None' changed to 'none'
+according to /home/saulius/struct/CIF-dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_original_cell_volume        121.7258
+_cod_database_code               2102688
+loop_
+_space_group_symop_ssg_id
+_space_group_symop_ssg_operation_algebraic
+1 x1,x2,x3,x4
+2 -x1,x2,-x3,1/2+x4
+3 -x1,-x2,-x3,-x4
+4 x1,-x2,x3,1/2-x4
+5 1/2+x1,1/2+x2,x3,x4
+6 1/2-x1,1/2+x2,-x3,1/2+x4
+7 1/2-x1,1/2-x2,-x3,-x4
+8 1/2+x1,1/2-x2,x3,1/2-x4
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_occupancy
+Cu Cu1 0 0.5 0 0.0107 Uani d 1
+O O1 0.05204 0 0.242277 0.0161 Uani d 1
+Na Na1 -0.154182 0.25 0.377855 0.0268 Uani d 1
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+_atom_site_aniso_type_symbol
+Cu1 0.012659 0.010929 0.008165 0 0.003339 0 Cu
+O1 0.023003 0.014862 0.009429 0 0.004993 0 O
+Na1 0.021659 0.042864 0.016004 0 0.007236 0 Na
+loop_
+_atom_site_displace_Fourier_atom_site_label
+_atom_site_displace_Fourier_axis
+_atom_site_displace_Fourier_wave_vector_seq_id
+_atom_site_displace_Fourier_param_cos
+_atom_site_displace_Fourier_param_sin
+Cu1 x 1 0 -0.0143
+Cu1 y 1 0 0
+Cu1 z 1 0 -0.0286
+Cu1 x 2 0 0
+Cu1 y 2 0 -0.0062
+Cu1 z 2 0 0
+Cu1 x 3 0 0.0042
+Cu1 y 3 0 0
+Cu1 z 3 0 0.0027
+Cu1 x 4 0 0
+Cu1 y 4 0 -0.0014
+Cu1 z 4 0 0
+O1 x 1 0 0.0119
+O1 y 1 0.0239 0
+O1 z 1 0 0.0243
+O1 x 2 -0.0061 0
+O1 y 2 0 0.0204
+O1 z 2 -0.0075 0
+O1 x 3 0 0.0076
+O1 y 3 -0.0082 0
+O1 z 3 0 0.0043
+O1 x 4 0.0013 0
+O1 y 4 0 0.0048
+O1 z 4 0.0003 0
+Na1 x 1 -0.0364 0
+Na1 y 1 0 0.0985
+Na1 z 1 -0.0256 0
+Na1 x 2 -0.0082 0
+Na1 y 2 0 -0.0018
+Na1 z 2 -0.0097 0
+Na1 x 3 0.0042 0
+Na1 y 3 0 -0.0179
+Na1 z 3 -0.0007 0
+Na1 x 4 0.0024 0
+Na1 y 4 0 0
+Na1 z 4 0.0004 0
+loop_
+_atom_site_Fourier_wave_vector_seq_id
+_atom_site_Fourier_wave_vector_x
+_atom_site_Fourier_wave_vector_z
+1 0.00000 0.00000
+2 0.00000 0.00000
+3 0.00000 0.00000
+4 0.00000 0.00000
+loop_
+_atom_site_U_Fourier_atom_site_label
+_atom_site_U_Fourier_tens_elem
+_atom_site_U_Fourier_wave_vector_seq_id
+_atom_site_U_Fourier_param_cos
+_atom_site_U_Fourier_param_sin
+Cu1 U11 1 0 0
+Cu1 U22 1 0 0
+Cu1 U33 1 0 0
+Cu1 U12 1 -0.002292 0
+Cu1 U13 1 0 0
+Cu1 U23 1 -0.001951 0
+Cu1 U11 2 -0.000938 0
+Cu1 U22 2 -0.001233 0
+Cu1 U33 2 -0.000409 0
+Cu1 U12 2 0 0
+Cu1 U13 2 0.000089 0
+Cu1 U23 2 0 0
+Cu1 U11 3 0 0
+Cu1 U22 3 0 0
+Cu1 U33 3 0 0
+Cu1 U12 3 0.001153 0
+Cu1 U13 3 0 0
+Cu1 U23 3 0.001033 0
+Cu1 U11 4 -0.00367 0
+Cu1 U22 4 -0.00013 0
+Cu1 U33 4 -0.001985 0
+Cu1 U12 4 0 0
+Cu1 U13 4 -0.001894 0
+Cu1 U23 4 0 0
+O1 U11 1 0 -0.007726
+O1 U22 1 0 -0.001137
+O1 U33 1 0 0.000357
+O1 U12 1 0.004968 0
+O1 U13 1 0 -0.000565
+O1 U23 1 0.002039 0
+O1 U11 2 0.000177 0
+O1 U22 2 0.005123 0
+O1 U33 2 -0.00091 0
+O1 U12 2 0 -0.000235
+O1 U13 2 0.000452 0
+O1 U23 2 0 0.000425
+O1 U11 3 0 -0.000164
+O1 U22 3 0 -0.000637
+O1 U33 3 0 -0.000686
+O1 U12 3 0.003843 0
+O1 U13 3 0 -0.000386
+O1 U23 3 0.000288 0
+O1 U11 4 -0.001578 0
+O1 U22 4 0.002843 0
+O1 U33 4 0.001428 0
+O1 U12 4 0 0.000814
+O1 U13 4 0.000707 0
+O1 U23 4 0 -0.00006
+Na1 U11 1 0.005322 0
+Na1 U22 1 0.035756 0
+Na1 U33 1 0.002385 0
+Na1 U12 1 0 0.019492
+Na1 U13 1 0.001318 0
+Na1 U23 1 0 0.008364
+Na1 U11 2 -0.004723 0
+Na1 U22 2 0.001838 0
+Na1 U33 2 0.00038 0
+Na1 U12 2 0 0.018063
+Na1 U13 2 -0.000804 0
+Na1 U23 2 0 0.009998
+Na1 U11 3 -0.011063 0
+Na1 U22 3 -0.022437 0
+Na1 U33 3 0.004784 0
+Na1 U12 3 0 0.008346
+Na1 U13 3 -0.002286 0
+Na1 U23 3 0 0.006811
+Na1 U11 4 0.000236 0
+Na1 U22 4 -0.015349 0
+Na1 U33 4 -0.004909 0
+Na1 U12 4 0 -619.6094
+Na1 U13 4 -0.001531 0
+Na1 U23 4 0 -6.237483
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Na 0.036 0.025 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.1'
+Cu 0.320 1.265 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.1'
+O 0.011 0.006 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.1'
+loop_
+_cell_subsystem_description
+_cell_subsystem_matrix_W_1_1
+_cell_subsystem_matrix_W_1_4
+_cell_subsystem_matrix_W_2_2
+_cell_subsystem_matrix_W_3_3
+_cell_subsystem_matrix_W_4_1
+_cell_subsystem_matrix_W_4_4
+'1-st subsystem' 1 0 1 1 0 1
+'2-nd subsystem' 1 0 0 1 0 0
+loop_
+_cell_subsystem_matrix_W_1_2
+_cell_subsystem_matrix_W_1_3
+_cell_subsystem_matrix_W_2_1
+_cell_subsystem_matrix_W_2_3
+_cell_subsystem_matrix_W_2_4
+_cell_subsystem_matrix_W_3_1
+_cell_subsystem_matrix_W_3_2
+_cell_subsystem_matrix_W_3_4
+_cell_subsystem_matrix_W_4_2
+_cell_subsystem_matrix_W_4_3
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 1 0 0 0 1 0
+loop_
+_cell_wave_vector_seq_id
+_cell_wave_vector_x
+_cell_wave_vector_y
+_cell_wave_vector_z
+1 0.00000 0.80000 0.00000
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+_geom_bond_distance_max
+_geom_bond_distance_min
+_geom_bond_distance_av
+Cu1 Cu1 1_545 yes 2.8181 2.7577 2.7895
+Cu1 Cu1 1_565 yes 2.8181 2.7577 2.7895
+Cu1 O1 . yes 1.9298 1.8579 1.8991
+Cu1 O1 1_565 yes 1.9298 1.8579 1.8991
+Cu1 Na1 1_564 yes 4.1968 3.0599 17.5745
+Cu1 Na1 . yes 5.1372 3.2115 20.3621
+Cu1 Na1 1_565 yes 3.776 2.8961 15.7315
+Cu1 Na1 5_555 yes 5.1985 3.2528 20.5305
+Cu1 Na1 5_565 yes 3.3056 2.738 15.6325
+Cu1 O11 . yes 1.9504 1.8332 1.9004
+Cu1 O11 1_565 yes 1.9504 1.8332 1.9004
+Cu1 Na11 1_565 yes 3.8568 2.8958 16.2516
+Cu1 Na11 1_575 yes 4.7487 3.0749 19.3148
+Cu1 Na11 1_566 yes 4.1987 3.1054 18.0009
+Cu1 Na11 5_465 yes 3.4583 2.8067 15.6102
+Cu1 Na11 5_475 yes 5.1377 3.2627 19.4405
+O1 O1 1_545 yes 2.8845 2.709 2.7886
+O1 O1 1_565 yes 2.8845 2.709 2.7886
+O1 Na1 . yes 3.6968 2.2948 13.4019
+O1 Na1 1_565 yes 4.3988 2.3242 15.5059
+O1 Na1 5_555 yes 3.7564 2.2962 14.3695
+O1 Na1 5_565 yes 3.8109 2.2962 15.8104
+O1 O11 . yes 2.654 2.5176 2.5776
+O1 O11 1_556 yes 3.3886 3.3482 3.3653
+O1 Na11 1_556 yes 4.8118 2.3551 18.6881
+O1 Na11 1_566 yes 2.3551 2.2979 11.6155
+O1 Na11 1_576 yes 5.4042 3.0006 21.7372
+Na1 Na1 1_545 yes 3.9071 3.0793 3.4932
+Na1 Na1 1_565 yes 3.9071 3.0793 3.4932
+Na1 O11 1_556 yes 2.4236 2.2772 9.3842
+Na1 O11 1_566 yes 3.6216 2.3301 10.7287
+Na1 Na11 1_556 yes 3.1618 2.7945 2.9994
+Na1 Na11 1_566 yes 3.1618 2.7945 2.9994
+Na1 Na11 5_456 yes 3.1095 2.9911 3.0505
+Na1 Na11 5_466 yes 3.1095 2.9911 3.0505
+O11 O11 1_545 yes 3 2.6948 2.792
+O11 O11 1_565 yes 3 2.6948 2.792
+O11 Na11 . yes 4.7373 2.5664 19.025
+O11 Na11 1_565 yes 2.5664 2.3115 11.9068
+O11 Na11 1_575 yes 5.5575 3.1755 22.0161
+O11 Na11 5_455 yes 5.1699 2.7714 19.4868
+O11 Na11 5_465 yes 2.7714 2.2831 12.0532
+Na11 Na11 1_545 yes 3.8669 3.0733 3.4961
+Na11 Na11 1_565 yes 3.8669 3.0733 3.4961

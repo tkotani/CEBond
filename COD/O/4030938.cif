@@ -1,0 +1,138 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-04-18 01:56:37 +0300 (Mon, 18 Apr 2016) $
+#$Revision: 182190 $
+#$URL: svn://www.crystallography.net/cod/cif/4/03/09/4030938.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4030938
+loop_
+_publ_author_name
+'Hector, A. L.'
+'Levason, W.'
+'Weller, M. T.'
+_publ_section_title
+;
+ Structure of \b-SrRh~2~O~4~ from X-ray and neutron powder diffraction
+;
+_journal_coden_ASTM              EJSCE5
+_journal_issue                   10-11
+_journal_name_full
+;
+ European Journal of Solid State and Inorganic Chemistry
+;
+_journal_page_first              679
+_journal_page_last               687
+_journal_paper_doi               10.1016/S0992-4361(99)80008-3
+_journal_volume                  35
+_journal_year                    1998
+_chemical_formula_sum            'O4 Rh2 Sr'
+_chemical_formula_weight         357.429
+_space_group_IT_number           190
+_symmetry_cell_setting           hexagonal
+_symmetry_Int_Tables_number      190
+_symmetry_space_group_name_Hall  'P -6c -2c'
+_symmetry_space_group_name_H-M   'P -6 2 c'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            1
+_cell_length_a                   3.0626(2)
+_cell_length_b                   3.0626(2)
+_cell_length_c                   11.3996(7)
+_cell_volume                     92.598(10)
+_diffrn_ambient_temperature      293
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_type           CuK\a
+_diffrn_radiation_wavelength     1.54056
+_exptl_crystal_density_diffrn    6.363
+_pd_proc_ls_prof_R_factor        0.1897
+_pd_proc_ls_prof_wR_factor       0.2631
+_cod_data_source_file            EJSSIC-1998-35-679-687.cif
+_cod_data_source_block           SrRh2O4
+_cod_depositor_comments
+;
+combined X-ray and neutron time of flight Rietveld refinement,
+GSAS software
+neutron : Rp = 0.0639, Rwp = 0.0808
+X-ray   : Rp = 0.1897, Rwp = 0.2631
+;
+_cod_original_cell_volume        92.598(15)
+_cod_database_code               4030938
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -x+y,-x,1/2-z
+3 -y,x-y,z
+4 x,y,1/2-z
+5 -x+y,-x,z
+6 -y,x-y,1/2-z
+7 y,x,1/2+z
+8 x-y,-y,-z
+9 -x,-x+y,1/2+z
+10 y,x,-z
+11 x-y,-y,1/2+z
+12 -x,-x+y,-z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_thermal_displace_type
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Rh Rh Uiso 0.00000 0.00000 0.00000 1.000 0.0024(4) . . . .
+O O Uiso 0.33333 0.66667 0.59205(4) 1.000 0.0028(4) . . . .
+Sr1 Sr Uiso 0.33333 0.66667 0.25000 0.289(4) 0.0206(15) . . . .
+Sr2 Sr Uiso 0.00000 0.00000 0.25000 0.196(3) 0.0155(19) . . . .
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O Rh O 96.28(1) 2_455 . 2_555 yes
+O Rh O 96.28(1) 2_455 . 2_565 yes
+O Rh O 83.72(1) 2_455 . 7_444 yes
+O Rh O 83.72(1) 2_455 . 7_454 yes
+O Rh O 180.00 2_455 . 7_554 yes
+O Rh O 96.28(1) 2_555 . 2_565 yes
+O Rh O 83.72(1) 2_555 . 7_444 yes
+O Rh O 180.00 2_555 . 7_454 yes
+O Rh O 83.72(1) 2_555 . 7_554 yes
+O Rh O 180.00 2_565 . 7_444 yes
+O Rh O 83.72(1) 2_565 . 7_454 yes
+O Rh O 83.72(1) 2_565 . 7_554 yes
+O Rh O 96.28(1) 7_444 . 7_454 yes
+O Rh O 96.28(1) 7_444 . 7_554 yes
+O Rh O 96.28(1) 7_454 . 7_554 yes
+Rh O Rh 96.28(1) 2_555 . 2_565 yes
+Rh O Rh 96.28(1) 2_555 . 2_665 yes
+Rh O Rh 96.28(1) 2_565 . 2_665 yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Rh O 2.0561(3) . 2_455 yes
+Rh O 2.0561(3) . 2_555 yes
+Rh O 2.0561(3) . 2_565 yes
+Rh O 2.0561(3) . 7_444 yes
+Rh O 2.0561(3) . 7_454 yes
+Rh O 2.0561(3) . 7_554 yes

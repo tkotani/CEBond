@@ -1,0 +1,595 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 06:40:26 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176432 $
+#$URL: svn://www.crystallography.net/cod/cif/2/22/98/2229871.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2229871
+loop_
+_publ_author_name
+'Zhu, Bai-Chuan'
+'Tang, Kai-Bin'
+_publ_section_title
+;
+ Rietveld refinement of KLaTiO~4~ from X-ray powder data
+;
+_journal_coeditor_code           WM2446
+_journal_issue                   4
+_journal_name_full               'Acta Crystallographica Section E'
+_journal_page_first              i26
+_journal_paper_doi               10.1107/S1600536811006891
+_journal_volume                  67
+_journal_year                    2011
+_chemical_formula_iupac          'K La Ti O4'
+_chemical_formula_structural     'K La Ti O4'
+_chemical_formula_sum            'K La O4 Ti'
+_chemical_formula_weight         289.90
+_chemical_name_systematic
+;
+Potassium lanthanum titanate
+;
+_space_group_IT_number           129
+_symmetry_cell_setting           tetragonal
+_symmetry_space_group_name_Hall  '-P 4a 2a'
+_symmetry_space_group_name_H-M   'P 4/n m m :2'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            2
+_cell_length_a                   3.84155(10)
+_cell_length_b                   3.84155
+_cell_length_c                   13.4695(4)
+_cell_measurement_temperature    298
+_cell_volume                     198.776(8)
+_computing_cell_refinement
+'<i>GSAS</i> (Larson & Von Dreele, 2004) and <i>EXPGUI</i> (Toby, 2001)'
+_computing_data_collection
+'<i>X'pert Data Collector</i> (PANalytical, 2003)'
+_computing_data_reduction
+'<i>X'pert Data Collector</i> (PANalytical, 2003)'
+_computing_molecular_graphics    'DIAMOND (Brandenburg, 1999)'
+_computing_publication_material  '<i>publCIF</i> (Westrip, 2010)'
+_computing_structure_refinement
+'<i>GSAS</i> (Larson & Von Dreele, 2004) and <i>EXPGUI</i> (Toby, 2001)'
+_computing_structure_solution
+;
+coordinates taken from an isotypic compound (Toda <i>et al.</i>,
+1996<i>b</i>)
+;
+_diffrn_ambient_temperature      298(2)
+_diffrn_measurement_device_type  'PANalytical X'pert PRO'
+_diffrn_measurement_method       'thin-slice \w'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'sealed tube'
+_diffrn_radiation_type           'Cu K\a'
+_diffrn_radiation_wavelength     1.54178
+_exptl_crystal_density_diffrn    4.8480
+_exptl_crystal_density_method    'not measured'
+_pd_block_diffractogram_id       klatioprofile
+_pd_char_colour                  white
+_pd_meas_2theta_range_inc        0.017
+_pd_meas_2theta_range_max        109.888
+_pd_meas_2theta_range_min        9.945
+_pd_meas_number_of_points        5880
+_pd_meas_scan_method             cont
+_pd_phase_name                   'from E:/gsas/MyWork/klt/KLATIO4.EXP'
+_pd_prep_temperature             1223
+_pd_proc_2theta_range_inc        0.017
+_pd_proc_2theta_range_max        109.81503
+_pd_proc_2theta_range_min        9.87202
+_pd_proc_info_excluded_regions   none
+_pd_proc_ls_background_function
+;   GSAS Background function number 1 with 36 terms.
+ Shifted Chebyshev function of 1st kind
+      1:    353.285     2:   -361.136     3:    220.846     4:   -104.260
+      5:    61.8271     6:   -33.1030     7:    19.7877     8:   -5.01446
+      9:    3.42337    10:   -3.14370    11:   0.340114    12:    2.15882
+     13:  -0.130836    14:   -1.88421    15:    5.08631    16:   -1.48077
+     17:    4.42719    18:    2.91556    19:  -3.924060E-0220:   0.679453
+     21:    5.77738    22:   -2.47188    23:    3.81643    24:    3.21357
+     25:   -4.71396    26:   -1.63350    27:   0.665874    28:   -7.16378
+     29:  -7.040150E-0230:    3.04932    31:   -2.36381    32:   0.787399
+     33:    4.27144    34:   -2.96952    35:    4.90415    36:    1.54599
+;
+_pd_proc_ls_pref_orient_corr
+;
+March-Dollase
+AXIS  1 Ratio=   0.96438  h= 0.000  k= 0.000  l= 1.000
+Prefered orientation correction range: Min=   0.94706, Max=   1.11492
+;
+_pd_proc_ls_profile_function
+;
+CW Profile function number 2 with  18 terms
+Profile coefficients for Simpson's rule integration of pseudovoigt function
+C.J. Howard (1982). J. Appl. Cryst.,15,615-620.
+P. Thompson, D.E. Cox & J.B. Hastings (1987). J. Appl.
+Cryst.,20,79-83.
+Peak tails are ignored  where the intensity is below 0.0010 times the peak
+  Aniso. broadening axis   0.0   0.0   1.0
+;
+_pd_proc_ls_prof_R_factor        0.0463
+_pd_proc_ls_prof_wR_expected     0.0460
+_pd_proc_ls_prof_wR_factor       0.0682
+_pd_spec_mounting
+;
+packed powder pellet
+;
+_pd_spec_mount_mode              reflection
+_pd_spec_shape                   flat_sheet
+_pd_spec_size_axial              20
+_pd_spec_size_equat              20
+_pd_spec_size_thick              1
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_all   1.49
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     60
+_refine_ls_number_restraints     0
+_refine_ls_shift/su_max          0.01
+_refine_ls_shift/su_mean         0.00
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w = 1/[\s^2^(Fo^2^)+(0.0677P)^2^] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_iucr_refine_instructions_details
+;
+         VERSION   6
+      DESCR
+HSTRY  1 created readexp.tcl 1033 2011-01-26T04:29:27
+HSTRY  2 EXPGUI 1033 1033 (3 changes) -- 01/26/11 04:29:45
+HSTRY  3 EXPTOOL  Win32  Jan 26 04:29:45 2011 P P
+HSTRY  4 EXPTOOL  Win32  Jan 26 04:29:47 2011 P  A
+HSTRY  5 EXPTOOL  Win32  Jan 26 04:30:06 2011 P  H
+HSTRY  6 EXPGUI 1033 1033 (28 changes) -- 01/26/11 04:31:13
+HSTRY  7 POWPREF Win32  Jan 26 04:31:14 2011
+HSTRY  8 GENLES  Win32  Jan 26 04:31:22 2011 Sdsq= 0.350E+06 S/E= 0.117E-06
+HSTRY  9 GENLES  Win32  Jan 26 04:31:27 2011 Sdsq= 0.350E+06 S/E= 0.961E-06
+HSTRY 10 EXPGUI 1033 1033 (1 changes) -- 01/26/11 04:31:36
+HSTRY 11 GENLES  Win32  Jan 26 04:31:37 2011 Sdsq= 0.304E+06 S/E=  9.99
+HSTRY 12 GENLES  Win32  Jan 26 04:31:41 2011 Sdsq= 0.300E+06 S/E= 0.640
+HSTRY 13 GENLES  Win32  Jan 26 04:31:45 2011 Sdsq= 0.300E+06 S/E= 0.447E-01
+HSTRY 14 GENLES  Win32  Jan 26 04:31:48 2011 Sdsq= 0.300E+06 S/E= 0.910E-02
+HSTRY 15 GENLES  Win32  Jan 26 04:31:51 2011 Sdsq= 0.300E+06 S/E= 0.699E-02
+HSTRY 16 GENLES  Win32  Jan 26 04:31:53 2011 Sdsq= 0.300E+06 S/E= 0.534E-02
+HSTRY 17 GENLES  Win32  Jan 26 04:31:57 2011 Sdsq= 0.300E+06 S/E= 0.412E-02
+HSTRY 18 GENLES  Win32  Jan 26 04:32:00 2011 Sdsq= 0.300E+06 S/E= 0.313E-02
+HSTRY 19 GENLES  Win32  Jan 26 04:32:02 2011 Sdsq= 0.300E+06 S/E= 0.242E-02
+HSTRY 20 GENLES  Win32  Jan 26 04:32:04 2011 Sdsq= 0.300E+06 S/E= 0.185E-02
+HSTRY 21 GENLES  Win32  Jan 26 04:32:07 2011 Sdsq= 0.300E+06 S/E= 0.143E-02
+HSTRY 22 GENLES  Win32  Jan 26 04:32:10 2011 Sdsq= 0.300E+06 S/E= 0.109E-02
+HSTRY 23 GENLES  Win32  Jan 26 04:32:12 2011 Sdsq= 0.300E+06 S/E= 0.837E-03
+HSTRY 24 GENLES  Win32  Jan 26 04:32:16 2011 Sdsq= 0.300E+06 S/E= 0.643E-03
+HSTRY 25 GENLES  Win32  Jan 26 04:32:19 2011 Sdsq= 0.300E+06 S/E= 0.496E-03
+HSTRY 26 GENLES  Win32  Jan 26 04:32:21 2011 Sdsq= 0.300E+06 S/E= 0.381E-03
+HSTRY 27 GENLES  Win32  Jan 26 04:32:25 2011 Sdsq= 0.300E+06 S/E= 0.295E-03
+HSTRY 28 GENLES  Win32  Jan 26 04:32:28 2011 Sdsq= 0.300E+06 S/E= 0.228E-03
+HSTRY 29 GENLES  Win32  Jan 26 04:32:31 2011 Sdsq= 0.300E+06 S/E= 0.168E-03
+HSTRY 30 GENLES  Win32  Jan 26 04:32:33 2011 Sdsq= 0.300E+06 S/E= 0.132E-03
+HSTRY 31 GENLES  Win32  Jan 26 04:32:35 2011 Sdsq= 0.300E+06 S/E= 0.101E-03
+HSTRY 32 GENLES  Win32  Jan 26 04:32:38 2011 Sdsq= 0.300E+06 S/E= 0.753E-04
+HSTRY 33 GENLES  Win32  Jan 26 04:32:40 2011 Sdsq= 0.300E+06 S/E= 0.627E-04
+HSTRY 34 GENLES  Win32  Jan 26 04:32:42 2011 Sdsq= 0.300E+06 S/E= 0.458E-04
+HSTRY 35 GENLES  Win32  Jan 26 04:32:46 2011 Sdsq= 0.300E+06 S/E= 0.338E-04
+HSTRY 36 GENLES  Win32  Jan 26 04:32:50 2011 Sdsq= 0.300E+06 S/E= 0.273E-04
+HSTRY 37 GENLES  Win32  Jan 26 04:32:52 2011 Sdsq= 0.300E+06 S/E= 0.196E-04
+HSTRY 38 GENLES  Win32  Jan 26 04:32:54 2011 Sdsq= 0.300E+06 S/E= 0.165E-04
+HSTRY 39 GENLES  Win32  Jan 26 04:32:57 2011 Sdsq= 0.300E+06 S/E= 0.132E-04
+HSTRY 40 GENLES  Win32  Jan 26 04:33:00 2011 Sdsq= 0.300E+06 S/E= 0.888E-05
+HSTRY 41 GENLES  Win32  Jan 26 04:33:02 2011 Sdsq= 0.300E+06 S/E= 0.831E-05
+HSTRY 42 GENLES  Win32  Jan 26 04:33:05 2011 Sdsq= 0.300E+06 S/E= 0.576E-05
+HSTRY 43 GENLES  Win32  Jan 26 04:33:07 2011 Sdsq= 0.300E+06 S/E= 0.495E-05
+HSTRY 44 GENLES  Win32  Jan 26 04:33:10 2011 Sdsq= 0.300E+06 S/E= 0.380E-05
+HSTRY 45 GENLES  Win32  Jan 26 04:33:13 2011 Sdsq= 0.300E+06 S/E= 0.239E-05
+HSTRY 46 GENLES  Win32  Jan 26 04:33:15 2011 Sdsq= 0.300E+06 S/E= 0.222E-05
+HSTRY 47 GENLES  Win32  Jan 26 04:33:18 2011 Sdsq= 0.300E+06 S/E= 0.186E-05
+HSTRY 48 GENLES  Win32  Jan 26 04:33:20 2011 Sdsq= 0.300E+06 S/E= 0.150E-05
+HSTRY 49 GENLES  Win32  Jan 26 04:33:23 2011 Sdsq= 0.300E+06 S/E= 0.106E-05
+HSTRY 50 GENLES  Win32  Jan 26 04:33:26 2011 Sdsq= 0.300E+06 S/E= 0.969E-06
+HSTRY 51 GENLES  Win32  Jan 26 04:33:28 2011 Sdsq= 0.300E+06 S/E= 0.795E-06
+HSTRY 52 GENLES  Win32  Jan 26 04:33:30 2011 Sdsq= 0.300E+06 S/E= 0.750E-06
+HSTRY 53 GENLES  Win32  Jan 26 04:33:33 2011 Sdsq= 0.300E+06 S/E= 0.727E-06
+HSTRY 54 GENLES  Win32  Jan 26 04:33:35 2011 Sdsq= 0.300E+06 S/E= 0.410E-06
+HSTRY 55 GENLES  Win32  Jan 26 04:33:38 2011 Sdsq= 0.300E+06 S/E= 0.338E-06
+HSTRY 56 GENLES  Win32  Jan 26 04:33:42 2011 Sdsq= 0.300E+06 S/E= 0.339E-06
+HSTRY 57 GENLES  Win32  Jan 26 04:33:46 2011 Sdsq= 0.300E+06 S/E= 0.187E-06
+HSTRY 58 GENLES  Win32  Jan 26 04:33:50 2011 Sdsq= 0.300E+06 S/E= 0.187E-06
+HSTRY 59 EXPGUI 1033 1033 (1 changes) -- 01/26/11 04:33:59
+HSTRY 60 GENLES  Win32  Jan 26 04:34:00 2011 Sdsq= 0.299E+06 S/E= 0.518
+HSTRY 61 GENLES  Win32  Jan 26 04:34:06 2011 Sdsq= 0.299E+06 S/E= 0.525E-01
+HSTRY 62 GENLES  Win32  Jan 26 04:34:09 2011 Sdsq= 0.299E+06 S/E= 0.825E-02
+HSTRY 63 GENLES  Win32  Jan 26 04:34:12 2011 Sdsq= 0.299E+06 S/E= 0.676E-02
+HSTRY 64 GENLES  Win32  Jan 26 04:34:15 2011 Sdsq= 0.299E+06 S/E= 0.576E-02
+HSTRY 65 GENLES  Win32  Jan 26 04:34:17 2011 Sdsq= 0.299E+06 S/E= 0.470E-02
+HSTRY 66 GENLES  Win32  Jan 26 04:34:20 2011 Sdsq= 0.299E+06 S/E= 0.394E-02
+HSTRY 67 GENLES  Win32  Jan 26 04:34:22 2011 Sdsq= 0.299E+06 S/E= 0.325E-02
+HSTRY 68 GENLES  Win32  Jan 26 04:34:25 2011 Sdsq= 0.299E+06 S/E= 0.277E-02
+HSTRY 69 GENLES  Win32  Jan 26 04:34:28 2011 Sdsq= 0.299E+06 S/E= 0.233E-02
+HSTRY 70 GENLES  Win32  Jan 26 04:34:31 2011 Sdsq= 0.299E+06 S/E= 0.194E-02
+HSTRY 71 GENLES  Win32  Jan 26 04:34:33 2011 Sdsq= 0.299E+06 S/E= 0.163E-02
+HSTRY 72 GENLES  Win32  Jan 26 04:34:36 2011 Sdsq= 0.299E+06 S/E= 0.140E-02
+HSTRY 73 GENLES  Win32  Jan 26 04:34:39 2011 Sdsq= 0.299E+06 S/E= 0.120E-02
+HSTRY 74 GENLES  Win32  Jan 26 04:34:41 2011 Sdsq= 0.299E+06 S/E= 0.103E-02
+HSTRY 75 GENLES  Win32  Jan 26 04:34:44 2011 Sdsq= 0.299E+06 S/E= 0.857E-03
+HSTRY 76 GENLES  Win32  Jan 26 04:34:47 2011 Sdsq= 0.299E+06 S/E= 0.722E-03
+HSTRY 77 GENLES  Win32  Jan 26 04:34:49 2011 Sdsq= 0.299E+06 S/E= 0.628E-03
+HSTRY 78 GENLES  Win32  Jan 26 04:34:52 2011 Sdsq= 0.299E+06 S/E= 0.516E-03
+HSTRY 79 GENLES  Win32  Jan 26 04:34:55 2011 Sdsq= 0.299E+06 S/E= 0.436E-03
+HSTRY 80 GENLES  Win32  Jan 26 04:34:58 2011 Sdsq= 0.299E+06 S/E= 0.369E-03
+HSTRY 81 GENLES  Win32  Jan 26 04:35:01 2011 Sdsq= 0.299E+06 S/E= 0.350E-03
+HSTRY 82 GENLES  Win32  Jan 26 04:35:04 2011 Sdsq= 0.299E+06 S/E= 0.289E-03
+HSTRY 83 GENLES  Win32  Jan 26 04:35:07 2011 Sdsq= 0.299E+06 S/E= 0.257E-03
+HSTRY 84 GENLES  Win32  Jan 26 04:35:09 2011 Sdsq= 0.299E+06 S/E= 0.212E-03
+HSTRY 85 GENLES  Win32  Jan 26 04:35:13 2011 Sdsq= 0.299E+06 S/E= 0.196E-03
+HSTRY 86 GENLES  Win32  Jan 26 04:35:16 2011 Sdsq= 0.299E+06 S/E= 0.171E-03
+HSTRY 87 GENLES  Win32  Jan 26 04:35:20 2011 Sdsq= 0.299E+06 S/E= 0.132E-03
+HSTRY 88 EXPGUI 1033 1033 (1 changes) -- 01/26/11 04:35:35
+HSTRY 89 GENLES  Win32  Jan 26 04:35:37 2011 Sdsq= 0.870E+05 S/E= 0.408E-02
+HSTRY 90 EXPGUI 1033 1033 (1 changes) -- 01/26/11 04:35:42
+HSTRY 91 GENLES  Win32  Jan 26 04:35:43 2011 Sdsq= 0.774E+05 S/E=  43.0
+HSTRY 92 EXPGUI 1033 1033 (1 changes) -- 01/26/11 04:35:48
+HSTRY 93 GENLES  Win32  Jan 26 04:35:49 2011 Sdsq= 0.733E+05 S/E= 0.436E-02
+HSTRY 94 EXPGUI 1033 1033 (1 changes) -- 01/26/11 04:35:54
+HSTRY 95 GENLES  Win32  Jan 26 04:35:55 2011 Sdsq= 0.711E+05 S/E= 0.130E-02
+HSTRY 96 EXPGUI 1033 1033 (1 changes) -- 01/26/11 04:35:59
+HSTRY 97 GENLES  Win32  Jan 26 04:36:00 2011 Sdsq= 0.710E+05 S/E= 0.996E-03
+HSTRY 98 EXPGUI 1033 1033 (1 changes) -- 01/26/11 04:36:04
+HSTRY 99 GENLES  Win32  Jan 26 04:36:06 2011 Sdsq= 0.705E+05 S/E= 0.170E-01
+HSTRY100 EXPGUI 1033 1033 (1 changes) -- 01/26/11 04:36:11
+HSTRY101 GENLES  Win32  Jan 26 04:36:12 2011 Sdsq= 0.705E+05 S/E= 0.712E-02
+HSTRY102 EXPGUI 1033 1033 (1 changes) -- 01/26/11 04:36:20
+HSTRY103 POWPREF Win32  Jan 26 04:36:22 2011
+HSTRY104 GENLES  Win32  Jan 26 04:36:29 2011 Sdsq= 0.189E+05 S/E= 0.582E-02
+HSTRY105 GENLES  Win32  Jan 26 04:36:37 2011 Sdsq= 0.189E+05 S/E= 0.535E-03
+HSTRY106 GENLES  Win32  Jan 26 04:36:44 2011 Sdsq= 0.189E+05 S/E= 0.579E-04
+HSTRY107 GENLES  Win32  Jan 26 04:36:50 2011 Sdsq= 0.189E+05 S/E= 0.499E-04
+HSTRY108 EXPGUI 1033 1033 (1 changes) -- 01/26/11 04:36:58
+HSTRY109 GENLES  Win32  Jan 26 04:37:04 2011 Sdsq= 0.173E+05 S/E= 0.798E-01
+HSTRY110 GENLES  Win32  Jan 26 04:37:12 2011 Sdsq= 0.173E+05 S/E= 0.637E-02
+HSTRY111 GENLES  Win32  Jan 26 04:37:17 2011 Sdsq= 0.173E+05 S/E= 0.470E-02
+HSTRY112 GENLES  Win32  Jan 26 04:37:24 2011 Sdsq= 0.173E+05 S/E= 0.239E-02
+HSTRY113 GENLES  Win32  Jan 26 04:37:29 2011 Sdsq= 0.173E+05 S/E= 0.124E-02
+HSTRY114 GENLES  Win32  Jan 26 04:37:33 2011 Sdsq= 0.173E+05 S/E= 0.830E-03
+HSTRY115 GENLES  Win32  Jan 26 04:37:37 2011 Sdsq= 0.173E+05 S/E= 0.317E-03
+HSTRY116 GENLES  Win32  Jan 26 04:37:40 2011 Sdsq= 0.173E+05 S/E= 0.172E-03
+HSTRY117 EXPGUI 1033 1033 (1 changes) -- 01/26/11 04:38:00
+HSTRY118 GENLES  Win32  Jan 26 04:38:03 2011 Sdsq= 0.172E+05 S/E= 0.791E-02
+HSTRY119 GENLES  Win32  Jan 26 04:38:25 2011 Sdsq= 0.172E+05 S/E= 0.475E-02
+HSTRY120 GENLES  Win32  Jan 26 04:38:34 2011 Sdsq= 0.172E+05 S/E= 0.236E-02
+HSTRY121 EXPGUI 1033 1033 (1 changes) -- 01/26/11 04:38:43
+HSTRY122 GENLES  Win32  Jan 26 04:38:47 2011 Sdsq= 0.165E+05 S/E= 0.246E-02
+HSTRY123 GENLES  Win32  Jan 26 04:39:06 2011 Sdsq= 0.165E+05 S/E= 0.411E-03
+HSTRY124 EXPGUI 1033 1033 (1 changes) -- 01/26/11 04:39:26
+HSTRY125 GENLES  Win32  Jan 26 04:39:27 2011 Sdsq= 0.147E+05 S/E= 0.293E-02
+HSTRY126 EXPGUI 1033 1033 (1 changes) -- 01/26/11 04:39:41
+HSTRY127 GENLES  Win32  Jan 26 04:39:46 2011 Sdsq= 0.139E+05 S/E= 0.781E-02
+HSTRY128 GENLES  Win32  Jan 26 04:39:57 2011 Sdsq= 0.139E+05 S/E= 0.480E-02
+HSTRY129 GENLES  Win32  Jan 26 04:40:04 2011 Sdsq= 0.139E+05 S/E= 0.246E-02
+HSTRY130 EXPGUI 1033 1033 (1 changes) -- 01/26/11 04:40:18
+HSTRY131 GENLES  Win32  Jan 26 04:40:21 2011 Sdsq= 0.129E+05 S/E= 0.256E-02
+HSTRY132 GENLES  Win32  Jan 26 04:40:26 2011 Sdsq= 0.129E+05 S/E= 0.762E-03
+HSTRY133 GENLES  Win32  Jan 26 04:40:33 2011 Sdsq= 0.129E+05 S/E= 0.675E-03
+HSTRY134 GENLES  Win32  Jan 26 04:40:39 2011 Sdsq= 0.129E+05 S/E= 0.851E-03
+HSTRY135 GENLES  Win32  Jan 26 04:40:44 2011 Sdsq= 0.129E+05 S/E= 0.888E-03
+HSTRY136 EXPGUI 1033 1033 (1 changes) -- 01/26/11 04:41:15
+DSGL CDAT1  DRAD ARAD NOFO
+GNLS  RUN on Jan 26 04:40:45 2011    Total cycles run 253       12904.
+GNLS CDAT1  MXCY  10MARQ1.00
+GNLS SHFTS      0.01      0.00
+AFAC  K     8.218612.7949 7.4398  .7748 1.0519213.187  .865941.6841 1.4228 RHF
+AFAC  K_    39.098  .367         2.1
+AFAC  K_SIZ      2.58      2.38 2.00  708
+AFAC  K_XAB  27710 17820  9637  1052 524.6 44100 14100
+AFAC  K_XF1  0.091 0.307 0.387 0.201 0.140-0.508 0.353 0.009 0.007-0.002
+AFAC  K_XF2  2.109 1.589 1.066 0.249 0.156 2.844 1.386 0.022 0.020 0.015
+AFAC  O     3.048513.2771 2.2868 5.7011 1.5463  .3239  .867032.9089  .2508 RHF
+AFAC  O_    15.999 .5803      .00019
+AFAC  O_SIZ      1.09      0.89 1.40   96 1.40
+AFAC  O_XAB  988.0 590.6 293.1 30.48 17.21 1730. 478.0
+AFAC  O_XF1  0.093 0.072 0.049 0.011 0.006 0.121 0.063-0.002-0.003-0.003
+AFAC  O_XF2  0.073 0.052 0.032 0.006 0.004 0.106 0.044 0.000 0.000 0.000
+AFAC LA    20.57802.9481719.5990.24447511.372718.77263.28719133.1242.14678*RHF
+AFAC LA_   138.906  .824        8.97
+AFAC LA_SIZ      2.08      1.88 2.40  110
+AFAC LA_XAB  51400146600 81520 10460  5501 82000117000
+AFAC LA_XF1 -12.82-6.356-1.409-0.287-0.641-6.572-3.657-0.236-0.194-0.084
+AFAC LA_XF2  3.56512.893 9.038 2.452 1.615 4.75911.434 1.824 1.725 1.335
+AFAC TI     9.7595 7.8508 7.3558  .5000 1.699135.6338 1.9021116.105 1.2807
+AFAC TI  M  .4657 33.590  .5490  9.879 -.0291   .323  .0000   .000  .0123
+AFAC TI  N 4.3583 36.056 3.8230 11.133  .6855  3.469  .0000   .000  .0020 2.00
+AFAC TI_     47.90-.3438         6.1
+AFAC TI_SIZ      1.66      1.46 2.05  111
+AFAC TI_XAB  45450 29430 16100  1849 863.6 8680. 23100
+AFAC TI_XF1 -1.639-0.332 0.219 0.278 0.206-2.225-0.062 0.021 0.018 0.005
+AFAC TI_XF2  3.454 2.642 1.807 0.446 0.283 0.526 2.321 0.041 0.039 0.028
+EXPR  HTYP1  PXC
+EXPR  NATYP    4
+EXPR  NHST     1
+EXPR ATYP 1  K           1      2.58      2.38 2.00  708
+EXPR ATYP 2  LA          1      2.08      1.88 2.40  110
+EXPR ATYP 3  TI          1      1.66      1.46 2.05  111
+EXPR ATYP 4  O           3      1.098.900E-001 1.40   96 1.40
+EXPR NPHAS     1    0    0    0    0    0    0    0    0
+REFN GDNFT  Reduced CHI**2 =  2.218     for   60 variables
+REFN RPOWD     0.0682    0.0463   5879  12904.        0.0000    0.0000     0
+REFN STATS  Cycle 253 There were  5879 observations. Total CHI**2 = 1.2904E+04
+CRS1    PNAM  from E:/gsas/MyWork/klt/KLATIO4.EXP
+CRS1   NATOM    6
+CRS1  ABC     3.841551  3.841551 13.469539    Y    0
+CRS1  ABCSIG  0.000095  0.000095  0.000371
+CRS1  ANGLES   90.0000   90.0000   90.0000
+CRS1  ANGSIG    0.0000    0.0000    0.0000
+CRS1  AT  1A  K         0.250000  0.250000  0.594970  1.000000K1         2 000
+CRS1  AT  1B  0.027779                                                    I XU
+CRS1  AT  2A  LA        0.250000  0.250000  0.894460  1.000000LA1        2 000
+CRS1  AT  2B  0.019855                                                    I XU
+CRS1  AT  3A  TI        0.750000  0.750000  0.742026  1.000000TI1        2 000
+CRS1  AT  3B  0.015109                                                    I XU
+CRS1  AT  4A  O         0.750000  0.250000  0.772268  1.000000O1         4 000
+CRS1  AT  4B  0.018876                                                    I XU
+CRS1  AT  5A  O         0.250000  0.250000  0.389725  1.000000O2         2 000
+CRS1  AT  5B  0.038755                                                    I XU
+CRS1  AT  6A  O         0.250000  0.250000  0.068087  1.000000O3         2 000
+CRS1  AT  6B  0.017748                                                    I XU
+CRS1  CELVOL        198.777          0.015
+CRS1  CHMF 1  K             1.00
+CRS1  CHMF 2  LA            1.00
+CRS1  CHMF 3  TI            1.00
+CRS1  CHMF 4  O             4.00
+CRS1  SG SYM  P 4/n m m
+CRS1  SPAXIS    0    0    1
+HAP1 1 ZONE     0    0    0    0
+HAP1 1EXTPOW    0.00000E+00    N    0
+HAP1 1NAXIS     1
+HAP1 1PHSFR      1.0000        N    0
+HAP1 1PRCF      2   18   0.00100     YYYYY Y Y
+HAP1 1PRCF 1   0.000000E+00  -0.226057E+01  -0.928970E+01   0.431001E+01
+HAP1 1PRCF 2   0.176304E+02   0.000000E+00   0.352823E+01   0.000000E+00
+HAP1 1PRCF 3   0.172840E+02   0.000000E+00   0.000000E+00   0.000000E+00
+HAP1 1PRCF 4   0.000000E+00   0.000000E+00   0.000000E+00   0.000000E+00
+HAP1 1PRCF 5   0.000000E+00   0.000000E+00
+HAP1 1PREFO1  0.964384  1.000000  0.000000  0.000000  1.000000   YN    0    0
+HAP1 1RADDAM    0.00000E+00    N    0      0.00
+HST  1  HFIL  KLaTiO4.gsa
+HST  1  HNAM  C:\Users\zhubc\Desktop\KLaTiO4.udf
+HST  1  IFIL  inst_xry.prm
+HST  1 BANK     1
+HST  1 BIGFO   0.232798E+06
+HST  1 CHANS         0         1      5879  11339776      5880    0    0
+HST  1 EPHAS    0    0    0    0    0    0    0    0    0    Y
+HST  1 ICONR  1.540500  1.544300       0.0         0       0.7    0
+HST  1 ICONS 1.5405999 1.5444300   7.29757    Z    0   0.70000    0   0.50000
+HST  1 IRAD     3
+HST  1 MAXRF   36
+HST  1 NEXC     2
+HST  1 NFOBS  222    0    0    0    0    0    0    0    0
+HST  1 NPHAS    1    0    0    0    0    0    0    0    0
+HST  1 NREF   224    0.9409    Y    Y
+HST  1 R-FAC  222   0.04713   1.430212E+06
+HST  1 RPOWD    0.0682    0.0463   5879  12904.        0.0000    0.0000    0
+HST  1 TRNGE   9.94500 109.87100
+HST  1 WREXP    0.0460
+HST  1ABSCOR   0.000000E+00   0.000000E+00    N    0
+HST  1BAKGD     1   36    Y    0    Y
+HST  1BAKGD1   0.353285E+03  -0.361136E+03   0.220846E+03  -0.104260E+03
+HST  1BAKGD2   0.618271E+02  -0.331030E+02   0.197877E+02  -0.501446E+01
+HST  1BAKGD3   0.342337E+01  -0.314370E+01   0.340114E+00   0.215882E+01
+HST  1BAKGD4  -0.130836E+00  -0.188421E+01   0.508631E+01  -0.148077E+01
+HST  1BAKGD5   0.442719E+01   0.291556E+01  -0.392406E-01   0.679453E+00
+HST  1BAKGD6   0.577738E+01  -0.247188E+01   0.381643E+01   0.321357E+01
+HST  1BAKGD7  -0.471396E+01  -0.163350E+01   0.665874E+00  -0.716378E+01
+HST  1BAKGD8  -0.704015E-01   0.304932E+01  -0.236381E+01   0.787399E+00
+HST  1BAKGD9   0.427144E+01  -0.296952E+01   0.490415E+01   0.154599E+01
+HST  1CHI       0.0000
+HST  1DETAZM    0.0000
+HST  1EXC  1     0.000     0.000
+HST  1EXC  2   109.888  1000.000
+HST  1EXMNMX   1.00000   1.00000
+HST  1HSCALE     56.581        Y    0
+HST  1I HEAD  DUMMY INCIDENT SPECTRUM FOR X-RAY DIFFRACTOMETER
+HST  1I ITYP    0    0.0000  180.0000         1
+HST  1MNREF     0    1.0000
+HST  1ODMNMX   0.94706   1.11492
+HST  1OMEGA     0.0000    Y
+HST  1PHI       0.0000
+HST  1PRCF1     2    6      0.01
+HST  1PRCF11   2.000000E+00  -2.000000E+00   5.000000E+00   0.100000E+01
+HST  1PRCF12   0.100000E+01   0.000000E+00
+HST  1PRCF2     3    8      0.01
+HST  1PRCF21   2.000000E+00  -2.000000E+00   5.000000E+00   0.100000E+00
+HST  1PRCF22   0.000000E+00   0.000000E+00   0.150000E-01   0.150000E-01
+HST  1PRCF3     4   12      0.01
+HST  1PRCF31   2.000000E+00  -2.000000E+00   5.000000E+00   0.000000E+00
+HST  1PRCF32   0.100000E+00   0.000000E+00   0.000000E+00   0.000000E+00
+HST  1PRCF33   0.000000E+00   0.150000E-01   0.150000E-01   0.750000E+00
+HST  1RSP    0.0104 0.0411 0.0820 0.0651 0.0545 0.0448 0.0424 0.0436 0.0375
+HST  1RSPA   0.0233 0.0408 0.0838 0.0652 0.0505 0.0527 0.0449 0.0467 0.0419
+HST  1RSPTT   9.94 21.03 32.13 43.25 54.35 65.45 76.55 87.67 98.77109.87
+HST  1RSPW   0.0157 0.0674 0.1001 0.0844 0.0748 0.0566 0.0538 0.0537 0.0489
+HST  1RSPWA  0.0303 0.0643 0.0952 0.0786 0.0651 0.0677 0.0563 0.0603 0.0588
+HST  1TRMNMX   1.00000   1.00000
+ZZZZZZZZZZZZ  Last EXP file record
+CIF AUTHOR    zhubaichuan
+HST  1 INAME  x-ray
+;
+_cod_data_source_file            wm2446.cif
+_cod_data_source_block           I
+_cod_original_cell_volume        198.777(7)
+_cod_original_sg_symbol_Hall     '-p 4a 2a'
+_cod_original_sg_symbol_H-M      'P 4/n m m'
+_cod_database_code               2229871
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -y+1/2,+x,+z
+3 -x+1/2,-y+1/2,+z
+4 +y,-x+1/2,+z
+5 -x+1/2,+y,+z
+6 -y+1/2,-x+1/2,+z
+7 +x,-y+1/2,+z
+8 +y,+x,+z
+-1 -x,-y,-z
+-2 +y+1/2,-x,-z
+-3 +x+1/2,+y+1/2,-z
+-4 -y,+x+1/2,-z
+-5 +x+1/2,-y,-z
+-6 +y+1/2,+x+1/2,-z
+-7 -x,+y+1/2,-z
+-8 -y,-x,-z
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_occupancy
+K K1 0.25 0.25 0.5950(2) 0.0278(9) Uiso 1.0
+La LA1 0.25 0.25 0.89446(6) 0.0199(4) Uiso 1.0
+Ti TI1 0.75 0.75 0.74203(19) 0.0151(7) Uiso 1.0
+O O1 0.75 0.25 0.7723(4) 0.0189(17) Uiso 1.0
+O O2 0.25 0.25 0.3897(6) 0.039(2) Uiso 1.0
+O O3 0.25 0.25 0.0681(5) 0.018(2) Uiso 1.0
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+K 0.000 0.000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+La 0.000 0.000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ti 0.000 0.000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O 0.000 0.000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O1 K1 O1 1_455 . 1_555 77.62(13) ?
+O1 K1 O1 1_455 . 2_545 52.61(8) ?
+O1 K1 O1 1_455 . 2_555 52.61(8) ?
+O1 K1 O2 1_455 . 1_555 141.19(6) ?
+O1 K1 O2 1_455 . -1_556 59.94(15) ?
+O1 K1 O2 1_455 . -1_566 59.94(15) ?
+O1 K1 O2 1_455 . -1_656 112.52(18) ?
+O1 K1 O2 1_455 . -1_666 112.52(18) ?
+O1 K1 O1 1_555 . 2_545 52.61(8) ?
+O1 K1 O1 1_555 . 2_555 52.61(8) ?
+O1 K1 O2 1_555 . 1_555 141.19(6) ?
+O1 K1 O2 1_555 . -1_556 112.52(18) ?
+O1 K1 O2 1_555 . -1_566 112.52(18) ?
+O1 K1 O2 1_555 . -1_656 59.94(15) ?
+O1 K1 O2 1_555 . -1_666 59.94(15) ?
+O1 K1 O1 2_545 . 2_555 77.62(13) ?
+O1 K1 O2 2_545 . 1_555 141.19(6) ?
+O1 K1 O2 2_545 . -1_556 59.94(15) ?
+O1 K1 O2 2_545 . -1_566 112.52(18) ?
+O1 K1 O2 2_545 . -1_656 59.94(15) ?
+O1 K1 O2 2_545 . -1_666 112.52(18) ?
+O1 K1 O2 2_555 . 1_555 141.19(6) ?
+O1 K1 O2 2_555 . -1_556 112.52(18) ?
+O1 K1 O2 2_555 . -1_566 59.94(15) ?
+O1 K1 O2 2_555 . -1_656 112.52(18) ?
+O1 K1 O2 2_555 . -1_666 59.94(15) ?
+O2 K1 O2 1_555 . -1_556 94.34(18) ?
+O2 K1 O2 1_555 . -1_566 94.34(18) ?
+O2 K1 O2 1_555 . -1_656 94.34(18) ?
+O2 K1 O2 1_555 . -1_666 94.34(18) ?
+O2 K1 O2 -1_556 . -1_566 89.67(3) ?
+O2 K1 O2 -1_556 . -1_656 89.67(3) ?
+O2 K1 O2 -1_556 . -1_666 171.3(4) ?
+O2 K1 O2 -1_566 . -1_656 171.3(4) ?
+O2 K1 O2 -1_566 . -1_666 89.67(3) ?
+O2 K1 O2 -1_656 . -1_666 89.67(3) ?
+O1 La1 O1 1_455 . 1_555 98.81(17) ?
+O1 La1 O1 1_455 . 2_545 64.95(9) ?
+O1 La1 O1 1_455 . 2_555 64.95(9) ?
+O1 La1 O3 1_455 . 1_556 130.59(9) ?
+O1 La1 O3 1_455 . -1_556 65.85(12) ?
+O1 La1 O3 1_455 . -1_566 65.85(12) ?
+O1 La1 O3 1_455 . -1_656 130.30(11) ?
+O1 La1 O3 1_455 . -1_666 130.30(11) ?
+O1 La1 O1 1_555 . 2_545 64.95(9) ?
+O1 La1 O1 1_555 . 2_555 64.95(9) ?
+O1 La1 O3 1_555 . 1_556 130.59(9) ?
+O1 La1 O3 1_555 . -1_556 130.30(11) ?
+O1 La1 O3 1_555 . -1_566 130.30(11) ?
+O1 La1 O3 1_555 . -1_656 65.85(12) ?
+O1 La1 O3 1_555 . -1_666 65.85(12) ?
+O1 La1 O1 2_545 . 2_555 98.81(17) ?
+O1 La1 O3 2_545 . 1_556 130.59(9) ?
+O1 La1 O3 2_545 . -1_556 65.85(12) ?
+O1 La1 O3 2_545 . -1_566 130.30(11) ?
+O1 La1 O3 2_545 . -1_656 65.85(12) ?
+O1 La1 O3 2_545 . -1_666 130.30(11) ?
+O1 La1 O3 2_555 . 1_556 130.59(9) ?
+O1 La1 O3 2_555 . -1_556 130.30(11) ?
+O1 La1 O3 2_555 . -1_566 65.85(12) ?
+O1 La1 O3 2_555 . -1_656 130.30(11) ?
+O1 La1 O3 2_555 . -1_666 65.85(12) ?
+O3 La1 O3 1_556 . -1_556 79.48(14) ?
+O3 La1 O3 1_556 . -1_566 79.48(14) ?
+O3 La1 O3 1_556 . -1_656 79.48(14) ?
+O3 La1 O3 1_556 . -1_666 79.48(14) ?
+O3 La1 O3 -1_556 . -1_566 88.09(5) ?
+O3 La1 O3 -1_556 . -1_656 88.09(5) ?
+O3 La1 O3 -1_556 . -1_666 159.0(3) ?
+O3 La1 O3 -1_566 . -1_656 159.0(3) ?
+O3 La1 O3 -1_566 . -1_666 88.09(5) ?
+O3 La1 O3 -1_656 . -1_666 88.09(5) ?
+O1 Ti1 O1 1_555 . 1_565 156.1(3) ?
+O1 Ti1 O1 1_555 . 2_555 87.53(7) ?
+O1 Ti1 O1 1_555 . 2_655 87.53(7) ?
+O1 Ti1 O2 1_555 . -1_666 101.97(16) ?
+O1 Ti1 O1 1_565 . 2_555 87.53(7) ?
+O1 Ti1 O1 1_565 . 2_655 87.53(7) ?
+O1 Ti1 O2 1_565 . -1_666 101.97(16) ?
+O1 Ti1 O1 2_555 . 2_655 156.1(3) ?
+O1 Ti1 O2 2_555 . -1_666 101.97(16) ?
+O1 Ti1 O2 2_655 . -1_666 101.97(16) ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+K1 O1 . 1_455 3.065(4) ?
+K1 O1 . 1_555 3.065(4) y
+K1 O1 . 2_545 3.065(4) ?
+K1 O1 . 2_555 3.065(4) ?
+K1 O2 . 1_555 2.765(9) y
+K1 O2 . -1_556 2.7242(7) y
+K1 O2 . -1_566 2.7242(7) ?
+K1 O2 . -1_656 2.7242(7) ?
+K1 O2 . -1_666 2.7242(7) ?
+La1 O1 . 1_455 2.530(3) ?
+La1 O1 . 1_555 2.530(3) y
+La1 O1 . 2_545 2.530(3) ?
+La1 O1 . 2_555 2.530(3) ?
+La1 O3 . 1_556 2.339(7) y
+La1 O3 . -1_556 2.7628(12) y
+La1 O3 . -1_566 2.7628(12) ?
+La1 O3 . -1_656 2.7628(12) ?
+La1 O3 . -1_666 2.7628(12) ?
+Ti1 O1 . 1_555 1.9635(12) y
+Ti1 O1 . 1_565 1.9635(12) ?
+Ti1 O1 . 2_555 1.9635(12) ?
+Ti1 O1 . 2_655 1.9635(12) ?
+Ti1 O2 . -1_666 1.775(9) y
+Ti1 O3 . -1_666 2.558(7) y
+loop_
+_pd_proc_wavelength
+1.54060
+1.54443

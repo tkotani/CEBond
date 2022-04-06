@@ -1,0 +1,879 @@
+#------------------------------------------------------------------------------
+#$Date: 2019-07-08 19:20:33 +0300 (Mon, 08 Jul 2019) $
+#$Revision: 216842 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/10/84/2108439.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2108439
+loop_
+_publ_author_name
+'Mugnaioli, Enrico'
+'Gemmi, Mauro'
+'Merlini, Marco'
+'Gregorkiewitz, Miguel'
+_publ_contact_author_address
+; Dept of Physical, Earth and Environmental Sciences, University of Siena, 
+via Laterina 8, I-53100 Siena, Italy
+;
+_publ_contact_author_email       gregormigu@gmail.com
+_publ_contact_author_name        'M Gregorkiewitz'
+_publ_contact_author_phone       +390577233810
+_publ_section_title
+;
+ (Na,\W)5[MnO2]13 does not have the roman\`echite framework: a new tunnel
+ structure determined and refined by EDT and synchrotron powder
+ diffraction.
+;
+_publ_section_title_footnote     ' \W stands for 'vacancy''
+_journal_coden_ASTM              ASBSDK
+_journal_coden_Cambridge         1743
+_journal_coeditor_code           DK5050
+_journal_coeditor_notes          ' ?'
+_journal_date_accepted           2016-10-04
+_journal_date_from_coeditor      2016-10-04
+_journal_date_printers_first     2016-10-13
+_journal_date_proofs_in          2016-11-03
+_journal_date_proofs_out         2016-10-13
+_journal_date_recd_electronic    2016-07-14
+_journal_issue                   06
+_journal_name_full               'Acta Crystallographica, Section B'
+_journal_page_first              893
+_journal_page_last               903
+_journal_paper_category          FA
+_journal_paper_doi               10.1107/S2052520616015651
+_journal_techeditor_code         B161565
+_journal_techeditor_notes        ' ?'
+_journal_volume                  72
+_journal_year                    2016
+_chemical_formula_moiety         Na.31MnO2
+_chemical_formula_structural     '(Nax\W1-x)5[MnO2]13, x=0.80'
+_chemical_formula_sum            'Mn13 Na3.98 O26'
+_chemical_formula_weight         1221.78
+_chemical_name_systematic        ' sodium manganese oxide'
+_space_group_IT_number           12
+_space_group_name_Hall           '-C 2y'
+_space_group_name_H-M_alt        'C 1 2/m 1'
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-C 2y'
+_symmetry_space_group_name_H-M   'C 1 2/m 1'
+_audit_author_name               mg
+_audit_creation_date             2015-04-18T11:27
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_audit_update_record
+' 2015-04-18T11:27  Initial CIF as created by GSAS2CIF'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 105.0925(16)
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            2
+_cell_length_a                   22.5199(6)
+_cell_length_b                   2.83987(6)
+_cell_length_c                   14.8815(4)
+_cell_measurement_temperature    293
+_cell_volume                     918.90(4)
+_computing_data_reduction        Fit2D
+_computing_molecular_graphics    'VESTA, GIMP, Inkscape'
+_computing_publication_material  GSAS
+_computing_structure_refinement  GSAS
+_computing_structure_solution    'SIR2011&Superflip using EDT intensity data'
+_diffrn_ambient_temperature      293
+_diffrn_detector                 'imaging plate'
+_diffrn_detector_type            MAR555
+_diffrn_measurement_device_type  ID09
+_diffrn_radiation_polarisn_ratio 0.96
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_type           synchrotron
+_diffrn_radiation_wavelength     0.415352
+_exptl_absorpt_coefficient_mu    1.85
+_exptl_absorpt_correction_T_max  1.00000
+_exptl_absorpt_correction_T_min  1.00000
+_exptl_absorpt_process_details
+;   GSAS Absorption/surface roughness correction: function number 0
+ No correction is applied.
+;
+_exptl_crystal_density_diffrn    4.416
+_exptl_crystal_F_000             1153.56
+_pd_calc_method                  'Rietveld Refinement'
+_pd_char_colour                  'dark brown'
+_pd_char_particle_morphology     needles
+_pd_instr_dist_spec/detc         300
+_pd_instr_location               ' ESRF beamline ID09'
+_pd_meas_2theta_range_inc        0.012
+_pd_meas_2theta_range_max        37.7767
+_pd_meas_2theta_range_min        0.9487
+_pd_meas_number_of_points        3070
+_pd_phase_mass_%                 57.92(16)
+_pd_phase_name                   'psiro ROMAN7_.25 cycle 1144 DLSF=0'
+_pd_prep_pressure                100
+_pd_prep_temperature             293
+_pd_proc_2theta_range_inc        0.012
+_pd_proc_2theta_range_max        32.245
+_pd_proc_2theta_range_min        1.309
+_pd_proc_info_datetime           2015-04-18T11:27:56
+_pd_proc_info_excluded_regions
+' contains spikes, high density of reflections'
+_pd_proc_ls_background_function
+;   GSAS Background function number 1 with 36 terms.
+ Shifted Chebyshev function of 1st kind
+      1:    121.048     2:   -59.0276     3:    74.1260     4:   -51.7887    
+      5:    40.7256     6:   -41.3683     7:    50.7057     8:   -43.4266    
+      9:    30.0730    10:   -27.9592    11:    18.9871    12:   -9.28117    
+     13:    7.01053    14:   -9.72424    15:    11.8353    16:   -1.11195    
+     17:   -6.43133    18:    2.04352    19:    3.16252    20:   -2.47459    
+     21:   -3.37630    22:    6.62565    23:   -7.61994    24:    6.85735    
+     25:   -2.85962    26:   -1.95684    27:    2.20435    28:    5.51369    
+     29:   -4.47940    30:   -2.78334    31:    2.74341    32:  -0.150605    
+     33:    4.57349    34:   -3.87086    35:   0.477537    36:    1.94298    
+;
+_pd_proc_ls_profile_function
+;
+ CW Profile function number 3 with  19 terms
+ Pseudovoigt profile coefficients as parameterized in
+ P. Thompson, D.E. Cox & J.B. Hastings (1987). J. Appl. Cryst.,20,79-83.
+ Asymmetry correction of L.W. Finger, D.E. Cox & A. P. Jephcoat (1994).
+ J. Appl. Cryst.,27,892-900.
+ #1(GU)   =    0.000 #2(GV)   =    0.000 #3(GW)   =    1.995
+ #4(GP)   =    0.000 #5(LX)   =    1.206 #6(LY)   =   11.017
+ #7(S/L)  =   0.0005 #8(H/L)  =   0.0005
+ #9(trns) =     0.00 #10(shft)=   0.0000
+ #11(stec)=     0.00 #12(ptec)=     0.00 #13(sfec)=     0.00
+ #14(L11) =    0.000 #15(L22) =    0.000 #16(L33) =    0.000
+ #17(L12) =    0.000 #18(L13) =    0.000 #19(L23) =    0.000
+ Peak tails are ignored  where the intensity is below 0.0010 times the peak
+   Aniso. broadening axis   0.0   0.0   1.0
+;
+_pd_proc_ls_prof_R_factor        0.0365
+_pd_proc_ls_prof_wR_expected     0.0634
+_pd_proc_ls_prof_wR_factor       0.0514
+_pd_proc_number_of_points        2579
+_pd_spec_mounting                ' Lindemann glass capillary'
+_pd_spec_mount_mode              transmission
+_pd_spec_shape                   cylinder
+_pd_spec_size_axial              5
+_pd_spec_size_equat              0.2
+_refine_ls_goodness_of_fit_all   0.83
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     123
+_refine_ls_number_restraints     0
+_refine_ls_R_Fsqd_factor         0.03500
+_refine_ls_shift/su_max          0.04
+_refine_ls_shift/su_mean         0.00
+_reflns_d_resolution_high        0.748
+_reflns_d_resolution_low         14.368
+_reflns_limit_h_max              30
+_reflns_limit_h_min              0
+_reflns_limit_k_max              8
+_reflns_limit_k_min              -9
+_reflns_limit_l_max              19
+_reflns_limit_l_min              -19
+_reflns_number_total             1374
+_cod_data_source_file            dk5050sup12.cif
+_cod_data_source_block           ROMAN7_.25_publ
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+data item '_geom_angle_publ_flag' value 'N' was changed to 'n' in
+accordance with the built-in table derived from the CIF Core
+dictionary named 'cif_core.dic' version 2.4.5 last updated on
+2014-11-21 (399 times).
+
+data item '_geom_bond_publ_flag' value 'N' was changed to 'n' in
+accordance with the built-in table derived from the CIF Core
+dictionary named 'cif_core.dic' version 2.4.5 last updated on
+2014-11-21 (201 times).
+
+Automatic conversion script
+Id: cif_fix_values 6909 2019-04-08 15:41:33Z antanas 
+;
+_cod_original_cell_volume        918.90(5)
+_cod_database_code               2108439
+_gsas_exptl_extinct_corr_t_min   1.00000
+_gsas_exptl_extinct_corr_t_max   1.00000
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -x,+y,-z
+-1 -x,-y,-z
+-2 +x,-y,+z
+101 +x+1/2,+y+1/2,+z
+102 -x+1/2,+y+1/2,-z
+-101 -x+1/2,-y+1/2,-z
+-102 +x+1/2,-y+1/2,+z
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+Mn Mn1 0.5 0.0 0.0 1.0 Uiso 0.0093(19) 2
+Mn Mn2 0.39312(20) 0.5 0.02578(30) 1.0 Uiso 0.0059(14) 4
+Mn Mn3 0.34391(21) 0.0 0.20420(33) 1.0 Uiso 0.0030(13) 4
+Mn Mn4 0.43111(20) 0.5 0.36320(30) 1.0 Uiso 0.0057(12) 4
+Mn Mn5 0.57950(20) 0.0 0.43082(32) 1.0 Uiso 0.0080(13) 4
+Mn Mn6 0.65959(20) 0.5 0.33803(30) 1.0 Uiso 0.0101(14) 4
+Mn Mn7 0.70783(21) 0.0 0.17729(31) 1.0 Uiso 0.0063(12) 4
+O O1 0.4544(7) 0.0 0.0910(12) 1.0 Uiso 0.0082(13) 4
+O O2 0.5533(7) 0.5 0.0573(11) 1.0 Uiso 0.0082(13) 4
+O O3 0.6565(7) 0.0 0.0319(11) 1.0 Uiso 0.0082(13) 4
+O O4 0.3536(8) 0.5 0.1220(13) 1.0 Uiso 0.0082(13) 4
+O O5 0.2557(7) 0.0 0.1473(11) 1.0 Uiso 0.0082(13) 4
+O O6 0.3355(7) 0.5 0.2885(11) 1.0 Uiso 0.0082(13) 4
+O O7 0.4239(7) 0.0 0.2624(12) 1.0 Uiso 0.0082(13) 4
+O O8 0.5247(7) 0.5 0.3932(11) 1.0 Uiso 0.0082(13) 4
+O O9 0.4233(7) 0.0 0.4429(11) 1.0 Uiso 0.0082(13) 4
+O O10 0.6418(7) 0.5 0.4539(11) 1.0 Uiso 0.0082(13) 4
+O O11 0.5999(7) 0.0 0.3117(12) 1.0 Uiso 0.0082(13) 4
+O O12 0.6647(7) 0.5 0.2160(11) 1.0 Uiso 0.0082(13) 4
+O O13 0.7146(8) 0.0 0.3735(11) 1.0 Uiso 0.0082(13) 4
+Na Na1 0.3017(8) 0.0 0.4119(13) 0.808(19) Uiso 0.068(7) 4
+Na Na2 0.5095(8) 0.5 0.2226(12) 0.816(20) Uiso 0.068(7) 4
+Na Na3 0.25 0.25 0.0 0.368(12) Uiso 0.068(7) 4
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_Cromer_Mann_a1
+_atom_type_scat_Cromer_Mann_a2
+_atom_type_scat_Cromer_Mann_a3
+_atom_type_scat_Cromer_Mann_a4
+_atom_type_scat_Cromer_Mann_b1
+_atom_type_scat_Cromer_Mann_b2
+_atom_type_scat_Cromer_Mann_b3
+_atom_type_scat_Cromer_Mann_b4
+_atom_type_scat_Cromer_Mann_c
+_atom_type_scat_source
+Mn 0.000 0.000 11.2819 5.34090 7.35730 0.34320 3.01930 17.8674 2.24410 83.7543
+1.08960 International_Tables_Vol_C
+O 0.000 0.000 3.04850 13.2771 2.28680 5.70110 1.54630 0.32390 0.86700 32.9089
+0.25080 International_Tables_Vol_C
+Na 0.000 0.000 4.76260 3.28500 3.17360 8.84220 1.26740 0.31360 1.11280 129.424
+0.67600 International_Tables_Vol_C
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O1 Mn1 O1 180.0 1_555 . 2_655 n
+O1 Mn1 O2 94.3(6) 1_555 . 1_545 n
+O1 Mn1 O2 94.3(6) 1_555 . 1_555 n
+O1 Mn1 O2 85.7(6) 1_555 . 2_645 n
+O1 Mn1 O2 85.7(6) 1_555 . 2_655 n
+O1 Mn1 O2 85.7(6) 2_655 . 1_545 n
+O1 Mn1 O2 85.7(6) 2_655 . 1_555 n
+O1 Mn1 O2 94.3(6) 2_655 . 2_645 n
+O1 Mn1 O2 94.3(6) 2_655 . 2_655 n
+O2 Mn1 O2 96.0(6) 1_545 . 1_555 n
+O2 Mn1 O2 84.0(6) 1_545 . 2_645 n
+O2 Mn1 O2 180.0 1_545 . 2_655 n
+O2 Mn1 O2 180.0 1_555 . 2_645 n
+O2 Mn1 O2 84.0(6) 1_555 . 2_655 n
+O2 Mn1 O2 96.0(6) 2_645 . 2_655 n
+O1 Mn2 O1 88.2(6) 1_555 . 1_565 n
+O1 Mn2 O2 81.2(6) 1_555 . 2_655 n
+O1 Mn2 O3 86.5(5) 1_555 . 2_655 n
+O1 Mn2 O3 174.3(5) 1_555 . 2_665 n
+O1 Mn2 O4 91.9(6) 1_555 . 1_555 n
+O1 Mn2 O2 81.2(6) 1_565 . 2_655 n
+O1 Mn2 O3 174.3(5) 1_565 . 2_655 n
+O1 Mn2 O3 86.5(5) 1_565 . 2_665 n
+O1 Mn2 O4 91.9(6) 1_565 . 1_555 n
+O2 Mn2 O3 96.0(6) 2_655 . 2_655 n
+O2 Mn2 O3 96.0(6) 2_655 . 2_665 n
+O2 Mn2 O4 170.4(7) 2_655 . 1_555 n
+O3 Mn2 O3 98.7(7) 2_655 . 2_665 n
+O3 Mn2 O4 90.3(6) 2_655 . 1_555 n
+O3 Mn2 O4 90.3(6) 2_665 . 1_555 n
+O4 Mn3 O4 95.2(9) 1_545 . 1_555 n
+O4 Mn3 O5 89.7(7) 1_545 . 1_555 n
+O4 Mn3 O6 85.3(5) 1_545 . 1_545 n
+O4 Mn3 O6 179.0(8) 1_545 . 1_555 n
+O4 Mn3 O7 92.4(6) 1_545 . 1_555 n
+O4 Mn3 O5 89.7(7) 1_555 . 1_555 n
+O4 Mn3 O6 179.0(8) 1_555 . 1_545 n
+O4 Mn3 O6 85.3(5) 1_555 . 1_555 n
+O4 Mn3 O7 92.4(6) 1_555 . 1_555 n
+O5 Mn3 O6 91.2(6) 1_555 . 1_545 n
+O5 Mn3 O6 91.2(6) 1_555 . 1_555 n
+O5 Mn3 O7 176.9(9) 1_555 . 1_555 n
+O6 Mn3 O6 94.3(8) 1_545 . 1_555 n
+O6 Mn3 O7 86.7(6) 1_545 . 1_555 n
+O6 Mn3 O7 86.7(6) 1_555 . 1_555 n
+O6 Mn4 O7 75.1(5) 1_555 . 1_555 n
+O6 Mn4 O7 75.1(5) 1_555 . 1_565 n
+O6 Mn4 O8 162.3(8) 1_555 . 1_555 n
+O6 Mn4 O9 94.6(6) 1_555 . 1_555 n
+O6 Mn4 O9 94.6(6) 1_555 . 1_565 n
+O6 Mn4 Na2 108.9(6) 1_555 . 1_555 n
+O7 Mn4 O7 88.1(7) 1_555 . 1_565 n
+O7 Mn4 O8 92.4(6) 1_555 . 1_555 n
+O7 Mn4 O9 86.3(5) 1_555 . 1_555 n
+O7 Mn4 O9 169.3(7) 1_555 . 1_565 n
+O7 Mn4 Na2 56.5(5) 1_555 . 1_555 n
+O7 Mn4 O8 92.4(6) 1_565 . 1_555 n
+O7 Mn4 O9 169.3(7) 1_565 . 1_555 n
+O7 Mn4 O9 86.3(5) 1_565 . 1_565 n
+O7 Mn4 Na2 56.5(5) 1_565 . 1_555 n
+O8 Mn4 O9 97.0(6) 1_555 . 1_555 n
+O8 Mn4 O9 97.0(6) 1_555 . 1_565 n
+O8 Mn4 Na2 53.4(5) 1_555 . 1_555 n
+O9 Mn4 O9 97.6(8) 1_555 . 1_565 n
+O9 Mn4 Na2 126.3(5) 1_555 . 1_555 n
+O9 Mn4 Na2 126.3(5) 1_565 . 1_555 n
+O8 Mn5 O8 98.9(7) 1_545 . 1_555 n
+O8 Mn5 O9 96.1(6) 1_545 . 2_656 n
+O8 Mn5 O10 83.6(5) 1_545 . 1_545 n
+O8 Mn5 O10 171.3(8) 1_545 . 1_555 n
+O8 Mn5 O11 91.2(6) 1_545 . 1_555 n
+O8 Mn5 Na1 127.3(4) 1_545 . 2_656 n
+O8 Mn5 O9 96.1(6) 1_555 . 2_656 n
+O8 Mn5 O10 171.3(8) 1_555 . 1_545 n
+O8 Mn5 O10 83.6(5) 1_555 . 1_555 n
+O8 Mn5 O11 91.2(6) 1_555 . 1_555 n
+O8 Mn5 Na1 127.3(4) 1_555 . 2_656 n
+O9 Mn5 O10 91.9(6) 2_656 . 1_545 n
+O9 Mn5 O10 91.9(6) 2_656 . 1_555 n
+O9 Mn5 O11 168.7(8) 2_656 . 1_555 n
+O9 Mn5 Na1 59.4(6) 2_656 . 2_656 n
+O10 Mn5 O10 92.7(7) 1_545 . 1_555 n
+O10 Mn5 O11 80.3(6) 1_545 . 1_555 n
+O10 Mn5 Na1 54.8(4) 1_545 . 2_656 n
+O10 Mn5 O11 80.3(6) 1_555 . 1_555 n
+O10 Mn5 Na1 54.8(4) 1_555 . 2_656 n
+O11 Mn5 Na1 109.3(6) 1_555 . 2_656 n
+O10 Mn6 O11 83.2(6) 1_555 . 1_555 n
+O10 Mn6 O11 83.2(6) 1_555 . 1_565 n
+O10 Mn6 O12 171.5(8) 1_555 . 1_555 n
+O10 Mn6 O13 91.4(6) 1_555 . 1_555 n
+O10 Mn6 O13 91.4(6) 1_555 . 1_565 n
+O10 Mn6 Na1 97.0(6) 1_555 . 101_555 n
+O11 Mn6 O11 95.1(7) 1_555 . 1_565 n
+O11 Mn6 O12 91.1(6) 1_555 . 1_555 n
+O11 Mn6 O13 82.7(5) 1_555 . 1_555 n
+O11 Mn6 O13 174.4(7) 1_555 . 1_565 n
+O11 Mn6 Na1 132.4(4) 1_555 . 101_555 n
+O11 Mn6 O12 91.1(6) 1_565 . 1_555 n
+O11 Mn6 O13 174.4(7) 1_565 . 1_555 n
+O11 Mn6 O13 82.7(5) 1_565 . 1_565 n
+O11 Mn6 Na1 132.4(4) 1_565 . 101_555 n
+O12 Mn6 O13 94.1(6) 1_555 . 1_555 n
+O12 Mn6 O13 94.1(6) 1_555 . 1_565 n
+O12 Mn6 Na1 91.5(6) 1_555 . 101_555 n
+O13 Mn6 O13 98.9(8) 1_555 . 1_565 n
+O13 Mn6 Na1 49.6(4) 1_555 . 101_555 n
+O13 Mn6 Na1 49.6(4) 1_565 . 101_555 n
+O3 Mn7 O5 87.3(6) 1_555 . 101_545 n
+O3 Mn7 O5 87.3(6) 1_555 . 101_555 n
+O3 Mn7 O12 97.0(6) 1_555 . 1_545 n
+O3 Mn7 O12 97.0(6) 1_555 . 1_555 n
+O3 Mn7 Na3 49.9(4) 1_555 . 2_655 n
+O3 Mn7 Na3 49.9(4) 1_555 . -1_655 n
+O5 Mn7 O5 96.4(8) 101_545 . 101_555 n
+O5 Mn7 O12 83.0(5) 101_545 . 1_545 n
+O5 Mn7 O12 175.6(8) 101_545 . 1_555 n
+O5 Mn7 Na3 69.8(4) 101_545 . 2_655 n
+O5 Mn7 Na3 46.7(4) 101_545 . -1_655 n
+O5 Mn7 O12 175.6(8) 101_555 . 1_545 n
+O5 Mn7 O12 83.0(5) 101_555 . 1_555 n
+O5 Mn7 Na3 46.7(4) 101_555 . 2_655 n
+O5 Mn7 Na3 69.8(4) 101_555 . -1_655 n
+O12 Mn7 O12 97.2(7) 1_545 . 1_555 n
+O12 Mn7 Na3 136.4(5) 1_545 . 2_655 n
+O12 Mn7 Na3 112.4(4) 1_545 . -1_655 n
+O12 Mn7 Na3 112.4(4) 1_555 . 2_655 n
+O12 Mn7 Na3 136.4(5) 1_555 . -1_655 n
+Na3 Mn7 Na3 26.39(4) 2_655 . -1_655 n
+Mn1 O1 Mn2 94.9(7) 1_555 . 1_545 n
+Mn1 O1 Mn2 94.9(7) 1_555 . 1_555 n
+Mn1 O1 Na2 108.1(7) 1_555 . 1_545 n
+Mn1 O1 Na2 108.1(7) 1_555 . 1_555 n
+Mn2 O1 Mn2 88.2(6) 1_545 . 1_555 n
+Mn2 O1 Na2 96.6(4) 1_545 . 1_545 n
+Mn2 O1 Na2 155.9(9) 1_545 . 1_555 n
+Mn2 O1 Na2 155.9(9) 1_555 . 1_545 n
+Mn2 O1 Na2 96.6(4) 1_555 . 1_555 n
+Na2 O1 Na2 70.0(5) 1_545 . 1_555 n
+Mn1 O2 Mn1 96.0(6) 1_555 . 1_565 n
+Mn1 O2 Mn2 97.9(6) 1_555 . 2_655 n
+Mn1 O2 Mn2 97.9(6) 1_565 . 2_655 n
+Mn2 O3 Mn2 98.7(7) 2_645 . 2_655 n
+Mn2 O3 Mn7 123.8(5) 2_645 . 1_555 n
+Mn2 O3 Na3 126.0(7) 2_645 . 2_655 n
+Mn2 O3 Na3 97.8(5) 2_645 . -1_655 n
+Mn2 O3 Mn7 123.8(5) 2_655 . 1_555 n
+Mn2 O3 Na3 97.8(5) 2_655 . 2_655 n
+Mn2 O3 Na3 126.0(7) 2_655 . -1_655 n
+Mn7 O3 Na3 85.9(5) 1_555 . 2_655 n
+Mn7 O3 Na3 85.9(5) 1_555 . -1_655 n
+Na3 O3 Na3 34.64(23) 2_655 . -1_655 n
+Mn2 O4 Mn3 129.9(5) 1_555 . 1_555 n
+Mn2 O4 Mn3 129.9(5) 1_555 . 1_565 n
+Mn2 O4 Na3 89.2(6) 1_555 . 1_555 n
+Mn2 O4 Na3 89.2(6) 1_555 . -2_565 n
+Mn3 O4 Mn3 95.2(9) 1_555 . 1_565 n
+Mn3 O4 Na3 90.7(5) 1_555 . 1_555 n
+Mn3 O4 Na3 114.1(8) 1_555 . -2_565 n
+Mn3 O4 Na3 114.1(8) 1_565 . 1_555 n
+Mn3 O4 Na3 90.7(5) 1_565 . -2_565 n
+Na3 O4 Na3 31.06(19) 1_555 . -2_565 n
+Mn3 O5 Mn7 118.3(6) 1_555 . 101_445 n
+Mn3 O5 Mn7 118.3(6) 1_555 . 101_455 n
+Mn3 O5 Na3 102.3(7) 1_555 . 1_555 n
+Mn3 O5 Na3 102.3(7) 1_555 . -2_555 n
+Mn7 O5 Mn7 96.4(8) 101_445 . 101_455 n
+Mn7 O5 Na3 124.4(7) 101_445 . 1_555 n
+Mn7 O5 Na3 95.7(4) 101_445 . -2_555 n
+Mn7 O5 Na3 95.7(4) 101_455 . 1_555 n
+Mn7 O5 Na3 124.4(7) 101_455 . -2_555 n
+Na3 O5 Na3 36.35(25) 1_555 . -2_555 n
+Mn3 O6 Mn3 94.3(8) 1_555 . 1_565 n
+Mn3 O6 Mn4 94.7(6) 1_555 . 1_555 n
+Mn3 O6 Na1 98.85(35) 1_555 . 1_555 n
+Mn3 O6 Na1 163.5(7) 1_555 . 1_565 n
+Mn3 O6 Mn4 94.7(6) 1_565 . 1_555 n
+Mn3 O6 Na1 163.5(7) 1_565 . 1_555 n
+Mn3 O6 Na1 98.85(35) 1_565 . 1_565 n
+Mn4 O6 Na1 94.2(7) 1_555 . 1_555 n
+Mn4 O6 Na1 94.2(7) 1_555 . 1_565 n
+Na1 O6 Na1 66.6(6) 1_555 . 1_565 n
+Mn3 O7 Mn4 103.5(7) 1_555 . 1_545 n
+Mn3 O7 Mn4 103.5(7) 1_555 . 1_555 n
+Mn3 O7 Na2 127.5(8) 1_555 . 1_545 n
+Mn3 O7 Na2 127.5(8) 1_555 . 1_555 n
+Mn4 O7 Mn4 88.1(7) 1_545 . 1_555 n
+Mn4 O7 Na2 82.2(5) 1_545 . 1_545 n
+Mn4 O7 Na2 129.0(8) 1_545 . 1_555 n
+Mn4 O7 Na2 129.0(8) 1_555 . 1_545 n
+Mn4 O7 Na2 82.2(5) 1_555 . 1_555 n
+Na2 O7 Na2 66.7(5) 1_545 . 1_555 n
+Mn4 O8 Mn5 129.1(4) 1_555 . 1_555 n
+Mn4 O8 Mn5 129.1(4) 1_555 . 1_565 n
+Mn4 O8 Na2 85.2(7) 1_555 . 1_555 n
+Mn5 O8 Mn5 98.9(7) 1_555 . 1_565 n
+Mn5 O8 Na2 102.2(7) 1_555 . 1_555 n
+Mn5 O8 Na2 102.2(7) 1_565 . 1_555 n
+Mn4 O9 Mn4 97.6(8) 1_545 . 1_555 n
+Mn4 O9 Mn5 130.9(4) 1_545 . 2_656 n
+Mn4 O9 Na1 98.7(6) 1_545 . 1_555 n
+Mn4 O9 Mn5 130.9(4) 1_555 . 2_656 n
+Mn4 O9 Na1 98.7(6) 1_555 . 1_555 n
+Mn5 O9 Na1 82.7(8) 2_656 . 1_555 n
+Mn5 O10 Mn5 92.7(7) 1_555 . 1_565 n
+Mn5 O10 Mn6 98.8(6) 1_555 . 1_555 n
+Mn5 O10 Na1 85.5(5) 1_555 . 2_656 n
+Mn5 O10 Na1 137.7(10) 1_555 . 2_666 n
+Mn5 O10 Mn6 98.8(6) 1_565 . 1_555 n
+Mn5 O10 Na1 137.7(10) 1_565 . 2_656 n
+Mn5 O10 Na1 85.5(5) 1_565 . 2_666 n
+Mn6 O10 Na1 123.2(8) 1_555 . 2_656 n
+Mn6 O10 Na1 123.2(8) 1_555 . 2_666 n
+Na1 O10 Na1 68.9(5) 2_656 . 2_666 n
+Mn5 O11 Mn6 97.6(6) 1_555 . 1_545 n
+Mn5 O11 Mn6 97.6(6) 1_555 . 1_555 n
+Mn5 O11 Na2 97.3(7) 1_555 . 1_545 n
+Mn5 O11 Na2 97.3(7) 1_555 . 1_555 n
+Mn6 O11 Mn6 95.1(7) 1_545 . 1_555 n
+Mn6 O11 Na2 96.7(4) 1_545 . 1_545 n
+Mn6 O11 Na2 159.5(8) 1_545 . 1_555 n
+Mn6 O11 Na2 159.5(8) 1_555 . 1_545 n
+Mn6 O11 Na2 96.7(4) 1_555 . 1_555 n
+Na2 O11 Na2 67.6(5) 1_545 . 1_555 n
+Mn6 O12 Mn7 117.9(6) 1_555 . 1_555 n
+Mn6 O12 Mn7 117.9(6) 1_555 . 1_565 n
+Mn7 O12 Mn7 97.2(7) 1_555 . 1_565 n
+Mn6 O13 Mn6 98.9(8) 1_545 . 1_555 n
+Mn6 O13 Na1 93.4(4) 1_545 . 101_545 n
+Mn6 O13 Na1 166.1(7) 1_545 . 101_555 n
+Mn6 O13 Na1 166.1(7) 1_555 . 101_545 n
+Mn6 O13 Na1 93.4(4) 1_555 . 101_555 n
+Na1 O13 Na1 73.7(6) 101_545 . 101_555 n
+Mn5 Na1 Mn6 152.4(7) 2_656 . 101_445 n
+Mn5 Na1 O6 100.5(7) 2_656 . 1_545 n
+Mn5 Na1 O6 100.5(7) 2_656 . 1_555 n
+Mn5 Na1 O9 37.9(4) 2_656 . 1_555 n
+Mn5 Na1 O10 39.7(4) 2_656 . 2_646 n
+Mn5 Na1 O10 39.7(4) 2_656 . 2_656 n
+Mn5 Na1 O13 133.5(6) 2_656 . 101_445 n
+Mn5 Na1 O13 133.5(6) 2_656 . 101_455 n
+Mn5 Na1 Na1 90.0 2_656 . 1_545 n
+Mn5 Na1 Na1 90.0 2_656 . 1_565 n
+Mn6 Na1 O6 102.4(7) 101_445 . 1_545 n
+Mn6 Na1 O6 102.4(7) 101_445 . 1_555 n
+Mn6 Na1 O9 169.6(9) 101_445 . 1_555 n
+Mn6 Na1 O10 123.0(7) 101_445 . 2_646 n
+Mn6 Na1 O10 123.0(7) 101_445 . 2_656 n
+Mn6 Na1 O13 36.96(31) 101_445 . 101_445 n
+Mn6 Na1 O13 36.96(31) 101_445 . 101_455 n
+Mn6 Na1 Na1 90.0 101_445 . 1_545 n
+Mn6 Na1 Na1 90.0 101_445 . 1_565 n
+O6 Na1 O6 66.6(6) 1_545 . 1_555 n
+O6 Na1 O9 69.1(7) 1_545 . 1_555 n
+O6 Na1 O10 94.1(6) 1_545 . 2_646 n
+O6 Na1 O10 133.9(10) 1_545 . 2_656 n
+O6 Na1 O13 83.0(7) 1_545 . 101_445 n
+O6 Na1 O13 122.4(9) 1_545 . 101_455 n
+O6 Na1 Na1 56.72(28) 1_545 . 1_545 n
+O6 Na1 Na1 123.28(28) 1_545 . 1_565 n
+O6 Na1 O9 69.1(7) 1_555 . 1_555 n
+O6 Na1 O10 133.9(10) 1_555 . 2_646 n
+O6 Na1 O10 94.1(6) 1_555 . 2_656 n
+O6 Na1 O13 122.4(9) 1_555 . 101_445 n
+O6 Na1 O13 83.0(7) 1_555 . 101_455 n
+O6 Na1 Na1 123.28(28) 1_555 . 1_545 n
+O6 Na1 Na1 56.72(28) 1_555 . 1_565 n
+O9 Na1 O10 64.9(6) 1_555 . 2_646 n
+O9 Na1 O10 64.9(6) 1_555 . 2_656 n
+O9 Na1 O13 142.5(4) 1_555 . 101_445 n
+O9 Na1 O13 142.5(4) 1_555 . 101_455 n
+O9 Na1 Na1 90.0 1_555 . 1_545 n
+O9 Na1 Na1 90.0 1_555 . 1_565 n
+O10 Na1 O10 68.9(5) 2_646 . 2_656 n
+O10 Na1 O13 94.0(5) 2_646 . 101_445 n
+O10 Na1 O13 138.4(11) 2_646 . 101_455 n
+O10 Na1 Na1 55.54(27) 2_646 . 1_545 n
+O10 Na1 Na1 124.46(27) 2_646 . 1_565 n
+O10 Na1 O13 138.4(11) 2_656 . 101_445 n
+O10 Na1 O13 94.0(5) 2_656 . 101_455 n
+O10 Na1 Na1 124.46(27) 2_656 . 1_545 n
+O10 Na1 Na1 55.54(27) 2_656 . 1_565 n
+O13 Na1 O13 73.7(6) 101_445 . 101_455 n
+O13 Na1 Na1 53.15(31) 101_445 . 1_545 n
+O13 Na1 Na1 126.85(31) 101_445 . 1_565 n
+O13 Na1 Na1 126.85(31) 101_455 . 1_545 n
+O13 Na1 Na1 53.15(31) 101_455 . 1_565 n
+Na1 Na1 Na1 180.0 1_545 . 1_565 n
+Mn4 Na2 O1 106.3(7) 1_555 . 1_555 n
+Mn4 Na2 O1 106.3(7) 1_555 . 1_565 n
+Mn4 Na2 O7 41.2(4) 1_555 . 1_555 n
+Mn4 Na2 O7 41.2(4) 1_555 . 1_565 n
+Mn4 Na2 O8 41.4(5) 1_555 . 1_555 n
+Mn4 Na2 O11 99.7(7) 1_555 . 1_555 n
+Mn4 Na2 O11 99.7(7) 1_555 . 1_565 n
+Mn4 Na2 Na2 90.0 1_555 . 1_545 n
+Mn4 Na2 Na2 90.0 1_555 . 1_565 n
+O1 Na2 O1 70.0(5) 1_555 . 1_565 n
+O1 Na2 O7 67.4(6) 1_555 . 1_555 n
+O1 Na2 O7 104.3(8) 1_555 . 1_565 n
+O1 Na2 O8 136.0(6) 1_555 . 1_555 n
+O1 Na2 O11 105.0(4) 1_555 . 1_555 n
+O1 Na2 O11 153.9(10) 1_555 . 1_565 n
+O1 Na2 Na2 54.99(26) 1_555 . 1_545 n
+O1 Na2 Na2 125.01(26) 1_555 . 1_565 n
+O1 Na2 O7 104.3(8) 1_565 . 1_555 n
+O1 Na2 O7 67.4(6) 1_565 . 1_565 n
+O1 Na2 O8 136.0(6) 1_565 . 1_555 n
+O1 Na2 O11 153.9(10) 1_565 . 1_555 n
+O1 Na2 O11 105.0(4) 1_565 . 1_565 n
+O1 Na2 Na2 125.01(26) 1_565 . 1_545 n
+O1 Na2 Na2 54.99(26) 1_565 . 1_565 n
+O7 Na2 O7 66.7(5) 1_555 . 1_565 n
+O7 Na2 O8 71.2(6) 1_555 . 1_555 n
+O7 Na2 O11 96.7(6) 1_555 . 1_555 n
+O7 Na2 O11 136.8(9) 1_555 . 1_565 n
+O7 Na2 Na2 56.67(27) 1_555 . 1_545 n
+O7 Na2 Na2 123.33(27) 1_555 . 1_565 n
+O7 Na2 O8 71.2(6) 1_565 . 1_555 n
+O7 Na2 O11 136.8(9) 1_565 . 1_555 n
+O7 Na2 O11 96.7(6) 1_565 . 1_565 n
+O7 Na2 Na2 123.33(27) 1_565 . 1_545 n
+O7 Na2 Na2 56.67(27) 1_565 . 1_565 n
+O8 Na2 O11 65.7(6) 1_555 . 1_555 n
+O8 Na2 O11 65.7(6) 1_555 . 1_565 n
+O8 Na2 Na2 90.0 1_555 . 1_545 n
+O8 Na2 Na2 90.0 1_555 . 1_565 n
+O11 Na2 O11 67.6(5) 1_555 . 1_565 n
+O11 Na2 Na2 56.20(27) 1_555 . 1_545 n
+O11 Na2 Na2 123.80(27) 1_555 . 1_565 n
+O11 Na2 Na2 123.80(27) 1_565 . 1_545 n
+O11 Na2 Na2 56.20(27) 1_565 . 1_565 n
+Na2 Na2 Na2 180.0 1_545 . 1_565 n
+Mn7 Na3 Mn7 180.0 2_655 . 101_455 n
+Mn7 Na3 O3 44.2(4) 2_655 . 2_655 n
+Mn7 Na3 O3 135.8(4) 2_655 . 101_455 n
+Mn7 Na3 O4 103.5(4) 2_655 . 1_555 n
+Mn7 Na3 O4 76.5(4) 2_655 . 102_545 n
+Mn7 Na3 O5 142.47(27) 2_655 . 1_555 n
+Mn7 Na3 O5 37.53(27) 2_655 . 102_555 n
+Mn7 Na3 Na3 76.804(18) 2_655 . 1_545 n
+Mn7 Na3 Na3 103.196(18) 2_655 . 1_565 n
+Mn7 Na3 Na3 76.804(18) 2_655 . -2_555 n
+Mn7 Na3 Na3 103.196(18) 2_655 . -2_565 n
+Mn7 Na3 O3 135.8(4) 101_455 . 2_655 n
+Mn7 Na3 O3 44.2(4) 101_455 . 101_455 n
+Mn7 Na3 O4 76.5(4) 101_455 . 1_555 n
+Mn7 Na3 O4 103.5(4) 101_455 . 102_545 n
+Mn7 Na3 O5 37.53(27) 101_455 . 1_555 n
+Mn7 Na3 O5 142.47(27) 101_455 . 102_555 n
+Mn7 Na3 Na3 103.196(18) 101_455 . 1_545 n
+Mn7 Na3 Na3 76.804(18) 101_455 . 1_565 n
+Mn7 Na3 Na3 103.196(18) 101_455 . -2_555 n
+Mn7 Na3 Na3 76.804(18) 101_455 . -2_565 n
+O3 Na3 O3 180.0 2_655 . 101_455 n
+O3 Na3 O4 63.3(5) 2_655 . 1_555 n
+O3 Na3 O4 116.7(5) 2_655 . 102_545 n
+O3 Na3 O5 105.5(5) 2_655 . 1_555 n
+O3 Na3 O5 74.5(5) 2_655 . 102_555 n
+O3 Na3 Na3 72.68(11) 2_655 . 1_545 n
+O3 Na3 Na3 107.32(11) 2_655 . 1_565 n
+O3 Na3 Na3 72.68(11) 2_655 . -2_555 n
+O3 Na3 Na3 107.32(11) 2_655 . -2_565 n
+O3 Na3 O4 116.7(5) 101_455 . 1_555 n
+O3 Na3 O4 63.3(5) 101_455 . 102_545 n
+O3 Na3 O5 74.5(5) 101_455 . 1_555 n
+O3 Na3 O5 105.5(5) 101_455 . 102_555 n
+O3 Na3 Na3 107.32(11) 101_455 . 1_545 n
+O3 Na3 Na3 72.68(11) 101_455 . 1_565 n
+O3 Na3 Na3 107.32(11) 101_455 . -2_555 n
+O3 Na3 Na3 72.68(11) 101_455 . -2_565 n
+O4 Na3 O4 180.0 1_555 . 102_545 n
+O4 Na3 O5 66.8(5) 1_555 . 1_555 n
+O4 Na3 O5 113.2(5) 1_555 . 102_555 n
+O4 Na3 Na3 105.53(10) 1_555 . 1_545 n
+O4 Na3 Na3 74.47(10) 1_555 . 1_565 n
+O4 Na3 Na3 105.53(10) 1_555 . -2_555 n
+O4 Na3 Na3 74.47(10) 1_555 . -2_565 n
+O4 Na3 O5 113.2(5) 102_545 . 1_555 n
+O4 Na3 O5 66.8(5) 102_545 . 102_555 n
+O4 Na3 Na3 74.47(10) 102_545 . 1_545 n
+O4 Na3 Na3 105.53(10) 102_545 . 1_565 n
+O4 Na3 Na3 74.47(10) 102_545 . -2_555 n
+O4 Na3 Na3 105.53(10) 102_545 . -2_565 n
+O5 Na3 O5 180.0 1_555 . 102_555 n
+O5 Na3 Na3 71.83(12) 1_555 . 1_545 n
+O5 Na3 Na3 108.17(12) 1_555 . 1_565 n
+O5 Na3 Na3 71.83(12) 1_555 . -2_555 n
+O5 Na3 Na3 108.17(12) 1_555 . -2_565 n
+O5 Na3 Na3 108.17(12) 102_555 . 1_545 n
+O5 Na3 Na3 71.83(12) 102_555 . 1_565 n
+O5 Na3 Na3 108.17(12) 102_555 . -2_555 n
+O5 Na3 Na3 71.83(12) 102_555 . -2_565 n
+Na3 Na3 Na3 180.0 1_545 . 1_565 n
+Na3 Na3 Na3 0.0 1_545 . -2_555 n
+Na3 Na3 Na3 180.0 1_545 . -2_565 n
+Na3 Na3 Na3 180.0 1_565 . -2_555 n
+Na3 Na3 Na3 0.0 1_565 . -2_565 n
+Na3 Na3 Na3 180.0 -2_555 . -2_565 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Mn1 Mn1 2.83987(6) . 1_545 n
+Mn1 Mn1 2.83987(6) . 1_565 n
+Mn1 Mn2 2.905(4) . 1_545 n
+Mn1 Mn2 2.905(4) . 1_555 n
+Mn1 Mn2 2.905(4) . 2_645 n
+Mn1 Mn2 2.905(4) . 2_655 n
+Mn1 O1 1.901(17) . 1_555 n
+Mn1 O1 1.901(17) . 2_655 n
+Mn1 O2 1.911(10) . 1_545 n
+Mn1 O2 1.911(10) . 1_555 n
+Mn1 O2 1.911(10) . 2_645 n
+Mn1 O2 1.911(10) . 2_655 n
+Mn1 Na2 3.559(16) . 1_545 n
+Mn1 Na2 3.559(16) . 1_555 n
+Mn1 Na2 3.559(16) . 2_645 n
+Mn1 Na2 3.559(16) . 2_655 n
+Mn2 Mn1 2.905(4) . 1_555 n
+Mn2 Mn1 2.905(4) . 1_565 n
+Mn2 Mn2 2.83987(6) . 1_545 n
+Mn2 Mn2 2.83987(6) . 1_565 n
+Mn2 O1 2.041(12) . 1_555 n
+Mn2 O1 2.041(12) . 1_565 n
+Mn2 O2 1.940(17) . 2_655 n
+Mn2 O3 1.871(10) . 2_655 n
+Mn2 O3 1.871(10) . 2_665 n
+Mn2 O4 1.872(20) . 1_555 n
+Mn2 Na2 3.384(18) . 1_555 n
+Mn2 Na3 3.224(4) . 1_555 n
+Mn2 Na3 3.224(4) . -2_565 n
+Mn3 Mn3 2.83987(6) . 1_545 n
+Mn3 Mn3 2.83987(6) . 1_565 n
+Mn3 O4 1.923(14) . 1_545 n
+Mn3 O4 1.923(14) . 1_555 n
+Mn3 O5 1.947(16) . 1_555 n
+Mn3 O6 1.936(12) . 1_545 n
+Mn3 O6 1.936(12) . 1_555 n
+Mn3 O7 1.783(15) . 1_555 n
+Mn3 Na1 3.462(20) . 1_555 n
+Mn3 Na3 3.296(4) . 1_555 n
+Mn3 Na3 3.296(4) . -2_555 n
+Mn4 Mn4 2.83987(6) . 1_545 n
+Mn4 Mn4 2.83987(6) . 1_565 n
+Mn4 O6 2.150(14) . 1_555 n
+Mn4 O7 2.041(13) . 1_555 n
+Mn4 O7 2.041(13) . 1_565 n
+Mn4 O8 2.037(15) . 1_555 n
+Mn4 O9 1.887(12) . 1_555 n
+Mn4 O9 1.887(12) . 1_565 n
+Mn4 Na1 3.483(18) . 1_555 n
+Mn4 Na1 3.483(18) . 1_565 n
+Mn4 Na2 3.068(17) . 1_555 n
+Mn5 Mn5 2.83987(6) . 1_545 n
+Mn5 Mn5 2.83987(6) . 1_565 n
+Mn5 Mn6 2.911(6) . 1_545 n
+Mn5 Mn6 2.911(6) . 1_555 n
+Mn5 O8 1.869(10) . 1_545 n
+Mn5 O8 1.869(10) . 1_555 n
+Mn5 O9 1.897(17) . 2_656 n
+Mn5 O10 1.962(11) . 1_545 n
+Mn5 O10 1.962(11) . 1_555 n
+Mn5 O11 1.944(17) . 1_555 n
+Mn5 Na1 3.061(18) . 2_656 n
+Mn5 Na2 3.400(16) . 1_545 n
+Mn5 Na2 3.400(16) . 1_555 n
+Mn6 Mn5 2.911(6) . 1_555 n
+Mn6 Mn5 2.911(6) . 1_565 n
+Mn6 Mn6 2.83987(6) . 1_545 n
+Mn6 Mn6 2.83987(6) . 1_565 n
+Mn6 O10 1.870(16) . 1_555 n
+Mn6 O11 1.924(11) . 1_555 n
+Mn6 O11 1.924(11) . 1_565 n
+Mn6 O12 1.849(16) . 1_555 n
+Mn6 O13 1.868(11) . 1_555 n
+Mn6 O13 1.868(11) . 1_565 n
+Mn6 Na1 3.102(19) . 101_555 n
+Mn6 Na2 3.370(18) . 1_555 n
+Mn7 Mn7 2.83987(6) . 1_545 n
+Mn7 Mn7 2.83987(6) . 1_565 n
+Mn7 O3 2.172(16) . 1_555 n
+Mn7 O5 1.904(11) . 101_545 n
+Mn7 O5 1.904(11) . 101_555 n
+Mn7 O12 1.893(11) . 1_545 n
+Mn7 O12 1.893(11) . 1_555 n
+Mn7 Na3 3.110(4) . 2_655 n
+Mn7 Na3 3.110(4) . -1_655 n
+O1 Mn1 1.901(17) . 1_555 n
+O1 Mn2 2.041(12) . 1_545 n
+O1 Mn2 2.041(12) . 1_555 n
+O1 Na2 2.475(16) . 1_545 n
+O1 Na2 2.475(16) . 1_555 n
+O2 Mn1 1.911(10) . 1_555 n
+O2 Mn1 1.911(10) . 1_565 n
+O2 Mn2 1.940(17) . 2_655 n
+O2 Na2 2.879(25) . 1_555 n
+O3 Mn2 1.871(10) . 2_645 n
+O3 Mn2 1.871(10) . 2_655 n
+O3 Mn7 2.172(16) . 1_555 n
+O3 Na3 3.118(11) . 2_645 n
+O3 Na3 2.385(15) . 2_655 n
+O3 Na3 2.385(15) . -1_655 n
+O3 Na3 3.118(11) . -1_665 n
+O4 Mn2 1.872(20) . 1_555 n
+O4 Mn3 1.923(14) . 1_555 n
+O4 Mn3 1.923(14) . 1_565 n
+O4 Na3 2.652(16) . 1_555 n
+O4 Na3 2.652(16) . -2_565 n
+O5 Mn3 1.947(16) . 1_555 n
+O5 Mn7 1.904(11) . 101_445 n
+O5 Mn7 1.904(11) . 101_455 n
+O5 Na3 3.036(11) . 1_545 n
+O5 Na3 2.276(15) . 1_555 n
+O5 Na3 2.276(15) . -2_555 n
+O5 Na3 3.036(11) . -2_565 n
+O6 Mn3 1.936(12) . 1_555 n
+O6 Mn3 1.936(12) . 1_565 n
+O6 Mn4 2.150(14) . 1_555 n
+O6 Na1 2.587(19) . 1_555 n
+O6 Na1 2.587(19) . 1_565 n
+O7 Mn3 1.783(15) . 1_555 n
+O7 Mn4 2.041(13) . 1_545 n
+O7 Mn4 2.041(13) . 1_555 n
+O7 Na2 2.584(18) . 1_545 n
+O7 Na2 2.584(18) . 1_555 n
+O8 Mn4 2.037(15) . 1_555 n
+O8 Mn5 1.869(10) . 1_555 n
+O8 Mn5 1.869(10) . 1_565 n
+O8 Na2 2.472(22) . 1_555 n
+O9 Mn4 1.887(12) . 1_545 n
+O9 Mn4 1.887(12) . 1_555 n
+O9 Mn5 1.897(17) . 2_656 n
+O9 Na1 2.656(24) . 1_555 n
+O10 Mn5 1.962(11) . 1_555 n
+O10 Mn5 1.962(11) . 1_565 n
+O10 Mn6 1.870(16) . 1_555 n
+O10 Na1 2.510(18) . 2_656 n
+O10 Na1 2.510(18) . 2_666 n
+O11 Mn5 1.944(17) . 1_555 n
+O11 Mn6 1.924(11) . 1_545 n
+O11 Mn6 1.924(11) . 1_555 n
+O11 Na2 2.553(18) . 1_545 n
+O11 Na2 2.553(18) . 1_555 n
+O12 Mn6 1.849(16) . 1_555 n
+O12 Mn7 1.893(11) . 1_555 n
+O12 Mn7 1.893(11) . 1_565 n
+O13 Mn6 1.868(11) . 1_545 n
+O13 Mn6 1.868(11) . 1_555 n
+O13 Na1 2.368(17) . 101_545 n
+O13 Na1 2.368(17) . 101_555 n
+Na1 Mn3 3.462(20) . 1_555 n
+Na1 Mn4 3.483(18) . 1_545 n
+Na1 Mn4 3.483(18) . 1_555 n
+Na1 Mn5 3.061(18) . 2_656 n
+Na1 Mn6 3.102(19) . 101_445 n
+Na1 O6 2.587(19) . 1_545 n
+Na1 O6 2.587(19) . 1_555 n
+Na1 O9 2.656(24) . 1_555 n
+Na1 O10 2.510(18) . 2_646 n
+Na1 O10 2.510(18) . 2_656 n
+Na1 O13 2.368(17) . 101_445 n
+Na1 O13 2.368(17) . 101_455 n
+Na1 Na1 2.83987(6) . 1_545 n
+Na1 Na1 2.83987(6) . 1_565 n
+Na1 Na1 4.18(4) . 102_546 n
+Na1 Na1 4.18(4) . 102_556 n
+Na2 Mn1 3.559(16) . 1_555 n
+Na2 Mn1 3.559(16) . 1_565 n
+Na2 Mn2 3.384(18) . 1_555 n
+Na2 Mn4 3.068(17) . 1_555 n
+Na2 Mn5 3.400(16) . 1_555 n
+Na2 Mn5 3.400(16) . 1_565 n
+Na2 Mn6 3.370(18) . 1_555 n
+Na2 O1 2.475(16) . 1_555 n
+Na2 O1 2.475(16) . 1_565 n
+Na2 O2 2.879(25) . 1_555 n
+Na2 O7 2.584(18) . 1_555 n
+Na2 O7 2.584(18) . 1_565 n
+Na2 O8 2.472(22) . 1_555 n
+Na2 O11 2.553(18) . 1_555 n
+Na2 O11 2.553(18) . 1_565 n
+Na2 Na2 2.83987(6) . 1_545 n
+Na2 Na2 2.83987(6) . 1_565 n
+Na3 Mn2 3.224(4) . 1_555 n
+Na3 Mn2 3.224(4) . 102_545 n
+Na3 Mn3 3.296(4) . 1_555 n
+Na3 Mn3 3.296(4) . 102_555 n
+Na3 Mn7 3.110(4) . 2_655 n
+Na3 Mn7 3.110(4) . 101_455 n
+Na3 O3 2.385(15) . 2_655 n
+Na3 O3 3.118(11) . 2_665 n
+Na3 O3 3.118(11) . 101_445 n
+Na3 O3 2.385(15) . 101_455 n
+Na3 O4 2.652(16) . 1_555 n
+Na3 O4 2.652(16) . 102_545 n
+Na3 O5 2.276(15) . 1_555 n
+Na3 O5 3.036(11) . 1_565 n
+Na3 O5 3.036(11) . 102_545 n
+Na3 O5 2.276(15) . 102_555 n
+Na3 Na3 2.83987(6) . 1_545 n
+Na3 Na3 2.83987(6) . 1_565 n
+Na3 Na3 1.419930(30) . -2_555 n
+Na3 Na3 1.419930(30) . -2_565 n

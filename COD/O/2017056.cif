@@ -1,0 +1,306 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 00:18:51 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176760 $
+#$URL: svn://www.crystallography.net/cod/cif/2/01/70/2017056.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2017056
+loop_
+_publ_author_name
+'Tolchard, Julian R.'
+'Fontaine, Marie-Laure'
+'Grande, Tor'
+_publ_section_title
+;
+ La(Ni~2/3~Nb~1/3~)O~3~ by neutron powder diffraction
+;
+_journal_coeditor_code           LG3004
+_journal_issue                   4
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              i11
+_journal_page_last               i13
+_journal_paper_doi               10.1107/S0108270108042467
+_journal_volume                  65
+_journal_year                    2009
+_chemical_formula_iupac          'La Nb0.33 Ni0.67 O3'
+_chemical_formula_moiety         'La Nb0.33 Ni0.67 O3'
+_chemical_formula_sum            'La Nb0.33 Ni0.67 O3'
+_chemical_formula_weight         257.00
+_chemical_name_common            'Lanthanum Niobium Nickelate'
+_chemical_name_systematic
+;
+Lanthanum nickel niobium trioxide
+;
+_space_group_crystal_system      monoclinic
+_space_group_IT_number           14
+_space_group_name_Hall           '-P 2yn'
+_space_group_name_H-M_alt        'P 1 21/n 1'
+_symmetry_space_group_name_Hall  '-P 2yn'
+_symmetry_space_group_name_H-M   'P 1 21/n 1'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.000(9)
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            4
+_cell_length_a                   5.5823(2)
+_cell_length_b                   5.6194(2)
+_cell_length_c                   7.9045(3)
+_cell_measurement_temperature    295
+_cell_volume                     247.958(16)
+_computing_molecular_graphics    'ATOMS (Dowty, 2002)'
+_computing_publication_material  'GSAS (Larson & Von Dreele, 2000 )'
+_computing_structure_refinement  'GSAS (Larson & Von Dreele, 2000 )'
+_computing_structure_solution
+;
+WINPLOTR (Roisnel & Rodr\'iguez-Carvajal, 2001), DICVOL
+(Boultif & Lou\"er, 2004)
+and
+Chekcell (Laugier & Bochu, 2001)
+;
+_diffrn_ambient_temperature      295
+_diffrn_measurement_device_type  'GEM (ISIS, Didcot)'
+_diffrn_radiation_probe          neutron
+_diffrn_radiation_type           neutron
+_exptl_crystal_density_diffrn    6.884
+_refine_ls_goodness_of_fit_all   1.26
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     75
+_refine_ls_number_restraints     0
+_refine_ls_shift/su_max          0.05
+_refine_ls_shift/su_mean         0.00
+_cod_data_source_file            lg3004.cif
+_cod_data_source_block           I
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_geom_bond_publ_flag' value 'N' changed to 'n' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (44
+times).
+
+'_geom_angle_publ_flag' value 'N' changed to 'n' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (57 times).
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+
+The following automatic conversions were performed:
+
+'_geom_bond_publ_flag' value 'N' changed to 'n' according to
+/home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (44
+times).
+
+'_geom_angle_publ_flag' value 'N' changed to 'n' according
+to /home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary
+named 'cif_core.dic' version 2.4.1 from 2010-06-29 (57 times).
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_original_cell_volume        247.96(2)
+_cod_database_code               2017056
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -x+1/2,+y+1/2,-z+1/2
+-1 -x,-y,-z
+-2 +x+1/2,-y+1/2,+z+1/2
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_occupancy
+La La1 0.4915(3) 0.53711(11) 0.2496(7) 0.01797(16) Uiso 1.0
+Nb Nb2 0.5 0.0 0.0 0.0057(7) Uiso 0.09(2)
+Ni Ni3 0.5 0.0 0.0 0.0057(7) Uiso 0.91(2)
+Nb Nb4 0.0 0.5 0.0 0.0042(7) Uiso 0.57(2)
+Ni Ni5 0.0 0.5 0.0 0.0042(7) Uiso 0.43(2)
+O O6 0.2898(7) 0.2936(6) 0.0346(3) 0.0064(5) Uiso 1.0
+O O7 0.2119(7) 0.7856(7) 0.0471(3) 0.0112(7) Uiso 1.0
+O O8 0.5783(3) 0.9844(2) 0.2503(10) 0.0102(3) Uiso 1.0
+loop_
+_atom_type_symbol
+_atom_type_scat_source
+La International_Tables_Vol_C
+Nb International_Tables_Vol_C
+Ni International_Tables_Vol_C
+O International_Tables_Vol_C
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O6 La1 O6 1_555 . 2_555 117.59(7) n
+O6 La1 O6 1_555 . -1_665 80.18(19) n
+O6 La1 O7 1_555 . 1_555 66.64(19) n
+O6 La1 O7 1_555 . 2_545 85.36(5) n
+O6 La1 O8 1_555 . 1_555 129.5(2) n
+O6 La1 O8 1_555 . 2_645 112.8(3) n
+O6 La1 O6 2_555 . -1_665 126.00(6) n
+O6 La1 O7 2_555 . 1_555 76.06(5) n
+O6 La1 O7 2_555 . 2_545 67.91(18) n
+O6 La1 O8 2_555 . 1_555 65.75(13) n
+O6 La1 O8 2_555 . 2_645 129.4(3) n
+O6 La1 O7 -1_665 . 1_555 65.17(19) n
+O6 La1 O7 -1_665 . 2_545 163.62(18) n
+O6 La1 O8 -1_665 . 1_555 64.82(16) n
+O6 La1 O8 -1_665 . 2_645 66.35(19) n
+O7 La1 O7 1_555 . 2_545 115.74(8) n
+O7 La1 O8 1_555 . 1_555 65.99(12) n
+O7 La1 O8 1_555 . 2_645 130.8(3) n
+O7 La1 O8 2_545 . 1_555 131.3(2) n
+O7 La1 O8 2_545 . 2_645 113.2(3) n
+O8 La1 O8 1_555 . 2_645 86.11(6) n
+O6 Nb2 O7 1_555 . 1_545 89.99(18) n
+O6 Nb2 O7 1_555 . -1_665 90.01(18) n
+O6 Nb2 O8 1_555 . 1_545 91.62(10) n
+O6 Nb2 O8 1_555 . -1_665 88.38(10) n
+O6 Nb2 O7 -1_655 . 1_545 90.01(18) n
+O6 Nb2 O7 -1_655 . -1_665 89.99(18) n
+O6 Nb2 O8 -1_655 . 1_545 88.38(10) n
+O6 Nb2 O8 -1_655 . -1_665 91.62(10) n
+O7 Nb2 O8 1_545 . 1_545 88.07(11) n
+O7 Nb2 O8 1_545 . -1_665 91.93(11) n
+O7 Nb2 O8 -1_665 . 1_545 91.93(11) n
+O7 Nb2 O8 -1_665 . -1_665 88.07(11) n
+O6 Ni3 O7 1_555 . 1_545 89.99(18) y
+O6 Ni3 O7 1_555 . -1_665 90.01(18) y
+O6 Ni3 O8 1_555 . 1_545 91.62(10) y
+O6 Ni3 O8 1_555 . -1_665 88.38(10) y
+O6 Ni3 O7 -1_655 . 1_545 90.01(18) y
+O6 Ni3 O7 -1_655 . -1_665 89.99(18) y
+O6 Ni3 O8 -1_655 . 1_545 88.38(10) y
+O6 Ni3 O8 -1_655 . -1_665 91.62(10) y
+O7 Ni3 O8 1_545 . 1_545 88.07(11) y
+O7 Ni3 O8 1_545 . -1_665 91.93(11) y
+O7 Ni3 O8 -1_665 . 1_545 91.93(11) y
+O7 Ni3 O8 -1_665 . -1_665 88.07(11) y
+O6 Nb4 O7 1_555 . 1_555 87.83(18) y
+O6 Nb4 O7 1_555 . -1_565 92.17(18) y
+O6 Nb4 O8 1_555 . 2_545 90.93(9) y
+O6 Nb4 O8 1_555 . -2_575 89.07(9) y
+O6 Nb4 O7 -1_565 . 1_555 92.17(18) y
+O6 Nb4 O7 -1_565 . -1_565 87.83(18) y
+O6 Nb4 O8 -1_565 . 2_545 89.07(9) y
+O6 Nb4 O8 -1_565 . -2_575 90.93(9) y
+O7 Nb4 O8 1_555 . 2_545 88.93(10) y
+O7 Nb4 O8 1_555 . -2_575 91.07(10) y
+O7 Nb4 O8 -1_565 . 2_545 91.07(10) y
+O7 Nb4 O8 -1_565 . -2_575 88.93(10) y
+O6 Ni5 O7 1_555 . 1_555 87.83(18) n
+O6 Ni5 O7 1_555 . -1_565 92.17(18) n
+O6 Ni5 O8 1_555 . 2_545 90.93(9) n
+O6 Ni5 O8 1_555 . -2_575 89.07(9) n
+O6 Ni5 O7 -1_565 . 1_555 92.17(18) n
+O6 Ni5 O7 -1_565 . -1_565 87.83(18) n
+O6 Ni5 O8 -1_565 . 2_545 89.07(9) n
+O6 Ni5 O8 -1_565 . -2_575 90.93(9) n
+O7 Ni5 O8 1_555 . 2_545 88.93(10) n
+O7 Ni5 O8 1_555 . -2_575 91.07(10) n
+O7 Ni5 O8 -1_565 . 2_545 91.07(10) n
+O7 Ni5 O8 -1_565 . -2_575 88.93(10) n
+Nb2 O6 Nb4 1_555 . 1_555 155.55(16) n
+Nb2 O6 Ni5 1_555 . 1_555 155.55(16) n
+Ni3 O6 Nb4 1_555 . 1_555 155.55(16) n
+Ni3 O6 Ni5 1_555 . 1_555 155.55(16) n
+Nb2 O7 Nb4 1_565 . 1_555 153.12(16) n
+Nb2 O7 Ni5 1_565 . 1_555 153.12(16) n
+Ni3 O7 Nb4 1_565 . 1_555 153.12(16) n
+Ni3 O7 Ni5 1_565 . 1_555 153.12(16) n
+Nb2 O8 Nb4 1_565 . 2_555 154.56(8) n
+Nb2 O8 Ni5 1_565 . 2_555 154.56(8) n
+Ni3 O8 Nb4 1_565 . 2_555 154.56(8) n
+Ni3 O8 Ni5 1_565 . 2_555 154.56(8) n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+La1 O6 . 1_555 2.455(5) y
+La1 O6 . 2_555 2.730(4) y
+La1 O6 . -1_665 2.728(5) y
+La1 O6 . -2_555 3.362(5) y
+La1 O7 . 1_555 2.636(5) y
+La1 O7 . 2_545 2.422(5) y
+La1 O7 . -1_665 3.396(5) y
+La1 O7 . -2_565 2.835(5) y
+La1 O8 . 1_545 3.1436(13) y
+La1 O8 . 1_555 2.5597(14) y
+La1 O8 . 2_545 3.195(2) y
+La1 O8 . 2_645 2.420(2) y
+Nb2 La1 . 1_545 3.265(3) n
+Nb2 La1 . 1_555 3.606(3) n
+Nb2 La1 . 2_545 3.389(3) n
+Nb2 La1 . 2_645 3.467(3) n
+Nb2 La1 . -1_655 3.606(3) n
+Nb2 La1 . -1_665 3.265(3) n
+Nb2 La1 . -2_454 3.467(3) n
+Nb2 La1 . -2_554 3.389(3) n
+Nb2 O6 . 1_555 2.043(4) n
+Nb2 O6 . -1_655 2.043(4) n
+Nb2 O7 . 1_545 2.043(4) n
+Nb2 O7 . -1_665 2.043(4) n
+Nb2 O8 . 1_545 2.028(8) n
+Nb2 O8 . -1_665 2.028(8) n
+Ni3 La1 . 1_545 3.265(3) n
+Ni3 La1 . 1_555 3.606(3) n
+Ni3 La1 . 2_545 3.389(3) n
+Ni3 La1 . 2_645 3.467(3) n
+Ni3 La1 . -1_655 3.606(3) n
+Ni3 La1 . -1_665 3.265(3) n
+Ni3 La1 . -2_454 3.467(3) n
+Ni3 La1 . -2_554 3.389(3) n
+Ni3 O6 . 1_555 2.043(4) y
+Ni3 O6 . -1_655 2.043(4) y
+Ni3 O7 . 1_545 2.043(4) y
+Ni3 O7 . -1_665 2.043(4) y
+Ni3 O8 . 1_545 2.028(8) y
+Ni3 O8 . -1_665 2.028(8) y
+Nb4 La1 . 1_455 3.463(3) n
+Nb4 La1 . 1_555 3.386(3) n
+Nb4 La1 . 2_545 3.269(3) n
+Nb4 La1 . 2_555 3.610(3) n
+Nb4 La1 . -1_565 3.386(3) n
+Nb4 La1 . -1_665 3.463(3) n
+Nb4 La1 . -2_454 3.610(3) n
+Nb4 La1 . -2_464 3.269(3) n
+Nb4 O6 . 1_555 2.009(4) y
+Nb4 O6 . -1_565 2.009(4) y
+Nb4 O7 . 1_555 2.029(4) y
+Nb4 O7 . -1_565 2.029(4) y
+Nb4 O8 . 2_545 2.024(8) y
+Nb4 O8 . -2_464 2.024(8) y
+Ni5 La1 . 1_455 3.463(3) n
+Ni5 La1 . 1_555 3.386(3) n
+Ni5 La1 . 2_545 3.269(3) n
+Ni5 La1 . 2_555 3.610(3) n
+Ni5 La1 . -1_565 3.386(3) n
+Ni5 La1 . -1_665 3.463(3) n
+Ni5 La1 . -2_454 3.610(3) n
+Ni5 La1 . -2_464 3.269(3) n
+Ni5 O6 . 1_555 2.009(4) n
+Ni5 O6 . -1_565 2.009(4) n
+Ni5 O7 . 1_555 2.029(4) n
+Ni5 O7 . -1_565 2.029(4) n
+Ni5 O8 . 2_545 2.024(8) n
+Ni5 O8 . -2_464 2.024(8) n

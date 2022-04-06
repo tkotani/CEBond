@@ -1,0 +1,329 @@
+#------------------------------------------------------------------------------
+#$Date: 2021-09-06 15:41:45 +0300 (Mon, 06 Sep 2021) $
+#$Revision: 268967 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/56/39/1563907.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1563907
+loop_
+_publ_author_name
+'Aguilar-Maldonado, Cintli'
+'Mentr\'e, Olivier'
+'Tsirlin, Alexander A.'
+'Ritter, Clemens'
+'Missiul, Aleksandr'
+'Fauth, Francois'
+'Ar\'evalo-L\'opez, Angel M.'
+_publ_section_title
+;
+ Hybrid electrons in the trimerized GaV4O8
+;
+_journal_issue                   8
+_journal_name_full               'Materials Horizons'
+_journal_page_first              2325
+_journal_page_last               2329
+_journal_paper_doi               10.1039/D1MH00390A
+_journal_volume                  8
+_journal_year                    2021
+_chemical_formula_sum            'Ga1.069 O8 V3.931'
+_chemical_formula_weight         402.8
+_space_group_IT_number           186
+_space_group_name_Hall           'P 6c -2c'
+_space_group_name_H-M_alt        'P 63 m c'
+_symmetry_cell_setting           hexagonal
+_symmetry_Int_Tables_number      186
+_symmetry_space_group_name_Hall  'P 6c -2c'
+_symmetry_space_group_name_H-M   'P 63 m c'
+_audit_update_record
+;
+2021-05-06 deposited with the CCDC.	2021-07-02 downloaded from the CCDC.
+;
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            2
+_cell_length_a                   5.696(4)
+_cell_length_b                   5.696(4)
+_cell_length_c                   9.387(4)
+_cell_measurement_reflns_used    8131
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      24.14
+_cell_measurement_theta_min      3.26
+_cell_volume                     263.8(3)
+_computing_cell_refinement       APEX3
+_computing_data_collection       APEX3
+_computing_data_reduction        APEX3
+_computing_molecular_graphics    VESTA
+_computing_structure_refinement  JANA2006
+_computing_structure_solution    'Super flip'
+_diffrn_ambient_temperature      293
+_diffrn_measured_fraction_theta_full 1
+_diffrn_measured_fraction_theta_max 1
+_diffrn_measurement_device       'four-circle diffractometer'
+_diffrn_measurement_device_type  'Bruker CCD'
+_diffrn_measurement_method       'Bruker CCD'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_source         'X-ray tube'
+_diffrn_radiation_type           'Ag K\a'
+_diffrn_radiation_wavelength     0.56087
+_diffrn_reflns_av_R_equivalents  0.0869
+_diffrn_reflns_av_unetI/netI     0.0346
+_diffrn_reflns_limit_h_max       7
+_diffrn_reflns_limit_h_min       -8
+_diffrn_reflns_limit_k_max       8
+_diffrn_reflns_limit_k_min       -8
+_diffrn_reflns_limit_l_max       13
+_diffrn_reflns_limit_l_min       -13
+_diffrn_reflns_number            8131
+_diffrn_reflns_theta_full        24.14
+_diffrn_reflns_theta_max         24.14
+_diffrn_reflns_theta_min         3.26
+_exptl_absorpt_coefficient_mu    6.253
+_exptl_absorpt_correction_T_max  0.7450
+_exptl_absorpt_correction_T_min  0.6744
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details   'SADABS (Bruker, 2000)'
+_exptl_crystal_colour            black
+_exptl_crystal_density_diffrn    5.0714
+_exptl_crystal_description       prism
+_exptl_crystal_F_000             375
+_exptl_crystal_size_max          0.05
+_exptl_crystal_size_mid          0.05
+_exptl_crystal_size_min          0.05
+_refine_diff_density_max         0.83
+_refine_diff_density_min         -0.95
+_refine_ls_abs_structure_details
+'  168 of Friedel pairs used in the refinement'
+_refine_ls_abs_structure_Flack   0.05(5)
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_gt    1.19
+_refine_ls_goodness_of_fit_ref   1.18
+_refine_ls_number_constraints    4
+_refine_ls_number_parameters     24
+_refine_ls_number_reflns         361
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          0.0344
+_refine_ls_R_factor_gt           0.0238
+_refine_ls_shift/su_max          0.0162
+_refine_ls_shift/su_mean         0.0038
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details     w=1/(\s^2^(I)+0.0004I^2^)
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_gt          0.0449
+_refine_ls_wR_factor_ref         0.0485
+_reflns_number_gt                308
+_reflns_number_total             361
+_reflns_threshold_expression     I>3\s(I)
+_cod_data_source_file            d1mh00390a5.cif
+_cod_data_source_block           I
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+data name '__exptl_absorpt_correction_type' was replaced with
+'_exptl_absorpt_correction_type'.
+
+Automatic conversion script
+Id: cif_correct_tags 7550 2019-12-06 10:49:48Z antanas 
+
+The following automatic conversions were performed:
+
+data item '_diffrn_radiation_probe' value 'X-ray' was changed to
+'x-ray' in accordance with the
+/home/data/users/saulius/crontab/automatic-downloads/rss-feeds/RSC/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 last updated on
+2011-04-26.
+
+Automatic conversion script
+Id: cif_fix_values 7556 2019-12-06 15:28:31Z antanas 
+
+ Adding full bibliography for 1563907.cif.
+;
+_cod_database_code               1563907
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 -y,x-y,z
+3 -x+y,-x,z
+4 -x,-y,z+1/2
+5 y,-x+y,z+1/2
+6 x-y,x,z+1/2
+7 -y,-x,z
+8 -x+y,y,z
+9 x,x-y,z
+10 y,x,z+1/2
+11 x-y,-y,z+1/2
+12 -x,-x+y,z+1/2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_adp_type
+_atom_site_U_iso_or_equiv
+_atom_site_site_symmetry_multiplicity
+_atom_site_occupancy
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Ga1 Ga 0.333333 0.666667 0.9464 Uani 0.0025(3) 2 1 d . . .
+V1 V 0.333333 0.666667 0.52393(16) Uani 0.0013(5) 2 0.931(14) d . . .
+Ga' Ga 0.333333 0.666667 0.52393(16) Uani 0.0013(5) 2 0.069(14) d . . .
+V2 V 0.14833(7) 0.85167(7) 0.24985(13) Uani 0.0026(2) 6 1 d . . .
+O1 O 0 0 0.3818(7) Uiso 0.0057(12) 2 1 d . . .
+O2 O 0.333333 0.666667 0.1429(7) Uiso 0.0037(14) 2 1 d . . .
+O3 O 0.4887(4) 0.5113(4) 0.3794(4) Uiso 0.0023(6) 6 1 d . . .
+O4 O 0.1697(4) 0.8303(4) 0.6409(5) Uiso 0.0045(8) 6 1 d . . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_type_symbol
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Ga1 Ga 0.0024(3) 0.0024(3) 0.0026(5) 0.00122(16) 0 0
+V1 V 0.0006(6) 0.0006(6) 0.0027(8) 0.0003(3) 0 0
+Ga' Ga 0.0006(6) 0.0006(6) 0.0027(8) 0.0003(3) 0 0
+V2 V 0.0024(3) 0.0024(3) 0.0027(4) 0.0010(3) -0.0001(2) 0.0001(2)
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Ga 0.3179 1.0589 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+O 0.0056 0.0036 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+V 0.2276 0.3376 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O2 Ga1 O3 1_556 . 4_665 109.71(11) ?
+O2 Ga1 O3 1_556 . 5_565 109.71(11) ?
+O2 Ga1 O3 1_556 . 6_555 109.71(11) ?
+O3 Ga1 O3 4_665 . 5_565 109.24(13) ?
+O3 Ga1 O3 4_665 . 6_555 109.24(13) ?
+O3 Ga1 O3 5_565 . 6_555 109.24(13) ?
+Ga' V1 O3 . . . 0 ?
+Ga' V1 O3 . . 2_665 0 ?
+Ga' V1 O3 . . 3_565 0 ?
+Ga' V1 O4 . . . 0 ?
+Ga' V1 O4 . . 2_665 0 ?
+Ga' V1 O4 . . 3_565 0 ?
+O3 V1 O3 . . 2_665 80.85(14) ?
+O3 V1 O3 . . 3_565 80.85(14) ?
+O3 V1 O4 . . . 172.70(16) ?
+O3 V1 O4 . . 2_665 93.62(14) ?
+O3 V1 O4 . . 3_565 93.62(14) ?
+O3 V1 O3 2_665 . 3_565 80.85(13) ?
+O3 V1 O4 2_665 . . 93.62(14) ?
+O3 V1 O4 2_665 . 2_665 172.70(16) ?
+O3 V1 O4 2_665 . 3_565 93.62(13) ?
+O3 V1 O4 3_565 . . 93.62(14) ?
+O3 V1 O4 3_565 . 2_665 93.62(13) ?
+O3 V1 O4 3_565 . 3_565 172.70(16) ?
+O4 V1 O4 . . 2_665 91.48(15) ?
+O4 V1 O4 . . 3_565 91.48(15) ?
+O4 V1 O4 2_665 . 3_565 91.48(14) ?
+V2 V2 V2 2_675 . 3_465 60.00(5) ?
+V2 V2 O1 2_675 . 1_565 48.61(11) ?
+V2 V2 O2 2_675 . . 139.36(11) ?
+V2 V2 O3 2_675 . 2_665 96.97(10) ?
+V2 V2 O3 2_675 . 3_565 139.19(11) ?
+V2 V2 O4 2_675 . 5_454 95.56(11) ?
+V2 V2 O4 2_675 . 6_664 47.66(11) ?
+V2 V2 O1 3_465 . 1_565 48.61(11) ?
+V2 V2 O2 3_465 . . 139.36(11) ?
+V2 V2 O3 3_465 . 2_665 139.19(11) ?
+V2 V2 O3 3_465 . 3_565 96.97(10) ?
+V2 V2 O4 3_465 . 5_454 47.66(11) ?
+V2 V2 O4 3_465 . 6_664 95.56(11) ?
+O1 V2 O2 1_565 . . 168.6(2) ?
+O1 V2 O3 1_565 . 2_665 90.62(16) ?
+O1 V2 O3 1_565 . 3_565 90.62(16) ?
+O1 V2 O4 1_565 . 5_454 95.57(15) ?
+O1 V2 O4 1_565 . 6_664 95.57(15) ?
+O2 V2 O3 . . 2_665 80.58(16) ?
+O2 V2 O3 . . 3_565 80.58(16) ?
+O2 V2 O4 . . 5_454 91.70(16) ?
+O2 V2 O4 . . 6_664 91.70(16) ?
+O3 V2 O3 2_665 . 3_565 78.92(13) ?
+O3 V2 O4 2_665 . 5_454 167.16(13) ?
+O3 V2 O4 2_665 . 6_664 89.75(14) ?
+O3 V2 O4 3_565 . 5_454 89.75(14) ?
+O3 V2 O4 3_565 . 6_664 167.16(13) ?
+O4 V2 O4 5_454 . 6_664 100.79(17) ?
+V2 O1 V2 1_545 . 2_665 82.8(2) ?
+V2 O1 V2 1_545 . 3_455 82.8(2) ?
+V2 O1 V2 2_665 . 3_455 82.8(2) ?
+Ga1 O2 V2 1_554 . . 118.81(16) ?
+Ga1 O2 V2 1_554 . 2_665 118.81(16) ?
+Ga1 O2 V2 1_554 . 3_565 118.81(16) ?
+V2 O2 V2 . . 2_665 98.7(2) ?
+V2 O2 V2 . . 3_565 98.7(2) ?
+V2 O2 V2 2_665 . 3_565 98.7(2) ?
+Ga1 O3 V1 4_664 . . 118.78(19) ?
+Ga1 O3 V2 4_664 . 2_665 118.42(12) ?
+Ga1 O3 V2 4_664 . 3_565 118.42(12) ?
+V1 O3 V2 . . 2_665 99.42(11) ?
+V1 O3 V2 . . 3_565 99.42(11) ?
+V2 O3 V2 2_665 . 3_565 98.37(16) ?
+V1 O4 V2 . . 5_455 136.04(11) ?
+V1 O4 V2 . . 6_665 136.04(11) ?
+V2 O4 V2 5_455 . 6_665 84.68(16) ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Ga1 O2 . 1_556 1.845(7) ?
+Ga1 O3 . 4_665 1.865(3) ?
+Ga1 O3 . 5_565 1.865(4) ?
+Ga1 O3 . 6_555 1.865(4) ?
+V1 Ga' . . 0 ?
+V1 O3 . . 2.047(3) ?
+V1 O3 . 2_665 2.047(4) ?
+V1 O3 . 3_565 2.047(4) ?
+V1 O4 . . 1.952(3) ?
+V1 O4 . 2_665 1.952(4) ?
+V1 O4 . 3_565 1.952(4) ?
+V2 V2 . 2_675 2.535(4) ?
+V2 V2 . 3_465 2.535(4) ?
+V2 O1 . 1_565 1.917(4) ?
+V2 O2 . . 2.083(3) ?
+V2 O3 . 2_665 2.089(4) ?
+V2 O3 . 3_565 2.089(4) ?
+V2 O4 . 5_454 1.882(4) ?
+V2 O4 . 6_664 1.882(4) ?
+loop_
+_twin_individual_id
+_twin_individual_mass_fraction_refined
+_twin_individual_twin_matrix_11
+_twin_individual_twin_matrix_12
+_twin_individual_twin_matrix_13
+_twin_individual_twin_matrix_21
+_twin_individual_twin_matrix_22
+_twin_individual_twin_matrix_23
+_twin_individual_twin_matrix_31
+_twin_individual_twin_matrix_32
+_twin_individual_twin_matrix_33
+1 0.95(5) 1 0 0 0 1 0 0 0 1
+2 0.05(5) -1 0 0 0 -1 0 0 0 -1

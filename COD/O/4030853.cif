@@ -1,0 +1,356 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-21 05:36:41 +0200 (Mon, 21 Mar 2016) $
+#$Revision: 178487 $
+#$URL: svn://www.crystallography.net/cod/cif/4/03/08/4030853.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4030853
+loop_
+_publ_author_name
+'Slagtern, A.'
+'Fjellvag, H.'
+_publ_section_title
+;
+ Nickel distribution on aluminium sites in LaNiAl11O19
+;
+_journal_name_full
+'European Journal of Solid State and Inorganic Chemistry'
+_journal_page_first              1241
+_journal_page_last               1252
+_journal_volume                  33
+_journal_year                    1996
+_chemical_formula_sum            'Al11 La Ni O19'
+_chemical_formula_weight         798.38
+_space_group_IT_number           194
+_symmetry_cell_setting           hexagonal
+_symmetry_Int_Tables_number      194
+_symmetry_space_group_name_Hall  '-P 6c 2c'
+_symmetry_space_group_name_H-M   'P 63/m m c'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            2
+_cell_length_a                   5.58968(4)
+_cell_length_b                   5.58968(4)
+_cell_length_c                   22.0141(2)
+_cell_volume                     595.670(8)
+_diffrn_ambient_temperature      293
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_wavelength     1.098
+_exptl_absorpt_coefficient_mu    17.599
+_exptl_crystal_density_diffrn    4.363
+_exptl_crystal_F_000             746
+_pd_proc_ls_prof_R_factor        0.054
+_cod_data_source_file            EJSSIC-1996-33-1241-1252.cif
+_cod_data_source_block           LaNiAl11O19
+_cod_depositor_comments
+;
+synchrotron data, Rietveld refinements, GSAS software
+thermal parameters not given, set to B = 1.
+;
+_cod_original_cell_volume        595.670(12)
+_cod_database_code               4030853
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 x-y,x,1/2+z
+3 -y,x-y,z
+4 -x,-y,1/2+z
+5 -x+y,-x,z
+6 y,-x+y,1/2+z
+7 -y,-x,1/2-z
+8 x-y,-y,-z
+9 x,x-y,1/2-z
+10 y,x,-z
+11 -x+y,y,1/2-z
+12 -x,-x+y,-z
+13 -x,-y,-z
+14 -x+y,-x,1/2-z
+15 y,-x+y,-z
+16 x,y,1/2-z
+17 x-y,x,-z
+18 -y,x-y,1/2-z
+19 y,x,1/2+z
+20 -x+y,y,z
+21 -x,-x+y,1/2+z
+22 -y,-x,z
+23 x-y,-y,1/2+z
+24 x,x-y,z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_thermal_displace_type
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+La La Uiso 0.66667 0.33333 0.25000 0.965(4) 0.0127
+Ni Ni Uiso 0.33333 0.66667 0.02700 0.327(5) 0.0127
+Al1 Al Uiso 0.00000 0.00000 0.00000 1.000 0.0127
+Al2 Al Uiso 0.33333 0.66667 0.02700 0.673(5) 0.0127
+Al3 Al Uiso 0.33333 0.66667 0.18947(9) 1.000 0.0127
+Al4 Al Uiso 0.8326(2) 0.6652(3) 0.10787(5) 1.000 0.0127
+Al5 Al Uiso 0.00000 0.00000 0.2388(2) 0.500 0.0127
+O1 O Uiso 0.1797(4) 0.3594(8) 0.25000 1.000 0.0127
+O2 O Uiso 0.1517(3) 0.3034(6) 0.05390(10) 1.000 0.0127
+O3 O Uiso 0.5055(3) 0.0110(5) 0.15160(10) 1.000 0.0127
+O4 O Uiso 0.00000 0.00000 0.1507(2) 1.000 0.0127
+O5 O Uiso 0.66667 0.33333 0.0574(2) 1.000 0.0127
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Al Al 0.1328 0.1260 'S.Brennan & P.L.Cowan (1992).Rev.Sci.Instr.,63,650'
+La La -0.0248 5.1864 'S.Brennan & P.L.Cowan (1992).Rev.Sci.Instr.,63,650'
+Ni Ni -0.1289 2.3647 'S.Brennan & P.L.Cowan (1992).Rev.Sci.Instr.,63,650'
+O O 0.0270 0.0157 'S.Brennan & P.L.Cowan (1992).Rev.Sci.Instr.,63,650'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O1 La O3 91.51(7) . . yes
+O1 La O1 174.83(11) . 1_655 yes
+O1 La O1 120.00(13) . 3_655 yes
+O1 La O3 119.50(7) . 3_655 yes
+O1 La O1 54.83(13) . 3_665 yes
+O1 La O1 65.17(12) . 5_555 yes
+O1 La O1 120.00(12) . 5_665 yes
+O1 La O3 58.75(7) . 5_665 yes
+O1 La O3 119.50(7) . 7_665 yes
+O1 La O3 58.75(6) . 9_555 yes
+O1 La O3 91.51(9) . 11_655 yes
+O1 La O3 91.51(7) 1_655 . yes
+O1 La O3 58.75(6) 3_655 . yes
+O3 La O3 60.82(8) . 3_655 yes
+O1 La O3 119.50(6) 3_665 . yes
+O1 La O3 58.75(6) 5_555 . yes
+O1 La O3 119.50(6) 5_665 . yes
+O3 La O3 60.82(6) . 5_665 yes
+O3 La O3 146.02(7) . 7_665 yes
+O3 La O3 146.02(7) . 9_555 yes
+O3 La O3 108.47(7) . 11_655 yes
+O1 La O1 65.17(13) 1_655 3_655 yes
+O1 La O3 58.75(7) 1_655 3_655 yes
+O1 La O1 120.00(13) 1_655 3_665 yes
+O1 La O1 120.00(12) 1_655 5_555 yes
+O1 La O1 54.83(12) 1_655 5_665 yes
+O1 La O3 119.50(7) 1_655 5_665 yes
+O1 La O3 58.75(6) 1_655 7_665 yes
+O1 La O3 119.50(6) 1_655 9_555 yes
+O1 La O3 91.51(9) 1_655 11_655 yes
+O1 La O3 91.51(9) 3_655 3_655 yes
+O1 La O1 174.83(14) 3_655 3_665 yes
+O1 La O1 54.83(14) 3_655 5_555 yes
+O1 La O1 120.00(14) 3_655 5_665 yes
+O1 La O3 119.50(5) 3_655 5_665 yes
+O1 La O3 91.51(7) 3_655 7_665 yes
+O1 La O3 119.50(7) 3_655 9_555 yes
+O1 La O3 58.75(7) 3_655 11_655 yes
+O1 La O3 91.51(9) 3_665 3_655 yes
+O1 La O3 119.50(7) 5_555 3_655 yes
+O1 La O3 58.75(7) 5_665 3_655 yes
+O3 La O3 60.82(9) 3_655 5_665 yes
+O3 La O3 108.47(8) 3_655 7_665 yes
+O3 La O3 146.02(9) 3_655 9_555 yes
+O3 La O3 146.02(10) 3_655 11_655 yes
+O1 La O1 120.00(14) 3_665 5_555 yes
+O1 La O1 65.17(14) 3_665 5_665 yes
+O1 La O3 58.75(5) 3_665 5_665 yes
+O1 La O3 91.51(7) 3_665 7_665 yes
+O1 La O3 58.75(7) 3_665 9_555 yes
+O1 La O3 119.50(7) 3_665 11_655 yes
+O1 La O1 174.83(13) 5_555 5_665 yes
+O1 La O3 91.51(7) 5_555 5_665 yes
+O1 La O3 119.50(5) 5_555 7_665 yes
+O1 La O3 91.51(8) 5_555 9_555 yes
+O1 La O3 58.75(7) 5_555 11_655 yes
+O1 La O3 91.51(7) 5_665 5_665 yes
+O1 La O3 58.75(5) 5_665 7_665 yes
+O1 La O3 91.51(8) 5_665 9_555 yes
+O1 La O3 119.50(7) 5_665 11_655 yes
+O3 La O3 146.02(5) 5_665 7_665 yes
+O3 La O3 108.47(8) 5_665 9_555 yes
+O3 La O3 146.02(10) 5_665 11_655 yes
+O3 La O3 60.82(8) 7_665 9_555 yes
+O3 La O3 60.82(7) 7_665 11_655 yes
+O3 La O3 60.82(8) 9_555 11_655 yes
+O2 Ni O2 110.32(12) . 3_665 yes
+O2 Ni O2 110.32(10) . 5_565 yes
+O2 Ni O5 108.61(7) . 8_565 yes
+O2 Ni O2 110.32(13) 3_665 5_565 yes
+O2 Ni O5 108.61(7) 3_665 8_565 yes
+O2 Ni O5 108.61(7) 5_565 8_565 yes
+O2 Al1 O2 84.70(12) . 3_555 yes
+O2 Al1 O2 84.70(9) . 5_555 yes
+O2 Al1 O2 180.00 . 8_555 yes
+O2 Al1 O2 95.30(9) . 10_555 yes
+O2 Al1 O2 84.70(14) 3_555 5_555 yes
+O2 Al1 O2 95.30(14) 3_555 8_555 yes
+O2 Al1 O2 180.00 3_555 10_555 yes
+O2 Al1 O2 95.30(12) 5_555 8_555 yes
+O2 Al1 O2 95.30(13) 5_555 10_555 yes
+O2 Al1 O2 84.70(12) 8_555 10_555 yes
+O2 Al2 O2 110.32(12) . 3_665 yes
+O2 Al2 O2 110.32(10) . 5_565 yes
+O2 Al2 O5 108.61(7) . 8_565 yes
+O2 Al2 O2 110.32(13) 3_665 5_565 yes
+O2 Al2 O5 108.61(7) 3_665 8_565 yes
+O2 Al2 O5 108.61(7) 5_565 8_565 yes
+O1 Al3 O3 164.72(14) . 1_565 yes
+O1 Al3 O3 88.02(12) . 3_555 yes
+O1 Al3 O1 80.34(15) . 3_665 yes
+O1 Al3 O1 80.34(11) . 5_565 yes
+O1 Al3 O3 88.02(10) . 5_665 yes
+Al3 Al3 O1 48.14(9) 7_665 . yes
+O3 Al3 O3 101.53(13) 1_565 3_555 yes
+O1 Al3 O3 88.02(13) 3_665 1_565 yes
+O1 Al3 O3 88.02(9) 5_565 1_565 yes
+O3 Al3 O3 101.53(11) 1_565 5_665 yes
+Al3 Al3 O3 116.57(9) 7_665 1_565 yes
+O1 Al3 O3 164.72(15) 3_665 3_555 yes
+O1 Al3 O3 88.02(14) 5_565 3_555 yes
+O3 Al3 O3 101.53(14) 3_555 5_665 yes
+Al3 Al3 O3 116.57(9) 7_665 3_555 yes
+O1 Al3 O1 80.34(18) 3_665 5_565 yes
+O1 Al3 O3 88.02(15) 3_665 5_665 yes
+Al3 Al3 O1 48.14(10) 7_665 3_665 yes
+O1 Al3 O3 164.72(15) 5_565 5_665 yes
+Al3 Al3 O1 48.14(10) 7_665 5_565 yes
+Al3 Al3 O3 116.57(9) 7_665 5_665 yes
+O4 Al4 O5 175.52(17) 1_665 . yes
+O3 Al4 O5 85.92(12) 3_655 . yes
+O2 Al4 O5 91.56(13) 3_665 . yes
+O2 Al4 O5 91.56(11) 5_665 . yes
+O3 Al4 O5 85.92(11) 5_665 . yes
+O3 Al4 O4 97.13(13) 3_655 1_665 yes
+O2 Al4 O4 85.05(14) 3_665 1_665 yes
+O2 Al4 O4 85.05(12) 5_665 1_665 yes
+O3 Al4 O4 97.13(11) 5_665 1_665 yes
+O2 Al4 O3 173.21(14) 3_665 3_655 yes
+O2 Al4 O3 92.49(14) 5_665 3_655 yes
+O3 Al4 O3 93.61(14) 3_655 5_665 yes
+O2 Al4 O2 81.27(15) 3_665 5_665 yes
+O2 Al4 O3 92.49(15) 3_665 5_665 yes
+O2 Al4 O3 173.21(15) 5_665 5_665 yes
+O1 Al5 O4 98.07(14) . . yes
+O1 Al5 O1 118.07(19) . 3_555 yes
+O1 Al5 O1 118.07(15) . 5_555 yes
+Al5 Al5 O1 81.93(14) 7_555 . yes
+O1 Al5 O4 98.07(14) 3_555 . yes
+O1 Al5 O4 98.07(14) 5_555 . yes
+Al5 Al5 O4 180.00 7_555 . yes
+O1 Al5 O1 118.07(19) 3_555 5_555 yes
+Al5 Al5 O1 81.93(14) 7_555 3_555 yes
+Al5 Al5 O1 81.93(14) 7_555 5_555 yes
+La O1 Al3 91.93(11) . . yes
+La O1 La 174.83(16) . 1_455 yes
+La O1 Al3 91.93(11) . 7_665 yes
+Al3 O1 Al5 130.08(16) . . yes
+La O1 Al3 91.93(11) 1_455 . yes
+Al3 O1 Al5 146.21(17) . 7_555 yes
+Al3 O1 Al3 83.71(16) . 7_665 yes
+Al5 O1 Al5 16.1(2) . 7_555 yes
+Al3 O1 Al5 146.21(17) 7_665 . yes
+La O1 Al3 91.93(11) 1_455 7_665 yes
+Al3 O1 Al5 130.08(16) 7_665 7_555 yes
+Ni O2 Al1 122.45(12) . . yes
+Ni O2 Al4 120.90(15) . 3_655 yes
+Ni O2 Al4 120.90(14) . 5_565 yes
+Al1 O2 Al2 122.45(12) . . yes
+Al1 O2 Al4 96.90(13) . 3_655 yes
+Al1 O2 Al4 96.90(13) . 5_565 yes
+Al2 O2 Al4 120.90(15) . 3_655 yes
+Al2 O2 Al4 120.90(14) . 5_565 yes
+Al4 O2 Al4 91.88(12) 3_655 5_565 yes
+La O3 Al3 99.19(10) . 1_545 yes
+La O3 Al4 100.53(11) . 3_655 yes
+La O3 Al4 100.53(10) . 5_665 yes
+Al3 O3 Al4 126.70(14) 1_545 3_655 yes
+Al3 O3 Al4 126.70(13) 1_545 5_665 yes
+Al4 O3 Al4 97.29(13) 3_655 5_665 yes
+Al4 O4 Al5 120.19(12) 1_445 . yes
+Al4 O4 Al5 120.19(12) 3_655 . yes
+Al4 O4 Al5 120.19(12) 5_565 . yes
+Al4 O4 Al4 96.93(17) 1_445 3_655 yes
+Al4 O4 Al4 96.93(16) 1_445 5_565 yes
+Al4 O4 Al4 96.93(17) 3_655 5_565 yes
+Al4 O5 Al4 90.84(16) . 3_655 yes
+Al4 O5 Al4 90.84(16) . 5_665 yes
+Ni O5 Al4 124.67(11) 8_665 . yes
+Al4 O5 Al4 90.84(17) 3_655 5_665 yes
+Ni O5 Al4 124.67(11) 8_665 3_655 yes
+Ni O5 Al4 124.67(11) 8_665 5_665 yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+La O1 2.798(3) . yes
+La O3 2.670(2) . yes
+La O1 2.798(3) 1_655 yes
+La O1 2.798(5) 3_655 yes
+La O3 2.670(3) 3_655 yes
+La O1 2.798(5) 3_665 yes
+La O1 2.798(3) 5_555 yes
+La O1 2.798(3) 5_665 yes
+La O3 2.670(3) 5_665 yes
+La O3 2.670(2) 7_665 yes
+La O3 2.670(2) 9_555 yes
+La O3 2.670(2) 11_655 yes
+Ni O2 1.856(3) . yes
+Ni O2 1.856(4) 3_665 yes
+Ni O2 1.856(3) 5_565 yes
+Ni O5 1.858(4) 8_565 yes
+Al1 O2 1.888(3) . yes
+Al1 O2 1.888(3) 3_555 yes
+Al1 O2 1.888(3) 5_555 yes
+Al1 O2 1.888(3) 8_555 yes
+Al1 O2 1.888(3) 10_555 yes
+Al2 O2 1.856(3) . yes
+Al2 O2 1.856(4) 3_665 yes
+Al2 O2 1.856(3) 5_565 yes
+Al2 O5 1.858(4) 8_565 yes
+Al3 O1 1.997(3) . yes
+Al3 O3 1.864(3) 1_565 yes
+Al3 O3 1.864(3) 3_555 yes
+Al3 O1 1.997(4) 3_665 yes
+Al3 O1 1.997(4) 5_565 yes
+Al3 O3 1.864(3) 5_665 yes
+Al3 Al3 2.665(3) 7_665 yes
+Al4 O5 1.953(3) . yes
+Al4 O4 1.875(3) 1_665 yes
+Al4 O3 1.854(3) 3_655 yes
+Al4 O2 1.953(4) 3_665 yes
+Al4 O2 1.953(3) 5_665 yes
+Al4 O3 1.854(3) 5_665 yes
+Al5 O1 1.757(4) . yes
+Al5 O4 1.939(6) . yes
+Al5 O1 1.757(5) 3_555 yes
+Al5 O1 1.757(5) 5_555 yes
+Al5 Al5 0.493(6) 7_555 yes
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion
+_geom_torsion_publ_flag
+O3 La O1 Al3 -83.85(10) no
+O3 La O1 Al5 46.19(15) no
+O4 Al5 O1 La -90.36(2) no
+O4 Al5 O1 Al3 0.0(2) no

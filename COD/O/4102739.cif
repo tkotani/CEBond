@@ -1,0 +1,721 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-21 17:13:04 +0200 (Mon, 21 Mar 2016) $
+#$Revision: 178773 $
+#$URL: svn://www.crystallography.net/cod/cif/4/10/27/4102739.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4102739
+loop_
+_publ_author_name
+'Mathias Dodin'
+'Jean-Louis Paillaud'
+'Yannnick Lorgouilloux'
+'Philippe Caullet'
+'Erik Elka\"im'
+'Nicolas Bats'
+_publ_section_title
+;
+ A Zeolitic Material with a Three-Dimensional Pore System Formed by
+ Straight 12- and 10-Ring Channels Synthesized with an Imidazolium
+ Derivative as Structure-Directing Agent
+;
+_journal_name_full               'Journal of the American Chemical Society'
+_journal_page_first              10221
+_journal_page_last               10223
+_journal_paper_doi               10.1021/ja103648k
+_journal_volume                  132
+_journal_year                    2010
+_chemical_formula_sum            'Ge0.74 O5.57 Si1.76'
+_chemical_formula_weight         192.45
+_space_group_IT_number           47
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2 2'
+_symmetry_space_group_name_H-M   'P m m m'
+_audit_author_name               paillaud
+_audit_creation_date             2010-04-19T09:06
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_audit_update_record
+' 2010-04-19T09:06  Initial CIF as created by GSAS2CIF'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            24
+_cell_length_a                   25.1611(5)
+_cell_length_b                   12.70129(13)
+_cell_length_c                   11.60014(8)
+_cell_volume                     3707.15(9)
+_computing_structure_refinement  GSAS
+_diffrn_radiation_polarisn_ratio 0.02
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_wavelength     0.7294
+_exptl_absorpt_correction_T_max  1.00000
+_exptl_absorpt_correction_T_min  1.00000
+_exptl_absorpt_process_details
+;   GSAS Absorption/surface roughness correction: function number 0
+ No correction is applied.
+;
+_pd_block_id
+2010-04-19T09:06|IM20CALC|paillaud|synchrotron_Soleil
+_pd_calc_method                  'Rietveld Refinement'
+_pd_meas_2theta_range_inc        0.004
+_pd_meas_2theta_range_max        39.992
+_pd_meas_2theta_range_min        0.0
+_pd_phase_name                   IM-20
+_pd_proc_2theta_range_inc        0.004
+_pd_proc_2theta_range_max        39.992
+_pd_proc_2theta_range_min        0.0
+_pd_proc_info_datetime           2010-04-19T09:06:49
+_pd_proc_ls_background_function
+;   GSAS Background function number 1 with 24 terms.
+ Shifted Chebyshev function of 1st kind
+      1:    1000.54     2:   -9.75088     3:    12.6604     4:   -5.13315    
+      5:   -3.76327     6:    4.51227     7:  -0.304611     8:  -0.527988    
+      9:    3.56756    10:   0.930935    11:   -2.00683    12:   0.198212    
+     13:   -2.16003    14:    2.42120    15:  -0.964527    16:  -0.194411    
+     17:   -4.20990    18:    5.31678    19:   -2.48949    20:   -2.06973    
+     21:    3.17372    22:    2.22234    23:  -0.423615    24:    1.71271    
+;
+_pd_proc_ls_peak_cutoff          0.00400
+_pd_proc_ls_profile_function
+;
+ CW Profile function number 3 with  19 terms
+ Pseudovoigt profile coefficients as parameterized in
+ P. Thompson, D.E. Cox & J.B. Hastings (1987). J. Appl. Cryst.,20,79-83.
+ Asymmetry correction of L.W. Finger, D.E. Cox & A. P. Jephcoat (1994).
+ J. Appl. Cryst.,27,892-900.
+ Peak tails are ignored  where the intensity is below 0.0040 times the peak
+   Aniso. broadening axis   0.0   0.0   1.0
+;
+_pd_proc_ls_prof_R_factor        0.0174
+_pd_proc_ls_prof_wR_expected     0.0303
+_pd_proc_ls_prof_wR_factor       0.0252
+_refine_ls_goodness_of_fit_all   1.03
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     101
+_refine_ls_number_restraints     116
+_refine_ls_R_Fsqd_factor         0.10927
+_refine_ls_shift/su_max          0.31
+_refine_ls_shift/su_mean         0.07
+_cod_data_source_file            ja103648k_si_002.cif
+_cod_data_source_block           IM20CALC_publ
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_geom_bond_publ_flag' value 'N' changed to 'n' according to the
+built-in table from CIF Core dictionary named 'cif_core.dic' version
+2.4.1 from 2010-06-29 (216 times).
+
+'_geom_angle_publ_flag' value 'N'
+changed to 'n' according to the built-in table from CIF Core
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29 (272
+times).
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_original_cell_volume        3707.16(8)
+_cod_database_code               4102739
+_cod_database_fobs_code          4102739
+#BEGIN Tags that were not found in dictionaries:
+_gsas_exptl_extinct_corr_t_min   1.00000
+_gsas_exptl_extinct_corr_t_max   1.00000
+#END Tags that were not found in dictionaries
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -x,+y,+z
+3 +x,-y,+z
+4 -x,-y,+z
+-1 -x,-y,-z
+-2 +x,-y,-z
+-3 -x,+y,-z
+-4 +x,+y,-z
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+Ge Ge1 0.05981(20) 0.1261(4) 0.3678(5) 0.105(6) Uiso 0.0234(11) 8
+Ge Ge2 0.34464(26) 0.37632(27) 0.36157(29) 0.689(9) Uiso 0.0234(11) 8
+Ge Ge3 0.21865(28) 0.37711(27) 0.36219(29) 0.594(9) Uiso 0.0234(11) 8
+Si Si4 0.19460(33) 0.12588(34) 0.0 0.824(14) Uiso 0.0234(11) 4
+Si Si5 0.32368(30) 0.12597(34) 0.0 0.638(14) Uiso 0.0234(11) 4
+Si Si6 0.5 0.1251(4) 0.1364(4) 0.936(11) Uiso 0.0234(11) 4
+Si Si7 0.38758(18) 0.19222(34) 0.2216(4) 0.815(12) Uiso 0.0234(11) 8
+Si Si8 0.15961(22) 0.1941(4) 0.2456(4) 0.845(12) Uiso 0.0234(11) 8
+Si Si9 0.34799(34) 0.0 0.36303(34) 0.939(15) Uiso 0.0234(11) 4
+Si Si10 0.21982(35) 0.0 0.36233(33) 0.660(14) Uiso 0.0234(11) 4
+O O1 0.3573(5) 0.34674(20) 0.5 1.0 Uiso 0.027(4) 4
+O O2 0.25968(33) 0.1449(6) 0.0 1.0 Uiso 0.027(4) 4
+O O3 0.5 0.1384(9) 0.0 1.0 Uiso 0.027(4) 2
+O O4 0.2058(5) 0.34683(20) 0.5 1.0 Uiso 0.027(4) 4
+O O5 0.2045(4) 0.5 0.33242(22) 1.0 Uiso 0.027(4) 4
+O O6 0.1816(4) 0.0 0.0 1.0 Uiso 0.027(4) 2
+O O7 0.2846(4) 0.0 0.33325(21) 1.0 Uiso 0.027(4) 4
+O O8 0.5 0.0 0.16832(22) 1.0 Uiso 0.027(4) 2
+O O9 0.1813(4) 0.3068(5) 0.2796(6) 1.0 Uiso 0.027(4) 8
+O O10 0.28151(29) 0.3528(6) 0.33188(22) 1.0 Uiso 0.027(4) 8
+O O11 0.1676(4) 0.1800(5) -0.11199(31) 1.0 Uiso 0.027(4) 8
+O O12 0.1931(4) 0.10469(30) 0.3075(5) 1.0 Uiso 0.027(4) 8
+O O13 0.2067(4) 0.0 0.5 1.0 Uiso 0.027(4) 2
+O O14 0.37451(34) 0.10298(30) 0.3097(5) 1.0 Uiso 0.027(4) 8
+O O15 0.44739(15) 0.1821(5) 0.1870(6) 1.0 Uiso 0.027(4) 8
+O O16 0.3602(4) 0.0 0.5 1.0 Uiso 0.027(4) 2
+O O17 0.38083(30) 0.3030(5) 0.2786(6) 1.0 Uiso 0.027(4) 8
+O O18 0.34912(30) 0.1806(5) 0.11246(32) 1.0 Uiso 0.027(4) 8
+O O19 0.3594(4) 0.5 0.33223(22) 1.0 Uiso 0.027(4) 4
+O O20 0.0 0.15348(20) 0.33213(22) 1.0 Uiso 0.027(4) 4
+O O21 0.09743(25) 0.1859(9) 0.2794(7) 1.0 Uiso 0.027(4) 8
+O O22 0.0697(5) 0.0 0.3573(20) 1.0 Uiso 0.027(4) 4
+O O23 0.0714(4) 0.1649(16) 0.5 1.0 Uiso 0.027(4) 4
+O O24 0.3365(4) 0.0 0.0 1.0 Uiso 0.027(4) 2
+O Ow1 0.0708(26) 0.3744(17) 0.2541(27) 0.633(19) Uiso 0.085 8
+O Ow2 0.0342(20) 0.0988(23) 0.1105(26) 0.743(14) Uiso 0.085 8
+Si Si1 0.05981(20) 0.1261(4) 0.3678(5) 0.895(6) Uiso 0.0234(11) 8
+Si Si2 0.34464(26) 0.37632(27) 0.36157(29) 0.311(9) Uiso 0.0234(11) 8
+Si Si3 0.21865(28) 0.37711(27) 0.36219(29) 0.406(9) Uiso 0.0234(11) 8
+Ge Ge4 0.19460(33) 0.12588(34) 0.0 0.176(14) Uiso 0.0234(11) 4
+Ge Ge6 0.5 0.1251(4) 0.1364(4) 0.064(11) Uiso 0.0234(11) 4
+Ge Ge8 0.15961(22) 0.1941(4) 0.2456(4) 0.155(12) Uiso 0.0234(11) 8
+Ge Ge10 0.21982(35) 0.0 0.36233(33) 0.340(14) Uiso 0.0234(11) 4
+O Ow3 0.5 0.3352(12) 0.0 0.27(4) Uiso 0.085 2
+Ge Ge5 0.32368(30) 0.12597(34) 0.0 0.362(14) Uiso 0.0234(11) 4
+Ge Ge7 0.38767(18) 0.19169(34) 0.2220(4) 0.185(12) Uiso 0.0234(11) 8
+Ge Ge9 0.34799(34) 0.0 0.36303(34) 0.061(15) Uiso 0.0234(11) 4
+O Ow4 0.2814(5) 0.2196(11) 0.5 0.546(31) Uiso 0.085 4
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_Cromer_Mann_a1
+_atom_type_scat_Cromer_Mann_a2
+_atom_type_scat_Cromer_Mann_a3
+_atom_type_scat_Cromer_Mann_a4
+_atom_type_scat_Cromer_Mann_b1
+_atom_type_scat_Cromer_Mann_b2
+_atom_type_scat_Cromer_Mann_b3
+_atom_type_scat_Cromer_Mann_b4
+_atom_type_scat_Cromer_Mann_c
+_atom_type_scat_source
+Ge 17.844 0.000 0.000 16.0816 2.85090 6.37470 0.25160 3.70680 11.4468 3.68300
+54.7625 2.13130 International_Tables_Vol_C
+Si 42.156 0.000 0.000 6.29150 2.43860 3.03530 32.3337 1.98910 0.67850 1.54100
+81.6937 1.14070 International_Tables_Vol_C
+O 133.734 0.000 0.000 3.04850 13.2771 2.28680 5.70110 1.54630 0.32390 0.86700
+32.9089 0.25080 International_Tables_Vol_C
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O20 Ge1 O21 106.84(28) 1_555 1_555 n
+O20 Ge1 O22 109.83(33) 1_555 1_555 n
+O20 Ge1 O23 110.17(33) 1_555 1_555 n
+O21 Ge1 O22 109.35(32) 1_555 1_555 n
+O21 Ge1 O23 110.74(31) 1_555 1_555 n
+O22 Ge1 O23 109.86(33) 1_555 1_555 n
+O1 Ge2 O10 109.97(32) 1_555 1_555 n
+O1 Ge2 O17 109.42(29) 1_555 1_555 n
+O1 Ge2 O19 111.57(23) 1_555 1_555 n
+O10 Ge2 O17 108.23(30) 1_555 1_555 n
+O10 Ge2 O19 110.19(32) 1_555 1_555 n
+O17 Ge2 O19 107.38(27) 1_555 1_555 n
+O4 Ge3 O5 112.22(23) 1_555 1_555 n
+O4 Ge3 O9 109.12(29) 1_555 1_555 n
+O4 Ge3 O10 110.18(32) 1_555 1_555 n
+O5 Ge3 O9 106.03(27) 1_555 1_555 n
+O5 Ge3 O10 109.96(32) 1_555 1_555 n
+O9 Ge3 O10 109.19(30) 1_555 1_555 n
+O2 Si4 O6 109.93(33) 1_555 1_555 n
+O2 Si4 O11 110.69(20) 1_555 1_555 n
+O2 Si4 O11 110.69(20) 1_555 -4_555 n
+O6 Si4 O11 109.39(20) 1_555 1_555 n
+O6 Si4 O11 109.39(20) 1_555 -4_555 n
+O11 Si4 O11 106.68(31) 1_555 -4_555 n
+O2 Si5 O18 109.24(20) 1_555 1_555 n
+O2 Si5 O18 109.24(20) 1_555 -4_555 n
+O2 Si5 O24 109.92(33) 1_555 1_555 n
+O18 Si5 O18 108.22(32) 1_555 -4_555 n
+O18 Si5 O24 110.09(20) 1_555 1_555 n
+O18 Si5 O24 110.09(20) -4_555 1_555 n
+O3 Si6 O8 109.23(33) 1_555 1_555 n
+O3 Si6 O15 108.23(20) 1_555 1_555 n
+O3 Si6 O15 108.23(20) 1_555 2_655 n
+O8 Si6 O15 110.69(19) 1_555 1_555 n
+O8 Si6 O15 110.69(19) 1_555 2_655 n
+O15 Si6 O15 109.69(32) 1_555 2_655 n
+O14 Si7 O15 108.12(30) 1_555 1_555 n
+O14 Si7 O17 110.67(29) 1_555 1_555 n
+O14 Si7 O18 108.87(28) 1_555 1_555 n
+O14 Si7 Ge7 27.73(28) 1_555 1_555 n
+O15 Si7 O17 106.68(29) 1_555 1_555 n
+O15 Si7 O18 111.85(29) 1_555 1_555 n
+O15 Si7 Ge7 80.41(25) 1_555 1_555 n
+O17 Si7 O18 110.62(29) 1_555 1_555 n
+O17 Si7 Ge7 119.37(26) 1_555 1_555 n
+O18 Si7 Ge7 122.21(23) 1_555 1_555 n
+O9 Si8 O11 107.74(29) 1_555 -4_555 n
+O9 Si8 O12 110.61(29) 1_555 1_555 n
+O9 Si8 O21 109.36(31) 1_555 1_555 n
+O11 Si8 O12 107.26(28) -4_555 1_555 n
+O11 Si8 O21 110.82(30) -4_555 1_555 n
+O12 Si8 O21 110.98(30) 1_555 1_555 n
+O7 Si9 O14 109.10(19) 1_555 1_555 n
+O7 Si9 O14 109.10(19) 1_555 3_555 n
+O7 Si9 O16 113.17(29) 1_555 1_555 n
+O14 Si9 O14 110.34(32) 1_555 3_555 n
+O14 Si9 O16 107.56(19) 1_555 1_555 n
+O14 Si9 O16 107.56(19) 3_555 1_555 n
+O7 Si10 O12 109.07(20) 1_555 1_555 n
+O7 Si10 O12 109.07(20) 1_555 3_555 n
+O7 Si10 O13 113.38(29) 1_555 1_555 n
+O12 Si10 O12 110.31(32) 1_555 3_555 n
+O12 Si10 O13 107.49(19) 1_555 1_555 n
+O12 Si10 O13 107.49(19) 3_555 1_555 n
+Ge2 O1 Ge2 145.9(4) 1_555 -4_556 n
+Ge2 O1 Si2 0.0 1_555 1_555 n
+Ge2 O1 Si2 145.9(4) 1_555 -4_556 n
+Ge2 O1 Si2 145.9(4) -4_556 1_555 n
+Ge2 O1 Si2 0.0 -4_556 -4_556 n
+Si2 O1 Si2 145.9(4) 1_555 -4_556 n
+Si4 O2 Si5 163.1(5) 1_555 1_555 n
+Si4 O2 Ge4 0.0 1_555 1_555 n
+Si4 O2 Ge5 163.1(5) 1_555 1_555 n
+Si5 O2 Ge4 163.1(5) 1_555 1_555 n
+Si5 O2 Ge5 0.0 1_555 1_555 n
+Ge4 O2 Ge5 163.1(5) 1_555 1_555 n
+Si6 O3 Si6 167.8(7) 1_555 -3_655 n
+Si6 O3 Ge6 0.0 1_555 1_555 n
+Si6 O3 Ge6 167.8(7) 1_555 -3_655 n
+Si6 O3 Ge6 167.8(7) -3_655 1_555 n
+Si6 O3 Ge6 0.0 -3_655 -3_655 n
+Ge6 O3 Ge6 167.8(7) 1_555 -3_655 n
+Ge3 O4 Ge3 145.1(4) 1_555 -4_556 n
+Ge3 O4 Si3 0.0 1_555 1_555 n
+Ge3 O4 Si3 145.1(4) 1_555 -4_556 n
+Ge3 O4 Si3 145.1(4) -4_556 1_555 n
+Ge3 O4 Si3 0.0 -4_556 -4_556 n
+Si3 O4 Si3 145.1(4) 1_555 -4_556 n
+Ge3 O5 Ge3 144.8(4) 1_555 3_565 n
+Ge3 O5 Si3 0.0 1_555 1_555 n
+Ge3 O5 Si3 144.8(4) 1_555 3_565 n
+Ge3 O5 Si3 144.8(4) 3_565 1_555 n
+Ge3 O5 Si3 0.0 3_565 3_565 n
+Si3 O5 Si3 144.8(4) 1_555 3_565 n
+Si4 O6 Si4 156.9(5) 1_555 3_555 n
+Si4 O6 Ge4 0.0 1_555 1_555 n
+Si4 O6 Ge4 156.9(5) 1_555 3_555 n
+Si4 O6 Ge4 156.9(5) 3_555 1_555 n
+Si4 O6 Ge4 0.0 3_555 3_555 n
+Ge4 O6 Ge4 156.9(5) 1_555 3_555 n
+Si9 O7 Si10 156.09(23) 1_555 1_555 n
+Si9 O7 Ge10 156.09(23) 1_555 1_555 n
+Si9 O7 Ge9 0.0 1_555 1_555 n
+Si10 O7 Ge10 0.0 1_555 1_555 n
+Si10 O7 Ge9 156.09(23) 1_555 1_555 n
+Ge10 O7 Ge9 156.09(23) 1_555 1_555 n
+Si6 O8 Si6 153.77(35) 1_555 3_555 n
+Si6 O8 Ge6 0.0 1_555 1_555 n
+Si6 O8 Ge6 153.77(35) 1_555 3_555 n
+Si6 O8 Ge6 153.77(35) 3_555 1_555 n
+Si6 O8 Ge6 0.0 3_555 3_555 n
+Ge6 O8 Ge6 153.77(35) 1_555 3_555 n
+Ge3 O9 Si8 148.3(5) 1_555 1_555 n
+Ge3 O9 Si3 0.0 1_555 1_555 n
+Ge3 O9 Ge8 148.3(5) 1_555 1_555 n
+Si8 O9 Si3 148.3(5) 1_555 1_555 n
+Si8 O9 Ge8 0.0 1_555 1_555 n
+Si3 O9 Ge8 148.3(5) 1_555 1_555 n
+Ge2 O10 Ge3 147.51(34) 1_555 1_555 n
+Ge2 O10 Si2 0.0 1_555 1_555 n
+Ge2 O10 Si3 147.51(34) 1_555 1_555 n
+Ge3 O10 Si2 147.51(34) 1_555 1_555 n
+Ge3 O10 Si3 0.0 1_555 1_555 n
+Si2 O10 Si3 147.51(34) 1_555 1_555 n
+Si4 O11 Si8 153.16(33) 1_555 -4_555 n
+Si4 O11 Ge4 0.0 1_555 1_555 n
+Si4 O11 Ge8 153.16(33) 1_555 -4_555 n
+Si8 O11 Ge4 153.16(33) -4_555 1_555 n
+Si8 O11 Ge8 0.0 -4_555 -4_555 n
+Ge4 O11 Ge8 153.16(33) 1_555 -4_555 n
+Si8 O12 Si10 170.4(4) 1_555 1_555 n
+Si8 O12 Ge8 0.0 1_555 1_555 n
+Si8 O12 Ge10 170.4(4) 1_555 1_555 n
+Si10 O12 Ge8 170.4(4) 1_555 1_555 n
+Si10 O12 Ge10 0.0 1_555 1_555 n
+Ge8 O12 Ge10 170.4(4) 1_555 1_555 n
+Si10 O13 Si10 156.6(5) 1_555 -2_556 n
+Si10 O13 Ge10 0.0 1_555 1_555 n
+Si10 O13 Ge10 156.6(5) 1_555 -2_556 n
+Si10 O13 Ge10 156.6(5) -2_556 1_555 n
+Si10 O13 Ge10 0.0 -2_556 -2_556 n
+Ge10 O13 Ge10 156.6(5) 1_555 -2_556 n
+Si7 O14 Si9 159.8(4) 1_555 1_555 n
+Si7 O14 Ge7 0.148 1_555 1_555 n
+Si7 O14 Ge9 159.8(4) 1_555 1_555 n
+Si9 O14 Ge7 159.8(4) 1_555 1_555 n
+Si9 O14 Ge9 0.0 1_555 1_555 n
+Ge7 O14 Ge9 159.8(4) 1_555 1_555 n
+Si6 O15 Si7 156.52(33) 1_555 1_555 n
+Si6 O15 Ge6 0.0 1_555 1_555 n
+Si6 O15 Ge7 156.35(33) 1_555 1_555 n
+Si7 O15 Ge6 156.52(33) 1_555 1_555 n
+Si7 O15 Ge7 0.3109 1_555 1_555 n
+Ge6 O15 Ge7 156.35(33) 1_555 1_555 n
+Si9 O16 Si9 158.1(5) 1_555 -2_556 n
+Si9 O16 Ge9 0.0 1_555 1_555 n
+Si9 O16 Ge9 158.1(5) 1_555 -2_556 n
+Si9 O16 Ge9 158.1(5) -2_556 1_555 n
+Si9 O16 Ge9 0.0 -2_556 -2_556 n
+Ge9 O16 Ge9 158.1(5) 1_555 -2_556 n
+Ge2 O17 Si7 146.1(4) 1_555 1_555 n
+Ge2 O17 Si2 0.0 1_555 1_555 n
+Ge2 O17 Ge7 146.0(4) 1_555 1_555 n
+Si7 O17 Si2 146.1(4) 1_555 1_555 n
+Si7 O17 Ge7 0.2734 1_555 1_555 n
+Si2 O17 Ge7 146.0(4) 1_555 1_555 n
+Si5 O18 Si7 157.1(4) 1_555 1_555 n
+Si5 O18 Ge5 0.0 1_555 1_555 n
+Si5 O18 Ge7 156.9(4) 1_555 1_555 n
+Si7 O18 Ge5 157.1(4) 1_555 1_555 n
+Si7 O18 Ge7 0.2594 1_555 1_555 n
+Ge5 O18 Ge7 156.9(4) 1_555 1_555 n
+Ge2 O19 Ge2 144.5(4) 1_555 3_565 n
+Ge2 O19 Si2 0.0 1_555 1_555 n
+Ge2 O19 Si2 144.5(4) 1_555 3_565 n
+Ge2 O19 Si2 144.5(4) 3_565 1_555 n
+Ge2 O19 Si2 0.0 3_565 3_565 n
+Si2 O19 Si2 144.5(4) 1_555 3_565 n
+Ge1 O20 Ge1 140.5(4) 1_555 2_555 n
+Ge1 O20 Si1 0.0 1_555 1_555 n
+Ge1 O20 Si1 140.5(4) 1_555 2_555 n
+Ge1 O20 Si1 140.5(4) 2_555 1_555 n
+Ge1 O20 Si1 0.0 2_555 2_555 n
+Si1 O20 Si1 140.5(4) 1_555 2_555 n
+Ge1 O21 Si8 139.8(5) 1_555 1_555 n
+Ge1 O21 Si1 0.0 1_555 1_555 n
+Ge1 O21 Ge8 139.8(5) 1_555 1_555 n
+Si8 O21 Si1 139.8(5) 1_555 1_555 n
+Si8 O21 Ge8 0.0 1_555 1_555 n
+Si1 O21 Ge8 139.8(5) 1_555 1_555 n
+Ge1 O22 Ge1 160.3(9) 1_555 3_555 n
+Ge1 O22 Si1 0.0 1_555 1_555 n
+Ge1 O22 Si1 160.3(9) 1_555 3_555 n
+Ge1 O22 Si1 160.3(9) 3_555 1_555 n
+Ge1 O22 Si1 0.0 3_555 3_555 n
+Si1 O22 Si1 160.3(9) 1_555 3_555 n
+Ge1 O23 Ge1 139.0(11) 1_555 -4_556 n
+Ge1 O23 Si1 0.0 1_555 1_555 n
+Ge1 O23 Si1 139.0(11) 1_555 -4_556 n
+Ge1 O23 Si1 139.0(11) -4_556 1_555 n
+Ge1 O23 Si1 0.0 -4_556 -4_556 n
+Si1 O23 Si1 139.0(11) 1_555 -4_556 n
+Si5 O24 Si5 157.1(5) 1_555 3_555 n
+Si5 O24 Ge5 0.0 1_555 1_555 n
+Si5 O24 Ge5 157.1(5) 1_555 3_555 n
+Si5 O24 Ge5 157.1(5) 3_555 1_555 n
+Si5 O24 Ge5 0.0 3_555 3_555 n
+Ge5 O24 Ge5 157.1(5) 1_555 3_555 n
+O20 Si1 O21 106.84(28) 1_555 1_555 n
+O20 Si1 O22 109.83(33) 1_555 1_555 n
+O20 Si1 O23 110.17(33) 1_555 1_555 n
+O21 Si1 O22 109.35(32) 1_555 1_555 n
+O21 Si1 O23 110.74(31) 1_555 1_555 n
+O22 Si1 O23 109.86(33) 1_555 1_555 n
+O1 Si2 O10 109.97(32) 1_555 1_555 n
+O1 Si2 O17 109.42(29) 1_555 1_555 n
+O1 Si2 O19 111.57(23) 1_555 1_555 n
+O10 Si2 O17 108.23(30) 1_555 1_555 n
+O10 Si2 O19 110.19(32) 1_555 1_555 n
+O17 Si2 O19 107.38(27) 1_555 1_555 n
+O4 Si3 O5 112.22(23) 1_555 1_555 n
+O4 Si3 O9 109.12(29) 1_555 1_555 n
+O4 Si3 O10 110.18(32) 1_555 1_555 n
+O5 Si3 O9 106.03(27) 1_555 1_555 n
+O5 Si3 O10 109.96(32) 1_555 1_555 n
+O9 Si3 O10 109.19(30) 1_555 1_555 n
+O2 Ge4 O6 109.93(33) 1_555 1_555 n
+O2 Ge4 O11 110.69(20) 1_555 1_555 n
+O2 Ge4 O11 110.69(20) 1_555 -4_555 n
+O6 Ge4 O11 109.39(20) 1_555 1_555 n
+O6 Ge4 O11 109.39(20) 1_555 -4_555 n
+O11 Ge4 O11 106.68(31) 1_555 -4_555 n
+O3 Ge6 O8 109.23(33) 1_555 1_555 n
+O3 Ge6 O15 108.23(20) 1_555 1_555 n
+O3 Ge6 O15 108.23(20) 1_555 2_655 n
+O8 Ge6 O15 110.69(19) 1_555 1_555 n
+O8 Ge6 O15 110.69(19) 1_555 2_655 n
+O15 Ge6 O15 109.69(32) 1_555 2_655 n
+O9 Ge8 O11 107.74(29) 1_555 -4_555 n
+O9 Ge8 O12 110.61(29) 1_555 1_555 n
+O9 Ge8 O21 109.36(31) 1_555 1_555 n
+O11 Ge8 O12 107.26(28) -4_555 1_555 n
+O11 Ge8 O21 110.82(30) -4_555 1_555 n
+O12 Ge8 O21 110.98(30) 1_555 1_555 n
+O7 Ge10 O12 109.07(20) 1_555 1_555 n
+O7 Ge10 O12 109.07(20) 1_555 3_555 n
+O7 Ge10 O13 113.38(29) 1_555 1_555 n
+O12 Ge10 O12 110.31(32) 1_555 3_555 n
+O12 Ge10 O13 107.49(19) 1_555 1_555 n
+O12 Ge10 O13 107.49(19) 3_555 1_555 n
+O2 Ge5 O18 109.24(20) 1_555 1_555 n
+O2 Ge5 O18 109.24(20) 1_555 -4_555 n
+O2 Ge5 O24 109.92(33) 1_555 1_555 n
+O18 Ge5 O18 108.22(32) 1_555 -4_555 n
+O18 Ge5 O24 110.09(20) 1_555 1_555 n
+O18 Ge5 O24 110.09(20) -4_555 1_555 n
+Si7 Ge7 O14 152.12(29) 1_555 1_555 n
+Si7 Ge7 O15 99.28(25) 1_555 1_555 n
+Si7 Ge7 O17 60.35(26) 1_555 1_555 n
+Si7 Ge7 O18 57.54(23) 1_555 1_555 n
+O14 Ge7 O15 108.57(30) 1_555 1_555 n
+O14 Ge7 O17 110.85(29) 1_555 1_555 n
+O14 Ge7 O18 109.02(29) 1_555 1_555 n
+O15 Ge7 O17 106.54(29) 1_555 1_555 n
+O15 Ge7 O18 111.67(29) 1_555 1_555 n
+O17 Ge7 O18 110.16(29) 1_555 1_555 n
+O7 Ge9 O14 109.10(19) 1_555 1_555 n
+O7 Ge9 O14 109.10(19) 1_555 3_555 n
+O7 Ge9 O16 113.17(29) 1_555 1_555 n
+O14 Ge9 O14 110.34(32) 1_555 3_555 n
+O14 Ge9 O16 107.56(19) 1_555 1_555 n
+O14 Ge9 O16 107.56(19) 3_555 1_555 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Ge1 Ge1 3.010(10) 2_555 n
+Ge1 Ge1 3.067(12) -4_556 n
+Ge1 Si8 3.010(6) 1_555 n
+Ge1 O20 1.599(5) 1_555 n
+Ge1 O21 1.589(5) 1_555 n
+Ge1 O22 1.626(4) 1_555 n
+Ge1 O23 1.637(5) 1_555 n
+Ge1 Si1 3.010(10) 2_555 n
+Ge1 Si1 3.067(12) -4_556 n
+Ge1 Ge8 3.010(6) 1_555 n
+Ge2 Si7 3.045(5) 1_555 n
+Ge2 O1 1.680(4) 1_555 n
+Ge2 O10 1.653(5) 1_555 n
+Ge2 O17 1.619(5) 1_555 n
+Ge2 O19 1.650(4) 1_555 n
+Ge2 Ge7 3.049(5) 1_555 n
+Ge3 Ge3 3.122(7) 3_565 n
+Ge3 Si8 3.072(5) 1_555 n
+Ge3 O4 1.675(4) 1_555 n
+Ge3 O5 1.638(4) 1_555 n
+Ge3 O9 1.613(5) 1_555 n
+Ge3 O10 1.649(5) 1_555 n
+Ge3 Ge8 3.072(5) 1_555 n
+Si4 O2 1.655(5) 1_555 n
+Si4 O6 1.632(5) 1_555 n
+Si4 O11 1.6195(34) 1_555 n
+Si4 O11 1.6195(34) -4_555 n
+Si5 O2 1.628(5) 1_555 n
+Si5 O18 1.6103(34) 1_555 n
+Si5 O18 1.6103(34) -4_555 n
+Si5 O24 1.632(5) 1_555 n
+Si6 O3 1.591(4) 1_555 n
+Si6 O8 1.631(5) 1_555 n
+Si6 O15 1.6190(34) 1_555 n
+Si6 O15 1.6190(34) 2_655 n
+Si7 Ge2 3.045(5) 1_555 n
+Si7 O14 1.561(4) 1_555 n
+Si7 O15 1.563(4) 1_555 n
+Si7 O17 1.564(4) 1_555 n
+Si7 O18 1.600(4) 1_555 n
+Si7 Ge7 0.0086 1_555 n
+Si8 Ge1 3.010(6) 1_555 n
+Si8 Ge3 3.072(5) 1_555 n
+Si8 O9 1.581(5) 1_555 n
+Si8 O11 1.573(4) -4_555 n
+Si8 O12 1.586(4) 1_555 n
+Si8 O21 1.616(5) 1_555 n
+Si8 Si1 3.010(6) 1_555 n
+Si9 O7 1.633(5) 1_555 n
+Si9 O14 1.5934(34) 1_555 n
+Si9 O14 1.5934(34) 3_555 n
+Si9 O16 1.618(4) 1_555 n
+Si10 O7 1.663(5) 1_555 n
+Si10 O12 1.6201(34) 1_555 n
+Si10 O12 1.6201(34) 3_555 n
+Si10 O13 1.631(4) 1_555 n
+O1 Ge2 1.680(4) 1_555 n
+O1 Ge2 1.680(4) -4_556 n
+O1 Si2 1.680(4) 1_555 n
+O1 Si2 1.680(4) -4_556 n
+O2 Si4 1.655(5) 1_555 n
+O2 Si5 1.628(5) 1_555 n
+O2 Ge4 1.655(5) 1_555 n
+O2 Ge5 1.628(5) 1_555 n
+O3 Si6 1.591(4) 1_555 n
+O3 Si6 1.591(4) -3_655 n
+O3 Ge6 1.591(4) 1_555 n
+O3 Ge6 1.591(4) -3_655 n
+O4 Ge3 1.675(4) 1_555 n
+O4 Ge3 1.675(4) -4_556 n
+O4 Si3 1.675(4) 1_555 n
+O4 Si3 1.675(4) -4_556 n
+O5 Ge3 1.638(4) 1_555 n
+O5 Ge3 1.638(4) 3_565 n
+O5 Si3 1.638(4) 1_555 n
+O5 Si3 1.638(4) 3_565 n
+O6 Si4 1.632(5) 1_555 n
+O6 Si4 1.632(5) 3_555 n
+O6 Ge4 1.632(5) 1_555 n
+O6 Ge4 1.632(5) 3_555 n
+O7 Si9 1.633(5) 1_555 n
+O7 Si10 1.663(5) 1_555 n
+O7 Ge10 1.663(5) 1_555 n
+O7 Ge9 1.633(5) 1_555 n
+O8 Si6 1.631(5) 1_555 n
+O8 Si6 1.631(5) 3_555 n
+O8 Ge6 1.631(5) 1_555 n
+O8 Ge6 1.631(5) 3_555 n
+O9 Ge3 1.613(5) 1_555 n
+O9 Si8 1.581(5) 1_555 n
+O9 Si3 1.613(5) 1_555 n
+O9 Ge8 1.581(5) 1_555 n
+O10 Ge2 1.653(5) 1_555 n
+O10 Ge3 1.649(5) 1_555 n
+O10 Si2 1.653(5) 1_555 n
+O10 Si3 1.649(5) 1_555 n
+O11 Si4 1.6195(34) 1_555 n
+O11 Si8 1.573(4) -4_555 n
+O11 Ge4 1.6195(34) 1_555 n
+O11 Ge8 1.573(4) -4_555 n
+O12 Si8 1.586(4) 1_555 n
+O12 Si10 1.6201(34) 1_555 n
+O12 Ge8 1.586(4) 1_555 n
+O12 Ge10 1.6201(34) 1_555 n
+O13 Si10 1.631(4) 1_555 n
+O13 Si10 1.631(4) -2_556 n
+O13 Ge10 1.631(4) 1_555 n
+O13 Ge10 1.631(4) -2_556 n
+O14 Si7 1.561(4) 1_555 n
+O14 Si9 1.5934(34) 1_555 n
+O14 Ge7 1.554(4) 1_555 n
+O14 Ge9 1.5934(34) 1_555 n
+O15 Si6 1.6190(34) 1_555 n
+O15 Si7 1.563(4) 1_555 n
+O15 Ge6 1.6190(34) 1_555 n
+O15 Ge7 1.561(4) 1_555 n
+O16 Si9 1.618(4) 1_555 n
+O16 Si9 1.618(4) -2_556 n
+O16 Ge9 1.618(4) 1_555 n
+O16 Ge9 1.618(4) -2_556 n
+O17 Ge2 1.619(5) 1_555 n
+O17 Si7 1.564(4) 1_555 n
+O17 Si2 1.619(5) 1_555 n
+O17 Ge7 1.569(4) 1_555 n
+O18 Si5 1.6103(34) 1_555 n
+O18 Si7 1.600(4) 1_555 n
+O18 Ge5 1.6103(34) 1_555 n
+O18 Ge7 1.605(4) 1_555 n
+O19 Ge2 1.650(4) 1_555 n
+O19 Ge2 1.650(4) 3_565 n
+O19 Si2 1.650(4) 1_555 n
+O19 Si2 1.650(4) 3_565 n
+O20 Ge1 1.599(5) 1_555 n
+O20 Ge1 1.599(5) 2_555 n
+O20 Si1 1.599(5) 1_555 n
+O20 Si1 1.599(5) 2_555 n
+O21 Ge1 1.589(5) 1_555 n
+O21 Si8 1.616(5) 1_555 n
+O21 Si1 1.589(5) 1_555 n
+O21 Ge8 1.616(5) 1_555 n
+O22 Ge1 1.626(4) 1_555 n
+O22 Ge1 1.626(4) 3_555 n
+O22 Si1 1.626(4) 1_555 n
+O22 Si1 1.626(4) 3_555 n
+O23 Ge1 1.637(5) 1_555 n
+O23 Ge1 1.637(5) -4_556 n
+O23 Si1 1.637(5) 1_555 n
+O23 Si1 1.637(5) -4_556 n
+O24 Si5 1.632(5) 1_555 n
+O24 Si5 1.632(5) 3_555 n
+O24 Ge5 1.632(5) 1_555 n
+O24 Ge5 1.632(5) 3_555 n
+Ow2 Ow2 1.72(10) 2_555 n
+Si1 Ge1 3.010(10) 2_555 n
+Si1 Ge1 3.067(12) -4_556 n
+Si1 Si8 3.010(6) 1_555 n
+Si1 O20 1.599(5) 1_555 n
+Si1 O21 1.589(5) 1_555 n
+Si1 O22 1.626(4) 1_555 n
+Si1 O23 1.637(5) 1_555 n
+Si1 Si1 3.010(10) 2_555 n
+Si1 Ge8 3.010(6) 1_555 n
+Si2 O1 1.680(4) 1_555 n
+Si2 O10 1.653(5) 1_555 n
+Si2 O17 1.619(5) 1_555 n
+Si2 O19 1.650(4) 1_555 n
+Si2 Ge7 3.049(5) 1_555 n
+Si3 O4 1.675(4) 1_555 n
+Si3 O5 1.638(4) 1_555 n
+Si3 O9 1.613(5) 1_555 n
+Si3 O10 1.649(5) 1_555 n
+Si3 Ge8 3.072(5) 1_555 n
+Ge4 O2 1.655(5) 1_555 n
+Ge4 O6 1.632(5) 1_555 n
+Ge4 O11 1.6195(34) 1_555 n
+Ge4 O11 1.6195(34) -4_555 n
+Ge4 Ge8 3.105(4) 1_555 n
+Ge4 Ge8 3.105(4) -4_555 n
+Ge6 O3 1.591(4) 1_555 n
+Ge6 O8 1.631(5) 1_555 n
+Ge6 O15 1.6190(34) 1_555 n
+Ge6 O15 1.6190(34) 2_655 n
+Ge6 Ge7 3.113(5) 1_555 n
+Ge6 Ge7 3.113(5) 2_655 n
+Ge8 Ge1 3.010(6) 1_555 n
+Ge8 Ge3 3.072(5) 1_555 n
+Ge8 O9 1.581(5) 1_555 n
+Ge8 O11 1.573(4) -4_555 n
+Ge8 O12 1.586(4) 1_555 n
+Ge8 O21 1.616(5) 1_555 n
+Ge8 Si1 3.010(6) 1_555 n
+Ge8 Si3 3.072(5) 1_555 n
+Ge8 Ge4 3.105(4) 1_555 n
+Ge10 O7 1.663(5) 1_555 n
+Ge10 O12 1.6201(34) 1_555 n
+Ge10 O12 1.6201(34) 3_555 n
+Ge10 O13 1.631(4) 1_555 n
+Ge5 O2 1.628(5) 1_555 n
+Ge5 O18 1.6103(34) 1_555 n
+Ge5 O18 1.6103(34) -4_555 n
+Ge5 O24 1.632(5) 1_555 n
+Ge7 Ge2 3.049(5) 1_555 n
+Ge7 Si7 0.0086 1_555 n
+Ge7 O14 1.554(4) 1_555 n
+Ge7 O15 1.561(4) 1_555 n
+Ge7 O17 1.569(4) 1_555 n
+Ge7 O18 1.605(4) 1_555 n
+Ge7 Si2 3.049(5) 1_555 n
+Ge7 Ge6 3.113(5) 1_555 n
+Ge7 Ge9 3.099(5) 1_555 n
+Ge9 O7 1.633(5) 1_555 n
+Ge9 O14 1.5934(34) 1_555 n
+Ge9 O14 1.5934(34) 3_555 n
+Ge9 O16 1.618(4) 1_555 n
+Ge9 Ge7 3.099(5) 1_555 n
+Ge9 Ge7 3.099(5) 3_555 n

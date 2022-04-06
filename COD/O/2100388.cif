@@ -1,0 +1,125 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/03/2100388.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2100388
+loop_
+_publ_author_name
+'Yashima, Masatomo'
+'Tsunekawa, Shin'
+_publ_section_title
+;
+Crystal structures and the oxygen deficiency of tetragonal and monoclinic
+zirconium oxide nanoparticles
+;
+_journal_coeditor_code           OG5013
+_journal_issue                   1
+_journal_name_full               'Acta Crystallographica, Section B'
+_journal_page_first              161
+_journal_page_last               164
+_journal_paper_doi               10.1107/S0108768105030570
+_journal_volume                  62
+_journal_year                    2006
+_chemical_formula_analytical     'O2-x Zr0.994 Hf0.006'
+_chemical_formula_iupac          'O2-x Zr'
+_chemical_formula_moiety         'O2-x Zr'
+_chemical_formula_structural     'O4-2x 2Zr'
+_chemical_formula_sum            'Hf0.006 O1.968 Zr0.994'
+_chemical_formula_weight         246.49
+_chemical_name_common            'zirconium oxide'
+_chemical_name_systematic
+;
+zirconium oxide
+;
+_space_group_crystal_system      tetragonal
+_space_group_IT_number           137
+_space_group_name_H-M_alt        'P 42/n m c'
+_symmetry_space_group_name_Hall  'P 4n 2n -1n'
+_symmetry_space_group_name_H-M   'P 42/n m c :1'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            2
+_cell_length_a                   3.58651(8)
+_cell_length_b                   3.58651(8)
+_cell_length_c                   5.16658(15)
+_cell_measurement_temperature    298
+_cell_volume                     66.458(3)
+_computing_cell_refinement       'RIETAN-2000 (Izumi and Ikeda, 2000)'
+_computing_data_collection       'RIGAKU software (Toraya et al., 1996)'
+_computing_molecular_graphics    'VENUS [Izumi and Dilanian (2002)]'
+_computing_structure_refinement  RIETAN-2000
+_computing_structure_solution    RIETAN-2000
+_diffrn_ambient_temperature      298
+_diffrn_measurement_device_type
+;a multiple-detector system with Ge(111) analyzer crystals, Soller slits and
+scintillation counters (Toraya et al., 1996)
+;
+_diffrn_radiation_monochromator  'Ge(111) analyzer crystals'
+_diffrn_radiation_type           'monochromatized synchrotron X-ray 1.20200'
+_diffrn_radiation_wavelength     'CuK\a~2~ 1.54439'
+_exptl_crystal_density_diffrn    6.158914
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_F_000             111.192
+_refine_ls_goodness_of_fit_all   1.30
+_refine_ls_number_parameters     '57 (13 for structural parameters)'
+_cod_original_sg_symbol_H-M      'P 42/n m c'
+_cod_original_formula_sum        'O1.968 Zr0.994 Hf0.006'
+_cod_database_code               2100388
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -x,-y,z
+3 -y+1/2,x+1/2,z+1/2
+4 y+1/2,-x+1/2,z+1/2
+5 -x+1/2,y+1/2,-z+1/2
+6 x+1/2,-y+1/2,-z+1/2
+7 y,x,-z
+8 -y,-x,-z
+9 -x+1/2,-y+1/2,-z+1/2
+10 x+1/2,y+1/2,-z+1/2
+11 y,-x,-z
+12 -y,x,-z
+13 x,-y,z
+14 -x,y,z
+15 -y+1/2,-x+1/2,z+1/2
+16 y+1/2,x+1/2,z+1/2
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_type_symbol
+Zr0.994Hf0.006 0 0 0 0.3850(10) Biso 1 M
+O 0 0.5 0.2042(2) 0.934(17) Biso 0.984(4) O
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Zr4+ Zr4+ -0.685 1.445 'S. Sasaki (1989) KEK Report 88-14'
+Hf4+ Hf4+ -8.812 9.000 'S. Sasaki (1989) KEK Report 88-14'
+O2- O2- 0.029 0.019 'S. Sasaki (1989) KEK Report 88-14'
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+M O ?_? 2.3562(6) yes
+M O ?_? 2.0805(5) yes

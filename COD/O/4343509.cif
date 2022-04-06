@@ -1,0 +1,650 @@
+#------------------------------------------------------------------------------
+#$Date: 2015-09-06 01:09:32 +0300 (Sun, 06 Sep 2015) $
+#$Revision: 154613 $
+#$URL: svn://www.crystallography.net/cod/cif/4/34/35/4343509.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4343509
+loop_
+_publ_author_name
+'Perfler, Lukas'
+'Kahlenberg, Volker'
+'Wikete, Christoph'
+'Schmidmair, Daniela'
+'Tribus, Martina'
+'Kaindl, Reinhard'
+_publ_section_title
+;
+ Nanoindentation, High-Temperature Behavior, and
+ Crystallographic/Spectroscopic Characterization of the
+ High-Refractive-Index Materials TiTa2O7 and TiNb2O7.
+;
+_journal_issue                   14
+_journal_name_full               'Inorganic chemistry'
+_journal_page_first              6836
+_journal_page_last               6848
+_journal_paper_doi               10.1021/acs.inorgchem.5b00733
+_journal_volume                  54
+_journal_year                    2015
+_chemical_formula_sum            'Nb2 O7 Ti'
+_chemical_formula_weight         345.72
+_chemical_name_systematic
+;
+ ?
+;
+_space_group_IT_number           12
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-I 2y'
+_symmetry_space_group_name_H-M   'I 1 2/m 1'
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_conform_dict_location     ftp://ftp.iucr.org/pub/cif_core.dic
+_audit_conform_dict_name         cif_core.dic
+_audit_conform_dict_version      2.4
+_audit_creation_date             2015-03-23T10:21:19-00:00
+_audit_creation_method           'WinGX routine CIF_UPDATE'
+_cell_angle_alpha                90.000(5)
+_cell_angle_beta                 95.295(7)
+_cell_angle_gamma                90.000(5)
+_cell_formula_units_Z            6
+_cell_length_a                   17.6719(3)
+_cell_length_b                   3.8006(2)
+_cell_length_c                   11.8924(9)
+_cell_measurement_reflns_used    1167
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      28.3606
+_cell_measurement_theta_min      3.434
+_cell_volume                     795.33(8)
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_solution    'SIR92 (Altomare et al., 1994)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_detector_area_resol_mean 10.3575
+_diffrn_measured_fraction_theta_full 0.9918
+_diffrn_measured_fraction_theta_max 0.9647
+_diffrn_measurement_device_type  'Xcalibur, Ruby, Gemini ultra'
+_diffrn_measurement_method       'omega scan'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0234
+_diffrn_reflns_av_unetI/netI     0.0365
+_diffrn_reflns_limit_h_max       14
+_diffrn_reflns_limit_h_min       -21
+_diffrn_reflns_limit_k_max       4
+_diffrn_reflns_limit_k_min       -4
+_diffrn_reflns_limit_l_max       13
+_diffrn_reflns_limit_l_min       -15
+_diffrn_reflns_number            2581
+_diffrn_reflns_theta_full        25.2956
+_diffrn_reflns_theta_max         28.36
+_diffrn_reflns_theta_min         3.434
+_exptl_absorpt_coefficient_mu    5.694
+_exptl_absorpt_correction_T_max  0.88
+_exptl_absorpt_correction_T_min  0.726
+_exptl_absorpt_correction_type   analytical
+_exptl_absorpt_process_details
+'(Clark, R. C. & Reid, J. S. (1995). Acta Cryst. A51, 887-897)'
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    4.331
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       prism
+_exptl_crystal_F_000             960
+_exptl_crystal_size_max          0.18081
+_exptl_crystal_size_mid          0.0567
+_exptl_crystal_size_min          0.025
+_refine_diff_density_max         0.572
+_refine_diff_density_min         -0.848
+_refine_diff_density_rms         0.145
+_refine_ls_extinction_coef       0.00213(12)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_ref   1.001
+_refine_ls_hydrogen_treatment    none
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     99
+_refine_ls_number_reflns         1007
+_refine_ls_number_restraints     1
+_refine_ls_restrained_S_all      1
+_refine_ls_R_factor_all          0.0286
+_refine_ls_R_factor_gt           0.0213
+_refine_ls_shift/su_max          0.001
+_refine_ls_shift/su_mean         0
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0169P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0429
+_refine_ls_wR_factor_ref         0.0453
+_reflns_number_gt                852
+_reflns_number_total             1007
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            ic5b00733_si_002.cif
+_cod_data_source_block           nb2tio7-xx2_acta
+_cod_depositor_comments
+'Adding full bibliography for 4343509--4343510.cif.'
+_cod_original_cell_volume        795.33(10)
+_cod_database_code               4343509
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, y, -z'
+'x+1/2, y+1/2, z+1/2'
+'-x+1/2, y+1/2, -z+1/2'
+'-x, -y, -z'
+'x, -y, z'
+'-x+1/2, -y+1/2, -z+1/2'
+'x+1/2, -y+1/2, z+1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+Nb1 Nb 0 0 0 0.0210(3) Uani 0.909(5) 4 d SP
+Ti1 Ti 0 0 0 0.0210(3) Uani 0.091(5) 4 d SP
+Nb2 Nb 0.18528(2) 0 0.17993(4) 0.00998(17) Uani 0.798(3) 2 d SP
+Ti2 Ti 0.18528(2) 0 0.17993(4) 0.00998(17) Uani 0.202(3) 2 d SP
+Nb3 Nb 0.07842(2) 0 -0.55844(4) 0.00408(17) Uani 0.643(3) 2 d SP
+Ti3 Ti 0.07842(2) 0 -0.55844(4) 0.00408(17) Uani 0.357(3) 2 d SP
+Nb4 Nb 0.88938(2) 0 0.25857(3) 0.00593(17) Uani 0.727(3) 2 d SP
+Ti4 Ti 0.88938(2) 0 0.25857(3) 0.00593(17) Uani 0.273(3) 2 d SP
+Nb5 Nb 0.29286(3) 0 -0.07479(5) 0.0055(2) Uani 0.376(3) 2 d SP
+Ti5 Ti 0.29286(3) 0 -0.07479(5) 0.0055(2) Uani 0.624(3) 2 d SP
+O1 O 0.17350(15) 0 -0.4233(2) 0.0058(6) Uani 1 2 d S
+O2 O 0.37287(15) 0 -0.2069(2) 0.0056(6) Uani 1 2 d S
+O3 O 0.59702(15) 0 -0.0252(2) 0.0058(6) Uani 1 2 d S
+O4 O 0.79131(15) 0 0.1744(2) 0.0092(6) Uani 1 2 d S
+O5 O 0.24932(15) 0 0.0540(2) 0.0085(6) Uani 1 2 d S
+O6 O 0.70916(16) 0 0.7059(2) 0.0063(6) Uani 1 2 d S
+O7 O 0.89988(16) 0 -0.0851(2) 0.0121(7) Uani 1 2 d S
+O8 O 0.02523(15) 0 -0.3920(2) 0.0075(6) Uani 1 2 d S
+O9 O 0.87451(16) 0 0.6853(2) 0.0093(6) Uani 1 2 d S
+O10 O 0.5 0 0.5 0.0153(10) Uani 1 4 d S
+O11 O 0.04964(15) 0 -0.1479(2) 0.0105(6) Uani 1 2 d S
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Nb1 0.0115(4) 0.0362(5) 0.0147(4) 0 -0.0012(3) 0
+Ti1 0.0115(4) 0.0362(5) 0.0147(4) 0 -0.0012(3) 0
+Nb2 0.0092(3) 0.0037(2) 0.0155(3) 0 -0.00711(19) 0
+Ti2 0.0092(3) 0.0037(2) 0.0155(3) 0 -0.00711(19) 0
+Nb3 0.0039(3) 0.0031(2) 0.0051(3) 0 -0.00095(18) 0
+Ti3 0.0039(3) 0.0031(2) 0.0051(3) 0 -0.00095(18) 0
+Nb4 0.0096(3) 0.0037(2) 0.0051(3) 0 0.00365(18) 0
+Ti4 0.0096(3) 0.0037(2) 0.0051(3) 0 0.00365(18) 0
+Nb5 0.0046(3) 0.0026(3) 0.0095(3) 0 0.0011(2) 0
+Ti5 0.0046(3) 0.0026(3) 0.0095(3) 0 0.0011(2) 0
+O1 0.0055(15) 0.0029(12) 0.0091(15) 0 0.0010(12) 0
+O2 0.0052(14) 0.0052(12) 0.0066(14) 0 0.0010(12) 0
+O3 0.0051(15) 0.0037(12) 0.0087(16) 0 0.0017(12) 0
+O4 0.0086(16) 0.0075(14) 0.0109(16) 0 -0.0020(13) 0
+O5 0.0073(16) 0.0112(14) 0.0072(15) 0 0.0019(12) 0
+O6 0.0067(15) 0.0039(12) 0.0080(15) 0 -0.0013(12) 0
+O7 0.0076(16) 0.0196(15) 0.0086(16) 0 -0.0018(13) 0
+O8 0.0044(15) 0.0068(13) 0.0111(15) 0 0.0001(12) 0
+O9 0.0104(16) 0.0095(14) 0.0081(16) 0 0.0015(13) 0
+O10 0.019(3) 0.0082(19) 0.019(3) 0 0.003(2) 0
+O11 0.0075(16) 0.0152(15) 0.0098(16) 0 0.0059(13) 0
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+O O 0.0106 0.006 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ti Ti 0.2776 0.4457 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Nb Nb -2.0727 0.6215 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+O10 Nb1 O10 180 3_454 3_444
+O10 Nb1 O7 90.000(6) 3_454 1_455
+O10 Nb1 O7 90.000(6) 3_444 1_455
+O10 Nb1 O7 90.000(6) 3_454 5_655
+O10 Nb1 O7 90.000(6) 3_444 5_655
+O7 Nb1 O7 180 1_455 5_655
+O10 Nb1 O11 90.001(5) 3_454 5
+O10 Nb1 O11 90.001(4) 3_444 5
+O7 Nb1 O11 90.33(12) 1_455 5
+O7 Nb1 O11 89.67(12) 5_655 5
+O10 Nb1 O11 89.999(5) 3_454 .
+O10 Nb1 O11 89.999(4) 3_444 .
+O7 Nb1 O11 89.67(12) 1_455 .
+O7 Nb1 O11 90.33(12) 5_655 .
+O11 Nb1 O11 180 5 .
+O7 Nb2 O5 91.72(13) 5_655 .
+O7 Nb2 O6 104.73(8) 5_655 3_454
+O5 Nb2 O6 89.40(8) . 3_454
+O7 Nb2 O6 104.73(8) 5_655 3_444
+O5 Nb2 O6 89.40(8) . 3_444
+O6 Nb2 O6 150.54(17) 3_454 3_444
+O7 Nb2 O9 91.65(12) 5_655 5_656
+O5 Nb2 O9 176.63(12) . 5_656
+O6 Nb2 O9 89.75(8) 3_454 5_656
+O6 Nb2 O9 89.75(8) 3_444 5_656
+O7 Nb2 O6 179.14(11) 5_655 5_656
+O5 Nb2 O6 87.42(11) . 5_656
+O6 Nb2 O6 75.27(8) 3_454 5_656
+O6 Nb2 O6 75.27(8) 3_444 5_656
+O9 Nb2 O6 89.21(11) 5_656 5_656
+O7 Nb2 Ti2 144.88(4) 5_655 7
+O5 Nb2 Ti2 87.92(7) . 7
+O6 Nb2 Ti2 40.16(8) 3_454 7
+O6 Nb2 Ti2 110.38(10) 3_444 7
+O9 Nb2 Ti2 89.32(7) 5_656 7
+O6 Nb2 Ti2 35.11(4) 5_656 7
+O7 Nb2 Nb2 144.88(4) 5_655 7
+O5 Nb2 Nb2 87.92(7) . 7
+O6 Nb2 Nb2 40.16(8) 3_454 7
+O6 Nb2 Nb2 110.38(10) 3_444 7
+O9 Nb2 Nb2 89.32(7) 5_656 7
+O6 Nb2 Nb2 35.11(4) 5_656 7
+Ti2 Nb2 Nb2 0.000(14) 7 7
+O7 Nb2 Ti2 144.88(4) 5_655 7_545
+O5 Nb2 Ti2 87.92(7) . 7_545
+O6 Nb2 Ti2 110.38(10) 3_454 7_545
+O6 Nb2 Ti2 40.16(8) 3_444 7_545
+O9 Nb2 Ti2 89.32(7) 5_656 7_545
+O6 Nb2 Ti2 35.11(4) 5_656 7_545
+Ti2 Nb2 Ti2 70.22(7) 7 7_545
+Nb2 Nb2 Ti2 70.22(7) 7 7_545
+O7 Nb2 Nb2 144.88(4) 5_655 7_545
+O5 Nb2 Nb2 87.92(7) . 7_545
+O6 Nb2 Nb2 110.38(10) 3_454 7_545
+O6 Nb2 Nb2 40.16(8) 3_444 7_545
+O9 Nb2 Nb2 89.32(7) 5_656 7_545
+O6 Nb2 Nb2 35.11(4) 5_656 7_545
+Ti2 Nb2 Nb2 70.22(7) 7 7_545
+Nb2 Nb2 Nb2 70.22(7) 7 7_545
+Ti2 Nb2 Nb2 0.000(14) 7_545 7_545
+O9 Nb3 O8 104.61(13) 5_655 5_554
+O9 Nb3 O3 95.01(8) 5_655 3_454
+O8 Nb3 O3 101.78(8) 5_554 3_454
+O9 Nb3 O3 95.01(8) 5_655 3_444
+O8 Nb3 O3 101.78(8) 5_554 3_444
+O3 Nb3 O3 151.09(16) 3_454 3_444
+O9 Nb3 O1 103.37(12) 5_655 .
+O8 Nb3 O1 152.02(12) 5_554 .
+O3 Nb3 O1 75.66(8) 3_454 .
+O3 Nb3 O1 75.66(8) 3_444 .
+O9 Nb3 O8 176.79(12) 5_655 .
+O8 Nb3 O8 78.60(13) 5_554 .
+O3 Nb3 O8 84.24(8) 3_454 .
+O3 Nb3 O8 84.24(8) 3_444 .
+O1 Nb3 O8 73.42(11) . .
+O9 Nb3 Nb3 148.39(9) 5_655 5_554
+O8 Nb3 Nb3 43.78(9) 5_554 5_554
+O3 Nb3 Nb3 92.76(8) 3_454 5_554
+O3 Nb3 Nb3 92.76(8) 3_444 5_554
+O1 Nb3 Nb3 108.24(8) . 5_554
+O8 Nb3 Nb3 34.82(7) . 5_554
+O9 Nb3 Ti3 148.39(9) 5_655 5_554
+O8 Nb3 Ti3 43.78(9) 5_554 5_554
+O3 Nb3 Ti3 92.76(8) 3_454 5_554
+O3 Nb3 Ti3 92.76(8) 3_444 5_554
+O1 Nb3 Ti3 108.24(8) . 5_554
+O8 Nb3 Ti3 34.82(7) . 5_554
+Nb3 Nb3 Ti3 0.000(14) 5_554 5_554
+O9 Nb3 Nb5 92.98(8) 5_655 7_554
+O8 Nb3 Nb5 140.50(5) 5_554 7_554
+O3 Nb3 Nb5 40.66(8) 3_454 7_554
+O3 Nb3 Nb5 111.73(10) 3_444 7_554
+O1 Nb3 Nb5 36.78(4) . 7_554
+O8 Nb3 Nb5 84.41(6) . 7_554
+Nb3 Nb3 Nb5 112.38(3) 5_554 7_554
+Ti3 Nb3 Nb5 112.38(3) 5_554 7_554
+O9 Nb3 Ti5 92.98(8) 5_655 7_554
+O8 Nb3 Ti5 140.50(5) 5_554 7_554
+O3 Nb3 Ti5 40.66(8) 3_454 7_554
+O3 Nb3 Ti5 111.73(10) 3_444 7_554
+O1 Nb3 Ti5 36.78(4) . 7_554
+O8 Nb3 Ti5 84.41(6) . 7_554
+Nb3 Nb3 Ti5 112.38(3) 5_554 7_554
+Ti3 Nb3 Ti5 112.38(3) 5_554 7_554
+Nb5 Nb3 Ti5 0.00(2) 7_554 7_554
+O9 Nb3 Nb5 92.98(8) 5_655 7_544
+O8 Nb3 Nb5 140.50(5) 5_554 7_544
+O3 Nb3 Nb5 111.73(10) 3_454 7_544
+O3 Nb3 Nb5 40.66(8) 3_444 7_544
+O1 Nb3 Nb5 36.78(4) . 7_544
+O8 Nb3 Nb5 84.41(6) . 7_544
+Nb3 Nb3 Nb5 112.38(3) 5_554 7_544
+Ti3 Nb3 Nb5 112.38(3) 5_554 7_544
+Nb5 Nb3 Nb5 71.30(7) 7_554 7_544
+Ti5 Nb3 Nb5 71.30(7) 7_554 7_544
+O9 Nb3 Ti5 92.98(8) 5_655 7_544
+O8 Nb3 Ti5 140.50(5) 5_554 7_544
+O3 Nb3 Ti5 111.73(10) 3_454 7_544
+O3 Nb3 Ti5 40.66(8) 3_444 7_544
+O1 Nb3 Ti5 36.78(4) . 7_544
+O8 Nb3 Ti5 84.41(6) . 7_544
+Nb3 Nb3 Ti5 112.38(3) 5_554 7_544
+Ti3 Nb3 Ti5 112.38(3) 5_554 7_544
+Nb5 Nb3 Ti5 71.30(7) 7_554 7_544
+Ti5 Nb3 Ti5 71.30(7) 7_554 7_544
+Nb5 Nb3 Ti5 0.00(2) 7_544 7_544
+O11 Nb4 O4 101.16(13) 5_655 .
+O11 Nb4 O2 105.41(8) 5_655 3
+O4 Nb4 O2 87.98(8) . 3
+O11 Nb4 O2 105.41(8) 5_655 3_545
+O4 Nb4 O2 87.98(8) . 3_545
+O2 Nb4 O2 149.11(16) 3 3_545
+O11 Nb4 O8 96.78(13) 5_655 5_655
+O4 Nb4 O8 162.06(12) . 5_655
+O2 Nb4 O8 87.27(9) 3 5_655
+O2 Nb4 O8 87.27(9) 3_545 5_655
+O11 Nb4 O1 171.07(12) 5_655 5_655
+O4 Nb4 O1 87.77(11) . 5_655
+O2 Nb4 O1 74.63(8) 3 5_655
+O2 Nb4 O1 74.63(8) 3_545 5_655
+O8 Nb4 O1 74.29(11) 5_655 5_655
+O11 Nb4 Ti5 145.15(4) 5_655 3
+O4 Nb4 Ti5 79.80(7) . 3
+O2 Nb4 Ti5 39.80(8) 3 3
+O2 Nb4 Ti5 109.43(9) 3_545 3
+O8 Nb4 Ti5 85.50(7) 5_655 3
+O1 Nb4 Ti5 36.12(4) 5_655 3
+O11 Nb4 Nb5 145.15(4) 5_655 3
+O4 Nb4 Nb5 79.80(7) . 3
+O2 Nb4 Nb5 39.80(8) 3 3
+O2 Nb4 Nb5 109.43(9) 3_545 3
+O8 Nb4 Nb5 85.50(7) 5_655 3
+O1 Nb4 Nb5 36.12(4) 5_655 3
+Ti5 Nb4 Nb5 0.000(19) 3 3
+O11 Nb4 Nb5 145.15(4) 5_655 3_545
+O4 Nb4 Nb5 79.80(7) . 3_545
+O2 Nb4 Nb5 109.43(9) 3 3_545
+O2 Nb4 Nb5 39.80(8) 3_545 3_545
+O8 Nb4 Nb5 85.50(7) 5_655 3_545
+O1 Nb4 Nb5 36.12(4) 5_655 3_545
+Ti5 Nb4 Nb5 69.66(7) 3 3_545
+Nb5 Nb4 Nb5 69.66(7) 3 3_545
+O11 Nb4 Ti5 145.15(4) 5_655 3_545
+O4 Nb4 Ti5 79.80(7) . 3_545
+O2 Nb4 Ti5 109.43(9) 3 3_545
+O2 Nb4 Ti5 39.80(8) 3_545 3_545
+O8 Nb4 Ti5 85.50(7) 5_655 3_545
+O1 Nb4 Ti5 36.12(4) 5_655 3_545
+Ti5 Nb4 Ti5 69.66(7) 3 3_545
+Nb5 Nb4 Ti5 69.66(7) 3 3_545
+Nb5 Nb4 Ti5 0.000(14) 3_545 3_545
+O5 Nb5 O4 99.70(13) . 5_655
+O5 Nb5 O1 99.39(8) . 7_554
+O4 Nb5 O1 102.72(8) 5_655 7_554
+O5 Nb5 O1 99.39(8) . 7_544
+O4 Nb5 O1 102.72(8) 5_655 7_544
+O1 Nb5 O1 145.12(15) 7_554 7_544
+O5 Nb5 O3 88.02(12) . 5_655
+O4 Nb5 O3 172.27(12) 5_655 5_655
+O1 Nb5 O3 75.79(8) 7_554 5_655
+O1 Nb5 O3 75.79(8) 7_544 5_655
+O5 Nb5 O2 165.95(12) . .
+O4 Nb5 O2 94.34(12) 5_655 .
+O1 Nb5 O2 77.33(8) 7_554 .
+O1 Nb5 O2 77.33(8) 7_544 .
+O3 Nb5 O2 77.93(11) 5_655 .
+O5 Nb5 Ti3 85.37(8) . 7_554
+O4 Nb5 Ti3 144.15(4) 5_655 7_554
+O1 Nb5 Ti3 41.74(8) 7_554 7_554
+O1 Nb5 Ti3 111.47(10) 7_544 7_554
+O3 Nb5 Ti3 35.82(4) 5_655 7_554
+O2 Nb5 Ti3 83.22(7) . 7_554
+O5 Nb5 Nb3 85.37(8) . 7_554
+O4 Nb5 Nb3 144.15(4) 5_655 7_554
+O1 Nb5 Nb3 41.74(8) 7_554 7_554
+O1 Nb5 Nb3 111.47(10) 7_544 7_554
+O3 Nb5 Nb3 35.82(4) 5_655 7_554
+O2 Nb5 Nb3 83.22(7) . 7_554
+Ti3 Nb5 Nb3 0 7_554 7_554
+O5 Nb5 Ti3 85.37(8) . 7_544
+O4 Nb5 Ti3 144.15(4) 5_655 7_544
+O1 Nb5 Ti3 111.47(10) 7_554 7_544
+O1 Nb5 Ti3 41.74(8) 7_544 7_544
+O3 Nb5 Ti3 35.82(4) 5_655 7_544
+O2 Nb5 Ti3 83.22(7) . 7_544
+Ti3 Nb5 Ti3 71.30(7) 7_554 7_544
+Nb3 Nb5 Ti3 71.30(7) 7_554 7_544
+O5 Nb5 Nb3 85.37(8) . 7_544
+O4 Nb5 Nb3 144.15(4) 5_655 7_544
+O1 Nb5 Nb3 111.47(10) 7_554 7_544
+O1 Nb5 Nb3 41.74(8) 7_544 7_544
+O3 Nb5 Nb3 35.82(4) 5_655 7_544
+O2 Nb5 Nb3 83.22(7) . 7_544
+Ti3 Nb5 Nb3 71.30(7) 7_554 7_544
+Nb3 Nb5 Nb3 71.30(7) 7_554 7_544
+Ti3 Nb5 Nb3 0.000(17) 7_544 7_544
+O5 Nb5 Nb4 143.14(4) . 3_444
+O4 Nb5 Nb4 92.62(8) 5_655 3_444
+O1 Nb5 Nb4 111.61(9) 7_554 3_444
+O1 Nb5 Nb4 43.82(8) 7_544 3_444
+O3 Nb5 Nb4 81.05(6) 5_655 3_444
+O2 Nb5 Nb4 34.85(4) . 3_444
+Ti3 Nb5 Nb4 104.43(5) 7_554 3_444
+Nb3 Nb5 Nb4 104.43(5) 7_554 3_444
+Ti3 Nb5 Nb4 65.39(4) 7_544 3_444
+Nb3 Nb5 Nb4 65.39(4) 7_544 3_444
+O5 Nb5 Ti4 143.14(4) . 3_444
+O4 Nb5 Ti4 92.62(8) 5_655 3_444
+O1 Nb5 Ti4 111.61(9) 7_554 3_444
+O1 Nb5 Ti4 43.82(8) 7_544 3_444
+O3 Nb5 Ti4 81.05(6) 5_655 3_444
+O2 Nb5 Ti4 34.85(4) . 3_444
+Ti3 Nb5 Ti4 104.43(5) 7_554 3_444
+Nb3 Nb5 Ti4 104.43(5) 7_554 3_444
+Ti3 Nb5 Ti4 65.39(4) 7_544 3_444
+Nb3 Nb5 Ti4 65.39(4) 7_544 3_444
+Nb4 Nb5 Ti4 0.000(15) 3_444 3_444
+Ti5 O1 Nb5 0.00(4) 7_554 7_554
+Ti5 O1 Ti5 145.12(15) 7_554 7_544
+Nb5 O1 Ti5 145.12(15) 7_554 7_544
+Ti5 O1 Nb5 145.12(15) 7_554 7_544
+Nb5 O1 Nb5 145.12(15) 7_554 7_544
+Ti5 O1 Nb5 0.00(4) 7_544 7_544
+Ti5 O1 Nb3 101.48(9) 7_554 .
+Nb5 O1 Nb3 101.48(9) 7_554 .
+Ti5 O1 Nb3 101.48(9) 7_544 .
+Nb5 O1 Nb3 101.48(9) 7_544 .
+Ti5 O1 Ti4 100.06(8) 7_554 5_655
+Nb5 O1 Ti4 100.06(8) 7_554 5_655
+Ti5 O1 Ti4 100.06(8) 7_544 5_655
+Nb5 O1 Ti4 100.06(8) 7_544 5_655
+Nb3 O1 Ti4 102.73(11) . 5_655
+Ti5 O1 Nb4 100.06(8) 7_554 5_655
+Nb5 O1 Nb4 100.06(8) 7_554 5_655
+Ti5 O1 Nb4 100.06(8) 7_544 5_655
+Nb5 O1 Nb4 100.06(8) 7_544 5_655
+Nb3 O1 Nb4 102.73(11) . 5_655
+Ti4 O1 Nb4 0.000(18) 5_655 5_655
+Ti4 O2 Nb4 0.00(3) 3_444 3_444
+Ti4 O2 Ti4 149.11(16) 3_444 3_454
+Nb4 O2 Ti4 149.11(16) 3_444 3_454
+Ti4 O2 Nb4 149.11(16) 3_444 3_454
+Nb4 O2 Nb4 149.11(16) 3_444 3_454
+Ti4 O2 Nb4 0.00(3) 3_454 3_454
+Ti4 O2 Nb5 105.36(8) 3_444 .
+Nb4 O2 Nb5 105.36(8) 3_444 .
+Ti4 O2 Nb5 105.36(8) 3_454 .
+Nb4 O2 Nb5 105.36(8) 3_454 .
+Ti3 O3 Nb3 0.00(2) 3_545 3_545
+Ti3 O3 Ti3 151.09(16) 3_545 3
+Nb3 O3 Ti3 151.09(16) 3_545 3
+Ti3 O3 Nb3 151.09(16) 3_545 3
+Nb3 O3 Nb3 151.09(16) 3_545 3
+Ti3 O3 Nb3 0.00(4) 3 3
+Ti3 O3 Ti5 103.52(8) 3_545 5_655
+Nb3 O3 Ti5 103.52(8) 3_545 5_655
+Ti3 O3 Ti5 103.52(8) 3 5_655
+Nb3 O3 Ti5 103.52(8) 3 5_655
+Ti3 O3 Nb5 103.52(8) 3_545 5_655
+Nb3 O3 Nb5 103.52(8) 3_545 5_655
+Ti3 O3 Nb5 103.52(8) 3 5_655
+Nb3 O3 Nb5 103.52(8) 3 5_655
+Ti5 O3 Nb5 0.00(3) 5_655 5_655
+Ti5 O4 Nb5 0.00(4) 5_655 5_655
+Ti5 O4 Nb4 170.74(17) 5_655 .
+Nb5 O4 Nb4 170.74(17) 5_655 .
+Nb5 O5 Nb2 170.43(17) . .
+Ti2 O6 Nb2 0.00(2) 3_545 3_545
+Ti2 O6 Ti2 150.54(17) 3_545 3
+Nb2 O6 Ti2 150.54(17) 3_545 3
+Ti2 O6 Nb2 150.54(17) 3_545 3
+Nb2 O6 Nb2 150.54(17) 3_545 3
+Ti2 O6 Nb2 0.00(4) 3 3
+Ti2 O6 Ti2 104.73(8) 3_545 5_656
+Nb2 O6 Ti2 104.73(8) 3_545 5_656
+Ti2 O6 Ti2 104.73(8) 3 5_656
+Nb2 O6 Ti2 104.73(8) 3 5_656
+Ti2 O6 Nb2 104.73(8) 3_545 5_656
+Nb2 O6 Nb2 104.73(8) 3_545 5_656
+Ti2 O6 Nb2 104.73(8) 3 5_656
+Nb2 O6 Nb2 104.73(8) 3 5_656
+Ti2 O6 Nb2 0.000(19) 5_656 5_656
+Ti2 O7 Nb2 0.00(3) 5_655 5_655
+Ti2 O7 Nb1 172.33(17) 5_655 1_655
+Nb2 O7 Nb1 172.33(17) 5_655 1_655
+Ti2 O7 Ti1 172.33(17) 5_655 1_655
+Nb2 O7 Ti1 172.33(17) 5_655 1_655
+Nb1 O7 Ti1 0 1_655 1_655
+Ti3 O8 Nb3 0.00(3) 5_554 5_554
+Ti3 O8 Ti4 149.04(16) 5_554 5_655
+Nb3 O8 Ti4 149.04(16) 5_554 5_655
+Ti3 O8 Nb4 149.04(16) 5_554 5_655
+Nb3 O8 Nb4 149.04(16) 5_554 5_655
+Ti4 O8 Nb4 0.000(18) 5_655 5_655
+Ti3 O8 Nb3 101.40(13) 5_554 .
+Nb3 O8 Nb3 101.40(13) 5_554 .
+Ti4 O8 Nb3 109.57(12) 5_655 .
+Nb4 O8 Nb3 109.57(12) 5_655 .
+Ti3 O9 Nb3 0.000(13) 5_655 5_655
+Ti3 O9 Nb2 175.83(17) 5_655 5_656
+Nb3 O9 Nb2 175.83(17) 5_655 5_656
+Ti3 O9 Ti2 175.83(17) 5_655 5_656
+Nb3 O9 Ti2 175.83(17) 5_655 5_656
+Nb2 O9 Ti2 0.000(19) 5_656 5_656
+Ti1 O10 Nb1 180 3 3_545
+Ti1 O10 Nb1 0 3 3
+Nb1 O10 Nb1 180 3_545 3
+Ti1 O10 Ti1 180 3 3_545
+Nb1 O10 Ti1 0 3_545 3_545
+Nb1 O10 Ti1 180 3 3_545
+Ti4 O11 Nb4 0.00(2) 5_655 5_655
+Ti4 O11 Nb1 168.25(18) 5_655 .
+Nb4 O11 Nb1 168.25(18) 5_655 .
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Nb1 O10 1.9003(3) 3_454
+Nb1 O10 1.9003(3) 3_444
+Nb1 O7 1.956(3) 1_455
+Nb1 O7 1.956(3) 5_655
+Nb1 O11 2.036(3) 5
+Nb1 O11 2.036(3) .
+Nb2 O7 1.795(3) 5_655
+Nb2 O5 1.959(3) .
+Nb2 O6 1.965(3) 3_454
+Nb2 O6 1.965(3) 3_444
+Nb2 O9 2.000(3) 5_656
+Nb2 O6 2.203(3) 5_656
+Nb2 Ti2 3.3042(17) 7
+Nb2 Nb2 3.3042(17) 7
+Nb2 Ti2 3.3042(17) 7_545
+Nb2 Nb2 3.3042(17) 7_545
+Nb3 O9 1.789(3) 5_655
+Nb3 O8 1.872(3) 5_554
+Nb3 O3 1.963(3) 3_454
+Nb3 O3 1.963(3) 3_444
+Nb3 O1 2.215(3) .
+Nb3 O8 2.268(3) .
+Nb3 Nb3 3.2132(11) 5_554
+Nb3 Ti3 3.2132(11) 5_554
+Nb3 Nb5 3.2607(16) 7_554
+Nb3 Ti5 3.2607(16) 7_554
+Nb3 Nb5 3.2607(16) 7_544
+Nb3 Ti5 3.2607(16) 7_544
+Nb4 O11 1.777(3) 5_655
+Nb4 O4 1.920(3) .
+Nb4 O2 1.972(3) 3
+Nb4 O2 1.972(3) 3_545
+Nb4 O8 2.086(3) 5_655
+Nb4 O1 2.340(3) 5_655
+Nb4 Ti5 3.3276(16) 3
+Nb4 Nb5 3.3276(16) 3
+Nb4 Nb5 3.3276(16) 3_545
+Nb4 Ti5 3.3276(16) 3_545
+Nb5 O5 1.776(3) .
+Nb5 O4 1.814(3) 5_655
+Nb5 O1 1.992(3) 7_554
+Nb5 O1 1.992(3) 7_544
+Nb5 O3 2.185(3) 5_655
+Nb5 O2 2.209(3) .
+Nb5 Ti3 3.2607(16) 7_554
+Nb5 Nb3 3.2607(16) 7_554
+Nb5 Ti3 3.2607(16) 7_544
+Nb5 Nb3 3.2607(16) 7_544
+Nb5 Nb4 3.3276(16) 3_444
+Nb5 Ti4 3.3276(16) 3_444
+O1 Ti5 1.992(3) 7_554
+O1 Nb5 1.992(3) 7_554
+O1 Ti5 1.992(3) 7_544
+O1 Nb5 1.992(3) 7_544
+O1 Ti4 2.340(3) 5_655
+O1 Nb4 2.340(3) 5_655
+O2 Ti4 1.972(3) 3_444
+O2 Nb4 1.972(3) 3_444
+O2 Ti4 1.972(3) 3_454
+O2 Nb4 1.972(3) 3_454
+O3 Ti3 1.963(3) 3_545
+O3 Nb3 1.963(3) 3_545
+O3 Ti3 1.963(3) 3
+O3 Nb3 1.963(3) 3
+O3 Ti5 2.185(3) 5_655
+O3 Nb5 2.185(3) 5_655
+O4 Ti5 1.814(3) 5_655
+O4 Nb5 1.814(3) 5_655
+O6 Ti2 1.965(3) 3_545
+O6 Nb2 1.965(3) 3_545
+O6 Ti2 1.965(3) 3
+O6 Nb2 1.965(3) 3
+O6 Ti2 2.203(3) 5_656
+O6 Nb2 2.203(3) 5_656
+O7 Ti2 1.795(3) 5_655
+O7 Nb2 1.795(3) 5_655
+O7 Nb1 1.956(3) 1_655
+O7 Ti1 1.956(3) 1_655
+O8 Ti3 1.872(3) 5_554
+O8 Nb3 1.872(3) 5_554
+O8 Ti4 2.086(3) 5_655
+O8 Nb4 2.086(3) 5_655
+O9 Ti3 1.789(3) 5_655
+O9 Nb3 1.789(3) 5_655
+O9 Nb2 1.999(3) 5_656
+O9 Ti2 1.999(3) 5_656
+O10 Ti1 1.9003(3) 3
+O10 Nb1 1.9003(3) 3_545
+O10 Nb1 1.9003(3) 3
+O10 Ti1 1.9003(3) 3_545
+O11 Ti4 1.777(3) 5_655
+O11 Nb4 1.777(3) 5_655

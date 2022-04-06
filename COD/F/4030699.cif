@@ -1,0 +1,160 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-21 05:34:46 +0200 (Mon, 21 Mar 2016) $
+#$Revision: 178485 $
+#$URL: svn://www.crystallography.net/cod/cif/4/03/06/4030699.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4030699
+loop_
+_publ_author_name
+'Asbrink, S'
+'Waskowska, A'
+_publ_section_title
+;
+ High-pressure crystal structures of K Mn F3 below and above the phase
+ transition at Pc=3.1GPa
+;
+_journal_name_full
+;
+European Journal of Solid State Inorganic Chemistry
+;
+_journal_page_first              747
+_journal_page_last               755
+_journal_volume                  31
+_journal_year                    1994
+_chemical_formula_structural     'K Mn F3'
+_chemical_formula_sum            'F3 K Mn'
+_chemical_formula_weight         151.04
+_chemical_name_systematic        'Potassium manganese fluoride'
+_space_group_IT_number           221
+_symmetry_cell_setting           cubic
+_symmetry_Int_Tables_number      221
+_symmetry_space_group_name_Hall  '-P 4 2 3'
+_symmetry_space_group_name_H-M   'P m -3 m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            1
+_cell_length_a                   4.184(4)
+_cell_length_b                   4.184(4)
+_cell_length_c                   4.184(4)
+_cell_volume                     73.24(12)
+_diffrn_ambient_pressure         10
+_diffrn_ambient_temperature      293
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_exptl_absorpt_coefficient_mu    5.771
+_exptl_crystal_density_diffrn    3.426
+_exptl_crystal_F_000             71
+_refine_ls_number_parameters     5
+_refine_ls_number_reflns         27
+_refine_ls_R_factor_all          0.0355
+_cod_data_source_file            EJSSIC-1994-31-747-755-1.cif
+_cod_data_source_block           1
+_cod_original_cell_volume        73.2(2)
+_cod_database_code               4030699
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+y,z,x
+z,x,y
+x,z,y
+y,x,z
+z,y,x
+x,-y,-z
+y,-z,-x
+z,-x,-y
+x,-z,-y
+y,-x,-z
+z,-y,-x
+-x,y,-z
+-y,z,-x
+-z,x,-y
+-x,z,-y
+-y,x,-z
+-z,y,-x
+-x,-y,z
+-y,-z,x
+-z,-x,y
+-x,-z,y
+-y,-x,z
+-z,-y,x
+-x,-y,-z
+-y,-z,-x
+-z,-x,-y
+-x,-z,-y
+-y,-x,-z
+-z,-y,-x
+-x,y,z
+-y,z,x
+-z,x,y
+-x,z,y
+-y,x,z
+-z,y,x
+x,-y,z
+y,-z,x
+z,-x,y
+x,-z,y
+y,-x,z
+z,-y,x
+x,y,-z
+y,z,-x
+z,x,-y
+x,z,-y
+y,x,-z
+z,y,-x
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Mn 0.0090(10) 0.0090(10) 0.0090(10) 0.0000 0.0000 0.0000
+F 0.006(4) 0.025(4) 0.025(4) 0.0000 0.0000 0.0000
+K 0.018(2) 0.018(2) 0.018(2) 0.0000 0.0000 0.0000
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_thermal_displace_type
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+Mn Mn Uani 0.50000 0.50000 0.50000 0.998 0.0090(6)
+F F Uani 0.00000 0.50000 0.50000 1.000 0.019(2)
+K K Uani 0.00000 0.00000 0.00000 0.998 0.0180(12)
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+F Mn F 180.00 . 1_655 yes
+F Mn F 90.00 . 2_655 yes
+F Mn F 90.00 . 2_665 yes
+F Mn F 90.00 1_655 2_655 yes
+F Mn F 90.00 1_655 2_665 yes
+F Mn F 180.00 2_655 2_665 yes
+Mn F Mn 180.00 . 1_455 yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Mn F 2.092(2) . yes
+Mn F 2.092(2) 1_655 yes
+Mn F 2.092(2) 2_655 yes
+Mn F 2.092(2) 2_665 yes

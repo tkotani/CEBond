@@ -1,0 +1,84 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-26 02:09:54 +0200 (Sat, 26 Mar 2016) $
+#$Revision: 180126 $
+#$URL: svn://www.crystallography.net/cod/cif/7/10/24/7102429.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7102429
+loop_
+_publ_author_name
+'Hayward, M A'
+_publ_section_title
+;
+ Selective deintercalation of apex over face-shared oxide ions in the
+ topotactic reduction of Sr7Mn4O15 to Sr7Mn4O12.
+;
+_journal_issue                   2
+_journal_name_full
+'Chemical communications (Cambridge, England)'
+_journal_page_first              170
+_journal_page_last               171
+_journal_paper_doi               10.1039/b312792c
+_journal_year                    2004
+_chemical_formula_sum            'Mn4 O12 Sr7'
+_chemical_formula_weight         1025.08
+_chemical_name_systematic        ' ?'
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 93.317(4)
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            2
+_cell_length_a                   6.9540(15)
+_cell_length_b                   9.6744(21)
+_cell_length_c                   10.0411(23)
+_cell_volume                     674.3869
+_pd_block_id                     2003-10-17T10:30|RESTART-2P-2_phase1|||
+_pd_phase_name                   Sr7mn4O15
+_cod_data_source_file            b312792c.txt
+_cod_data_source_block           RESTART-2P-2_phase_1
+_cod_original_sg_symbol_H-M      'P 21/c'
+_cod_database_code               7102429
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -x,+y+1/2,-z+1/2
+-1 -x,-y,-z
+-2 +x,-y+1/2,+z+1/2
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+SR SR1 0.9938(5) 0.1863(4) 0.46412(34) 1.0 Uiso 0.0068(4) 4
+SR SR2 0.3318(5) 0.1432(4) 0.20653(34) 1.0 Uiso 0.0068(4) 4
+SR SR3 0.5 0.0 0.5 1.0 Uiso 0.0068(4) 2
+SR SR4 0.15288 0.01305 0.82498 1.0 Uiso 0.0068(4) 4
+MN MN5 0.5875(9) 0.1693(7) 0.9300(5) 1.0 Uiso 0.004 4
+MN MN6 0.7700(8) 0.1680(6) 0.7301(6) 1.0 Uiso 0.004 4
+O O7 0.5007(7) 0.0947(5) 0.7374(4) 1.0 Uiso 0.00482(31) 4
+O O8 0.6796(7) 0.1634(4) 0.3322(5) 1.0 Uiso 0.00482(31) 4
+O O9 0.3343(6) 0.2269(4) 0.9762(4) 1.0 Uiso 0.00482(31) 4
+O O10 0.8147(6) 0.0699(4) 0.9329(4) 1.0 Uiso 0.00482(31) 4
+O O13 0.8482(7) 0.0237(4) 0.6287(5) 1.0 Uiso 0.00482(31) 4
+O O14 0.0072(7) 0.2506(4) 0.7134(5) 1.0 Uiso 0.00482(31) 4
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+SR 14.0
+MN 8.0
+O 24.0

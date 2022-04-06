@@ -1,0 +1,417 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-21 18:47:52 +0200 (Mon, 21 Mar 2016) $
+#$Revision: 178824 $
+#$URL: svn://www.crystallography.net/cod/cif/4/10/78/4107896.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4107896
+loop_
+_publ_author_name
+'Christophe Tenailleau'
+'Mathieu Allix'
+'John B. Claridge'
+'Maryvonne Hervieu'
+'Michael F. Thomas'
+'James P. Hirst'
+'Matthew J. Rosseinsky'
+_publ_section_title
+;
+ Modular Construction of Oxide Structures-Compositional Control of
+ Transition Metal Coordination Environments
+;
+_journal_name_full               'Journal of the American Chemical Society'
+_journal_page_first              7570
+_journal_page_last               7583
+_journal_paper_doi               10.1021/ja077762f
+_journal_volume                  130
+_journal_year                    2008
+_chemical_formula_sum            'Ba Fe2 O4'
+_chemical_formula_weight         313.03
+_space_group_IT_number           36
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  'B -2 -2b'
+_symmetry_space_group_name_H-M   'B b 21 m'
+_audit_author_name               'Jamie Hirst'
+_audit_creation_date             2006-07-11T09:08
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_audit_update_record
+' 2006-07-11T09:08  Initial CIF as created by GSAS2CIF'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            8
+_cell_length_a                   18.99784
+_cell_length_b                   5.38025
+_cell_length_c                   8.43848
+_cell_volume                     862.523
+_computing_structure_refinement  GSAS
+_diffrn_radiation_polarisn_ratio 0.505
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_wavelength     1.788965
+_exptl_absorpt_correction_T_max  1.00000
+_exptl_absorpt_correction_T_min  1.00000
+_exptl_absorpt_process_details
+;   GSAS Absorption/surface roughness correction: function number 0
+ No correction is applied.
+;
+_pd_block_id
+2006-07-11T09:08|JHCT5_4_NI_DISORDER__phase2|Jamie_Hirst||
+_pd_calc_method                  'Rietveld Refinement'
+_pd_meas_2theta_range_inc        0.008
+_pd_meas_2theta_range_max        129.996
+_pd_meas_2theta_range_min        8.004
+_pd_phase_name                   'BaFe2O4 - Mitsuda H'
+_pd_proc_2theta_range_inc        0.008
+_pd_proc_2theta_range_max        129.996
+_pd_proc_2theta_range_min        8.004
+_pd_proc_info_datetime           2006-07-11T09:08:43
+_pd_proc_ls_background_function
+;   GSAS Background function number 1 with 24 terms.
+ Shifted Chebyshev function of 1st kind
+      1:    354.010     2:   -268.505     3:    193.146     4:   -122.786    
+      5:    73.3192     6:   -40.2206     7:    22.1352     8:   -10.2599    
+      9:    3.90332    10:    1.09705    11:   -4.23939    12:    3.40897    
+     13:   -2.89869    14:    2.63859    15:   -2.41094    16:    1.57220    
+     17:  -0.491272    18:    1.25171    19:   -1.19284    20:   0.421003    
+     21:  -3.132510E-0222:   0.826562    23:  -0.232608    24:   0.350957    
+;
+_pd_proc_ls_prof_R_factor        0.0393
+_pd_proc_ls_prof_wR_expected     0.0428
+_pd_proc_ls_prof_wR_factor       0.0476
+_refine_ls_goodness_of_fit_all   1.11
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     56
+_refine_ls_number_restraints     0
+_refine_ls_R_Fsqd_factor         0.08315
+_refine_ls_shift/su_max          0.01
+_refine_ls_shift/su_mean         0.00
+_reflns_d_resolution_high        0.988
+_reflns_d_resolution_low         11.689
+_reflns_limit_h_max              5
+_reflns_limit_h_min              0
+_reflns_limit_k_max              11
+_reflns_limit_k_min              0
+_reflns_limit_l_max              5
+_reflns_limit_l_min              0
+_reflns_number_total             240
+_cod_data_source_file            ja077762f-file007_2.cif
+_cod_data_source_block           JHCT5_4_NI_DISORDER__phase_2
+_cod_original_cell_volume        862.52319
+_cod_database_code               4107896
+_cod_database_fobs_code          4107896
+#BEGIN Tags that were not found in dictionaries:
+_gsas_exptl_extinct_corr_t_min   1.00000
+_gsas_exptl_extinct_corr_t_max   1.00000
+#END Tags that were not found in dictionaries
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -x,+y+1/2,+z
+3 -x,+y+1/2,-z
+4 +x,+y,-z
+101 +x+1/2,+y,+z+1/2
+102 -x+1/2,+y+1/2,+z+1/2
+103 -x+1/2,+y+1/2,-z+1/2
+104 +x+1/2,+y,-z+1/2
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+Ba Ba(1) 0.1307 0.25 0.0 1.0 Uiso 0.025 4
+Ba Ba(2) 0.6173 0.227 0.0 1.0 Uiso 0.025 4
+Fe Fe(1) 0.0424 0.732 0.2776 1.0 Uiso 0.025 8
+Fe Fe(2) 0.2084 0.774 0.2913 1.0 Uiso 0.025 8
+O O(1) 0.037 0.403 0.243 1.0 Uiso 0.025 8
+O O(2) 0.123 0.917 0.225 1.0 Uiso 0.025 8
+O O(3) 0.209 0.417 0.281 1.0 Uiso 0.025 8
+O O(4) 0.453 0.226 0.0 1.0 Uiso 0.025 4
+O O(5) 0.28 0.226 0.0 1.0 Uiso 0.025 4
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_Cromer_Mann_a1
+_atom_type_scat_Cromer_Mann_a2
+_atom_type_scat_Cromer_Mann_a3
+_atom_type_scat_Cromer_Mann_a4
+_atom_type_scat_Cromer_Mann_b1
+_atom_type_scat_Cromer_Mann_b2
+_atom_type_scat_Cromer_Mann_b3
+_atom_type_scat_Cromer_Mann_b4
+_atom_type_scat_Cromer_Mann_c
+_atom_type_scat_source
+_atom_type_number_in_cell
+Ba -1.330 8.460 20.3361 3.21600 19.2970 0.27560 10.8880 20.2073 2.69590 167.202
+2.77310 International_Tables_Vol_C 8
+Nd -3.430 10.930 22.6845 2.66248 19.6847 0.21063 12.7740 15.8850 2.85137
+137.903 1.98486 International_Tables_Vol_C 0
+Ca 0.341 1.286 8.62660 10.4421 7.38730 0.65990 1.58990 85.7484 1.02110 178.437
+1.37510 International_Tables_Vol_C 0
+Fe -1.179 3.204 11.7695 4.76110 7.35730 0.30720 3.52220 15.3535 2.30450 76.8805
+1.03690 International_Tables_Vol_C 16
+O 0.047 0.032 3.04850 13.2771 2.28680 5.70110 1.54630 0.32390 0.86700 32.9089
+0.25080 International_Tables_Vol_C 32
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+Ba(2) Ba(1) Ba(2) 172.324 101_454 101_455 n
+Ba(2) Ba(1) O(1) 133.7708 101_454 1_555 n
+Ba(2) Ba(1) O(1) 41.381 101_454 4_555 n
+Ba(2) Ba(1) O(2) 134.5171 101_454 1_545 n
+Ba(2) Ba(1) O(2) 41.5858 101_454 4_545 n
+Ba(2) Ba(1) O(3) 147.5834 101_454 1_555 n
+Ba(2) Ba(1) O(3) 40.0607 101_454 4_555 n
+Ba(2) Ba(1) O(5) 93.3713 101_454 1_555 n
+Ba(2) Ba(1) O(1) 41.381 101_455 1_555 n
+Ba(2) Ba(1) O(1) 133.7708 101_455 4_555 n
+Ba(2) Ba(1) O(2) 41.5858 101_455 1_545 n
+Ba(2) Ba(1) O(2) 134.5171 101_455 4_545 n
+Ba(2) Ba(1) O(3) 40.0606 101_455 1_555 n
+Ba(2) Ba(1) O(3) 147.5834 101_455 4_555 n
+Ba(2) Ba(1) O(5) 93.3713 101_455 1_555 n
+O(1) Ba(1) O(1) 92.5513 1_555 4_555 n
+O(1) Ba(1) O(2) 68.8329 1_555 1_545 n
+O(1) Ba(1) O(2) 133.5099 1_555 4_545 n
+O(1) Ba(1) O(3) 69.2604 1_555 1_555 n
+O(1) Ba(1) O(3) 144.2586 1_555 4_555 n
+O(1) Ba(1) O(5) 129.7846 1_555 1_555 n
+O(1) Ba(1) O(2) 133.5099 4_555 1_545 n
+O(1) Ba(1) O(2) 68.8329 4_555 4_545 n
+O(1) Ba(1) O(3) 144.2586 4_555 1_555 n
+O(1) Ba(1) O(3) 69.2604 4_555 4_555 n
+O(1) Ba(1) O(5) 129.7846 4_555 1_555 n
+O(2) Ba(1) O(2) 93.1327 1_545 4_545 n
+O(2) Ba(1) O(3) 69.6364 1_545 1_555 n
+O(2) Ba(1) O(3) 145.4315 1_545 4_555 n
+O(2) Ba(1) O(5) 91.4169 1_545 1_555 n
+O(2) Ba(1) O(3) 145.4315 4_545 1_555 n
+O(2) Ba(1) O(3) 69.6364 4_545 4_555 n
+O(2) Ba(1) O(5) 91.4169 4_545 1_555 n
+O(3) Ba(1) O(3) 107.5256 1_555 4_555 n
+O(3) Ba(1) O(5) 60.5564 1_555 1_555 n
+O(3) Ba(1) O(5) 60.5564 4_555 1_555 n
+Ba(1) Ba(2) Ba(1) 172.324 101_554 101_555 n
+Ba(1) Ba(2) Fe(2) 58.9396 101_554 101_544 n
+Ba(1) Ba(2) Fe(2) 119.8013 101_554 104_545 n
+Ba(1) Ba(2) O(1) 41.7755 101_554 101_554 n
+Ba(1) Ba(2) O(1) 142.3084 101_554 104_555 n
+Ba(1) Ba(2) O(2) 37.3605 101_554 101_544 n
+Ba(1) Ba(2) O(2) 145.5284 101_554 104_545 n
+Ba(1) Ba(2) O(3) 43.7185 101_554 101_554 n
+Ba(1) Ba(2) O(3) 128.6291 101_554 104_555 n
+Ba(1) Ba(2) O(4) 93.4542 101_554 1_555 n
+Ba(1) Ba(2) O(4) 93.0351 101_554 2_645 n
+Ba(1) Ba(2) O(4) 90.0351 101_554 2_655 n
+Ba(1) Ba(2) Fe(2) 119.8013 101_555 101_544 n
+Ba(1) Ba(2) Fe(2) 58.9396 101_555 104_545 n
+Ba(1) Ba(2) O(1) 142.3084 101_555 101_554 n
+Ba(1) Ba(2) O(1) 41.7755 101_555 104_555 n
+Ba(1) Ba(2) O(2) 145.5284 101_555 101_544 n
+Ba(1) Ba(2) O(2) 37.3605 101_555 104_545 n
+Ba(1) Ba(2) O(3) 128.6291 101_555 101_554 n
+Ba(1) Ba(2) O(3) 43.7185 101_555 104_555 n
+Ba(1) Ba(2) O(4) 93.4542 101_555 1_555 n
+Ba(1) Ba(2) O(4) 93.0351 101_555 2_645 n
+Ba(1) Ba(2) O(4) 90.0351 101_555 2_655 n
+Fe(2) Ba(2) Fe(2) 61.009 101_544 104_545 n
+Fe(2) Ba(2) O(1) 96.6359 101_544 101_554 n
+Fe(2) Ba(2) O(1) 153.8368 101_544 104_555 n
+Fe(2) Ba(2) O(2) 32.8093 101_544 101_544 n
+Fe(2) Ba(2) O(2) 89.0434 101_544 104_545 n
+Fe(2) Ba(2) O(3) 66.5611 101_544 101_554 n
+Fe(2) Ba(2) O(3) 106.7097 101_544 104_555 n
+Fe(2) Ba(2) O(4) 119.8433 101_544 1_555 n
+Fe(2) Ba(2) O(4) 65.9211 101_544 2_645 n
+Fe(2) Ba(2) O(4) 148.3364 101_544 2_655 n
+Fe(2) Ba(2) O(1) 153.8368 104_545 101_554 n
+Fe(2) Ba(2) O(1) 96.6359 104_545 104_555 n
+Fe(2) Ba(2) O(2) 89.0434 104_545 101_544 n
+Fe(2) Ba(2) O(2) 32.8093 104_545 104_545 n
+Fe(2) Ba(2) O(3) 106.7097 104_545 101_554 n
+Fe(2) Ba(2) O(3) 66.5611 104_545 104_555 n
+Fe(2) Ba(2) O(4) 119.8433 104_545 1_555 n
+Fe(2) Ba(2) O(4) 65.9211 104_545 2_645 n
+Fe(2) Ba(2) O(4) 148.3364 104_545 2_655 n
+O(1) Ba(2) O(1) 100.7553 101_554 104_555 n
+O(1) Ba(2) O(2) 65.8981 101_554 101_544 n
+O(1) Ba(2) O(2) 147.3186 101_554 104_545 n
+O(1) Ba(2) O(3) 72.4977 101_554 101_554 n
+O(1) Ba(2) O(3) 137.659 101_554 104_555 n
+O(1) Ba(2) O(4) 57.2313 101_554 1_555 n
+O(1) Ba(2) O(4) 93.4862 101_554 2_645 n
+O(1) Ba(2) O(4) 57.1495 101_554 2_655 n
+O(1) Ba(2) O(2) 147.3187 104_555 101_544 n
+O(1) Ba(2) O(2) 65.8981 104_555 104_545 n
+O(1) Ba(2) O(3) 137.659 104_555 101_554 n
+O(1) Ba(2) O(3) 72.4977 104_555 104_555 n
+O(1) Ba(2) O(4) 57.2313 104_555 1_555 n
+O(1) Ba(2) O(4) 93.4862 104_555 2_645 n
+O(1) Ba(2) O(4) 57.1495 104_555 2_655 n
+O(2) Ba(2) O(2) 108.4737 101_544 104_545 n
+O(2) Ba(2) O(3) 69.2635 101_544 101_554 n
+O(2) Ba(2) O(3) 137.8519 101_544 104_555 n
+O(2) Ba(2) O(4) 92.1124 101_544 1_555 n
+O(2) Ba(2) O(4) 59.6176 101_544 2_645 n
+O(2) Ba(2) O(4) 122.6178 101_544 2_655 n
+O(2) Ba(2) O(3) 137.8519 104_545 101_554 n
+O(2) Ba(2) O(3) 69.2635 104_545 104_555 n
+O(2) Ba(2) O(4) 92.1124 104_545 1_555 n
+O(2) Ba(2) O(4) 59.6176 104_545 2_645 n
+O(2) Ba(2) O(4) 122.6178 104_545 2_655 n
+O(3) Ba(2) O(3) 84.912 101_554 104_555 n
+O(3) Ba(2) O(4) 129.5667 101_554 1_555 n
+O(3) Ba(2) O(4) 128.1037 101_554 2_645 n
+O(3) Ba(2) O(4) 87.0827 101_554 2_655 n
+O(3) Ba(2) O(4) 129.5667 104_555 1_555 n
+O(3) Ba(2) O(4) 128.1037 104_555 2_645 n
+O(3) Ba(2) O(4) 87.0827 104_555 2_655 n
+O(4) Ba(2) O(4) 63.5441 1_555 2_645 n
+O(4) Ba(2) O(4) 63.6503 1_555 2_655 n
+O(4) Ba(2) O(4) 127.1944 2_645 2_655 n
+O(1) Fe(1) O(1) 115.5621 1_555 2_555 n
+O(1) Fe(1) O(2) 121.9931 1_555 1_555 n
+O(1) Fe(1) O(4) 98.5118 1_555 102_555 n
+O(1) Fe(1) O(2) 112.0654 2_555 1_555 n
+O(1) Fe(1) O(4) 102.1714 2_555 102_555 n
+O(2) Fe(1) O(4) 101.9514 1_555 102_555 n
+Ba(2) Fe(2) O(2) 55.4795 101_465 1_555 n
+Ba(2) Fe(2) O(3) 136.6909 101_465 1_555 n
+Ba(2) Fe(2) O(3) 107.3496 101_465 103_555 n
+Ba(2) Fe(2) O(5) 70.3676 101_465 102_555 n
+O(2) Fe(2) O(3) 113.5984 1_555 1_555 n
+O(2) Fe(2) O(3) 117.5946 1_555 103_555 n
+O(2) Fe(2) O(5) 117.1934 1_555 102_555 n
+O(3) Fe(2) O(3) 113.2829 1_555 103_555 n
+O(3) Fe(2) O(5) 84.2503 1_555 102_555 n
+O(3) Fe(2) O(5) 106.2193 103_555 102_555 n
+Ba(1) O(1) Ba(2) 96.8435 1_555 101_455 n
+Ba(1) O(1) Fe(1) 111.5543 1_555 1_555 n
+Ba(1) O(1) Fe(1) 119.8156 1_555 2_545 n
+Ba(2) O(1) Fe(1) 100.091 101_455 1_555 n
+Ba(2) O(1) Fe(1) 99.0921 101_455 2_545 n
+Fe(1) O(1) Fe(1) 121.8478 1_555 2_545 n
+Ba(1) O(2) Ba(2) 101.0537 1_565 101_465 n
+Ba(1) O(2) Fe(1) 125.4485 1_565 1_555 n
+Ba(1) O(2) Fe(2) 116.6199 1_565 1_555 n
+Ba(2) O(2) Fe(1) 94.9553 101_465 1_555 n
+Ba(2) O(2) Fe(2) 91.7112 101_465 1_555 n
+Fe(1) O(2) Fe(2) 114.5768 1_555 1_555 n
+Ba(1) O(3) Ba(2) 96.2209 1_555 101_455 n
+Ba(1) O(3) Fe(2) 109.8021 1_555 1_555 n
+Ba(1) O(3) Fe(2) 92.0672 1_555 103_545 n
+Ba(2) O(3) Fe(2) 109.7988 101_455 1_555 n
+Ba(2) O(3) Fe(2) 127.3524 101_455 103_545 n
+Fe(2) O(3) Fe(2) 115.793 1_555 103_545 n
+Ba(2) O(4) Ba(2) 116.5472 1_555 2_645 n
+Ba(2) O(4) Ba(2) 116.2584 1_555 2_655 n
+Ba(2) O(4) Fe(1) 87.3326 1_555 102_544 n
+Ba(2) O(4) Fe(1) 87.3326 1_555 103_545 n
+Ba(2) O(4) Ba(2) 127.1944 2_645 2_655 n
+Ba(2) O(4) Fe(1) 92.0686 2_645 102_544 n
+Ba(2) O(4) Fe(1) 92.0686 2_645 103_545 n
+Ba(2) O(4) Fe(1) 90.301 2_655 102_544 n
+Ba(2) O(4) Fe(1) 90.301 2_655 103_545 n
+Fe(1) O(4) Fe(1) 174.3163 102_544 103_545 n
+Ba(1) O(5) Fe(2) 96.6726 1_555 102_544 n
+Ba(1) O(5) Fe(2) 96.6726 1_555 103_545 n
+Fe(2) O(5) Fe(2) 158.1773 102_544 103_545 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Ba(1) Ba(2) 4.22872 101_454 n
+Ba(1) Ba(2) 4.22872 101_455 n
+Ba(1) Fe(1) 3.87641 1_555 n
+Ba(1) Fe(1) 3.87641 4_555 n
+Ba(1) Fe(2) 3.84449 1_545 n
+Ba(1) Fe(2) 3.84449 4_545 n
+Ba(1) Fe(2) 3.53014 102_544 n
+Ba(1) Fe(2) 3.53014 103_545 n
+Ba(1) O(1) 2.83745 1_555 n
+Ba(1) O(1) 2.83745 4_555 n
+Ba(1) O(2) 2.61462 1_545 n
+Ba(1) O(2) 2.61462 4_545 n
+Ba(1) O(3) 2.93985 1_555 n
+Ba(1) O(3) 2.93985 4_555 n
+Ba(1) O(5) 2.83931 1_555 n
+Ba(2) Ba(1) 4.22872 101_554 n
+Ba(2) Ba(1) 4.22872 101_555 n
+Ba(2) Fe(1) 3.55522 101_544 n
+Ba(2) Fe(1) 3.5957 101_554 n
+Ba(2) Fe(1) 3.56759 102_544 n
+Ba(2) Fe(1) 3.56759 103_545 n
+Ba(2) Fe(1) 3.55522 104_545 n
+Ba(2) Fe(1) 3.5957 104_555 n
+Ba(2) Fe(2) 3.46944 101_544 n
+Ba(2) Fe(2) 3.84162 101_554 n
+Ba(2) Fe(2) 3.46944 104_545 n
+Ba(2) Fe(2) 3.84162 104_555 n
+Ba(2) O(1) 2.81551 101_554 n
+Ba(2) O(1) 2.81551 104_555 n
+Ba(2) O(2) 2.85983 101_544 n
+Ba(2) O(2) 2.85983 104_545 n
+Ba(2) O(3) 2.73772 101_554 n
+Ba(2) O(3) 2.73772 104_555 n
+Ba(2) O(4) 3.12135 1_555 n
+Ba(2) O(4) 3.00823 2_645 n
+Ba(2) O(4) 2.99859 2_655 n
+Ba(2) O(5) 3.32753 2_645 n
+Ba(2) O(5) 3.31882 2_655 n
+Fe(1) Ba(1) 3.87641 1_555 n
+Fe(1) Ba(2) 3.5957 101_455 n
+Fe(1) Ba(2) 3.55522 101_465 n
+Fe(1) Ba(2) 3.56759 102_555 n
+Fe(1) O(1) 1.79695 1_555 n
+Fe(1) O(1) 1.79082 2_555 n
+Fe(1) O(2) 1.87946 1_555 n
+Fe(1) O(4) 1.87903 102_555 n
+Fe(2) Ba(1) 3.84449 1_565 n
+Fe(2) Ba(1) 3.53014 102_555 n
+Fe(2) Ba(2) 3.84162 101_455 n
+Fe(2) Ba(2) 3.46944 101_465 n
+Fe(2) O(2) 1.88074 1_555 n
+Fe(2) O(3) 1.92275 1_555 n
+Fe(2) O(3) 1.85111 103_555 n
+Fe(2) O(5) 1.79354 102_555 n
+O(1) Ba(1) 2.83745 1_555 n
+O(1) Ba(2) 2.81551 101_455 n
+O(1) Fe(1) 1.79695 1_555 n
+O(1) Fe(1) 1.79082 2_545 n
+O(2) Ba(1) 2.61462 1_565 n
+O(2) Ba(2) 2.85983 101_465 n
+O(2) Fe(1) 1.87946 1_555 n
+O(2) Fe(2) 1.88074 1_555 n
+O(3) Ba(1) 2.93985 1_555 n
+O(3) Ba(2) 2.73772 101_455 n
+O(3) Fe(2) 1.92275 1_555 n
+O(3) Fe(2) 1.85111 103_545 n
+O(4) Ba(2) 3.12135 1_555 n
+O(4) Ba(2) 2.99859 2_645 n
+O(4) Ba(2) 3.00823 2_655 n
+O(4) Fe(1) 1.87903 102_544 n
+O(4) Fe(1) 1.87903 103_545 n
+O(5) Ba(1) 2.83931 1_555 n
+O(5) Ba(2) 3.31882 2_645 n
+O(5) Ba(2) 3.32753 2_655 n
+O(5) Fe(2) 1.79354 102_544 n
+O(5) Fe(2) 1.79354 103_545 n

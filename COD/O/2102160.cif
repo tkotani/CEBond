@@ -1,0 +1,143 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/21/2102160.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2102160
+loop_
+_publ_author_name
+'Bagautdinov, B.'
+'Hagiya, K.'
+'Kusaka, K.'
+'Ohmasa, M.'
+'Iishi, K.'
+_publ_section_title
+;
+ Two-dimensional incommensurately modulated structure of
+ (Sr~0.13~Ca~0.87~)~2~CoSi~2~O~7~ crystals
+;
+_journal_issue                   5
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              811
+_journal_page_last               821
+_journal_paper_doi               10.1107/S0108768100006716
+_journal_volume                  56
+_journal_year                    2000
+_chemical_formula_iupac          '(Sr0.13 Ca0.87)2 Co1 Si2 O7'
+_chemical_formula_sum            'Ca1.74 Co O7 Si2 Sr0.26'
+_chemical_formula_weight         319.6
+_symmetry_cell_setting           tetragonal
+_symmetry_space_group_name_Hall  'P -4 2ab'
+_symmetry_space_group_name_H-M   'P -4 21 m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   7.8743(4)
+_cell_length_b                   7.8743(4)
+_cell_length_c                   5.0417(2)
+_cell_volume                     312.61(3)
+_diffrn_measurement_device       CAD4
+_diffrn_measurement_method       \w/2\q
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     .71073
+_diffrn_reflns_theta_max         50.0
+_diffrn_reflns_theta_min         1.5
+_diffrn_standards_decay_%        '1.3, 1.5'
+_diffrn_standards_number         2
+_exptl_absorpt_coefficient_mu    6.739
+_exptl_absorpt_correction_T_max  .2733
+_exptl_absorpt_correction_T_min  .2249
+_exptl_absorpt_correction_type   analytical
+_exptl_crystal_colour            blue
+_exptl_crystal_density_meas      3.394
+_exptl_crystal_F_000             311
+_exptl_crystal_size_rad          .15
+_refine_diff_density_max         2.59
+_refine_diff_density_min         -2.94
+_refine_ls_extinction_coef       .102492
+_refine_ls_extinction_method     'B-C type 1 Lorentzian isotropic'
+_refine_ls_goodness_of_fit_obs   2.34
+_refine_ls_number_parameters     107
+_refine_ls_number_reflns         1697
+_refine_ls_R_factor_all          .0701
+_refine_ls_R_factor_gt           .0701
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_scheme      unit
+_refine_ls_wR_factor_all         .0524
+_reflns_number_observed          1697
+_reflns_number_total             8207
+_reflns_observed_criterion       2.5
+_cod_data_source_file            sn0002.cif
+_cod_data_source_block           I
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_refine_ls_weighting_scheme' value 'Unit' changed to 'unit' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'Unit' changed to 'unit'
+according to /home/saulius/struct/CIF-dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_original_sg_symbol_H-M      P-421m
+_cod_original_formula_sum        'Ca1.74 Co1 O7 Si2 Sr0.26'
+_cod_database_code               2102160
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Sr .0199(2) .0199(2) .0100(2) .0089(2) .00150(10) -.00150(10)
+Ca .0199(2) .0199(2) .0100(2) .0089(2) .00150(10) -.00150(10)
+Co .01090(10) .01090(10) .01090(10) 0 0 0
+Si .0112(2) .0112(2) .0076(2) .0014(2) .00000(10) .00000(10)
+O1 .0450(16) .0450(16) .0070(9) .0330(16) 0 0
+O2 .0303(8) .0303(8) .0073(7) .0140(10) -.0017(5) .0017(5)
+O3 .0420(10) .0155(6) .0141(8) -.0120(7) .0064(8) -.0014(6)
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+_atom_site_type_symbol
+Sr .33234 .16766 .5058 .01645 .128 Sr
+Ca .33234(4) .16766(4) .50580(10) .01845(8) .872(3) Ca
+Co 0 0 0 .01184(7) 1 Co
+Si .13915(7) .36085(7) .93820(10) .01130(10) 1 Si
+O1 0 .5 .8254(6) .0354(8) 1 O
+O2 .1401(2) .3599(2) .2547(4) .0244(4) 1 O
+O3 .0798(3) .1894(2) .7863(3) .0289(5) 1 O
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Sr -1.531 3.250 International_Tables_Vol_C
+Ca .226 .306 International_Tables_Vol_C
+Co .349 .972 International_Tables_Vol_C
+Si .082 .070 International_Tables_Vol_C
+O .011 .006 International_Tables_Vol_C

@@ -1,0 +1,131 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/20/02/2200261.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_2200261
+loop_
+_publ_author_name
+'Aken, Bas B. van'
+'Meetsma, Auke'
+'Palstra, Thomas T. M.'
+_publ_section_title
+;
+Hexagonal ErMnO~3~
+;
+_journal_name_full               'Acta Crystallographica, Section E'
+_journal_page_first              i38
+_journal_page_last               i40
+_journal_paper_doi               10.1107/S160053680100811X
+_journal_volume                  57
+_journal_year                    2001
+_chemical_formula_iupac          'Er1 Mn1 O3'
+_chemical_formula_moiety         'Er1 Mn1 O3'
+_chemical_formula_sum            'Er Mn O3'
+_chemical_formula_weight         270.20
+_symmetry_cell_setting           hexagonal
+_symmetry_space_group_name_Hall  'P 6c -2'
+_symmetry_space_group_name_H-M   'P 63 c m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            6
+_cell_length_a                   6.1121(5)
+_cell_length_b                   6.1121(5)
+_cell_length_c                   11.4200(14)
+_cell_measurement_temperature    293
+_cell_volume                     369.47(6)
+_diffrn_ambient_temperature      293(2)
+_exptl_crystal_density_diffrn    7.286
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_symmetry_cell_setting' value 'Hexagonal' changed to 'hexagonal'
+according to '/home/saulius/struct/CIF-dictionaries/cif_core.dic'
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+;
+_cod_original_formula_sum        'Er1 Mn1 O3'
+_cod_database_code               2200261
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x-y,x,1/2+z
+-y,x-y,z
+-x,-y,1/2+z
+-x+y,-x,z
+y,-x+y,1/2+z
+y,x,z
+-x+y,y,1/2+z
+-x,-x+y,z
+-y,-x,1/2+z
+x-y,-y,z
+x,x-y,1/2+z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Er1 .0093(3) .0093(3) .0067(3) .0047(2) .0000 .0000
+Er2 .0090(2) .0090(2) .0088(2) .00450(10) .0000 .0000
+Mn1 .0122(8) .0105(5) .0048(3) .0061(4) .0000 .0015(4)
+O1 .030(5) .008(2) .004(3) .015(3) .0000 -.001(2)
+O2 .018(5) .012(3) .008(3) .009(2) .0000 .001(2)
+O3 .010(4) .010(4) .009(7) .005(2) .0000 .0000
+O4 .013(4) .013(4) .008(4) .0066(19) .0000 .0000
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_occupancy
+_atom_site_type_symbol
+Er1 .00000 .00000 -.22783(9) .0084(2) Uani 1.000 Er
+Er2 .33333 .66667 .22951(2) .00890(10) Uani 1.000 Er
+Mn1 .00000 .3396(3) -.00248(17) .0090(3) Uani 1.000 Mn
+O1 .00000 .3593(12) -.1645(7) .012(2) Uani 1.000 O
+O2 .00000 .3113(14) .1620(7) .012(2) Uani 1.000 O
+O3 .00000 .00000 -.025(3) .010(3) Uani 1.000 O
+O4 .33333 .66667 .0161(13) .011(2) Uani 1.000 O
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Er2 O4 . . 2.437(15) yes
+Er2 O2 . . 2.244(7) yes
+Er2 O1 . 2_665 2.306(5) yes
+Er2 O2 . 3_665 2.244(9) no
+Er2 O1 . 4_565 2.306(5) no
+Er2 O2 . 5_565 2.244(5) no
+Er2 O4 . 8_555 3.273(15) yes
+Er2 O1 . 6_555 2.306(7) no
+Er1 O3 . . 2.32(3) yes
+Er1 O1 . . 2.312(6) yes
+Er1 O2 . 2_554 2.281(8) yes
+Er1 O1 . 3_555 2.312(7) no
+Er1 O2 . 4_554 2.281(7) no
+Er1 O1 . 5_555 2.312(7) no
+Er1 O2 . 6_554 2.281(8) no
+Er1 O3 . 2_554 3.39(3) yes
+Mn1 O3 . . 2.092(4) yes
+Mn1 O4 . . 2.030(2) yes
+Mn1 O1 . . 1.854(8) yes
+Mn1 O2 . . 1.886(8) yes
+Mn1 O4 . 7_455 2.0296(18) no

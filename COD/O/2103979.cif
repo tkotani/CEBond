@@ -1,0 +1,577 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 02:53:41 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176768 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/39/2103979.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2103979
+loop_
+_publ_author_name
+'Muessig, E.'
+'Bramnik, K.G.'
+'Ehrenberg, H.'
+_publ_section_title
+;
+ Structural investigation of the Na--Fe--Mo--O system
+;
+_journal_issue                   5
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              611
+_journal_page_last               616
+_journal_paper_doi               10.1107/S0108768103016598
+_journal_volume                  59
+_journal_year                    2003
+_chemical_formula_sum            'Fe2 Mo3 Na O12'
+_chemical_formula_weight         614.51
+_chemical_name_systematic
+;
+ ?
+;
+_space_group_IT_number           2
+_symmetry_space_group_name_Hall  '-P 1'
+_symmetry_space_group_name_H-M   'P -1'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                80.205(6)
+_cell_angle_beta                 83.679(6)
+_cell_angle_gamma                80.818(5)
+_cell_formula_units_Z            2
+_cell_length_a                   6.9253(4)
+_cell_length_b                   6.9513(4)
+_cell_length_c                   11.0600(9)
+_cell_measurement_reflns_used    3616
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      33.55
+_cell_measurement_theta_min      4.43
+_cell_volume                     516.06(6)
+_computing_cell_refinement
+;
+CrysAlis RED (Oxford Diffraction Limited, 2001)
+;
+_computing_data_collection
+;
+CrysAlis CCD (Oxford Diffraction Limited, 2001)
+;
+_computing_data_reduction
+;
+CrysAlis RED (Oxford Diffraction Limited, 2001)
+;
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measured_fraction_theta_full 0.666
+_diffrn_measured_fraction_theta_max 0.666
+_diffrn_measurement_device_type
+;
+Oxford Diffraction Xcalibur (TM) Single Crystal X-ray Diffractometer
+with Sapphire CCD detector
+;
+_diffrn_measurement_method
+;
+Rotation method data acquisition using omega and phi scans(s)
+;
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0274
+_diffrn_reflns_av_sigmaI/netI    0.0262
+_diffrn_reflns_limit_h_max       9
+_diffrn_reflns_limit_h_min       -10
+_diffrn_reflns_limit_k_max       10
+_diffrn_reflns_limit_k_min       -9
+_diffrn_reflns_limit_l_max       14
+_diffrn_reflns_limit_l_min       -14
+_diffrn_reflns_number            4259
+_diffrn_reflns_theta_full        33.55
+_diffrn_reflns_theta_max         33.55
+_diffrn_reflns_theta_min         4.43
+_exptl_absorpt_coefficient_mu    6.389
+_exptl_absorpt_correction_T_max  0.56512
+_exptl_absorpt_correction_T_min  0.32067
+_exptl_absorpt_correction_type   'numeric analytical'
+_exptl_crystal_colour            black
+_exptl_crystal_density_diffrn    3.955
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       prism
+_exptl_crystal_F_000             570
+_exptl_crystal_size_max          0.20
+_exptl_crystal_size_mid          0.11
+_exptl_crystal_size_min          0.10
+_refine_diff_density_max         0.982
+_refine_diff_density_min         -2.026
+_refine_ls_extinction_coef       0.0156(8)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_ref   1.138
+_refine_ls_hydrogen_treatment    mixed
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     164
+_refine_ls_number_reflns         2705
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.138
+_refine_ls_R_factor_all          0.0358
+_refine_ls_R_factor_gt           0.0311
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0365P)^2^+2.6710P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0787
+_refine_ls_wR_factor_ref         0.0805
+_reflns_number_gt                2454
+_reflns_number_total             2705
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            os5002.cif
+_cod_data_source_block           (2)
+_cod_original_sg_symbol_H-M      P-1
+_cod_database_code               2103979
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, -y, -z'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_occupancy
+_atom_site_type_symbol
+Mo1 -0.24084(5) 0.10003(5) -0.14829(4) 0.00931(11) Uani d 1 Mo
+Mo2 -0.29352(6) 0.28215(6) 0.18759(4) 0.01106(11) Uani d 1 Mo
+Mo3 0.27507(5) 0.29702(6) -0.45490(4) 0.00914(11) Uani d 1 Mo
+Fe1 -0.18523(10) 0.17115(10) -0.49169(6) 0.01079(15) Uani d 1 Fe
+Fe2 -0.22673(9) -0.22574(9) 0.11109(6) 0.00912(14) Uani d 1 Fe
+Na1 -0.1449(5) -0.4105(4) -0.1825(5) 0.0754(15) Uani d 1 Na
+O1 -0.1854(5) -0.1492(5) -0.0730(3) 0.0134(7) Uani d 1 O
+O2 -0.2019(5) 0.4883(5) 0.0913(3) 0.0157(7) Uani d 1 O
+O3 -0.0680(5) 0.2519(5) -0.1270(4) 0.0157(7) Uani d 1 O
+O4 -0.4820(5) 0.2054(5) -0.1055(4) 0.0173(7) Uani d 1 O
+O5 -0.1598(5) 0.2336(6) 0.3193(4) 0.0192(8) Uani d 1 O
+O6 -0.2230(6) 0.0876(6) -0.3043(4) 0.0228(8) Uani d 1 O
+O7 0.5182(5) 0.2093(6) -0.4969(4) 0.0226(8) Uani d 1 O
+O8 0.1231(5) 0.1336(5) -0.4939(3) 0.0152(7) Uani d 1 O
+O9 0.2497(6) 0.2997(6) -0.2949(4) 0.0224(8) Uani d 1 O
+O10 0.2104(6) 0.5362(5) -0.5330(4) 0.0225(8) Uani d 1 O
+O11 -0.5392(5) 0.3423(6) 0.2296(4) 0.0218(8) Uani d 1 O
+O12 -0.2560(6) 0.0662(5) 0.1151(4) 0.0214(8) Uani d 1 O
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Mo1 0.00706(17) 0.00943(17) 0.0108(2) -0.00111(13) -0.00230(13) 0.00097(14)
+Mo2 0.00997(18) 0.00875(17) 0.0142(2) -0.00137(13) -0.00341(14) 0.00057(14)
+Mo3 0.00863(17) 0.00980(16) 0.0097(2) -0.00336(13) -0.00204(13) -0.00078(14)
+Fe1 0.0094(3) 0.0104(3) 0.0122(3) -0.0004(2) -0.0025(2) -0.0008(2)
+Fe2 0.0077(3) 0.0086(3) 0.0110(3) -0.0014(2) -0.0024(2) 0.0001(2)
+Na1 0.0297(16) 0.0267(14) 0.183(5) 0.0092(13) -0.046(2) -0.041(2)
+O1 0.0159(16) 0.0120(14) 0.0113(16) -0.0004(12) -0.0033(13) 0.0006(13)
+O2 0.0202(17) 0.0115(14) 0.0149(17) -0.0024(13) 0.0014(14) -0.0028(13)
+O3 0.0100(14) 0.0149(15) 0.0237(19) -0.0048(12) -0.0047(14) -0.0019(14)
+O4 0.0106(15) 0.0161(16) 0.024(2) -0.0016(13) -0.0008(14) 0.0004(15)
+O5 0.0148(16) 0.0212(17) 0.0204(19) 0.0001(14) -0.0051(15) 0.0002(15)
+O6 0.030(2) 0.0234(18) 0.0132(18) 0.0004(16) -0.0043(16) -0.0001(15)
+O7 0.0120(16) 0.030(2) 0.026(2) -0.0044(15) 0.0009(15) -0.0068(17)
+O8 0.0135(15) 0.0153(15) 0.0188(18) -0.0055(13) -0.0057(14) -0.0023(14)
+O9 0.028(2) 0.030(2) 0.0112(18) -0.0100(17) 0.0012(15) -0.0045(16)
+O10 0.027(2) 0.0138(16) 0.025(2) -0.0044(15) -0.0050(17) 0.0028(16)
+O11 0.0124(16) 0.0275(19) 0.024(2) -0.0026(14) -0.0009(15) 0.0002(17)
+O12 0.0253(19) 0.0093(14) 0.031(2) -0.0063(14) -0.0037(17) -0.0022(15)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Na Na 0.0362 0.0249 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Fe Fe 0.3463 0.8444 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Mo Mo -1.6832 0.6857 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+O6 Mo1 O4 . . 108.08(19)
+O6 Mo1 O3 . . 106.7(2)
+O4 Mo1 O3 . . 111.02(17)
+O6 Mo1 O1 . . 105.78(17)
+O4 Mo1 O1 . . 111.94(17)
+O3 Mo1 O1 . . 112.94(16)
+O6 Mo1 Na1 . 1_565 95.89(17)
+O4 Mo1 Na1 . 1_565 83.46(13)
+O3 Mo1 Na1 . 1_565 35.37(12)
+O1 Mo1 Na1 . 1_565 147.05(13)
+O6 Mo1 Na1 . . 72.39(16)
+O4 Mo1 Na1 . . 119.37(13)
+O3 Mo1 Na1 . . 127.24(12)
+O1 Mo1 Na1 . . 33.64(14)
+Na1 Mo1 Na1 1_565 . 156.39(14)
+O11 Mo2 O5 . . 109.94(19)
+O11 Mo2 O12 . . 109.6(2)
+O5 Mo2 O12 . . 108.85(18)
+O11 Mo2 O2 . . 109.98(18)
+O5 Mo2 O2 . . 105.78(18)
+O12 Mo2 O2 . . 112.66(18)
+O11 Mo2 Na1 . 2 144.94(16)
+O5 Mo2 Na1 . 2 57.77(16)
+O12 Mo2 Na1 . 2 105.49(15)
+O2 Mo2 Na1 . 2 53.43(14)
+O7 Mo3 O10 . . 110.3(2)
+O7 Mo3 O9 . . 108.2(2)
+O10 Mo3 O9 . . 109.7(2)
+O7 Mo3 O8 . . 108.16(18)
+O10 Mo3 O8 . . 109.98(18)
+O9 Mo3 O8 . . 110.52(18)
+O7 Fe1 O6 1_455 . 88.97(17)
+O7 Fe1 O5 1_455 1_554 88.46(16)
+O6 Fe1 O5 . 1_554 174.82(17)
+O7 Fe1 O10 1_455 2_564 88.11(17)
+O6 Fe1 O10 . 2_564 89.94(17)
+O5 Fe1 O10 1_554 2_564 94.47(16)
+O7 Fe1 O8 1_455 . 177.76(16)
+O6 Fe1 O8 . . 93.26(16)
+O5 Fe1 O8 1_554 . 89.30(15)
+O10 Fe1 O8 2_564 . 92.16(15)
+O7 Fe1 O8 1_455 2_554 99.01(15)
+O6 Fe1 O8 . 2_554 87.28(15)
+O5 Fe1 O8 1_554 2_554 88.69(15)
+O10 Fe1 O8 2_564 2_554 172.30(15)
+O8 Fe1 O8 . 2_554 80.84(15)
+O9 Fe2 O4 2 2_455 91.60(17)
+O9 Fe2 O12 2 . 94.29(17)
+O4 Fe2 O12 2_455 . 89.91(16)
+O9 Fe2 O1 2 . 176.27(16)
+O4 Fe2 O1 2_455 . 92.06(15)
+O12 Fe2 O1 . . 85.01(16)
+O9 Fe2 O2 2 1_545 90.58(16)
+O4 Fe2 O2 2_455 1_545 88.68(15)
+O12 Fe2 O2 . 1_545 174.97(17)
+O1 Fe2 O2 . 1_545 90.21(15)
+O9 Fe2 O3 2 2 85.24(16)
+O4 Fe2 O3 2_455 2 176.83(16)
+O12 Fe2 O3 . 2 90.59(15)
+O1 Fe2 O3 . 2 91.10(15)
+O2 Fe2 O3 1_545 2 91.08(15)
+O9 Fe2 Na1 2 2_545 73.06(15)
+O4 Fe2 Na1 2_455 2_545 136.17(12)
+O12 Fe2 Na1 . 2_545 131.06(13)
+O1 Fe2 Na1 . 2_545 104.66(14)
+O2 Fe2 Na1 1_545 2_545 51.85(12)
+O3 Fe2 Na1 2 2_545 42.42(11)
+O11 Na1 O3 2_455 1_545 108.48(19)
+O11 Na1 O1 2_455 . 91.64(18)
+O3 Na1 O1 1_545 . 133.0(3)
+O11 Na1 O2 2_455 2 171.0(3)
+O3 Na1 O2 1_545 2 71.10(14)
+O1 Na1 O2 . 2 82.74(15)
+O11 Na1 O5 2_455 2 123.8(2)
+O3 Na1 O5 1_545 2 113.73(17)
+O1 Na1 O5 . 2 85.72(16)
+O2 Na1 O5 2 2 62.96(13)
+O11 Na1 O2 2_455 1_545 100.5(2)
+O3 Na1 O2 1_545 1_545 70.95(18)
+O1 Na1 O2 . 1_545 63.72(17)
+O2 Na1 O2 2 1_545 70.76(17)
+O5 Na1 O2 2 1_545 127.07(16)
+O11 Na1 Mo2 2_455 2 151.08(19)
+O3 Na1 Mo2 1_545 2 99.50(13)
+O1 Na1 Mo2 . 2 73.89(12)
+O2 Na1 Mo2 2 2 32.93(9)
+O5 Na1 Mo2 2 2 32.48(9)
+O2 Na1 Mo2 1_545 2 95.34(13)
+O11 Na1 Fe2 2_455 2_545 144.67(16)
+O3 Na1 Fe2 1_545 2_545 36.60(10)
+O1 Na1 Fe2 . 2_545 116.36(16)
+O2 Na1 Fe2 2 2_545 36.75(8)
+O5 Na1 Fe2 2 2_545 81.71(11)
+O2 Na1 Fe2 1_545 2_545 75.90(12)
+Mo2 Na1 Fe2 2 2_545 62.90(5)
+O11 Na1 Mo1 2_455 1_545 82.35(14)
+O3 Na1 Mo1 1_545 1_545 26.38(9)
+O1 Na1 Mo1 . 1_545 140.2(2)
+O2 Na1 Mo1 2 1_545 97.48(12)
+O5 Na1 Mo1 2 1_545 129.88(15)
+O2 Na1 Mo1 1_545 1_545 78.73(12)
+Mo2 Na1 Mo1 2 1_545 124.72(8)
+Fe2 Na1 Mo1 2_545 1_545 62.38(5)
+O11 Na1 Mo1 2_455 . 80.67(13)
+O3 Na1 Mo1 1_545 . 158.4(2)
+O1 Na1 Mo1 . . 25.40(10)
+O2 Na1 Mo1 2 . 96.76(11)
+O5 Na1 Mo1 2 . 73.58(11)
+O2 Na1 Mo1 1_545 . 88.36(13)
+Mo2 Na1 Mo1 2 . 75.73(6)
+Fe2 Na1 Mo1 2_545 . 133.48(10)
+Mo1 Na1 Mo1 1_545 . 156.39(14)
+Mo1 O1 Fe2 . . 122.44(18)
+Mo1 O1 Na1 . . 121.0(2)
+Fe2 O1 Na1 . . 114.6(2)
+Mo2 O2 Fe2 . 1_565 131.6(2)
+Mo2 O2 Na1 . 2 93.64(18)
+Fe2 O2 Na1 1_565 2 91.40(15)
+Mo2 O2 Na1 . 1_565 131.14(18)
+Fe2 O2 Na1 1_565 1_565 91.50(14)
+Na1 O2 Na1 2 1_565 109.24(17)
+Mo1 O3 Fe2 . 2 138.11(19)
+Mo1 O3 Na1 . 1_565 118.24(18)
+Fe2 O3 Na1 2 1_565 100.98(16)
+Mo1 O4 Fe2 . 2_455 150.6(2)
+Mo2 O5 Fe1 . 1_556 143.8(2)
+Mo2 O5 Na1 . 2 89.74(18)
+Fe1 O5 Na1 1_556 2 123.82(19)
+Mo1 O6 Fe1 . . 160.2(3)
+Mo3 O7 Fe1 . 1_655 156.5(3)
+Mo3 O8 Fe1 . . 128.50(19)
+Mo3 O8 Fe1 . 2_554 130.62(18)
+Fe1 O8 Fe1 . 2_554 99.16(15)
+Mo3 O9 Fe2 . 2 164.9(3)
+Mo3 O10 Fe1 . 2_564 140.7(2)
+Mo2 O11 Na1 . 2_455 150.7(3)
+Mo2 O12 Fe2 . . 155.1(3)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+Mo1 O6 . 1.733(4)
+Mo1 O4 . 1.761(3)
+Mo1 O3 . 1.776(4)
+Mo1 O1 . 1.792(3)
+Mo1 Na1 1_565 3.520(3)
+Mo1 Na1 . 3.581(3)
+Mo2 O11 . 1.718(4)
+Mo2 O5 . 1.767(4)
+Mo2 O12 . 1.789(4)
+Mo2 O2 . 1.792(4)
+Mo2 Na1 2 3.290(3)
+Mo3 O7 . 1.738(4)
+Mo3 O10 . 1.752(4)
+Mo3 O9 . 1.761(4)
+Mo3 O8 . 1.797(4)
+Fe1 O7 1_455 2.034(4)
+Fe1 O6 . 2.054(4)
+Fe1 O5 1_554 2.055(4)
+Fe1 O10 2_564 2.076(4)
+Fe1 O8 . 2.108(4)
+Fe1 O8 2_554 2.123(4)
+Fe2 O9 2 2.006(4)
+Fe2 O4 2_455 2.007(4)
+Fe2 O12 . 2.015(4)
+Fe2 O1 . 2.016(4)
+Fe2 O2 1_545 2.015(3)
+Fe2 O3 2 2.044(3)
+Fe2 Na1 2_545 3.366(3)
+Na1 O11 2_455 2.262(5)
+Na1 O3 1_545 2.313(5)
+Na1 O1 . 2.314(5)
+Na1 O2 2 2.648(5)
+Na1 O5 2 2.783(6)
+Na1 O2 1_545 2.987(7)
+Na1 Mo2 2 3.290(3)
+Na1 Fe2 2_545 3.366(3)
+Na1 Mo1 1_545 3.520(3)
+O2 Fe2 1_565 2.015(3)
+O2 Na1 2 2.648(5)
+O2 Na1 1_565 2.987(7)
+O3 Fe2 2 2.044(3)
+O3 Na1 1_565 2.313(5)
+O4 Fe2 2_455 2.007(4)
+O5 Fe1 1_556 2.055(4)
+O5 Na1 2 2.783(6)
+O7 Fe1 1_655 2.034(4)
+O8 Fe1 2_554 2.123(4)
+O9 Fe2 2 2.006(4)
+O10 Fe1 2_564 2.076(4)
+O11 Na1 2_455 2.262(5)
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion_site_symmetry_1
+_geom_torsion_site_symmetry_4
+_geom_torsion
+O6 Mo1 Na1 O11 . 2_455 -72.7(2)
+O4 Mo1 Na1 O11 . 2_455 28.6(3)
+O3 Mo1 Na1 O11 . 2_455 -170.6(2)
+O1 Mo1 Na1 O11 . 2_455 114.4(3)
+Na1 Mo1 Na1 O11 1_565 2_455 -135.5(3)
+O6 Mo1 Na1 O3 . 1_545 170.1(5)
+O4 Mo1 Na1 O3 . 1_545 -88.7(5)
+O3 Mo1 Na1 O3 . 1_545 72.2(5)
+O1 Mo1 Na1 O3 . 1_545 -2.8(4)
+Na1 Mo1 Na1 O3 1_565 1_545 107.3(6)
+O6 Mo1 Na1 O1 . . 172.9(3)
+O4 Mo1 Na1 O1 . . -85.9(3)
+O3 Mo1 Na1 O1 . . 75.0(3)
+Na1 Mo1 Na1 O1 1_565 . 110.1(4)
+O6 Mo1 Na1 O2 . 2 116.0(2)
+O4 Mo1 Na1 O2 . 2 -142.76(19)
+O3 Mo1 Na1 O2 . 2 18.1(3)
+O1 Mo1 Na1 O2 . 2 -56.9(2)
+Na1 Mo1 Na1 O2 1_565 2 53.2(5)
+O6 Mo1 Na1 O5 . 2 56.81(19)
+O4 Mo1 Na1 O5 . 2 158.06(17)
+O3 Mo1 Na1 O5 . 2 -41.1(2)
+O1 Mo1 Na1 O5 . 2 -116.1(2)
+Na1 Mo1 Na1 O5 1_565 2 -6.0(4)
+O6 Mo1 Na1 O2 . 1_545 -173.61(19)
+O4 Mo1 Na1 O2 . 1_545 -72.36(18)
+O3 Mo1 Na1 O2 . 1_545 88.5(2)
+O1 Mo1 Na1 O2 . 1_545 13.5(2)
+Na1 Mo1 Na1 O2 1_565 1_545 123.6(4)
+O6 Mo1 Na1 Mo2 . 2 90.46(17)
+O4 Mo1 Na1 Mo2 . 2 -168.30(15)
+O3 Mo1 Na1 Mo2 . 2 -7.4(2)
+O1 Mo1 Na1 Mo2 . 2 -82.4(2)
+Na1 Mo1 Na1 Mo2 1_565 2 27.7(4)
+O6 Mo1 Na1 Fe2 . 2_545 117.7(3)
+O4 Mo1 Na1 Fe2 . 2_545 -141.1(2)
+O3 Mo1 Na1 Fe2 . 2_545 19.8(3)
+O1 Mo1 Na1 Fe2 . 2_545 -55.2(3)
+Na1 Mo1 Na1 Fe2 1_565 2_545 54.9(6)
+O6 Mo1 Na1 Mo1 . 1_545 -117.2(4)
+O4 Mo1 Na1 Mo1 . 1_545 -16.0(4)
+O3 Mo1 Na1 Mo1 . 1_545 144.9(3)
+O1 Mo1 Na1 Mo1 . 1_545 69.9(4)
+Na1 Mo1 Na1 Mo1 1_565 1_545 180.0
+O6 Mo1 O1 Fe2 . . -169.9(2)
+O4 Mo1 O1 Fe2 . . -52.5(3)
+O3 Mo1 O1 Fe2 . . 73.7(3)
+Na1 Mo1 O1 Fe2 1_565 . 60.9(4)
+Na1 Mo1 O1 Fe2 . . -162.9(4)
+O6 Mo1 O1 Na1 . . -7.0(3)
+O4 Mo1 O1 Na1 . . 110.4(2)
+O3 Mo1 O1 Na1 . . -123.4(2)
+Na1 Mo1 O1 Na1 1_565 . -136.3(3)
+O9 Fe2 O1 Mo1 2 . -93(2)
+O4 Fe2 O1 Mo1 2_455 . 76.2(2)
+O12 Fe2 O1 Mo1 . . -13.5(2)
+O2 Fe2 O1 Mo1 1_545 . 164.9(2)
+O3 Fe2 O1 Mo1 2 . -104.0(2)
+Na1 Fe2 O1 Mo1 2_545 . -144.73(19)
+O9 Fe2 O1 Na1 2 . 103(2)
+O4 Fe2 O1 Na1 2_455 . -87.70(19)
+O12 Fe2 O1 Na1 . . -177.4(2)
+O2 Fe2 O1 Na1 1_545 . 0.99(19)
+O3 Fe2 O1 Na1 2 . 92.08(19)
+Na1 Fe2 O1 Na1 2_545 . 51.4(2)
+O11 Na1 O1 Mo1 2_455 . -64.0(3)
+O3 Na1 O1 Mo1 1_545 . 178.6(2)
+O2 Na1 O1 Mo1 2 . 123.0(2)
+O5 Na1 O1 Mo1 2 . 59.8(2)
+O2 Na1 O1 Mo1 1_545 . -164.9(2)
+Mo2 Na1 O1 Mo1 2 . 90.6(2)
+Fe2 Na1 O1 Mo1 2_545 . 138.3(2)
+Mo1 Na1 O1 Mo1 1_545 . -143.99(19)
+O11 Na1 O1 Fe2 2_455 . 100.2(2)
+O3 Na1 O1 Fe2 1_545 . -17.3(3)
+O2 Na1 O1 Fe2 2 . -72.8(2)
+O5 Na1 O1 Fe2 2 . -136.07(19)
+O2 Na1 O1 Fe2 1_545 . -0.74(15)
+Mo2 Na1 O1 Fe2 2 . -105.27(17)
+Fe2 Na1 O1 Fe2 2_545 . -57.5(3)
+Mo1 Na1 O1 Fe2 1_545 . 20.2(3)
+Mo1 Na1 O1 Fe2 . . 164.2(3)
+O11 Mo2 O2 Fe2 . 1_565 49.5(3)
+O5 Mo2 O2 Fe2 . 1_565 -69.2(3)
+O12 Mo2 O2 Fe2 . 1_565 172.0(2)
+Na1 Mo2 O2 Fe2 2 1_565 -95.1(3)
+O11 Mo2 O2 Na1 . 2 144.57(19)
+O5 Mo2 O2 Na1 . 2 25.90(19)
+O12 Mo2 O2 Na1 . 2 -92.9(2)
+O11 Mo2 O2 Na1 . 1_565 -95.8(2)
+O5 Mo2 O2 Na1 . 1_565 145.5(2)
+O12 Mo2 O2 Na1 . 1_565 26.7(3)
+Na1 Mo2 O2 Na1 2 1_565 119.6(3)
+O6 Mo1 O3 Fe2 . 2 -81.0(3)
+O4 Mo1 O3 Fe2 . 2 161.5(3)
+O1 Mo1 O3 Fe2 . 2 34.8(4)
+Na1 Mo1 O3 Fe2 1_565 2 -157.3(5)
+Na1 Mo1 O3 Fe2 . 2 -0.7(4)
+O6 Mo1 O3 Na1 . 1_565 76.3(3)
+O4 Mo1 O3 Na1 . 1_565 -41.2(3)
+O1 Mo1 O3 Na1 . 1_565 -167.9(2)
+Na1 Mo1 O3 Na1 . 1_565 156.6(3)
+O6 Mo1 O4 Fe2 . 2_455 44.5(5)
+O3 Mo1 O4 Fe2 . 2_455 161.1(4)
+O1 Mo1 O4 Fe2 . 2_455 -71.6(5)
+Na1 Mo1 O4 Fe2 1_565 2_455 138.6(5)
+Na1 Mo1 O4 Fe2 . 2_455 -35.1(5)
+O11 Mo2 O5 Fe1 . 1_556 16.3(4)
+O12 Mo2 O5 Fe1 . 1_556 -103.7(4)
+O2 Mo2 O5 Fe1 . 1_556 135.0(3)
+Na1 Mo2 O5 Fe1 2 1_556 159.5(4)
+O11 Mo2 O5 Na1 . 2 -143.20(17)
+O12 Mo2 O5 Na1 . 2 96.80(18)
+O2 Mo2 O5 Na1 . 2 -24.50(17)
+O4 Mo1 O6 Fe1 . . 83.9(8)
+O3 Mo1 O6 Fe1 . . -35.5(8)
+O1 Mo1 O6 Fe1 . . -156.0(7)
+Na1 Mo1 O6 Fe1 1_565 . -1.1(7)
+Na1 Mo1 O6 Fe1 . . -160.1(8)
+O7 Fe1 O6 Mo1 1_455 . -101.0(7)
+O5 Fe1 O6 Mo1 1_554 . -161.2(13)
+O10 Fe1 O6 Mo1 2_564 . -12.9(7)
+O8 Fe1 O6 Mo1 . . 79.2(7)
+O8 Fe1 O6 Mo1 2_554 . 159.9(7)
+O10 Mo3 O7 Fe1 . 1_655 83.8(7)
+O9 Mo3 O7 Fe1 . 1_655 -36.2(7)
+O8 Mo3 O7 Fe1 . 1_655 -155.9(6)
+O7 Mo3 O8 Fe1 . . -170.7(2)
+O10 Mo3 O8 Fe1 . . -50.2(3)
+O9 Mo3 O8 Fe1 . . 71.1(3)
+O7 Mo3 O8 Fe1 . 2_554 27.5(3)
+O10 Mo3 O8 Fe1 . 2_554 148.0(3)
+O9 Mo3 O8 Fe1 . 2_554 -90.7(3)
+O7 Fe1 O8 Mo3 1_455 . 107(4)
+O6 Fe1 O8 Mo3 . . -79.4(3)
+O5 Fe1 O8 Mo3 1_554 . 105.1(3)
+O10 Fe1 O8 Mo3 2_564 . 10.6(3)
+O8 Fe1 O8 Mo3 2_554 . -166.1(4)
+O7 Fe1 O8 Fe1 1_455 2_554 -86(4)
+O6 Fe1 O8 Fe1 . 2_554 86.71(17)
+O5 Fe1 O8 Fe1 1_554 2_554 -88.79(16)
+O10 Fe1 O8 Fe1 2_564 2_554 176.77(17)
+O8 Fe1 O8 Fe1 2_554 2_554 0.0
+O7 Mo3 O9 Fe2 . 2 -73.6(10)
+O10 Mo3 O9 Fe2 . 2 166.1(9)
+O8 Mo3 O9 Fe2 . 2 44.7(10)
+O7 Mo3 O10 Fe1 . 2_564 -97.0(4)
+O9 Mo3 O10 Fe1 . 2_564 22.1(4)
+O8 Mo3 O10 Fe1 . 2_564 143.8(3)
+O5 Mo2 O11 Na1 . 2_455 -173.1(5)
+O12 Mo2 O11 Na1 . 2_455 -53.5(5)
+O2 Mo2 O11 Na1 . 2_455 70.9(5)
+Na1 Mo2 O11 Na1 2 2_455 125.0(5)
+O11 Mo2 O12 Fe2 . . -79.2(6)
+O5 Mo2 O12 Fe2 . . 41.0(6)
+O2 Mo2 O12 Fe2 . . 158.0(5)
+Na1 Mo2 O12 Fe2 2 . 101.7(6)
+O9 Fe2 O12 Mo2 2 . -2.3(6)
+O4 Fe2 O12 Mo2 2_455 . 89.3(6)
+O1 Fe2 O12 Mo2 . . -178.7(6)
+O2 Fe2 O12 Mo2 1_545 . 162.9(15)
+O3 Fe2 O12 Mo2 2 . -87.6(6)
+Na1 Fe2 O12 Mo2 2_545 . -73.5(6)

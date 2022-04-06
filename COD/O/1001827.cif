@@ -1,0 +1,81 @@
+#------------------------------------------------------------------------------
+#$Date: 2015-01-27 21:58:39 +0200 (Tue, 27 Jan 2015) $
+#$Revision: 130149 $
+#$URL: svn://www.crystallography.net/cod/cif/1/00/18/1001827.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1001827
+loop_
+_publ_author_name
+'Ouchetto, K'
+'Archaimbault, F'
+'Choisnet, J'
+'Et-Tabirou, M'
+_publ_section_title
+;
+New ordered and distorted perovskites: the mixed platinates Ln2 M Pt O6
+(Ln = La, Pr, Nd, Sm, Eu, Gd; M = Mg, Co, Ni, Zn)
+;
+_journal_coden_ASTM              MCHPDR
+_journal_name_full               'Materials Chemistry and Physics'
+_journal_page_first              117
+_journal_page_last               124
+_journal_paper_doi               10.1016/S0254-0584(97)80279-9
+_journal_volume                  51
+_journal_year                    1997
+_chemical_formula_structural     'Pr2 Co (Pt O6)'
+_chemical_formula_sum            'Co O6 Pr2 Pt'
+_chemical_name_systematic        'Dipraseodymium cobalt platinate'
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_Int_Tables_number      14
+_symmetry_space_group_name_Hall  '-P 2yn'
+_symmetry_space_group_name_H-M   'P 1 21/n 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 90.(0)
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   5.4833(1)
+_cell_length_b                   5.7043(1)
+_cell_length_c                   7.7842(1)
+_cell_volume                     243.5
+_refine_ls_R_factor_all          0.049
+_cod_database_code               1001827
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+1/2+x,1/2-y,1/2+z
+-x,-y,-z
+1/2-x,1/2+y,1/2-z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_calc_flag
+Pr1 Pr3+ 4 e 0.5138(8) 0.5603(3) 0.2497(3) 1. 0 d
+Co1 Co2+ 2 d 0.5 0. 0. 0.950(2) 0 d
+Pt1 Pt4+ 2 d 0.5 0. 0. 0.050(2) 0 d
+Co2 Co2+ 2 c 0. 0.5 0. 0.050(2) 0 d
+Pt2 Pt4+ 2 c 0. 0.5 0. 0.950(2) 0 d
+O1 O2- 4 e 0.200(2) 0.214(2) 0.938(2) 1. 0 d
+O2 O2- 4 e 0.294(2) 0.698(2) 0.958(2) 1. 0 d
+O3 O2- 4 e 0.391(2) 0.963(2) 0.257(1) 1. 0 d
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Pr3+ 3.000
+Co2+ 2.000
+Pt4+ 4.000
+O2- -2.000

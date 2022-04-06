@@ -1,0 +1,181 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/97/2009724.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2009724
+loop_
+_publ_author_name
+'Ukei, K.'
+'Suzuki, H.'
+'Shishido, T.'
+'Fukuda, T.'
+_publ_section_title
+;
+ Li~3~NbO~4~
+;
+_journal_issue                   5
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              655
+_journal_page_last               656
+_journal_paper_doi               10.1107/S010827019300890X
+_journal_volume                  50
+_journal_year                    1994
+_chemical_formula_sum            'Li3 Nb O4'
+_chemical_formula_weight         177.73
+_symmetry_cell_setting           cubic
+_symmetry_space_group_name_Hall  'I -4 2 3'
+_symmetry_space_group_name_H-M   'I -4 3 m'
+_atom_type_scat_source           ' IntTabIV and Tokonami (1965) for O atoms'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            8
+_cell_length_a                   8.412(2)
+_cell_length_b                   8.412(2)
+_cell_length_c                   8.412(2)
+_cell_measurement_reflns_used    19
+_cell_measurement_temperature    295(2)
+_cell_measurement_theta_max      31.3
+_cell_measurement_theta_min      30.4
+_cell_volume                     595.2(2)
+_diffrn_measurement_device       'Rigaku AFC-6A'
+_diffrn_measurement_method       2\q-\w
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.019
+_diffrn_reflns_limit_h_max       12
+_diffrn_reflns_limit_h_min       -12
+_diffrn_reflns_limit_k_max       12
+_diffrn_reflns_limit_k_min       -12
+_diffrn_reflns_limit_l_max       12
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            4608
+_diffrn_reflns_theta_max         32.5
+_diffrn_standards_decay_%        <=1.4
+_diffrn_standards_interval_count 100
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    3.69
+_exptl_absorpt_correction_T_max  0.521
+_exptl_absorpt_correction_T_min  0.453
+_exptl_absorpt_correction_type   integration
+_exptl_crystal_colour            Colourless
+_exptl_crystal_density_diffrn    3.967
+_exptl_crystal_description       Cube
+_exptl_crystal_size_max          0.25
+_exptl_crystal_size_mid          0.22
+_exptl_crystal_size_min          0.22
+_refine_diff_density_max         1.3
+_refine_diff_density_min         -1.2
+_refine_ls_extinction_coef       1.86E-4(4)
+_refine_ls_extinction_method     'Zachariasen (1965)'
+_refine_ls_goodness_of_fit_obs   9.85
+_refine_ls_number_parameters     17
+_refine_ls_number_reflns         2283
+_refine_ls_R_factor_obs          0.031
+_refine_ls_shift/esd_max         0.44
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 1/\s^2^(|F~o~|)'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.045
+_reflns_number_observed          2283
+_reflns_number_total             4134
+_reflns_observed_criterion       |F~o~|>=3\s(|F~o~|)
+_cod_data_source_file            oh1036.cif
+_cod_data_source_block           oh1036a
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_cell_measurement_temperature' value 'room' was changed to '295(2)'
+- the room/ambient temperature average [293;298] in Kelvins(K) was
+taken.
+
+Automatic conversion script
+Id: cif_fix_values 1646 2011-03-28 12:23:43Z adriana 
+
+The following automatic conversions were performed:
+
+'_cell_measurement_temperature' value 'room' was changed to '295(2)'
+- the room/ambient temperature average [293;298] in Kelvins(K) was
+taken.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'w = 1/\s^2^(|F~o~|)' was changed
+to 'calc'. New tag '_refine_ls_weighting_details' was created. The
+value of the new tag was set to 'w = 1/\s^2^(|F~o~|)'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        595.2(4)
+_cod_original_formula_sum        'Li3 Nb1 O4'
+_cod_database_code               2009724
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+Nb .14028(3) .14028(3) .14028(3) .0074
+O(1) -.1090(4) -.1090(4) -.1090(4) .0084
+O(2) .1247(3) .1247(3) .3601(3) .0112
+Li .3782(5) .3782(5) .1046(6) .0170(10)
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O(1) Nb O(1) 25 . 26 75.00(10) yes
+O(1) Nb O(2) 25 . 28 164.20(10) yes
+O(2) Nb O(2) . . 28 97.80(10) yes
+O(2) Li O(2) 28 . 33 93.8(2) yes
+O(2) Li O(2) 28 . 31 92.7(2) yes
+O(2) Li O(1) 33 . 30 177.3(2) yes
+O(2) Li O(1) 31 . 30 79.3(2) yes
+Nb O(1) Nb . 25 27 103.2(2) yes
+O(1) Nb O(2) 25 . . 92.60(10) yes
+O(1) Nb O(2) 25 . 29 92.60(10) yes
+O(2) Li O(2) 28 . 29 81.5(2) yes
+O(2) Li O(1) 28 . 30 88.2(2) yes
+O(2) Li O(2) 28 . 32 166.5(3) yes
+O(2) Li O(2) 33 . 31 98.8(2) yes
+O(2) Li O(2) 31 . 32 90.2(2) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Nb Nb 27 3.3381(7) yes
+Nb O(1) 25 2.130(4) yes
+Nb O(1) 27 2.130(4) yes
+Nb O(2) 28 1.858(3) yes
+Li O(2) 28 2.145(5) yes
+Li O(2) 33 2.057(6) yes
+Li O(2) 32 2.095(5) yes
+O(1) O(1) 27 2.593(5) yes
+Nb Li . 2.846(4) yes
+Nb O(1) 27 2.130(4) yes
+Nb O(2) . 1.858(3) yes
+Nb O(2) 29 1.858(3) yes
+Li O(2) 29 2.145(5) yes
+Li O(1) 30 2.414(7) yes
+Li O(2) 32 2.095(5) yes

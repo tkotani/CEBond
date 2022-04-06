@@ -1,0 +1,563 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-13 21:28:24 +0200 (Sat, 13 Feb 2016) $
+#$Revision: 176429 $
+#$URL: svn://www.crystallography.net/cod/cif/4/34/31/4343154.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4343154
+loop_
+_publ_author_name
+'Artini, Cristina'
+'Pani, Marcella'
+'Carnasciali, Maria Maddalena'
+'Buscaglia, Maria Teresa'
+'Plaisier, Jasper Rikkert'
+'Costa, Giorgio Andrea'
+_publ_section_title
+;
+ Structural Features of Sm- and Gd-Doped Ceria Studied by Synchrotron
+ X-ray Diffraction and \m-Raman Spectroscopy.
+;
+_journal_issue                   8
+_journal_name_full               'Inorganic chemistry'
+_journal_page_first              4126
+_journal_page_last               4137
+_journal_paper_doi               10.1021/acs.inorgchem.5b00395
+_journal_volume                  54
+_journal_year                    2015
+_chemical_formula_sum            'Ce0.5 O1.75 Sm0.5'
+_chemical_formula_weight         173.2350
+_chemical_name_common            'Cerium samarium mixed oxide'
+_space_group_IT_number           206
+_symmetry_cell_setting           cubic
+_symmetry_space_group_name_Hall  '-I 2b 2c 3'
+_symmetry_space_group_name_H-M   'I a -3'
+_cell_angle_alpha                90.00000
+_cell_angle_beta                 90.00000
+_cell_angle_gamma                90.00000
+_cell_formula_units_Z            32
+_cell_length_a                   10.91683(11)
+_cell_length_b                   10.91683(11)
+_cell_length_c                   10.91683(11)
+_cell_measurement_temperature    295
+_cell_volume                     1301.04(2)
+_computing_structure_refinement  FULLPROF
+_diffrn_ambient_temperature      295
+_diffrn_detector                 'fast scintillator detector'
+_diffrn_measurement_device_type  'Huber 4-axes X-ray diffractometer'
+_diffrn_measurement_method       '2\q in the range 5-60 deg'
+_diffrn_radiation_wavelength     0.74963
+_diffrn_source                   synchrotron
+_exptl_absorpt_coefficient_mu    42.08
+_exptl_absorpt_correction_type   none
+_pd_char_colour                  white
+_pd_instr_location
+; powder diffraction beamline (MCX) of the Elettra synchrotron radiation
+ facility located in Trieste, Italy
+;
+_pd_meas_2theta_range_inc        0.010000
+_pd_meas_2theta_range_max        60.00000
+_pd_meas_2theta_range_min        9.00000
+_pd_meas_number_of_points        5101
+_pd_meas_scan_method             step
+_pd_prep_pressure                101
+_pd_prep_temperature             1173
+_pd_proc_2theta_range_inc        0.010000
+_pd_proc_2theta_range_max        60.0000
+_pd_proc_2theta_range_min        9.0000
+_pd_proc_ls_background_function
+;
+linear interpolation between a set of background points with refinable heights
+;
+_pd_proc_ls_profile_function     Pseudo-Voigt
+_pd_proc_ls_prof_R_factor        8.4084
+_pd_proc_ls_prof_wR_expected     9.0217
+_pd_proc_ls_prof_wR_factor       13.1553
+_pd_proc_wavelength              0.749630
+_pd_spec_mounting
+' quartz capillary tube with inner diameter of 0.5 mm '
+_pd_spec_mount_mode              transmission
+_pd_spec_shape                   cylinder
+_pd_spec_size_axial              20
+_pd_spec_size_equat              0.5
+_refine_ls_goodness_of_fit_all   1.46
+_refine_ls_number_parameters     85
+_refine_ls_number_reflns         288
+_refine_ls_number_restraints     0
+_refine_ls_R_I_factor            4.1364
+_refine_ls_shift/su_max          0.1
+_cod_data_source_file            ic5b00395_si_002.cif
+_cod_data_source_block           Sm50_1173
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Cubic' changed to 'cubic' according
+to
+/usr/data/users/saulius/crontab/automatic-downloads/current/ACS/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 from 2011-04-26.
+
+Automatic conversion script
+Id: cif_fix_values 3271 2015-04-21 07:52:19Z andrius 
+;
+_cod_original_formula_sum        'Ce0.5  O1.75 Sm0.5'
+_cod_database_code               4343154
+#BEGIN Tags that were not found in dictionaries:
+_pd_proc_ls_prof_cr_factor       13.5718
+_pd_proc_ls_prof_cwr_factor      18.0012
+_pd_proc_ls_prof_cwr_expected    12.3448
+_pd_proc_ls_prof_chi2            2.1263
+_pd_proc_ls_prof_echi2           1.9300
+#END Tags that were not found in dictionaries
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x+1/2,-y+1/2,-z
+-x,y+1/2,-z+1/2
+-x+1/2,-y,z+1/2
+y,z,x
+-y+1/2,-z,x+1/2
+y+1/2,-z+1/2,-x
+-y,z+1/2,-x+1/2
+z,x,y
+-z,x+1/2,-y+1/2
+-z+1/2,-x,y+1/2
+z+1/2,-x+1/2,-y
+-x,-y,-z
+-x+1/2,y+1/2,z
+x,-y+1/2,z+1/2
+x+1/2,y,-z+1/2
+-y,-z,-x
+y+1/2,z,-x+1/2
+-y+1/2,z+1/2,x
+y,-z+1/2,x+1/2
+-z,-x,-y
+z,-x+1/2,y+1/2
+z+1/2,x,-y+1/2
+-z+1/2,x+1/2,y
+x+1/2,y+1/2,z+1/2
+x,-y,-z+1/2
+-x+1/2,y,-z
+-x,-y+1/2,z
+y+1/2,z+1/2,x+1/2
+-y,-z+1/2,x
+y,-z,-x+1/2
+-y+1/2,z,-x
+z+1/2,x+1/2,y+1/2
+-z+1/2,x,-y
+-z,-x+1/2,y
+z,-x,-y+1/2
+-x+1/2,-y+1/2,-z+1/2
+-x,y,z+1/2
+x+1/2,-y,z
+x,y+1/2,-z
+-y+1/2,-z+1/2,-x+1/2
+y,z+1/2,-x
+-y,z,x+1/2
+y+1/2,-z,x
+-z+1/2,-x+1/2,-y+1/2
+z+1/2,-x,y
+z,x+1/2,-y
+-z,x,y+1/2
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+_atom_site_adp_type
+_atom_site_type_symbol
+Ce1 0.26542(9) 0.00000 0.25000 0.00000 0.50000 Uiso Ce
+Sm1 0.26542(9) 0.00000 0.25000 0.00000 0.50000 Uiso Sm
+Ce2 0.00000 0.00000 0.00000 0.00000 0.50000 Uiso Ce
+Sm2 0.00000 0.00000 0.00000 0.00000 0.50000 Uiso Sm
+O1 0.1125(13) 0.3614(11) 0.1293(18) 0.00000 1.00000 Uiso O
+O2 0.1483(19) 0.1483(19) 0.1483(19) 0.00000 0.62(3) Uiso O
+loop_
+_atom_type_symbol
+_atom_type_scat_Cromer_Mann_a1
+_atom_type_scat_Cromer_Mann_b1
+_atom_type_scat_Cromer_Mann_a2
+_atom_type_scat_Cromer_Mann_b2
+_atom_type_scat_Cromer_Mann_a3
+_atom_type_scat_Cromer_Mann_b3
+_atom_type_scat_Cromer_Mann_a4
+_atom_type_scat_Cromer_Mann_b4
+_atom_type_scat_Cromer_Mann_c
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+ce 21.16710 2.81219 19.76950 0.22684 11.85130 17.60830 3.33049 127.11300
+1.86264 -0.56400 2.63200
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+sm 24.00420 2.47274 19.42580 0.19645 13.43960 14.39960 2.89604 128.00700
+2.20963 -0.53300 3.44200
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+o 3.04850 13.27710 2.28680 5.70110 1.54630 0.32390 0.86700 32.90890 0.25080
+0.00800 0.00600
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+O1 Ce1 O1 108.2(11) 5_555 9_555
+O1 Ce1 O1 77.1(7) 5_555 14_545
+O1 Ce1 O1 126.1(12) 5_555 31_555
+O1 Ce1 O1 106.1(9) 5_555 36_555
+O1 Ce1 O1 73.8(10) 5_555 37_555
+O1 Ce1 O2 61.2(9) 5_555 1_555
+O1 Ce1 O2 167.7(14) 5_555 26_555
+O1 Ce1 O1 172.3(12) 9_555 14_545
+O1 Ce1 O1 106.1(9) 9_555 31_555
+O1 Ce1 O1 98.6(10) 9_555 36_555
+O1 Ce1 O1 74.4(8) 9_555 37_555
+O1 Ce1 O2 61.6(10) 9_555 1_555
+O1 Ce1 O2 76.3(10) 9_555 26_555
+O1 Ce1 O1 73.8(10) 14_545 31_555
+O1 Ce1 O1 74.4(8) 14_545 36_555
+O1 Ce1 O1 112.8(10) 14_545 37_555
+O1 Ce1 O2 118.5(12) 14_545 1_555
+O1 Ce1 O2 97.3(12) 14_545 26_555
+O1 Ce1 O1 108.2(11) 31_555 36_555
+O1 Ce1 O1 77.1(7) 31_555 37_555
+O1 Ce1 O2 167.7(14) 31_555 1_555
+O1 Ce1 O2 61.2(9) 31_555 26_555
+O1 Ce1 O1 172.3(12) 36_555 37_555
+O1 Ce1 O2 76.3(10) 36_555 1_555
+O1 Ce1 O2 61.6(10) 36_555 26_555
+O1 Ce1 O2 97.3(12) 37_555 1_555
+O1 Ce1 O2 118.5(12) 37_555 26_555
+O2 Ce1 O2 113.8(14) 1_555 26_555
+O1 Sm1 O1 108.2(11) 5_555 9_555
+O1 Sm1 O1 77.1(7) 5_555 14_545
+O1 Sm1 O1 126.1(12) 5_555 31_555
+O1 Sm1 O1 106.1(9) 5_555 36_555
+O1 Sm1 O1 73.8(10) 5_555 37_555
+O1 Sm1 O2 61.2(9) 5_555 1_555
+O1 Sm1 O2 167.7(14) 5_555 26_555
+O1 Sm1 O1 172.3(12) 9_555 14_545
+O1 Sm1 O1 106.1(9) 9_555 31_555
+O1 Sm1 O1 98.6(10) 9_555 36_555
+O1 Sm1 O1 74.4(8) 9_555 37_555
+O1 Sm1 O2 61.6(10) 9_555 1_555
+O1 Sm1 O2 76.3(10) 9_555 26_555
+O1 Sm1 O1 73.8(10) 14_545 31_555
+O1 Sm1 O1 74.4(8) 14_545 36_555
+O1 Sm1 O1 112.8(10) 14_545 37_555
+O1 Sm1 O2 118.5(12) 14_545 1_555
+O1 Sm1 O2 97.3(12) 14_545 26_555
+O1 Sm1 O1 108.2(11) 31_555 36_555
+O1 Sm1 O1 77.1(7) 31_555 37_555
+O1 Sm1 O2 167.7(14) 31_555 1_555
+O1 Sm1 O2 61.2(9) 31_555 26_555
+O1 Sm1 O1 172.3(12) 36_555 37_555
+O1 Sm1 O2 76.3(10) 36_555 1_555
+O1 Sm1 O2 61.6(10) 36_555 26_555
+O1 Sm1 O2 97.3(12) 37_555 1_555
+O1 Sm1 O2 118.5(12) 37_555 26_555
+O2 Sm1 O2 113.8(14) 1_555 26_555
+O1 Ce2 O1 104.6(10) 28_555 32_555
+O1 Ce2 O1 104.6(9) 28_555 36_555
+O1 Ce2 O1 180.0(12) 28_555 40_545
+O1 Ce2 O1 75.4(7) 28_555 44_455
+O1 Ce2 O1 75.4(10) 28_555 48_554
+O1 Ce2 O2 66.0(8) 28_555 1_555
+O1 Ce2 O2 114.0(11) 28_555 13_555
+O1 Ce2 O1 104.6(10) 32_555 36_555
+O1 Ce2 O1 75.4(7) 32_555 40_545
+O1 Ce2 O1 180.0(11) 32_555 44_455
+O1 Ce2 O1 75.4(8) 32_555 48_554
+O1 Ce2 O2 66.0(9) 32_555 1_555
+O1 Ce2 O2 114.0(11) 32_555 13_555
+O1 Ce2 O1 75.4(10) 36_555 40_545
+O1 Ce2 O1 75.4(8) 36_555 44_455
+O1 Ce2 O1 180.0(12) 36_555 48_554
+O1 Ce2 O2 66.0(8) 36_555 1_555
+O1 Ce2 O2 114.0(12) 36_555 13_555
+O1 Ce2 O1 104.6(10) 40_545 44_455
+O1 Ce2 O1 104.6(9) 40_545 48_554
+O1 Ce2 O2 114.0(11) 40_545 1_555
+O1 Ce2 O2 66.0(8) 40_545 13_555
+O1 Ce2 O1 104.6(10) 44_455 48_554
+O1 Ce2 O2 114.0(11) 44_455 1_555
+O1 Ce2 O2 66.0(9) 44_455 13_555
+O1 Ce2 O2 114.0(12) 48_554 1_555
+O1 Ce2 O2 66.0(8) 48_554 13_555
+O2 Ce2 O2 180.0(13) 1_555 13_555
+O1 Sm2 O1 104.6(10) 28_555 32_555
+O1 Sm2 O1 104.6(9) 28_555 36_555
+O1 Sm2 O1 180.0(12) 28_555 40_545
+O1 Sm2 O1 75.4(7) 28_555 44_455
+O1 Sm2 O1 75.4(10) 28_555 48_554
+O1 Sm2 O2 66.0(8) 28_555 1_555
+O1 Sm2 O2 114.0(11) 28_555 13_555
+O1 Sm2 O1 104.6(10) 32_555 36_555
+O1 Sm2 O1 75.4(7) 32_555 40_545
+O1 Sm2 O1 180.0(11) 32_555 44_455
+O1 Sm2 O1 75.4(8) 32_555 48_554
+O1 Sm2 O2 66.0(9) 32_555 1_555
+O1 Sm2 O2 114.0(11) 32_555 13_555
+O1 Sm2 O1 75.4(10) 36_555 40_545
+O1 Sm2 O1 75.4(8) 36_555 44_455
+O1 Sm2 O1 180.0(12) 36_555 48_554
+O1 Sm2 O2 66.0(8) 36_555 1_555
+O1 Sm2 O2 114.0(12) 36_555 13_555
+O1 Sm2 O1 104.6(10) 40_545 44_455
+O1 Sm2 O1 104.6(9) 40_545 48_554
+O1 Sm2 O2 114.0(11) 40_545 1_555
+O1 Sm2 O2 66.0(8) 40_545 13_555
+O1 Sm2 O1 104.6(10) 44_455 48_554
+O1 Sm2 O2 114.0(11) 44_455 1_555
+O1 Sm2 O2 66.0(9) 44_455 13_555
+O1 Sm2 O2 114.0(12) 48_554 1_555
+O1 Sm2 O2 66.0(8) 48_554 13_555
+O2 Sm2 O2 180.0(13) 1_555 13_555
+Ce1 O1 Ce1 120.4(6) 5_555 9_555
+Ce1 O1 Ce1 106.1(5) 5_555 14_555
+Ce1 O1 Sm1 120.4(6) 5_555 9_555
+Ce1 O1 Sm1 106.1(5) 5_555 14_555
+Ce1 O1 Ce2 116.3(6) 5_555 28_555
+Ce1 O1 Sm2 116.3(6) 5_555 28_555
+Ce1 O1 O1 128.5(8) 5_555 19_555
+Ce1 O1 O1 137.1(10) 5_555 22_554
+Ce1 O1 O1 54.9(8) 5_555 41_555
+Ce1 O1 O1 124.5(8) 5_555 45_555
+Ce1 O1 O2 60.5(9) 5_555 1_555
+Ce1 O1 O2 52.8(8) 5_555 28_555
+Ce1 O1 Ce1 105.0(5) 9_555 14_555
+Ce1 O1 Sm1 120.4(6) 9_555 5_555
+Ce1 O1 Sm1 105.0(5) 9_555 14_555
+Ce1 O1 Ce2 105.0(5) 9_555 28_555
+Ce1 O1 Sm2 105.0(5) 9_555 28_555
+Ce1 O1 O1 110.4(7) 9_555 19_555
+Ce1 O1 O1 52.9(7) 9_555 22_554
+Ce1 O1 O1 123.9(10) 9_555 41_555
+Ce1 O1 O1 54.7(7) 9_555 45_555
+Ce1 O1 O2 60.1(9) 9_555 1_555
+Ce1 O1 O2 132.4(11) 9_555 28_555
+Ce1 O1 Sm1 106.1(5) 14_555 5_555
+Ce1 O1 Sm1 105.0(5) 14_555 9_555
+Ce1 O1 Ce2 102.0(5) 14_555 28_555
+Ce1 O1 Sm2 102.0(5) 14_555 28_555
+Ce1 O1 O1 49.9(6) 14_555 19_555
+Ce1 O1 O1 116.6(10) 14_555 22_554
+Ce1 O1 O1 51.5(7) 14_555 41_555
+Ce1 O1 O1 50.7(6) 14_555 45_555
+Ce1 O1 O2 118.5(11) 14_555 1_555
+Ce1 O1 O2 122.3(10) 14_555 28_555
+Sm1 O1 Sm1 120.4(6) 5_555 9_555
+Sm1 O1 Sm1 106.1(5) 5_555 14_555
+Sm1 O1 Ce2 116.3(6) 5_555 28_555
+Sm1 O1 Sm2 116.3(6) 5_555 28_555
+Sm1 O1 O1 128.5(8) 5_555 19_555
+Sm1 O1 O1 137.1(10) 5_555 22_554
+Sm1 O1 O1 54.9(8) 5_555 41_555
+Sm1 O1 O1 124.5(8) 5_555 45_555
+Sm1 O1 O2 60.5(9) 5_555 1_555
+Sm1 O1 O2 52.8(8) 5_555 28_555
+Sm1 O1 Sm1 105.0(5) 9_555 14_555
+Sm1 O1 Ce2 105.0(5) 9_555 28_555
+Sm1 O1 Sm2 105.0(5) 9_555 28_555
+Sm1 O1 O1 110.4(7) 9_555 19_555
+Sm1 O1 O1 52.9(7) 9_555 22_554
+Sm1 O1 O1 123.9(10) 9_555 41_555
+Sm1 O1 O1 54.7(7) 9_555 45_555
+Sm1 O1 O2 60.1(9) 9_555 1_555
+Sm1 O1 O2 132.4(11) 9_555 28_555
+Sm1 O1 Ce2 102.0(5) 14_555 28_555
+Sm1 O1 Sm2 102.0(5) 14_555 28_555
+Sm1 O1 O1 49.9(6) 14_555 19_555
+Sm1 O1 O1 116.6(10) 14_555 22_554
+Sm1 O1 O1 51.5(7) 14_555 41_555
+Sm1 O1 O1 50.7(6) 14_555 45_555
+Sm1 O1 O2 118.5(11) 14_555 1_555
+Sm1 O1 O2 122.3(10) 14_555 28_555
+Ce2 O1 O1 52.3(6) 28_555 19_555
+Ce2 O1 O1 52.3(7) 28_555 22_554
+Ce2 O1 O1 127.7(10) 28_555 41_555
+Ce2 O1 O1 117.7(8) 28_555 45_555
+Ce2 O1 O2 138.9(12) 28_555 1_555
+Ce2 O1 O2 63.7(8) 28_555 28_555
+Sm2 O1 O1 52.3(6) 28_555 19_555
+Sm2 O1 O1 52.3(7) 28_555 22_554
+Sm2 O1 O1 127.7(10) 28_555 41_555
+Sm2 O1 O1 117.7(8) 28_555 45_555
+Sm2 O1 O2 138.9(12) 28_555 1_555
+Sm2 O1 O2 63.7(8) 28_555 28_555
+O1 O1 O1 80.6(9) 19_555 22_554
+O1 O1 O1 91.0(9) 19_555 41_555
+O1 O1 O1 78.8(7) 19_555 45_555
+O1 O1 O2 164.9(12) 19_555 1_555
+O1 O1 O2 97.9(10) 19_555 28_555
+O1 O1 O1 167.9(13) 22_554 41_555
+O1 O1 O1 87.9(10) 22_554 45_555
+O1 O1 O2 99.9(12) 22_554 1_555
+O1 O1 O2 97.9(11) 22_554 28_555
+O1 O1 O1 82.0(9) 41_555 45_555
+O1 O1 O2 86.1(11) 41_555 1_555
+O1 O1 O2 91.7(11) 41_555 28_555
+O1 O1 O2 86.1(10) 45_555 1_555
+O1 O1 O2 172.8(12) 45_555 28_555
+O2 O1 O2 97.0(12) 1_555 28_555
+Ce1 O2 Ce1 116.5(7) 1_555 5_555
+Ce1 O2 Ce1 116.5(7) 1_555 9_555
+Ce1 O2 Sm1 116.5(7) 1_555 5_555
+Ce1 O2 Sm1 116.5(7) 1_555 9_555
+Ce1 O2 Ce2 100.9(7) 1_555 1_555
+Ce1 O2 Sm2 100.9(7) 1_555 1_555
+Ce1 O2 O1 144.1(10) 1_555 1_555
+Ce1 O2 O1 58.8(9) 1_555 5_555
+Ce1 O2 O1 57.9(9) 1_555 9_555
+Ce1 O2 O1 123.6(9) 1_555 28_555
+Ce1 O2 O1 116.3(10) 1_555 32_555
+Ce1 O2 O1 50.8(8) 1_555 36_555
+Ce1 O2 Ce1 116.5(7) 5_555 9_555
+Ce1 O2 Sm1 116.5(7) 5_555 1_555
+Ce1 O2 Sm1 116.5(7) 5_555 9_555
+Ce1 O2 Ce2 100.9(7) 5_555 1_555
+Ce1 O2 Sm2 100.9(7) 5_555 1_555
+Ce1 O2 O1 57.9(9) 5_555 1_555
+Ce1 O2 O1 144.1(11) 5_555 5_555
+Ce1 O2 O1 58.8(9) 5_555 9_555
+Ce1 O2 O1 50.8(8) 5_555 28_555
+Ce1 O2 O1 123.6(11) 5_555 32_555
+Ce1 O2 O1 116.3(9) 5_555 36_555
+Ce1 O2 Sm1 116.5(7) 9_555 1_555
+Ce1 O2 Sm1 116.5(7) 9_555 5_555
+Ce1 O2 Ce2 100.9(7) 9_555 1_555
+Ce1 O2 Sm2 100.9(7) 9_555 1_555
+Ce1 O2 O1 58.8(9) 9_555 1_555
+Ce1 O2 O1 57.9(9) 9_555 5_555
+Ce1 O2 O1 144.1(12) 9_555 9_555
+Ce1 O2 O1 116.3(9) 9_555 28_555
+Ce1 O2 O1 50.8(8) 9_555 32_555
+Ce1 O2 O1 123.6(9) 9_555 36_555
+Sm1 O2 Sm1 116.5(7) 1_555 5_555
+Sm1 O2 Sm1 116.5(7) 1_555 9_555
+Sm1 O2 Ce2 100.9(7) 1_555 1_555
+Sm1 O2 Sm2 100.9(7) 1_555 1_555
+Sm1 O2 O1 144.1(10) 1_555 1_555
+Sm1 O2 O1 58.8(9) 1_555 5_555
+Sm1 O2 O1 57.9(9) 1_555 9_555
+Sm1 O2 O1 123.6(9) 1_555 28_555
+Sm1 O2 O1 116.3(10) 1_555 32_555
+Sm1 O2 O1 50.8(8) 1_555 36_555
+Sm1 O2 Sm1 116.5(7) 5_555 9_555
+Sm1 O2 Ce2 100.9(7) 5_555 1_555
+Sm1 O2 Sm2 100.9(7) 5_555 1_555
+Sm1 O2 O1 57.9(9) 5_555 1_555
+Sm1 O2 O1 144.1(11) 5_555 5_555
+Sm1 O2 O1 58.8(9) 5_555 9_555
+Sm1 O2 O1 50.8(8) 5_555 28_555
+Sm1 O2 O1 123.6(11) 5_555 32_555
+Sm1 O2 O1 116.3(9) 5_555 36_555
+Sm1 O2 Ce2 100.9(7) 9_555 1_555
+Sm1 O2 Sm2 100.9(7) 9_555 1_555
+Sm1 O2 O1 58.8(9) 9_555 1_555
+Sm1 O2 O1 57.9(9) 9_555 5_555
+Sm1 O2 O1 144.1(12) 9_555 9_555
+Sm1 O2 O1 116.3(9) 9_555 28_555
+Sm1 O2 O1 50.8(8) 9_555 32_555
+Sm1 O2 O1 123.6(9) 9_555 36_555
+Ce2 O2 O1 114.9(9) 1_555 1_555
+Ce2 O2 O1 114.9(9) 1_555 5_555
+Ce2 O2 O1 114.9(11) 1_555 9_555
+Ce2 O2 O1 50.3(7) 1_555 28_555
+Ce2 O2 O1 50.3(8) 1_555 32_555
+Ce2 O2 O1 50.3(7) 1_555 36_555
+Sm2 O2 O1 114.9(9) 1_555 1_555
+Sm2 O2 O1 114.9(9) 1_555 5_555
+Sm2 O2 O1 114.9(11) 1_555 9_555
+Sm2 O2 O1 50.3(7) 1_555 28_555
+Sm2 O2 O1 50.3(8) 1_555 32_555
+Sm2 O2 O1 50.3(7) 1_555 36_555
+O1 O2 O1 103.5(11) 1_555 5_555
+O1 O2 O1 103.5(12) 1_555 9_555
+O1 O2 O1 82.3(9) 1_555 28_555
+O1 O2 O1 88.7(11) 1_555 32_555
+O1 O2 O1 164.6(11) 1_555 36_555
+O1 O2 O1 103.5(13) 5_555 9_555
+O1 O2 O1 164.6(12) 5_555 28_555
+O1 O2 O1 82.3(11) 5_555 32_555
+O1 O2 O1 88.7(10) 5_555 36_555
+O1 O2 O1 88.7(11) 9_555 28_555
+O1 O2 O1 164.6(15) 9_555 32_555
+O1 O2 O1 82.3(11) 9_555 36_555
+O1 O2 O1 83.6(10) 28_555 32_555
+O1 O2 O1 83.6(9) 28_555 36_555
+O1 O2 O1 83.6(10) 32_555 36_555
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Ce1 O1 2.312(16) 5_555
+Ce1 O1 2.279(15) 9_555
+Ce1 O1 2.409(15) 14_545
+Ce1 O1 2.312(16) 31_555
+Ce1 O1 2.279(15) 36_555
+Ce1 O1 2.409(15) 37_555
+Ce1 O2 2.34(2) 1_555
+Ce1 O2 2.34(2) 26_555
+Sm1 O1 2.312(16) 5_555
+Sm1 O1 2.279(15) 9_555
+Sm1 O1 2.409(15) 14_545
+Sm1 O1 2.312(16) 31_555
+Sm1 O1 2.279(15) 36_555
+Sm1 O1 2.409(15) 37_555
+Sm1 O2 2.34(2) 1_555
+Sm1 O2 2.34(2) 26_555
+Ce2 O1 2.406(16) 28_555
+Ce2 O1 2.406(15) 32_555
+Ce2 O1 2.406(16) 36_555
+Ce2 O1 2.406(16) 40_545
+Ce2 O1 2.406(15) 44_455
+Ce2 O1 2.406(16) 48_554
+Ce2 O2 2.80(2) 1_555
+Ce2 O2 2.80(2) 13_555
+Sm2 O1 2.406(16) 28_555
+Sm2 O1 2.406(15) 32_555
+Sm2 O1 2.406(16) 36_555
+Sm2 O1 2.406(16) 40_545
+Sm2 O1 2.406(15) 44_455
+Sm2 O1 2.406(16) 48_554
+Sm2 O2 2.80(2) 1_555
+Sm2 O2 2.80(2) 13_555
+O1 Ce1 2.279(16) 5_555
+O1 Ce1 2.312(16) 9_555
+O1 Ce1 2.409(15) 14_555
+O1 Sm1 2.279(16) 5_555
+O1 Sm1 2.312(16) 9_555
+O1 Sm1 2.409(15) 14_555
+O1 Ce2 2.406(16) 28_555
+O1 Sm2 2.406(16) 28_555
+O1 O1 2.944(17) 19_555
+O1 O1 2.94(3) 22_554
+O1 O1 2.83(3) 41_555
+O1 O1 2.83(2) 45_555
+O1 O2 2.37(2) 1_555
+O1 O2 2.86(3) 28_555
+O2 Ce1 2.34(2) 1_555
+O2 Ce1 2.34(2) 5_555
+O2 Ce1 2.34(2) 9_555
+O2 Sm1 2.34(2) 1_555
+O2 Sm1 2.34(2) 5_555
+O2 Sm1 2.34(2) 9_555
+O2 Ce2 2.80(2) 1_555
+O2 Sm2 2.80(2) 1_555
+O2 O1 2.37(2) 1_555
+O2 O1 2.37(3) 5_555
+O2 O1 2.37(3) 9_555
+O2 O1 2.86(3) 28_555
+O2 O1 2.86(3) 32_555
+O2 O1 2.86(2) 36_555

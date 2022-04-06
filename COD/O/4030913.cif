@@ -1,0 +1,199 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-04-18 01:20:03 +0300 (Mon, 18 Apr 2016) $
+#$Revision: 182188 $
+#$URL: svn://www.crystallography.net/cod/cif/4/03/09/4030913.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4030913
+loop_
+_publ_author_name
+'Knorr, K.'
+'Jakubus, P.'
+'Walczak, J.'
+'Filipek, E.'
+_publ_section_title
+;
+ The structure of CrVMoO~7~
+;
+_journal_coden_ASTM              EJSCE5
+_journal_issue                   2
+_journal_name_full
+;
+ European Journal of Solid State and Inorganic Chemistry
+;
+_journal_page_first              161
+_journal_page_last               171
+_journal_paper_doi               10.1016/S0992-4361(98)80194-X
+_journal_volume                  35
+_journal_year                    1998
+_chemical_formula_sum            'Cr Mo O7 V'
+_chemical_formula_weight         310.873
+_space_group_IT_number           2
+_symmetry_cell_setting           triclinic
+_symmetry_Int_Tables_number      2
+_symmetry_space_group_name_Hall  '-P 1'
+_symmetry_space_group_name_H-M   'P -1'
+_cell_angle_alpha                96.143(6)
+_cell_angle_beta                 89.847(6)
+_cell_angle_gamma                101.942(6)
+_cell_formula_units_Z            2
+_cell_length_a                   5.531(1)
+_cell_length_b                   6.585(1)
+_cell_length_c                   7.864(1)
+_cell_volume                     278.56(8)
+_diffrn_ambient_temperature      293
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_type           CuK\a
+_diffrn_radiation_wavelength     1.54051
+_exptl_crystal_density_diffrn    3.706
+_exptl_crystal_F_000             290
+_pd_proc_ls_prof_R_factor        0.087
+_pd_proc_ls_prof_wR_factor       0.112
+_refine_ls_number_reflns         585
+_cod_data_source_file            EJSSIC-1998-35-161-171.cif
+_cod_data_source_block           CrVMoO7
+_cod_depositor_comments
+;
+Rietveld refinements, Fullprof software
+;
+_cod_original_cell_volume        278.561
+_cod_database_code               4030913
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -x,-y,-z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_thermal_displace_type
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Mo Mo Uiso 0.3000(10) 0.2110(10) 0.1085(6) 1.000 0.030(3) . . . .
+Cr Cr Uiso 0.162(2) 0.6860(10) 0.5960(10) 1.000 0.034(5) . . . .
+V V Uiso 0.691(2) 0.7600(10) 0.3350(10) 1.000 0.028(6) . . . .
+O1 O Uiso 0.907(6) 0.634(4) 0.423(4) 1.000 0.025(4) . . . .
+O2 O Uiso 0.212(4) -0.004(4) 0.615(3) 1.000 0.025(4) . . . .
+O3 O Uiso 0.773(4) 0.044(4) 0.900(3) 1.000 0.025(4) . . . .
+O4 O Uiso 0.651(5) 0.703(4) 0.099(4) 1.000 0.025(4) . . . .
+O5 O Uiso 0.405(6) 0.689(4) 0.410(3) 1.000 0.025(4) . . . .
+O6 O Uiso 0.442(6) 0.700(4) 0.756(3) 1.000 0.025(4) . . . .
+O7 O Uiso 0.947(6) 0.694(4) 0.784(3) 1.000 0.025(4) . . . .
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Cr Cr -0.1635 2.4439 ' International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Mo Mo -0.0483 2.7339 ' International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0492 0.0322 ' International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+V V 0.0687 2.1097 ' International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O3 Mo O4 112.0(12) 2_656 . 2_665 yes
+O3 Mo O6 108.2(12) 2_656 . 2_666 yes
+O3 Mo O7 106.3(12) 2_656 . 2_666 yes
+O4 Mo O6 112.4(13) 2_665 . 2_666 yes
+O4 Mo O7 112.2(12) 2_665 . 2_666 yes
+O6 Mo O7 105.3(13) 2_666 . 2_666 yes
+O5 Cr O6 86.8(12) . . . yes
+O1 Cr O5 87.9(13) 1_455 . . yes
+O5 Cr O7 176.1(14) . . 1_455 yes
+O2 Cr O5 90.8(11) 1_565 . . yes
+O1 Cr O5 91.1(12) 2_666 . . yes
+O1 Cr O6 170.8(12) 1_455 . . yes
+O6 Cr O7 89.9(13) . . 1_455 yes
+O2 Cr O6 91.9(11) 1_565 . . yes
+O1 Cr O6 90.1(12) 2_666 . . yes
+O1 Cr O7 95.7(14) 1_455 . 1_455 yes
+O1 Cr O2 95.7(11) 1_455 . 1_565 yes
+O1 Cr O1 82.5(12) 1_455 . 2_666 yes
+O2 Cr O7 87.3(11) 1_565 . 1_455 yes
+O1 Cr O7 90.9(12) 2_666 . 1_455 yes
+O1 Cr O2 177.3(13) 2_666 . 1_565 yes
+O1 V O4 113.8(14) . . . yes
+O1 V O5 113.1(14) . . . yes
+O1 V O2 106.7(13) . . 2_666 yes
+O4 V O5 104.4(13) . . . yes
+O2 V O4 109.9(12) 2_666 . . yes
+O2 V O5 109.1(13) 2_666 . . yes
+Cr O1 V 140.2(16) 1_655 . . yes
+Cr O1 V 119.5(17) 2_666 . . yes
+Cr O1 Cr 97.5(13) 1_655 . 2_666 yes
+Cr O2 V 164.7(15) 1_545 . 2_666 yes
+Mo O4 V 149.2(16) 2_665 . . yes
+Cr O5 V 151.6(16) . . . yes
+Mo O6 Cr 163.5(16) 2_666 . . yes
+Mo O7 Cr 150.7(16) 2_666 . 1_655 yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Mo O3 1.64(3) . 2_656 yes
+Mo O4 1.79(3) . 2_665 yes
+Mo O6 1.75(3) . 2_666 yes
+Mo O7 1.79(3) . 2_666 yes
+Cr O5 1.98(3) . . yes
+Cr O6 1.98(3) . . yes
+Cr O1 1.92(3) . 1_455 yes
+Cr O7 1.90(3) . 1_455 yes
+Cr O2 1.99(3) . 1_565 yes
+Cr O1 2.05(3) . 2_666 yes
+V O1 1.77(3) . . yes
+V O4 1.86(3) . . yes
+V O5 1.68(3) . . yes
+V O2 1.59(3) . 2_666 yes
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion
+_geom_torsion_site_symmetry_1
+_geom_torsion_site_symmetry_2
+_geom_torsion_site_symmetry_3
+_geom_torsion_site_symmetry_4
+_geom_torsion_publ_flag
+O6 Cr O5 V -31(4) . . . . no
+O1 Cr O5 V 157(4) 1_455 . . . no
+O2 Cr O5 V 61(4) 1_565 . . . no
+O1 Cr O5 V -121(4) 2_666 . . . no
+O5 Cr O1 V -110(3) . . 1_455 1_455 no
+O5 Cr O1 V 77(2) . . 2_666 2_666 no
+O6 Cr O1 V -10(2) . . 2_666 2_666 no
+O4 V O1 Cr 141(3) . . . 1_655 no
+O4 V O1 Cr -63(2) . . . 2_666 no
+O5 V O1 Cr -100(3) . . . 1_655 no
+O5 V O1 Cr 56(2) . . . 2_666 no
+O2 V O1 Cr 20(3) 2_666 . . 1_655 no
+O2 V O1 Cr 175.3(16) 2_666 . . 2_666 no
+O1 V O4 Mo -108(3) . . . 2_665 no
+O5 V O4 Mo 128(3) . . . 2_665 no
+O2 V O4 Mo 11(4) 2_666 . . 2_665 no
+O1 V O5 Cr 69(4) . . . . no
+O4 V O5 Cr -166(3) . . . . no
+O2 V O5 Cr -49(4) 2_666 . . . no

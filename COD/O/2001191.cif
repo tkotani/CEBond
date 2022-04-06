@@ -1,0 +1,245 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/11/2001191.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2001191
+loop_
+_publ_author_name
+'Euzen, P.'
+'Leone, P.'
+'Gueho, C.'
+'Palvadeau, P.'
+_publ_section_title
+;
+ Structure of NdMn~2~O~5~
+;
+_journal_issue                   11
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              1875
+_journal_page_last               1877
+_journal_paper_doi               10.1107/S0108270193003221
+_journal_volume                  49
+_journal_year                    1993
+_chemical_formula_sum            'Mn2 Nd O5'
+_chemical_formula_weight         334
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2 2ab'
+_symmetry_space_group_name_H-M   'P b a m'
+_atom_type_scat_source           IntTabIV
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   7.4710(10)
+_cell_length_b                   8.588(2)
+_cell_length_c                   5.6840(10)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      35
+_cell_measurement_theta_min      2
+_cell_volume                     364.69(12)
+_diffrn_measurement_device       'Nonius CAD-4'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71069
+_diffrn_reflns_av_R_equivalents  0.028
+_diffrn_reflns_limit_h_max       9
+_diffrn_reflns_limit_h_min       -9
+_diffrn_reflns_limit_k_max       9
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       13
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            1086
+_diffrn_reflns_theta_max         35
+_diffrn_standards_decay_%        0.7
+_diffrn_standards_interval_time  60
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    20.5455
+_exptl_absorpt_correction_T_max  1.213
+_exptl_absorpt_correction_T_min  0.955
+_exptl_absorpt_correction_type   'empirical (DIFABS; Walker & Stuart, 1983)'
+_exptl_crystal_colour            black
+_exptl_crystal_density_diffrn    6.1
+_exptl_crystal_description       stick
+_exptl_crystal_size_max          0.2
+_exptl_crystal_size_mid          0.03
+_exptl_crystal_size_min          0.02
+_refine_diff_density_max         '-1.080 at (0.3320,0.4570,0.4160)'
+_refine_diff_density_min         '-1.237 at (0.0596,0.3176,0.4994)'
+_refine_ls_extinction_coef       3.46E-7
+_refine_ls_extinction_method     DIFABS
+_refine_ls_number_parameters     45
+_refine_ls_number_reflns         444
+_refine_ls_R_factor_obs          0.020
+_refine_ls_shift/esd_max         0.00
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 1/{1+[(F-31)/21]^2^}'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.021
+_reflns_number_observed          938
+_reflns_number_total             617
+_reflns_observed_criterion       I>3\s(I)
+_cod_data_source_file            du1038.cif
+_cod_data_source_block           du1038_structure_1_of_1
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value '1/{1+[(F-31)/21]^2^}' was
+changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to 'w =
+1/{1+[(F-31)/21]^2^}'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        364.70(10)
+_cod_original_formula_sum        'Mn2 Nd1 O5'
+_cod_database_code               2001191
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Nd .14247(6) .17269(6) .0
+Mn(1) .0 .5 .2581(2)
+Mn(2) .4103(2) .3518(2) .5
+O(1) .0 .0 .2760(10)
+O(2) .1562(9) .4490(6) .0
+O(3) .1536(8) .4360(7) .5
+O(4) .4023 .2063(4) .2500(7)
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+Nd Nd Mn(1) 119.80(10) yes
+Nd Nd Mn(2) 69.25(2) yes
+Nd Nd O(1) 40.70(10) yes
+Nd Nd O(2) 73.70(10) yes
+Nd Nd O(2) 146.80(10) yes
+Nd Nd O(4) 124.30(10) yes
+Nd Nd O(4) 85.40(9) yes
+Mn(1) Nd Mn(1) 52.04(3) yes
+Mn(1) Nd Mn(2) 60.91(3) yes
+Mn(1) Nd Mn(2) 105.14(3) yes
+Mn(1) Nd O(1) 95.24(7) yes
+Mn(1) Nd O(1) 131.53(2) yes
+Mn(1) Nd O(2) 149.08(8) yes
+Mn(1) Nd O(2) 34.32(7) yes
+Mn(1) Nd O(4) 84.10(10) yes
+Mn(1) Nd O(4) 34.65(9) yes
+Mn(1) Nd O(4) 70.90(10) yes
+Mn(1) Nd Mn(2) 105.14(3) yes
+Mn(1) Nd Mn(2) 60.91(3) yes
+Mn(1) Nd O(1) 131.53(2) yes
+Mn(1) Nd O(1) 95.24(7) yes
+Mn(2) Nd Mn(2) 116.84(3) yes
+Mn(2) Nd O(1) 34.52(8) yes
+Mn(2) Nd O(1) 106.60(10) yes
+Mn(2) Nd O(2) 105.72(7) yes
+Mn(2) Nd O(2) 94.90(7) yes
+Mn(2) Nd O(4) 85.67(9) yes
+Mn(2) Nd O(4) 97.84(9) yes
+MN2 Nd O(4) 157.46(9) yes
+Mn(2) Nd O(4) 97.84(9) yes
+O(1) Nd O(1) 81.3(2) yes
+O(1) Nd O(2) 77.70(10) yes
+O(1) Nd O(2) 129.40(10) yes
+O(1) Nd O(4) 92.60(10) yes
+O(1) Nd O(4) 64.60(10) yes
+O(1) Nd O(4) 107.90(10) yes
+O(1) Nd O(2) 129.40(10) yes
+O(1) Nd O(4) 144.10(10) yes
+O(1) Nd O(4) 107.90(10) yes
+O(2) Nd O(2) 139.5(2) yes
+O(2) Nd O(4) 66.40(10) yes
+O(2) Nd O(4) 140.00(10) yes
+O(2) Nd O(4) 81.20(10) yes
+O(2) Nd O(4) 67.50(10) yes
+O(4) Nd O(4) 101.00(10) yes
+O(4) Nd O(4) 148.70(10) yes
+O(4) Nd O(4) 68.80(10) yes
+Nd Mn(1) Nd 127.96(4) yes
+Nd Mn(1) Mn(1) 116.02(2) yes
+Nd Mn(1) O(2) 92.9(2) yes
+Nd Mn(1) O(2) 44.1(2) yes
+Nd Mn(1) O(3) 139.8(2) yes
+Nd Mn(1) O(3) 83.1(2) yes
+Nd Mn(1) O(4) 130.20(10) yes
+Nd Mn(1) O(4) 48.20(10) yes
+Mn(1) Mn(1) O(2) 139.60(10) yes
+Mn(1) Mn(1) O(3) 42.80(10) yes
+Mn(1) Mn(1) O(4) 91.40(10) yes
+O(2) Mn(1) O(2) 80.7(2) yes
+O(2) Mn(1) O(3) 97.0(2) yes
+O(2) Mn(1) O(3) 175.9(3) yes
+O(2) Mn(1) O(4) 90.1(2) yes
+O(2) Mn(1) O(4) 87.8(2) yes
+O(3) Mn(1) O(3) 85.6(2) yes
+O(3) Mn(1) O(4) 88.9(2) yes
+O(3) Mn(1) O(4) 93.2(2) yes
+Nd Mn(2) Nd 116.83(3) yes
+Nd Mn O(1) 115.20(10) yes
+Nd Mn(2) O(1) 45.20(10) yes
+Nd Mn(2) O(3) 120.58(3) yes
+Nd Mn(2) O(4) 127.90(10) yes
+Nd Mn(2) O(3) 120.58(3) yes
+Nd Mn(2) O(4) 48.30(10) yes
+O(1) Mn(2) O(1) 83.1(2) yes
+O(1) Mn(2) O(3) 95.3(2) yes
+O(1) Mn(2) O(4) 87.2(2) yes
+O(1) Mn(2) O(3) 95.3(2) yes
+O(1) Mn(2) O(4) 161.10(10) yes
+O(3) Mn(2) O(4) 101.7(2) yes
+Nd O(1) Nd 98.7(2) yes
+Nd O(1) Mn(2) 133.31(3) yes
+Nd O(1) Mn(2) 100.26(4) yes
+Mn(2) O(1) Mn(2) 96.9(3) yes
+Nd O(2) Nd 144.4(2) yes
+Nd O(2) Mn(1) 101.2(3) yes
+Nd O(2) Mn(1) 101.6(2) yes
+Mn(1) O(2) Mn(1) 99.3(2) yes
+Mn(1) O(3) Mn(1) 94.4(3) yes
+Mn(1) O(3) Mn(2) 132.60(10) yes
+Nd O(4) Nd 106.80(10) yes
+Nd O(4) Mn(1) 102.1(2) yes
+Nd O(4) Mn(2) 123.0(2) yes
+Nd O(4) Mn(1) 97.10(10) yes
+Nd O(4) Mn(2) 97.4(2) yes
+Mn(1) O(4) Mn(2) 125.5(2) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Nd Nd 3.6510(7) yes
+Nd Mn(1) 3.3447(7) yes
+Nd Mn(2) 3.3362(6) yes
+Nd O(1) 2.407(4) yes
+Nd O(2) 2.440(7) yes
+Nd O(2) 2.375(8) yes
+Nd O(4) 2.423(3) yes
+Mn(1) Mn(2) 3.3860(10) yes
+Mn(1) Mn(2) 3.5930(10) yes
+Nd O(4) 2.514(4) yes
+Mn(1) Mn(1) 2.750(2) yes
+Mn(1) O(2) 1.925(4) yes
+Mn(1) O(3) 1.874(4) yes
+Mn(1) O(3) 1.873(4) yes
+Mn(1) O(4) 1.916(4) yes
+Mn(2) O(1) 1.921(4) yes
+Mn(2) O(3) 2.050(6) yes
+Mn(2) O(4) 1.894(4) yes
+Mn(1) Mn(2) 3.5930(10) yes
+Mn(2) Mn(2) 2.878(2) yes

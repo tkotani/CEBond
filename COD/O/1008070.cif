@@ -1,0 +1,83 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/1/00/80/1008070.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1008070
+loop_
+_publ_author_name
+'Muller, J'
+'Joubert, J C'
+'Marezio, M'
+_publ_section_title
+;
+Etude des phases du systeme Fe V O~4~ - V O~2~, obtenues par synthese
+hydrothermale a 70 kbar et 1273k
+;
+_journal_coden_ASTM              JSSCBI
+_journal_name_full               'Journal of Solid State Chemistry'
+_journal_page_first              357
+_journal_page_last               362
+_journal_paper_doi               10.1016/0022-4596(76)90118-3
+_journal_volume                  18
+_journal_year                    1976
+_chemical_formula_structural     'Fe0.75 V0.75 V0.5 O4'
+_chemical_formula_sum            'Fe0.75 O4 V1.25'
+_chemical_name_systematic
+;
+Iron vanadium oxide (.8/1.3/4) - prepared at 70kbar and 1273K
+;
+_space_group_IT_number           2
+_symmetry_cell_setting           triclinic
+_symmetry_Int_Tables_number      2
+_symmetry_space_group_name_Hall  '-P 1'
+_symmetry_space_group_name_H-M   'P -1'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   4.49
+_cell_length_b                   5.55
+_cell_length_c                   4.88
+_cell_volume                     121.6
+_exptl_crystal_pressure_history  'prepared at 70kbar'
+_exptl_crystal_thermal_history   'prepared at 70kbar and 1273K'
+_refine_ls_R_factor_all          0.048
+_cod_original_formula_sum        'Fe.75 O4 V1.25'
+_cod_database_code               1008070
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_calc_flag
+V1 V5+ 2 i 0.9996(2) 0.1700(2) 0.2524(2) 0.625 0 d
+Fe1 Fe3+ 2 i 0.9996(2) 0.1700(2) 0.2524(2) 0.375 0 d
+V2 V5+ 2 i 0.4997(2) 0.6697(2) 0.2475(2) 0.625 0 d
+Fe2 Fe3+ 2 i 0.4997(2) 0.6697(2) 0.2475(2) 0.375 0 d
+O1 O2- 2 i 0.2659(7) 0.3790(6) 0.4160(6) 1. 0 d
+O2 O2- 2 i 0.2306(7) 0.1190(6) 0.9151(6) 1. 0 d
+O3 O2- 2 i 0.2658(7) 0.6215(6) 0.9154(6) 1. 0 d
+O4 O2- 2 i 0.7635(7) 0.1206(6) 0.5848(6) 1. 0 d
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+V5+ 4.600
+Fe3+ 3.000
+O2- -2.000

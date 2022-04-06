@@ -1,0 +1,390 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-16 03:10:39 +0200 (Tue, 16 Feb 2016) $
+#$Revision: 176453 $
+#$URL: svn://www.crystallography.net/cod/cif/7/20/48/7204805.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7204805
+loop_
+_publ_author_name
+'Laura Le\'on-Reina'
+'Enrique R. Losilla'
+'Mar\'ia Mart\'inez-Lara'
+'Sebasti\'an Bruque'
+'Miguel A. G. Aranda'
+_publ_section_title
+;
+ Interstitial oxygen conduction in lanthanum oxy-apatite electrolytes
+;
+_journal_issue                   7
+_journal_name_full               'J. Mater. Chem.'
+_journal_page_first              1142
+_journal_page_last               1149
+_journal_paper_doi               10.1039/b315257j
+_journal_volume                  14
+_journal_year                    2004
+_chemical_formula_sum            'Ge La1.6 O4.41'
+_chemical_formula_weight         365.40
+_chemical_name_systematic        ' ?'
+_space_group_IT_number           176
+_symmetry_cell_setting           hexagonal
+_symmetry_space_group_name_Hall  '-P 6c'
+_symmetry_space_group_name_H-M   'P 63/m'
+_audit_creation_date             2003-09-18T17:10
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_audit_update_record
+' 2003-09-18T17:10  Initial CIF as created by GSAS2CIF'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                120.0
+_cell_formula_units_Z            6
+_cell_length_a                   10.00745(28)
+_cell_length_b                   10.00745
+_cell_length_c                   7.33341(22)
+_cell_volume                     636.04(3)
+_computing_structure_refinement  GSAS
+_diffrn_radiation_probe          neutron
+_diffrn_radiation_wavelength     1.88604
+_exptl_absorpt_correction_T_max  1.00000
+_exptl_absorpt_correction_T_min  1.00000
+_exptl_absorpt_process_details
+;
+GSAS Absorption/surface roughness correction: function number 0
+No correction is applied.
+;
+_pd_block_id
+2003-09-18T17:10|La960Ge_1173K|La960Ge_1173K|HRPT
+_pd_calc_method                  'Rietveld Refinement'
+_pd_phase_name
+'from C:/users/leon/La960GeGe_sinQ/La960Ge(O4).EXP'
+_pd_proc_info_datetime           2003-09-18T17:10:41
+_pd_proc_ls_background_function
+;   GSAS Background function number 1 with 20 terms.
+Shifted Chebyshev function of 1st kind
+1:    4480.34     2:    1486.73     3:   -252.024     4:   -41.6234
+5:    196.354     6:   -90.1996     7:    131.306     8:    54.5032
+9:   -86.9946    10:   -2.25287    11:    67.1059    12:   -63.7134
+13:   -23.8562    14:    99.2931    15:    11.6076    16:   -61.3141
+17:   -10.3926    18:    14.1177    19:   -20.2926    20:    1.73966
+;
+_pd_proc_ls_peak_cutoff          0.00500
+_pd_proc_ls_profile_function
+;
+CW Profile function number 2 with  18 terms
+Profile coefficients for Simpson's rule integration of pseudovoigt function
+C.J. Howard (1982). J. Appl. Cryst.,15,615-620.
+P. Thompson, D.E. Cox & J.B. Hastings (1987). J. Appl. Cryst.,20,79-83.
+Peak tails are ignored  where the intensity is below 0.0050 times the peak
+Aniso. broadening axis   0.0   0.0   1.0
+;
+_pd_proc_ls_prof_R_factor        0.0242
+_pd_proc_ls_prof_wR_expected     0.0134
+_pd_proc_ls_prof_wR_factor       0.0319
+_refine_ls_goodness_of_fit_all   2.42
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     71
+_refine_ls_number_restraints     0
+_refine_ls_R_Fsqd_factor         0.41286
+_refine_ls_shift/su_max          1.42
+_refine_ls_shift/su_mean         0.11
+_cod_data_source_file            b315257j.txt
+_cod_data_source_block           La960Ge_1173K_publ
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_geom_angle_publ_flag' value 'N' changed to 'n' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (137
+times).
+
+'_geom_bond_publ_flag' value 'N' changed to 'n' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (62 times).
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+;
+_cod_original_cell_volume        636.03766
+_cod_original_formula_sum        'Ge La1.60 O4.41'
+_cod_database_code               7204805
+#BEGIN Tags that were not found in dictionaries:
+_gsas_exptl_extinct_corr_t_min   1.00000
+_gsas_exptl_extinct_corr_t_max   1.00000
+#END Tags that were not found in dictionaries
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 x-y,+x,+z+1/2
+3 -y,x-y,+z
+4 -x,-y,+z+1/2
+5 y-x,-x,+z
+6 +y,y-x,+z+1/2
+-1 -x,-y,-z
+-2 y-x,-x,-z+1/2
+-3 +y,y-x,-z
+-4 +x,+y,-z+1/2
+-5 x-y,+x,-z
+-6 -y,x-y,-z+1/2
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_22
+_atom_site_aniso_U_23
+_atom_site_aniso_U_33
+La1 0.0376(17) 0.0120(15) 0.0 0.0276(16) 0.0 0.0381(13)
+La2 0.0489(17) 0.0245(8) 0.0 0.0489(17) 0.0 0.0340(23)
+Ge 0.0282(16) 0.0136(13) 0.0 0.0308(16) 0.0 0.0359(14)
+O1 0.099(4) 0.0620(34) 0.0 0.0714(35) 0.0 0.0513(31)
+O2 0.0424(24) 0.0160(23) 0.0 0.0355(26) 0.0 0.088(4)
+O3 0.130(4) 0.0548(23) -0.0447(24) 0.0578(24) -0.0204(19) 0.0630(23)
+O4 0.0382(30) 0.0191(15) 0.0 0.0382(30) 0.0 0.179(10)
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+LA La1 0.22891(27) -0.0104(4) 0.25 1.0 Uani 0.03636 6
+LA La2 0.3333 0.6667 0.0018(6) 0.9 Uani 0.04393 4
+GE Ge 0.40024(32) 0.37335(29) 0.25 1.0 Uani 0.0322 6
+O O1 0.3175(5) 0.4902(5) 0.25 1.0 Uani 0.06511 6
+O O2 0.6017(4) 0.4730(4) 0.25 1.0 Uani 0.0569 6
+O O3 0.3417(5) 0.2525(4) 0.0632(4) 1.0 Uani 0.0803 12
+O O4 0.0 0.0 0.25 0.981(15) Uani 0.08524 2
+O O5 0.003(9) 0.224(8) 0.589(6) 0.041(5) Uiso 0.03 12
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+_atom_type_scat_length_neutron
+_atom_type_scat_source
+LA 9.6 0.8240 International_Tables_Vol_C
+GE 6.0 0.8185 International_Tables_Vol_C
+O 26.458 0.5803 International_Tables_Vol_C
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O2 La1 O3 70.32(15) 3_655 . 1_555 n
+O2 La1 O3 84.45(10) 3_655 . 6_555 n
+O2 La1 O3 84.45(10) 3_655 . -3_555 n
+O2 La1 O3 70.32(15) 3_655 . -4_556 n
+O2 La1 O4 150.00(19) 3_655 . 1_555 n
+O2 La1 O5 141.2(13) 3_655 . 4_554 n
+O2 La1 O5 91.7(12) 3_655 . 5_555 n
+O2 La1 O5 92.9(16) 3_655 . 6_554 n
+O2 La1 O5 141.2(13) 3_655 . -1_556 n
+O2 La1 O5 91.7(12) 3_655 . -2_556 n
+O2 La1 O5 92.9(16) 3_655 . -3_556 n
+O3 La1 O3 136.87(16) 1_555 . 6_555 n
+O3 La1 O3 77.12(7) 1_555 . -3_555 n
+O3 La1 O3 61.85(14) 1_555 . -4_556 n
+O3 La1 O4 84.10(12) 1_555 . 1_555 n
+O3 La1 O5 110.6(12) 1_555 . 4_554 n
+O3 La1 O5 119.2(18) 1_555 . 5_555 n
+O3 La1 O5 23.4(15) 1_555 . 6_554 n
+O3 La1 O5 146.3(12) 1_555 . -1_556 n
+O3 La1 O5 57.4(18) 1_555 . -2_556 n
+O3 La1 O5 62.9(10) 1_555 . -3_556 n
+O3 La1 O3 135.93(24) 6_555 . -3_555 n
+O3 La1 O3 77.12(7) 6_555 . -4_556 n
+O3 La1 O4 105.36(11) 6_555 . 1_555 n
+O3 La1 O5 110.9(13) 6_555 . 4_554 n
+O3 La1 O5 25.0(17) 6_555 . 5_555 n
+O3 La1 O5 138.1(10) 6_555 . 6_554 n
+O3 La1 O5 59.4(13) 6_555 . -1_556 n
+O3 La1 O5 160.9(19) 6_555 . -2_556 n
+O3 La1 O5 84.9(10) 6_555 . -3_556 n
+O3 La1 O3 136.87(16) -3_555 . -4_556 n
+O3 La1 O4 105.36(11) -3_555 . 1_555 n
+O3 La1 O5 59.4(13) -3_555 . 4_554 n
+O3 La1 O5 160.9(19) -3_555 . 5_555 n
+O3 La1 O5 84.9(10) -3_555 . 6_554 n
+O3 La1 O5 110.9(13) -3_555 . -1_556 n
+O3 La1 O5 25.0(17) -3_555 . -2_556 n
+O3 La1 O5 138.1(10) -3_555 . -3_556 n
+O3 La1 O4 84.10(12) -4_556 . 1_555 n
+O3 La1 O5 146.3(12) -4_556 . 4_554 n
+O3 La1 O5 57.4(18) -4_556 . 5_555 n
+O3 La1 O5 62.9(10) -4_556 . 6_554 n
+O3 La1 O5 110.6(12) -4_556 . -1_556 n
+O3 La1 O5 119.2(18) -4_556 . -2_556 n
+O3 La1 O5 23.4(15) -4_556 . -3_556 n
+O4 La1 O5 62.2(12) 1_555 . 4_554 n
+O4 La1 O5 87.3(13) 1_555 . 5_555 n
+O4 La1 O5 60.7(16) 1_555 . 6_554 n
+O4 La1 O5 62.2(12) 1_555 . -1_556 n
+O4 La1 O5 87.3(13) 1_555 . -2_556 n
+O4 La1 O5 60.7(16) 1_555 . -3_556 n
+O5 La1 O5 117.5(24) 4_554 . 5_555 n
+O5 La1 O5 97.1(24) 4_554 . 6_554 n
+O5 La1 O5 55.6(27) 4_554 . -1_556 n
+O5 La1 O5 62.0(13) 4_554 . -2_556 n
+O5 La1 O5 122.8(21) 4_554 . -3_556 n
+O5 La1 O5 114.0(24) 5_555 . 6_554 n
+O5 La1 O5 62.0(13) 5_555 . -1_556 n
+O5 La1 O5 173.9(33) 5_555 . -2_556 n
+O5 La1 O5 60.6(19) 5_555 . -3_556 n
+O5 La1 O5 122.8(21) 6_554 . -1_556 n
+O5 La1 O5 60.6(19) 6_554 . -2_556 n
+O5 La1 O5 53.4(20) 6_554 . -3_556 n
+O5 La1 O5 117.5(24) -1_556 . -2_556 n
+O5 La1 O5 97.1(24) -1_556 . -3_556 n
+O5 La1 O5 114.0(24) -2_556 . -3_556 n
+La2 La2 La2 179.9604 -2_565 . -2_566 n
+La2 La2 O1 137.07(10) -2_565 . 1_555 n
+La2 La2 O1 137.08(10) -2_565 . 3_665 n
+La2 La2 O1 137.11(10) -2_565 . 5_565 n
+La2 La2 O2 44.48(10) -2_565 . 2_554 n
+La2 La2 O2 44.47(10) -2_565 . 4_664 n
+La2 La2 O2 44.46(10) -2_565 . 6_564 n
+La2 La2 O1 42.91(10) -2_566 . 1_555 n
+La2 La2 O1 42.90(10) -2_566 . 3_665 n
+La2 La2 O1 42.92(10) -2_566 . 5_565 n
+La2 La2 O2 135.55(10) -2_566 . 2_554 n
+La2 La2 O2 135.51(10) -2_566 . 4_664 n
+La2 La2 O2 135.53(10) -2_566 . 6_564 n
+O1 La2 O1 72.26(15) 1_555 . 3_665 n
+O1 La2 O1 72.27(15) 1_555 . 5_565 n
+O1 La2 O2 125.66(12) 1_555 . 2_554 n
+O1 La2 O2 94.73(8) 1_555 . 4_664 n
+O1 La2 O2 154.44(13) 1_555 . 6_564 n
+O1 La2 O1 72.27(15) 3_665 . 5_565 n
+O1 La2 O2 154.48(13) 3_665 . 2_554 n
+O1 La2 O2 125.64(12) 3_665 . 4_664 n
+O1 La2 O2 94.75(8) 3_665 . 6_564 n
+O1 La2 O2 94.76(8) 5_565 . 2_554 n
+O1 La2 O2 154.46(13) 5_565 . 4_664 n
+O1 La2 O2 125.68(12) 5_565 . 6_564 n
+O2 La2 O2 74.70(15) 2_554 . 4_664 n
+O2 La2 O2 74.70(15) 2_554 . 6_564 n
+O2 La2 O2 74.69(15) 4_664 . 6_564 n
+O1 Ge O2 114.73(28) 1_555 . 1_555 n
+O1 Ge O3 111.27(16) 1_555 . 1_555 n
+O1 Ge O3 111.27(16) 1_555 . -4_556 n
+O1 Ge O5 88.7(21) 1_555 . 6_554 n
+O1 Ge O5 88.7(21) 1_555 . -3_556 n
+O2 Ge O3 106.90(18) 1_555 . 1_555 n
+O2 Ge O3 106.90(18) 1_555 . -4_556 n
+O2 Ge O5 138.6(18) 1_555 . 6_554 n
+O2 Ge O5 138.6(18) 1_555 . -3_556 n
+O3 Ge O3 105.20(26) 1_555 . -4_556 n
+O3 Ge O5 31.9(18) 1_555 . 6_554 n
+O3 Ge O5 94.1(14) 1_555 . -3_556 n
+O3 Ge O5 94.1(14) -4_556 . 6_554 n
+O3 Ge O5 31.9(18) -4_556 . -3_556 n
+O5 Ge O5 70.8(28) 6_554 . -3_556 n
+La2 O1 La2 94.17(19) 1_555 . -2_566 n
+La2 O1 Ge 126.55(12) 1_555 . 1_555 n
+La2 O1 Ge 126.53(12) -2_566 . 1_555 n
+La1 O2 La2 116.60(12) 5_665 . 2_655 n
+La1 O2 La2 116.59(12) 5_665 . -1_665 n
+La1 O2 Ge 121.85(26) 5_665 . 1_555 n
+La2 O2 La2 91.06(20) 2_655 . -1_665 n
+La2 O2 Ge 102.79(14) 2_655 . 1_555 n
+La2 O2 Ge 102.81(14) -1_665 . 1_555 n
+La1 O3 La1 115.55(16) 1_555 . 2_554 n
+La1 O3 Ge 96.41(15) 1_555 . 1_555 n
+La1 O3 O5 76.0(32) 1_555 . 6_554 n
+La1 O3 Ge 141.49(20) 2_554 . 1_555 n
+La1 O3 O5 78.2(26) 2_554 . 6_554 n
+Ge O3 O5 90.1(24) 1_555 . 6_554 n
+La1 O4 La1 120.0 1_555 . 3_555 n
+La1 O4 La1 120.0 1_555 . 5_555 n
+La1 O4 La1 120.0 3_555 . 5_555 n
+La1 O5 La1 116.6(22) 2_555 . 3_555 n
+La1 O5 La1 104.2(18) 2_555 . 4_555 n
+La1 O5 Ge 90.5(25) 2_555 . 2_555 n
+La1 O5 O3 81(4) 2_555 . 2_555 n
+La1 O5 La1 120.3(30) 3_555 . 4_555 n
+La1 O5 Ge 122.6(26) 3_555 . 2_555 n
+La1 O5 O3 76.8(25) 3_555 . 2_555 n
+La1 O5 Ge 97.1(19) 4_555 . 2_555 n
+La1 O5 O3 155.0(35) 4_555 . 2_555 n
+Ge O5 O3 58.0(26) 2_555 . 2_555 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+La1 La1 4.0607(35) . 3_555 n
+La1 La1 4.0607(35) . 5_555 n
+La1 Ge 3.332(4) . 1_555 n
+La1 Ge 3.433(4) . 5_555 n
+La1 O1 2.834(6) . 5_555 n
+La1 O2 2.585(4) . 3_655 n
+La1 O3 2.665(4) . 1_555 n
+La1 O3 2.4781(28) . 6_555 n
+La1 O3 2.4781(28) . -3_555 n
+La1 O3 2.665(4) . -4_556 n
+La1 O4 2.3444(20) . 1_555 n
+La1 O5 2.52(7) . 4_554 n
+La1 O5 2.49(4) . 5_555 n
+La1 O5 2.62(6) . 6_554 n
+La1 O5 2.52(7) . -1_556 n
+La1 O5 2.49(4) . -2_556 n
+La1 O5 2.62(6) . -3_556 n
+La2 La2 3.693(9) . -2_565 n
+La2 La2 3.641(9) . -2_566 n
+La2 Ge 3.4272(30) . 2_554 n
+La2 Ge 3.4277(30) . 4_664 n
+La2 Ge 3.4268(30) . 6_564 n
+La2 O1 2.486(4) . 1_555 n
+La2 O1 2.486(4) . 3_665 n
+La2 O1 2.485(4) . 5_565 n
+La2 O2 2.587(4) . 2_554 n
+La2 O2 2.587(4) . 4_664 n
+La2 O2 2.587(4) . 6_564 n
+La2 O3 2.971(5) . -1_665 n
+La2 O3 2.970(5) . -3_565 n
+La2 O3 2.971(5) . -5_555 n
+Ge La1 3.332(4) . 1_555 n
+Ge La1 3.433(4) . 3_555 n
+Ge La2 3.4268(30) . 2_655 n
+Ge La2 3.4277(30) . -1_665 n
+Ge O1 1.738(4) . 1_555 n
+Ge O2 1.746(4) . 1_555 n
+Ge O3 1.7242(30) . 1_555 n
+Ge O3 1.7242(30) . -4_556 n
+Ge O5 2.03(6) . 6_554 n
+Ge O5 2.03(6) . -3_556 n
+O1 La1 2.834(6) . 3_555 n
+O1 La2 2.486(4) . 1_555 n
+O1 La2 2.486(4) . -2_566 n
+O1 Ge 1.738(4) . 1_555 n
+O2 La1 2.585(4) . 5_665 n
+O2 La2 2.587(4) . 2_655 n
+O2 La2 2.587(4) . -1_665 n
+O2 Ge 1.746(4) . 1_555 n
+O3 La1 2.665(4) . 1_555 n
+O3 La1 2.4781(28) . 2_554 n
+O3 La2 2.971(5) . -1_665 n
+O3 Ge 1.7242(30) . 1_555 n
+O3 O5 1.07(7) . 6_554 n
+O4 La1 2.3444(20) . 1_555 n
+O4 La1 2.3444(20) . 3_555 n
+O4 La1 2.3444(20) . 5_555 n
+O5 La1 2.62(6) . 2_555 n
+O5 La1 2.49(4) . 3_555 n
+O5 La1 2.52(7) . 4_555 n
+O5 Ge 2.03(6) . 2_555 n
+O5 O3 1.07(7) . 2_555 n

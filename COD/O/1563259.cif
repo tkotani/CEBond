@@ -1,0 +1,475 @@
+#------------------------------------------------------------------------------
+#$Date: 2021-06-09 11:34:31 +0300 (Wed, 09 Jun 2021) $
+#$Revision: 266297 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/56/32/1563259.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1563259
+loop_
+_publ_author_name
+'Guo, Li'
+'Huang, Keke'
+'Chen, Yan'
+'Li, Guanghua'
+'Yuan, Lin'
+'Peng, Wen'
+'Yuan, Hongming'
+'Feng, Shouhua'
+_publ_section_title
+;
+ Mild hydrothermal synthesis and ferrimagnetism of Pr3Fe5O12 and Nd3Fe5O12
+ garnets
+;
+_journal_issue                   5
+_journal_name_full               'Journal of Solid State Chemistry'
+_journal_page_first              1048
+_journal_page_last               1053
+_journal_paper_doi               10.1016/j.jssc.2011.03.010
+_journal_volume                  184
+_journal_year                    2011
+_chemical_formula_moiety         'Fe5 O12 Pr3'
+_chemical_formula_sum            'Fe5 O12 Pr3'
+_chemical_formula_weight         893.98
+_space_group_IT_number           230
+_space_group_name_Hall           '-I 4bd 2c 3'
+_space_group_name_H-M_alt        'I a -3 d'
+_symmetry_cell_setting           cubic
+_symmetry_space_group_name_H-M   'I a -3 d'
+_atom_sites_solution_hydrogens   none
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            8
+_cell_length_a                   12.6695(15)
+_cell_length_b                   12.6695(15)
+_cell_length_c                   12.6695(15)
+_cell_measurement_reflns_used    199
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      27.44
+_cell_measurement_theta_min      3.94
+_cell_volume                     2033.7(4)
+_computing_cell_refinement       Process-auto
+_computing_data_collection       Process-auto
+_computing_data_reduction        Process-auto
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_detector_area_resol_mean 10.0
+_diffrn_measured_fraction_theta_full 0.990
+_diffrn_measured_fraction_theta_max 0.990
+_diffrn_measurement_device_type  'Rigaku RAXIS-RAPID'
+_diffrn_measurement_method       omega-scan
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0358
+_diffrn_reflns_av_sigmaI/netI    0.0116
+_diffrn_reflns_limit_h_max       16
+_diffrn_reflns_limit_h_min       -16
+_diffrn_reflns_limit_k_max       16
+_diffrn_reflns_limit_k_min       -16
+_diffrn_reflns_limit_l_max       16
+_diffrn_reflns_limit_l_min       -15
+_diffrn_reflns_number            8517
+_diffrn_reflns_theta_full        27.44
+_diffrn_reflns_theta_max         27.44
+_diffrn_reflns_theta_min         3.94
+_diffrn_standards_decay_%        0
+_diffrn_standards_interval_count 0
+_diffrn_standards_interval_time  0
+_diffrn_standards_number         0
+_exptl_absorpt_coefficient_mu    21.062
+_exptl_absorpt_correction_type   none
+_exptl_crystal_colour            black
+_exptl_crystal_density_diffrn    5.840
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       block
+_exptl_crystal_F_000             3224
+_exptl_crystal_size_max          0.18
+_exptl_crystal_size_mid          0.18
+_exptl_crystal_size_min          0.18
+_refine_diff_density_max         0.554
+_refine_diff_density_min         -1.419
+_refine_diff_density_rms         0.220
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   1.292
+_refine_ls_hydrogen_treatment    none
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     17
+_refine_ls_number_reflns         199
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.292
+_refine_ls_R_factor_all          0.0233
+_refine_ls_R_factor_gt           0.0220
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0186P)^2^+58.6657P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0568
+_refine_ls_wR_factor_ref         0.0577
+_reflns_number_gt                188
+_reflns_number_total             199
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            JSSC-2011-184-1048.cif
+_cod_data_source_block           Pr3Fe5O12
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+data item '_symmetry_cell_setting' value 'Cubic' was changed to
+'cubic' in accordance with the built-in table derived from the CIF
+Core dictionary named 'cif_core.dic' version 2.4.5 last updated on
+2014-11-21.
+
+data item '_exptl_crystal_density_meas' value 'none' was changed to
+'?' -- the value is perceived as not measured.
+
+Automatic conversion script
+Id: cif_fix_values 8369 2020-08-20 11:38:08Z andrius 
+;
+_cod_original_sg_symbol_H-M      Ia-3d
+_cod_database_code               1563259
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x+1/2, -y, z+1/2'
+'-x, y+1/2, -z+1/2'
+'x+1/2, -y+1/2, -z'
+'z, x, y'
+'z+1/2, -x+1/2, -y'
+'-z+1/2, -x, y+1/2'
+'-z, x+1/2, -y+1/2'
+'y, z, x'
+'-y, z+1/2, -x+1/2'
+'y+1/2, -z+1/2, -x'
+'-y+1/2, -z, x+1/2'
+'y+3/4, x+1/4, -z+1/4'
+'-y+3/4, -x+3/4, -z+3/4'
+'y+1/4, -x+1/4, z+3/4'
+'-y+1/4, x+3/4, z+1/4'
+'x+3/4, z+1/4, -y+1/4'
+'-x+1/4, z+3/4, y+1/4'
+'-x+3/4, -z+3/4, -y+3/4'
+'x+1/4, -z+1/4, y+3/4'
+'z+3/4, y+1/4, -x+1/4'
+'z+1/4, -y+1/4, x+3/4'
+'-z+1/4, y+3/4, x+1/4'
+'-z+3/4, -y+3/4, -x+3/4'
+'x+1/2, y+1/2, z+1/2'
+'-x+1, -y+1/2, z+1'
+'-x+1/2, y+1, -z+1'
+'x+1, -y+1, -z+1/2'
+'z+1/2, x+1/2, y+1/2'
+'z+1, -x+1, -y+1/2'
+'-z+1, -x+1/2, y+1'
+'-z+1/2, x+1, -y+1'
+'y+1/2, z+1/2, x+1/2'
+'-y+1/2, z+1, -x+1'
+'y+1, -z+1, -x+1/2'
+'-y+1, -z+1/2, x+1'
+'y+5/4, x+3/4, -z+3/4'
+'-y+5/4, -x+5/4, -z+5/4'
+'y+3/4, -x+3/4, z+5/4'
+'-y+3/4, x+5/4, z+3/4'
+'x+5/4, z+3/4, -y+3/4'
+'-x+3/4, z+5/4, y+3/4'
+'-x+5/4, -z+5/4, -y+5/4'
+'x+3/4, -z+3/4, y+5/4'
+'z+5/4, y+3/4, -x+3/4'
+'z+3/4, -y+3/4, x+5/4'
+'-z+3/4, y+5/4, x+3/4'
+'-z+5/4, -y+5/4, -x+5/4'
+'-x, -y, -z'
+'x-1/2, y, -z-1/2'
+'x, -y-1/2, z-1/2'
+'-x-1/2, y-1/2, z'
+'-z, -x, -y'
+'-z-1/2, x-1/2, y'
+'z-1/2, x, -y-1/2'
+'z, -x-1/2, y-1/2'
+'-y, -z, -x'
+'y, -z-1/2, x-1/2'
+'-y-1/2, z-1/2, x'
+'y-1/2, z, -x-1/2'
+'-y-3/4, -x-1/4, z-1/4'
+'y-3/4, x-3/4, z-3/4'
+'-y-1/4, x-1/4, -z-3/4'
+'y-1/4, -x-3/4, -z-1/4'
+'-x-3/4, -z-1/4, y-1/4'
+'x-1/4, -z-3/4, -y-1/4'
+'x-3/4, z-3/4, y-3/4'
+'-x-1/4, z-1/4, -y-3/4'
+'-z-3/4, -y-1/4, x-1/4'
+'-z-1/4, y-1/4, -x-3/4'
+'z-1/4, -y-3/4, -x-1/4'
+'z-3/4, y-3/4, x-3/4'
+'-x+1/2, -y+1/2, -z+1/2'
+'x, y+1/2, -z'
+'x+1/2, -y, z'
+'-x, y, z+1/2'
+'-z+1/2, -x+1/2, -y+1/2'
+'-z, x, y+1/2'
+'z, x+1/2, -y'
+'z+1/2, -x, y'
+'-y+1/2, -z+1/2, -x+1/2'
+'y+1/2, -z, x'
+'-y, z, x+1/2'
+'y, z+1/2, -x'
+'-y-1/4, -x+1/4, z+1/4'
+'y-1/4, x-1/4, z-1/4'
+'-y+1/4, x+1/4, -z-1/4'
+'y+1/4, -x-1/4, -z+1/4'
+'-x-1/4, -z+1/4, y+1/4'
+'x+1/4, -z-1/4, -y+1/4'
+'x-1/4, z-1/4, y-1/4'
+'-x+1/4, z+1/4, -y-1/4'
+'-z-1/4, -y+1/4, x+1/4'
+'-z+1/4, y+1/4, -x-1/4'
+'z+1/4, -y-1/4, -x+1/4'
+'z-1/4, y-1/4, x-1/4'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Pr1 Pr 0.3750 0.5000 0.2500 0.0067(2) Uani 1 4 d S . .
+Fe1 Fe 0.5000 0.5000 0.5000 0.0048(4) Uani 1 6 d S . .
+Fe2 Fe 0.3750 0.5000 0.7500 0.0071(4) Uani 1 4 d S . .
+O1 O 0.4701(3) 0.5528(3) 0.6488(3) 0.0051(7) Uani 1 1 d . . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Pr1 0.0057(3) 0.0072(3) 0.0072(3) 0.0015(2) 0.000 0.000
+Fe1 0.0048(4) 0.0048(4) 0.0048(4) 0.0002(4) 0.0002(4) 0.0002(4)
+Fe2 0.0060(7) 0.0076(5) 0.0076(5) 0.000 0.000 0.000
+O1 0.0064(18) 0.0056(18) 0.0033(17) 0.0003(13) 0.0017(14) -0.0011(13)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Fe Fe 0.3463 0.8444 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Pr Pr -0.2180 2.8214 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+O1 Pr1 O1 111.07(17) 91 49_666
+O1 Pr1 O1 72.76(17) 91 66_576
+O1 Pr1 O1 159.53(17) 49_666 66_576
+O1 Pr1 O1 159.53(17) 91 76_654
+O1 Pr1 O1 72.76(17) 49_666 76_654
+O1 Pr1 O1 111.07(17) 66_576 76_654
+O1 Pr1 O1 124.81(8) 91 71_576
+O1 Pr1 O1 95.49(10) 49_666 71_576
+O1 Pr1 O1 67.68(16) 66_576 71_576
+O1 Pr1 O1 73.34(13) 76_654 71_576
+O1 Pr1 O1 95.49(10) 91 78_654
+O1 Pr1 O1 124.81(8) 49_666 78_654
+O1 Pr1 O1 73.34(13) 66_576 78_654
+O1 Pr1 O1 67.68(16) 76_654 78_654
+O1 Pr1 O1 107.85(17) 71_576 78_654
+O1 Pr1 O1 67.68(16) 91 96
+O1 Pr1 O1 73.34(13) 49_666 96
+O1 Pr1 O1 124.81(8) 66_576 96
+O1 Pr1 O1 95.49(10) 76_654 96
+O1 Pr1 O1 166.37(16) 71_576 96
+O1 Pr1 O1 73.84(16) 78_654 96
+O1 Pr1 O1 73.34(13) 91 53_666
+O1 Pr1 O1 67.68(16) 49_666 53_666
+O1 Pr1 O1 95.49(10) 66_576 53_666
+O1 Pr1 O1 124.81(8) 76_654 53_666
+O1 Pr1 O1 73.84(16) 71_576 53_666
+O1 Pr1 O1 166.37(16) 78_654 53_666
+O1 Pr1 O1 107.85(17) 96 53_666
+O1 Pr1 Fe2 36.38(9) 91 2_564
+O1 Pr1 Fe2 143.62(9) 49_666 2_564
+O1 Pr1 Fe2 36.38(9) 66_576 2_564
+O1 Pr1 Fe2 143.62(9) 76_654 2_564
+O1 Pr1 Fe2 96.81(8) 71_576 2_564
+O1 Pr1 Fe2 83.19(8) 78_654 2_564
+O1 Pr1 Fe2 96.81(8) 96 2_564
+O1 Pr1 Fe2 83.19(8) 53_666 2_564
+O1 Pr1 Fe2 143.62(9) 91 49_666
+O1 Pr1 Fe2 36.38(9) 49_666 49_666
+O1 Pr1 Fe2 143.62(9) 66_576 49_666
+O1 Pr1 Fe2 36.38(9) 76_654 49_666
+O1 Pr1 Fe2 83.19(8) 71_576 49_666
+O1 Pr1 Fe2 96.81(8) 78_654 49_666
+O1 Pr1 Fe2 83.19(8) 96 49_666
+O1 Pr1 Fe2 96.81(8) 53_666 49_666
+Fe2 Pr1 Fe2 180.0 2_564 49_666
+O1 Pr1 Fe1 33.87(8) 91 14
+O1 Pr1 Fe1 96.58(9) 49_666 14
+O1 Pr1 Fe1 96.33(8) 66_576 14
+O1 Pr1 Fe1 127.27(8) 76_654 14
+O1 Pr1 Fe1 158.61(8) 71_576 14
+O1 Pr1 Fe1 79.26(8) 78_654 14
+O1 Pr1 Fe1 34.41(8) 96 14
+O1 Pr1 Fe1 94.60(8) 53_666 14
+Fe2 Pr1 Fe1 63.4 2_564 14
+Fe2 Pr1 Fe1 116.6 49_666 14
+O1 Pr1 Fe1 96.58(9) 91 .
+O1 Pr1 Fe1 33.87(8) 49_666 .
+O1 Pr1 Fe1 127.27(8) 66_576 .
+O1 Pr1 Fe1 96.33(8) 76_654 .
+O1 Pr1 Fe1 79.26(8) 71_576 .
+O1 Pr1 Fe1 158.61(8) 78_654 .
+O1 Pr1 Fe1 94.60(8) 96 .
+O1 Pr1 Fe1 34.41(8) 53_666 .
+Fe2 Pr1 Fe1 116.6 2_564 .
+Fe2 Pr1 Fe1 63.4 49_666 .
+Fe1 Pr1 Fe1 101.5 14 .
+O1 Fe1 O1 180.0 57_666 9
+O1 Fe1 O1 94.06(15) 57_666 .
+O1 Fe1 O1 85.94(15) 9 .
+O1 Fe1 O1 85.94(15) 57_666 53_666
+O1 Fe1 O1 94.06(15) 9 53_666
+O1 Fe1 O1 94.06(15) . 53_666
+O1 Fe1 O1 94.06(15) 57_666 5
+O1 Fe1 O1 85.94(15) 9 5
+O1 Fe1 O1 85.94(15) . 5
+O1 Fe1 O1 180.0 53_666 5
+O1 Fe1 O1 85.94(15) 57_666 49_666
+O1 Fe1 O1 94.06(15) 9 49_666
+O1 Fe1 O1 180.00(7) . 49_666
+O1 Fe1 O1 85.94(15) 53_666 49_666
+O1 Fe1 O1 94.06(15) 5 49_666
+O1 Fe1 Pr1 91.12(10) 57_666 .
+O1 Fe1 Pr1 88.88(10) 9 .
+O1 Fe1 Pr1 138.16(10) . .
+O1 Fe1 Pr1 44.93(10) 53_666 .
+O1 Fe1 Pr1 135.07(10) 5 .
+O1 Fe1 Pr1 41.84(10) 49_666 .
+O1 Fe1 Pr1 138.16(10) 57_666 57_666
+O1 Fe1 Pr1 41.84(10) 9 57_666
+O1 Fe1 Pr1 44.93(10) . 57_666
+O1 Fe1 Pr1 88.88(10) 53_666 57_666
+O1 Fe1 Pr1 91.12(10) 5 57_666
+O1 Fe1 Pr1 135.07(10) 49_666 57_666
+Pr1 Fe1 Pr1 113.6 . 57_666
+O1 Fe1 Pr1 41.84(10) 57_666 9
+O1 Fe1 Pr1 138.16(10) 9 9
+O1 Fe1 Pr1 135.07(10) . 9
+O1 Fe1 Pr1 91.12(10) 53_666 9
+O1 Fe1 Pr1 88.88(10) 5 9
+O1 Fe1 Pr1 44.93(10) 49_666 9
+Pr1 Fe1 Pr1 66.4 . 9
+Pr1 Fe1 Pr1 180.0 57_666 9
+O1 Fe1 Pr1 135.07(10) 57_666 53_666
+O1 Fe1 Pr1 44.93(10) 9 53_666
+O1 Fe1 Pr1 91.12(10) . 53_666
+O1 Fe1 Pr1 138.16(10) 53_666 53_666
+O1 Fe1 Pr1 41.84(10) 5 53_666
+O1 Fe1 Pr1 88.88(10) 49_666 53_666
+Pr1 Fe1 Pr1 113.6 . 53_666
+Pr1 Fe1 Pr1 66.4 57_666 53_666
+Pr1 Fe1 Pr1 113.6 9 53_666
+O1 Fe1 Pr1 44.93(10) 57_666 5
+O1 Fe1 Pr1 135.07(10) 9 5
+O1 Fe1 Pr1 88.88(10) . 5
+O1 Fe1 Pr1 41.84(10) 53_666 5
+O1 Fe1 Pr1 138.16(10) 5 5
+O1 Fe1 Pr1 91.12(10) 49_666 5
+Pr1 Fe1 Pr1 66.4 . 5
+Pr1 Fe1 Pr1 113.6 57_666 5
+Pr1 Fe1 Pr1 66.4 9 5
+Pr1 Fe1 Pr1 180.0 53_666 5
+O1 Fe1 Pr1 88.88(10) 57_666 49_666
+O1 Fe1 Pr1 91.12(10) 9 49_666
+O1 Fe1 Pr1 41.84(10) . 49_666
+O1 Fe1 Pr1 135.07(10) 53_666 49_666
+O1 Fe1 Pr1 44.93(10) 5 49_666
+O1 Fe1 Pr1 138.16(10) 49_666 49_666
+Pr1 Fe1 Pr1 180.0 . 49_666
+Pr1 Fe1 Pr1 66.4 57_666 49_666
+Pr1 Fe1 Pr1 113.6 9 49_666
+Pr1 Fe1 Pr1 66.4 53_666 49_666
+Pr1 Fe1 Pr1 113.6 5 49_666
+O1 Fe2 O1 114.19(12) 68_657 28_456
+O1 Fe2 O1 100.4(2) 68_657 89_665
+O1 Fe2 O1 114.19(12) 28_456 89_665
+O1 Fe2 O1 114.19(12) 68_657 .
+O1 Fe2 O1 100.4(2) 28_456 .
+O1 Fe2 O1 114.19(12) 89_665 .
+O1 Fe2 Pr1 129.80(11) 68_657 49_666
+O1 Fe2 Pr1 50.20(11) 28_456 49_666
+O1 Fe2 Pr1 129.80(11) 89_665 49_666
+O1 Fe2 Pr1 50.20(11) . 49_666
+O1 Fe2 Pr1 50.20(11) 68_657 2_565
+O1 Fe2 Pr1 129.80(11) 28_456 2_565
+O1 Fe2 Pr1 50.20(11) 89_665 2_565
+O1 Fe2 Pr1 129.80(11) . 2_565
+Pr1 Fe2 Pr1 180.0 49_666 2_565
+Fe2 O1 Fe1 129.26(19) . .
+Fe2 O1 Pr1 93.42(14) . 49_666
+Fe1 O1 Pr1 104.29(15) . 49_666
+Fe2 O1 Pr1 121.68(17) . 57_666
+Fe1 O1 Pr1 100.66(14) . 57_666
+Pr1 O1 Pr1 102.24(13) 49_666 57_666
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Pr1 O1 2.438(4) 91
+Pr1 O1 2.438(4) 49_666
+Pr1 O1 2.438(4) 66_576
+Pr1 O1 2.438(4) 76_654
+Pr1 O1 2.545(4) 71_576
+Pr1 O1 2.545(4) 78_654
+Pr1 O1 2.545(4) 96
+Pr1 O1 2.545(4) 53_666
+Pr1 Fe2 3.1674(4) 2_564
+Pr1 Fe2 3.1674(4) 49_666
+Pr1 Fe1 3.5412(4) 14
+Pr1 Fe1 3.5412(4) .
+Fe1 O1 2.036(3) 57_666
+Fe1 O1 2.036(3) 9
+Fe1 O1 2.036(3) .
+Fe1 O1 2.036(3) 53_666
+Fe1 O1 2.036(3) 5
+Fe1 O1 2.036(3) 49_666
+Fe1 Pr1 3.5412(4) 57_666
+Fe1 Pr1 3.5412(4) 9
+Fe1 Pr1 3.5412(4) 53_666
+Fe1 Pr1 3.5412(4) 5
+Fe1 Pr1 3.5412(4) 49_666
+Fe2 O1 1.882(4) 68_657
+Fe2 O1 1.882(4) 28_456
+Fe2 O1 1.882(4) 89_665
+Fe2 O1 1.882(4) .
+Fe2 Pr1 3.1674(4) 49_666
+Fe2 Pr1 3.1674(4) 2_565
+O1 Pr1 2.438(4) 49_666
+O1 Pr1 2.545(4) 57_666

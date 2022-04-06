@@ -1,0 +1,124 @@
+#------------------------------------------------------------------------------
+#$Date: 2015-01-27 21:58:39 +0200 (Tue, 27 Jan 2015) $
+#$Revision: 130149 $
+#$URL: svn://www.crystallography.net/cod/cif/1/00/14/1001480.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1001480
+loop_
+_publ_author_name
+'Labbe, P'
+'Ledesert, M'
+'Caignaert, V'
+'Raveau, B'
+_publ_section_title
+;
+Structural peculiarities of two layered cuprates, NdSrCuO~3.5~ and
+Nd~1.8~Sr~1.2~Cu~2~O~6-d~elta
+;
+_journal_coden_ASTM              JSSCBI
+_journal_name_full               'Journal of Solid State Chemistry'
+_journal_page_first              362
+_journal_page_last               369
+_journal_paper_doi               10.1016/0022-4596(91)90091-U
+_journal_volume                  91
+_journal_year                    1991
+_chemical_formula_structural     '(Nd1.79 Sr1.21) Cu2 O6'
+_chemical_formula_sum            'Cu2 Nd1.79 O6 Sr1.21'
+_chemical_name_systematic
+;
+Neodymium strontium copper oxide (1.8/1.2/2/6)
+;
+_space_group_IT_number           139
+_symmetry_cell_setting           tetragonal
+_symmetry_Int_Tables_number      139
+_symmetry_space_group_name_Hall  '-I 4 2'
+_symmetry_space_group_name_H-M   'I 4/m m m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   3.8365(4)
+_cell_length_b                   3.8365(4)
+_cell_length_c                   19.652(2)
+_cell_volume                     289.3
+_refine_ls_R_factor_all          0.034
+_cod_database_code               1001480
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,z
+-x,y,z
+x,-y,z
+-y,x,z
+y,-x,z
+y,x,z
+-y,-x,z
+-x,-y,-z
+x,y,-z
+x,-y,-z
+-x,y,-z
+y,-x,-z
+-y,x,-z
+-y,-x,-z
+y,x,-z
+1/2+x,1/2+y,1/2+z
+1/2-x,1/2-y,1/2+z
+1/2-x,1/2+y,1/2+z
+1/2+x,1/2-y,1/2+z
+1/2-y,1/2+x,1/2+z
+1/2+y,1/2-x,1/2+z
+1/2+y,1/2+x,1/2+z
+1/2-y,1/2-x,1/2+z
+1/2-x,1/2-y,1/2-z
+1/2+x,1/2+y,1/2-z
+1/2+x,1/2-y,1/2-z
+1/2-x,1/2+y,1/2-z
+1/2+y,1/2-x,1/2-z
+1/2-y,1/2+x,1/2-z
+1/2-y,1/2-x,1/2-z
+1/2+y,1/2+x,1/2-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_22
+_atom_site_aniso_U_23
+_atom_site_aniso_U_33
+Nd1 0.0068(5) 0. 0. 0.0068(5) 0. 0.0040(7)
+Sr1 0.0068(5) 0. 0. 0.0068(5) 0. 0.0040(7)
+Nd2 0.0144(5) 0. 0. 0.0144(5) 0. 0.0091(6)
+Sr2 0.0144(5) 0. 0. 0.0144(5) 0. 0.0091(6)
+Cu1 0.0060(7) 0. 0. 0.0060(7) 0. 0.011(1)
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_calc_flag
+Nd1 Nd3+ 2 a 0. 0. 0. 0.75 0 d
+Sr1 Sr2+ 2 a 0. 0. 0. 0.25 0 d
+Nd2 Nd3+ 4 e 0. 0. 0.18025(9) 0.52 0 d
+Sr2 Sr2+ 4 e 0. 0. 0.18025(9) 0.48 0 d
+Cu1 Cu2+ 4 e 0. 0. 0.5916(2) 1. 0 d
+O1 O2- 8 g 0. 0.5 0.0817(6) 1. 0 d
+O2 O2- 4 e 0. 0. 0.701(1) 1. 0 d
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Nd3+ 3.000
+Sr2+ 2.000
+Cu2+ 2.105
+O2- -2.000

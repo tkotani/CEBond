@@ -1,0 +1,206 @@
+#------------------------------------------------------------------------------
+#$Date: 2015-04-02 14:22:18 +0300 (Thu, 02 Apr 2015) $
+#$Revision: 134621 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/29/2002950.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_2002950
+loop_
+_publ_author_name
+'Abrahams, Sidney C.'
+'Schmalle, Helmut W.'
+'Williams, Tim'
+'Reller, Armin'
+'Lichtenberg, Frank'
+'Widmer, Daniel'
+'Bednorz, J. Georg'
+'Spreiter, Rolf'
+'Bosshard, Christian'
+'G\"unter, Peter'
+_publ_section_title
+;
+ Centrosymmetric or Noncentrosymmetric?
+ Case Study and Structural Redetermination of Sr~5~Nb~5~O~17~
+;
+_journal_name_full               'Acta Crystallographica, Section B'
+_journal_page_first              399
+_journal_page_last               416
+_journal_volume                  54
+_journal_year                    1998
+_chemical_formula_sum            'Nb5 O17 Sr5'
+_chemical_formula_weight         1174.65
+_chemical_name_systematic
+;
+ strontium niobium oxide
+;
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2 2n'
+_symmetry_space_group_name_H-M   'P n n m'
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            2
+_cell_length_a                   32.456(5)
+_cell_length_b                   5.674(2)
+_cell_length_c                   3.995(2)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    295(2)
+_cell_measurement_theta_max      12.0
+_cell_measurement_theta_min      5.6
+_cell_volume                     735.7(5)
+_diffrn_ambient_temperature      295(2)
+_diffrn_measurement_device       'Enraf-Nonius CAD-4 diffractometer'
+_diffrn_measurement_method       '\w-2\q scans'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     .71073
+_diffrn_reflns_av_R_equivalents  .0680
+_diffrn_reflns_av_sigmaI/netI    .0600
+_diffrn_reflns_limit_h_max       58
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       10
+_diffrn_reflns_limit_k_min       -10
+_diffrn_reflns_limit_l_max       7
+_diffrn_reflns_limit_l_min       -7
+_diffrn_reflns_number            8738
+_diffrn_reflns_theta_max         39.91
+_diffrn_reflns_theta_min         1.25
+_diffrn_standards_decay_%        .1
+_diffrn_standards_interval_count 400
+_diffrn_standards_interval_time  180
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    21.803
+_exptl_absorpt_correction_T_max  .4829
+_exptl_absorpt_correction_T_min  .0648
+_exptl_absorpt_correction_type   numerical
+_exptl_crystal_colour            Black
+_exptl_crystal_density_diffrn    5.303
+_exptl_crystal_description       Platelike
+_exptl_crystal_F_000             1062
+_exptl_crystal_size_max          .387
+_exptl_crystal_size_mid          .135
+_exptl_crystal_size_min          .035
+_refine_diff_density_max         3.921
+_refine_diff_density_min         -3.319
+_refine_ls_extinction_coef       .00421(17)
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_all   .716
+_refine_ls_goodness_of_fit_obs   .809
+_refine_ls_hydrogen_treatment    ?
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     86
+_refine_ls_number_reflns         2509
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      .716
+_refine_ls_restrained_S_obs      .809
+_refine_ls_R_factor_all          .0987
+_refine_ls_R_factor_obs          .0221
+_refine_ls_shift/esd_max         .001
+_refine_ls_shift/esd_mean        .000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w=1/[\s^2^(Fo^2^)+(0.0296P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         .0779
+_refine_ls_wR_factor_obs         .0551
+_reflns_number_observed          1172
+_reflns_number_total             2509
+_reflns_observed_criterion       >2sigma(I)
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_symmetry_cell_setting' value 'Orthorhombic' changed to 'orthorhombic'
+according to '/home/saulius/struct/CIF-dictionaries/cif_core.dic'
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'calc
+w=1/[\s^2^(Fo^2^)+(0.0296P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3' was
+changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to
+'w=1/[\s^2^(Fo^2^)+(0.0296P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_database_code               2002950
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, -y, z'
+'-x+1/2, y+1/2, -z+1/2'
+'x+1/2, -y+1/2, -z+1/2'
+'-x, -y, -z'
+'x, y, -z'
+'x-1/2, -y-1/2, z-1/2'
+'-x-1/2, y-1/2, z-1/2'
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Nb1 .0047(2) .0045(2) .0036(2) .00017(19) .000 .000
+Nb2 .00546(18) .00667(15) .00550(18) -.00025(14) .000 .000
+Nb3 .00527(16) .00422(15) .00397(17) -.00004(14) .000 .000
+Sr1 .0253(3) .0158(2) .0064(2) .0084(2) .000 .000
+Sr2 .0095(3) .0095(3) .0082(3) -.0009(2) .000 .000
+Sr3 .0097(2) .00990(19) .0070(2) .00183(16) .000 .000
+O1 .0089(18) .0076(14) .025(2) .0009(13) .000 .000
+O2 .0067(17) .0080(14) .0125(19) -.0011(13) .000 .000
+O3 .015(3) .028(3) .004(2) -.005(2) .000 .000
+O4 .019(2) .0087(14) .015(2) -.0067(14) .000 .000
+O5 .0091(18) .0090(13) .0078(17) .0027(13) .000 .000
+O6 .0079(19) .0103(15) .040(3) -.0060(14) .000 .000
+O7 .0133(19) .0073(14) .0109(17) -.0022(13) .000 .000
+O8 .0086(16) .039(3) .0070(17) -.0025(18) .000 .000
+O9 .017(2) .026(2) .0035(16) -.0063(17) .000 .000
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+_atom_site_disorder_group
+_atom_site_type_symbol
+Nb1 .5000 .5000 .5000 .00428(11) Uani d S 1 . Nb
+Nb2 .322665(15) .53326(8) .5000 .00588(9) Uani d S 1 . Nb
+Nb3 .409309(15) .00514(7) .5000 .00449(8) Uani d S 1 . Nb
+Sr1 .21449(2) .56280(10) .5000 .01583(13) Uani d S 1 . Sr
+Sr2 .5000 .0000 .0000 .00904(13) Uani d S 1 . Sr
+Sr3 .411324(17) .49952(8) .0000 .00884(10) Uani d S 1 . Sr
+O1 .53740(13) .2272(6) .5000 .0137(8) Uani d S 1 . O
+O2 .45246(12) .2688(6) .5000 .0091(7) Uani d S 1 . O
+O3 .5000 .5000 .0000 .0153(12) Uani d S 1 . O
+O4 .20872(14) .2962(7) .0000 .0145(8) Uani d S 1 . O
+O5 .12094(12) .2071(6) .0000 .0086(7) Uani d S 1 . O
+O6 .13307(14) .7237(7) .0000 .0195(10) Uani d S 1 . O
+O7 .28006(13) .3165(6) .5000 .0105(7) Uani d S 1 . O
+O8 .33085(13) .5050(9) .0000 .0181(9) Uani d S 1 . O
+O9 .41647(14) -.0086(8) .0000 .0157(9) Uani d S 1 . O
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+O O .0106 .0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Nb Nb -2.0727 .6215 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Sr Sr -1.5307 3.2498 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'

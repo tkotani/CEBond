@@ -1,0 +1,172 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/20/2102070.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2102070
+loop_
+_publ_author_name
+'Haile, S. M.'
+'Wuensch, B. J.'
+_publ_section_title
+;
+ Structure, phase transitions and ionic conductivity of
+ K~3~NdSi~6~O~15~&#x00B7;<i>x</i>H~2~O. II. Structure of
+ \b-K~3~NdSi~6~O~15~
+;
+_journal_issue                   3
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              349
+_journal_page_last               362
+_journal_paper_doi               10.1107/S0108768199015797
+_journal_volume                  56
+_journal_year                    2000
+_chemical_formula_sum            'K3 Nd O15 Si6'
+_chemical_formula_weight         670.0
+_chemical_name_systematic        ' ?'
+_space_group_IT_number           36
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  'B -2 -2b'
+_symmetry_space_group_name_H-M   'B b 21 m'
+_atom_type_scat_source           'Cromer & Waber (1974)'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            8
+_cell_length_a                   14.370(2)
+_cell_length_b                   15.518(2)
+_cell_length_c                   14.265(2)
+_cell_measurement_reflns_used    22
+_cell_measurement_temperature    293(2)
+_cell_volume                     3181.0(8)
+_computing_structure_refinement  'Shelxl (Sheldrick, 1993)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measurement_device_type  'Siemens R3m-V'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     .71073
+_diffrn_reflns_av_R_equivalents  0
+_diffrn_reflns_limit_h_max       18
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       20
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       18
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            1975
+_diffrn_reflns_theta_max         27.50
+_diffrn_reflns_theta_min         2.01
+_diffrn_standards_decay_%
+'min 0.9887, max 1.0353, final 1.0160, mean 1.0137'
+_diffrn_standards_number         69
+_exptl_absorpt_coefficient_mu    4.310
+_exptl_absorpt_correction_T_max  .119
+_exptl_absorpt_correction_T_min  .057
+_exptl_absorpt_correction_type   '\y scan (empirical'
+_exptl_crystal_density_diffrn    2.798
+_exptl_crystal_F_000             2520
+_exptl_crystal_size_max          .3
+_exptl_crystal_size_mid          .3
+_exptl_crystal_size_min          .2
+_refine_diff_density_max         2.593
+_refine_diff_density_min         -1.762
+_refine_ls_abs_structure_details 'Flack, 1983)'
+_refine_ls_abs_structure_Flack   .10(3)
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_all   1.129
+_refine_ls_hydrogen_treatment    'H atoms not located'
+_refine_ls_matrix_type           'Full-matrix least-squares'
+_refine_ls_number_parameters     244
+_refine_ls_number_reflns         1974
+_refine_ls_number_restraints     1
+_refine_ls_R_factor_all          .0419
+_refine_ls_R_factor_gt           .0416
+_refine_ls_shift/su_max          .177
+_refine_ls_shift/su_mean         .011
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_scheme
+;w=1/[\s^2^F~o~^2^+(0.0746P)^2^+44.0045P]
+where P = [max(F~o~^2^,0)+2F~c~^2^]/3
+;
+_refine_ls_wR_factor_all         .1178
+_refine_ls_wR_factor_ref         .1174
+_reflns_number_gt                1974
+_reflns_number_total             1975
+_reflns_threshold_expression     I>2\s
+_cod_data_source_file            bs0008.cif
+_cod_data_source_block           1
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_symmetry_cell_setting' value 'Orthorhombic' changed to 'orthorhombic'
+according to '/home/saulius/struct/CIF-dictionaries/cif_core.dic'
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Orthorhombic' changed to
+'orthorhombic' according to
+/home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_original_cell_volume        3181.0(7)
+_cod_original_formula_sum        'K3 Nd Si6 O15'
+_cod_database_code               2102070
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+X,Y,-Z
+1/2+X,Y,1/2+Z
+-X,1/2+Y,Z
+1/2-X,1/2+Y,1/2+Z
+-X,1/2+Y,-Z
+1/2-X,1/2+Y,1/2-Z
+1/2+X,Y,1/2-Z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Nd(1) .49154(3) .57468(6) .76341(3)
+Si(1) .3846(2) .7537(2) .6119(2)
+Si(2) .6157(2) .4554(2) .6051(2)
+Si(3) .3352(2) .7146(2) .8969(2)
+Si(4) .7796(2) .4854(2) .7495(2)
+Si(5) .6511(2) .4129(2) .8930(2)
+Si(6) .7284(2) .6711(2) .7837(2)
+K(1) .4616(2) .3182(2) .7854(3)
+K(2) .5754(3) .6302(4) 0
+K(3) .8658(4) .4920(3) .5000
+K(4) .8725(3) .5194(4) 0
+K(5) .5896(3) .6691(3) .5000
+K(6) .8463(10) .3053(11) .5000
+O(1) .7874(5) .5821(6) .7990(5)
+O(2) .4057(6) .8563(5) .6299(6)
+O(3) .3788(6) .8116(5) .8869(5)
+O(4) .6974(7) .4919(7) .6720(6)
+O(5) .6849(8) .4354(8) 0
+O(6) .8790(6) .4633(5) .7096(7)
+O(7) .7856(8) .7081(7) .5000
+O(8) .9570(6) .6962(5) .8319(6)
+O(9) .1215(5) .6630(6) .6951(6)
+O(10) .8906(9) .7351(9) 0
+O(11) .7482(6) .4201(6) .8321(6)
+O(12) .4142(5) .6453(5) .1137(6)
+O(13) .6607(8) .4602(9) .5000
+O(14) .5710(6) .4750(5) .8597(7)
+O(15) .2239(6) .2381(6) .8582(6)
+O(16) .2509(6) .2046(6) .6766(6)
+O(17) .5265(7) .5127(6) .6165(6)

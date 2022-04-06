@@ -1,0 +1,202 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/60/2006096.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2006096
+loop_
+_publ_author_name
+'Largeau, Eric'
+'El-Ghozzi, Malika'
+'M\'etin, Jacques'
+'Avignant, Daniel'
+_publ_section_title
+;
+ \b-BaTbF~6~
+;
+_journal_issue                   5
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              530
+_journal_page_last               532
+_journal_paper_doi               10.1107/S0108270196014527
+_journal_volume                  53
+_journal_year                    1997
+_chemical_formula_sum            'Ba F6 Tb'
+_chemical_formula_weight         410.25
+_space_group_IT_number           67
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-C 2a 2'
+_symmetry_space_group_name_H-M   'C m m a'
+_atom_type_scat_source           IntTabIV
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   7.7610(10)
+_cell_length_b                   11.513(3)
+_cell_length_c                   5.5234(9)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      19
+_cell_measurement_theta_min      6
+_cell_volume                     493.53(16)
+_computing_cell_refinement       'CAD-4 Software'
+_computing_data_collection       'CAD-4 Software (Enraf-Nonius, 1989)'
+_computing_data_reduction        'MolEN (Fair, 1990)'
+_computing_molecular_graphics    'ORTEP (Johnson, 1965)'
+_computing_structure_refinement  MolEN
+_computing_structure_solution    MolEN
+_diffrn_measurement_device       'Enraf-Nonius CAD-4'
+_diffrn_measurement_method       \w/2\q
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0
+_diffrn_reflns_limit_h_max       14
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       20
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       10
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            888
+_diffrn_reflns_theta_max         40
+_diffrn_standards_decay_%        1.2
+_diffrn_standards_interval_time  60
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    22.75
+_exptl_absorpt_correction_T_max  0.321
+_exptl_absorpt_correction_T_min  0.211
+_exptl_absorpt_correction_type   '\y scan (North, Phillips & Mathews, 1968)'
+_exptl_crystal_colour            colorless
+_exptl_crystal_density_diffrn    5.523
+_exptl_crystal_description       prismatic
+_exptl_crystal_F_000             700
+_exptl_crystal_size_max          0.09
+_exptl_crystal_size_mid          0.09
+_exptl_crystal_size_min          0.05
+_refine_diff_density_max         '2.358 e \%A^-3^ (close to Tb)'
+_refine_diff_density_min         '-2.797 e \%A^-3^ (close to Tb)'
+_refine_ls_extinction_coef       'g = 6.6(2) x 10^-7^'
+_refine_ls_extinction_method
+'|F~c~| = |F~o~|(1 + gI~c~) (Stout & Jensen, 1968)'
+_refine_ls_goodness_of_fit_obs   1.615
+_refine_ls_number_parameters     24
+_refine_ls_number_reflns         769
+_refine_ls_R_factor_obs          .026
+_refine_ls_shift/esd_max         0.001
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_scheme
+;
+w = 1.0 for F~o~<0.8F~o~(max),
+w = [0.8F~o~(max)/F~o~]^-2^ for F~o~>=0.8F~o~(max)
+;
+_refine_ls_wR_factor_obs         .030
+_reflns_number_observed          779
+_reflns_number_total             888
+_reflns_observed_criterion       I>3\s(I)
+_cod_data_source_file            br1157.cif
+_cod_data_source_block           global
+_cod_original_cell_volume        493.57(17)
+_cod_original_formula_sum        'Ba Tb F6'
+_cod_database_code               2006096
+_cod_database_fobs_code          2006096
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,-z
+x,-y,-z
+-x,y,z
+1/2-x,y,-z
+1/2+x,-y,z
+1/2-x,-y,z
+1/2+x,y,-z
+1/2+x,1/2+y,z
+1/2-x,1/2-y,-z
+1/2+x,1/2-y,-z
+1/2-x,1/2+y,z
+-x,1/2+y,-z
+x,1/2-y,z
+-x,1/2-y,z
+x,1/2+y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Ba .00740(10) .00990(10) .00950(10) 0 0 0
+Tb .00365(9) .00710(10) .00690(10) 0 0 0
+F(1) .0080(10) .021(2) .020(2) 0 0 .0090(10)
+F(2) .0130(10) .0230(10) .0250(10) .0030(10) -.0030(10) .0110(10)
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+Ba 0 .25 .44358(9) .00895(6)
+Tb .25 0 0 .00589(5)
+F(1) 0 .4300(4) .1557(8) .0162(7)
+F(2) .3060(4) .3719(3) .2541(6) .0205(5)
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+F(1) Ba F(1) . 14_555 105.00(10) no
+F(1) Ba F(2) . . 53.60(6) no
+F(1) Ba F(2) . 10_556 143.48(7) no
+F(1) Ba F(1) . 14_555 99.30(8) no
+F(1) Ba F(1) . 5_556 87.9(2) no
+F(2) Ba F(2) . 10_556 91.05(9) no
+F(2) Ba F(2) . 4_555 107.20(8) no
+F(2) Ba F(2) . 11_456 158.85(9) no
+F(2) Ba F(2) . 5_556 60.94(9) no
+F(2) Ba F(2) . 14_555 56.82(9) no
+F(2) Ba F(2) . 8_456 115.38(9) no
+F(2) Ba F(2) . 15_555 138.45(9) no
+F(2) Ba F(2) 10_556 11_455 69.20(10) no
+F(2) Ba F(2) 10_556 5_556 64.00(10) no
+F(2) Ba F(2) 10_556 8_456 102.00(10) no
+F(1) Tb F(1) 10_554 9_545 62.50(10) no
+F(1) Tb F(1) 13_544 9_545 138.40(10) no
+F(1) Tb F(1) 14_555 9_545 135.50(10) no
+F(1) Tb F(2) 9_545 10_554 133.30(10) no
+F(1) Tb F(2) 9_545 12_545 70.80(10) no
+F(1) Tb F(2) 9_545 14_555 79.50(10) no
+F(1) Tb F(2) 9_545 16_544 80.00(10) no
+F(2) Tb F(2) 10_554 12_545 155.90(10) no
+F(2) Tb F(2) 10_554 14_555 89.80(10) no
+F(2) Tb F(2) 10_554 16_544 95.30(10) no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Ba Ba . 8_556 3.93040(10) yes
+Ba Tb . . 4.2489(3) yes
+Ba F(1) . . 2.613(4) yes
+Ba F(2) . 5_556 2.651(4) yes
+Ba F(2) . . 2.951(3) yes
+Tb Tb . 2_555 3.88070(10) yes
+Tb F(1) . 1. 2.271(2) yes
+Tb F(2) . 10_555 2.081(3) yes
+F(1) F(1) . 2_565 2.356(7) yes
+F(1) F(2) . . 2.527(3) yes
+F(1) F(2) . 5_555 2.800(5) yes
+F(1) F(2) . 7_565 2.786(5) yes

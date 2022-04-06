@@ -1,0 +1,124 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/1/00/84/1008439.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1008439
+loop_
+_publ_author_name
+'Collomb, A'
+'Litsardakis, G'
+'Samaras, D'
+'Pannetier, J'
+_publ_section_title
+;
+Neutron diffraction studies of the crystallographic and magnetic
+structures of SrZn~2/3~ Mn~4/3~ Fe~16~ O~27~
+;
+_journal_coden_ASTM              JMMMDC
+_journal_name_full               'Journal of Magnetism and Magnetic Materials'
+_journal_page_first              219
+_journal_page_last               225
+_journal_paper_doi               10.1016/0304-8853(89)90271-0
+_journal_volume                  78
+_journal_year                    1989
+_chemical_formula_analytical     'Sr Zn.67 Mn1.33 Fe16 O27'
+_chemical_formula_structural     'Sr Zn.66 Mn1.44 Fe15.9 O27'
+_chemical_formula_sum            'Fe15.9 Mn1.44 O27 Sr Zn0.66'
+_chemical_name_systematic
+;
+Strontium zinc manganese(II) iron manganese(III) iron(III) oxide
+(1/.66/.86/.45/.58/15.45/27)
+;
+_space_group_IT_number           194
+_symmetry_cell_setting           hexagonal
+_symmetry_Int_Tables_number      194
+_symmetry_space_group_name_Hall  '-P 6c 2c'
+_symmetry_space_group_name_H-M   'P 63/m m c'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            2
+_cell_length_a                   5.9442(8)
+_cell_length_b                   5.9442(8)
+_cell_length_c                   32.875(5)
+_cell_volume                     1006.0
+_refine_ls_R_factor_all          0.026
+_cod_original_formula_sum        'Fe15.9 Mn1.44 O27 Sr Zn.66'
+_cod_database_code               1008439
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-y,x-y,z
+y-x,-x,z
+-y,-x,z
+y-x,y,z
+x,x-y,z
+-x,-y,-z
+y,y-x,-z
+x-y,x,-z
+y,x,-z
+x-y,-y,-z
+-x,y-x,-z
+-x,-y,1/2+z
+y,y-x,1/2+z
+x-y,x,1/2+z
+y,x,1/2+z
+x-y,-y,1/2+z
+-x,y-x,1/2+z
+x,y,1/2-z
+-y,x-y,1/2-z
+y-x,-x,1/2-z
+-y,-x,1/2-z
+y-x,y,1/2-z
+x,x-y,1/2-z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_calc_flag
+Sr1 Sr2+ 2 b 0. 0. 0.25 1. 0 d
+Fe1 Fe3+ 4 f 0.3333 0.6667 -0.2456(10) 0.5 0 d
+Fe2 Fe3+ 4 f 0.3333 0.6667 -0.4234(2) 1. 0 d
+Fe3 Fe2+ 6 g 0.5 0. 0. 0.15(5) 0 d
+Fe4 Fe3+ 6 g 0.5 0. 0. 0.85(5) 0 d
+Zn1 Zn2+ 4 e 0. 0. 0.0586(3) 0.25(7) 0 d
+Mn1 Mn2+ 4 e 0. 0. 0.0586(3) 0.29(3) 0 d
+Fe5 Fe3+ 4 e 0. 0. 0.0586(3) 0.46(5) 0 d
+Zn2 Zn2+ 4 f 0.3333 0.6667 0.0938(2) 0.08(8) 0 d
+Mn2 Mn2+ 4 f 0.3333 0.6667 0.0938(2) 0.14(3) 0 d
+Fe6 Fe3+ 4 f 0.3333 0.6667 0.0938(2) 0.78(6) 0 d
+Mn3 Mn3+ 4 f 0.3333 0.6667 0.2054(2) 0.11(1) 0 d
+Fe7 Fe3+ 4 f 0.3333 0.6667 0.2054(2) 0.89(1) 0 d
+Mn4 Mn3+ 12 k -0.1634(3) -0.3268 0.1512(1) 0.06(1) 0 d
+Fe8 Fe3+ 12 k -0.1634(3) -0.3268 0.1512(1) 0.94(1) 0 d
+O1 O2- 4 e 0. 0. 0.1192(5) 1. 0 d
+O2 O2- 4 f 0.3333 0.6667 0.0345(5) 1. 0 d
+O3 O2- 4 f 0.3333 0.6667 -0.3245(6) 1. 0 d
+O4 O2- 6 h 0.4777(10) 0.9554 0.25 1. 0 d
+O5 O2- 12 k 0.5067(9) 0.0134 0.1101(2) 1. 0 d
+O6 O2- 12 k -0.1804(6) -0.3608 0.0371(2) 1. 0 d
+O7 O2- 12 k 0.1584 0.3168 0.1827(3) 1. 0 d
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Sr2+ 2.000
+Fe3+ 3.000
+Fe2+ 2.000
+Zn2+ 2.000
+Mn2+ 2.000
+Mn3+ 3.000
+O2- -2.000

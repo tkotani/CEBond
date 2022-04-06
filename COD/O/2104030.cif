@@ -1,0 +1,411 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/40/2104030.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2104030
+loop_
+_publ_author_name
+'Redhammer, G\"unther J.'
+'Ohashi, Haruo'
+'Roth, Georg'
+_publ_section_title
+;
+ Single-crystal structure refinement of NaTiSi~2~O~6~ clinopyroxene at
+ low temperatures (298<<i>T</i><100K)
+;
+_journal_issue                   6
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              730
+_journal_page_last               746
+_journal_paper_doi               10.1107/S0108768103022018
+_journal_volume                  59
+_journal_year                    2003
+_chemical_formula_moiety         'O6 Na1 Si2 Ti1'
+_chemical_formula_sum            'Na O6 Si2 Ti'
+_chemical_formula_weight         223.07
+_space_group_IT_number           15
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-C 2yc'
+_symmetry_space_group_name_H-M   'C 1 2/c 1'
+_audit_creation_method           'WinGX routine CIF_UPDATE'
+_cell_angle_alpha                90
+_cell_angle_beta                 106.75(2)
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   9.700(3)
+_cell_length_b                   8.8833(19)
+_cell_length_c                   5.3059(17)
+_cell_measurement_reflns_used    2872
+_cell_measurement_temperature    298(2)
+_cell_measurement_theta_max      32.28
+_cell_measurement_theta_min      2.1
+_cell_volume                     437.8(2)
+_computing_cell_refinement       'STOE X-AREA'
+_computing_data_collection       'STOE X-AREA'
+_computing_data_reduction        'STOE X-AREA'
+_computing_structure_refinement  'shelxl-97 (sheldrick, 1997b)'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 1997a)'
+_diffrn_measured_fraction_theta_full 0.933
+_diffrn_measured_fraction_theta_max 0.933
+_diffrn_measurement_device       '2-circle goniometer'
+_diffrn_measurement_device_type  'STOE IPDS 2'
+_diffrn_measurement_method       'rotation method'
+_diffrn_radiation_type           mok\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0258
+_diffrn_reflns_limit_h_max       13
+_diffrn_reflns_limit_h_min       -11
+_diffrn_reflns_limit_k_max       13
+_diffrn_reflns_limit_k_min       -11
+_diffrn_reflns_limit_l_max       7
+_diffrn_reflns_limit_l_min       -7
+_diffrn_reflns_number            2041
+_diffrn_reflns_theta_full        31.92
+_diffrn_reflns_theta_max         31.92
+_diffrn_reflns_theta_min         3.17
+_exptl_absorpt_coefficient_mu    2.55
+_exptl_absorpt_correction_T_max  0.724
+_exptl_absorpt_correction_T_min  0.616
+_exptl_absorpt_correction_type   empirical
+_exptl_absorpt_process_details   'via equivalents'
+_exptl_crystal_colour            blue
+_exptl_crystal_density_diffrn    3.385
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       prismatic
+_exptl_crystal_F_000             436
+_exptl_crystal_size_max          0.17
+_exptl_crystal_size_mid          0.10
+_exptl_crystal_size_min          0.08
+_refine_diff_density_max         0.441
+_refine_diff_density_min         -0.512
+_refine_ls_extinction_coef       0.0248(18)
+_refine_ls_extinction_expression fc^*^=kfc[1+0.001xfc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     shelxl
+_refine_ls_goodness_of_fit_ref   1.067
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     48
+_refine_ls_number_reflns         709
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.067
+_refine_ls_R_factor_gt           0.0189
+_refine_ls_shift/su_max          0
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(fo^2^)+(0.0279p)^2^+0.1441p] where p=(fo^2^+2fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_ref         0.0474
+_reflns_number_gt                625
+_reflns_number_total             709
+_reflns_threshold_expression     >2sigma(i)
+_cod_data_source_file            ws5001.cif
+_cod_data_source_block           298
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_refine_ls_structure_factor_coef' value 'fsqd' changed to 'Fsqd'
+according to '/home/saulius/struct/CIF-dictionaries/cif_core.dic'
+dictionary named 'cif_core.dic' version 2.4.1 from
+2010-06-29.
+
+'_atom_site_adp_type' value 'uani' changed to 'Uani'
+according to '/home/saulius/struct/CIF-dictionaries/cif_core.dic'
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29 (6
+times).
+
+'_atom_site_refinement_flags' value 's' changed to 'S' according
+to '/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (2 times).
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+
+The following automatic conversions were performed:
+
+'_refine_ls_structure_factor_coef' value 'fsqd' changed to 'Fsqd'
+according to /home/saulius/struct/CIF-dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.1 from
+2010-06-29.
+
+'_atom_site_adp_type' value 'uani' changed to 'Uani'
+according to /home/saulius/struct/CIF-dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29 (6
+times).
+
+'_atom_site_refinement_flags' value 's' changed to 'S'
+according to /home/saulius/struct/CIF-dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29 (2
+times).
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_original_sg_symbol_H-M      C2/c
+_cod_original_formula_sum        'Na1 O6 Si2 Ti1'
+_cod_database_code               2104030
+_cod_database_fobs_code          2104030
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, y, -z+1/2'
+'x+1/2, y+1/2, z'
+'-x+1/2, y+1/2, -z+1/2'
+'-x, -y, -z'
+'x, -y, z-1/2'
+'-x+1/2, -y+1/2, -z'
+'x+1/2, -y+1/2, z-1/2'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+_atom_site_type_symbol
+NA 0 0.30176(8) 0.25 0.01507(16) Uani d S 1 NA
+Ti 0 0.90184(3) 0.25 0.00500(8) Uani d S 1 Ti
+Si 0.29197(3) 0.08903(3) 0.24059(5) 0.00451(8) Uani d . 1 Si
+O1 0.11697(9) 0.07920(9) 0.14561(15) 0.00634(15) Uani d . 1 o
+O2 0.36078(10) 0.25273(10) 0.30335(15) 0.00895(17) Uani d . 1 o
+O3 0.35188(9) 0.00785(10) 0.01511(14) 0.00794(16) Uani d . 1 o
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+NA 0.0191(4) 0.0110(3) 0.0112(3) 0 -0.0016(3) 0
+Ti 0.00481(14) 0.00486(13) 0.00487(12) 0 0.00064(9) 0
+Si 0.00447(16) 0.00556(14) 0.00329(13) -0.00052(9) 0.00077(10) -0.00021(8)
+O1 0.0052(4) 0.0082(4) 0.0052(3) -0.0004(3) 0.0008(3) 0.0004(2)
+O2 0.0098(4) 0.0081(4) 0.0089(3) -0.0029(3) 0.0026(3) -0.0008(2)
+O3 0.0068(4) 0.0109(4) 0.0059(3) -0.0001(3) 0.0015(2) -0.0026(2)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+NA NA 0.0362 0.0249 'international tables vol c tables 4.2.6.8 and 6.1.1.4'
+Ti Ti 0.2776 0.4457 'international tables vol c tables 4.2.6.8 and 6.1.1.4'
+Si Si 0.0817 0.0704 'international tables vol c tables 4.2.6.8 and 6.1.1.4'
+O O 0.0106 0.006 'international tables vol c tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+O2 NA O2 8_455 7_556 156.87(5)
+O2 NA O1 8_455 . 77.18(3)
+O2 NA O1 7_556 . 83.94(4)
+O2 NA O1 8_455 2 83.94(4)
+O2 NA O1 7_556 2 77.18(3)
+O1 NA O1 . 2 70.56(5)
+O2 NA O3 8_455 4 137.16(4)
+O2 NA O3 7_556 4 64.41(3)
+O1 NA O3 . 4 118.97(3)
+O1 NA O3 2 4 137.94(3)
+O2 NA O3 8_455 3_455 64.41(3)
+O2 NA O3 7_556 3_455 137.16(4)
+O1 NA O3 . 3_455 137.94(3)
+O1 NA O3 2 3_455 118.97(3)
+O3 NA O3 4 3_455 82.58(5)
+O2 NA O3 8_455 7 81.54(3)
+O2 NA O3 7_556 7 112.70(3)
+O1 NA O3 . 7 92.04(3)
+O1 NA O3 2 7 159.48(3)
+O3 NA O3 4 7 59.87(3)
+O3 NA O3 3_455 7 66.87(4)
+O2 NA O3 8_455 8_456 112.70(3)
+O2 NA O3 7_556 8_456 81.54(3)
+O1 NA O3 . 8_456 159.48(3)
+O1 NA O3 2 8_456 92.04(3)
+O3 NA O3 4 8_456 66.87(4)
+O3 NA O3 3_455 8_456 59.87(3)
+O3 NA O3 7 8_456 106.91(5)
+O2 NA Si 8_455 7_556 168.63(3)
+O2 NA Si 7_556 7_556 31.58(2)
+O1 NA Si . 7_556 103.30(3)
+O1 NA Si 2 7_556 107.03(3)
+O3 NA Si 4 7_556 32.86(2)
+O3 NA Si 3_455 7_556 111.02(4)
+O3 NA Si 7 7_556 87.09(3)
+O3 NA Si 8_456 7_556 70.69(3)
+O2 NA Si 8_455 8_455 31.58(2)
+O2 NA Si 7_556 8_455 168.63(3)
+O1 NA Si . 8_455 107.03(3)
+O1 NA Si 2 8_455 103.30(3)
+O3 NA Si 4 8_455 111.02(4)
+O3 NA Si 3_455 8_455 32.86(2)
+O3 NA Si 7 8_455 70.69(3)
+O3 NA Si 8_456 8_455 87.09(3)
+Si NA Si 7_556 8_455 142.64(3)
+O2 NA Ti 8_455 5_565 37.74(2)
+O2 NA Ti 7_556 5_565 124.39(4)
+O1 NA Ti . 5_565 40.50(2)
+O1 NA Ti 2 5_565 80.83(3)
+O3 NA Ti 4 5_565 134.86(2)
+O3 NA Ti 3_455 5_565 98.11(3)
+O3 NA Ti 7 5_565 78.80(2)
+O3 NA Ti 8_456 5_565 149.887(19)
+Si NA Ti 7_556 5_565 139.384(18)
+Si NA Ti 8_455 5_565 66.53(2)
+O2 NA Ti 8_455 5_566 124.39(4)
+O2 NA Ti 7_556 5_566 37.74(2)
+O1 NA Ti . 5_566 80.83(3)
+O1 NA Ti 2 5_566 40.50(2)
+O3 NA Ti 4 5_566 98.11(3)
+O3 NA Ti 3_455 5_566 134.86(2)
+O3 NA Ti 7 5_566 149.887(19)
+O3 NA Ti 8_456 5_566 78.80(2)
+Si NA Ti 7_556 5_566 66.53(2)
+Si NA Ti 8_455 5_566 139.384(18)
+Ti NA Ti 5_565 5_566 111.43(3)
+O2 Ti O2 3_455 4 95.47(6)
+O2 Ti O1 3_455 6_566 96.10(4)
+O2 Ti O1 4 6_566 90.13(4)
+O2 Ti O1 3_455 5_565 90.13(4)
+O2 Ti O1 4 5_565 96.10(4)
+O1 Ti O1 6_566 5_565 170.74(5)
+O2 Ti O1 3_455 1_565 169.83(3)
+O2 Ti O1 4 1_565 91.24(4)
+O1 Ti O1 6_566 1_565 91.51(3)
+O1 Ti O1 5_565 1_565 81.54(4)
+O2 Ti O1 3_455 2_565 91.24(4)
+O2 Ti O1 4 2_565 169.83(3)
+O1 Ti O1 6_566 2_565 81.54(4)
+O1 Ti O1 5_565 2_565 91.51(3)
+O1 Ti O1 1_565 2_565 83.19(5)
+O2 Ti Ti 3_455 5_576 94.83(3)
+O2 Ti Ti 4 5_576 130.90(3)
+O1 Ti Ti 6_566 5_576 41.03(3)
+O1 Ti Ti 5_565 5_576 131.74(3)
+O1 Ti Ti 1_565 5_576 86.48(3)
+O1 Ti Ti 2_565 5_576 40.52(3)
+O2 Ti Ti 3_455 5_575 130.90(3)
+O2 Ti Ti 4 5_575 94.83(3)
+O1 Ti Ti 6_566 5_575 131.74(3)
+O1 Ti Ti 5_565 5_575 41.03(3)
+O1 Ti Ti 1_565 5_575 40.52(3)
+O1 Ti Ti 2_565 5_575 86.48(3)
+Ti Ti Ti 5_576 5_575 113.36(3)
+O2 Ti NA 3_455 5_565 84.45(3)
+O2 Ti NA 4 5_565 48.63(3)
+O1 Ti NA 6_566 5_565 138.38(3)
+O1 Ti NA 5_565 5_565 48.96(3)
+O1 Ti NA 1_565 5_565 94.35(3)
+O1 Ti NA 2_565 5_565 140.06(3)
+Ti Ti NA 5_576 5_565 179.035(15)
+Ti Ti NA 5_575 5_565 67.60(2)
+O2 Ti NA 3_455 5_566 48.63(3)
+O2 Ti NA 4 5_566 84.45(3)
+O1 Ti NA 6_566 5_566 48.96(3)
+O1 Ti NA 5_565 5_566 138.38(3)
+O1 Ti NA 1_565 5_566 140.06(3)
+O1 Ti NA 2_565 5_566 94.35(3)
+Ti Ti NA 5_576 5_566 67.60(2)
+Ti Ti NA 5_575 5_566 179.035(15)
+NA Ti NA 5_565 5_566 111.43(3)
+O2 Ti NA 3_455 1_565 132.27(3)
+O2 Ti NA 4 1_565 132.27(3)
+O1 Ti NA 6_566 1_565 85.37(2)
+O1 Ti NA 5_565 1_565 85.37(2)
+O1 Ti NA 1_565 1_565 41.60(3)
+O1 Ti NA 2_565 1_565 41.60(3)
+Ti Ti NA 5_576 1_565 56.681(13)
+Ti Ti NA 5_575 1_565 56.681(13)
+NA Ti NA 5_565 1_565 124.284(15)
+NA Ti NA 5_566 1_565 124.284(15)
+O2 Si O1 . . 116.73(5)
+O2 Si O3 . . 109.78(5)
+O1 Si O3 . . 107.92(5)
+O2 Si O3 . 6_556 105.79(5)
+O1 Si O3 . 6_556 108.44(5)
+O3 Si O3 . 6_556 107.85(4)
+O2 Si NA . 7_556 52.45(3)
+O1 Si NA . 7_556 131.33(4)
+O3 Si NA . 7_556 120.45(4)
+O3 Si NA 6_556 7_556 53.39(4)
+O2 Si NA . 3_545 119.54(4)
+O1 Si NA . 3_545 123.43(3)
+O3 Si NA . 3_545 46.83(3)
+O3 Si NA 6_556 3_545 61.06(4)
+NA Si NA 7_556 3_545 89.25(3)
+O2 Si NA . . 77.96(4)
+O1 Si NA . . 40.49(3)
+O3 Si NA . . 136.32(3)
+O3 Si NA 6_556 . 111.02(4)
+NA Si NA 7_556 . 98.72(2)
+NA Si NA 3_545 . 161.64(2)
+Si O1 Ti . 5_565 121.57(5)
+Si O1 Ti . 1_545 123.45(5)
+Ti O1 Ti 5_565 1_545 98.46(4)
+Si O1 NA . . 113.63(4)
+Ti O1 NA 5_565 . 90.54(3)
+Ti O1 NA 1_545 . 103.13(4)
+Si O2 Ti . 3_545 147.82(6)
+Si O2 NA . 7_556 95.98(4)
+Ti O2 NA 3_545 7_556 93.63(4)
+Si O3 Si . 6 140.01(6)
+Si O3 NA . 3_545 103.76(4)
+Si O3 NA 6 3_545 93.75(5)
+Si O3 NA . 7 115.82(5)
+Si O3 NA 6 7 88.45(4)
+NA O3 NA 3_545 7 113.13(4)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+NA O2 8_455 2.4144(11)
+NA O2 7_556 2.4144(11)
+NA O1 . 2.4218(11)
+NA O1 2 2.4218(11)
+NA O3 4 2.4365(11)
+NA O3 3_455 2.4365(11)
+NA O3 7 2.8405(11)
+NA O3 8_456 2.8405(11)
+NA Si 7_556 3.0288(10)
+NA Si 8_455 3.0288(10)
+NA Ti 5_565 3.2108(8)
+NA Ti 5_566 3.2108(8)
+Ti O2 3_455 1.9694(10)
+Ti O2 4 1.9694(10)
+Ti O1 6_566 2.0853(11)
+Ti O1 5_565 2.0853(11)
+Ti O1 1_565 2.1068(9)
+Ti O1 2_565 2.1068(9)
+Ti Ti 5_576 3.1748(8)
+Ti Ti 5_575 3.1748(8)
+Ti NA 5_565 3.2108(9)
+Ti NA 5_566 3.2108(8)
+Ti NA 1_565 3.5526(11)
+Si O2 . 1.5947(10)
+Si O1 . 1.6278(11)
+Si O3 . 1.6400(9)
+Si O3 6_556 1.6468(9)
+Si NA 7_556 3.0288(10)
+Si NA 3_545 3.2447(9)
+O1 Ti 5_565 2.0853(11)
+O1 Ti 1_545 2.1068(9)
+O2 Ti 3_545 1.9694(10)
+O2 NA 7_556 2.4144(11)
+O3 Si 6 1.6468(9)
+O3 NA 3_545 2.4365(11)
+O3 NA 7 2.8405(11)

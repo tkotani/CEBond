@@ -1,0 +1,274 @@
+#------------------------------------------------------------------------------
+#$Date: 2021-02-25 10:59:37 +0200 (Thu, 25 Feb 2021) $
+#$Revision: 262215 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/56/06/1560629.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1560629
+loop_
+_publ_author_name
+'Levin, I.'
+'Krayzman, V.'
+'Vanderah, T.A.'
+'Tomczyk, M.'
+'Wu, H.'
+'Tucker, M.G.'
+'Playford, H.Y.'
+'Woicik, J.C.'
+'Dennis, C.L.'
+'Vilarinho, P.M.'
+_publ_section_title
+;
+ Oxygen-storage behavior and local structure in Ti-substituted YMnO3
+;
+_journal_name_full               'Journal of Solid State Chemistry'
+_journal_page_first              29
+_journal_page_last               41
+_journal_paper_doi               10.1016/j.jssc.2016.10.029
+_journal_volume                  246
+_journal_year                    2017
+_chemical_formula_sum            'Mn O3 Y'
+_chemical_formula_weight         191.84
+_space_group_IT_number           185
+_space_group_name_Hall           'P 6c -2'
+_space_group_name_H-M_alt        'P 63 c m'
+_symmetry_cell_setting           hexagonal
+_symmetry_space_group_name_H-M   'P 63 c m'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                120.0
+_cell_formula_units_Z            6
+_cell_length_a                   6.24323(5)
+_cell_length_b                   6.24323
+_cell_length_c                   11.36346(13)
+_cell_volume                     383.583(5)
+_cod_data_source_file            JSSC-2017-246-29.cif
+_cod_data_source_block           YMNO3_850C_phase_1
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+data item '_geom_angle_publ_flag' value 'N' was changed to 'n' in
+accordance with the built-in table derived from the CIF Core
+dictionary named 'cif_core.dic' version 2.4.5 last updated on
+2014-11-21 (76 times).
+
+data item '_geom_bond_publ_flag' value 'N' was changed to 'n' in
+accordance with the built-in table derived from the CIF Core
+dictionary named 'cif_core.dic' version 2.4.5 last updated on
+2014-11-21 (58 times).
+
+Automatic conversion script
+Id: cif_fix_values 8369 2020-08-20 11:38:08Z andrius 
+;
+_cod_original_cell_volume        383.583(8)
+_cod_database_code               1560629
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 x-y,+x,+z+1/2
+3 -y,x-y,+z
+4 -x,-y,+z+1/2
+5 y-x,-x,+z
+6 +y,y-x,+z+1/2
+7 y-x,+y,+z+1/2
+8 -x,y-x,+z
+9 -y,-x,+z+1/2
+10 x-y,-y,+z
+11 +x,x-y,+z+1/2
+12 +y,+x,+z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_22
+_atom_site_aniso_U_23
+_atom_site_aniso_U_33
+Y1 0.0244(23) 0.0122(12) 0.0 0.0244(23) 0.0 0.032(5)
+Y2 0.0122(10) 0.0061(5) 0.0 0.0122(10) 0.0 0.0576(33)
+Mn1 0.0276(30) -0.0061(20) -0.0034(16) 0.017(4) 0.0 0.0079(9)
+O1 0.0210(22) 0.0187(19) 0.0078(13) 0.037(4) 0.0 0.0236(32)
+O2 0.0237(24) 0.0211(18) 0.0069(14) 0.042(4) 0.0 0.0114(25)
+O3 0.0261(30) 0.0131(15) 0.0 0.0261(30) 0.0 0.013(4)
+O4 0.0279(19) 0.0140(10) 0.0 0.0279(19) 0.0 0.068(4)
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+Y Y1 0.0 0.0 0.2637(13) 1.0 Uani 0.02704 2
+Y Y2 0.33333 0.66667 0.2409(13) 1.0 Uani 0.02734 4
+Mn Mn1 0.3380(19) 0.0 0.0 1.0 Uani 0.02513 6
+O O1 0.3229(9) 0.0 0.1673(11) 1.0 Uani 0.02555 6
+O O2 0.6533(10) 0.0 0.3391(11) 1.0 Uani 0.02373 6
+O O3 0.0 0.0 0.4886(12) 1.0 Uani 0.02173 2
+O O4 0.33333 0.66667 0.0120(15) 1.0 Uani 0.04138 4
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+Y 6.0
+Mn 6.0
+O 18.0
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O1 Y1 O1 99.09(26) 1_555 . 3_555 n
+O1 Y1 O1 99.09(26) 1_555 . 5_555 n
+O1 Y1 O2 173.1(4) 1_555 . 1_455 n
+O1 Y1 O2 76.54(8) 1_555 . 3_545 n
+O1 Y1 O2 76.54(8) 1_555 . 5_665 n
+O1 Y1 O3 118.53(20) 1_555 . 1_555 n
+O1 Y1 O1 99.09(26) 3_555 . 5_555 n
+O1 Y1 O2 76.54(8) 3_555 . 1_455 n
+O1 Y1 O2 173.1(4) 3_555 . 3_545 n
+O1 Y1 O2 76.54(8) 3_555 . 5_665 n
+O1 Y1 O3 118.53(20) 3_555 . 1_555 n
+O1 Y1 O2 76.54(8) 5_555 . 1_455 n
+O1 Y1 O2 76.54(8) 5_555 . 3_545 n
+O1 Y1 O2 173.1(4) 5_555 . 5_665 n
+O1 Y1 O3 118.53(20) 5_555 . 1_555 n
+O2 Y1 O2 107.27(24) 1_455 . 3_545 n
+O2 Y1 O2 107.27(24) 1_455 . 5_665 n
+O2 Y1 O3 68.41(22) 1_455 . 1_555 n
+O2 Y1 O2 107.27(24) 3_545 . 5_665 n
+O2 Y1 O3 68.41(22) 3_545 . 1_555 n
+O2 Y1 O3 68.41(22) 5_665 . 1_555 n
+O1 Y2 O1 107.27(20) 1_565 . 3_555 n
+O1 Y2 O1 107.27(20) 1_565 . 5_665 n
+O1 Y2 O2 76.26(16) 1_565 . 1_565 n
+O1 Y2 O2 76.97(23) 1_565 . 3_555 n
+O1 Y2 O2 172.9(4) 1_565 . 5_665 n
+O1 Y2 O4 68.41(19) 1_565 . 1_555 n
+O1 Y2 O1 107.27(20) 3_555 . 5_665 n
+O1 Y2 O2 172.9(4) 3_555 . 1_565 n
+O1 Y2 O2 76.26(16) 3_555 . 3_555 n
+O1 Y2 O2 76.97(23) 3_555 . 5_665 n
+O1 Y2 O4 68.41(19) 3_555 . 1_555 n
+O1 Y2 O2 76.97(23) 5_665 . 1_565 n
+O1 Y2 O2 172.9(4) 5_665 . 3_555 n
+O1 Y2 O2 76.26(16) 5_665 . 5_665 n
+O1 Y2 O4 68.41(19) 5_665 . 1_555 n
+O2 Y2 O2 98.92(23) 1_565 . 3_555 n
+O2 Y2 O2 98.92(23) 1_565 . 5_665 n
+O2 Y2 O4 118.66(18) 1_565 . 1_555 n
+O2 Y2 O2 98.92(23) 3_555 . 5_665 n
+O2 Y2 O4 118.66(18) 3_555 . 1_555 n
+O2 Y2 O4 118.66(18) 5_665 . 1_555 n
+O1 Mn1 O2 178.8(8) 1_555 . 4_654 n
+O1 Mn1 O3 90.7(5) 1_555 . 2_554 n
+O1 Mn1 O4 87.6(5) 1_555 . 1_545 n
+O1 Mn1 O4 87.6(5) 1_555 . 8_655 n
+O2 Mn1 O3 88.2(6) 4_654 . 2_554 n
+O2 Mn1 O4 92.9(5) 4_654 . 1_545 n
+O2 Mn1 O4 92.9(5) 4_654 . 8_655 n
+O3 Mn1 O4 119.43(29) 2_554 . 1_545 n
+O3 Mn1 O4 119.43(29) 2_554 . 8_655 n
+O4 Mn1 O4 121.0(6) 1_545 . 8_655 n
+Y1 O1 Y2 104.57(23) 1_555 . 1_545 n
+Y1 O1 Y2 104.57(23) 1_555 . 8_655 n
+Y1 O1 Mn1 121.4(5) 1_555 . 1_555 n
+Y2 O1 Y2 104.84(26) 1_545 . 8_655 n
+Y2 O1 Mn1 110.08(30) 1_545 . 1_555 n
+Y2 O1 Mn1 110.08(30) 8_655 . 1_555 n
+Y1 O2 Y2 101.91(21) 1_655 . 1_545 n
+Y1 O2 Y2 101.90(21) 1_655 . 8_655 n
+Y1 O2 Mn1 109.9(5) 1_655 . 4_655 n
+Y2 O2 Y2 101.60(31) 1_545 . 8_655 n
+Y2 O2 Mn1 119.44(25) 1_545 . 4_655 n
+Y2 O2 Mn1 119.44(25) 8_655 . 4_655 n
+Y1 O3 Mn1 93.5(4) 1_555 . 2_555 n
+Y1 O3 Mn1 93.5(4) 1_555 . 4_555 n
+Y1 O3 Mn1 93.5(4) 1_555 . 6_555 n
+Mn1 O3 Mn1 119.63(8) 2_555 . 4_555 n
+Mn1 O3 Mn1 119.63(8) 2_555 . 6_555 n
+Mn1 O3 Mn1 119.63(8) 4_555 . 6_555 n
+Y2 O4 Mn1 93.8(5) 1_555 . 1_565 n
+Y2 O4 Mn1 93.8(5) 1_555 . 3_555 n
+Y2 O4 Mn1 93.8(5) 1_555 . 5_665 n
+Mn1 O4 Mn1 119.57(10) 1_565 . 3_555 n
+Mn1 O4 Mn1 119.57(10) 1_565 . 5_665 n
+Mn1 O4 Mn1 119.57(10) 3_555 . 5_665 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Y1 Y2 3.6138(5) . 1_445 n
+Y1 Y2 3.6138(5) . 1_545 n
+Y1 Y2 3.6138(5) . 1_555 n
+Y1 Y2 3.6138(5) . 8_545 n
+Y1 Y2 3.6138(5) . 8_555 n
+Y1 Y2 3.6138(5) . 8_655 n
+Y1 Mn1 3.415(14) . 2_555 n
+Y1 Mn1 3.415(14) . 4_555 n
+Y1 Mn1 3.415(14) . 6_555 n
+Y1 O1 2.294(7) . 1_555 n
+Y1 O1 2.294(7) . 3_555 n
+Y1 O1 2.294(7) . 5_555 n
+Y1 O2 2.328(6) . 1_455 n
+Y1 O2 2.328(6) . 3_545 n
+Y1 O2 2.328(6) . 5_665 n
+Y1 O3 2.556(12) . 1_555 n
+Y2 Y1 3.6138(5) . 1_555 n
+Y2 Y1 3.6138(5) . 1_565 n
+Y2 Y1 3.6138(5) . 1_665 n
+Y2 Y2 3.604490(30) . 8_555 n
+Y2 Y2 3.604550(30) . 8_655 n
+Y2 Y2 3.604550(30) . 8_665 n
+Y2 Mn1 3.430(12) . 1_565 n
+Y2 Mn1 3.430(12) . 3_555 n
+Y2 Mn1 3.430(12) . 5_665 n
+Y2 O1 2.274(4) . 1_565 n
+Y2 O1 2.274(4) . 3_555 n
+Y2 O1 2.274(4) . 5_665 n
+Y2 O2 2.326(5) . 1_565 n
+Y2 O2 2.326(5) . 3_555 n
+Y2 O2 2.326(5) . 5_665 n
+Y2 O4 2.602(15) . 1_555 n
+Y2 O4 3.080(15) . 7_555 n
+Mn1 Y1 3.415(14) . 2_554 n
+Mn1 Y2 3.430(12) . 1_545 n
+Mn1 Y2 3.430(12) . 8_655 n
+Mn1 O1 1.903(12) . 1_555 n
+Mn1 O2 1.829(12) . 4_654 n
+Mn1 O3 2.114(12) . 2_554 n
+Mn1 O4 2.071(6) . 1_545 n
+Mn1 O4 2.071(6) . 8_655 n
+O1 Y1 2.294(7) . 1_555 n
+O1 Y2 2.274(4) . 1_545 n
+O1 Y2 2.274(4) . 8_655 n
+O1 Mn1 1.903(12) . 1_555 n
+O2 Y1 2.328(6) . 1_655 n
+O2 Y2 2.326(5) . 1_545 n
+O2 Y2 2.326(5) . 8_655 n
+O2 Mn1 1.829(12) . 4_655 n
+O3 Y1 2.556(12) . 1_555 n
+O3 Mn1 2.114(12) . 2_555 n
+O3 Mn1 2.114(12) . 4_555 n
+O3 Mn1 2.114(12) . 6_555 n
+O4 Y2 2.602(15) . 1_555 n
+O4 Y2 3.080(15) . 7_554 n
+O4 Mn1 2.071(6) . 1_565 n
+O4 Mn1 2.071(6) . 3_555 n
+O4 Mn1 2.071(6) . 5_665 n

@@ -1,0 +1,801 @@
+#------------------------------------------------------------------------------
+#$Date: 2019-11-07 21:29:43 +0200 (Thu, 07 Nov 2019) $
+#$Revision: 223525 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/7/23/21/7232187.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7232187
+loop_
+_publ_author_name
+'Deyneko, Dina V.'
+'Petrova, Daria A.'
+'Aksenov, Sergey M.'
+'Stefanovich, Sergey Yu.'
+'Baryshnikova, Oksana V.'
+'Fedotov, Stanislav S.'
+'Burns, Peter C.'
+'Kosmyna, Miron B.'
+'Shekhovtsov, Aleksey N.'
+'Lazoryak, Bogdan I.'
+_publ_section_title
+;
+ Ferroelectricity, ionic conductivity and structural paths for large
+ cation migration in Ca10.5&#x2212;xPbx(VO4)7 single crystals, x = 1.9,
+ 3.5, 4.9
+;
+_journal_issue                   8
+_journal_name_full               CrystEngComm
+_journal_page_first              1309
+_journal_paper_doi               10.1039/C8CE01843J
+_journal_volume                  21
+_journal_year                    2019
+_chemical_formula_sum            'Ca8.649 O28 Pb1.851 V7'
+_chemical_formula_weight         1534.7
+_space_group_IT_number           161
+_space_group_name_Hall           'R 3 -2"c'
+_space_group_name_H-M_alt        'R 3 c :H'
+_symmetry_cell_setting           trigonal
+_symmetry_Int_Tables_number      161
+_symmetry_space_group_name_Hall  'R 3 -2"c'
+_symmetry_space_group_name_H-M   'R 3 c :H'
+_audit_update_record
+;
+2018-08-11 deposited with the CCDC.
+2018-11-19 downloaded from the CCDC.
+;
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            6
+_cell_length_a                   10.9220(2)
+_cell_length_b                   10.9220(2)
+_cell_length_c                   38.3133(9)
+_cell_measurement_reflns_used    69638
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      56.22
+_cell_measurement_theta_min      4.06
+_cell_volume                     3958.08(14)
+_diffrn_ambient_temperature      293
+_diffrn_detector                 CCD
+_diffrn_measured_fraction_theta_full 0.99
+_diffrn_measured_fraction_theta_max 0.99
+_diffrn_measurement_device       'Xcalibur Oxford Diffraction'
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_source         'X-ray tube'
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.71075
+_diffrn_reflns_av_R_equivalents  0.1083
+_diffrn_reflns_av_unetI/netI     0.0613
+_diffrn_reflns_limit_h_max       25
+_diffrn_reflns_limit_h_min       -22
+_diffrn_reflns_limit_k_max       24
+_diffrn_reflns_limit_k_min       -25
+_diffrn_reflns_limit_l_max       88
+_diffrn_reflns_limit_l_min       -78
+_diffrn_reflns_number            69638
+_diffrn_reflns_theta_full        56.22
+_diffrn_reflns_theta_max         56.22
+_diffrn_reflns_theta_min         4.06
+_exptl_absorpt_coefficient_mu    15.92
+_exptl_crystal_colour            white
+_exptl_crystal_density_diffrn    3.8632
+_exptl_crystal_description       'anhedral grain'
+_exptl_crystal_F_000             4259
+_refine_diff_density_max         1.91
+_refine_diff_density_min         -2.34
+_refine_ls_abs_structure_details '  0 of Friedel pairs used in the refinement'
+_refine_ls_extinction_coef       200(50)
+_refine_ls_extinction_method
+'B-C type 1 Gaussian isotropic (Becker & Coppens, 1974)'
+_refine_ls_goodness_of_fit_gt    1.04
+_refine_ls_goodness_of_fit_ref   1.03
+_refine_ls_number_constraints    2
+_refine_ls_number_parameters     199
+_refine_ls_number_reflns         5507
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          0.0794
+_refine_ls_R_factor_gt           0.0484
+_refine_ls_shift/su_max          0.0449
+_refine_ls_shift/su_mean         0.0059
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     w=1/(\s^2^(F)+0.0001F^2^)
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_gt          0.0368
+_refine_ls_wR_factor_ref         0.0455
+_reflns_number_gt                3621
+_reflns_number_total             5507
+_reflns_threshold_expression     I>2\s(I)
+_cod_data_source_file            c8ce01843j7.cif
+_cod_data_source_block           I_CCDC2
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_diffrn_radiation_probe' value 'X-ray' changed to 'x-ray' according
+to
+/home/data/users/saulius/crontab/automatic-downloads/rss-feeds/RSC/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 from 2011-04-26.
+
+Automatic conversion script
+Id: cif_fix_values 4973 2017-02-22 13:04:09Z antanas 
+
+ Adding full bibliography for 7232185--7232187.cif.
+;
+_cod_original_sg_symbol_Hall     'R 3;-2"c'
+_cod_original_sg_symbol_H-M      'R 3 c'
+_cod_database_code               7232187
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 -y,x-y,z
+3 -x+y,-x,z
+4 -y,-x,z+1/2
+5 -x+y,y,z+1/2
+6 x,x-y,z+1/2
+7 x+2/3,y+1/3,z+1/3
+8 -y+2/3,x-y+1/3,z+1/3
+9 -x+y+2/3,-x+1/3,z+1/3
+10 -y+2/3,-x+1/3,z+5/6
+11 -x+y+2/3,y+1/3,z+5/6
+12 x+2/3,x-y+1/3,z+5/6
+13 x+1/3,y+2/3,z+2/3
+14 -y+1/3,x-y+2/3,z+2/3
+15 -x+y+1/3,-x+2/3,z+2/3
+16 -y+1/3,-x+2/3,z+1/6
+17 -x+y+1/3,y+2/3,z+1/6
+18 x+1/3,x-y+2/3,z+1/6
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_adp_type
+_atom_site_U_iso_or_equiv
+_atom_site_site_symmetry_multiplicity
+_atom_site_occupancy
+_atom_site_calc_flag
+Pb_m3 Pb 0.5172(2) 0.0598(3) 0.0063(9) Uani 0.0308(4) 18 0.4503 d
+Pb_m4 Pb 0.333333 -0.333333 -0.0198(9) Uani 0.0444(19) 6 0.2655 d
+V2 V 0.80569(7) 0.15049(6) -0.0330(9) Uani 0.01105(16) 18 1 d
+V1 V 0.666667 0.333333 0.0665(9) Uani 0.01136(17) 6 1 d
+V3 V 0.19300(8) -0.15921(7) 0.0326(9) Uani 0.01503(19) 18 1 d
+Ca_m5 Ca 0 0 -0.0003(9) Uani 0.0185(2) 6 1 d
+Ca_m1 Ca 0.72084(8) -0.15557(8) -0.0668(9) Uani 0.01345(19) 18 1 d
+Ca_m2 Ca 0.86358(7) -0.27597(8) 0.0688(9) Uani 0.01265(18) 18 1 d
+O_33 O 0.0821(3) -0.0930(4) 0.0410(9) Uani 0.0297(12) 18 1 d
+O_24 O 0.9029(3) 0.0725(3) -0.0435(9) Uani 0.0185(9) 18 1 d
+O_12 O 0.5207(3) 0.3416(4) 0.0794(9) Uani 0.0258(11) 18 1 d
+O_31 O 0.3460(3) -0.0432(3) 0.0551(9) Uani 0.0173(9) 18 1 d
+O_21 O 0.8066(3) 0.1757(4) 0.0111(9) Uani 0.0214(10) 18 1 d
+O_23 O 0.6353(4) 0.0385(4) -0.0449(9) Uani 0.0269(13) 18 1 d
+O_22 O 0.8862(5) 0.3117(4) -0.0521(9) Uani 0.0355(16) 18 1 d
+O_34 O 0.1110(6) -0.3307(4) 0.0459(9) Uani 0.050(2) 18 1 d
+O_32 O 0.2455(7) -0.1418(5) -0.0100(9) Uani 0.050(2) 18 1 d
+O_11 O 0.666667 0.333333 0.0218(9) Uani 0.0263(15) 6 1 d
+Ca_m3 Ca 0.5238(8) 0.0680(9) 0.0069(9) Uani 0.0136(12) 18 0.5497 d
+Pb_m4_3 Pb 0.257(3) -0.3540(18) -0.0234(10) Uani 0.041(5) 18 0.0357 d
+Pb_m4_2 Pb 0.333333 -0.333333 -0.0103(9) Uani 0.054(2) 6 0.1275 d
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_type_symbol
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Pb_m3 Pb 0.0288(5) 0.0462(6) 0.0250(4) 0.0246(5) 0.0103(3) 0.0085(4)
+Pb_m4 Pb 0.053(3) 0.053(3) 0.0271(14) 0.0265(14) 0 0
+V2 V 0.0135(2) 0.01214(19) 0.00992(18) 0.00825(16) -0.00062(15) 0.00084(15)
+V1 V 0.01046(20) 0.01046(20) 0.0131(3) 0.00523(10) 0 0
+V3 V 0.0208(3) 0.0114(2) 0.0129(2) 0.0080(2) -0.0039(2) 0.00063(17)
+Ca_m5 Ca 0.0235(3) 0.0235(3) 0.0085(4) 0.01175(16) 0 0
+Ca_m1 Ca 0.0139(2) 0.0130(2) 0.0116(2) 0.0053(2) -0.00303(19) -0.00055(19)
+Ca_m2 Ca 0.0112(2) 0.0140(2) 0.0117(2) 0.00551(19) -0.00078(17) -0.00037(18)
+O_33 O 0.0157(12) 0.0254(15) 0.048(2) 0.0101(12) 0.0000(12) 0.0181(14)
+O_24 O 0.0165(11) 0.0189(12) 0.0257(13) 0.0131(10) -0.0015(9) -0.0035(9)
+O_12 O 0.0212(13) 0.0203(13) 0.0400(18) 0.0135(12) 0.0069(12) -0.0054(12)
+O_31 O 0.0152(10) 0.0229(12) 0.0165(10) 0.0116(10) -0.0045(8) -0.0017(9)
+O_21 O 0.0232(13) 0.0236(13) 0.0110(10) 0.0069(11) -0.0011(9) 0.0004(9)
+O_23 O 0.0166(12) 0.041(2) 0.0212(13) 0.0133(13) -0.0089(10) -0.0105(13)
+O_22 O 0.050(2) 0.0256(17) 0.0291(16) 0.0180(17) 0.0015(16) 0.0132(13)
+O_34 O 0.082(4) 0.0149(14) 0.0321(19) 0.0089(18) -0.019(2) 0.0072(13)
+O_32 O 0.091(4) 0.034(2) 0.0140(14) 0.022(3) -0.0091(19) -0.0021(13)
+O_11 O 0.0313(19) 0.0313(19) 0.016(2) 0.0156(10) 0 0
+Ca_m3 Ca 0.0091(11) 0.029(2) 0.0064(11) 0.0122(13) 0.0079(7) 0.0091(8)
+Pb_m4_3 Pb 0.051(10) 0.019(3) 0.036(5) 0.004(4) 0.013(6) -0.004(2)
+Pb_m4_2 Pb 0.0245(15) 0.0245(15) 0.114(7) 0.0122(8) 0 0
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Ca 0.2262 0.3064 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+O 0.0106 0.0060 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+Pb -3.3944 10.1111 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+V 0.3005 0.5294 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+V2 Pb_m3 Ca_m1 . 16_555 117.5(7)
+V2 Pb_m3 O_23 . . 32.0(6)
+V2 Pb_m3 Ca_m3 . . 70(20)
+V2 Pb_m3 Pb_m4_3 . 3_655 89.9(8)
+Ca_m1 Pb_m3 O_23 16_555 . 134.5(6)
+Ca_m1 Pb_m3 Ca_m3 16_555 . 90(30)
+Ca_m1 Pb_m3 Pb_m4_3 16_555 3_655 93.5(8)
+O_23 Pb_m3 Pb_m4_3 . 3_655 65.0(8)
+Ca_m3 Pb_m3 Pb_m4_3 . 3_655 155(13)
+V1 Pb_m4 Pb_m4_3 10_554 . 80(4)
+V1 Pb_m4 Pb_m4_3 10_554 2_545 80(4)
+V1 Pb_m4 Pb_m4_3 10_554 3_655 80(4)
+V1 Pb_m4 Pb_m4_2 10_554 . 180.0(5)
+Pb_m4_3 Pb_m4 Pb_m4_3 . 2_545 117(3)
+Pb_m4_3 Pb_m4 Pb_m4_3 . 3_655 117(4)
+Pb_m4_3 Pb_m4 Pb_m4_2 . . 100(4)
+Pb_m4_3 Pb_m4 Pb_m4_3 2_545 3_655 117(4)
+Pb_m4_3 Pb_m4 Pb_m4_2 2_545 . 100(4)
+Pb_m4_3 Pb_m4 Pb_m4_2 3_655 . 100(4)
+Pb_m3 V2 Ca_m1 . . 98.0(3)
+Pb_m3 V2 Ca_m1 . 3_765 172.7(9)
+Pb_m3 V2 O_24 . . 136.4(8)
+Pb_m3 V2 O_21 . . 60.4(7)
+Pb_m3 V2 O_23 . . 49.0(12)
+Pb_m3 V2 O_22 . . 116.7(5)
+Pb_m3 V2 Ca_m3 . . 1.4(4)
+Pb_m3 V2 Ca_m3 . 2_655 86.8(7)
+Ca_m1 V2 Ca_m1 . 3_765 88.8(6)
+Ca_m1 V2 O_24 . . 47.4(5)
+Ca_m1 V2 O_21 . . 122.3(9)
+Ca_m1 V2 O_23 . . 60.5(5)
+Ca_m1 V2 O_22 . . 129.0(19)
+Ca_m1 V2 Ca_m3 . . 99.4(4)
+Ca_m1 V2 Ca_m3 . 2_655 171.0(7)
+Ca_m1 V2 O_24 3_765 . 48.3(5)
+Ca_m1 V2 O_21 3_765 . 113.6(8)
+Ca_m1 V2 O_23 3_765 . 138.0(19)
+Ca_m1 V2 O_22 3_765 . 59.8(5)
+Ca_m1 V2 Ca_m3 3_765 . 171.3(9)
+Ca_m1 V2 Ca_m3 3_765 2_655 86.1(4)
+O_24 V2 O_21 . . 111.0(16)
+O_24 V2 O_23 . . 107.9(10)
+O_24 V2 O_22 . . 106.7(13)
+O_24 V2 Ca_m3 . . 137.4(8)
+O_24 V2 Ca_m3 . 2_655 124.5(7)
+O_21 V2 O_23 . . 107.3(15)
+O_21 V2 O_22 . . 107.6(13)
+O_21 V2 Ca_m3 . . 59.5(7)
+O_21 V2 Ca_m3 . 2_655 53.9(7)
+O_23 V2 O_22 . . 116.4(16)
+O_23 V2 Ca_m3 . . 50.2(12)
+O_23 V2 Ca_m3 . 2_655 127.5(7)
+O_22 V2 Ca_m3 . . 115.7(5)
+O_22 V2 Ca_m3 . 2_655 53.7(13)
+Ca_m3 V2 Ca_m3 . 2_655 85.3(7)
+Pb_m4 V1 O_12 16_555 . 73.2(15)
+Pb_m4 V1 O_12 16_555 2_655 73.2(15)
+Pb_m4 V1 O_12 16_555 3_665 73.2(15)
+Pb_m4 V1 O_11 16_555 . 180.0(5)
+Pb_m4 V1 Ca_m3 16_555 . 132.3(6)
+Pb_m4 V1 Ca_m3 16_555 2_655 132.3(6)
+Pb_m4 V1 Ca_m3 16_555 3_665 132.3(6)
+Pb_m4 V1 Pb_m4_3 16_555 16_555 14.2(6)
+Pb_m4 V1 Pb_m4_3 16_555 17_655 14.2(7)
+Pb_m4 V1 Pb_m4_3 16_555 18_545 14.2(5)
+O_12 V1 O_12 . 2_655 112.0(12)
+O_12 V1 O_12 . 3_665 112.0(12)
+O_12 V1 O_11 . . 106.8(15)
+O_12 V1 Ca_m3 . . 101.3(10)
+O_12 V1 Ca_m3 . 2_655 143.8(14)
+O_12 V1 Ca_m3 . 3_665 65.1(12)
+O_12 V1 Pb_m4_3 . 16_555 69.5(15)
+O_12 V1 Pb_m4_3 . 17_655 87.1(18)
+O_12 V1 Pb_m4_3 . 18_545 64.0(16)
+O_12 V1 O_12 2_655 3_665 112.0(12)
+O_12 V1 O_11 2_655 . 106.8(15)
+O_12 V1 Ca_m3 2_655 . 65.1(12)
+O_12 V1 Ca_m3 2_655 2_655 101.3(10)
+O_12 V1 Ca_m3 2_655 3_665 143.8(14)
+O_12 V1 Pb_m4_3 2_655 16_555 87.1(17)
+O_12 V1 Pb_m4_3 2_655 17_655 64.0(15)
+O_12 V1 Pb_m4_3 2_655 18_545 69.5(16)
+O_12 V1 O_11 3_665 . 106.8(15)
+O_12 V1 Ca_m3 3_665 . 143.8(14)
+O_12 V1 Ca_m3 3_665 2_655 65.1(12)
+O_12 V1 Ca_m3 3_665 3_665 101.3(10)
+O_12 V1 Pb_m4_3 3_665 16_555 64.0(15)
+O_12 V1 Pb_m4_3 3_665 17_655 69.5(15)
+O_12 V1 Pb_m4_3 3_665 18_545 87.1(17)
+O_11 V1 Ca_m3 . . 47.7(6)
+O_11 V1 Ca_m3 . 2_655 47.7(6)
+O_11 V1 Ca_m3 . 3_665 47.7(6)
+O_11 V1 Pb_m4_3 . 16_555 165.8(6)
+O_11 V1 Pb_m4_3 . 17_655 165.8(7)
+O_11 V1 Pb_m4_3 . 18_545 165.8(5)
+Ca_m3 V1 Ca_m3 . 2_655 79.7(8)
+Ca_m3 V1 Ca_m3 . 3_665 79.7(8)
+Ca_m3 V1 Pb_m4_3 . 16_555 145.6(9)
+Ca_m3 V1 Pb_m4_3 . 17_655 127.7(6)
+Ca_m3 V1 Pb_m4_3 . 18_545 121.2(8)
+Ca_m3 V1 Ca_m3 2_655 3_665 79.7(8)
+Ca_m3 V1 Pb_m4_3 2_655 16_555 127.7(6)
+Ca_m3 V1 Pb_m4_3 2_655 17_655 121.2(8)
+Ca_m3 V1 Pb_m4_3 2_655 18_545 145.6(9)
+Ca_m3 V1 Pb_m4_3 3_665 16_555 121.2(8)
+Ca_m3 V1 Pb_m4_3 3_665 17_655 145.6(10)
+Ca_m3 V1 Pb_m4_3 3_665 18_545 127.7(10)
+Pb_m4_3 V1 Pb_m4_3 16_555 17_655 24.6(9)
+Pb_m4_3 V1 Pb_m4_3 16_555 18_545 24.6(7)
+Pb_m4_3 V1 Pb_m4_3 17_655 18_545 24.6(10)
+Ca_m2 V3 Ca_m2 1_455 2_545 85.1(5)
+Ca_m2 V3 O_33 1_455 . 42.1(6)
+Ca_m2 V3 O_31 1_455 . 121.1(16)
+Ca_m2 V3 O_34 1_455 . 66.1(6)
+Ca_m2 V3 O_32 1_455 . 130.9(11)
+Ca_m2 V3 Ca_m3 1_455 . 158.7(4)
+Ca_m2 V3 O_33 2_545 . 52.9(6)
+Ca_m2 V3 O_31 2_545 . 50.9(4)
+Ca_m2 V3 O_34 2_545 . 135.4(19)
+Ca_m2 V3 O_32 2_545 . 112.8(7)
+Ca_m2 V3 Ca_m3 2_545 . 74.0(4)
+O_33 V3 O_31 . . 102.9(12)
+O_33 V3 O_34 . . 108.2(10)
+O_33 V3 O_32 . . 113.4(17)
+O_33 V3 Ca_m3 . . 117.9(4)
+O_31 V3 O_34 . . 116.1(17)
+O_31 V3 O_32 . . 104.2(12)
+O_31 V3 Ca_m3 . . 47.0(12)
+O_34 V3 O_32 . . 111.8(15)
+O_34 V3 Ca_m3 . . 133.1(4)
+O_32 V3 Ca_m3 . . 57.2(7)
+Ca_m1 Ca_m5 Ca_m1 1_455 2_545 77.2(7)
+Ca_m1 Ca_m5 Ca_m1 1_455 3_665 77.2(7)
+Ca_m1 Ca_m5 Ca_m2 1_455 1_455 102.4(4)
+Ca_m1 Ca_m5 Ca_m2 1_455 2_545 177.2(5)
+Ca_m1 Ca_m5 Ca_m2 1_455 3_665 105.5(4)
+Ca_m1 Ca_m5 O_33 1_455 . 133.8(3)
+Ca_m1 Ca_m5 O_33 1_455 2_555 141.6(3)
+Ca_m1 Ca_m5 O_33 1_455 3_555 87.8(8)
+Ca_m1 Ca_m5 O_24 1_455 1_455 40.9(4)
+Ca_m1 Ca_m5 O_24 1_455 2_545 42.2(5)
+Ca_m1 Ca_m5 O_24 1_455 3_665 90.3(12)
+Ca_m1 Ca_m5 Ca_m1 2_545 3_665 77.2(7)
+Ca_m1 Ca_m5 Ca_m2 2_545 1_455 105.5(4)
+Ca_m1 Ca_m5 Ca_m2 2_545 2_545 102.4(4)
+Ca_m1 Ca_m5 Ca_m2 2_545 3_665 177.2(5)
+Ca_m1 Ca_m5 O_33 2_545 . 87.8(8)
+Ca_m1 Ca_m5 O_33 2_545 2_555 133.8(3)
+Ca_m1 Ca_m5 O_33 2_545 3_555 141.6(3)
+Ca_m1 Ca_m5 O_24 2_545 1_455 90.3(12)
+Ca_m1 Ca_m5 O_24 2_545 2_545 40.9(4)
+Ca_m1 Ca_m5 O_24 2_545 3_665 42.2(4)
+Ca_m1 Ca_m5 Ca_m2 3_665 1_455 177.2(5)
+Ca_m1 Ca_m5 Ca_m2 3_665 2_545 105.5(4)
+Ca_m1 Ca_m5 Ca_m2 3_665 3_665 102.4(4)
+Ca_m1 Ca_m5 O_33 3_665 . 141.6(3)
+Ca_m1 Ca_m5 O_33 3_665 2_555 87.8(8)
+Ca_m1 Ca_m5 O_33 3_665 3_555 133.8(3)
+Ca_m1 Ca_m5 O_24 3_665 1_455 42.2(4)
+Ca_m1 Ca_m5 O_24 3_665 2_545 90.3(12)
+Ca_m1 Ca_m5 O_24 3_665 3_665 40.9(4)
+Ca_m2 Ca_m5 Ca_m2 1_455 2_545 74.9(7)
+Ca_m2 Ca_m5 Ca_m2 1_455 3_665 74.9(7)
+Ca_m2 Ca_m5 O_33 1_455 . 40.2(4)
+Ca_m2 Ca_m5 O_33 1_455 2_555 90.9(12)
+Ca_m2 Ca_m5 O_33 1_455 3_555 43.4(5)
+Ca_m2 Ca_m5 O_24 1_455 1_455 136.2(3)
+Ca_m2 Ca_m5 O_24 1_455 2_545 91.3(7)
+Ca_m2 Ca_m5 O_24 1_455 3_665 141.9(3)
+Ca_m2 Ca_m5 Ca_m2 2_545 3_665 74.9(7)
+Ca_m2 Ca_m5 O_33 2_545 . 43.4(5)
+Ca_m2 Ca_m5 O_33 2_545 2_555 40.2(5)
+Ca_m2 Ca_m5 O_33 2_545 3_555 90.9(12)
+Ca_m2 Ca_m5 O_24 2_545 1_455 141.9(3)
+Ca_m2 Ca_m5 O_24 2_545 2_545 136.2(3)
+Ca_m2 Ca_m5 O_24 2_545 3_665 91.3(7)
+Ca_m2 Ca_m5 O_33 3_665 . 90.9(12)
+Ca_m2 Ca_m5 O_33 3_665 2_555 43.4(5)
+Ca_m2 Ca_m5 O_33 3_665 3_555 40.2(5)
+Ca_m2 Ca_m5 O_24 3_665 1_455 91.3(7)
+Ca_m2 Ca_m5 O_24 3_665 2_545 141.9(3)
+Ca_m2 Ca_m5 O_24 3_665 3_665 136.2(3)
+O_33 Ca_m5 O_33 . 2_555 77.6(11)
+O_33 Ca_m5 O_33 . 3_555 77.6(11)
+O_33 Ca_m5 O_24 . 1_455 174.7(6)
+O_33 Ca_m5 O_24 . 2_545 101.1(7)
+O_33 Ca_m5 O_24 . 3_665 107.3(6)
+O_33 Ca_m5 O_33 2_555 3_555 77.6(11)
+O_33 Ca_m5 O_24 2_555 1_455 107.3(6)
+O_33 Ca_m5 O_24 2_555 2_545 174.7(6)
+O_33 Ca_m5 O_24 2_555 3_665 101.1(7)
+O_33 Ca_m5 O_24 3_555 1_455 101.1(7)
+O_33 Ca_m5 O_24 3_555 2_545 107.3(6)
+O_33 Ca_m5 O_24 3_555 3_665 174.7(6)
+O_24 Ca_m5 O_24 1_455 2_545 74.3(11)
+O_24 Ca_m5 O_24 1_455 3_665 74.3(11)
+O_24 Ca_m5 O_24 2_545 3_665 74.3(11)
+Pb_m3 Ca_m1 V2 10_554 . 112.1(7)
+Pb_m3 Ca_m1 V2 10_554 2_645 123.5(8)
+Pb_m3 Ca_m1 Ca_m5 10_554 1_655 149.8(6)
+Pb_m3 Ca_m1 Ca_m2 10_554 11_654 61.1(6)
+Pb_m3 Ca_m1 Ca_m2 10_554 12_434 67.8(6)
+Pb_m3 Ca_m1 O_12 10_554 11_544 56.4(10)
+Pb_m3 Ca_m1 O_31 10_554 10_554 40.3(7)
+Pb_m3 Ca_m1 O_34 10_554 12_544 43.6(7)
+Pb_m3 Ca_m1 O_32 10_554 3_655 138.2(5)
+Pb_m3 Ca_m1 Ca_m3 10_554 10_554 1.3(2)
+Pb_m3 Ca_m1 Pb_m4_3 10_554 2_545 99.5(6)
+Pb_m3 Ca_m1 Pb_m4_3 10_554 3_655 100.0(7)
+V2 Ca_m1 V2 . 2_645 119.7(10)
+V2 Ca_m1 Ca_m5 . 1_655 60.3(5)
+V2 Ca_m1 Ca_m2 . 11_654 59.2(5)
+V2 Ca_m1 Ca_m2 . 12_434 165.0(4)
+V2 Ca_m1 O_12 . 11_544 124.5(3)
+V2 Ca_m1 O_31 . 10_554 72.1(7)
+V2 Ca_m1 O_34 . 12_544 133.2(9)
+V2 Ca_m1 O_32 . 3_655 83.7(9)
+V2 Ca_m1 Ca_m3 . 10_554 112.7(7)
+V2 Ca_m1 Pb_m4_3 . 2_545 100.0(8)
+V2 Ca_m1 Pb_m4_3 . 3_655 81.9(7)
+V2 Ca_m1 Ca_m5 2_645 1_655 60.1(5)
+V2 Ca_m1 Ca_m2 2_645 11_654 172.5(10)
+V2 Ca_m1 Ca_m2 2_645 12_434 67.8(4)
+V2 Ca_m1 O_12 2_645 11_544 105.4(3)
+V2 Ca_m1 O_31 2_645 10_554 151.6(11)
+V2 Ca_m1 O_34 2_645 12_544 83.2(7)
+V2 Ca_m1 O_32 2_645 3_655 70.6(8)
+V2 Ca_m1 Ca_m3 2_645 10_554 123.5(8)
+V2 Ca_m1 Pb_m4_3 2_645 2_545 92.5(8)
+V2 Ca_m1 Pb_m4_3 2_645 3_655 107.6(10)
+Ca_m5 Ca_m1 Ca_m2 1_655 11_654 119.5(4)
+Ca_m5 Ca_m1 Ca_m2 1_655 12_434 127.6(5)
+Ca_m5 Ca_m1 O_12 1_655 11_544 153.5(13)
+Ca_m5 Ca_m1 O_31 1_655 10_554 120.2(4)
+Ca_m5 Ca_m1 O_34 1_655 12_544 117.4(4)
+Ca_m5 Ca_m1 O_32 1_655 3_655 71.9(9)
+Ca_m5 Ca_m1 Ca_m3 1_655 10_554 151.1(7)
+Ca_m5 Ca_m1 Pb_m4_3 1_655 2_545 110.6(10)
+Ca_m5 Ca_m1 Pb_m4_3 1_655 3_655 107.2(11)
+Ca_m2 Ca_m1 Ca_m2 11_654 12_434 111.6(5)
+Ca_m2 Ca_m1 O_12 11_654 11_544 71.9(4)
+Ca_m2 Ca_m1 O_31 11_654 10_554 35.8(6)
+Ca_m2 Ca_m1 O_34 11_654 12_544 102.9(11)
+Ca_m2 Ca_m1 O_32 11_654 3_655 102.0(6)
+Ca_m2 Ca_m1 Ca_m3 11_654 10_554 61.0(6)
+Ca_m2 Ca_m1 Pb_m4_3 11_654 2_545 80.7(6)
+Ca_m2 Ca_m1 Pb_m4_3 11_654 3_655 65.1(7)
+Ca_m2 Ca_m1 O_12 12_434 11_544 42.0(2)
+Ca_m2 Ca_m1 O_31 12_434 10_554 107.7(11)
+Ca_m2 Ca_m1 O_34 12_434 12_544 57.9(5)
+Ca_m2 Ca_m1 O_32 12_434 3_655 87.2(6)
+Ca_m2 Ca_m1 Ca_m3 12_434 10_554 66.9(6)
+Ca_m2 Ca_m1 Pb_m4_3 12_434 2_545 65.8(6)
+Ca_m2 Ca_m1 Pb_m4_3 12_434 3_655 83.4(5)
+O_12 Ca_m1 O_31 11_544 10_554 83.5(10)
+O_12 Ca_m1 O_34 11_544 12_544 79.5(10)
+O_12 Ca_m1 O_32 11_544 3_655 82.4(9)
+O_12 Ca_m1 Ca_m3 11_544 10_554 55.1(10)
+O_12 Ca_m1 Pb_m4_3 11_544 2_545 44.7(10)
+O_12 Ca_m1 Pb_m4_3 11_544 3_655 53.4(9)
+O_31 Ca_m1 O_34 10_554 12_544 71.8(12)
+O_31 Ca_m1 O_32 10_554 3_655 137.8(6)
+O_31 Ca_m1 Ca_m3 10_554 10_554 41.0(7)
+O_31 Ca_m1 Pb_m4_3 10_554 2_545 111.6(6)
+O_31 Ca_m1 Pb_m4_3 10_554 3_655 99.3(7)
+O_34 Ca_m1 O_32 12_544 3_655 142.7(4)
+O_34 Ca_m1 Ca_m3 12_544 10_554 44.1(7)
+O_34 Ca_m1 Pb_m4_3 12_544 2_545 120.6(7)
+O_34 Ca_m1 Pb_m4_3 12_544 3_655 132.8(8)
+O_32 Ca_m1 Ca_m3 3_655 10_554 136.9(5)
+O_32 Ca_m1 Pb_m4_3 3_655 2_545 38.8(6)
+O_32 Ca_m1 Pb_m4_3 3_655 3_655 42.0(7)
+Ca_m3 Ca_m1 Pb_m4_3 10_554 2_545 98.2(6)
+Ca_m3 Ca_m1 Pb_m4_3 10_554 3_655 98.9(7)
+Pb_m4_3 Ca_m1 Pb_m4_3 2_545 3_655 19.4(8)
+V3 Ca_m2 V3 1_655 3_655 119.8(10)
+V3 Ca_m2 Ca_m5 1_655 1_655 59.6(5)
+V3 Ca_m2 Ca_m1 1_655 17_645 167.7(6)
+V3 Ca_m2 Ca_m1 1_655 18_535 64.3(4)
+V3 Ca_m2 O_21 1_655 2_645 73.6(8)
+V3 Ca_m2 O_23 1_655 17_645 145.0(11)
+V3 Ca_m2 O_22 1_655 16_655 72.8(7)
+V3 Ca_m2 Ca_m3 1_655 2_645 60.3(4)
+V3 Ca_m2 Ca_m3 1_655 3_655 114.3(10)
+V3 Ca_m2 Ca_m3 1_655 17_645 111.9(7)
+V3 Ca_m2 Ca_m5 3_655 1_655 61.3(5)
+V3 Ca_m2 Ca_m1 3_655 17_645 62.6(4)
+V3 Ca_m2 Ca_m1 3_655 18_535 165.8(6)
+V3 Ca_m2 O_21 3_655 2_645 73.8(8)
+V3 Ca_m2 O_23 3_655 17_645 85.2(7)
+V3 Ca_m2 O_22 3_655 16_655 143.2(8)
+V3 Ca_m2 Ca_m3 3_655 2_645 111.7(10)
+V3 Ca_m2 Ca_m3 3_655 3_655 54.4(4)
+V3 Ca_m2 Ca_m3 3_655 17_645 116.3(8)
+Ca_m5 Ca_m2 Ca_m1 1_655 17_645 123.9(5)
+Ca_m5 Ca_m2 Ca_m1 1_655 18_535 123.8(5)
+Ca_m5 Ca_m2 O_21 1_655 2_645 66.3(8)
+Ca_m5 Ca_m2 O_23 1_655 17_645 130.5(3)
+Ca_m5 Ca_m2 O_22 1_655 16_655 112.3(5)
+Ca_m5 Ca_m2 Ca_m3 1_655 2_645 91.4(8)
+Ca_m5 Ca_m2 Ca_m3 1_655 3_655 89.2(8)
+Ca_m5 Ca_m2 Ca_m3 1_655 17_645 134.0(5)
+Ca_m1 Ca_m2 Ca_m1 17_645 18_535 110.4(5)
+Ca_m1 Ca_m2 O_21 17_645 2_645 96.7(5)
+Ca_m1 Ca_m2 O_23 17_645 17_645 43.9(6)
+Ca_m1 Ca_m2 O_22 17_645 16_655 112.9(12)
+Ca_m1 Ca_m2 Ca_m3 17_645 2_645 107.4(3)
+Ca_m1 Ca_m2 Ca_m3 17_645 3_655 56.1(6)
+Ca_m1 Ca_m2 Ca_m3 17_645 17_645 74.7(7)
+Ca_m1 Ca_m2 O_21 18_535 2_645 95.7(6)
+Ca_m1 Ca_m2 O_23 18_535 17_645 97.9(10)
+Ca_m1 Ca_m2 O_22 18_535 16_655 50.0(5)
+Ca_m1 Ca_m2 Ca_m3 18_535 2_645 57.1(6)
+Ca_m1 Ca_m2 Ca_m3 18_535 3_655 111.4(4)
+Ca_m1 Ca_m2 Ca_m3 18_535 17_645 70.8(7)
+O_21 Ca_m2 O_23 2_645 17_645 140.6(4)
+O_21 Ca_m2 O_22 2_645 16_655 140.1(6)
+O_21 Ca_m2 Ca_m3 2_645 2_645 38.7(5)
+O_21 Ca_m2 Ca_m3 2_645 3_655 40.8(5)
+O_21 Ca_m2 Ca_m3 2_645 17_645 159.5(5)
+O_23 Ca_m2 O_22 17_645 16_655 72.9(12)
+O_23 Ca_m2 Ca_m3 17_645 2_645 136.6(5)
+O_23 Ca_m2 Ca_m3 17_645 3_655 100.0(5)
+O_23 Ca_m2 Ca_m3 17_645 17_645 34.1(7)
+O_22 Ca_m2 Ca_m3 16_655 2_645 104.4(5)
+O_22 Ca_m2 Ca_m3 16_655 3_655 156.9(6)
+O_22 Ca_m2 Ca_m3 16_655 17_645 39.1(8)
+Ca_m3 Ca_m2 Ca_m3 2_645 3_655 65.1(5)
+Ca_m3 Ca_m2 Ca_m3 2_645 17_645 125.3(6)
+Ca_m3 Ca_m2 Ca_m3 3_655 17_645 128.8(6)
+V3 O_33 Ca_m5 . . 125(2)
+V2 O_24 Ca_m5 . 1_655 121(2)
+V1 O_12 Ca_m1 . 17_655 140.1(3)
+V3 O_31 Ca_m1 . 16_555 137.8(9)
+V2 O_21 Ca_m2 . 3_765 150.4(4)
+Pb_m3 O_23 V2 . . 99.0(16)
+Pb_m3 O_23 Ca_m2 . 11_654 111.5(7)
+Pb_m3 O_23 Ca_m3 . . 2.0(2)
+V2 O_23 Ca_m2 . 11_654 124.9(15)
+V2 O_23 Ca_m3 . . 97.2(16)
+Ca_m2 O_23 Ca_m3 11_654 . 112.1(7)
+V2 O_22 Ca_m2 . 10_564 155.4(19)
+V3 O_34 Ca_m1 . 18_435 137.4(19)
+V3 O_32 Ca_m1 . 2_545 137.4(6)
+V3 O_32 Pb_m4_3 . . 105.6(12)
+Ca_m1 O_32 Pb_m4_3 2_545 . 96.0(13)
+Pb_m3 Ca_m3 V2 . . 110(20)
+Pb_m3 Ca_m3 V2 . 3_665 88(16)
+Pb_m3 Ca_m3 V1 . . 150(30)
+Pb_m3 Ca_m3 V3 . . 40(20)
+Pb_m3 Ca_m3 Ca_m1 . 16_555 90(30)
+Pb_m3 Ca_m3 O_23 . . 80(30)
+Pb_m3 Ca_m3 Pb_m4_3 . 3_655 25(12)
+Pb_m3 Ca_m3 Pb_m4_2 . . 21(9)
+V2 Ca_m3 V2 . 3_665 111.0(10)
+V2 Ca_m3 V1 . . 96.7(5)
+V2 Ca_m3 V3 . . 153.6(7)
+V2 Ca_m3 Ca_m1 . 16_555 118.3(7)
+V2 Ca_m3 Ca_m2 . 2_545 154.7(5)
+V2 Ca_m3 Ca_m2 . 3_765 64.5(7)
+V2 Ca_m3 Ca_m2 . 11_654 60.0(8)
+V2 Ca_m3 O_23 . . 32.5(6)
+V2 Ca_m3 Pb_m4_3 . 3_655 89.1(9)
+V2 Ca_m3 Pb_m4_2 . . 97.9(6)
+V2 Ca_m3 V1 3_665 . 94.0(5)
+V2 Ca_m3 V3 3_665 . 78.5(4)
+V2 Ca_m3 Ca_m1 3_665 16_555 128.0(8)
+V2 Ca_m3 Ca_m2 3_665 2_545 65.5(7)
+V2 Ca_m3 Ca_m2 3_665 3_765 149.1(4)
+V2 Ca_m3 Ca_m2 3_665 11_654 64.1(7)
+V2 Ca_m3 O_23 3_665 . 96.9(12)
+V2 Ca_m3 Pb_m4_3 3_665 3_655 104.5(10)
+V2 Ca_m3 Pb_m4_2 3_665 . 107.6(6)
+V1 Ca_m3 V3 . . 107.4(9)
+V1 Ca_m3 Ca_m1 . 16_555 65.6(7)
+V1 Ca_m3 Ca_m2 . 2_545 59.8(5)
+V1 Ca_m3 Ca_m2 . 3_765 58.0(4)
+V1 Ca_m3 Ca_m2 . 11_654 133.6(6)
+V1 Ca_m3 O_23 . . 127.9(4)
+V1 Ca_m3 Pb_m4_3 . 3_655 157.2(12)
+V1 Ca_m3 Pb_m4_2 . . 147.4(11)
+V3 Ca_m3 Ca_m1 . 16_555 65.0(7)
+V3 Ca_m3 Ca_m2 . 2_545 51.6(4)
+V3 Ca_m3 Ca_m2 . 3_765 119.9(10)
+V3 Ca_m3 Ca_m2 . 11_654 107.2(8)
+V3 Ca_m3 O_23 . . 124.6(8)
+V3 Ca_m3 Pb_m4_3 . 3_655 64.6(7)
+V3 Ca_m3 Pb_m4_2 . . 55.9(4)
+Ca_m1 Ca_m3 Ca_m2 16_555 2_545 62.9(6)
+Ca_m1 Ca_m3 Ca_m2 16_555 3_765 56.0(5)
+Ca_m1 Ca_m3 Ca_m2 16_555 11_654 159.8(4)
+Ca_m1 Ca_m3 O_23 16_555 . 134.0(7)
+Ca_m1 Ca_m3 Pb_m4_3 16_555 3_655 92.3(8)
+Ca_m1 Ca_m3 Pb_m4_2 16_555 . 81.8(6)
+Ca_m2 Ca_m3 Ca_m2 2_545 3_765 104.8(9)
+Ca_m2 Ca_m3 Ca_m2 2_545 11_654 128.4(6)
+Ca_m2 Ca_m3 O_23 2_545 . 162.1(11)
+Ca_m2 Ca_m3 Pb_m4_3 2_545 3_655 116.2(7)
+Ca_m2 Ca_m3 Pb_m4_2 2_545 . 107.0(4)
+Ca_m2 Ca_m3 Ca_m2 3_765 11_654 124.1(6)
+Ca_m2 Ca_m3 O_23 3_765 . 91.9(6)
+Ca_m2 Ca_m3 Pb_m4_3 3_765 3_655 106.0(8)
+Ca_m2 Ca_m3 Pb_m4_2 3_765 . 103.3(5)
+Ca_m2 Ca_m3 O_23 11_654 . 33.8(6)
+Ca_m2 Ca_m3 Pb_m4_3 11_654 3_655 67.9(8)
+Ca_m2 Ca_m3 Pb_m4_2 11_654 . 78.7(7)
+Pb_m4_3 Ca_m3 Pb_m4_2 3_655 . 11.4(8)
+Pb_m3 Pb_m4_3 Pb_m4 2_545 . 143(4)
+Pb_m3 Pb_m4_3 V1 2_545 10_554 123.8(11)
+Pb_m3 Pb_m4_3 Ca_m1 2_545 2_545 90.1(9)
+Pb_m3 Pb_m4_3 Ca_m1 2_545 3_655 76.3(5)
+Pb_m3 Pb_m4_3 O_32 2_545 . 89.1(11)
+Pb_m3 Pb_m4_3 Ca_m3 2_545 2_545 0.6(3)
+Pb_m3 Pb_m4_3 Pb_m4_3 2_545 2_545 126.0(18)
+Pb_m3 Pb_m4_3 Pb_m4_3 2_545 3_655 158(3)
+Pb_m3 Pb_m4_3 Pb_m4_2 2_545 . 122(3)
+Pb_m4 Pb_m4_3 V1 . 10_554 86(4)
+Pb_m4 Pb_m4_3 Ca_m1 . 2_545 123(2)
+Pb_m4 Pb_m4_3 Ca_m1 . 3_655 100(2)
+Pb_m4 Pb_m4_3 O_32 . . 104.5(18)
+Pb_m4 Pb_m4_3 Ca_m3 . 2_545 143(4)
+Pb_m4 Pb_m4_3 Pb_m4_3 . 2_545 32(2)
+Pb_m4 Pb_m4_3 Pb_m4_3 . 3_655 32(2)
+Pb_m4 Pb_m4_3 Pb_m4_2 . . 24(3)
+V1 Pb_m4_3 Ca_m1 10_554 2_545 70.8(8)
+V1 Pb_m4_3 Ca_m1 10_554 3_655 67.0(7)
+V1 Pb_m4_3 O_32 10_554 . 106.0(13)
+V1 Pb_m4_3 Ca_m3 10_554 2_545 123.8(11)
+V1 Pb_m4_3 Pb_m4_3 10_554 2_545 78(2)
+V1 Pb_m4_3 Pb_m4_3 10_554 3_655 78(2)
+V1 Pb_m4_3 Pb_m4_2 10_554 . 110(3)
+Ca_m1 Pb_m4_3 Ca_m1 2_545 3_655 115.6(10)
+Ca_m1 Pb_m4_3 O_32 2_545 . 42.0(10)
+Ca_m1 Pb_m4_3 Ca_m3 2_545 2_545 89.5(9)
+Ca_m1 Pb_m4_3 Pb_m4_3 2_545 2_545 142(2)
+Ca_m1 Pb_m4_3 Pb_m4_3 2_545 3_655 92(2)
+Ca_m1 Pb_m4_3 Pb_m4_2 2_545 . 130.4(13)
+Ca_m1 Pb_m4_3 O_32 3_655 . 154.0(13)
+Ca_m1 Pb_m4_3 Ca_m3 3_655 2_545 76.7(5)
+Ca_m1 Pb_m4_3 Pb_m4_3 3_655 2_545 68.7(16)
+Ca_m1 Pb_m4_3 Pb_m4_3 3_655 3_655 122(3)
+Ca_m1 Pb_m4_3 Pb_m4_2 3_655 . 109(2)
+O_32 Pb_m4_3 Ca_m3 . 2_545 88.5(11)
+O_32 Pb_m4_3 Pb_m4_3 . 2_545 136.0(18)
+O_32 Pb_m4_3 Pb_m4_3 . 3_655 78(2)
+O_32 Pb_m4_3 Pb_m4_2 . . 97.2(19)
+Ca_m3 Pb_m4_3 Pb_m4_3 2_545 2_545 126.7(18)
+Ca_m3 Pb_m4_3 Pb_m4_3 2_545 3_655 157(3)
+Ca_m3 Pb_m4_3 Pb_m4_2 2_545 . 122(3)
+Pb_m4_3 Pb_m4_3 Pb_m4_3 2_545 3_655 60(3)
+Pb_m4_3 Pb_m4_3 Pb_m4_2 2_545 . 44(2)
+Pb_m4_3 Pb_m4_3 Pb_m4_2 3_655 . 44(2)
+Pb_m4 Pb_m4_2 Ca_m3 . . 99.8(7)
+Pb_m4 Pb_m4_2 Ca_m3 . 2_545 99.8(7)
+Pb_m4 Pb_m4_2 Ca_m3 . 3_655 99.8(7)
+Pb_m4 Pb_m4_2 Pb_m4_3 . . 56(3)
+Pb_m4 Pb_m4_2 Pb_m4_3 . 2_545 56(3)
+Pb_m4 Pb_m4_2 Pb_m4_3 . 3_655 56(3)
+Ca_m3 Pb_m4_2 Ca_m3 . 2_545 117.1(4)
+Ca_m3 Pb_m4_2 Ca_m3 . 3_655 117.1(4)
+Ca_m3 Pb_m4_2 Pb_m4_3 . . 106.7(14)
+Ca_m3 Pb_m4_2 Pb_m4_3 . 2_545 133.5(17)
+Ca_m3 Pb_m4_2 Pb_m4_3 . 3_655 46(3)
+Ca_m3 Pb_m4_2 Ca_m3 2_545 3_655 117.1(4)
+Ca_m3 Pb_m4_2 Pb_m4_3 2_545 . 46(2)
+Ca_m3 Pb_m4_2 Pb_m4_3 2_545 2_545 106.7(12)
+Ca_m3 Pb_m4_2 Pb_m4_3 2_545 3_655 133(3)
+Ca_m3 Pb_m4_2 Pb_m4_3 3_655 . 133.5(19)
+Ca_m3 Pb_m4_2 Pb_m4_3 3_655 2_545 46(3)
+Ca_m3 Pb_m4_2 Pb_m4_3 3_655 3_655 107(3)
+Pb_m4_3 Pb_m4_2 Pb_m4_3 . 2_545 92(4)
+Pb_m4_3 Pb_m4_2 Pb_m4_3 . 3_655 92(4)
+Pb_m4_3 Pb_m4_2 Pb_m4_3 2_545 3_655 92(4)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+Pb_m3 V2 . 3.17(2)
+Pb_m3 Ca_m1 16_555 3.75(4)
+Pb_m3 O_23 . 2.42(4)
+Pb_m3 Ca_m3 . 0.085(14)
+Pb_m3 Pb_m4_3 3_655 3.22(3)
+Pb_m4 V1 10_554 3.08(5)
+Pb_m4 Pb_m4_3 . 0.76(3)
+Pb_m4 Pb_m4_3 2_545 0.76(4)
+Pb_m4 Pb_m4_3 3_655 0.76(3)
+Pb_m4 Pb_m4_2 . 0.37(5)
+V2 Ca_m1 . 3.258(19)
+V2 Ca_m1 3_765 3.291(19)
+V2 O_24 . 1.708(12)
+V2 O_21 . 1.71(5)
+V2 O_23 . 1.701(13)
+V2 O_22 . 1.69(2)
+V2 Ca_m3 . 3.14(2)
+V2 Ca_m3 2_655 3.28(2)
+V1 O_12 . 1.714(14)
+V1 O_12 2_655 1.714(15)
+V1 O_12 3_665 1.714(14)
+V1 O_11 . 1.71(5)
+V1 Ca_m3 . 3.39(3)
+V1 Ca_m3 2_655 3.39(3)
+V1 Ca_m3 3_665 3.39(3)
+V1 Pb_m4_3 16_555 3.04(5)
+V1 Pb_m4_3 17_655 3.04(5)
+V1 Pb_m4_3 18_545 3.04(5)
+V3 Ca_m2 1_455 3.450(19)
+V3 Ca_m2 2_545 3.23(2)
+V3 O_33 . 1.723(10)
+V3 O_31 . 1.74(2)
+V3 O_34 . 1.701(15)
+V3 O_32 . 1.71(5)
+V3 Ca_m3 . 3.350(16)
+Ca_m5 Ca_m1 1_455 3.67(3)
+Ca_m5 Ca_m1 2_545 3.67(3)
+Ca_m5 Ca_m1 3_665 3.67(3)
+Ca_m5 Ca_m2 1_455 3.72(3)
+Ca_m5 Ca_m2 2_545 3.72(3)
+Ca_m5 Ca_m2 3_665 3.72(3)
+Ca_m5 O_33 . 2.29(3)
+Ca_m5 O_33 2_555 2.29(3)
+Ca_m5 O_33 3_555 2.29(3)
+Ca_m5 O_24 1_455 2.31(3)
+Ca_m5 O_24 2_545 2.31(3)
+Ca_m5 O_24 3_665 2.31(3)
+Ca_m1 Ca_m2 11_654 4.028(14)
+Ca_m1 Ca_m2 12_434 3.711(15)
+Ca_m1 O_12 11_544 2.412(16)
+Ca_m1 O_31 10_554 2.36(3)
+Ca_m1 O_34 12_544 2.39(4)
+Ca_m1 O_32 3_655 2.44(4)
+Ca_m1 Ca_m3 10_554 3.76(5)
+Ca_m1 Pb_m4_3 2_545 3.89(3)
+Ca_m1 Pb_m4_3 3_655 3.62(4)
+Ca_m2 O_21 2_645 2.38(4)
+Ca_m2 O_23 17_645 2.41(4)
+Ca_m2 O_22 16_655 2.32(4)
+Ca_m2 Ca_m3 2_645 4.12(3)
+Ca_m2 Ca_m3 3_655 3.96(3)
+Ca_m2 Ca_m3 17_645 4.02(5)
+O_23 Ca_m3 . 2.43(4)
+O_32 Pb_m4_3 . 2.44(3)
+Ca_m3 Pb_m4_3 3_655 3.30(3)
+Ca_m3 Pb_m4_2 . 3.854(12)
+Pb_m4_3 Pb_m4_3 2_545 1.29(5)
+Pb_m4_3 Pb_m4_3 3_655 1.29(4)
+Pb_m4_3 Pb_m4_2 . 0.90(4)
+loop_
+_jana_atom_site_adp_c_label
+_jana_atom_site_adp_c_type_symbol
+_jana_atom_site_adp_c_111
+_jana_atom_site_adp_c_112
+_jana_atom_site_adp_c_113
+_jana_atom_site_adp_c_122
+_jana_atom_site_adp_c_123
+_jana_atom_site_adp_c_133
+_jana_atom_site_adp_c_222
+_jana_atom_site_adp_c_223
+_jana_atom_site_adp_c_233
+_jana_atom_site_adp_c_333
+Pb_m3 Pb 0.0005(3) 0.0001(2) -0.00002(4) 0.0006(3) -0.00020(4) -0.000011(10)
+0.0022(5) -0.00015(6) 0.000022(12) -0.000086(5)
+Pb_m4 Pb -0.0039(11) -0.0011(10) 0.00002(11) 0.0027(15) 0.00001(6) 0 0.0039(11)
+0.00002(11) 0 0.000023(11)
+Ca_m3 Ca -0.0008(4) -0.0018(5) -0.00021(6) -0.0042(8) -0.00028(7) 0.000037(15)
+-0.0077(16) -0.00081(13) -0.000035(19) 0.000050(10)
+Pb_m4_3 Pb 0.022(13) -0.007(3) 0.0024(15) -0.0014(15) -0.0006(3) 0.0004(2)
+0.0056(16) -0.0007(3) 0.00003(8) -0.00002(5)
+Pb_m4_2 Pb -0.0011(6) -0.0016(6) 0.0001(3) -0.0006(9) 0.00005(13) 0 0.0011(6)
+0.0001(3) 0 -0.0015(2)

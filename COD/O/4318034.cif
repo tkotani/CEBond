@@ -1,0 +1,503 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-23 03:44:19 +0200 (Wed, 23 Mar 2016) $
+#$Revision: 179260 $
+#$URL: svn://www.crystallography.net/cod/cif/4/31/80/4318034.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4318034
+loop_
+_publ_author_name
+'James L. Delattre'
+'Angelica M. Stacy'
+'Victor G. Young,'
+'Gary J. Long'
+'Rapha\"el Hermann'
+'Fernande Grandjean'
+_publ_contact_author
+;
+    James L. Delattre
+    Angelica M. Stacy
+    Department of Chemistry
+    University of California
+    Berkeley CA 94720 USA
+;
+_publ_contact_author_email       astacy@socrates.berkeley.edu
+_publ_contact_author_phone       '510 642 3450'
+_publ_section_title
+;
+ Study of the Structural, Electronic, and Magnetic Properties of the
+ Barium-Rich Iron(IV) Oxides, Ba2FeO4 and Ba3FeO5
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              2834
+_journal_page_last               2838
+_journal_paper_doi               10.1021/ic0113247
+_journal_volume                  41
+_journal_year                    2002
+_chemical_formula_analytical     'Ba3 Fe O5'
+_chemical_formula_moiety         'Ba3 Fe O5'
+_chemical_formula_structural     'Ba3 O FeO4'
+_chemical_formula_sum            'Ba3 Fe O5'
+_chemical_formula_weight         547.87
+_chemical_name_common            'barium iron oxide'
+_chemical_name_systematic        'Barium Iron Oxide (3/1/5)'
+_space_group_IT_number           62
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2ac 2n'
+_symmetry_space_group_name_H-M   'P n m a'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   10.3012(10)
+_cell_length_b                   8.1506(8)
+_cell_length_c                   7.6113(8)
+_cell_measurement_reflns_used    157
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      50.27
+_cell_measurement_theta_min      3.5
+_cell_volume                     639.05(11)
+_computing_structure_refinement  'SHELXL-93 (Sheldrick, 1993)'
+_computing_structure_solution    'SHELXS-86 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0650
+_diffrn_reflns_av_sigmaI/netI    0.0871
+_diffrn_reflns_limit_h_max       16
+_diffrn_reflns_limit_h_min       -12
+_diffrn_reflns_limit_k_max       12
+_diffrn_reflns_limit_k_min       -12
+_diffrn_reflns_limit_l_max       7
+_diffrn_reflns_limit_l_min       -11
+_diffrn_reflns_number            3939
+_diffrn_reflns_theta_max         34.53
+_diffrn_reflns_theta_min         3.33
+_exptl_absorpt_coefficient_mu    20.407
+_exptl_absorpt_correction_T_max  0.815
+_exptl_absorpt_correction_T_min  0.047
+_exptl_absorpt_correction_type   gaussian
+_exptl_absorpt_process_details   xprep
+_exptl_crystal_colour            black
+_exptl_crystal_density_diffrn    5.694
+_exptl_crystal_description       needles
+_exptl_crystal_F_000             936
+_exptl_crystal_size_max          0.15
+_exptl_crystal_size_mid          0.03
+_exptl_crystal_size_min          0.01
+_refine_diff_density_max         3.805
+_refine_diff_density_min         -2.866
+_refine_diff_density_rms         0.810
+_refine_ls_extinction_coef       0.0025(3)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_all   1.184
+_refine_ls_goodness_of_fit_obs   1.259
+_refine_ls_hydrogen_treatment    none
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     50
+_refine_ls_number_reflns         1377
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.184
+_refine_ls_restrained_S_obs      1.259
+_refine_ls_R_factor_all          0.0804
+_refine_ls_R_factor_obs          0.0471
+_refine_ls_shift/esd_max         0.000
+_refine_ls_shift/esd_mean        0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w=1/[\s^2^(Fo^2^)+(0.0300P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         0.1025
+_refine_ls_wR_factor_obs         0.0925
+_reflns_number_observed          1004
+_reflns_number_total             1377
+_reflns_observed_criterion       >2sigma(I)
+_cod_data_source_file            ic0113247_2.cif
+_cod_data_source_block           Ba3FeO5
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'calc
+w=1/[\s^2^(Fo^2^)+(0.0300P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3' was
+changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to
+'w=1/[\s^2^(Fo^2^)+(0.0300P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_database_code               4318034
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x+1/2, -y, z+1/2'
+'-x, y+1/2, -z'
+'x+1/2, -y+1/2, -z+1/2'
+'-x, -y, -z'
+'x-1/2, y, -z-1/2'
+'x, -y-1/2, z'
+'-x-1/2, y-1/2, z-1/2'
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Ba1 0.0065(2) 0.0066(2) 0.0085(3) 0.0005(2) 0.0003(2) -0.0003(2)
+Ba2 0.0035(3) 0.0042(3) 0.0045(3) 0.000 -0.0006(2) 0.000
+Fe1 0.0062(8) 0.0060(8) 0.0068(9) 0.000 0.0018(6) 0.000
+O1 0.003(4) 0.015(4) 0.008(5) 0.000 -0.003(3) 0.000
+O2 0.006(3) 0.007(3) 0.009(3) 0.000(2) -0.001(2) 0.001(2)
+O3 0.015(5) 0.002(4) 0.011(4) 0.000 0.004(4) 0.000
+O4 0.004(4) 0.011(4) 0.015(5) 0.000 0.000(3) 0.000
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_occupancy
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_group
+Ba1 Ba 0.17161(5) 0.48627(6) 0.12045(7) 0.00718(15) Uani 1 d . .
+Ba2 Ba 0.47661(7) 0.7500 0.08104(9) 0.0040(2) Uani 1 d S .
+Fe1 Fe 0.0960(2) 0.7500 0.8185(2) 0.0063(3) Uani 1 d S .
+O1 O 0.2691(8) 0.7500 0.8790(11) 0.009(2) Uani 1 d S .
+O2 O 0.4373(6) 0.4381(7) 0.1941(8) 0.0073(11) Uani 1 d . .
+O3 O 0.9978(8) 0.7500 0.0236(12) 0.010(2) Uani 1 d S .
+O4 O 0.2363(8) 0.7500 0.3484(13) 0.010(2) Uani 1 d S .
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Fe Fe 0.3463 0.8444 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ba Ba -0.3244 2.2819 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O1 Ba1 O2 63.7(2) 2_564 . ?
+O1 Ba1 O2 75.0(2) 2_564 6_556 ?
+O2 Ba1 O2 135.28(9) . 6_556 ?
+O1 Ba1 O4 92.3(2) 2_564 . ?
+O2 Ba1 O4 75.9(2) . . ?
+O2 Ba1 O4 90.0(2) 6_556 . ?
+O1 Ba1 O3 86.5(2) 2_564 5_565 ?
+O2 Ba1 O3 125.6(2) . 5_565 ?
+O2 Ba1 O3 64.6(2) 6_556 5_565 ?
+O4 Ba1 O3 154.0(2) . 5_565 ?
+O1 Ba1 O3 145.0(2) 2_564 . ?
+O2 Ba1 O3 139.0(2) . . ?
+O2 Ba1 O3 72.6(2) 6_556 . ?
+O4 Ba1 O3 74.8(2) . . ?
+O3 Ba1 O3 91.45(3) 5_565 . ?
+O1 Ba1 O4 88.5(2) 2_564 2_564 ?
+O2 Ba1 O4 74.9(2) . 2_564 ?
+O2 Ba1 O4 121.9(2) 6_556 2_564 ?
+O4 Ba1 O4 146.90(6) . 2_564 ?
+O3 Ba1 O4 59.1(2) 5_565 2_564 ?
+O3 Ba1 O4 120.0(2) . 2_564 ?
+O1 Ba1 O1 147.55(6) 2_564 1_554 ?
+O2 Ba1 O1 84.1(2) . 1_554 ?
+O2 Ba1 O1 133.8(2) 6_556 1_554 ?
+O4 Ba1 O1 75.7(2) . 1_554 ?
+O3 Ba1 O1 117.3(2) 5_565 1_554 ?
+O3 Ba1 O1 61.3(2) . 1_554 ?
+O4 Ba1 O1 86.0(2) 2_564 1_554 ?
+O1 Ba1 Fe1 178.12(14) 2_564 1_554 ?
+O2 Ba1 Fe1 117.79(13) . 1_554 ?
+O2 Ba1 Fe1 103.97(13) 6_556 1_554 ?
+O4 Ba1 Fe1 89.29(15) . 1_554 ?
+O3 Ba1 Fe1 91.63(15) 5_565 1_554 ?
+O3 Ba1 Fe1 34.7(2) . 1_554 ?
+O4 Ba1 Fe1 90.71(14) 2_564 1_554 ?
+O1 Ba1 Fe1 34.0(2) 1_554 1_554 ?
+O1 Ba1 Fe1 72.1(2) 2_564 5_566 ?
+O2 Ba1 Fe1 132.97(12) . 5_566 ?
+O2 Ba1 Fe1 32.70(12) 6_556 5_566 ?
+O4 Ba1 Fe1 122.4(2) . 5_566 ?
+O3 Ba1 Fe1 33.2(2) 5_565 5_566 ?
+O3 Ba1 Fe1 87.34(13) . 5_566 ?
+O4 Ba1 Fe1 89.26(14) 2_564 5_566 ?
+O1 Ba1 Fe1 139.6(2) 1_554 5_566 ?
+Fe1 Ba1 Fe1 106.15(3) 1_554 5_566 ?
+O1 Ba1 Fe1 32.5(2) 2_564 2_564 ?
+O2 Ba1 Fe1 32.38(12) . 2_564 ?
+O2 Ba1 Fe1 107.42(13) 6_556 2_564 ?
+O4 Ba1 Fe1 89.58(15) . 2_564 ?
+O3 Ba1 Fe1 102.70(12) 5_565 2_564 ?
+O3 Ba1 Fe1 164.4(2) . 2_564 ?
+O4 Ba1 Fe1 73.7(2) 2_564 2_564 ?
+O1 Ba1 Fe1 116.0(2) 1_554 2_564 ?
+Fe1 Ba1 Fe1 148.59(4) 1_554 2_564 ?
+Fe1 Ba1 Fe1 100.87(2) 5_566 2_564 ?
+O1 Ba1 Ba2 94.90(14) 2_564 6_556 ?
+O2 Ba1 Ba2 118.91(13) . 6_556 ?
+O2 Ba1 Ba2 46.60(12) 6_556 6_556 ?
+O4 Ba1 Ba2 46.8(2) . 6_556 ?
+O3 Ba1 Ba2 107.3(2) 5_565 6_556 ?
+O3 Ba1 Ba2 52.5(2) . 6_556 ?
+O4 Ba1 Ba2 165.8(2) 2_564 6_556 ?
+O1 Ba1 Ba2 98.10(12) 1_554 6_556 ?
+Fe1 Ba1 Ba2 85.42(3) 1_554 6_556 ?
+Fe1 Ba1 Ba2 78.79(3) 5_566 6_556 ?
+Fe1 Ba1 Ba2 115.73(3) 2_564 6_556 ?
+O1 Ba2 O2 93.66(14) 1_554 . ?
+O1 Ba2 O2 93.66(14) 1_554 7_575 ?
+O2 Ba2 O2 139.0(3) . 7_575 ?
+O1 Ba2 O4 155.6(3) 1_554 6_656 ?
+O2 Ba2 O4 94.82(14) . 6_656 ?
+O2 Ba2 O4 94.82(14) 7_575 6_656 ?
+O1 Ba2 O2 79.4(2) 1_554 5_665 ?
+O2 Ba2 O2 76.5(2) . 5_665 ?
+O2 Ba2 O2 144.5(2) 7_575 5_665 ?
+O4 Ba2 O2 80.4(2) 6_656 5_665 ?
+O1 Ba2 O2 79.4(2) 1_554 3_655 ?
+O2 Ba2 O2 144.5(2) . 3_655 ?
+O2 Ba2 O2 76.5(2) 7_575 3_655 ?
+O4 Ba2 O2 80.4(2) 6_656 3_655 ?
+O2 Ba2 O2 68.0(2) 5_665 3_655 ?
+O1 Ba2 O3 129.9(2) 1_554 6_656 ?
+O2 Ba2 O3 72.22(13) . 6_656 ?
+O2 Ba2 O3 72.22(13) 7_575 6_656 ?
+O4 Ba2 O3 74.5(3) 6_656 6_656 ?
+O2 Ba2 O3 137.6(2) 5_665 6_656 ?
+O2 Ba2 O3 137.6(2) 3_655 6_656 ?
+O1 Ba2 O4 75.2(3) 1_554 . ?
+O2 Ba2 O4 71.54(13) . . ?
+O2 Ba2 O4 71.54(13) 7_575 . ?
+O4 Ba2 O4 129.23(9) 6_656 . ?
+O2 Ba2 O4 137.29(15) 5_665 . ?
+O2 Ba2 O4 137.29(15) 3_655 . ?
+O3 Ba2 O4 54.7(2) 6_656 . ?
+O1 Ba2 Fe1 76.3(2) 1_554 6_656 ?
+O2 Ba2 Fe1 110.47(13) . 6_656 ?
+O2 Ba2 Fe1 110.47(13) 7_575 6_656 ?
+O4 Ba2 Fe1 79.3(2) 6_656 6_656 ?
+O2 Ba2 Fe1 33.99(12) 5_665 6_656 ?
+O2 Ba2 Fe1 33.99(12) 3_655 6_656 ?
+O3 Ba2 Fe1 153.8(2) 6_656 6_656 ?
+O4 Ba2 Fe1 151.4(2) . 6_656 ?
+O1 Ba2 Ba1 142.71(6) 1_554 6_656 ?
+O2 Ba2 Ba1 49.11(13) . 6_656 ?
+O2 Ba2 Ba1 115.38(13) 7_575 6_656 ?
+O4 Ba2 Ba1 49.45(13) 6_656 6_656 ?
+O2 Ba2 Ba1 88.20(12) 5_665 6_656 ?
+O2 Ba2 Ba1 127.95(13) 3_655 6_656 ?
+O3 Ba2 Ba1 49.56(10) 6_656 6_656 ?
+O4 Ba2 Ba1 91.68(13) . 6_656 ?
+Fe1 Ba2 Ba1 111.34(3) 6_656 6_656 ?
+O1 Ba2 Ba1 142.71(6) 1_554 4_565 ?
+O2 Ba2 Ba1 115.38(13) . 4_565 ?
+O2 Ba2 Ba1 49.11(13) 7_575 4_565 ?
+O4 Ba2 Ba1 49.45(13) 6_656 4_565 ?
+O2 Ba2 Ba1 127.95(13) 5_665 4_565 ?
+O2 Ba2 Ba1 88.20(12) 3_655 4_565 ?
+O3 Ba2 Ba1 49.56(10) 6_656 4_565 ?
+O4 Ba2 Ba1 91.68(13) . 4_565 ?
+Fe1 Ba2 Ba1 111.34(3) 6_656 4_565 ?
+Ba1 Ba2 Ba1 70.66(2) 6_656 4_565 ?
+O1 Ba2 Ba1 51.54(13) 1_554 . ?
+O2 Ba2 Ba1 47.54(13) . . ?
+O2 Ba2 Ba1 112.30(13) 7_575 . ?
+O4 Ba2 Ba1 142.30(8) 6_656 . ?
+O2 Ba2 Ba1 90.66(12) 5_665 . ?
+O2 Ba2 Ba1 129.85(13) 3_655 . ?
+O3 Ba2 Ba1 88.92(13) 6_656 . ?
+O4 Ba2 Ba1 46.73(10) . . ?
+Fe1 Ba2 Ba1 112.42(3) 6_656 . ?
+Ba1 Ba2 Ba1 94.076(15) 6_656 . ?
+Ba1 Ba2 Ba1 136.23(2) 4_565 . ?
+O2 Fe1 O2 113.4(4) 2_565 8_666 ?
+O2 Fe1 O3 109.4(2) 2_565 1_556 ?
+O2 Fe1 O3 109.4(2) 8_666 1_556 ?
+O2 Fe1 O1 108.1(2) 2_565 . ?
+O2 Fe1 O1 108.1(2) 8_666 . ?
+O3 Fe1 O1 108.5(4) 1_556 . ?
+O2 Fe1 Ba1 81.8(2) 2_565 1_556 ?
+O2 Fe1 Ba1 164.8(2) 8_666 1_556 ?
+O3 Fe1 Ba1 62.3(2) 1_556 1_556 ?
+O1 Fe1 Ba1 65.8(2) . 1_556 ?
+O2 Fe1 Ba1 164.8(2) 2_565 7_576 ?
+O2 Fe1 Ba1 81.8(2) 8_666 7_576 ?
+O3 Fe1 Ba1 62.3(2) 1_556 7_576 ?
+O1 Fe1 Ba1 65.8(2) . 7_576 ?
+Ba1 Fe1 Ba1 83.07(5) 1_556 7_576 ?
+O2 Fe1 Ba2 56.7(2) 2_565 6_556 ?
+O2 Fe1 Ba2 56.7(2) 8_666 6_556 ?
+O3 Fe1 Ba2 125.0(3) 1_556 6_556 ?
+O1 Fe1 Ba2 126.5(3) . 6_556 ?
+Ba1 Fe1 Ba2 138.36(2) 1_556 6_556 ?
+Ba1 Fe1 Ba2 138.35(2) 7_576 6_556 ?
+O2 Fe1 Ba1 56.3(2) 2_565 5_566 ?
+O2 Fe1 Ba1 113.1(2) 8_666 5_566 ?
+O3 Fe1 Ba1 56.2(2) 1_556 5_566 ?
+O1 Fe1 Ba1 138.77(15) . 5_566 ?
+Ba1 Fe1 Ba1 73.85(3) 1_556 5_566 ?
+Ba1 Fe1 Ba1 118.31(5) 7_576 5_566 ?
+Ba2 Fe1 Ba1 79.77(4) 6_556 5_566 ?
+O2 Fe1 Ba1 113.1(2) 2_565 3_556 ?
+O2 Fe1 Ba1 56.3(2) 8_666 3_556 ?
+O3 Fe1 Ba1 56.2(2) 1_556 3_556 ?
+O1 Fe1 Ba1 138.77(15) . 3_556 ?
+Ba1 Fe1 Ba1 118.31(5) 1_556 3_556 ?
+Ba1 Fe1 Ba1 73.85(3) 7_576 3_556 ?
+Ba2 Fe1 Ba1 79.77(4) 6_556 3_556 ?
+Ba1 Fe1 Ba1 69.12(4) 5_566 3_556 ?
+O2 Fe1 Ba1 55.5(2) 2_565 2_565 ?
+O2 Fe1 Ba1 111.9(2) 8_666 2_565 ?
+O3 Fe1 Ba1 138.6(2) 1_556 2_565 ?
+O1 Fe1 Ba1 55.5(2) . 2_565 ?
+Ba1 Fe1 Ba1 76.77(2) 1_556 2_565 ?
+Ba1 Fe1 Ba1 121.16(5) 7_576 2_565 ?
+Ba2 Fe1 Ba1 81.60(4) 6_556 2_565 ?
+Ba1 Fe1 Ba1 108.01(2) 5_566 2_565 ?
+Ba1 Fe1 Ba1 161.36(6) 3_556 2_565 ?
+O2 Fe1 Ba1 111.9(2) 2_565 8_666 ?
+O2 Fe1 Ba1 55.5(2) 8_666 8_666 ?
+O3 Fe1 Ba1 138.6(2) 1_556 8_666 ?
+O1 Fe1 Ba1 55.5(2) . 8_666 ?
+Ba1 Fe1 Ba1 121.16(5) 1_556 8_666 ?
+Ba1 Fe1 Ba1 76.77(2) 7_576 8_666 ?
+Ba2 Fe1 Ba1 81.60(4) 6_556 8_666 ?
+Ba1 Fe1 Ba1 161.36(6) 5_566 8_666 ?
+Ba1 Fe1 Ba1 108.01(2) 3_556 8_666 ?
+Ba1 Fe1 Ba1 68.49(4) 2_565 8_666 ?
+Fe1 O1 Ba2 158.7(5) . 1_556 ?
+Fe1 O1 Ba1 92.0(3) . 2_565 ?
+Ba2 O1 Ba1 103.4(2) 1_556 2_565 ?
+Fe1 O1 Ba1 92.0(3) . 8_666 ?
+Ba2 O1 Ba1 103.4(2) 1_556 8_666 ?
+Ba1 O1 Ba1 86.1(2) 2_565 8_666 ?
+Fe1 O1 Ba1 80.2(2) . 1_556 ?
+Ba2 O1 Ba1 85.1(2) 1_556 1_556 ?
+Ba1 O1 Ba1 90.61(3) 2_565 1_556 ?
+Ba1 O1 Ba1 171.4(3) 8_666 1_556 ?
+Fe1 O1 Ba1 80.2(2) . 7_576 ?
+Ba2 O1 Ba1 85.1(2) 1_556 7_576 ?
+Ba1 O1 Ba1 171.4(3) 2_565 7_576 ?
+Ba1 O1 Ba1 90.61(3) 8_666 7_576 ?
+Ba1 O1 Ba1 91.5(2) 1_556 7_576 ?
+Fe1 O2 Ba2 167.0(3) 2_564 . ?
+Fe1 O2 Ba2 89.3(2) 2_564 5_665 ?
+Ba2 O2 Ba2 103.5(2) . 5_665 ?
+Fe1 O2 Ba1 92.2(2) 2_564 . ?
+Ba2 O2 Ba1 87.2(2) . . ?
+Ba2 O2 Ba1 103.9(2) 5_665 . ?
+Fe1 O2 Ba1 91.0(2) 2_564 6_656 ?
+Ba2 O2 Ba1 84.3(2) . 6_656 ?
+Ba2 O2 Ba1 100.5(2) 5_665 6_656 ?
+Ba1 O2 Ba1 155.4(2) . 6_656 ?
+Fe1 O3 Ba1 90.6(3) 1_554 5_565 ?
+Fe1 O3 Ba1 90.6(3) 1_554 3 ?
+Ba1 O3 Ba1 86.1(2) 5_565 3 ?
+Fe1 O3 Ba1 82.9(2) 1_554 . ?
+Ba1 O3 Ba1 88.55(3) 5_565 . ?
+Ba1 O3 Ba1 171.6(3) 3 . ?
+Fe1 O3 Ba1 82.9(2) 1_554 7_575 ?
+Ba1 O3 Ba1 171.6(3) 5_565 7_575 ?
+Ba1 O3 Ba1 88.55(3) 3 7_575 ?
+Ba1 O3 Ba1 96.0(3) . 7_575 ?
+Fe1 O3 Ba2 151.2(4) 1_554 6_556 ?
+Ba1 O3 Ba2 110.1(2) 5_565 6_556 ?
+Ba1 O3 Ba2 110.1(2) 3 6_556 ?
+Ba1 O3 Ba2 77.9(2) . 6_556 ?
+Ba1 O3 Ba2 77.9(2) 7_575 6_556 ?
+Ba2 O4 Ba1 83.7(2) 6_556 . ?
+Ba2 O4 Ba1 83.7(2) 6_556 7_575 ?
+Ba1 O4 Ba1 98.3(3) . 7_575 ?
+Ba2 O4 Ba1 100.1(2) 6_556 2_565 ?
+Ba1 O4 Ba1 90.58(3) . 2_565 ?
+Ba1 O4 Ba1 170.7(3) 7_575 2_565 ?
+Ba2 O4 Ba1 100.1(2) 6_556 8_666 ?
+Ba1 O4 Ba1 170.7(3) . 8_666 ?
+Ba1 O4 Ba1 90.58(3) 7_575 8_666 ?
+Ba1 O4 Ba1 80.4(2) 2_565 8_666 ?
+Ba2 O4 Ba2 151.9(4) 6_556 . ?
+Ba1 O4 Ba2 78.1(2) . . ?
+Ba1 O4 Ba2 78.1(2) 7_575 . ?
+Ba1 O4 Ba2 101.2(2) 2_565 . ?
+Ba1 O4 Ba2 101.2(2) 8_666 . ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Ba1 O1 2.820(6) 2_564 ?
+Ba1 O2 2.821(6) . ?
+Ba1 O2 2.824(6) 6_556 ?
+Ba1 O4 2.842(6) . ?
+Ba1 O3 2.821(6) 5_565 ?
+Ba1 O3 2.893(6) . ?
+Ba1 O4 2.983(7) 2_564 ?
+Ba1 O1 3.001(6) 1_554 ?
+Ba1 Fe1 3.2417(15) 1_554 ?
+Ba1 Fe1 3.395(2) 5_566 ?
+Ba1 Fe1 3.422(2) 2_564 ?
+Ba1 Ba2 3.7173(8) 6_556 ?
+Ba2 O1 2.633(8) 1_554 ?
+Ba2 O2 2.715(6) . ?
+Ba2 O2 2.715(6) 7_575 ?
+Ba2 O4 2.728(8) 6_656 ?
+Ba2 O2 2.742(6) 5_665 ?
+Ba2 O2 2.742(6) 3_655 ?
+Ba2 O3 3.017(9) 6_656 ?
+Ba2 O4 3.205(9) . ?
+Ba2 Fe1 3.280(2) 6_656 ?
+Ba2 Ba1 3.7172(8) 6_656 ?
+Ba2 Ba1 3.7173(8) 4_565 ?
+Fe1 O2 1.834(6) 2_565 ?
+Fe1 O2 1.834(6) 8_666 ?
+Fe1 O3 1.861(9) 1_556 ?
+Fe1 O1 1.842(8) . ?
+Fe1 Ba1 3.2416(15) 1_556 ?
+Fe1 Ba1 3.2417(15) 7_576 ?
+Fe1 Ba2 3.280(2) 6_556 ?
+Fe1 Ba1 3.395(2) 5_566 ?
+Fe1 Ba1 3.395(2) 3_556 ?
+Fe1 Ba1 3.422(2) 2_565 ?
+Fe1 Ba1 3.422(2) 8_666 ?
+O1 Ba2 2.633(8) 1_556 ?
+O1 Ba1 2.820(6) 2_565 ?
+O1 Ba1 2.820(6) 8_666 ?
+O1 Ba1 3.001(6) 1_556 ?
+O1 Ba1 3.001(6) 7_576 ?
+O2 Fe1 1.834(6) 2_564 ?
+O2 Ba2 2.742(6) 5_665 ?
+O2 Ba1 2.824(6) 6_656 ?
+O3 Fe1 1.861(9) 1_554 ?
+O3 Ba1 2.821(6) 5_565 ?
+O3 Ba1 2.821(6) 3 ?
+O3 Ba1 2.893(6) 7_575 ?
+O3 Ba2 3.017(9) 6_556 ?
+O4 Ba2 2.728(8) 6_556 ?
+O4 Ba1 2.842(6) 7_575 ?
+O4 Ba1 2.983(7) 2_565 ?
+O4 Ba1 2.983(7) 8_666 ?

@@ -1,0 +1,426 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-19 16:29:56 +0200 (Fri, 19 Feb 2016) $
+#$Revision: 176759 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/31/2003173.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2003173
+loop_
+_publ_author_name
+'Schmid, Siegbert'
+'Thompson, John G.'
+'Withers, Ray L.'
+'Ling, Christopher D.'
+'Ishizawa, Nobuo'
+'Kishimoto, Shunji'
+_publ_contact_author
+;
+   Dr Siegbert Schmid
+   Research School of Chemistry
+   Australian National University
+   GPO Box 414
+   Canberra ACT 2601
+   Australia
+;
+_publ_section_title
+;
+ The crystal structure of Ca~7~Zr~7~Ta~6~O~36~ refined using
+ synchrotron-radiation data
+;
+_journal_issue                   3
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              313
+_journal_page_last               320
+_journal_paper_doi               10.1107/S0108768198014268
+_journal_volume                  55
+_journal_year                    1999
+_chemical_formula_sum            'Ca7 O36 Ta6 Zr7'
+_chemical_formula_weight         2580.78
+_chemical_name_systematic        calcium_zirconium_tantalum_oxide
+_space_group_IT_number           70
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-F 2uv 2vw'
+_symmetry_space_group_name_H-M   'F d d d :2'
+_audit_creation_method           from_xtal_archive_file_using_CIFIO
+_cell_angle_alpha                90.00000
+_cell_angle_beta                 90.00000
+_cell_angle_gamma                90.00000
+_cell_formula_units_Z            12
+_cell_length_a                   36.3940(10)
+_cell_length_b                   7.3674(5)
+_cell_length_c                   31.006(2)
+_cell_measurement_reflns_used    24
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      24
+_cell_measurement_theta_min      16.5
+_cell_volume                     8313.6(8)
+_computing_cell_refinement       'Tsukuba BL-14A software'
+_computing_data_collection       'Tsukuba BL-14A software'
+_computing_data_reduction        xtal_DIFDAT_ADDREF_SORTRF
+_computing_molecular_graphics    crystalmaker
+_computing_publication_material  xtal_BONDLA_CIFIO
+_computing_structure_refinement  'xtal_CRYLSQ and RAELS95'
+_computing_structure_solution    'xtal_GENTAN and SHELX-97'
+_diffrn_ambient_temperature      293
+_diffrn_measurement_device       Tsukuba_BL14A
+_diffrn_measurement_method       \q/2\q
+_diffrn_radiation_monochromator  Si(111)_double_crystal
+_diffrn_radiation_source         synchrotron
+_diffrn_radiation_type           xray
+_diffrn_radiation_wavelength     1.2682(4)
+_diffrn_reflns_av_R_equivalents  .039
+_diffrn_reflns_av_sigmaI/netI    .053
+_diffrn_reflns_limit_h_max       43
+_diffrn_reflns_limit_h_min       -44
+_diffrn_reflns_limit_k_max       8
+_diffrn_reflns_limit_k_min       -8
+_diffrn_reflns_limit_l_max       37
+_diffrn_reflns_limit_l_min       -34
+_diffrn_reflns_number            12337.000000000
+_diffrn_reflns_reduction_process equatorial_monochr_Lp
+_diffrn_reflns_theta_max         50.05
+_diffrn_reflns_theta_min         3.08
+_diffrn_standards_decay_%        0
+_diffrn_standards_interval_count 200/100
+_diffrn_standards_number         9
+_exptl_absorpt_coefficient_mu    42.71
+_exptl_absorpt_correction_type   none
+_exptl_crystal_colour            white
+_exptl_crystal_density_diffrn    6.186
+_exptl_crystal_description       square_prism
+_exptl_crystal_F_000             13752
+_exptl_crystal_size_max          0.015
+_exptl_crystal_size_mid          0.010
+_exptl_crystal_size_min          0.006
+_refine_diff_density_max         1.405
+_refine_diff_density_min         -2.081
+_refine_ls_abs_structure_details none
+_refine_ls_abs_structure_Flack   0
+_refine_ls_extinction_coef       .00000
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_all   1.379
+_refine_ls_goodness_of_fit_obs   1.508
+_refine_ls_matrix_type           full
+_refine_ls_number_constraints    0
+_refine_ls_number_parameters     195
+_refine_ls_number_reflns         1299
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          .047
+_refine_ls_R_factor_obs          .031
+_refine_ls_shift/esd_max         .021
+_refine_ls_shift/esd_mean        .004
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         .038
+_refine_ls_wR_factor_obs         .034
+_reflns_number_observed          1299
+_reflns_number_total             1928
+_reflns_observed_criterion       I>2\s(I)
+_cod_data_source_file            br0081.cif
+_cod_data_source_block           final
+_cod_original_cell_volume        8313.2(12)
+_cod_original_sg_symbol_H-M      'F d d d'
+_cod_database_code               2003173
+loop_
+_symmetry_equiv_pos_as_xyz
++x,+y,+z
+1/4-x,1/4-y,+z
++x,1/4-y,1/4-z
+1/4-x,+y,1/4-z
+-x,-y,-z
+3/4+x,3/4+y,-z
+-x,3/4+y,3/4+z
+3/4+x,-y,3/4+z
++x,1/2+y,1/2+z
+1/2+x,+y,1/2+z
+1/2+x,1/2+y,+z
+1/4-x,3/4-y,1/2+z
+3/4-x,1/4-y,1/2+z
+3/4-x,3/4-y,+z
++x,3/4-y,3/4-z
+1/2+x,1/4-y,3/4-z
+1/2+x,3/4-y,1/4-z
+1/4-x,1/2+y,3/4-z
+3/4-x,+y,3/4-z
+3/4-x,1/2+y,1/4-z
+-x,1/2-y,1/2-z
+1/2-x,-y,1/2-z
+1/2-x,1/2-y,-z
+3/4+x,1/4+y,1/2-z
+1/4+x,3/4+y,1/2-z
+1/4+x,1/4+y,-z
+-x,1/4+y,1/4+z
+1/2-x,3/4+y,1/4+z
+1/2-x,1/4+y,3/4+z
+3/4+x,1/2-y,1/4+z
+1/4+x,-y,1/4+z
+1/4+x,1/2-y,3/4+z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Ta1 .0042(4) .0057(4) .0037(4) .00000 .00000 .0001(5)
+Zr1 .0042(4) .0057(4) .0037(4) .00000 .00000 .0001(5)
+Ta2 .0042(4) .0039(4) .0038(3) .00000 .00000 .0004(5)
+Zr2 .0042(4) .0039(4) .0038(3) .00000 .00000 .0004(5)
+Ta3 .0038(3) .0049(3) .0030(3) -.0009(3) .00001(17) .0003(4)
+Zr3 .0038(3) .0049(3) .0030(3) -.0009(3) .00001(17) .0003(4)
+Ta4 .0031(3) .0084(3) .0082(3) -.0004(4) -.0005(2) .0044(2)
+Zr4 .0031(3) .0084(3) .0082(3) -.0004(4) -.0005(2) .0044(2)
+Ta5 .0069(5) .0031(5) .0237(5) .00000 .00000 -.0005(6)
+Zr5 .0069(5) .0031(5) .0237(5) .00000 .00000 -.0005(6)
+Ta6 .0074(4) .0062(4) .0072(3) -.0013(4) .0013(3) -.0017(4)
+Zr6 .0074(4) .0062(4) .0072(3) -.0013(4) .0013(3) -.0017(4)
+Ca7 .0136(10) .0324(11) .0222(9) .0024(9) -.0145(6) -.0103(11)
+Zr7 .0136(10) .0324(11) .0222(9) .0024(9) -.0145(6) -.0103(11)
+Ca8 .0080(9) .0084(8) .0094(8) .0002(7) -.0022(6) .0031(10)
+Zr8 .0080(9) .0084(8) .0094(8) .0002(7) -.0022(6) .0031(10)
+Ca9 .0388(16) .0103(10) .0200(12) .00000 .00000 .0099(9)
+Zr9 .0388(16) .0103(10) .0200(12) .00000 .00000 .0099(9)
+Ca10 .0031(10) .0079(12) .0031(10) .00000 .00000 .0011(14)
+Zr10 .0031(10) .0079(12) .0031(10) .00000 .00000 .0011(14)
+O1 .006(4) .003(4) .011(4) .004(4) .00000 .00000
+O2 .009(3) .005(4) .009(3) .001(2) .001(2) -.003(2)
+O3 .016(3) .009(3) .014(3) .003(3) .001(2) -.007(3)
+O4 .014(3) .008(3) .012(3) -.002(3) -.005(3) .001(3)
+O5 .008(3) .012(4) .008(3) .000(2) .000(3) .007(2)
+O6 .039(4) .009(4) .004(3) .011(3) .004(3) .002(3)
+O7 .017(3) .009(4) .006(3) -.004(3) -.002(3) -.004(2)
+O8 .003(3) .013(4) .010(3) -.001(3) .001(2) -.004(3)
+O9 .010(3) .013(4) .011(3) -.006(3) -.001(3) -.002(3)
+O10 .017(5) .010(4) .028(5) -.010(5) .00000 .00000
+O11 .012(3) .019(4) .011(3) -.004(3) .005(3) .002(3)
+O12 .009(4) .029(5) .011(4) .000(5) .00000 .00000
+O13 .031(4) .019(4) .007(3) -.016(3) .009(3) -.006(3)
+O14 .023(4) .019(4) .012(3) .006(3) -.009(3) .001(3)
+O15 .033(6) .034(6) .023(5) .009(6) .00000 .00000
+O16 .073(10) .062(10) .074(10) -.002(10) .00000 .00000
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_occupancy
+Ta1 .01975(2) .37500 .87500 .0045(4) Uani 0.62
+Zr1 .01975(2) .37500 .87500 .0045(4) Uani 0.38
+Ta2 .02395(2) .37500 .37500 .0039(4) Uani 0.85
+Zr2 .02395(2) .37500 .37500 .0039(4) Uani 0.15
+Ta3 .074378(18) .12299(8) .458627(14) .0039(3) Uani 0.80
+Zr3 .074378(18) .12299(8) .458627(14) .0039(3) Uani 0.20
+Ta4 .12253(2) .36635(8) .202284(18) .0065(3) Uani 0.45
+Zr4 .12253(2) .36635(8) .202284(18) .0065(3) Uani 0.55
+Ta5 .06757(3) .12500 .12500 .0113(5) Uani 0.23
+Zr5 .06757(3) .12500 .12500 .0113(5) Uani 0.77
+Ta6 .03224(2) .37420(16) .03484(2) .0069(4) Uani 0.13
+Zr6 .03224(2) .37420(16) .03484(2) .0069(4) Uani 0.87
+Ca7 .07788(5) .1453(3) .29208(6) .0228(10) Uani 0.81
+Zr7 .07788(5) .1453(3) .29208(6) .0228(10) Uani 0.19
+Ca8 .02322(5) .8705(4) .03899(5) .0086(8) Uani 0.92
+Zr8 .02322(5) .8705(4) .03899(5) .0086(8) Uani 0.08
+Ca9 .11849(7) .37500 .87500 .0230(12) Uani 0.78
+Zr9 .11849(7) .37500 .87500 .0230(12) Uani 0.22
+Ca10 .07446(7) .62500 .12500 .0047(11) Uani 1.0
+Zr10 .07446(7) .62500 .12500 .0047(11) Uani 0.0
+O1 .12500 .62500 .0725(2) .006(4) Uani ?
+O2 .01909(16) .5821(8) .0803(2) .008(3) Uani ?
+O3 .02361(15) .1223(10) -.1005(2) .013(3) Uani ?
+O4 .03071(17) .1449(11) -.0002(2) .011(3) Uani ?
+O5 .08503(17) .4303(8) .0020(2) .009(3) Uani ?
+O6 .0761(2) .9129(9) .0834(2) .017(4) Uani ?
+O7 .08621(18) .8215(8) -.0001(2) .011(3) Uani ?
+O8 .02478(14) .6069(11) -.0139(2) .009(3) Uani ?
+O9 .06362(18) .4293(8) -.0840(2) .012(3) Uani ?
+O10 .12500 .12500 .0155(3) .018(5) Uani ?
+O11 .01802(18) .1812(9) .0855(2) .014(4) Uani ?
+O12 .12500 .62500 -.0665(3) .016(4) Uani ?
+O13 .0794(2) .3315(9) .0800(2) .019(4) Uani ?
+O14 .0627(2) .8242(9) -.0820(2) .018(4) Uani ?
+O15 .12500 .12500 -.0847(3) .030(6) Uani ?
+O16 .12500 .12500 .0989(5) .070(10) Uani ?
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Ca ? .380982 .90802 Int._Tables_Vol_IV_Tables_2.2B_and_2.3.1
+Zr ? -.458984 1.595 Int._Tables_Vol_IV_Tables_2.2B_and_2.3.1
+Ta ? -11.686 3.85 Int._Tables_Vol_IV_Tables_2.2B_and_2.3.1
+O ? .031982 .020996 Int._Tables_Vol_IV_Tables_2.2B_and_2.3.1
+loop_
+_diffrn_standard_refln_index_h
+_diffrn_standard_refln_index_k
+_diffrn_standard_refln_index_l
+? ? ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+Ta1 O3 1_556 2.016(7)
+Ta1 O9 1_556 2.080(6)
+Ta1 O2 5_566 2.004(6)
+Ta1 O2 7_545 2.004(6)
+Ta1 O3 15 2.016(7)
+Ta1 O9 15 2.080(6)
+Zr1 O3 1_556 2.016(7)
+Zr1 O9 1_556 2.080(6)
+Zr1 O2 5_566 2.004(6)
+Zr1 O2 7_545 2.004(6)
+Zr1 O3 15 2.016(7)
+Zr1 O9 15 2.080(6)
+Ta2 O3 3 1.974(7)
+Ta2 O14 3_565 1.976(7)
+Ta2 O14 9_545 1.976(7)
+Ta2 O3 9 1.974(7)
+Ta2 O11 21 2.001(7)
+Ta2 O11 27 2.001(7)
+Zr2 O3 3 1.974(7)
+Zr2 O14 3_565 1.976(7)
+Zr2 O14 9_545 1.976(7)
+Zr2 O3 9 1.974(7)
+Zr2 O11 21 2.001(7)
+Zr2 O11 27 2.001(7)
+Ta3 O5 9_545 1.994(6)
+Ta3 O7 9_545 1.990(6)
+Ta3 O8 9_545 1.999(5)
+Ta3 O9 9_545 1.984(6)
+Ta3 O12 9_545 2.000(3)
+Ta3 O14 9_545 1.992(7)
+Zr3 O5 9_545 1.994(6)
+Zr3 O7 9_545 1.990(6)
+Zr3 O8 9_545 1.999(5)
+Zr3 O9 9_545 1.984(6)
+Zr3 O12 9_545 2.000(3)
+Zr3 O14 9_545 1.992(7)
+Ta4 O10 3 2.041(5)
+Ta4 O16 3 2.384(11)
+Ta4 O1 3_565 2.057(3)
+Ta4 O6 3_565 2.031(7)
+Ta4 O7 3_565 2.039(6)
+Ta4 O5 4 2.148(6)
+Ta4 O13 4 2.032(7)
+Zr4 O10 3 2.041(5)
+Zr4 O16 3 2.384(11)
+Zr4 O1 3_565 2.057(3)
+Zr4 O6 3_565 2.031(7)
+Zr4 O7 3_565 2.039(6)
+Zr4 O5 4 2.148(6)
+Zr4 O13 4 2.032(7)
+Ta5 O11 . 2.219(7)
+Ta5 O13 . 2.109(7)
+Ta5 O16 . 2.242(6)
+Ta5 O6 1_545 2.050(7)
+Ta5 O11 3 2.219(7)
+Ta5 O13 3 2.109(7)
+Ta5 O16 3 2.242(6)
+Ta5 O6 3_565 2.050(7)
+Zr5 O11 . 2.219(7)
+Zr5 O13 . 2.109(7)
+Zr5 O16 . 2.242(6)
+Zr5 O6 1_545 2.050(7)
+Zr5 O11 3 2.219(7)
+Zr5 O13 3 2.109(7)
+Zr5 O16 3 2.242(6)
+Zr5 O6 3_565 2.050(7)
+Ta6 O2 . 2.136(6)
+Ta6 O4 . 2.009(8)
+Ta6 O5 . 2.213(6)
+Ta6 O8 . 2.302(7)
+Ta6 O11 . 2.181(7)
+Ta6 O13 . 2.238(7)
+Ta6 O8 5_565 2.179(5)
+Zr6 O2 . 2.136(6)
+Zr6 O4 . 2.009(8)
+Zr6 O5 . 2.213(6)
+Zr6 O8 . 2.302(7)
+Zr6 O11 . 2.181(7)
+Zr6 O13 . 2.238(7)
+Zr6 O8 5_565 2.179(5)
+Ca7 O3 3 2.683(6)
+Ca7 O4 3 2.173(7)
+Ca7 O5 3 2.773(6)
+Ca7 O9 3 2.770(7)
+Ca7 O10 3 2.481(7)
+Ca7 O15 3 2.170(7)
+Ca7 O7 3_565 2.477(6)
+Ca7 O14 3_565 2.472(7)
+Zr7 O3 3 2.683(6)
+Zr7 O4 3 2.173(7)
+Zr7 O5 3 2.773(6)
+Zr7 O9 3 2.770(7)
+Zr7 O10 3 2.481(7)
+Zr7 O15 3 2.170(7)
+Zr7 O7 3_565 2.477(6)
+Zr7 O14 3_565 2.472(7)
+Ca8 O2 . 2.486(6)
+Ca8 O6 . 2.387(7)
+Ca8 O7 . 2.619(7)
+Ca8 O8 . 2.543(8)
+Ca8 O4 1_565 2.374(8)
+Ca8 O11 1_565 2.711(7)
+Ca8 O3 5_565 2.558(6)
+Ca8 O4 5_565 2.304(7)
+Zr8 O2 . 2.486(6)
+Zr8 O6 . 2.387(7)
+Zr8 O7 . 2.619(7)
+Zr8 O8 . 2.543(8)
+Zr8 O4 1_565 2.374(8)
+Zr8 O11 1_565 2.711(7)
+Zr8 O3 5_565 2.558(6)
+Zr8 O4 5_565 2.304(7)
+Ca9 O9 1_556 2.401(7)
+Ca9 O12 1_556 2.596(6)
+Ca9 O15 1_556 2.238(6)
+Ca9 O14 2_566 2.862(7)
+Ca9 O9 15 2.401(7)
+Ca9 O12 15 2.596(6)
+Ca9 O15 15 2.238(6)
+Ca9 O14 18_545 2.862(7)
+Zr9 O9 1_556 2.401(7)
+Zr9 O12 1_556 2.596(6)
+Zr9 O15 1_556 2.238(6)
+Zr9 O14 2_566 2.862(7)
+Zr9 O9 15 2.401(7)
+Zr9 O12 15 2.596(6)
+Zr9 O15 15 2.238(6)
+Zr9 O14 18_545 2.862(7)
+Ca10 O1 . 2.456(5)
+Ca10 O2 . 2.466(6)
+Ca10 O6 . 2.483(7)
+Ca10 O13 . 2.579(7)
+Ca10 O1 3_565 2.456(5)
+Ca10 O2 3_565 2.466(6)
+Ca10 O6 3_565 2.483(7)
+Ca10 O13 3_565 2.579(7)
+Zr10 O1 . 2.456(5)
+Zr10 O2 . 2.466(6)
+Zr10 O6 . 2.483(7)
+Zr10 O13 . 2.579(7)
+Zr10 O1 3_565 2.456(5)
+Zr10 O2 3_565 2.466(6)
+Zr10 O6 3_565 2.483(7)
+Zr10 O13 3_565 2.579(7)
+O5 O8 . 2.597(9)
+O5 O13 . 2.533(9)
+O6 O16 1_565 2.416(8)
+O8 O8 5_565 2.545(9)
+O10 O16 . 2.584(18)
+O11 O13 . 2.500(10)
+O11 O11 3 2.585(9)
+O13 O16 . 2.326(8)
+O16 O16 3 1.62(2)

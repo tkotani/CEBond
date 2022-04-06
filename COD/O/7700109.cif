@@ -1,0 +1,179 @@
+#------------------------------------------------------------------------------
+#$Date: 2019-11-08 00:16:31 +0200 (Fri, 08 Nov 2019) $
+#$Revision: 224215 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/7/70/01/7700109.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7700109
+loop_
+_publ_author_name
+'Bette, Sebastian'
+'Takayama, Tomohiro'
+'Duppel, Viola'
+'Poulain, Agnieszka'
+'Takagi, Hidenori'
+'Dinnebier, Robert E.'
+_publ_section_title
+;
+ Crystal structure and stacking faults in the layered honeycomb,
+ delafossite-type materials Ag<sub>3</sub>LiIr<sub>2</sub>O<sub>6</sub>
+ and Ag<sub>3</sub>LiRu<sub>2</sub>O<sub>6</sub>.
+;
+_journal_issue                   25
+_journal_name_full
+'Dalton transactions (Cambridge, England : 2003)'
+_journal_page_first              9250
+_journal_page_last               9259
+_journal_paper_doi               10.1039/c9dt01789e
+_journal_volume                  48
+_journal_year                    2019
+_chemical_formula_sum            'Ag3 Li O6 Ru2'
+_chemical_formula_weight         628.679
+_chemical_name_common            Ag3LiRu2O6
+_space_group_IT_number           12
+_space_group_name_Hall           '-C 2y'
+_space_group_name_H-M_alt        'C 1 2/m 1'
+_symmetry_cell_setting           monoclinic
+_symmetry_Int_Tables_number      12
+_symmetry_space_group_name_Hall  '-C 2y'
+_symmetry_space_group_name_H-M   'C 1 2/m 1'
+_audit_creation_method           TOPAS
+_audit_update_record
+;
+2019-04-29 deposited with the CCDC.    2019-05-27 downloaded from the CCDC.
+;
+_cell_angle_alpha                90
+_cell_angle_beta                 105.716(10)
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   5.2259(6)
+_cell_length_b                   9.0356(10)
+_cell_length_c                   6.5267(6)
+_cell_measurement_temperature    298
+_cell_volume                     296.66(6)
+_diffrn_ambient_temperature      298
+_diffrn_detector
+; 
+ multi MYTHEN II (Dectris)   
+;
+_diffrn_measurement_device_type  Stoe-Stadi-P
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.7093
+_diffrn_source_type              Mo-tube
+_exptl_absorpt_process_details
+;   
+ ?
+;
+_exptl_crystal_colour            black
+_exptl_crystal_density_diffrn    7.04
+_exptl_crystal_description       'microcrystalline powder'
+_pd_calc_method                  'Rietveld Refinement'
+_pd_instr_location
+; 
+'SLS (Swiss Light Source)'
+;
+_pd_meas_2theta_range_inc        0.001
+_pd_meas_2theta_range_max        100.0
+_pd_meas_2theta_range_min        2.0
+_pd_meas_scan_method             step
+_pd_proc_2theta_range_inc        0.001
+_pd_proc_2theta_range_max        85.0
+_pd_proc_2theta_range_min        4.0
+_pd_proc_info_data_reduction     binning
+_pd_proc_info_excluded_regions
+;
+ ?
+;
+_pd_proc_ls_background_function
+;   
+'Chebyshev polynomial'
+;
+_pd_proc_ls_peak_cutoff          0.00100
+_pd_proc_ls_profile_function
+;
+ Fundamental parameters
+;
+_pd_proc_ls_prof_R_factor        0.0479
+_pd_proc_ls_prof_wR_expected     0.0020
+_pd_proc_ls_prof_wR_factor       0.0679
+_pd_spec_mounting
+; 
+'0.5 mm glass capillary'
+;
+_pd_spec_mount_mode              transmission
+_pd_spec_shape                   cylinder
+_refine_ls_number_parameters     39
+_refine_ls_R_Fsqd_factor         0.0247
+_cod_data_source_file            c9dt01789e2.cif
+_cod_data_source_block           Ag3LiRu2O6
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_diffrn_radiation_probe' value 'X-ray' changed to 'x-ray' according
+to
+/home/data/users/saulius/crontab/automatic-downloads/rss-feeds/RSC/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 from 2011-04-26.
+
+Automatic conversion script
+Id: cif_fix_values 4973 2017-02-22 13:04:09Z antanas 
+
+ Adding full bibliography for 7700108--7700109.cif.
+;
+_cod_original_sg_symbol_H-M      C2/m
+_cod_database_code               7700109
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z '
+'-x, y, -z '
+'x, -y, z '
+'-x, -y, -z '
+'x+1/2, y+1/2, z '
+'-x+1/2, y+1/2, -z '
+'x+1/2, -y+1/2, z '
+'-x+1/2, -y+1/2, -z '
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_B_iso_or_equiv
+Ru1 Ru 4 g 0 0.3337(11) 0 1 0.10(6)
+Li2 Li 2 a 0 0 0 1 0.10(6)
+O1 O 4 i 0.390(14) 0 0.152(8) 1 1.9(3)
+O2 O 8 j 0.398(9) 0.3234(6) 0.164(4) 1 1.9(3)
+Ag1 Ag 4 h 0.5 0.3234(6) 0.5 1 0.10(6)
+Ag2 Ag 2 d 0.5 0 0.5 1 0.10(6)
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Ru 4
+Li 1
+Ag 1
+O -2
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+Ru1 O1 Li1 98.429(4) 1_555 1_555 1_555
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_multiplicity
+Ru1 Li1 3.014(5) 2

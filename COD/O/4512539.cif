@@ -1,0 +1,428 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-24 14:44:50 +0200 (Thu, 24 Mar 2016) $
+#$Revision: 179672 $
+#$URL: svn://www.crystallography.net/cod/cif/4/51/25/4512539.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4512539
+loop_
+_publ_author_name
+'King, Nacole'
+'Sommer, Roger D.'
+'Watkins-Curry, Pilanda'
+'Chan, Julia Y.'
+'Maggard, Paul A.'
+_publ_section_title
+;
+ Synthesis, Structure, and Thermal Instability of the Cu2Ta4O11Phase
+;
+_journal_issue                   2
+_journal_name_full               'Crystal Growth &amp; Design'
+_journal_page_first              552
+_journal_paper_doi               10.1021/cg500987c
+_journal_volume                  15
+_journal_year                    2015
+_chemical_formula_moiety         '0.17(Cu12 O66 Ta24)'
+_chemical_formula_sum            'Cu2 O11 Ta4'
+_chemical_formula_weight         1027.52
+_chemical_name_common            'Copper (I) Tantalum (V) Oxide (2/4/11)'
+_chemical_properties_physical    semiconductor
+_space_group_crystal_system      trigonal
+_space_group_IT_number           167
+_space_group_name_Hall           '-R 3 2"c'
+_space_group_name_H-M_alt        'R -3 c'
+_symmetry_space_group_name_Hall  '-R 3 2"c'
+_symmetry_space_group_name_H-M   'R -3 c :H'
+_atom_sites_solution_primary     direct
+_audit_creation_date             2014-08-26
+_audit_creation_method
+;
+Olex2 1.2
+(compiled 2014.07.22 svn.r2960 for OlexSys, GUI svn.r4862)
+;
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            6
+_cell_length_a                   6.2190(2)
+_cell_length_b                   6.2190(2)
+_cell_length_c                   37.1067(11)
+_cell_measurement_reflns_used    78
+_cell_measurement_temperature    296.(2)
+_cell_measurement_theta_max      6.5427
+_cell_measurement_theta_min      31.8702
+_cell_volume                     1242.87(7)
+_computing_cell_refinement       'APEX2 v2012.4-3 (Bruker AXS)'
+_computing_data_collection       'Bruker Instrument Service v2012.12.0.3'
+_computing_data_reduction        'SAINT V8.32B (Bruker AXS Inc., 2013)'
+_computing_molecular_graphics    'Olex2 (Dolomanov et al., 2009)'
+_computing_publication_material  'Olex2 (Dolomanov et al., 2009)'
+_computing_structure_refinement  'ShelXL-2013 (Sheldrick, 2013)'
+_computing_structure_solution    'ShelXL-2013 (Sheldrick, 2013)'
+_diffrn_ambient_temperature      296.(2)
+_diffrn_detector_area_resol_mean 8.3333
+_diffrn_measured_fraction_theta_full 1.000
+_diffrn_measured_fraction_theta_max 1.000
+_diffrn_measurement_device_type  'Bruker-Nonius X8 Kappa APEX II'
+_diffrn_measurement_method       'phi and omega scans'
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0273
+_diffrn_reflns_av_unetI/netI     0.0126
+_diffrn_reflns_Laue_measured_fraction_full 1.000
+_diffrn_reflns_Laue_measured_fraction_max 1.000
+_diffrn_reflns_limit_h_max       7
+_diffrn_reflns_limit_h_min       -7
+_diffrn_reflns_limit_k_max       6
+_diffrn_reflns_limit_k_min       -7
+_diffrn_reflns_limit_l_max       45
+_diffrn_reflns_limit_l_min       -45
+_diffrn_reflns_number            3079
+_diffrn_reflns_point_group_measured_fraction_full 1.000
+_diffrn_reflns_point_group_measured_fraction_max 1.000
+_diffrn_reflns_theta_full        26.35
+_diffrn_reflns_theta_max         26.35
+_diffrn_reflns_theta_min         3.294
+_diffrn_source_type              'Bruker-Nonius X8 Apex2'
+_exptl_absorpt_coefficient_mu    57.723
+_exptl_absorpt_correction_T_max  0.25
+_exptl_absorpt_correction_T_min  0.07
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details   'SADABS V2014/2 (Bruker AXS Inc.)'
+_exptl_crystal_colour            yellow
+_exptl_crystal_density_diffrn    8.237
+_exptl_crystal_density_meas      'not measured'
+_exptl_crystal_description       block
+_exptl_crystal_F_000             2630
+_exptl_crystal_size_max          0.069
+_exptl_crystal_size_mid          0.054
+_exptl_crystal_size_min          0.033
+_refine_diff_density_max         1.278
+_refine_diff_density_min         -3.174
+_refine_diff_density_rms         0.807
+_refine_ls_extinction_coef       Fsqd
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   1.377
+_refine_ls_hydrogen_treatment    undef
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     31
+_refine_ls_number_reflns         287
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.377
+_refine_ls_R_factor_all          0.0236
+_refine_ls_R_factor_gt           0.0236
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w=1/[\s^2^(Fo^2^)+(0.0330P)^2^+66.6320P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0666
+_refine_ls_wR_factor_ref         0.0666
+_reflns_Friedel_coverage         0.000
+_reflns_number_gt                287
+_reflns_number_total             287
+_reflns_threshold_expression     'I > 2\s(I)'
+_cod_data_source_file            cg500987c_si_002.cif
+_cod_data_source_block           rds173
+_cod_depositor_comments          'Adding full bibliography for 4512539.cif.'
+_cod_original_cell_volume        1242.86(9)
+_cod_database_code               4512539
+#BEGIN Tags that were not found in dictionaries:
+_shelxl_version_number           2013-4
+_shelx_space_group_comment
+;
+The symmetry employed for this shelxl refinement is uniquely defined
+by the following loop, which should always be used as a source of
+symmetry information in preference to the above space-group names.
+They are only intended as comments.
+;
+_shelx_estimated_absorpt_t_max   0.252
+_shelx_estimated_absorpt_t_min   0.109
+_olex2_refinement_description
+;
+Fixed Sof: Cu1(0.335)
+;
+#END Tags that were not found in dictionaries
+loop_
+_space_group_symop_operation_xyz
+'x, y, z'
+'-y, x-y, z'
+'-x+y, -x, z'
+'y, x, -z+1/2'
+'x-y, -y, -z+1/2'
+'-x, -x+y, -z+1/2'
+'x+2/3, y+1/3, z+1/3'
+'-y+2/3, x-y+1/3, z+1/3'
+'-x+y+2/3, -x+1/3, z+1/3'
+'y+2/3, x+1/3, -z+5/6'
+'x-y+2/3, -y+1/3, -z+5/6'
+'-x+2/3, -x+y+1/3, -z+5/6'
+'x+1/3, y+2/3, z+2/3'
+'-y+1/3, x-y+2/3, z+2/3'
+'-x+y+1/3, -x+2/3, z+2/3'
+'y+1/3, x+2/3, -z+7/6'
+'x-y+1/3, -y+2/3, -z+7/6'
+'-x+1/3, -x+y+2/3, -z+7/6'
+'-x, -y, -z'
+'y, -x+y, -z'
+'x-y, x, -z'
+'-y, -x, z-1/2'
+'-x+y, y, z-1/2'
+'x, x-y, z-1/2'
+'-x+2/3, -y+1/3, -z+1/3'
+'y+2/3, -x+y+1/3, -z+1/3'
+'x-y+2/3, x+1/3, -z+1/3'
+'-y+2/3, -x+1/3, z-1/6'
+'-x+y+2/3, y+1/3, z-1/6'
+'x+2/3, x-y+1/3, z-1/6'
+'-x+1/3, -y+2/3, -z+2/3'
+'y+1/3, -x+y+2/3, -z+2/3'
+'x-y+1/3, x+2/3, -z+2/3'
+'-y+1/3, -x+2/3, z+1/6'
+'-x+y+1/3, y+2/3, z+1/6'
+'x+1/3, x-y+2/3, z+1/6'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_site_symmetry_order
+_atom_site_calc_flag
+_atom_site_refinement_flags_posn
+_atom_site_refinement_flags_adp
+_atom_site_refinement_flags_occupancy
+Ta1 Ta 0.30407(10) 0.3333 0.5833 0.0155(3) Uani 1 2 d S T P
+Ta2 Ta 0.0000 0.0000 0.5000 0.0276(4) Uani 1 6 d S T P
+Cu1 Cu 0.5000 0.5000 0.5000 0.0279(7) Uani 0.67 2 d S T P
+O1 O 0.3333 0.6667 0.5736(4) 0.019(3) Uani 1 3 d S T P
+O2 O 0.2402(16) 0.2770(15) 0.5311(2) 0.0198(15) Uani 1 1 d . . .
+O3 O 0.6667 0.5791(19) 0.5833 0.018(2) Uani 1 2 d S T P
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Ta1 0.0159(3) 0.0138(4) 0.0159(4) 0.0001(2) 0.00005(10) 0.00692(18)
+Ta2 0.0346(5) 0.0346(5) 0.0137(5) 0.000 0.000 0.0173(2)
+Cu1 0.0198(15) 0.0246(16) 0.0271(15) 0.0046(13) 0.0041(12) 0.0019(14)
+O1 0.018(4) 0.018(4) 0.020(6) 0.000 0.000 0.009(2)
+O2 0.018(4) 0.021(4) 0.015(4) 0.001(3) 0.001(3) 0.006(3)
+O3 0.019(6) 0.019(4) 0.016(5) 0.000(2) 0.000(4) 0.010(3)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Cu Cu 0.3201 1.2651 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ta Ta -0.7052 6.5227 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+O1 Ta1 O1 129.97(7) 16_445 .
+O1 Ta1 O3 64.98(4) 16_445 3_565
+O1 Ta1 O3 64.98(4) . 3_565
+O2 Ta1 O1 89.5(5) . 16_445
+O2 Ta1 O1 89.5(4) 17 .
+O2 Ta1 O1 85.1(4) 17 16_445
+O2 Ta1 O1 85.1(4) . .
+O2 Ta1 O2 167.1(5) . 17
+O2 Ta1 O3 100.7(2) 17 2_655
+O2 Ta1 O3 89.0(3) 17 .
+O2 Ta1 O3 83.5(2) . 3_565
+O2 Ta1 O3 89.0(2) . 2_655
+O2 Ta1 O3 83.5(2) 17 3_565
+O2 Ta1 O3 100.7(3) . .
+O3 Ta1 O1 74.1(3) . .
+O3 Ta1 O1 74.1(3) 2_655 16_445
+O3 Ta1 O1 155.0(4) 2_655 .
+O3 Ta1 O1 155.0(3) . 16_445
+O3 Ta1 O3 83.2(7) 2_655 .
+O3 Ta1 O3 138.4(3) . 3_565
+O3 Ta1 O3 138.4(3) 2_655 3_565
+Cu1 Ta2 Cu1 60.0 3 2_655
+Cu1 Ta2 Cu1 60.0 . 2_655
+Cu1 Ta2 Cu1 180.0 2_655 2
+Cu1 Ta2 Cu1 120.0 . 2
+Cu1 Ta2 Cu1 60.0 . 3_565
+Cu1 Ta2 Cu1 120.0 1_445 2_655
+Cu1 Ta2 Cu1 120.0 1_445 3_565
+Cu1 Ta2 Cu1 60.0 1_445 2
+Cu1 Ta2 Cu1 120.0 . 3
+Cu1 Ta2 Cu1 60.0 3_565 2
+Cu1 Ta2 Cu1 60.0 1_445 3
+Cu1 Ta2 Cu1 120.0 3_565 2_655
+Cu1 Ta2 Cu1 180.0 1_445 .
+Cu1 Ta2 Cu1 180.0 3_565 3
+Cu1 Ta2 Cu1 120.0 3 2
+O2 Ta2 Cu1 143.9(2) 3 3_565
+O2 Ta2 Cu1 36.1(2) 3 3
+O2 Ta2 Cu1 60.7(2) 21_556 2
+O2 Ta2 Cu1 60.7(2) . 3_565
+O2 Ta2 Cu1 60.7(2) 20_556 .
+O2 Ta2 Cu1 36.1(2) . .
+O2 Ta2 Cu1 143.9(2) 21_556 3
+O2 Ta2 Cu1 108.5(2) 21_556 1_445
+O2 Ta2 Cu1 119.3(2) 20_556 1_445
+O2 Ta2 Cu1 108.5(2) 2 3
+O2 Ta2 Cu1 119.3(2) . 3
+O2 Ta2 Cu1 108.5(2) . 2
+O2 Ta2 Cu1 60.7(2) 19_556 3
+O2 Ta2 Cu1 71.5(2) . 2_655
+O2 Ta2 Cu1 60.7(2) 3 2_655
+O2 Ta2 Cu1 108.5(2) 20_556 3_565
+O2 Ta2 Cu1 143.9(2) . 1_445
+O2 Ta2 Cu1 71.5(2) 20_556 3
+O2 Ta2 Cu1 119.3(2) 2 .
+O2 Ta2 Cu1 71.5(2) 21_556 .
+O2 Ta2 Cu1 71.5(2) 19_556 2
+O2 Ta2 Cu1 60.7(2) 2 1_445
+O2 Ta2 Cu1 119.3(2) 3 2
+O2 Ta2 Cu1 71.5(2) 2 3_565
+O2 Ta2 Cu1 36.1(2) 2 2
+O2 Ta2 Cu1 143.9(2) 19_556 .
+O2 Ta2 Cu1 36.1(2) 19_556 1_445
+O2 Ta2 Cu1 143.9(2) 20_556 2
+O2 Ta2 Cu1 119.3(2) 21_556 2_655
+O2 Ta2 Cu1 71.5(2) 3 1_445
+O2 Ta2 Cu1 36.1(2) 21_556 3_565
+O2 Ta2 Cu1 119.3(2) 19_556 3_565
+O2 Ta2 Cu1 143.9(2) 2 2_655
+O2 Ta2 Cu1 36.1(2) 20_556 2_655
+O2 Ta2 Cu1 108.5(2) 3 .
+O2 Ta2 Cu1 108.5(2) 19_556 2_655
+O2 Ta2 O2 90.3(3) 19_556 3
+O2 Ta2 O2 89.7(3) 21_556 20_556
+O2 Ta2 O2 89.7(3) . 2
+O2 Ta2 O2 89.7(3) 3 2
+O2 Ta2 O2 90.3(3) 3 20_556
+O2 Ta2 O2 89.7(3) . 3
+O2 Ta2 O2 180.0(4) 21_556 3
+O2 Ta2 O2 90.3(3) 21_556 2
+O2 Ta2 O2 180.0 20_556 2
+O2 Ta2 O2 180.0 . 19_556
+O2 Ta2 O2 90.3(3) . 20_556
+O2 Ta2 O2 90.3(3) . 21_556
+O2 Ta2 O2 90.3(3) 19_556 2
+O2 Ta2 O2 89.7(3) 19_556 20_556
+O2 Ta2 O2 89.7(3) 19_556 21_556
+Ta2 Cu1 Ta2 180.0 . 1_665
+O2 Cu1 Ta2 142.0(2) . 1_665
+O2 Cu1 Ta2 142.0(2) 19_666 .
+O2 Cu1 Ta2 38.0(2) . .
+O2 Cu1 Ta2 38.0(2) 19_666 1_665
+O2 Cu1 O2 180.0(4) . 19_666
+Ta1 O1 Ta1 116.9(2) 3_565 2_665
+Ta1 O1 Ta1 116.9(2) 3_565 .
+Ta1 O1 Ta1 116.9(2) 2_665 .
+Ta1 O2 Ta2 136.1(4) . .
+Cu1 O2 Ta1 116.4(4) . .
+Cu1 O2 Ta2 105.9(4) . .
+Ta1 O3 Ta1 101.6(3) 3_665 2_665
+Ta1 O3 Ta1 101.6(3) . 2_665
+Ta1 O3 Ta1 156.8(7) 3_665 .
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Ta1 O1 2.021(2) .
+Ta1 O1 2.021(2) 16_445
+Ta1 O2 1.973(8) .
+Ta1 O2 1.972(8) 17
+Ta1 O3 1.994(3) .
+Ta1 O3 1.994(2) 2_655
+Ta1 O3 2.435(12) 3_565
+Ta2 Cu1 3.10950(10) 1_445
+Ta2 Cu1 3.10950(10) 2_655
+Ta2 Cu1 3.10950(10) 2
+Ta2 Cu1 3.10950(10) 3_565
+Ta2 Cu1 3.10950(10) .
+Ta2 Cu1 3.10950(10) 3
+Ta2 O2 1.990(8) .
+Ta2 O2 1.990(8) 3
+Ta2 O2 1.990(8) 2
+Ta2 O2 1.990(8) 21_556
+Ta2 O2 1.990(8) 20_556
+Ta2 O2 1.990(8) 19_556
+Cu1 Ta2 3.10950(10) 1_665
+Cu1 O2 1.905(8) 19_666
+Cu1 O2 1.905(8) .
+O1 Ta1 2.021(2) 3_565
+O1 Ta1 2.021(2) 2_665
+O3 Ta1 1.994(2) 3_665
+O3 Ta1 2.435(12) 2_665
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion
+_geom_torsion_site_symmetry_1
+_geom_torsion_site_symmetry_4
+Ta2 Cu1 O2 Ta1 168.0(7) . .
+Ta2 Cu1 O2 Ta1 -12.0(7) 1_665 .
+Ta2 Cu1 O2 Ta2 180.0 1_665 .
+Cu1 Ta2 O2 Ta1 -164.4(9) . .
+Cu1 Ta2 O2 Ta1 15.6(9) 1_445 .
+Cu1 Ta2 O2 Ta1 79.8(6) 2 .
+Cu1 Ta2 O2 Ta1 117.2(7) 3_565 .
+Cu1 Ta2 O2 Ta1 -62.8(7) 3 .
+Cu1 Ta2 O2 Ta1 -100.2(6) 2_655 .
+Cu1 Ta2 O2 Cu1 180.000(1) 1_445 .
+Cu1 Ta2 O2 Cu1 101.7(3) 3 .
+Cu1 Ta2 O2 Cu1 -78.3(3) 3_565 .
+Cu1 Ta2 O2 Cu1 64.2(3) 2_655 .
+Cu1 Ta2 O2 Cu1 -115.8(3) 2 .
+O1 Ta1 O2 Ta2 -5.0(6) 16_445 .
+O1 Ta1 O2 Ta2 -135.2(6) . .
+O1 Ta1 O2 Cu1 -168.3(4) 16_445 .
+O1 Ta1 O2 Cu1 61.5(4) . .
+O1 Ta1 O3 Ta1 10.7(4) . 2_665
+O1 Ta1 O3 Ta1 24.9(9) 16_445 3_665
+O1 Ta1 O3 Ta1 -169.3(4) . 3_665
+O1 Ta1 O3 Ta1 -155.1(9) 16_445 2_665
+O2 Ta1 O2 Ta2 -69.9(6) 17 .
+O2 Ta1 O2 Cu1 126.9(4) 17 .
+O2 Ta1 O3 Ta1 100.9(2) 17 3_665
+O2 Ta1 O3 Ta1 92.4(2) . 2_665
+O2 Ta1 O3 Ta1 -87.6(2) . 3_665
+O2 Ta1 O3 Ta1 -79.1(2) 17 2_665
+O2 Ta2 O2 Ta1 48.4(4) 2 .
+O2 Ta2 O2 Ta1 -131.6(4) 20_556 .
+O2 Ta2 O2 Ta1 138.8(5) 21_556 .
+O2 Ta2 O2 Ta1 -41.2(5) 3 .
+O2 Ta2 O2 Cu1 -147.1(5) 2 .
+O2 Ta2 O2 Cu1 -56.8(5) 21_556 .
+O2 Ta2 O2 Cu1 32.9(5) 20_556 .
+O2 Ta2 O2 Cu1 123.2(5) 3 .
+O3 Ta1 O2 Ta2 -69.9(6) 3_565 .
+O3 Ta1 O2 Ta2 69.1(7) 2_655 .
+O3 Ta1 O2 Ta2 152.0(6) . .
+O3 Ta1 O2 Cu1 -11.3(5) . .
+O3 Ta1 O2 Cu1 -94.1(5) 2_655 .
+O3 Ta1 O2 Cu1 126.9(4) 3_565 .
+O3 Ta1 O3 Ta1 180.0 2_655 2_665
+O3 Ta1 O3 Ta1 -179.992(0) 3_565 3_665
+O3 Ta1 O3 Ta1 0.0 3_565 2_665
+O3 Ta1 O3 Ta1 0.003(0) 2_655 3_665

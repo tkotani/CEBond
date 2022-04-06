@@ -1,0 +1,470 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-01-28 04:27:29 +0200 (Thu, 28 Jan 2016) $
+#$Revision: 175185 $
+#$URL: svn://www.crystallography.net/cod/cif/2/24/15/2241524.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2241524
+loop_
+_publ_author_name
+'Bell, Anthony M. T.'
+'Henderson, C. Michael B.'
+_publ_section_title
+;
+ Rietveld refinement of the crystal structures of Rb~2~<i>X</i>Si~5~O~12~
+ (<i>X</i> = Ni, Mn).
+;
+_journal_coeditor_code           VN2106
+_journal_issue                   2
+_journal_name_full               'Acta Crystallographica Section E'
+_journal_page_first              249
+_journal_page_last               252
+_journal_paper_doi               10.1107/S2056989016001390
+_journal_volume                  72
+_journal_year                    2016
+_chemical_formula_iupac          'Rb2 Ni1 Si5 O12'
+_chemical_formula_moiety
+;
+Rb2 Ni1 Si5 O12
+;
+_chemical_formula_structural
+;
+Rb2 Ni1 Si5 O12
+;
+_chemical_formula_sum            'Ni O12 Rb2 Si5'
+_chemical_formula_weight         562.0584
+_chemical_name_common            'rubidium nickel silicon oxide'
+_chemical_name_systematic
+;
+Dirubidium nickel(II) pentasilicate
+;
+_space_group_IT_number           61
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2ac 2ab'
+_symmetry_space_group_name_H-M   'P b c a'
+_cell_angle_alpha                90.00000
+_cell_angle_beta                 90.00000
+_cell_angle_gamma                90.00000
+_cell_formula_units_Z            8
+_cell_length_a                   13.469(3)
+_cell_length_b                   13.480(3)
+_cell_length_c                   13.442(2)
+_cell_measurement_temperature    293
+_cell_volume                     2440.6(8)
+_computing_data_collection
+;
+<i>X'Pert Data Collector</i> (PANalytical, 2006)
+;
+_computing_molecular_graphics
+;
+<i>VESTA</i> (Momma & Izumi, 2008)
+;
+_computing_publication_material
+;
+publCIF (Westrip, 2010)
+;
+_computing_structure_refinement
+;
+<i>FULLPROF</i> (Rodr\'iguez-Carvajal, 1993)
+;
+_diffrn_ambient_temperature      293
+_diffrn_measurement_device_type  'PANalytical X'Pert Pro MPD diffractometer'
+_diffrn_radiation_type           'Cu K\a'
+_diffrn_radiation_wavelength     1.5418
+_exptl_crystal_density_diffrn    3.0590(10)
+_exptl_crystal_density_method    'not measured'
+_pd_char_colour                  purple-blue
+_pd_instr_location
+'PANalytical X'Pert Pro MPD, MERI, Sheffield Hallam University'
+_pd_meas_2theta_range_inc        0.016711
+_pd_meas_2theta_range_max        79.99515
+_pd_meas_2theta_range_min        10.00836
+_pd_meas_number_of_points        4189
+_pd_meas_scan_method             step
+_pd_prep_pressure                100
+_pd_prep_temperature             1193
+_pd_proc_2theta_range_inc        0.016711
+_pd_proc_2theta_range_max        79.8834
+_pd_proc_2theta_range_min        9.8967
+_pd_proc_ls_background_function  'cubic splines interpolation'
+_pd_proc_ls_pref_orient_corr
+;
+;
+_pd_proc_ls_profile_function     'T-C-H Pseudo-Voigt'
+_pd_proc_ls_prof_R_factor        9.0479
+_pd_proc_ls_prof_wR_expected     4.2628
+_pd_proc_ls_prof_wR_factor       12.0071
+_pd_proc_wavelength              1.540560
+_pd_spec_mounting                'flat plate'
+_pd_spec_mount_mode              reflection
+_pd_spec_shape                   irregular
+_pd_spec_size_axial              10
+_pd_spec_size_equat              10
+_pd_spec_size_thick              0.1
+_refine_ls_goodness_of_fit_all   2.817
+_refine_ls_number_parameters     73
+_refine_ls_number_reflns         1861
+_refine_ls_number_restraints     24
+_iucr_refine_instructions_details
+;
+COMM Rb2NiSi5O12 CMBH leucite
+! Current global Chi2 (Bragg contrib.) =      7.933
+! Files => DAT-file: RbNilong3.xrdml,  PCR-file: RbNilong_distmd
+!Job Npr Nph Nba Nex Nsc Nor Dum Iwg Ilo Ias Res Ste Nre Cry Uni Cor Opt Aut
+   0   7   1 -26   2   0   0   0   0   0   0   0   0   0   0   0   0   0   1
+!
+!Ipr Ppl Ioc Mat Pcr Ls1 Ls2 Ls3 NLI Prf Ins Rpa Sym Hkl Fou Sho Ana
+   0   0   1   0   1   0   4   0   0   3  13  -1   1   0   0   0   0
+!
+! Lambda1  Lambda2    Ratio    Bkpos    Wdt    Cthm     muR   AsyLim   Rpolarz
+ 2nd-muR -> Patt# 1
+ 1.540560 1.544390  0.50000   40.000  8.0000  0.9100  0.0000    0.00    0.0000
+ 0.0000
+!
+!NCY  Eps  R_at  R_an  R_pr  R_gl     Thmin       Step       Thmax    PSD
+ Sent0
+200  0.10  0.20  1.00  0.20  0.20     10.0084   0.016711    79.9951   0.000
+ 0.000
+!
+!2Theta/TOF/E(Kev)   Background  for Pattern#  1
+        10.0486      1174.3160
+        11.0931      1042.4264
+        12.2943       931.8091
+        14.1743       770.1380
+        15.6627       680.7933
+        17.0727       621.2303
+        18.1433       574.4307
+        20.3469       506.8443
+        22.9319       451.3230
+        29.1988       443.6649
+        32.2635       364.2889
+        33.0596       359.3962
+        35.4478       334.9328
+        39.2360       320.2547
+        40.7184       305.5767
+        42.2831       271.3279
+        44.6719       268.0978
+        46.7247       288.2004
+        50.9606       252.4625
+        57.9988       230.1263
+        61.0418       226.9671
+        64.5756       216.3309
+        68.5156       222.7126
+        72.7805       218.4581
+        76.8018       216.3309
+        79.4420       212.0763
+!
+! Excluded regions (LowT  HighT) for Pattern#  1
+        0.00       10.00
+       80.00     1000.00
+!
+!
+      73    !Number of refined parameters
+!
+!  Zero    Code    SyCos    Code   SySin    Code  Lambda     Code MORE ->Patt# 1
+  0.11166   31.0  0.00000    0.0  0.00000    0.0 0.000000    0.00   1
+!
+! Microabsorption coefficients for Pattern#  1
+!   P0    Cod_P0    Cp   Cod_Cp     Tau  Cod_Tau
+  0.9726   61.00  0.0000    0.00  0.0000    0.00
+!-------------------------------------------------------------------------------
+!  Data for PHASE number:   1  ==> Current R_Bragg for Pattern#  1:    10.30
+!-------------------------------------------------------------------------------
+!
+!Nat Dis Ang Pr1 Pr2 Pr3 Jbt Irf Isy Str Furth       ATZ    Nvk Npr More
+  20  24   0 0.0 0.0 1.0   0   0   0   0   0       4496.466   0   7   1
+!
+!Jvi Jdi Hel Sol Mom Ter  Brind   RMua    RMub    RMuc   Jtyp  Nsp_Ref Ph_Shift
+N_Domains
+   0   3   0   0   0   0  1.0000  0.0000  0.0000  0.0000    0      0      0    0
+!
+! Max_dst(dist) (angles)  Bond-Valence Calc.
+      4.1600      2.0200
+P b c a                  <--Space group symbol
+!Atom   Typ       X        Y        Z     Biso       Occ     In Fin N_t Spc
+/Codes
+Rb1    Rb      0.13666  0.12082  0.13357 10.13741   1.00000   0   0   0    0
+                101.00   111.00   121.00   701.00      0.00
+Rb2    Rb      0.40997  0.37555  0.40374 10.13741   1.00000   0   0   0    0
+                131.00   141.00   151.00   701.00      0.00
+Ni1    Ni      0.36405  0.83702  0.90755  7.54668   1.00000   0   0   0    0
+                161.00   171.00   181.00   711.00      0.00
+Si2    Si      0.13832  0.66314  0.61703  6.45660   1.00000   0   0   0    0
+                191.00   201.00   211.00   721.00      0.00
+Si3    Si      0.59127  0.12893  0.65770  6.45660   1.00000   0   0   0    0
+                221.00   231.00   241.00   721.00      0.00
+Si4    Si      0.64197  0.57023  0.10567  6.45660   1.00000   0   0   0    0
+                251.00   261.00   271.00   721.00      0.00
+Si5    Si      0.92064  0.37023  0.83205  6.45660   1.00000   0   0   0    0
+                281.00   291.00   301.00   721.00      0.00
+Si6    Si      0.83422  0.90505  0.36466  6.45660   1.00000   0   0   0    0
+                311.00   321.00   331.00   721.00      0.00
+O1     O       0.46793  0.38257  0.15525  1.35467   1.00000   0   0   0    0
+                341.00   351.00   361.00   731.00      0.00
+O2     O       0.14301  0.45282  0.41492  1.35467   1.00000   0   0   0    0
+                371.00   381.00   391.00   731.00      0.00
+O3     O       0.37803  0.12960  0.49890  1.35467   1.00000   0   0   0    0
+                401.00   411.00   421.00   731.00      0.00
+O4     O       0.73680  0.43608  0.61816  1.35467   1.00000   0   0   0    0
+                431.00   441.00   451.00   731.00      0.00
+O5     O       0.65830  0.72047  0.35258  1.35467   1.00000   0   0   0    0
+                461.00   471.00   481.00   731.00      0.00
+O6     O       0.41654  0.62808  0.71824  1.35467   1.00000   0   0   0    0
+                491.00   501.00   511.00   731.00      0.00
+O7     O       0.96256  0.86112  0.69070  1.35467   1.00000   0   0   0    0
+                521.00   531.00   541.00   731.00      0.00
+O8     O       0.63257  0.97675  0.85974  1.35467   1.00000   0   0   0    0
+                551.00   561.00   571.00   731.00      0.00
+O9     O       0.90319  0.63265  0.96063  1.35467   1.00000   0   0   0    0
+                581.00   591.00   601.00   731.00      0.00
+O10    O       0.21576  0.92758  0.14634  1.35467   1.00000   0   0   0    0
+                611.00   621.00   631.00   731.00      0.00
+O11    O       0.16933  0.20281  0.89784  1.35467   1.00000   0   0   0    0
+                641.00   651.00   661.00   731.00      0.00
+O12    O       0.88153  0.09606  0.22316  1.35467   1.00000   0   0   0    0
+                671.00   681.00   691.00   731.00      0.00
+!-------> Profile Parameters for Pattern #  1
+!  Scale        Shape1      Bov      Str1      Str2      Str3   Strain-Model
+ 0.11802E-02   0.00000   0.00000   0.00000   0.00000   0.00000       0
+    11.00000     0.000     0.000     0.000     0.000     0.000
+!       U         V          W           X          Y        GauSiz   LorSiz
+Size-Model
+2.054524  -0.321443   0.098264   0.018961   0.000000   0.000000   0.000000    0
+     71.000     81.000     91.000      0.000      0.000      0.000      0.000
+!     a          b         c        alpha      beta       gamma      #Cell Info
+  13.469412  13.480098  13.442327  90.000000  90.000000  90.000000
+   21.00000   41.00000   51.00000    0.00000    0.00000    0.00000
+!  Pref1    Pref2      Asy1     Asy2     Asy3     Asy4      S_L      D_L
+  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000  0.00000
+     0.00     0.00     0.00     0.00     0.00     0.00     0.00     0.00
+! Soft distance constraints:
+Ni1  O4     3    1.00000    0.50000    1.50000    1.88000    0.02000
+Ni1  O7    -2   -0.50000    0.00000    1.50000    1.88000    0.02000
+Ni1  O9     4   -0.50000    1.50000    2.00000    1.88000    0.02000
+Ni1  O11   -4    0.50000    0.50000    0.00000    1.88000    0.02000
+Si2  O1     2    0.50000    1.00000    0.50000    1.61000    0.02000
+Si2  O3    -4    0.50000    0.50000    0.00000    1.61000    0.02000
+Si2  O5     4   -0.50000    1.50000    1.00000    1.61000    0.02000
+Si2  O10   -3    0.00000    1.50000    0.50000    1.61000    0.02000
+Si3  O1    -3    0.00000    0.50000    0.50000    1.61000    0.02000
+Si3  O2     4    0.50000    0.50000    1.00000    1.61000    0.02000
+Si3  O6     3    1.00000   -0.50000    1.50000    1.61000    0.02000
+Si3  O11   -2    0.50000    0.00000    1.50000    1.61000    0.02000
+Si4  O2    -2    0.50000    0.00000    0.50000    1.61000    0.02000
+Si4  O3     3    1.00000    0.50000    0.50000    1.61000    0.02000
+Si4  O4     2    1.50000    1.00000   -0.50000    1.61000    0.02000
+Si4  O12   -4    1.50000    0.50000    0.00000    1.61000    0.02000
+Si5  O5     2    1.50000    1.00000    0.50000    1.61000    0.02000
+Si5  O7     3    2.00000   -0.50000    1.50000    1.61000    0.02000
+Si5  O8    -4    1.50000   -0.50000    0.00000    1.61000    0.02000
+Si5  O12   -3    0.00000    0.50000    0.50000    1.61000    0.02000
+Si6  O6     4    0.50000    1.50000    1.00000    1.61000    0.02000
+Si6  O8     2    1.50000    2.00000   -0.50000    1.61000    0.02000
+Si6  O9    -3    0.00000    1.50000   -0.50000    1.61000    0.02000
+Si6  O10   -2    0.50000    0.00000    0.50000    1.61000    0.02000
+!  2Th1/TOF1    2Th2/TOF2  Pattern to plot
+      10.008      79.995       1
+;
+_cod_data_source_file            vn2106sup1.cif
+_cod_data_source_block           Rb2NiSi5O12
+_cod_original_cell_volume        2440.7(8)
+_cod_original_formula_sum
+;
+Ni1 O12 Rb2 Si5
+;
+_cod_database_code               2241524
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x+1/2,-y+1/2,-z
+-x,y+1/2,-z+1/2
+-x+1/2,-y,z+1/2
+-x,-y,-z
+-x+1/2,y+1/2,z
+x,-y+1/2,z+1/2
+x+1/2,y,-z+1/2
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+Rb Rb1 0.1367(17) 0.1209(19) 0.134(2) 0.128(4) Uiso 1.00000
+Rb Rb2 0.4100(17) 0.3755(18) 0.4037(19) 0.128(4) Uiso 1.00000
+Ni Ni1 0.3641(11) 0.8370(10) 0.9075(10) 0.095(12) Uiso 1.00000
+Si Si2 0.1383(12) 0.6631(11) 0.6170(13) 0.082(6) Uiso 1.00000
+Si Si3 0.5913(12) 0.1289(16) 0.6577(12) 0.082(6) Uiso 1.00000
+Si Si4 0.6419(14) 0.5703(13) 0.1057(11) 0.082(6) Uiso 1.00000
+Si Si5 0.9207(11) 0.3702(12) 0.8320(14) 0.082(6) Uiso 1.00000
+Si Si6 0.8342(11) 0.9051(13) 0.3647(13) 0.082(6) Uiso 1.00000
+O O1 0.4680(13) 0.383(4) 0.155(5) 0.017(3) Uiso 1.00000
+O O2 0.143(5) 0.4529(14) 0.415(3) 0.017(3) Uiso 1.00000
+O O3 0.378(5) 0.130(5) 0.499(2) 0.017(3) Uiso 1.00000
+O O4 0.7369(14) 0.436(3) 0.618(6) 0.017(3) Uiso 1.00000
+O O5 0.658(2) 0.7205(19) 0.353(6) 0.017(3) Uiso 1.00000
+O O6 0.416(3) 0.628(6) 0.7182(13) 0.017(3) Uiso 1.00000
+O O7 0.9625(14) 0.861(6) 0.691(2) 0.017(3) Uiso 1.00000
+O O8 0.633(5) 0.977(2) 0.860(6) 0.017(3) Uiso 1.00000
+O O9 0.903(2) 0.633(6) 0.961(2) 0.017(3) Uiso 1.00000
+O O10 0.2157(13) 0.928(2) 0.146(5) 0.017(3) Uiso 1.00000
+O O11 0.169(3) 0.2028(17) 0.898(5) 0.017(3) Uiso 1.00000
+O O12 0.881(5) 0.096(5) 0.223(2) 0.017(3) Uiso 1.00000
+loop_
+_atom_type_symbol
+_atom_type_scat_Cromer_Mann_a1
+_atom_type_scat_Cromer_Mann_a2
+_atom_type_scat_Cromer_Mann_a3
+_atom_type_scat_Cromer_Mann_a4
+_atom_type_scat_Cromer_Mann_b1
+_atom_type_scat_Cromer_Mann_b2
+_atom_type_scat_Cromer_Mann_b3
+_atom_type_scat_Cromer_Mann_b4
+_atom_type_scat_Cromer_Mann_c
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+rb 17.17840 9.64350 5.13990 1.52920 1.78880 17.31510 0.27480 164.93399 3.48730
+-0.57400 1.60800
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+ni 12.83760 7.29200 4.44380 2.38000 3.87850 0.25650 12.17630 66.34210 1.03410
+-2.95600 0.50900
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+si 6.29150 3.03530 1.98910 1.54100 2.43860 32.33370 0.67850 81.69370 1.14070
+0.24400 0.33000
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+o 3.04850 2.28680 1.54630 0.86700 13.27710 5.70110 0.32390 32.90890 0.25080
+0.04700 0.03200
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+loop_
+_audit_conform_dict_name
+cif_core.dic
+cif_pd.dic
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+O4 Ni1 O7 3_656 8_456 104(3)
+O4 Ni1 O9 3_656 2_467 102(4)
+O4 Ni1 O11 3_656 6_555 119(3)
+O7 Ni1 O9 8_456 2_467 115(2)
+O7 Ni1 O11 8_456 6_555 106(4)
+O9 Ni1 O11 2_467 6_555 110(4)
+O1 Si2 O3 4_565 6_555 95(4)
+O1 Si2 O5 4_565 2_466 115(4)
+O1 Si2 O10 4_565 7_565 101(2)
+O3 Si2 O5 6_555 2_466 121(5)
+O3 Si2 O10 6_555 7_565 96(4)
+O5 Si2 O10 2_466 7_565 123(3)
+O1 Si3 O2 7_555 2_556 110(4)
+O1 Si3 O6 7_555 3_646 87(3)
+O1 Si3 O11 7_555 8_556 134(4)
+O2 Si3 O6 2_556 3_646 128(4)
+O2 Si3 O11 2_556 8_556 82(3)
+O6 Si3 O11 3_646 8_556 120(5)
+O2 Si4 O3 8_555 3_655 110(4)
+O2 Si4 O4 8_555 4_664 88(3)
+O2 Si4 O12 8_555 6_655 112(4)
+O3 Si4 O4 3_655 4_664 106(5)
+O3 Si4 O12 3_655 6_655 133(3)
+O4 Si4 O12 4_664 6_655 96(4)
+O5 Si5 O7 4_665 3_746 127(3)
+O5 Si5 O8 4_665 6_645 109(3)
+O5 Si5 O12 4_665 7_555 99(5)
+O7 Si5 O8 3_746 6_645 123(5)
+O7 Si5 O12 3_746 7_555 99(4)
+O8 Si5 O12 6_645 7_555 80(4)
+O6 Si6 O8 2_566 4_674 93(5)
+O6 Si6 O9 2_566 7_564 94(3)
+O6 Si6 O10 2_566 8_555 131(4)
+O8 Si6 O9 4_674 7_564 100(5)
+O8 Si6 O10 4_674 8_555 94(4)
+O9 Si6 O10 7_564 8_555 132(4)
+Si2 O1 Si3 4_564 7_554 147(2)
+Si3 O2 Si4 2_456 8_455 124(2)
+Si2 O3 Si4 6_545 3_645 158(3)
+Ni1 O4 Si4 3_646 4_665 130(2)
+Si2 O5 Si5 2_566 4_664 131(2)
+Si3 O6 Si6 3_656 2_466 129(2)
+Ni1 O7 Si5 8_556 3_756 124.2(18)
+Si5 O8 Si6 6_655 4_675 165(3)
+Ni1 O9 Si6 2_567 7_565 129(2)
+Si2 O10 Si6 7_564 8_455 117.0(19)
+Ni1 O11 Si3 6_545 8_456 118(2)
+Si4 O12 Si5 6_645 7_554 171(3)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+Rb1 O1 6_545 3.51(6)
+Rb1 O2 7_554 3.11(5)
+Rb1 O3 4_554 3.84(7)
+Rb1 O3 8_455 3.92(7)
+Rb1 O4 2_456 3.68(8)
+Rb1 O5 3_645 3.08(4)
+Rb1 O6 4_564 3.64(8)
+Rb1 O7 5_666 2.72(4)
+Rb1 O8 5_666 3.37(7)
+Rb1 O9 5_666 3.59(8)
+Rb1 O10 1_545 2.81(4)
+Rb1 O11 1_554 3.39(7)
+Rb1 O12 1_455 3.65(7)
+Rb1 O12 8_455 3.84(6)
+Rb2 O1 1_555 3.43(7)
+Rb2 O2 1_555 3.75(7)
+Rb2 O3 1_555 3.58(7)
+Rb2 O4 5_666 3.23(4)
+Rb2 O5 3_645 4.14(7)
+Rb2 O5 5_666 3.64(8)
+Rb2 O6 5_666 2.85(4)
+Rb2 O7 2_466 3.84(8)
+Rb2 O8 3_646 3.51(8)
+Rb2 O8 7_564 3.65(6)
+Rb2 O9 4_664 2.63(4)
+Rb2 O9 8_456 3.92(8)
+Rb2 O10 6_545 3.92(7)
+Rb2 O11 7_554 3.41(5)
+Rb2 O12 8_455 4.15(7)
+Ni1 O4 3_656 1.93(4)
+Ni1 O7 8_456 1.90(3)
+Ni1 O9 2_467 1.89(3)
+Ni1 O11 6_555 1.87(3)
+Si2 O1 4_565 1.64(4)
+Si2 O3 6_555 1.66(4)
+Si2 O5 2_466 1.64(4)
+Si2 O10 7_565 1.66(3)
+Si3 O1 7_555 1.67(2)
+Si3 O2 2_556 1.63(4)
+Si3 O6 3_646 1.67(2)
+Si3 O11 8_556 1.63(5)
+Si4 O2 8_555 1.61(3)
+Si4 O3 3_655 1.64(4)
+Si4 O4 4_664 1.64(3)
+Si4 O12 6_655 1.65(4)
+Si5 O5 4_665 1.64(3)
+Si5 O7 3_746 1.61(3)
+Si5 O8 6_645 1.65(4)
+Si5 O12 7_555 1.62(4)
+Si6 O6 2_566 1.64(4)
+Si6 O8 4_674 1.65(4)
+Si6 O9 7_564 1.67(4)
+Si6 O10 8_555 1.63(2)
+loop_
+_pd_block_diffractogram_id
+Rb2NiSi5O12pd
+
+_cod_database_fobs_code 2241524

@@ -1,0 +1,184 @@
+#------------------------------------------------------------------------------
+#$Date: 2018-07-04 06:20:46 +0300 (Wed, 04 Jul 2018) $
+#$Revision: 208816 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/10/47/2104745.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2104745
+loop_
+_publ_author_name
+'Elliot, Alexander Dean'
+_publ_section_title
+;
+ Structure of pyrrhotite 5<i>C</i> (Fe~9~S~10~)
+;
+_journal_coeditor_code           KD5037
+_journal_issue                   3
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              271
+_journal_page_last               279
+_journal_paper_doi               10.1107/S0108768110011845
+_journal_volume                  66
+_journal_year                    2010
+_chemical_formula_structural     Na0.25Fe1.6Al6.89Si6O18(BO3)3(OH)4
+_chemical_formula_sum
+'Al6.89 B3 Fe1.6 Li0.22 Mg0.05 Mn0.24 Na0.25 O31 Si6'
+_chemical_formula_weight         993.856
+_chemical_name_mineral           Foitite
+_space_group_crystal_system      trigonal
+_space_group_IT_number           160
+_space_group_name_Hall           'R 3 -2"'
+_space_group_name_H-M_alt        'R 3 m :H'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            3
+_cell_length_a                   15.9607(30)
+_cell_length_b                   15.9607(30)
+_cell_length_c                   7.1900(22)
+_cell_volume                     1586.2(6)
+_exptl_absorpt_coefficient_mu    3.1150(15)
+_exptl_crystal_density_diffrn    3.1213(15)
+_pd_block_id                     2010-05-13T00:31|Foitite|A.Elliot|5Ca2
+_pd_proc_ls_profile_function
+;
+Crystallite size and strain modelled with Lorentzian and Gaussian 
+component convolutions
+Foitite Phase
+    CS_L(csfoitite, 50.00000`_4.49413_LIMIT_MIN_50 
+    min =50; max =1000;)
+;
+_refine_ls_R_I_factor            0.01414
+_cod_data_source_file            kd5037.cif
+_cod_data_source_block           (5Ca2)_Foitite
+_cod_depositor_comments
+;
+ Updating space group information.
+
+ Antanas Vaitkus,
+ 2018-07-04
+
+ Moving _atom_site_aniso_U_* data items from the _atom_site loop to the
+ _atom_site_aniso loop and adding the _atom_site_aniso_label data item.
+
+ Antanas Vaitkus,
+ 2017-01-29
+;
+_cod_original_cell_volume        1586.22(76)
+_cod_original_formula_sum
+'Al6.89 B3 Fe1.60 Li0.22 Mg0.05 Mn0.24 Na0.25 O31 Si6'
+_cod_database_code               2104745
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 'x, y, z'
+2 '-x+y, -x, z'
+3 '-x+y, y, z'
+4 '-x+y+1/3, -x-1/3, z-1/3'
+5 '-x+y+1/3, y-1/3, z-1/3'
+6 '-x+y-1/3, -x+1/3, z+1/3'
+7 '-x+y-1/3, y+1/3, z+1/3'
+8 '-y, -x, z'
+9 '-y, x-y, z'
+10 '-y+1/3, -x-1/3, z-1/3'
+11 '-y+1/3, x-y-1/3, z-1/3'
+12 '-y-1/3, -x+1/3, z+1/3'
+13 '-y-1/3, x-y+1/3, z+1/3'
+14 'x, x-y, z'
+15 'x+1/3, y-1/3, z-1/3'
+16 'x+1/3, x-y-1/3, z-1/3'
+17 'x-1/3, y+1/3, z+1/3'
+18 'x-1/3, x-y+1/3, z+1/3'
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Na 0.0282 0.0282 0.0237 0.0141 0 0
+Al1 0.0060 0.0060 0.0122 0.0021 0.0005 -0.0005
+Fe1 0.060 0.0060 0.0122 0.0021 0.0005 -0.0005
+Mn 0.0060 0.0060 0.0122 0.0021 0.0005 -0.0005
+Mg 0.0060 0.0060 0.0122 0.0021 0.0005 -0.0005
+Li 0.0060 0.0060 0.0122 0.0021 0.0005 -0.0005
+Al2 0.0069 0.0061 0.0056 0.0033 -0.0005 -0.0003
+Fe2 0.0069 0.0061 0.0056 0.0033 -0.0005 -0.0003
+Si 0.0046 0.0047 0.0056 0.0021 0.0003 0.0002
+B 0.0088 0.0088 0.0073 0.0038 -0.0002 0.0002
+O1 0.0432 0.0432 0.0075 0.0216 0 0
+O2 0.0303 0.0303 0.0121 0.0253 0.0001 -0.0001
+O3 0.0104 0.0104 0.0058 0.0002 0.0007 -0.0007
+O4 0.0076 0.0076 0.0085 0.0008 -0.0005 0.0005
+O5 0.0074 0.0074 0.0079 -0.0002 -0.0009 0.0009
+O6 0.0085 0.0076 0.0050 0.0024 0.0006 -0.0003
+O7 0.0056 0.0064 0.0078 0.0014 0.0017 0.0004
+O8 0.0117 0.0073 0.0093 0.0058 -0.0030 -0.0008
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Na Na+1 3 0 0 0.8408 0.25
+Al1 Al+3 9 0.06223 0.93777 0.4485 0.3333
+Fe1 Fe+2 9 0.06223 0.93777 0.4485 0.4967
+Mn Mn+2 9 0.06223 0.93777 0.4485 0.08
+Mg Mg+2 9 0.06223 0.93777 0.4485 0.0167
+Li Li+1 9 0.06223 0.93777 0.4485 0.0733
+Al2 Al+3 18 0.26151 0.29827 0.4623 0.9817
+Fe2 Fe+3 18 0.26151 0.29827 0.4623 0.0183
+Si Si+4 18 0.18988 0.19193 0.073 1
+B B 9 0.88981 0.11019 0.6177 1
+O1 O-2 3 0 0 0.2931 1
+O2 O-2 9 0.93776 0.06224 0.5853 1
+O3 O-2 9 0.13427 0.86573 0.5649 1
+O4 O-2 9 0.90631 0.09369 0.0058 1
+O5 O-2 9 0.09452 0.90548 -0.0179 1
+O6 O-2 18 0.18786 0.19831 0.2977 1
+O7 O-2 18 0.28601 0.28512 -0.0066 1
+O8 O-2 18 0.27138 0.21049 0.6319 1
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Al Al3+ 13.084 0.070 'Default dataset used by TOPAS R3'
+B B 5.002 0.0010 'Default dataset used by TOPAS R3'
+Fe Fe2+ 26.368 1.116 'Default dataset used by TOPAS R3'
+Li Li+ 3.000 0.000078 'Default dataset used by TOPAS R3'
+Mg Mg2+ 12.067 0.052 'Default dataset used by TOPAS R3'
+Mn Mn2+ 25.373 0.965 'Default dataset used by TOPAS R3'
+Na Na+ 11.049 0.034 'Default dataset used by TOPAS R3'
+O O2- 8.016 0.0086 'Default dataset used by TOPAS R3'
+Si Si4+ 14.088 0.095 'Default dataset used by TOPAS R3'
+loop_
+_citation_title
+_citation_page_first
+_citation_page_last
+_citation_year
+_citation_journal_abbrev
+_citation_journal_volume
+_citation_journal_id_ISSN
+; Foitite, ((Fe2+)2 (Al,Fe3+)) Al6 Si6 O18 (B O3)3 (OH)4, a new alkali-
+deficient tourmaline: description and crystal structure
+;
+1299 1303 1993
+;
+;
+;
+;
+;
+;

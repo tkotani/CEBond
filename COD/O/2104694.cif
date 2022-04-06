@@ -1,0 +1,617 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 02:53:41 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176768 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/46/2104694.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2104694
+loop_
+_publ_author_name
+'Michiue, Yuichi'
+'Kimizuka, Noboru'
+_publ_section_title
+;
+ Superspace description of the homologous series
+ Ga~2~O~3~(ZnO)~<i>m~</i>
+;
+_journal_coeditor_code           SN5090
+_journal_issue                   2
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              117
+_journal_page_last               129
+_journal_paper_doi               10.1107/S0108768109053713
+_journal_volume                  66
+_journal_year                    2010
+_chemical_formula_sum            'Ga0.1818 O1.0909 Zn0.8181'
+_chemical_formula_weight         83.6
+_chemical_name_systematic        ' ?'
+_space_group_ssg_name            Cmcm(00\g)000
+_symmetry_cell_setting           orthorhombic
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            8
+_cell_length_a                   3.2494(14)
+_cell_length_b                   19.722(6)
+_cell_length_c                   3.0513(11)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    298
+_cell_measurement_theta_max      16.8
+_cell_measurement_theta_min      15.0
+_cell_modulation_dimension       1
+_cell_subsystems_number          2
+_cell_volume                     195.54(12)
+_computing_publication_material
+'Jana2006 (Petricek, Dusek & Palatinus, 2006)'
+_computing_structure_refinement
+'Jana2006 (Petricek, Dusek & Palatinus, 2006)'
+_diffrn_ambient_temperature      298
+_diffrn_measured_fraction_theta_full 0.95
+_diffrn_measurement_device       'Rigaku AFC-7R'
+_diffrn_measurement_method       \w
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'Rotating anode'
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.71069
+_diffrn_reflns_av_R_equivalents  0.0484
+_diffrn_reflns_av_sigmaI/netI    0.0475
+_diffrn_reflns_limit_h_max       4
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_index_m_1_max 7
+_diffrn_reflns_limit_index_m_1_min -7
+_diffrn_reflns_limit_k_max       0
+_diffrn_reflns_limit_k_min       -27
+_diffrn_reflns_limit_l_max       7
+_diffrn_reflns_limit_l_min       -7
+_diffrn_reflns_number            3662
+_diffrn_reflns_theta_full        18.36
+_diffrn_reflns_theta_max         30.09
+_diffrn_reflns_theta_min         2.75
+_diffrn_standards_decay_%        0.0
+_diffrn_standards_interval_count 200
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    24.7
+_exptl_absorpt_correction_T_max  0.417
+_exptl_absorpt_correction_T_min  0.034
+_exptl_absorpt_correction_type   analytical
+_exptl_absorpt_process_details   'Tompa Analytical'
+_exptl_crystal_colour            colorless
+_exptl_crystal_density_diffrn    5.68
+_exptl_crystal_description       plate
+_exptl_crystal_F_000             311
+_exptl_crystal_size_max          0.20
+_exptl_crystal_size_mid          0.12
+_exptl_crystal_size_min          0.024
+_refine_diff_density_max         1.60
+_refine_diff_density_min         -1.21
+_refine_ls_extinction_coef       59E1(2)
+_refine_ls_extinction_method
+'B-C type 1 Gaussian isotropic (Becker & Coppens, 1974)'
+_refine_ls_goodness_of_fit_ref   1.35
+_refine_ls_number_constraints    5
+_refine_ls_number_parameters     149
+_refine_ls_number_reflns         1862
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          0.0827
+_refine_ls_R_factor_gt           0.0340
+_refine_ls_shift/su_max          0.0165
+_refine_ls_shift/su_mean         0.0015
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details     w=1/(\s^2^(I)+0.0001I^2^)
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_gt          0.0598
+_refine_ls_wR_factor_ref         0.0677
+_reflns_number_gt                993
+_reflns_number_total             1862
+_reflns_threshold_expression     I>2\s(I)
+_cod_data_source_file            sn5090.cif
+_cod_data_source_block           m=9
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_exptl_absorpt_correction_type' value 'Analytical' changed to
+'analytical' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+;
+_cod_database_code               2104694
+_cod_database_fobs_code          2104694
+loop_
+_space_group_symop_ssg_id
+_space_group_symop_ssg_operation_algebraic
+1 x1,x2,x3,x4
+2 -x1,-x2,x3+1/2,x4
+3 -x1,x2,-x3+1/2,-x4
+4 x1,-x2,-x3,-x4
+5 -x1,-x2,-x3,-x4
+6 x1,x2,-x3+1/2,-x4
+7 x1,-x2,x3+1/2,x4
+8 -x1,x2,x3,x4
+9 x1+1/2,x2+1/2,x3,x4
+10 -x1+1/2,-x2+1/2,x3+1/2,x4
+11 -x1+1/2,x2+1/2,-x3+1/2,-x4
+12 x1+1/2,-x2+1/2,-x3,-x4
+13 -x1+1/2,-x2+1/2,-x3,-x4
+14 x1+1/2,x2+1/2,-x3+1/2,-x4
+15 x1+1/2,-x2+1/2,x3+1/2,x4
+16 -x1+1/2,x2+1/2,x3,x4
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Zn M1 0 0.63438(3) 0.25 0.01132(14) Uani d . 0.8181 . .
+Ga M1g 0 0.63438(3) 0.25 0.01132(14) Uani d . 0.1919 . .
+Zn M1a 0 -0.04159(19) 0.25 0.0422(12) Uani d . 0.456(4) . .
+Ga M1ag 0 -0.04159(19) 0.25 0.0422(12) Uani d . 0.1013(8) . .
+Zn M1b 0.5 -0.06856(18) 0.25 0.0154(9) Uani d . 0.362(4) . .
+Ga M1bg 0.5 -0.06856(18) 0.25 0.0154(9) Uani d . 0.0805(8) . .
+Zn M2 0 0.13443(2) 0.75 0.01253(12) Uani d . 0.8181 . .
+Ga M2g 0 0.13443(2) 0.75 0.01253(12) Uani d . 0.1919 . .
+O O1 0 0.38420(13) 0 0.0173(7) Uani d . 1 . .
+O O2 0 0.88545(15) 0.5 0.0217(8) Uani d . 1 . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+_atom_site_aniso_type_symbol
+M1 0.00793(18) 0.0099(3) 0.0161(2) 0 0 0 Zn
+M1g 0.00793(18) 0.0099(3) 0.0161(2) 0 0 0 Ga
+M1a 0.076(3) 0.0118(17) 0.0391(19) 0 0 0 Zn
+M1ag 0.076(3) 0.0118(17) 0.0391(19) 0 0 0 Ga
+M1b 0.0270(16) 0.0081(16) 0.0113(14) 0 0 0 Zn
+M1bg 0.0270(16) 0.0081(16) 0.0113(14) 0 0 0 Ga
+M2 0.00863(16) 0.0098(3) 0.0192(2) 0 0 0 Zn
+M2g 0.00863(16) 0.0098(3) 0.0192(2) 0 0 0 Ga
+O1 0.0109(10) 0.0158(14) 0.0251(13) 0 0 0 O
+O2 0.0241(14) 0.0134(13) 0.0276(14) 0 0 0 O
+loop_
+_atom_site_displace_Fourier_atom_site_label
+_atom_site_displace_Fourier_axis
+_atom_site_displace_Fourier_wave_vector_seq_id
+_atom_site_displace_Fourier_param_cos
+_atom_site_displace_Fourier_param_sin
+M1 x 1 0 0
+M1 y 1 0.00576(4) 0
+M1 z 1 0 0.0509(2)
+M1 x 2 0 0
+M1 y 2 -0.00146(4) 0
+M1 z 2 0 0.02017(18)
+M1 x 3 0 0
+M1 y 3 0.00219(4) 0
+M1 z 3 0 0.0158(2)
+M1 x 4 0 0
+M1 y 4 -0.00062(5) 0
+M1 z 4 0 0.02014(18)
+M1 x 5 0 0
+M1 y 5 0 0
+M1 z 5 0 -0.01453(18)
+M1g x 1 0 0
+M1g y 1 0.00576(4) 0
+M1g z 1 0 0.0509(2)
+M1g x 2 0 0
+M1g y 2 -0.00146(4) 0
+M1g z 2 0 0.02017(18)
+M1g x 3 0 0
+M1g y 3 0.00219(4) 0
+M1g z 3 0 0.0158(2)
+M1g x 4 0 0
+M1g y 4 -0.00062(5) 0
+M1g z 4 0 0.02014(18)
+M1g x 5 0 0
+M1g y 5 0 0
+M1g z 5 0 -0.01453(18)
+M2 x 1 0 0
+M2 y 1 -0.00641(3) 0
+M2 z 1 0 -0.0522(2)
+M2 x 2 0 0
+M2 y 2 -0.00133(3) 0
+M2 z 2 0 0.03131(18)
+M2 x 3 0 0
+M2 y 3 -0.00498(3) 0
+M2 z 3 0 -0.0169(2)
+M2 x 4 0 0
+M2 y 4 -0.00106(4) 0
+M2 z 4 0 0.00403(17)
+M2 x 5 0 0
+M2 y 5 -0.00072(4) 0
+M2 z 5 0 -0.0006(2)
+M2g x 1 0 0
+M2g y 1 -0.00641(3) 0
+M2g z 1 0 -0.0522(2)
+M2g x 2 0 0
+M2g y 2 -0.00133(3) 0
+M2g z 2 0 0.03131(18)
+M2g x 3 0 0
+M2g y 3 -0.00498(3) 0
+M2g z 3 0 -0.0169(2)
+M2g x 4 0 0
+M2g y 4 -0.00106(4) 0
+M2g z 4 0 0.00403(17)
+M2g x 5 0 0
+M2g y 5 -0.00072(4) 0
+M2g z 5 0 -0.0006(2)
+O1 x 1 0 0
+O1 y 1 0 -0.00868(19)
+O1 z 1 0.0582(14) 0
+O1 x 2 0 0
+O1 y 2 0.00021(19) 0
+O1 z 2 0 0.0562(13)
+O1 x 3 0 0
+O1 y 3 0 -0.00812(18)
+O1 z 3 -0.0243(13) 0
+O1 x 4 0 0
+O1 y 4 -0.00071(18) 0
+O1 z 4 0 0.0146(12)
+O1 x 5 0 0
+O1 y 5 0 0.00187(19)
+O1 z 5 0.0282(14) 0
+O1 x 6 0 0
+O1 y 6 0.00000(14) 0
+O1 z 6 0 0
+O2 x 1 0 0
+O2 y 1 0 0.0108(2)
+O2 z 1 -0.0443(14) 0
+O2 x 2 0 0
+O2 y 2 -0.0001(2) 0
+O2 z 2 0 0.0628(14)
+O2 x 3 0 0
+O2 y 3 0 0.00675(19)
+O2 z 3 0.0165(14) 0
+O2 x 4 0 0
+O2 y 4 -0.00002(19) 0
+O2 z 4 0 0.0098(13)
+O2 x 5 0 0
+O2 y 5 0 0.00051(19)
+O2 z 5 -0.0080(13) 0
+O2 x 6 0 0
+O2 y 6 0 0
+O2 z 6 0 0.0084(8)
+loop_
+_atom_site_displace_special_func_atom_site_label
+_atom_site_displace_special_func_sawtooth_ax
+_atom_site_displace_special_func_sawtooth_ay
+_atom_site_displace_special_func_sawtooth_az
+_atom_site_displace_special_func_sawtooth_c
+_atom_site_displace_special_func_sawtooth_w
+M1 0 -0.5625 0 0.75 0.4091
+M1g 0 -0.5625 0 0.75 0.4091
+M2 0 -0.6875 0 0.25 0.5
+M2g 0 -0.6875 0 0.25 0.5
+O1 0 -0.75 0 0 0.5
+O2 0 -0.75 0 0.5 0.5
+loop_
+_atom_site_Fourier_wave_vector_seq_id
+_atom_site_Fourier_wave_vector_x
+_atom_site_Fourier_wave_vector_z
+1 0.00000 1.09091
+2 0.00000 2.18182
+3 0.00000 3.27273
+4 0.00000 4.36364
+5 0.00000 5.45455
+6 0.00000 6.54545
+loop_
+_atom_site_occ_Fourier_atom_site_label
+_atom_site_occ_Fourier_wave_vector_seq_id
+_atom_site_occ_Fourier_param_cos
+_atom_site_occ_Fourier_param_sin
+? ? ? ?
+loop_
+_atom_site_occ_special_func_atom_site_label
+_atom_site_occ_special_func_crenel_c
+_atom_site_occ_special_func_crenel_w
+M1a 0 0.0909
+M1ag 0 0.0909
+M1b 0 0.0909
+M1bg 0 0.0909
+loop_
+_atom_site_U_Fourier_atom_site_label
+_atom_site_U_Fourier_tens_elem
+_atom_site_U_Fourier_wave_vector_seq_id
+_atom_site_U_Fourier_param_cos
+_atom_site_U_Fourier_param_sin
+M1 U11 1 0.0000(3) 0
+M1 U22 1 -0.0001(5) 0
+M1 U33 1 -0.0014(3) 0
+M1 U12 1 0 0
+M1 U13 1 0 0
+M1 U23 1 0 -0.0043(2)
+M1 U11 2 0.0009(3) 0
+M1 U22 2 0.0001(4) 0
+M1 U33 2 -0.0042(4) 0
+M1 U12 2 0 0
+M1 U13 2 0 0
+M1 U23 2 0 0.0002(2)
+M1 U11 3 0.0002(3) 0
+M1 U22 3 0.0002(4) 0
+M1 U33 3 -0.0034(3) 0
+M1 U12 3 0 0
+M1 U13 3 0 0
+M1 U23 3 0 -0.0006(2)
+M1 U11 4 -0.0002(3) 0
+M1 U22 4 -0.0002(5) 0
+M1 U33 4 -0.0029(4) 0
+M1 U12 4 0 0
+M1 U13 4 0 0
+M1 U23 4 0 0.0007(2)
+M1 U11 5 0 0
+M1 U22 5 0 0
+M1 U33 5 0 0
+M1 U12 5 0 0
+M1 U13 5 0 0
+M1 U23 5 0 0.0001(2)
+M1g U11 1 0.0000(3) 0
+M1g U22 1 -0.0001(5) 0
+M1g U33 1 -0.0014(3) 0
+M1g U12 1 0 0
+M1g U13 1 0 0
+M1g U23 1 0 -0.0043(2)
+M1g U11 2 0.0009(3) 0
+M1g U22 2 0.0001(4) 0
+M1g U33 2 -0.0042(4) 0
+M1g U12 2 0 0
+M1g U13 2 0 0
+M1g U23 2 0 0.0002(2)
+M1g U11 3 0.0002(3) 0
+M1g U22 3 0.0002(4) 0
+M1g U33 3 -0.0034(3) 0
+M1g U12 3 0 0
+M1g U13 3 0 0
+M1g U23 3 0 -0.0006(2)
+M1g U11 4 -0.0002(3) 0
+M1g U22 4 -0.0002(5) 0
+M1g U33 4 -0.0029(4) 0
+M1g U12 4 0 0
+M1g U13 4 0 0
+M1g U23 4 0 0.0007(2)
+M1g U11 5 0 0
+M1g U22 5 0 0
+M1g U33 5 0 0
+M1g U12 5 0 0
+M1g U13 5 0 0
+M1g U23 5 0 0.0001(2)
+M2 U11 1 0.0005(2) 0
+M2 U22 1 -0.0006(3) 0
+M2 U33 1 0.0028(3) 0
+M2 U12 1 0 0
+M2 U13 1 0 0
+M2 U23 1 0 0.0055(2)
+M2 U11 2 0.0023(2) 0
+M2 U22 2 -0.0002(3) 0
+M2 U33 2 -0.0016(2) 0
+M2 U12 2 0 0
+M2 U13 2 0 0
+M2 U23 2 0 0.0008(2)
+M2 U11 3 -0.0002(2) 0
+M2 U22 3 0.0001(3) 0
+M2 U33 3 0.0005(3) 0
+M2 U12 3 0 0
+M2 U13 3 0 0
+M2 U23 3 0 0.0010(2)
+M2 U11 4 -0.0012(2) 0
+M2 U22 4 -0.0004(3) 0
+M2 U33 4 -0.0035(2) 0
+M2 U12 4 0 0
+M2 U13 4 0 0
+M2 U23 4 0 0.0010(2)
+M2 U11 5 -0.0015(2) 0
+M2 U22 5 0.0001(3) 0
+M2 U33 5 -0.0038(3) 0
+M2 U12 5 0 0
+M2 U13 5 0 0
+M2 U23 5 0 -0.0009(2)
+M2g U11 1 0.0005(2) 0
+M2g U22 1 -0.0006(3) 0
+M2g U33 1 0.0028(3) 0
+M2g U12 1 0 0
+M2g U13 1 0 0
+M2g U23 1 0 0.0055(2)
+M2g U11 2 0.0023(2) 0
+M2g U22 2 -0.0002(3) 0
+M2g U33 2 -0.0016(2) 0
+M2g U12 2 0 0
+M2g U13 2 0 0
+M2g U23 2 0 0.0008(2)
+M2g U11 3 -0.0002(2) 0
+M2g U22 3 0.0001(3) 0
+M2g U33 3 0.0005(3) 0
+M2g U12 3 0 0
+M2g U13 3 0 0
+M2g U23 3 0 0.0010(2)
+M2g U11 4 -0.0012(2) 0
+M2g U22 4 -0.0004(3) 0
+M2g U33 4 -0.0035(2) 0
+M2g U12 4 0 0
+M2g U13 4 0 0
+M2g U23 4 0 0.0010(2)
+M2g U11 5 -0.0015(2) 0
+M2g U22 5 0.0001(3) 0
+M2g U33 5 -0.0038(3) 0
+M2g U12 5 0 0
+M2g U13 5 0 0
+M2g U23 5 0 -0.0009(2)
+O1 U11 1 0 -0.0034(13)
+O1 U22 1 0 -0.001(2)
+O1 U33 1 0 -0.0009(16)
+O1 U12 1 0 0
+O1 U13 1 0 0
+O1 U23 1 -0.0113(16) 0
+O1 U11 2 -0.0037(13) 0
+O1 U22 2 0.002(2) 0
+O1 U33 2 0.018(2) 0
+O1 U12 2 0 0
+O1 U13 2 0 0
+O1 U23 2 0 -0.0012(15)
+O1 U11 3 0 0.0014(15)
+O1 U22 3 0 0.0020(19)
+O1 U33 3 0 0.0017(16)
+O1 U12 3 0 0
+O1 U13 3 0 0
+O1 U23 3 -0.0084(16) 0
+O1 U11 4 0.0018(15) 0
+O1 U22 4 0.005(2) 0
+O1 U33 4 0.0092(19) 0
+O1 U12 4 0 0
+O1 U13 4 0 0
+O1 U23 4 0 -0.0021(13)
+O1 U11 5 0 -0.0054(15)
+O1 U22 5 0 -0.001(2)
+O1 U33 5 0 0.0001(14)
+O1 U12 5 0 0
+O1 U13 5 0 0
+O1 U23 5 -0.0075(16) 0
+O1 U11 6 -0.0016(10) 0
+O1 U22 6 0.0023(13) 0
+O1 U33 6 0.0030(13) 0
+O1 U12 6 0 0
+O1 U13 6 0 0
+O1 U23 6 0 0
+O2 U11 1 0 0.028(2)
+O2 U22 1 0 0.001(2)
+O2 U33 1 0 0.0048(18)
+O2 U12 1 0 0
+O2 U13 1 0 0
+O2 U23 1 0.0147(16) 0
+O2 U11 2 -0.024(2) 0
+O2 U22 2 0.005(2) 0
+O2 U33 2 0.007(2) 0
+O2 U12 2 0 0
+O2 U13 2 0 0
+O2 U23 2 0 -0.0012(16)
+O2 U11 3 0 -0.0205(18)
+O2 U22 3 0 0.000(2)
+O2 U33 3 0 -0.0070(19)
+O2 U12 3 0 0
+O2 U13 3 0 0
+O2 U23 3 0.0078(15) 0
+O2 U11 4 0.0132(17) 0
+O2 U22 4 0.0023(18) 0
+O2 U33 4 0.0086(16) 0
+O2 U12 4 0 0
+O2 U13 4 0 0
+O2 U23 4 0 -0.0041(15)
+O2 U11 5 0 0.0054(14)
+O2 U22 5 0 -0.001(2)
+O2 U33 5 0 0.0006(18)
+O2 U12 5 0 0
+O2 U13 5 0 0
+O2 U23 5 0.0029(14) 0
+O2 U11 6 0 0
+O2 U22 6 0 0
+O2 U33 6 0 0
+O2 U12 6 0 0
+O2 U13 6 0 0
+O2 U23 6 0 0.0014(11)
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Ga 0.231 1.608 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+Zn 0.284 1.430 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+O 0.011 0.006 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+loop_
+_cell_subsystem_code
+_cell_subsystem_description
+_cell_subsystem_matrix_W_1_1
+_cell_subsystem_matrix_W_1_4
+_cell_subsystem_matrix_W_2_2
+_cell_subsystem_matrix_W_3_3
+_cell_subsystem_matrix_W_4_1
+_cell_subsystem_matrix_W_4_4
+? '1-st subsystem' 1 0 1 1 0 1
+? '2-nd subsystem' 1 0 1 0 0 0
+loop_
+_cell_subsystem_matrix_W_1_2
+_cell_subsystem_matrix_W_1_3
+_cell_subsystem_matrix_W_2_1
+_cell_subsystem_matrix_W_2_3
+_cell_subsystem_matrix_W_2_4
+_cell_subsystem_matrix_W_3_1
+_cell_subsystem_matrix_W_3_2
+_cell_subsystem_matrix_W_3_4
+_cell_subsystem_matrix_W_4_2
+_cell_subsystem_matrix_W_4_3
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 1 0 1
+loop_
+_cell_wave_vector_seq_id
+_cell_wave_vector_x
+_cell_wave_vector_y
+_cell_wave_vector_z
+1 0.00000 0.00000 1.09091
+loop_
+_diffrn_standard_refln_index_h
+_diffrn_standard_refln_index_k
+_diffrn_standard_refln_index_l
+? ? ?
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+_geom_angle_max
+_geom_angle_min
+_geom_angle_av
+? ? ? ? ? ? ? ? ? ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+_geom_bond_distance_max
+_geom_bond_distance_min
+_geom_bond_distance_av
+M1 O1 . . no 11.75(3) 1.91(4) 53.5(4)
+loop_
+_geom_hbond_atom_site_label_D
+_geom_hbond_atom_site_label_H
+_geom_hbond_atom_site_label_A
+_geom_hbond_site_symmetry_D
+_geom_hbond_site_symmetry_H
+_geom_hbond_site_symmetry_A
+_geom_hbond_distance_DH
+_geom_hbond_distance_HA
+_geom_hbond_distance_DA
+_geom_hbond_angle_DHA
+_geom_hbond_publ_flag
+? ? ? ? ? ? ? ? ? ? ?
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion_site_symmetry_1
+_geom_torsion_site_symmetry_2
+_geom_torsion_site_symmetry_3
+_geom_torsion_site_symmetry_4
+_geom_torsion
+_geom_torsion_publ_flag
+? ? ? ? ? ? ? ? ? ?

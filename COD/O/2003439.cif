@@ -1,0 +1,225 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/34/2003439.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2003439
+loop_
+_publ_author_name
+'Jaulmes, S.'
+'Launay, S.'
+'Mah\'e, P.'
+'Quarton, M.'
+_publ_section_title
+;
+ Silicatoniobate de Potassium, K~3~Nb~3~O~6~Si~2~O~7~
+;
+_journal_issue                   5
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              794
+_journal_page_last               796
+_journal_paper_doi               10.1107/S0108270194012114
+_journal_volume                  51
+_journal_year                    1995
+_chemical_formula_sum            'K3 Nb3 O13 Si2'
+_chemical_formula_weight         660.18
+_space_group_IT_number           190
+_symmetry_cell_setting           hexagonal
+_symmetry_space_group_name_Hall  'P -6c -2c'
+_symmetry_space_group_name_H-M   'P -6 2 c'
+_atom_type_scat_source           IntTabIV
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            2
+_cell_length_a                   9.012(1)
+_cell_length_b                   9.012(1)
+_cell_length_c                   8.027(1)
+_cell_measurement_reflns_used    18
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      10.2
+_cell_measurement_theta_min      4.5
+_cell_volume                     564.58(11)
+_computing_molecular_graphics    'MOLVIEW (Cense, 1990)'
+_computing_publication_material  'ORFFE (Busing, Martin & Levy, 1964)'
+_computing_structure_refinement
+;
+ORXFLS (Busing, 1971) modifi\'e par P. Laruelle
+;
+_computing_structure_solution    'MULTAN80 (Main et al., 1980)'
+_diffrn_measurement_device       'Syntex-Nicolet P3F'
+_diffrn_measurement_method       \q/2\q
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_limit_h_max       12
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       6
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       11
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            348
+_diffrn_reflns_theta_max         30
+_diffrn_standards_decay_%        9
+_diffrn_standards_interval_count 60
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    4.254
+_exptl_absorpt_correction_T_max  0.851
+_exptl_absorpt_correction_T_min  0.808
+_exptl_absorpt_correction_type   'm\'ethode de Gauss (Busing & Levy, 1957)'
+_exptl_crystal_colour            incolore
+_exptl_crystal_density_diffrn    3.889
+_exptl_crystal_density_meas      3.84(4)
+_exptl_crystal_description       aiguille
+_exptl_crystal_size_max          0.350
+_exptl_crystal_size_mid          0.052
+_exptl_crystal_size_min          0.038
+_refine_diff_density_max         0.6
+_refine_diff_density_min         -0.7
+_refine_ls_extinction_coef       g=0.22E-6(7)
+_refine_ls_extinction_method     'Becker & Coppens (1975)'
+_refine_ls_goodness_of_fit_obs   0.8
+_refine_ls_number_parameters     38
+_refine_ls_number_reflns         210
+_refine_ls_R_factor_obs          0.045
+_refine_ls_shift/esd_max         0.00021
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 1/\s(F)'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.061
+_reflns_number_observed          210
+_reflns_number_total             348
+_reflns_observed_criterion       I>\s(I)
+_cod_data_source_file            du1095.cif
+_cod_data_source_block           du1095a
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value '1/\s(F)' was changed to 'calc'.
+New tag '_refine_ls_weighting_details' was created. The value of the
+new tag was set to 'w = 1/\s(F)'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        564.6(2)
+_cod_original_formula_sum        'K3 Nb3 O6 Si2 O7'
+_cod_database_code               2003439
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x,y,1/2-z
+y,x,1/2+z
+y,x,-z
+x-y,-y,-z
+x-y,-y,1/2+z
+-x,-x+y,1/2+z
+-x,-x+y,-z
+'-y,x-y, +z'
+-y,x-y,1/2-z
+-x+y,-x,1/2-z
+-x+y,-x,z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+Nb 0.7626(2) 0 0 0.025(1)
+K 0.3846(6) 0.9677(6) 0.2500 .018(2)
+Si .3333 .6666 0.9527(6) 0.008(1)
+O(1) .6666 .3333 0.2500 0.008(5)
+O(2) 0.758(2) 0.009(2) .2500 0.017(8)
+O(3) 0.178(1) 0 0 0.012(6)
+O(4) 0.690(1) 0.176(1) 0.983(1) 0.014(5)
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O(4) Si O(4) 8_667 4_557 110.3(4) yes
+O(4) Si O(4) 5_567 4_557 110.3(4) yes
+O(4) Si O(4) 5_567 8_667 110.3(4) yes
+O(1) Si O(4) 3 4_557 108.6(4) yes
+O(1) Si O(4) 3 8_667 108.6(4) yes
+O(1) Si O(4) 3 5_567 108.6(4) yes
+O(3) Nb O(3) 12_655 9_655 92.1(8) yes
+O(4) Nb O(3) 1_554 9_655 90.3(5) yes
+O(4) Nb O(3) 1_554 12_655 175.4(4) yes
+O(4) Nb O(3) 5_556 9_655 175.4(4) yes
+O(4) Nb O(3) 5_556 12_655 90.3(5) yes
+O(4) Nb O(4) 5_556 1_554 87.5(7) yes
+O(2) Nb O(3) . 9_655 90.2(5) yes
+O(2) Nb O(3) . 12_655 93.2(4) yes
+O(2) Nb O(4) . 1_554 90.7(5) yes
+O(2) Nb O(4) . 5_556 85.7(5) yes
+O(2) Nb O(3) 6_554 9_655 93.2(4) yes
+O(2) Nb O(3) 6_554 12_655 90.2(5) yes
+O(2) Nb O(4) 6_554 1_554 85.7(5) yes
+O(2) Nb O(4) 6_554 5_556 90.7(5) yes
+O(2) Nb O(2) 6_554 . 175.1(9) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Si O(4) . 4_557 1.620(10) yes
+O(4) O(4) 4_557 8_667 2.66(2) yes
+O(4) O(4) 4_557 5_567 2.66(2) yes
+O(4) O(1) 4_557 3 2.635(9) yes
+Si O(4) . 8_667 1.618(9) yes
+O(4) O(4) 8_667 5_567 2.66(2) yes
+O(4) O(1) 8_667 3 2.635(9) yes
+Si O(4) . 5_567 1.618(9) yes
+O(4) O(1) 5_567 3 2.635(9) yes
+Si O(1) . 3 1.627(6) yes
+Nb O(3) . 9_655 1.928(4) yes
+O(3) O(3) 9_655 12_655 2.78(3) yes
+O(3) O(4) 9_655 1_554 2.79(2) yes
+O(3) O(4) 9_655 5_556 3.920(10) yes
+O(3) O(2) 9_655 . 2.790(10) yes
+O(3) O(2) 9_655 6_554 2.860(10) yes
+Nb O(3) . 12_655 1.928(4) yes
+O(3) O(4) 12_655 1_554 3.920(10) yes
+O(3) O(4) 12_655 5_556 2.79(2) yes
+O(3) O(2) 12_655 . 2.860(10) yes
+O(3) O(2) 12_655 6_554 2.790(10) yes
+Nb O(4) . 1_554 2.000(9) yes
+O(4) O(4) 1_554 5_556 2.77(2) yes
+O(4) O(2) 1_554 . 2.850(10) yes
+O(4) O(2) 1_554 6_554 2.73(2) yes
+Nb O(4) . 5_556 2.000(9) yes
+O(4) O(2) 5_556 . 2.73(2) yes
+O(4) O(2) 5_556 6_554 2.850(10) yes
+Nb O(2) . . 2.0100(10) yes
+O(2) O(2) . 6_554 4.016(2) yes
+Nb O(2) . 6_554 2.0099(8) yes
+loop_
+_geom_contact_atom_site_label_1
+_geom_contact_atom_site_label_2
+_geom_contact_distance
+_geom_contact_site_symmetry_2
+_geom_contact_publ_flag
+K O(4) 2.840(10) 6_564 yes
+K O(3) 2.850(10) 1_565 yes
+K O(4) 2.930(10) 3_554 yes
+K O(4) 3.250(10) 1_564 yes
+K O(4) 3.480(10) 11_676 yes
+K O(1) 2.990(5) 1_565 yes
+K O(2) 3.08(2) 9 yes
+K O(2) 3.19(2) 1_565 yes
+K O(2) 3.24(2) 12_675 yes

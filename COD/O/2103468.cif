@@ -1,0 +1,254 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 06:40:26 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176432 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/34/2103468.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2103468
+loop_
+_publ_author_name
+'Gramaccioli, Carlo Maria'
+'Pilati, Tullio'
+'Demartin, Francesco'
+_publ_section_title
+;
+ Atomic displacement parameters for spessartine Mn~3~Al~2~Si~3~O~12~
+ and their lattice-dynamical interpretation
+;
+_journal_issue                   6
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              965
+_journal_page_last               969
+_journal_paper_doi               10.1107/S0108768102017925
+_journal_volume                  58
+_journal_year                    2002
+_chemical_formula_sum            'Al2 Mn3 O12 Si3'
+_chemical_formula_weight         495.03
+_chemical_name_systematic
+;
+ ?
+;
+_space_group_IT_number           230
+_symmetry_cell_setting           cubic
+_symmetry_space_group_name_Hall  '-I 4bd 2c 3'
+_symmetry_space_group_name_H-M   'I a -3 d'
+_audit_creation_method           'from SDP for Windows version 1.4  '
+_cell_angle_alpha                90.0000000
+_cell_angle_beta                 90.0000000
+_cell_angle_gamma                90.0000000
+_cell_formula_units_Z            8
+_cell_length_a                   11.6300(10)
+_cell_length_b                   11.6300(10)
+_cell_length_c                   11.6300(10)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      22.09
+_cell_measurement_theta_min      12.20
+_cell_volume                     1573.0(2)
+_computing_cell_refinement       'CAD4 (Enraf Nonius)'
+_computing_data_collection       'CAD4 (Enraf Nonius)'
+_computing_data_reduction        'SDP for Windows'
+_computing_molecular_graphics    'SDP for Windows'
+_computing_publication_material  'SDP for Windows'
+_computing_structure_refinement
+'Full-matrix least-squares  (SDP for Windows)'
+_diffrn_ambient_temperature      273
+_diffrn_measurement_device       'CAD4 (Enraf Nonius)'
+_diffrn_measurement_method       \w/2\q
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_limit_h_max       20
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       20
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       20
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            2701
+_diffrn_reflns_theta_max         40.00
+_diffrn_reflns_theta_min         3.00
+_diffrn_standards_interval_time  120
+_diffrn_standards_number         1
+_exptl_absorpt_coefficient_mu    5.31
+_exptl_absorpt_correction_T_max  1.000
+_exptl_absorpt_correction_T_min  0.703
+_exptl_absorpt_correction_type   empirical
+_exptl_crystal_colour            orange
+_exptl_crystal_density_diffrn    4.180
+_exptl_crystal_description       '  [ENTER  SHAPE]'
+_exptl_crystal_F_000             1912
+_exptl_crystal_size_max          0.13
+_exptl_crystal_size_mid          0.10
+_exptl_crystal_size_min          0.10
+_refine_diff_density_max         0.484
+_refine_diff_density_min         0.000
+_refine_ls_extinction_coef       0.0000
+_refine_ls_extinction_method     'secondary Zachariasen'
+_refine_ls_goodness_of_fit_all   0.652
+_refine_ls_goodness_of_fit_obs   0.840
+_refine_ls_matrix_type           full
+_refine_ls_number_constraints    20
+_refine_ls_number_parameters     40
+_refine_ls_number_reflns         259
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          0.036
+_refine_ls_R_factor_obs          0.013
+_refine_ls_shift/esd_max         0.034
+_refine_ls_shift/esd_mean        0.008
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.016
+_reflns_number_observed          289
+_reflns_number_total             417
+_reflns_observed_criterion       'F~o~ > 2.0 * 3.00 * sigma(F~o~)'
+_cod_data_source_file            av0058.cif
+_cod_data_source_block           I
+_cod_original_sg_symbol_Hall     '-I 4bd 2ab 3'
+_cod_database_code               2103468
+_cod_database_fobs_code          2103468
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+1/2+x,1/2-y,-z
+1/2-x,-y,1/2+z
+-x,1/2+y,1/2-z
+1/4-y,3/4+x,1/4+z
+3/4+y,1/4+x,1/4-z
+1/4+y,1/4-x,3/4+z
+3/4-y,3/4-x,3/4-z
+y,z,x
+1/2-y,-z,1/2+x
+1/2+y,1/2-z,-x
+-y,1/2+z,1/2-x
+1/4-z,3/4+y,1/4+x
+3/4-z,3/4-y,3/4-x
+1/4+z,1/4-y,3/4+x
+3/4+z,1/4+y,1/4-x
+z,x,y
+-z,1/2+x,1/2-y
+1/2-z,-x,1/2+y
+1/2+z,1/2-x,-y
+3/4-x,3/4-z,3/4-y
+1/4-x,3/4+z,1/4+y
+1/4+x,1/4-z,3/4+y
+3/4+x,1/4+z,1/4-y
+-x,-y,-z
+1/2-x,1/2+y,z
+1/2+x,y,1/2-z
+x,1/2-y,1/2+z
+3/4+y,1/4-x,3/4-z
+1/4-y,3/4-x,3/4+z
+3/4-y,3/4+x,1/4-z
+1/4+y,1/4+x,1/4+z
+-y,-z,-x
+1/2+y,z,1/2-x
+1/2-y,1/2+z,x
+y,1/2-z,1/2+x
+3/4+z,1/4-y,3/4-x
+1/4+z,1/4+y,1/4+x
+3/4-z,3/4+y,1/4-x
+1/4-z,3/4-y,3/4+x
+-z,-x,-y
+z,1/2-x,1/2+y
+1/2+z,x,1/2-y
+1/2-z,1/2+x,y
+1/4+x,1/4+z,1/4+y
+3/4+x,1/4-z,3/4-y
+3/4-x,3/4+z,1/4-y
+1/4-x,3/4-z,3/4+y
+1/2+x,1/2+y,1/2+z
+x,-y,1/2-z
+-x,1/2-y,z
+1/2-x,y,-z
+3/4-y,1/4+x,3/4+z
+1/4+y,3/4+x,3/4-z
+3/4+y,3/4-x,1/4+z
+1/4-y,1/4-x,1/4-z
+1/2+y,1/2+z,1/2+x
+-y,1/2-z,x
+y,-z,1/2-x
+1/2-y,z,-x
+3/4-z,1/4+y,3/4+x
+1/4-z,1/4-y,1/4-x
+3/4+z,3/4-y,1/4+x
+1/4+z,3/4+y,3/4-x
+1/2+z,1/2+x,1/2+y
+1/2-z,x,-y
+-z,1/2-x,y
+z,-x,1/2-y
+1/4-x,1/4-z,1/4-y
+3/4-x,1/4+z,3/4+y
+3/4+x,3/4-z,1/4+y
+1/4+x,3/4+z,3/4-y
+1/2-x,1/2-y,1/2-z
+-x,y,1/2+z
+x,1/2+y,-z
+1/2+x,-y,z
+1/4+y,3/4-x,1/4-z
+3/4-y,1/4-x,1/4+z
+1/4-y,1/4+x,3/4-z
+3/4+y,3/4+x,3/4+z
+1/2-y,1/2-z,1/2-x
+y,1/2+z,-x
+-y,z,1/2+x
+1/2+y,-z,x
+1/4+z,3/4-y,1/4-x
+3/4+z,3/4+y,3/4+x
+1/4-z,1/4+y,3/4-x
+3/4-z,1/4-y,1/4+x
+1/2-z,1/2-x,1/2-y
+1/2+z,-x,y
+z,1/2+x,-y
+-z,x,1/2+y
+3/4+x,3/4+z,3/4+y
+1/4+x,3/4-z,1/4-y
+1/4-x,1/4+z,3/4-y
+3/4-x,1/4-z,1/4+y
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+_atom_site_aniso_type_symbol
+Al 0.00443(8) 0.0044000 0.0044000 -0.00030(10) -0.0003000 -0.0003000 Al
+Mn 0.00476(8) 0.00923(5) 0.0092000 0.0000000 0.0000000 0.00174(8) Mn
+Si 0.00350(10) 0.00407(9) 0.0041000 0.0000000 0.0000000 0.0000000 Si
+O 0.0054(2) 0.0062(2) 0.0043(2) 0.0005(2) -0.0005(2) -0.0004(2) O
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_occupancy
+_atom_site_type_symbol
+Al 0.0000000 0.0000000 0.0000000 0.00414(4) Uani 1.00 Al
+Mn 0.1250000 0.0000000 0.2500000 0.00832(3) Uani 1.00 Mn
+Si 0.3750000 0.0000000 0.2500000 0.00389(6) Uani 1.00 Si
+O 0.03473(5) 0.04789(5) 0.65210(5) 0.00520(10) Uani 1.00 O
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Mn 0.2950 0.7290 'International Tables Vol IV Table 2.2A'
+Si 0.0720 0.0710 'International Tables Vol IV Table 2.2A'
+Al 0.0560 0.0520 'International Tables Vol IV Table 2.2A'
+O 0.0080 0.0060 'International Tables Vol IV Table 2.2A'
+loop_
+_diffrn_standard_refln_index_h
+_diffrn_standard_refln_index_k
+_diffrn_standard_refln_index_l
+-8 4 -2

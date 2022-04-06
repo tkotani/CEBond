@@ -1,0 +1,126 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-26 02:18:18 +0200 (Sat, 26 Mar 2016) $
+#$Revision: 180132 $
+#$URL: svn://www.crystallography.net/cod/cif/7/10/30/7103014.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7103014
+loop_
+_publ_author_name
+'Henry, Paul F'
+'Weller, Mark T'
+'Wilson, Chick C'
+_publ_section_title
+;
+ Hydrogenous materials using powder neutron diffraction: full
+ structural determination of adsorbed water molecules in a zeolite.
+;
+_journal_issue                   13
+_journal_name_full
+'Chemical communications (Cambridge, England)'
+_journal_page_first              1557
+_journal_page_last               1559
+_journal_paper_doi               10.1039/b719464a
+_journal_year                    2008
+_chemical_formula_sum            'O2 Si'
+_chemical_formula_weight         60.08
+_chemical_name_systematic        ' ?'
+_space_group_IT_number           154
+_symmetry_cell_setting           trigonal
+_symmetry_space_group_name_Hall  'P 32 2"'
+_symmetry_space_group_name_H-M   'P 32 2 1'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                120.0
+_cell_formula_units_Z            3
+_cell_length_a                   4.9115(4)
+_cell_length_b                   4.9115
+_cell_length_c                   5.4038(8)
+_cell_volume                     112.892(17)
+_pd_block_id
+2007-12-17T17:50|PUBLICATIONCONSTRAIN_phase2|Paul_Henry||
+_pd_phase_name                   'quartz, low'
+_cod_data_source_file            b719464a.txt
+_cod_data_source_block           PUBLICATIONCONSTRAIN_phase_2
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_geom_bond_publ_flag' value 'N' changed to 'n' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (6
+times).
+
+'_geom_angle_publ_flag' value 'N' changed to 'n' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (7 times).
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+;
+_cod_original_sg_symbol_H-M      'P32 2 1'
+_cod_database_code               7103014
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -y,x-y,+z+2/3
+3 y-x,-x,+z+1/3
+4 +y,+x,-z
+5 -x,y-x,-z+2/3
+6 x-y,-y,-z+1/3
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+Si SI1 0.4697 0.0 0.16667 1.0 Uiso 0.025 3
+O O2 0.4133 0.2672 0.2855 1.0 Uiso 0.025 6
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+Si 3.0
+O 6.0
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O2 SI1 O2 110.5660(35) 1_555 . 2_654 n
+O2 SI1 O2 108.777(8) 1_555 . 5_655 n
+O2 SI1 O2 108.8803(22) 1_555 . 6_555 n
+O2 SI1 O2 109.270(7) 2_654 . 5_655 n
+O2 SI1 O2 108.778(8) 2_654 . 6_555 n
+O2 SI1 O2 110.5658(35) 5_655 . 6_555 n
+SI1 O2 SI1 143.5960(5) 1_555 . 3_665 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+SI1 O2 1.60466(12) . 1_555 n
+SI1 O2 1.61277(14) . 2_654 n
+SI1 O2 1.61277(14) . 5_655 n
+SI1 O2 1.60466(12) . 6_555 n
+O2 SI1 1.60466(12) . 1_555 n
+O2 SI1 1.61277(14) . 3_665 n
+loop_
+_pd_block_diffractogram_id
+2007-12-17T17:50|PUBLICATIONCONSTRAIN_H_01|Paul_Henry|D20
+2007-12-17T17:50|PUBLICATIONCONSTRAIN_H_02|Paul_Henry|D20

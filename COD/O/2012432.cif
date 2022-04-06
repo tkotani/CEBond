@@ -1,0 +1,390 @@
+#------------------------------------------------------------------------------
+#$Date: 2018-09-12 23:03:46 +0300 (Wed, 12 Sep 2018) $
+#$Revision: 210900 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/01/24/2012432.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2012432
+loop_
+_publ_author_name
+'Guiblin, Nicolas'
+'Grebille, Dominique'
+'Leligny, Henri'
+'Martin, Christine'
+_publ_section_title
+;
+ Ca~3~Mn~2~O~7~
+;
+_journal_coden_ASTM              ACSCEE
+_journal_issue                   1
+_journal_name_full
+;
+ Acta Crystallographica, Section C: Crystal Structure Communications
+;
+_journal_page_first              i3
+_journal_page_last               i5
+_journal_paper_doi               10.1107/S0108270101018492
+_journal_volume                  58
+_journal_year                    2002
+_chemical_formula_moiety         'Ca3 Mn2 O7'
+_chemical_formula_sum            'Ca3 Mn2 O7'
+_chemical_formula_weight         342.1
+_chemical_name_systematic        'tricalcium dimanganese heptaoxide'
+_space_group_IT_number           36
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  'A -2 2a'
+_symmetry_space_group_name_H-M   'A 21 a m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   5.2347(6)
+_cell_length_b                   5.2421(2)
+_cell_length_c                   19.4177(19)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    298
+_cell_measurement_theta_max      23.97
+_cell_measurement_theta_min      10.98
+_cell_volume                     532.84(8)
+_computing_cell_refinement       'CAD-4 Software'
+_computing_data_collection       'CAD-4 Software (Enraf-Nonius, 1994)'
+_computing_data_reduction        'JANA2000 (Pet\<r\'i\<cek & Du\<sek, 2000)'
+_computing_molecular_graphics    'ATOMS (Dowty, 1997)'
+_computing_publication_material  JANA2000
+_computing_structure_refinement  JANA2000
+_computing_structure_solution    'Please provide missing details'
+_diffrn_measurement_device       'four-circle diffractometer'
+_diffrn_measurement_device_type  'Enraf-nonius CAD-4'
+_diffrn_measurement_method       \q/2\q
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     .71073
+_diffrn_reflns_av_R_equivalents  .045
+_diffrn_reflns_av_sigmaI/netI    .040
+_diffrn_reflns_limit_h_max       11
+_diffrn_reflns_limit_h_min       -11
+_diffrn_reflns_limit_k_max       11
+_diffrn_reflns_limit_k_min       -11
+_diffrn_reflns_limit_l_max       41
+_diffrn_reflns_limit_l_min       -41
+_diffrn_reflns_number            10766
+_diffrn_reflns_theta_max         49.97
+_diffrn_reflns_theta_min         2.10
+_diffrn_standards_decay_%        .2
+_diffrn_standards_interval_time  60
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    7.6102
+_exptl_absorpt_correction_T_max  .865
+_exptl_absorpt_correction_T_min  .619
+_exptl_absorpt_correction_type   gaussian
+_exptl_absorpt_process_details   '(JANA2000; Pet\<r\'i\<cek & Du\<sek, 2000)'
+_exptl_crystal_colour            black
+_exptl_crystal_density_diffrn    4.266
+_exptl_crystal_density_meas      ?
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       prism
+_exptl_crystal_F_000             664
+_exptl_crystal_size_max          .122
+_exptl_crystal_size_mid          .066
+_exptl_crystal_size_min          .017
+_refine_diff_density_max         1.39
+_refine_diff_density_min         -1.13
+_refine_ls_abs_structure_details '(Flack, 1983)'
+_refine_ls_abs_structure_Flack   .45(6)
+_refine_ls_extinction_coef       .008(2)
+_refine_ls_extinction_method     'B-C type 1 Gaussian isotropic Ref?'
+_refine_ls_goodness_of_fit_obs   1.98
+_refine_ls_goodness_of_fit_ref   1.45
+_refine_ls_hydrogen_treatment    none
+_refine_ls_number_parameters     59
+_refine_ls_number_reflns         1516
+_refine_ls_R_factor_all          .092
+_refine_ls_R_factor_gt           .023
+_refine_ls_shift/su_max          <0.001
+_refine_ls_shift/su_mean         <0.001
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 1/\s^2^(F)'
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_gt          .014
+_refine_ls_wR_factor_ref         .015
+_reflns_number_gt                745
+_reflns_number_total             1516
+_reflns_threshold_expression     I>3\s(I)
+_cod_data_source_file            gd1169.cif
+_cod_data_source_block           I
+_cod_depositor_comments
+;
+ Moving the _atom_site_adp_type, _atom_site_occupancy and
+ _atom_site_type_symbol data items into the main _atom_site
+ loop.
+
+ Antanas Vaitkus,
+ 2017-01-10
+
+The following automatic conversions were performed:
+
+'_exptl_crystal_density_meas' value 'not measured' was changed to '?'
+- the value is perceived as not measured.
+
+Automatic conversion script
+Id: cif_fix_values 3008 2015-01-20 13:52:24Z robertas 
+;
+_cod_original_cell_volume        532.83(8)
+_cod_original_sg_symbol_H-M      A21am
+_cod_database_code               2012432
+_cod_database_fobs_code          2012432
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 1/2+x,-y,-z
+3 x,y,-z
+4 1/2+x,-y,z
+5 x,1/2+y,1/2+z
+6 1/2+x,1/2-y,1/2-z
+7 x,1/2+y,1/2-z
+8 1/2+x,1/2-y,1/2+z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_adp_type
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+Mn Mn .3033(7) .2507(3) .098160(10) Uani .0185(4) 1
+Ca1 Ca .8276(8) .2505(5) .0 Uani .0383(10) 1
+Ca2 Ca .7907(8) .2457(3) .18642(2) Uani .0386(8) 1
+O1 O .3031(7) .2937(4) .0 Uani .051(5) 1
+O2 O .0954(9) .9618(6) .08924(8) Uani .024(4) 1
+O3 O .0221(9) .4649(6) .10545(9) Uani .041(5) 1
+O4 O .3101(10) .2176(4) .19583(5) Uani .051(5) 1
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+_atom_site_aniso_type_symbol
+Mn .00362(9) .00376(10) .00390(6) .0004(3) .00067(11) .0001(2) Mn
+Ca1 .0071(4) .0078(2) .00703(14) -.0025(8) .0 .0 Ca
+Ca2 .00889(18) .00776(19) .00520(8) -.0017(6) .00032(16) .0007(3) Ca
+O1 .0106(10) .0103(12) .0045(4) .0011(16) .0 .0 O
+O2 .0037(8) .0049(9) .0103(6) -.0017(5) .0010(6) -.0019(6) O
+O3 .0066(9) .0084(11) .0121(6) .0028(6) .0013(8) -.0007(8) O
+O4 .0093(7) .0104(11) .0044(4) -.0003(12) .0011(9) .0007(3) O
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Ca .226 .306 International_Tables_Vol_C
+Mn .337 .728 International_Tables_Vol_C
+O .011 .006 International_Tables_Vol_C
+loop_
+_diffrn_standard_refln_index_h
+_diffrn_standard_refln_index_k
+_diffrn_standard_refln_index_l
+4 0 4
+4 10 0
+0 10 4
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O1 Mn O2 . 1_545 90.16(12) no
+O1 Mn O2 . 4_565 88.78(14) no
+O1 Mn O3 . . 90.24(14) no
+O1 Mn O3 . 4_565 88.97(13) no
+O1 Mn O4 . . 178.15(18) no
+O2 Mn O2 1_545 4_565 89.15(19) no
+O2 Mn O3 1_545 . 92.0(2) no
+O2 Mn O3 1_545 4_565 177.9(2) no
+O2 Mn O4 1_545 . 91.69(10) no
+O2 Mn O2 4_565 1_545 89.15(19) no
+O2 Mn O3 4_565 . 178.48(18) no
+O2 Mn O3 4_565 4_565 88.9(2) no
+O2 Mn O4 4_565 . 91.27(12) no
+O3 Mn O3 . 4_565 89.87(19) no
+O3 Mn O4 . . 89.67(11) no
+O3 Mn O4 4_565 . 89.19(11) no
+O1 Ca1 O1 . 1_655 170.09(13) no
+O1 Ca1 O1 . 2_555 92.14(14) no
+O1 Ca1 O1 . 2_565 82.21(14) no
+O1 Ca1 O2 . 1_645 124.39(13) no
+O1 Ca1 O2 . 2_565 62.08(14) no
+O1 Ca1 O3 . 1_655 111.22(14) no
+O1 Ca1 O3 . 2_565 55.05(11) no
+O1 Ca1 O1 1_655 2_555 97.77(14) no
+O1 Ca1 O1 1_655 2_565 87.87(15) no
+O1 Ca1 O2 1_655 1_645 62.14(13) no
+O1 Ca1 O2 1_655 2_565 123.25(14) no
+O1 Ca1 O3 1_655 1_655 64.03(13) no
+O1 Ca1 O1 2_555 . 92.14(14) no
+O1 Ca1 O1 2_555 2_565 174.4(2) no
+O1 Ca1 O2 2_555 1_645 57.47(10) no
+O1 Ca1 O2 2_555 2_565 60.81(10) no
+O1 Ca1 O3 2_555 1_655 117.30(10) no
+O1 Ca1 O3 2_555 2_565 118.26(12) no
+O1 Ca1 O2 2_565 1_645 126.07(13) no
+O1 Ca1 O2 2_565 2_565 115.94(14) no
+O1 Ca1 O3 2_565 1_655 65.23(10) no
+O1 Ca1 O3 2_565 2_565 58.27(10) no
+O2 Ca1 O2 1_645 2_565 117.98(14) no
+O2 Ca1 O2 1_645 3_645 80.06(13) no
+O2 Ca1 O2 1_645 4_565 62.42(14) no
+O2 Ca1 O3 1_645 1_655 61.51(11) no
+O2 Ca1 O3 1_645 2_565 175.61(12) no
+O2 Ca1 O3 1_645 3_655 123.8(2) no
+O2 Ca1 O3 1_645 4_565 96.77(8) no
+O2 Ca1 O2 2_565 4_565 92.87(16) no
+O2 Ca1 O3 2_565 1_655 172.2(2) no
+O2 Ca1 O3 2_565 2_565 57.67(11) no
+O2 Ca1 O3 2_565 3_655 79.98(11) no
+O2 Ca1 O3 2_565 4_565 117.1(2) no
+O2 Ca1 O3 4_565 1_655 79.98(11) no
+O3 Ca1 O3 1_655 2_565 122.88(13) no
+O3 Ca1 O3 1_655 3_655 106.95(16) no
+O3 Ca1 O3 1_655 4_565 56.25(13) no
+O3 Ca1 O3 2_565 4_565 86.23(12) no
+O2 Ca2 O2 1_645 4_565 59.24(13) no
+O2 Ca2 O3 1_645 1_655 61.18(12) no
+O2 Ca2 O3 1_645 4_565 101.81(9) no
+O2 Ca2 O4 1_645 . 124.60(12) no
+O2 Ca2 O4 1_645 1_655 57.66(11) no
+O2 Ca2 O4 1_645 6 132.06(15) no
+O2 Ca2 O4 1_645 4_555 60.78(8) no
+O2 Ca2 O4 1_645 4_565 122.47(12) no
+O2 Ca2 O3 4_565 1_655 85.02(11) no
+O2 Ca2 O3 4_565 4_565 63.86(12) no
+O2 Ca2 O4 4_565 . 66.88(14) no
+O2 Ca2 O4 4_565 1_655 116.84(15) no
+O2 Ca2 O4 4_565 6_555 146.87(16) no
+O2 Ca2 O4 4_565 4_555 68.05(9) no
+O2 Ca2 O4 4_565 4_565 121.13(10) no
+O3 Ca2 O3 1_655 4_565 65.07(14) no
+O3 Ca2 O4 1_655 . 127.21(15) no
+O3 Ca2 O4 1_655 1_655 63.05(15) no
+O3 Ca2 O4 1_655 6_555 128.10(16) no
+O3 Ca2 O4 1_655 4_555 121.90(14) no
+O3 Ca2 O4 1_655 4_565 61.68(9) no
+O3 Ca2 O4 4_565 . 62.55(13) no
+O3 Ca2 O4 4_565 1_655 127.68(14) no
+O3 Ca2 O4 4_565 6_555 125.28(13) no
+O3 Ca2 O4 4_565 4_555 130.52(13) no
+O3 Ca2 O4 4_565 4_565 58.43(8) no
+O4 Ca2 O4 . 1_655 169.74(6) no
+O4 Ca2 O4 . 1_555 88.69(10) no
+O4 Ca2 O4 . 4_555 88.75(11) no
+O4 Ca2 O4 . 4_565 95.13(11) no
+O4 Ca2 O4 1_655 6_555 83.89(10) no
+O4 Ca2 O4 1_655 4_555 84.23(11) no
+O4 Ca2 O4 1_655 4_565 90.77(10) no
+O4 Ca2 O4 6_555 4_555 90.40(7) no
+O4 Ca2 O4 6_555 4_565 81.40(7) no
+O4 Ca2 O4 4_555 4_565 170.82(9) no
+Mn O1 Mn . 3_555 166.51(14) no
+Mn O1 Ca1 . 1_455 89.42(15) no
+Mn O1 Ca1 . 2_455 83.26(8) no
+Mn O1 Ca1 . 2_465 96.73(8) no
+Ca1 O1 Ca1 1_455 . 170.09(12) no
+Ca1 O1 Ca1 1_455 2_455 87.38(13) no
+Ca1 O1 Ca1 1_455 2_465 98.27(16) no
+Ca1 O1 Ca1 . 2_455 82.71(13) no
+Ca1 O1 Ca1 . 2_465 91.64(15) no
+Ca1 O1 Ca1 2_455 2_465 174.4(2) no
+Ca1 O1 Ca1 2_465 1_455 98.27(16) no
+Ca1 O1 Ca1 2_465 . 91.64(15) no
+Mn O2 Mn 1_565 4_465 159.0(2) no
+Mn O2 Ca1 1_565 1_465 84.70(14) no
+Mn O2 Ca1 1_565 2_465 98.5(2) no
+Mn O2 Ca2 1_565 1_465 81.00(14) no
+Mn O2 Ca2 1_565 4_465 92.64(16) no
+Mn O2 Ca1 4_465 1_465 88.24(18) no
+Mn O2 Ca1 4_465 2_465 101.67(15) no
+Mn O2 Ca2 4_465 1_465 78.33(15) no
+Mn O2 Ca2 4_465 4_465 90.31(14) no
+Ca1 O2 Ca1 1_465 2_465 93.43(9) no
+Ca1 O2 Ca2 1_465 1_465 80.98(12) no
+Ca1 O2 Ca2 1_465 4_465 168.37(15) no
+Ca1 O2 Ca2 2_465 1_465 174.41(15) no
+Ca1 O2 Ca2 2_465 4_465 98.16(17) no
+Ca2 O2 Ca2 1_465 4_465 87.43(9) no
+Mn O3 Mn . 4_465 162.6(2) no
+Mn O3 Ca1 . 1_455 89.36(14) no
+Mn O3 Ca1 . 2_465 79.97(15) no
+Mn O3 Ca2 . 1_455 99.67(16) no
+Mn O3 Ca2 . 4_465 88.29(19) no
+Mn O3 Ca1 4_465 1_455 92.62(16) no
+Mn O3 Ca1 4_465 2_465 83.06(13) no
+Mn O3 Ca2 4_465 1_455 97.3(2) no
+Mn O3 Ca2 4_465 4_465 84.98(14) no
+Ca1 O3 Ca1 1_455 2_465 83.32(9) no
+Ca1 O3 Ca2 1_455 1_455 96.83(16) no
+Ca1 O3 Ca2 1_455 4_465 163.76(16) no
+Ca1 O3 Ca2 2_465 1_455 179.6(2) no
+Ca1 O3 Ca2 2_465 4_465 80.44(12) no
+Ca2 O3 Ca2 1_455 4_465 99.41(9) no
+Mn O4 Ca2 . 1_455 84.81(11) no
+Mn O4 Ca2 . . 86.65(11) no
+Mn O4 Ca2 . 6_455 169.33(13) no
+Mn O4 Ca2 . 4_455 90.88(8) no
+Mn O4 Ca2 . 4_465 81.02(8) no
+Ca2 O4 Ca2 1_455 . 169.74(7) no
+Ca2 O4 Ca2 1_455 1_455 91.02(11) no
+Ca2 O4 Ca2 1_455 4_455 90.40(11) no
+Ca2 O4 Ca2 1_455 4_465 84.60(10) no
+Ca2 O4 Ca2 . 6_455 96.39(11) no
+Ca2 O4 Ca2 . 4_455 95.41(12) no
+Ca2 O4 Ca2 . 4_465 88.46(10) no
+Ca2 O4 Ca2 6_455 4_455 98.99(7) no
+Ca2 O4 Ca2 6_455 4_465 88.82(7) no
+Ca2 O4 Ca2 4_455 4_465 170.82(7) no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Mn O1 . . 1.9193(4) yes
+Mn O2 . 1_545 1.873(4) yes
+Mn O2 . 4_565 1.900(5) yes
+Mn O3 . . 1.857(5) yes
+Mn O3 . 4_565 1.885(4) yes
+Mn O4 . . 1.9048(10) yes
+Ca1 O1 . . 2.755(5) yes
+Ca1 O1 . 1_655 2.499(5) yes
+Ca1 O1 . 2_555 2.856(3) yes
+Ca1 O1 . 2_565 2.393(3) yes
+Ca1 O2 . 1_645 2.694(4) yes
+Ca1 O2 . 2_565 2.391(3) yes
+Ca1 O2 . 3_645 2.694(4) yes
+Ca1 O2 . 4_565 2.391(3) yes
+Ca1 O3 . 1_655 2.548(3) yes
+Ca1 O3 . 2_565 2.996(4) yes
+Ca1 O3 . 3_655 2.548(3) yes
+Ca1 O3 . 4_565 2.996(4) yes
+Ca2 O2 . 1_645 2.884(4) yes
+Ca2 O2 . 4_565 2.406(3) yes
+Ca2 O3 . 1_655 2.293(4) yes
+Ca2 O3 . 4_565 2.598(4) yes
+Ca2 O4 . . 2.526(4) yes
+Ca2 O4 . 1_655 2.730(4) yes
+Ca2 O4 . 6_555 2.2968(11) yes
+Ca2 O4 . 4_555 2.438(2) yes
+Ca2 O4 . 4_565 2.821(2) yes

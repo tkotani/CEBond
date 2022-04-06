@@ -1,0 +1,68 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-13 14:50:18 +0200 (Sat, 13 Feb 2016) $
+#$Revision: 176428 $
+#$URL: svn://www.crystallography.net/cod/cif/1/53/19/1531932.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1531932
+loop_
+_publ_author_name
+'Narten, A.H.'
+_publ_section_title
+;
+ Diffraction pattern and structure of noncrystalline Be F2 and Si O2 at 25
+ C
+;
+_journal_name_full               'Journal of Chemical Physics'
+_journal_page_first              1905
+_journal_page_last               1909
+_journal_volume                  56
+_journal_year                    1972
+_chemical_formula_sum            'O1.76 Si0.88'
+_chemical_name_systematic        '(Si O2)0.88'
+_space_group_IT_number           180
+_symmetry_space_group_name_Hall  'P 62 2 (0 0 4)'
+_symmetry_space_group_name_H-M   'P 62 2 2'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            3
+_cell_length_a                   5
+_cell_length_b                   5
+_cell_length_c                   5.49
+_cell_volume                     118.862
+_citation_journal_id_ASTM        JCPSA6
+_cod_data_source_file            Narten_JCPSA6_1972_266.cif
+_cod_data_source_block           O1.76Si0.88
+_cod_original_sg_symbol_Hall     'P 62 2 (x,y,z+1/3)'
+_cod_database_code               1531932
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x-y,x,z+1/3
+-y,x-y,z+2/3
+-x,-y,z
+-x+y,-x,z+1/3
+y,-x+y,z+2/3
+-y,-x,-z+2/3
+x-y,-y,-z
+x,x-y,-z+1/3
+y,x,-z+2/3
+-x+y,y,-z
+-x,-x+y,-z+1/3
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+Si1 Si+4 0.5 0 0 0.88 0.0
+O1 O-2 0.197 0.394 0.5 0.88 0.0

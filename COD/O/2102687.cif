@@ -1,0 +1,282 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/26/2102687.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2102687
+loop_
+_publ_author_name
+'van Smaalen, Sander'
+'Dinnebier, Robert '
+'Sofin, Mikhail'
+Jansen,Martin
+_publ_section_title
+;
+ Structures of incommensurate and commensurate composite crystals
+ Na~<i>x~</i>CuO~2~ (<i>x</i> = 1.58, 1.6, 1.62)
+;
+_journal_coeditor_code           CK5018
+_journal_issue                   1
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              17
+_journal_page_last               25
+_journal_paper_doi               10.1107/S0108768106039462
+_journal_volume                  63
+_journal_year                    2007
+_chemical_formula_sum            'Cu Na1.57664 O2'
+_chemical_formula_weight         661.6
+_chemical_name_systematic
+;
+sodium copper oxide
+;
+_space_group_ssg_name            C2/m(0\b0)s0
+_symmetry_cell_setting           monoclinic
+_cell_angle_alpha                90
+_cell_angle_beta                 111.9698(5)
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   8.24153(4)
+_cell_length_b                   2.78589(2)
+_cell_length_c                   5.71687(3)
+_cell_measurement_temperature    293
+_cell_modulation_dimension       1
+_cell_subsystems_number          2
+_cell_volume                     121.7274(13)
+_computing_cell_refinement       '(Jana2000; Petricek and Dusek, 2000)'
+_computing_molecular_graphics    '(Diamond 3, Brandenburg, 2004)'
+_computing_publication_material  '(Jana2000; Petricek and Dusek, 2000)'
+_computing_structure_refinement  '(Jana2000; Petricek and Dusek, 2000)'
+_computing_structure_solution    '(Jana2000; Petricek and Dusek, 2000)'
+_diffrn_ambient_temperature      293
+_diffrn_radiation_type           Synchrotron
+_diffrn_radiation_wavelength     0.65046
+_exptl_absorpt_coefficient_mu    17.561
+_exptl_absorpt_correction_type   none
+_exptl_absorpt_process_details
+'(Jana2000; Petricek, Dusek & Palatinus, 2000)'
+_exptl_crystal_density_diffrn    9.0228
+_exptl_crystal_F_000             125
+_refine_ls_extinction_method     none
+_refine_ls_number_parameters     36
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          0.0482
+_refine_ls_R_factor_gt           0.0468
+_refine_ls_shift/su_max          0.2946
+_refine_ls_shift/su_mean         0.0323
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_gt          0.0454
+_refine_ls_wR_factor_ref         0.0455
+_cod_data_source_file            ck5018.cif
+_cod_data_source_block           I
+_cod_original_cell_volume        121.7270(10)
+_cod_original_formula_sum        'Cu1 Na1.57664 O2'
+_cod_database_code               2102687
+loop_
+_space_group_symop_ssg_id
+_space_group_symop_ssg_operation_algebraic
+1 x1,x2,x3,x4
+2 -x1,x2,-x3,1/2+x4
+3 -x1,-x2,-x3,-x4
+4 x1,-x2,x3,1/2-x4
+5 1/2+x1,1/2+x2,x3,x4
+6 1/2-x1,1/2+x2,-x3,1/2+x4
+7 1/2-x1,1/2-x2,-x3,-x4
+8 1/2+x1,1/2-x2,x3,1/2-x4
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_occupancy
+Cu Cu1 0 0.5 0 0.0038(2) Uiso d 1
+O O1 0.0493(3) 0 0.2416(3) 0.0091(7) Uiso d 1
+Na Na1 -0.1512(3) 0.25 0.3832(4) 0.0141(6) Uiso d 1
+loop_
+_atom_site_displace_Fourier_atom_site_label
+_atom_site_displace_Fourier_axis
+_atom_site_displace_Fourier_wave_vector_seq_id
+_atom_site_displace_Fourier_param_cos
+_atom_site_displace_Fourier_param_sin
+Cu1 x 1 0 -0.01696(19)
+Cu1 y 1 0 0
+Cu1 z 1 0 -0.0291(3)
+Cu1 x 2 0 0
+Cu1 y 2 0 -0.0041(10)
+Cu1 z 2 0 0
+O1 x 1 0 0.0117(7)
+O1 y 1 0.0323(19) 0
+O1 z 1 0 0.0232(8)
+O1 x 2 0.0037(12) 0
+O1 y 2 0 0.021(3)
+O1 z 2 0.0074(18) 0
+Na1 x 1 -0.0358(5) 0
+Na1 y 1 0 0.1111(9)
+Na1 z 1 -0.0233(7) 0
+Na1 x 2 -0.0201(9) 0
+Na1 y 2 0 0.0160(15)
+Na1 z 2 -0.0177(12) 0
+loop_
+_atom_site_Fourier_wave_vector_seq_id
+_atom_site_Fourier_wave_vector_x
+_atom_site_Fourier_wave_vector_z
+1 0.00000 0.00000
+2 0.00000 0.00000
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Na 0.031 0.021 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.1'
+Cu 0.338 1.089 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.1'
+O 0.009 0.005 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.1'
+loop_
+_cell_subsystem_description
+_cell_subsystem_matrix_W_1_1
+_cell_subsystem_matrix_W_1_4
+_cell_subsystem_matrix_W_2_2
+_cell_subsystem_matrix_W_3_3
+_cell_subsystem_matrix_W_4_1
+_cell_subsystem_matrix_W_4_4
+'1-st subsystem' 1 0 1 1 0 1
+'2-nd subsystem' 1 0 0 1 0 0
+loop_
+_cell_subsystem_matrix_W_1_2
+_cell_subsystem_matrix_W_1_3
+_cell_subsystem_matrix_W_2_1
+_cell_subsystem_matrix_W_2_3
+_cell_subsystem_matrix_W_2_4
+_cell_subsystem_matrix_W_3_1
+_cell_subsystem_matrix_W_3_2
+_cell_subsystem_matrix_W_3_4
+_cell_subsystem_matrix_W_4_2
+_cell_subsystem_matrix_W_4_3
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 1 0 0 0 1 0
+loop_
+_cell_wave_vector_seq_id
+_cell_wave_vector_x
+_cell_wave_vector_y
+_cell_wave_vector_z
+1 0.00000 0.78832 0.00000
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+_geom_bond_distance_max
+_geom_bond_distance_min
+_geom_bond_distance_av
+Cu1 Cu1 1_545 yes 2.816(4) 2.763(4) 2.790(2)
+Cu1 Cu1 1_565 yes 2.816(4) 2.764(4) 2.790(2)
+Cu1 Cu1 5_445 yes 4.494(2) 4.217(2) 4.3546(15)
+Cu1 Cu1 5_455 yes 4.494(2) 4.217(2) 4.3543(15)
+Cu1 Cu1 5_545 yes 4.494(2) 4.217(2) 4.3551(15)
+Cu1 Cu1 5_555 yes 4.494(2) 4.217(2) 4.3554(15)
+Cu1 O1 1_545 yes 4.490(11) 4.314(6) 4.376(8)
+Cu1 O1 1_554 yes 4.791(5) 4.599(10) 4.714(9)
+Cu1 O1 . yes 1.961(8) 1.841(7) 1.899(8)
+Cu1 O1 1_564 yes 4.791(5) 4.599(9) 4.715(9)
+Cu1 O1 1_565 yes 1.962(8) 1.841(7) 1.898(8)
+Cu1 O1 1_575 yes 4.490(11) 4.314(6) 4.376(8)
+Cu1 O1 5_454 yes 4.878(12) 4.271(12) 4.532(6)
+Cu1 O1 5_455 yes 4.476(18) 4.392(18) 4.427(9)
+Cu1 O1 5_545 yes 5.260(7) 4.908(7) 5.050(8)
+Cu1 O1 5_555 yes 4.391(15) 3.989(16) 4.214(8)
+Cu1 O1 5_565 yes 5.260(7) 4.908(7) 5.051(8)
+Cu1 O1 3_545 yes 4.490(11) 4.314(6) 4.376(8)
+Cu1 O1 3_555 yes 1.961(8) 1.841(7) 1.899(8)
+Cu1 O1 3_556 yes 4.791(5) 4.599(10) 4.715(9)
+Cu1 O1 3_565 yes 1.962(8) 1.841(7) 1.898(8)
+Cu1 O1 3_566 yes 4.791(5) 4.599(9) 4.714(9)
+Cu1 O1 3_575 yes 4.490(11) 4.314(6) 4.377(8)
+Cu1 O1 7_445 yes 5.260(7) 4.908(7) 5.049(8)
+Cu1 O1 7_455 yes 4.391(15) 3.989(16) 4.213(8)
+Cu1 O1 7_465 yes 5.260(7) 4.908(7) 5.049(8)
+Cu1 O1 7_555 yes 4.476(18) 4.392(18) 4.427(9)
+Cu1 O1 7_556 yes 4.878(12) 4.271(12) 4.534(6)
+Cu1 Na1 1_554 yes 5.162(6) 3.084(4) 816.4(11)
+Cu1 Na1 1_564 yes 4.248(8) 3.075(3) 734.9(11)
+Cu1 Na1 1_574 yes 6.972(6) 4.232(5) 1159.5(10)
+Cu1 Na1 1_545 yes 8.515(5) 4.952(7) 1317.8(11)
+Cu1 Na1 . yes 4.952(7) 2.902(5) 755.7(13)
+Cu1 Na1 1_565 yes 4.058(5) 2.899(5) 670.3(14)
+Cu1 Na1 1_575 yes 6.861(6) 4.058(5) 1120.9(11)
+Cu1 Na1 5_555 yes 5.181(5) 3.127(4) 770.7(10)
+Cu1 Na1 5_565 yes 4.233(5) 2.641(9) 648.8(10)
+Cu1 Na1 5_575 yes 7.515(6) 4.233(5) 1146.2(9)
+Cu1 Na1 3_555 yes 6.324(5) 3.834(5) 1011.4(11)
+Cu1 Na1 3_565 yes 3.834(5) 2.899(5) 630.0(13)
+Cu1 Na1 3_575 yes 5.922(5) 3.201(10) 863.0(13)
+Cu1 Na1 3_556 yes 6.565(5) 4.172(5) 1055.5(10)
+Cu1 Na1 3_566 yes 4.172(5) 3.075(3) 697.5(11)
+Cu1 Na1 3_576 yes 6.149(5) 3.738(8) 919.1(11)
+Cu1 Na1 7_455 yes 6.564(5) 3.365(4) 995.9(9)
+Cu1 Na1 7_465 yes 3.374(6) 2.641(9) 632.8(10)
+Cu1 Na1 7_475 yes 5.329(5) 3.183(9) 854.5(10)
+O1 O1 1_545 yes 3.008(15) 2.668(14) 2.789(11)
+O1 O1 1_565 yes 3.008(15) 2.668(14) 2.789(11)
+O1 O1 5_445 yes 4.484(16) 4.267(11) 4.355(13)
+O1 O1 5_455 yes 4.484(16) 4.267(11) 4.354(13)
+O1 O1 5_545 yes 4.484(16) 4.267(11) 4.355(13)
+O1 O1 5_555 yes 4.484(16) 4.267(11) 4.355(13)
+O1 O1 3_545 yes 3.862(12) 3.729(13) 3.795(11)
+O1 O1 3_546 yes 4.474(15) 4.116(11) 4.354(13)
+O1 O1 3_555 yes 2.654(14) 2.50(2) 2.575(11)
+O1 O1 3_556 yes 3.39(2) 3.301(17) 3.346(13)
+O1 O1 3_565 yes 3.862(12) 3.729(13) 3.795(11)
+O1 O1 3_566 yes 4.474(15) 4.116(11) 4.353(13)
+O1 O1 7_445 yes 5.051(13) 4.633(13) 4.871(11)
+O1 O1 7_455 yes 5.051(13) 4.633(13) 4.871(11)
+O1 O1 7_546 yes 4.067(12) 3.640(8) 3.783(10)
+O1 O1 7_556 yes 4.067(12) 3.640(8) 3.784(10)
+O1 Na1 1_554 yes 5.444(11) 4.578(14) 952.7(19)
+O1 Na1 1_564 yes 6.169(9) 4.578(14) 1076(2)
+O1 Na1 1_545 yes 6.988(7) 3.507(11) 998(2)
+O1 Na1 . yes 3.507(11) 2.230(11) 495(2)
+O1 Na1 1_565 yes 4.620(8) 2.257(12) 695(2)
+O1 Na1 1_575 yes 7.808(8) 4.620(8) 1300.7(18)
+O1 Na1 5_545 yes 6.400(7) 3.709(9) 1003.5(19)
+O1 Na1 5_555 yes 3.709(9) 2.189(7) 542(2)
+O1 Na1 5_565 yes 4.981(8) 2.189(7) 706.7(19)
+O1 Na1 5_575 yes 8.486(8) 4.981(8) 1344.1(18)
+O1 Na1 3_555 yes 5.889(10) 4.193(12) 980(2)
+O1 Na1 3_565 yes 4.693(14) 3.93(2) 841(2)
+O1 Na1 3_575 yes 7.635(9) 4.693(14) 1208(2)
+O1 Na1 3_546 yes 7.933(8) 4.749(8) 1293.3(17)
+O1 Na1 3_556 yes 4.749(8) 2.250(10) 680.0(19)
+O1 Na1 3_566 yes 3.246(9) 2.220(9) 481.1(19)
+O1 Na1 3_576 yes 6.769(7) 3.246(9) 989.6(18)
+O1 Na1 7_455 yes 5.978(8) 3.799(7) 941.6(17)
+O1 Na1 7_465 yes 4.811(7) 3.756(15) 826.8(17)
+O1 Na1 7_475 yes 7.023(8) 4.781(10) 1184.5(18)
+O1 Na1 7_456 yes 6.457(10) 4.480(8) 1062(2)
+O1 Na1 7_466 yes 5.339(14) 4.480(8) 960(2)
+O1 Na1 7_556 yes 6.823(9) 4.625(10) 1091(2)
+O1 Na1 7_566 yes 5.236(11) 4.446(6) 962.3(19)
+Na1 Na1 1_545 yes 4.233(10) 3.059(10) 3.553(7)
+Na1 Na1 1_565 yes 4.233(10) 3.059(10) 3.549(7)
+Na1 Na1 5_445 yes 5.758(7) 4.811(11) 5.444(9)
+Na1 Na1 5_455 yes 4.617(17) 3.639(18) 4.163(9)
+Na1 Na1 5_465 yes 5.758(7) 4.811(11) 5.444(9)
+Na1 Na1 5_545 yes 5.758(7) 4.811(11) 5.444(9)
+Na1 Na1 5_555 yes 4.617(17) 3.639(18) 4.161(9)
+Na1 Na1 5_565 yes 5.758(7) 4.811(11) 5.440(9)
+Na1 Na1 3_556 yes 3.197(9) 2.550(6) 2.982(8)
+Na1 Na1 3_566 yes 3.197(9) 2.550(6) 2.980(8)
+Na1 Na1 7_455 yes 4.534(7) 4.347(9) 4.453(8)
+Na1 Na1 7_456 yes 3.088(9) 3.029(9) 3.064(10)
+Na1 Na1 7_465 yes 4.534(7) 4.347(9) 4.453(8)
+Na1 Na1 7_466 yes 3.088(9) 3.029(9) 3.064(10)

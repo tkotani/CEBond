@@ -1,0 +1,103 @@
+#------------------------------------------------------------------------------
+#$Date: 2015-01-27 21:58:39 +0200 (Tue, 27 Jan 2015) $
+#$Revision: 130149 $
+#$URL: svn://www.crystallography.net/cod/cif/1/00/41/1004115.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1004115
+loop_
+_publ_author_name
+'Mentre, O'
+'Abraham, F'
+_publ_section_title
+;
+New mixed valence compounds in the Pb - V - O system synthesis and
+crystal structure of hollandite-related Pb1.32 V8.35 O16.7 and R-type
+hexagonal ferrite Pb V6 O11
+;
+_journal_coden_ASTM              JSSCBI
+_journal_name_full               'Journal of Solid State Chemistry'
+_journal_page_first              91
+_journal_page_last               101
+_journal_paper_doi               10.1006/jssc.1996.0269
+_journal_volume                  125
+_journal_year                    1996
+_chemical_formula_structural     'Pb V6 O11'
+_chemical_formula_sum            'O11 Pb V6'
+_chemical_name_systematic        'Lead vanadium oxide (1/6/11)'
+_space_group_IT_number           186
+_symmetry_cell_setting           hexagonal
+_symmetry_Int_Tables_number      186
+_symmetry_space_group_name_Hall  'P 6c -2c'
+_symmetry_space_group_name_H-M   'P 63 m c'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            2
+_cell_length_a                   5.754(1)
+_cell_length_b                   5.754(1)
+_cell_length_c                   13.267(3)
+_cell_volume                     380.4
+_refine_ls_R_factor_all          0.035
+_cod_database_code               1004115
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-y,x-y,z
+y-x,-x,z
+-y,-x,z
+y-x,y,z
+x,x-y,z
+-x,-y,1/2+z
+y,y-x,1/2+z
+x-y,x,1/2+z
+y,x,1/2+z
+x-y,-y,1/2+z
+-x,y-x,1/2+z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_22
+_atom_site_aniso_U_23
+_atom_site_aniso_U_33
+Pb1 0.0080(2) 0.0040(1) 0. 0.0080(2) 0. 0.00106(3)
+V1 0.0021(4) 0.0004(5) 0.0001(1) 0.0021(4) -0.0001(1) 0.00049(6)
+V2 0.0027(7) 0.00135(35) 0. 0.0027(7) 0. 0.0005(2)
+V3 0.0023(7) 0.00115(35) 0. 0.0023(7) 0. 0.0004(1)
+V4 0.0026(8) 0.0013(4) 0. 0.0026(8) 0. 0.0010(2)
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_calc_flag
+Pb1 Pb2+ 2 b 0.3333 0.6667 0.2231(6) 1. 0 d
+V1 V3+ 6 c 0.5112(2) 0.4888(2) -0.0021(6) 1. 0 d
+V2 V3+ 2 a 0. 0. 0.1447(7) 1. 0 d
+V3 V4+ 2 a 0. 0. 0.3501(7) 1. 0 d
+V4 V4+ 2 b 0.6667 0.3333 0.2633(7) 1. 0 d
+O1 O2- 6 c 0.1764(9) 0.8236(9) 0.0776(9) 1. 0 d
+O2 O2- 6 c 0.1516(10) 0.8484(10) 0.75 1. 0 d
+O3 O2- 6 c 0.1713(8) 0.8287(8) 0.4169(9) 1. 0 d
+O4 O2- 2 b 0.6667 0.3333 0.4109(15) 1. 0 d
+O5 O2- 2 b 0.6667 0.3333 0.0936(14) 1. 0 d
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Pb2+ 2.000
+V3+ 3.000
+V4+ 4.000
+O2- -2.000

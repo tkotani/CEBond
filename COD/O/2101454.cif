@@ -1,0 +1,113 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/14/2101454.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2101454
+loop_
+_publ_author_name
+'Makarova, I. P.'
+'Simonov, V. I.'
+'Blomberg, M. K.'
+'Merisalo, M. J.'
+_publ_section_title
+;
+ X-ray diffraction study of Nd~2~CuO~4~ single crystals at 20 K
+;
+_journal_issue                   1
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              93
+_journal_page_last               99
+_journal_paper_doi               10.1107/S0108768195009967
+_journal_volume                  52
+_journal_year                    1996
+_chemical_formula_sum            'Cu Nd2 O4'
+_chemical_formula_weight         416.02
+_symmetry_cell_setting           tetragonal
+_symmetry_space_group_name_Hall  '-I 4 2'
+_symmetry_space_group_name_H-M   'I 4/m m m'
+_atom_type_scat_source           IntTabIV
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            2
+_cell_length_a                   3.9488(3)
+_cell_length_b                   3.9488(3)
+_cell_length_c                   12.1869(9)
+_cell_measurement_reflns_used    24
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      25
+_cell_measurement_theta_min      23
+_cell_volume                     190.03(2)
+_diffrn_measurement_device       'Enraf-Nonius CAD-4F'
+_diffrn_measurement_method       \w-2\q
+_diffrn_radiation_type           AgK\a
+_diffrn_radiation_wavelength     0.5609
+_diffrn_reflns_av_R_equivalents  0.023
+_diffrn_reflns_limit_h_max       10
+_diffrn_reflns_limit_h_min       -10
+_diffrn_reflns_limit_k_max       10
+_diffrn_reflns_limit_k_min       -10
+_diffrn_reflns_limit_l_max       31
+_diffrn_reflns_limit_l_min       -31
+_diffrn_reflns_number            5015
+_diffrn_reflns_theta_max         47
+_diffrn_standards_interval_time  60
+_diffrn_standards_number         2
+_exptl_absorpt_coefficient_mu    16.96
+_exptl_absorpt_correction_T_max  0.2405
+_exptl_absorpt_correction_T_min  0.1899
+_exptl_absorpt_correction_type   numerical
+_exptl_crystal_colour            black
+_exptl_crystal_density_diffrn    7.27
+_exptl_crystal_description       spherical
+_exptl_crystal_size_rad          0.14
+_refine_diff_density_max         0.95
+_refine_diff_density_min         -1.21
+_refine_ls_extinction_coef       0.43
+_refine_ls_extinction_method     'Lorentzian (Becker & Coppens, 1974)'
+_refine_ls_goodness_of_fit_all   1.84
+_refine_ls_number_parameters     18
+_refine_ls_number_reflns         484
+_refine_ls_R_factor_obs          0.0070
+_refine_ls_shift/esd_max         0.001
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 1/\s^2^(F~o~)'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.0082
+_reflns_number_observed          525
+_reflns_number_total             525
+_cod_data_source_file            sh0051.cif
+_cod_data_source_block           sh0051a
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'w = 1/\s^2^(F~o~)' was changed
+to 'calc'. New tag '_refine_ls_weighting_details' was created. The
+value of the new tag was set to 'w = 1/\s^2^(F~o~)'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        190.03
+_cod_original_formula_sum        'Cu1 Nd2 O4'
+_cod_database_code               2101454
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Nd .0 .0 .351056(3)
+Cu .0 .0 .0
+O(1) .0 .5 .0
+O(2) .0 .5 .25

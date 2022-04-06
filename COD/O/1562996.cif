@@ -1,0 +1,201 @@
+#------------------------------------------------------------------------------
+#$Date: 2021-05-31 11:33:57 +0300 (Mon, 31 May 2021) $
+#$Revision: 265628 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/56/29/1562996.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1562996
+loop_
+_publ_author_name
+'Artini, Cristina'
+'Costa, Giorgio A.'
+'Pani, Marcella'
+'Lausi, Andrea'
+'Plaisier, Jasper'
+_publ_section_title
+;
+ Structural characterization of the CeO2/Gd2O3 mixed system by synchrotron
+ X-ray diffraction
+;
+_journal_name_full               'Journal of Solid State Chemistry'
+_journal_page_first              24
+_journal_page_last               28
+_journal_paper_doi               10.1016/j.jssc.2012.01.056
+_journal_volume                  190
+_journal_year                    2012
+_chemical_formula_moiety         '0.3(Ce O2), 0.35(Gd2 O3)'
+_chemical_formula_sum            'Ce0.3 Gd0.7 O1.65'
+_chemical_formula_weight         178.51
+_chemical_name_common            'Ce-Gd mixed oxide'
+_space_group_IT_number           206
+_space_group_name_Hall           '-I 2b 2c 3'
+_space_group_name_H-M_alt        'I a -3'
+_symmetry_cell_setting           cubic
+_symmetry_space_group_name_Hall  '-I 2b 2c 3'
+_symmetry_space_group_name_H-M   'I a -3'
+_cell_angle_alpha                90.00000
+_cell_angle_beta                 90.00000
+_cell_angle_gamma                90.00000
+_cell_formula_units_Z            32
+_cell_length_a                   10.8581(1)
+_cell_length_b                   10.8581(1)
+_cell_length_c                   10.8581(1)
+_cell_measurement_temperature    298
+_cell_volume                     1280.15(2)
+_computing_structure_refinement  FULLPROF
+_diffrn_ambient_temperature      298
+_diffrn_detector                 'fast scintillator detector'
+_diffrn_measurement_device_type  'Huber 4-axes X-ray diffractometer'
+_diffrn_measurement_method       '2\q in the range 5-55 deg'
+_diffrn_radiation_probe          x-rays
+_diffrn_radiation_wavelength     0.6890
+_diffrn_source                   synchrotron
+_exptl_absorpt_coefficient_mu    34.09
+_exptl_absorpt_correction_type   none
+_pd_char_colour                  white
+_pd_instr_location
+;
+ powder diffraction beamline (MCX) of the Elettra synchrotron radiation 
+ facility located in Trieste, Italy
+;
+_pd_meas_2theta_range_inc        0.002435
+_pd_meas_2theta_range_max        55.00000
+_pd_meas_2theta_range_min        5.01660
+_pd_meas_number_of_points        20533
+_pd_meas_scan_method             step
+_pd_prep_pressure                101
+_pd_prep_temperature             1273
+_pd_proc_2theta_range_inc        0.002435
+_pd_proc_2theta_range_max        54.9866
+_pd_proc_2theta_range_min        5.0032
+_pd_proc_ls_background_function  '6-coefficients polynomial function'
+_pd_proc_ls_profile_function     Pseudo-Voigt
+_pd_proc_ls_prof_R_factor        10.1938
+_pd_proc_ls_prof_wR_expected     11.5010
+_pd_proc_ls_prof_wR_factor       14.8856
+_pd_proc_wavelength              0.689000
+_pd_spec_mounting
+'borosilicate capillary tube with inner diameter of 0.5 mm'
+_pd_spec_mount_mode              transmission
+_pd_spec_shape                   cylinder
+_pd_spec_size_axial              20
+_pd_spec_size_equat              0.5
+_refine_ls_number_parameters     20
+_refine_ls_number_reflns         289
+_refine_ls_number_restraints     0
+_refine_ls_R_I_factor            6.4344
+_cod_data_source_file            JSSC-2012-190-24.cif
+_cod_data_source_block           C7
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+data item '_symmetry_cell_setting' value 'Cubic' was changed to
+'cubic' in accordance with the built-in table derived from the CIF
+Core dictionary named 'cif_core.dic' version 2.4.5 last updated on
+2014-11-21.
+
+Automatic conversion script
+Id: cif_fix_values 8369 2020-08-20 11:38:08Z andrius 
+;
+_cod_original_cell_volume        1280.158(13)
+_cod_database_code               1562996
+_pd_proc_ls_prof_cr_factor       15.5895
+_pd_proc_ls_prof_cwr_factor      19.8456
+_pd_proc_ls_prof_cwr_expected    15.3332
+_pd_proc_ls_prof_chi2            1.6752
+_pd_proc_ls_prof_echi2           1.7057
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x+1/2,-y+1/2,-z
+-x,y+1/2,-z+1/2
+-x+1/2,-y,z+1/2
+y,z,x
+-y+1/2,-z,x+1/2
+y+1/2,-z+1/2,-x
+-y,z+1/2,-x+1/2
+z,x,y
+-z,x+1/2,-y+1/2
+-z+1/2,-x,y+1/2
+z+1/2,-x+1/2,-y
+-x,-y,-z
+-x+1/2,y+1/2,z
+x,-y+1/2,z+1/2
+x+1/2,y,-z+1/2
+-y,-z,-x
+y+1/2,z,-x+1/2
+-y+1/2,z+1/2,x
+y,-z+1/2,x+1/2
+-z,-x,-y
+z,-x+1/2,y+1/2
+z+1/2,x,-y+1/2
+-z+1/2,x+1/2,y
+x+1/2,y+1/2,z+1/2
+x,-y,-z+1/2
+-x+1/2,y,-z
+-x,-y+1/2,z
+y+1/2,z+1/2,x+1/2
+-y,-z+1/2,x
+y,-z,-x+1/2
+-y+1/2,z,-x
+z+1/2,x+1/2,y+1/2
+-z+1/2,x,-y
+-z,-x+1/2,y
+z,-x,-y+1/2
+-x+1/2,-y+1/2,-z+1/2
+-x,y,z+1/2
+x+1/2,-y,z
+x,y+1/2,-z
+-y+1/2,-z+1/2,-x+1/2
+y,z+1/2,-x
+-y,z,x+1/2
+y+1/2,-z,x
+-z+1/2,-x+1/2,-y+1/2
+z+1/2,-x,y
+z,x+1/2,-y
+-z,x,y+1/2
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+_atom_site_adp_type
+_atom_site_type_symbol
+Ce1 0.27260(4) 0.00000 0.25000 0.0062(1) 0.3 Uiso Ce
+Gd1 0.27260(4) 0.00000 0.25000 0.0062(1) 0.7 Uiso Gd
+Ce2 0.00000 0.00000 0.00000 0.0062(1) 0.3 Uiso Ce
+Gd2 0.00000 0.00000 0.00000 0.0062(1) 0.7 Uiso Gd
+O1 0.1039(5) 0.3636(5) 0.1335(7) 0.0062(1) 1.0 Uiso O
+O2 0.12500 0.12500 0.12500 0.0062(1) 0.28(1) Uiso O
+loop_
+_atom_type_symbol
+_atom_type_scat_Cromer_Mann_a1
+_atom_type_scat_Cromer_Mann_b1
+_atom_type_scat_Cromer_Mann_a2
+_atom_type_scat_Cromer_Mann_b2
+_atom_type_scat_Cromer_Mann_a3
+_atom_type_scat_Cromer_Mann_b3
+_atom_type_scat_Cromer_Mann_a4
+_atom_type_scat_Cromer_Mann_b4
+_atom_type_scat_Cromer_Mann_c
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+ce 21.16710 2.81219 19.76950 0.22684 11.85130 17.60830 3.33049 127.11300
+1.86264 -0.56400 2.63200
+'International Tables Vol. C (1991), Tables 6.1.1.4 and 6.1.1.5'
+gd 25.07090 2.25341 19.07980 0.18195 13.85180 12.93310 3.54545 101.39799
+2.41960 -0.56400 3.90400
+'International Tables Vol. C (1991), Tables 6.1.1.4 and 6.1.1.5'
+o 3.04850 13.27710 2.28680 5.70110 1.54630 0.32390 0.86700 32.90890 0.25080
+0.00800 0.00600
+'International Tables Vol. C (1991), Tables 6.1.1.4 and 6.1.1.5'

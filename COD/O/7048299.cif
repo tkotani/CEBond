@@ -1,0 +1,258 @@
+#------------------------------------------------------------------------------
+#$Date: 2019-11-07 23:23:14 +0200 (Thu, 07 Nov 2019) $
+#$Revision: 224002 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/7/04/82/7048299.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7048299
+loop_
+_publ_author_name
+'Li, Cheng'
+'Pramana, Stevin S.'
+'Skinner, Stephen J.'
+_publ_section_title
+;
+ Room temperature structure and transport properties of the incommensurate
+ modulated LaNb<sub>0.88</sub>W<sub>0.12</sub>O<sub>4.06</sub>.
+;
+_journal_issue                   5
+_journal_name_full
+'Dalton transactions (Cambridge, England : 2003)'
+_journal_page_first              1633
+_journal_page_last               1646
+_journal_paper_doi               10.1039/c8dt03958e
+_journal_volume                  48
+_journal_year                    2019
+_chemical_formula_sum            'La Nb0.88 O4 W0.12'
+_chemical_formula_weight         306.7
+_chemical_name_systematic        LaNb0.88W0.12O4
+_space_group_IT_number           15
+_space_group_name_Hall           '-I 2yc'
+_space_group_name_H-M_alt        'I 1 2/c 1'
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-I 2yc'
+_symmetry_space_group_name_H-M   'I 1 2/c 1'
+_audit_update_record
+;
+2018-06-01 deposited with the CCDC.
+2018-12-03 downloaded from the CCDC.
+;
+_cell_angle_alpha                90
+_cell_angle_beta                 91.5403(13)
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   5.41306(11)
+_cell_length_b                   11.64322(17)
+_cell_length_c                   5.29631(12)
+_cell_measurement_temperature    293
+_cell_modulation_dimension       2
+_cell_volume                     333.682(11)
+_diffrn_ambient_temperature      293
+_diffrn_measurement_device       MSPD@ALBA
+_diffrn_measurement_device_type  Synchrotron
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_wavelength     0.3308
+_exptl_absorpt_coefficient_mu    4.568
+_exptl_crystal_density_diffrn    6.1055
+_exptl_crystal_F_000             535
+_exptl_crystal_recrystallization_method 'Solid State Synthesis'
+_pd_instr_location               ' ?'
+_pd_meas_2theta_range_inc        0.003
+_pd_meas_2theta_range_max        31.965
+_pd_meas_2theta_range_min        0.003
+_pd_meas_number_of_points        10655
+_pd_proc_2theta_range_inc        0.003
+_pd_proc_2theta_range_max        19.998
+_pd_proc_2theta_range_min        2.943
+_pd_proc_ls_background_function  'Manual background'
+_pd_proc_ls_pref_orient_corr     none
+_pd_proc_ls_profile_function     Pseudo-Voigt
+_pd_proc_ls_prof_R_factor        0.0833
+_pd_proc_ls_prof_wR_expected     0.0386
+_pd_proc_ls_prof_wR_factor       0.1059
+_refine_diff_density_max         1.14
+_refine_diff_density_min         -3.88
+_refine_ls_goodness_of_fit_all   2.74
+_refine_ls_number_constraints    1
+_refine_ls_number_parameters     77
+_refine_ls_number_restraints     4
+_refine_ls_R_factor_all          0.0878
+_refine_ls_R_factor_gt           0.0794
+_refine_ls_shift/su_max          0.0000
+_refine_ls_shift/su_mean         0.0000
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_all         0.0895
+_refine_ls_wR_factor_gt          0.0887
+_cod_data_source_file            c8dt03958e2.cif
+_cod_data_source_block           I
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_diffrn_ambient_temperature' value '293K' was changed to '293' - the
+value should be numeric and without a unit designator.
+
+'_diffrn_radiation_probe' value 'X-ray' changed to 'x-ray' according
+to
+/home/data/users/saulius/crontab/automatic-downloads/rss-feeds/RSC/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 from 2011-04-26.
+
+Automatic conversion script
+Id: cif_fix_values 4973 2017-02-22 13:04:09Z antanas 
+
+ Adding full bibliography for 7048299.cif.
+;
+_cod_original_formula_sum        'La1 Nb0.88 O4 W0.12'
+_cod_database_code               7048299
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 -x,y,-z+0.5
+3 x+0.5,y+0.5,z+0.5
+4 -x+0.5,y+0.5,-z
+5 -x,-y,-z
+6 x,-y,z+0.5
+7 -x+0.5,-y+0.5,-z+0.5
+8 x+0.5,-y+0.5,z
+loop_
+_space_group_symop_ssg_id
+_space_group_symop_ssg_operation_algebraic
+1 x1,x2,x3,x4,x5
+2 -x1,x2,-x3+1/2,-x4,-x5
+3 -x1,-x2,-x3,-x4,-x5
+4 x1,-x2,x3+1/2,x4,x5
+5 x1+1/2,x2+1/2,x3+1/2,x4,x5
+6 -x1+1/2,x2+1/2,-x3,-x4,-x5
+7 -x1+1/2,-x2+1/2,-x3+1/2,-x4,-x5
+8 x1+1/2,-x2+1/2,x3,x4,x5
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_adp_type
+_atom_site_U_iso_or_equiv
+_atom_site_site_symmetry_multiplicity
+_atom_site_occupancy
+_atom_site_calc_flag
+La1 La 0 0.6274(2) 0.25 Uani 0.0219(13) 4 0.994(12) d
+Nb1 Nb 0 0.1175(3) 0.25 Uani 0.0261(18) 4 0.88 d
+W1 W 0 0.1175(3) 0.25 Uani 0.0261(18) 4 0.12 d
+O1 O 0.231(2) 0.0343(7) 0.076(2) Uiso 0.007(5) 8 1 d
+O2 O 0.163(2) 0.2064(8) 0.483(3) Uiso 0.005(7) 8 1 d
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_type_symbol
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+La1 La 0.019(2) 0.0157(13) 0.031(3) 0 -0.0039(19) 0
+Nb1 Nb 0.019(3) 0.051(3) 0.008(4) 0 -0.003(2) 0
+W1 W 0.019(3) 0.051(3) 0.008(4) 0 -0.003(2) 0
+loop_
+_atom_site_displace_Fourier_atom_site_label
+_atom_site_displace_Fourier_axis
+_atom_site_displace_Fourier_wave_vector_seq_id
+_atom_site_displace_Fourier_param_cos
+_atom_site_displace_Fourier_param_sin
+La1 x 1 0 -0.0183(14)
+La1 y 1 0.0018(10) 0
+La1 z 1 0 0.0359(16)
+La1 x 2 0 0.010(2)
+La1 y 2 0.000(2) 0
+La1 z 2 0 0.003(3)
+Nb1 x 1 0 -0.0193(18)
+Nb1 y 1 0.0060(11) 0
+Nb1 z 1 0 0.0430(17)
+Nb1 x 2 0 0.012(2)
+Nb1 y 2 0.0017(18) 0
+Nb1 z 2 0 0.007(3)
+W1 x 1 0 -0.0193(18)
+W1 y 1 0.0060(11) 0
+W1 z 1 0 0.0430(17)
+W1 x 2 0 0.012(2)
+W1 y 2 0.0017(18) 0
+W1 z 2 0 0.007(3)
+O1 x 1 0.022(5) -0.010(6)
+O1 y 1 0.003(2) 0.005(3)
+O1 z 1 0.019(6) 0.038(7)
+O1 x 2 0.002(9) 0.009(10)
+O1 y 2 -0.005(5) 0.004(6)
+O1 z 2 0.020(10) -0.009(12)
+O2 x 1 -0.006(6) -0.022(7)
+O2 y 1 0.002(3) -0.011(3)
+O2 z 1 0.009(7) 0.070(4)
+O2 x 2 0.033(10) 0.039(10)
+O2 y 2 -0.009(4) 0.008(4)
+O2 z 2 -0.008(10) -0.027(8)
+loop_
+_atom_site_Fourier_wave_vector_seq_id
+_jana_atom_site_fourier_wave_vector_q1_coeff
+_jana_atom_site_fourier_wave_vector_q2_coeff
+1 1 0
+2 0 1
+loop_
+_atom_site_occ_Fourier_atom_site_label
+_atom_site_occ_Fourier_wave_vector_seq_id
+_atom_site_occ_Fourier_param_cos
+_atom_site_occ_Fourier_param_sin
+Nb1 1 0.184(13) 0
+Nb1 2 -0.16(3) 0
+W1 1 -0.184(13) 0
+W1 2 0.16(3) 0
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+La -2.6589 0.6318 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+Nb 0.2214 1.1654 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+O -0.0001 0.0011 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+W -0.8017 1.9086 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+loop_
+_cell_wave_vector_seq_id
+_cell_wave_vector_x
+_cell_wave_vector_y
+_cell_wave_vector_z
+1 0.284746 0.000000 0.109898
+2 -0.126688 0.000000 0.295307
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_ssg_symmetry_2
+_geom_bond_distance_av
+_geom_bond_distance_min
+_geom_bond_distance_max
+Nb1 O1 . 1.86(9) 1.83(10) 1.91(10)
+Nb1 O1 2_55555 1.86(9) 1.83(10) 1.91(10)
+Nb1 O2 . 1.85(8) 1.79(10) 1.91(10)
+Nb1 O2 2_55555 1.85(8) 1.79(10) 1.91(10)
+loop_
+_pd_proc_info_excluded_regions
+'from 0.003 to 2.940'
+'from 20 to 31.997'
+loop_
+_restr_distance_atom_site_label_1
+_restr_distance_atom_site_label_2
+_restr_distance_target
+_restr_distance_target_weight_param
+W1 O1 1.8266 0.1
+W1 O2 1.8266 0.1
+Nb1 O2 1.8266 0.1
+Nb1 O1 1.8266 0.1
+loop_
+_jana_atom_site_occ_fourier_absolute_site_label
+_jana_atom_site_occ_fourier_absolute
+Nb1 0.88
+W1 0.12

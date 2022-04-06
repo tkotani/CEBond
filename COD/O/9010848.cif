@@ -1,0 +1,66 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-16 14:49:47 +0200 (Tue, 16 Feb 2016) $
+#$Revision: 176465 $
+#$URL: svn://www.crystallography.net/cod/cif/9/01/08/9010848.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9010848
+loop_
+_publ_author_name
+'Troitzsch, U.'
+'Christy, A. G.'
+'Ellis, D. J.'
+_publ_section_title
+;
+ The crystal structure of disordered (Zr,Ti)O2 solid solution
+ Sample: XTi = 0.425
+;
+_journal_name_full               'Physics and Chemistry of Minerals'
+_journal_page_first              504
+_journal_page_last               514
+_journal_paper_doi               10.1007/s00269-005-0027-0
+_journal_volume                  32
+_journal_year                    2005
+_chemical_formula_sum            'O2 Ti0.425 Zr0.575'
+_chemical_name_mineral           Srilankite
+_space_group_IT_number           60
+_symmetry_space_group_name_Hall  '-P 2n 2ab'
+_symmetry_space_group_name_H-M   'P b c n'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_length_a                   4.8495
+_cell_length_b                   5.4635
+_cell_length_c                   5.0462
+_cell_volume                     133.700
+_exptl_crystal_density_diffrn    5.206
+_cod_original_formula_sum        '(Zr.575 Ti.425) O2'
+_cod_database_code               9010848
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x,-y,1/2+z
+-x,y,1/2-z
+1/2-x,1/2+y,z
+1/2+x,1/2-y,-z
+1/2+x,1/2+y,1/2-z
+1/2-x,1/2-y,1/2+z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+ZrM 0.00000 0.20150 0.25000 0.57500
+TiM 0.00000 0.20150 0.25000 0.42500
+O 0.27000 0.39900 0.42900 1.00000

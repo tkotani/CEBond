@@ -1,0 +1,136 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-09-10 02:58:36 +0300 (Sun, 10 Sep 2017) $
+#$Revision: 200408 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/8/10/02/8100225.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_8100225
+loop_
+_publ_author_name
+'Crichton, Wilson A.'
+'Grzechnik, Andrzej'
+_publ_section_title
+;
+ Crystal structure of calcium molybdate, CaMoO~4~, a scheelite-type
+ to fergusonite-type transition in powellite at P 15 GPa
+;
+_journal_issue                   4
+_journal_name_full
+'Zeitschrift f\"ur Kristallographie - New Crystal Structures'
+_journal_page_first              337
+_journal_page_last               338
+_journal_volume                  219
+_journal_year                    2004
+_chemical_formula_moiety         'Ca Mo O4'
+_chemical_formula_structural     'Ca Mo O4'
+_chemical_formula_sum            'Ca Mo O4'
+_chemical_formula_weight         200.02
+_chemical_name_common            powellite
+_space_group_IT_number           15
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-I 2ya'
+_symmetry_space_group_name_H-M   'I 1 2/a 1'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.957(20)
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            4
+_cell_length_a                   5.0342(14)
+_cell_length_b                   10.7683(23)
+_cell_length_c                   5.1084(14)
+_cell_measurement_temperature    298
+_cell_volume                     276.88477
+_pd_phase_name                   'CaMoO~4 as fergusonite'
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_geom_bond_publ_flag' value 'N' changed to 'n' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (37 times).
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+
+The following automatic conversions were performed:
+
+'_cell_measurement_temperature' value '298 K' was changed to '298' -
+the value should be numeric and without a unit designator.
+
+Automatic conversion script
+Id: cif_fix_values 1646 2011-03-28 12:23:43Z adriana 
+;
+_cod_original_sg_symbol_H-M      'I 2/a'
+_cod_database_code               8100225
+loop_
+_symmetry_equiv_pos_as_xyz
++x,+y,+z
+-x+1/2,+y,-z
+-x,-y,-z
++x+1/2,-y,+z
++x+1/2,+y+1/2,+z+1/2
+-x,+y+1/2,-z+1/2
+-x+1/2,-y+1/2,-z+1/2
++x,-y+1/2,+z+1/2
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+Ca 0.25 0.6117(13) 0.0 1.0 Uiso 0.01 4 e
+Mo 0.25 0.1216(8) 0.0 1.0 Uiso 0.005 4 e
+O1 0.906(5) 0.9635(22) 0.212(5) 1.0 Uiso 0.02 8 f
+O2 0.500(4) 0.2178(23) 0.824(6) 1.0 Uiso 0.02 8 f
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Ca Ca 3.482(20) . -1_565 n
+Ca Ca 3.482(20) . -1_665 n
+Ca Ca 3.923(21) . -101_564 n
+Ca Ca 3.923(21) . -101_565 n
+Ca Mo 3.5576(11) . 101_454 n
+Ca Mo 3.6174(11) . 101_455 n
+Ca Mo 3.6174(11) . 101_554 n
+Ca Mo 3.5576(11) . 101_555 n
+Ca Mo 3.583(9) . -101_554 n
+Ca Mo 3.583(9) . -101_555 n
+Ca O1 2.319(24) . 101_444 n
+Ca O1 2.319(24) . 102_645 n
+Ca O1 2.396(24) . -101_665 n
+Ca O1 2.396(24) . -102_364 n
+Ca O2 2.392(25) . -1_666 n
+Ca O2 2.392(25) . -2_564 n
+Ca O2 2.388(27) . 101_454 n
+Ca O2 2.388(27) . 102_655 n
+Mo Ca 3.5576(11) . 101_444 n
+Mo Ca 3.6174(11) . 101_445 n
+Mo Ca 3.6174(11) . 101_544 n
+Mo Ca 3.5576(11) . 101_545 n
+Mo Ca 3.583(9) . -101_554 n
+Mo Ca 3.583(9) . -101_555 n
+Mo O1 2.670(23) . 1_445 n
+Mo O1 2.670(23) . 2_645 n
+Mo O1 1.611(26) . -1_665 n
+Mo O1 1.611(26) . -2_565 n
+Mo O2 1.871(27) . 1_554 n
+Mo O2 1.871(27) . 2_556 n
+O1 Ca 2.319(24) . 101_555 n
+O1 Ca 2.396(24) . -101_665 n
+O1 Mo 2.670(23) . 1_665 n
+O1 Mo 1.611(26) . -1_665 n
+O2 Ca 2.392(25) . -1_666 n
+O2 Ca 2.388(27) . 101_545 n
+O2 Mo 1.871(27) . 1_556 n

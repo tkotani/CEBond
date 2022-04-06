@@ -1,0 +1,167 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-21 05:34:46 +0200 (Mon, 21 Mar 2016) $
+#$Revision: 178485 $
+#$URL: svn://www.crystallography.net/cod/cif/4/03/06/4030623.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4030623
+loop_
+_publ_author_name
+'Goubard, F.'
+'Chassaing, J.'
+'Bizot, D.'
+'Quarton, M.'
+_publ_section_title
+;
+ Synthesis, structural and spectroscopic studies of CrIINbIVF6
+;
+_journal_name_full
+'European Journal of Solid State and Inorganic Chemistry'
+_journal_page_first              223
+_journal_page_last               233
+_journal_volume                  31
+_journal_year                    1994
+_chemical_formula_sum            'Cr F6 Nb'
+_chemical_formula_weight         258.91
+_space_group_IT_number           139
+_symmetry_cell_setting           tetragonal
+_symmetry_Int_Tables_number      139
+_symmetry_space_group_name_Hall  '-I 4 2'
+_symmetry_space_group_name_H-M   'I 4/m m m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   5.5402(6)
+_cell_length_b                   5.5402(6)
+_cell_length_c                   8.453(1)
+_cell_volume                     259.45(5)
+_diffrn_ambient_temperature      293
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_type           CuK\a
+_diffrn_radiation_wavelength     1.54178
+_exptl_absorpt_coefficient_mu    35.912
+_exptl_crystal_density_diffrn    3.314
+_exptl_crystal_F_000             238
+_pd_proc_ls_prof_wR_factor       0.112
+_refine_ls_R_I_factor            0.072
+_cod_data_source_file            EJSSIC-1994-31-223-233.cif
+_cod_data_source_block           CrNbF6
+_cod_depositor_comments
+;
+Rietveld refinement, software DBW3.2S
+Apparently, if the interatomic distances given in the
+paper are correct, then the Nb and Cr sites had to
+be permuted
+;
+_cod_original_cell_volume        259.46(6)
+_cod_database_code               4030623
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -y,x,z
+3 -x,-y,z
+4 y,-x,z
+5 x,-y,-z
+6 y,x,-z
+7 -x,y,-z
+8 -y,-x,-z
+9 -x,-y,-z
+10 y,-x,-z
+11 x,y,-z
+12 -y,x,-z
+13 -x,y,z
+14 -y,-x,z
+15 x,-y,z
+16 y,x,z
+17 1/2+x,1/2+y,1/2+z
+18 1/2-y,1/2+x,1/2+z
+19 1/2-x,1/2-y,1/2+z
+20 1/2+y,1/2-x,1/2+z
+21 1/2+x,1/2-y,1/2-z
+22 1/2+y,1/2+x,1/2-z
+23 1/2-x,1/2+y,1/2-z
+24 1/2-y,1/2-x,1/2-z
+25 1/2-x,1/2-y,1/2-z
+26 1/2+y,1/2-x,1/2-z
+27 1/2+x,1/2+y,1/2-z
+28 1/2-y,1/2+x,1/2-z
+29 1/2-x,1/2+y,1/2+z
+30 1/2-y,1/2-x,1/2+z
+31 1/2+x,1/2-y,1/2+z
+32 1/2+y,1/2+x,1/2+z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_thermal_displace_type
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+Nb Nb Uiso 0.00000 0.00000 0.00000 1.000 0.020(3)
+Cr Cr Uiso 0.00000 0.00000 0.50000 1.000 0.0076(13)
+F1 F Uiso 0.244(3) 0.244(3) 0.00000 1.000 0.044(3)
+F2 F Uiso 0.00000 0.00000 0.216(4) 1.000 0.044(3)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Cr Cr -0.1635 2.4439 ' International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+F F 0.0727 0.0534 ' International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Nb Nb -0.1121 2.4826 ' International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+F1 Nb F2 90.00 . . yes
+F1 Nb F1 90.0(7) . 2_555 yes
+F1 Nb F1 180.00 . 3_555 yes
+F1 Nb F1 90.0(7) . 4_555 yes
+F1 Nb F2 90.00 . 5_555 yes
+F1 Nb F2 90.00 2_555 . yes
+F1 Nb F2 90.00 3_555 . yes
+F1 Nb F2 90.00 4_555 . yes
+F2 Nb F2 180.00 . 5_555 yes
+F1 Nb F1 90.0(7) 2_555 3_555 yes
+F1 Nb F1 180.00 2_555 4_555 yes
+F1 Nb F2 90.00 2_555 5_555 yes
+F1 Nb F1 90.0(7) 3_555 4_555 yes
+F1 Nb F2 90.00 3_555 5_555 yes
+F1 Nb F2 90.00 4_555 5_555 yes
+F1 Cr F1 90.0(7) 17_445 18_545 yes
+F1 Cr F1 180.00 17_445 19_555 yes
+F1 Cr F1 90.0(7) 17_445 20_455 yes
+F1 Cr F1 90.0(7) 18_545 19_555 yes
+F1 Cr F1 180.00 18_545 20_455 yes
+F1 Cr F1 90.0(7) 19_555 20_455 yes
+Nb F1 Cr 180.00 . 17_554 yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Nb F1 1.912(17) . yes
+Nb F2 1.83(3) . yes
+Nb F1 1.912(17) 2_555 yes
+Nb F1 1.912(17) 3_555 yes
+Nb F1 1.912(17) 4_555 yes
+Nb F2 1.83(3) 5_555 yes
+Cr F1 2.006(17) 17_445 yes
+Cr F1 2.006(17) 18_545 yes
+Cr F1 2.006(17) 19_555 yes
+Cr F1 2.006(17) 20_455 yes

@@ -1,0 +1,426 @@
+#------------------------------------------------------------------------------
+#$Date: 2019-02-01 01:01:57 +0200 (Fri, 01 Feb 2019) $
+#$Revision: 213409 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/7/12/29/7122920.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7122920
+loop_
+_publ_author_name
+'Colmont, Marie'
+'Lemoine, Kevin'
+'Roussel, Pascal'
+'Kabbour, Houria'
+'Olchowka, Jacob'
+'Henry, Natacha'
+'Hagemann, Hans'
+'Mentr\'e, Olivier'
+_publ_section_title
+;
+ Identification and optical features of the Pb4Ln2O7 series (Ln = La, Gd,
+ Sm, Nd), genuine 2D-van der Waals oxides.
+;
+_journal_name_full               'Chemical Communications'
+_journal_paper_doi               10.1039/C8CC07707J
+_journal_year                    2019
+_chemical_formula_moiety         'La2 O7 Pb4'
+_chemical_formula_sum            'La2 O7 Pb4'
+_chemical_formula_weight         1218.61
+_space_group_IT_number           2
+_symmetry_cell_setting           triclinic
+_symmetry_space_group_name_Hall  '-P 1'
+_symmetry_space_group_name_H-M   'P -1'
+_atom_sites_solution_hydrogens   difmap
+_atom_sites_solution_primary     direct
+_audit_update_record
+;
+2018-09-25 deposited with the CCDC.
+2019-01-31 downloaded from the CCDC.
+;
+_cell_angle_alpha                72.574(10)
+_cell_angle_beta                 84.285(10)
+_cell_angle_gamma                61.737(10)
+_cell_formula_units_Z            2
+_cell_length_a                   7.7054(10)
+_cell_length_b                   7.7262(10)
+_cell_length_c                   10.1822(10)
+_cell_measurement_reflns_used    9593
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      26.29
+_cell_measurement_theta_min      3.01
+_cell_volume                     508.77(12)
+_computing_cell_refinement       'USER DEFINED CELL REFINEMENT'
+_computing_data_collection       'USER DEFINED DATA COLLECTION'
+_computing_data_reduction        'USER DEFINED DATA REDUCTION'
+_computing_molecular_graphics    'CAMERON (Watkin et al., 1996)'
+_computing_publication_material  'CRYSTALS (Betteridge et al., 2003)'
+_computing_structure_refinement  'CRYSTALS (Betteridge et al., 2003)'
+_computing_structure_solution    'SHELXS 86 (Sheldrick, 1986)'
+_diffrn_ambient_temperature      293
+_diffrn_measured_fraction_theta_full 0.977
+_diffrn_measured_fraction_theta_max 0.971
+_diffrn_measurement_device       Serial
+_diffrn_measurement_device_type  'Bruker SMART APEX2 area detector'
+_diffrn_measurement_method       '\w and \f scans'
+_diffrn_radiation_monochromator  'mirror optics'
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.050
+_diffrn_reflns_limit_h_max       9
+_diffrn_reflns_limit_h_min       -9
+_diffrn_reflns_limit_k_max       9
+_diffrn_reflns_limit_k_min       -8
+_diffrn_reflns_limit_l_max       12
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            2046
+_diffrn_reflns_theta_full        25.930
+_diffrn_reflns_theta_max         26.459
+_diffrn_reflns_theta_min         2.099
+_diffrn_standards_number         0
+_exptl_absorpt_coefficient_mu    74.151
+_exptl_absorpt_correction_T_max  1.0000
+_exptl_absorpt_correction_T_min  0.3922
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details
+;
+SADABS-2012/1 (Bruker,2012) was used for absorption correction.
+wR2(int) was 0.1722 before and 0.0793 after correction.
+The Ratio of minimum to maximum transmission is 0.3922.
+The \l/2 correction factor is 0.0015.
+;
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    7.954
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       plate
+_exptl_crystal_F_000             996
+_exptl_crystal_size_max          0.126
+_exptl_crystal_size_mid          0.095
+_exptl_crystal_size_min          0.005
+_refine_diff_density_max         7.04
+_refine_diff_density_min         -4.45
+_refine_ls_extinction_coef       0.77(19)
+_refine_ls_extinction_method     'Larson (1970), Equation 22'
+_refine_ls_goodness_of_fit_ref   0.9535
+_refine_ls_hydrogen_treatment    noref
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     84
+_refine_ls_number_reflns         1707
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          0.0518
+_refine_ls_R_factor_gt           0.0465
+_refine_ls_shift/su_max          0.0004404
+_refine_ls_shift/su_mean         0.0000431
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details
+;
+ Method, part 1, Chebychev polynomial, (Watkin, 1994, Prince, 1982) 
+ [weight] = 1.0/[A~0~*T~0~(x)+A~1~*T~1~(x) ... +A~n-1~]*T~n-1~(x)] 
+ where A~i~ are the Chebychev coefficients listed below and x= Fcalc/Fmax 
+ Method = Robust Weighting (Prince, 1982) 
+ W = [weight] * [1-(deltaF/6*sigmaF)^2^]^2^ 
+ A~i~ are: 
+ 0.517 0.410 0.345 
+;
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         0.0437
+_refine_ls_wR_factor_gt          0.0405
+_refine_ls_wR_factor_ref         0.0401
+_reflns_limit_h_max              9
+_reflns_limit_h_min              -9
+_reflns_limit_k_max              9
+_reflns_limit_k_min              -8
+_reflns_limit_l_max              12
+_reflns_limit_l_min              0
+_reflns_number_gt                1780
+_reflns_number_total             2046
+_reflns_threshold_expression     I>2.0\s(I)
+_oxford_diffrn_Wilson_B_factor   0.00
+_oxford_diffrn_Wilson_scale      0.00
+_oxford_refine_ls_r_factor_ref   0.0454
+_oxford_refine_ls_scale          0.04358(13)
+_oxford_reflns_number_all        2038
+_oxford_reflns_threshold_expression_ref I>0.0\s(I)
+_cod_data_source_file            c8cc07707j2.cif
+_cod_data_source_block           1
+_cod_original_sg_symbol_H-M      'P -1 '
+_cod_database_code               7122920
+_iucr_refine_instruction_details_constraints
+;
+#
+# Punched on 20/01/16 at 15:49:02
+#
+#LIST     12                                                                    
+BLOCK 
+CONT SCALE 
+CONT PB   (    1 ,X'S,U'S)  UNTIL LA   (    2 ) 
+CONT O    (    3 ,X'S,U[ISO]) 
+CONT LA   (    4 ,X'S,U'S)  UNTIL PB   (    5 ) 
+CONT O    (    6 ,X'S,U[ISO])  UNTIL O    (    7 ) 
+CONT PB   (    8 ,X'S,U'S) 
+CONT O    (    9 ,X'S,U[ISO])  UNTIL O    (   11 ) 
+CONT PB   (   12 ,X'S,U'S) 
+CONT O    (   13 ,X'S,U[ISO]) 
+CONT EXTPARAM 
+END                                                                             
+;
+_iucr_refine_instruction_details_restraints
+;
+#
+# Punched on 20/01/16 at 15:49:02
+#
+#LIST     16                                                                    
+NO 
+REM   HREST   START (DO NOT REMOVE THIS LINE) 
+REM   HREST   END (DO NOT REMOVE THIS LINE) 
+END                                                                             
+;
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+_atom_site_adp_type
+Pb1 Pb 0.66399(8) 1.05583(9) 0.18652(6) 0.0131 1.0000 Uani
+La1 La 0.50161(13) 0.76140(13) 0.46814(9) 0.0104 1.0000 Uani
+La2 La 1.00997(13) 0.73875(14) 0.53296(9) 0.0103 1.0000 Uani
+O2 O 1.3672(15) 0.5612(15) 0.6119(10) 0.0097(19) 1.0000 Uiso
+Pb3 Pb 0.82024(9) 0.90149(8) 0.84377(6) 0.0150 1.0000 Uani
+O4 O 0.4665(16) 1.1514(17) 0.7919(11) 0.017(2) 1.0000 Uiso
+O5 O 0.8543(16) 1.0439(16) 0.6258(11) 0.015(2) 1.0000 Uiso
+O6 O 0.6465(19) 0.7458(19) 0.8096(13) 0.024(3) 1.0000 Uiso
+Pb4 Pb 0.85298(9) 0.43214(9) 0.81392(6) 0.0135 1.0000 Uani
+O7 O 0.8330(16) 0.5261(17) 0.5886(11) 0.015(2) 1.0000 Uiso
+O1 O 0.6845(16) 0.9632(16) 0.4132(11) 0.013(2) 1.0000 Uiso
+Pb2 Pb 1.36596(9) 0.44614(9) 0.83582(6) 0.0125 1.0000 Uani
+O3 O 1.0477(17) 0.5734(17) 0.7929(12) 0.018(2) 1.0000 Uiso
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Pb1 0.0108(3) 0.0128(3) 0.0170(3) -0.0051(2) 0.0045(2) -0.0066(2)
+La1 0.0072(4) 0.0087(4) 0.0167(4) -0.0051(3) 0.0028(3) -0.0044(3)
+La2 0.0075(4) 0.0095(4) 0.0159(4) -0.0060(3) 0.0021(3) -0.0044(3)
+Pb2 0.0108(3) 0.0126(3) 0.0141(3) -0.0053(2) 0.0005(2) -0.0045(2)
+Pb3 0.0149(3) 0.0154(3) 0.0140(3) -0.0056(2) 0.0009(2) -0.0058(3)
+Pb4 0.0124(3) 0.0109(3) 0.0168(3) -0.0035(2) 0.0027(2) -0.0058(3)
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_Cromer_Mann_a1
+_atom_type_scat_Cromer_Mann_b1
+_atom_type_scat_Cromer_Mann_a2
+_atom_type_scat_Cromer_Mann_b2
+_atom_type_scat_Cromer_Mann_a3
+_atom_type_scat_Cromer_Mann_b3
+_atom_type_scat_Cromer_Mann_a4
+_atom_type_scat_Cromer_Mann_b4
+_atom_type_scat_Cromer_Mann_c
+_atom_type_scat_source
+O 0.0106 0.0060 3.0485 13.2771 2.2868 5.7011 1.5463 0.3239 0.8670 32.9089
+0.2508 'International Tables Vol C 4.2.6.8 and 6.1.1.4'
+La -0.2871 2.4523 20.5780 2.9482 19.5990 0.2445 11.3727 18.7726 3.2872 133.1240
+2.1468 'International Tables Vol C 4.2.6.8 and 6.1.1.4'
+Pb -3.3944 10.1111 31.0617 0.6902 13.0637 2.3576 18.4420 8.6180 5.9696 47.2579
+13.4118 'International Tables Vol C 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_site_symmetry_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O4 2_676 Pb1 O6 2_676 77.0(4) yes
+O4 2_676 Pb1 La1 . 44.2(3) yes
+O6 2_676 Pb1 La1 . 75.9(3) yes
+O4 2_676 Pb1 O1 . 86.1(4) yes
+O6 2_676 Pb1 O1 . 89.5(4) yes
+La1 . Pb1 O1 . 42.3(3) yes
+Pb1 . La1 Pb2 2_766 67.14(2) yes
+Pb1 . La1 O2 2_766 97.8(2) yes
+Pb2 2_766 La1 O2 2_766 34.6(2) yes
+Pb1 . La1 O4 2_676 37.3(2) yes
+Pb2 2_766 La1 O4 2_676 34.9(2) yes
+O2 2_766 La1 O4 2_676 69.5(3) yes
+Pb1 . La1 O5 2_676 93.8(2) yes
+Pb2 2_766 La1 O5 2_676 87.8(2) yes
+O2 2_766 La1 O5 2_676 101.6(3) yes
+O4 2_676 La1 O5 2_676 76.7(4) yes
+Pb1 . La1 O1 2_676 97.2(2) yes
+Pb2 2_766 La1 O1 2_676 154.2(2) yes
+O2 2_766 La1 O1 2_676 164.1(3) yes
+O4 2_676 La1 O1 2_676 121.6(4) yes
+O5 2_676 La1 O1 2_676 72.4(3) yes
+Pb1 . La1 O2 1_455 167.4(2) yes
+Pb2 2_766 La1 O2 1_455 102.3(2) yes
+O2 2_766 La1 O2 1_455 74.4(4) yes
+O4 2_676 La1 O2 1_455 130.3(3) yes
+O5 2_676 La1 O2 1_455 78.5(3) yes
+Pb1 . La1 O1 . 36.7(2) yes
+Pb2 2_766 La1 O1 . 98.2(2) yes
+O2 2_766 La1 O1 . 118.8(3) yes
+O4 2_676 La1 O1 . 73.6(3) yes
+O5 2_676 La1 O1 . 115.3(3) yes
+Pb1 . La1 O7 . 96.1(3) yes
+Pb2 2_766 La1 O7 . 94.1(3) yes
+O2 2_766 La1 O7 . 74.8(3) yes
+O4 2_676 La1 O7 . 110.2(4) yes
+O5 2_676 La1 O7 . 169.8(4) yes
+O1 2_676 La1 O2 1_455 89.9(3) yes
+O1 2_676 La1 O1 . 76.7(4) yes
+O2 1_455 La1 O1 . 155.8(3) yes
+O1 2_676 La1 O7 . 108.4(3) yes
+O2 1_455 La1 O7 . 91.3(4) yes
+O1 . La1 O7 . 74.4(4) yes
+Pb1 . O1 La1 2_676 117.8(4) yes
+Pb1 . O1 La1 . 100.9(4) yes
+La1 2_676 O1 La1 . 103.3(4) yes
+Pb1 . O1 La2 . 118.9(5) yes
+La1 2_676 O1 La2 . 107.2(4) yes
+La1 . O1 La2 . 106.6(4) yes
+O5 2_776 La2 O7 2_766 91.7(4) yes
+O5 2_776 La2 O1 . 90.5(3) yes
+O7 2_766 La2 O1 . 103.2(4) yes
+O5 2_776 La2 Pb2 . 104.5(2) yes
+O7 2_766 La2 Pb2 . 95.3(3) yes
+O1 . La2 Pb2 . 155.8(3) yes
+O5 2_776 La2 O2 . 76.2(3) yes
+O7 2_766 La2 O2 . 76.3(3) yes
+O1 . La2 O2 . 166.6(3) yes
+Pb2 . La2 O2 . 34.8(2) yes
+O5 2_776 La2 O3 . 133.1(3) yes
+O7 2_766 La2 O3 . 110.4(4) yes
+O1 . La2 O3 . 121.6(4) yes
+Pb2 . La2 O3 . 35.4(3) yes
+O2 . La2 O3 . 70.1(3) yes
+O5 2_776 La2 O5 . 80.7(4) yes
+O7 2_766 La2 O5 . 171.8(4) yes
+O1 . La2 O5 . 74.0(3) yes
+Pb2 . La2 O5 . 89.6(2) yes
+O2 . La2 O5 . 104.5(3) yes
+O5 2_776 La2 Pb4 . 169.5(2) yes
+O7 2_766 La2 Pb4 . 94.6(3) yes
+O1 . La2 Pb4 . 96.2(2) yes
+Pb2 . La2 Pb4 . 66.59(2) yes
+O2 . La2 Pb4 . 97.2(2) yes
+O5 2_776 La2 O7 . 154.3(3) yes
+O7 2_766 La2 O7 . 72.2(4) yes
+O1 . La2 O7 . 74.6(4) yes
+Pb2 . La2 O7 . 96.9(2) yes
+O2 . La2 O7 . 117.2(3) yes
+O3 . La2 O5 . 77.3(4) yes
+O3 . La2 Pb4 . 36.6(2) yes
+O5 . La2 Pb4 . 93.4(2) yes
+O3 . La2 O7 . 72.3(3) yes
+O5 . La2 O7 . 113.9(3) yes
+Pb4 . La2 O7 . 36.1(2) yes
+La2 . Pb2 La1 2_766 63.42(2) yes
+La2 . Pb2 O4 1_645 93.0(3) yes
+La1 2_766 Pb2 O4 1_645 41.4(3) yes
+La2 . Pb2 O2 . 41.0(3) yes
+La1 2_766 Pb2 O2 . 41.7(3) yes
+O4 1_645 Pb2 O2 . 83.1(4) yes
+La2 . Pb2 O3 . 42.1(3) yes
+La1 2_766 Pb2 O3 . 92.6(3) yes
+O4 1_645 Pb2 O3 . 98.2(4) yes
+O2 . Pb2 O3 . 83.0(4) yes
+La1 2_766 O2 Pb2 . 103.6(4) yes
+La1 2_766 O2 La2 . 101.1(3) yes
+Pb2 . O2 La2 . 104.2(4) yes
+La1 2_766 O2 La1 1_655 105.6(4) yes
+Pb2 . O2 La1 1_655 133.0(4) yes
+La2 . O2 La1 1_655 105.3(4) yes
+La2 . O3 Pb2 . 102.6(4) yes
+La2 . O3 Pb3 . 93.6(4) yes
+Pb2 . O3 Pb3 . 118.1(4) yes
+La2 . O3 Pb4 . 99.7(4) yes
+Pb2 . O3 Pb4 . 133.0(5) yes
+Pb3 . O3 Pb4 . 101.0(4) yes
+O3 . Pb3 O4 . 135.4(4) yes
+O3 . Pb3 O5 . 84.4(4) yes
+O4 . Pb3 O5 . 84.4(4) yes
+O3 . Pb3 O6 . 69.9(4) yes
+O4 . Pb3 O6 . 69.4(4) yes
+O5 . Pb3 O6 . 98.8(4) yes
+Pb3 . O4 La1 2_676 94.1(4) yes
+Pb3 . O4 Pb1 2_676 101.1(4) yes
+La1 2_676 O4 Pb1 2_676 98.5(4) yes
+Pb3 . O4 Pb2 1_465 116.6(4) yes
+La1 2_676 O4 Pb2 1_465 103.6(4) yes
+Pb1 2_676 O4 Pb2 1_465 134.1(5) yes
+Pb3 . O5 La1 2_676 101.1(4) yes
+Pb3 . O5 La2 . 101.6(4) yes
+La1 2_676 O5 La2 . 104.7(4) yes
+Pb3 . O5 La2 2_776 145.3(5) yes
+La1 2_676 O5 La2 2_776 100.0(4) yes
+La2 . O5 La2 2_776 99.3(4) yes
+Pb3 . O6 Pb1 2_676 109.5(5) yes
+Pb3 . O6 Pb4 . 108.5(5) yes
+Pb1 2_676 O6 Pb4 . 141.2(6) yes
+La2 . Pb4 O3 . 43.7(3) yes
+La2 . Pb4 O6 . 76.2(3) yes
+O3 . Pb4 O6 . 77.6(4) yes
+La2 . Pb4 O7 . 42.5(3) yes
+O3 . Pb4 O7 . 85.8(4) yes
+O6 . Pb4 O7 . 89.1(4) yes
+Pb4 . O7 La2 . 101.3(4) yes
+Pb4 . O7 La1 . 118.5(5) yes
+La2 . O7 La1 . 104.3(4) yes
+Pb4 . O7 La2 2_766 119.0(5) yes
+La2 . O7 La2 2_766 107.8(4) yes
+La1 . O7 La2 2_766 104.4(4) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Pb1 O4 2_676 2.212(10) yes
+Pb1 O6 2_676 2.149(13) yes
+Pb1 La1 . 3.6107(10) yes
+Pb1 O1 . 2.200(10) yes
+La1 Pb2 2_766 3.7397(11) yes
+La1 O2 2_766 2.562(10) yes
+La1 O4 2_676 2.546(11) yes
+La1 O5 2_676 2.540(11) yes
+La1 O1 2_676 2.520(11) yes
+La1 O2 1_455 2.338(10) yes
+La1 O1 . 2.476(10) yes
+La1 O7 . 2.494(11) yes
+O1 La2 . 2.451(10) yes
+La2 O5 2_776 2.495(11) yes
+La2 O7 2_766 2.462(11) yes
+La2 Pb2 . 3.7123(12) yes
+La2 O2 . 2.512(10) yes
+La2 O3 . 2.549(11) yes
+La2 O5 . 2.514(11) yes
+La2 Pb4 . 3.6366(10) yes
+La2 O7 . 2.508(11) yes
+Pb2 O4 1_645 2.203(11) yes
+Pb2 O2 . 2.186(10) yes
+Pb2 O3 . 2.201(11) yes
+O3 Pb3 . 2.483(11) yes
+O3 Pb4 . 2.198(11) yes
+Pb3 O4 . 2.476(11) yes
+Pb3 O5 . 2.214(11) yes
+Pb3 O6 . 2.287(12) yes
+O6 Pb4 . 2.169(13) yes
+Pb4 O7 . 2.186(11) yes

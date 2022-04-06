@@ -1,0 +1,90 @@
+#------------------------------------------------------------------------------
+#$Date: 2015-01-27 21:58:39 +0200 (Tue, 27 Jan 2015) $
+#$Revision: 130149 $
+#$URL: svn://www.crystallography.net/cod/cif/1/00/15/1001501.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1001501
+loop_
+_publ_author_name
+'Benloucif, R'
+'Nguyen, N'
+'Caignaert, V'
+'Raveau, B'
+_publ_section_title
+;
+The solid solution Nd~2-x~Y~x~BaNiO~5~, a progressive transition from a
+tridimensional to an unidimensional anti-ferromagnetic state
+;
+_journal_coden_ASTM              MRBUAC
+_journal_name_full               'Materials Research Bulletin'
+_journal_page_first              213
+_journal_page_last               218
+_journal_paper_doi               10.1016/0025-5408(91)90012-B
+_journal_volume                  26
+_journal_year                    1991
+_chemical_formula_structural     'Y2 Ba (Ni O5)'
+_chemical_formula_sum            'Ba Ni O5 Y2'
+_chemical_name_systematic        'Diyttrium barium niccolate'
+_space_group_IT_number           71
+_symmetry_cell_setting           orthorhombic
+_symmetry_Int_Tables_number      71
+_symmetry_space_group_name_Hall  '-I 2 2'
+_symmetry_space_group_name_H-M   'I m m m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   3.760(1)
+_cell_length_b                   5.762(1)
+_cell_length_c                   11.339(1)
+_cell_volume                     245.7
+_refine_ls_R_factor_all          0.053
+_cod_database_code               1001501
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x,-y,-z
+-x,y,-z
+-x,-y,z
+-x,-y,-z
+-x,y,z
+x,-y,z
+x,y,-z
+1/2+x,1/2+y,1/2+z
+1/2+x,1/2-y,1/2-z
+1/2-x,1/2+y,1/2-z
+1/2-x,1/2-y,1/2+z
+1/2-x,1/2-y,1/2-z
+1/2-x,1/2+y,1/2+z
+1/2+x,1/2-y,1/2+z
+1/2+x,1/2+y,1/2-z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_calc_flag
+Y1 Y3+ 4 j 0.5 0. 0.7022(1) 1. 0 d
+Ba1 Ba2+ 2 a 0. 0. 0. 1. 0 d
+Ni1 Ni2+ 2 c 0.5 0.5 0. 1. 0 d
+O1 O2- 8 l 0. 0.7599(12) 0.3504(5) 1. 0 d
+O2 O2- 2 d 0.5 0. 0.5 1. 0 d
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Y3+ 3.000
+Ba2+ 2.000
+Ni2+ 2.000
+O2- -2.000

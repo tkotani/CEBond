@@ -1,0 +1,86 @@
+cif name= ./1010382.cif
+./1010382.cif
+Full Formula (Pb4 O2)
+Reduced Formula: Pb2O
+abc   :   5.380000   5.380000   5.380000
+angles:  90.000000  90.000000  90.000000
+Sites (6)
+  #  SP       a     b     c
+---  ----  ----  ----  ----
+  0  Pb0+  0.25  0.25  0.25
+  1  Pb0+  0.25  0.75  0.75
+  2  Pb0+  0.75  0.25  0.75
+  3  Pb0+  0.75  0.75  0.25
+  4  O0+   0     0     0
+  5  O0+   0.5   0.5   0.5
+
+space_group_IT_number 201
+
+*** lse ***
+
+
+**isite= 0
+Pb0+1 : [1.345 1.345 1.345]
+
+ce_symbol  = L:2
+ce_fraction=  1.0
+species:coords:index
+O0+1 : [0. 0. 0.] : 4
+O0+1 : [2.69 2.69 2.69] : 5
+
+
+**isite= 1
+Pb0+1 : [1.345 4.035 4.035]
+
+ce_symbol  = L:2
+ce_fraction=  1.0
+species:coords:index
+O0+1 : [0.   5.38 5.38] : 4
+O0+1 : [2.69 2.69 2.69] : 5
+
+
+**isite= 2
+Pb0+1 : [4.035 1.345 4.035]
+
+ce_symbol  = L:2
+ce_fraction=  1.0
+species:coords:index
+O0+1 : [2.69 2.69 2.69] : 5
+O0+1 : [5.38 0.   5.38] : 4
+
+
+**isite= 3
+Pb0+1 : [4.035 4.035 1.345]
+
+ce_symbol  = L:2
+ce_fraction=  1.0
+species:coords:index
+O0+1 : [2.69 2.69 2.69] : 5
+O0+1 : [5.38 5.38 0.  ] : 4
+
+
+**isite= 4
+O0+1 : [0. 0. 0.]
+
+ce_symbol  = T:4
+ce_fraction=  1.0
+species:coords:index
+Pb0+1 : [-1.345 -1.345  1.345] : 3
+Pb0+1 : [ 1.345 -1.345 -1.345] : 1
+Pb0+1 : [1.345 1.345 1.345] : 0
+Pb0+1 : [-1.345  1.345 -1.345] : 2
+
+
+**isite= 5
+O0+1 : [2.69 2.69 2.69]
+
+ce_symbol  = T:4
+ce_fraction=  1.0
+species:coords:index
+Pb0+1 : [1.345 4.035 4.035] : 1
+Pb0+1 : [4.035 1.345 4.035] : 2
+Pb0+1 : [4.035 4.035 1.345] : 3
+Pb0+1 : [1.345 1.345 1.345] : 0
+
+END
+

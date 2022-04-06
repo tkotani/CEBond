@@ -1,0 +1,385 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 22:30:07 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176789 $
+#$URL: svn://www.crystallography.net/cod/cif/2/22/32/2223288.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2223288
+loop_
+_publ_author_name
+'Komori, Takashi'
+'Sakakura, Terutoshi'
+'Takenaka, Yasuyuki'
+'Tanaka, Kiyoaki'
+'Okuda, Takashi'
+_publ_section_title
+;
+ Trineodymium(III) pentairon(III) dodecaoxide, Nd~3~Fe~5~O~12~
+;
+_journal_coeditor_code           BR2118
+_journal_issue                   10
+_journal_name_full               'Acta Crystallographica Section E'
+_journal_page_first              i72
+_journal_paper_doi               10.1107/S1600536809036794
+_journal_volume                  65
+_journal_year                    2009
+_chemical_formula_iupac          'Nd3 Fe5 O12'
+_chemical_formula_moiety         'Fe5 Nd3 O12'
+_chemical_formula_sum            'Fe5 Nd3 O12'
+_chemical_formula_weight         903.97
+_chemical_name_common            'Neodium Iron Garnet'
+_chemical_name_systematic
+;
+Trineodymium(III) pentairon(III) dodecaoxide
+;
+_space_group_IT_number           230
+_symmetry_cell_setting           cubic
+_symmetry_space_group_name_Hall  '-I 4bd 2c 3'
+_symmetry_space_group_name_H-M   'I a -3 d'
+_atom_sites_solution_primary     isomor
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            8
+_cell_length_a                   12.6128(2)
+_cell_length_b                   12.6128(2)
+_cell_length_c                   12.6128(2)
+_cell_measurement_reflns_used    24
+_cell_measurement_temperature    298.0(10)
+_cell_measurement_theta_max      42.37
+_cell_measurement_theta_min      35.72
+_cell_volume                     2006.48(6)
+_computing_cell_refinement
+;
+RSLC-3 UNICS system (Sakurai & Kobayashi, 1979)
+;
+_computing_data_collection
+;
+AFC-5, specially designed for PF-BL14A (Rigaku Corporation, 1984)
+and IUANGLE (Tanaka <i>et al.</i>, 1994).
+;
+_computing_data_reduction        'RDEDIT (Tanaka, 2008)'
+_computing_molecular_graphics    'ATOMS for Windows (Dowty, 2000)'
+_computing_publication_material  'RDEDIT (Tanaka, 2008)'
+_computing_structure_refinement  'QNTAO (Tanaka <i>et al.</i>, 2008)'
+_computing_structure_solution    'QNTAO (Tanaka <i>et al.</i>, 2008)'
+_diffrn_ambient_temperature      298.0(10)
+_diffrn_detector_area_resol_mean '1.25\\times1.25 degrees'
+_diffrn_measured_fraction_theta_max 1.0
+_diffrn_measurement_device_type  'Rigaku AFC four-circle diffractometer'
+_diffrn_measurement_method       \w/2\q
+_diffrn_radiation_monochromator  'Si 111'
+_diffrn_radiation_type           synchrotron
+_diffrn_radiation_wavelength     0.67171
+_diffrn_reflns_av_R_equivalents  0.01736
+_diffrn_reflns_limit_h_max       30
+_diffrn_reflns_limit_h_min       -8
+_diffrn_reflns_limit_k_max       30
+_diffrn_reflns_limit_k_min       -8
+_diffrn_reflns_limit_l_max       30
+_diffrn_reflns_limit_l_min       -8
+_diffrn_reflns_number            6653
+_diffrn_reflns_theta_max         53.872
+_diffrn_reflns_theta_min         3.740
+_diffrn_standards_decay_%        0
+_diffrn_standards_interval_count 50
+_diffrn_standards_number         9
+_exptl_absorpt_coefficient_mu    18.298
+_exptl_absorpt_correction_T_max  0.5273
+_exptl_absorpt_correction_T_min  0.5018
+_exptl_absorpt_correction_type   sphere
+_exptl_absorpt_process_details
+;
+Transmission coefficients for spheres tabulated in International Tables
+C (1992\\bbr00), Table 6.3.3.3, were interpolated with Lagrange's method
+(four point interpolation; Yamauchi <i>et al.</i>, 1965).
+;
+_exptl_crystal_colour            black
+_exptl_crystal_density_diffrn    5.985
+_exptl_crystal_description       sphere
+_exptl_crystal_F_000             3248
+_exptl_crystal_size_rad          0.025
+_refine_diff_density_max         1.61
+_refine_diff_density_min         -1.75
+_refine_ls_extinction_coef       0.308(5)
+_refine_ls_extinction_method
+'(B-C type 1 Gaussian anisotropic; Becker & Coppens (1975)'
+_refine_ls_goodness_of_fit_ref   1.421
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     23
+_refine_ls_number_reflns         6653
+_refine_ls_R_factor_gt           0.0157
+_refine_ls_shift/su_max          0.00314
+_refine_ls_shift/su_mean         0.00019
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_gt          0.0182
+_refine_ls_wR_factor_ref         0.0182
+_reflns_number_gt                1159
+_reflns_number_total             1159
+_reflns_threshold_expression     F>3\s(F)
+_cod_data_source_file            br2118.cif
+_cod_data_source_block           I
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_geom_bond_publ_flag' value 'N' changed to 'n' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (14
+times).
+
+'_geom_angle_publ_flag' value 'N' changed to 'n' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (12
+times).
+
+'_geom_angle_publ_flag' value 'Y' changed to 'y' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (2 times).
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+
+The following automatic conversions were performed:
+
+'_geom_bond_publ_flag' value 'N' changed to 'n' according to
+/home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (14
+times).
+
+'_geom_angle_publ_flag' value 'N' changed to 'n' according
+to /home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary
+named 'cif_core.dic' version 2.4.1 from 2010-06-29 (12
+times).
+
+'_geom_angle_publ_flag' value 'Y' changed to 'y' according
+to /home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary
+named 'cif_core.dic' version 2.4.1 from 2010-06-29 (2 times).
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_database_code               2223288
+_cod_database_fobs_code          2223288
+loop_
+_symmetry_equiv_pos_as_xyz
+' x     , y     , Z    '
+'-x+1/2 ,-y     , z+1/2'
+'-x     , y+1/2 ,-z+1/2'
+' x+1/2 ,-y+1/2 ,-z    '
+' z     , x     , y    '
+' z+1/2 ,-x+1/2 ,-y    '
+'-z+1/2 ,-x     , y+1/2'
+'-z     , x+1/2 ,-y+1/2'
+' y     , z     , x    '
+'-y     , z+1/2 ,-x+1/2'
+' y+1/2 ,-z+1/2 ,-x    '
+'-y+1/2 ,-z     , x+1/2'
+' y+3/4 , x+1/4 ,-z+1/4'
+'-y+3/4 ,-x+3/4 ,-z+3/4'
+' y+1/4 ,-x+1/4 , z+3/4'
+'-y+1/4 , x+3/4 , z+1/4'
+' x+3/4 , z+1/4 ,-y+1/4'
+'-x+1/4 , z+3/4 , y+1/4'
+'-x+3/4 ,-z+3/4 ,-y+3/4'
+' x+1/4 ,-z+1/4 , y+3/4'
+' z+3/4 , y+1/4 ,-x+1/4'
+' z+1/4 ,-y+1/4 , x+3/4'
+'-z+1/4 , y+3/4 , x+1/4'
+'-z+3/4 ,-y+3/4 ,-x+3/4'
+'-x     ,-y     ,-z    '
+' x+1/2 , y     ,-z+1/2'
+' x     ,-y+1/2 , z+1/2'
+'-x+1/2 , y+1/2 , z    '
+'-z     ,-x     ,-y    '
+'-z+1/2 , x+1/2 , y    '
+' z+1/2 , x     ,-y+1/2'
+' z     ,-x+1/2 , y+1/2'
+'-y     ,-z     ,-x    '
+' y     ,-z+1/2 , x+1/2'
+'-y+1/2 , z+1/2 , x    '
+' y+1/2 , z     ,-x+1/2'
+'-y+1/4 ,-x+3/4 , z+3/4'
+' y+1/4 , x+1/4 , z+1/4'
+'-y+3/4 , x+3/4 ,-z+1/4'
+' y+3/4 ,-x+1/4 ,-z+3/4'
+'-x+1/4 ,-z+3/4 , y+3/4'
+' x+3/4 ,-z+1/4 ,-y+3/4'
+' x+1/4 , z+1/4 , y+1/4'
+'-x+3/4 , z+3/4 ,-y+1/4'
+'-z+1/4 ,-y+3/4 , x+3/4'
+'-z+3/4 , y+3/4 ,-x+1/4'
+' z+3/4 ,-y+1/4 ,-x+3/4'
+' z+1/4 , y+1/4 , x+1/4'
+' x+1/2 , y+1/2 , z+1/2'
+'-x     ,-y+1/2 , z    '
+'-x+1/2 , y     ,-z    '
+' x     ,-y     ,-z+1/2'
+' z+1/2 , x+1/2 , y+1/2'
+' z     ,-x     ,-y+1/2'
+'-z     ,-x+1/2 , y    '
+'-z+1/2 , x     ,-y    '
+' y+1/2 , z+1/2 , x+1/2'
+'-y+1/2 , z     ,-x    '
+' y     ,-z     ,-x+1/2'
+'-y     ,-z+1/2 , x    '
+' y+1/4 , x+3/4 ,-z+3/4'
+'-y+1/4 ,-x+1/4 ,-z+1/4'
+'y+3/4  ,-x+3/4 , z+1/4'
+'-y+3/4 , x+1/4 , z+3/4'
+' x+1/4 , z+3/4 ,-y+3/4'
+'-x+3/4 , z+1/4 , y+3/4'
+'-x+1/4 ,-z+1/4 ,-y+1/4'
+' x+3/4 ,-z+3/4 , y+1/4'
+' z+1/4 , y+3/4 ,-x+3/4'
+' z+3/4 ,-y+3/4 , x+1/4'
+'-z+3/4 , y+1/4 , x+3/4'
+'-z+1/4 ,-y+1/4 ,-x+1/4'
+'-x+1/2 ,-y+1/2 ,-z+1/2'
+' x     , y+1/2 ,-z    '
+' x+1/2 ,-y     , z    '
+'-x     , y     , z+1/2'
+'-z+1/2 ,-x+1/2 ,-y+1/2'
+'-z     , x     , y+1/2'
+' z     , x+1/2 ,-y    '
+' z+1/2 ,-x     , y    '
+'-y+1/2 ,-z+1/2 ,-x+1/2'
+' y+1/2 ,-z     , x    '
+'-y     , z     , x+1/2'
+' y     , z+1/2 ,-x    '
+'-y+3/4 ,-x+1/4 , z+1/4'
+' y+3/4 , x+3/4 , z+3/4'
+'-y+1/4 , x+1/4 ,-z+3/4'
+' y+1/4 ,-x+3/4 ,-z+1/4'
+'-x+3/4 ,-z+1/4 , y+1/4'
+' x+1/4 ,-z+3/4 ,-y+1/4'
+' x+3/4 , z+3/4 , y+3/4'
+'-x+1/4 , z+1/4 ,-y+3/4'
+'-z+3/4 ,-y+1/4 , x+1/4'
+'-z+1/4 , y+1/4 ,-x+3/4'
+' z+1/4 ,-y+3/4 ,-x+1/4'
+' z+3/4 , y+3/4 , x+3/4'
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Nd Nd1 0.125000 0.000000 0.250000 0.005570(10) Uani d S 1 . .
+Fe Fe1 0.000000 0.000000 0.000000 0.005010(10) Uani d S 1 . .
+Fe Fe2 0.375000 0.000000 0.250000 0.005640(10) Uani d S 1 . .
+O O1 -0.029295(2) 0.053092(2) 0.149342(2) 0.00762(5) Uani d . 1 . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+_atom_site_aniso_type_symbol
+Nd1 0.004210(10) 0.005250(10) 0.005250(10) 0 0 0.001210(10) Nd
+Fe1 0.00501(2) 0.00501(2) 0.00501(2) -0.00024(2) -0.00024(2) -0.00024(2) Fe
+Fe2 0.00442(3) 0.00625(2) 0.00625(2) 0 0 0 Fe
+O1 0.00791(8) 0.00880(9) 0.00614(7) -0.00027(7) 0.00102(6) 0.00041(7) O
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Nd Nd -0.6000 2.7308
+;International Tables Vol C Tables 4.2.6.8
+Calculated with a program SFRSCF for each atomic orbital
+calculated with a program HEX by Libermann, Cromer & Waber
+(1971).
+;
+Fe Fe 0.2906 0.7609
+;International Tables Vol C Tables 4.2.6.8
+Calculated with a program SFRSCF for each atomic orbital
+calculated with a program HEX by Libermann, Cromer & Waber
+(1971).
+;
+O O 0.0064 0.0053
+;International Tables Vol C Tables 4.2.6.8
+Calculated with a program SFMANN for each atomic orbital
+from atomic orbitals
+by Mann (1968)
+;
+loop_
+_diffrn_standard_refln_index_h
+_diffrn_standard_refln_index_k
+_diffrn_standard_refln_index_l
+8 8 0
+8 0 8
+0 8 8
+20 10 0
+0 20 10
+10 0 20
+22 20 0
+0 22 20
+20 0 22
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O1 Nd1 O1 1_555 1_555 5_555 67.830(10) n
+O1 Nd1 O1 1_555 1_555 52_555 72.820(10) n
+O1 Nd1 O1 1_555 1_555 54_555 124.940(10) n
+O1 Nd1 O1 1_555 1_555 67_555 110.910(10) n
+O1 Nd1 O1 1_555 1_555 72_555 72.970(10) n
+O1 Nd1 O1 1_555 1_555 18_545 159.790(10) n
+O1 Nd1 O1 1_555 1_555 23_545 95.600(10) n
+O1 Fe1 O1 1_555 1_555 5_555 85.590(10) y
+O1 Fe1 O1 1_555 1_555 9_555 85.590(10) n
+O1 Fe1 O1 1_555 1_555 25_555 180.00 n
+O1 Fe1 O1 1_555 1_555 29_555 94.410(10) n
+O1 Fe1 O1 1_555 1_555 33_555 94.410(10) n
+O1 Fe2 O1 26_555 1_555 18_545 114.470(10) y
+O1 Fe2 O1 26_555 1_555 67_555 114.470(10) n
+O1 Fe2 O1 26_555 1_555 75_555 99.870(10) y
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Nd1 O1 1_555 1_555 2.41820(10) y
+Nd1 O1 1_555 5_555 2.52960(10) y
+Nd1 O1 1_555 52_555 2.41820(10) n
+Nd1 O1 1_555 54_555 2.52960(10) n
+Nd1 O1 1_555 67_555 2.41820(10) n
+Nd1 O1 1_555 72_555 2.52960(10) n
+Nd1 O1 1_555 18_545 2.41820(10) n
+Nd1 O1 1_555 23_545 2.52960(10) n
+Fe1 O1 1_555 1_555 2.03300(10) y
+Fe1 O1 1_555 5_555 2.03300(10) n
+Fe1 O1 1_555 9_555 2.03300(10) n
+Fe1 O1 1_555 25_555 2.03300(10) n
+Fe1 O1 1_555 29_555 2.03300(10) n
+Fe1 O1 1_555 33_555 2.03300(10) n
+Fe2 O1 1_555 26_555 1.87550(10) y
+Fe2 O1 1_555 67_555 1.87550(10) n
+Fe2 O1 1_555 75_555 1.87550(10) n
+Fe2 O1 1_555 18_545 1.87550(10) n

@@ -1,0 +1,397 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-16 03:10:39 +0200 (Tue, 16 Feb 2016) $
+#$Revision: 176453 $
+#$URL: svn://www.crystallography.net/cod/cif/7/02/06/7020653.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7020653
+loop_
+_publ_author_name
+'Grzechnik, Andrzej'
+'Khaidukov, Nicholas'
+'Friese, Karen'
+_publ_section_title
+;
+ Crystal structures and stability of trigonal KLnF4 fluorides (Ln = Y, Ho,
+ Er, Tm, Yb).
+;
+_journal_issue                   2
+_journal_name_full
+'Dalton transactions (Cambridge, England : 2003)'
+_journal_page_first              441
+_journal_page_last               447
+_journal_paper_doi               10.1039/c2dt31483e
+_journal_volume                  42
+_journal_year                    2013
+_chemical_formula_sum            'F4 Ho K'
+_chemical_formula_weight         420
+_chemical_name_systematic        ' ?'
+_space_group_IT_number           144
+_symmetry_cell_setting           trigonal
+_symmetry_Int_Tables_number      144
+_symmetry_space_group_name_Hall  'P 31'
+_symmetry_space_group_name_H-M   'P 31'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            18
+_cell_length_a                   14.1900(10)
+_cell_length_b                   14.1900(10)
+_cell_length_c                   10.2000(10)
+_cell_measurement_temperature    293
+_cell_volume                     1778.7(2)
+_diffrn_ambient_temperature      293
+_diffrn_measured_fraction_theta_full 1
+_diffrn_measured_fraction_theta_max 0
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_wavelength     0.4
+_diffrn_reflns_av_R_equivalents  0.0532
+_diffrn_reflns_av_sigmaI/netI    0.0461
+_diffrn_reflns_limit_h_max       30
+_diffrn_reflns_limit_h_min       -30
+_diffrn_reflns_limit_k_max       30
+_diffrn_reflns_limit_k_min       -30
+_diffrn_reflns_limit_l_max       22
+_diffrn_reflns_limit_l_min       -22
+_diffrn_reflns_number            100915
+_diffrn_reflns_theta_full        25.84
+_diffrn_reflns_theta_max         25.85
+_diffrn_reflns_theta_min         0.93
+_exptl_absorpt_coefficient_mu    4.583
+_exptl_crystal_density_diffrn    4.7041
+_exptl_crystal_F_000             2196
+_exptl_crystal_size_max          0.12
+_exptl_crystal_size_mid          0.07
+_exptl_crystal_size_min          0.04
+_refine_diff_density_max         1.59
+_refine_diff_density_min         -2.19
+_refine_ls_abs_structure_details
+' 24839 of Friedel pairs used in the refinement'
+_refine_ls_abs_structure_Flack   0
+_refine_ls_extinction_coef       6010(180)
+_refine_ls_extinction_method
+'B-C type 1 Gaussian isotropic (Becker & Coppens, 1974)'
+_refine_ls_goodness_of_fit_gt    1.21
+_refine_ls_goodness_of_fit_ref   1.19
+_refine_ls_number_constraints    1
+_refine_ls_number_parameters     231
+_refine_ls_number_reflns         25515
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          0.0344
+_refine_ls_R_factor_gt           0.0304
+_refine_ls_shift/su_max          0.0188
+_refine_ls_shift/su_mean         0.0028
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     w=1/(\s^2^(F)+0.0001F^2^)
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_gt          0.0350
+_refine_ls_wR_factor_ref         0.0358
+_reflns_number_gt                23389
+_reflns_number_total             25515
+_reflns_threshold_expression     I>3\s(I)
+_cod_data_source_file            c2dt31483e.txt
+_cod_data_source_block           II
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_diffrn_radiation_probe' value 'X-ray' changed to 'x-ray' according
+to /home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary
+named 'cif_core.dic' version 2.4.2 from 2011-04-26.
+
+Automatic conversion script
+Id: cif_fix_values 1891 2012-01-12 08:04:46Z andrius 
+;
+_cod_original_formula_sum        'F4 Ho1 K1'
+_cod_database_code               7020653
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -y,x-y,z+1/3
+3 -x+y,-x,z+2/3
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_adp_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+_atom_site_occupancy
+_atom_site_calc_flag
+Ho1 Ho 0.13092(3) 0.89028(4) 0.32997(5) Uani 0.00647(8) 3 1 d
+Ho2 Ho 0.28333(4) 0.73244(4) 0.31985(6) Uani 0.00601(8) 3 1 d
+Ho3 Ho 0.77991(5) 0.20619(4) 0.33963(4) Uani 0.00640(8) 3 1 d
+Ho4 Ho 0.94280(4) 0.05934(5) 0.32538(7) Uani 0.00682(8) 3 1 d
+Ho5 Ho 0.45263(5) 0.54464(6) 0.32348(4) Uani 0.00677(7) 3 1 d
+Ho6 Ho 0.60445(4) 0.38679(4) 0.34418(3) Uani 0.00634(8) 3 1 d
+K1 K 0.7812(2) 0.71865(19) 0.3212(2) Uani 0.0188(7) 3 1 d
+K2 K 0.26731(18) 0.22010(18) 0.3473(2) Uani 0.0158(6) 3 1 d
+K3 K 0.10348(19) 0.3955(2) 0.3126(2) Uani 0.0178(5) 3 1 d
+K4 K 0.6114(2) 0.87697(17) 0.3469(2) Uani 0.0171(6) 3 1 d
+K5 K 0.9492(2) 0.56257(20) 0.3449(2) Uani 0.0194(6) 3 1 d
+K6 K 0.45537(17) 0.06479(14) 0.3138(2) Uani 0.0158(5) 3 1 d
+F1 F 0.1314(4) 0.9341(3) 0.1128(4) Uani 0.0158(9) 3 1 d
+F2 F 0.0694(4) 0.8779(4) 0.5400(4) Uani 0.0176(10) 3 1 d
+F3 F 0.2103(4) 0.5940(3) 0.4670(5) Uani 0.0224(7) 3 1 d
+F4 F 0.3341(4) 0.7293(3) 0.6513(7) Uani 0.0305(8) 3 1 d
+F5 F 0.7379(4) 0.2035(4) 0.5577(5) Uani 0.0176(10) 3 1 d
+F6 F 0.7885(3) 0.2679(4) 0.1307(5) Uani 0.0158(9) 3 1 d
+F7 F -0.0034(4) 0.0602(3) 0.6599(6) Uani 0.0305(8) 3 1 d
+F8 F -0.1221(4) -0.0774(3) 0.4741(4) Uani 0.0224(7) 3 1 d
+F9 F 0.3905(4) 0.5374(4) 0.5331(4) Uani 0.0176(10) 3 1 d
+F10 F 0.4569(4) 0.5886(3) 0.1062(5) Uani 0.0158(9) 3 1 d
+F11 F 0.5463(4) 0.2904(4) 0.5350(5) Uani 0.0224(7) 3 1 d
+F12 F 0.7361(4) 0.3949(3) 0.6776(6) Uani 0.0305(8) 3 1 d
+F13 F 0.7675(4) 0.7281(3) 0.0649(5) Uani 0.0162(7) 3 1 d
+F14 F 0.8078(4) 0.7233(3) 0.5753(5) Uani 0.0150(7) 3 1 d
+F15 F 0.2479(3) 0.2233(3) 0.6072(5) Uani 0.0155(7) 3 1 d
+F16 F 0.8086(4) 0.0749(4) 0.4302(5) Uani 0.0147(8) 3 1 d
+F17 F 0.1306(3) 0.3946(3) 0.5673(5) Uani 0.0150(7) 3 1 d
+F18 F 0.0917(3) 0.4027(3) 0.0612(4) Uani 0.0162(7) 3 1 d
+F19 F 0.1539(3) 0.7554(3) 0.4241(4) Uani 0.0147(8) 3 1 d
+F20 F 0.5892(3) 0.8837(3) 0.6032(4) Uani 0.0155(7) 3 1 d
+F21 F 0.9377(3) 0.5758(3) 0.6002(5) Uani 0.0155(7) 3 1 d
+F22 F -0.5325(4) 0.4106(4) 0.4255(5) Uani 0.0147(8) 3 1 d
+F23 F 0.4846(3) 0.0702(3) 0.5686(4) Uani 0.0150(7) 3 1 d
+F24 F 0.4535(4) 0.0868(3) 0.0582(5) Uani 0.0162(7) 3 1 d
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_type_symbol
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Ho1 Ho 0.00686(9) 0.00825(10) 0.00621(11) 0.00521(8) -0.00007(8) -0.00037(8)
+Ho2 Ho 0.00518(10) 0.00570(10) 0.00780(13) 0.00321(8) -0.00091(10) -0.00072(8)
+Ho3 Ho 0.00714(10) 0.00697(10) 0.00646(11) 0.00454(8) 0.00102(8) 0.00048(8)
+Ho4 Ho 0.00633(10) 0.00635(11) 0.00864(11) 0.00381(8) -0.00062(10) -0.00039(9)
+Ho5 Ho 0.00713(9) 0.00815(9) 0.00682(10) 0.00515(8) -0.00006(8) -0.00019(8)
+Ho6 Ho 0.00636(10) 0.00712(9) 0.00746(9) 0.00480(11) -0.00121(9) -0.00085(9)
+K1 K 0.0159(7) 0.0289(11) 0.0082(6) 0.0086(7) 0.0039(6) 0.0075(6)
+K2 K 0.0250(8) 0.0163(7) 0.0062(5) 0.0103(6) 0.0049(5) 0.0037(5)
+K3 K 0.0159(6) 0.0231(7) 0.0138(6) 0.0094(6) -0.0040(5) -0.0005(7)
+K4 K 0.0321(9) 0.0121(6) 0.0113(6) 0.0142(7) 0.0025(6) 0.0041(4)
+K5 K 0.0305(11) 0.0133(6) 0.0164(6) 0.0124(6) 0.0042(6) 0.0019(5)
+K6 K 0.0157(7) 0.0115(5) 0.0166(7) 0.0040(4) -0.0009(5) 0.0020(4)
+F1 F 0.0201(13) 0.0190(10) 0.0123(10) 0.0128(10) 0.0019(8) 0.0068(8)
+F2 F 0.0209(11) 0.0282(16) 0.0097(9) 0.0168(11) 0.0074(8) 0.0008(8)
+F3 F 0.0280(8) 0.0182(9) 0.0188(7) 0.0099(9) -0.0044(10) 0.0094(6)
+F4 F 0.0313(11) 0.0036(4) 0.0487(11) 0.0027(9) 0.0009(9) 0.0010(12)
+F5 F 0.0209(11) 0.0282(16) 0.0097(9) 0.0168(11) 0.0074(8) 0.0008(8)
+F6 F 0.0201(13) 0.0190(10) 0.0123(10) 0.0128(10) 0.0019(8) 0.0068(8)
+F7 F 0.0313(11) 0.0036(4) 0.0487(11) 0.0027(9) 0.0009(9) 0.0010(12)
+F8 F 0.0280(8) 0.0182(9) 0.0188(7) 0.0099(9) -0.0044(10) 0.0094(6)
+F9 F 0.0209(11) 0.0282(16) 0.0097(9) 0.0168(11) 0.0074(8) 0.0008(8)
+F10 F 0.0201(13) 0.0190(10) 0.0123(10) 0.0128(10) 0.0019(8) 0.0068(8)
+F11 F 0.0280(8) 0.0182(9) 0.0188(7) 0.0099(9) -0.0044(10) 0.0094(6)
+F12 F 0.0313(11) 0.0036(4) 0.0487(11) 0.0027(9) 0.0009(9) 0.0010(12)
+F13 F 0.0203(8) 0.0137(8) 0.0170(10) 0.0103(8) -0.0030(8) 0.0028(8)
+F14 F 0.0184(9) 0.0078(9) 0.0130(10) 0.0022(7) -0.0077(8) -0.0022(7)
+F15 F 0.0136(8) 0.0174(8) 0.0179(10) 0.0096(7) -0.0008(8) -0.0020(7)
+F16 F 0.0213(10) 0.0178(10) 0.0141(10) 0.0166(9) 0.0079(8) 0.0095(8)
+F17 F 0.0184(9) 0.0078(9) 0.0130(10) 0.0022(7) -0.0077(8) -0.0022(7)
+F18 F 0.0203(8) 0.0137(8) 0.0170(10) 0.0103(8) -0.0030(8) 0.0028(8)
+F19 F 0.0213(10) 0.0178(10) 0.0141(10) 0.0166(9) 0.0079(8) 0.0095(8)
+F20 F 0.0136(8) 0.0174(8) 0.0179(10) 0.0096(7) -0.0008(8) -0.0020(7)
+F21 F 0.0136(8) 0.0174(8) 0.0179(10) 0.0096(7) -0.0008(8) -0.0020(7)
+F22 F 0.0213(10) 0.0178(10) 0.0141(10) 0.0166(9) 0.0079(8) 0.0095(8)
+F23 F 0.0184(9) 0.0078(9) 0.0130(10) 0.0022(7) -0.0077(8) -0.0022(7)
+F24 F 0.0203(8) 0.0137(8) 0.0170(10) 0.0103(8) -0.0030(8) 0.0028(8)
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+F 0.0032 0.0029 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+Ho -0.7065 1.7570 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+K 0.0760 0.0798 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+Ho1 F1 . 2.300(4)
+Ho1 F2 . 2.287(4)
+Ho1 F7 3_564 2.242(8)
+Ho1 F13 2_665 2.176(4)
+Ho1 F15 3_564 2.171(4)
+Ho1 F17 3_564 2.274(7)
+Ho1 F19 . 2.306(5)
+Ho2 F3 . 2.270(4)
+Ho2 F3 3_564 2.266(5)
+Ho2 F4 3_564 2.216(9)
+Ho2 F9 3_564 2.218(5)
+Ho2 F10 2_665 2.237(5)
+Ho2 F17 3_564 2.270(6)
+Ho2 F19 . 2.282(5)
+Ho3 F5 . 2.298(5)
+Ho3 F6 . 2.284(5)
+Ho3 F12 3_664 2.243(8)
+Ho3 F14 3_664 2.262(7)
+Ho3 F16 . 2.291(6)
+Ho3 F21 3_664 2.158(4)
+Ho3 F24 2_655 2.176(5)
+Ho4 F1 2_765 2.232(5)
+Ho4 F2 3_554 2.225(5)
+Ho4 F7 3_654 2.220(8)
+Ho4 F8 1_655 2.264(4)
+Ho4 F8 3_654 2.268(5)
+Ho4 F14 3_664 2.271(6)
+Ho4 F16 . 2.289(6)
+Ho5 F4 3_564 2.243(8)
+Ho5 F9 . 2.295(5)
+Ho5 F10 . 2.295(5)
+Ho5 F18 2_665 2.175(4)
+Ho5 F20 3_564 2.163(4)
+Ho5 F22 1_655 2.269(6)
+Ho5 F23 3_664 2.307(7)
+Ho6 F5 3_664 2.241(5)
+Ho6 F6 2_655 2.224(5)
+Ho6 F11 . 2.283(5)
+Ho6 F11 3_664 2.249(6)
+Ho6 F12 3_664 2.232(8)
+Ho6 F22 1_655 2.288(6)
+Ho6 F23 3_664 2.264(6)
+K1 F2 3_564 3.065(6)
+K1 F6 2_655 2.923(7)
+K1 F8 1_665 2.953(5)
+K1 F13 . 2.629(5)
+K1 F14 . 2.616(5)
+K1 F15 3_664 2.597(7)
+K1 F18 2_665 2.540(6)
+K1 F23 3_664 2.964(5)
+K2 F1 2_665 2.892(6)
+K2 F5 3_664 2.857(8)
+K2 F7 3_554 2.995(5)
+K2 F13 2_655 2.649(8)
+K2 F15 . 2.668(5)
+K2 F16 3_664 2.585(5)
+K2 F20 3_564 2.655(5)
+K2 F22 1_655 2.887(4)
+K3 F1 2_665 2.923(7)
+K3 F3 . 2.906(5)
+K3 F9 3_564 3.009(6)
+K3 F14 3_564 2.873(5)
+K3 F17 . 2.627(5)
+K3 F18 . 2.575(5)
+K3 F20 3_564 2.645(7)
+K3 F24 2_555 2.646(6)
+K4 F2 3_564 2.885(7)
+K4 F4 3_564 3.047(5)
+K4 F10 2_665 2.934(7)
+K4 F16 1_565 2.929(4)
+K4 F18 2_665 2.618(7)
+K4 F19 3_564 2.641(5)
+K4 F20 . 2.641(5)
+K4 F21 3_674 2.594(6)
+K5 F6 2_655 3.080(6)
+K5 F9 3_664 2.938(7)
+K5 F11 3_664 2.915(6)
+K5 F15 3_664 2.626(6)
+K5 F19 1_655 2.937(4)
+K5 F21 . 2.622(5)
+K5 F22 3_554 2.607(5)
+K5 F24 2_655 2.606(7)
+K6 F5 3_664 2.879(7)
+K6 F10 2_655 2.841(7)
+K6 F12 3_664 2.874(5)
+K6 F13 2_655 2.590(6)
+K6 F17 3_554 2.863(4)
+K6 F21 3_664 2.655(8)
+K6 F23 . 2.627(5)
+K6 F24 . 2.628(5)
+F1 F7 2_564 2.994(8)
+F1 F7 3_564 2.756(9)
+F1 F14 2_664 2.956(6)
+F1 F15 3_564 2.924(5)
+F1 F16 3_674 3.168(6)
+F1 F17 3_564 2.764(9)
+F2 F7 3_564 2.839(8)
+F2 F8 1_565 3.156(8)
+F2 F8 2_565 2.921(7)
+F2 F13 2_665 3.003(6)
+F2 F15 3_564 3.155(6)
+F2 F16 2_555 3.064(6)
+F2 F19 . 2.819(8)
+F3 F4 . 2.633(7)
+F3 F4 3_564 2.749(8)
+F3 F9 . 3.113(9)
+F3 F9 3_564 2.914(7)
+F3 F17 . 2.670(6)
+F3 F19 . 2.813(8)
+F4 F9 2_665 2.833(7)
+F4 F10 2_665 2.756(8)
+F4 F10 3_565 3.030(7)
+F4 F18 3_565 2.829(8)
+F4 F20 . 3.196(6)
+F5 F12 . 2.992(8)
+F5 F12 3_664 2.774(9)
+F5 F16 . 2.802(9)
+F5 F22 2_665 2.931(6)
+F5 F23 . 3.116(6)
+F5 F24 2_655 2.943(6)
+F6 F11 2_654 2.873(7)
+F6 F11 3_664 3.088(9)
+F6 F12 3_664 2.834(9)
+F6 F14 3_664 2.761(9)
+F6 F21 3_664 2.961(6)
+F6 F23 2_654 3.102(6)
+F6 F24 2_655 3.114(6)
+F7 F8 . 2.637(6)
+F7 F8 2_555 2.738(9)
+F7 F13 3_565 2.833(9)
+F7 F15 . 3.179(6)
+F8 F14 1_445 2.691(6)
+F8 F16 1_455 2.822(9)
+F9 F18 2_665 2.987(5)
+F9 F19 2_665 3.054(6)
+F9 F20 3_564 3.137(6)
+F9 F22 1_655 2.757(9)
+F10 F17 2_664 2.968(6)
+F10 F19 3_564 3.177(6)
+F10 F20 3_564 2.941(6)
+F10 F23 3_664 2.836(9)
+F11 F12 . 2.752(7)
+F11 F12 3_664 2.660(9)
+F11 F22 1_655 2.704(9)
+F11 F23 . 2.813(7)
+F12 F21 . 2.838(6)
+F12 F24 3_665 3.181(10)
+F13 F17 2_664 2.893(8)
+F14 F16 2_655 2.497(8)
+F14 F24 3_665 2.922(6)
+F15 F19 2_665 2.940(8)
+F16 F21 3_664 2.868(9)
+F17 F19 2_665 2.508(7)
+F18 F23 2_554 2.886(7)
+F20 F22 2_675 2.925(8)
+F22 F23 3_564 2.508(6)
+#BEGIN Loops that were not found in dictionaries:
+loop_
+_jana_cell_twin_matrix_id
+_jana_cell_twin_volume_fraction
+_jana_cell_twin_matrix_1_1
+_jana_cell_twin_matrix_1_2
+_jana_cell_twin_matrix_1_3
+_jana_cell_twin_matrix_2_1
+_jana_cell_twin_matrix_2_2
+_jana_cell_twin_matrix_2_3
+_jana_cell_twin_matrix_3_1
+_jana_cell_twin_matrix_3_2
+_jana_cell_twin_matrix_3_3
+1 0.4858(9) 1 0 0 0 1 0 0 0 1
+2 0 -1 0 0 0 -1 0 0 0 -1
+3 0 1 -1 0 0 -1 0 0 0 -1
+4 0.5142(9) -1 1 0 0 1 0 0 0 -1
+#END Loops that were not found in dictionaries

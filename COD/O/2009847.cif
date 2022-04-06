@@ -1,0 +1,275 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-07-20 10:36:29 +0300 (Thu, 20 Jul 2017) $
+#$Revision: 198842 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/00/98/2009847.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2009847
+loop_
+_publ_author_name
+'Bell, A.M.T.'
+'Henderson, C.M.B.'
+_publ_section_title
+;
+ Rietveld refinement of dry-synthesized Rb~2~ZnSi~5~O~12~ leucite by
+ synchrotron X-ray powder diffraction
+;
+_journal_issue                   7
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              984
+_journal_page_last               986
+_journal_paper_doi               10.1107/S0108270194002039
+_journal_volume                  50
+_journal_year                    1994
+_chemical_formula_moiety         'Rb2 Zn Si5 O12'
+_chemical_formula_sum            'O12 Rb2 Si5 Zn'
+_chemical_formula_weight         568.74
+_space_group_IT_number           230
+_space_group_name_Hall           '-I 4bd 2c 3'
+_space_group_name_H-M_alt        'I a -3 d'
+_symmetry_cell_setting           cubic
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            8
+_cell_length_a                   13.49720(10)
+_cell_length_b                   13.49720(10)
+_cell_length_c                   13.49720(10)
+_cell_measurement_temperature    293
+_cell_volume                     2458.84(3)
+_computing_cell_refinement       'REFCEL PDPL'
+_computing_data_collection       'In-house software'
+_computing_molecular_graphics    'Molecular Simulations CERIUS software'
+_computing_structure_refinement  'MPROF PDPL'
+_diffrn_ambient_temperature      293
+_diffrn_measurement_device
+;High resolution powder diffractometer, SRS station 8.3 (Cernik, Murray,
+Pattison & Fitch, 1990)
+;
+_diffrn_radiation_monochromator  'germanium 1 1 1'
+_diffrn_radiation_source         'Daresbury SRS bending magnet'
+_diffrn_radiation_type           synchrotron
+_diffrn_radiation_wavelength     1.5044
+_exptl_absorpt_coefficient_mu    18.0
+_exptl_crystal_density_diffrn    3.07
+_exptl_crystal_description       powder
+_refine_ls_goodness_of_fit_obs   1.5417
+_refine_ls_number_constraints    0
+_refine_ls_number_parameters     15
+_refine_ls_number_reflns         192
+_refine_ls_R_factor_obs          0.0775
+_refine_ls_weighting_scheme
+;The raw synchrotron powder-diffraction data is normalized to account for the
+ decay of the synchrotron radiation beam. The least-squares weighting scheme
+ for the refinement is
+Normalization factor/profile intensity + Background
+;
+_refine_ls_wR_factor_obs         0.1389
+_cod_data_source_file            br1072.cif
+_cod_data_source_block           leuc
+_cod_depositor_comments
+;
+ Correcting space group symmetry operation list:
+ 1) Removing duplicate symmetry operations:
+    -3/4-x,3/4-z,3/4-y
+    -3/4-y,3/4-x,3/4-z
+    -3/4-z,3/4-y,3/4-x
+    -1/4-x,3/4+z,1/4+y
+    -1/4-y,3/4+x,1/4+z
+    -1/4-z,3/4+y,1/4+x
+    -1/4+x,1/4-z,3/4+y
+    -1/4+y,1/4-x,3/4+z
+    -3/4+x,1/4+z,1/4-y
+    -3/4+y,1/4+x,1/4-z
+    -3/4+z,1/4+y,1/4-x
+ 2) Removing symmetry operations not required by the 'I a -3 d' space group:
+    1/4+z,1/4-y,3/4-x
+ 3) Adding symmetry operations that are required by the 'I a -3 d' space group:
+    -x+1/4,-z+1/4,-y+1/4
+    -x+3/4,z+1/4,y+3/4
+    -y+1/4,-x+1/4,-z+1/4
+    -y+3/4,x+1/4,z+3/4
+    -z+1/4,-y+1/4,-x+1/4
+    -z+3/4,y+1/4,x+3/4
+    x+1/4,z+3/4,-y+3/4
+    x+3/4,-z+3/4,y+1/4
+    y+1/4,x+3/4,-z+3/4
+    y+3/4,-x+3/4,z+1/4
+    z+1/4,y+3/4,-x+3/4
+    z+3/4,-y+3/4,x+1/4
+
+ Changing the Hall space group symbol from '-I 4bd 2ab 3' to '-I 4bd 2c 3' and
+ adding the space group number.
+
+ Antanas Vaitkus,
+ 2017-07-20
+;
+_cod_original_cell_volume        2458.86(3)
+_cod_original_sg_symbol_Hall     '-I 4bd 2ab 3'
+_cod_original_formula_sum        'Rb2 Zn Si5 O12'
+_cod_database_code               2009847
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 1/2+x,1/2-y,-z
+3 -x,1/2+y,1/2-z
+4 1/2-x,-y,1/2+z
+5 z,x,y
+6 1/2+z,1/2-x,-y
+7 -z,1/2+x,1/2-y
+8 1/2-z,-x,1/2+y
+9 y,z,x
+10 1/2+y,1/2-z,-x
+11 -y,1/2+z,1/2-x
+12 1/2-y,-z,1/2+x
+13 1/4+x,1/4+z,1/4+y
+14 1/4+y,1/4+x,1/4+z
+15 1/4+z,1/4+y,1/4+x
+16 3/4+x,1/4-z,3/4-y
+17 3/4+y,1/4-x,3/4-z
+18 3/4+z,1/4-y,3/4-x
+19 3/4-x,3/4+z,1/4-y
+20 3/4-y,3/4+x,1/4-z
+21 3/4-z,3/4+y,1/4-x
+22 1/4-x,3/4-z,3/4+y
+23 1/4-y,3/4-x,3/4+z
+24 1/4-z,3/4-y,3/4+x
+25 -x,-y,-z
+26 1/2-x,1/2+y,z
+27 x,1/2-y,1/2+z
+28 1/2+x,y,1/2-z
+29 -z,-x,-y
+30 1/2-z,1/2+x,y
+31 z,1/2-x,1/2+y
+32 1/2+z,x,1/2-y
+33 -y,-z,-x
+34 1/2-y,1/2+z,x
+35 y,1/2-z,1/2+x
+36 1/2+y,z,1/2-x
+37 3/4-x,3/4-z,3/4-y
+38 3/4-y,3/4-x,3/4-z
+39 3/4-z,3/4-y,3/4-x
+40 1/4-x,3/4+z,1/4+y
+41 1/4-y,3/4+x,1/4+z
+42 1/4-z,3/4+y,1/4+x
+43 1/4+x,1/4-z,3/4+y
+44 1/4+y,1/4-x,3/4+z
+45 1/4+z,1/4-y,3/4+x
+46 3/4+x,1/4+z,1/4-y
+47 3/4+y,1/4+x,1/4-z
+48 3/4+z,1/4+y,1/4-x
+49 1/2+x,1/2+y,1/2+z
+50 x,-y,1/2-z
+51 1/2-x,y,-z
+52 -x,1/2-y,z
+53 1/2+z,1/2+x,1/2+y
+54 z,-x,1/2-y
+55 1/2-z,x,-y
+56 -z,1/2-x,y
+57 1/2+y,1/2+z,1/2+x
+58 y,-z,1/2-x
+59 1/2-y,z,-x
+60 -y,1/2-z,x
+61 3/4+x,3/4+z,3/4+y
+62 3/4+y,3/4+x,3/4+z
+63 3/4+z,3/4+y,3/4+x
+64 1/4+x,3/4-z,1/4-y
+65 1/4+y,3/4-x,1/4-z
+66 1/4+z,3/4-y,1/4-x
+67 1/4-x,1/4+z,3/4-y
+68 1/4-y,1/4+x,3/4-z
+69 1/4-z,1/4+y,3/4-x
+70 3/4-x,1/4-z,1/4+y
+71 3/4-y,1/4-x,1/4+z
+72 3/4-z,1/4-y,1/4+x
+73 1/2-x,1/2-y,1/2-z
+74 -x,y,1/2+z
+75 1/2+x,-y,z
+76 x,1/2+y,-z
+77 1/2-z,1/2-x,1/2-y
+78 -z,x,1/2+y
+79 1/2+z,-x,y
+80 z,1/2+x,-y
+81 1/2-y,1/2-z,1/2-x
+82 -y,z,1/2+x
+83 1/2+y,-z,x
+84 y,1/2+z,-x
+85 -x+1/4,-z+1/4,-y+1/4
+86 -x+3/4,z+1/4,y+3/4
+87 -y+1/4,-x+1/4,-z+1/4
+88 -y+3/4,x+1/4,z+3/4
+89 -z+1/4,-y+1/4,-x+1/4
+90 -z+3/4,y+1/4,x+3/4
+91 x+1/4,z+3/4,-y+3/4
+92 x+3/4,-z+3/4,y+1/4
+93 y+1/4,x+3/4,-z+3/4
+94 y+3/4,-x+3/4,z+1/4
+95 z+1/4,y+3/4,-x+3/4
+96 z+3/4,-y+3/4,x+1/4
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_calc_flag
+_atom_site_calc_attached_atom
+_atom_site_occupancy
+Rb 0.12500 0.12500 0.12500 5.90(3) Uiso ? ? 1.000
+Si 0.12500 0.66294(8) 0.58706(8) 3.27(3) Uiso ? ? 0.833
+Zn 0.12500 0.66294(8) 0.58706(8) 3.27(3) Uiso ? ? 0.167
+O 0.4711(2) 0.3857(2) 0.1462(2) 7.07(9) Uiso ? ? 1.000
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Rb 0 0 International_Tables_Vol_IV_Table_2.3.1
+Zn 0 0 International_Tables_Vol_IV_Table_2.3.1
+Si 0 0 International_Tables_Vol_IV_Table_2.3.1
+O 0 0 International_Tables_Vol_IV_Table_2.3.1
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+O' Si/Zn O'' 113.20(10) yes
+O' Si/Zn O'' 110.30(10) yes
+O' Si/Zn O' 103.30(10) yes
+O'' Si/Zn O'' 106.70(10) yes
+O'' Si/Zn O' 113.20(10) yes
+O'' Si/Zn O' 110.30(10) yes
+O Zn O 113.20(10) no
+O Zn O 110.30(10) no
+O Zn O 103.30(10) no
+O Zn O 106.70(10) no
+O Zn O 113.20(10) no
+O Zn O 110.30(10) no
+Si/Zn O Si/Zn 143.4(2) yes
+Si O Zn 143.4(2) no
+Si O Zn 143.4(2) no
+Zn O Zn 143.4(2) no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Si/Zn O' . . 1.658(3) yes
+Si/Zn O'' . . 1.589(3) yes
+Zn O . . 1.658(3) no
+Zn O . . 1.589(3) no
+Rb O . . 3.492(2) yes
+Rb O . . 3.352(2) yes

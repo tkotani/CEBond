@@ -1,0 +1,143 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/20/05/2200581.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_2200581
+loop_
+_publ_author_name
+'Aken, Bas B. van'
+'Meetsma, Auke'
+'Palstra, Thomas T. M.'
+_publ_section_title
+;
+Hexagonal YbMnO~3~ revisited
+;
+_journal_name_full               'Acta Crystallographica, Section E'
+_journal_page_first              i87
+_journal_page_last               i89
+_journal_paper_doi               10.1107/S1600536801015094
+_journal_volume                  57
+_journal_year                    2001
+_chemical_formula_iupac          'Yb Mn O3'
+_chemical_formula_moiety         'Mn1 O3 Yb1'
+_chemical_formula_sum            'Mn O3 Yb'
+_chemical_formula_weight         275.88
+_symmetry_cell_setting           hexagonal
+_symmetry_space_group_name_Hall  'P 6c -2'
+_symmetry_space_group_name_H-M   'P 63 c m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            6
+_cell_length_a                   6.0584(6)
+_cell_length_b                   6.0584(6)
+_cell_length_c                   11.3561(7)
+_cell_measurement_temperature    293
+_cell_volume                     360.97(6)
+_diffrn_ambient_temperature      293(2)
+_exptl_crystal_density_diffrn    7.617
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_symmetry_cell_setting' value 'Hexagonal' changed to 'hexagonal'
+according to '/home/saulius/struct/CIF-dictionaries/cif_core.dic'
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+;
+_cod_original_formula_sum        'Mn1 O3 Yb1'
+_cod_database_code               2200581
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x-y,x,1/2+z
+-y,x-y,z
+-x,-y,1/2+z
+-x+y,-x,z
+y,-x+y,1/2+z
+y,x,z
+-x+y,y,1/2+z
+-x,-x+y,z
+-y,-x,1/2+z
+x-y,-y,z
+x,x-y,1/2+z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Yb1 .0047(2) .0047(2) .0035(2) .00230(10) .0000 .0000
+Yb2 .00350(10) .00360(10) .0071(2) .00180(10) .0000 .0000
+Mn .0069(4) .0048(4) .0039(2) .0024(6) .0002(3) .0000
+O1 .0050(14) .0017(18) .0041(19) .0009(9) -.0019(15) .0000
+O2 .014(2) .0001(18) .0033(17) .0000(9) .0002(19) .0000
+O3 .003(2) .003(2) .005(6) .0016(10) .0000 .0000
+O4 .009(3) .009(3) .000(3) .0047(13) .0000 .0000
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_occupancy
+_atom_site_type_symbol
+Yb1 .00000 .00000 .27336(5) .00427(11) Uani 1.000 Yb
+Yb2 .33333 -.33333 .23061(3) .00472(7) Uani 1.000 Yb
+Mn .3333(5) .00000 -.00194(14) .0054(2) Uani 1.000 Mn
+O1 .3030(12) .00000 .1617(6) .0039(10) Uani 1.000 O
+O2 .3610(15) .00000 -.1658(6) .0074(11) Uani 1.000 O
+O3 .00000 .00000 -.0268(16) .004(2) Uani 1.000 O
+O4 .33333 -.33333 .0192(9) .0059(17) Uani 1.000 O
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Yb1 Yb2 . . 3.5313(4) no
+Yb1 O1 . . 2.231(7) yes
+Yb1 Yb2 . 1_455 3.5313(4) no
+Yb1 Yb2 . 1_565 3.5313(4) no
+Yb1 Mn . 2_555 3.254(3) no
+Yb1 O2 . 2_555 2.294(8) yes
+Yb1 O3 . 2_555 2.269(18) yes
+Yb1 O3 . 1_555 3.409(18) yes
+Yb1 O1 . 3_555 2.231(6) no
+Yb1 Mn . 4_555 3.254(3) no
+Yb1 O2 . 4_555 2.294(9) no
+Yb1 O1 . 5_555 2.231(7) no
+Yb1 Mn . 6_555 3.254(3) no
+Yb1 O2 . 6_555 2.294(7) no
+Yb1 Yb2 . 7_545 3.5313(4) no
+Yb1 Yb2 . 7_555 3.5313(4) no
+Yb1 Yb2 . 7_655 3.5313(4) no
+Yb2 O1 . . 2.257(5) yes
+Yb2 O4 . . 2.401(10) yes
+Yb2 O4 . 10_555 3.277(10) yes
+Yb2 O2 . 2_545 2.270(8) yes
+Yb2 O1 . 3_545 2.257(6) no
+Yb2 O2 . 4_655 2.270(5) no
+Yb2 O1 . 5_655 2.257(8) no
+Yb2 O2 . 6_555 2.270(5) no
+Yb2 Yb2 . 7_545 3.4978(3) no
+Yb2 Yb2 . 7_645 3.4978(3) no
+Yb2 Yb2 . 7_655 3.4978(3) no
+Mn O1 . . 1.867(7) yes
+Mn O2 . . 1.868(7) yes
+Mn O3 . . 2.039(4) yes
+Mn O4 . . 2.034(4) yes
+Mn O4 . 7_655 2.034(4) no

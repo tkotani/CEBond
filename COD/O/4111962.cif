@@ -1,0 +1,1065 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-16 22:30:59 +0200 (Tue, 16 Feb 2016) $
+#$Revision: 176467 $
+#$URL: svn://www.crystallography.net/cod/cif/4/11/19/4111962.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4111962
+loop_
+_publ_author_name
+'Guobao Li'
+'Liping You'
+'Wutao Wei'
+'Yue Lu'
+'Jing Ju'
+'Anders Wannberg'
+'H\%akan Rundl\"of'
+'Xiaodong Zou'
+'Tao Yang'
+'Shujian Tian'
+'Fuhui Liao'
+'Naoki Toyota'
+'Jianhua Lin'
+_publ_section_title
+;
+ La4Cu3-xZnxMoO12: Zinc-Doped Cuprates with Kagom\'e Lattices
+;
+_journal_name_full               'Journal of the American Chemical Society'
+_journal_page_first              14094
+_journal_page_last               14099
+_journal_paper_doi               10.1021/ja053489a
+_journal_volume                  127
+_journal_year                    2005
+_chemical_formula_sum            'Cu0.73 La Mo0.25 O3 Zn0.03'
+_chemical_formula_weight         258.59
+_space_group_IT_number           59
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2ab 2a'
+_symmetry_space_group_name_H-M   'P m m n :2'
+_audit_creation_date             2005-04-29T13:25
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_audit_update_record
+' 2005-04-29T13:25  Initial CIF as created by GSAS2CIF'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            4
+_cell_length_a                   11.00658(16)
+_cell_length_b                   3.95831(20)
+_cell_length_c                   6.85542(29)
+_cell_volume                     298.67(2)
+_computing_structure_refinement  GSAS
+_diffrn_radiation_polarisn_ratio 0.828
+_diffrn_radiation_probe          x-ray
+_exptl_absorpt_correction_T_max  1.00000
+_exptl_absorpt_correction_T_min  1.00000
+_exptl_absorpt_process_details
+;   GSAS Absorption/surface roughness correction: function number 0
+ No correction is applied.
+;
+_pd_block_id                     2005-04-29T13:25|ZNA3X|1|1
+_pd_calc_method                  'Rietveld Refinement'
+_pd_meas_2theta_range_inc        0.02
+_pd_meas_2theta_range_max        120.0
+_pd_meas_2theta_range_min        10.0
+_pd_phase_name                   pmmn
+_pd_proc_2theta_range_inc        0.02
+_pd_proc_2theta_range_max        119.98334
+_pd_proc_2theta_range_min        9.98334
+_pd_proc_info_datetime           2005-04-29T13:25:05
+_pd_proc_ls_background_function
+;   GSAS Background function number 7 with 36 terms.
+ Linear interpolation
+      1:    702.787     2:    666.986     3:    657.170     4:    630.567    
+      5:    607.407     6:    664.284     7:    618.071     8:    628.080    
+      9:    584.084    10:    574.455    11:    606.935    12:    629.990    
+     13:    618.188    14:    593.737    15:    619.155    16:    634.448    
+     17:    602.446    18:    602.291    19:    595.340    20:    584.234    
+     21:    576.762    22:    584.815    23:    595.447    24:    584.821    
+     25:    636.051    26:    591.068    27:    596.157    28:    621.791    
+     29:    582.069    30:    595.418    31:    606.347    32:    621.428    
+     33:    715.819    34:    636.638    35:    632.900    36:    648.580    
+;
+_pd_proc_ls_peak_cutoff          0.01000
+_pd_proc_ls_pref_orient_corr
+;   March-Dollase
+ AXIS  1 Ratio=     0.782 Frac     0.500  h= 0.000  k= 0.000  l= 1.000
+ AXIS  2 Ratio=     1.073 Frac     0.500  h= 2.000  k= 1.000  l= 0.000
+ Prefered orientation correction range: Min=   0.79363, Max=   1.59990
+;
+_pd_proc_ls_profile_function
+;
+ CW Profile function number 2 with  18 terms
+ Profile coefficients for Simpson's rule integration of pseudovoigt function
+ C.J. Howard (1982). J. Appl. Cryst.,15,615-620.
+ P. Thompson, D.E. Cox & J.B. Hastings (1987). J. Appl. Cryst.,20,79-83.
+ Peak tails are ignored  where the intensity is below 0.0100 times the peak
+   Aniso. broadening axis   0.0   0.0   1.0
+;
+_pd_proc_ls_prof_R_factor        0.0660
+_pd_proc_ls_prof_wR_expected     0.0318
+_pd_proc_ls_prof_wR_factor       0.0919
+_refine_ls_goodness_of_fit_all   2.89
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     55
+_refine_ls_number_restraints     0
+_refine_ls_R_Fsqd_factor         0.08048
+_refine_ls_shift/su_max          0.00
+_refine_ls_shift/su_mean         0.00
+_reflns_d_resolution_high        0.893
+_reflns_d_resolution_low         6.855
+_reflns_limit_h_max              14
+_reflns_limit_h_min              0
+_reflns_limit_k_max              5
+_reflns_limit_k_min              0
+_reflns_limit_l_max              8
+_reflns_limit_l_min              0
+_reflns_number_total             548
+_cod_data_source_file            ja053489asi20050528_091522.cif
+_cod_data_source_block           ZNA3X_publ
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_geom_bond_publ_flag' value 'N' changed to 'n' according to the
+built-in table from CIF Core dictionary named 'cif_core.dic' version
+2.4.1 from 2010-06-29 (240 times).
+
+'_geom_angle_publ_flag' value 'N'
+changed to 'n' according to the built-in table from CIF Core
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29 (593
+times).
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_original_cell_volume        298.674(8)
+_cod_original_sg_symbol_H-M      Pmmn
+_cod_original_formula_sum        'Cu0.73 La Mo0.25 O3.00 Zn0.03'
+_cod_database_code               4111962
+_cod_database_fobs_code          4111962
+#BEGIN Tags that were not found in dictionaries:
+_gsas_exptl_extinct_corr_t_min   1.00000
+_gsas_exptl_extinct_corr_t_max   1.00000
+#END Tags that were not found in dictionaries
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -x+1/2,+y,+z
+3 +x,-y+1/2,+z
+4 -x+1/2,-y+1/2,+z
+-1 -x,-y,-z
+-2 +x+1/2,-y,-z
+-3 -x,+y+1/2,-z
+-4 +x+1/2,+y+1/2,-z
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+La LA1 -0.00048 0.25 0.24599 1.0 Uiso 0.01721 4
+Cu Cu1a 0.25 0.75 0.40223 0.3625 Uiso 0.00741 2
+Mo Mo1a 0.25 0.75 0.40223 0.125 Uiso 0.00741 2
+Zn Zn1a 0.25 0.75 0.40223 0.0125 Uiso 0.00741 2
+Cu Cu1b 0.25 0.75 0.44381 0.3625 Uiso 0.00741 2
+Mo Mo1b 0.25 0.75 0.44381 0.125 Uiso 0.00741 2
+Zn Zn1b 0.25 0.75 0.44381 0.0125 Uiso 0.00741 2
+Cu Cu2 0.25 0.18192 0.88147 0.3625 Uiso 0.0384 4
+Mo Mo2 0.25 0.18192 0.88147 0.125 Uiso 0.0384 4
+Zn Zn2 0.25 0.18192 0.88147 0.0125 Uiso 0.0384 4
+O o1 0.09194 0.75 0.39142 1.0 Uiso 0.00482 4
+O O2 0.07029 0.25 0.88992 1.0 Uiso 0.00482 4
+O O3a 0.25 0.75 0.75505 0.5 Uiso 0.00482 2
+O O3b 0.25 0.75 0.65937 0.5 Uiso 0.00482 2
+O O4 0.25 0.26432 0.30359 0.5 Uiso 0.00482 4
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_Cromer_Mann_a1
+_atom_type_scat_Cromer_Mann_a2
+_atom_type_scat_Cromer_Mann_a3
+_atom_type_scat_Cromer_Mann_a4
+_atom_type_scat_Cromer_Mann_b1
+_atom_type_scat_Cromer_Mann_b2
+_atom_type_scat_Cromer_Mann_b3
+_atom_type_scat_Cromer_Mann_b4
+_atom_type_scat_Cromer_Mann_c
+_atom_type_scat_source
+La 4.0 -1.720 9.040 20.5780 2.94817 19.5990 0.24448 11.3727 18.7726 3.28719
+133.124 2.14678 International_Tables_Vol_C
+Mo 1.0 -0.191 2.735 3.70250 0.27720 17.2356 1.09580 12.8876 11.0040 3.74290
+61.6584 4.38750 International_Tables_Vol_C
+Cu 2.9 -2.019 0.589 13.3380 3.58280 7.16760 0.24700 5.61580 11.3966 1.67350
+64.8126 1.19100 International_Tables_Vol_C
+O 12.0 0.047 0.032 3.04850 13.2771 2.28680 5.70110 1.54630 0.32390 0.86700
+32.9089 0.25080 International_Tables_Vol_C
+Zn 0.1 -1.612 0.678 14.0743 3.26550 7.03180 0.23330 5.16520 10.3163 2.41000
+58.7097 1.30410 International_Tables_Vol_C
+loop_
+_diffrn_radiation_wavelength
+_diffrn_radiation_wavelength_wt
+_diffrn_radiation_type
+_diffrn_radiation_wavelength_id
+1.540500 1.000 K\a~1~ 1
+1.544300 0.500 K\a~2~ 2
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+o1 LA1 o1 108.5169(30) 1_545 1_555 n
+o1 LA1 o1 77.1512(14) 1_545 -1_566 n
+o1 LA1 O2 105.2306(14) 1_545 1_554 n
+o1 LA1 O2 67.0280(30) 1_545 -1_556 n
+o1 LA1 O2 174.51460(20) 1_545 -1_566 n
+o1 LA1 O3a 114.7226(10) 1_545 -1_566 n
+o1 LA1 o1 77.1512(14) 1_555 -1_566 n
+o1 LA1 O2 105.2306(14) 1_555 1_554 n
+o1 LA1 O2 174.51460(20) 1_555 -1_556 n
+o1 LA1 O2 67.0280(30) 1_555 -1_566 n
+o1 LA1 O3a 114.7226(10) 1_555 -1_566 n
+o1 LA1 O2 175.65041(10) -1_566 1_554 n
+o1 LA1 O2 104.3614(14) -1_566 -1_556 n
+o1 LA1 O2 104.3614(14) -1_566 -1_566 n
+o1 LA1 O3a 68.1006(9) -1_566 -1_566 n
+O2 LA1 O2 73.6167(14) 1_554 -1_556 n
+O2 LA1 O2 73.6167(14) 1_554 -1_566 n
+O2 LA1 O3a 107.5497(8) 1_554 -1_566 n
+O2 LA1 O2 117.2157(29) -1_556 -1_566 n
+O2 LA1 O3a 70.5805(8) -1_556 -1_566 n
+O2 LA1 O3a 70.5805(8) -1_566 -1_566 n
+Cu1b Cu1a Mo1b 0.0 1_555 1_555 n
+Cu1b Cu1a Zn1b 0.0 1_555 1_555 n
+Cu1b Cu1a o1 92.43830(10) 1_555 1_555 n
+Cu1b Cu1a o1 92.43830(10) 1_555 2_555 n
+Cu1b Cu1a O3b 0.0343 1_555 1_555 n
+Cu1b Cu1a O4 109.3790(12) 1_555 1_555 n
+Cu1b Cu1a O4 108.3742(11) 1_555 1_565 n
+Cu1b Cu1a O4 108.3743(11) 1_555 3_555 n
+Cu1b Cu1a O4 109.3791(12) 1_555 3_565 n
+Mo1b Cu1a Zn1b 0.0 1_555 1_555 n
+Mo1b Cu1a o1 92.43830(10) 1_555 1_555 n
+Mo1b Cu1a o1 92.43830(10) 1_555 2_555 n
+Mo1b Cu1a O3b 0.0343 1_555 1_555 n
+Mo1b Cu1a O4 109.3790(12) 1_555 1_555 n
+Mo1b Cu1a O4 108.3742(11) 1_555 1_565 n
+Mo1b Cu1a O4 108.3743(11) 1_555 3_555 n
+Mo1b Cu1a O4 109.3791(12) 1_555 3_565 n
+Zn1b Cu1a o1 92.43830(10) 1_555 1_555 n
+Zn1b Cu1a o1 92.43830(10) 1_555 2_555 n
+Zn1b Cu1a O3b 0.0343 1_555 1_555 n
+Zn1b Cu1a O4 109.3790(12) 1_555 1_555 n
+Zn1b Cu1a O4 108.3742(11) 1_555 1_565 n
+Zn1b Cu1a O4 108.3743(11) 1_555 3_555 n
+Zn1b Cu1a O4 109.3791(12) 1_555 3_565 n
+o1 Cu1a o1 175.12340(20) 1_555 2_555 n
+o1 Cu1a O3b 92.43830(10) 1_555 1_555 n
+o1 Cu1a O4 89.19110(10) 1_555 1_555 n
+o1 Cu1a O4 89.23160(10) 1_555 1_565 n
+o1 Cu1a O4 89.23160(10) 1_555 3_555 n
+o1 Cu1a O4 89.19110(10) 1_555 3_565 n
+o1 Cu1a O3b 92.43830(10) 2_555 1_555 n
+o1 Cu1a O4 89.19110(10) 2_555 1_555 n
+o1 Cu1a O4 89.23160(10) 2_555 1_565 n
+o1 Cu1a O4 89.23160(10) 2_555 3_555 n
+o1 Cu1a O4 89.19110(10) 2_555 3_565 n
+O3b Cu1a O4 109.3791(12) 1_555 1_555 n
+O3b Cu1a O4 108.3742(11) 1_555 1_565 n
+O3b Cu1a O4 108.3743(11) 1_555 3_555 n
+O3b Cu1a O4 109.3791(12) 1_555 3_565 n
+O4 Cu1a O4 142.2467(23) 1_555 1_565 n
+O4 Cu1a O4 1.00480(10) 1_555 3_555 n
+O4 Cu1a O4 141.2418(24) 1_555 3_565 n
+O4 Cu1a O4 143.2515(23) 1_565 3_555 n
+O4 Cu1a O4 1.00480(10) 1_565 3_565 n
+O4 Cu1a O4 142.2467(23) 3_555 3_565 n
+Cu1b Mo1a Mo1b 0.0 1_555 1_555 n
+Cu1b Mo1a Zn1b 0.0 1_555 1_555 n
+Cu1b Mo1a o1 92.43830(10) 1_555 1_555 n
+Cu1b Mo1a o1 92.43830(10) 1_555 2_555 n
+Cu1b Mo1a O3b 0.0343 1_555 1_555 n
+Cu1b Mo1a O4 109.3790(12) 1_555 1_555 n
+Cu1b Mo1a O4 108.3742(11) 1_555 1_565 n
+Cu1b Mo1a O4 108.3743(11) 1_555 3_555 n
+Cu1b Mo1a O4 109.3791(12) 1_555 3_565 n
+Mo1b Mo1a Zn1b 0.0 1_555 1_555 n
+Mo1b Mo1a o1 92.43830(10) 1_555 1_555 n
+Mo1b Mo1a o1 92.43830(10) 1_555 2_555 n
+Mo1b Mo1a O3b 0.0343 1_555 1_555 n
+Mo1b Mo1a O4 109.3790(12) 1_555 1_555 n
+Mo1b Mo1a O4 108.3742(11) 1_555 1_565 n
+Mo1b Mo1a O4 108.3743(11) 1_555 3_555 n
+Mo1b Mo1a O4 109.3791(12) 1_555 3_565 n
+Zn1b Mo1a o1 92.43830(10) 1_555 1_555 n
+Zn1b Mo1a o1 92.43830(10) 1_555 2_555 n
+Zn1b Mo1a O3b 0.0343 1_555 1_555 n
+Zn1b Mo1a O4 109.3790(12) 1_555 1_555 n
+Zn1b Mo1a O4 108.3742(11) 1_555 1_565 n
+Zn1b Mo1a O4 108.3743(11) 1_555 3_555 n
+Zn1b Mo1a O4 109.3791(12) 1_555 3_565 n
+o1 Mo1a o1 175.12340(20) 1_555 2_555 n
+o1 Mo1a O3b 92.43830(10) 1_555 1_555 n
+o1 Mo1a O4 89.19110(10) 1_555 1_555 n
+o1 Mo1a O4 89.23160(10) 1_555 1_565 n
+o1 Mo1a O4 89.23160(10) 1_555 3_555 n
+o1 Mo1a O4 89.19110(10) 1_555 3_565 n
+o1 Mo1a O3b 92.43830(10) 2_555 1_555 n
+o1 Mo1a O4 89.19110(10) 2_555 1_555 n
+o1 Mo1a O4 89.23160(10) 2_555 1_565 n
+o1 Mo1a O4 89.23160(10) 2_555 3_555 n
+o1 Mo1a O4 89.19110(10) 2_555 3_565 n
+O3b Mo1a O4 109.3791(12) 1_555 1_555 n
+O3b Mo1a O4 108.3742(11) 1_555 1_565 n
+O3b Mo1a O4 108.3743(11) 1_555 3_555 n
+O3b Mo1a O4 109.3791(12) 1_555 3_565 n
+O4 Mo1a O4 142.2467(23) 1_555 1_565 n
+O4 Mo1a O4 1.00480(10) 1_555 3_555 n
+O4 Mo1a O4 141.2418(24) 1_555 3_565 n
+O4 Mo1a O4 143.2515(23) 1_565 3_555 n
+O4 Mo1a O4 1.00480(10) 1_565 3_565 n
+O4 Mo1a O4 142.2467(23) 3_555 3_565 n
+Cu1b Zn1a Mo1b 0.0 1_555 1_555 n
+Cu1b Zn1a Zn1b 0.0 1_555 1_555 n
+Cu1b Zn1a o1 92.43830(10) 1_555 1_555 n
+Cu1b Zn1a o1 92.43830(10) 1_555 2_555 n
+Cu1b Zn1a O3b 0.0343 1_555 1_555 n
+Cu1b Zn1a O4 109.3790(12) 1_555 1_555 n
+Cu1b Zn1a O4 108.3742(11) 1_555 1_565 n
+Cu1b Zn1a O4 108.3743(11) 1_555 3_555 n
+Cu1b Zn1a O4 109.3791(12) 1_555 3_565 n
+Mo1b Zn1a Zn1b 0.0 1_555 1_555 n
+Mo1b Zn1a o1 92.43830(10) 1_555 1_555 n
+Mo1b Zn1a o1 92.43830(10) 1_555 2_555 n
+Mo1b Zn1a O3b 0.0343 1_555 1_555 n
+Mo1b Zn1a O4 109.3790(12) 1_555 1_555 n
+Mo1b Zn1a O4 108.3742(11) 1_555 1_565 n
+Mo1b Zn1a O4 108.3743(11) 1_555 3_555 n
+Mo1b Zn1a O4 109.3791(12) 1_555 3_565 n
+Zn1b Zn1a o1 92.43830(10) 1_555 1_555 n
+Zn1b Zn1a o1 92.43830(10) 1_555 2_555 n
+Zn1b Zn1a O3b 0.0343 1_555 1_555 n
+Zn1b Zn1a O4 109.3790(12) 1_555 1_555 n
+Zn1b Zn1a O4 108.3742(11) 1_555 1_565 n
+Zn1b Zn1a O4 108.3743(11) 1_555 3_555 n
+Zn1b Zn1a O4 109.3791(12) 1_555 3_565 n
+o1 Zn1a o1 175.12340(20) 1_555 2_555 n
+o1 Zn1a O3b 92.43830(10) 1_555 1_555 n
+o1 Zn1a O4 89.19110(10) 1_555 1_555 n
+o1 Zn1a O4 89.23160(10) 1_555 1_565 n
+o1 Zn1a O4 89.23160(10) 1_555 3_555 n
+o1 Zn1a O4 89.19110(10) 1_555 3_565 n
+o1 Zn1a O3b 92.43830(10) 2_555 1_555 n
+o1 Zn1a O4 89.19110(10) 2_555 1_555 n
+o1 Zn1a O4 89.23160(10) 2_555 1_565 n
+o1 Zn1a O4 89.23160(10) 2_555 3_555 n
+o1 Zn1a O4 89.19110(10) 2_555 3_565 n
+O3b Zn1a O4 109.3791(12) 1_555 1_555 n
+O3b Zn1a O4 108.3742(11) 1_555 1_565 n
+O3b Zn1a O4 108.3743(11) 1_555 3_555 n
+O3b Zn1a O4 109.3791(12) 1_555 3_565 n
+O4 Zn1a O4 142.2467(23) 1_555 1_565 n
+O4 Zn1a O4 1.00480(10) 1_555 3_555 n
+O4 Zn1a O4 141.2418(24) 1_555 3_565 n
+O4 Zn1a O4 143.2515(23) 1_565 3_555 n
+O4 Zn1a O4 1.00480(10) 1_565 3_565 n
+O4 Zn1a O4 142.2467(23) 3_555 3_565 n
+Cu1a Cu1b Mo1a 0.0 1_555 1_555 n
+Cu1a Cu1b Zn1a 0.0 1_555 1_555 n
+Cu1a Cu1b o1 78.3361(5) 1_555 1_555 n
+Cu1a Cu1b o1 78.3361(5) 1_555 2_555 n
+Cu1a Cu1b O3a 180.0 1_555 1_555 n
+Cu1a Cu1b O3b 179.9604 1_555 1_555 n
+Cu1a Cu1b O4 63.4342(15) 1_555 1_555 n
+Cu1a Cu1b O4 63.4342(15) 1_555 3_565 n
+Mo1a Cu1b Zn1a 0.0 1_555 1_555 n
+Mo1a Cu1b o1 78.3361(5) 1_555 1_555 n
+Mo1a Cu1b o1 78.3361(5) 1_555 2_555 n
+Mo1a Cu1b O3a 180.0 1_555 1_555 n
+Mo1a Cu1b O3b 179.9604 1_555 1_555 n
+Mo1a Cu1b O4 63.4342(15) 1_555 1_555 n
+Mo1a Cu1b O4 63.4342(15) 1_555 3_565 n
+Zn1a Cu1b o1 78.3361(5) 1_555 1_555 n
+Zn1a Cu1b o1 78.3361(5) 1_555 2_555 n
+Zn1a Cu1b O3a 180.0 1_555 1_555 n
+Zn1a Cu1b O3b 179.9604 1_555 1_555 n
+Zn1a Cu1b O4 63.4342(15) 1_555 1_555 n
+Zn1a Cu1b O4 63.4342(15) 1_555 3_565 n
+o1 Cu1b o1 156.6721(10) 1_555 2_555 n
+o1 Cu1b O3a 101.6639(5) 1_555 1_555 n
+o1 Cu1b O3b 101.6639(5) 1_555 1_555 n
+o1 Cu1b O4 84.8124(4) 1_555 1_555 n
+o1 Cu1b O4 84.8125(4) 1_555 3_565 n
+o1 Cu1b O3a 101.6639(5) 2_555 1_555 n
+o1 Cu1b O3b 101.6639(5) 2_555 1_555 n
+o1 Cu1b O4 84.8124(4) 2_555 1_555 n
+o1 Cu1b O4 84.8124(4) 2_555 3_565 n
+O3a Cu1b O3b 0.0 1_555 1_555 n
+O3a Cu1b O4 116.5658(15) 1_555 1_555 n
+O3a Cu1b O4 116.5658(15) 1_555 3_565 n
+O3b Cu1b O4 116.5658(15) 1_555 1_555 n
+O3b Cu1b O4 116.5658(15) 1_555 3_565 n
+O4 Cu1b O4 126.8683(31) 1_555 3_565 n
+Cu1a Mo1b Mo1a 0.0 1_555 1_555 n
+Cu1a Mo1b Zn1a 0.0 1_555 1_555 n
+Cu1a Mo1b o1 78.3361(5) 1_555 1_555 n
+Cu1a Mo1b o1 78.3361(5) 1_555 2_555 n
+Cu1a Mo1b O3a 180.0 1_555 1_555 n
+Cu1a Mo1b O3b 179.9604 1_555 1_555 n
+Cu1a Mo1b O4 63.4342(15) 1_555 1_555 n
+Cu1a Mo1b O4 64.7246(15) 1_555 1_565 n
+Cu1a Mo1b O4 64.7246(15) 1_555 3_555 n
+Cu1a Mo1b O4 63.4342(15) 1_555 3_565 n
+Mo1a Mo1b Zn1a 0.0 1_555 1_555 n
+Mo1a Mo1b o1 78.3361(5) 1_555 1_555 n
+Mo1a Mo1b o1 78.3361(5) 1_555 2_555 n
+Mo1a Mo1b O3a 180.0 1_555 1_555 n
+Mo1a Mo1b O3b 179.9604 1_555 1_555 n
+Mo1a Mo1b O4 63.4342(15) 1_555 1_555 n
+Mo1a Mo1b O4 64.7246(15) 1_555 1_565 n
+Mo1a Mo1b O4 64.7246(15) 1_555 3_555 n
+Mo1a Mo1b O4 63.4342(15) 1_555 3_565 n
+Zn1a Mo1b o1 78.3361(5) 1_555 1_555 n
+Zn1a Mo1b o1 78.3361(5) 1_555 2_555 n
+Zn1a Mo1b O3a 180.0 1_555 1_555 n
+Zn1a Mo1b O3b 179.9604 1_555 1_555 n
+Zn1a Mo1b O4 63.4342(15) 1_555 1_555 n
+Zn1a Mo1b O4 64.7246(15) 1_555 1_565 n
+Zn1a Mo1b O4 64.7246(15) 1_555 3_555 n
+Zn1a Mo1b O4 63.4342(15) 1_555 3_565 n
+o1 Mo1b o1 156.6721(10) 1_555 2_555 n
+o1 Mo1b O3a 101.6639(5) 1_555 1_555 n
+o1 Mo1b O3b 101.6639(5) 1_555 1_555 n
+o1 Mo1b O4 84.8124(4) 1_555 1_555 n
+o1 Mo1b O4 85.0480(4) 1_555 1_565 n
+o1 Mo1b O4 85.0480(4) 1_555 3_555 n
+o1 Mo1b O4 84.8125(4) 1_555 3_565 n
+o1 Mo1b O3a 101.6639(5) 2_555 1_555 n
+o1 Mo1b O3b 101.6639(5) 2_555 1_555 n
+o1 Mo1b O4 84.8124(4) 2_555 1_555 n
+o1 Mo1b O4 85.0480(4) 2_555 1_565 n
+o1 Mo1b O4 85.0480(4) 2_555 3_555 n
+o1 Mo1b O4 84.8124(4) 2_555 3_565 n
+O3a Mo1b O3b 0.0 1_555 1_555 n
+O3a Mo1b O4 116.5658(15) 1_555 1_555 n
+O3a Mo1b O4 115.2753(15) 1_555 1_565 n
+O3a Mo1b O4 115.2753(15) 1_555 3_555 n
+O3a Mo1b O4 116.5658(15) 1_555 3_565 n
+O3b Mo1b O4 116.5658(15) 1_555 1_555 n
+O3b Mo1b O4 115.2753(15) 1_555 1_565 n
+O3b Mo1b O4 115.2754(15) 1_555 3_555 n
+O3b Mo1b O4 116.5658(15) 1_555 3_565 n
+O4 Mo1b O4 128.1588(30) 1_555 1_565 n
+O4 Mo1b O4 1.29040(10) 1_555 3_555 n
+O4 Mo1b O4 126.8683(31) 1_555 3_565 n
+O4 Mo1b O4 129.4493(29) 1_565 3_555 n
+O4 Mo1b O4 1.29040(10) 1_565 3_565 n
+O4 Mo1b O4 128.1588(30) 3_555 3_565 n
+Cu1a Zn1b Mo1a 0.0 1_555 1_555 n
+Cu1a Zn1b Zn1a 0.0 1_555 1_555 n
+Cu1a Zn1b o1 78.3361(5) 1_555 1_555 n
+Cu1a Zn1b o1 78.3361(5) 1_555 2_555 n
+Cu1a Zn1b O3a 180.0 1_555 1_555 n
+Cu1a Zn1b O3b 179.9604 1_555 1_555 n
+Cu1a Zn1b O4 63.4342(15) 1_555 1_555 n
+Cu1a Zn1b O4 64.7246(15) 1_555 1_565 n
+Cu1a Zn1b O4 64.7246(15) 1_555 3_555 n
+Cu1a Zn1b O4 63.4342(15) 1_555 3_565 n
+Mo1a Zn1b Zn1a 0.0 1_555 1_555 n
+Mo1a Zn1b o1 78.3361(5) 1_555 1_555 n
+Mo1a Zn1b o1 78.3361(5) 1_555 2_555 n
+Mo1a Zn1b O3a 180.0 1_555 1_555 n
+Mo1a Zn1b O3b 179.9604 1_555 1_555 n
+Mo1a Zn1b O4 63.4342(15) 1_555 1_555 n
+Mo1a Zn1b O4 64.7246(15) 1_555 1_565 n
+Mo1a Zn1b O4 64.7246(15) 1_555 3_555 n
+Mo1a Zn1b O4 63.4342(15) 1_555 3_565 n
+Zn1a Zn1b o1 78.3361(5) 1_555 1_555 n
+Zn1a Zn1b o1 78.3361(5) 1_555 2_555 n
+Zn1a Zn1b O3a 180.0 1_555 1_555 n
+Zn1a Zn1b O3b 179.9604 1_555 1_555 n
+Zn1a Zn1b O4 63.4342(15) 1_555 1_555 n
+Zn1a Zn1b O4 64.7246(15) 1_555 1_565 n
+Zn1a Zn1b O4 64.7246(15) 1_555 3_555 n
+Zn1a Zn1b O4 63.4342(15) 1_555 3_565 n
+o1 Zn1b o1 156.6721(10) 1_555 2_555 n
+o1 Zn1b O3a 101.6639(5) 1_555 1_555 n
+o1 Zn1b O3b 101.6639(5) 1_555 1_555 n
+o1 Zn1b O4 84.8124(4) 1_555 1_555 n
+o1 Zn1b O4 85.0480(4) 1_555 1_565 n
+o1 Zn1b O4 85.0480(4) 1_555 3_555 n
+o1 Zn1b O4 84.8125(4) 1_555 3_565 n
+o1 Zn1b O3a 101.6639(5) 2_555 1_555 n
+o1 Zn1b O3b 101.6639(5) 2_555 1_555 n
+o1 Zn1b O4 84.8124(4) 2_555 1_555 n
+o1 Zn1b O4 85.0480(4) 2_555 1_565 n
+o1 Zn1b O4 85.0480(4) 2_555 3_555 n
+o1 Zn1b O4 84.8124(4) 2_555 3_565 n
+O3a Zn1b O3b 0.0 1_555 1_555 n
+O3a Zn1b O4 116.5658(15) 1_555 1_555 n
+O3a Zn1b O4 115.2753(15) 1_555 1_565 n
+O3a Zn1b O4 115.2753(15) 1_555 3_555 n
+O3a Zn1b O4 116.5658(15) 1_555 3_565 n
+O3b Zn1b O4 116.5658(15) 1_555 1_555 n
+O3b Zn1b O4 115.2753(15) 1_555 1_565 n
+O3b Zn1b O4 115.2754(15) 1_555 3_555 n
+O3b Zn1b O4 116.5658(15) 1_555 3_565 n
+O4 Zn1b O4 128.1588(30) 1_555 1_565 n
+O4 Zn1b O4 1.29040(10) 1_555 3_555 n
+O4 Zn1b O4 126.8683(31) 1_555 3_565 n
+O4 Zn1b O4 129.4493(29) 1_565 3_555 n
+O4 Zn1b O4 1.29040(10) 1_565 3_565 n
+O4 Zn1b O4 128.1588(30) 3_555 3_565 n
+Cu2 Cu2 Mo2 0.0 3_555 3_555 n
+Cu2 Cu2 Zn2 0.0 3_555 3_555 n
+Cu2 Cu2 O2 82.2443(4) 3_555 1_555 n
+Cu2 Cu2 O2 82.2443(4) 3_555 2_555 n
+Cu2 Cu2 O3a 153.1177(15) 3_555 1_545 n
+Mo2 Cu2 Zn2 0.0 3_555 3_555 n
+Mo2 Cu2 O2 82.2443(4) 3_555 1_555 n
+Mo2 Cu2 O2 82.2443(4) 3_555 2_555 n
+Mo2 Cu2 O3a 153.1177(15) 3_555 1_545 n
+Zn2 Cu2 O2 82.2443(4) 3_555 1_555 n
+Zn2 Cu2 O2 82.2443(4) 3_555 2_555 n
+Zn2 Cu2 O3a 153.1177(15) 3_555 1_545 n
+O2 Cu2 O2 164.1328(8) 1_555 2_555 n
+O2 Cu2 O3a 97.6701(4) 1_555 1_545 n
+O2 Cu2 O3a 97.6701(4) 2_555 1_545 n
+Cu2 Mo2 Mo2 0.0 3_555 3_555 n
+Cu2 Mo2 Zn2 0.0 3_555 3_555 n
+Cu2 Mo2 O2 82.2443(4) 3_555 1_555 n
+Cu2 Mo2 O2 82.2443(4) 3_555 2_555 n
+Cu2 Mo2 O3a 153.1177(15) 3_555 1_545 n
+Cu2 Mo2 O3b 138.3116(19) 3_555 1_545 n
+Mo2 Mo2 Zn2 0.0 3_555 3_555 n
+Mo2 Mo2 O2 82.2443(4) 3_555 1_555 n
+Mo2 Mo2 O2 82.2443(4) 3_555 2_555 n
+Mo2 Mo2 O3a 153.1177(15) 3_555 1_545 n
+Mo2 Mo2 O3b 138.3116(19) 3_555 1_545 n
+Zn2 Mo2 O2 82.2443(4) 3_555 1_555 n
+Zn2 Mo2 O2 82.2443(4) 3_555 2_555 n
+Zn2 Mo2 O3a 153.1177(15) 3_555 1_545 n
+Zn2 Mo2 O3b 138.3116(19) 3_555 1_545 n
+O2 Mo2 O2 164.1328(8) 1_555 2_555 n
+O2 Mo2 O3a 97.6701(4) 1_555 1_545 n
+O2 Mo2 O3b 96.8949(4) 1_555 1_545 n
+O2 Mo2 O3a 97.6701(4) 2_555 1_545 n
+O2 Mo2 O3b 96.8949(4) 2_555 1_545 n
+O3a Mo2 O3b 14.8061(4) 1_545 1_545 n
+Cu2 Zn2 Mo2 0.0 3_555 3_555 n
+Cu2 Zn2 Zn2 0.0 3_555 3_555 n
+Cu2 Zn2 O2 82.2443(4) 3_555 1_555 n
+Cu2 Zn2 O2 82.2443(4) 3_555 2_555 n
+Cu2 Zn2 O3a 153.1177(15) 3_555 1_545 n
+Mo2 Zn2 Zn2 0.0 3_555 3_555 n
+Mo2 Zn2 O2 82.2443(4) 3_555 1_555 n
+Mo2 Zn2 O2 82.2443(4) 3_555 2_555 n
+Mo2 Zn2 O3a 153.1177(15) 3_555 1_545 n
+Zn2 Zn2 O2 82.2443(4) 3_555 1_555 n
+Zn2 Zn2 O2 82.2443(4) 3_555 2_555 n
+Zn2 Zn2 O3a 153.1177(15) 3_555 1_545 n
+O2 Zn2 O2 164.1328(8) 1_555 2_555 n
+O2 Zn2 O3a 97.6701(4) 1_555 1_545 n
+O2 Zn2 O3a 97.6701(4) 2_555 1_545 n
+LA1 o1 LA1 108.5169(30) 1_555 1_565 n
+LA1 o1 LA1 102.8488(14) 1_555 -1_566 n
+LA1 o1 Cu1a 115.7333(10) 1_555 1_555 n
+LA1 o1 Mo1a 115.7333(10) 1_555 1_555 n
+LA1 o1 Zn1a 115.7333(10) 1_555 1_555 n
+LA1 o1 Cu1b 119.4204(11) 1_555 1_555 n
+LA1 o1 Mo1b 119.4204(11) 1_555 1_555 n
+LA1 o1 Zn1b 119.4204(11) 1_555 1_555 n
+LA1 o1 LA1 102.8488(14) 1_565 -1_566 n
+LA1 o1 Cu1a 115.7333(10) 1_565 1_555 n
+LA1 o1 Mo1a 115.7333(10) 1_565 1_555 n
+LA1 o1 Zn1a 115.7333(10) 1_565 1_555 n
+LA1 o1 Cu1b 119.4204(11) 1_565 1_555 n
+LA1 o1 Mo1b 119.4204(11) 1_565 1_555 n
+LA1 o1 Zn1b 119.4204(11) 1_565 1_555 n
+LA1 o1 Cu1a 109.6098(10) -1_566 1_555 n
+LA1 o1 Mo1a 109.6098(10) -1_566 1_555 n
+LA1 o1 Zn1a 109.6098(10) -1_566 1_555 n
+LA1 o1 Cu1b 100.3842(14) -1_566 1_555 n
+LA1 o1 Mo1b 100.3842(14) -1_566 1_555 n
+LA1 o1 Zn1b 100.3842(14) -1_566 1_555 n
+Cu1a o1 Mo1a 0.0 1_555 1_555 n
+Cu1a o1 Zn1a 0.0 1_555 1_555 n
+Cu1a o1 Cu1b 9.2256(4) 1_555 1_555 n
+Cu1a o1 Mo1b 9.2256(4) 1_555 1_555 n
+Cu1a o1 Zn1b 9.2256(4) 1_555 1_555 n
+Mo1a o1 Zn1a 0.0 1_555 1_555 n
+Mo1a o1 Cu1b 9.2256(4) 1_555 1_555 n
+Mo1a o1 Mo1b 9.2256(4) 1_555 1_555 n
+Mo1a o1 Zn1b 9.2256(4) 1_555 1_555 n
+Zn1a o1 Cu1b 9.2256(4) 1_555 1_555 n
+Zn1a o1 Mo1b 9.2256(4) 1_555 1_555 n
+Zn1a o1 Zn1b 9.2256(4) 1_555 1_555 n
+Cu1b o1 Mo1b 0.0 1_555 1_555 n
+Cu1b o1 Zn1b 0.0 1_555 1_555 n
+Mo1b o1 Zn1b 0.0 1_555 1_555 n
+LA1 O2 LA1 106.3833(14) 1_556 -1_556 n
+LA1 O2 LA1 106.3833(14) 1_556 -1_566 n
+LA1 O2 Cu2 109.1900(7) 1_556 1_555 n
+LA1 O2 Cu2 109.1900(7) 1_556 3_555 n
+LA1 O2 Mo2 109.1900(7) 1_556 1_555 n
+LA1 O2 Mo2 109.1900(7) 1_556 3_555 n
+LA1 O2 Zn2 109.1900(7) 1_556 1_555 n
+LA1 O2 Zn2 109.1900(7) 1_556 3_555 n
+LA1 O2 LA1 117.2157(29) -1_556 -1_566 n
+LA1 O2 Cu2 101.6205(12) -1_556 1_555 n
+LA1 O2 Cu2 115.5831(4) -1_556 3_555 n
+LA1 O2 Mo2 101.6205(12) -1_556 1_555 n
+LA1 O2 Mo2 115.5831(4) -1_556 3_555 n
+LA1 O2 Zn2 101.6205(12) -1_556 1_555 n
+LA1 O2 Zn2 115.5831(4) -1_556 3_555 n
+LA1 O2 Cu2 115.5831(4) -1_566 1_555 n
+LA1 O2 Cu2 101.6205(12) -1_566 3_555 n
+LA1 O2 Mo2 115.5831(4) -1_566 1_555 n
+LA1 O2 Mo2 101.6205(12) -1_566 3_555 n
+LA1 O2 Zn2 115.5831(4) -1_566 1_555 n
+LA1 O2 Zn2 101.6205(12) -1_566 3_555 n
+Cu2 O2 Cu2 15.5114(8) 1_555 3_555 n
+Cu2 O2 Mo2 0.0 1_555 1_555 n
+Cu2 O2 Mo2 15.5114(8) 1_555 3_555 n
+Cu2 O2 Zn2 0.0 1_555 1_555 n
+Cu2 O2 Zn2 15.5114(8) 1_555 3_555 n
+Cu2 O2 Mo2 15.5114(8) 3_555 1_555 n
+Cu2 O2 Mo2 0.0 3_555 3_555 n
+Cu2 O2 Zn2 15.5114(8) 3_555 1_555 n
+Cu2 O2 Zn2 0.0 3_555 3_555 n
+Mo2 O2 Mo2 15.5114(8) 1_555 3_555 n
+Mo2 O2 Zn2 0.0 1_555 1_555 n
+Mo2 O2 Zn2 15.5114(8) 1_555 3_555 n
+Mo2 O2 Zn2 15.5114(8) 3_555 1_555 n
+Mo2 O2 Zn2 0.0 3_555 3_555 n
+Zn2 O2 Zn2 15.5114(8) 1_555 3_555 n
+LA1 O3a LA1 179.7039 -1_566 -2_566 n
+LA1 O3a Cu1b 89.8513 -1_566 1_555 n
+LA1 O3a Mo1b 89.8513 -1_566 1_555 n
+LA1 O3a Zn1b 89.8513 -1_566 1_555 n
+LA1 O3a Cu2 90.0672 -1_566 1_565 n
+LA1 O3a Cu2 90.0672 -1_566 3_555 n
+LA1 O3a Mo2 90.0672 -1_566 1_565 n
+LA1 O3a Mo2 90.0672 -1_566 3_555 n
+LA1 O3a Zn2 90.0672 -1_566 1_565 n
+LA1 O3a Zn2 90.0672 -1_566 3_555 n
+LA1 O3a O3b 89.8513 -1_566 1_555 n
+LA1 O3a Cu1b 89.8513 -2_666 1_555 n
+LA1 O3a Mo1b 89.8513 -2_666 1_555 n
+LA1 O3a Zn1b 89.8513 -2_666 1_555 n
+LA1 O3a Cu2 90.0673 -2_666 1_565 n
+LA1 O3a Cu2 90.0673 -2_666 3_555 n
+LA1 O3a Mo2 90.0673 -2_666 1_565 n
+LA1 O3a Mo2 90.0673 -2_666 3_555 n
+LA1 O3a Zn2 90.0673 -2_666 1_565 n
+LA1 O3a Zn2 90.0673 -2_666 3_555 n
+LA1 O3a O3b 89.8513 -2_666 1_555 n
+Cu1b O3a Mo1b 0.0 1_555 1_555 n
+Cu1b O3a Zn1b 0.0 1_555 1_555 n
+Cu1b O3a Cu2 116.8822(15) 1_555 1_565 n
+Cu1b O3a Cu2 116.8822(15) 1_555 3_555 n
+Cu1b O3a Mo2 116.8822(15) 1_555 1_565 n
+Cu1b O3a Mo2 116.8822(15) 1_555 3_555 n
+Cu1b O3a Zn2 116.8822(15) 1_555 1_565 n
+Cu1b O3a Zn2 116.8822(15) 1_555 3_555 n
+Cu1b O3a O3b 0.0198 1_555 1_555 n
+Mo1b O3a Zn1b 0.0 1_555 1_555 n
+Mo1b O3a Cu2 116.8822(15) 1_555 1_565 n
+Mo1b O3a Cu2 116.8822(15) 1_555 3_555 n
+Mo1b O3a Mo2 116.8822(15) 1_555 1_565 n
+Mo1b O3a Mo2 116.8822(15) 1_555 3_555 n
+Mo1b O3a Zn2 116.8822(15) 1_555 1_565 n
+Mo1b O3a Zn2 116.8822(15) 1_555 3_555 n
+Mo1b O3a O3b 0.0198 1_555 1_555 n
+Zn1b O3a Cu2 116.8822(15) 1_555 1_565 n
+Zn1b O3a Cu2 116.8822(15) 1_555 3_555 n
+Zn1b O3a Mo2 116.8822(15) 1_555 1_565 n
+Zn1b O3a Mo2 116.8822(15) 1_555 3_555 n
+Zn1b O3a Zn2 116.8822(15) 1_555 1_565 n
+Zn1b O3a Zn2 116.8822(15) 1_555 3_555 n
+Zn1b O3a O3b 0.0198 1_555 1_555 n
+Cu2 O3a Cu2 126.2356(31) 1_565 3_555 n
+Cu2 O3a Mo2 0.0 1_565 1_565 n
+Cu2 O3a Mo2 126.2356(31) 1_565 3_555 n
+Cu2 O3a Zn2 0.0 1_565 1_565 n
+Cu2 O3a Zn2 126.2356(31) 1_565 3_555 n
+Cu2 O3a O3b 116.8822(15) 1_565 1_555 n
+Cu2 O3a Mo2 126.2356(31) 3_555 1_565 n
+Cu2 O3a Mo2 0.0 3_555 3_555 n
+Cu2 O3a Zn2 126.2356(31) 3_555 1_565 n
+Cu2 O3a Zn2 0.0 3_555 3_555 n
+Cu2 O3a O3b 116.8822(15) 3_555 1_555 n
+Mo2 O3a Mo2 126.2356(31) 1_565 3_555 n
+Mo2 O3a Zn2 0.0 1_565 1_565 n
+Mo2 O3a Zn2 126.2356(31) 1_565 3_555 n
+Mo2 O3a O3b 116.8822(15) 1_565 1_555 n
+Mo2 O3a Zn2 126.2356(31) 3_555 1_565 n
+Mo2 O3a Zn2 0.0 3_555 3_555 n
+Mo2 O3a O3b 116.8822(15) 3_555 1_555 n
+Zn2 O3a Zn2 126.2356(31) 1_565 3_555 n
+Zn2 O3a O3b 116.8822(15) 1_565 1_555 n
+Zn2 O3a O3b 116.8822(15) 3_555 1_555 n
+Cu1a O3b Mo1a 0.0 1_555 1_555 n
+Cu1a O3b Zn1a 0.0 1_555 1_555 n
+Cu1a O3b Cu1b 0.0 1_555 1_555 n
+Cu1a O3b Mo1b 0.0 1_555 1_555 n
+Cu1a O3b Zn1b 0.0 1_555 1_555 n
+Cu1a O3b Mo2 131.6884(19) 1_555 1_565 n
+Cu1a O3b Mo2 131.6884(19) 1_555 3_555 n
+Cu1a O3b O3a 180.0 1_555 1_555 n
+Mo1a O3b Zn1a 0.0 1_555 1_555 n
+Mo1a O3b Cu1b 0.0 1_555 1_555 n
+Mo1a O3b Mo1b 0.0 1_555 1_555 n
+Mo1a O3b Zn1b 0.0 1_555 1_555 n
+Mo1a O3b Mo2 131.6884(19) 1_555 1_565 n
+Mo1a O3b Mo2 131.6884(19) 1_555 3_555 n
+Mo1a O3b O3a 180.0 1_555 1_555 n
+Zn1a O3b Cu1b 0.0 1_555 1_555 n
+Zn1a O3b Mo1b 0.0 1_555 1_555 n
+Zn1a O3b Zn1b 0.0 1_555 1_555 n
+Zn1a O3b Mo2 131.6884(19) 1_555 1_565 n
+Zn1a O3b Mo2 131.6884(19) 1_555 3_555 n
+Zn1a O3b O3a 180.0 1_555 1_555 n
+Cu1b O3b Mo1b 0.0 1_555 1_555 n
+Cu1b O3b Zn1b 0.0 1_555 1_555 n
+Cu1b O3b Mo2 131.6883(19) 1_555 1_565 n
+Cu1b O3b Mo2 131.6883(19) 1_555 3_555 n
+Cu1b O3b O3a 179.972 1_555 1_555 n
+Mo1b O3b Zn1b 0.0 1_555 1_555 n
+Mo1b O3b Mo2 131.6883(19) 1_555 1_565 n
+Mo1b O3b Mo2 131.6883(19) 1_555 3_555 n
+Mo1b O3b O3a 179.972 1_555 1_555 n
+Zn1b O3b Mo2 131.6883(19) 1_555 1_565 n
+Zn1b O3b Mo2 131.6883(19) 1_555 3_555 n
+Zn1b O3b O3a 179.972 1_555 1_555 n
+Mo2 O3b Mo2 96.623(4) 1_565 3_555 n
+Mo2 O3b O3a 48.3116(19) 1_565 1_555 n
+Mo2 O3b O3a 48.3116(19) 3_555 1_555 n
+Cu1a O4 Cu1a 142.2467(23) 1_545 1_555 n
+Cu1a O4 Mo1a 0.0 1_545 1_545 n
+Cu1a O4 Mo1a 142.2467(23) 1_545 1_555 n
+Cu1a O4 Zn1a 0.0 1_545 1_545 n
+Cu1a O4 Zn1a 142.2467(23) 1_545 1_555 n
+Cu1a O4 Cu1b 135.0599(27) 1_545 1_555 n
+Cu1a O4 Mo1b 6.90110(30) 1_545 1_545 n
+Cu1a O4 Mo1b 135.0599(27) 1_545 1_555 n
+Cu1a O4 Zn1b 6.90110(30) 1_545 1_545 n
+Cu1a O4 Zn1b 135.0599(27) 1_545 1_555 n
+Cu1a O4 O4 18.3742(11) 1_545 3_555 n
+Cu1a O4 Mo1a 142.2467(23) 1_555 1_545 n
+Cu1a O4 Mo1a 0.0 1_555 1_555 n
+Cu1a O4 Zn1a 142.2467(23) 1_555 1_545 n
+Cu1a O4 Zn1a 0.0 1_555 1_555 n
+Cu1a O4 Cu1b 7.18680(30) 1_555 1_555 n
+Cu1a O4 Mo1b 135.3456(27) 1_555 1_545 n
+Cu1a O4 Mo1b 7.18680(30) 1_555 1_555 n
+Cu1a O4 Zn1b 135.3456(27) 1_555 1_545 n
+Cu1a O4 Zn1b 7.18680(30) 1_555 1_555 n
+Cu1a O4 O4 160.6209(12) 1_555 3_555 n
+Mo1a O4 Mo1a 142.2467(23) 1_545 1_555 n
+Mo1a O4 Zn1a 0.0 1_545 1_545 n
+Mo1a O4 Zn1a 142.2467(23) 1_545 1_555 n
+Mo1a O4 Cu1b 135.0599(27) 1_545 1_555 n
+Mo1a O4 Mo1b 6.90110(30) 1_545 1_545 n
+Mo1a O4 Mo1b 135.0599(27) 1_545 1_555 n
+Mo1a O4 Zn1b 6.90110(30) 1_545 1_545 n
+Mo1a O4 Zn1b 135.0599(27) 1_545 1_555 n
+Mo1a O4 O4 18.3742(11) 1_545 3_555 n
+Mo1a O4 Zn1a 142.2467(23) 1_555 1_545 n
+Mo1a O4 Zn1a 0.0 1_555 1_555 n
+Mo1a O4 Cu1b 7.18680(30) 1_555 1_555 n
+Mo1a O4 Mo1b 135.3456(27) 1_555 1_545 n
+Mo1a O4 Mo1b 7.18680(30) 1_555 1_555 n
+Mo1a O4 Zn1b 135.3456(27) 1_555 1_545 n
+Mo1a O4 Zn1b 7.18680(30) 1_555 1_555 n
+Mo1a O4 O4 160.6209(12) 1_555 3_555 n
+Zn1a O4 Zn1a 142.2467(23) 1_545 1_555 n
+Zn1a O4 Cu1b 135.0599(27) 1_545 1_555 n
+Zn1a O4 Mo1b 6.90110(30) 1_545 1_545 n
+Zn1a O4 Mo1b 135.0599(27) 1_545 1_555 n
+Zn1a O4 Zn1b 6.90110(30) 1_545 1_545 n
+Zn1a O4 Zn1b 135.0599(27) 1_545 1_555 n
+Zn1a O4 O4 18.3742(11) 1_545 3_555 n
+Zn1a O4 Cu1b 7.18680(30) 1_555 1_555 n
+Zn1a O4 Mo1b 135.3456(27) 1_555 1_545 n
+Zn1a O4 Mo1b 7.18680(30) 1_555 1_555 n
+Zn1a O4 Zn1b 135.3456(27) 1_555 1_545 n
+Zn1a O4 Zn1b 7.18680(30) 1_555 1_555 n
+Zn1a O4 O4 160.6209(12) 1_555 3_555 n
+Cu1b O4 Mo1b 128.1588(30) 1_555 1_545 n
+Cu1b O4 Mo1b 0.0 1_555 1_555 n
+Cu1b O4 Zn1b 128.1588(30) 1_555 1_545 n
+Cu1b O4 Zn1b 0.0 1_555 1_555 n
+Cu1b O4 O4 153.4342(15) 1_555 3_555 n
+Mo1b O4 Mo1b 128.1588(30) 1_545 1_555 n
+Mo1b O4 Zn1b 0.0 1_545 1_545 n
+Mo1b O4 Zn1b 128.1588(30) 1_545 1_555 n
+Mo1b O4 O4 25.2752(15) 1_545 3_555 n
+Mo1b O4 Zn1b 128.1588(30) 1_555 1_545 n
+Mo1b O4 Zn1b 0.0 1_555 1_555 n
+Mo1b O4 O4 153.4342(15) 1_555 3_555 n
+Zn1b O4 Zn1b 128.1588(30) 1_545 1_555 n
+Zn1b O4 O4 25.2752(15) 1_545 3_555 n
+Zn1b O4 O4 153.4342(15) 1_555 3_555 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+LA1 LA1 3.95831(20) 1_545 n
+LA1 LA1 3.95831(20) 1_565 n
+LA1 LA1 3.91055(13) -1_555 n
+LA1 LA1 4.00580(14) -1_556 n
+LA1 LA1 3.91055(13) -1_565 n
+LA1 LA1 4.00580(14) -1_566 n
+LA1 Cu1a 3.55876(7) 1_545 n
+LA1 Cu1a 3.55876(7) 1_555 n
+LA1 Mo1a 3.55876(7) 1_545 n
+LA1 Mo1a 3.55876(7) 1_555 n
+LA1 Mo1a 3.65494(7) -1_566 n
+LA1 Zn1a 3.55876(7) 1_545 n
+LA1 Zn1a 3.55876(7) 1_555 n
+LA1 Zn1a 3.65494(7) -1_566 n
+LA1 Cu1b 3.47347(6) -1_566 n
+LA1 Mo1b 3.65467(7) 1_545 n
+LA1 Mo1b 3.65467(7) 1_555 n
+LA1 Mo1b 3.47347(6) -1_566 n
+LA1 Zn1b 3.65467(7) 1_545 n
+LA1 Zn1b 3.65467(7) 1_555 n
+LA1 Zn1b 3.47347(6) -1_566 n
+LA1 Cu2 3.35099(6) -1_556 n
+LA1 Cu2 3.35099(6) -3_556 n
+LA1 Mo2 3.35099(6) -1_556 n
+LA1 Mo2 3.65550(8) -1_566 n
+LA1 Mo2 3.65550(8) -3_546 n
+LA1 Mo2 3.35099(6) -3_556 n
+LA1 Zn2 3.35099(6) -1_556 n
+LA1 Zn2 3.65550(8) -1_566 n
+LA1 Zn2 3.65550(8) -3_546 n
+LA1 Zn2 3.35099(6) -3_556 n
+LA1 o1 2.43841(8) 1_545 n
+LA1 o1 2.43841(8) 1_555 n
+LA1 o1 2.68182(10) -1_566 n
+LA1 O2 2.56230(10) 1_554 n
+LA1 O2 2.31854(9) -1_556 n
+LA1 O2 2.31854(9) -1_566 n
+LA1 O3a 2.74640(4) -1_566 n
+LA1 O3b 2.82199(4) -1_566 n
+LA1 O4 2.78561(4) 1_555 n
+LA1 O4 2.78561(4) 3_555 n
+Cu1a LA1 3.55876(7) 1_555 n
+Cu1a LA1 3.55876(7) 1_565 n
+Cu1a LA1 3.55876(7) 2_555 n
+Cu1a LA1 3.55876(7) 2_565 n
+Cu1a Cu1b 0.285050(10) 1_555 n
+Cu1a Mo1b 0.285050(10) 1_555 n
+Cu1a Zn1b 0.285050(10) 1_555 n
+Cu1a o1 1.741250(30) 1_555 n
+Cu1a o1 1.741250(30) 2_555 n
+Cu1a O3a 2.41874(10) 1_555 n
+Cu1a O3b 1.76281(7) 1_555 n
+Cu1a O4 2.03793(9) 1_555 n
+Cu1a O4 2.14521(10) 1_565 n
+Cu1a O4 2.14521(10) 3_555 n
+Cu1a O4 2.03793(9) 3_565 n
+Mo1a LA1 3.55876(7) 1_555 n
+Mo1a LA1 3.55876(7) 1_565 n
+Mo1a LA1 3.55876(7) 2_555 n
+Mo1a LA1 3.55876(7) 2_565 n
+Mo1a LA1 3.65494(7) -1_566 n
+Mo1a LA1 3.65494(7) -2_566 n
+Mo1a Cu1b 0.285050(10) 1_555 n
+Mo1a Mo1b 0.285050(10) 1_555 n
+Mo1a Zn1b 0.285050(10) 1_555 n
+Mo1a o1 1.741250(30) 1_555 n
+Mo1a o1 1.741250(30) 2_555 n
+Mo1a O3a 2.41874(10) 1_555 n
+Mo1a O3b 1.76281(7) 1_555 n
+Mo1a O4 2.03793(9) 1_555 n
+Mo1a O4 2.14521(10) 1_565 n
+Mo1a O4 2.14521(10) 3_555 n
+Mo1a O4 2.03793(9) 3_565 n
+Zn1a LA1 3.55876(7) 1_555 n
+Zn1a LA1 3.55876(7) 1_565 n
+Zn1a LA1 3.55876(7) 2_555 n
+Zn1a LA1 3.55876(7) 2_565 n
+Zn1a LA1 3.65494(7) -1_566 n
+Zn1a LA1 3.65494(7) -2_566 n
+Zn1a Cu1b 0.285050(10) 1_555 n
+Zn1a Mo1b 0.285050(10) 1_555 n
+Zn1a Zn1b 0.285050(10) 1_555 n
+Zn1a o1 1.741250(30) 1_555 n
+Zn1a o1 1.741250(30) 2_555 n
+Zn1a O3a 2.41874(10) 1_555 n
+Zn1a O3b 1.76281(7) 1_555 n
+Zn1a O4 2.03793(9) 1_555 n
+Zn1a O4 2.14521(10) 1_565 n
+Zn1a O4 2.14521(10) 3_555 n
+Zn1a O4 2.03793(9) 3_565 n
+Cu1b LA1 3.47347(6) -1_566 n
+Cu1b LA1 3.47347(6) -2_566 n
+Cu1b Cu1a 0.285050(10) 1_555 n
+Cu1b Mo1a 0.285050(10) 1_555 n
+Cu1b Zn1a 0.285050(10) 1_555 n
+Cu1b o1 1.776360(30) 1_555 n
+Cu1b o1 1.776360(30) 2_555 n
+Cu1b O3a 2.13370(9) 1_555 n
+Cu1b O3b 1.47776(6) 1_555 n
+Cu1b O4 2.14940(9) 1_555 n
+Cu1b O4 2.25138(10) 1_565 n
+Cu1b O4 2.25138(10) 3_555 n
+Cu1b O4 2.14940(9) 3_565 n
+Mo1b LA1 3.65467(7) 1_555 n
+Mo1b LA1 3.65467(7) 1_565 n
+Mo1b LA1 3.65467(7) 2_555 n
+Mo1b LA1 3.65467(7) 2_565 n
+Mo1b LA1 3.47347(6) -1_566 n
+Mo1b LA1 3.47347(6) -2_566 n
+Mo1b Cu1a 0.285050(10) 1_555 n
+Mo1b Mo1a 0.285050(10) 1_555 n
+Mo1b Zn1a 0.285050(10) 1_555 n
+Mo1b o1 1.776360(30) 1_555 n
+Mo1b o1 1.776360(30) 2_555 n
+Mo1b O3a 2.13370(9) 1_555 n
+Mo1b O3b 1.47776(6) 1_555 n
+Mo1b O4 2.14940(9) 1_555 n
+Mo1b O4 2.25138(10) 1_565 n
+Mo1b O4 2.25138(10) 3_555 n
+Mo1b O4 2.14940(9) 3_565 n
+Zn1b LA1 3.65467(7) 1_555 n
+Zn1b LA1 3.65467(7) 1_565 n
+Zn1b LA1 3.65467(7) 2_555 n
+Zn1b LA1 3.65467(7) 2_565 n
+Zn1b LA1 3.47347(6) -1_566 n
+Zn1b LA1 3.47347(6) -2_566 n
+Zn1b Cu1a 0.285050(10) 1_555 n
+Zn1b Mo1a 0.285050(10) 1_555 n
+Zn1b Zn1a 0.285050(10) 1_555 n
+Zn1b o1 1.776360(30) 1_555 n
+Zn1b o1 1.776360(30) 2_555 n
+Zn1b O3a 2.13370(9) 1_555 n
+Zn1b O3b 1.47776(6) 1_555 n
+Zn1b O4 2.14940(9) 1_555 n
+Zn1b O4 2.25138(10) 1_565 n
+Zn1b O4 2.25138(10) 3_555 n
+Zn1b O4 2.14940(9) 3_565 n
+Cu2 LA1 3.35099(6) -1_556 n
+Cu2 LA1 3.35099(6) -2_556 n
+Cu2 Cu2 0.539000(30) 3_555 n
+Cu2 Mo2 0.539000(30) 3_555 n
+Cu2 Zn2 0.539000(30) 3_555 n
+Cu2 O2 1.997050(30) 1_555 n
+Cu2 O2 1.997050(30) 2_555 n
+Cu2 O3a 1.91679(8) 1_545 n
+Cu2 O3a 2.40990(11) 1_555 n
+Cu2 O3b 2.28939(8) 1_545 n
+Mo2 LA1 3.35099(6) -1_556 n
+Mo2 LA1 3.65550(8) -1_566 n
+Mo2 LA1 3.35099(6) -2_556 n
+Mo2 LA1 3.65550(8) -2_566 n
+Mo2 Cu2 0.539000(30) 3_555 n
+Mo2 Mo2 0.539000(30) 3_555 n
+Mo2 Zn2 0.539000(30) 3_555 n
+Mo2 O2 1.997050(30) 1_555 n
+Mo2 O2 1.997050(30) 2_555 n
+Mo2 O3a 1.91679(8) 1_545 n
+Mo2 O3a 2.40990(11) 1_555 n
+Mo2 O3b 2.28939(8) 1_545 n
+Zn2 LA1 3.35099(6) -1_556 n
+Zn2 LA1 3.65550(8) -1_566 n
+Zn2 LA1 3.35099(6) -2_556 n
+Zn2 LA1 3.65550(8) -2_566 n
+Zn2 Cu2 0.539000(30) 3_555 n
+Zn2 Mo2 0.539000(30) 3_555 n
+Zn2 Zn2 0.539000(30) 3_555 n
+Zn2 O2 1.997050(30) 1_555 n
+Zn2 O2 1.997050(30) 2_555 n
+Zn2 O3a 1.91679(8) 1_545 n
+Zn2 O3a 2.40990(11) 1_555 n
+Zn2 O3b 2.28939(8) 1_545 n
+o1 LA1 2.43841(8) 1_555 n
+o1 LA1 2.43841(8) 1_565 n
+o1 LA1 2.68182(10) -1_566 n
+o1 Cu1a 1.741250(30) 1_555 n
+o1 Mo1a 1.741250(30) 1_555 n
+o1 Zn1a 1.741250(30) 1_555 n
+o1 Cu1b 1.776360(30) 1_555 n
+o1 Mo1b 1.776360(30) 1_555 n
+o1 Zn1b 1.776360(30) 1_555 n
+O2 LA1 2.56230(10) 1_556 n
+O2 LA1 2.31854(9) -1_556 n
+O2 LA1 2.31854(9) -1_566 n
+O2 Cu2 1.997050(30) 1_555 n
+O2 Cu2 1.997050(30) 3_555 n
+O2 Mo2 1.997050(30) 1_555 n
+O2 Mo2 1.997050(30) 3_555 n
+O2 Zn2 1.997050(30) 1_555 n
+O2 Zn2 1.997050(30) 3_555 n
+O3a LA1 2.74640(4) -1_566 n
+O3a LA1 2.74640(4) -2_566 n
+O3a Cu1a 2.41874(10) 1_555 n
+O3a Mo1a 2.41874(10) 1_555 n
+O3a Zn1a 2.41874(10) 1_555 n
+O3a Cu1b 2.13370(9) 1_555 n
+O3a Mo1b 2.13370(9) 1_555 n
+O3a Zn1b 2.13370(9) 1_555 n
+O3a Cu2 2.40990(11) 1_555 n
+O3a Cu2 1.91679(8) 1_565 n
+O3a Cu2 1.91679(8) 3_555 n
+O3a Cu2 2.40990(11) 3_565 n
+O3a Mo2 2.40990(11) 1_555 n
+O3a Mo2 1.91679(8) 1_565 n
+O3a Mo2 1.91679(8) 3_555 n
+O3a Mo2 2.40990(11) 3_565 n
+O3a Zn2 2.40990(11) 1_555 n
+O3a Zn2 1.91679(8) 1_565 n
+O3a Zn2 1.91679(8) 3_555 n
+O3a Zn2 2.40990(11) 3_565 n
+O3a O3b 0.655930(30) 1_555 n
+O3b LA1 2.82199(4) -1_566 n
+O3b LA1 2.82199(4) -2_566 n
+O3b Cu1a 1.76281(7) 1_555 n
+O3b Mo1a 1.76281(7) 1_555 n
+O3b Zn1a 1.76281(7) 1_555 n
+O3b Cu1b 1.47776(6) 1_555 n
+O3b Mo1b 1.47776(6) 1_555 n
+O3b Zn1b 1.47776(6) 1_555 n
+O3b Cu2 2.28939(8) 1_565 n
+O3b Cu2 2.28939(8) 3_555 n
+O3b Mo2 2.28939(8) 1_565 n
+O3b Mo2 2.28939(8) 3_555 n
+O3b Zn2 2.28939(8) 1_565 n
+O3b Zn2 2.28939(8) 3_555 n
+O3b O3a 0.655930(30) 1_555 n
+O4 LA1 2.78561(4) 1_555 n
+O4 LA1 2.78561(4) 2_555 n
+O4 Cu1a 2.14521(10) 1_545 n
+O4 Cu1a 2.03793(9) 1_555 n
+O4 Mo1a 2.14521(10) 1_545 n
+O4 Mo1a 2.03793(9) 1_555 n
+O4 Zn1a 2.14521(10) 1_545 n
+O4 Zn1a 2.03793(9) 1_555 n
+O4 Cu1b 2.25138(10) 1_545 n
+O4 Cu1b 2.14940(9) 1_555 n
+O4 Mo1b 2.25138(10) 1_545 n
+O4 Mo1b 2.14940(9) 1_555 n
+O4 Zn1b 2.25138(10) 1_545 n
+O4 Zn1b 2.14940(9) 1_555 n
+O4 O4 0.113370(10) 3_555 n

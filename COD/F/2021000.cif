@@ -1,0 +1,453 @@
+#------------------------------------------------------------------------------
+#$Date: 2018-01-31 09:20:59 +0200 (Wed, 31 Jan 2018) $
+#$Revision: 205948 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/02/10/2021000.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2021000
+loop_
+_publ_author_name
+'Laval, Jean-Paul'
+'Mayet, Richard'
+_publ_section_title
+;
+ High-temperature monoclinic \a-SrHfF~6~, and isostructural \a-SrZrF~6~:
+ associating Hf~2~F~12~ bipolyhedra and SrF~8~ snub disphenoids
+;
+_journal_coeditor_code           OV3104
+_journal_issue                   2
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first
+;
+;
+_journal_paper_doi               10.1107/S2053229618001110
+_journal_volume                  74
+_journal_year                    2018
+_chemical_formula_iupac          'Sr Hf F6'
+_chemical_formula_sum            'F12 Hf2 Sr2'
+_chemical_formula_weight         760.22
+_chemical_name_systematic
+;
+Strontium hafnium hexafluoride
+;
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           'WinGX routine CIF_UPDATE'
+_cell_angle_alpha                90
+_cell_angle_beta                 99.36(5)
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   5.9762(10)
+_cell_length_b                   5.9949(10)
+_cell_length_c                   14.426(3)
+_cell_measurement_reflns_used    12266
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      25.241
+_cell_measurement_theta_min      4.835
+_cell_volume                     509.96(18)
+_computing_cell_refinement
+;
+DIRAX/LSQ (Duisenberg, 1992)
+;
+_computing_data_collection
+;
+COLLECT (Nonius, 2004)
+;
+_computing_data_reduction
+;
+EvalCCD (Duisenberg <i>et al.</i>, 2003)
+;
+_computing_molecular_graphics
+;
+DIAMOND (Brandenburg, 1999)
+;
+_computing_publication_material
+;
+WinGX (Farrugia, 2012) and publCIF (Westrip, 2010)
+;
+_computing_structure_refinement
+;
+SHELXL2014 (Sheldrick, 2015) and WinGX (Farrugia, 2012)
+;
+_computing_structure_solution
+;
+SHELXS96 (Sheldrick, 2008)
+;
+_diffrn_ambient_temperature      293(2)
+_diffrn_detector_area_resol_mean 9
+_diffrn_measured_fraction_theta_full 0.995
+_diffrn_measured_fraction_theta_max 0.993
+_diffrn_measurement_device_type  'Nonius KappaCCD'
+_diffrn_measurement_method       CCD
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71070
+_diffrn_reflns_av_R_equivalents  0.0421
+_diffrn_reflns_limit_h_max       7
+_diffrn_reflns_limit_h_min       -7
+_diffrn_reflns_limit_k_max       7
+_diffrn_reflns_limit_k_min       -7
+_diffrn_reflns_limit_l_max       18
+_diffrn_reflns_limit_l_min       -18
+_diffrn_reflns_number            12266
+_diffrn_reflns_theta_full        25.241
+_diffrn_reflns_theta_max         27.421
+_diffrn_reflns_theta_min         4.835
+_exptl_absorpt_coefficient_mu    30.833
+_exptl_absorpt_correction_T_max  0.60
+_exptl_absorpt_correction_T_min  0.48
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details
+;
+(SADABS; Bruker, 2004)
+;
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    4.951
+_exptl_crystal_description       spheroidal
+_exptl_crystal_F_000             656
+_exptl_crystal_size_max          0.04
+_exptl_crystal_size_mid          0.03
+_exptl_crystal_size_min          0.020
+_refine_diff_density_max         1.068
+_refine_diff_density_min         -0.808
+_refine_ls_extinction_coef       0.00155(16)
+_refine_ls_extinction_method
+;
+SHELXL2014 (Sheldrick, 2015)
+;
+_refine_ls_goodness_of_fit_ref   1.134
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     74
+_refine_ls_number_reflns         1160
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.134
+_refine_ls_R_factor_all          0.0199
+_refine_ls_R_factor_gt           0.0154
+_refine_ls_shift/su_max          0.001
+_refine_ls_shift/su_mean         0
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w=1/[\s^2^(Fo^2^)+(0.0145P)^2^+1.1913P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_ref         0.0361
+_reflns_number_gt                1052
+_reflns_number_total             1160
+_reflns_threshold_expression     'I > 2\s(I)'
+_iucr_refine_instructions_details
+;
+TITL Compound SrHfF6HT 2012                                           P 21/c  (#
+CELL  0.7107   5.9762   5.9949   14.426  90.00  99.36  90.00
+ZERR 1. 0.0010 0.0010 0.003 0. 0.05 0.
+LATT   1
+SYMM   -X    ,   Y+.50,  -Z+.50
+SFAC    SR   HF   F
+UNIT     4    4   24
+LIST 4
+ACTA
+L.S. 14
+BOND
+FMAP -2
+PLAN 40
+REM WGHT    0.100000
+REM WGHT    0.023300    1.133000
+REM WGHT    0.015200    1.122500
+WGHT    0.014500    1.191300
+EXTI    0.001550
+FVAR       0.25099
+HF1   2    0.823832    0.136017    0.901593    11.00000    0.01083    0.01112 =
+         0.00809   -0.00015    0.00102   -0.00137
+SR1   1    0.654377    0.099654    0.638191    11.00000    0.01355    0.01382 =
+         0.00786   -0.00065    0.00055    0.00530
+F1    3    0.633066    0.359286    0.960926    11.00000    0.02349    0.02151 =
+         0.01100   -0.00024    0.00323    0.00906
+F2    3    1.087255   -0.106133    0.947221    11.00000    0.01597    0.01978 =
+         0.00800   -0.00082    0.00081    0.00524
+F3    3    0.904821   -0.001715    0.784439    11.00000    0.02924    0.03722 =
+         0.00711   -0.00324   -0.00088    0.01619
+F4    3    0.609466    0.289722    0.793313    11.00000    0.02416    0.02304 =
+         0.00991    0.00072   -0.00067    0.00993
+F5    3    1.068897    0.355426    0.907217    11.00000    0.02359    0.02646 =
+         0.02395    0.00282    0.00533   -0.01662
+F6    3    0.602708   -0.103613    0.908873    11.00000    0.02596    0.02307 =
+         0.02635   -0.00017    0.00131   -0.01690
+HKLF 4
+REM  Compound SrHfF6HT 2012                                           P 21/c  (#
+REM R1 =  0.0154 for    1052 Fo > 4sig(Fo)  and  0.0199 for all    1160 data
+REM     74 parameters refined using      0 restraints
+END
+WGHT      0.0143      1.1789
+REM Highest difference peak  1.068,  deepest hole -0.808,  1-sigma level  0.170
+Q1    1   0.9395  0.2578  0.9169  11.00000  0.05    1.07
+Q2    1   0.7038  0.2529  0.8792  11.00000  0.05    0.86
+Q3    1   0.7034  0.1398  0.9064  11.00000  0.05   -0.81
+Q4    1   0.7129  0.0270  0.8851  11.00000  0.05    0.81
+Q5    1   0.7155  0.2450  0.8359  11.00000  0.05    0.78
+Q6    1   0.7318  0.1873  0.6455  11.00000  0.05    0.76
+Q7    1   0.9584  0.1357  0.9011  11.00000  0.05   -0.73
+Q8    1   0.9435  0.0039  0.9152  11.00000  0.05    0.70
+Q9    1   1.0548  0.3908  0.9410  11.00000  0.05    0.67
+Q10   1   0.8340  0.0139  0.9169  11.00000  0.05   -0.62
+Q11   1   0.5784  0.1792  0.6373  11.00000  0.05    0.56
+Q12   1   1.1245  0.4249  0.8832  11.00000  0.05    0.54
+Q13   1   0.9026  0.3867  0.8795  11.00000  0.05   -0.52
+Q14   1   0.4121 -0.1703  0.9439  11.00000  0.05   -0.51
+Q15   1   0.7423  0.3563  0.8428  11.00000  0.05   -0.50
+Q16   1   0.7417  0.0265  0.6377  11.00000  0.05    0.50
+Q17   1   0.5772  0.0404  0.6194  11.00000  0.05    0.50
+Q18   1   0.5438  0.1708  0.9187  11.00000  0.05   -0.49
+Q19   1   0.9805  0.1525  0.9621  11.00000  0.05   -0.49
+Q20   1   0.9399 -0.0732  0.8643  11.00000  0.05   -0.49
+Q21   1   0.8346  0.2242  0.9229  11.00000  0.05   -0.48
+Q22   1   0.6245 -0.1036  0.9384  11.00000  0.05    0.48
+Q23   1   0.5502 -0.2116  0.8854  11.00000  0.05    0.48
+Q24   1   0.6803  0.1366  0.8167  11.00000  0.05   -0.47
+Q25   1   1.0401 -0.1086  0.8902  11.00000  0.05    0.47
+Q26   1   0.7355 -0.1340  0.9484  11.00000  0.05   -0.46
+Q27   1   0.9635  0.4593  0.9514  11.00000  0.05   -0.45
+Q28   1   0.6592 -0.1985  0.8198  11.00000  0.05   -0.45
+Q29   1   0.6187  0.1091  0.6604  11.00000  0.05    0.45
+Q30   1   0.8279  0.2091  0.8688  11.00000  0.05   -0.44
+Q31   1   0.5195  0.2114  0.6207  11.00000  0.05    0.44
+Q32   1   0.6481  0.3843  0.9270  11.00000  0.05    0.43
+Q33   1   0.4941  0.1127  0.6364  11.00000  0.05   -0.43
+Q34   1   1.1986  0.3373  0.9775  11.00000  0.05   -0.42
+Q35   1   0.9280  0.3741  0.9482  11.00000  0.05   -0.42
+Q36   1   1.0774  0.1426  0.7944  11.00000  0.05   -0.42
+Q37   1   0.3763  0.1200  0.6796  11.00000  0.05   -0.42
+Q38   1   0.7803  0.4498  0.9115  11.00000  0.05   -0.42
+Q39   1   0.8702  0.3696  1.0158  11.00000  0.05   -0.42
+Q40   1   0.5216  0.0018  0.6243  11.00000  0.05    0.41
+;
+_cod_data_source_file            ov3104sup1.cif
+_cod_data_source_block           I
+_cod_original_sg_symbol_H-M      'P 21/c'
+_cod_database_code               2021000
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, y+1/2, -z+1/2'
+'-x, -y, -z'
+'x, -y-1/2, z-1/2'
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_occupancy
+Hf Hf1 0.82383(3) 0.13602(3) 0.90159(2) 0.01007(8) Uani d 1
+Sr Sr1 0.65438(7) 0.09965(6) 0.63819(3) 0.01187(10) Uani d 1
+F F1 0.6331(5) 0.3593(4) 0.96093(18) 0.0186(6) Uani d 1
+F F2 1.0873(4) -0.1061(4) 0.94722(17) 0.0147(5) Uani d 1
+F F3 0.9048(5) -0.0017(5) 0.78444(17) 0.0250(6) Uani d 1
+F F4 0.6095(5) 0.2897(4) 0.79331(17) 0.0194(6) Uani d 1
+F F5 1.0689(5) 0.3554(4) 0.9072(2) 0.0245(6) Uani d 1
+F F6 0.6027(5) -0.1036(4) 0.9089(2) 0.0255(6) Uani d 1
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Hf1 0.01083(11) 0.01112(11) 0.00809(10) -0.00137(6) 0.00102(6) -0.00015(6)
+Sr1 0.0135(2) 0.0138(2) 0.00786(19) 0.00530(15) 0.00055(15) -0.00065(14)
+F1 0.0235(14) 0.0215(13) 0.0110(12) 0.0091(11) 0.0032(11) -0.0002(10)
+F2 0.0160(13) 0.0198(13) 0.0080(12) 0.0052(10) 0.0008(10) -0.0008(10)
+F3 0.0292(16) 0.0372(16) 0.0071(12) 0.0162(13) -0.0009(11) -0.0032(11)
+F4 0.0242(14) 0.0230(13) 0.0099(12) 0.0099(11) -0.0007(11) 0.0007(10)
+F5 0.0236(15) 0.0265(15) 0.0239(15) -0.0166(12) 0.0053(12) 0.0028(12)
+F6 0.0260(16) 0.0231(15) 0.0264(16) -0.0169(12) 0.0013(12) -0.0002(12)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Sr Sr -1.5307 3.2498 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Hf Hf -0.583 6.1852 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+F F 0.0171 0.0103 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+F5 Hf1 F6 . . 172.78(12)
+F5 Hf1 F3 . . 91.72(13)
+F6 Hf1 F3 . . 90.04(13)
+F5 Hf1 F1 . . 90.41(12)
+F6 Hf1 F1 . . 91.76(12)
+F3 Hf1 F1 . . 148.43(11)
+F5 Hf1 F4 . . 95.69(12)
+F6 Hf1 F4 . . 91.53(12)
+F3 Hf1 F4 . . 75.66(10)
+F1 Hf1 F4 . . 72.79(10)
+F5 Hf1 F2 . . 86.32(11)
+F6 Hf1 F2 . . 87.46(11)
+F3 Hf1 F2 . . 73.58(10)
+F1 Hf1 F2 . . 137.98(9)
+F4 Hf1 F2 . . 149.22(9)
+F5 Hf1 F2 . 3_757 87.40(11)
+F6 Hf1 F2 . 3_757 86.72(12)
+F3 Hf1 F2 . 3_757 139.41(10)
+F1 Hf1 F2 . 3_757 72.15(10)
+F4 Hf1 F2 . 3_757 144.82(10)
+F2 Hf1 F2 . 3_757 65.87(11)
+F5 Hf1 Sr1 . . 99.01(9)
+F6 Hf1 Sr1 . . 86.50(9)
+F3 Hf1 Sr1 . . 36.09(8)
+F1 Hf1 Sr1 . . 112.60(8)
+F4 Hf1 Sr1 . . 40.01(7)
+F2 Hf1 Sr1 . . 109.28(7)
+F2 Hf1 Sr1 3_757 . 171.84(6)
+F5 Hf1 Sr1 . 2_656 92.97(9)
+F6 Hf1 Sr1 . 2_656 92.58(9)
+F3 Hf1 Sr1 . 2_656 115.67(8)
+F1 Hf1 Sr1 . 2_656 32.76(7)
+F4 Hf1 Sr1 . 2_656 40.04(7)
+F2 Hf1 Sr1 . 2_656 170.74(6)
+F2 Hf1 Sr1 3_757 2_656 104.89(7)
+Sr1 Hf1 Sr1 . 2_656 79.96(4)
+F5 Hf1 Sr1 . 4_566 89.43(9)
+F6 Hf1 Sr1 . 4_566 88.76(9)
+F3 Hf1 Sr1 . 4_566 178.76(9)
+F1 Hf1 Sr1 . 4_566 31.99(7)
+F4 Hf1 Sr1 . 4_566 104.70(7)
+F2 Hf1 Sr1 . 4_566 106.03(7)
+F2 Hf1 Sr1 3_757 4_566 40.17(6)
+Sr2 Hf1 Sr1 . 4_566 144.095(14)
+Sr2 Hf1 Sr1 2_656 4_566 64.72(3)
+F6 Sr1 F5 2_656 2_746 145.91(10)
+F6 Sr1 F3 2_656 . 134.91(10)
+F5 Sr1 F3 2_746 . 74.37(9)
+F6 Sr1 F1 2_656 2_646 85.18(10)
+F5 Sr1 F1 2_746 2_646 86.08(10)
+F3 Sr1 F1 . 2_646 127.85(10)
+F6 Sr1 F1 2_656 4_565 73.55(10)
+F5 Sr1 F1 2_746 4_565 72.96(10)
+F3 Sr1 F1 . 4_565 143.98(10)
+F1 Sr1 F1 2_646 4_565 64.25(10)
+F6 Sr1 F4 2_656 . 76.24(9)
+F5 Sr1 F4 2_746 . 133.63(9)
+F3 Sr1 F4 . . 59.73(8)
+F1 Sr1 F4 2_646 . 126.48(9)
+F1 Sr1 F4 4_565 . 146.79(8)
+F6 Sr1 F4 2_656 2_646 103.22(10)
+F5 Sr1 F4 2_746 2_646 98.59(9)
+F3 Sr1 F4 . 2_646 80.07(9)
+F1 Sr1 F4 2_646 2_646 55.32(8)
+F1 Sr1 F4 4_565 2_646 119.46(8)
+F4 Sr1 F4 . 2_646 80.65(5)
+F6 Sr1 F2 2_656 2_756 77.11(9)
+F5 Sr1 F2 2_746 2_756 78.82(10)
+F3 Sr1 F2 . 2_756 103.55(9)
+F1 Sr1 F2 2_646 2_756 119.60(8)
+F1 Sr1 F2 4_565 2_756 55.38(8)
+F4 Sr1 F2 . 2_756 104.54(8)
+F4 Sr1 F2 2_646 2_756 174.66(7)
+F6 Sr1 Hf1 2_656 . 107.42(8)
+F5 Sr1 Hf1 2_746 . 103.17(8)
+F3 Sr1 Hf1 . . 28.81(6)
+F1 Sr1 Hf1 2_646 . 130.88(6)
+F1 Sr1 Hf1 4_565 . 164.67(6)
+F4 Sr1 Hf1 . . 31.25(6)
+F4 Sr1 Hf1 2_646 . 75.56(6)
+F2 Sr1 Hf1 2_756 . 109.52(6)
+F6 Sr1 Hf1 2_656 2_646 93.79(8)
+F5 Sr1 Hf1 2_746 2_646 92.62(7)
+F3 Sr1 Hf1 . 2_646 105.98(8)
+F1 Sr1 Hf1 2_646 2_646 26.08(6)
+F1 Sr1 Hf1 4_565 2_646 90.30(7)
+F4 Sr1 Hf1 . 2_646 105.24(7)
+F4 Sr1 Hf1 2_646 2_646 29.24(5)
+F2 Sr1 Hf1 2_756 2_646 145.67(5)
+Hf1 Sr1 Hf1 . 2_646 104.80(4)
+F6 Sr1 Hf1 2_656 4_565 72.79(8)
+F5 Sr1 Hf1 2_746 4_565 74.20(8)
+F3 Sr1 Hf1 . 4_565 128.42(7)
+F1 Sr1 Hf1 2_646 4_565 89.21(6)
+F1 Sr1 Hf1 4_565 4_565 24.99(6)
+F4 Sr1 Hf1 . 4_565 129.75(6)
+F4 Sr1 Hf1 2_646 4_565 144.45(6)
+F2 Sr1 Hf1 2_756 4_565 30.39(5)
+Hf1 Sr1 Hf1 . 4_565 139.879(15)
+Hf1 Sr1 Hf1 2_646 4_565 115.28(3)
+F6 Sr1 Sr1 2_656 3_656 77.42(8)
+F5 Sr1 Sr1 2_746 3_656 77.61(8)
+F3 Sr1 Sr1 . 3_656 147.23(7)
+F1 Sr1 Sr1 2_646 3_656 32.46(6)
+F1 Sr1 Sr1 4_565 3_656 31.79(6)
+F4 Sr1 Sr1 . 3_656 147.81(6)
+F4 Sr1 Sr1 2_646 3_656 87.72(6)
+F2 Sr1 Sr1 2_756 3_656 87.15(5)
+Hf1 Sr1 Sr1 . 3_656 163.228(19)
+Hf1 Sr1 Sr1 2_646 3_656 58.52(3)
+Hf1 Sr1 Sr1 4_565 3_656 56.762(15)
+Hf1 F1 Sr1 . 2_656 121.16(11)
+Hf1 F1 Sr1 . 4_566 123.02(12)
+Sr2 F1 Sr1 2_656 4_566 115.75(10)
+Hf1 F2 Hf1 . 3_757 114.14(11)
+Hf1 F2 Sr1 . 2_746 136.42(10)
+Hf1 F2 Sr1 3_757 2_746 109.44(9)
+Hf1 F3 Sr1 . . 115.10(12)
+Hf1 F4 Sr1 . . 108.74(11)
+Hf1 F4 Sr1 . 2_656 110.72(10)
+Sr2 F4 Sr1 . 2_656 140.23(10)
+Hf1 F5 Sr1 . 2_756 161.74(15)
+Hf1 F6 Sr1 . 2_646 160.15(15)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Hf1 F5 . 1.960(3) y
+Hf1 F6 . 1.966(3) y
+Hf1 F3 . 2.010(3) y
+Hf1 F1 . 2.035(3) y
+Hf1 F4 . 2.069(3) y
+Hf1 F2 . 2.164(2) y
+Hf1 F2 3_757 2.167(2) y
+Hf1 Hf1 3_757 3.6346(15) y
+Hf1 Sr1 . 3.7763(12) y
+Hf1 Sr1 2_656 3.9609(7) y
+Hf1 Sr1 4_566 4.0386(11) y
+Sr1 F6 2_656 2.376(3) y
+Sr1 F5 2_746 2.379(3) y
+Sr1 F3 . 2.456(3) y
+Sr1 F1 2_646 2.505(3) y
+Sr1 F1 4_565 2.551(3) y
+Sr1 F4 . 2.564(3) y
+Sr1 F4 2_646 2.724(3) y
+Sr1 F2 2_756 2.763(2) y
+Sr1 Hf1 2_646 3.9609(7) ?
+Sr1 Hf1 4_565 4.0386(11) ?
+Sr1 Sr1 3_656 4.2821(18) y
+F1 Sr1 2_656 2.505(3) ?
+F1 Sr1 4_566 2.552(3) ?
+F2 Hf1 3_757 2.167(2) ?
+F2 Sr1 2_746 2.763(2) ?
+F4 Sr1 2_656 2.724(3) ?
+F5 Sr1 2_756 2.379(3) ?
+F6 Sr1 2_646 2.376(3) ?
+
+_cod_database_fobs_code 2021000

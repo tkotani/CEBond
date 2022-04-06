@@ -1,0 +1,251 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-16 22:30:59 +0200 (Tue, 16 Feb 2016) $
+#$Revision: 176467 $
+#$URL: svn://www.crystallography.net/cod/cif/4/03/07/4030745.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4030745
+loop_
+_publ_author_name
+'Chen, Y F'
+'Rabu, P'
+'Pourroy, G'
+'Vilminot, S'
+_publ_section_title
+;
+ Phase evolution with thermal treatment in the system cordierite-CuO
+;
+_journal_name_full
+;
+European Journal of Solid State Inorganic Chemistry
+;
+_journal_page_first              1065
+_journal_page_last               1076
+_journal_volume                  32
+_journal_year                    1995
+_chemical_formula_sum            'Al4 Cu0.17 Mg1.83 O18 Si5'
+_chemical_formula_weight         591.624
+_space_group_IT_number           192
+_symmetry_cell_setting           hexagonal
+_symmetry_Int_Tables_number      192
+_symmetry_space_group_name_Hall  '-P 6 2c'
+_symmetry_space_group_name_H-M   'P 6/m c c'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            2
+_cell_length_a                   9.7659(5)
+_cell_length_b                   9.7659(5)
+_cell_length_c                   9.3482(3)
+_cell_volume                     772.12(6)
+_diffrn_ambient_temperature      293
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_type           CoK\a
+_diffrn_radiation_wavelength     1.7889
+_exptl_absorpt_coefficient_mu    12.915
+_exptl_crystal_density_diffrn    2.545
+_exptl_crystal_F_000             586
+_pd_proc_ls_prof_R_factor        0.125
+_pd_proc_ls_prof_wR_expected     0.068
+_pd_proc_ls_prof_wR_factor       0.158
+_refine_ls_number_parameters     6
+_refine_ls_number_reflns         118
+_refine_ls_R_I_factor            0.0307
+_cod_data_source_file            EJSSIC-1995-32-1065-1076-2.cif
+_cod_data_source_block           1000
+_cod_depositor_comments
+;
+sample prepared at 1273 K
+Rietveld refinements, Fullprof software
+;
+_cod_original_cell_volume        772.12(10)
+_cod_original_formula_sum        'Al4 Cu.17 Mg1.83 O18 Si5'
+_cod_database_code               4030745
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 x-y,x,z
+3 -y,x-y,z
+4 -x,-y,z
+5 -x+y,-x,z
+6 y,-x+y,z
+7 -y,-x,1/2-z
+8 x-y,-y,1/2-z
+9 x,x-y,1/2-z
+10 y,x,1/2-z
+11 -x+y,y,1/2-z
+12 -x,-x+y,1/2-z
+13 -x,-y,-z
+14 -x+y,-x,-z
+15 y,-x+y,-z
+16 x,y,-z
+17 x-y,x,-z
+18 -y,x-y,-z
+19 y,x,1/2+z
+20 -x+y,y,1/2+z
+21 -x,-x+y,1/2+z
+22 -y,-x,1/2+z
+23 x-y,-y,1/2+z
+24 x,x-y,1/2+z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_thermal_displace_type
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+Cu1 Cu Uiso 0.66670 0.33330 0.25000 0.085(10) 0.016(2)
+Si2 Si Uiso 0.3716(3) 0.2657(3) 0.00000 0.667 0.0119(10)
+Al1 Al Uiso 0.50000 0.50000 0.25000 0.667 0.0138(13)
+Mg1 Mg Uiso 0.66670 0.33330 0.25000 0.915(10) 0.016(2)
+O1 O Uiso 0.4846(4) 0.3478(4) 0.1437(3) 1.000 0.0152(13)
+O2 O Uiso 0.2308(7) 0.3083(5) 0.00000 1.000 0.0208(18)
+Si1 Si Uiso 0.50000 0.50000 0.25000 0.333 0.0138(13)
+Al2 Al Uiso 0.3716(3) 0.2657(3) 0.00000 0.333 0.0119(10)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Al Al 0.2540 0.3277 'S.Brennan & P.L.Cowan (1992).Rev.Sci.Instr.,63,650'
+Mg Mg 0.2097 0.2377 'S.Brennan & P.L.Cowan (1992).Rev.Sci.Instr.,63,650'
+O O 0.0635 0.0442 'S.Brennan & P.L.Cowan (1992).Rev.Sci.Instr.,63,650'
+Si Si 0.3006 0.4396 'S.Brennan & P.L.Cowan (1992).Rev.Sci.Instr.,63,650'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O1 Cu1 O1 99.49(15) . 3_655 yes
+O1 Cu1 O1 99.48(17) . 5_665 yes
+O1 Cu1 O1 75.50(14) . 7_665 yes
+O1 Cu1 O1 85.81(15) . 9_555 yes
+O1 Cu1 O1 173.31(13) . 11_655 yes
+O1 Cu1 O1 99.51(16) 3_655 5_665 yes
+O1 Cu1 O1 173.31(17) 3_655 7_665 yes
+O1 Cu1 O1 75.52(17) 3_655 9_555 yes
+O1 Cu1 O1 85.84(16) 3_655 11_655 yes
+O1 Cu1 O1 85.81(15) 5_665 7_665 yes
+O1 Cu1 O1 173.4(2) 5_665 9_555 yes
+O1 Cu1 O1 75.52(17) 5_665 11_655 yes
+O1 Cu1 O1 99.48(15) 7_665 9_555 yes
+O1 Cu1 O1 99.49(15) 7_665 11_655 yes
+O1 Cu1 O1 99.51(15) 9_555 11_655 yes
+O1 Si1 O1 96.11(18) . 7_665 yes
+O1 Si1 O1 123.57(17) . 10_555 yes
+O1 Si1 O1 123.57(17) 4_665 7_665 yes
+O1 Si1 O1 96.11(18) 4_665 10_555 yes
+O1 Si1 O1 109.92(16) 7_665 10_555 yes
+O1 Si1 O1 109.92(14) . 4_665 yes
+O1 Si2 O2 108.6(2) 16_555 . yes
+O1 Si2 O2 109.3(2) . 6_555 yes
+O1 Si2 O2 109.3(2) 16_555 6_555 yes
+O1 Si2 O2 108.6(2) . . yes
+O1 Si2 O1 107.3(2) . 16_555 yes
+O2 Si2 O2 113.5(3) . 6_555 yes
+O1 Al1 O1 96.11(18) . 7_665 yes
+O1 Al1 O1 109.92(14) . 4_665 yes
+O1 Al1 O1 96.11(18) 4_665 10_555 yes
+O1 Al1 O1 123.57(17) . 10_555 yes
+O1 Al1 O1 123.57(17) 4_665 7_665 yes
+O1 Al1 O1 109.92(16) 7_665 10_555 yes
+O1 Al2 O2 108.6(2) . . yes
+O1 Al2 O2 109.3(2) 16_555 6_555 yes
+O1 Al2 O1 107.3(2) . 16_555 yes
+O2 Al2 O2 113.5(3) . 6_555 yes
+O1 Al2 O2 109.3(2) . 6_555 yes
+O1 Al2 O2 108.6(2) 16_555 . yes
+O1 Mg1 O1 99.48(17) . 5_665 yes
+O1 Mg1 O1 75.50(14) . 7_665 yes
+O1 Mg1 O1 99.49(15) . 3_655 yes
+O1 Mg1 O1 75.52(17) 3_655 9_555 yes
+O1 Mg1 O1 85.84(16) 3_655 11_655 yes
+O1 Mg1 O1 85.81(15) 5_665 7_665 yes
+O1 Mg1 O1 85.81(15) . 9_555 yes
+O1 Mg1 O1 173.31(13) . 11_655 yes
+O1 Mg1 O1 99.51(16) 3_655 5_665 yes
+O1 Mg1 O1 173.31(17) 3_655 7_665 yes
+O1 Mg1 O1 99.51(15) 9_555 11_655 yes
+O1 Mg1 O1 75.52(17) 5_665 11_655 yes
+O1 Mg1 O1 99.48(15) 7_665 9_555 yes
+O1 Mg1 O1 173.4(2) 5_665 9_555 yes
+O1 Mg1 O1 99.49(15) 7_665 11_655 yes
+Si1 O1 Al2 128.9(3) . . yes
+Si2 O1 Al1 128.9(3) . . yes
+Si2 O2 Si2 173.5(3) . 2_555 yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Cu1 O1 2.103(4) . yes
+Cu1 O1 2.102(5) 3_655 yes
+Cu1 O1 2.102(4) 5_665 yes
+Cu1 O1 2.103(4) 7_665 yes
+Cu1 O1 2.102(5) 9_555 yes
+Cu1 O1 2.102(6) 11_655 yes
+Si1 O1 1.731(3) 4_665 yes
+Si1 O1 1.731(4) 7_665 yes
+Si1 O1 1.731(4) 10_555 yes
+Si1 O1 1.731(3) . yes
+Si2 O1 1.668(4) 16_555 yes
+Si2 O1 1.668(4) . yes
+Si2 O2 1.624(8) . yes
+Si2 O2 1.620(8) 6_555 yes
+Al1 O1 1.731(3) 4_665 yes
+Al1 O1 1.731(4) 7_665 yes
+Al1 O1 1.731(3) . yes
+Al1 O1 1.731(4) 10_555 yes
+Al2 O2 1.624(8) . yes
+Al2 O2 1.620(8) 6_555 yes
+Al2 O1 1.668(4) . yes
+Al2 O1 1.668(4) 16_555 yes
+Mg1 O1 2.102(5) 3_655 yes
+Mg1 O1 2.102(4) 5_665 yes
+Mg1 O1 2.103(4) . yes
+Mg1 O1 2.102(5) 9_555 yes
+Mg1 O1 2.102(6) 11_655 yes
+Mg1 O1 2.103(4) 7_665 yes
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion
+_geom_torsion_site_symmetry_1
+_geom_torsion_site_symmetry_3
+_geom_torsion_publ_flag
+O2 Si2 O1 Al1 -18.7(4) . . no
+O2 Si2 O1 Mg1 169.0(3) . . no
+O1 Si2 O1 Al1 98.5(3) 16_555 . no
+O1 Si2 O1 Mg1 -73.9(3) 16_555 . no
+O1 Al1 O1 Si2 -45.7(3) 4_665 . no
+O1 Al1 O1 Mg1 129.07(17) 4_665 . no
+O1 Al1 O1 Si2 -174.8(3) 7_665 . no
+O1 Al1 O1 Mg1 0.00(15) 7_665 . no
+O1 Al1 O1 Si2 66.4(3) 10_555 . no
+O1 Al1 O1 Mg1 -118.83(18) 10_555 . no
+O1 Al1 O1 Mg1 0.00(16) . 7_665 no
+O1 Mg1 O1 Si2 -10.5(3) 3_655 . no
+O1 Mg1 O1 Al1 175.47(15) 3_655 . no
+O1 Mg1 O1 Si2 90.9(3) 5_665 . no
+O1 Mg1 O1 Al1 -83.13(15) 5_665 . no
+O1 Mg1 O1 Si2 174.1(3) 7_665 . no
+O1 Mg1 O1 Al1 0.00(13) 7_665 . no
+O1 Mg1 O1 Si2 -85.0(3) 9_555 . no
+O1 Mg1 O1 Al1 100.92(16) 9_555 . no
+O1 Mg1 O1 Al1 0.00(13) . 7_665 no

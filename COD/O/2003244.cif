@@ -1,0 +1,224 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-19 16:29:56 +0200 (Fri, 19 Feb 2016) $
+#$Revision: 176759 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/32/2003244.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2003244
+loop_
+_publ_author_name
+'Tu, J.-M.'
+'Keszler, D. A.'
+_publ_section_title
+;
+ SrKB~5~O~9~
+;
+_journal_issue                   3
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              341
+_journal_page_last               343
+_journal_paper_doi               10.1107/S0108270194007493
+_journal_volume                  51
+_journal_year                    1995
+_chemical_compound_source
+'grown from a melt of composition 1SrO:1K~2~O:4B~2'
+_chemical_formula_sum            'B5 K O9 Sr'
+_chemical_formula_weight         324.76
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_atom_type_scat_source           IntTabIV
+_cell_angle_alpha                90
+_cell_angle_beta                 93.00(1)
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   6.676(1)
+_cell_length_b                   7.969(2)
+_cell_length_c                   14.259(2)
+_cell_measurement_reflns_used    19
+_cell_measurement_temperature    296
+_cell_measurement_theta_max      18
+_cell_measurement_theta_min      15
+_cell_volume                     757.6(2)
+_diffrn_measurement_device       'Rigaku AFC-6R'
+_diffrn_measurement_method       \w-2\q
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71069
+_diffrn_reflns_av_R_equivalents  0.058
+_diffrn_reflns_limit_h_max       9
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       11
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       20
+_diffrn_reflns_limit_l_min       -20
+_diffrn_reflns_number            2544
+_diffrn_reflns_theta_max         37.5
+_diffrn_standards_decay_%        'approx. 5.0'
+_diffrn_standards_interval_count 200
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    7.479
+_exptl_absorpt_correction_T_max  1.00
+_exptl_absorpt_correction_T_min  0.73
+_exptl_absorpt_correction_type   'empirical (DIFABS; Walker & Stuart, 1983)'
+_exptl_crystal_colour            colorless
+_exptl_crystal_density_diffrn    2.847
+_exptl_crystal_description       plate
+_exptl_crystal_size_max          0.10(2)
+_exptl_crystal_size_mid          0.06(2)
+_exptl_crystal_size_min          0.03(2)
+_refine_diff_density_max         0.87
+_refine_diff_density_min         0.71
+_refine_ls_extinction_coef       0.78E-7(3)
+_refine_ls_extinction_method     'Zachariasen (1967)'
+_refine_ls_goodness_of_fit_obs   1.27
+_refine_ls_number_parameters     145
+_refine_ls_number_reflns         1471
+_refine_ls_R_factor_obs          0.044
+_refine_ls_shift/esd_max         0.03
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 1/\s^2^(F~o~)'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.048
+_reflns_number_observed          1471
+_reflns_number_total             2364
+_reflns_observed_criterion       F~o~^2^>=3\s(F~o~^2^)
+_cod_data_source_file            br1081.cif
+_cod_data_source_block           br1081_structure_1_of_1
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value '1/\s^2^(F~o~)' was changed to
+'calc'. New tag '_refine_ls_weighting_details' was created. The value
+of the new tag was set to 'w = 1/\s^2^(F~o~)'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_sg_symbol_H-M      'P 21/c'
+_cod_database_code               2003244
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x,1/2-y,1/2+z
+-x,-y,-z
+-x,1/2+y,1/2-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+Sr .9218(1) .0151(9) .2392(4) 0.0095(3)
+K .5022(2) -.1540(2) .4007(1) 0.0175(6)
+O1 .0917(6) -.2020(6) .3467(3) 0.015(3)
+O2 .3608(6) .1784(6) .4131(3) 0.014(3)
+O3 .8729(6) -.1729(6) .4726(3) 0.017(3)
+O4 .6717(6) .1674(6) .3420(3) 0.013(3)
+O5 .2223(6) -.0468(6) .1353(3) 0.013(3)
+O6 .2089(6) -.2678(6) .5026(3) 0.017(3)
+O7 .0191(6) .2366(6) .3690(3) 0.014(3)
+O8 .5547(6) -.0999(6) .1974(3) 0.017(3)
+O9 .3591(6) .1312(6) .2470(3) 0.015(3)
+B1 .383(1) -.007(1) .1942(4) 0.014(3)
+B2 .807(1) .2799(9) .3975(5) 0.014(3)
+B3 .463(1) .215(1) .3270(5) 0.013(4)
+B4 .833(1) -.1979(9) .5644(5) 0.015(4)
+B5 .062(1) -.217(1) .4387(5) 0.015(4)
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O1 Sr O4 1_655 . 105.9(9) yes
+O1 Sr O5 1_655 1_655 83.1(2) yes
+O1 Sr O7 1_655 1_655 86.90(10) yes
+O1 Sr O8 1_655 . 106.10(10) yes
+O4 Sr O5 . 1_655 162.40(10) yes
+O4 Sr O7 . 1_655 54.90(10) yes
+O5 Sr O7 1_655 1_655 111.10(10) yes
+O5 Sr O8 1_655 . 122.40(10) yes
+O7 Sr O8 1_655 . 125.80(10) yes
+O7 Sr O9 4_645 1_455 94.6(2) yes
+O5 B1 O8 . . 121.7(6) yes
+O8 B1 O9 . . 123.4(5) yes
+O4 B2 O6 . 3_656 114.7(5) yes
+O5 B2 O6 4_655 3_656 111.4(5) yes
+O6 B2 O7 3_656 1_655 111.2(5) yes
+O2 B3 O8 . . 116.1(4) yes
+O4 B3 O8 . 4_655 110.6(5) yes
+O8 B3 O9 4_655 . 103.7(5) yes
+O2 B4 O7 3_656 3_656 121.5(6) yes
+O1 B5 O3 . 1_455 119.4(6) yes
+O3 B5 O6 1_455 . 117.7(5) yes
+O1 K O2 . . 79.70(10) yes
+O2 K O3 . . 109.90(10) yes
+O2 K O6 . . 91.60(10) yes
+O2 K O8 . . 89.00(10) yes
+O3 K O4 . . 78.00(10) yes
+O3 K O6 . . 118.10(10) yes
+O3 K O8 . . 103.40(10) yes
+O4 K O6 . . 139.30(10) yes
+O6 K O8 . . 135.40(10) yes
+O5 B1 O9 . . 114.9(6) yes
+O4 B2 O5 . 4_655 109.6(5) yes
+O4 B2 O7 . 1_655 105.6(5) yes
+O5 B2 O7 4_655 1_655 103.6(5) yes
+O2 B3 O4 . . 108.1(5) yes
+O2 B3 O9 . . 109.8(5) yes
+O4 B3 O9 . . 114.0(5) yes
+O2 B4 O3 3_656 . 116.4(5) yes
+O3 B4 O7 . 3_656 122.1(6) yes
+O1 B5 O6 . . 122.8(6) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Sr O1 1_655 2.539(5) yes
+Sr O1 4_655 2.564(5) yes
+Sr O4 . 2.581(4) yes
+Sr O5 1_655 2.602(4) yes
+Sr O7 1_655 2.614(5) yes
+Sr O7 4_645 2.744(4) yes
+Sr O8 . 2.655(4) yes
+Sr O9 1_655 3.058(4) yes
+B1 O5 . 1.366(7) yes
+B1 O8 . 1.363(8) yes
+B2 O4 . 1.472(8) yes
+B2 O6 3_656 1.436(8) yes
+B3 O2 . 1.464(8) yes
+B3 O8 4_655 1.518(8) yes
+B4 O2 3_656 1.361(8) yes
+B4 O7 3_656 1.367(8) yes
+B5 O3 1_455 1.419(8) yes
+K O1 . 2.833(4) yes
+K O2 . 2.821(5) yes
+K O2 3_656 2.770(4) yes
+K O3 . 2.633(4) yes
+K O4 . 2.940(5) yes
+K O6 . 2.658(4) yes
+K O8 . 2.970(5) yes
+K O9 . 3.265(4) yes
+K O9 4_645 2.902(5) yes
+B1 O9 . 1.347(8) yes
+B2 O5 4_655 1.467(8) yes
+B2 O7 1_655 1.535(7) yes
+B3 O4 . 1.449(7) yes
+B3 O9 . 1.466(8) yes
+B4 O3 . 1.364(8) yes
+B5 O1 . 1.341(8) yes
+B5 O6 . 1.365(8) yes

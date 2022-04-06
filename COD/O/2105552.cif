@@ -1,0 +1,938 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 06:40:26 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176432 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/55/2105552.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2105552
+loop_
+_publ_author_name
+'Hammond, R. P.'
+'Barbier, J.'
+_publ_section_title
+;
+ Monoclinic and Hexagonal Nepheline Structures of (Na~3/4~/K~1/4~)AlGeO~4~
+;
+_journal_issue                   3
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              211
+_journal_page_last               220
+_journal_paper_doi               10.1107/S0108768197013177
+_journal_volume                  54
+_journal_year                    1998
+_chemical_formula_analytical     'Al Ge K0.25 Na0.75 O4'
+_chemical_formula_sum            'Al Ge K0.25 Na0.75 O4'
+_chemical_formula_weight         190.59
+_chemical_name_systematic
+;
+\a-sodium potassium aluminum germanate'
+;
+_space_group_IT_number           4
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  'P 2yb'
+_symmetry_space_group_name_H-M   'P 1 21 1'
+_audit_creation_method           SHELXL
+_cell_angle_alpha                90.00
+_cell_angle_beta                 119.0350(10)
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            8
+_cell_length_a                   10.0477(4)
+_cell_length_b                   8.5764(4)
+_cell_length_c                   10.2118(4)
+_cell_measurement_temperature    293(2)
+_cell_volume                     769.39(6)
+_computing_molecular_graphics    'SHELXTL-Plus (Sheldrick, 1991)'
+_computing_structure_refinement  'SHELXL-93 (Sheldrick, 1993)'
+_computing_structure_solution    'SHELXS-86 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measurement_device       'Siemens J413'
+_diffrn_measurement_method       'CCD area detector'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     .71073
+_diffrn_reflns_av_R_equivalents  .0322
+_diffrn_reflns_av_sigmaI/netI    .0521
+_diffrn_reflns_limit_h_max       13
+_diffrn_reflns_limit_h_min       -13
+_diffrn_reflns_limit_k_max       11
+_diffrn_reflns_limit_k_min       -11
+_diffrn_reflns_limit_l_max       8
+_diffrn_reflns_limit_l_min       -13
+_diffrn_reflns_number            4438
+_diffrn_reflns_theta_max         28.27
+_diffrn_reflns_theta_min         2.28
+_exptl_absorpt_coefficient_mu    8.410
+_exptl_absorpt_correction_T_max  .928
+_exptl_absorpt_correction_T_min  .762
+_exptl_absorpt_correction_type   'empirical from \y-scans'
+_exptl_crystal_colour            colorless
+_exptl_crystal_density_diffrn    3.291
+_exptl_crystal_density_meas      ?
+_exptl_crystal_description       'Irregular prism'
+_exptl_crystal_F_000             720
+_exptl_crystal_size_max          .07
+_exptl_crystal_size_mid          .05
+_exptl_crystal_size_min          .05
+_refine_diff_density_max         1.679
+_refine_diff_density_min         -1.142
+_refine_ls_abs_structure_details 'Flack H D (1983), Acta Cryst. A39, 876-881'
+_refine_ls_abs_structure_Flack   .13(2)
+_refine_ls_extinction_coef       .0002(4)
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_all   1.127
+_refine_ls_goodness_of_fit_obs   1.126
+_refine_ls_hydrogen_treatment    noref
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     255
+_refine_ls_number_reflns         3194
+_refine_ls_number_restraints     1
+_refine_ls_restrained_S_all      1.127
+_refine_ls_restrained_S_obs      1.125
+_refine_ls_R_factor_all          .0709
+_refine_ls_R_factor_obs          .0554
+_refine_ls_shift/esd_max         .001
+_refine_ls_shift/esd_mean        .005
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w=1/[\s^2^(Fo^2^)+(0.0236P)^2^+14.7287P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         .1204
+_refine_ls_wR_factor_obs         .1109
+_reflns_number_observed          2753
+_reflns_number_total             3194
+_reflns_observed_criterion       >2sigma(I)
+_cod_data_source_file            br0065.cif
+_cod_data_source_block           monoclinic
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_exptl_crystal_density_meas' value 'not measured' was changed to '?'
+- the value is perceived as not measured.
+
+Automatic conversion script
+Id: cif_fix_values 3008 2015-01-20 13:52:24Z robertas 
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'calc
+w=1/[\s^2^(Fo^2^)+(0.0236P)^2^+14.7287P] where P=(Fo^2^+2Fc^2^)/3'
+was changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to
+'w=1/[\s^2^(Fo^2^)+(0.0236P)^2^+14.7287P] where P=(Fo^2^+2Fc^2^)/3'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_sg_symbol_Hall     'P 2y1'
+_cod_original_sg_symbol_H-M      'P 21'
+_cod_database_code               2105552
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, y+1/2, -z'
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Na1 .018(2) .021(2) .019(2) .000(3) .008(2) .000(3)
+Na2 .026(2) .017(2) .030(2) -.003(3) .018(2) .005(3)
+Na3 .038(3) .014(2) .019(2) -.001(3) .016(2) .001(3)
+K4 .036(2) .037(2) .041(2) .003(2) .0183(14) .007(2)
+Ge1 .0104(5) .0102(6) .0097(5) -.0010(9) .0055(4) .0021(9)
+Ge2 .0104(5) .0079(5) .0097(5) -.0014(9) .0045(4) .0005(9)
+Ge3 .0104(5) .0070(5) .0123(5) -.0003(9) .0060(4) -.0012(9)
+Ge4 .0119(5) .0065(5) .0102(5) -.0005(9) .0069(4) .0001(9)
+Al1 .009(2) .008(2) .006(2) -.001(2) .0031(14) .002(2)
+Al2 .011(2) .007(2) .010(2) -.004(2) .0068(15) -.001(2)
+Al3 .009(2) .008(2) .007(2) -.002(2) .0044(14) -.002(2)
+Al4 .009(2) .009(2) .009(2) -.001(2) .0067(14) -.001(2)
+O1 .007(4) .032(6) .019(5) -.005(4) .009(4) .001(5)
+O2 .016(4) .009(3) .018(4) -.003(5) .012(3) .004(5)
+O3 .031(6) .016(5) .006(4) -.006(5) .011(4) -.004(4)
+O4 .008(3) .009(4) .025(4) .001(6) .004(3) .007(6)
+O5 .022(4) .006(5) .032(5) -.004(5) .021(4) -.004(5)
+O6 .019(4) .019(5) .023(4) .001(6) .012(4) -.003(6)
+O7 .015(4) .028(8) .010(4) .006(4) .006(4) .006(4)
+O8 .024(4) .014(4) .016(4) .004(7) .012(3) .006(7)
+O9 .015(5) .019(5) .010(4) -.002(4) .003(4) -.003(4)
+O10 .024(4) .009(3) .045(5) -.003(5) .028(4) .002(5)
+O11 .018(4) .005(3) .029(4) -.002(4) .000(3) -.004(5)
+O12 .020(6) .016(5) .009(5) .005(4) .011(4) .006(4)
+O13 .012(4) .039(6) .009(4) .002(4) .005(4) -.002(4)
+O14 .039(5) .008(4) .040(5) .001(5) .025(4) .008(5)
+O15 .007(4) .045(7) .022(5) .002(4) .004(4) .001(4)
+O16 .016(5) .035(6) .015(5) -.005(4) .009(4) .001(4)
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_calc_flag
+_atom_site_occupancy
+_atom_site_type_symbol
+Na1 .4362(5) .4289(8) .4533(5) .0201(9) Uani d 1 Na
+Na2 .5610(5) .4288(8) .9982(5) .0222(9) Uani d 1 Na
+Na3 .0073(5) .9293(8) .4379(5) .0228(10) Uani d 1 Na
+K4 .0121(4) .4268(6) .0077(4) .0381(7) Uani d 1 K
+Ge1 .34742(13) .1227(2) .66563(12) .0099(3) Uani d 1 Ge
+Ge2 .24343(12) .6197(2) .90195(12) .0095(2) Uani d 1 Ge
+Ge3 .08980(12) .6157(2) .34079(12) .0097(2) Uani d 1 Ge
+Ge4 .68052(12) .6112(2) .76134(12) .0089(2) Uani d 1 Ge
+Al1 .3474(4) .7380(5) .6649(4) .0080(7) Uani d 1 Al
+Al2 .2448(4) .2388(5) .9032(4) .0084(7) Uani d 1 Al
+Al3 .0901(4) .2422(5) .3414(4) .0077(7) Uani d 1 Al
+Al4 .6810(4) .2457(5) .7631(4) .0080(7) Uani d 1 Al
+O1 .4846(10) .2334(14) .6492(11) .018(2) Uani d 1 O
+O2 .7341(8) .4307(13) .7292(8) .0127(15) Uani d 1 O
+O3 .7384(11) .2400(13) .9531(10) .017(2) Uani d 1 O
+O4 .0527(8) .6084(16) .7721(9) .016(2) Uani d 1 O
+O5 .7772(10) .1033(16) .7209(10) .017(2) Uani d 1 O
+O6 .4863(9) .6294(18) .6473(10) .019(2) Uani d 1 O
+O7 .3587(10) .1527(11) .8405(10) .018(3) Uani d 1 O
+O8 .7337(9) .6212(18) .9506(8) .017(2) Uani d 1 O
+O9 .0511(11) .2455(13) .7715(10) .016(2) Uani d 1 O
+O10 .0177(9) .4297(13) .3332(10) .022(2) Uani d 1 O
+O11 .3040(9) .4293(13) .9611(9) .023(2) Uani d 1 O
+O12 .2252(12) .2552(12) .2799(11) .013(2) Uani d 1 O
+O13 .1656(11) .6834(12) .5210(10) .020(2) Uani d 1 O
+O14 .3900(10) -.0675(13) .6502(10) .027(2) Uani d 1 O
+O15 .1674(11) .1700(13) .5265(12) .026(3) Uani d 1 O
+O16 .3565(11) .7026(12) .8363(11) .021(2) Uani d 1 O
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+O O .0106 .0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Na Na .0362 .0249 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+K K .2009 .2494 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Al Al .0645 .0514 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ge Ge .1547 1.8001 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+O14 Na1 O1 2_656 . 117.2(4)
+O14 Na1 O6 2_656 . 115.2(4)
+O1 Na1 O6 . . 86.5(3)
+O14 Na1 O12 2_656 . 103.9(4)
+O1 Na1 O12 . . 86.3(4)
+O6 Na1 O12 . . 139.0(3)
+O14 Na1 O5 2_656 2_656 103.3(4)
+O1 Na1 O5 . 2_656 138.0(3)
+O6 Na1 O5 . 2_656 85.7(4)
+O12 Na1 O5 . 2_656 73.3(3)
+O14 Na1 O2 2_656 . 78.8(3)
+O1 Na1 O2 . . 61.3(3)
+O6 Na1 O2 . . 61.0(3)
+O12 Na1 O2 . . 143.2(4)
+O5 Na1 O2 2_656 . 142.7(4)
+O14 Na1 O6 2_656 2_646 60.3(4)
+O1 Na1 O6 . 2_646 73.4(4)
+O6 Na1 O6 . 2_646 151.4(3)
+O12 Na1 O6 . 2_646 61.2(3)
+O5 Na1 O6 2_656 2_646 122.8(3)
+O2 Na1 O6 . 2_646 91.1(3)
+O14 Na1 Ge4 2_656 . 92.8(3)
+O1 Na1 Ge4 . . 77.7(3)
+O6 Na1 Ge4 . . 30.9(2)
+O12 Na1 Ge4 . . 160.8(3)
+O5 Na1 Ge4 2_656 . 112.2(4)
+O2 Na1 Ge4 . . 31.4(2)
+O6 Na1 Ge4 2_646 . 122.3(2)
+O14 Na1 Al4 2_656 . 93.7(3)
+O1 Na1 Al4 . . 30.9(2)
+O6 Na1 Al4 . . 78.3(3)
+O12 Na1 Al4 . . 112.1(3)
+O5 Na1 Al4 2_656 . 160.5(3)
+O2 Na1 Al4 . . 32.0(2)
+O6 Na1 Al4 2_646 . 74.1(2)
+Ge4 Na1 Al4 . . 56.62(9)
+O14 Na1 Ge4 2_656 2_646 79.8(3)
+O1 Na1 Ge4 . 2_646 81.1(3)
+O6 Na1 Ge4 . 2_646 163.9(3)
+O12 Na1 Ge4 . 2_646 30.4(2)
+O5 Na1 Ge4 2_656 2_646 96.6(3)
+O2 Na1 Ge4 . 2_646 120.1(3)
+O6 Na1 Ge4 2_646 2_646 31.1(2)
+Ge4 Na1 Ge4 . 2_646 151.2(2)
+Al4 Na1 Ge4 . 2_646 95.8(2)
+O14 Na1 Al4 2_656 2_656 78.5(3)
+O1 Na1 Al4 . 2_656 163.1(3)
+O6 Na1 Al4 . 2_656 80.5(4)
+O12 Na1 Al4 . 2_656 96.4(3)
+O5 Na1 Al4 2_656 2_656 30.6(3)
+O2 Na1 Al4 . 2_656 119.8(3)
+O6 Na1 Al4 2_646 2_656 122.4(2)
+Ge4 Na1 Al4 . 2_656 96.1(2)
+Al4 Na1 Al4 . 2_656 151.5(2)
+Ge4 Na1 Al4 2_646 2_656 109.38(13)
+O14 Na1 Al1 2_656 2_646 29.7(3)
+O1 Na1 Al1 . 2_646 93.0(3)
+O6 Na1 Al1 . 2_646 134.8(3)
+O12 Na1 Al1 . 2_646 86.0(3)
+O5 Na1 Al1 2_656 2_646 120.8(3)
+O2 Na1 Al1 . 2_646 79.2(2)
+O6 Na1 Al1 2_646 2_646 31.3(2)
+Ge4 Na1 Al1 . 2_646 105.10(13)
+Al4 Na1 Al1 . 2_646 78.6(2)
+Ge4 Na1 Al1 2_646 2_646 56.69(12)
+Al4 Na1 Al1 2_656 2_646 103.9(2)
+O7 Na2 O11 2_657 . 94.8(4)
+O7 Na2 O16 2_657 2_647 105.8(3)
+O11 Na2 O16 . 2_647 95.0(4)
+O7 Na2 O8 2_657 . 65.7(4)
+O11 Na2 O8 . . 136.5(5)
+O16 Na2 O8 2_647 . 126.9(4)
+O7 Na2 O3 2_657 . 125.9(4)
+O11 Na2 O3 . . 137.9(4)
+O16 Na2 O3 2_647 . 66.3(3)
+O8 Na2 O3 . . 77.6(3)
+O7 Na2 Ge2 2_657 2_647 120.0(3)
+O11 Na2 Ge2 . 2_647 120.1(3)
+O16 Na2 Ge2 2_647 2_647 32.9(2)
+O8 Na2 Ge2 . 2_647 103.0(3)
+O3 Na2 Ge2 . 2_647 33.4(2)
+O7 Na2 Al2 2_657 2_657 32.7(2)
+O11 Na2 Al2 . 2_657 119.7(4)
+O16 Na2 Al2 2_647 2_657 119.9(3)
+O8 Na2 Al2 . 2_657 33.1(3)
+O3 Na2 Al2 . 2_657 102.1(3)
+Ge2 Na2 Al2 2_647 2_657 114.32(15)
+O7 Na2 Al2 2_657 . 123.8(3)
+O11 Na2 Al2 . . 31.3(3)
+O16 Na2 Al2 2_647 . 76.3(3)
+O8 Na2 Al2 . . 154.0(3)
+O3 Na2 Al2 . . 106.7(3)
+Ge2 Na2 Al2 2_647 . 92.3(2)
+Al2 Na2 Al2 2_657 . 151.0(2)
+O7 Na2 Ge2 2_657 . 76.1(3)
+O11 Na2 Ge2 . . 31.2(3)
+O16 Na2 Ge2 2_647 . 123.9(3)
+O8 Na2 Ge2 . . 105.5(3)
+O3 Na2 Ge2 . . 154.7(3)
+Ge2 Na2 Ge2 2_647 . 151.3(2)
+Al2 Na2 Ge2 2_657 . 92.1(2)
+Al2 Na2 Ge2 . . 59.79(10)
+O7 Na2 Al1 2_657 2_647 81.9(3)
+O11 Na2 Al1 . 2_647 84.6(3)
+O16 Na2 Al1 2_647 2_647 27.1(2)
+O8 Na2 Al1 . 2_647 126.7(2)
+O3 Na2 Al1 . 2_647 90.4(3)
+Ge2 Na2 Al1 2_647 2_647 57.71(12)
+Al2 Na2 Al1 2_657 2_647 104.6(2)
+Al2 Na2 Al1 . 2_647 79.23(14)
+Ge2 Na2 Al1 . 2_647 106.30(14)
+O7 Na2 Ge1 2_657 2_657 27.0(2)
+O11 Na2 Ge1 . 2_657 84.6(3)
+O16 Na2 Ge1 2_647 2_657 81.9(3)
+O8 Na2 Ge1 . 2_657 90.0(3)
+O3 Na2 Ge1 . 2_657 126.1(3)
+Ge2 Na2 Ge1 2_647 2_657 104.77(13)
+Al2 Na2 Ge1 2_657 2_657 57.43(12)
+Al2 Na2 Ge1 . 2_657 106.37(14)
+Ge2 Na2 Ge1 . 2_657 79.16(13)
+Al1 Na2 Ge1 2_647 2_657 56.09(9)
+O7 Na2 Al4 2_657 . 135.2(3)
+O11 Na2 Al4 . . 125.7(3)
+O16 Na2 Al4 2_647 . 90.2(3)
+O8 Na2 Al4 . . 71.1(3)
+O3 Na2 Al4 . . 28.0(2)
+Ge2 Na2 Al4 2_647 . 58.85(12)
+Al2 Na2 Al4 2_657 . 103.21(15)
+Al2 Na2 Al4 . . 100.4(2)
+Ge2 Na2 Al4 . . 128.4(2)
+Al1 Na2 Al4 2_647 . 116.5(2)
+Ge1 Na2 Al4 2_657 . 149.4(2)
+O4 Na3 O10 2_556 2_556 136.8(5)
+O4 Na3 O9 2_556 2_556 77.9(3)
+O10 Na3 O9 2_556 2_556 136.5(4)
+O4 Na3 O15 2_556 1_565 69.1(4)
+O10 Na3 O15 2_556 1_565 90.0(4)
+O9 Na3 O15 2_556 1_565 132.6(4)
+O4 Na3 O13 2_556 . 131.4(4)
+O10 Na3 O13 2_556 . 91.1(4)
+O9 Na3 O13 2_556 . 66.9(3)
+O15 Na3 O13 1_565 . 112.2(3)
+O4 Na3 O13 2_556 2_556 75.5(4)
+O10 Na3 O13 2_556 2_556 61.7(3)
+O9 Na3 O13 2_556 2_556 133.1(3)
+O15 Na3 O13 1_565 2_556 70.0(3)
+O13 Na3 O13 . 2_556 152.8(2)
+O4 Na3 O15 2_556 2_556 131.7(3)
+O10 Na3 O15 2_556 2_556 63.0(3)
+O9 Na3 O15 2_556 2_556 73.9(4)
+O15 Na3 O15 1_565 2_556 152.9(2)
+O13 Na3 O15 . 2_556 69.3(3)
+O13 Na3 O15 2_556 2_556 96.4(3)
+O4 Na3 Al3 2_556 1_565 34.5(3)
+O10 Na3 Al3 2_556 1_565 117.7(3)
+O9 Na3 Al3 2_556 1_565 105.2(3)
+O15 Na3 Al3 1_565 1_565 34.7(3)
+O13 Na3 Al3 . 1_565 127.3(3)
+O13 Na3 Al3 2_556 1_565 70.9(2)
+O15 Na3 Al3 2_556 1_565 162.3(3)
+O4 Na3 Ge3 2_556 . 104.6(3)
+O10 Na3 Ge3 2_556 . 117.9(3)
+O9 Na3 Ge3 2_556 . 33.6(2)
+O15 Na3 Ge3 1_565 . 127.2(3)
+O13 Na3 Ge3 . . 33.4(2)
+O13 Na3 Ge3 2_556 . 162.2(3)
+O15 Na3 Ge3 2_556 . 69.9(3)
+Al3 Na3 Ge3 1_565 . 119.4(2)
+O4 Na3 Al3 2_556 2_556 151.0(3)
+O10 Na3 Al3 2_556 2_556 31.6(3)
+O9 Na3 Al3 2_556 2_556 104.8(3)
+O15 Na3 Al3 1_565 2_556 120.6(3)
+O13 Na3 Al3 . 2_556 73.1(3)
+O13 Na3 Al3 2_556 2_556 82.5(2)
+O15 Na3 Al3 2_556 2_556 32.4(2)
+Al3 Na3 Al3 1_565 2_556 148.8(2)
+Ge3 Na3 Al3 . 2_556 90.6(2)
+O4 Na3 Ge3 2_556 2_556 105.5(3)
+O10 Na3 Ge3 2_556 2_556 31.4(3)
+O9 Na3 Ge3 2_556 2_556 151.2(3)
+O15 Na3 Ge3 1_565 2_556 72.7(3)
+O13 Na3 Ge3 . 2_556 121.6(3)
+O13 Na3 Ge3 2_556 2_556 31.4(2)
+O15 Na3 Ge3 2_556 2_556 83.6(2)
+Al3 Na3 Ge3 1_565 2_556 90.7(2)
+Ge3 Na3 Ge3 . 2_556 148.7(2)
+Al3 Na3 Ge3 2_556 2_556 58.47(10)
+O4 Na3 Al1 2_556 . 128.5(3)
+O10 Na3 Al1 2_556 . 83.6(2)
+O9 Na3 Al1 2_556 . 91.1(3)
+O15 Na3 Al1 1_565 . 84.1(3)
+O13 Na3 Al1 . . 29.1(2)
+O13 Na3 Al1 2_556 . 135.5(2)
+O15 Na3 Al1 2_556 . 90.8(3)
+Al3 Na3 Al1 1_565 . 107.0(2)
+Ge3 Na3 Al1 . . 58.45(12)
+Al3 Na3 Al1 2_556 . 80.52(15)
+Ge3 Na3 Al1 2_556 . 107.21(14)
+O2 K4 O12 1_454 . 148.7(3)
+O2 K4 O5 1_454 2_656 146.6(3)
+O12 K4 O5 . 2_656 60.7(2)
+O2 K4 O3 1_454 1_454 57.0(3)
+O12 K4 O3 . 1_454 95.1(3)
+O5 K4 O3 2_656 1_454 128.6(3)
+O2 K4 O9 1_454 1_554 70.0(3)
+O12 K4 O9 . 1_554 100.2(3)
+O5 K4 O9 2_656 1_554 133.9(3)
+O3 K4 O9 1_454 1_554 92.2(3)
+O2 K4 O4 1_454 1_554 69.5(2)
+O12 K4 O4 . 1_554 133.1(3)
+O5 K4 O4 2_656 1_554 99.7(3)
+O3 K4 O4 1_454 1_554 126.0(3)
+O9 K4 O4 1_554 1_554 61.3(2)
+O2 K4 O8 1_454 1_454 56.1(3)
+O12 K4 O8 . 1_454 129.0(3)
+O5 K4 O8 2_656 1_454 94.1(3)
+O3 K4 O8 1_454 1_454 65.4(2)
+O9 K4 O8 1_554 1_454 125.7(3)
+O4 K4 O8 1_554 1_454 91.8(3)
+O2 K4 O11 1_454 1_554 112.1(2)
+O12 K4 O11 . 1_554 81.1(3)
+O5 K4 O11 2_656 1_554 81.1(2)
+O3 K4 O11 1_454 1_554 143.5(3)
+O9 K4 O11 1_554 1_554 53.5(2)
+O4 K4 O11 1_554 1_554 52.8(2)
+O8 K4 O11 1_454 1_554 142.1(3)
+O2 K4 O10 1_454 . 122.2(2)
+O12 K4 O10 . . 53.4(3)
+O5 K4 O10 2_656 . 53.0(2)
+O3 K4 O10 1_454 . 75.9(2)
+O9 K4 O10 1_554 . 148.8(3)
+O4 K4 O10 1_554 . 147.9(3)
+O8 K4 O10 1_454 . 75.8(2)
+O11 K4 O10 1_554 . 125.7(2)
+O2 K4 Al2 1_454 1_554 100.4(2)
+O12 K4 Al2 . 1_554 76.4(2)
+O5 K4 Al2 2_656 1_554 104.3(2)
+O3 K4 Al2 1_454 1_554 113.3(3)
+O9 K4 Al2 1_554 1_554 30.8(2)
+O4 K4 Al2 1_554 1_554 67.7(2)
+O8 K4 Al2 1_454 1_554 154.2(2)
+O11 K4 Al2 1_554 1_554 30.4(2)
+O10 K4 Al2 . 1_554 129.8(2)
+O2 K4 Al4 1_454 1_454 31.0(2)
+O12 K4 Al4 . 1_454 117.8(3)
+O5 K4 Al4 2_656 1_454 156.6(2)
+O3 K4 Al4 1_454 1_454 30.5(2)
+O9 K4 Al4 1_554 1_454 69.1(2)
+O4 K4 Al4 1_554 1_454 96.4(2)
+O8 K4 Al4 1_454 1_454 68.4(3)
+O11 K4 Al4 1_554 1_454 122.3(2)
+O10 K4 Al4 . 1_454 105.9(2)
+Al2 K4 Al4 1_554 1_454 97.38(14)
+O2 K4 Ge2 1_454 1_554 99.5(2)
+O12 K4 Ge2 . 1_554 104.2(2)
+O5 K4 Ge2 2_656 1_554 76.2(2)
+O3 K4 Ge2 1_454 1_554 154.5(2)
+O9 K4 Ge2 1_554 1_554 68.3(2)
+O4 K4 Ge2 1_554 1_554 30.17(15)
+O8 K4 Ge2 1_454 1_554 112.0(3)
+O11 K4 Ge2 1_554 1_554 30.3(2)
+O10 K4 Ge2 . 1_554 129.2(2)
+Al2 K4 Ge2 1_554 1_554 57.10(8)
+Al4 K4 Ge2 1_454 1_554 123.94(12)
+O14 Ge1 O15 . . 111.0(5)
+O14 Ge1 O1 . . 105.4(5)
+O15 Ge1 O1 . . 110.8(5)
+O14 Ge1 O7 . . 109.7(4)
+O15 Ge1 O7 . . 109.2(4)
+O1 Ge1 O7 . . 110.7(5)
+O14 Ge1 Na1 . 2_646 43.0(3)
+O15 Ge1 Na1 . 2_646 114.8(4)
+O1 Ge1 Na1 . 2_646 63.9(4)
+O7 Ge1 Na1 . 2_646 134.4(3)
+O14 Ge1 Na3 . 1_545 72.1(3)
+O15 Ge1 Na3 . 1_545 42.5(4)
+O1 Ge1 Na3 . 1_545 139.4(3)
+O7 Ge1 Na3 . 1_545 107.9(3)
+Na1 Ge1 Na3 2_646 1_545 96.85(13)
+O14 Ge1 Na2 . 2_647 71.3(3)
+O15 Ge1 Na2 . 2_647 126.2(3)
+O1 Ge1 Na2 . 2_647 120.4(3)
+O7 Ge1 Na2 . 2_647 38.4(3)
+Na1 Ge1 Na2 2_646 2_647 102.02(13)
+Na3 Ge1 Na2 1_545 2_647 97.70(13)
+O4 Ge2 O16 . . 114.8(5)
+O4 Ge2 O3 . 2_657 107.9(5)
+O16 Ge2 O3 . 2_657 105.6(5)
+O4 Ge2 O11 . . 106.5(5)
+O16 Ge2 O11 . . 109.5(5)
+O3 Ge2 O11 2_657 . 112.7(4)
+O4 Ge2 Na2 . 2_657 125.5(5)
+O16 Ge2 Na2 . 2_657 50.0(4)
+O3 Ge2 Na2 2_657 2_657 55.7(4)
+O11 Ge2 Na2 . 2_657 128.0(3)
+O4 Ge2 Na2 . . 139.2(5)
+O16 Ge2 Na2 . . 66.1(4)
+O3 Ge2 Na2 2_657 . 110.8(3)
+O11 Ge2 Na2 . . 45.9(3)
+Na2 Ge2 Na2 2_657 . 87.71(6)
+O4 Ge2 K4 . 1_556 62.9(3)
+O16 Ge2 K4 . 1_556 174.4(4)
+O3 Ge2 K4 2_657 1_556 79.9(4)
+O11 Ge2 K4 . 1_556 67.4(3)
+Na2 Ge2 K4 2_657 1_556 135.57(11)
+Na2 Ge2 K4 . 1_556 111.96(13)
+O4 Ge2 Na3 . 2_546 39.2(4)
+O16 Ge2 Na3 . 2_546 95.6(3)
+O3 Ge2 Na3 2_657 2_546 146.9(3)
+O11 Ge2 Na3 . 2_546 82.5(3)
+Na2 Ge2 Na3 2_657 2_546 137.52(14)
+Na2 Ge2 Na3 . 2_546 100.89(14)
+K4 Ge2 Na3 1_556 2_546 79.49(11)
+O13 Ge3 O9 . 2_556 106.8(5)
+O13 Ge3 O5 . 2_656 113.0(5)
+O9 Ge3 O5 2_556 2_656 109.0(5)
+O13 Ge3 O10 . . 108.5(4)
+O9 Ge3 O10 2_556 . 111.9(5)
+O5 Ge3 O10 2_656 . 107.8(5)
+O13 Ge3 Na3 . . 54.2(3)
+O9 Ge3 Na3 2_556 . 52.8(3)
+O5 Ge3 Na3 2_656 . 122.6(5)
+O10 Ge3 Na3 . . 129.6(3)
+O13 Ge3 Na3 . 2_546 63.3(3)
+O9 Ge3 Na3 2_556 2_546 110.5(3)
+O5 Ge3 Na3 2_656 2_546 139.4(4)
+O10 Ge3 Na3 . 2_546 47.7(3)
+Na3 Ge3 Na3 . 2_546 89.28(6)
+O13 Ge3 Na1 . . 87.1(3)
+O9 Ge3 Na1 2_556 . 151.9(3)
+O5 Ge3 Na1 2_656 . 43.0(4)
+O10 Ge3 Na1 . . 85.5(3)
+Na3 Ge3 Na1 . . 132.08(14)
+Na3 Ge3 Na1 2_546 . 97.62(14)
+O13 Ge3 K4 . . 166.8(3)
+O9 Ge3 K4 2_556 . 85.9(3)
+O5 Ge3 K4 2_656 . 57.7(4)
+O10 Ge3 K4 . . 68.9(3)
+Na3 Ge3 K4 . . 137.86(12)
+Na3 Ge3 K4 2_546 . 116.35(14)
+Na1 Ge3 K4 . . 79.81(10)
+O2 Ge4 O6 . . 107.9(5)
+O2 Ge4 O12 . 2_656 109.7(5)
+O6 Ge4 O12 . 2_656 110.2(6)
+O2 Ge4 O8 . . 107.5(6)
+O6 Ge4 O8 . . 112.5(4)
+O12 Ge4 O8 2_656 . 109.0(6)
+O2 Ge4 Na1 . . 63.2(3)
+O6 Ge4 Na1 . . 47.5(4)
+O12 Ge4 Na1 2_656 . 110.4(3)
+O8 Ge4 Na1 . . 140.2(4)
+O2 Ge4 Na1 . 2_656 130.7(3)
+O6 Ge4 Na1 . 2_656 64.0(5)
+O12 Ge4 Na1 2_656 2_656 46.8(4)
+O8 Ge4 Na1 . 2_656 120.7(5)
+Na1 Ge4 Na1 . 2_656 84.19(6)
+O2 Ge4 K4 . 1_656 56.2(3)
+O6 Ge4 K4 . 1_656 155.9(5)
+O12 Ge4 K4 2_656 1_656 93.2(4)
+O8 Ge4 K4 . 1_656 62.8(4)
+Na1 Ge4 K4 . 1_656 119.28(14)
+Na1 Ge4 K4 2_656 1_656 139.88(11)
+O2 Ge4 Na2 . . 88.5(3)
+O6 Ge4 Na2 . . 81.6(4)
+O12 Ge4 Na2 2_656 . 152.8(3)
+O8 Ge4 Na2 . . 44.5(4)
+Na1 Ge4 Na2 . . 95.73(13)
+Na1 Ge4 Na2 2_656 . 133.00(13)
+K4 Ge4 Na2 1_656 . 80.01(11)
+O2 Ge4 K4 . 2_656 120.5(3)
+O6 Ge4 K4 . 2_656 130.2(5)
+O12 Ge4 K4 2_656 2_656 44.6(3)
+O8 Ge4 K4 . 2_656 64.5(4)
+Na1 Ge4 K4 . 2_656 154.97(12)
+Na1 Ge4 K4 2_656 2_656 75.76(11)
+K4 Ge4 K4 1_656 2_656 71.11(3)
+Na2 Ge4 K4 . 2_656 108.86(11)
+O16 Al1 O14 . 1_565 111.0(5)
+O16 Al1 O6 . . 110.8(5)
+O14 Al1 O6 1_565 . 104.9(6)
+O16 Al1 O13 . . 108.7(5)
+O14 Al1 O13 1_565 . 112.3(5)
+O6 Al1 O13 . . 109.1(5)
+O16 Al1 Na1 . 2_656 135.8(4)
+O14 Al1 Na1 1_565 2_656 43.9(3)
+O6 Al1 Na1 . 2_656 62.6(5)
+O13 Al1 Na1 . 2_656 114.6(3)
+O16 Al1 Na3 . . 108.0(4)
+O14 Al1 Na3 1_565 . 72.2(3)
+O6 Al1 Na3 . . 139.0(3)
+O13 Al1 Na3 . . 44.2(4)
+Na1 Al1 Na3 2_656 . 97.3(2)
+O16 Al1 Na2 . 2_657 39.8(4)
+O14 Al1 Na2 1_565 2_657 71.3(3)
+O6 Al1 Na2 . 2_657 120.3(3)
+O13 Al1 Na2 . 2_657 127.9(3)
+Na1 Al1 Na2 2_656 2_657 102.5(2)
+Na3 Al1 Na2 . 2_657 98.0(2)
+O7 Al2 O8 . 2_647 104.1(5)
+O7 Al2 O11 . . 110.4(5)
+O8 Al2 O11 2_647 . 112.1(6)
+O7 Al2 O9 . . 114.8(5)
+O8 Al2 O9 2_647 . 108.1(5)
+O11 Al2 O9 . . 107.4(5)
+O7 Al2 Na2 . 2_647 48.7(3)
+O8 Al2 Na2 2_647 2_647 55.5(4)
+O11 Al2 Na2 . 2_647 128.7(3)
+O9 Al2 Na2 . 2_647 123.9(4)
+O7 Al2 Na2 . . 66.4(4)
+O8 Al2 Na2 2_647 . 109.8(4)
+O11 Al2 Na2 . . 46.3(3)
+O9 Al2 Na2 . . 140.3(4)
+Na2 Al2 Na2 2_647 . 87.92(10)
+O7 Al2 K4 . 1_556 176.1(4)
+O8 Al2 K4 2_647 1_556 79.8(4)
+O11 Al2 K4 . 1_556 67.9(3)
+O9 Al2 K4 . 1_556 63.2(3)
+Na2 Al2 K4 2_647 1_556 135.2(2)
+Na2 Al2 K4 . 1_556 112.7(2)
+O7 Al2 Na3 . 2_546 96.8(3)
+O8 Al2 Na3 2_647 2_546 147.8(3)
+O11 Al2 Na3 . 2_546 82.2(3)
+O9 Al2 Na3 . 2_546 40.0(4)
+Na2 Al2 Na3 2_647 2_546 137.3(2)
+Na2 Al2 Na3 . 2_546 100.9(2)
+K4 Al2 Na3 1_556 2_546 79.56(13)
+O10 Al3 O12 . . 107.5(5)
+O10 Al3 O4 . 2_546 112.3(5)
+O12 Al3 O4 . 2_546 109.3(5)
+O10 Al3 O15 . . 109.2(5)
+O12 Al3 O15 . . 113.0(5)
+O4 Al3 O15 2_546 . 105.6(5)
+O10 Al3 Na3 . 1_545 129.7(3)
+O12 Al3 Na3 . 1_545 122.8(4)
+O4 Al3 Na3 2_546 1_545 52.3(4)
+O15 Al3 Na3 . 1_545 53.5(4)
+O10 Al3 Na3 . 2_546 47.7(3)
+O12 Al3 Na3 . 2_546 139.1(4)
+O4 Al3 Na3 2_546 2_546 110.5(3)
+O15 Al3 Na3 . 2_546 63.9(4)
+Na3 Al3 Na3 1_545 2_546 89.39(10)
+O10 Al3 Na1 . . 85.4(3)
+O12 Al3 Na1 . . 42.6(4)
+O4 Al3 Na1 2_546 . 151.8(3)
+O15 Al3 Na1 . . 87.7(4)
+Na3 Al3 Na1 1_545 . 132.2(2)
+Na3 Al3 Na1 2_546 . 97.7(2)
+O10 Al3 K4 . . 69.2(3)
+O12 Al3 K4 . . 57.8(3)
+O4 Al3 K4 2_546 . 85.9(4)
+O15 Al3 K4 . . 167.7(4)
+Na3 Al3 K4 1_545 . 137.3(2)
+Na3 Al3 K4 2_546 . 116.7(2)
+Na1 Al3 K4 . . 80.01(13)
+O3 Al4 O5 . . 109.5(5)
+O3 Al4 O1 . . 113.5(5)
+O5 Al4 O1 . . 112.3(5)
+O3 Al4 O2 . . 106.1(5)
+O5 Al4 O2 . . 109.1(5)
+O1 Al4 O2 . . 106.0(5)
+O3 Al4 Na1 . . 140.4(4)
+O5 Al4 Na1 . . 110.0(4)
+O1 Al4 Na1 . . 46.8(4)
+O2 Al4 Na1 . . 62.6(3)
+O3 Al4 Na1 . 2_646 122.4(4)
+O5 Al4 Na1 . 2_646 47.4(4)
+O1 Al4 Na1 . 2_646 65.6(4)
+O2 Al4 Na1 . 2_646 130.3(3)
+Na1 Al4 Na1 . 2_646 83.91(10)
+O3 Al4 K4 . 1_656 61.2(4)
+O5 Al4 K4 . 1_656 92.3(4)
+O1 Al4 K4 . 1_656 154.5(4)
+O2 Al4 K4 . 1_656 56.9(3)
+Na1 Al4 K4 . 1_656 119.4(2)
+Na1 Al4 K4 2_646 1_656 139.5(2)
+O3 Al4 Na2 . . 44.9(4)
+O5 Al4 Na2 . . 153.6(4)
+O1 Al4 Na2 . . 80.3(4)
+O2 Al4 Na2 . . 88.2(3)
+Na1 Al4 Na2 . . 95.6(2)
+Na1 Al4 Na2 2_646 . 133.2(2)
+K4 Al4 Na2 1_656 . 80.42(13)
+O3 Al4 K4 . 2_646 64.9(4)
+O5 Al4 K4 . 2_646 44.6(3)
+O1 Al4 K4 . 2_646 131.5(4)
+O2 Al4 K4 . 2_646 121.3(3)
+Na1 Al4 K4 . 2_646 154.5(2)
+Na1 Al4 K4 2_646 2_646 75.56(13)
+K4 Al4 K4 1_656 2_646 71.14(7)
+Na2 Al4 K4 . 2_646 109.40(14)
+Al4 O1 Ge1 . . 131.3(6)
+Al4 O1 Na1 . . 102.4(5)
+Ge1 O1 Na1 . . 126.3(5)
+Ge4 O2 Al4 . . 128.3(4)
+Ge4 O2 K4 . 1_656 93.8(4)
+Al4 O2 K4 . 1_656 92.1(4)
+Ge4 O2 Na1 . . 85.4(3)
+Al4 O2 Na1 . . 85.4(3)
+K4 O2 Na1 1_656 . 176.1(3)
+Al4 O3 Ge2 . 2_647 144.0(7)
+Al4 O3 Na2 . . 107.2(5)
+Ge2 O3 Na2 2_647 . 90.9(4)
+Al4 O3 K4 . 1_656 88.3(4)
+Ge2 O3 K4 2_647 1_656 116.8(4)
+Na2 O3 K4 . 1_656 106.2(4)
+Ge2 O4 Al3 . 2_556 135.7(8)
+Ge2 O4 Na3 . 2_546 114.6(5)
+Al3 O4 Na3 2_556 2_546 93.2(4)
+Ge2 O4 K4 . 1_556 86.9(4)
+Al3 O4 K4 2_556 1_556 118.2(4)
+Na3 O4 K4 2_546 1_556 107.3(5)
+Ge3 O5 Al4 2_646 . 131.8(8)
+Ge3 O5 Na1 2_646 2_646 108.8(5)
+Al4 O5 Na1 . 2_646 102.0(4)
+Ge3 O5 K4 2_646 2_646 92.6(4)
+Al4 O5 K4 . 2_646 111.0(4)
+Na1 O5 K4 2_646 2_646 109.6(5)
+Ge4 O6 Al1 . . 132.2(7)
+Ge4 O6 Na1 . . 101.6(5)
+Al1 O6 Na1 . . 125.8(5)
+Ge4 O6 Na1 . 2_656 85.0(5)
+Al1 O6 Na1 . 2_656 86.1(6)
+Na1 O6 Na1 . 2_656 107.7(3)
+Al2 O7 Ge1 . . 135.6(6)
+Al2 O7 Na2 . 2_647 98.7(4)
+Ge1 O7 Na2 . 2_647 114.6(5)
+Al2 O8 Ge4 2_657 . 146.3(10)
+Al2 O8 Na2 2_657 . 91.4(4)
+Ge4 O8 Na2 . . 107.6(5)
+Al2 O8 K4 2_657 1_656 115.7(4)
+Ge4 O8 K4 . 1_656 86.8(4)
+Na2 O8 K4 . 1_656 104.5(5)
+Ge3 O9 Al2 2_546 . 137.5(7)
+Ge3 O9 Na3 2_546 2_546 93.6(4)
+Al2 O9 Na3 . 2_546 113.1(5)
+Ge3 O9 K4 2_546 1_556 118.4(4)
+Al2 O9 K4 . 1_556 86.0(4)
+Na3 O9 K4 2_546 1_556 106.8(4)
+Ge3 O10 Al3 . . 133.3(5)
+Ge3 O10 Na3 . 2_546 101.0(5)
+Al3 O10 Na3 . 2_546 100.6(5)
+Ge3 O10 K4 . . 81.6(3)
+Al3 O10 K4 . . 81.1(3)
+Na3 O10 K4 2_546 . 174.0(3)
+Al2 O11 Ge2 . . 139.1(5)
+Al2 O11 Na2 . . 102.4(5)
+Ge2 O11 Na2 . . 102.8(5)
+Al2 O11 K4 . 1_556 81.8(3)
+Ge2 O11 K4 . 1_556 82.3(3)
+Na2 O11 K4 . 1_556 164.6(4)
+Ge4 O12 Al3 2_646 . 130.7(7)
+Ge4 O12 Na1 2_646 . 102.9(5)
+Al3 O12 Na1 . . 108.9(5)
+Ge4 O12 K4 2_646 . 111.1(4)
+Al3 O12 K4 . . 92.0(4)
+Na1 O12 K4 . . 110.5(4)
+Ge3 O13 Al1 . . 136.5(6)
+Ge3 O13 Na3 . . 92.4(4)
+Al1 O13 Na3 . . 106.7(5)
+Ge3 O13 Na3 . 2_546 85.2(4)
+Al1 O13 Na3 . 2_546 121.5(5)
+Na3 O13 Na3 . 2_546 110.3(3)
+Ge1 O14 Al1 . 1_545 145.0(5)
+Ge1 O14 Na1 . 2_646 108.3(5)
+Al1 O14 Na1 1_545 2_646 106.4(5)
+Ge1 O15 Al3 . . 134.8(6)
+Ge1 O15 Na3 . 1_545 109.7(5)
+Al3 O15 Na3 . 1_545 91.7(5)
+Ge1 O15 Na3 . 2_546 121.6(5)
+Al3 O15 Na3 . 2_546 83.7(4)
+Na3 O15 Na3 1_545 2_546 110.4(3)
+Ge2 O16 Al1 . . 137.8(6)
+Ge2 O16 Na2 . 2_657 97.1(5)
+Al1 O16 Na2 . 2_657 113.2(5)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+Na1 O14 2_656 2.441(9)
+Na1 O1 . 2.471(12)
+Na1 O6 . 2.483(14)
+Na1 O12 . 2.491(12)
+Na1 O5 2_656 2.509(12)
+Na1 O2 . 2.952(9)
+Na1 O6 2_646 3.01(2)
+Na1 Ge4 . 3.297(5)
+Na1 Al4 . 3.313(6)
+Na1 Ge4 2_646 3.333(7)
+Na1 Al4 2_656 3.335(8)
+Na1 Al1 2_646 3.378(6)
+Na2 O7 2_657 2.400(11)
+Na2 O11 . 2.421(9)
+Na2 O16 2_647 2.439(12)
+Na2 O8 . 2.606(13)
+Na2 O3 . 2.609(12)
+Na2 Ge2 2_647 3.159(7)
+Na2 Al2 2_657 3.160(8)
+Na2 Al2 . 3.271(6)
+Na2 Ge2 . 3.284(6)
+Na2 Al1 2_647 3.505(6)
+Na2 Ge1 2_657 3.512(6)
+Na2 Al4 . 3.535(7)
+Na3 O4 2_556 2.462(13)
+Na3 O10 2_556 2.469(9)
+Na3 O9 2_556 2.486(12)
+Na3 O15 1_565 2.501(12)
+Na3 O13 . 2.527(12)
+Na3 O13 2_556 2.942(12)
+Na3 O15 2_556 2.963(12)
+Na3 Al3 1_565 3.108(8)
+Na3 Ge3 . 3.114(7)
+Na3 Al3 2_556 3.280(6)
+Na3 Ge3 2_556 3.280(5)
+Na3 Al1 . 3.472(6)
+K4 O2 1_454 2.860(8)
+K4 O12 . 2.950(10)
+K4 O5 2_656 2.959(11)
+K4 O3 1_454 2.993(11)
+K4 O9 1_554 3.051(10)
+K4 O4 1_554 3.055(10)
+K4 O8 1_454 3.059(11)
+K4 O11 1_554 3.191(9)
+K4 O10 . 3.297(9)
+K4 Al2 1_554 3.409(5)
+K4 Al4 1_454 3.414(5)
+K4 Ge2 1_554 3.426(4)
+Ge1 O14 . 1.713(12)
+Ge1 O15 . 1.721(10)
+Ge1 O1 . 1.748(10)
+Ge1 O7 . 1.753(9)
+Ge1 Na1 2_646 3.395(5)
+Ge1 Na3 1_545 3.482(5)
+Ge1 Na2 2_647 3.512(6)
+Ge2 O4 . 1.724(8)
+Ge2 O16 . 1.728(10)
+Ge2 O3 2_657 1.739(10)
+Ge2 O11 . 1.745(11)
+Ge2 Na2 2_657 3.159(7)
+Ge2 K4 1_556 3.426(4)
+Ge2 Na3 2_546 3.546(5)
+Ge3 O13 . 1.715(9)
+Ge3 O9 2_556 1.727(10)
+Ge3 O5 2_656 1.735(8)
+Ge3 O10 . 1.739(11)
+Ge3 Na3 2_546 3.280(5)
+Ge4 O2 . 1.722(11)
+Ge4 O6 . 1.727(9)
+Ge4 O12 2_656 1.728(10)
+Ge4 O8 . 1.739(7)
+Ge4 Na1 2_656 3.333(7)
+Ge4 K4 1_656 3.434(4)
+Ge4 K4 2_656 3.919(4)
+Al1 O16 . 1.734(10)
+Al1 O14 1_565 1.746(12)
+Al1 O6 . 1.758(11)
+Al1 O13 . 1.764(10)
+Al1 Na1 2_656 3.378(6)
+Al1 Na2 2_657 3.505(6)
+Al2 O7 . 1.726(10)
+Al2 O8 2_647 1.727(12)
+Al2 O11 . 1.741(11)
+Al2 O9 . 1.749(10)
+Al2 Na2 2_647 3.160(8)
+Al2 K4 1_556 3.409(5)
+Al2 Na3 2_546 3.557(7)
+Al3 O10 . 1.751(12)
+Al3 O12 . 1.754(11)
+Al3 O4 2_546 1.762(11)
+Al3 O15 . 1.771(11)
+Al3 Na3 1_545 3.108(8)
+Al3 Na3 2_546 3.280(6)
+Al4 O3 . 1.736(9)
+Al4 O5 . 1.736(12)
+Al4 O1 . 1.741(10)
+Al4 O2 . 1.761(11)
+Al4 Na1 2_646 3.335(8)
+Al4 K4 1_656 3.414(5)
+Al4 K4 2_646 3.931(6)
+O2 K4 1_656 2.860(8)
+O3 Ge2 2_647 1.739(10)
+O3 K4 1_656 2.993(11)
+O4 Al3 2_556 1.762(11)
+O4 Na3 2_546 2.462(13)
+O4 K4 1_556 3.055(10)
+O5 Ge3 2_646 1.735(8)
+O5 Na1 2_646 2.509(12)
+O5 K4 2_646 2.959(11)
+O6 Na1 2_656 3.01(2)
+O7 Na2 2_647 2.400(11)
+O8 Al2 2_657 1.727(12)
+O8 K4 1_656 3.059(11)
+O9 Ge3 2_546 1.727(10)
+O9 Na3 2_546 2.486(11)
+O9 K4 1_556 3.051(11)
+O10 Na3 2_546 2.469(9)
+O11 K4 1_556 3.191(9)
+O12 Ge4 2_646 1.728(10)
+O13 Na3 2_546 2.942(12)
+O14 Al1 1_545 1.746(12)
+O14 Na1 2_646 2.441(9)
+O15 Na3 1_545 2.501(12)
+O15 Na3 2_546 2.963(12)
+O16 Na2 2_657 2.439(12)

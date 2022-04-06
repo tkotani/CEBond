@@ -1,0 +1,452 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-23 20:49:57 +0200 (Wed, 23 Mar 2016) $
+#$Revision: 179426 $
+#$URL: svn://www.crystallography.net/cod/cif/4/33/23/4332366.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the Crystal Eye server at
+# http://wwmm.ch.cam.ac.uk/crystaleye/, created by Nick Day at the
+# Peter Murray-Rust laboratory.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_4332366
+loop_
+_publ_author_name
+'Mo, Xunhua'
+'Etheredge, Kristen M. S.'
+'Hwu, Shiou-Jyh'
+'Huang, Qun'
+_publ_section_title
+;
+ New Cuprates Featuring Ladderlike Periodic Arrays of [Cu3O8]10-Trimeric
+ Magnetic Nanostructures
+;
+_journal_issue                   9
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              3478
+_journal_page_last               3480
+_journal_paper_doi               10.1021/ic060292q
+_journal_volume                  45
+_journal_year                    2006
+_chemical_formula_sum            'Cu3 Ge2.28 Na2 O12 Si1.72'
+_chemical_formula_weight         642.33
+_chemical_name_systematic
+; 
+ ? 
+;
+_space_group_IT_number           2
+_symmetry_cell_setting           triclinic
+_symmetry_space_group_name_Hall  '-P 1'
+_symmetry_space_group_name_H-M   'P -1'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                102.01(3)
+_cell_angle_beta                 93.37(3)
+_cell_angle_gamma                88.13(3)
+_cell_formula_units_Z            1
+_cell_length_a                   6.1520(12)
+_cell_length_b                   7.6550(15)
+_cell_length_c                   5.3650(11)
+_cell_measurement_temperature    298(2)
+_cell_volume                     246.65(9)
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      298(2)
+_diffrn_measured_fraction_theta_full 0.967
+_diffrn_measured_fraction_theta_max 0.967
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0219
+_diffrn_reflns_av_sigmaI/netI    0.0259
+_diffrn_reflns_limit_h_max       7
+_diffrn_reflns_limit_h_min       -7
+_diffrn_reflns_limit_k_max       9
+_diffrn_reflns_limit_k_min       -8
+_diffrn_reflns_limit_l_max       6
+_diffrn_reflns_limit_l_min       -6
+_diffrn_reflns_number            2296
+_diffrn_reflns_theta_full        25.99
+_diffrn_reflns_theta_max         25.99
+_diffrn_reflns_theta_min         2.72
+_exptl_absorpt_coefficient_mu    13.585
+_exptl_absorpt_correction_T_max  0.6125
+_exptl_absorpt_correction_T_min  0.2925
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details
+;Jacobson, R.A. REQAB, subroutine of Crystal Clear;Rigaku/MSC:
+ The Woodlands, TX, 1999.
+;
+_exptl_crystal_colour            blue
+_exptl_crystal_density_diffrn    4.324
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       plate
+_exptl_crystal_F_000             302
+_exptl_crystal_size_max          0.12
+_exptl_crystal_size_mid          0.10
+_exptl_crystal_size_min          0.04
+_refine_diff_density_max         0.897
+_refine_diff_density_min         -0.736
+_refine_diff_density_rms         0.174
+_refine_ls_extinction_coef       0.018(3)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_ref   0.893
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     100
+_refine_ls_number_reflns         943
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      0.893
+_refine_ls_R_factor_all          0.0275
+_refine_ls_R_factor_gt           0.0269
+_refine_ls_shift/su_max          0.015
+_refine_ls_shift/su_mean         0.004
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0428P)^2^+2.2852P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0713
+_refine_ls_wR_factor_ref         0.0719
+_reflns_number_gt                927
+_reflns_number_total             943
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            ic060292qsup1.cif
+_cod_data_source_block           cd1421Na2Cu3Ge2.28(1)Si1.72(1)O12
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_exptl_absorpt_correction_type' value 'multi scan' changed to
+'multi-scan' according to
+/home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary named
+'cif_core.dic' version 2.4.2 from 2011-04-26.
+
+Automatic conversion script
+Id: cif_fix_values 1891 2012-01-12 08:04:46Z andrius 
+;
+_cod_original_cell_volume        246.65(8)
+_cod_original_sg_symbol_H-M      P-1
+_cod_database_code               4332366
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, -y, -z'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+Ge1 Ge 0.22123(10) 0.37022(8) 0.30659(12) 0.0062(3) Uani 0.458(5) 1 d P
+Si1 Si 0.22123(10) 0.37022(8) 0.30659(12) 0.0062(3) Uani 0.542(5) 1 d P
+Ge2 Ge 0.39699(8) 0.18344(7) 0.76020(10) 0.0068(2) Uani 0.680(5) 1 d P
+Si2 Si 0.39699(8) 0.18344(7) 0.76020(10) 0.0068(2) Uani 0.320(5) 1 d P
+Cu1 Cu 0.0000 0.0000 0.0000 0.0087(2) Uani 1 2 d S
+Cu2 Cu 0.15985(8) 0.81910(7) 0.48959(9) 0.0069(2) Uani 1 1 d .
+Na1 Na 0.2455(3) 0.5909(2) 0.9046(3) 0.0142(4) Uani 1 1 d .
+O1 O 0.0130(5) 0.2277(4) 0.2348(6) 0.0084(6) Uani 1 1 d .
+O2 O 0.3969(5) 0.3175(4) 0.0668(6) 0.0114(6) Uani 1 1 d .
+O3 O 0.3582(5) 0.3468(4) 0.5791(6) 0.0122(6) Uani 1 1 d .
+O4 O 0.1744(5) 0.0534(4) 0.7284(6) 0.0110(6) Uani 1 1 d .
+O5 O 0.6513(5) 0.1011(4) 0.7349(6) 0.0143(7) Uani 1 1 d .
+O6 O 0.1311(5) 0.5744(4) 0.3050(6) 0.0117(6) Uani 1 1 d .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Ge1 0.0067(4) 0.0067(4) 0.0049(4) 0.0007(2) 0.0009(2) 0.0006(2)
+Si1 0.0067(4) 0.0067(4) 0.0049(4) 0.0007(2) 0.0009(2) 0.0006(2)
+Ge2 0.0066(3) 0.0080(3) 0.0060(3) 0.0015(2) 0.0020(2) 0.0002(2)
+Si2 0.0066(3) 0.0080(3) 0.0060(3) 0.0015(2) 0.0020(2) 0.0002(2)
+Cu1 0.0150(4) 0.0062(4) 0.0045(4) -0.0013(3) 0.0055(3) -0.0016(3)
+Cu2 0.0097(3) 0.0064(3) 0.0045(3) 0.00011(19) 0.00354(19) 0.00048(19)
+Na1 0.0127(8) 0.0176(9) 0.0138(9) 0.0069(7) 0.0018(7) 0.0037(7)
+O1 0.0107(14) 0.0076(14) 0.0058(13) -0.0010(11) 0.0016(11) 0.0019(11)
+O2 0.0125(15) 0.0123(15) 0.0088(14) -0.0006(12) 0.0039(11) -0.0025(12)
+O3 0.0132(15) 0.0122(15) 0.0121(15) 0.0048(12) 0.0000(12) 0.0010(12)
+O4 0.0162(15) 0.0105(15) 0.0057(14) -0.0013(11) 0.0049(12) -0.0036(12)
+O5 0.0146(15) 0.0178(16) 0.0127(15) 0.0070(13) 0.0065(12) 0.0019(13)
+O6 0.0160(16) 0.0089(15) 0.0097(15) -0.0002(11) 0.0045(12) 0.0009(12)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Na Na 0.0362 0.0249 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Si Si 0.0817 0.0704 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Cu Cu 0.3201 1.2651 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ge Ge 0.1547 1.8001 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+O6 Ge1 O3 114.37(16) . .
+O6 Ge1 O1 109.57(15) . .
+O3 Ge1 O1 111.14(15) . .
+O6 Ge1 O2 106.19(15) . .
+O3 Ge1 O2 107.64(15) . .
+O1 Ge1 O2 107.57(15) . .
+O6 Ge1 Na1 49.97(11) . 1_554
+O3 Ge1 Na1 138.20(11) . 1_554
+O1 Ge1 Na1 110.66(11) . 1_554
+O2 Ge1 Na1 57.91(11) . 1_554
+O6 Ge1 Na1 63.40(12) . 2_566
+O3 Ge1 Na1 139.95(12) . 2_566
+O1 Ge1 Na1 47.16(11) . 2_566
+O2 Ge1 Na1 111.16(11) . 2_566
+Na1 Ge1 Na1 74.00(6) 1_554 2_566
+O6 Ge1 Na1 73.13(12) . .
+O3 Ge1 Na1 44.00(11) . .
+O1 Ge1 Na1 113.75(11) . .
+O2 Ge1 Na1 136.27(11) . .
+Na1 Ge1 Na1 116.30(6) 1_554 .
+Na1 Ge1 Na1 107.14(5) 2_566 .
+O6 Ge1 Na1 98.30(11) . 2_666
+O3 Ge1 Na1 83.47(11) . 2_666
+O1 Ge1 Na1 137.86(11) . 2_666
+O2 Ge1 Na1 32.21(11) . 2_666
+Na1 Ge1 Na1 64.88(6) 1_554 2_666
+Na1 Ge1 Na1 136.20(6) 2_566 2_666
+Na1 Ge1 Na1 104.09(5) . 2_666
+O5 Ge2 O4 123.38(16) . .
+O5 Ge2 O3 109.41(15) . .
+O4 Ge2 O3 110.56(15) . .
+O5 Ge2 O2 104.38(16) . 1_556
+O4 Ge2 O2 106.38(14) . 1_556
+O3 Ge2 O2 99.86(15) . 1_556
+O5 Ge2 Na1 63.67(12) . 2_667
+O4 Ge2 Na1 150.90(11) . 2_667
+O3 Ge2 Na1 90.04(11) . 2_667
+O2 Ge2 Na1 47.98(11) 1_556 2_667
+O5 Ge2 Na1 127.64(12) . .
+O4 Ge2 Na1 108.88(11) . .
+O3 Ge2 Na1 48.01(11) . .
+O2 Ge2 Na1 53.52(11) 1_556 .
+Na1 Ge2 Na1 69.37(6) 2_667 .
+O1 Cu1 O1 180.0(3) 2 .
+O1 Cu1 O4 99.47(13) 2 2_556
+O1 Cu1 O4 80.53(13) . 2_556
+O1 Cu1 O4 80.53(13) 2 1_554
+O1 Cu1 O4 99.47(13) . 1_554
+O4 Cu1 O4 180.0(2) 2_556 1_554
+O1 Cu1 Cu2 139.98(9) 2 2_566
+O1 Cu1 Cu2 40.02(9) . 2_566
+O4 Cu1 Cu2 40.51(9) 2_556 2_566
+O4 Cu1 Cu2 139.49(9) 1_554 2_566
+O1 Cu1 Cu2 40.02(9) 2 1_544
+O1 Cu1 Cu2 139.98(9) . 1_544
+O4 Cu1 Cu2 139.49(9) 2_556 1_544
+O4 Cu1 Cu2 40.51(9) 1_554 1_544
+Cu2 Cu1 Cu2 180.000(19) 2_566 1_544
+O1 Cu1 Na1 140.12(9) 2 2_566
+O1 Cu1 Na1 39.88(9) . 2_566
+O4 Cu1 Na1 87.84(10) 2_556 2_566
+O4 Cu1 Na1 92.16(10) 1_554 2_566
+Cu2 Cu1 Na1 57.98(4) 2_566 2_566
+Cu2 Cu1 Na1 122.02(4) 1_544 2_566
+O1 Cu1 Na1 39.88(9) 2 1_544
+O1 Cu1 Na1 140.12(9) . 1_544
+O4 Cu1 Na1 92.16(10) 2_556 1_544
+O4 Cu1 Na1 87.84(10) 1_554 1_544
+Cu2 Cu1 Na1 122.02(4) 2_566 1_544
+Cu2 Cu1 Na1 57.98(4) 1_544 1_544
+Na1 Cu1 Na1 180.00(8) 2_566 1_544
+O5 Cu2 O6 98.03(14) 2_666 .
+O5 Cu2 O1 169.95(13) 2_666 2_566
+O6 Cu2 O1 91.23(13) . 2_566
+O5 Cu2 O4 91.04(14) 2_666 1_565
+O6 Cu2 O4 170.27(12) . 1_565
+O1 Cu2 O4 79.49(13) 2_566 1_565
+O5 Cu2 Cu1 131.42(10) 2_666 1_566
+O6 Cu2 Cu1 130.19(9) . 1_566
+O1 Cu2 Cu1 39.02(9) 2_566 1_566
+O4 Cu2 Cu1 40.47(9) 1_565 1_566
+O5 Cu2 Na1 132.29(11) 2_666 .
+O6 Cu2 Na1 75.47(10) . .
+O1 Cu2 Na1 46.66(9) 2_566 .
+O4 Cu2 Na1 95.82(10) 1_565 .
+Cu1 Cu2 Na1 67.14(4) 1_566 .
+O5 Cu2 Na1 56.92(11) 2_666 1_554
+O6 Cu2 Na1 43.31(9) . 1_554
+O1 Cu2 Na1 133.00(10) 2_566 1_554
+O4 Cu2 Na1 146.39(9) 1_565 1_554
+Cu1 Cu2 Na1 169.59(4) 1_566 1_554
+Na1 Cu2 Na1 112.87(6) . 1_554
+O1 Na1 O2 117.10(13) 2_566 2_666
+O1 Na1 O6 102.64(13) 2_566 1_556
+O2 Na1 O6 110.76(13) 2_666 1_556
+O1 Na1 O3 113.66(13) 2_566 .
+O2 Na1 O3 86.26(12) 2_666 .
+O6 Na1 O3 126.77(13) 1_556 .
+O1 Na1 O2 156.80(13) 2_566 1_556
+O2 Na1 O2 86.10(12) 2_666 1_556
+O6 Na1 O2 66.25(11) 1_556 1_556
+O3 Na1 O2 65.15(11) . 1_556
+O1 Na1 O6 64.85(11) 2_566 2_566
+O2 Na1 O6 158.85(13) 2_666 2_566
+O6 Na1 O6 88.25(12) 1_556 2_566
+O3 Na1 O6 74.57(11) . 2_566
+O2 Na1 O6 93.66(11) 1_556 2_566
+O1 Na1 O5 83.27(12) 2_566 2_667
+O2 Na1 O5 63.14(11) 2_666 2_667
+O6 Na1 O5 68.74(11) 1_556 2_667
+O3 Na1 O5 149.39(13) . 2_667
+O2 Na1 O5 109.31(12) 1_556 2_667
+O6 Na1 O5 135.68(11) 2_566 2_667
+O1 Na1 Ge1 129.18(10) 2_566 1_556
+O2 Na1 Ge1 105.32(10) 2_666 1_556
+O6 Na1 Ge1 32.70(8) 1_556 1_556
+O3 Na1 Ge1 94.94(9) . 1_556
+O2 Na1 Ge1 34.38(7) 1_556 1_556
+O6 Na1 Ge1 85.50(8) 2_566 1_556
+O5 Na1 Ge1 92.69(8) 2_667 1_556
+O1 Na1 Si1 129.18(10) 2_566 1_556
+O2 Na1 Si1 105.32(10) 2_666 1_556
+O6 Na1 Si1 32.70(8) 1_556 1_556
+O3 Na1 Si1 94.94(9) . 1_556
+O2 Na1 Si1 34.38(7) 1_556 1_556
+O6 Na1 Si1 85.50(8) 2_566 1_556
+O5 Na1 Si1 92.69(8) 2_667 1_556
+Ge1 Na1 Si1 0.00(3) 1_556 1_556
+O1 Na1 Ge1 32.93(8) 2_566 2_566
+O2 Na1 Ge1 147.96(11) 2_666 2_566
+O6 Na1 Ge1 92.36(10) 1_556 2_566
+O3 Na1 Ge1 97.61(10) . 2_566
+O2 Na1 Ge1 124.45(10) 1_556 2_566
+O6 Na1 Ge1 32.37(7) 2_566 2_566
+O5 Na1 Ge1 108.67(9) 2_667 2_566
+Ge1 Na1 Ge1 106.00(6) 1_556 2_566
+Si1 Na1 Ge1 106.00(6) 1_556 2_566
+O1 Na1 Si1 32.93(8) 2_566 2_566
+O2 Na1 Si1 147.96(11) 2_666 2_566
+O6 Na1 Si1 92.36(10) 1_556 2_566
+O3 Na1 Si1 97.61(10) . 2_566
+O2 Na1 Si1 124.45(10) 1_556 2_566
+O6 Na1 Si1 32.37(7) 2_566 2_566
+O5 Na1 Si1 108.67(9) 2_667 2_566
+Ge1 Na1 Si1 106.00(6) 1_556 2_566
+Si1 Na1 Si1 106.00(6) 1_556 2_566
+Ge1 Na1 Si1 0.000(10) 2_566 2_566
+O1 Na1 Si2 110.16(10) 2_566 2_667
+O2 Na1 Si2 34.08(8) 2_666 2_667
+O6 Na1 Si2 81.04(10) 1_556 2_667
+O3 Na1 Si2 117.92(10) . 2_667
+O2 Na1 Si2 88.85(9) 1_556 2_667
+O6 Na1 Si2 166.95(9) 2_566 2_667
+O5 Na1 Si2 32.51(7) 2_667 2_667
+Ge1 Na1 Si2 89.41(5) 1_556 2_667
+Si1 Na1 Si2 89.41(5) 1_556 2_667
+Ge1 Na1 Si2 140.07(7) 2_566 2_667
+Si1 Na1 Si2 140.07(7) 2_566 2_667
+Ge1 O1 Cu1 128.98(17) . .
+Ge1 O1 Cu2 119.44(16) . 2_566
+Cu1 O1 Cu2 100.95(14) . 2_566
+Ge1 O1 Na1 99.91(14) . 2_566
+Cu1 O1 Na1 107.18(14) . 2_566
+Cu2 O1 Na1 94.28(13) 2_566 2_566
+Ge1 O2 Si2 137.21(19) . 1_554
+Ge1 O2 Ge2 137.21(19) . 1_554
+Si2 O2 Ge2 0.00(4) 1_554 1_554
+Ge1 O2 Na1 124.72(16) . 2_666
+Si2 O2 Na1 97.94(14) 1_554 2_666
+Ge2 O2 Na1 97.94(14) 1_554 2_666
+Ge1 O2 Na1 87.71(13) . 1_554
+Si2 O2 Na1 93.14(13) 1_554 1_554
+Ge2 O2 Na1 93.14(13) 1_554 1_554
+Na1 O2 Na1 93.90(12) 2_666 1_554
+Ge1 O3 Ge2 137.5(2) . .
+Ge1 O3 Na1 106.73(15) . .
+Ge2 O3 Na1 99.28(14) . .
+Ge2 O4 Cu1 128.19(17) . 1_556
+Ge2 O4 Cu2 121.93(17) . 1_545
+Cu1 O4 Cu2 99.02(13) 1_556 1_545
+Ge2 O5 Cu2 119.58(18) . 2_666
+Ge2 O5 Na1 83.82(14) . 2_667
+Cu2 O5 Na1 87.78(12) 2_666 2_667
+Ge1 O6 Cu2 142.10(19) . .
+Ge1 O6 Na1 97.32(15) . 1_554
+Cu2 O6 Na1 101.91(14) . 1_554
+Ge1 O6 Na1 84.22(13) . 2_566
+Cu2 O6 Na1 127.00(15) . 2_566
+Na1 O6 Na1 91.75(12) 1_554 2_566
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Ge1 O6 1.643(3) .
+Ge1 O3 1.683(3) .
+Ge1 O1 1.685(3) .
+Ge1 O2 1.704(3) .
+Ge1 Na1 3.016(2) 1_554
+Ge1 Na1 3.053(2) 2_566
+Ge1 Na1 3.298(2) .
+Ge1 Na1 3.574(2) 2_666
+Ge2 O5 1.670(3) .
+Ge2 O4 1.699(3) .
+Ge2 O3 1.739(3) .
+Ge2 O2 1.748(3) 1_556
+Ge2 Na1 3.089(2) 2_667
+Ge2 Na1 3.176(2) .
+Cu1 O1 1.927(3) 2
+Cu1 O1 1.927(3) .
+Cu1 O4 1.975(3) 2_556
+Cu1 O4 1.975(3) 1_554
+Cu1 Cu2 3.0055(11) 2_566
+Cu1 Cu2 3.0055(11) 1_544
+Cu1 Na1 3.386(2) 2_566
+Cu1 Na1 3.386(2) 1_544
+Cu2 O5 1.921(3) 2_666
+Cu2 O6 1.936(3) .
+Cu2 O1 1.969(3) 2_566
+Cu2 O4 1.977(3) 1_565
+Cu2 Cu1 3.0055(11) 1_566
+Cu2 Na1 3.1158(19) .
+Cu2 Na1 3.321(2) 1_554
+Na1 O1 2.273(3) 2_566
+Na1 O2 2.317(4) 2_666
+Na1 O6 2.329(3) 1_556
+Na1 O3 2.392(4) .
+Na1 O2 2.557(4) 1_556
+Na1 O6 2.744(4) 2_566
+Na1 O5 2.785(4) 2_667
+Na1 Ge1 3.016(2) 1_556
+Na1 Si1 3.016(2) 1_556
+Na1 Ge1 3.053(2) 2_566
+Na1 Si1 3.053(2) 2_566
+Na1 Si2 3.089(2) 2_667
+O1 Cu2 1.969(3) 2_566
+O1 Na1 2.273(3) 2_566
+O2 Si2 1.748(3) 1_554
+O2 Ge2 1.748(3) 1_554
+O2 Na1 2.317(4) 2_666
+O2 Na1 2.557(4) 1_554
+O4 Cu1 1.975(3) 1_556
+O4 Cu2 1.977(3) 1_545
+O5 Cu2 1.921(3) 2_666
+O5 Na1 2.785(4) 2_667
+O6 Na1 2.329(3) 1_554
+O6 Na1 2.744(4) 2_566

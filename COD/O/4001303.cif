@@ -1,0 +1,224 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-21 01:21:50 +0200 (Mon, 21 Mar 2016) $
+#$Revision: 178377 $
+#$URL: svn://www.crystallography.net/cod/cif/4/00/13/4001303.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4001303
+loop_
+_publ_author_name
+'Bernuy-Lopez, Carlos'
+'Allix, Mathieu'
+'Bridges, Craig A.'
+'Claridge, John B.'
+'Rosseinsky, Matthew J.'
+_publ_section_title
+;
+ Sr2MgMoO6-\d:&#x00A0; Structure, Phase Stability, and Cation Site Order
+ Control of Reduction
+;
+_journal_issue                   5
+_journal_name_full               'Chemistry of Materials'
+_journal_page_first              1035
+_journal_paper_doi               10.1021/cm0624116
+_journal_volume                  19
+_journal_year                    2007
+_chemical_formula_sum            'Mo O4 Sr'
+_chemical_formula_weight         247.56
+_chemical_name_systematic        ' ?'
+_space_group_IT_number           88
+_symmetry_cell_setting           tetragonal
+_symmetry_space_group_name_Hall  '-I 4ad'
+_symmetry_space_group_name_H-M   'I 41/a :2'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            4
+_cell_length_a                   5.3954(4)
+_cell_length_b                   5.3954
+_cell_length_c                   12.0264(18)
+_cell_volume                     350.09(6)
+_pd_block_id
+2006-10-06T09:51|I1BAR_NEUTRON_BS_FIN_phase2|JBC||
+_pd_phase_name                   'from C:/GSAS files/Sr2MgMoO6/SrMoO4.cif'
+_cod_data_source_file            cm0624116si20061009_081917.cif
+_cod_data_source_block           I1BAR_NEUTRON_BS_FIN_phase_2
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_geom_bond_publ_flag' value 'N' changed to 'n' according to
+/home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (27
+times).
+
+'_geom_angle_publ_flag' value 'N' changed to 'n' according
+to /home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary
+named 'cif_core.dic' version 2.4.1 from 2010-06-29 (75 times).
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_original_cell_volume        350.09(5)
+_cod_original_sg_symbol_H-M      'I 41/a'
+_cod_database_code               4001303
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -y+3/4,+x+1/4,+z+1/4
+3 -x+1/2,-y,+z+1/2
+4 +y+3/4,-x+3/4,+z+3/4
+-1 -x,-y,-z
+-2 +y+1/4,-x+3/4,-z+3/4
+-3 +x+1/2,+y,-z+1/2
+-4 -y+1/4,+x+1/4,-z+1/4
+101 +x+1/2,+y+1/2,+z+1/2
+102 -y+1/4,+x+3/4,+z+3/4
+103 -x,-y+1/2,+z
+104 +y+1/4,-x+1/4,+z+1/4
+-101 -x+1/2,-y+1/2,-z+1/2
+-102 +y+3/4,-x+1/4,-z+1/4
+-103 +x,+y+1/2,-z
+-104 -y+3/4,+x+3/4,-z+3/4
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+Sr Sr1 0.0 0.25 0.625 1.0 Uiso 0.01274 4
+Mo Mo1 0.0 0.25 0.125 1.0 Uiso 0.01274 4
+O O1 0.2373 0.1146 0.0433 1.0 Uiso 0.01274 16
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+Sr 4.0
+Mo 4.0
+O 16.0
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+Sr1 Sr1 Sr1 83.800(10) 2_455 2_555 n
+Sr1 Sr1 Sr1 123.642(6) 2_455 4_444 n
+Sr1 Sr1 Sr1 123.642(6) 2_455 4_454 n
+Sr1 Sr1 O1 129.8940(14) 2_455 3_555 n
+Sr1 Sr1 O1 39.285(4) 2_455 4_455 n
+Sr1 Sr1 O1 102.863(7) 2_455 -2_555 n
+Sr1 Sr1 O1 102.551(9) 2_455 -3_445 n
+Sr1 Sr1 O1 85.281(6) 2_455 101_455 n
+Sr1 Sr1 O1 66.714(7) 2_455 102_334 n
+Sr1 Sr1 O1 162.1807(17) 2_455 -101_444 n
+Sr1 Sr1 O1 38.58190(20) 2_455 -104_445 n
+Sr1 Sr1 Sr1 123.642(6) 2_555 4_444 n
+Sr1 Sr1 Sr1 123.642(6) 2_555 4_454 n
+Sr1 Sr1 O1 85.281(6) 2_555 3_555 n
+Sr1 Sr1 O1 66.714(7) 2_555 4_455 n
+Sr1 Sr1 O1 38.58190(20) 2_555 -2_555 n
+Sr1 Sr1 O1 162.1806(17) 2_555 -3_445 n
+Sr1 Sr1 O1 129.8940(14) 2_555 101_455 n
+Sr1 Sr1 O1 39.285(4) 2_555 102_334 n
+Sr1 Sr1 O1 102.551(9) 2_555 -101_444 n
+Sr1 Sr1 O1 102.863(7) 2_555 -104_445 n
+Sr1 Sr1 Sr1 83.800(10) 4_444 4_454 n
+Sr1 Sr1 O1 38.58190(20) 4_444 3_555 n
+Sr1 Sr1 O1 162.1806(17) 4_444 4_455 n
+Sr1 Sr1 O1 129.8940(14) 4_444 -2_555 n
+Sr1 Sr1 O1 39.285(4) 4_444 -3_445 n
+Sr1 Sr1 O1 102.863(7) 4_444 101_455 n
+Sr1 Sr1 O1 102.551(9) 4_444 102_334 n
+Sr1 Sr1 O1 66.714(7) 4_444 -101_444 n
+Sr1 Sr1 O1 85.281(6) 4_444 -104_445 n
+Sr1 Sr1 O1 102.863(7) 4_454 3_555 n
+Sr1 Sr1 O1 102.551(9) 4_454 4_455 n
+Sr1 Sr1 O1 85.281(6) 4_454 -2_555 n
+Sr1 Sr1 O1 66.714(7) 4_454 -3_445 n
+Sr1 Sr1 O1 38.58190(20) 4_454 101_455 n
+Sr1 Sr1 O1 162.1807(17) 4_454 102_334 n
+Sr1 Sr1 O1 39.285(4) 4_454 -101_444 n
+Sr1 Sr1 O1 129.8940(14) 4_454 -104_445 n
+O1 Sr1 O1 149.5700(12) 3_555 4_455 n
+O1 Sr1 O1 98.1092(24) 3_555 -2_555 n
+O1 Sr1 O1 77.866(4) 3_555 -3_445 n
+O1 Sr1 O1 135.880(7) 3_555 101_455 n
+O1 Sr1 O1 74.205(8) 3_555 102_334 n
+O1 Sr1 O1 67.6751(32) 3_555 -101_444 n
+O1 Sr1 O1 98.1092(24) 3_555 -104_445 n
+O1 Sr1 O1 67.6751(32) 4_455 -2_555 n
+O1 Sr1 O1 128.100(6) 4_455 -3_445 n
+O1 Sr1 O1 74.205(8) 4_455 101_455 n
+O1 Sr1 O1 76.463(9) 4_455 102_334 n
+O1 Sr1 O1 128.100(6) 4_455 -101_444 n
+O1 Sr1 O1 77.866(4) 4_455 -104_445 n
+O1 Sr1 O1 149.5699(12) -2_555 -3_445 n
+O1 Sr1 O1 98.1092(24) -2_555 101_455 n
+O1 Sr1 O1 77.866(4) -2_555 102_334 n
+O1 Sr1 O1 74.205(8) -2_555 -101_444 n
+O1 Sr1 O1 135.880(7) -2_555 -104_445 n
+O1 Sr1 O1 67.6751(32) -3_445 101_455 n
+O1 Sr1 O1 128.100(6) -3_445 102_334 n
+O1 Sr1 O1 76.463(9) -3_445 -101_444 n
+O1 Sr1 O1 74.205(8) -3_445 -104_445 n
+O1 Sr1 O1 149.5700(12) 101_455 102_334 n
+O1 Sr1 O1 77.866(4) 101_455 -101_444 n
+O1 Sr1 O1 98.1092(24) 101_455 -104_445 n
+O1 Sr1 O1 128.100(6) 102_334 -101_444 n
+O1 Sr1 O1 67.6751(32) 102_334 -104_445 n
+O1 Sr1 O1 149.5700(12) -101_444 -104_445 n
+O1 Mo1 O1 107.916(4) 1_555 -4_555 n
+O1 Mo1 O1 112.629(9) 1_555 103_343 n
+O1 Mo1 O1 107.916(4) 1_555 -102_444 n
+O1 Mo1 O1 107.916(4) -4_555 103_343 n
+O1 Mo1 O1 112.629(9) -4_555 -102_444 n
+O1 Mo1 O1 107.916(4) 103_343 -102_444 n
+Sr1 O1 Sr1 102.134(4) 2_554 3_554 n
+Sr1 O1 Mo1 135.7508(29) 2_554 1_555 n
+Sr1 O1 Mo1 119.560(7) 3_554 1_555 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Sr1 Sr1 4.0394(4) 2_455 n
+Sr1 Sr1 4.0394(4) 2_555 n
+Sr1 Sr1 4.0394(4) 4_444 n
+Sr1 Sr1 4.0394(4) 4_454 n
+Sr1 Mo1 3.81509(30) 3_455 n
+Sr1 Mo1 3.81509(30) 3_465 n
+Sr1 Mo1 3.81509(30) 3_555 n
+Sr1 Mo1 3.81509(30) 3_565 n
+Sr1 O1 2.61610(19) 3_555 n
+Sr1 O1 2.57669(25) 4_455 n
+Sr1 O1 2.61610(19) -2_555 n
+Sr1 O1 2.57669(25) -3_455 n
+Sr1 O1 2.61610(19) 101_455 n
+Sr1 O1 2.57669(25) 102_545 n
+Sr1 O1 2.57669(25) -101_444 n
+Sr1 O1 2.61610(19) -104_334 n
+Mo1 Sr1 3.81509(30) 3_454 n
+Mo1 Sr1 3.81509(30) 3_464 n
+Mo1 Sr1 3.81509(30) 3_554 n
+Mo1 Sr1 3.81509(30) 3_564 n
+Mo1 O1 1.77153(13) 1_555 n
+Mo1 O1 1.77153(13) -4_555 n
+Mo1 O1 1.77153(13) 103_555 n
+Mo1 O1 1.77153(13) -102_344 n
+O1 Sr1 2.57669(25) 2_554 n
+O1 Sr1 2.61610(19) 3_554 n
+O1 Mo1 1.77153(13) 1_555 n

@@ -1,0 +1,296 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-23 00:38:15 +0200 (Wed, 23 Mar 2016) $
+#$Revision: 179120 $
+#$URL: svn://www.crystallography.net/cod/cif/4/30/82/4308277.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4308277
+loop_
+_publ_author_name
+'Grigori V. Vajenine'
+_publ_section_title
+;
+Plasma-Assisted Synthesis and Properties of Na3N
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              5146
+_journal_page_last               5148
+_journal_paper_doi               10.1021/ic700406q
+_journal_volume                  46
+_journal_year                    2007
+_chemical_formula_moiety         Na~3N
+_chemical_formula_sum            'N Na3'
+_chemical_formula_weight         82.98
+_chemical_name_common            'trinatrium nitride'
+_chemical_name_systematic
+; 
+ ? 
+;
+_space_group_IT_number           221
+_symmetry_cell_setting           cubic
+_symmetry_space_group_name_Hall  '-P 4 2 3'
+_symmetry_space_group_name_H-M   'P m -3 m'
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            1
+_cell_length_a                   4.7250(16)
+_cell_length_b                   4.7250(16)
+_cell_length_c                   4.7250(16)
+_cell_measurement_reflns_used    624
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      16.1
+_cell_measurement_theta_min      3.3
+_cell_volume                     105.49(6)
+_computing_cell_refinement       'CELL in IPDS'
+_computing_data_collection       'EXPOSE in IPDS (Stoe & Cie, 1998)'
+_computing_data_reduction        'INTEGRATE in IPDS'
+_computing_molecular_graphics    'Diamond (Crystal Impact, 2005)'
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measured_fraction_theta_full 0.987
+_diffrn_measured_fraction_theta_max 0.987
+_diffrn_measurement_device_type  'STOE IPDS I'
+_diffrn_measurement_method       \f-scan
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           AgK\a
+_diffrn_radiation_wavelength     0.56086
+_diffrn_reflns_av_R_equivalents  0.0688
+_diffrn_reflns_av_sigmaI/netI    0.0168
+_diffrn_reflns_limit_h_max       7
+_diffrn_reflns_limit_h_min       -6
+_diffrn_reflns_limit_k_max       7
+_diffrn_reflns_limit_k_min       -7
+_diffrn_reflns_limit_l_max       7
+_diffrn_reflns_limit_l_min       -7
+_diffrn_reflns_number            1316
+_diffrn_reflns_theta_full        27.86
+_diffrn_reflns_theta_max         27.9
+_diffrn_reflns_theta_min         4.8
+_exptl_absorpt_coefficient_mu    0.181
+_exptl_absorpt_correction_T_max  0.9786
+_exptl_absorpt_correction_T_min  0.9691
+_exptl_absorpt_correction_type   numerical
+_exptl_absorpt_process_details
+;
+[XRED (Stoe & Cie, 2001) and XSHAPE (Stoe & Cie, 1999)]
+;
+_exptl_crystal_colour            black
+_exptl_crystal_density_diffrn    1.306
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       prism
+_exptl_crystal_F_000             40
+_exptl_crystal_size_max          0.26
+_exptl_crystal_size_mid          0.24
+_exptl_crystal_size_min          0.16
+_refine_diff_density_max         0.274
+_refine_diff_density_min         -0.124
+_refine_diff_density_rms         0.061
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   1.205
+_refine_ls_hydrogen_treatment    noref
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     4
+_refine_ls_number_reflns         77
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.205
+_refine_ls_R_factor_all          0.0451
+_refine_ls_R_factor_gt           0.0378
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0435P)^2^+0.0044P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0837
+_refine_ls_wR_factor_ref         0.0886
+_reflns_number_gt                62
+_reflns_number_total             77
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            ic700406q-file003.cif
+_cod_data_source_block           na3n
+_cod_database_code               4308277
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, -y, z'
+'-x, y, -z'
+'x, -y, -z'
+'z, x, y'
+'z, -x, -y'
+'-z, -x, y'
+'-z, x, -y'
+'y, z, x'
+'-y, z, -x'
+'y, -z, -x'
+'-y, -z, x'
+'y, x, -z'
+'-y, -x, -z'
+'y, -x, z'
+'-y, x, z'
+'x, z, -y'
+'-x, z, y'
+'-x, -z, -y'
+'x, -z, y'
+'z, y, -x'
+'z, -y, x'
+'-z, y, x'
+'-z, -y, -x'
+'-x, -y, -z'
+'x, y, -z'
+'x, -y, z'
+'-x, y, z'
+'-z, -x, -y'
+'-z, x, y'
+'z, x, -y'
+'z, -x, y'
+'-y, -z, -x'
+'y, -z, x'
+'-y, z, x'
+'y, z, -x'
+'-y, -x, z'
+'y, x, z'
+'-y, x, -z'
+'y, -x, -z'
+'-x, -z, y'
+'x, -z, -y'
+'x, z, y'
+'-x, z, -y'
+'-z, -y, x'
+'-z, y, -x'
+'z, -y, -x'
+'z, y, x'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+N N 0.0000 0.0000 0.0000 0.0213(6) Uani 1 48 d S . .
+Na Na 0.5000 0.0000 0.0000 0.0467(6) Uani 1 16 d S . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+N 0.0213(6) 0.0213(6) 0.0213(6) 0.000 0.000 0.000
+Na 0.0180(6) 0.0611(7) 0.0611(7) 0.000 0.000 0.000
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+N N 0.0030 0.0019 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Na Na 0.0218 0.0150 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+Na N Na 90.0 9 . ?
+Na N Na 90.0 9 1_455 ?
+Na N Na 180.0 . 1_455 ?
+Na N Na 90.0 9 5_545 ?
+Na N Na 90.0 . 5_545 ?
+Na N Na 90.0 1_455 5_545 ?
+Na N Na 90.0 9 5 ?
+Na N Na 90.0 . 5 ?
+Na N Na 90.0 1_455 5 ?
+Na N Na 180.0 5_545 5 ?
+Na N Na 180.0 9 9_554 ?
+Na N Na 90.0 . 9_554 ?
+Na N Na 90.0 1_455 9_554 ?
+Na N Na 90.0 5_545 9_554 ?
+Na N Na 90.0 5 9_554 ?
+N Na N 180.0 1_655 . ?
+N Na Na 45.0 1_655 9_655 ?
+N Na Na 135.0 . 9_655 ?
+N Na Na 135.0 1_655 5_545 ?
+N Na Na 45.0 . 5_545 ?
+Na Na Na 120.0 9_655 5_545 ?
+N Na Na 135.0 1_655 9_554 ?
+N Na Na 45.0 . 9_554 ?
+Na Na Na 180.0 9_655 9_554 ?
+Na Na Na 60.0 5_545 9_554 ?
+N Na Na 45.0 1_655 5_655 ?
+N Na Na 135.0 . 5_655 ?
+Na Na Na 60.0 9_655 5_655 ?
+Na Na Na 180.0 5_545 5_655 ?
+Na Na Na 120.0 9_554 5_655 ?
+N Na Na 45.0 1_655 5_645 ?
+N Na Na 135.0 . 5_645 ?
+Na Na Na 60.0 9_655 5_645 ?
+Na Na Na 90.0 5_545 5_645 ?
+Na Na Na 120.0 9_554 5_645 ?
+Na Na Na 90.0 5_655 5_645 ?
+N Na Na 135.0 1_655 5 ?
+N Na Na 45.0 . 5 ?
+Na Na Na 120.0 9_655 5 ?
+Na Na Na 90.0 5_545 5 ?
+Na Na Na 60.0 9_554 5 ?
+Na Na Na 90.0 5_655 5 ?
+Na Na Na 180.0 5_645 5 ?
+N Na Na 45.0 1_655 9_654 ?
+N Na Na 135.0 . 9_654 ?
+Na Na Na 90.0 9_655 9_654 ?
+Na Na Na 120.0 5_545 9_654 ?
+Na Na Na 90.0 9_554 9_654 ?
+Na Na Na 60.0 5_655 9_654 ?
+Na Na Na 60.0 5_645 9_654 ?
+Na Na Na 120.0 5 9_654 ?
+N Na Na 135.0 1_655 9 ?
+N Na Na 45.0 . 9 ?
+Na Na Na 90.0 9_655 9 ?
+Na Na Na 60.0 5_545 9 ?
+Na Na Na 90.0 9_554 9 ?
+Na Na Na 120.0 5_655 9 ?
+Na Na Na 120.0 5_645 9 ?
+Na Na Na 60.0 5 9 ?
+Na Na Na 180.0 9_654 9 ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+N Na 2.3625(8) 9 ?
+N Na 2.3625(8) . ?
+N Na 2.3625(8) 1_455 ?
+N Na 2.3625(8) 5_545 ?
+N Na 2.3625(8) 5 ?
+N Na 2.3625(8) 9_554 ?
+Na N 2.3625(8) 1_655 ?
+Na Na 3.3411(11) 9_655 ?
+Na Na 3.3411(11) 5_545 ?
+Na Na 3.3411(11) 9_554 ?
+Na Na 3.3411(11) 5_655 ?
+Na Na 3.3411(11) 5_645 ?
+Na Na 3.3411(11) 5 ?
+Na Na 3.3411(11) 9_654 ?
+Na Na 3.3411(11) 9 ?

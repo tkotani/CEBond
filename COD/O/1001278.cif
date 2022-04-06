@@ -1,0 +1,103 @@
+#------------------------------------------------------------------------------
+#$Date: 2015-01-27 21:58:39 +0200 (Tue, 27 Jan 2015) $
+#$Revision: 130149 $
+#$URL: svn://www.crystallography.net/cod/cif/1/00/12/1001278.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1001278
+loop_
+_publ_author_name
+'Saurel, C'
+'Groult, D'
+'Raveau, B'
+_publ_section_title
+;
+Etude du comportement de l'antimoine V et du strontium dans les oxydes
+a structure en cages du type A~3~ M~8~ O~21~
+;
+_journal_coden_ASTM              MRBUAC
+_journal_name_full               'Materials Research Bulletin'
+_journal_page_first              629
+_journal_page_last               635
+_journal_paper_doi               10.1016/0025-5408(77)90072-1
+_journal_volume                  12
+_journal_year                    1977
+_chemical_formula_structural     'SR3 NB4 TI4 O21'
+_chemical_formula_sum            'Nb4 O21 Sr3 Ti4'
+_chemical_name_systematic
+;
+TRISTRONTIUM TETRATITANIUM TETRANIOBIUM OXIDE
+;
+_space_group_IT_number           193
+_symmetry_cell_setting           hexagonal
+_symmetry_Int_Tables_number      193
+_symmetry_space_group_name_Hall  '-P 6c 2'
+_symmetry_space_group_name_H-M   'P 63/m c m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            2
+_cell_length_a                   8.992
+_cell_length_b                   8.992
+_cell_length_c                   11.605
+_cell_volume                     812.6
+_refine_ls_R_factor_all          0.05
+_cod_database_code               1001278
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-y,x-y,z
+y-x,-x,z
+y,x,z
+x-y,-y,z
+-x,y-x,z
+-x,-y,-z
+y,y-x,-z
+x-y,x,-z
+-y,-x,-z
+y-x,y,-z
+x,x-y,-z
+-x,-y,1/2+z
+y,y-x,1/2+z
+x-y,x,1/2+z
+-y,-x,1/2+z
+y-x,y,1/2+z
+x,x-y,1/2+z
+x,y,1/2-z
+-y,x-y,1/2-z
+y-x,-x,1/2-z
+y,x,1/2-z
+x-y,-y,1/2-z
+-x,y-x,1/2-z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_calc_flag
+Sr1 Sr2+ 6 g 0.595(1) 0. 0.25 1. 0 d
+Ti1 Ti4+ 12 k 0.244(1) 0. 0.0929(6) 0.5 0 d
+Nb1 Nb5+ 12 k 0.244(1) 0. 0.0929(6) 0.5 0 d
+Nb2 Nb5+ 4 d 0.3333 0.6667 0. 0.5 0 d
+Ti2 Ti4+ 4 d 0.3333 0.6667 0. 0.5 0 d
+O1 O2- 6 g 0.247(3) 0. 0.25 1. 0 d
+O2 O2- 12 k 0.797(3) 0. 0.078(3) 1. 0 d
+O3 O2- 24 l 0.170(8) 0.500(3) 0.112(2) 1. 0 d
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Sr2+ 2.000
+Ti4+ 4.000
+Nb5+ 5.000
+O2- -2.000

@@ -1,0 +1,249 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-21 02:03:34 +0200 (Sun, 21 Feb 2016) $
+#$Revision: 176798 $
+#$URL: svn://www.crystallography.net/cod/cif/2/23/96/2239660.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2239660
+loop_
+_publ_author_name
+'Kahlenberg, Volker'
+'Aichholzer, Paul'
+_publ_section_title
+;
+ Thortveitite-type Tm~2~Si~2~O~7~
+;
+_journal_coeditor_code           WM5029
+_journal_issue                   7
+_journal_name_full               'Acta Crystallographica Section E'
+_journal_page_first              i34
+_journal_page_last               i35
+_journal_paper_doi               10.1107/S1600536814013142
+_journal_volume                  70
+_journal_year                    2014
+_chemical_formula_iupac          'Tm2 Si2 O7'
+_chemical_formula_moiety         'O7 Si2 Tm2'
+_chemical_formula_sum            'O7 Si2 Tm2'
+_chemical_formula_weight         506.04
+_chemical_name_systematic
+;
+Dithulium disilicate
+;
+_space_group_IT_number           12
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-C 2y'
+_symmetry_space_group_name_H-M   'C 1 2/m 1'
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_conform_dict_name         cif_core.dic
+_audit_conform_dict_version      2.4
+_audit_creation_method           'WinGX routine CIF_UPDATE'
+_cell_angle_alpha                90
+_cell_angle_beta                 101.78(2)
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   6.8205(14)
+_cell_length_b                   8.9062(18)
+_cell_length_c                   4.6937(11)
+_cell_measurement_reflns_used    762
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      29.3029
+_cell_measurement_theta_min      3.8064
+_cell_volume                     279.11(11)
+_computing_cell_refinement
+;
+<i>CrysAlis PRO</i> (Agilent, 2014)
+;
+_computing_data_collection
+;
+<i>CrysAlis PRO</i> (Agilent, 2014)
+;
+_computing_data_reduction
+;
+<i>CrysAlis PRO</i> (Agilent, 2014)
+;
+_computing_molecular_graphics    'ATOMS for Windows (Dowty, 2011)'
+_computing_publication_material
+'publCIF (Westrip, 2010) and WinGX (Farrugia, 2012)'
+_computing_structure_refinement  'SHELXL97 (Sheldrick, 2008)'
+_computing_structure_solution    'SIR2002 (Burla <i>et al.</i>, 2003)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_detector_area_resol_mean 10.3575
+_diffrn_measured_fraction_theta_full 0.983
+_diffrn_measured_fraction_theta_max 0.983
+_diffrn_measurement_device       'four-circle diffractometer'
+_diffrn_measurement_device_type  'Agilent Xcalibur (Ruby, Gemini ultra)'
+_diffrn_measurement_method       '\w scans'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0203
+_diffrn_reflns_limit_h_max       8
+_diffrn_reflns_limit_h_min       -8
+_diffrn_reflns_limit_k_max       11
+_diffrn_reflns_limit_k_min       -11
+_diffrn_reflns_limit_l_max       6
+_diffrn_reflns_limit_l_min       -4
+_diffrn_reflns_number            894
+_diffrn_reflns_theta_full        27.63
+_diffrn_reflns_theta_max         27.63
+_diffrn_reflns_theta_min         3.81
+_exptl_absorpt_coefficient_mu    31.992
+_exptl_absorpt_correction_T_max  1
+_exptl_absorpt_correction_T_min  0.23135
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details
+;
+(<i>CrysAlis PRO</i>; Agilent, 2014)
+;
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    6.021
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       'platy fragment'
+_exptl_crystal_F_000             444
+_exptl_crystal_size_max          0.05
+_exptl_crystal_size_mid          0.03
+_exptl_crystal_size_min          0.01
+_refine_diff_density_max         1.624
+_refine_diff_density_min         -1.423
+_refine_ls_extinction_coef       0.0072(6)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     'SHELXL97 (Sheldrick, 2008)'
+_refine_ls_goodness_of_fit_ref   1.154
+_refine_ls_hydrogen_treatment    noref
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     32
+_refine_ls_number_reflns         340
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.154
+_refine_ls_R_factor_all          0.0188
+_refine_ls_R_factor_gt           0.018
+_refine_ls_shift/su_max          0
+_refine_ls_shift/su_mean         0
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0265P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.045
+_refine_ls_wR_factor_ref         0.0454
+_reflns_number_gt                330
+_reflns_number_total             340
+_reflns_threshold_expression     I>2sigma(I)
+_cod_data_source_file            wm5029sup1.cf
+_cod_data_source_block           I
+_cod_original_cell_volume        279.11(10)
+_cod_original_sg_symbol_H-M      'C 2/m'
+_cod_database_code               2239660
+_cod_database_fobs_code          2239660
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, y, -z'
+'x+1/2, y+1/2, z'
+'-x+1/2, y+1/2, -z'
+'-x, -y, -z'
+'x, -y, z'
+'-x+1/2, -y+1/2, -z'
+'x+1/2, -y+1/2, z'
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+Tm Tm 0.5 0.19345(4) 0.5 0.0045(2) Uani d S 1 2
+Si Si 0.2186(3) 0 0.9130(5) 0.0044(5) Uani d S 1 2
+O O1 0.3804(9) 0 0.2130(12) 0.0069(12) Uani d S 1 2
+O O2 0 0 0 0.0129(19) Uani d S 1 4
+O O3 0.2357(6) 0.1505(5) 0.7213(9) 0.0073(8) Uani d . 1 1
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Tm 0.0032(3) 0.0043(3) 0.0058(3) 0 0.00056(15) 0
+Si 0.0049(11) 0.0043(11) 0.0042(11) 0 0.0013(9) 0
+O1 0.006(3) 0.007(3) 0.005(3) 0 -0.004(2) 0
+O2 0.008(4) 0.019(5) 0.011(5) 0 0.001(4) 0
+O3 0.006(2) 0.007(2) 0.009(2) 0.0042(17) 0.0026(17) 0.0045(17)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+O O 0.0106 0.006 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Si Si 0.0817 0.0704 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Tm Tm -0.3139 5.2483 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+O3 Tm O3 8 7_556 102.3(2)
+O3 Tm O1 8 . 154.9(2)
+O3 Tm O1 7_556 . 93.47(17)
+O3 Tm O1 8 5_656 93.47(17)
+O3 Tm O1 7_556 5_656 154.9(2)
+O1 Tm O1 . 5_656 79.2(2)
+O3 Tm O3 8 . 117.09(17)
+O3 Tm O3 7_556 . 75.78(17)
+O1 Tm O3 . . 85.4(2)
+O1 Tm O3 5_656 . 79.74(18)
+O3 Tm O3 8 2_656 75.78(17)
+O3 Tm O3 7_556 2_656 117.09(17)
+O1 Tm O3 . 2_656 79.74(18)
+O1 Tm O3 5_656 2_656 85.43(19)
+O3 Tm O3 . 2_656 160.7(2)
+O1 Si O2 1_556 1_556 106.4(2)
+O1 Si O3 1_556 6 111.8(2)
+O2 Si O3 1_556 6 108.14(18)
+O1 Si O3 1_556 . 111.8(2)
+O2 Si O3 1_556 . 108.14(18)
+O3 Si O3 6 . 110.4(3)
+Si O1 Tm 1_554 . 129.10(12)
+Si O1 Tm 1_554 5_656 129.10(12)
+Tm O1 Tm . 5_656 100.8(2)
+Si O2 Si 5_556 1_554 180.00(14)
+Si O3 Tm . 7_556 130.3(3)
+Si O3 Tm . . 122.6(2)
+Tm O3 Tm 7_556 . 104.22(17)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+Tm O3 8 2.217(4)
+Tm O3 7_556 2.217(4)
+Tm O1 . 2.236(4)
+Tm O1 5_656 2.236(4)
+Tm O3 . 2.289(4)
+Tm O3 2_656 2.289(4)
+Si O1 1_556 1.602(6)
+Si O2 1_556 1.624(2)
+Si O3 6 1.632(4)
+Si O3 . 1.632(4)
+O1 Si 1_554 1.602(6)
+O1 Tm 5_656 2.236(4)
+O2 Si 5_556 1.624(2)
+O2 Si 1_554 1.624(2)
+O3 Tm 7_556 2.217(4)

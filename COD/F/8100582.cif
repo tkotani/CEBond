@@ -1,0 +1,145 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-02-10 15:10:13 +0200 (Fri, 10 Feb 2017) $
+#$Revision: 191974 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/8/10/05/8100582.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_8100582
+loop_
+_publ_author_name
+'K\"ohler, Jorgen '
+'Tyagi, A. K. '
+'Achary, S. N. '
+_publ_section_title
+;
+Crystal structure of lead yttrium fluoride, Pb~8~Y~6~F~34~, a new 
+fluorite-related anion-rich fluoride
+;
+_journal_issue                   1
+_journal_name_full
+'Zeitschrift f\"ur Kristallographie - New Crystal Structures'
+_journal_page_first              23
+_journal_page_last               23
+_journal_volume                  217
+_journal_year                    2002
+_chemical_formula_structural     'Pb8 Y6 F34'
+_chemical_formula_sum            'F34 Pb8 Y6'
+_chemical_formula_weight         8700.94
+_chemical_name_common            'Lead yttrium fluoride '
+_space_group_IT_number           148
+_symmetry_cell_setting           trigonal
+_symmetry_space_group_name_Hall  '-R 3'
+_symmetry_space_group_name_H-M   'R -3 :H'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            3
+_cell_length_a                   10.81871(1)
+_cell_length_b                   10.81871(1)
+_cell_length_c                   19.9564(3)
+_cell_volume                     2022.85(7)
+_diffrn_ambient_environment      air
+_diffrn_ambient_temperature      295
+_exptl_crystal_density_diffrn    7.142(1)
+_pd_calc_method                  'Rietveld Refinement'
+_pd_meas_2theta_range_max        106
+_pd_meas_2theta_range_min        10
+_pd_meas_scan_method             step
+_pd_phase_name                   PB4Y3F17
+_pd_proc_ls_profile_function     pseudo-Voigt
+_pd_proc_ls_prof_R_factor        0.1221
+_refine_ls_R_I_factor            0.0777
+_cod_depositor_comments
+;
+ Changing the _atom_site_occupancy data item value from '.' to '1'
+ for all fully occupied atom sites.
+
+ Antanas Vaitkus,
+ 2017-02-10
+;
+_cod_original_sg_symbol_H-M      'R -3'
+_cod_original_formula_sum        'Pb8 Y6 F34'
+_cod_database_code               8100582
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-y,x-y,z
+-x+y,-x,z
+-x,-y,-z
+y,-x+y,-z
+x-y,x,-z
+1/3+x,2/3+y,2/3+z
+1/3-y,2/3+x-y,2/3+z
+1/3-x+y,2/3-x,2/3+z
+1/3-x,2/3-y,2/3-z
+1/3+y,2/3-x+y,2/3-z
+1/3+x-y,2/3+x,2/3-z
+2/3+x,1/3+y,1/3+z
+2/3-y,1/3+x-y,1/3+z
+2/3-x+y,1/3-x,1/3+z
+2/3-x,1/3-y,1/3-z
+2/3+y,1/3-x+y,1/3-z
+2/3+x-y,1/3+x,1/3-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+_atom_site_type_symbol
+_atom_site_occupancy
+Pb1 0 0 0.2586(2) Uiso 0.021(2) 6 Pb 1
+Pb2 0.2292(3) 0.0369(3) 0.0836(2) Uiso 0.0274(8) 18 Pb 1
+Y 0.0900(7) 0.6127(7) 0.0835(3) Uiso 0.0098(11) 18 Y 1
+F1 0.036(3) 0.767(3) 0.0376(14) Uiso 0.01900 18 F 1
+F2 0.426(3) 0.291(3) 0.1101(14) Uiso 0.01900 18 F 1
+F3 0.475(3) 0.082(3) 0.0321(12) Uiso 0.01900 18 F 1
+F4 0.203(2) 0.485(3) 0.0341(10) Uiso 0.01900 18 F 1
+F5 0.267(3) 0.392(2) 0.1735(13) Uiso 0.01900 18 F 1
+F6 0 0 0.145(2) Uiso 0.01900 6 F 1
+F7 0 0 0 Uiso 0.01900 3 F 1
+F8 0.02(2) 0.057(11) 0.502(6) Uiso 0.01900 18 F 0.1667
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Pb1 F6 2.26(5) . yes
+Pb1 F2 2.51(3) 16_555 yes
+Pb1 F2 2.51(3) 17_455 yes
+Pb1 F2 2.51(3) 18_445 yes
+Pb1 F3 2.61(3) 16_555 yes
+Pb1 F3 2.61(3) 17_455 yes
+Pb1 F3 2.61(3) 18_445 yes
+Pb1 F4 2.79(2) 13_445 yes
+Pb1 F4 2.79(3) 14_555 yes
+Pb1 F4 2.79(2) 15_455 yes
+Pb2 F1 2.46(3) 6_655 yes
+Pb2 F2 2.55(3) . yes
+Pb2 F6 2.62(2) . yes
+Pb2 F3 2.66(3) . yes
+Pb2 F1 2.66(3) 2_665 yes
+Pb2 F1 2.77(3) 1_545 yes
+Pb2 F2 2.79(3) 16_555 yes
+Pb2 F7 2.846(4) . yes
+Pb2 F5 2.95(3) 16_555 yes
+Pb2 F4 3.09(3) . yes
+Pb2 F5 3.40(3) 16_555 yes
+Y F5 2.14(3) 3_565 yes
+Y F5 2.16(3) 17_455 yes
+Y F1 2.22(3) . yes
+Y F4 2.26(3) 3_565 yes
+Y F3 2.31(3) 5_565 yes
+Y F2 2.31(3) 3_565 yes
+Y F3 2.40(3) 2_555 yes
+Y F4 2.47(3) . yes
+Y F8 2.52(15) 12_555 yes

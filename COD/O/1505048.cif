@@ -1,0 +1,230 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-18 17:37:37 +0200 (Thu, 18 Feb 2016) $
+#$Revision: 176729 $
+#$URL: svn://www.crystallography.net/cod/cif/1/50/50/1505048.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1505048
+loop_
+_publ_author_name
+'Alberti, A.'
+'Cruciani, G.'
+'Galli, E.'
+'Millini, R.'
+'Zanardi, S.'
+_publ_section_title
+;
+ In Situ X-ray Single-Crystal Study on the Dehydration Mechanism in the
+ Monoclinic Polytype of Tschernichite, the Mineral Analog of Zeolite Beta
+;
+_journal_issue                   12
+_journal_name_full               'Journal of Physical Chemistry C'
+_journal_page_first              4503
+_journal_paper_doi               10.1021/jp065145s
+_journal_volume                  111
+_journal_year                    2007
+_chemical_formula_moiety
+'Ca1.99 Mg0.10 Na0.20 K0.08 Ba0.01 H8.90 O4.45 Al4.50 Si11.50 O32'
+_chemical_formula_sum            'Ca1.9 Mg0.17 O36.44 Si16'
+_chemical_formula_weight         1112.67
+_chemical_name_systematic
+;
+ ?
+;
+_space_group_IT_number           15
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-C 2yc'
+_symmetry_space_group_name_H-M   'C 1 2/c 1'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 114.340(10)
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   17.8790(10)
+_cell_length_b                   17.8880(10)
+_cell_length_c                   14.6350(10)
+_cell_measurement_reflns_used    4163
+_cell_measurement_temperature    353(2)
+_cell_measurement_theta_max      27.40
+_cell_measurement_theta_min      1.53
+_cell_volume                     4264.5(6)
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_diffrn_ambient_temperature      353(2)
+_diffrn_detector_area_resol_mean 9
+_diffrn_measured_fraction_theta_full 0.857
+_diffrn_measured_fraction_theta_max 0.857
+_diffrn_measurement_device       '95mm CCD camera on \k-goniostat'
+_diffrn_measurement_device_type  KappaCCD
+_diffrn_measurement_method       CCD
+_diffrn_radiation_monochromator  'horizonally mounted graphite crystal'
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.1218
+_diffrn_reflns_av_sigmaI/netI    0.1538
+_diffrn_reflns_limit_h_max       22
+_diffrn_reflns_limit_h_min       -17
+_diffrn_reflns_limit_k_max       18
+_diffrn_reflns_limit_k_min       -22
+_diffrn_reflns_limit_l_max       15
+_diffrn_reflns_limit_l_min       -18
+_diffrn_reflns_number            6857
+_diffrn_reflns_theta_full        27.40
+_diffrn_reflns_theta_max         27.40
+_diffrn_reflns_theta_min         1.53
+_exptl_absorpt_coefficient_mu    0.809
+_exptl_absorpt_correction_T_max  1.0
+_exptl_absorpt_correction_T_min  0.8
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details   none
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    1.044
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       'truncated piramid'
+_exptl_crystal_F_000             2103
+_exptl_crystal_size_max          0.36
+_exptl_crystal_size_mid          0.29
+_exptl_crystal_size_min          0.06
+_refine_diff_density_max         1.742
+_refine_diff_density_min         -1.701
+_refine_diff_density_rms         0.391
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   1.059
+_refine_ls_hydrogen_treatment    mixed
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     292
+_refine_ls_number_reflns         4163
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.059
+_refine_ls_R_factor_all          0.2163
+_refine_ls_R_factor_gt           0.1406
+_refine_ls_shift/su_max          0.200
+_refine_ls_shift/su_mean         0.200
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.2250P)^2^+81.5755P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.3442
+_refine_ls_wR_factor_ref         0.4130
+_reflns_number_gt                2286
+_reflns_number_total             4163
+_reflns_threshold_expression     >4sigma(I)
+_cod_data_source_file            jp065145ssi20061211_010532.cif
+_cod_data_source_block           beta_80
+_cod_original_cell_volume        4264.5(4)
+_cod_original_sg_symbol_H-M      'C 2/c'
+_cod_database_code               1505048
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, y, -z+1/2'
+'x+1/2, y+1/2, z'
+'-x+1/2, y+1/2, -z+1/2'
+'-x, -y, -z'
+'x, -y, z-1/2'
+'-x+1/2, -y+1/2, -z'
+'x+1/2, -y+1/2, z-1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+Si1 Si 0.17066(15) 0.83419(14) 0.88898(19) 0.0265(6) Uani 1 1 d .
+Si2 Si 0.20748(15) 0.54293(13) 0.11415(19) 0.0250(6) Uani 1 1 d .
+Si3 Si 0.19380(14) 0.41798(14) 0.25041(19) 0.0235(6) Uani 1 1 d .
+Si4 Si 0.39383(16) 0.01920(14) 0.6141(2) 0.0266(6) Uani 1 1 d .
+Si5 Si 0.52067(16) 0.14618(14) 0.61390(19) 0.0266(6) Uani 1 1 d .
+Si6 Si 0.5000 0.27645(19) 0.7500 0.0229(8) Uani 1 2 d S
+Si7 Si 0.29772(16) 0.29245(13) 0.38995(19) 0.0261(6) Uani 1 1 d .
+Si8 Si 0.41970(15) 0.16974(14) 0.3866(2) 0.0262(6) Uani 1 1 d .
+Si9 Si 0.5000 0.11143(19) 0.2500 0.0232(8) Uani 1 2 d S
+O1 O 0.2080(4) 0.9151(4) 0.8751(6) 0.0437(19) Uani 1 1 d .
+O2 O 0.5765(5) 0.3326(4) 0.8006(6) 0.049(2) Uani 1 1 d .
+O3 O 0.2242(5) 0.7660(4) 0.8750(6) 0.050(2) Uani 1 1 d .
+O4 O 0.6692(5) 0.3345(4) 1.0027(6) 0.051(2) Uani 1 1 d .
+O5 O 0.2345(4) 0.4797(4) 0.2017(6) 0.045(2) Uani 1 1 d .
+O6 O 0.1425(5) 0.6011(5) 0.1288(6) 0.052(2) Uani 1 1 d .
+O7 O 0.1656(4) 0.4993(4) 0.0057(5) 0.0408(19) Uani 1 1 d .
+O8 O 0.1687(5) 0.4549(5) 0.3363(7) 0.055(2) Uani 1 1 d .
+O9 O 0.2661(5) 0.3556(4) 0.2997(6) 0.047(2) Uani 1 1 d .
+O10 O 0.1138(4) 0.3810(5) 0.1554(6) 0.049(2) Uani 1 1 d .
+O11 O 0.4604(6) 0.0810(5) 0.6253(6) 0.061(2) Uani 1 1 d .
+O12 O 0.0661(5) 0.5616(4) 0.3426(6) 0.053(3) Uani 1 1 d .
+O13 O 0.5100(5) 0.2263(4) 0.6632(6) 0.057(2) Uani 1 1 d .
+O14 O 0.4994(4) 0.1626(4) 0.4933(5) 0.0368(18) Uani 1 1 d .
+O15 O 0.3751(5) 0.2511(4) 0.3769(6) 0.051(2) Uani 1 1 d .
+O16 O 0.4509(4) 0.1686(4) 0.2981(5) 0.0416(17) Uani 1 1 d .
+Ca1 Ca 0.1387(2) 0.3640(2) 0.0011(3) 0.0407(10) Uani 0.58 1 d P
+Ca2 Ca 0.3114(18) 0.5229(16) 0.000(2) 0.033(7) Uiso 0.06 1 d P
+Ca3 Ca 0.4731(13) 0.6854(12) 0.0116(18) 0.044(5) Uiso 0.11 1 d P
+Ca5 Ca 0.392(5) 0.307(4) 0.243(7) 0.17(3) Uiso 0.09 1 d P
+Mg Mg 0.3569(13) 0.2508(13) 0.2510(18) 0.005(5) Uiso 0.09 1 d P
+Ca6 Ca 0.024(6) 0.488(7) -0.009(11) 0.26(4) Uiso 0.11 1 d P
+W1 O 0.144(4) 0.227(4) 0.074(5) 0.16(2) Uiso 0.29 1 d P
+W2 O 0.139(2) 0.2659(19) -0.102(3) 0.155(12) Uiso 0.52 1 d P
+W3 O 0.269(3) 0.303(3) 0.118(5) 0.149(19) Uiso 0.31 1 d P
+W4 O 0.216(3) 0.375(3) -0.111(4) 0.090(15) Uiso 0.23 1 d P
+X11 O 0.015(3) -0.002(2) -0.095(4) 0.047(11) Uiso 0.16 1 d P
+X13 O 0.147(4) 0.163(4) 0.004(6) 0.12(2) Uiso 0.20 1 d P
+X15 O 0.0000 -0.040(4) 0.7500 0.21(3) Uiso 0.51 2 d SP
+X16 O 0.158(4) 0.114(4) 0.158(6) 0.16(3) Uiso 0.26 1 d P
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Si1 0.0350(12) 0.0254(11) 0.0201(12) 0.0000(9) 0.0125(9) -0.0016(10)
+Si2 0.0294(12) 0.0223(11) 0.0230(12) 0.0025(9) 0.0104(10) -0.0063(9)
+Si3 0.0280(11) 0.0275(11) 0.0157(11) 0.0038(9) 0.0097(9) -0.0029(10)
+Si4 0.0338(12) 0.0276(11) 0.0174(12) 0.0024(9) 0.0096(9) -0.0003(10)
+Si5 0.0302(12) 0.0309(12) 0.0135(11) 0.0007(9) 0.0039(9) -0.0013(10)
+Si6 0.0306(16) 0.0223(15) 0.0160(15) 0.000 0.0098(13) 0.000
+Si7 0.0383(12) 0.0219(11) 0.0223(12) 0.0030(9) 0.0167(10) 0.0023(10)
+Si8 0.0292(12) 0.0270(11) 0.0230(12) -0.0007(10) 0.0115(9) 0.0070(10)
+Si9 0.0269(15) 0.0270(16) 0.0170(15) 0.000 0.0103(12) 0.000
+O1 0.059(4) 0.031(3) 0.048(4) 0.001(3) 0.028(3) -0.022(3)
+O2 0.044(4) 0.054(4) 0.037(4) -0.001(4) 0.006(3) -0.014(4)
+O3 0.052(4) 0.036(4) 0.060(5) 0.011(3) 0.021(4) 0.019(3)
+O4 0.076(4) 0.055(4) 0.026(4) 0.004(3) 0.026(3) -0.003(4)
+O5 0.042(4) 0.050(4) 0.038(4) 0.025(3) 0.010(3) -0.003(3)
+O6 0.056(4) 0.062(5) 0.036(4) -0.001(4) 0.015(3) 0.020(4)
+O7 0.045(4) 0.049(4) 0.022(3) 0.003(3) 0.007(3) -0.004(3)
+O8 0.064(4) 0.062(5) 0.059(5) -0.008(4) 0.045(3) 0.009(4)
+O9 0.064(4) 0.049(4) 0.032(4) 0.005(3) 0.023(3) 0.021(4)
+O10 0.039(4) 0.062(5) 0.036(4) -0.007(4) 0.006(3) -0.022(3)
+O11 0.073(5) 0.065(5) 0.039(4) 0.011(4) 0.016(4) -0.030(4)
+O12 0.065(5) 0.043(4) 0.040(4) 0.016(3) 0.010(4) 0.009(4)
+O13 0.086(5) 0.055(4) 0.032(4) -0.020(3) 0.025(3) 0.016(4)
+O14 0.033(3) 0.063(4) 0.011(3) 0.006(3) 0.006(2) -0.008(3)
+O15 0.064(4) 0.042(4) 0.063(4) -0.023(3) 0.043(3) 0.002(3)
+O16 0.057(3) 0.043(4) 0.041(4) 0.009(3) 0.036(3) 0.013(3)
+Ca1 0.0402(18) 0.0454(19) 0.038(2) 0.0040(16) 0.0170(15) -0.0055(16)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Si Si 0.0672 0.0654 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ca Ca 0.2262 0.3064 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Mg Mg 0.0486 0.0363 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'

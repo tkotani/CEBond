@@ -1,0 +1,382 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-21 02:03:34 +0200 (Sun, 21 Feb 2016) $
+#$Revision: 176798 $
+#$URL: svn://www.crystallography.net/cod/cif/2/23/48/2234838.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2234838
+loop_
+_publ_author_name
+'Lipp, Christian'
+'Strobel, Sabine'
+'Lissner, Falk'
+'Niewa, Rainer'
+_publ_section_title
+;
+ Garnet-type Mn~3~Cr~2~(GeO~4~)~3~
+;
+_journal_coeditor_code           WM2621
+_journal_issue                   5
+_journal_name_full               'Acta Crystallographica Section E'
+_journal_page_first              i35
+_journal_paper_doi               10.1107/S1600536812016832
+_journal_volume                  68
+_journal_year                    2012
+_chemical_formula_iupac          'Mn3 Cr2 (Ge O4)3'
+_chemical_formula_moiety         'Cr2 Ge3 Mn3 O12'
+_chemical_formula_structural     '(Mn 2+)3  (Cr 3+)2 (GeO4)3'
+_chemical_formula_sum            'Cr2 Ge3 Mn3 O12'
+_chemical_formula_weight         678.59
+_chemical_name_common
+'trimanganese(II) dichromium(III) tris(germanate)'
+_chemical_name_systematic
+;
+Trimanganese(II) dichromium(III) tris[orthogermanate(IV)]
+;
+_space_group_IT_number           230
+_symmetry_cell_setting           cubic
+_symmetry_space_group_name_Hall  '-I 4bd 2c 3'
+_symmetry_space_group_name_H-M   'I a -3 d'
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            8
+_cell_length_a                   12.0001(3)
+_cell_length_b                   12.0001(3)
+_cell_length_c                   12.0001(3)
+_cell_measurement_reflns_used    6052
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      40.25
+_cell_measurement_theta_min      0.41
+_cell_volume                     1728.04(7)
+_computing_cell_refinement       'SCALEPACK (Otwinowski & Minor, 1997)'
+_computing_data_collection       'COLLECT (Nonius, 1998)'
+_computing_data_reduction
+'DENZO and SCALEPACK (Otwinowski & Minor, 1997)'
+_computing_molecular_graphics    'DIAMOND (Brandenburg & Putz, 2012)'
+_computing_publication_material  'publCIF (Westrip, 2010)'
+_computing_structure_refinement  'SHELXL97 (Sheldrick, 2008)'
+_computing_structure_solution    'SHELXS97 (Sheldrick, 2008)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measured_fraction_theta_full 0.996
+_diffrn_measured_fraction_theta_max 0.996
+_diffrn_measurement_device_type  'Nonius KappaCCD'
+_diffrn_measurement_method       '\w scans'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0842
+_diffrn_reflns_av_sigmaI/netI    0.0234
+_diffrn_reflns_limit_h_max       16
+_diffrn_reflns_limit_h_min       -18
+_diffrn_reflns_limit_k_max       15
+_diffrn_reflns_limit_k_min       -18
+_diffrn_reflns_limit_l_max       15
+_diffrn_reflns_limit_l_min       -17
+_diffrn_reflns_number            7635
+_diffrn_reflns_theta_full        33.10
+_diffrn_reflns_theta_max         33.10
+_diffrn_reflns_theta_min         4.16
+_diffrn_standards_number         0
+_exptl_absorpt_coefficient_mu    17.013
+_exptl_absorpt_correction_T_max  0.2007
+_exptl_absorpt_correction_T_min  0.0625
+_exptl_absorpt_correction_type   numerical
+_exptl_absorpt_process_details
+'(<i>HABITUS</i>; Herrendorf & B\"arnighausen, 1997)'
+_exptl_crystal_colour            'dark green'
+_exptl_crystal_density_diffrn    5.217
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       'truncated rhombic dodecahedron'
+_exptl_crystal_F_000             2520
+_exptl_crystal_size_max          0.1753
+_exptl_crystal_size_mid          0.1492
+_exptl_crystal_size_min          0.0944
+_refine_diff_density_max         0.632
+_refine_diff_density_min         -0.717
+_refine_ls_extinction_coef       0.0031(2)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     'SHELXL97 (Sheldrick, 2008)'
+_refine_ls_goodness_of_fit_ref   1.257
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     18
+_refine_ls_number_reflns         277
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.257
+_refine_ls_R_factor_all          0.0260
+_refine_ls_R_factor_gt           0.0251
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0115P)^2^+25.1758P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0677
+_refine_ls_wR_factor_ref         0.0681
+_reflns_number_gt                265
+_reflns_number_total             277
+_reflns_threshold_expression     I>2sigma(I)
+_cod_data_source_file            wm2621.cif
+_cod_data_source_block           i
+_cod_database_code               2234838
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'x+1/2, -y+1/2, -z'
+'-x+1/2, -y, z+1/2'
+'-x, y+1/2, -z+1/2'
+'-y+1/4, x+3/4, z+1/4'
+'y+3/4, x+1/4, -z+1/4'
+'y+1/4, -x+1/4, z+3/4'
+'-y+3/4, -x+3/4, -z+3/4'
+'y, z, x'
+'-y+1/2, -z, x+1/2'
+'y+1/2, -z+1/2, -x'
+'-y, z+1/2, -x+1/2'
+'-z+1/4, y+3/4, x+1/4'
+'-z+3/4, -y+3/4, -x+3/4'
+'z+1/4, -y+1/4, x+3/4'
+'z+3/4, y+1/4, -x+1/4'
+'z, x, y'
+'-z, x+1/2, -y+1/2'
+'-z+1/2, -x, y+1/2'
+'z+1/2, -x+1/2, -y'
+'-x+3/4, -z+3/4, -y+3/4'
+'-x+1/4, z+3/4, y+1/4'
+'x+1/4, -z+1/4, y+3/4'
+'x+3/4, z+1/4, -y+1/4'
+'x+1/2, y+1/2, z+1/2'
+'x+1, -y+1, -z+1/2'
+'-x+1, -y+1/2, z+1'
+'-x+1/2, y+1, -z+1'
+'-y+3/4, x+5/4, z+3/4'
+'y+5/4, x+3/4, -z+3/4'
+'y+3/4, -x+3/4, z+5/4'
+'-y+5/4, -x+5/4, -z+5/4'
+'y+1/2, z+1/2, x+1/2'
+'-y+1, -z+1/2, x+1'
+'y+1, -z+1, -x+1/2'
+'-y+1/2, z+1, -x+1'
+'-z+3/4, y+5/4, x+3/4'
+'-z+5/4, -y+5/4, -x+5/4'
+'z+3/4, -y+3/4, x+5/4'
+'z+5/4, y+3/4, -x+3/4'
+'z+1/2, x+1/2, y+1/2'
+'-z+1/2, x+1, -y+1'
+'-z+1, -x+1/2, y+1'
+'z+1, -x+1, -y+1/2'
+'-x+5/4, -z+5/4, -y+5/4'
+'-x+3/4, z+5/4, y+3/4'
+'x+3/4, -z+3/4, y+5/4'
+'x+5/4, z+3/4, -y+3/4'
+'-x, -y, -z'
+'-x-1/2, y-1/2, z'
+'x-1/2, y, -z-1/2'
+'x, -y-1/2, z-1/2'
+'y-1/4, -x-3/4, -z-1/4'
+'-y-3/4, -x-1/4, z-1/4'
+'-y-1/4, x-1/4, -z-3/4'
+'y-3/4, x-3/4, z-3/4'
+'-y, -z, -x'
+'y-1/2, z, -x-1/2'
+'-y-1/2, z-1/2, x'
+'y, -z-1/2, x-1/2'
+'z-1/4, -y-3/4, -x-1/4'
+'z-3/4, y-3/4, x-3/4'
+'-z-1/4, y-1/4, -x-3/4'
+'-z-3/4, -y-1/4, x-1/4'
+'-z, -x, -y'
+'z, -x-1/2, y-1/2'
+'z-1/2, x, -y-1/2'
+'-z-1/2, x-1/2, y'
+'x-3/4, z-3/4, y-3/4'
+'x-1/4, -z-3/4, -y-1/4'
+'-x-1/4, z-1/4, -y-3/4'
+'-x-3/4, -z-1/4, y-1/4'
+'-x+1/2, -y+1/2, -z+1/2'
+'-x, y, z+1/2'
+'x, y+1/2, -z'
+'x+1/2, -y, z'
+'y+1/4, -x-1/4, -z+1/4'
+'-y-1/4, -x+1/4, z+1/4'
+'-y+1/4, x+1/4, -z-1/4'
+'y-1/4, x-1/4, z-1/4'
+'-y+1/2, -z+1/2, -x+1/2'
+'y, z+1/2, -x'
+'-y, z, x+1/2'
+'y+1/2, -z, x'
+'z+1/4, -y-1/4, -x+1/4'
+'z-1/4, y-1/4, x-1/4'
+'-z+1/4, y+1/4, -x-1/4'
+'-z-1/4, -y+1/4, x+1/4'
+'-z+1/2, -x+1/2, -y+1/2'
+'z+1/2, -x, y'
+'z, x+1/2, -y'
+'-z, x, y+1/2'
+'x-1/4, z-1/4, y-1/4'
+'x+1/4, -z-1/4, -y+1/4'
+'-x+1/4, z+1/4, -y-1/4'
+'-x-1/4, -z+1/4, y+1/4'
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+Mn Mn 0.1250 0.0000 0.2500 0.0080(3) Uani d S 1 4
+Cr Cr 0.0000 0.0000 0.0000 0.0023(3) Uani d S 1 6
+Ge Ge 0.3750 0.0000 0.2500 0.0045(2) Uani d S 1 4
+O O 0.03061(17) 0.05245(18) 0.65268(17) 0.0065(4) Uani d . 1 1
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Mn 0.0039(4) 0.0100(3) 0.0100(3) 0.000 0.000 0.0019(3)
+Cr 0.0023(3) 0.0023(3) 0.0023(3) 0.00006(17) 0.00006(17) 0.00006(17)
+Ge 0.0036(3) 0.0050(3) 0.0050(3) 0.000 0.000 0.000
+O 0.0068(9) 0.0082(9) 0.0044(8) 0.0016(7) -0.0018(7) -0.0006(7)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Mn Mn 0.3368 0.7283 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Cr Cr 0.3209 0.6236 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ge Ge 0.1547 1.8001 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+O Mn O 94_565 74_554 112.61(10)
+O Mn O 94_565 69_656 70.78(10)
+O Mn O 74_554 69_656 160.86(10)
+O Mn O 94_565 49_556 160.86(10)
+O Mn O 74_554 49_556 70.78(10)
+O Mn O 69_656 49_556 112.61(10)
+O Mn O 94_565 67_556 94.58(6)
+O Mn O 74_554 67_556 124.69(4)
+O Mn O 69_656 67_556 72.34(8)
+O Mn O 49_556 67_556 69.78(10)
+O Mn O 94_565 63_656 124.69(4)
+O Mn O 74_554 63_656 94.58(6)
+O Mn O 69_656 63_656 69.78(10)
+O Mn O 49_556 63_656 72.34(8)
+O Mn O 67_556 63_656 108.41(10)
+O Mn O 94_565 88_655 69.78(10)
+O Mn O 74_554 88_655 72.34(8)
+O Mn O 69_656 88_655 124.69(4)
+O Mn O 49_556 88_655 94.58(6)
+O Mn O 67_556 88_655 73.85(10)
+O Mn O 63_656 88_655 164.23(10)
+O Mn O 94_565 90_455 72.34(8)
+O Mn O 74_554 90_455 69.78(10)
+O Mn O 69_656 90_455 94.58(6)
+O Mn O 49_556 90_455 124.69(4)
+O Mn O 67_556 90_455 164.23(10)
+O Mn O 63_656 90_455 73.85(10)
+O Mn O 88_655 90_455 108.41(10)
+O Mn Ge 94_565 . 35.39(5)
+O Mn Ge 74_554 . 144.61(5)
+O Mn Ge 69_656 . 35.39(5)
+O Mn Ge 49_556 . 144.61(5)
+O Mn Ge 67_556 . 82.12(5)
+O Mn Ge 63_656 . 97.88(5)
+O Mn Ge 88_655 . 97.88(5)
+O Mn Ge 90_455 . 82.12(5)
+O Mn Ge 94_565 51_556 144.61(5)
+O Mn Ge 74_554 51_556 35.39(5)
+O Mn Ge 69_656 51_556 144.61(5)
+O Mn Ge 49_556 51_556 35.39(5)
+O Mn Ge 67_556 51_556 97.88(5)
+O Mn Ge 63_656 51_556 82.12(5)
+O Mn Ge 88_655 51_556 82.12(5)
+O Mn Ge 90_455 51_556 97.88(5)
+O Cr O 90_455 42_544 180.00(17)
+O Cr O 90_455 26_445 93.67(8)
+O Cr O 42_544 26_445 86.33(8)
+O Cr O 90_455 34_454 93.67(8)
+O Cr O 42_544 34_454 86.33(8)
+O Cr O 26_445 34_454 86.33(8)
+O Cr O 90_455 82_545 86.33(8)
+O Cr O 42_544 82_545 93.67(8)
+O Cr O 26_445 82_545 93.67(8)
+O Cr O 34_454 82_545 180.00(17)
+O Cr O 90_455 74_554 86.33(8)
+O Cr O 42_544 74_554 93.67(8)
+O Cr O 26_445 74_554 180.00(17)
+O Cr O 34_454 74_554 93.67(8)
+O Cr O 82_545 74_554 86.33(8)
+O Ge O 28_545 69_656 114.93(7)
+O Ge O 28_545 94_565 114.93(7)
+O Ge O 69_656 94_565 99.02(14)
+O Ge O 28_545 3_554 99.02(14)
+O Ge O 69_656 3_554 114.93(7)
+O Ge O 94_565 3_554 114.93(7)
+O Ge Mn 28_545 . 130.49(7)
+O Ge Mn 69_656 . 49.51(7)
+O Ge Mn 94_565 . 49.51(7)
+O Ge Mn 3_554 . 130.49(7)
+O Ge Mn 28_545 51_656 49.51(7)
+O Ge Mn 69_656 51_656 130.49(7)
+O Ge Mn 94_565 51_656 130.49(7)
+O Ge Mn 3_554 51_656 49.51(7)
+Ge O Cr 3 26_445 128.90(11)
+Ge O Mn 3 49_556 95.10(9)
+Cr O Mn 26_445 49_556 103.54(9)
+Ge O Mn 3 83 122.92(10)
+Cr O Mn 26_445 83 99.02(8)
+Mn O Mn 49_556 83 102.43(8)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+Mn O 94_565 2.291(2)
+Mn O 74_554 2.291(2)
+Mn O 69_656 2.291(2)
+Mn O 49_556 2.291(2)
+Mn O 67_556 2.422(2)
+Mn O 63_656 2.422(2)
+Mn O 88_655 2.422(2)
+Mn O 90_455 2.422(2)
+Cr O 90_455 1.972(2)
+Cr O 42_544 1.972(2)
+Cr O 26_445 1.972(2)
+Cr O 34_454 1.972(2)
+Cr O 82_545 1.972(2)
+Cr O 74_554 1.972(2)
+Ge O 28_545 1.744(2)
+Ge O 69_656 1.744(2)
+Ge O 94_565 1.744(2)
+Ge O 3_554 1.744(2)
+O Ge 3 1.744(2)
+O Cr 26_445 1.972(2)
+O Mn 49_556 2.291(2)
+O Mn 83 2.422(2)

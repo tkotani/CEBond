@@ -1,0 +1,228 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-19 16:29:56 +0200 (Fri, 19 Feb 2016) $
+#$Revision: 176759 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/34/2003436.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2003436
+loop_
+_publ_author_name
+'Kerihuel, G.'
+'Gougeon, P.'
+_publ_section_title
+;
+ CeMo~8~O~14~, a Third Crystalline Form of the <i>R</i>Mo~8~O~14~
+ Series (<i>R</i> = La, Ce, Pr, Nd, Sm)
+;
+_journal_issue                   5
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              787
+_journal_page_last               790
+_journal_paper_doi               10.1107/S0108270194010681
+_journal_volume                  51
+_journal_year                    1995
+_chemical_formula_moiety         'Ce Mo8 O14'
+_chemical_formula_sum            'Ce Mo8 O14'
+_chemical_formula_weight         1131.63
+_space_group_IT_number           60
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2n 2ab'
+_symmetry_space_group_name_H-M   'P b c n'
+_atom_type_scat_source           IntTabIV
+_cell_angle_alpha                90.
+_cell_angle_beta                 90.
+_cell_angle_gamma                90.
+_cell_formula_units_Z            8
+_cell_length_a                   9.1937(7)
+_cell_length_b                   11.121(1)
+_cell_length_c                   20.014(1)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    295
+_cell_measurement_theta_max      32
+_cell_measurement_theta_min      11
+_cell_volume                     2046.3(3)
+_diffrn_measurement_device       'Enraf-Nonius CAD-4'
+_diffrn_measurement_method       \w-2\q
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_limit_h_max       16
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       20
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       36
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            6930
+_diffrn_reflns_theta_max         40
+_diffrn_standards_decay_%        -0.1
+_diffrn_standards_interval_time  90
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    13.77
+_exptl_absorpt_correction_T_max  1.1605
+_exptl_absorpt_correction_T_min  0.9368
+_exptl_absorpt_correction_type   empirical
+_exptl_crystal_colour            black
+_exptl_crystal_density_diffrn    7.346
+_exptl_crystal_description       irregular
+_exptl_crystal_size_max          0.14
+_exptl_crystal_size_mid          0.12
+_exptl_crystal_size_min          0.10
+_refine_diff_density_max         2.90
+_refine_diff_density_min         -1.05
+_refine_ls_extinction_coef       9.612E-8(4)
+_refine_ls_extinction_method     'Stout & Jensen (1968)'
+_refine_ls_goodness_of_fit_obs   1.582
+_refine_ls_number_parameters     141
+_refine_ls_number_reflns         3568
+_refine_ls_R_factor_obs          0.040
+_refine_ls_shift/esd_max         <0.01
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 4Fo^2^/[\s^2^Fo^2^ + (0.02Fo^2^)^2^]'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.042
+_reflns_number_observed          3568
+_reflns_number_total             6930
+_reflns_observed_criterion       >2\s(I)
+_cod_data_source_file            du1086.cif
+_cod_data_source_block           du1086a
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'w = 4Fo^2^/[\s^2^Fo^2^ +
+(0.02Fo^2^)^2^]' was changed to 'calc'. New tag
+'_refine_ls_weighting_details' was created. The value of the new tag
+was set to 'w = 4Fo^2^/[\s^2^Fo^2^ + (0.02Fo^2^)^2^]'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        2046.3(4)
+_cod_database_code               2003436
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+1/2+x,1/2+y,1/2-z
+x,-y,1/2+z
+1/2-x,1/2+y,z
+-x,-y,-z
+1/2-x,1/2-y,1/2+z
+-x,y,1/2-z
+1/2+x,1/2-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_B_iso_or_equiv
+Ce(1) 0 .500 0 .553(8)
+Ce(2) .500 .52433(5) .250 .474(8)
+Mo(1) .62127(8) .72582(5) .07950(3) .234(8)
+Mo(2) .62114(8) .62338(5) .45640(3) .169(7)
+Mo(3) .12332(8) .12486(5) .53670(3) .183(7)
+Mo(4) .62070(8) .48808(5) .07921(3) .225(8)
+Mo(5) .61987(8) .87129(5) .21275(3) .171(7)
+Mo(6) .87862(7) .49638(5) .33014(3) .116(8)
+Mo(7) .12454(8) .61638(5) .29386(3) .177(8)
+Mo(8) 1.12024(7) .72976(5) .16762(3) .188(8)
+O(1) .2581(6) .2619(4) .8345(3) .45(7)
+O(2) .5124(7) .8674(4) .1258(3) .33(6)
+O(3) .7616(7) .3679(4) .0377(3) .41(7)
+O(4) .2599(6) .7557(4) .5876(3) .26(6)
+O(5) .9905(7) .7396(4) .0010(3) .44(6)
+O(6) .9918(7) .1053(4) .3680(3) .55(7)
+O(7) .2324(6) .6064(5) .4601(3) .38(7)
+O(8) .5076(8) .3658(4) .3742(3) .56(7)
+O(9) .2350(7) .4963(5) .0796(3) .52(7)
+O(10) .2364(7) .0110(4) .8298(3) .34(7)
+O(11) .500 .2561(6) .750 .44(9)
+O(12) .7562(7) .1314(4) .7898(3) .41(7)
+O(13) .9870(6) .6095(4) .1180(3) .30(6)
+O(14) .7362(7) .6144(4) .2878(3) .40(7)
+O(15) .500 .2620 .250 .37(9)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Mo(1) Mo(3) 2.5825(9) yes
+Mo(1) Mo(2) 2.6040(10) yes
+Mo(1) Mo(4) 2.6439(8) yes
+Mo(2) Mo(4) 2.7530(10) yes
+Mo(2) Mo(3) 2.7630(10) yes
+Mo(2) Mo(3) 2.7642(8) yes
+Mo(2) Mo(4) 2.7780(10) yes
+Mo(3) Mo(4) 2.7080(10) yes
+Mo(3) Mo(4) 2.7742(9) yes
+Mo(3) Mo(8) 3.0790(9) yes
+Mo(1) O(5) 2.047(6) yes
+Mo(1) O(7) 2.050(6) yes
+Mo(1) O(1) 2.052(6) yes
+Mo(1) O(6) 2.078(6) yes
+Mo(1) O(2) 2.083(6) yes
+Mo(1) O(3) 2.087(6) yes
+Mo(2) O(5) 2.043(5) yes
+Mo(2) O(4) 2.052(6) yes
+Mo(2) O(6) 2.061(6) yes
+Mo(2) O(9) 2.065(7) yes
+Mo(2) O(3) 2.079(6) yes
+Mo(3) O(7) 2.038(6) yes
+Mo(3) O(9) 2.062(7) yes
+Mo(3) O(5) 2.067(6) yes
+Mo(3) O(4) 2.076(5) yes
+Mo(3) O(8) 2.080(6) yes
+Mo(4) O(8) 2.027(6) yes
+Mo(4) O(3) 2.038(6) yes
+Mo(4) O(7) 2.044(6) yes
+Mo(4) O(6) 2.054(6) yes
+Mo(4) O(10) 2.110(7) yes
+Mo(5) Mo(5) 2.661(2) yes
+Mo(5) Mo(7) 2.7292(8) yes
+Mo(5) Mo(6) 2.7304(9) yes
+Mo(5) Mo(6) 2.7550(10) yes
+Mo(6) Mo(8) 2.5958(8) yes
+Mo(6) Mo(7) 2.7240(10) yes
+Mo(6) Mo(7) 2.8180(9) yes
+Mo(7) Mo(8) 2.6920(10) yes
+Mo(7) Mo(8) 2.8239(9) yes
+Mo(7) Mo(7) 2.886(2) yes
+Mo(5) O(11) 1.944(5) yes
+Mo(5) O(12) 1.988(6) yes
+Mo(5) O(2) 2.002(6) yes
+Mo(5) O(10) 2.045(7) yes
+Mo(5) O(1) 2.085(6) yes
+Mo(6) O(14) 2.039(6) yes
+Mo(6) O(13) 2.046(6) yes
+Mo(6) O(12) 2.051(6) yes
+Mo(6) O(2) 2.085(6) yes
+Mo(6) O(9) 2.087(7) yes
+Mo(7) O(1) 2.000(6) yes
+Mo(7) O(10) 2.039(7) yes
+Mo(7) O(13) 2.041(6) yes
+Mo(7) O(14) 2.076(6) yes
+Mo(7) O(15) 2.169(5) yes
+Mo(8) O(4) 1.950(6) yes
+Mo(8) O(8) 2.015(6) yes
+Mo(8) O(15) 2.0170(10) yes
+Mo(8) O(14) 2.046(6) yes
+Mo(8) O(13) 2.067(6) yes
+Mo(8) O(12) 2.097(6) yes
+Ce(1) O(7) 2.569(6) yes
+Ce(1) O(13) 2.660(5) yes
+Ce(1) O(5) 2.666(5) yes
+Ce(1) O(9) 2.684(8) yes
+Ce(1) O(3) 2.745(6) yes
+Ce(1) O(2) 2.920(5) yes
+Ce(2) O(11) 2.442(7) yes
+Ce(2) O(14) 2.508(7) yes
+Ce(2) O(6) 2.529(6) yes
+Ce(2) O(10) 2.725(7) yes
+Ce(2) O(15) 2.918(7) yes
+Ce(2) O(12) 2.943(6) yes

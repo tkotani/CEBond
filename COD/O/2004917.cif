@@ -1,0 +1,171 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-19 16:29:56 +0200 (Fri, 19 Feb 2016) $
+#$Revision: 176759 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/49/2004917.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2004917
+loop_
+_publ_author_name
+'Kumada, N.'
+'Kinomura, N.'
+'Sleight, A. W.'
+_publ_section_title
+;
+ CsLaNb~2~O~7~
+;
+_journal_issue                   5
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              1063
+_journal_page_last               1065
+_journal_paper_doi               10.1107/S0108270195015848
+_journal_volume                  52
+_journal_year                    1996
+_chemical_formula_sum            'Cs La Nb2 O7'
+_chemical_formula_weight         569.62
+_space_group_IT_number           123
+_symmetry_cell_setting           tetragonal
+_symmetry_space_group_name_Hall  '-P 4 2'
+_symmetry_space_group_name_H-M   'P 4/m m m'
+_atom_type_scat_source           'Cromer & Waber (1974)'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            1
+_cell_length_a                   3.908(1)
+_cell_length_b                   3.908(1)
+_cell_length_c                   11.160(4)
+_cell_measurement_reflns_used    22
+_cell_measurement_temperature    296
+_cell_measurement_theta_max      21.4
+_cell_measurement_theta_min      10.5
+_cell_volume                     170.44(9)
+_computing_cell_refinement       'MSC/AFC Diffractometer Control Software'
+_computing_data_collection
+;MSC/AFC Diffractometer Control Software (Molecular Structure Corporation,
+ 1991)
+;
+_computing_data_reduction        'TEXSAN: PROCESS'
+_computing_molecular_graphics    'ORTEPII (Johnson, 1976)'
+_computing_publication_material  'TEXSAN: FINISH'
+_computing_structure_refinement  'TEXSAN: LS'
+_computing_structure_solution    'DIRDIF92 (PATTY) (Beurskens et al., 1992)'
+_diffrn_measurement_device       'Rigaku AFC-7R'
+_diffrn_measurement_method       '\w/2\q scans'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71069
+_diffrn_reflns_av_R_equivalents  0.039
+_diffrn_reflns_limit_h_max       6
+_diffrn_reflns_limit_h_min       -6
+_diffrn_reflns_limit_k_max       6
+_diffrn_reflns_limit_k_min       -6
+_diffrn_reflns_limit_l_max       20
+_diffrn_reflns_limit_l_min       -20
+_diffrn_reflns_number            2934
+_diffrn_reflns_theta_max         45
+_diffrn_standards_decay_%        1.60
+_diffrn_standards_interval_count 300
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    14.57
+_exptl_absorpt_correction_T_max  0.645
+_exptl_absorpt_correction_T_min  0.182
+_exptl_absorpt_correction_type   'analytical based on  six crystal faces'
+_exptl_crystal_colour            colorless
+_exptl_crystal_density_diffrn    5.55
+_exptl_crystal_description       plate
+_exptl_crystal_size_max          0.15
+_exptl_crystal_size_mid          0.15
+_exptl_crystal_size_min          0.03
+_refine_diff_density_max         '3.30 (at O3)'
+_refine_diff_density_min         '-3.34 (at La)'
+_refine_ls_extinction_coef       2.23E-6
+_refine_ls_extinction_method     'Coppens & Hamilton (1970)'
+_refine_ls_goodness_of_fit_obs   1.79
+_refine_ls_number_parameters     18
+_refine_ls_number_reflns         426
+_refine_ls_R_factor_obs          0.026
+_refine_ls_shift/esd_max         0.00
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_scheme      unit
+_refine_ls_wR_factor_obs         0.031
+_reflns_number_observed          426
+_reflns_number_total             450
+_reflns_observed_criterion       I>3.0\s(I)
+_cod_data_source_file            oh1090.cif
+_cod_data_source_block           oh1090a
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value ' Unit weights' was changed to
+'unit'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        170.40(10)
+_cod_database_code               2004917
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x,y,-z
+y,-x,-z
+-y,x,-z
+x,-y,z
+-x,y,z
+-y,-x,z
+y,x,z
+-x,-y,-z
+-x,-y,z
+-y,x,z
+y,-x,z
+-x,y,-z
+x,-y,-z
+y,x,-z
+-y,-x,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_B_iso_or_equiv
+La .0 .0 .0 0.678(4)
+Cs .0 .0 .5 1.668(8)
+Nb .5 .5 0.20139(5) 0.396(4)
+O(1) .0 .5 0.1634(6) 1.82(9)
+O(2) .5 .5 0.3569(6) 2.64(8)
+O(3) .5 .5 .0 3.6(1)
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O(1) Nb(1) O(1) 11_655 87.42(7) yes
+O(1) Nb(1) O(3) . 77.7(2) yes
+O(1) Nb(1) O(2) . 102.3(2) yes
+O(2) Nb(1) O(3) . 180.0 yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Nb O(1) . 1.9990(10) yes
+Nb O(2) . 1.736(7) yes
+Nb O(3) . 2.2480(10) yes
+O(1) O(1) 11_655 2.7630(10) yes
+O(1) O(2) . 2.912(7) yes
+O(1) O(3) . 2.672(4) yes
+La O(1) . 2.672(4) yes
+Cs O(2) . 3.191(4) yes
+La O(3) . 2.7630(10) yes

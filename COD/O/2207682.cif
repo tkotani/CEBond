@@ -1,0 +1,372 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 05:06:23 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176774 $
+#$URL: svn://www.crystallography.net/cod/cif/2/20/76/2207682.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2207682
+loop_
+_publ_author_name
+'Resende, Jackson Ant\^onio Lamounier Camargos'
+'Fernandes, Nelson G.'
+_publ_section_title
+;
+X-ray powder refinement of a natural garnet from Diamantina, Minas Gerais,
+Brazil
+;
+_journal_coeditor_code           WM6106
+_journal_issue                   12
+_journal_name_full               'Acta Crystallographica, Section E'
+_journal_page_first              i265
+_journal_page_last               i267
+_journal_paper_doi               10.1107/S1600536805035695
+_journal_volume                  61
+_journal_year                    2005
+_chemical_formula_iupac          'Ca3 Al1.338 Fe0.662 Si3 O12'
+_chemical_formula_moiety         'Ca3 Al1.338 Fe0.662 Si3 O12'
+_chemical_formula_sum            'Al1.338 Ca3 Fe0.662 O12 Si3'
+_chemical_formula_weight         469.559
+_chemical_name_common            grossular-andradite
+_chemical_name_systematic
+;
+magnesium aluminium silicon calcium titanium manganese iron dodecaoxide
+;
+_space_group_crystal_system      cubic
+_space_group_IT_number           230
+_space_group_name_Hall           '-I 4bd 2c 3'
+_space_group_name_H-M_alt        'I a -3 d'
+_symmetry_space_group_name_Hall  '-I 4bd 2c 3'
+_symmetry_space_group_name_H-M   'I a -3 d'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            8
+_cell_length_a                   11.9220(10)
+_cell_length_b                   11.9220(10)
+_cell_length_c                   11.9220(10)
+_cell_measurement_temperature    293.0(10)
+_cell_volume                     1694.5(2)
+_computing_cell_refinement       'CELREF V3 (Laugier & Bochu, 2002)'
+_computing_data_collection       'DIFFRAC/AT (Siemens, 1993)'
+_computing_data_reduction        'please supply'
+_computing_molecular_graphics    'ORTEP-3 (Farrugia, 1997)'
+_computing_publication_material  'enCiFer (Allen <i>et al.</i>,  2004)'
+_computing_structure_refinement
+'GSAS (Larson & Von Dreele, 2000) and EXPGUI (Toby, 2001)'
+_computing_structure_solution    'JANA2000 (Petricek & Dusek, 2000)'
+_diffrn_ambient_temperature      293.0(10)
+_diffrn_measurement_device_type  'Siemens D5000'
+_diffrn_measurement_method       step
+_diffrn_radiation_monochromator  graphite
+_diffrn_reflns_limit_h_max       12
+_diffrn_reflns_limit_h_min       2
+_diffrn_reflns_limit_k_max       8
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       6
+_diffrn_reflns_limit_l_min       0
+_exptl_absorpt_coefficient_mu    32.087
+_exptl_absorpt_correction_T_max  1.0000
+_exptl_absorpt_correction_T_min  1.0000
+_exptl_absorpt_process_details
+;
+No correction was applied.
+;
+_exptl_crystal_density_diffrn    3.681
+_exptl_crystal_F_000             1860.8
+_refine_ls_goodness_of_fit_all   1.47
+_refine_ls_matrix_type           fullcycle
+_refine_ls_number_constraints    7
+_refine_ls_number_parameters     49
+_refine_ls_number_reflns         185
+_refine_ls_number_restraints     0
+_refine_ls_shift/su_max          0.10
+_refine_ls_shift/su_mean         0.01
+_refine_ls_structure_factor_coef Inet
+_refine_ls_weighting_details     1/\s~i~^2^
+_refine_ls_weighting_scheme      sigma
+_cod_data_source_file            wm6106.cif
+_cod_database_code               2207682
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'z, x, y'
+'y, z, x'
+'x+1/2, y, -z+1/2'
+'-z+1/2, x+1/2, y'
+'y, -z+1/2, x+1/2'
+'-z, x+1/2, -y+1/2'
+'-y+1/2, -z, x+1/2'
+'y+1/2, -z+1/2, -x'
+'-x, y+1/2, -z+1/2'
+'-z+1/2, -x, y+1/2'
+'x+1/2, -y+1/2, -z'
+'y+1/4, x+1/4, z+1/4'
+'z+1/4, y+1/4, x+1/4'
+'x+1/4, z+1/4, y+1/4'
+'y+3/4, x+1/4, -z+1/4'
+'-z+1/4, y+3/4, x+1/4'
+'x+1/4, -z+1/4, y+3/4'
+'-z+3/4, y+3/4, -x+1/4'
+'-x+1/4, -z+3/4, y+3/4'
+'x+3/4, -z+1/4, -y+3/4'
+'-y+3/4, x+3/4, -z+1/4'
+'-z+1/4, -y+3/4, x+3/4'
+'y+3/4, -x+1/4, -z+3/4'
+'x+1/2, y+1/2, z+1/2'
+'z+1/2, x+1/2, y+1/2'
+'y+1/2, z+1/2, x+1/2'
+'x+1, y+1/2, -z+1'
+'-z+1, x+1, y+1/2'
+'y+1/2, -z+1, x+1'
+'-z+1/2, x+1, -y+1'
+'-y+1, -z+1/2, x+1'
+'y+1, -z+1, -x+1/2'
+'-x+1/2, y+1, -z+1'
+'-z+1, -x+1/2, y+1'
+'x+1, -y+1, -z+1/2'
+'y+3/4, x+3/4, z+3/4'
+'z+3/4, y+3/4, x+3/4'
+'x+3/4, z+3/4, y+3/4'
+'y+5/4, x+3/4, -z+3/4'
+'-z+3/4, y+5/4, x+3/4'
+'x+3/4, -z+3/4, y+5/4'
+'-z+5/4, y+5/4, -x+3/4'
+'-x+3/4, -z+5/4, y+5/4'
+'x+5/4, -z+3/4, -y+5/4'
+'-y+5/4, x+5/4, -z+3/4'
+'-z+3/4, -y+5/4, x+5/4'
+'y+5/4, -x+3/4, -z+5/4'
+'-x, -y, -z'
+'-z, -x, -y'
+'-y, -z, -x'
+'-x-1/2, -y, z-1/2'
+'z-1/2, -x-1/2, -y'
+'-y, z-1/2, -x-1/2'
+'z, -x-1/2, y-1/2'
+'y-1/2, z, -x-1/2'
+'-y-1/2, z-1/2, x'
+'x, -y-1/2, z-1/2'
+'z-1/2, x, -y-1/2'
+'-x-1/2, y-1/2, z'
+'-y-1/4, -x-1/4, -z-1/4'
+'-z-1/4, -y-1/4, -x-1/4'
+'-x-1/4, -z-1/4, -y-1/4'
+'-y-3/4, -x-1/4, z-1/4'
+'z-1/4, -y-3/4, -x-1/4'
+'-x-1/4, z-1/4, -y-3/4'
+'z-3/4, -y-3/4, x-1/4'
+'x-1/4, z-3/4, -y-3/4'
+'-x-3/4, z-1/4, y-3/4'
+'y-3/4, -x-3/4, z-1/4'
+'z-1/4, y-3/4, -x-3/4'
+'-y-3/4, x-1/4, z-3/4'
+'-x+1/2, -y+1/2, -z+1/2'
+'-z+1/2, -x+1/2, -y+1/2'
+'-y+1/2, -z+1/2, -x+1/2'
+'-x, -y+1/2, z'
+'z, -x, -y+1/2'
+'-y+1/2, z, -x'
+'z+1/2, -x, y'
+'y, z+1/2, -x'
+'-y, z, x+1/2'
+'x+1/2, -y, z'
+'z, x+1/2, -y'
+'-x, y, z+1/2'
+'-y+1/4, -x+1/4, -z+1/4'
+'-z+1/4, -y+1/4, -x+1/4'
+'-x+1/4, -z+1/4, -y+1/4'
+'-y-1/4, -x+1/4, z+1/4'
+'z+1/4, -y-1/4, -x+1/4'
+'-x+1/4, z+1/4, -y-1/4'
+'z-1/4, -y-1/4, x+1/4'
+'x+1/4, z-1/4, -y-1/4'
+'-x-1/4, z+1/4, y-1/4'
+'y-1/4, -x-1/4, z+1/4'
+'z+1/4, y-1/4, -x-1/4'
+'-y-1/4, x+1/4, z-1/4'
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Ca 0.0047(7) 0.0102(5) 0.0102(5) 0.0 0.0 0.0002(8)
+Al 0.0068(4) 0.0068(4) 0.0068(4) 0.0007(8) 0.0007(8) 0.0007(8)
+Si 0.0098(11) 0.0121(6) 0.0121(6) 0.0 0.0 0.0
+O 0.0074(11) 0.0116(12) 0.0143(12) 0.0003(10) -0.0062(10) 0.0045(11)
+Fe 0.0068(4) 0.0068(4) 0.0068(4) 0.0007(8) 0.0007(8) 0.0007(8)
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_occupancy
+_atom_site_type_symbol
+Ca 0.125 0.0 0.25 0.00837 Uani 1.0 Ca
+Al 0.0 0.0 0.0 0.00682 Uani 0.669(4) Al
+Si 0.375 0.0 0.25 0.01133 Uani 1.0 Si
+O 0.09665(14) 0.20236(14) 0.28915(15) 0.01108 Uani 1.0 O
+Fe 0.0 0.0 0.0 0.00682 Uani 0.331(4) Fe
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Ca Ca2+ 0.341 1.286 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Al Al3+ 0.204 0.246 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Si Si4+ 0.244 0.330 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O2- 0.047 0.032 'Rez et al. (1994)'
+Fe Fe3+ -1.179 3.204 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_diffrn_radiation_type
+_diffrn_radiation_wavelength
+CuK\a~1~ 1.5405
+CuK\a~2~ 1.5443
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O Ca O 86 2 117.39(8) no
+O Ca O 86 17_545 66.57(8) no
+O Ca O 2 17_545 159.67(8) no
+O Ca O 86 77 159.67(8) no
+O Ca O 2 77 66.57(8) no
+O Ca O 17_545 77 117.39(8) no
+O Ca O 86 69_656 123.16(4) no
+O Ca O 2 69_656 91.69(5) no
+O Ca O 17_545 69_656 71.38(8) no
+O Ca O 77 69_656 75.09(7) no
+O Ca O 86 . 75.09(7) no
+O Ca O 2 . 71.38(8) no
+O Ca O 17_545 . 91.69(5) no
+O Ca O 77 . 123.16(4) no
+O Ca O 69_656 . 69.67(8) ?
+O Ca O 86 87 71.38(8) no
+O Ca O 2 87 75.09(7) no
+O Ca O 17_545 87 123.16(4) no
+O Ca O 77 87 91.69(5) no
+O Ca O 69_656 87 164.34(8) no
+O Ca O . 87 112.62(8) no
+O Ca O 86 36_445 91.69(5) no
+O Ca O 2 36_445 123.16(4) no
+O Ca O 17_545 36_445 75.09(7) no
+O Ca O 77 36_445 71.38(8) no
+O Ca O 69_656 36_445 112.62(8) no
+O Ca O . 36_445 164.34(8) no
+O Ca O 87 36_445 69.67(8) no
+O Al O 39_444 38_444 91.18(7) no
+O Al O 39_444 37_444 91.18(7) no
+O Al O 38_444 37_444 91.18(7) no
+O Al O 39_444 87 180.0 no
+O Al O 38_444 87 88.82(7) no
+O Al O 37_444 87 88.82(7) no
+O Al O 39_444 86 88.82(7) no
+O Al O 38_444 86 180.0 no
+O Al O 37_444 86 88.82(7) no
+O Al O 87 86 91.18(7) no
+O Al O 39_444 85 88.82(7) no
+O Al O 38_444 85 88.82(7) no
+O Al O 37_444 85 180.0 no
+O Al O 87 85 91.18(7) no
+O Al O 86 85 91.18(7) no
+O Fe O 39_444 38_444 91.18(7) no
+O Fe O 39_444 37_444 91.18(7) no
+O Fe O 38_444 37_444 91.18(7) no
+O Fe O 39_444 87 180.0 no
+O Fe O 38_444 87 88.82(7) no
+O Fe O 37_444 87 88.82(7) no
+O Fe O 39_444 86 88.82(7) no
+O Fe O 38_444 86 180.0 no
+O Fe O 37_444 86 88.82(7) no
+O Fe O 87 86 91.18(7) no
+O Fe O 39_444 85 88.82(7) no
+O Fe O 38_444 85 88.82(7) no
+O Fe O 37_444 85 180.0 no
+O Fe O 87 85 91.18(7) no
+O Fe O 86 85 91.18(7) no
+O Si O 47_544 19_545 102.91(12) no
+O Si O 47_544 2 112.85(6) no
+O Si O 19_545 2 112.85(6) no
+O Si O 47_544 77 112.85(6) no
+O Si O 19_545 77 112.85(6) no
+O Si O 2 77 102.91(12) no
+Si O Fe 3 13 134.33(10) no
+Si O Al 3 13 134.33(10) no
+Si O Ca 3 3 95.26(8) no
+Fe O Ca 13 3 100.88(7) no
+Al O Ca 13 3 100.88(7) no
+Si O Ca 3 . 123.31(9) no
+Fe O Ca 13 . 96.28(7) no
+Al O Ca 13 . 96.28(7) no
+Ca O Ca 3 . 98.38(6) no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Ca O 86 2.3409(18) no
+Ca O 2 2.3409(18) no
+Ca O 17_545 2.3409(18) no
+Ca O 77 2.3409(18) no
+Ca O 69_656 2.4804(17) no
+Ca O . 2.4804(17) no
+Ca O 87 2.4804(17) no
+Ca O 36_445 2.4804(17) no
+Ca Si . 2.9805(3) no
+Ca Si 4_455 2.9805(3) no
+Ca Al 13 3.33228(2) no
+Ca Al . 3.332280(10) no
+Ca Fe 13 3.33228(2) no
+Ca Fe . 3.332280(10) no
+Al O 39_444 1.9705(17) no
+Al O 38_444 1.9705(17) no
+Al O 37_444 1.9705(17) no
+Al O 87 1.9705(17) no
+Al O 86 1.9705(17) no
+Al O 85 1.9705(17) no
+Al Ca 1 3.332280(10) no
+Al Ca 2 3.33228(2) no
+Al Ca 3 3.332280(10) no
+Al Ca 49 3.332280(10) no
+Al Ca 50 3.33228(2) no
+Al Ca 51 3.332280(10) no
+Fe O 39_444 1.9705(17) no
+Fe O 38_444 1.9705(17) no
+Fe O 37_444 1.9705(17) no
+Fe O 87 1.9705(17) no
+Fe O 86 1.9705(17) no
+Fe O 85 1.9705(17) no
+Fe Ca 1 3.332280(10) no
+Fe Ca 2 3.33228(2) no
+Fe Ca 3 3.332280(10) no
+Fe Ca 49 3.332280(10) no
+Fe Ca 50 3.33228(2) no
+Fe Ca 51 3.332280(10) no
+Si O 47_544 1.6425(17) no
+Si O 19_545 1.6425(17) no
+Si O 2 1.6425(17) no
+Si O 77 1.6425(17) no
+Si Ca 4 2.9805(3) no
+O Si 3 1.6425(17) no
+O Fe 13 1.9705(17) no
+O Al 13 1.9705(17) no
+O Ca 3 2.3409(18) no
+O Ca 1 2.4804(17) no

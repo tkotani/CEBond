@@ -1,0 +1,195 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-21 02:03:34 +0200 (Sun, 21 Feb 2016) $
+#$Revision: 176798 $
+#$URL: svn://www.crystallography.net/cod/cif/2/23/72/2237244.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2237244
+loop_
+_publ_author_name
+'Bell, Anthony M. T.'
+'Henderson, C. Michael B.'
+_publ_section_title
+;
+ Sr--fresnoite determined from synchrotron X-ray powder diffraction data
+;
+_journal_coeditor_code           WM2699
+_journal_issue                   1
+_journal_name_full               'Acta Crystallographica Section E'
+_journal_page_first              i1
+_journal_paper_doi               10.1107/S1600536812048921
+_journal_volume                  69
+_journal_year                    2013
+_chemical_formula_iupac          'Sr2 Ti Si2 O8'
+_chemical_formula_structural     'Sr2 Ti Si2 O8'
+_chemical_formula_sum            'O8 Si2 Sr2 Ti'
+_chemical_formula_weight         407.31
+_chemical_name_common            'Strontium fresnoite'
+_chemical_name_systematic
+;
+Distrontium oxidotitanium disilicate
+;
+_space_group_IT_number           100
+_symmetry_cell_setting           tetragonal
+_symmetry_space_group_name_Hall  'P 4 -2ab'
+_symmetry_space_group_name_H-M   'P 4 b m'
+_cell_angle_alpha                90.00000
+_cell_angle_beta                 90.00000
+_cell_angle_gamma                90.00000
+_cell_formula_units_Z            2
+_cell_length_a                   8.3200(3)
+_cell_length_b                   8.3200(3)
+_cell_length_c                   5.0239(2)
+_cell_measurement_temperature    293
+_cell_volume                     347.77(2)
+_computing_cell_refinement       'local software'
+_computing_data_collection       'local software'
+_computing_data_reduction        'local software'
+_computing_molecular_graphics    'VESTA (Momma & Izumi, 2008)'
+_computing_publication_material  'publCIF (Westrip, 2010)'
+_computing_structure_refinement  'FULLPROF (Rodriguez-Carvajal, 2001)'
+_computing_structure_solution    'coordinates taken from a related compound'
+_diffrn_ambient_temperature      293
+_diffrn_measurement_device_type  'In-house design'
+_diffrn_radiation_monochromator  'Laue DCM diamond(111) & Si(111)'
+_diffrn_radiation_type           Synchrotron
+_diffrn_radiation_wavelength     0.207549
+_exptl_absorpt_coefficient_mu    0.43
+_exptl_crystal_density_diffrn    3.8896(2)
+_exptl_crystal_density_method    'not measured'
+_pd_block_diffractogram_id       srfrespd
+_pd_char_colour                  white
+_pd_char_particle_morphology     powder
+_pd_instr_location
+;
+P02.1 Powder Diffraction beamline, PETRA-III synchrotron, Hamburg.
+;
+_pd_meas_2theta_range_inc        0.008081
+_pd_meas_2theta_range_max        11.91532
+_pd_meas_2theta_range_min        0.05249
+_pd_meas_number_of_points        1476
+_pd_meas_scan_method             cont
+_pd_prep_pressure                100
+_pd_prep_temperature             1323
+_pd_proc_2theta_range_inc        0.008081
+_pd_proc_2theta_range_max        11.9153
+_pd_proc_2theta_range_min        0.0525
+_pd_proc_info_excluded_regions   '0-1 and 11.7-12.0 degrees 2\q'
+_pd_proc_ls_profile_function     'T-C-H Pseudo-Voigt function'
+_pd_proc_ls_prof_R_factor        0.052
+_pd_proc_ls_prof_wR_expected     0.031
+_pd_proc_ls_prof_wR_factor       0.073
+_pd_proc_wavelength              0.207549
+_pd_spec_mounting                capillary
+_pd_spec_mount_mode              transmission
+_pd_spec_shape                   cylinder
+_pd_spec_size_axial              20
+_pd_spec_size_equat              0.7
+_pd_spec_size_thick              0.7
+_refine_ls_goodness_of_fit_all   5.5739
+_refine_ls_number_parameters     71
+_refine_ls_number_reflns         125
+_refine_ls_number_restraints     5
+_cod_data_source_file            wm2699.cif
+_cod_data_source_block           I
+_cod_database_code               2237244
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-y,x,z
+-x,-y,z
+y,-x,z
+-x+1/2,y+1/2,z
+y+1/2,x+1/2,z
+x+1/2,-y+1/2,z
+-y+1/2,-x+1/2,z
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+Sr Sr1 0.3282(2) 0.8282(2) 0.017(2) 0.0070(8) Uiso 1.00000
+Ti Ti1 0.00000 0.00000 0.558(3) 0.007(2) Uiso 1.00000
+Si Si1 0.1305(6) 0.6305(6) 0.535(3) 0.019(2) Uiso 1.00000
+O O1 0.00000 0.50000 0.651(5) 0.017(3) Uiso 1.00000
+O O2 0.1292(15) 0.6292(15) 0.191(3) 0.017(3) Uiso 1.00000
+O O3 0.2985(12) 0.5984(15) 0.678(3) 0.017(3) Uiso 1.00000
+O O4 0.00000 0.00000 0.209(3) 0.017(3) Uiso 1.00000
+loop_
+_atom_type_symbol
+_atom_type_scat_Cromer_Mann_a1
+_atom_type_scat_Cromer_Mann_a2
+_atom_type_scat_Cromer_Mann_a3
+_atom_type_scat_Cromer_Mann_a4
+_atom_type_scat_Cromer_Mann_b1
+_atom_type_scat_Cromer_Mann_b2
+_atom_type_scat_Cromer_Mann_b3
+_atom_type_scat_Cromer_Mann_b4
+_atom_type_scat_Cromer_Mann_c
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Sr 17.56630 9.81840 5.42200 2.66940 1.55640 14.09880 0.16640 132.37601 2.50640
+-0.23000 2.20300 International_Tables_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+Ti 9.75950 7.35580 1.69910 1.90210 7.85080 0.50000 35.63380 116.10500 1.28070
+0.17500 0.28300 International_Tables_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+Si 6.29150 3.03530 1.98910 1.54100 2.43860 32.33370 0.67850 81.69370 1.14070
+0.04200 0.04300 International_Tables_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+O 3.0485 2.2868 1.5463 0.8670 13.2771 5.7011 0.3239 32.9089 0.2508 0.0030
+0.0040 International_Tables_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle
+O3 Ti1 O3 5_555 1_565 8_565 84.6(9)
+O3 Ti1 O3 5_555 1_565 7_465 144.2(10)
+O3 Ti1 O3 7_465 1_565 8_565 84.6(8)
+O3 Ti1 O4 5_555 1_565 1_565 107.9(12)
+O3 Ti1 O3 7_465 1_565 6_455 84.6(8)
+O3 Ti1 O3 8_565 1_565 6_455 144.2(11)
+O3 Ti1 O4 8_565 1_565 1_565 107.9(12)
+O3 Ti1 O3 6_455 1_565 5_555 84.6(9)
+O3 Ti1 O4 6_455 1_565 1_565 107.9(12)
+O3 Ti1 O4 7_465 1_565 1_565 107.9(12)
+O1 Si1 O2 1_555 1_555 1_555 110.3(16)
+O1 Si1 O3 1_555 1_555 6_455 108.0(9)
+O1 Si1 O3 1_555 1_555 1_555 108.0(10)
+O2 Si1 O3 1_555 1_555 1_555 117.1(15)
+O2 Si1 O3 1_555 1_555 6_455 117.1(15)
+O3 Si1 O3 6_455 1_555 1_555 95.2(11)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+Sr1 O1 2_664 2.733(18)
+Sr1 O2 . 2.499(13)
+Sr1 O2 2_665 2.676(13)
+Sr1 O2 4_565 2.676(13)
+Sr1 O3 1_554 2.572(15)
+Sr1 O3 6_454 2.572(14)
+Ti1 O3 5_545 1.961(12)
+Ti1 O3 6_445 1.961(13)
+Ti1 O3 7_455 1.961(12)
+Ti1 O3 8_555 1.961(13)
+Ti1 O4 . 1.75(2)
+Si1 O1 . 1.642(11)
+Si1 O2 . 1.73(2)
+Si1 O3 . 1.594(14)
+Si1 O3 6_455 1.594(15)

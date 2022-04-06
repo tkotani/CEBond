@@ -1,0 +1,147 @@
+#------------------------------------------------------------------------------
+#$Date: 2019-07-08 11:04:44 +0300 (Mon, 08 Jul 2019) $
+#$Revision: 216825 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/55/20/1552016.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1552016
+loop_
+_publ_author_name
+'Agnes Dewaele'
+'Nicholas Worth'
+'Chris J. Pickard'
+'Richard J. Needs'
+'Sakura Pascarelli'
+'Olivier Mathon'
+'Mohamed Mezouar'
+'Tetsuo Irifune'
+_publ_section_title
+;
+ Synthesis and stability of xenon oxides Xe2O5 and Xe3O2 under pressure
+;
+_journal_name_full               'Nature Chemistry'
+_journal_page_first              784
+_journal_page_last               790
+_journal_paper_doi               10.1038/nchem.2528
+_journal_volume                  8
+_journal_year                    2016
+_chemical_formula_sum            'O2 Xe3'
+_chemical_formula_weight         425.87
+_space_group_IT_number           71
+_space_group_name_Hall           '-I 2 2'
+_space_group_name_H-M_alt        'I m m m'
+_symmetry_cell_setting           orthorhombic
+_symmetry_Int_Tables_number      71
+_symmetry_space_group_name_Hall  '-I 2 2'
+_symmetry_space_group_name_H-M   'I m m m'
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                90.000
+_cell_formula_units_Z            2
+_cell_length_a                   8.5363
+_cell_length_b                   3.2173
+_cell_length_c                   4.9636
+_cell_volume                     136.320
+_cod_data_source_file            nchem.2528-s4.cif
+_cod_data_source_block           Xe3O2-Immm-83GPa
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+data item '_symmetry_cell_setting' value 'Orthorhombic' was changed
+to 'orthorhombic' in accordance with the built-in table derived from
+the CIF Core dictionary named 'cif_core.dic' version 2.4.5 last
+updated on 2014-11-21.
+
+Automatic conversion script
+Id: cif_fix_values 6909 2019-04-08 15:41:33Z antanas 
+;
+_cod_original_cell_volume        136.32
+_cod_database_code               1552016
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -x,-y,z
+3 x,-y,-z
+4 -x,y,-z
+5 -x,-y,-z
+6 x,y,-z
+7 -x,y,z
+8 x,-y,z
+9 1/2+x,1/2+y,1/2+z
+10 1/2-x,1/2-y,1/2+z
+11 1/2+x,1/2-y,1/2-z
+12 1/2-x,1/2+y,1/2-z
+13 1/2-x,1/2-y,1/2-z
+14 1/2+x,1/2+y,1/2-z
+15 1/2-x,1/2+y,1/2+z
+16 1/2+x,1/2-y,1/2+z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+Xe1 Xe 0.80361 0.00000 0.00000 0.00000 Uiso 1.00
+Xe2 Xe 0.00000 0.00000 0.50000 0.00000 Uiso 1.00
+O3 O 0.00000 0.50000 0.25379 0.00000 Uiso 1.00
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+Xe2 Xe1 Xe2 111.92 1_654 . 1_655
+Xe1 Xe2 O3 59.92 1_455 . .
+Xe1 Xe2 O3 120.08 1_456 . .
+O3 Xe2 O3 105.55 . . 1_545
+Xe1 Xe2 O3 59.92 2_655 . .
+Xe1 Xe2 O3 120.08 2_656 . .
+O3 Xe2 O3 180.00 . . 3_556
+O3 Xe2 O3 74.45 . . 3_566
+Xe1 Xe2 Xe1 111.92 1_455 . 1_456
+Xe1 Xe2 O3 59.92 1_455 . 1_545
+Xe1 Xe2 Xe1 68.08 1_455 . 2_655
+Xe1 Xe2 Xe1 180.00 1_455 . 2_656
+Xe1 Xe2 O3 120.08 1_455 . 3_556
+Xe1 Xe2 O3 120.08 1_455 . 3_566
+Xe1 Xe2 O3 120.08 1_456 . 1_545
+Xe1 Xe2 Xe1 180.00 1_456 . 2_655
+Xe1 Xe2 Xe1 68.08 1_456 . 2_656
+Xe1 Xe2 O3 59.92 1_456 . 3_556
+Xe1 Xe2 O3 59.92 1_456 . 3_566
+Xe1 Xe2 O3 59.92 2_655 . 1_545
+Xe1 Xe2 O3 120.08 2_656 . 1_545
+O3 Xe2 O3 74.45 1_545 . 3_556
+O3 Xe2 O3 180.00 1_545 . 3_566
+Xe1 Xe2 Xe1 111.92 2_655 . 2_656
+Xe1 Xe2 O3 120.08 2_655 . 3_556
+Xe1 Xe2 O3 120.08 2_655 . 3_566
+Xe1 Xe2 O3 59.92 2_656 . 3_556
+Xe1 Xe2 O3 59.92 2_656 . 3_566
+O3 Xe2 O3 105.55 3_556 . 3_566
+Xe2 O3 Xe2 105.55 . . 1_565
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+Xe1 Xe2 2.9950 . 1_654
+Xe1 Xe2 2.9950 . 1_655
+Xe2 O3 2.0202 . .
+Xe2 O3 2.0202 . 1_545
+Xe2 O3 2.0202 . 3_556
+Xe2 O3 2.0202 . 3_566

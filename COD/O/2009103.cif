@@ -1,0 +1,435 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-19 16:29:56 +0200 (Fri, 19 Feb 2016) $
+#$Revision: 176759 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/91/2009103.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2009103
+loop_
+_publ_author_name
+'Doriguetto, Ant\^onio C.'
+'Fernandes, Nelson G.'
+_publ_section_title
+;
+ Manganese-rich natural Franklinite
+;
+_journal_issue                   11
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              1751
+_journal_page_last               1753
+_journal_paper_doi               10.1107/S0108270199010045
+_journal_volume                  55
+_journal_year                    1999
+_chemical_formula_iupac          '(Zn0.65 Mn0.35) Fe2 O4'
+_chemical_formula_moiety         'Zn0.68 Mn0.36 Fe1.96 O4'
+_chemical_formula_structural     'Zn0.68 Mn0.36 Fe1.96 O4'
+_chemical_formula_sum            'Fe1.96 Mn0.36 O4 Zn0.68'
+_chemical_formula_weight         237.7
+_chemical_name_common            Franklinite
+_chemical_name_systematic
+;
+Zinc Iron Oxide
+;
+_space_group_IT_number           227
+_symmetry_cell_setting           cubic
+_symmetry_space_group_name_Hall  '-F 4vw 2vw 3'
+_symmetry_space_group_name_H-M   'F d -3 m :2'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            8
+_cell_length_a                   8.4551(3)
+_cell_length_b                   8.4551(3)
+_cell_length_c                   8.4551(3)
+_cell_measurement_reflns_used    90
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      32.0
+_cell_measurement_theta_min      23.6
+_cell_volume                     604.44(4)
+_computing_cell_refinement       XSCANS
+_computing_data_collection       'XSCANS (Siemens, 1991)'
+_computing_data_reduction        XSCANS
+_computing_molecular_graphics    'ORTEPIII (Burnett & Johnson, 1996)'
+_computing_publication_material  'PLATON (Spek, 1990)'
+_computing_structure_refinement  'JANA'98 (Petricek & Dusek, 1998)'
+_computing_structure_solution    'XS in SHELXTL/PC (Sheldrick, 1990)'
+_diffrn_ambient_temperature      298(2)
+_diffrn_measurement_device_type  'Siemens P4'
+_diffrn_measurement_method       \q-2\q
+_diffrn_radiation_monochromator  Graphite
+_diffrn_radiation_source         'fine_focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.060
+_diffrn_reflns_av_sigmaI/netI    0.0366
+_diffrn_reflns_limit_h_max       19
+_diffrn_reflns_limit_h_min       -11
+_diffrn_reflns_limit_k_max       19
+_diffrn_reflns_limit_k_min       -11
+_diffrn_reflns_limit_l_max       19
+_diffrn_reflns_limit_l_min       -11
+_diffrn_reflns_number            1393
+_diffrn_reflns_reduction_process
+;
+ ?
+;
+_diffrn_reflns_theta_max         56.76
+_diffrn_reflns_theta_min         4.17
+_diffrn_standards_decay_%        0.5
+_diffrn_standards_interval_count 297
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    15.94
+_exptl_absorpt_correction_T_max  0.315
+_exptl_absorpt_correction_T_min  0.257
+_exptl_absorpt_correction_type   sphere
+_exptl_absorpt_process_details   '(Flack & Vincent, 1978)'
+_exptl_crystal_colour            Black
+_exptl_crystal_density_diffrn    5.222
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       spherical
+_exptl_crystal_F_000             898.88
+_exptl_crystal_size_rad          0.06
+_refine_diff_density_max         1.75
+_refine_diff_density_min         -0.98
+_refine_ls_extinction_coef       0.100(10)
+_refine_ls_extinction_method
+'Becker & Coppens (1974), type 1, Gaussian isotropic'
+_refine_ls_goodness_of_fit_ref   1.30
+_refine_ls_hydrogen_treatment    none
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     9
+_refine_ls_number_reflns         236
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.30
+_refine_ls_R_factor_all          0.018
+_refine_ls_R_factor_gt           0.017
+_refine_ls_shift/su_max          0.003
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details     'w = 1/\s^2^(F~o~^2^)'
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_ref         0.026
+_reflns_number_gt                235
+_reflns_number_total             236
+_reflns_threshold_expression     I>0
+_cod_data_source_file            br1249.cif
+_cod_data_source_block           frank1
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_symmetry_cell_setting' value 'Cubic' changed to 'cubic' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Cubic' changed to 'cubic' according
+to /home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary
+named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_original_cell_volume        604.44
+_cod_original_sg_symbol_H-M      'F d -3 m'
+_cod_database_code               2009103
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-y,1/4+x,1/4+z
+3/4-x,1/4-y,1/2+z
+3/4+y,-x,3/4+z
+x,1/4-y,1/4-z
+3/4+y,1/4+x,1/2-z
+3/4-x,y,3/4-z
+-y,-x,-z
+z,x,y
+-x,1/4+z,1/4+y
+3/4-z,1/4-x,1/2+y
+3/4+x,-z,3/4+y
+z,1/4-x,1/4-y
+3/4+x,1/4+z,1/2-y
+3/4-z,x,3/4-y
+-x,-z,-y
+y,z,x
+-z,-y,-x
+1/2-z,3/4+y,1/4+x
+3/4+z,3/4+y,-x
+1/4+z,-y,1/4+x
+y,1/4-z,1/4-x
+1/4-y,3/4-z,1/2+x
+1/4-y,z,1/4-x
+-x,-y,-z
+y,3/4-x,3/4-z
+1/4+x,3/4+y,1/2-z
+1/4-y,x,1/4-z
+-x,3/4+y,3/4+z
+1/4-y,3/4-x,1/2+z
+1/4+x,-y,1/4+z
+y,x,z
+-z,-x,-y
+x,3/4-z,3/4-y
+1/4+z,3/4+x,1/2-y
+1/4-x,z,1/4-y
+-z,3/4+x,3/4+y
+1/4-x,3/4-z,1/2+y
+1/4+z,-x,1/4+y
+x,z,y
+-y,-z,-x
+z,y,x
+1/2+z,1/4-y,3/4-x
+1/4-z,1/4-y,x
+3/4-z,y,3/4-x
+-y,3/4+z,3/4+x
+3/4+y,1/4+z,1/2-x
+3/4+y,-z,3/4+x
+x,1/2+y,1/2+z
+-y,3/4+x,3/4+z
+3/4-x,3/4-y,z
+3/4+y,1/2-x,1/4+z
+x,3/4-y,3/4-z
+3/4+y,3/4+x,-z
+3/4-x,1/2+y,1/4-z
+-y,1/2-x,1/2-z
+z,1/2+x,1/2+y
+-x,3/4+z,3/4+y
+3/4-z,3/4-x,y
+3/4+x,1/2-z,1/4+y
+z,3/4-x,3/4-y
+3/4+x,3/4+z,-y
+3/4-z,1/2+x,1/4-y
+-x,1/2-z,1/2-y
+y,1/2+z,1/2+x
+-z,1/2-y,1/2-x
+1/2-z,1/4+y,3/4+x
+3/4+z,1/4+y,1/2-x
+1/4+z,1/2-y,3/4+x
+y,3/4-z,3/4-x
+1/4-y,1/4-z,x
+1/4-y,1/2+z,3/4-x
+-x,1/2-y,1/2-z
+y,1/4-x,1/4-z
+1/4+x,1/4+y,-z
+1/4-y,1/2+x,3/4-z
+-x,1/4+y,1/4+z
+1/4-y,1/4-x,z
+1/4+x,1/2-y,3/4+z
+y,1/2+x,1/2+z
+-z,1/2-x,1/2-y
+x,1/4-z,1/4-y
+1/4+z,1/4+x,-y
+1/4-x,1/2+z,3/4-y
+-z,1/4+x,1/4+y
+1/4-x,1/4-z,y
+1/4+z,1/2-x,3/4+y
+x,1/2+z,1/2+y
+-y,1/2-z,1/2-x
+z,1/2+y,1/2+x
+1/2+z,3/4-y,1/4-x
+1/4-z,3/4-y,1/2+x
+3/4-z,1/2+y,1/4-x
+-y,1/4+z,1/4+x
+3/4+y,3/4+z,-x
+3/4+y,1/2-z,1/4+x
+1/2+x,y,1/2+z
+1/2-y,1/4+x,3/4+z
+1/4-x,1/4-y,z
+1/4+y,-x,1/4+z
+1/2+x,1/4-y,3/4-z
+1/4+y,1/4+x,-z
+1/4-x,y,1/4-z
+1/2-y,-x,1/2-z
+1/2+z,x,1/2+y
+1/2-x,1/4+z,3/4+y
+1/4-z,1/4-x,y
+1/4+x,-z,1/4+y
+1/2+z,1/4-x,3/4-y
+1/4+x,1/4+z,-y
+1/4-z,x,1/4-y
+1/2-x,-z,1/2-y
+1/2+y,z,1/2+x
+1/2-z,-y,1/2-x
+-z,3/4+y,3/4+x
+1/4+z,3/4+y,1/2-x
+3/4+z,-y,3/4+x
+1/2+y,1/4-z,3/4-x
+3/4-y,3/4-z,x
+3/4-y,z,3/4-x
+1/2-x,-y,1/2-z
+1/2+y,3/4-x,1/4-z
+3/4+x,3/4+y,-z
+3/4-y,x,3/4-z
+1/2-x,3/4+y,1/4+z
+3/4-y,3/4-x,z
+3/4+x,-y,3/4+z
+1/2+y,x,1/2+z
+1/2-z,-x,1/2-y
+1/2+x,3/4-z,1/4-y
+3/4+z,3/4+x,-y
+3/4-x,z,3/4-y
+1/2-z,3/4+x,1/4+y
+3/4-x,3/4-z,y
+3/4+z,-x,3/4+y
+1/2+x,z,1/2+y
+1/2-y,-z,1/2-x
+1/2+z,y,1/2+x
+z,1/4-y,1/4-x
+3/4-z,1/4-y,1/2+x
+1/4-z,y,1/4-x
+1/2-y,3/4+z,1/4+x
+1/4+y,1/4+z,-x
+1/4+y,-z,1/4+x
+1/2+x,1/2+y,z
+1/2-y,3/4+x,1/4+z
+1/4-x,3/4-y,1/2+z
+1/4+y,1/2-x,3/4+z
+1/2+x,3/4-y,1/4-z
+1/4+y,3/4+x,1/2-z
+1/4-x,1/2+y,3/4-z
+1/2-y,1/2-x,-z
+1/2+z,1/2+x,y
+1/2-x,3/4+z,1/4+y
+1/4-z,3/4-x,1/2+y
+1/4+x,1/2-z,3/4+y
+1/2+z,3/4-x,1/4-y
+1/4+x,3/4+z,1/2-y
+1/4-z,1/2+x,3/4-y
+1/2-x,1/2-z,-y
+1/2+y,1/2+z,x
+1/2-z,1/2-y,-x
+-z,1/4+y,1/4+x
+1/4+z,1/4+y,-x
+3/4+z,1/2-y,1/4+x
+1/2+y,3/4-z,1/4-x
+3/4-y,1/4-z,1/2+x
+3/4-y,1/2+z,1/4-x
+1/2-x,1/2-y,-z
+1/2+y,1/4-x,3/4-z
+3/4+x,1/4+y,1/2-z
+3/4-y,1/2+x,1/4-z
+1/2-x,1/4+y,3/4+z
+3/4-y,1/4-x,1/2+z
+3/4+x,1/2-y,1/4+z
+1/2+y,1/2+x,z
+1/2-z,1/2-x,-y
+1/2+x,1/4-z,3/4-y
+3/4+z,1/4+x,1/2-y
+3/4-x,1/2+z,1/4-y
+1/2-z,1/4+x,3/4+y
+3/4-x,1/4-z,1/2+y
+3/4+z,1/2-x,1/4+y
+1/2+x,1/2+z,y
+1/2-y,1/2-z,-x
+1/2+z,1/2+y,x
+z,3/4-y,3/4-x
+3/4-z,3/4-y,x
+1/4-z,1/2+y,3/4-x
+1/2-y,1/4+z,3/4+x
+1/4+y,3/4+z,1/2-x
+1/4+y,1/2-z,3/4+x
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Fe .00512(4) .00512(4) .00512(4) -.00066(2) -.00066(2) -.00066(2)
+Mn .00544(4) .00544(4) .00544(4) 0 0 0
+Zn .00544(4) .00544(4) .00544(4) 0 0 0
+O .00547(7) .00547(7) .00547(7) -.00029(7) -.00029(7) -.00029(7)
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+Fe .5 .5 .5 .00512(2) 1
+Mn .125 .125 .125 .00544(2) .350(10)
+Zn .125 .125 .125 .00544(2) .650(10)
+O .26103(4) .26103(4) .26103(4) .00547(3) 1
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Zn2+ Zn2+ 0.2839 1.4301 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O2- O2- 0.0106 0.0060 '(Rez et al., 1994)'
+Mn2+ Mn2+ 0.3368 0.7283 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Fe3+ Fe3+ 0.3463 0.8444 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_diffrn_standard_refln_index_h
+_diffrn_standard_refln_index_k
+_diffrn_standard_refln_index_l
+4 4 8
+4 8 4
+8 4 4
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O Zn O . 5_555 109.470(10) no
+O Zn O . 24_555 109.470(10) no
+O Zn O 5 24 109.470(10) no
+O Zn O 5_555 24_555 109.470(10) no
+O Zn O 5_555 . 109.470(10) no
+O Zn O 24_555 . 109.470(10) no
+O Fe O 2_655 7_555 95.400(10) no
+O Fe O 2_655 21_565 84.600(10) yes
+O Fe O 2_655 26_555 180.00 no
+O Fe O 7_555 21_565 180.00 no
+O Fe O 7_555 26_555 84.600(10) no
+O Fe O 21_565 26_555 95.400(10) no
+O Fe O 21_565 . 95.400(10) no
+O Fe O 21_565 . 84.600(10) no
+O Fe O 26_555 . 84.600(10) no
+O Fe O 26_555 . 95.400(10) no
+O Fe O . . 180.00 no
+O Mn O . 5_555 109.470(10) no
+O Mn O . 24_555 109.470(10) no
+O Mn O . . 109.470(10) no
+O Mn O 5_555 24_555 109.470(10) no
+O Mn O 5_555 . 109.470(10) no
+O Mn O 24_555 . 109.470(10) no
+Fe O Fe 4_464 20_446 95.150(10) no
+Fe O Fe 4_464 26_555 95.150(10) no
+Fe O Fe 20_446 26_555 95.150(10) no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Zn O . . 1.9921(3) yes
+Mn O . . 1.9921(3) yes
+Fe O . 2_655 2.0248(3) yes
+Fe O . 7_555 2.0248(3) no
+Fe O . 21_565 2.0248(3) no
+Fe O . 26_555 2.0248(3) no
+Fe O . . 2.0248(3) no
+Fe O . . 2.0248(3) no
+Mn O . 5_555 1.9921(3) no
+Mn O . 24_555 1.9921(3) no
+Mn O . . 1.9921(3) no
+Zn O . . 1.9921(3) no
+Zn O . 5_555 1.9921(3) no
+Zn O . 24_555 1.9921(3) no

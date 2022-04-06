@@ -1,0 +1,85 @@
+cif name= ./5910032.cif
+./5910032.cif
+Full Formula (K1 Ni1 F3)
+Reduced Formula: KNiF3
+abc   :   4.000000   4.000000   4.000000
+angles:  90.000000  90.000000  90.000000
+Sites (5)
+  #  SP      a    b    c
+---  ----  ---  ---  ---
+  0  K     0    0    0
+  1  Ni    0.5  0.5  0.5
+  2  F     0.5  0.5  0
+  3  F     0.5  0    0.5
+  4  F     0    0.5  0.5
+
+space_group_IT_number 221
+
+*** lse ***
+
+
+**isite= 0
+K1 : [0. 0. 0.]
+
+ce_symbol  = C:12
+ce_fraction=  1.0
+species:coords:index
+F1 : [2. 2. 0.] : 2
+F1 : [-2.  2.  0.] : 2
+F1 : [ 0. -2.  2.] : 4
+F1 : [-2.  0.  2.] : 3
+F1 : [2. 0. 2.] : 3
+F1 : [0. 2. 2.] : 4
+F1 : [-2. -2.  0.] : 2
+F1 : [ 2.  0. -2.] : 3
+F1 : [ 2. -2.  0.] : 2
+F1 : [ 0. -2. -2.] : 4
+F1 : [-2.  0. -2.] : 3
+F1 : [ 0.  2. -2.] : 4
+
+
+**isite= 1
+Ni1 : [2. 2. 2.]
+
+ce_symbol  = O:6
+ce_fraction=  1.0
+species:coords:index
+F1 : [0. 2. 2.] : 4
+F1 : [2. 4. 2.] : 3
+F1 : [2. 2. 4.] : 2
+F1 : [2. 0. 2.] : 3
+F1 : [2. 2. 0.] : 2
+F1 : [4. 2. 2.] : 4
+
+
+**isite= 2
+F1 : [2. 2. 0.]
+
+ce_symbol  = L:2
+ce_fraction=  1.0
+species:coords:index
+Ni1 : [2. 2. 2.] : 1
+Ni1 : [ 2.  2. -2.] : 1
+
+
+**isite= 3
+F1 : [2. 0. 2.]
+
+ce_symbol  = L:2
+ce_fraction=  1.0
+species:coords:index
+Ni1 : [2. 2. 2.] : 1
+Ni1 : [ 2. -2.  2.] : 1
+
+
+**isite= 4
+F1 : [0. 2. 2.]
+
+ce_symbol  = L:2
+ce_fraction=  1.0
+species:coords:index
+Ni1 : [-2.  2.  2.] : 1
+Ni1 : [2. 2. 2.] : 1
+
+END
+

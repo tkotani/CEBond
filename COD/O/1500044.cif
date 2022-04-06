@@ -1,0 +1,117 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-01-11 18:54:48 +0200 (Wed, 11 Jan 2017) $
+#$Revision: 190403 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/50/00/1500044.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1500044
+loop_
+_publ_author_name
+'Abbattista, F'
+'Mazza, D'
+'Vallino, M'
+'Gazzano, M'
+_publ_section_title
+;
+ A new structure in the La-Li-Fe-O system
+;
+_journal_coden_ASTM              JCOMA
+_journal_name_full               'Journal of the Less-Common Metals'
+_journal_page_first              203
+_journal_page_last               211
+_journal_paper_doi               10.1016/0022-5088(88)90178-6
+_journal_volume                  142
+_journal_year                    1988
+_chemical_formula_structural     'La24 Fe6 Li22 O56'
+_chemical_formula_sum            'Fe6 La24 Li22 O56'
+_space_group_IT_number           127
+_symmetry_cell_setting           tetragonal
+_symmetry_space_group_name_Hall  '-P 4 2ab'
+_symmetry_space_group_name_H-M   'P 4/m b m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            1
+_cell_length_a                   13.240(3)
+_cell_length_b                   13.240(3)
+_cell_length_c                   7.497(3)
+_cell_volume                     1314.2(7)
+_refine_ls_R_factor_all          0.024
+_cod_data_source_file            La24Fe6Li22O.cif
+_cod_data_source_block           0000000
+_cod_depositor_comments
+;
+ Changing _atom_site_label data item values to unique ones after consulting
+ the original publication.
+
+ Antanas Vaitkus,
+ 2017-01-11
+
+ Adding missing _atom_type_symbol and _atom_type_oxidation_number data
+ item values that correspond to the _atom_site_type_symbol data item
+ values ('Ba3+', 'Li+').
+
+ Antanas Vaitkus,
+ 2017-01-11
+;
+_cod_original_cell_volume        1314.2
+_cod_original_formula_sum        'La24 Fe6 Li22 O56'
+_cod_database_code               1500044
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,z
+1/2+x,1/2-y,z
+1/2-x,1/2+y,z
+-y,x,z
+y,-x,z
+1/2+y,1/2+x,z
+1/2-y,1/2-x,z
+-x,-y,-z
+x,y,-z
+1/2-x,1/2+y,-z
+1/2+x,1/2-y,-z
+y,-x,-z
+-y,x,-z
+1/2-y,1/2-x,-z
+1/2+y,1/2+x,-z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+La1 La3+ 16 l 0.008(0) 0.1997(0) 0.2556(0) 1.0 0.0062
+La2 La3+ 4 g 0.2605(0) 0.7605(0) 0 1.0 0.0034
+La3 La3+ 4 h 0.2198(0) 0.7198(0) 0.5 1.0 0.0034
+Fe1 Fe3+ 2 a 0 0 0 1.0 0.0094
+Fe2 Fe3+ 4 g 0.0859(1) 0.5859(1) 0 1.0 0.0042
+O1 O2- 4 f 0 0.5 0.1849(10) 1.0 0.0050
+O2 O2- 8 j 0.3823(5) 0.3773(5) 0.5 1.0 0.0110
+O3 O2- 8 k 0.3168(3) 0.8168(3) 0.7102(8) 1.0 0.0140
+O4 O2- 8 j 0.3212(4) 0.0173(5) 0.5 1.0 0.0080
+O5 O2- 4 e 0 0 0.2513(15) 1.0 0.0090
+O6 O2- 8 i 0.1224(5) 0.1117(5) 0 1.0 0.0100
+O7 O2- 8 i 0.0303(4) 0.3123(4) 0 1.0 0.0060
+O8 O2- 8 k 0.1583(3) 0.6583(3) 0.8047(9) 1.0 0.0130
+Li1 Li+ 2 b 0 0 0.5 1.0 0.0024
+Li2 Li+ 4 h 0.6219(9) 0.1219(9) 0.5 1.0 0.0020
+Li3 Li+ 8 k 0.0981(8) 0.4019(8) 0.1565(22) 1.0 0.0100
+Li4 Li+ 8 k 0.0753(8) 0.5753(8) 0.6499(22) 1.0 0.0100
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Fe3+ 3.000
+O2- -2.000
+La3+ 3.000
+Li+ 1.000

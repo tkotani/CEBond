@@ -1,0 +1,506 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-15 16:54:34 +0200 (Tue, 15 Mar 2016) $
+#$Revision: 178197 $
+#$URL: svn://www.crystallography.net/cod/cif/2/24/16/2241605.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2241605
+loop_
+_publ_author_name
+'Redhammer, G\"unther J.'
+'Tippelt, Gerold'
+_publ_section_title
+;
+ Crystal structure of spinel-type Li~0.64~Fe~2.15~Ge~0.21~O~4~
+;
+_journal_coeditor_code           WM5279
+_journal_issue                   4
+_journal_name_full               'Acta Crystallographica Section E'
+_journal_page_first              505
+_journal_page_last               508
+_journal_paper_doi               10.1107/S205698901600414X
+_journal_volume                  72
+_journal_year                    2016
+_chemical_formula_iupac          'Li0.64 Fe2.15 Ge0.21 O4'
+_chemical_formula_moiety         'Fe2.15 Ge0.21 Li0.64 O4'
+_chemical_formula_sum            'Fe2.15 Ge0.21 Li0.64 O4'
+_chemical_formula_weight         203.5
+_chemical_name_systematic
+;
+Lithium diiron(III) germanium tetraoxide
+;
+_space_group_IT_number           227
+_symmetry_cell_setting           cubic
+_symmetry_space_group_name_Hall  '-F 4vw 2vw 3'
+_symmetry_space_group_name_H-M   'F d -3 m :2'
+_audit_creation_method           'WinGX routine CIF_UPDATE'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            8
+_cell_length_a                   8.2903(3)
+_cell_length_b                   8.2903(3)
+_cell_length_c                   8.2903(3)
+_cell_measurement_reflns_used    3046
+_cell_measurement_temperature    298(2)
+_cell_measurement_theta_max      41.928
+_cell_measurement_theta_min      6.964
+_cell_volume                     569.78(4)
+_computing_cell_refinement
+;
+SAINT (Bruker, 2012)
+;
+_computing_data_collection
+;
+APEX2 (Bruker, 2012)
+;
+_computing_data_reduction
+;
+SAINT (Bruker, 2012)
+;
+_computing_molecular_graphics
+;
+DIAMOND (Brandenburg, 2006)
+;
+_computing_publication_material
+;
+WinGX (Farrugia, 2012)
+;
+_computing_structure_refinement
+;
+SHELXL2014 (Sheldrick, 2015)
+;
+_computing_structure_solution    'coordinates from an isotypic structure'
+_diffrn_ambient_temperature      298(2)
+_diffrn_measured_fraction_theta_full 0.972
+_diffrn_measured_fraction_theta_max 0.967
+_diffrn_measurement_device_type  'Bruker SMART APEX CCD'
+_diffrn_measurement_method       '\w-scan at 4 different \f positions'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0212
+_diffrn_reflns_limit_h_max       14
+_diffrn_reflns_limit_h_min       -15
+_diffrn_reflns_limit_k_max       10
+_diffrn_reflns_limit_k_min       -14
+_diffrn_reflns_limit_l_max       13
+_diffrn_reflns_limit_l_min       -15
+_diffrn_reflns_number            3046
+_diffrn_reflns_theta_full        25.242
+_diffrn_reflns_theta_max         41.928
+_diffrn_reflns_theta_min         6.964
+_exptl_absorpt_coefficient_mu    12.85
+_exptl_absorpt_correction_T_max  0.94
+_exptl_absorpt_correction_T_min  0.83
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details
+;
+(<i>SADABS</i>; Bruker, 2012)
+;
+_exptl_crystal_colour            black
+_exptl_crystal_density_diffrn    4.744
+_exptl_crystal_description       octahedron
+_exptl_crystal_F_000             771
+_exptl_crystal_size_max          0.13
+_exptl_crystal_size_mid          0.12
+_exptl_crystal_size_min          0.12
+_refine_diff_density_max         0.361
+_refine_diff_density_min         -0.666
+_refine_ls_extinction_coef       0.0051(6)
+_refine_ls_extinction_method
+;
+SHELXL2014 (Sheldrick, 2015)
+;
+_refine_ls_goodness_of_fit_ref   1.367
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     10
+_refine_ls_number_reflns         118
+_refine_ls_number_restraints     1
+_refine_ls_restrained_S_all      1.361
+_refine_ls_R_factor_all          0.0186
+_refine_ls_R_factor_gt           0.0178
+_refine_ls_shift/su_max          0
+_refine_ls_shift/su_mean         0
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w=1/[\s^2^(Fo^2^)+(0.0139P)^2^+2.5420P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_ref         0.0419
+_reflns_number_gt                114
+_reflns_number_total             118
+_reflns_threshold_expression     'I > 2\s(I)'
+_iucr_refine_instructions_details
+;
+    shelx.res created by SHELXL-2014/7
+TITL LFG_bl1m in Fd-3m
+CELL  0.71073   8.2903    8.2903    8.2903   90.0000   90.0000   90.0000
+ZERR     8.00   0.0003    0.0003    0.0003     0.000     0.000     0.000
+LATT    4
+SYMM   +X,1/4-Y,1/4-Z
+SYMM   3/4-X,1/4-Y,1/2+Z
+SYMM   3/4-X,+Y,3/4-Z
+SYMM   -Y,1/4+X,1/4+Z
+SYMM   3/4+Y,1/4+X,1/2-Z
+SYMM   3/4+Y,-X,3/4+Z
+SYMM   -Y,-X,-Z
+SYMM   +Y,+Z,+X
+SYMM   3/4-Y,1/4-Z,1/2+X
+SYMM   +Y,1/4-Z,1/4-X
+SYMM   3/4-Y,+Z,3/4-X
+SYMM   -Z,1/4+Y,1/4+X
+SYMM   -Z,-Y,-X
+SYMM   3/4+Z,-Y,3/4+X
+SYMM   3/4+Z,1/4+Y,1/2-X
+SYMM   +Z,+X,+Y
+SYMM   1/4-Z,1/2+X,3/4-Y
+SYMM   1/4-Z,1/4-X,+Y
+SYMM   +Z,3/4-X,3/4-Y
+SYMM   -X,-Z,-Y
+SYMM   -X,3/4+Z,3/4+Y
+SYMM   1/4+X,1/2-Z,3/4+Y
+SYMM   3/4+X,1/4+Z,1/2-Y
+SFAC  Li    O    Fe      GE
+UNIT  5.15  32   17.21   1.64
+MERG   2
+EXYZ  Fe2 Ge2
+EADP  Fe2 Ge2
+SUMP  1.0 0.001 1.0 4 1.0 5
+EXYZ  Fe1 Li1
+EADP  Fe1 Li1
+SUMP  1.0 0.001 1.0 2 1.0 3
+FMAP   2
+PLAN   25
+ACTA
+BOND
+LIST   4
+L.S.  40
+OMIT 1 1 1
+WGHT    0.013900    2.542000
+EXTI    0.005124
+FVAR       0.28461   0.67810   0.32191   0.79482   0.20518
+FE1   3    0.500000    0.500000    0.500000    20.08333    0.00795    0.00795 =
+         0.00795   -0.00100   -0.00100   -0.00100
+LI1   1    0.500000    0.500000    0.500000    30.08333    0.00795    0.00795 =
+         0.00795   -0.00100   -0.00100   -0.00100
+FE2   3    0.125000    0.125000    0.125000    40.04167    0.00573    0.00573 =
+         0.00573    0.00000    0.00000    0.00000
+GE2   4    0.125000    0.125000    0.125000    50.04167    0.00573    0.00573 =
+         0.00573    0.00000    0.00000    0.00000
+O2    2    0.254337    0.254337    0.254337    10.16667    0.00952    0.00952 =
+         0.00952    0.00099    0.00099    0.00099
+HKLF 4
+REM  LFG_bl1m in Fd-3m
+REM R1 =  0.0178 for     114 Fo > 4sig(Fo)  and  0.0186 for all     118 data
+REM     10 parameters refined using      1 restraints
+END
+WGHT      0.0144      2.6451
+REM Highest difference peak  0.361,  deepest hole -0.666,  1-sigma level  0.107
+Q1    1   0.0000  0.0000  0.0000  10.08333  0.05    0.36
+Q2    1   0.1825  0.0675  0.0675  10.16667  0.05    0.26
+Q3    1   0.5425  0.5425  0.5425  10.16667  0.05    0.26
+Q4    1   0.2436  0.3516  0.2436  10.50000  0.05    0.25
+Q5    1   0.1890  0.2503  0.1890  10.50000  0.05    0.22
+Q6    1   0.1431  0.2245  0.2548  11.00000  0.05    0.18
+Q7    1   0.5062  0.4531  0.5062  10.50000  0.05    0.17
+Q8    1   0.3270  0.2449  0.1863  11.00000  0.05    0.17
+Q9    1   0.2500  0.3242  0.0742  10.50000  0.05    0.16
+Q10   1   0.3160  0.3160  0.2173  10.50000  0.05    0.15
+Q11   1   0.2588  0.1003  0.2205  11.00000  0.05    0.15
+Q12   1   0.1647  0.2350  0.2868  11.00000  0.05    0.15
+Q13   1   0.3040  0.3783  0.3040  10.50000  0.05    0.13
+Q14   1   0.1758  0.2733  0.2733  10.50000  0.05    0.12
+Q15   1   0.2551  0.1250  0.1250  10.25000  0.05    0.07
+Q16   1   0.3109  0.1893  0.1287  11.00000  0.05    0.06
+;
+_cod_data_source_file            wm5279sup1.cif
+_cod_data_source_block           I
+_cod_original_cell_volume        569.78(6)
+_cod_original_sg_symbol_H-M      'F d -3 m'
+_cod_database_code               2241605
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'x, -y+1/4, -z+1/4'
+'-x+3/4, -y+1/4, z+1/2'
+'-x+3/4, y, -z+3/4'
+'-y, x+1/4, z+1/4'
+'y+3/4, x+1/4, -z+1/2'
+'y+3/4, -x, z+3/4'
+'-y, -x, -z'
+'y, z, x'
+'-y+3/4, -z+1/4, x+1/2'
+'y, -z+1/4, -x+1/4'
+'-y+3/4, z, -x+3/4'
+'-z, y+1/4, x+1/4'
+'-z, -y, -x'
+'z+3/4, -y, x+3/4'
+'z+3/4, y+1/4, -x+1/2'
+'z, x, y'
+'-z+1/4, x+1/2, -y+3/4'
+'-z+1/4, -x+1/4, y'
+'z, -x+3/4, -y+3/4'
+'-x, -z, -y'
+'-x, z+3/4, y+3/4'
+'x+1/4, -z+1/2, y+3/4'
+'x+3/4, z+1/4, -y+1/2'
+'x, y+1/2, z+1/2'
+'x, -y+3/4, -z+3/4'
+'-x+3/4, -y+3/4, z+1'
+'-x+3/4, y+1/2, -z+5/4'
+'-y, x+3/4, z+3/4'
+'y+3/4, x+3/4, -z+1'
+'y+3/4, -x+1/2, z+5/4'
+'-y, -x+1/2, -z+1/2'
+'y, z+1/2, x+1/2'
+'-y+3/4, -z+3/4, x+1'
+'y, -z+3/4, -x+3/4'
+'-y+3/4, z+1/2, -x+5/4'
+'-z, y+3/4, x+3/4'
+'-z, -y+1/2, -x+1/2'
+'z+3/4, -y+1/2, x+5/4'
+'z+3/4, y+3/4, -x+1'
+'z, x+1/2, y+1/2'
+'-z+1/4, x+1, -y+5/4'
+'-z+1/4, -x+3/4, y+1/2'
+'z, -x+5/4, -y+5/4'
+'-x, -z+1/2, -y+1/2'
+'-x, z+5/4, y+5/4'
+'x+1/4, -z+1, y+5/4'
+'x+3/4, z+3/4, -y+1'
+'x+1/2, y, z+1/2'
+'x+1/2, -y+1/4, -z+3/4'
+'-x+5/4, -y+1/4, z+1'
+'-x+5/4, y, -z+5/4'
+'-y+1/2, x+1/4, z+3/4'
+'y+5/4, x+1/4, -z+1'
+'y+5/4, -x, z+5/4'
+'-y+1/2, -x, -z+1/2'
+'y+1/2, z, x+1/2'
+'-y+5/4, -z+1/4, x+1'
+'y+1/2, -z+1/4, -x+3/4'
+'-y+5/4, z, -x+5/4'
+'-z+1/2, y+1/4, x+3/4'
+'-z+1/2, -y, -x+1/2'
+'z+5/4, -y, x+5/4'
+'z+5/4, y+1/4, -x+1'
+'z+1/2, x, y+1/2'
+'-z+3/4, x+1/2, -y+5/4'
+'-z+3/4, -x+1/4, y+1/2'
+'z+1/2, -x+3/4, -y+5/4'
+'-x+1/2, -z, -y+1/2'
+'-x+1/2, z+3/4, y+5/4'
+'x+3/4, -z+1/2, y+5/4'
+'x+5/4, z+1/4, -y+1'
+'x+1/2, y+1/2, z'
+'x+1/2, -y+3/4, -z+1/4'
+'-x+5/4, -y+3/4, z+1/2'
+'-x+5/4, y+1/2, -z+3/4'
+'-y+1/2, x+3/4, z+1/4'
+'y+5/4, x+3/4, -z+1/2'
+'y+5/4, -x+1/2, z+3/4'
+'-y+1/2, -x+1/2, -z'
+'y+1/2, z+1/2, x'
+'-y+5/4, -z+3/4, x+1/2'
+'y+1/2, -z+3/4, -x+1/4'
+'-y+5/4, z+1/2, -x+3/4'
+'-z+1/2, y+3/4, x+1/4'
+'-z+1/2, -y+1/2, -x'
+'z+5/4, -y+1/2, x+3/4'
+'z+5/4, y+3/4, -x+1/2'
+'z+1/2, x+1/2, y'
+'-z+3/4, x+1, -y+3/4'
+'-z+3/4, -x+3/4, y'
+'z+1/2, -x+5/4, -y+3/4'
+'-x+1/2, -z+1/2, -y'
+'-x+1/2, z+5/4, y+3/4'
+'x+3/4, -z+1, y+3/4'
+'x+5/4, z+3/4, -y+1/2'
+'-x, -y, -z'
+'-x, y-1/4, z-1/4'
+'x-3/4, y-1/4, -z-1/2'
+'x-3/4, -y, z-3/4'
+'y, -x-1/4, -z-1/4'
+'-y-3/4, -x-1/4, z-1/2'
+'-y-3/4, x, -z-3/4'
+'y, x, z'
+'-y, -z, -x'
+'y-3/4, z-1/4, -x-1/2'
+'-y, z-1/4, x-1/4'
+'y-3/4, -z, x-3/4'
+'z, -y-1/4, -x-1/4'
+'z, y, x'
+'-z-3/4, y, -x-3/4'
+'-z-3/4, -y-1/4, x-1/2'
+'-z, -x, -y'
+'z-1/4, -x-1/2, y-3/4'
+'z-1/4, x-1/4, -y'
+'-z, x-3/4, y-3/4'
+'x, z, y'
+'x, -z-3/4, -y-3/4'
+'-x-1/4, z-1/2, -y-3/4'
+'-x-3/4, -z-1/4, y-1/2'
+'-x, -y+1/2, -z+1/2'
+'-x, y+1/4, z+1/4'
+'x-3/4, y+1/4, -z'
+'x-3/4, -y+1/2, z-1/4'
+'y, -x+1/4, -z+1/4'
+'-y-3/4, -x+1/4, z'
+'-y-3/4, x+1/2, -z-1/4'
+'y, x+1/2, z+1/2'
+'-y, -z+1/2, -x+1/2'
+'y-3/4, z+1/4, -x'
+'-y, z+1/4, x+1/4'
+'y-3/4, -z+1/2, x-1/4'
+'z, -y+1/4, -x+1/4'
+'z, y+1/2, x+1/2'
+'-z-3/4, y+1/2, -x-1/4'
+'-z-3/4, -y+1/4, x'
+'-z, -x+1/2, -y+1/2'
+'z-1/4, -x, y-1/4'
+'z-1/4, x+1/4, -y+1/2'
+'-z, x-1/4, y-1/4'
+'x, z+1/2, y+1/2'
+'x, -z-1/4, -y-1/4'
+'-x-1/4, z, -y-1/4'
+'-x-3/4, -z+1/4, y'
+'-x+1/2, -y, -z+1/2'
+'-x+1/2, y-1/4, z+1/4'
+'x-1/4, y-1/4, -z'
+'x-1/4, -y, z-1/4'
+'y+1/2, -x-1/4, -z+1/4'
+'-y-1/4, -x-1/4, z'
+'-y-1/4, x, -z-1/4'
+'y+1/2, x, z+1/2'
+'-y+1/2, -z, -x+1/2'
+'y-1/4, z-1/4, -x'
+'-y+1/2, z-1/4, x+1/4'
+'y-1/4, -z, x-1/4'
+'z+1/2, -y-1/4, -x+1/4'
+'z+1/2, y, x+1/2'
+'-z-1/4, y, -x-1/4'
+'-z-1/4, -y-1/4, x'
+'-z+1/2, -x, -y+1/2'
+'z+1/4, -x-1/2, y-1/4'
+'z+1/4, x-1/4, -y+1/2'
+'-z+1/2, x-3/4, y-1/4'
+'x+1/2, z, y+1/2'
+'x+1/2, -z-3/4, -y-1/4'
+'-x+1/4, z-1/2, -y-1/4'
+'-x-1/4, -z-1/4, y'
+'-x+1/2, -y+1/2, -z'
+'-x+1/2, y+1/4, z-1/4'
+'x-1/4, y+1/4, -z-1/2'
+'x-1/4, -y+1/2, z-3/4'
+'y+1/2, -x+1/4, -z-1/4'
+'-y-1/4, -x+1/4, z-1/2'
+'-y-1/4, x+1/2, -z-3/4'
+'y+1/2, x+1/2, z'
+'-y+1/2, -z+1/2, -x'
+'y-1/4, z+1/4, -x-1/2'
+'-y+1/2, z+1/4, x-1/4'
+'y-1/4, -z+1/2, x-3/4'
+'z+1/2, -y+1/4, -x-1/4'
+'z+1/2, y+1/2, x'
+'-z-1/4, y+1/2, -x-3/4'
+'-z-1/4, -y+1/4, x-1/2'
+'-z+1/2, -x+1/2, -y'
+'z+1/4, -x, y-3/4'
+'z+1/4, x+1/4, -y'
+'-z+1/2, x-1/4, y-3/4'
+'x+1/2, z+1/2, y'
+'x+1/2, -z-1/4, -y-3/4'
+'-x+1/4, z, -y-3/4'
+'-x-1/4, -z+1/4, y-1/2'
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_occupancy
+Fe Fe1 0.5 0.5 0.5 0.00795(17) Uani d 0.678(4)
+Li Li1 0.5 0.5 0.5 0.00795(17) Uani d 0.322(4)
+Fe Fe2 0.125 0.125 0.125 0.00573(17) Uani d 0.795(3)
+Ge Ge2 0.125 0.125 0.125 0.00573(17) Uani d 0.205(3)
+O O2 0.25434(14) 0.25434(14) 0.25434(14) 0.0095(3) Uani d 1
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Fe1 0.00795(17) 0.00795(17) 0.00795(17) -0.00100(11) -0.00100(11) -0.00100(11)
+Li1 0.00795(17) 0.00795(17) 0.00795(17) -0.00100(11) -0.00100(11) -0.00100(11)
+Fe2 0.00573(17) 0.00573(17) 0.00573(17) 0 0 0
+Ge2 0.00573(17) 0.00573(17) 0.00573(17) 0 0 0
+O2 0.0095(3) 0.0095(3) 0.0095(3) 0.0010(3) 0.0010(3) 0.0010(3)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Li Li -0.0003 0.0001 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0106 0.006 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Fe Fe 0.3463 0.8444 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ge Ge 0.1547 1.8001 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+O2 Fe1 O2 123_656 27_554 180
+O2 Fe1 O2 123_656 100_666 87.96(7)
+O2 Fe1 O2 27_554 100_666 92.04(7)
+O2 Fe1 O2 123_656 4 92.04(7)
+O2 Fe1 O2 27_554 4 87.96(7)
+O2 Fe1 O2 100_666 4 180
+O2 Fe1 O2 123_656 122_655 87.96(7)
+O2 Fe1 O2 27_554 122_655 92.04(7)
+O2 Fe1 O2 100_666 122_655 87.96(7)
+O2 Fe1 O2 4 122_655 92.04(7)
+O2 Fe1 O2 123_656 26 92.04(7)
+O2 Fe1 O2 27_554 26 87.96(7)
+O2 Fe1 O2 100_666 26 92.04(7)
+O2 Fe1 O2 4 26 87.96(7)
+O2 Fe1 O2 122_655 26 180.00(7)
+O2 Fe2 O2 52_454 2 109.5
+O2 Fe2 O2 52_454 51_454 109.5
+O2 Fe2 O2 2 51_454 109.5
+O2 Fe2 O2 52_454 . 109.4710(10)
+O2 Fe2 O2 2 . 109.5
+O2 Fe2 O2 51_454 . 109.4710(10)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+Fe1 O2 123_656 2.0373(11)
+Fe1 O2 27_554 2.0373(11)
+Fe1 O2 100_666 2.0373(11)
+Fe1 O2 4 2.0373(11)
+Fe1 O2 122_655 2.0373(11)
+Fe1 O2 26 2.0373(11)
+Fe1 Fe1 27_554 2.93106(11)
+Fe2 O2 52_454 1.857(2)
+Fe2 O2 2 1.857(2)
+Fe2 O2 51_454 1.857(2)
+Fe2 O2 . 1.857(2)
+
+_cod_database_fobs_code 2241605

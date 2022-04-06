@@ -1,0 +1,420 @@
+#------------------------------------------------------------------------------
+#$Date: 2018-06-25 18:52:59 +0300 (Mon, 25 Jun 2018) $
+#$Revision: 208623 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/54/95/1549599.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1549599
+loop_
+_publ_author_name
+'Klar, Paul Benjamin'
+'Etxebarria, I\~nigo'
+'Madariaga, Gotzon'
+_publ_section_title
+;
+ Exploiting superspace to clarify vacancy and Al/Si ordering in mullite
+;
+_journal_coeditor_code           GQ5008
+_journal_issue                   4
+_journal_name_full               IUCrJ
+_journal_page_first
+;
+;
+_journal_paper_doi               10.1107/S2052252518007467
+_journal_volume                  5
+_journal_year                    2018
+_chemical_formula_sum            'Al4.832 O9.584 Si1.168'
+_chemical_formula_weight         316.5
+_chemical_name_common            Mullite
+_space_group_IT_number           55
+_space_group_ssg_name            Pbam(\a01/2)0ss
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2 2ab'
+_symmetry_space_group_name_H-M   'P b a m'
+_audit_creation_method           'Jana2006 Version : 20/11/2017'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            1
+_cell_length_a                   7.577(2)
+_cell_length_b                   7.6727(18)
+_cell_length_c                   2.8804(10)
+_cell_measurement_reflns_used    1568
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      31.98
+_cell_measurement_theta_min      4.06
+_cell_modulation_dimension       1
+_cell_volume                     167.46(8)
+_computing_cell_refinement       'CrysAlisPro 1.171.38.46 (Rigaku OD, 2015)'
+_computing_data_collection       'CrysAlisPro 1.171.38.46 (Rigaku OD, 2015)'
+_computing_data_reduction        'CrysAlisPro 1.171.38.46 (Rigaku OD, 2015)'
+_computing_structure_refinement  Jana2006
+_diffrn_ambient_temperature      293
+_diffrn_detector                 'CCD plate'
+_diffrn_measured_fraction_theta_full 0.96
+_diffrn_measured_fraction_theta_max 0.9
+_diffrn_measurement_device       'four-circle diffractometer'
+_diffrn_measurement_device_type
+'dectris-CrysAlisPro-abstract goniometer imported dectris images'
+_diffrn_measurement_method       '\w scans'
+_diffrn_radiation_monochromator  synchrotron
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_type           synchrotron
+_diffrn_radiation_wavelength     0.7231
+_diffrn_reflns_av_R_equivalents  0.0195
+_diffrn_reflns_av_unetI/netI     0.0051
+_diffrn_reflns_limit_h_max       10
+_diffrn_reflns_limit_h_min       -10
+_diffrn_reflns_limit_index_m_1_max 1
+_diffrn_reflns_limit_index_m_1_min -1
+_diffrn_reflns_limit_k_max       10
+_diffrn_reflns_limit_k_min       -10
+_diffrn_reflns_limit_l_max       4
+_diffrn_reflns_limit_l_min       -4
+_diffrn_reflns_number            3079
+_diffrn_reflns_theta_full        21.76
+_diffrn_reflns_theta_max         31.87
+_diffrn_reflns_theta_min         4.08
+_diffrn_source                   synchrotron
+_exptl_absorpt_coefficient_mu    1.082
+_exptl_absorpt_correction_T_max  1
+_exptl_absorpt_correction_T_min  0.761
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details
+;
+CrysAlisPro 1.171.38.46 (Rigaku Oxford Diffraction, 2015)
+Empirical absorption correction using spherical harmonics,
+ implemented in SCALE3 ABSPACK scaling algorithm.
+;
+_exptl_crystal_density_diffrn    3.1387
+_exptl_crystal_description       'irregularly shaped block'
+_exptl_crystal_F_000             156
+_refine_diff_density_max         0.35
+_refine_diff_density_min         -0.39
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_gt    1.27
+_refine_ls_goodness_of_fit_ref   1.08
+_refine_ls_number_constraints    33
+_refine_ls_number_parameters     101
+_refine_ls_number_reflns         768
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          0.0347
+_refine_ls_R_factor_gt           0.0312
+_refine_ls_shift/su_max          0.0004
+_refine_ls_shift/su_mean         0.0000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details     w=1/(\s^2^(I)+0.0035999999I^2^)
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_gt          0.0846
+_refine_ls_wR_factor_ref         0.0885
+_reflns_number_gt                544
+_reflns_number_total             768
+_reflns_threshold_expression     I>3\s(I)
+_cod_data_source_file            gq5008.cif
+_cod_data_source_block           SA2
+_cod_database_code               1549599
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 -x,-y,z
+3 -x+0.5,y+0.5,-z
+4 x+0.5,-y+0.5,-z
+5 -x,-y,-z
+6 x,y,-z
+7 x+0.5,-y+0.5,z
+8 -x+0.5,y+0.5,z
+loop_
+_space_group_symop_ssg_id
+_space_group_symop_ssg_operation_algebraic
+1 x1,x2,x3,x4
+2 -x1,-x2,x3,x3-x4+1/2
+3 -x1+1/2,x2+1/2,-x3,-x4+1/2
+4 x1+1/2,-x2+1/2,-x3,-x3+x4
+5 -x1,-x2,-x3,-x4
+6 x1,x2,-x3,-x3+x4+1/2
+7 x1+1/2,-x2+1/2,x3,x4+1/2
+8 -x1+1/2,x2+1/2,x3,x3-x4
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_adp_type
+_atom_site_U_iso_or_equiv
+_atom_site_site_symmetry_multiplicity
+_atom_site_occupancy
+_atom_site_calc_flag
+Al1 Al 0 0 0 Uani 0.00863(17) 2 1 d
+Al2 Al 0.14885(5) 0.33985(4) 0.5 Uani 0.00933(17) 4 0.5 d
+Si2 Si 0.14885(5) 0.33985(4) 0.5 Uani 0.00933(17) 4 0.2920(19) d
+Al3 Al 0.2626(2) 0.2043(2) 0.5 Uani 0.0086(4) 4 0.2080(19) d
+O1 O 0.35912(10) 0.42179(11) 0.5 Uani 0.0151(2) 4 1 d
+O2 O 0.12766(11) 0.21705(13) 0 Uani 0.0161(2) 4 1 d
+O3 O 0 0.5 0.5 Uani 0.0196(19) 2 0.376(6) d
+O4 O 0.4483(9) 0.0466(9) 0.5 Uani 0.0114(17) 4 0.2080(19) d
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_type_symbol
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Al1 Al 0.0085(3) 0.0089(3) 0.0085(3) 0.00056(12) 0 0
+Al2 Al 0.0070(3) 0.0107(3) 0.0102(3) -0.00055(10) 0 0
+Si2 Si 0.0070(3) 0.0107(3) 0.0102(3) -0.00055(10) 0 0
+Al3 Al 0.0066(7) 0.0109(8) 0.0084(7) 0.0005(5) 0 0
+O1 O 0.0147(4) 0.0221(4) 0.0086(4) -0.0079(3) 0 0
+O2 O 0.0159(4) 0.0173(4) 0.0150(4) -0.0072(3) 0 0
+O3 O 0.008(4) 0.019(4) 0.0317(18) 0.0023(18) 0 0
+O4 O 0.005(4) 0.011(3) 0.0182(18) 0.0004(12) 0 0
+loop_
+_atom_site_displace_Fourier_atom_site_label
+_atom_site_displace_Fourier_axis
+_atom_site_displace_Fourier_wave_vector_seq_id
+_atom_site_displace_Fourier_param_cos
+_atom_site_displace_Fourier_param_sin
+Al1 x 1 0 0
+Al1 y 1 0 0
+Al1 z 1 0 -0.00305(6)
+Al2 x 1 0.00037(2) -0.00084(2)
+Al2 y 1 -0.00012(2) -0.00096(2)
+Al2 z 1 0 0
+Si2 x 1 0.00037(2) -0.00084(2)
+Si2 y 1 -0.00012(2) -0.00096(2)
+Si2 z 1 0 0
+Al3 x 1 0.00063(11) -0.00064(9)
+Al3 y 1 -0.00008(10) -0.00081(9)
+Al3 z 1 0 0
+O1 x 1 -0.00121(4) -0.00157(4)
+O1 y 1 0.00276(4) 0.00164(4)
+O1 z 1 0 0
+O2 x 1 0 0
+O2 y 1 0 0
+O2 z 1 -0.00431(11) -0.00194(10)
+O3 x 1 0 -0.0017(3)
+O3 y 1 0 0.0018(3)
+O3 z 1 0 0
+O4 x 1 -0.0014(6) 0.0004(4)
+O4 y 1 -0.0008(6) -0.0013(4)
+O4 z 1 0 0
+loop_
+_atom_site_Fourier_wave_vector_seq_id
+_jana_atom_site_fourier_wave_vector_q1_coeff
+1 1
+loop_
+_atom_site_occ_Fourier_atom_site_label
+_atom_site_occ_Fourier_wave_vector_seq_id
+_atom_site_occ_Fourier_param_cos
+_atom_site_occ_Fourier_param_sin
+Al2 1 0.0341(3) 0.00987(8)
+Si2 1 0.0341(3) 0.00987(8)
+Al3 1 -0.0625(5) -0.0339(3)
+O3 1 -0.01212(10) 0
+O4 1 -0.0470(4) -0.0533(5)
+loop_
+_atom_site_U_Fourier_atom_site_label
+_atom_site_U_Fourier_tens_elem
+_atom_site_U_Fourier_wave_vector_seq_id
+_atom_site_U_Fourier_param_cos
+_atom_site_U_Fourier_param_sin
+Al1 U11 1 0 0
+Al1 U22 1 0 0
+Al1 U33 1 0 0
+Al1 U12 1 0 0
+Al1 U13 1 0.00017(6) 0
+Al1 U23 1 -0.00011(7) 0
+Al2 U11 1 -0.00021(8) 0.00017(7)
+Al2 U22 1 -0.00026(8) 0.00118(8)
+Al2 U33 1 0.00094(8) 0.00039(7)
+Al2 U12 1 0.00012(6) -0.00004(6)
+Al2 U13 1 0 0
+Al2 U23 1 0 0
+Si2 U11 1 -0.00021(8) 0.00017(7)
+Si2 U22 1 -0.00026(8) 0.00118(8)
+Si2 U33 1 0.00094(8) 0.00039(7)
+Si2 U12 1 0.00012(6) -0.00004(6)
+Si2 U13 1 0 0
+Si2 U23 1 0 0
+Al3 U11 1 0.0008(4) 0.0005(3)
+Al3 U22 1 0.0009(4) 0.0003(4)
+Al3 U33 1 -0.0013(4) -0.0007(3)
+Al3 U12 1 0.0003(3) -0.0005(3)
+Al3 U13 1 0 0
+Al3 U23 1 0 0
+O1 U11 1 -0.00058(17) -0.00062(17)
+O1 U22 1 0.00012(18) 0.00009(18)
+O1 U33 1 0.00028(13) 0.00023(14)
+O1 U12 1 0.00069(14) 0.00071(13)
+O1 U13 1 0 0
+O1 U23 1 0 0
+O2 U11 1 0 0
+O2 U22 1 0 0
+O2 U33 1 0 0
+O2 U12 1 0 0
+O2 U13 1 -0.00013(12) -0.00004(12)
+O2 U23 1 -0.00021(13) -0.00020(13)
+O3 U11 1 -0.001(3) 0
+O3 U22 1 0.000(2) 0
+O3 U33 1 0.0044(10) 0
+O3 U12 1 0 0
+O3 U13 1 0 0
+O3 U23 1 0 0
+O4 U11 1 -0.001(2) -0.0014(15)
+O4 U22 1 0.0004(18) -0.0008(12)
+O4 U33 1 -0.0015(10) -0.0022(9)
+O4 U12 1 0 0
+O4 U13 1 0 0
+O4 U23 1 0 0
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Al 0.0680 0.0545 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+O 0.0119 0.0065 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+Si 0.0865 0.0746 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+loop_
+_cell_wave_vector_seq_id
+_cell_wave_vector_x
+_cell_wave_vector_y
+_cell_wave_vector_z
+1 0.301000 0.000000 0.500000
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_ssg_symmetry_1
+_geom_angle_site_ssg_symmetry_3
+_geom_angle_av
+_geom_angle_min
+_geom_angle_max
+Al1 Al1 Al1 1_5545 1_5565 180.0(5) 180.0(5) 180.0(5)
+Al1 Al1 Al3 1_5545 1_5545 60.38(2) 60.21(2) 60.54(2)
+Al1 Al1 Al3 1_5545 . 119.62(2) 119.46(2) 119.79(2)
+Al1 Al1 Al3 1_5545 2_5545 60.38(2) 60.21(2) 60.54(2)
+Al1 Al1 Al3 1_5545 2_5555 119.62(2) 119.46(2) 119.79(2)
+Al1 Al1 Al3 1_5565 1_5545 119.62(2) 119.46(2) 119.79(2)
+Al1 Al1 Al3 1_5565 . 60.38(2) 60.21(2) 60.54(2)
+Al1 Al1 Al3 1_5565 2_5545 119.62(2) 119.46(2) 119.79(2)
+Al1 Al1 Al3 1_5565 2_5555 60.38(2) 60.21(2) 60.54(2)
+Al3 Al1 Al3 1_5545 . 59.25(3) 59.25(3) 59.25(3)
+Al3 Al1 Al3 1_5545 2_5545 120.75(3) 120.47(3) 121.04(3)
+Al3 Al1 Al3 1_5545 2_5555 179.80(12) 179.67(3) 180.0(5)
+Al3 Al1 Al3 . 2_5545 179.80(12) 179.67(3) 180.0(5)
+Al3 Al1 Al3 . 2_5555 120.75(3) 120.47(3) 121.04(3)
+Al3 Al1 Al3 2_5545 2_5555 59.25(3) 59.25(3) 59.25(3)
+Al2 Al2 Al2 1_5545 1_5565 179.461(19) 179.223(19) 179.784(19)
+Al2 Al2 Si2 1_5545 . 0 0 0
+Al2 Al2 Al3 1_5545 . 90.000(11) 89.881(11) 90.119(11)
+Al2 Al2 Al3 1_5545 3_5565 89.996(10) 89.656(10) 90.343(10)
+Al2 Al2 Al3 1_5545 4_4565 90.003(12) 89.698(12) 90.302(12)
+Al2 Al2 O3 1_5545 . 89.999(11) 89.888(11) 90.112(11)
+Al2 Al2 Si2 1_5565 . 0 0 0
+Al2 Al2 Al3 1_5565 . 90.000(11) 89.881(11) 90.119(11)
+Al2 Al2 Al3 1_5565 3_5565 89.996(10) 89.656(10) 90.343(10)
+Al2 Al2 Al3 1_5565 4_4565 90.003(12) 89.698(12) 90.302(12)
+Al2 Al2 O3 1_5565 . 89.999(11) 89.888(11) 90.112(11)
+Si2 Al2 Al3 . . 0 0 0
+Si2 Al2 Al3 . 3_5565 0 0 0
+Si2 Al2 Al3 . 4_4565 0 0 0
+Si2 Al2 O3 . . 0 0 0
+Al3 Al2 Al3 . 3_5565 126.87(9) 126.61(9) 127.13(9)
+Al3 Al2 Al3 . 4_4565 123.04(9) 122.90(8) 123.19(8)
+Al3 Al2 O3 . . 177.09(12) 176.71(12) 177.46(12)
+Al3 Al2 Al3 3_5565 4_4565 110.09(5) 109.91(5) 110.26(5)
+Al3 Al2 O3 3_5565 . 56.04(9) 55.89(9) 56.20(9)
+Al3 Al2 O3 4_4565 . 54.05(9) 53.72(9) 54.37(9)
+Al2 Si2 Al3 . . 0 0 0
+Al2 Si2 O3 . . 0 0 0
+Al3 Si2 O3 . . 177.09(12) 176.71(12) 177.46(12)
+Al1 Al3 Al1 . 1_5565 59.25(4) 58.92(4) 59.58(4)
+Al1 Al3 Al2 . . 88.77(8) 88.67(8) 88.88(8)
+Al1 Al3 Al2 . 3_5465 68.68(4) 68.47(4) 68.88(4)
+Al1 Al3 Al2 . 4_5565 128.07(5) 127.98(5) 128.16(5)
+Al1 Al3 Si2 . . 88.77(8) 88.67(8) 88.88(8)
+Al1 Al3 Al3 . 1_5545 60.38(4) 60.07(4) 60.68(4)
+Al1 Al3 Al3 . 1_5565 119.63(6) 119.20(6) 120.05(6)
+Al1 Al3 Al2 1_5565 . 88.77(8) 88.67(8) 88.88(8)
+Al1 Al3 Al2 1_5565 3_5465 68.68(4) 68.47(4) 68.88(4)
+Al1 Al3 Al2 1_5565 4_5565 128.07(5) 127.98(5) 128.16(5)
+Al1 Al3 Si2 1_5565 . 88.77(8) 88.67(8) 88.88(8)
+Al1 Al3 Al3 1_5565 1_5545 119.63(6) 119.20(6) 120.05(6)
+Al1 Al3 Al3 1_5565 1_5565 60.38(4) 60.07(4) 60.68(4)
+Al2 Al3 Al2 . 3_5465 153.86(11) 153.71(11) 154.00(11)
+Al2 Al3 Al2 . 4_5565 136.23(10) 136.14(10) 136.33(10)
+Al2 Al3 Si2 . . 0.0(5) 0.0(5) 0.0(5)
+Al2 Al3 Al3 . 1_5545 90.00(5) 89.85(5) 90.15(5)
+Al2 Al3 Al3 . 1_5565 90.00(5) 89.85(5) 90.15(5)
+Al2 Al3 Al2 3_5465 4_5565 69.91(4) 69.74(4) 70.08(4)
+Al2 Al3 Si2 3_5465 . 153.86(11) 153.71(11) 154.00(11)
+Al2 Al3 Al3 3_5465 1_5545 90.00(5) 89.79(5) 90.21(5)
+Al2 Al3 Al3 3_5465 1_5565 90.00(5) 89.79(5) 90.21(5)
+Al2 Al3 Si2 4_5565 . 136.23(10) 136.14(10) 136.33(10)
+Al2 Al3 Al3 4_5565 1_5545 90.00(5) 89.75(5) 90.25(5)
+Al2 Al3 Al3 4_5565 1_5565 90.00(5) 89.75(5) 90.25(5)
+Si2 Al3 Al3 . 1_5545 90.00(5) 89.85(5) 90.15(5)
+Si2 Al3 Al3 . 1_5565 90.00(5) 89.85(5) 90.15(5)
+Al3 Al3 Al3 1_5545 1_5565 179.50(9) 179.34(8) 179.69(9)
+Al2 O3 Al2 . 2_5655 179.60(14) 179.37(17) 180.0(5)
+Al2 O3 Si2 . . 0.0(5) 0.0(5) 0.0(5)
+Al2 O3 Si2 . 2_5655 179.60(14) 179.37(17) 180.0(5)
+Al2 O3 O4 . 3_5565 89.8(8) 87.1(9) 92.5(8)
+Al2 O3 O4 . 4_4565 90.2(8) 86.9(9) 93.5(9)
+Al2 O3 Si2 2_5655 . 179.60(14) 179.37(17) 180.0(5)
+Al2 O3 Si2 2_5655 2_5655 0.0(5) 0.0(5) 0.0(5)
+Al2 O3 O4 2_5655 3_5565 90.2(8) 86.9(9) 93.5(9)
+Al2 O3 O4 2_5655 4_4565 89.8(8) 87.1(9) 92.5(8)
+Si2 O3 Si2 . 2_5655 179.60(14) 179.37(17) 180.0(5)
+Si2 O3 O4 . 3_5565 89.8(8) 87.1(9) 92.5(8)
+Si2 O3 O4 . 4_4565 90.2(8) 86.9(9) 93.5(9)
+Si2 O3 O4 2_5655 3_5565 90.2(8) 86.9(9) 93.5(9)
+Si2 O3 O4 2_5655 4_4565 89.8(8) 87.1(9) 92.5(8)
+O4 O3 O4 3_5565 4_4565 176.5(12) 174.6(13) 180.0(5)
+O3 O4 O4 3_5465 2_6555 1.7(6) 0.0(5) 2.8(7)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_ssg_symmetry_2
+_geom_bond_distance_av
+_geom_bond_distance_min
+_geom_bond_distance_max
+Al1 Al1 1_5545 2.88040(12) 2.8628(2) 2.8980(2)
+Al1 Al1 1_5565 2.88040(12) 2.8628(2) 2.8980(2)
+Al1 Al3 1_5545 2.9137(18) 2.9049(18) 2.9224(18)
+Al1 Al3 . 2.9135(18) 2.9049(18) 2.9224(18)
+Al1 Al3 2_5545 2.9135(18) 2.9049(18) 2.9224(18)
+Al1 Al3 2_5555 2.9137(18) 2.9049(18) 2.9224(18)
+Al2 Al2 1_5545 2.880436(3) 2.880405(4) 2.880466(4)
+Al2 Al2 1_5565 2.880436(3) 2.880405(4) 2.880466(4)
+Al2 Si2 . 0 0 0
+Al2 Al3 . 1.3510(18) 1.3496(18) 1.3525(18)
+Al2 Al3 3_5565 2.8754(17) 2.8716(18) 2.8790(18)
+Al2 Al3 4_4565 2.946(3) 2.935(3) 2.957(3)
+Al2 O3 . 1.6681(15) 1.648(3) 1.687(3)
+Si2 Al3 . 1.3510(18) 1.3496(18) 1.3525(18)
+Si2 O3 . 1.6681(15) 1.648(3) 1.687(3)
+Al3 Al3 1_5545 2.880430(11) 2.880410(14) 2.880448(14)
+Al3 Al3 1_5565 2.880430(11) 2.880410(14) 2.880448(14)
+O3 O4 3_5565 0.530(8) 0.521(9) 0.539(9)
+O3 O4 4_4565 0.530(8) 0.521(9) 0.539(9)
+O4 O4 2_6555 1.060(11) 1.051(12) 1.069(12)
+loop_
+_jana_atom_site_occ_fourier_absolute_site_label
+_jana_atom_site_occ_fourier_absolute
+Al2 0.5
+Si2 0.2920(19)
+Al3 0.2080(19)
+O3 0.376(6)
+O4 0.2080(19)

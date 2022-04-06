@@ -1,0 +1,7 @@
+#!/bin/bash
+./anion_radius_histogram.py N >& APfigN.log
+echo 'end of APfigN'
+./anion_radius_histogram.py F >& APfigF.log
+echo 'end of APfigF'
+./anion_radius_histogram.py O >& APfigO.log
+echo 'end of APfigO'

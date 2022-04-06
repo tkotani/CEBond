@@ -1,0 +1,242 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/53/2005338.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2005338
+loop_
+_publ_author_name
+'Bell, A. M. T.'
+'Henderson, C. M. B.'
+_publ_section_title
+;
+ Rietveld Refinement of the Orthorhombic <i>Pbca</i> Structures of
+ Rb~2~CdSi~5~O~12~, Cs~2~MnSi~5~O~12~, Cs~2~CoSi~5~O~12~ , and
+ Cs~2~NiSi~5~O~12~ Leucites by Synchrotron X-ray Powder Diffraction
+;
+_journal_issue                   9
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              2132
+_journal_page_last               2139
+_journal_paper_doi               10.1107/S0108270196003162
+_journal_volume                  52
+_journal_year                    1996
+_chemical_formula_moiety         'Cs2 Ni Si5 O12'
+_chemical_formula_sum            'Cs2 Ni O12 Si5'
+_chemical_formula_weight         656.94
+_chemical_name_systematic        ' ?'
+_space_group_IT_number           61
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2ac 2ab'
+_symmetry_space_group_name_H-M   'P b c a'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            8
+_cell_length_a                   13.6147(3)
+_cell_length_b                   13.6568(5)
+_cell_length_c                   13.6583(5)
+_cell_measurement_temperature    293
+_cell_volume                     2539.53(14)
+_computing_cell_refinement
+' PDPL-refcel program (Murray, Cockcroft & Fitch, 1990)'
+_computing_data_collection       'In house software'
+_computing_molecular_graphics    'CERIUS (Molecular Simulations Inc., 1994)'
+_computing_structure_refinement
+' PDPL-mprof Rietveld program (Murray, Cockcroft & Fitch, 1990)'
+_diffrn_ambient_temperature      293
+_diffrn_measurement_device
+'high resolution powder diffractometer, SRS station 9.1'
+_diffrn_radiation_monochromator  'silicon 1 1 1'
+_diffrn_radiation_source         'Daresbury SRS 5T wiggler magnet'
+_diffrn_radiation_type           synchrotron
+_diffrn_radiation_wavelength     0.99820
+_exptl_crystal_colour            purple-blue
+_exptl_crystal_density_diffrn    3.437
+_exptl_crystal_description       powder
+_refine_ls_goodness_of_fit_obs
+; 11.810. Some unknown impurity phases are present in this material,
+impurity reflections were excluded from the refinement. It is
+possible that some other impurity reflections were overlapping the
+Cs~2~NiSi~5~O~12~ reflections and therefore the peak shape fit
+would not be quite as good as expected
+;
+_refine_ls_number_constraints    24
+_refine_ls_number_parameters     75
+_refine_ls_number_reflns         888
+_refine_ls_restrained_S_obs      0.027
+_refine_ls_R_factor_obs          0.057
+_refine_ls_weighting_scheme
+'normalisation factor/profile intensity + Background'
+_refine_ls_wR_factor_obs         0.091
+_cod_data_source_file            br1125.cif
+_cod_data_source_block           Cs2NiSi5O12
+_cod_original_cell_volume        2539.50(10)
+_cod_original_formula_sum        'Cs2 Ni Si5 O12'
+_cod_database_code               2005338
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+0.5+x,0.5-y,-z
+-x,0.5+y,0.5-z
+0.5-x,-y,0.5+z
+-x,-y,-z
+0.5-x,0.5+y,z
+x,0.5-y,0.5+z
+0.5+x,y,0.5-z
+loop_
+_atom_site_label
+_atom_site_occupancy
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_B_iso_or_equiv
+Cs1 1.000 0.131(1) 0.1306(8) 0.1446(6) 4.78(8)
+Cs2 1.000 0.377(1) 0.3848(7) 0.3853(7) 4.78(8)
+Ni1 1.000 0.378(2) 0.838(1) 0.928(1) 4.5(4)
+Si2 1.000 0.124(3) 0.672(2) 0.596(2) 2.0(2)
+Si3 1.000 0.584(2) 0.117(2) 0.635(2) 2.0(2)
+Si4 1.000 0.646(2) 0.596(2) 0.112(2) 2.0(2)
+Si5 1.000 0.916(2) 0.385(2) 0.820(2) 2.0(2)
+Si6 1.000 0.831(2) 0.913(2) 0.355(2) 2.0(2)
+O1 1.000 0.465(2) 0.368(4) 0.164(3) 1.0(3)
+O2 1.000 0.125(5) 0.487(2) 0.416(3) 1.0(3)
+O3 1.000 0.401(4) 0.152(4) 0.481(3) 1.0(3)
+O4 1.000 0.737(2) 0.397(4) 0.617(4) 1.0(3)
+O5 1.000 0.618(4) 0.711(2) 0.380(3) 1.0(3)
+O6 1.000 0.359(3) 0.624(4) 0.754(2) 1.0(3)
+O7 1.000 0.970(3) 0.891(4) 0.660(4) 1.0(3)
+O8 1.000 0.663(3) 0.968(2) 0.849(3) 1.0(3)
+O9 1.000 0.906(3) 0.618(4) 0.943(2) 1.0(3)
+O10 1.000 0.215(3) 0.890(4) 0.145(4) 1.0(3)
+O11 1.000 0.141(3) 0.201(2) 0.937(3) 1.0(3)
+O12 1.000 0.919(3) 0.138(3) 0.203(2) 1.0(3)
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Cs 0 0 International_Tables_Vol_IV_Table_2.3.1
+Ni 0 0 International_Tables_Vol_IV_Table_2.3.1
+Si 0 0 International_Tables_Vol_IV_Table_2.3.1
+O 0 0 International_Tables_Vol_IV_Table_2.3.1
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O4 Ni1 O7 3_656 1_555 8_456 100(2) yes
+O4 Ni1 O9 3_656 1_555 2_467 110(2) yes
+O4 Ni1 O11 3_656 1_555 6_555 110(2) yes
+O7 Ni1 O9 8_456 1_555 2_467 110(2) yes
+O7 Ni1 O11 8_456 1_555 6_555 121(2) yes
+O9 Ni1 O11 2_467 1_555 6_555 106(2) yes
+O1 Si2 O3 4_565 1_555 6_555 110(3) yes
+O1 Si2 O5 4_565 1_555 2_466 100(3) yes
+O1 Si2 O10 4_565 1_555 7_565 99(3) yes
+O3 Si2 O10 6_555 1_555 2_466 118(3) yes
+O5 Si2 O10 6_555 1_555 7_565 117(3) yes
+O3 Si2 O5 2_466 1_555 7_565 110(3) yes
+O1 Si3 O2 7_555 1_555 2_556 122(3) yes
+O1 Si3 O6 7_555 1_555 3_646 103(2) yes
+O1 Si3 O11 7_555 1_555 8_556 120(3) yes
+O2 Si3 O6 2_556 1_555 3_646 106(2) yes
+O2 Si3 O11 2_556 1_555 8_556 100(2) yes
+O6 Si3 O11 3_646 1_555 8_556 105(2) yes
+O2 Si4 O3 8_555 1_555 3_665 100(3) yes
+O2 Si4 O4 8_555 1_555 4_664 103(2) yes
+O2 Si4 O12 8_555 1_555 6_655 114(3) yes
+O3 Si4 O4 3_655 1_555 4_664 115(3) yes
+O3 Si4 O12 3_655 1_555 6_655 104(2) yes
+O4 Si4 O12 4_664 1_555 6_655 120(3) yes
+O5 Si5 O7 4_665 1_555 3_746 103(3) yes
+O5 Si5 O8 4_665 1_555 6_645 105(2) yes
+O5 Si5 O12 4_665 1_555 7_555 111(3) yes
+O7 Si5 O8 3_746 1_555 6_645 125(3) yes
+O7 Si5 O12 3_746 1_555 7_555 99(3) yes
+O8 Si5 O12 6_645 1_555 7_555 113(3) yes
+O6 Si6 O8 2_566 1_555 4_674 105(3) yes
+O6 Si6 O9 2_566 1_555 7_564 117(2) yes
+O6 Si6 O10 2_566 1_555 8_555 99(3) yes
+O8 Si6 O9 4_674 1_555 7_564 106(3) yes
+O8 Si6 O10 4_674 1_555 8_555 104(3) yes
+O9 Si6 O10 7_564 1_555 8_555 125(3) yes
+Si2 O1 Si3 4_564 1_555 7_554 129(3) yes
+Si3 O2 Si4 2_456 1_555 8_455 140(3) yes
+Si2 O3 Si4 6_545 1_555 3_645 139(3) yes
+Ni1 O4 Si4 3_646 1_555 4_665 147(3) yes
+Si2 O5 Si5 2_566 1_555 4_664 156(3) yes
+Si3 O6 Si6 3_656 1_555 2_466 155(4) yes
+Ni1 O7 Si5 8_556 1_555 3_756 138(3) yes
+Si5 O8 Si6 6_655 1_555 4_675 138(3) yes
+Ni1 O9 Si6 2_567 1_555 7_565 129(2) yes
+Si2 O10 Si6 7_564 1_555 8_455 147(4) yes
+Ni1 O11 Si3 6_545 1_555 8_456 124(3) yes
+Si4 O12 Si5 6_645 1_555 7_554 133(3) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Ni1 O4 3_656 1.87(4) yes
+Ni1 O7 8_456 1.88(5) yes
+Ni1 O9 2_467 1.89(4) yes
+Ni1 O11 6_555 1.89(3) yes
+Si2 O1 4_565 1.62(5) yes
+Si2 O3 6_555 1.63(5) yes
+Si2 O5 2_466 1.63(4) yes
+Si2 O10 7_565 1.64(6) yes
+Si3 O1 7_555 1.68(4) yes
+Si3 O2 2_556 1.67(5) yes
+Si3 O6 3_646 1.71(4) yes
+Si3 O11 8_556 1.71(4) yes
+Si4 O2 8_555 1.60(4) yes
+Si4 O3 3_655 1.60(5) yes
+Si4 O4 4_664 1.59(4) yes
+Si4 O12 6_655 1.62(5) yes
+Si5 O5 4_665 1.61(5) yes
+Si5 O7 3_746 1.59(5) yes
+Si5 O8 6_645 1.62(5) yes
+Si5 O12 7_555 1.62(4) yes
+Si6 O6 2_566 1.62(5) yes
+Si6 O8 4_674 1.63(4) yes
+Si6 O9 7_564 1.63(5) yes
+Si6 O10 8_555 1.62(5) yes
+Cs1 O1 6_545 3.83(6) yes
+Cs1 O2 3_545 3.50(4) yes
+Cs1 O3 8_455 3.58(5) yes
+Cs1 O4 2_456 3.58(5) yes
+Cs1 O5 3_645 3.61(5) yes
+Cs1 O6 4_564 3.67(5) yes
+Cs1 O7 5_666 3.02(5) yes
+Cs1 O8 5_666 3.11(4) yes
+Cs1 O9 5_666 3.67(5) yes
+Cs1 O10 1_545 3.48(6) yes
+Cs1 O11 1_554 2.99(4) yes
+Cs1 O12 1_455 3.00(5) yes
+Cs2 O1 1_555 3.26(5) yes
+Cs2 O2 1_555 3.73(6) yes
+Cs2 O3 1_555 3.45(5) yes
+Cs2 O4 5_666 3.36(5) yes
+Cs2 O5 5_666 3.47(4) yes
+Cs2 O6 4_564 3.68(5) yes
+Cs2 O7 2_466 3.37(6) yes
+Cs2 O8 3_646 3.85(4) yes
+Cs2 O9 4_664 3.06(4) yes
+Cs2 O10 6_545 3.51(6) yes
+Cs2 O11 7_554 3.49(5) yes
+Cs2 O12 8_455 3.63(5) yes

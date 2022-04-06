@@ -1,0 +1,258 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/04/2100427.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2100427
+loop_
+_publ_author_name
+'Sch\"onleber, Andreas'
+'Z\'u\~niga, F. Javier'
+'Perez-Mato, J. Manuel'
+'Darriet, Jacques'
+'zur Loye, Hans-Conrad'
+_publ_section_title
+;
+ Description of Ba~1+<i>x~</i>Ni~<i>x~</i>Rh~1{-~<i>x</i>}O~3~ with
+ <i>x</i> = 0.1170(5) in superspace: modulated composite <i>versus</i>
+ modulated-layer structure
+;
+_journal_coeditor_code           CK5013
+_journal_issue                   2
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              197
+_journal_page_last               204
+_journal_paper_doi               10.1107/S0108768105039212
+_journal_volume                  62
+_journal_year                    2006
+_chemical_formula_sum            'Ba Ni0.105 O2.686 Rh0.791'
+_chemical_formula_weight         267.9
+_chemical_name_systematic        ' ?'
+_space_group_ssg_name            X-3c1(00\g)000
+_symmetry_cell_setting           trigonal
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            6
+_cell_length_a                   10.0576(8)
+_cell_length_b                   10.0576(8)
+_cell_length_c                   4.6306(7)
+_cell_modulation_dimension       1
+_cell_volume                     405.65(8)
+_computing_publication_material  '(Jana2000; Petricek and Dusek, 2000)'
+_computing_structure_refinement  '(Jana2000; Petricek and Dusek, 2000)'
+_diffrn_ambient_temperature      293
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.71069
+_exptl_absorpt_coefficient_mu    19.78
+_exptl_absorpt_correction_T_max  1.000
+_exptl_absorpt_correction_T_min  1.000
+_exptl_absorpt_correction_type   none
+_exptl_crystal_density_diffrn    6.5771
+_exptl_crystal_F_000             696
+_refine_diff_density_max         1.85
+_refine_diff_density_min         -2.38
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   1.31
+_refine_ls_number_parameters     53
+_refine_ls_number_reflns         1195
+_refine_ls_R_factor_all          0.0382
+_refine_ls_R_factor_gt           0.0382
+_refine_ls_shift/su_max          0.0003
+_refine_ls_shift/su_mean         0.0001
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     w=1/(\s^2^(F)+0.000625F^2^)
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_gt          0.0504
+_refine_ls_wR_factor_ref         0.0504
+_reflns_number_gt                1195
+_reflns_number_total             2495
+_reflns_threshold_expression     I>3\s(I)
+_cod_data_source_file            ck5013.cif
+_cod_data_source_block           modulated_layer
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_exptl_absorpt_correction_type' value 'None' changed to 'none' according
+to '/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+
+The following automatic conversions were performed:
+
+'_exptl_absorpt_correction_type' value 'None' changed to 'none'
+according to /home/saulius/struct/CIF-dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_original_formula_sum        'Ba1 Ni0.105 O2.686 Rh0.791'
+_cod_database_code               2100427
+loop_
+_space_group_symop_ssg_id
+_space_group_symop_ssg_operation_algebraic
+1 x1,x2,x3,x4
+2 -x2,x1-x2,x3,x4
+3 -x2,-x1,1/2+x3,x4
+4 -x1+x2,-x1,x3,x4
+5 x1,x1-x2,1/2+x3,x4
+6 -x1+x2,x2,1/2+x3,x4
+7 -x1,-x2,-x3,-x4
+8 x2,-x1+x2,-x3,-x4
+9 x2,x1,1/2-x3,-x4
+10 x1-x2,x1,-x3,-x4
+11 -x1,-x1+x2,1/2-x3,-x4
+12 x1-x2,-x2,1/2-x3,-x4
+13 1/3+x1,2/3+x2,x3,1/3+x4
+14 1/3-x2,2/3+x1-x2,x3,1/3+x4
+15 1/3-x2,2/3-x1,1/2+x3,1/3+x4
+16 1/3-x1+x2,2/3-x1,x3,1/3+x4
+17 1/3+x1,2/3+x1-x2,1/2+x3,1/3+x4
+18 1/3-x1+x2,2/3+x2,1/2+x3,1/3+x4
+19 1/3-x1,2/3-x2,-x3,1/3-x4
+20 1/3+x2,2/3-x1+x2,-x3,1/3-x4
+21 1/3+x2,2/3+x1,1/2-x3,1/3-x4
+22 1/3+x1-x2,2/3+x1,-x3,1/3-x4
+23 1/3-x1,2/3-x1+x2,1/2-x3,1/3-x4
+24 1/3+x1-x2,2/3-x2,1/2-x3,1/3-x4
+25 2/3+x1,1/3+x2,x3,2/3+x4
+26 2/3-x2,1/3+x1-x2,x3,2/3+x4
+27 2/3-x2,1/3-x1,1/2+x3,2/3+x4
+28 2/3-x1+x2,1/3-x1,x3,2/3+x4
+29 2/3+x1,1/3+x1-x2,1/2+x3,2/3+x4
+30 2/3-x1+x2,1/3+x2,1/2+x3,2/3+x4
+31 2/3-x1,1/3-x2,-x3,2/3-x4
+32 2/3+x2,1/3-x1+x2,-x3,2/3-x4
+33 2/3+x2,1/3+x1,1/2-x3,2/3-x4
+34 2/3+x1-x2,1/3+x1,-x3,2/3-x4
+35 2/3-x1,1/3-x1+x2,1/2-x3,2/3-x4
+36 2/3+x1-x2,1/3-x2,1/2-x3,2/3-x4
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_occupancy
+O O 0.1521(5) 0 0.25 0.037(3) Uani d 1
+Rh Rh 0 0 0 0.0166(4) Uani d 1
+Ni Ni 0 0 0.25 0.032(4) Uani d 1
+Ba Ba1 0.6467(8) 0 0.25 0.0083(6) Uani d 1
+Ba Ba2 0.67341(18) 0 0.25 0.0171(8) Uani d 1
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+_atom_site_aniso_type_symbol
+O 0.032(2) 0.059(5) 0.028(3) 0.030(2) 0.0056(14) 0.011(3) O
+Rh 0.0091(4) 0.0091(4) 0.0317(9) 0.0046(2) 0 0 Rh
+Ni 0.002(4) 0.002(4) 0.091(10) 0.0010(18) 0 0 Ni
+Ba1 0.0060(8) 0.0068(7) 0.0125(9) 0.0034(4) -0.0017(3) -0.0033(5) Ba
+Ba2 0.0124(9) 0.0159(14) 0.0241(7) 0.0079(7) 0.00579(14) 0.0116(3) Ba
+loop_
+_atom_site_displace_Fourier_atom_site_label
+_atom_site_displace_Fourier_axis
+_atom_site_displace_Fourier_wave_vector_seq_id
+_atom_site_displace_Fourier_param_cos
+_atom_site_displace_Fourier_param_sin
+O x 1 0.0073(5) 0.0007(3)
+O y 1 0 0.0014(5)
+O z 1 0 0.0028(10)
+O x 2 -0.0028(7) -0.0004(4)
+O y 2 0 -0.0009(7)
+O z 2 0 -0.0078(15)
+Rh x 1 0 0
+Rh y 1 0 0
+Rh z 1 0 0.0078(3)
+Rh x 2 0 0
+Rh y 2 0 0
+Rh z 2 0 -0.0154(7)
+Ba2 x 1 -0.0031(8) 0.0010(4)
+Ba2 y 1 0 0.0020(8)
+Ba2 z 1 0 -0.0038(14)
+loop_
+_atom_site_displace_special_func_atom_site_label
+_atom_site_displace_special_func_sawtooth_ax
+_atom_site_displace_special_func_sawtooth_ay
+_atom_site_displace_special_func_sawtooth_az
+_atom_site_displace_special_func_sawtooth_c
+_atom_site_displace_special_func_sawtooth_w
+O 0 0 0.1691 0 0.8953
+Rh 0 0 0.1557 0 0.7905
+Ni 0 0 0.0206 0.5 0.1047
+loop_
+_atom_site_Fourier_wave_vector_seq_id
+_atom_site_Fourier_wave_vector_x
+_atom_site_Fourier_wave_vector_z
+1 0.00000 0.20950
+2 0.00000 0.41900
+loop_
+_atom_site_occ_special_func_atom_site_label
+_atom_site_occ_special_func_crenel_c
+_atom_site_occ_special_func_crenel_w
+Ba1 0.5 0.1047
+Ba2 0 0.2286
+loop_
+_atom_site_U_Fourier_atom_site_label
+_atom_site_U_Fourier_tens_elem
+_atom_site_U_Fourier_wave_vector_seq_id
+_atom_site_U_Fourier_param_cos
+_atom_site_U_Fourier_param_sin
+O U11 1 -0.027(3) -0.0018(15)
+O U22 1 -0.053(5) 0
+O U33 1 -0.018(4) 0
+O U12 1 -0.027(3) -0.0018(15)
+O U13 1 -0.0078(17) -0.0075(14)
+O U23 1 -0.016(3) 0
+O U11 2 0.018(2) 0.004(2)
+O U22 2 0.031(4) 0
+O U33 2 0.004(4) 0
+O U12 2 0.015(2) 0.004(2)
+O U13 2 0.0072(16) 0.0067(19)
+O U23 2 0.014(3) 0
+Rh U11 1 -0.0027(6) 0
+Rh U22 1 -0.0027(6) 0
+Rh U33 1 -0.0262(12) 0
+Rh U12 1 -0.0014(3) 0
+Rh U13 1 0 0
+Rh U23 1 0 0
+Rh U11 2 0.0022(7) 0
+Rh U22 2 0.0022(7) 0
+Rh U33 2 0.0249(9) 0
+Rh U12 2 0.0011(4) 0
+Rh U13 2 0 0
+Rh U23 2 0 0
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Ba -0.324 2.282 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.1'
+Ni 0.339 1.112 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.1'
+Rh -1.118 0.919 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.1'
+O 0.011 0.006 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.1'
+loop_
+_cell_wave_vector_seq_id
+_cell_wave_vector_x
+_cell_wave_vector_y
+_cell_wave_vector_z
+1 0.00000 0.00000 0.20950

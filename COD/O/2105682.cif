@@ -1,0 +1,340 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/56/2105682.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2105682
+loop_
+_publ_author_name
+'Ishizawa, N.'
+'Matsushima, Y.'
+'Hayashi, M.'
+'Ueki, M.'
+_publ_section_title
+;
+ Synchrotron radiation study of yttria-stabilized zirconia,
+ Zr~0.758~Y~0.242~O~1.879~
+;
+_journal_issue                   5
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              726
+_journal_page_last               735
+_journal_paper_doi               10.1107/S0108768199005108
+_journal_volume                  55
+_journal_year                    1999
+_chemical_formula_analytical     Zr.758_Y.242_O1.879
+_chemical_formula_sum            'O1.879 Y0.242 Zr0.758'
+_chemical_formula_weight         120.73
+_chemical_name_common            'Yttria-stabilized cubic zirconia'
+_chemical_name_systematic        'Yttrium Zirconium Oxide'
+_space_group_IT_number           225
+_symmetry_cell_setting           cubic
+_symmetry_space_group_name_Hall  '-F 4 2 3'
+_symmetry_space_group_name_H-M   'F m -3 m'
+_audit_creation_method           from_xtal_archive_file_using_CIFIO
+_cell_angle_alpha                90.00000
+_cell_angle_beta                 90.00000
+_cell_angle_gamma                90.00000
+_cell_formula_units_Z            4
+_cell_length_a                   5.15463(5)
+_cell_length_b                   5.15463(5)
+_cell_length_c                   5.15463(5)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      43.79
+_cell_measurement_theta_min      34.40
+_cell_volume                     136.960(2)
+_computing_data_reduction
+'xtal_DIFDAT_ABSORB_SORTRF_ADDREF (Hall et al., 1995)'
+_computing_molecular_graphics    'xtal (Hall et al., 1995)'
+_computing_publication_material  'xtal_CIFIO (Hall et al., 1995)'
+_computing_structure_refinement  'xtal_CRYLSQ (Hall et al., 1995)'
+_computing_structure_solution    'xtal (Hall et al., 1995)'
+_diffrn_ambient_temperature      293
+_diffrn_measurement_device       'horizontal-type four-circle'
+_diffrn_measurement_method       'continuous theta/2theta scan'
+_diffrn_radiation_monochromator  'Si(111) double crystal'
+_diffrn_radiation_type           'Synchrotron radiation'
+_diffrn_radiation_wavelength     .7281
+_diffrn_reflns_av_R_equivalents  .018
+_diffrn_reflns_av_sigmaI/netI    .008
+_diffrn_reflns_limit_h_max       13
+_diffrn_reflns_limit_h_min       -13
+_diffrn_reflns_limit_k_max       13
+_diffrn_reflns_limit_k_min       -13
+_diffrn_reflns_limit_l_max       12
+_diffrn_reflns_limit_l_min       -8
+_diffrn_reflns_number            1258
+_diffrn_reflns_theta_max         69.8
+_diffrn_reflns_theta_min         7.04
+_diffrn_standards_decay_%        none
+_diffrn_standards_interval_count 100
+_diffrn_standards_number         6
+_exptl_absorpt_coefficient_mu    7.12
+_exptl_absorpt_correction_T_max  .8350
+_exptl_absorpt_correction_T_min  .8307
+_exptl_absorpt_correction_type   sphere
+_exptl_crystal_colour            'transparent colourless'
+_exptl_crystal_density_diffrn    5.855
+_exptl_crystal_F_000             219.16
+_exptl_crystal_size_rad          .0175(5)
+_refine_diff_density_max         .286
+_refine_diff_density_min         -.459
+_refine_ls_abs_structure_details none
+_refine_ls_abs_structure_Flack   0
+_refine_ls_extinction_coef       20E2(2)
+_refine_ls_extinction_method     'Becker & Coppens (1974a,b)'
+_refine_ls_goodness_of_fit_all   5.876
+_refine_ls_goodness_of_fit_obs   5.876
+_refine_ls_matrix_type           full
+_refine_ls_number_constraints    0
+_refine_ls_number_parameters     10
+_refine_ls_number_reflns         90
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          .009
+_refine_ls_R_factor_obs          .009
+_refine_ls_shift/esd_max         0
+_refine_ls_shift/esd_mean        0
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_scheme      \s
+_refine_ls_wR_factor_all         .013
+_refine_ls_wR_factor_obs         .013
+_reflns_number_observed          90
+_reflns_number_total             90
+_reflns_observed_criterion       refl_observed_if_F____>_3.000_sigma(F___)
+_cod_data_source_file            oh0066.cif
+_cod_data_source_block           ysz_n
+_cod_original_cell_volume        136.960(4)
+_cod_original_formula_sum        'Zr0.758 Y0.242 O1.879'
+_cod_database_code               2105682
+loop_
+_symmetry_equiv_pos_as_xyz
++x,+y,+z
++x,-y,-z
+-x,-y,+z
+-x,+y,-z
+-y,+x,+z
++y,+x,-z
++y,-x,+z
+-y,-x,-z
++y,+z,+x
+-y,-z,+x
++y,-z,-x
+-y,+z,-x
+-z,+y,+x
+-z,-y,-x
++z,-y,+x
++z,+y,-x
++z,+x,+y
+-z,+x,-y
+-z,-x,+y
++z,-x,-y
+-x,-z,-y
+-x,+z,+y
++x,-z,+y
++x,+z,-y
+-x,-y,-z
+-x,+y,+z
++x,+y,-z
++x,-y,+z
++y,-x,-z
+-y,-x,+z
+-y,+x,-z
++y,+x,+z
+-y,-z,-x
++y,+z,-x
+-y,+z,+x
++y,-z,+x
++z,-y,-x
++z,+y,+x
+-z,+y,-x
+-z,-y,+x
+-z,-x,-y
++z,-x,+y
++z,+x,-y
+-z,+x,+y
++x,+z,+y
++x,-z,-y
+-x,+z,-y
+-x,-z,+y
++x,1/2+y,1/2+z
+1/2+x,+y,1/2+z
+1/2+x,1/2+y,+z
++x,1/2-y,1/2-z
+1/2+x,-y,1/2-z
+1/2+x,1/2-y,-z
+-x,1/2-y,1/2+z
+1/2-x,-y,1/2+z
+1/2-x,1/2-y,+z
+-x,1/2+y,1/2-z
+1/2-x,+y,1/2-z
+1/2-x,1/2+y,-z
+-y,1/2+x,1/2+z
+1/2-y,+x,1/2+z
+1/2-y,1/2+x,+z
++y,1/2+x,1/2-z
+1/2+y,+x,1/2-z
+1/2+y,1/2+x,-z
++y,1/2-x,1/2+z
+1/2+y,-x,1/2+z
+1/2+y,1/2-x,+z
+-y,1/2-x,1/2-z
+1/2-y,-x,1/2-z
+1/2-y,1/2-x,-z
++y,1/2+z,1/2+x
+1/2+y,+z,1/2+x
+1/2+y,1/2+z,+x
+-y,1/2-z,1/2+x
+1/2-y,-z,1/2+x
+1/2-y,1/2-z,+x
++y,1/2-z,1/2-x
+1/2+y,-z,1/2-x
+1/2+y,1/2-z,-x
+-y,1/2+z,1/2-x
+1/2-y,+z,1/2-x
+1/2-y,1/2+z,-x
+-z,1/2+y,1/2+x
+1/2-z,+y,1/2+x
+1/2-z,1/2+y,+x
+-z,1/2-y,1/2-x
+1/2-z,-y,1/2-x
+1/2-z,1/2-y,-x
++z,1/2-y,1/2+x
+1/2+z,-y,1/2+x
+1/2+z,1/2-y,+x
++z,1/2+y,1/2-x
+1/2+z,+y,1/2-x
+1/2+z,1/2+y,-x
++z,1/2+x,1/2+y
+1/2+z,+x,1/2+y
+1/2+z,1/2+x,+y
+-z,1/2+x,1/2-y
+1/2-z,+x,1/2-y
+1/2-z,1/2+x,-y
+-z,1/2-x,1/2+y
+1/2-z,-x,1/2+y
+1/2-z,1/2-x,+y
++z,1/2-x,1/2-y
+1/2+z,-x,1/2-y
+1/2+z,1/2-x,-y
+-x,1/2-z,1/2-y
+1/2-x,-z,1/2-y
+1/2-x,1/2-z,-y
+-x,1/2+z,1/2+y
+1/2-x,+z,1/2+y
+1/2-x,1/2+z,+y
++x,1/2-z,1/2+y
+1/2+x,-z,1/2+y
+1/2+x,1/2-z,+y
++x,1/2+z,1/2-y
+1/2+x,+z,1/2-y
+1/2+x,1/2+z,-y
+-x,1/2-y,1/2-z
+1/2-x,-y,1/2-z
+1/2-x,1/2-y,-z
+-x,1/2+y,1/2+z
+1/2-x,+y,1/2+z
+1/2-x,1/2+y,+z
++x,1/2+y,1/2-z
+1/2+x,+y,1/2-z
+1/2+x,1/2+y,-z
++x,1/2-y,1/2+z
+1/2+x,-y,1/2+z
+1/2+x,1/2-y,+z
++y,1/2-x,1/2-z
+1/2+y,-x,1/2-z
+1/2+y,1/2-x,-z
+-y,1/2-x,1/2+z
+1/2-y,-x,1/2+z
+1/2-y,1/2-x,+z
+-y,1/2+x,1/2-z
+1/2-y,+x,1/2-z
+1/2-y,1/2+x,-z
++y,1/2+x,1/2+z
+1/2+y,+x,1/2+z
+1/2+y,1/2+x,+z
+-y,1/2-z,1/2-x
+1/2-y,-z,1/2-x
+1/2-y,1/2-z,-x
++y,1/2+z,1/2-x
+1/2+y,+z,1/2-x
+1/2+y,1/2+z,-x
+-y,1/2+z,1/2+x
+1/2-y,+z,1/2+x
+1/2-y,1/2+z,+x
++y,1/2-z,1/2+x
+1/2+y,-z,1/2+x
+1/2+y,1/2-z,+x
++z,1/2-y,1/2-x
+1/2+z,-y,1/2-x
+1/2+z,1/2-y,-x
++z,1/2+y,1/2+x
+1/2+z,+y,1/2+x
+1/2+z,1/2+y,+x
+-z,1/2+y,1/2-x
+1/2-z,+y,1/2-x
+1/2-z,1/2+y,-x
+-z,1/2-y,1/2+x
+1/2-z,-y,1/2+x
+1/2-z,1/2-y,+x
+-z,1/2-x,1/2-y
+1/2-z,-x,1/2-y
+1/2-z,1/2-x,-y
++z,1/2-x,1/2+y
+1/2+z,-x,1/2+y
+1/2+z,1/2-x,+y
++z,1/2+x,1/2-y
+1/2+z,+x,1/2-y
+1/2+z,1/2+x,-y
+-z,1/2+x,1/2+y
+1/2-z,+x,1/2+y
+1/2-z,1/2+x,+y
++x,1/2+z,1/2+y
+1/2+x,+z,1/2+y
+1/2+x,1/2+z,+y
++x,1/2-z,1/2-y
+1/2+x,-z,1/2-y
+1/2+x,1/2-z,-y
+-x,1/2+z,1/2-y
+1/2-x,+z,1/2-y
+1/2-x,1/2+z,-y
+-x,1/2-z,1/2+y
+1/2-x,-z,1/2+y
+1/2-x,1/2-z,+y
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+Y .00000 .00000 .00000 .00056(16) Uiso
+Zr .02186(12) .02186(12) .02186(12) .0100(2) Uiso
+O1 .25000 .25000 .25000 .019(2) Uiso
+O2 .317(6) .25000 .25000 .014(2) Uiso
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+Zr -2.541 .585022
+Y -6.838 .525024
+O .008972 .005981
+loop_
+_diffrn_standard_refln_index_h
+_diffrn_standard_refln_index_k
+_diffrn_standard_refln_index_l
+8 0 0
+0 8 0
+0 0 8
+-8 0 0
+0 -8 0
+0 0 -8

@@ -1,0 +1,188 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-21 11:56:54 +0200 (Sun, 21 Feb 2016) $
+#$Revision: 176809 $
+#$URL: svn://www.crystallography.net/cod/cif/2/30/03/2300367.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2300367
+loop_
+_publ_author_name
+'Lignie, Adrien'
+'Granier, Dominique'
+'Armand, Pascale'
+'Haines, Julien'
+'Papet, Philippe'
+_publ_section_title
+;
+ Modulation of quartz-like GeO~2~ structure by Si substitution: an X-ray
+ diffraction study of Ge~1{-~<i>x</i>}Si<i>~x~</i>O~2~ (0 {\/leq} <i>x</i>
+ < 0.2) flux-grown single crystals
+;
+_journal_issue                   2
+_journal_name_full               'Journal of Applied Crystallography'
+_journal_page_first              272
+_journal_page_last               278
+_journal_paper_doi               10.1107/S0021889812003081
+_journal_volume                  45
+_journal_year                    2012
+_chemical_formula_sum            'Ge0.96 O2 Si0.04'
+_chemical_formula_weight         102.71
+_space_group_IT_number           152
+_symmetry_space_group_name_Hall  'P 31 2"'
+_symmetry_space_group_name_H-M   'P 31 2 1'
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                120.00
+_cell_formula_units_Z            3
+_cell_length_a                   4.9805(2)
+_cell_length_b                   4.9805(2)
+_cell_length_c                   5.6270(3)
+_cell_measurement_temperature    298(2)
+_cell_measurement_theta_max      32.4895
+_cell_measurement_theta_min      3.6068
+_cell_volume                     120.880(9)
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 2008)'
+_diffrn_ambient_temperature      298(2)
+_diffrn_measured_fraction_theta_full 0.964
+_diffrn_measured_fraction_theta_max 0.964
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0236
+_diffrn_reflns_av_sigmaI/netI    0.0115
+_diffrn_reflns_limit_h_max       7
+_diffrn_reflns_limit_h_min       -7
+_diffrn_reflns_limit_k_max       7
+_diffrn_reflns_limit_k_min       -7
+_diffrn_reflns_limit_l_max       8
+_diffrn_reflns_limit_l_min       -8
+_diffrn_reflns_number            2157
+_diffrn_reflns_theta_full        32.57
+_diffrn_reflns_theta_max         32.57
+_diffrn_reflns_theta_min         4.73
+_exptl_absorpt_coefficient_mu    17.735
+_exptl_absorpt_correction_T_max  0.318
+_exptl_absorpt_correction_T_min  0.121
+_exptl_absorpt_correction_type   gaussian
+_exptl_absorpt_process_details
+;
+CrysAlisPro_Software_system,_Version_1.171.32.
+;
+_exptl_crystal_density_diffrn    4.233
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_F_000             142
+_exptl_crystal_size_max          0.1907
+_exptl_crystal_size_mid          0.1255
+_exptl_crystal_size_min          0.0839
+_refine_diff_density_max         0.343
+_refine_diff_density_min         -0.431
+_refine_diff_density_rms         0.086
+_refine_ls_abs_structure_details 'Flack H D (1983), 95 Friedel pairs'
+_refine_ls_abs_structure_Flack   -0.04(3)
+_refine_ls_extinction_coef       0.302(9)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_ref   1.199
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     16
+_refine_ls_number_reflns         288
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.199
+_refine_ls_R_factor_all          0.0099
+_refine_ls_R_factor_gt           0.0099
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0085P)^2^+0.0833P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0241
+_refine_ls_wR_factor_ref         0.0241
+_reflns_number_gt                284
+_reflns_number_total             288
+_reflns_threshold_expression     >2\s(I)
+_cod_data_source_file            ce5127.cif
+_cod_data_source_block           Ge0.957Si0.043
+_cod_original_sg_symbol_H-M      P_31_2_1
+_cod_database_code               2300367
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-y, x-y, z+1/3'
+'-x+y, -x, z+2/3'
+'y, x, -z'
+'x-y, -y, -z+2/3'
+'-x, -x+y, -z+1/3'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+Ge1 Ge 0.45197(5) 0.0000 0.3333 0.00749(10) Uani 0.96 2 d SP
+Si1 Si 0.45197(5) 0.0000 0.3333 0.00749(10) Uani 0.04 2 d SP
+O O 0.6020(3) -0.0975(4) 0.0917(2) 0.0129(2) Uani 1 1 d .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Ge1 0.00832(12) 0.00730(14) 0.00652(12) 0.00042(10) 0.00021(5) 0.00365(7)
+Si1 0.00832(12) 0.00730(14) 0.00652(12) 0.00042(10) 0.00021(5) 0.00365(7)
+O 0.0172(7) 0.0109(6) 0.0115(5) -0.0007(5) 0.0039(5) 0.0078(5)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ge Ge 0.1547 1.8001 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Si Si 0.0817 0.0704 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+O Ge1 O 107.83(9) 6_665 2_545
+O Ge1 O 106.50(3) 6_665 .
+O Ge1 O 112.87(8) 2_545 .
+O Ge1 O 112.87(8) 6_665 5
+O Ge1 O 106.50(3) 2_545 5
+O Ge1 O 110.36(9) . 5
+Si1 O Ge1 130.72(9) 3_654 .
+Ge1 O Ge1 130.72(9) 3_654 .
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Ge1 O 1.7268(15) 6_665
+Ge1 O 1.7268(15) 2_545
+Ge1 O 1.7333(12) .
+Ge1 O 1.7333(12) 5
+O Si1 1.7268(15) 3_654
+O Ge1 1.7268(15) 3_654

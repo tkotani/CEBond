@@ -1,0 +1,453 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/29/2102920.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2102920
+loop_
+_publ_author_name
+'Malcherek, Thomas'
+_publ_section_title
+;
+ A structural phase transition in NaTaOGeO~4~ and its relation to phase
+ transitions in titanite
+;
+_journal_coeditor_code           CK5025
+_journal_issue                   4
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              545
+_journal_page_last               550
+_journal_paper_doi               10.1107/S0108768107026213
+_journal_volume                  63
+_journal_year                    2007
+_chemical_formula_sum            'Ge Na O5 Ta'
+_chemical_formula_weight         356.5
+_chemical_name_systematic        ' ?'
+_space_group_IT_number           15
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-C 2yc'
+_symmetry_space_group_name_H-M   'C 1 2/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 114.858(2)
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   6.8540(10)
+_cell_length_b                   8.9330(10)
+_cell_length_c                   7.4180(10)
+_cell_measurement_temperature    295
+_cell_volume                     412.10(9)
+_computing_publication_material  '(Jana2000; Petricek and Dusek, 2000)'
+_computing_structure_refinement  '(Jana2000; Petricek and Dusek, 2000)'
+_diffrn_ambient_temperature      295
+_diffrn_measured_fraction_theta_full 0.96
+_diffrn_measurement_device_type  'beamline F1 at Hasylab'
+_diffrn_measurement_method       \f-scan
+_diffrn_radiation_type           synchrotron
+_diffrn_radiation_wavelength     0.39184
+_diffrn_reflns_av_R_equivalents  0.0483
+_diffrn_reflns_av_sigmaI/netI    0.0263
+_diffrn_reflns_limit_h_max       28
+_diffrn_reflns_limit_h_min       -28
+_diffrn_reflns_limit_k_max       29
+_diffrn_reflns_limit_k_min       -35
+_diffrn_reflns_limit_l_max       26
+_diffrn_reflns_limit_l_min       -29
+_diffrn_reflns_number            95651
+_diffrn_reflns_theta_full        53.34
+_diffrn_reflns_theta_max         53.34
+_diffrn_reflns_theta_min         2.26
+_exptl_absorpt_coefficient_mu    6.954
+_exptl_absorpt_correction_type   none
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    5.7445
+_exptl_crystal_description       Tabular
+_exptl_crystal_F_000             624
+_exptl_crystal_size_max          0.1
+_exptl_crystal_size_mid          0.09
+_exptl_crystal_size_min          0.045
+_refine_diff_density_max         2.59
+_refine_diff_density_min         -2.42
+_refine_ls_extinction_coef       0.00728(19)
+_refine_ls_extinction_method
+'B-C type 1 Gaussian isotropic (Becker & Coppens, 1974)'
+_refine_ls_goodness_of_fit_ref   1.02
+_refine_ls_number_parameters     54
+_refine_ls_number_reflns         14190
+_refine_ls_R_factor_all          0.0257
+_refine_ls_R_factor_gt           0.0199
+_refine_ls_shift/su_max          0.0006
+_refine_ls_shift/su_mean         0.0001
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details     w=1/(\s^2^(I)+0.0016I^2^)
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_gt          0.0610
+_refine_ls_wR_factor_ref         0.0662
+_reflns_number_gt                11959
+_reflns_number_total             14190
+_reflns_threshold_expression     I>3\s(I)
+_cod_data_source_file            ck5025.cif
+_cod_data_source_block           2
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_exptl_absorpt_correction_type' value 'None' changed to 'none' according
+to '/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+
+The following automatic conversions were performed:
+
+'_exptl_absorpt_correction_type' value 'None' changed to 'none'
+according to /home/saulius/struct/CIF-dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_original_formula_sum        'Ge1 Na1 O5 Ta1'
+_cod_database_code               2102920
+_cod_database_fobs_code          2102920
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -x,y,1/2-z
+3 -x,-y,-z
+4 x,-y,1/2+z
+5 1/2+x,1/2+y,z
+6 1/2-x,1/2+y,1/2-z
+7 1/2-x,1/2-y,-z
+8 1/2+x,1/2-y,1/2+z
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_occupancy
+Na Na 0 0.32594(11) 0.75 0.0200(2) Uani d 1
+Ta Ta 0 0 0 0.006843(5) Uani d 1
+Ge Ge 0 0.317582(8) 0.25 0.006317(8) Uani d 1
+O O1 0 0.06634(6) 0.75 0.00941(7) Uani d 1
+O O2 0.19575(6) 0.43833(5) 0.41118(6) 0.01141(6) Uani d 1
+O O3 0.09772(6) 0.20534(4) 0.11237(6) 0.01002(6) Uani d 1
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+_atom_site_aniso_type_symbol
+Na 0.0153(3) 0.0127(3) 0.0282(4) 0 0.0053(3) 0 Na
+Ta 0.006618(6) 0.006617(7) 0.006871(7) 0.000740(2) 0.002422(4) -0.000577(3) Ta
+Ge 0.006038(10) 0.005849(11) 0.006682(12) 0 0.002299(8) 0 Ge
+O1 0.01312(12) 0.00965(9) 0.00612(7) 0 0.00471(7) 0 O
+O2 0.00816(6) 0.01219(9) 0.01282(9) -0.00334(6) 0.00336(6) -0.00369(8) O
+O3 0.01225(8) 0.00757(6) 0.01229(8) -0.00119(6) 0.00715(7) -0.00271(6) O
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Na 0.009 0.007 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.4'
+Ta -0.553 2.507 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.4'
+Ge 0.275 0.650 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.4'
+O 0.002 0.002 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O1 Na O2 . 3_566 146.925(14) yes
+O1 Na O2 . 4_565 146.925(14) yes
+O1 Na O3 . 1_556 66.54(2) yes
+O1 Na O3 . 7_556 83.64(2) yes
+O1 Na O3 . 2_555 66.54(2) yes
+O1 Na O3 . 8_455 83.64(2) yes
+O2 Na O2 3_566 4_565 66.15(3) yes
+O2 Na O3 3_566 1_556 131.76(2) yes
+O2 Na O3 3_566 7_556 124.04(3) yes
+O2 Na O3 3_566 2_555 90.075(15) yes
+O2 Na O3 3_566 8_455 68.032(16) yes
+O2 Na O2 4_565 3_566 66.15(3) yes
+O2 Na O3 4_565 1_556 90.075(15) yes
+O2 Na O3 4_565 7_556 68.032(16) yes
+O2 Na O3 4_565 2_555 131.76(2) yes
+O2 Na O3 4_565 8_455 124.04(3) yes
+O3 Na O3 1_556 7_556 77.393(16) yes
+O3 Na O3 1_556 2_555 133.07(4) yes
+O3 Na O3 1_556 8_455 97.472(18) yes
+O3 Na O3 7_556 1_556 77.393(16) yes
+O3 Na O3 7_556 2_555 97.472(18) yes
+O3 Na O3 7_556 8_455 167.28(4) yes
+O3 Na O3 2_555 1_556 133.07(4) yes
+O3 Na O3 2_555 7_556 97.472(18) yes
+O3 Na O3 2_555 8_455 77.393(16) yes
+O3 Na O3 8_455 1_556 97.472(18) yes
+O3 Na O3 8_455 7_556 167.28(4) yes
+O3 Na O3 8_455 2_555 77.393(16) yes
+O1 Ta O1 1_554 3_556 180 yes
+O1 Ta O2 1_554 6_545 88.853(15) yes
+O1 Ta O2 1_554 8_454 91.147(15) yes
+O1 Ta O3 1_554 . 89.072(19) yes
+O1 Ta O3 1_554 3_555 90.928(19) yes
+O1 Ta O1 3_556 1_554 180 yes
+O1 Ta O2 3_556 6_545 91.147(15) yes
+O1 Ta O2 3_556 8_454 88.853(15) yes
+O1 Ta O3 3_556 . 90.928(19) yes
+O1 Ta O3 3_556 3_555 89.072(19) yes
+O2 Ta O2 6_545 8_454 180 yes
+O2 Ta O3 6_545 . 89.724(17) yes
+O2 Ta O3 6_545 3_555 90.276(17) yes
+O2 Ta O2 8_454 6_545 180 yes
+O2 Ta O3 8_454 . 90.276(17) yes
+O2 Ta O3 8_454 3_555 89.724(17) yes
+O3 Ta O3 . 3_555 180 yes
+O3 Ta O3 3_555 . 180 yes
+O2 Ge O2 . 2_555 103.630(18) yes
+O2 Ge O3 . . 112.38(2) yes
+O2 Ge O3 . 2_555 109.06(2) yes
+O2 Ge O2 2_555 . 103.630(18) yes
+O2 Ge O3 2_555 . 109.06(2) yes
+O2 Ge O3 2_555 2_555 112.38(2) yes
+O3 Ge O3 . 2_555 110.199(19) yes
+O3 Ge O3 2_555 . 110.199(19) yes
+Na O1 Ta . 1_556 107.722(14) yes
+Na O1 Ta . 2_555 107.722(14) yes
+Na O1 O2 . 5_445 114.564(13) yes
+Na O1 O2 . 7_556 90.852(13) yes
+Na O1 O2 . 6_546 114.564(13) yes
+Na O1 O2 . 8_455 90.852(13) yes
+Na O1 O3 . 1_556 63.424(12) yes
+Na O1 O3 . 3_556 149.364(11) yes
+Na O1 O3 . 2_555 63.424(12) yes
+Na O1 O3 . 4_555 149.364(11) yes
+Ta O1 Ta 1_556 2_555 144.56(3) yes
+Ta O1 O2 1_556 5_445 116.119(18) yes
+Ta O1 O2 1_556 7_556 134.332(12) yes
+Ta O1 O2 1_556 6_546 46.106(11) yes
+Ta O1 O2 1_556 8_455 44.938(7) yes
+Ta O1 O3 1_556 1_556 46.387(9) yes
+Ta O1 O3 1_556 3_556 45.429(12) yes
+Ta O1 O3 1_556 2_555 164.187(16) yes
+Ta O1 O3 1_556 4_555 100.25(2) yes
+Ta O1 Ta 2_555 1_556 144.56(3) yes
+Ta O1 O2 2_555 5_445 46.106(11) yes
+Ta O1 O2 2_555 7_556 44.938(7) yes
+Ta O1 O2 2_555 6_546 116.119(18) yes
+Ta O1 O2 2_555 8_455 134.332(12) yes
+Ta O1 O3 2_555 1_556 164.187(16) yes
+Ta O1 O3 2_555 3_556 100.25(2) yes
+Ta O1 O3 2_555 2_555 46.387(9) yes
+Ta O1 O3 2_555 4_555 45.429(12) yes
+O2 O1 O2 5_445 7_556 91.044(14) yes
+O2 O1 O2 5_445 6_546 130.87(2) yes
+O2 O1 O2 5_445 8_455 88.247(14) yes
+O2 O1 O3 5_445 1_556 148.491(14) yes
+O2 O1 O3 5_445 3_556 76.638(16) yes
+O2 O1 O3 5_445 2_555 61.276(12) yes
+O2 O1 O3 5_445 4_555 61.036(14) yes
+O2 O1 O2 7_556 5_445 91.044(14) yes
+O2 O1 O2 7_556 6_546 88.247(14) yes
+O2 O1 O2 7_556 8_455 178.30(2) yes
+O2 O1 O3 7_556 1_556 119.953(14) yes
+O2 O1 O3 7_556 3_556 118.26(2) yes
+O2 O1 O3 7_556 2_555 60.923(12) yes
+O2 O1 O3 7_556 4_555 60.064(14) yes
+O2 O1 O2 6_546 5_445 130.87(2) yes
+O2 O1 O2 6_546 7_556 88.247(14) yes
+O2 O1 O2 6_546 8_455 91.044(14) yes
+O2 O1 O3 6_546 1_556 61.276(12) yes
+O2 O1 O3 6_546 3_556 61.036(14) yes
+O2 O1 O3 6_546 2_555 148.490(14) yes
+O2 O1 O3 6_546 4_555 76.638(16) yes
+O2 O1 O2 8_455 5_445 88.247(14) yes
+O2 O1 O2 8_455 7_556 178.30(2) yes
+O2 O1 O2 8_455 6_546 91.044(14) yes
+O2 O1 O3 8_455 1_556 60.923(12) yes
+O2 O1 O3 8_455 3_556 60.064(14) yes
+O2 O1 O3 8_455 2_555 119.953(14) yes
+O2 O1 O3 8_455 4_555 118.26(2) yes
+O3 O1 O3 1_556 3_556 91.816(13) yes
+O3 O1 O3 1_556 2_555 126.85(2) yes
+O3 O1 O3 1_556 4_555 137.578(15) yes
+O3 O1 O3 3_556 1_556 91.816(13) yes
+O3 O1 O3 3_556 2_555 137.578(15) yes
+O3 O1 O3 3_556 4_555 61.271(17) yes
+O3 O1 O3 2_555 1_556 126.85(2) yes
+O3 O1 O3 2_555 3_556 137.578(15) yes
+O3 O1 O3 2_555 4_555 91.816(13) yes
+O3 O1 O3 4_555 1_556 137.578(15) yes
+O3 O1 O3 4_555 3_556 61.271(17) yes
+O3 O1 O3 4_555 2_555 91.816(13) yes
+Na O2 Ta 3_566 6_555 101.65(2) yes
+Na O2 Ge 3_566 . 95.110(18) yes
+Na O2 O1 3_566 5_555 97.72(2) yes
+Na O2 O1 3_566 7_556 98.829(18) yes
+Na O2 O2 3_566 2_555 56.925(16) yes
+Na O2 O3 3_566 . 109.346(18) yes
+Na O2 O3 3_566 2_555 111.170(17) yes
+Na O2 O3 3_566 6_555 56.121(15) yes
+Na O2 O3 3_566 8_555 146.89(2) yes
+Ta O2 Ge 6_555 . 142.93(3) yes
+Ta O2 O1 6_555 5_555 45.041(7) yes
+Ta O2 O1 6_555 7_556 43.915(11) yes
+Ta O2 O2 6_555 2_555 142.80(3) yes
+Ta O2 O3 6_555 . 109.03(2) yes
+Ta O2 O3 6_555 2_555 147.18(2) yes
+Ta O2 O3 6_555 6_555 45.526(12) yes
+Ta O2 O3 6_555 8_555 45.246(11) yes
+Ge O2 O1 . 5_555 162.23(3) yes
+Ge O2 O1 . 7_556 101.18(2) yes
+Ge O2 O2 . 2_555 38.185(11) yes
+Ge O2 O3 . . 33.892(13) yes
+Ge O2 O3 . 2_555 35.558(13) yes
+Ge O2 O3 . 6_555 137.97(2) yes
+Ge O2 O3 . 8_555 112.26(2) yes
+O1 O2 O1 5_555 7_556 88.956(11) yes
+O1 O2 O2 5_555 2_555 152.20(2) yes
+O1 O2 O3 5_555 . 146.938(18) yes
+O1 O2 O3 5_555 2_555 127.18(2) yes
+O1 O2 O3 5_555 6_555 59.790(13) yes
+O1 O2 O3 5_555 8_555 60.699(13) yes
+O1 O2 O1 7_556 5_555 88.956(11) yes
+O1 O2 O2 7_556 2_555 104.976(19) yes
+O1 O2 O3 7_556 . 68.860(17) yes
+O1 O2 O3 7_556 2_555 126.52(2) yes
+O1 O2 O3 7_556 6_555 60.217(17) yes
+O1 O2 O3 7_556 8_555 58.995(14) yes
+O2 O2 O3 2_555 . 60.479(14) yes
+O2 O2 O3 2_555 2_555 62.595(14) yes
+O2 O2 O3 2_555 6_555 106.199(18) yes
+O2 O2 O3 2_555 8_555 146.99(2) yes
+O3 O2 O3 . 2_555 59.932(16) yes
+O3 O2 O3 . 6_555 121.36(2) yes
+O3 O2 O3 . 8_555 86.510(16) yes
+O3 O2 O3 2_555 . 59.932(16) yes
+O3 O2 O3 2_555 6_555 167.287(17) yes
+O3 O2 O3 2_555 8_555 101.935(17) yes
+O3 O2 O3 6_555 . 121.36(2) yes
+O3 O2 O3 6_555 2_555 167.287(17) yes
+O3 O2 O3 6_555 8_555 90.772(15) yes
+O3 O2 O3 8_555 . 86.510(16) yes
+O3 O2 O3 8_555 2_555 101.935(17) yes
+O3 O2 O3 8_555 6_555 90.772(15) yes
+Na O3 Na 1_554 7_556 102.607(19) yes
+Na O3 Ta 1_554 . 92.94(2) yes
+Na O3 Ge 1_554 . 110.81(2) yes
+Na O3 O1 1_554 1_554 50.04(2) yes
+Na O3 O1 1_554 3_556 134.82(2) yes
+Na O3 O2 1_554 . 110.73(2) yes
+Na O3 O2 1_554 2_555 76.976(18) yes
+Na O3 O2 1_554 6_545 101.34(2) yes
+Na O3 O2 1_554 8_454 82.941(17) yes
+Na O3 O3 1_554 2_555 135.319(18) yes
+Na O3 Na 7_556 1_554 102.607(19) yes
+Na O3 Ta 7_556 . 100.60(3) yes
+Na O3 Ge 7_556 . 116.63(2) yes
+Na O3 O1 7_556 1_554 96.905(19) yes
+Na O3 O1 7_556 3_556 98.27(2) yes
+Na O3 O2 7_556 . 84.70(2) yes
+Na O3 O2 7_556 2_555 136.86(3) yes
+Na O3 O2 7_556 6_545 55.85(2) yes
+Na O3 O2 7_556 8_454 145.07(3) yes
+Na O3 O3 7_556 2_555 117.982(15) yes
+Ta O3 Ge . . 128.43(3) yes
+Ta O3 O1 . 1_554 44.541(12) yes
+Ta O3 O1 . 3_556 43.642(9) yes
+Ta O3 O2 . . 154.16(2) yes
+Ta O3 O2 . 2_555 122.541(18) yes
+Ta O3 O2 . 6_545 44.750(10) yes
+Ta O3 O2 . 8_454 44.478(11) yes
+Ta O3 O3 . 2_555 96.953(18) yes
+Ge O3 O1 . 1_554 145.540(18) yes
+Ge O3 O1 . 3_556 94.26(2) yes
+Ge O3 O2 . . 33.724(10) yes
+Ge O3 O2 . 2_555 35.379(12) yes
+Ge O3 O2 . 6_545 147.76(2) yes
+Ge O3 O2 . 8_454 92.35(2) yes
+Ge O3 O3 . 2_555 34.901(12) yes
+O1 O3 O1 1_554 3_556 88.184(14) yes
+O1 O3 O2 1_554 . 160.65(2) yes
+O1 O3 O2 1_554 2_555 113.008(15) yes
+O1 O3 O2 1_554 6_545 58.934(14) yes
+O1 O3 O2 1_554 8_454 60.082(13) yes
+O1 O3 O3 1_554 2_555 133.886(16) yes
+O1 O3 O1 3_556 1_554 88.184(14) yes
+O1 O3 O2 3_556 . 110.739(19) yes
+O1 O3 O2 3_556 2_555 112.45(2) yes
+O1 O3 O2 3_556 6_545 59.719(13) yes
+O1 O3 O2 3_556 8_454 58.265(12) yes
+O1 O3 O3 3_556 2_555 59.364(13) yes
+O2 O3 O2 . 2_555 56.926(13) yes
+O2 O3 O2 . 6_545 133.854(16) yes
+O2 O3 O2 . 8_454 126.07(2) yes
+O2 O3 O3 . 2_555 59.039(15) yes
+O2 O3 O2 2_555 . 56.926(13) yes
+O2 O3 O2 2_555 6_545 167.287(17) yes
+O2 O3 O2 2_555 8_454 78.065(15) yes
+O2 O3 O3 2_555 2_555 61.029(16) yes
+O2 O3 O2 6_545 . 133.854(16) yes
+O2 O3 O2 6_545 2_555 167.287(17) yes
+O2 O3 O2 6_545 8_454 89.228(15) yes
+O2 O3 O3 6_545 2_555 116.137(18) yes
+O2 O3 O2 8_454 . 126.07(2) yes
+O2 O3 O2 8_454 2_555 78.065(15) yes
+O2 O3 O2 8_454 6_545 89.228(15) yes
+O2 O3 O3 8_454 2_555 74.547(17) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Na O1 . 2.3189(11) yes
+Na O2 3_566 2.5130(9) yes
+Na O2 4_565 2.5130(9) yes
+Na O3 1_556 2.7058(6) yes
+Na O3 7_556 2.5211(4) yes
+Na O3 2_555 2.7057(6) yes
+Na O3 8_455 2.5211(4) yes
+Ta O1 1_554 1.9469(2) yes
+Ta O1 3_556 1.9469(2) yes
+Ta O2 6_545 1.9827(4) yes
+Ta O2 8_454 1.9827(4) yes
+Ta O3 . 2.0096(3) yes
+Ta O3 3_555 2.0096(3) yes
+Ge O2 . 1.7448(4) yes
+Ge O2 2_555 1.7448(4) yes
+Ge O3 . 1.7525(5) yes
+Ge O3 2_555 1.7525(5) yes
+O1 O2 5_445 2.7508(4) yes
+O1 O2 7_556 2.8064(5) yes
+O1 O2 6_546 2.7508(4) yes
+O1 O2 8_455 2.8064(5) yes
+O1 O3 1_556 2.7753(5) yes
+O1 O3 3_556 2.8206(6) yes
+O1 O3 2_555 2.7753(5) yes
+O1 O3 4_555 2.8206(6) yes
+O2 O2 2_555 2.7429(4) yes
+O2 O3 . 2.9059(6) yes
+O2 O3 2_555 2.8483(6) yes
+O2 O3 6_555 2.8162(6) yes
+O2 O3 8_555 2.8298(5) yes
+O3 O3 2_555 2.8746(7) yes

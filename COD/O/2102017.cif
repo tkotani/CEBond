@@ -1,0 +1,219 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 02:53:41 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176768 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/20/2102017.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2102017
+loop_
+_publ_author_name
+'Bridges, C.'
+'Greedan, J. E.'
+'Barbier, J.'
+_publ_section_title
+;
+ Structure of the defect perovskite Ce~1/3~NbO~3~: a redetermination by
+ electron and neutron powder diffraction
+;
+_journal_issue                   2
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              183
+_journal_page_last               188
+_journal_paper_doi               10.1107/S0108768199012951
+_journal_volume                  56
+_journal_year                    2000
+_chemical_formula_iupac          'Ce0.33333 Nb O3'
+_chemical_formula_moiety         'Ce0.33333 Nb O3'
+_chemical_formula_structural     'Ce0.33333 Nb O3'
+_chemical_formula_sum            'Ce0.33333 Nb O3'
+_chemical_formula_weight         187.61
+_chemical_name_systematic
+;
+cerium niobium oxide
+;
+_space_group_IT_number           10
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2y'
+_symmetry_space_group_name_H-M   'P 1 2/m 1'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.2940(10)
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            4
+_cell_length_a                   5.5267(3)
+_cell_length_b                   7.8824(2)
+_cell_length_c                   5.5245(3)
+_cell_measurement_temperature    298
+_cell_volume                     240.664(19)
+_computing_cell_refinement       GSAS
+_computing_data_reduction        GSAS
+_computing_structure_refinement  GSAS
+_diffrn_ambient_temperature      298
+_diffrn_measurement_device_type  SEPD
+_diffrn_radiation_monochromator  none
+_diffrn_radiation_probe          neutron
+_exptl_absorpt_coefficient_mu    .137(2)
+_exptl_absorpt_correction_type   refdelf
+_exptl_absorpt_process_details
+; Debye-Scherrer absorption correction provided in the GSAS
+powder refinement package (useful for TOF data).
+Reference: Hewat (1979) A35, 248.
+NOTE: This value is REFINED (not calculated based upon
+composition)
+;
+_exptl_crystal_density_diffrn    5.173
+_exptl_crystal_density_method    'not measured'
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_all   1.60
+_refine_ls_hydrogen_treatment    none
+_refine_ls_number_parameters     60
+_refine_ls_shift/su_max          .01
+_refine_ls_shift/su_mean         0
+_cod_data_source_file            br0090.cif
+_cod_data_source_block           cenb_data
+_cod_original_cell_volume        240.67(2)
+_cod_original_sg_symbol_H-M      'P 2/m'
+_cod_database_code               2102017
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -x,y,-z
+3 -x,-y,-z
+4 x,-y,z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Ce .0120(6) .0120(6) .0120(6) .00 .00 .00
+Nb .0131(3) .0206(7) .015(3) .0070(10) -.0008(5) -.0030(10)
+O1 .023(4) .0080(10) .030(4) .00 -.001(2) .00
+O2 .017(3) .0090(10) .031(4) .00 -.003(2) .00
+O3 .008(4) .023(2) .015(4) .00 -.008(2) .00
+O4 .012(4) .024(3) .005(3) .00 .005(2) .00
+O5 .033(5) .028(4) .014(4) .00 13(2) .00
+O6 .033(5) .023(2) .012(4) .00 -13(2) .00
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_occupancy
+_atom_site_type_symbol
+Ce .255(2) .0 .756(2) .0120(6) Uiso .66667 Ce
+Nb .2458(8) .2613(2) .2527(7) .01624 Uani 1.0 Nb
+O1 .2710(10) .5 .2860(10) .02033 Uani 1.0 O
+O2 .2240(10) .0 .2120(10) .01881 Uani 1.0 O
+O3 .5 .2059(5) .5 .0154 Uani 1.0 O
+O4 .0 .2230(10) .5 .01346 Uani 1.0 O
+O5 .5 .2420(10) .0 .02488 Uani 1.0 O
+O6 .0 .2626(5) .0 .02277 Uani 1.0 O
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_source
+Ce Ce 'International Tables for Crystallography (Vol. C)'
+Nb Nb 'International Tables for Crystallography (Vol. C)'
+O O 'International Tables for Crystallography (Vol. C)'
+loop_
+_diffrn_radiation_type
+neutron
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O2 Ce O2 . 1_556 172.6(6) yes
+O2 Ce O2 . 2_556 90.7(5) no
+O2 Ce O2 . 2_656 96.6(3) no
+O2 Ce O3 . . 58.26(19) no
+O2 Ce O4 . . 55.9(3) no
+O2 Ce O5 . 1_556 121.72(19) no
+O2 Ce O6 . 1_556 116.5(4) no
+O2 Ce O2 . 2_556 81.9(3) no
+O2 Ce O3 1_556 . 126.4(4) no
+O2 Ce O4 1_556 . 119.4(2) no
+O2 Ce O5 1_556 1_556 62.6(3) no
+O2 Ce O6 1_556 1_556 59.4(2) no
+O2 Ce O2 2_556 2_656 172.7(6) yes
+O2 Ce O3 2_556 . 124.8(4) no
+O2 Ce O4 2_556 . 60.6(3) no
+O2 Ce O5 2_556 1_556 117.8(3) no
+O2 Ce O6 2_556 1_556 58.2(2) no
+O2 Ce O3 2_656 . 60.0(3) no
+O2 Ce O4 2_656 . 124.0(3) no
+O2 Ce O5 2_656 1_556 58.0(3) no
+O2 Ce O6 2_656 1_556 117.9(4) no
+O3 Ce O3 . 3_656 79.1(3) no
+O3 Ce O4 . . 64.18(16) no
+O3 Ce O4 . 3_556 114.1(4) no
+O3 Ce O5 . 1_556 63.88(17) no
+O3 Ce O5 . 3_656 117.4(5) no
+O3 Ce O6 . 1_556 93.75(9) no
+O3 Ce O6 . 3_556 172.7(3) yes
+O4 Ce O4 . 3_556 82.9(6) no
+O4 Ce O5 . 1_556 93.54(11) no
+O4 Ce O5 . 3_656 176.4(6) yes
+O4 Ce O6 . 1_556 60.56(15) no
+O4 Ce O6 . 3_556 118.1(5) no
+O5 Ce O5 3_556 3_656 90.0(6) no
+O5 Ce O6 1_556 1_556 59.86(13) no
+O5 Ce O6 1_556 3_556 121.8(4) no
+O6 Ce O6 1_556 3_556 93.3(3) no
+O1 Nb O2 . . 179.1(5) yes
+O1 Nb O3 . . 95.7(3) no
+O1 Nb O4 . . 97.7(5) no
+O1 Nb O5 . . 95.4(5) no
+O1 Nb O6 . . 96.6(2) no
+O2 Nb O3 . . 84.26(16) no
+O2 Nb O4 . . 83.2(4) no
+O2 Nb O5 . . 83.7(5) no
+O2 Nb O6 . . 83.4(2) no
+O3 Nb O4 . . 88.69(17) no
+O3 Nb O5 . . 88.09(18) no
+O3 Nb O6 . . 167.6(2) yes
+O4 Nb O5 . . 166.8(2) yes
+O4 Nb O6 . . 90.98(19) no
+O5 Nb O6 . . 89.43(15) no
+Nb O1 Nb . 4_565 166.0(4) yes
+Nb O2 Nb . 4_555 165.7(3) yes
+Nb O3 Nb . 2_656 154.8(3) yes
+Nb O4 Nb . 2_556 162.3(5) yes
+Nb O5 Nb . 2_655 171.2(6) yes
+Nb O6 Nb . 2_555 179.4(3) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Nb O1 . 1.8960(18) no
+Nb O2 . 2.0753(18) no
+Nb O3 . 2.003(4) no
+Nb O4 . 1.955(4) no
+Nb O5 . 1.991(4) no
+Nb O6 . 1.943(4) no
+Ce O2 . 3.011(11) no
+Ce O2 1_556 2.525(10) no
+Ce O2 2_556 2.648(15) no
+Ce O2 2_656 2.890(15) no
+Ce O3 . 2.548(7) no
+Ce O4 . 2.657(10) no
+Ce O5 1_556 2.695(10) no
+Ce O6 1_556 2.846(6) no

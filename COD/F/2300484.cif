@@ -1,0 +1,369 @@
+#------------------------------------------------------------------------------
+#$Date: 2019-01-15 15:18:43 +0200 (Tue, 15 Jan 2019) $
+#$Revision: 213072 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/30/04/2300484.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2300484
+loop_
+_publ_author_name
+'Lindsay-Scott, Alex'
+'Dobson, David'
+'Nestola, Fabrizio'
+'Alvaro, Matteo'
+'Casati, Nicola'
+'Liebske, Christian'
+'Knight, Kevin S.'
+'Smith, Ronald I.'
+'Wood, Ian G.'
+_publ_section_title
+;
+ Time-of-flight neutron powder diffraction with milligram samples: the
+ crystal structures of NaCoF~3~ and NaNiF~3~ post-perovskites
+;
+_journal_coeditor_code           ks5440
+_journal_issue                   6
+_journal_name_full               'Journal of Applied Crystallography'
+_journal_page_first              1939
+_journal_page_last               1947
+_journal_paper_doi               10.1107/S1600576714021803
+_journal_volume                  47
+_journal_year                    2014
+_chemical_formula_sum            'F3 Na Ni'
+_chemical_formula_weight         138.70
+_chemical_name_systematic
+;
+ ?
+;
+_space_group_IT_number           63
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-C 2c 2'
+_symmetry_space_group_name_H-M   'C m c m'
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   3.0294(4)
+_cell_length_b                   10.0534(12)
+_cell_length_c                   7.3938(7)
+_cell_measurement_temperature    293(2)
+_cell_volume                     225.18(5)
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measured_fraction_theta_full 0.788
+_diffrn_measured_fraction_theta_max 0.788
+_diffrn_radiation_monochromator  'double-bounce silicon (1 1 1) plus mirrors'
+_diffrn_radiation_source         'ID15 Diamond synchrotron'
+_diffrn_radiation_type           X-ray
+_diffrn_radiation_wavelength     0.20675
+_diffrn_reflns_av_R_equivalents  0.1107
+_diffrn_reflns_av_sigmaI/netI    0.0780
+_diffrn_reflns_limit_h_max       6
+_diffrn_reflns_limit_h_min       -5
+_diffrn_reflns_limit_k_max       21
+_diffrn_reflns_limit_k_min       -21
+_diffrn_reflns_limit_l_max       14
+_diffrn_reflns_limit_l_min       -16
+_diffrn_reflns_number            3527
+_diffrn_reflns_theta_full        13.95
+_diffrn_reflns_theta_max         13.95
+_diffrn_reflns_theta_min         1.60
+_exptl_absorpt_coefficient_mu    4.481
+_exptl_crystal_density_diffrn    4.091
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_F_000             264
+_refine_diff_density_max         2.338
+_refine_diff_density_min         -2.934
+_refine_diff_density_rms         0.487
+_refine_ls_extinction_coef       0.00(7)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_ref   1.057
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     20
+_refine_ls_number_reflns         680
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.057
+_refine_ls_R_factor_all          0.1046
+_refine_ls_R_factor_gt           0.0665
+_refine_ls_shift/su_max          1.014
+_refine_ls_shift/su_mean         0.051
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0915P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.1552
+_refine_ls_wR_factor_ref         0.1900
+_reflns_number_gt                438
+_reflns_number_total             680
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            ks5440sup6.cif
+_cod_data_source_block           nanif3_anisotropic_synchrotron_Diamond
+_cod_depositor_comments
+;Adding full bibliography for 2300484.cif.
+
+ Adding Fobs data.
+
+ Adding a comment to the HKL file concerning the change of
+ _cod_data_source_block value.
+;
+_cod_database_code               2300484
+_cod_database_fobs_code          2300484
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, -y, z+1/2'
+'x, -y, -z'
+'-x, y, -z+1/2'
+'x+1/2, y+1/2, z'
+'-x+1/2, -y+1/2, z+1/2'
+'x+1/2, -y+1/2, -z'
+'-x+1/2, y+1/2, -z+1/2'
+'-x, -y, -z'
+'x, y, -z-1/2'
+'-x, y, z'
+'x, -y, z-1/2'
+'-x+1/2, -y+1/2, -z'
+'x+1/2, y+1/2, -z-1/2'
+'-x+1/2, y+1/2, z'
+'x+1/2, -y+1/2, z-1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+Ni Ni 0.0000 0.0000 0.0000 0.0115(2) Uani 1 4 d S
+Na Na 0.0000 0.2540(3) 0.2500 0.0199(5) Uani 1 4 d S
+F1 F 0.0000 0.9276(5) 0.2500 0.0172(7) Uani 1 4 d S
+F2 F 0.0000 0.6273(3) 0.0576(4) 0.0146(4) Uani 1 2 d S
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Ni 0.0069(2) 0.0137(3) 0.0138(3) 0.0003(2) 0.000 0.000
+Na 0.0110(9) 0.0196(13) 0.0290(13) 0.000 0.000 0.000
+F1 0.0119(11) 0.025(2) 0.0142(12) 0.000 0.000 0.000
+F2 0.0098(7) 0.0150(10) 0.0191(10) 0.0008(8) 0.000 0.000
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+F F 0.0096 0.0061 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Na Na 0.0218 0.0150 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ni Ni 0.3147 0.7232 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+F1 Ni F1 180.0(3) 9_565 1_545
+F1 Ni F2 92.05(12) 9_565 13_455
+F1 Ni F2 87.95(12) 1_545 13_455
+F1 Ni F2 87.95(12) 9_565 5_545
+F1 Ni F2 92.05(12) 1_545 5_545
+F2 Ni F2 180.0(2) 13_455 5_545
+F1 Ni F2 92.05(12) 9_565 13
+F1 Ni F2 87.95(12) 1_545 13
+F2 Ni F2 96.64(13) 13_455 13
+F2 Ni F2 83.36(13) 5_545 13
+F1 Ni F2 87.95(12) 9_565 5_445
+F1 Ni F2 92.05(12) 1_545 5_445
+F2 Ni F2 83.36(13) 13_455 5_445
+F2 Ni F2 96.64(13) 5_545 5_445
+F2 Ni F2 180.0(2) 13 5_445
+F1 Ni Na 75.60(14) 9_565 9
+F1 Ni Na 104.40(14) 1_545 9
+F2 Ni Na 50.63(7) 13_455 9
+F2 Ni Na 129.37(7) 5_545 9
+F2 Ni Na 50.63(7) 13 9
+F2 Ni Na 129.37(7) 5_445 9
+F1 Ni Na 104.40(14) 9_565 .
+F1 Ni Na 75.60(14) 1_545 .
+F2 Ni Na 129.37(7) 13_455 .
+F2 Ni Na 50.63(7) 5_545 .
+F2 Ni Na 129.37(7) 13 .
+F2 Ni Na 50.63(7) 5_445 .
+Na Ni Na 180.00(7) 9 .
+F1 Ni Na 139.79(10) 9_565 5_445
+F1 Ni Na 40.21(10) 1_545 5_445
+F2 Ni Na 47.95(8) 13_455 5_445
+F2 Ni Na 132.05(8) 5_545 5_445
+F2 Ni Na 89.32(8) 13 5_445
+F2 Ni Na 90.68(8) 5_445 5_445
+Na Ni Na 74.493(9) 9 5_445
+Na Ni Na 105.507(9) . 5_445
+F1 Ni Na 40.21(10) 9_565 13
+F1 Ni Na 139.79(10) 1_545 13
+F2 Ni Na 132.05(8) 13_455 13
+F2 Ni Na 47.95(8) 5_545 13
+F2 Ni Na 90.68(8) 13 13
+F2 Ni Na 89.32(8) 5_445 13
+Na Ni Na 105.507(9) 9 13
+Na Ni Na 74.493(9) . 13
+Na Ni Na 180.00(8) 5_445 13
+F1 Ni Na 40.21(10) 9_565 13_455
+F1 Ni Na 139.79(10) 1_545 13_455
+F2 Ni Na 90.68(8) 13_455 13_455
+F2 Ni Na 89.32(8) 5_545 13_455
+F2 Ni Na 132.05(8) 13 13_455
+F2 Ni Na 47.95(8) 5_445 13_455
+Na Ni Na 105.507(9) 9 13_455
+Na Ni Na 74.493(9) . 13_455
+Na Ni Na 127.74(4) 5_445 13_455
+Na Ni Na 52.26(4) 13 13_455
+F1 Ni Na 139.79(10) 9_565 5_545
+F1 Ni Na 40.21(10) 1_545 5_545
+F2 Ni Na 89.32(8) 13_455 5_545
+F2 Ni Na 90.68(8) 5_545 5_545
+F2 Ni Na 47.95(8) 13 5_545
+F2 Ni Na 132.05(8) 5_445 5_545
+Na Ni Na 74.493(8) 9 5_545
+Na Ni Na 105.507(9) . 5_545
+Na Ni Na 52.26(4) 5_445 5_545
+Na Ni Na 127.74(4) 13 5_545
+Na Ni Na 180.00(8) 13_455 5_545
+F1 Na F1 81.92(19) 5_545 5_445
+F1 Na F2 143.33(8) 5_545 5_445
+F1 Na F2 89.27(9) 5_445 5_445
+F1 Na F2 89.27(9) 5_545 14_546
+F1 Na F2 143.33(8) 5_445 14_546
+F2 Na F2 116.98(18) 5_445 14_546
+F1 Na F2 143.33(8) 5_545 14_446
+F1 Na F2 89.27(9) 5_445 14_446
+F2 Na F2 71.41(13) 5_445 14_446
+F2 Na F2 76.85(11) 14_546 14_446
+F1 Na F2 89.27(9) 5_545 5_545
+F1 Na F2 143.33(8) 5_445 5_545
+F2 Na F2 76.85(11) 5_445 5_545
+F2 Na F2 71.41(13) 14_546 5_545
+F2 Na F2 116.98(18) 14_446 5_545
+F1 Na F2 69.46(8) 5_545 2_565
+F1 Na F2 69.46(8) 5_445 2_565
+F2 Na F2 139.43(6) 5_445 2_565
+F2 Na F2 74.10(9) 14_546 2_565
+F2 Na F2 74.10(9) 14_446 2_565
+F2 Na F2 139.43(6) 5_545 2_565
+F1 Na F2 69.46(8) 5_545 9_565
+F1 Na F2 69.46(8) 5_445 9_565
+F2 Na F2 74.10(9) 5_445 9_565
+F2 Na F2 139.43(6) 14_546 9_565
+F2 Na F2 139.43(6) 14_446 9_565
+F2 Na F2 74.10(9) 5_545 9_565
+F2 Na F2 124.62(18) 2_565 9_565
+F1 Na Na 130.96(10) 5_545 1_455
+F1 Na Na 49.04(10) 5_445 1_455
+F2 Na Na 51.58(5) 5_445 1_455
+F2 Na Na 128.42(5) 14_546 1_455
+F2 Na Na 51.58(5) 14_446 1_455
+F2 Na Na 128.42(5) 5_545 1_455
+F2 Na Na 90.0 2_565 1_455
+F2 Na Na 90.0 9_565 1_455
+F1 Na Na 49.04(10) 5_545 1_655
+F1 Na Na 130.96(10) 5_445 1_655
+F2 Na Na 128.42(5) 5_445 1_655
+F2 Na Na 51.58(5) 14_546 1_655
+F2 Na Na 128.42(5) 14_446 1_655
+F2 Na Na 51.58(5) 5_545 1_655
+F2 Na Na 90.0 2_565 1_655
+F2 Na Na 90.0 9_565 1_655
+Na Na Na 180.0(2) 1_455 1_655
+F1 Na Ni 127.71(6) 5_545 .
+F1 Na Ni 127.71(6) 5_445 .
+F2 Na Ni 40.04(6) 5_445 .
+F2 Na Ni 85.34(11) 14_546 .
+F2 Na Ni 85.34(11) 14_446 .
+F2 Na Ni 40.04(6) 5_545 .
+F2 Na Ni 153.59(12) 2_565 .
+F2 Na Ni 81.79(7) 9_565 .
+Na Na Ni 90.0 1_455 .
+Na Na Ni 90.0 1_655 .
+F1 Na Ni 127.71(6) 5_545 2
+F1 Na Ni 127.71(6) 5_445 2
+F2 Na Ni 85.34(11) 5_445 2
+F2 Na Ni 40.04(6) 14_546 2
+F2 Na Ni 40.04(6) 14_446 2
+F2 Na Ni 85.34(11) 5_545 2
+F2 Na Ni 81.79(7) 2_565 2
+F2 Na Ni 153.59(12) 9_565 2
+Na Na Ni 90.0 1_455 2
+Na Na Ni 90.0 1_655 2
+Ni Na Ni 71.80(7) . 2
+Ni F1 Ni 137.0(3) 2_565 1_565
+Ni F1 Na 106.07(8) 2_565 5_455
+Ni F1 Na 106.07(8) 1_565 5_455
+Ni F1 Na 106.07(8) 2_565 5
+Ni F1 Na 106.07(8) 1_565 5
+Na F1 Na 81.92(19) 5_455 5
+Ni F2 Ni 96.64(13) 5_455 5
+Ni F2 Na 156.42(14) 5_455 5
+Ni F2 Na 89.33(6) 5 5
+Ni F2 Na 89.33(6) 5_455 5_455
+Ni F2 Na 156.42(14) 5 5_455
+Na F2 Na 76.85(11) 5 5_455
+Ni F2 Na 96.15(10) 5_455 9_565
+Ni F2 Na 96.15(10) 5 9_565
+Na F2 Na 105.90(9) 5 9_565
+Na F2 Na 105.90(9) 5_455 9_565
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Ni F1 1.9868(18) 9_565
+Ni F1 1.9868(18) 1_545
+Ni F2 2.028(2) 13_455
+Ni F2 2.028(2) 5_545
+Ni F2 2.028(2) 13
+Ni F2 2.028(2) 5_445
+Ni Na 3.152(3) 9
+Ni Na 3.152(3) .
+Ni Na 3.439(2) 5_445
+Ni Na 3.439(2) 13
+Ni Na 3.439(2) 13_455
+Ni Na 3.439(2) 5_545
+Na F1 2.311(4) 5_545
+Na F1 2.311(4) 5_445
+Na F2 2.437(3) 5_445
+Na F2 2.437(3) 14_546
+Na F2 2.437(3) 14_446
+Na F2 2.437(3) 5_545
+Na F2 2.569(3) 2_565
+Na F2 2.569(3) 9_565
+Na Na 3.0294(4) 1_455
+Na Na 3.0294(4) 1_655
+Na Ni 3.152(3) 2
+F1 Ni 1.9868(18) 2_565
+F1 Ni 1.9868(18) 1_565
+F1 Na 2.311(4) 5_455
+F1 Na 2.311(4) 5
+F2 Ni 2.028(2) 5_455
+F2 Ni 2.028(2) 5
+F2 Na 2.437(3) 5
+F2 Na 2.437(3) 5_455
+F2 Na 2.569(3) 9_565

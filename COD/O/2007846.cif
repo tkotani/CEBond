@@ -1,0 +1,622 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/78/2007846.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2007846
+loop_
+_publ_author_name
+'Piffard, Yves'
+'Rangan, Krishnaswamy Kasthuri'
+'An, Yonglin'
+'Guyomard, Dominique'
+'Tournoux, Michel'
+_publ_section_title
+;
+ Cobalt Lithium Orthoborate, LiCoBO~3~
+;
+_journal_issue                   11
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              1561
+_journal_page_last               1563
+_journal_paper_doi               10.1107/S0108270198007458
+_journal_volume                  54
+_journal_year                    1998
+_chemical_formula_moiety         'Li Co B O3'
+_chemical_formula_sum            'B Co Li O3'
+_chemical_formula_weight         124.68
+_chemical_name_systematic
+;
+ ?
+;
+_space_group_IT_number           15
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-C 2yc'
+_symmetry_space_group_name_H-M   'C 1 2/c 1'
+_cell_angle_alpha                90.00
+_cell_angle_beta                 91.36(3)
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            8
+_cell_length_a                   5.1290(10)
+_cell_length_b                   8.840(2)
+_cell_length_c                   10.100(2)
+_cell_measurement_reflns_used    22
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      12.32
+_cell_measurement_theta_min      4.60
+_cell_volume                     457.81(16)
+_computing_cell_refinement       'CAD-4 Manual'
+_computing_data_collection       'CAD-4 Manual (Schagen et al., 1989)'
+_computing_data_reduction        'XPREP in SHELXTL (Sheldrick, 1995)'
+_computing_publication_material  SHELXTL
+_computing_structure_refinement  'XL in SHELXTL'
+_computing_structure_solution    'XS in SHELXTL'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measurement_device       'Enraf-Nonius CAD-4'
+_diffrn_measurement_method       \w
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         xray_tube
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.057
+_diffrn_reflns_av_sigmaI/netI    0.0735
+_diffrn_reflns_limit_h_max       7
+_diffrn_reflns_limit_h_min       -7
+_diffrn_reflns_limit_k_max       12
+_diffrn_reflns_limit_k_min       -12
+_diffrn_reflns_limit_l_max       14
+_diffrn_reflns_limit_l_min       -1
+_diffrn_reflns_number            1477
+_diffrn_reflns_theta_max         29.95
+_diffrn_reflns_theta_min         4.04
+_diffrn_standards_decay_%        none
+_diffrn_standards_interval_time  60
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    7.194
+_exptl_absorpt_correction_T_max  0.930
+_exptl_absorpt_correction_T_min  0.879
+_exptl_absorpt_correction_type   integration
+_exptl_absorpt_process_details   '(Sheldrick, 1995)'
+_exptl_crystal_colour            blue
+_exptl_crystal_density_diffrn    3.618
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       'elongated parallelepiped'
+_exptl_crystal_F_000             472
+_exptl_crystal_size_max          0.090
+_exptl_crystal_size_mid          0.016
+_exptl_crystal_size_min          0.010
+_refine_diff_density_max         0.655
+_refine_diff_density_min         -0.707
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_all   0.977
+_refine_ls_goodness_of_fit_obs   1.060
+_refine_ls_hydrogen_treatment    none
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     50
+_refine_ls_number_reflns         661
+_refine_ls_number_restraints     2
+_refine_ls_restrained_S_all      0.977
+_refine_ls_restrained_S_obs      1.060
+_refine_ls_R_factor_all          0.081
+_refine_ls_R_factor_obs          0.033
+_refine_ls_shift/esd_max         0.016
+_refine_ls_shift/esd_mean        0.003
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w = 1/[\s^2^(Fo^2^)+(0.0249P)^2^] where P = (Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         0.069
+_refine_ls_wR_factor_obs         0.058
+_reflns_number_observed          425
+_reflns_number_total             661
+_reflns_observed_criterion       I>2\s(I)
+_cod_data_source_file            os1009.cif
+_cod_data_source_block           os1009
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_symmetry_cell_setting' value 'Monoclinic' changed to 'monoclinic'
+according to '/home/saulius/struct/CIF-dictionaries/cif_core.dic'
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Monoclinic' changed to 'monoclinic'
+according to /home/saulius/struct/CIF-dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'calc w =
+1/[\s^2^(Fo^2^)+(0.0249P)^2^] where P = (Fo^2^+2Fc^2^)/3' was changed
+to 'calc'. New tag '_refine_ls_weighting_details' was created. The
+value of the new tag was set to 'w = 1/[\s^2^(Fo^2^)+(0.0249P)^2^]
+where P = (Fo^2^+2Fc^2^)/3'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        457.8(2)
+_cod_original_sg_symbol_H-M      'C 2/c'
+_cod_original_formula_sum        'Li Co B O3'
+_cod_database_code               2007846
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, y, -z+1/2'
+'x+1/2, y+1/2, z'
+'-x+1/2, y+1/2, -z+1/2'
+'-x, -y, -z'
+'x, -y, z-1/2'
+'-x+1/2, -y+1/2, -z'
+'x+1/2, -y+1/2, z-1/2'
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+O1 0.0076(12) 0.0102(12) 0.0082(14) 0.0001(13) -0.0009(11) 0.0009(14)
+O2 0.0065(13) 0.006(2) 0.010(2) 0.0002(10) -0.0019(12) 0.0004(12)
+O3 0.0059(13) 0.006(2) 0.040(2) 0.0001(12) -0.0031(15) 0.000(2)
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+_atom_site_disorder_group
+_atom_site_type_symbol
+Co1 0.1657(6) 0.1673(4) 0.1325(9) 0.0066(2) Uiso d P 0.56(5) . Co
+Co2 0.1547(8) 0.1645(5) 0.1136(9) 0.0066(2) Uiso d P 0.44(5) . Co
+Li1 0.661(3) 0.003(3) 0.088(3) 0.017(2) Uiso d P 0.48(2) . Li
+Li2 0.663(3) -0.005(3) 0.157(2) 0.017(2) Uiso d P 0.52(2) . Li
+B1 0.1642(9) -0.1684(8) 0.1258(5) 0.0073(7) Uiso d . 1 . B
+O1 0.4026(5) 0.3356(4) 0.0913(3) 0.0087(6) Uani d . 1 . O
+O2 -0.2167(5) 0.1944(3) 0.1587(3) 0.0076(7) Uani d . 1 . O
+O3 0.3088(6) -0.0389(3) 0.1266(4) 0.0176(8) Uani d . 1 . O
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Li Li -0.0003 0.0001 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+B B 0.0013 0.0007 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Co Co 0.3494 0.9721 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O3 Co1 O1 . . 117.4(2) yes
+O3 Co1 O2 . . 118.9(2) yes
+O1 Co1 O2 . . 123.3(2) yes
+O3 Co1 O2 . 2 95.6(3) yes
+O1 Co1 O2 . 2 93.6(4) yes
+O2 Co1 O2 . 2 87.3(3) yes
+O3 Co1 O1 . 7 90.5(4) yes
+O1 Co1 O1 . 7 83.1(3) yes
+O2 Co1 O1 . 7 90.3(3) yes
+O2 Co1 O1 2 7 173.9(2) yes
+O3 Co1 Li2 . 2_655 52.8(5) ?
+O1 Co1 Li2 . 2_655 113.3(5) ?
+O2 Co1 Li2 . 2_655 105.2(4) ?
+O2 Co1 Li2 2 2_655 42.8(5) ?
+O1 Co1 Li2 7 2_655 143.2(5) ?
+O3 Co1 Li1 . 5_655 50.4(6) ?
+O1 Co1 Li1 . 5_655 91.6(5) ?
+O2 Co1 Li1 . 5_655 119.5(5) ?
+O2 Co1 Li1 2 5_655 143.1(5) ?
+O1 Co1 Li1 7 5_655 42.4(5) ?
+Li2 Co1 Li1 2_655 5_655 102.2(5) ?
+O3 Co1 Li2 . 3_455 158.3(4) ?
+O1 Co1 Li2 . 3_455 43.2(4) ?
+O2 Co1 Li2 . 3_455 82.1(3) ?
+O2 Co1 Li2 2 3_455 78.7(5) ?
+O1 Co1 Li2 7 3_455 95.4(5) ?
+Li2 Co1 Li2 2_655 3_455 119.3(5) ?
+Li1 Co1 Li2 5_655 3_455 126.6(5) ?
+O3 Co1 Co1 . 2 104.3(3) ?
+O1 Co1 Co1 . 2 122.6(4) ?
+O2 Co1 Co1 . 2 46.20(10) ?
+O2 Co1 Co1 2 2 42.6(3) ?
+O1 Co1 Co1 7 2 136.0(4) ?
+Li2 Co1 Co1 2_655 2 63.7(5) ?
+Li1 Co1 Co1 5_655 2 145.6(5) ?
+Li2 Co1 Co1 3_455 2 85.8(5) ?
+O3 Co1 Li1 . . 38.8(4) ?
+O1 Co1 Li1 . . 78.7(4) ?
+O2 Co1 Li1 . . 157.4(5) ?
+O2 Co1 Li1 2 . 96.9(6) ?
+O1 Co1 Li1 7 . 87.5(6) ?
+Li2 Co1 Li1 2_655 . 65.5(8) ?
+Li1 Co1 Li1 5_655 . 48.6(8) ?
+Li2 Co1 Li1 3_455 . 120.5(5) ?
+Co1 Co1 Li1 2 . 129.3(7) ?
+O3 Co1 Li2 . . 37.6(4) ?
+O1 Co1 Li2 . . 82.7(4) ?
+O2 Co1 Li2 . . 153.0(4) ?
+O2 Co1 Li2 2 . 83.7(6) ?
+O1 Co1 Li2 7 . 100.8(5) ?
+Li2 Co1 Li2 2_655 . 52.6(8) ?
+Li1 Co1 Li2 5_655 . 60.7(8) ?
+Li2 Co1 Li2 3_455 . 120.7(6) ?
+Co1 Co1 Li2 2 . 116.2(6) ?
+Li1 Co1 Li2 . . 13.6(4) ?
+O3 Co1 Li1 . 1_455 82.4(5) ?
+O1 Co1 Li1 . 1_455 150.4(7) ?
+O2 Co1 Li1 . 1_455 39.7(5) ?
+O2 Co1 Li1 2 1_455 106.8(6) ?
+O1 Co1 Li1 7 1_455 74.5(6) ?
+Li2 Co1 Li1 2_655 1_455 96.1(6) ?
+Li1 Co1 Li1 5_655 1_455 84.9(6) ?
+Li2 Co1 Li1 3_455 1_455 119.4(5) ?
+Co1 Co1 Li1 2 1_455 67.0(5) ?
+Li1 Co1 Li1 . 1_455 118.6(8) ?
+Li2 Co1 Li1 . 1_455 119.9(5) ?
+O3 Co2 O2 . . 119.5(2) yes
+O3 Co2 O1 . . 116.4(2) yes
+O2 Co2 O1 . . 122.9(2) yes
+O3 Co2 O1 . 7 96.5(4) yes
+O2 Co2 O1 . 7 96.6(4) yes
+O1 Co2 O1 . 7 87.9(3) yes
+O3 Co2 O2 . 2 89.6(4) yes
+O2 Co2 O2 . 2 82.4(4) yes
+O1 Co2 O2 . 2 87.3(4) yes
+O1 Co2 O2 7 2 173.5(2) yes
+O3 Co2 Li1 . 5_655 53.3(6) ?
+O2 Co2 Li1 . 5_655 126.8(6) ?
+O1 Co2 Li1 . 5_655 95.4(5) ?
+O1 Co2 Li1 7 5_655 45.2(5) ?
+O2 Co2 Li1 2 5_655 139.7(5) ?
+O3 Co2 Li2 . 2_655 49.6(6) ?
+O2 Co2 Li2 . 2_655 100.3(5) ?
+O1 Co2 Li2 . 2_655 106.8(6) ?
+O1 Co2 Li2 7 2_655 146.0(5) ?
+O2 Co2 Li2 2 2_655 40.1(5) ?
+Li1 Co2 Li2 5_655 2_655 101.9(6) ?
+O3 Co2 Li1 . 1_455 84.5(4) ?
+O2 Co2 Li1 . 1_455 41.4(5) ?
+O1 Co2 Li1 . 1_455 156.6(6) ?
+O1 Co2 Li1 7 1_455 79.0(7) ?
+O2 Co2 Li1 2 1_455 104.0(6) ?
+Li1 Co2 Li1 5_655 1_455 89.0(6) ?
+Li2 Co2 Li1 2_655 1_455 94.7(6) ?
+O3 Co2 Co2 . 7 112.4(4) ?
+O2 Co2 Co2 . 7 116.7(5) ?
+O1 Co2 Co2 . 7 45.20(10) ?
+O1 Co2 Co2 7 7 42.7(4) ?
+O2 Co2 Co2 2 7 132.3(5) ?
+Li1 Co2 Co2 5_655 7 64.2(6) ?
+Li2 Co2 Co2 2_655 7 141.7(4) ?
+Li1 Co2 Co2 1_455 7 119.2(9) ?
+O3 Co2 Li2 . 3_455 152.9(6) ?
+O2 Co2 Li2 . 3_455 81.0(3) ?
+O1 Co2 Li2 . 3_455 42.2(3) ?
+O1 Co2 Li2 7 3_455 98.6(5) ?
+O2 Co2 Li2 2 3_455 74.9(6) ?
+Li1 Co2 Li2 5_655 3_455 130.4(6) ?
+Li2 Co2 Li2 2_655 3_455 113.0(6) ?
+Li1 Co2 Li2 1_455 3_455 120.5(5) ?
+Co2 Co2 Li2 7 3_455 66.6(5) ?
+O3 Co2 Li2 . 1_455 82.5(5) ?
+O2 Co2 Li2 . 1_455 38.1(4) ?
+O1 Co2 Li2 . 1_455 160.9(5) ?
+O1 Co2 Li2 7 1_455 92.6(6) ?
+O2 Co2 Li2 2 1_455 90.5(5) ?
+Li1 Co2 Li2 5_655 1_455 98.5(7) ?
+Li2 Co2 Li2 2_655 1_455 83.1(7) ?
+Li1 Co2 Li2 1_455 1_455 13.6(4) ?
+Co2 Co2 Li2 7 1_455 132.4(8) ?
+Li2 Co2 Li2 3_455 1_455 119.0(6) ?
+O3 Co2 Li1 . . 38.6(4) ?
+O2 Co2 Li1 . . 157.8(5) ?
+O1 Co2 Li1 . . 78.1(4) ?
+O1 Co2 Li1 7 . 90.9(6) ?
+O2 Co2 Li1 2 . 92.4(6) ?
+Li1 Co2 Li1 5_655 . 49.5(9) ?
+Li2 Co2 Li1 2_655 . 63.6(8) ?
+Li1 Co2 Li1 1_455 . 120.9(8) ?
+Co2 Co2 Li1 7 . 82.6(5) ?
+Li2 Co2 Li1 3_455 . 118.6(5) ?
+Li2 Co2 Li1 1_455 . 120.9(6) ?
+Li2 Li1 O3 . . 76(2) ?
+Li2 Li1 O1 . 3_545 85(3) ?
+O3 Li1 O1 . 3_545 118.0(10) ?
+Li2 Li1 O2 . 1_655 74(3) ?
+O3 Li1 O2 . 1_655 113.0(10) ?
+O1 Li1 O2 3_545 1_655 117.4(9) ?
+Li2 Li1 O3 . 5_655 175(2) ?
+O3 Li1 O3 . 5_655 109.0(10) ?
+O1 Li1 O3 3_545 5_655 94.0(10) ?
+O2 Li1 O3 1_655 5_655 102.0(10) ?
+Li2 Li1 Li1 . 5_655 137(2) ?
+O3 Li1 Li1 . 5_655 60.3(7) ?
+O1 Li1 Li1 3_545 5_655 115(2) ?
+O2 Li1 Li1 1_655 5_655 120(2) ?
+O3 Li1 Li1 5_655 5_655 48.0(10) ?
+Li2 Li1 Co2 . 5_655 134(3) ?
+O3 Li1 Co2 . 5_655 114.0(10) ?
+O1 Li1 Co2 3_545 5_655 50.1(6) ?
+O2 Li1 Co2 1_655 5_655 130.0(10) ?
+O3 Li1 Co2 5_655 5_655 45.9(5) ?
+Li1 Li1 Co2 5_655 5_655 71.0(10) ?
+Li2 Li1 B1 . 5_655 146(3) ?
+O3 Li1 B1 . 5_655 126.0(10) ?
+O1 Li1 B1 3_545 5_655 101.5(9) ?
+O2 Li1 B1 1_655 5_655 73.6(8) ?
+O3 Li1 B1 5_655 5_655 29.0(4) ?
+Li1 Li1 B1 5_655 5_655 70.0(10) ?
+Co2 Li1 B1 5_655 5_655 65.0(6) ?
+Li2 Li1 Co1 . 5_655 137(3) ?
+O3 Li1 Co1 . 5_655 112.0(10) ?
+O1 Li1 Co1 3_545 5_655 52.9(6) ?
+O2 Li1 Co1 1_655 5_655 130.0(10) ?
+O3 Li1 Co1 5_655 5_655 43.6(5) ?
+Li1 Li1 Co1 5_655 5_655 68.0(10) ?
+Co2 Li1 Co1 5_655 5_655 2.90(10) ?
+B1 Li1 Co1 5_655 5_655 63.8(6) ?
+Li2 Li1 Co2 . 1_655 88(2) ?
+O3 Li1 Co2 . 1_655 155.0(10) ?
+O1 Li1 Co2 3_545 1_655 79.5(5) ?
+O2 Li1 Co2 1_655 1_655 42.7(4) ?
+O3 Li1 Co2 5_655 1_655 86.3(8) ?
+Li1 Li1 Co2 5_655 1_655 132(2) ?
+Co2 Li1 Co2 5_655 1_655 91.0(6) ?
+B1 Li1 Co2 5_655 1_655 61.0(5) ?
+Co1 Li1 Co2 5_655 1_655 92.4(6) ?
+Li2 Li1 Li2 . 5_655 146(2) ?
+O3 Li1 Li2 . 5_655 69.7(6) ?
+O1 Li1 Li2 3_545 5_655 112.0(10) ?
+O2 Li1 Li2 1_655 5_655 118.0(10) ?
+O3 Li1 Li2 5_655 5_655 39.0(7) ?
+Li1 Li1 Li2 5_655 5_655 9.4(6) ?
+Co2 Li1 Li2 5_655 5_655 64.7(8) ?
+B1 Li1 Li2 5_655 5_655 61.9(8) ?
+Co1 Li1 Li2 5_655 5_655 61.8(8) ?
+Co2 Li1 Li2 1_655 5_655 123.0(10) ?
+Li2 Li1 Co1 . . 84(2) ?
+O3 Li1 Co1 . . 40.6(4) ?
+O1 Li1 Co1 3_545 . 157.0(10) ?
+O2 Li1 Co1 1_655 . 77.7(7) ?
+O3 Li1 Co1 5_655 . 99.2(8) ?
+Li1 Li1 Co1 5_655 . 63.0(8) ?
+Co2 Li1 Co1 5_655 . 134.2(9) ?
+B1 Li1 Co1 5_655 . 98.8(8) ?
+Co1 Li1 Co1 5_655 . 131.4(8) ?
+Co2 Li1 Co1 1_655 . 119.4(8) ?
+Li2 Li1 Co1 5_655 . 69.9(5) ?
+Li1 Li2 O3 . . 82(2) ?
+Li1 Li2 O2 . 1_655 85(3) ?
+O3 Li2 O2 . 1_655 118.0(10) ?
+Li1 Li2 O1 . 3_545 74(2) ?
+O3 Li2 O1 . 3_545 116.0(10) ?
+O2 Li2 O1 1_655 3_545 117.5(9) ?
+Li1 Li2 O3 . 2_655 176(3) ?
+O3 Li2 O3 . 2_655 100.6(9) ?
+O2 Li2 O3 1_655 2_655 96.0(10) ?
+O1 Li2 O3 3_545 2_655 102.0(9) ?
+Li1 Li2 Li2 . 2_655 138(2) ?
+O3 Li2 Li2 . 2_655 57.8(6) ?
+O2 Li2 Li2 1_655 2_655 102.5(8) ?
+O1 Li2 Li2 3_545 2_655 131.9(8) ?
+O3 Li2 Li2 2_655 2_655 45.4(8) ?
+Li1 Li2 Co1 . 2_655 135(3) ?
+O3 Li2 Co1 . 2_655 121.0(10) ?
+O2 Li2 Co1 1_655 2_655 50.8(6) ?
+O1 Li2 Co1 3_545 2_655 117.4(7) ?
+O3 Li2 Co1 2_655 2_655 45.2(5) ?
+Li2 Li2 Co1 2_655 2_655 68.4(9) ?
+Li1 Li2 B1 . 2_655 147(3) ?
+O3 Li2 B1 . 2_655 110.1(9) ?
+O2 Li2 B1 1_655 2_655 112.7(9) ?
+O1 Li2 B1 3_545 2_655 72.9(6) ?
+O3 Li2 B1 2_655 2_655 29.3(4) ?
+Li2 Li2 B1 2_655 2_655 67.4(9) ?
+Co1 Li2 B1 2_655 2_655 65.3(5) ?
+Li1 Li2 Co2 . 2_655 138(3) ?
+O3 Li2 Co2 . 2_655 121.0(10) ?
+O2 Li2 Co2 1_655 2_655 53.4(6) ?
+O1 Li2 Co2 3_545 2_655 116.2(7) ?
+O3 Li2 Co2 2_655 2_655 42.7(4) ?
+Li2 Li2 Co2 2_655 2_655 67.3(9) ?
+Co1 Li2 Co2 2_655 2_655 2.60(10) ?
+B1 Li2 Co2 2_655 2_655 62.8(5) ?
+Li1 Li2 Co1 . 3_545 91(3) ?
+O3 Li2 Co1 . 3_545 80.4(8) ?
+O2 Li2 Co1 1_655 3_545 159.8(8) ?
+O1 Li2 Co1 3_545 3_545 42.6(5) ?
+O3 Li2 Co1 2_655 3_545 87.1(8) ?
+Li2 Li2 Co1 2_655 3_545 93.9(4) ?
+Co1 Li2 Co1 2_655 3_545 128.1(8) ?
+B1 Li2 Co1 2_655 3_545 62.9(5) ?
+Co2 Li2 Co1 2_655 3_545 125.6(8) ?
+Li1 Li2 Li1 . 5_655 34(2) ?
+O3 Li2 Li1 . 5_655 48.2(5) ?
+O2 Li2 Li1 1_655 5_655 100.0(10) ?
+O1 Li2 Li1 3_545 5_655 94.0(10) ?
+O3 Li2 Li1 2_655 5_655 148.8(9) ?
+Li2 Li2 Li1 2_655 5_655 104.7(8) ?
+Co1 Li2 Li1 2_655 5_655 144.1(9) ?
+B1 Li2 Li1 2_655 5_655 146.8(9) ?
+Co2 Li2 Li1 2_655 5_655 146.4(9) ?
+Co1 Li2 Li1 3_545 5_655 86.6(8) ?
+Li1 Li2 Co2 . 3_545 87(3) ?
+O3 Li2 Co2 . 3_545 78.9(8) ?
+O2 Li2 Co2 1_655 3_545 159.7(9) ?
+O1 Li2 Co2 3_545 3_545 42.2(5) ?
+O3 Li2 Co2 2_655 3_545 90.8(8) ?
+Li2 Li2 Co2 2_655 3_545 95.9(4) ?
+Co1 Li2 Co2 2_655 3_545 131.9(9) ?
+B1 Li2 Co2 2_655 3_545 66.6(5) ?
+Co2 Li2 Co2 2_655 3_545 129.3(8) ?
+Co1 Li2 Co2 3_545 3_545 3.78(8) ?
+Li1 Li2 Co2 5_655 3_545 83.0(8) ?
+O3 B1 O1 . 3_445 120.4(5) yes
+O3 B1 O2 . 3_545 119.6(4) yes
+O1 B1 O2 3_445 3_545 120.0(5) yes
+O3 B1 Li2 . 2_655 52.5(5) ?
+O1 B1 Li2 3_445 2_655 118.8(4) ?
+O2 B1 Li2 3_545 2_655 97.7(6) ?
+O3 B1 Li1 . 5_655 51.4(6) ?
+O1 B1 Li1 3_445 5_655 96.9(5) ?
+O2 B1 Li1 3_545 5_655 119.8(5) ?
+Li2 B1 Li1 2_655 5_655 103.8(6) ?
+B1 O1 Li1 3 3_455 130.2(8) ?
+B1 O1 Co1 3 . 121.9(4) ?
+Li1 O1 Co1 3_455 . 100.6(6) ?
+B1 O1 Co2 3 . 124.9(4) ?
+Li1 O1 Co2 3_455 . 99.9(6) ?
+Co1 O1 Co2 . . 5.70(10) ?
+B1 O1 Li2 3 3_455 122.6(7) ?
+Li1 O1 Li2 3_455 3_455 20.6(6) ?
+Co1 O1 Li2 . 3_455 94.2(6) ?
+Co2 O1 Li2 . 3_455 95.6(6) ?
+B1 O1 Co2 3 7 111.4(3) ?
+Li1 O1 Co2 3_455 7 84.6(8) ?
+Co1 O1 Co2 . 7 97.8(3) ?
+Co2 O1 Co2 . 7 92.1(3) ?
+Li2 O1 Co2 3_455 7 104.9(7) ?
+B1 O1 Co1 3 7 112.1(3) ?
+Li1 O1 Co1 3_455 7 84.6(8) ?
+Co1 O1 Co1 . 7 96.9(3) ?
+Co2 O1 Co1 . 7 91.2(4) ?
+Li2 O1 Co1 3_455 7 104.9(7) ?
+Co2 O1 Co1 7 7 1.00(10) ?
+B1 O2 Li2 3_455 1_455 132.5(6) ?
+B1 O2 Li1 3_455 1_455 122.4(7) ?
+Li2 O2 Li1 1_455 1_455 21.2(6) ?
+B1 O2 Co2 3_455 . 118.6(3) ?
+Li2 O2 Co2 1_455 . 101.0(5) ?
+Li1 O2 Co2 1_455 . 95.9(6) ?
+B1 O2 Co1 3_455 . 119.9(3) ?
+Li2 O2 Co1 1_455 . 102.2(6) ?
+Li1 O2 Co1 1_455 . 99.0(6) ?
+Co2 O2 Co1 . . 5.70(10) ?
+B1 O2 Co1 3_455 2 112.1(3) ?
+Li2 O2 Co1 1_455 2 86.3(8) ?
+Li1 O2 Co1 1_455 2 107.4(8) ?
+Co2 O2 Co1 . 2 96.7(4) ?
+Co1 O2 Co1 . 2 91.1(3) ?
+B1 O2 Co2 3_455 2 112.5(3) ?
+Li2 O2 Co2 1_455 2 86.5(8) ?
+Li1 O2 Co2 1_455 2 107.5(8) ?
+Co2 O2 Co2 . 2 95.9(3) ?
+Co1 O2 Co2 . 2 90.3(3) ?
+Co1 O2 Co2 2 2 0.81(9) ?
+B1 O3 Li2 . . 131.6(9) ?
+B1 O3 Li1 . . 133.1(8) ?
+Li2 O3 Li1 . . 21.6(5) ?
+B1 O3 Co1 . . 125.1(3) ?
+Li2 O3 Co1 . . 102.1(8) ?
+Li1 O3 Co1 . . 100.6(7) ?
+B1 O3 Co2 . . 123.3(3) ?
+Li2 O3 Co2 . . 104.7(8) ?
+Li1 O3 Co2 . . 101.1(7) ?
+Co1 O3 Co2 . . 5.80(10) ?
+B1 O3 Li1 . 5_655 99.6(6) ?
+Li2 O3 Li1 . 5_655 92.8(9) ?
+Li1 O3 Li1 . 5_655 71.0(10) ?
+Co1 O3 Li1 . 5_655 86.0(7) ?
+Co2 O3 Li1 . 5_655 80.8(7) ?
+B1 O3 Li2 . 2_655 98.2(6) ?
+Li2 O3 Li2 . 2_655 76.9(9) ?
+Li1 O3 Li2 . 2_655 98.0(10) ?
+Co1 O3 Li2 . 2_655 82.0(7) ?
+Co2 O3 Li2 . 2_655 87.7(7) ?
+Li1 O3 Li2 5_655 2_655 162.1(9) ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Co1 O3 . 1.967(4) yes
+Co1 O1 . 1.971(4) yes
+Co1 O2 . 1.999(3) yes
+Co1 O2 2 2.130(10) yes
+Co1 O1 7 2.280(10) yes
+Co1 Li2 2_655 2.74(2) ?
+Co1 Li1 5_655 2.85(3) ?
+Co1 Li2 3_455 2.90(2) ?
+Co1 Co1 2 2.950(10) ?
+Co1 Li1 . 2.97(2) ?
+Co1 Li2 . 2.98(2) ?
+Co1 Li1 1_455 2.99(2) ?
+Co2 O3 . 1.967(5) yes
+Co2 O2 . 1.986(3) yes
+Co2 O1 . 1.992(5) yes
+Co2 O1 7 2.080(10) yes
+Co2 O2 2 2.330(10) yes
+Co2 Li1 5_655 2.70(3) ?
+Co2 Li2 2_655 2.90(3) ?
+Co2 Li1 1_455 2.91(2) ?
+Co2 Co2 7 2.94(2) ?
+Co2 Li2 3_455 2.95(3) ?
+Co2 Li2 1_455 2.98(2) ?
+Co2 Li1 . 2.98(2) ?
+Li1 Li2 . 0.70(2) ?
+Li1 O3 . 1.89(2) yes
+Li1 O1 3_545 1.93(2) yes
+Li1 O2 1_655 1.94(2) yes
+Li1 O3 5_655 2.20(3) yes
+Li1 Li1 5_655 2.39(5) ?
+Li1 Co2 5_655 2.70(3) ?
+Li1 B1 5_655 2.77(3) ?
+Li1 Co1 5_655 2.85(3) ?
+Li1 Co2 1_655 2.91(2) ?
+Li1 Li2 5_655 2.94(4) ?
+Li2 O3 . 1.86(2) yes
+Li2 O2 1_655 1.87(2) yes
+Li2 O1 3_545 1.99(2) yes
+Li2 O3 2_655 2.21(3) yes
+Li2 Li2 2_655 2.54(4) ?
+Li2 Co1 2_655 2.74(2) ?
+Li2 B1 2_655 2.75(2) ?
+Li2 Co2 2_655 2.90(3) ?
+Li2 Co1 3_545 2.90(2) ?
+Li2 Li1 5_655 2.94(4) ?
+Li2 Co2 3_545 2.95(3) ?
+B1 O3 . 1.364(7) yes
+B1 O1 3_445 1.379(5) yes
+B1 O2 3_545 1.395(7) yes
+B1 Li2 2_655 2.75(2) ?
+B1 Li1 5_655 2.77(3) ?
+O1 B1 3 1.379(5) ?
+O1 Li1 3_455 1.93(2) ?
+O1 Li2 3_455 1.99(2) ?
+O1 Co2 7 2.080(10) ?
+O1 Co1 7 2.280(10) ?
+O2 B1 3_455 1.395(7) ?
+O2 Li2 1_455 1.87(2) ?
+O2 Li1 1_455 1.94(2) ?
+O2 Co1 2 2.130(10) ?
+O2 Co2 2 2.330(10) ?
+O3 Li1 5_655 2.20(3) ?
+O3 Li2 2_655 2.21(3) ?

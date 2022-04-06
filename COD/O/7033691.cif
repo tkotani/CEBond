@@ -1,0 +1,103 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-25 23:30:47 +0200 (Fri, 25 Mar 2016) $
+#$Revision: 180042 $
+#$URL: svn://www.crystallography.net/cod/cif/7/03/36/7033691.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7033691
+loop_
+_publ_author_name
+'Cordrey, Keith J.'
+'Stanczyk, Magda'
+'Dixon, Charlotte A. L.'
+'Knight, Kevin S.'
+'Gardner, Jonathan'
+'Morrison, Finlay D.'
+'Lightfoot, Philip'
+_publ_section_title
+;
+ Structural and dielectric studies of the phase behaviour of the
+ topological ferroelectric La1-xNdxTaO4.
+;
+_journal_issue                   23
+_journal_name_full
+'Dalton transactions (Cambridge, England : 2003)'
+_journal_page_first              10673
+_journal_page_last               10680
+_journal_paper_doi               10.1039/c4dt03721a
+_journal_volume                  44
+_journal_year                    2015
+_chemical_formula_sum            'La O4 Ta'
+_chemical_formula_weight         383.85
+_chemical_name_systematic        ' ?'
+_space_group_IT_number           36
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  'C 2c -2'
+_symmetry_space_group_name_H-M   'C m c 21'
+_audit_creation_date             2014-05-12T15:11
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_audit_update_record
+' 2014-05-12T15:11  Initial CIF as created by GSAS2CIF'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            4
+_cell_length_a                   3.93494(8)
+_cell_length_b                   14.7566(4)
+_cell_length_c                   5.63262(14)
+_cell_volume                     327.066(14)
+_computing_structure_refinement  GSAS
+_pd_block_id                     2014-05-12T15:11|PHIL_phase1|phil||
+_pd_phase_name
+'from C:/GSAS/gsas/Neutron/100C/LaTaO4 ortho.cif'
+_refine_ls_goodness_of_fit_all   2.58
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     37
+_refine_ls_number_restraints     0
+_refine_ls_shift/su_max          0.04
+_refine_ls_shift/su_mean         0.01
+_cod_data_source_file            c4dt03721a3.cif
+_cod_data_source_block           PHIL_phase_1
+_cod_depositor_comments
+'Adding full bibliography for 7033691--7033694.cif.'
+_cod_original_cell_volume        327.065(13)
+_cod_database_code               7033691
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -x,+y,+z
+3 +x,-y,+z+1/2
+4 -x,-y,+z+1/2
+101 +x+1/2,+y+1/2,+z
+102 -x+1/2,+y+1/2,+z
+103 +x+1/2,-y+1/2,+z+1/2
+104 -x+1/2,-y+1/2,+z+1/2
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+La La1 0.0 0.16901(18) 0.1768(8) 1.0 Uiso 0.0116(7) 4
+Ta Ta1 0.0 0.41567(16) 0.2094(9) 1.0 Uiso 0.0021(6) 4
+O- O1 0.0 0.30386(28) 0.4152(10) 1.0 Uiso 0.0145(11) 4
+O- O2 0.0 0.33452(25) 0.9449(8) 1.0 Uiso 0.0077(9) 4
+O- O3 0.0 0.46936(27) 0.5505(8) 1.0 Uiso 0.0124(11) 4
+O- O4 0.0 0.91366(30) 0.25 1.0 Uiso 0.0177(9) 4
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+La 4.0
+Ta 4.0
+O- 16.0

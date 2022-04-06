@@ -1,0 +1,185 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/39/2003991.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2003991
+loop_
+_publ_author_name
+'Tu, J.-M.'
+'Keszler, D. A.'
+_publ_section_title
+;
+ BaNaBO~3~
+;
+_journal_issue                   10
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              1962
+_journal_page_last               1964
+_journal_paper_doi               10.1107/S010827019400750X
+_journal_volume                  51
+_journal_year                    1995
+_chemical_compound_source        'grown from melt composition of BaNaBO~3~'
+_chemical_formula_moiety         'Ba Na B O3'
+_chemical_formula_sum            'B Ba Na O3'
+_chemical_formula_weight         219.13
+_space_group_IT_number           12
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-C 2y'
+_symmetry_space_group_name_H-M   'C 1 2/m 1'
+_atom_type_scat_source           IntTabIV
+_cell_angle_alpha                90.
+_cell_angle_beta                 98.85(2)
+_cell_angle_gamma                90.
+_cell_formula_units_Z            4
+_cell_length_a                   9.561(2)
+_cell_length_b                   5.557(2)
+_cell_length_c                   6.179(2)
+_cell_measurement_reflns_used    20
+_cell_measurement_temperature    296
+_cell_measurement_theta_max      36
+_cell_measurement_theta_min      27.5
+_cell_volume                     324.38(17)
+_diffrn_measurement_device       'Rigaku AFC6R'
+_diffrn_measurement_method       \w-2\q
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71069
+_diffrn_reflns_av_R_equivalents  0.086
+_diffrn_reflns_limit_h_max       13
+_diffrn_reflns_limit_h_min       -13
+_diffrn_reflns_limit_k_max       7
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       8
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            564
+_diffrn_reflns_theta_max         30.0
+_diffrn_standards_decay_%        1.9
+_diffrn_standards_interval_count 200
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    12.17
+_exptl_absorpt_correction_T_max  1.00
+_exptl_absorpt_correction_T_min  0.67
+_exptl_absorpt_correction_type   'empirical DIFABS; Walker & Stuart, 1983)'
+_exptl_crystal_colour            colorless
+_exptl_crystal_density_diffrn    4.487
+_exptl_crystal_description       plate
+_exptl_crystal_size_max          0.07(3)
+_exptl_crystal_size_mid          0.06(4)
+_exptl_crystal_size_min          0.04(2)
+_refine_diff_density_max         0.58
+_refine_diff_density_min         0.55
+_refine_ls_extinction_coef       0.37(1)E-6
+_refine_ls_extinction_method     TEXSAN
+_refine_ls_goodness_of_fit_obs   1.39
+_refine_ls_number_parameters     36
+_refine_ls_number_reflns         461
+_refine_ls_R_factor_obs          0.033
+_refine_ls_shift/esd_max         0.03
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 1/\s^2^(F~o~)'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.040
+_reflns_number_observed          461
+_reflns_number_total             522
+_reflns_observed_criterion       F~o~^2^>=3\s(F~o~^2^)
+_cod_data_source_file            br1082.cif
+_cod_data_source_block           br1082a
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value '1/\s^2^(F~o~)' was changed to
+'calc'. New tag '_refine_ls_weighting_details' was created. The value
+of the new tag was set to 'w = 1/\s^2^(F~o~)'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        324.4(3)
+_cod_original_sg_symbol_H-M      'C 2/m'
+_cod_original_formula_sum        'Ba Na B O3'
+_cod_database_code               2003991
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x,-y,z
+-x,-y,-z
+-x,y,-z
+1/2+x,1/2+y,z
+1/2+x,1/2-y,z
+1/2-x,1/2-y,-z
+1/2-x,1/2+y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+Ba -.3334(7) .0 .7436(1) .0111(3)
+Na1 .0 .0 .0 0.018(3)
+Na2 .0 .0 0.5 0.018(3)
+O1 -.2023(7) .0 1.178(1) 0.013(3)
+O2 -.3977(5) .213(1) .291(1) 0.019(3)
+B1 -.332(1) .0 .257(2) 0.008(4)
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O1 Na1 O1 1_554 3_556 180 yes
+O1 Na1 O2 1_554 6 85.6(2) yes
+O1 Na1 O2 1_554 8_445 94.4(2) yes
+O2 Na1 O2 6 5_545 79.7(3) yes
+O2 Na1 O2 6 7_455 100.3(3) yes
+O2 Na1 O2 7_455 5_545 180 yes
+O2 Na2 O2 6 8_446 180 yes
+O2 Na2 O2 8_446 5_545 95.0(3) yes
+O1 B1 O2 1_554 . 120.2(4) yes
+O2 B1 O2 . 2 119.5(8) yes
+O1 Ba O2 . . 153.20(10) yes
+O2 Ba O2 . 2 46.30(10) yes
+O2 Ba O2 . 8_446 101.90(10) yes
+O2 Na2 O2 6 5_545 85.0(3) yes
+O1 B1 O2 1_554 2 120.2(4) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Ba O1 . 2.783(7) yes
+Ba O1 7_447 2.832(2) yes
+Ba O1 7_457 2.832(2) yes
+Ba O2 . 3.014(5) yes
+Ba O2 2 3.014(5) yes
+Ba O2 8_446 2.759(5) yes
+Ba O2 8_456 2.759(5) yes
+Ba O2 3_456 2.809(5) yes
+Ba O2 4_456 2.809(5) yes
+Na2 O2 8_456 2.358(5) yes
+Na2 O2 5_545 2.358(5) yes
+B1 O1 . 1.372(7) yes
+Na1 O1 1_554 2.367(6) yes
+Na1 O1 3_556 2.367(6) yes
+Na1 O2 6 2.4860(10) yes
+Na1 O2 8_445 2.4860(10) yes
+Na1 O2 7_455 2.4860(10) yes
+Na1 O2 5_545 2.4860(10) yes
+Na2 O1 1_554 2.552(7) yes
+Na2 O1 3_557 2.552(7) yes
+Na2 O1 6 2.358(5) yes
+Na2 O1 8_446 2.358(5) yes
+B1 O1 1_554 1.401(7) yes
+B1 O2 2 1.372(7) yes

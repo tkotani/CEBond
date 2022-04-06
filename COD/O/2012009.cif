@@ -1,0 +1,270 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-01-14 23:12:24 +0200 (Sat, 14 Jan 2017) $
+#$Revision: 190524 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/01/20/2012009.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2012009
+loop_
+_publ_author_name
+'Gustafsson, T.'
+'Klintenberg, M.'
+'Derenzo, S. E.'
+'Weber, M. J.'
+'Thomas, J. O.'
+_publ_section_title
+;
+ Lu~2~SiO~5~ by single-crystal X-ray and neutron diffraction
+;
+_journal_issue                   6
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              668
+_journal_page_last               669
+_journal_paper_doi               10.1107/S0108270101005352
+_journal_volume                  57
+_journal_year                    2001
+_chemical_formula_moiety         'Lu2 Si O5'
+_chemical_formula_structural     'Lu2 Si O5'
+_chemical_formula_sum            'Lu2 O5 Si'
+_chemical_formula_weight         458.02
+_chemical_name_common            'Lutetium silicate'
+_chemical_name_systematic        'Dilutetium silicon pentaoxide'
+_space_group_IT_number           15
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-C 2yc'
+_symmetry_space_group_name_H-M   'C 1 2/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 122.2240(10)
+_cell_angle_gamma                90
+_cell_formula_units_Z            8
+_cell_length_a                   14.2774(7)
+_cell_length_b                   6.6398(4)
+_cell_length_c                   10.2465(6)
+_cell_measurement_reflns_used    1391
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      22.5
+_cell_measurement_theta_min      1.5
+_cell_volume                     821.74(8)
+_computing_cell_refinement       'please provide'
+_computing_data_collection       'CRYO (ARACOR, 1981)'
+_computing_data_reduction        'ARACOR (Lundgren, 1983)'
+_computing_molecular_graphics    'ORTEPII (Johnson, 1976)'
+_computing_publication_material  'DISTAN (Lundgren, 1983)'
+_computing_structure_refinement  'DUPALS (Lundgren, 1983)'
+_computing_structure_solution    'please provide'
+_diffrn_ambient_temperature      293
+_diffrn_measurement_device       ARACOR
+_diffrn_measurement_method       '\q/2\q scan b/P/b'
+_diffrn_radiation_monochromator  Cu
+_diffrn_radiation_probe          neutron
+_diffrn_radiation_source         reactor
+_diffrn_radiation_type           neutron
+_diffrn_radiation_wavelength     1.20700
+_diffrn_reflns_av_R_equivalents  .047
+_diffrn_reflns_limit_h_max       0
+_diffrn_reflns_limit_h_min       -18
+_diffrn_reflns_limit_k_max       8
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       13
+_diffrn_reflns_limit_l_min       -11
+_diffrn_reflns_number            999
+_diffrn_reflns_theta_max         51.99
+_diffrn_reflns_theta_min         .00
+_diffrn_standards_decay_%        .4
+_diffrn_standards_interval_count 33
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    .16
+_exptl_absorpt_correction_T_max  .684
+_exptl_absorpt_correction_T_min  .607
+_exptl_absorpt_correction_type   integration
+_exptl_absorpt_process_details   'ABSSTOE (Lundgren 1983)'
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    7.36
+_exptl_crystal_density_meas      ?
+_exptl_crystal_description       prismatic
+_exptl_crystal_F_000             37.07
+_exptl_crystal_size_max          5.6
+_exptl_crystal_size_mid          2.8
+_exptl_crystal_size_min          2.8
+_refine_diff_density_max         .089
+_refine_diff_density_min         -.055
+_refine_ls_extinction_coef       'see below'
+_refine_ls_extinction_method     'B-C type 1 Gaussian anisotropic'
+_refine_ls_goodness_of_fit_ref   2.91
+_refine_ls_hydrogen_treatment    none
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     79
+_refine_ls_number_reflns         949
+_refine_ls_R_factor_all          .035
+_refine_ls_R_factor_gt           .035
+_refine_ls_shift/su_max          .050
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'1/\s^2^(F) modified for experimental instability'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         .078
+_refine_ls_wR_factor_ref         .078
+_reflns_number_gt                949
+_reflns_number_total             961
+_reflns_threshold_expression     'Inet > -10\s(Inet)'
+_cod_data_source_file            br1287.cif
+_cod_data_source_block           I
+_cod_depositor_comments
+;
+ Adding proper _atom_site_type_symbol and _atom_site_aniso_type_symbol
+ data item values instead of the placeholder ones ('?').
+
+ Antanas Vaitkus,
+ 2017-01-14
+
+The following automatic conversions were performed:
+'_symmetry_cell_setting' value 'Monoclinic' changed to 'monoclinic'
+according to '/home/saulius/struct/CIF-dictionaries/cif_core.dic'
+dictionary named 'cif_core.dic' version 2.4.1 from
+2010-06-29.
+
+'_geom_bond_publ_flag' value 'Yes' changed to 'yes' according
+to '/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (17 times).
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+
+The following automatic conversions were performed:
+
+'_atom_site_thermal_displace_type' tag value 'Uij' was replaced with
+'Uani' value 8 times.
+
+Automatic conversion script
+Id: cif_fix_values 1646 2011-03-28 12:23:43Z adriana 
+
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Monoclinic' changed to 'monoclinic'
+according to /home/saulius/struct/CIF-dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.1 from
+2010-06-29.
+
+'_geom_bond_publ_flag' value 'Yes' changed to 'yes'
+according to /home/saulius/struct/CIF-dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29 (17
+times).
+
+'_geom_angle_publ_flag' value 'No' changed to 'no' according
+to /home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary
+named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+
+The following automatic conversions were performed:
+
+'_exptl_crystal_density_meas' value 'not measured' was changed to '?'
+- the value is perceived as not measured.
+
+Automatic conversion script
+Id: cif_fix_values 3008 2015-01-20 13:52:24Z robertas 
+;
+_cod_original_sg_symbol_H-M      'C 2/c'
+_cod_database_code               2012009
+_cod_database_fobs_code          2012009
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,-z
+1/2+x,1/2+y,z
+1/2-x,1/2-y,-z
+-x,y,1/2-z
+x,-y,1/2+z
+1/2-x,1/2+y,1/2-z
+1/2+x,1/2-y,1/2+z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+_atom_site_aniso_type_symbol
+Lu1 .0032(5) .0065(4) .0060(5) -.0006(2) .0024(4) -.0001(3) Lu
+Lu2 .0025(5) .0066(4) .0057(5) .0009(2) .0016(4) .0010(3) Lu
+Si .0012(6) .0054(6) .0048(6) -.0008(3) .0008(5) -.0004(5) Si
+O1 .0048(5) .0102(5) .0074(5) -.0016(3) -.0005(4) .0039(4) O
+O2 .0060(5) .0065(5) .0108(5) -.0010(3) .0050(4) .0006(4) O
+O3 .0029(5) .0122(5) .0085(5) .0010(3) .0031(4) .0018(4) O
+O4 .0063(5) .0078(5) .0067(5) .0009(3) .0010(4) -.0024(4) O
+O5 .0039(5) .0084(5) .0068(5) -.0006(3) .0030(4) .0001(4) O
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_type_symbol
+Lu1 .53734(5) .75593(10) .46705(7) .0053(5) Uani ? . Lu
+Lu2 .14093(5) .37735(10) -.16362(7) .0052(5) Uani ? . Lu
+Si .31792(8) .59171(15) .19311(12) .0042(7) Uani ? . Si
+O1 .41117(6) .50618(12) .36201(9) .0093(6) Uani ? . O
+O2 .38016(7) .78834(12) .17623(10) .0075(6) Uani ? . O
+O3 .20230(6) .64896(13) .17684(9) .0078(6) Uani ? . O
+O4 .29842(7) .42890(13) .06298(9) .0082(6) Uani ? . O
+O5 .01773(6) .40340(12) -.10250(9) .0063(6) Uani ? . O
+loop_
+_atom_type_symbol
+_atom_type_scat_source
+Lu 'International Tables for Crystallography, Volume C, Kluwer 1992'
+Si 'International Tables for Crystallography, Volume C, Kluwer 1992'
+O 'International Tables for Crystallography, Volume C, Kluwer 1992'
+loop_
+_diffrn_standard_refln_index_h
+_diffrn_standard_refln_index_k
+_diffrn_standard_refln_index_l
+-6 4 0
+0 0 -6
+-8 0 2
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O1 Lu1 O1 1_555 1_555 2_666 69.93(4) no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Lu1 O1 1_555 1_555 2.2561(10) yes
+Lu1 O1 1_555 2_666 2.2949(10) yes
+Lu1 O2 1_555 1_555 2.6163(11) yes
+Lu1 O2 1_555 5_655 2.3301(10) yes
+Lu1 O3 1_555 8_565 2.2756(10) yes
+Lu1 O5 1_555 7_555 2.1598(10) yes
+Lu1 O5 1_555 8_565 2.3432(10) yes
+Lu2 O2 1_556 4_566 2.2346(10) yes
+Lu2 O3 1_556 6_565 2.2350(10) yes
+Lu2 O4 1_556 1_556 2.2378(10) yes
+Lu2 O4 1_556 4_556 2.2356(11) yes
+Lu2 O5 1_556 1_556 2.1652(10) yes
+Lu2 O5 1_556 5_555 2.2642(10) yes
+Si O1 1_555 1_555 1.6242(13) yes
+Si O2 1_555 1_555 1.6395(13) yes
+Si O3 1_555 1_555 1.6138(12) yes
+Si O4 1_555 1_555 1.6214(13) yes

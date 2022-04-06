@@ -1,0 +1,438 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-18 17:37:37 +0200 (Thu, 18 Feb 2016) $
+#$Revision: 176729 $
+#$URL: svn://www.crystallography.net/cod/cif/1/10/10/1101077.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1101077
+loop_
+_publ_author_name
+'Matsushita, Yoshitaka'
+'Yamaura, Jun-Ichi'
+'Ueda, Yutaka'
+_publ_section_title
+;
+Lithium divanadate spinel, LiV~2~O~4~
+;
+_journal_coeditor_code           MG6039
+_journal_issue                   8
+_journal_name_full               'Acta Crystallographica, Section E'
+_journal_page_first              i137
+_journal_page_last               i139
+_journal_paper_doi               10.1107/S1600536805020155
+_journal_volume                  61
+_journal_year                    2005
+_chemical_formula_iupac          'Li O4 V2'
+_chemical_formula_moiety         'Li O4 V2'
+_chemical_formula_sum            'Li O4 V2'
+_chemical_formula_weight         172.82
+_space_group_IT_number           227
+_symmetry_cell_setting           cubic
+_symmetry_space_group_name_Hall  '-F 4vw 2vw 3'
+_symmetry_space_group_name_H-M   'F d -3 m :2'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            8
+_cell_length_a                   8.2437(2)
+_cell_length_b                   8.2437(2)
+_cell_length_c                   8.2437(2)
+_cell_measurement_reflns_used    2848
+_cell_measurement_temperature    295
+_cell_measurement_theta_max      53.17
+_cell_measurement_theta_min      9.30
+_cell_volume                     560.23(2)
+_computing_cell_refinement       'SAINT (Bruker, 1997)'
+_computing_data_collection       'SMART (Bruker, 1997)'
+_computing_data_reduction
+'SAINT and? teXsan (Molecular Structure Corporation, 2001)'
+_computing_molecular_graphics    'CrystalMaker (Palmer, 2005)'
+_computing_publication_material  teXsan
+_computing_structure_refinement  teXsan
+_computing_structure_solution    'SIR97 (Altomare <i>et al.</i>, 1999)'
+_diffrn_measured_fraction_theta_full 1.0000
+_diffrn_measured_fraction_theta_max 1.0000
+_diffrn_measurement_device_type  'Bruker SMART APEX CCD area-detector'
+_diffrn_measurement_method       '\f and \w scans'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.050
+_diffrn_reflns_limit_h_max       18
+_diffrn_reflns_limit_h_min       -17
+_diffrn_reflns_limit_k_max       18
+_diffrn_reflns_limit_k_min       -17
+_diffrn_reflns_limit_l_max       13
+_diffrn_reflns_limit_l_min       -18
+_diffrn_reflns_number            2848
+_diffrn_reflns_theta_full        53.17
+_diffrn_reflns_theta_max         53.17
+_exptl_absorpt_coefficient_mu    6.469
+_exptl_absorpt_correction_T_max  0.937
+_exptl_absorpt_correction_T_min  0.878
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details   '(SADABS; Sheldrick, 1996)'
+_exptl_crystal_colour            black
+_exptl_crystal_density_diffrn    4.098
+_exptl_crystal_description       octahedron
+_exptl_crystal_F_000             648.00
+_exptl_crystal_size_max          0.010
+_exptl_crystal_size_mid          0.010
+_exptl_crystal_size_min          0.010
+_refine_diff_density_max         0.94
+_refine_diff_density_min         -1.11
+_refine_ls_extinction_coef       0.0090(10)
+_refine_ls_extinction_method
+'Zachariasen (1968) type 2 Gaussian isotropic'
+_refine_ls_goodness_of_fit_ref   0.845
+_refine_ls_number_parameters     8
+_refine_ls_number_reflns         194
+_refine_ls_R_factor_gt           0.0261
+_refine_ls_shift/su_max          0.0000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w = 1/(\s^2^(Fo^2^) + {0.07[Max(Fo^2^,0) + 2Fc^2^]/3}^2^)'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_ref         0.0762
+_reflns_number_gt                183
+_reflns_number_total             194
+_reflns_threshold_expression     I>2\s(I)
+_cod_data_source_file            mg6039.cif
+_cod_original_sg_symbol_H-M      'F d -3 m'
+_cod_database_code               1101077
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'x, -y+1/4, -z+1/4'
+'-x+3/4, -y+1/4, z+1/2'
+'-x+3/4, y, -z+3/4'
+'-y, x+1/4, z+1/4'
+'y+3/4, x+1/4, -z+1/2'
+'y+3/4, -x, z+3/4'
+'-y, -x, -z'
+'y, z, x'
+'-y+3/4, -z+1/4, x+1/2'
+'y, -z+1/4, -x+1/4'
+'-y+3/4, z, -x+3/4'
+'-z, y+1/4, x+1/4'
+'-z, -y, -x'
+'z+3/4, -y, x+3/4'
+'z+3/4, y+1/4, -x+1/2'
+'z, x, y'
+'-z+1/4, x+1/2, -y+3/4'
+'-z+1/4, -x+1/4, y'
+'z, -x+3/4, -y+3/4'
+'-x, -z, -y'
+'-x, z+3/4, y+3/4'
+'x+1/4, -z+1/2, y+3/4'
+'x+3/4, z+1/4, -y+1/2'
+'x, y+1/2, z+1/2'
+'x, -y+3/4, -z+3/4'
+'-x+3/4, -y+3/4, z+1'
+'-x+3/4, y+1/2, -z+5/4'
+'-y, x+3/4, z+3/4'
+'y+3/4, x+3/4, -z+1'
+'y+3/4, -x+1/2, z+5/4'
+'-y, -x+1/2, -z+1/2'
+'y, z+1/2, x+1/2'
+'-y+3/4, -z+3/4, x+1'
+'y, -z+3/4, -x+3/4'
+'-y+3/4, z+1/2, -x+5/4'
+'-z, y+3/4, x+3/4'
+'-z, -y+1/2, -x+1/2'
+'z+3/4, -y+1/2, x+5/4'
+'z+3/4, y+3/4, -x+1'
+'z, x+1/2, y+1/2'
+'-z+1/4, x+1, -y+5/4'
+'-z+1/4, -x+3/4, y+1/2'
+'z, -x+5/4, -y+5/4'
+'-x, -z+1/2, -y+1/2'
+'-x, z+5/4, y+5/4'
+'x+1/4, -z+1, y+5/4'
+'x+3/4, z+3/4, -y+1'
+'x+1/2, y, z+1/2'
+'x+1/2, -y+1/4, -z+3/4'
+'-x+5/4, -y+1/4, z+1'
+'-x+5/4, y, -z+5/4'
+'-y+1/2, x+1/4, z+3/4'
+'y+5/4, x+1/4, -z+1'
+'y+5/4, -x, z+5/4'
+'-y+1/2, -x, -z+1/2'
+'y+1/2, z, x+1/2'
+'-y+5/4, -z+1/4, x+1'
+'y+1/2, -z+1/4, -x+3/4'
+'-y+5/4, z, -x+5/4'
+'-z+1/2, y+1/4, x+3/4'
+'-z+1/2, -y, -x+1/2'
+'z+5/4, -y, x+5/4'
+'z+5/4, y+1/4, -x+1'
+'z+1/2, x, y+1/2'
+'-z+3/4, x+1/2, -y+5/4'
+'-z+3/4, -x+1/4, y+1/2'
+'z+1/2, -x+3/4, -y+5/4'
+'-x+1/2, -z, -y+1/2'
+'-x+1/2, z+3/4, y+5/4'
+'x+3/4, -z+1/2, y+5/4'
+'x+5/4, z+1/4, -y+1'
+'x+1/2, y+1/2, z'
+'x+1/2, -y+3/4, -z+1/4'
+'-x+5/4, -y+3/4, z+1/2'
+'-x+5/4, y+1/2, -z+3/4'
+'-y+1/2, x+3/4, z+1/4'
+'y+5/4, x+3/4, -z+1/2'
+'y+5/4, -x+1/2, z+3/4'
+'-y+1/2, -x+1/2, -z'
+'y+1/2, z+1/2, x'
+'-y+5/4, -z+3/4, x+1/2'
+'y+1/2, -z+3/4, -x+1/4'
+'-y+5/4, z+1/2, -x+3/4'
+'-z+1/2, y+3/4, x+1/4'
+'-z+1/2, -y+1/2, -x'
+'z+5/4, -y+1/2, x+3/4'
+'z+5/4, y+3/4, -x+1/2'
+'z+1/2, x+1/2, y'
+'-z+3/4, x+1, -y+3/4'
+'-z+3/4, -x+3/4, y'
+'z+1/2, -x+5/4, -y+3/4'
+'-x+1/2, -z+1/2, -y'
+'-x+1/2, z+5/4, y+3/4'
+'x+3/4, -z+1, y+3/4'
+'x+5/4, z+3/4, -y+1/2'
+'-x, -y, -z'
+'-x, y-1/4, z-1/4'
+'x-3/4, y-1/4, -z-1/2'
+'x-3/4, -y, z-3/4'
+'y, -x-1/4, -z-1/4'
+'-y-3/4, -x-1/4, z-1/2'
+'-y-3/4, x, -z-3/4'
+'y, x, z'
+'-y, -z, -x'
+'y-3/4, z-1/4, -x-1/2'
+'-y, z-1/4, x-1/4'
+'y-3/4, -z, x-3/4'
+'z, -y-1/4, -x-1/4'
+'z, y, x'
+'-z-3/4, y, -x-3/4'
+'-z-3/4, -y-1/4, x-1/2'
+'-z, -x, -y'
+'z-1/4, -x-1/2, y-3/4'
+'z-1/4, x-1/4, -y'
+'-z, x-3/4, y-3/4'
+'x, z, y'
+'x, -z-3/4, -y-3/4'
+'-x-1/4, z-1/2, -y-3/4'
+'-x-3/4, -z-1/4, y-1/2'
+'-x, -y+1/2, -z+1/2'
+'-x, y+1/4, z+1/4'
+'x-3/4, y+1/4, -z'
+'x-3/4, -y+1/2, z-1/4'
+'y, -x+1/4, -z+1/4'
+'-y-3/4, -x+1/4, z'
+'-y-3/4, x+1/2, -z-1/4'
+'y, x+1/2, z+1/2'
+'-y, -z+1/2, -x+1/2'
+'y-3/4, z+1/4, -x'
+'-y, z+1/4, x+1/4'
+'y-3/4, -z+1/2, x-1/4'
+'z, -y+1/4, -x+1/4'
+'z, y+1/2, x+1/2'
+'-z-3/4, y+1/2, -x-1/4'
+'-z-3/4, -y+1/4, x'
+'-z, -x+1/2, -y+1/2'
+'z-1/4, -x, y-1/4'
+'z-1/4, x+1/4, -y+1/2'
+'-z, x-1/4, y-1/4'
+'x, z+1/2, y+1/2'
+'x, -z-1/4, -y-1/4'
+'-x-1/4, z, -y-1/4'
+'-x-3/4, -z+1/4, y'
+'-x+1/2, -y, -z+1/2'
+'-x+1/2, y-1/4, z+1/4'
+'x-1/4, y-1/4, -z'
+'x-1/4, -y, z-1/4'
+'y+1/2, -x-1/4, -z+1/4'
+'-y-1/4, -x-1/4, z'
+'-y-1/4, x, -z-1/4'
+'y+1/2, x, z+1/2'
+'-y+1/2, -z, -x+1/2'
+'y-1/4, z-1/4, -x'
+'-y+1/2, z-1/4, x+1/4'
+'y-1/4, -z, x-1/4'
+'z+1/2, -y-1/4, -x+1/4'
+'z+1/2, y, x+1/2'
+'-z-1/4, y, -x-1/4'
+'-z-1/4, -y-1/4, x'
+'-z+1/2, -x, -y+1/2'
+'z+1/4, -x-1/2, y-1/4'
+'z+1/4, x-1/4, -y+1/2'
+'-z+1/2, x-3/4, y-1/4'
+'x+1/2, z, y+1/2'
+'x+1/2, -z-3/4, -y-1/4'
+'-x+1/4, z-1/2, -y-1/4'
+'-x-1/4, -z-1/4, y'
+'-x+1/2, -y+1/2, -z'
+'-x+1/2, y+1/4, z-1/4'
+'x-1/4, y+1/4, -z-1/2'
+'x-1/4, -y+1/2, z-3/4'
+'y+1/2, -x+1/4, -z-1/4'
+'-y-1/4, -x+1/4, z-1/2'
+'-y-1/4, x+1/2, -z-3/4'
+'y+1/2, x+1/2, z'
+'-y+1/2, -z+1/2, -x'
+'y-1/4, z+1/4, -x-1/2'
+'-y+1/2, z+1/4, x-1/4'
+'y-1/4, -z+1/2, x-3/4'
+'z+1/2, -y+1/4, -x-1/4'
+'z+1/2, y+1/2, x'
+'-z-1/4, y+1/2, -x-3/4'
+'-z-1/4, -y+1/4, x-1/2'
+'-z+1/2, -x+1/2, -y'
+'z+1/4, -x, y-3/4'
+'z+1/4, x+1/4, -y'
+'-z+1/2, x-1/4, y-3/4'
+'x+1/2, z+1/2, y'
+'x+1/2, -z-1/4, -y-3/4'
+'-x+1/4, z, -y-3/4'
+'-x-1/4, -z+1/4, y-1/2'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+_atom_site_type_symbol
+V 0.5000 0.5000 0.5000 0.00625(2) Uani d SP 1.00 V
+O 0.26147(9) 0.26147 0.26147 0.00663(3) Uani d SP 1.00 O
+Li 0.1250 0.1250 0.1250 0.00740(10) Uani d SP 1.00 Li
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+V 0.00630(10) 0.0063 0.0063 -0.00024(3) -0.0002 -0.0002
+O 0.0066(2) 0.0066 0.0066 0.0003(4) -0.0003 -0.0003
+Li 0.0074(8) 0.0074 0.0074 0.0000 0.0000 0.0000
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+V V 0.300 0.529
+'Intl Tables for Crystallography 1992, Vol. C, Tables 4.2.6.8 and 6.1.1.1'
+O O 0.011 0.006
+'Intl Tables for Crystallography 1992, Vol. C, Tables 4.2.6.8 and 6.1.1.1'
+Li Li 0.000 0.000
+'Intl Tables for Crystallography 1992, Vol. C, Tables 4.2.6.8 and 6.1.1.1'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+V O V 26 27_554 95.36(4) no
+V O V 26 4 95.36(4) no
+V O V 27_554 4 95.36(4) no
+V O Li 26 . 121.38(3) no
+V O Li 27_554 . 121.38(3) no
+V O Li 4 . 121.38(3) no
+O V O 122_655 26 180.0 no
+O V O 27_554 26 84.38(5) no
+O V O 27_554 4 84.38(5) no
+O V O 26 4 84.38(5) no
+O V O 100_666 123_656 84.38(5) no
+O V O 122_655 123_656 84.38(5) no
+O V O 27_554 123_656 180.0 no
+O V V 100_666 2_566 42.32(2) no
+O V V 122_655 2_566 86.11(3) no
+O V V 27_554 2_566 137.68(2) no
+O V V 26 2_566 93.89(3) no
+O V V 4 2_566 137.68(2) no
+O V V 123_656 2_566 42.32(2) no
+O V V 100_666 26 137.68(2) no
+O V V 122_655 26 93.89(3) no
+O V V 27_554 26 42.32(2) no
+O V V 26 26 86.11(3) no
+O V V 4 26 42.32(2) no
+O V V 123_656 26 137.68(2) no
+V V V 2_566 26 180.0 no
+O V V 100_666 27_554 137.68(2) no
+O V V 122_655 27_554 137.68(2) no
+O V V 27_554 27_554 86.11(3) no
+O V V 26 27_554 42.32(2) no
+O V V 4 27_554 42.32(2) no
+O V V 123_656 27_554 93.89(3) no
+V V V 2_566 27_554 120.0 no
+V V V 26 27_554 60.0 no
+O V V 100_666 51_564 42.32(2) no
+O V V 122_655 51_564 42.32(2) no
+O V V 27_554 51_564 93.89(3) no
+O V V 26 51_564 137.68(2) no
+O V V 4 51_564 137.68(2) no
+O V V 123_656 51_564 86.11(3) no
+V V V 2_566 51_564 60.0 no
+V V V 26 51_564 120.0 no
+V V V 27_554 51_564 180.0 no
+O V V 100_666 4 93.89(3) no
+O V V 122_655 4 137.68(2) no
+O V V 27_554 4 42.32(2) no
+O V V 26 4 42.32(2) no
+O V V 4 4 86.11(3) no
+O V V 123_656 4 137.68(2) no
+V V V 2_566 4 120.0 no
+V V V 26 4 60.0 no
+V V V 27_554 4 60.0 no
+V V V 51_564 4 120.0 no
+O Li O . 52_454 109.5 no
+O Li O 52_454 2 109.5 no
+O Li O . 51_454 109.5 no
+O Li O 52_454 51_454 109.5 no
+O Li O 2 51_454 109.5 no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+V V 2_566 2.9147(4) y
+V V 27_554 2.9147(4) n
+V V 26 2.9147(4) n
+V V 4 2.9147(4) n
+V V 51_564 2.9147(4) n
+V O 100_666 1.9709(7) y
+V O 122_655 1.9709(7) n
+V O 27_554 1.9709(7) n
+Li O 2 1.9487(5) y
+O V 27_554 1.9709(7) no
+O V 4 1.9709(7) no
+V O 100_666 1.9709(7) no
+V O 122_655 1.9709(7) no
+V O 27_554 1.9709(7) no
+V O 26 1.9709(7) no
+V O 4 1.9709(7) no
+V O 123_656 1.9709(7) no
+V V 2_566 2.9147(4) no
+V V 26 2.9147(4) no
+V V 27_554 2.9147(4) no
+V V 51_564 2.9147(4) no
+V V 4 2.9147(4) no
+Li O 52_454 1.9487(5) no
+Li O 2 1.9487(5) no
+Li O 51_454 1.9487(5) no

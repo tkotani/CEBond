@@ -1,0 +1,277 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-22 23:49:25 +0200 (Tue, 22 Mar 2016) $
+#$Revision: 179079 $
+#$URL: svn://www.crystallography.net/cod/cif/4/30/41/4304121.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4304121
+loop_
+_publ_author_name
+'Dmitri O. Charkin'
+'Roman O. Grischenko'
+'Arman A. Sadybekov'
+'Richard J. Goff'
+'Philip Lightfoot'
+_publ_contact_author_address
+; 
+Inorganic Chemistry Division, 
+Chemistry Department, Moscow State 
+University Leninskie Gory 1 Moscow 
+119991 Russia
+;
+_publ_contact_author_email       charkin@inorg.chem.msu.ru
+_publ_contact_author_fax         +7-495-9390998
+_publ_contact_author_name        'Charkin, Dmitri O.'
+_publ_contact_author_phone       +7-495-9393504
+_publ_section_title
+;
+A New Approach to Synthesis of Layered Fluorites Containing Molecular
+Anions: Synthesis of Ln2O2CO3, K(LnO)CO3, and Ln2O2CrO4 via Metathesis
+Reactions
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              3065
+_journal_page_last               3071
+_journal_paper_doi               10.1021/ic701558m
+_journal_volume                  47
+_journal_year                    2008
+_chemical_formula_sum            'Cr La2 O6'
+_chemical_formula_weight         425.80
+_chemical_name_systematic        ' ?'
+_space_group_IT_number           15
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-C 2yc'
+_symmetry_space_group_name_H-M   'C 1 2/c 1'
+_audit_author_name               La2CrO6
+_audit_creation_date             2007-08-02T16:19
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_audit_update_record
+' 2007-08-02T16:19  Initial CIF as created by GSAS2CIF'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 107.3624(6)
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            4
+_cell_length_a                   14.4001(2)
+_cell_length_b                   4.40948(8)
+_cell_length_c                   8.4719(1)
+_cell_volume                     513.429(13)
+_computing_structure_refinement  GSAS
+_diffrn_radiation_probe          neutron
+_diffrn_radiation_wavelength     1.59432
+_exptl_absorpt_correction_T_max  1.00000
+_exptl_absorpt_correction_T_min  1.00000
+_exptl_absorpt_process_details
+;   GSAS Absorption/surface roughness correction: function number 0
+ No correction is applied.
+;
+_pd_block_id                     2007-08-02T16:19|LA2CRO6|La2CrO6|D2b
+_pd_calc_method                  'Rietveld Refinement'
+_pd_instr_location               ' ?'
+_pd_phase_name                   La2CrO6
+_pd_proc_info_datetime           2007-08-02T16:19:53
+_pd_proc_info_excluded_regions   ' ?'
+_pd_proc_ls_background_function
+;   GSAS Background function number 2 with  9 terms.
+ Cosine Fourier series
+      1:    37.1431     2:   -4.85167     3:    5.78414     4:  -0.289947    
+      5:    3.92405     6:  -0.900066     7:    1.65111     8:   0.328564    
+      9:    1.58250    
+;
+_pd_proc_ls_peak_cutoff          0.00050
+_pd_proc_ls_profile_function
+;
+ CW Profile function number 2 with  18 terms
+ Profile coefficients for Simpson's rule integration of pseudovoigt function
+ C.J. Howard (1982). J. Appl. Cryst.,15,615-620.
+ P. Thompson, D.E. Cox & J.B. Hastings (1987). J. Appl. Cryst.,20,79-83.
+ Peak tails are ignored  where the intensity is below 0.0005 times the peak
+   Aniso. broadening axis   0.0   0.0   1.0
+;
+_pd_proc_ls_prof_R_factor        0.0436
+_pd_proc_ls_prof_wR_expected     0.1309
+_pd_proc_ls_prof_wR_factor       0.0563
+_pd_spec_mounting                ' ?'
+_refine_ls_goodness_of_fit_all   0.43
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     49
+_refine_ls_number_restraints     0
+_refine_ls_R_Fsqd_factor         0.05146
+_refine_ls_shift/su_max          0.01
+_refine_ls_shift/su_mean         0.00
+_cod_data_source_file            ic701558m_si.cif
+_cod_data_source_block           LA2CRO6_publ
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_geom_angle_publ_flag' value 'N' changed to 'n' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (61
+time).
+
+'_geom_bond_publ_flag' value 'N' changed to 'n' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (26 times).
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+;
+_cod_original_cell_volume        513.43(2)
+_cod_original_sg_symbol_H-M      'C 2/c'
+_cod_database_code               4304121
+#BEGIN Tags that were not found in dictionaries:
+_gsas_exptl_extinct_corr_t_min   1.00000
+_gsas_exptl_extinct_corr_t_max   1.00000
+#END Tags that were not found in dictionaries
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -x,+y,-z+1/2
+-1 -x,-y,-z
+-2 +x,-y,+z+1/2
+101 +x+1/2,+y+1/2,+z
+102 -x+1/2,+y+1/2,-z+1/2
+-101 -x+1/2,-y+1/2,-z
+-102 +x+1/2,-y+1/2,+z+1/2
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_22
+_atom_site_aniso_U_23
+_atom_site_aniso_U_33
+O2 0.0162(9) -0.0010(9) 0.0056(9) 0.0084(8) 0.0047(7) 0.0120(10)
+O3 0.0159(10) 0.0107(8) 0.0057(10) 0.0189(11) 0.0046(10) 0.0117(11)
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+La La1 0.17022(9) 0.4935(4) 0.08532(21) 1.0 Uiso 0.00374(24) 8
+Cr Cr1 0.0 0.0427(9) 0.25 1.0 Uiso 0.0074(9) 4
+O O1 0.24368(10) -0.0176(5) 0.12197(23) 1.0 Uiso 0.00495(33) 8
+O O2 -0.00088(16) 0.2672(4) 0.09172(24) 1.0 Uani 0.01187 8
+O O3 0.09820(14) -0.1641(5) 0.29788(30) 1.0 Uani 0.01515 8
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+_atom_type_scat_length_neutron
+_atom_type_scat_source
+La 8.0 0.8240 International_Tables_Vol_C
+Cr 4.0 0.3635 International_Tables_Vol_C
+O 24.0 0.5803 International_Tables_Vol_C
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+La1 La1 La1 71.91(5) 102_545 . 102_555 n
+La1 La1 La1 68.87(4) 102_545 . -101_554 n
+La1 La1 O1 39.34(4) 102_545 . 1_555 n
+La1 La1 O1 106.57(7) 102_545 . 1_565 n
+La1 La1 O1 38.16(7) 102_545 . 102_555 n
+La1 La1 O1 103.36(7) 102_545 . -101_444 n
+La1 La1 O2 97.41(7) 102_545 . 1_555 n
+La1 La1 O2 154.61(8) 102_545 . -1_565 n
+La1 La1 O3 109.41(6) 102_545 . -2_555 n
+La1 La1 La1 108.32(6) 102_555 . -101_554 n
+La1 La1 O1 107.35(7) 102_555 . 1_555 n
+La1 La1 O1 38.90(5) 102_555 . 1_565 n
+La1 La1 O1 40.32(7) 102_555 . 102_555 n
+La1 La1 O1 100.37(7) 102_555 . -101_444 n
+La1 La1 O2 124.56(9) 102_555 . 1_555 n
+La1 La1 O2 116.05(6) 102_555 . -1_565 n
+La1 La1 O3 161.94(9) 102_555 . -2_555 n
+La1 La1 O1 40.04(5) -101_444 . 1_555 n
+La1 La1 O1 105.68(7) -101_444 . 1_565 n
+La1 La1 O1 101.46(7) -101_444 . 102_555 n
+La1 La1 O1 40.72(6) -101_444 . -101_444 n
+La1 La1 O2 118.03(8) -101_555 . 1_555 n
+La1 La1 O2 125.02(9) -101_555 . -1_565 n
+La1 La1 O3 57.89(6) -101_555 . -2_555 n
+O1 La1 O1 130.77(8) 1_555 . 1_565 n
+O1 La1 O1 77.49(8) 1_555 . 102_555 n
+O1 La1 O1 80.75(9) 1_555 . -101_444 n
+O1 La1 O2 91.11(7) 1_555 . 1_555 n
+O1 La1 O2 135.77(8) 1_555 . -1_565 n
+O1 La1 O3 70.40(8) 1_555 . -2_555 n
+O1 La1 O1 79.21(8) 1_565 . 102_555 n
+O1 La1 O1 75.67(9) 1_565 . -101_444 n
+O1 La1 O2 135.37(9) 1_565 . 1_555 n
+O1 La1 O2 90.64(7) 1_565 . -1_565 n
+O1 La1 O3 128.86(10) 1_565 . -2_555 n
+O1 La1 O1 121.63(8) 102_555 . -101_444 n
+O1 La1 O2 99.50(8) 102_555 . 1_555 n
+O1 La1 O2 133.37(9) 102_555 . -1_565 n
+O1 La1 O3 146.81(10) 102_555 . -2_555 n
+O1 La1 O2 134.54(9) -101_555 . 1_555 n
+O1 La1 O2 98.85(8) -101_555 . -1_565 n
+O1 La1 O3 61.62(7) -101_555 . -2_555 n
+O2 La1 O2 57.74(7) 1_555 . -1_565 n
+O2 La1 O3 73.46(7) 1_555 . -2_555 n
+O2 La1 O3 70.88(7) -1_565 . -2_555 n
+O2 Cr1 O2 106.98(27) 1_555 . 2_555 n
+O2 Cr1 O3 109.33(12) 1_555 . 1_555 n
+O2 Cr1 O3 109.58(11) 1_555 . 2_555 n
+O2 Cr1 O3 109.58(11) 2_555 . 1_555 n
+O2 Cr1 O3 109.33(12) 2_555 . 2_555 n
+O3 Cr1 O3 111.92(27) 1_555 . 2_555 n
+La1 O1 La1 130.77(8) 1_545 . 1_555 n
+La1 O1 La1 102.94(9) 1_545 . 102_545 n
+La1 O1 La1 104.33(9) 1_545 . -101_554 n
+La1 O1 La1 100.35(9) 1_555 . 102_545 n
+La1 O1 La1 99.25(9) 1_555 . -101_554 n
+La1 O1 La1 121.51(8) 102_545 . -101_554 n
+La1 O2 La1 122.26(7) 1_555 . -1_565 n
+La1 O2 Cr1 116.94(11) 1_555 . 1_555 n
+La1 O2 Cr1 118.30(11) -1_565 . 1_555 n
+La1 O3 Cr1 125.76(13) -2_446 . 1_555 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+La1 La1 3.7550(23) . 102_545 n
+La1 La1 3.7550(23) . 102_555 n
+La1 La1 3.7368(31) . -101_445 n
+La1 La1 3.8036(30) . -101_455 n
+La1 O1 2.4696(25) . 1_555 n
+La1 O1 2.3803(26) . 1_565 n
+La1 O1 2.4196(22) . 102_555 n
+La1 O1 2.4356(24) . -101_445 n
+La1 O2 2.6740(25) . 1_555 n
+La1 O2 2.6696(26) . -1_565 n
+La1 O3 2.7771(28) . 1_565 n
+La1 O3 2.7583(28) . -2_554 n
+Cr1 O2 1.6636(30) . 1_555 n
+Cr1 O2 1.6636(30) . 2_555 n
+Cr1 O3 1.6289(30) . 1_555 n
+Cr1 O3 1.6289(30) . 2_555 n
+O1 La1 2.3803(26) . 1_545 n
+O1 La1 2.4696(25) . 1_555 n
+O1 La1 2.4196(22) . 102_545 n
+O1 La1 2.4356(24) . -101_445 n
+O2 La1 2.6740(25) . 1_555 n
+O2 La1 2.6696(26) . -1_565 n
+O2 Cr1 1.6636(30) . 1_555 n
+O3 La1 2.7771(28) . 1_545 n
+O3 La1 2.7583(28) . -2_555 n
+O3 Cr1 1.6289(30) . 1_555 n

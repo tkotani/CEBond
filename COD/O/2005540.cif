@@ -1,0 +1,179 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/55/2005540.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2005540
+loop_
+_publ_author_name
+'Nishi, F.'
+_publ_section_title
+;
+ Strontium Tetragermanate, SrGe~4~O~9~
+;
+_journal_issue                   10
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              2393
+_journal_page_last               2395
+_journal_paper_doi               10.1107/S0108270196006737
+_journal_volume                  52
+_journal_year                    1996
+_chemical_formula_sum            'Ge4 O9 Sr'
+_chemical_formula_weight         521.98
+_space_group_IT_number           150
+_symmetry_cell_setting           trigonal
+_symmetry_space_group_name_Hall  'P 3 2"'
+_symmetry_space_group_name_H-M   'P 3 2 1'
+_atom_type_scat_source           IntTabIV
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            3
+_cell_length_a                   11.344(2)
+_cell_length_b                   11.344(2)
+_cell_length_c                   4.750(2)
+_cell_measurement_reflns_used    24
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      35.8
+_cell_measurement_theta_min      19.8
+_cell_volume                     529.4(3)
+_diffrn_measurement_device       'Rigaku AFC-5'
+_diffrn_measurement_method       '\w/2\q scans'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.025
+_diffrn_reflns_limit_h_max       17
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       17
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       8
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            1452
+_diffrn_reflns_theta_max         40.0
+_diffrn_standards_decay_%        0.5
+_diffrn_standards_interval_count 150
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    25.9
+_exptl_absorpt_correction_T_max  0.0147
+_exptl_absorpt_correction_T_min  0.0113
+_exptl_absorpt_correction_type   sphere
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    4.91
+_exptl_crystal_density_meas      ?
+_exptl_crystal_description       Sphere
+_exptl_crystal_size_rad          0.14
+_refine_diff_density_max         0.45
+_refine_diff_density_min         -0.38
+_refine_ls_extinction_coef       4.40E-5
+_refine_ls_extinction_method     'isotropic secondary'
+_refine_ls_goodness_of_fit_obs   1.35
+_refine_ls_number_parameters     73
+_refine_ls_number_reflns         929
+_refine_ls_R_factor_obs          0.049
+_refine_ls_shift/esd_max         0.05
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_scheme      unit
+_refine_ls_wR_factor_obs         0.052
+_reflns_number_observed          929
+_reflns_number_total             1343
+_reflns_observed_criterion       I>3\s(I)
+_cod_data_source_file            oh1096.cif
+_cod_data_source_block           oh1096a
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value ' unit' changed to 'unit'
+according to /home/saulius/struct/CIF-dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+
+The following automatic conversions were performed:
+
+'_exptl_crystal_density_meas' value 'not measured' was changed to '?'
+- the value is perceived as not measured.
+
+Automatic conversion script
+Id: cif_fix_values 3008 2015-01-20 13:52:24Z robertas 
+;
+_cod_original_formula_sum        'Sr Ge4 O9'
+_cod_database_code               2005540
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-y,x-y,z
+y-x,-x,z
+y,x,-z
+x-y,-y,-z
+-x,y-x,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_B_iso_or_equiv
+Sr .3280(1) .0 .0 1.40(2)
+Ge(1) .0 .0 .0 0.63(3)
+Ge(2) .3333 .6667 .1076(4) 0.62(3)
+Ge(3) .8209(1) .0 .5 0.68(4)
+Ge(4) .4908(1) .3410(1) .3990(2) 0.64(3)
+O(1) .5112(9) .0 .5 1.29(8)
+O(2) .6022(8) .4222(8) .1245(14) 0.95(7)
+O(3) .1546(7) .0616(8) .7636(13) 0.76(7)
+O(4) .3255(8) .2145(8) .2949(16) 0.94(8)
+O(5) .5102(7) .2496(8) .6722(13) 0.79(7)
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+Ge(4) O(1) Ge(4) 2_655 6_656 123.8(5) yes
+Ge(3) O(4) Ge(4) 3_665 . 121.2(4) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Sr O(2) 2_655 2.601(7) yes
+Sr O(2) 6_655 2.601(7) yes
+Sr O(3) 1_554 2.644(9) yes
+Sr O(3) 5_556 2.644(9) yes
+Sr O(4) . 2.820(9) yes
+Sr O(4) 5 2.820(9) yes
+Sr O(5) 1_554 2.977(8) yes
+Sr O(5) 5_556 2.977(8) yes
+Ge(1) O(3) 1_554 1.897(7) yes
+Ge(1) O(3) 5_556 1.897(7) yes
+Ge(1) O(3) 2_554 1.897(7) yes
+Ge(1) O(3) 3_554 1.897(7) yes
+Ge(1) O(3) 4_556 1.897(7) yes
+Ge(1) O(3) 6_556 1.897(7) yes
+Ge(2) O(5) 4_556 1.860(7) yes
+Ge(2) O(5) 6_666 1.860(7) yes
+Ge(2) O(5) 5_566 1.860(7) yes
+Ge(2) O(2) 4 1.872(9) yes
+Ge(2) O(2) 6_665 1.872(9) yes
+Ge(2) O(2) 5_565 1.872(9) yes
+Ge(3) O(3) 2_655 1.747(6) yes
+Ge(3) O(3) 6_656 1.747(6) yes
+Ge(3) O(4) 2_655 1.789(7) yes
+Ge(3) O(4) 6_656 1.789(7) yes
+Ge(4) O(2) . 1.726(7) yes
+Ge(4) O(5) . 1.743(8) yes
+Ge(4) O(1) 3_665 1.755(12) yes
+Ge(4) O(4) . 1.769(7) yes

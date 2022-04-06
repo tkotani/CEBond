@@ -1,0 +1,510 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-16 22:30:59 +0200 (Tue, 16 Feb 2016) $
+#$Revision: 176467 $
+#$URL: svn://www.crystallography.net/cod/cif/4/33/28/4332806.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the Crystal Eye server at
+# http://wwmm.ch.cam.ac.uk/crystaleye/, created by Nick Day at the
+# Peter Murray-Rust laboratory.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_4332806
+loop_
+_publ_author_name
+'Sun, Junliang'
+'Li, Guobao'
+'Li, Zhaofei'
+'You, Liping'
+'Lin, Jianhua'
+_publ_section_title
+;
+ Crystal Growth and Structure Determination of Oxygen-Deficient Sr6Co5O15
+;
+_journal_issue                   20
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              8394
+_journal_page_last               8402
+_journal_paper_doi               10.1021/ic060862m
+_journal_volume                  45
+_journal_year                    2006
+_chemical_formula_sum            'Co1.25 O3.59 Sr1.5'
+_chemical_formula_weight         262.53
+_chemical_name_systematic
+; 
+ ? 
+;
+_space_group_IT_number           148
+_symmetry_space_group_name_Hall  '-R 3'
+_symmetry_space_group_name_H-M   'R -3 :H'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                120.00
+_cell_formula_units_Z            12
+_cell_length_a                   9.4401(11)
+_cell_length_b                   9.4401(11)
+_cell_length_c                   12.476(3)
+_cell_measurement_temperature    296(2)
+_cell_volume                     962.9(3)
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      296(2)
+_diffrn_measured_fraction_theta_full 0.958
+_diffrn_measured_fraction_theta_max 0.958
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0459
+_diffrn_reflns_av_sigmaI/netI    0.0421
+_diffrn_reflns_limit_h_max       14
+_diffrn_reflns_limit_h_min       -14
+_diffrn_reflns_limit_k_max       14
+_diffrn_reflns_limit_k_min       -8
+_diffrn_reflns_limit_l_max       17
+_diffrn_reflns_limit_l_min       -18
+_diffrn_reflns_number            2857
+_diffrn_reflns_theta_full        33.49
+_diffrn_reflns_theta_max         33.49
+_diffrn_reflns_theta_min         2.98
+_exptl_absorpt_coefficient_mu    31.070
+_exptl_absorpt_correction_T_max  0.218
+_exptl_absorpt_correction_T_min  0.177
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details   '(SADABS; Bruker, 2001)'
+_exptl_crystal_density_diffrn    5.433
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_F_000             1434
+_exptl_crystal_size_max          0.15
+_exptl_crystal_size_mid          0.05
+_exptl_crystal_size_min          0.05
+_refine_diff_density_max         2.581
+_refine_diff_density_min         -1.378
+_refine_diff_density_rms         0.385
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   1.000
+_refine_ls_hydrogen_treatment    none
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     47
+_refine_ls_number_reflns         814
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.000
+_refine_ls_R_factor_all          0.0414
+_refine_ls_R_factor_gt           0.0391
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0080P)^2^+69.2401P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0850
+_refine_ls_wR_factor_ref         0.0861
+_reflns_number_gt                777
+_reflns_number_total             814
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            ic060862msup3.cif
+_cod_data_source_block           r-3v
+_cod_original_cell_volume        962.8(3)
+_cod_original_sg_symbol_H-M      R-3:H
+_cod_original_formula_sum        'Co1.25 O3.59 Sr1.50'
+_cod_database_code               4332806
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-y, x-y, z'
+'-x+y, -x, z'
+'x+2/3, y+1/3, z+1/3'
+'-y+2/3, x-y+1/3, z+1/3'
+'-x+y+2/3, -x+1/3, z+1/3'
+'x+1/3, y+2/3, z+2/3'
+'-y+1/3, x-y+2/3, z+2/3'
+'-x+y+1/3, -x+2/3, z+2/3'
+'-x, -y, -z'
+'y, -x+y, -z'
+'x-y, x, -z'
+'-x+2/3, -y+1/3, -z+1/3'
+'y+2/3, -x+y+1/3, -z+1/3'
+'x-y+2/3, x+1/3, -z+1/3'
+'-x+1/3, -y+2/3, -z+2/3'
+'y+1/3, -x+y+2/3, -z+2/3'
+'x-y+1/3, x+2/3, -z+2/3'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+Sr1 Sr 0.33223(6) 0.02053(6) 0.08092(4) 0.00983(14) Uani 1 1 d .
+Co1 Co 0.0000 0.0000 0.0000 0.0053(3) Uani 1 6 d S
+Co2 Co 0.0000 0.0000 0.19193(9) 0.0057(2) Uani 1 3 d S
+Co3 Co 0.0000 0.0000 0.60865(11) 0.0137(3) Uani 1 3 d S
+O1 O 0.1544(4) 0.1624(5) 0.0944(3) 0.0079(6) Uani 1 1 d .
+O2 O 0.1576(5) 0.1548(5) 0.7125(3) 0.0113(7) Uani 1 1 d .
+O3 O -0.074(4) -0.1557(16) 0.4987(13) 0.047(6) Uani 0.362(18) 1 d P
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Sr1 0.0081(2) 0.0087(2) 0.0140(2) -0.00440(15) -0.00324(15) 0.00526(18)
+Co1 0.0033(4) 0.0033(4) 0.0091(6) 0.000 0.000 0.0017(2)
+Co2 0.0036(3) 0.0036(3) 0.0099(5) 0.000 0.000 0.00178(15)
+Co3 0.0133(4) 0.0133(4) 0.0144(6) 0.000 0.000 0.00666(19)
+O1 0.0039(15) 0.0062(15) 0.0100(15) -0.0003(12) -0.0009(11) -0.0002(12)
+O2 0.0078(16) 0.0074(16) 0.0144(16) 0.0013(13) 0.0020(13) 0.0006(14)
+O3 0.085(14) 0.007(6) 0.023(7) 0.001(5) -0.031(7) 0.005(9)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Co Co 0.3494 0.9721 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Sr Sr -1.5307 3.2498 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+O1 Sr1 O2 131.96(13) 13 18_545
+O1 Sr1 O3 74.0(3) 13 16_545
+O2 Sr1 O3 66.8(4) 18_545 16_545
+O1 Sr1 O3 91.7(6) 13 9_544
+O2 Sr1 O3 66.3(4) 18_545 9_544
+O3 Sr1 O3 28.7(4) 16_545 9_544
+O1 Sr1 O2 67.71(12) 13 5_554
+O2 Sr1 O2 120.35(5) 18_545 5_554
+O3 Sr1 O2 130.2(5) 16_545 5_554
+O3 Sr1 O2 157.4(7) 9_544 5_554
+O1 Sr1 O2 63.72(12) 13 6_554
+O2 Sr1 O2 81.75(13) 18_545 6_554
+O3 Sr1 O2 78.4(6) 16_545 6_554
+O3 Sr1 O2 106.6(5) 9_544 6_554
+O2 Sr1 O2 56.72(16) 5_554 6_554
+O1 Sr1 O1 94.91(11) 13 .
+O2 Sr1 O1 133.04(12) 18_545 .
+O3 Sr1 O1 146.0(7) 16_545 .
+O3 Sr1 O1 124.0(4) 9_544 .
+O2 Sr1 O1 69.30(12) 5_554 .
+O2 Sr1 O1 125.95(11) 6_554 .
+O1 Sr1 O1 122.82(6) 13 3
+O2 Sr1 O1 91.10(12) 18_545 3
+O3 Sr1 O1 99.9(6) 16_545 3
+O3 Sr1 O1 71.2(6) 9_544 3
+O2 Sr1 O1 127.24(11) 5_554 3
+O2 Sr1 O1 172.75(11) 6_554 3
+O1 Sr1 O1 58.76(16) . 3
+O1 Sr1 O2 64.41(11) 13 11_556
+O2 Sr1 O2 135.47(7) 18_545 11_556
+O3 Sr1 O2 86.0(6) 16_545 11_556
+O3 Sr1 O2 73.0(3) 9_544 11_556
+O2 Sr1 O2 104.17(10) 5_554 11_556
+O2 Sr1 O2 128.09(8) 6_554 11_556
+O1 Sr1 O2 60.64(11) . 11_556
+O1 Sr1 O2 58.43(11) 3 11_556
+O1 Sr1 Co2 37.72(8) 13 13
+O2 Sr1 Co2 118.44(10) 18_545 13
+O3 Sr1 Co2 94.0(5) 16_545 13
+O3 Sr1 Co2 120.5(7) 9_544 13
+O2 Sr1 Co2 36.92(8) 5_554 13
+O2 Sr1 Co2 36.69(8) 6_554 13
+O1 Sr1 Co2 95.93(8) . 13
+O1 Sr1 Co2 150.40(8) 3 13
+O2 Sr1 Co2 97.08(8) 11_556 13
+O1 Sr1 Co1 129.99(9) 13 .
+O2 Sr1 Co1 97.76(10) 18_545 .
+O3 Sr1 Co1 135.3(6) 16_545 .
+O3 Sr1 Co1 106.7(6) 9_544 .
+O2 Sr1 Co1 94.21(8) 5_554 .
+O2 Sr1 Co1 143.24(8) 6_554 .
+O1 Sr1 Co1 36.42(8) . .
+O1 Sr1 Co1 36.40(8) 3 .
+O2 Sr1 Co1 76.95(7) 11_556 .
+Co2 Sr1 Co1 128.549(16) 13 .
+O1 Sr1 Co2 93.30(9) 13 .
+O2 Sr1 Co2 126.28(10) 18_545 .
+O3 Sr1 Co2 112.1(7) 16_545 .
+O3 Sr1 Co2 89.0(4) 9_544 .
+O2 Sr1 Co2 100.93(9) 5_554 .
+O2 Sr1 Co2 151.90(8) 6_554 .
+O1 Sr1 Co2 35.15(8) . .
+O1 Sr1 Co2 35.19(8) 3 .
+O2 Sr1 Co2 34.18(7) 11_556 .
+Co2 Sr1 Co2 115.227(15) 13 .
+Co1 Sr1 Co2 42.81(2) . .
+Co2 Co1 Co2 180.0 10 .
+Co2 Co1 Sr1 108.348(10) 10 .
+Co2 Co1 Sr1 71.652(10) . .
+Co2 Co1 Sr1 71.652(10) 10 12
+Co2 Co1 Sr1 108.348(10) . 12
+Sr1 Co1 Sr1 69.429(9) . 12
+Co2 Co1 Sr1 71.652(10) 10 11
+Co2 Co1 Sr1 108.348(10) . 11
+Sr1 Co1 Sr1 69.429(9) . 11
+Sr1 Co1 Sr1 110.571(9) 12 11
+Co2 Co1 Sr1 108.348(10) 10 3
+Co2 Co1 Sr1 71.652(10) . 3
+Sr1 Co1 Sr1 110.571(9) . 3
+Sr1 Co1 Sr1 180.00(2) 12 3
+Sr1 Co1 Sr1 69.429(9) 11 3
+Co2 Co1 Sr1 71.652(10) 10 10
+Co2 Co1 Sr1 108.348(10) . 10
+Sr1 Co1 Sr1 180.00(2) . 10
+Sr1 Co1 Sr1 110.571(9) 12 10
+Sr1 Co1 Sr1 110.571(9) 11 10
+Sr1 Co1 Sr1 69.429(9) 3 10
+Co2 Co1 Sr1 108.348(10) 10 2
+Co2 Co1 Sr1 71.652(10) . 2
+Sr1 Co1 Sr1 110.571(9) . 2
+Sr1 Co1 Sr1 69.429(9) 12 2
+Sr1 Co1 Sr1 180.00(2) 11 2
+Sr1 Co1 Sr1 110.571(9) 3 2
+Sr1 Co1 Sr1 69.429(9) 10 2
+O1 Co2 O1 84.45(16) . 3
+O1 Co2 O1 84.45(16) . 2
+O1 Co2 O1 84.45(16) 3 2
+O1 Co2 O2 97.26(16) . 11_556
+O1 Co2 O2 93.67(16) 3 11_556
+O1 Co2 O2 177.34(17) 2 11_556
+O1 Co2 O2 93.67(16) . 12_556
+O1 Co2 O2 177.34(17) 3 12_556
+O1 Co2 O2 97.26(16) 2 12_556
+O2 Co2 O2 84.69(18) 11_556 12_556
+O1 Co2 O2 177.34(17) . 10_556
+O1 Co2 O2 97.26(16) 3 10_556
+O1 Co2 O2 93.67(16) 2 10_556
+O2 Co2 O2 84.69(18) 11_556 10_556
+O2 Co2 O2 84.69(18) 12_556 10_556
+O1 Co2 Co1 50.89(11) . .
+O1 Co2 Co1 50.89(11) 3 .
+O1 Co2 Co1 50.89(11) 2 .
+O2 Co2 Co1 128.94(12) 11_556 .
+O2 Co2 Co1 128.94(12) 12_556 .
+O2 Co2 Co1 128.94(12) 10_556 .
+O1 Co2 Co3 129.11(11) . 10_556
+O1 Co2 Co3 129.11(11) 3 10_556
+O1 Co2 Co3 129.11(11) 2 10_556
+O2 Co2 Co3 51.06(12) 11_556 10_556
+O2 Co2 Co3 51.06(12) 12_556 10_556
+O2 Co2 Co3 51.06(12) 10_556 10_556
+Co1 Co2 Co3 180.0 . 10_556
+O1 Co2 Sr1 126.30(12) . 15_445
+O1 Co2 Sr1 53.24(10) 3 15_445
+O1 Co2 Sr1 117.35(11) 2 15_445
+O2 Co2 Sr1 59.99(12) 11_556 15_445
+O2 Co2 Sr1 127.16(13) 12_556 15_445
+O2 Co2 Sr1 56.27(12) 10_556 15_445
+Co1 Co2 Sr1 103.85(2) . 15_445
+Co3 Co2 Sr1 76.15(2) 10_556 15_445
+O1 Co2 Sr1 53.24(10) . 13
+O1 Co2 Sr1 117.35(11) 3 13
+O1 Co2 Sr1 126.30(12) 2 13
+O2 Co2 Sr1 56.27(12) 11_556 13
+O2 Co2 Sr1 59.99(13) 12_556 13
+O2 Co2 Sr1 127.16(13) 10_556 13
+Co1 Co2 Sr1 103.85(2) . 13
+Co3 Co2 Sr1 76.15(2) 10_556 13
+Sr1 Co2 Sr1 114.458(17) 15_445 13
+O1 Co2 Sr1 117.35(11) . 14_455
+O1 Co2 Sr1 126.30(12) 3 14_455
+O1 Co2 Sr1 53.24(10) 2 14_455
+O2 Co2 Sr1 127.16(13) 11_556 14_455
+O2 Co2 Sr1 56.27(12) 12_556 14_455
+O2 Co2 Sr1 59.99(12) 10_556 14_455
+Co1 Co2 Sr1 103.85(2) . 14_455
+Co3 Co2 Sr1 76.15(2) 10_556 14_455
+Sr1 Co2 Sr1 114.457(17) 15_445 14_455
+Sr1 Co2 Sr1 114.456(17) 13 14_455
+O1 Co2 Sr1 116.43(11) . 3
+O1 Co2 Sr1 51.60(11) 3 3
+O1 Co2 Sr1 52.59(11) 2 3
+O2 Co2 Sr1 124.75(13) 11_556 3
+O2 Co2 Sr1 131.05(13) 12_556 3
+O2 Co2 Sr1 63.52(12) 10_556 3
+Co1 Co2 Sr1 65.54(2) . 3
+Co3 Co2 Sr1 114.46(2) 10_556 3
+Sr1 Co2 Sr1 64.772(15) 15_445 3
+Sr1 Co2 Sr1 167.76(3) 13 3
+Sr1 Co2 Sr1 75.309(18) 14_455 3
+O3 Co3 O3 73.3(8) 11_556 12_556
+O3 Co3 O3 73.3(8) 11_556 10_556
+O3 Co3 O3 73.3(8) 12_556 10_556
+O3 Co3 O3 40.1(2) 11_556 .
+O3 Co3 O3 40.1(2) 12_556 .
+O3 Co3 O3 86.4(6) 10_556 .
+O3 Co3 O3 40.1(2) 11_556 3
+O3 Co3 O3 86.4(6) 12_556 3
+O3 Co3 O3 40.1(2) 10_556 3
+O3 Co3 O3 72.2(7) . 3
+O3 Co3 O3 86.4(6) 11_556 2
+O3 Co3 O3 40.1(2) 12_556 2
+O3 Co3 O3 40.1(2) 10_556 2
+O3 Co3 O3 72.2(7) . 2
+O3 Co3 O3 72.2(7) 3 2
+O3 Co3 O2 159.8(10) 11_556 .
+O3 Co3 O2 117.0(10) 12_556 .
+O3 Co3 O2 92.5(5) 10_556 .
+O3 Co3 O2 156.0(10) . .
+O3 Co3 O2 120.5(10) 3 .
+O3 Co3 O2 91.7(5) 2 .
+O3 Co3 O2 92.5(5) 11_556 2
+O3 Co3 O2 159.8(10) 12_556 2
+O3 Co3 O2 117.0(10) 10_556 2
+O3 Co3 O2 120.5(10) . 2
+O3 Co3 O2 91.7(5) 3 2
+O3 Co3 O2 156.0(10) 2 2
+O2 Co3 O2 81.16(17) . 2
+O3 Co3 O2 117.0(10) 11_556 3
+O3 Co3 O2 92.5(5) 12_556 3
+O3 Co3 O2 159.8(10) 10_556 3
+O3 Co3 O2 91.7(5) . 3
+O3 Co3 O2 156.0(10) 3 3
+O3 Co3 O2 120.5(10) 2 3
+O2 Co3 O2 81.16(17) . 3
+O2 Co3 O2 81.16(17) 2 3
+O3 Co3 Co2 136.4(5) 11_556 10_556
+O3 Co3 Co2 136.4(5) 12_556 10_556
+O3 Co3 Co2 136.4(5) 10_556 10_556
+O3 Co3 Co2 137.1(5) . 10_556
+O3 Co3 Co2 137.1(5) 3 10_556
+O3 Co3 Co2 137.1(5) 2 10_556
+O2 Co3 Co2 48.69(12) . 10_556
+O2 Co3 Co2 48.69(12) 2 10_556
+O2 Co3 Co2 48.69(12) 3 10_556
+O3 Co3 Co3 43.6(5) 11_556 10_556
+O3 Co3 Co3 43.6(5) 12_556 10_556
+O3 Co3 Co3 43.6(5) 10_556 10_556
+O3 Co3 Co3 42.9(5) . 10_556
+O3 Co3 Co3 42.9(5) 3 10_556
+O3 Co3 Co3 42.9(5) 2 10_556
+O2 Co3 Co3 131.31(12) . 10_556
+O2 Co3 Co3 131.31(12) 2 10_556
+O2 Co3 Co3 131.31(12) 3 10_556
+Co2 Co3 Co3 180.0 10_556 10_556
+O3 Co3 Sr1 49.8(6) 11_556 18_445
+O3 Co3 Sr1 122.9(8) 12_556 18_445
+O3 Co3 Sr1 85.3(10) 10_556 18_445
+O3 Co3 Sr1 87.6(10) . 18_445
+O3 Co3 Sr1 48.8(6) 3 18_445
+O3 Co3 Sr1 121.0(8) 2 18_445
+O2 Co3 Sr1 116.25(12) . 18_445
+O2 Co3 Sr1 46.20(11) 2 18_445
+O2 Co3 Sr1 114.74(12) 3 18_445
+Co2 Co3 Sr1 94.88(2) 10_556 18_445
+Co3 Co3 Sr1 85.12(2) 10_556 18_445
+Co2 O1 Sr1 89.04(13) . 13
+Co2 O1 Sr1 93.25(14) . .
+Sr1 O1 Sr1 85.09(11) 13 .
+Co2 O1 Sr1 92.22(14) . 2
+Sr1 O1 Sr1 99.98(13) 13 2
+Sr1 O1 Sr1 172.61(16) . 2
+Co2 O2 Co3 80.25(15) 10_556 .
+Co2 O2 Sr1 178.1(2) 10_556 17
+Co3 O2 Sr1 98.46(16) . 17
+Co2 O2 Sr1 86.81(14) 10_556 9
+Co3 O2 Sr1 99.05(16) . 9
+Sr1 O2 Sr1 91.99(13) 17 9
+Co2 O2 Sr1 83.32(14) 10_556 8_545
+Co3 O2 Sr1 95.12(15) . 8_545
+Sr1 O2 Sr1 98.25(13) 17 8_545
+Sr1 O2 Sr1 161.10(17) 9 8_545
+Co2 O2 Sr1 82.30(13) 10_556 12_556
+Co3 O2 Sr1 162.07(18) . 12_556
+Sr1 O2 Sr1 98.87(13) 17 12_556
+Sr1 O2 Sr1 75.83(10) 9 12_556
+Sr1 O2 Sr1 86.88(11) 8_545 12_556
+O3 O3 O3 119.94(14) 12_556 11_556
+O3 O3 Co3 71.0(10) 12_556 10_556
+O3 O3 Co3 71.0(10) 11_556 10_556
+O3 O3 Co3 69.0(11) 12_556 .
+O3 O3 Co3 69.0(11) 11_556 .
+Co3 O3 Co3 93.6(6) 10_556 .
+O3 O3 Sr1 77.2(17) 12_556 16_545
+O3 O3 Sr1 149(2) 11_556 16_545
+Co3 O3 Sr1 139.5(17) 10_556 16_545
+Co3 O3 Sr1 97.7(6) . 16_545
+O3 O3 Sr1 155(2) 12_556 5_445
+O3 O3 Sr1 74.1(16) 11_556 5_445
+Co3 O3 Sr1 97.1(7) 10_556 5_445
+Co3 O3 Sr1 135.5(16) . 5_445
+Sr1 O3 Sr1 101.4(5) 16_545 5_445
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Sr1 O1 2.525(4) 13
+Sr1 O2 2.450(4) 18_545
+Sr1 O3 2.55(2) 16_545
+Sr1 O3 2.58(2) 9_544
+Sr1 O2 2.625(4) 5_554
+Sr1 O2 2.748(4) 6_554
+Sr1 O1 2.625(4) .
+Sr1 O1 2.658(4) 3
+Sr1 O2 3.021(4) 11_556
+Sr1 Co2 3.1517(7) 13
+Sr1 Co1 3.2071(6) .
+Sr1 Co2 3.3443(8) .
+Co1 Co2 2.3944(13) 10
+Co1 Co2 2.3944(13) .
+Co1 Sr1 3.2071(6) 12
+Co1 Sr1 3.2071(6) 11
+Co1 Sr1 3.2071(6) 3
+Co1 Sr1 3.2071(6) 10
+Co1 Sr1 3.2071(6) 2
+Co2 O1 1.929(4) .
+Co2 O1 1.929(4) 3
+Co2 O1 1.929(4) 2
+Co2 O2 1.896(4) 11_556
+Co2 O2 1.896(4) 12_556
+Co2 O2 1.896(4) 10_556
+Co2 Co3 2.4878(18) 10_556
+Co2 Sr1 3.1517(7) 15_445
+Co2 Sr1 3.1517(7) 13
+Co2 Sr1 3.1518(7) 14_455
+Co2 Sr1 3.3443(8) 3
+Co3 O3 1.849(15) 11_556
+Co3 O3 1.849(15) 12_556
+Co3 O3 1.849(15) 10_556
+Co3 O3 1.872(16) .
+Co3 O3 1.872(16) 3
+Co3 O3 1.872(16) 2
+Co3 O2 1.963(4) .
+Co3 O2 1.963(4) 2
+Co3 O2 1.963(4) 3
+Co3 Co2 2.4878(18) 10_556
+Co3 Co3 2.711(3) 10_556
+Co3 Sr1 3.3579(6) 18_445
+O1 Sr1 2.525(4) 13
+O1 Sr1 2.658(4) 2
+O2 Co2 1.896(4) 10_556
+O2 Sr1 2.450(4) 17
+O2 Sr1 2.625(4) 9
+O2 Sr1 2.748(4) 8_545
+O2 Sr1 3.021(4) 12_556
+O3 O3 1.274(13) 12_556
+O3 O3 1.274(13) 11_556
+O3 Co3 1.849(15) 10_556
+O3 Sr1 2.55(2) 16_545
+O3 Sr1 2.58(2) 5_445

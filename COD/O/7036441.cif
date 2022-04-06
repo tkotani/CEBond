@@ -1,0 +1,349 @@
+#------------------------------------------------------------------------------
+#$Date: 2015-12-09 17:17:20 +0200 (Wed, 09 Dec 2015) $
+#$Revision: 171287 $
+#$URL: svn://www.crystallography.net/cod/cif/7/03/64/7036441.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7036441
+loop_
+_publ_author_name
+'Smith, A. L.'
+'Raison, P. E.'
+'Hen, A.'
+'Bykov, D.'
+'Colineau, E.'
+'Sanchez, J.-P.'
+'Konings, R. J. M.'
+'Cheetham, A. K.'
+_publ_section_title
+;
+ Structural investigation of Na3NpO4 and Na3PuO4 using X-ray diffraction
+ and (237)Np M\"ossbauer spectroscopy.
+;
+_journal_issue                   42
+_journal_name_full
+'Dalton transactions (Cambridge, England : 2003)'
+_journal_page_first              18370
+_journal_page_last               18377
+_journal_paper_doi               10.1039/c5dt02168e
+_journal_volume                  44
+_journal_year                    2015
+_chemical_formula_moiety         'O4 Pu, 3(Na)'
+_chemical_formula_structural     'Na3 Pu1 O4'
+_chemical_formula_sum            'Na3 O4 Pu'
+_chemical_formula_weight         372.02
+_chemical_name_common            'Trisodium plutonate'
+_chemical_name_systematic        ' NA3PuO4'
+_space_group_IT_number           69
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-F 2 2'
+_symmetry_space_group_name_H-M   'F m m m'
+_cell_angle_alpha                90.00000
+_cell_angle_beta                 90.00000
+_cell_angle_gamma                90.00000
+_cell_formula_units_Z            8
+_cell_length_a                   13.3025(3)
+_cell_length_b                   9.63428(15)
+_cell_length_c                   6.65115(17)
+_cell_measurement_temperature    298
+_cell_volume                     852.41(3)
+_computing_structure_refinement  FULLPROF
+_diffrn_ambient_temperature      298
+_diffrn_detector                 'LinxEye position sensitive detector'
+_diffrn_detector_type            'LinxEye position sensitive detector'
+_diffrn_measurement_device_type  'Bruker D8 Advance X-ray diffractometer'
+_diffrn_measurement_method       X-Ray
+_diffrn_radiation_monochromator  Ge[111]
+_diffrn_radiation_type           'Cu K\a'
+_diffrn_radiation_wavelength     1.540598
+_diffrn_source                   'Copper X-ray tube'
+_diffrn_source_target            Cu
+_exptl_absorpt_coefficient_mu    110.403
+_exptl_crystal_density_diffrn    5.798
+_exptl_crystal_F_000             1272.0
+_pd_instr_location
+' Institute for Transuranium Elements, Karlsruhe'
+_pd_meas_2theta_range_inc        0.019729
+_pd_meas_2theta_range_max        120.02919
+_pd_meas_2theta_range_min        10.00000
+_pd_meas_number_of_points        5578
+_pd_meas_scan_method             step
+_pd_proc_2theta_range_inc        0.019729
+_pd_proc_2theta_range_max        120.0122
+_pd_proc_2theta_range_min        9.9830
+_pd_proc_ls_prof_R_factor        1.9985
+_pd_proc_ls_prof_wR_expected     2.1482
+_pd_proc_ls_prof_wR_factor       2.6628
+_pd_proc_wavelength              1.540598
+_refine_ls_goodness_of_fit_all   1.23919
+_refine_ls_number_parameters     14
+_refine_ls_number_reflns         209
+_refine_ls_number_restraints     0
+_refine_ls_R_I_factor            8.0768
+_cod_data_source_file            c5dt02168e2.cif
+_cod_data_source_block           Na3PuO4
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Orthorhombic' changed to
+'orthorhombic' according to
+/usr/data/users/saulius/crontab/automatic-downloads/rss-feeds/RSC/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 from 2011-04-26.
+
+Automatic conversion script
+Id: cif_fix_values 3271 2015-04-21 07:52:19Z andrius 
+
+ Adding full bibliography for 7036441--7036442.cif.
+;
+_cod_database_code               7036441
+_pd_proc_ls_prof_cr_factor       40.9999
+_pd_proc_ls_prof_cwr_factor      26.5512
+_pd_proc_ls_prof_cwr_expected    21.4201
+_pd_proc_ls_prof_chi2            1.5365
+_pd_proc_ls_prof_echi2           1.5479
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x,-y,-z
+-x,y,-z
+-x,-y,z
+-x,-y,-z
+-x,y,z
+x,-y,z
+x,y,-z
+x+1/2,y+1/2,z
+x+1/2,-y+1/2,-z
+-x+1/2,y+1/2,-z
+-x+1/2,-y+1/2,z
+-x+1/2,-y+1/2,-z
+-x+1/2,y+1/2,z
+x+1/2,-y+1/2,z
+x+1/2,y+1/2,-z
+x+1/2,y,z+1/2
+x+1/2,-y,-z+1/2
+-x+1/2,y,-z+1/2
+-x+1/2,-y,z+1/2
+-x+1/2,-y,-z+1/2
+-x+1/2,y,z+1/2
+x+1/2,-y,z+1/2
+x+1/2,y,-z+1/2
+x,y+1/2,z+1/2
+x,-y+1/2,-z+1/2
+-x,y+1/2,-z+1/2
+-x,-y+1/2,z+1/2
+-x,-y+1/2,-z+1/2
+-x,y+1/2,z+1/2
+x,-y+1/2,z+1/2
+x,y+1/2,-z+1/2
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+_atom_site_adp_type
+_atom_site_type_symbol
+Pu 0.1315(3) 0.00000 0.00000 0.00519 1.00000 Uiso Pu
+Na1 0.114(2) 0.50000 0.00000 0.00507 1.00000 Uiso Na
+Na2 0.00000 0.25000 0.25000 0.00507 1.00000 Uiso Na
+Na3 0.25000 0.25000 0.25000 0.00507 1.00000 Uiso Na
+O1 0.00000 0.50000 0.250(4) 0.01368 1.00000 Uiso O
+O2 0.25000 0.00000 0.25000 0.01368 1.00000 Uiso O
+O3 0.1513(16) 0.2356(17) 0.00000 0.01368 1.00000 Uiso O
+loop_
+_atom_type_symbol
+_atom_type_scat_Cromer_Mann_a1
+_atom_type_scat_Cromer_Mann_b1
+_atom_type_scat_Cromer_Mann_a2
+_atom_type_scat_Cromer_Mann_b2
+_atom_type_scat_Cromer_Mann_a3
+_atom_type_scat_Cromer_Mann_b3
+_atom_type_scat_Cromer_Mann_a4
+_atom_type_scat_Cromer_Mann_b4
+_atom_type_scat_Cromer_Mann_c
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+pu+4 35.64930 0.48142 22.64600 2.89020 13.35950 11.31600 5.18831 21.83010
+13.15550 -5.71200 14.53600
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+na+1 3.25650 2.66710 3.93620 6.11530 1.39980 0.20010 1.00320 14.03900 0.40400
+0.12900 0.12400
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+o-2 4.75800 7.83100 3.63700 30.05000 0.00000 0.00000 0.00000 0.00000 1.59400
+0.04700 0.03200
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+O1 Pu O1 87.1(14) 25_544 26_555
+O1 Pu O2 177.0(10) 25_544 1_555
+O1 Pu O2 89.9(4) 25_544 2_555
+O1 Pu O3 94.8(10) 25_544 1_555
+O1 Pu O3 94.8(10) 25_544 2_555
+O1 Pu O2 89.9(4) 26_555 1_555
+O1 Pu O2 177.0(10) 26_555 2_555
+O1 Pu O3 94.8(10) 26_555 1_555
+O1 Pu O3 94.8(10) 26_555 2_555
+O2 Pu O2 93.06(10) 1_555 2_555
+O2 Pu O3 85.5(7) 1_555 1_555
+O2 Pu O3 85.5(7) 1_555 2_555
+O2 Pu O3 85.5(7) 2_555 1_555
+O2 Pu O3 85.5(7) 2_555 2_555
+O3 Pu O3 166.8(13) 1_555 2_555
+O1 Na1 O1 95.3(17) 1_555 2_565
+O1 Na1 O2 175.0(12) 1_555 11_555
+O1 Na1 O2 89.8(8) 1_555 12_555
+O1 Na1 O3 97.4(4) 1_555 1_555
+O1 Na1 O3 97.4(11) 1_555 2_565
+O1 Na1 O2 89.8(8) 2_565 11_555
+O1 Na1 O2 175.0(12) 2_565 12_555
+O1 Na1 O3 97.4(11) 2_565 1_555
+O1 Na1 O3 97.4(11) 2_565 2_565
+O2 Na1 O2 85.2(6) 11_555 12_555
+O2 Na1 O3 81.9(7) 11_555 1_555
+O2 Na1 O3 81.9(7) 11_555 2_565
+O2 Na1 O3 81.9(7) 12_555 1_555
+O2 Na1 O3 81.9(7) 12_555 2_565
+O3 Na1 O3 158.0(11) 1_555 2_565
+O1 Na2 O1 180.000(4) 1_555 26_555
+O1 Na2 O3 93.0(8) 1_555 1_555
+O1 Na2 O3 93.0(8) 1_555 3_555
+O1 Na2 O3 87.0(7) 1_555 26_555
+O1 Na2 O3 87.0(7) 1_555 28_555
+O1 Na2 O3 87.0(7) 26_555 1_555
+O1 Na2 O3 87.0(7) 26_555 3_555
+O1 Na2 O3 93.0(8) 26_555 26_555
+O1 Na2 O3 93.0(8) 26_555 28_555
+O3 Na2 O3 100.7(11) 1_555 3_555
+O3 Na2 O3 79.3(5) 1_555 26_555
+O3 Na2 O3 180.0(11) 1_555 28_555
+O3 Na2 O3 180.0(11) 3_555 26_555
+O3 Na2 O3 79.3(5) 3_555 28_555
+O3 Na2 O3 100.7(11) 26_555 28_555
+O2 Na3 O2 180.000(4) 1_555 12_555
+O2 Na3 O3 86.3(6) 1_555 1_555
+O2 Na3 O3 93.7(7) 1_555 12_555
+O2 Na3 O3 86.3(6) 1_555 19_555
+O2 Na3 O3 93.7(7) 1_555 26_555
+O2 Na3 O3 93.7(7) 12_555 1_555
+O2 Na3 O3 86.3(6) 12_555 12_555
+O2 Na3 O3 93.7(7) 12_555 19_555
+O2 Na3 O3 86.3(6) 12_555 26_555
+O3 Na3 O3 76.9(11) 1_555 12_555
+O3 Na3 O3 172.5(11) 1_555 19_555
+O3 Na3 O3 103.6(5) 1_555 26_555
+O3 Na3 O3 103.6(5) 12_555 19_555
+O3 Na3 O3 172.5(11) 12_555 26_555
+O3 Na3 O3 76.9(11) 19_555 26_555
+Pu O1 Pu 92.9(7) 25_555 27_555
+Pu O1 Na1 91.2(8) 25_555 1_555
+Pu O1 Na1 175.9(12) 25_555 3_555
+Pu O1 Na2 90.0(4) 25_555 1_555
+Pu O1 Na2 90.0(4) 25_555 4_565
+Pu O1 Na1 175.9(12) 27_555 1_555
+Pu O1 Na1 91.2(8) 27_555 3_555
+Pu O1 Na2 90.0(4) 27_555 1_555
+Pu O1 Na2 90.0(4) 27_555 4_565
+Na1 O1 Na1 84.7(16) 1_555 3_555
+Na1 O1 Na2 90.0(8) 1_555 1_555
+Na1 O1 Na2 90.0(8) 1_555 4_565
+Na1 O1 Na2 90.0(8) 3_555 1_555
+Na1 O1 Na2 90.0(8) 3_555 4_565
+Na2 O1 Na2 180.000(4) 1_555 4_565
+Pu O2 Pu 180.0(2) 1_555 19_555
+Pu O2 Na1 90.9(10) 1_555 11_545
+Pu O2 Na1 89.1(5) 1_555 25_545
+Pu O2 Na3 90.00 1_555 1_555
+Pu O2 Na3 90.00(9) 1_555 7_555
+Pu O2 Na1 89.1(5) 19_555 11_545
+Pu O2 Na1 90.9(10) 19_555 25_545
+Pu O2 Na3 90.00(9) 19_555 1_555
+Pu O2 Na3 90.00(9) 19_555 7_555
+Na1 O2 Na1 180.0(14) 11_545 25_545
+Na1 O2 Na3 90.0(7) 11_545 1_555
+Na1 O2 Na3 90.0(7) 11_545 7_555
+Na1 O2 Na3 90.0(7) 25_545 1_555
+Na1 O2 Na3 90.0(7) 25_545 7_555
+Na3 O2 Na3 180.000(4) 1_555 7_555
+Pu O3 Na1 162.4(6) 1_555 1_555
+Pu O3 Na2 87.9(6) 1_555 1_555
+Pu O3 Na2 87.9(6) 1_555 3_555
+Pu O3 Na3 97.8(6) 1_555 1_555
+Pu O3 Na3 97.8(6) 1_555 8_555
+Pu O3 O3 102.7(11) 1_555 12_555
+Na1 O3 Na2 78.5(6) 1_555 1_555
+Na1 O3 Na2 78.5(6) 1_555 3_555
+Na1 O3 Na3 93.1(7) 1_555 1_555
+Na1 O3 Na3 93.1(7) 1_555 8_555
+Na1 O3 O3 95.0(12) 1_555 12_555
+Na2 O3 Na2 79.0(5) 1_555 3_555
+Na2 O3 Na3 88.54(16) 1_555 1_555
+Na2 O3 Na3 166.1(5) 1_555 8_555
+Na2 O3 O3 139.5(11) 1_555 12_555
+Na2 O3 Na3 166.1(5) 3_555 1_555
+Na2 O3 Na3 88.5(5) 3_555 8_555
+Na2 O3 O3 139.5(11) 3_555 12_555
+Na3 O3 Na3 103.1(5) 1_555 8_555
+Na3 O3 O3 51.6(8) 1_555 12_555
+Na3 O3 O3 51.6(8) 8_555 12_555
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Pu O1 2.413(19) 25_544
+Pu O1 2.413(19) 26_555
+Pu O2 2.291(3) 1_555
+Pu O2 2.291(3) 2_555
+Pu O3 2.285(16) 1_555
+Pu O3 2.285(16) 2_555
+Na1 O1 2.25(3) 1_555
+Na1 O1 2.25(3) 2_565
+Na1 O2 2.457(20) 11_555
+Na1 O2 2.457(20) 12_555
+Na1 O3 2.595(17) 1_555
+Na1 O3 2.595(17) 2_565
+Na2 O1 2.4086(2) 1_555
+Na2 O1 2.4086(2) 26_555
+Na2 O3 2.614(16) 1_555
+Na2 O3 2.614(16) 3_555
+Na2 O3 2.614(16) 26_555
+Na2 O3 2.614(16) 28_555
+Na3 O2 2.40857(4) 1_555
+Na3 O2 2.40857(4) 12_555
+Na3 O3 2.123(13) 1_555
+Na3 O3 2.123(13) 12_555
+Na3 O3 2.123(13) 19_555
+Na3 O3 2.123(13) 26_555
+O1 Pu 2.413(19) 25_555
+O1 Pu 2.413(19) 27_555
+O1 Na1 2.25(3) 1_555
+O1 Na1 2.25(3) 3_555
+O1 Na2 2.4086(2) 1_555
+O1 Na2 2.4086(2) 4_565
+O2 Pu 2.291(3) 1_555
+O2 Pu 2.291(3) 19_555
+O2 Na1 2.457(20) 11_545
+O2 Na1 2.457(20) 25_545
+O2 Na3 2.40857(4) 1_555
+O2 Na3 2.40857(4) 7_555
+O3 Pu 2.285(16) 1_555
+O3 Na1 2.595(17) 1_555
+O3 Na2 2.614(16) 1_555
+O3 Na2 2.614(16) 3_555
+O3 Na3 2.123(13) 1_555
+O3 Na3 2.123(13) 8_555
+O3 O3 2.64(3) 12_555

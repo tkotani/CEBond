@@ -1,0 +1,365 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 02:53:41 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176768 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/21/2102145.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2102145
+loop_
+_publ_author_name
+'Nespolo, Massimo'
+'Isobe, Mitsumasa'
+'Iida, Junji'
+'Kimizuka, Noboru'
+_publ_section_title
+;
+ Crystal structure and charge distribution of YbFeMnO~4~
+;
+_journal_issue                   5
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              805
+_journal_page_last               810
+_journal_paper_doi               10.1107/S0108768100005383
+_journal_volume                  56
+_journal_year                    2000
+_chemical_formula_moiety         'Yb0.963 Fe Mn O3.945'
+_chemical_formula_sum            'Fe Mn O3.945 Yb0.963'
+_chemical_formula_weight         341.49
+_chemical_name_systematic
+;
+ ?
+;
+_space_group_IT_number           166
+_symmetry_cell_setting           hexagonal
+_symmetry_space_group_name_Hall  '-R 3 2"'
+_symmetry_space_group_name_H-M   'R -3 m :H'
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                120.00
+_cell_formula_units_Z            3
+_cell_length_a                   3.45800(10)
+_cell_length_b                   3.45800(10)
+_cell_length_c                   25.647(3)
+_cell_measurement_reflns_used    18
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      45.30
+_cell_measurement_theta_min      40.98
+_cell_volume                     265.59(3)
+_computing_cell_refinement       'CAD4 EXPRESS'
+_computing_data_collection       'CAD4 EXPRESS'
+_computing_data_reduction        'XCAD4 (Harms, 1996)'
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measured_fraction_theta_full 1.000
+_diffrn_measured_fraction_theta_max 1.002
+_diffrn_measurement_device_type  'Enraf Nonius CAD4'
+_diffrn_measurement_method       omega-theta
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     .71073
+_diffrn_reflns_av_R_equivalents  .0196
+_diffrn_reflns_av_sigmaI/netI    .0136
+_diffrn_reflns_limit_h_max       7
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       4
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       61
+_diffrn_reflns_limit_l_min       -60
+_diffrn_reflns_number            655
+_diffrn_reflns_theta_full        59.84
+_diffrn_reflns_theta_max         59.84
+_diffrn_reflns_theta_min         2.38
+_diffrn_standards_decay_%        0
+_diffrn_standards_interval_time  240
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    32.637
+_exptl_absorpt_correction_T_max  .16614
+_exptl_absorpt_correction_T_min  .08584
+_exptl_absorpt_correction_type   sphere
+_exptl_absorpt_process_details   Platon
+_exptl_crystal_colour            black
+_exptl_crystal_density_diffrn    6.405
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       sphere
+_exptl_crystal_F_000             451
+_exptl_crystal_size_max          .055
+_exptl_crystal_size_mid          .055
+_exptl_crystal_size_min          .055
+_exptl_crystal_size_rad          .055
+_refine_diff_density_max         2.550
+_refine_diff_density_min         -4.880
+_refine_ls_extinction_coef       .0290(11)
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_ref   1.184
+_refine_ls_hydrogen_treatment    mixed
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     14
+_refine_ls_number_reflns         577
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.184
+_refine_ls_R_factor_all          .0216
+_refine_ls_R_factor_gt           .0175
+_refine_ls_shift/su_max          .001
+_refine_ls_shift/su_mean         .000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0192P)^2^+1.2133P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_ref         .0437
+_reflns_number_gt                528
+_reflns_number_total             577
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            na0104.cif
+_cod_data_source_block           I
+_cod_original_sg_symbol_H-M      R-3m
+_cod_database_code               2102145
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-y, x-y, z'
+'-x+y, -x, z'
+'y, x, -z'
+'x-y, -y, -z'
+'-x, -x+y, -z'
+'x+2/3, y+1/3, z+1/3'
+'-y+2/3, x-y+1/3, z+1/3'
+'-x+y+2/3, -x+1/3, z+1/3'
+'y+2/3, x+1/3, -z+1/3'
+'x-y+2/3, -y+1/3, -z+1/3'
+'-x+2/3, -x+y+1/3, -z+1/3'
+'x+1/3, y+2/3, z+2/3'
+'-y+1/3, x-y+2/3, z+2/3'
+'-x+y+1/3, -x+2/3, z+2/3'
+'y+1/3, x+2/3, -z+2/3'
+'x-y+1/3, -y+2/3, -z+2/3'
+'-x+1/3, -x+y+2/3, -z+2/3'
+'-x, -y, -z'
+'y, -x+y, -z'
+'x-y, x, -z'
+'-y, -x, z'
+'-x+y, y, z'
+'x, x-y, z'
+'-x+2/3, -y+1/3, -z+1/3'
+'y+2/3, -x+y+1/3, -z+1/3'
+'x-y+2/3, x+1/3, -z+1/3'
+'-y+2/3, -x+1/3, z+1/3'
+'-x+y+2/3, y+1/3, z+1/3'
+'x+2/3, x-y+1/3, z+1/3'
+'-x+1/3, -y+2/3, -z+2/3'
+'y+1/3, -x+y+2/3, -z+2/3'
+'x-y+1/3, x+2/3, -z+2/3'
+'-y+1/3, -x+2/3, z+2/3'
+'-x+y+1/3, y+2/3, z+2/3'
+'x+1/3, x-y+2/3, z+2/3'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+_atom_site_type_symbol
+Yb .0000 .0000 .0000 .01184(5) Uani d SP .963(3) Yb
+Fe .0000 .0000 .215706(14) .00728(7) Uani d SP .50 Fe
+Mn .0000 .0000 .215706(14) .00728(7) Uani d SP .50 Mn
+O1 .0000 .0000 .12826(13) .0208(5) Uani d SP .97 O
+O2 .0000 .0000 .29345(8) .0098(2) Uani d S 1 O
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Yb .00345(4) .00345(4) .02863(11) .00172(2) .000 .000
+Fe .00660(8) .00660(8) .00865(12) .00330(4) .000 .000
+Mn .00660(8) .00660(8) .00865(12) .00330(4) .000 .000
+O1 .0217(8) .0217(8) .0192(10) .0108(4) .000 .000
+O2 .0095(3) .0095(3) .0106(5) .00474(17) .000 .000
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Yb Yb -.3850 5.5486 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Fe Fe .3463 .8444 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Mn Mn .3368 .7283 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O .0106 .0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+O2 Yb O2 25 13_444 180.00(10)
+O2 Yb O2 25 25_445 100.84(6)
+O2 Yb O2 13_444 25_445 79.16(6)
+O2 Yb O2 25 13_554 79.16(6)
+O2 Yb O2 13_444 13_554 100.84(6)
+O2 Yb O2 25_445 13_554 180.00(10)
+O2 Yb O2 25 25_455 100.84(6)
+O2 Yb O2 13_444 25_455 79.16(6)
+O2 Yb O2 25_445 25_455 100.84(6)
+O2 Yb O2 13_554 25_455 79.16(6)
+O2 Yb O2 25 13_544 79.16(6)
+O2 Yb O2 13_444 13_544 100.84(6)
+O2 Yb O2 25_445 13_544 79.16(6)
+O2 Yb O2 13_554 13_544 100.84(6)
+O2 Yb O2 25_455 13_544 180.00(10)
+O2 Yb Yb 25 1_445 140.42(3)
+O2 Yb Yb 13_444 1_445 39.58(3)
+O2 Yb Yb 25_445 1_445 39.58(3)
+O2 Yb Yb 13_554 1_445 140.42(3)
+O2 Yb Yb 25_455 1_445 90.0
+O2 Yb Yb 13_544 1_445 90.0
+O2 Yb Yb 25 1_665 39.58(3)
+O2 Yb Yb 13_444 1_665 140.42(3)
+O2 Yb Yb 25_445 1_665 140.42(3)
+O2 Yb Yb 13_554 1_665 39.58(3)
+O2 Yb Yb 25_455 1_665 90.0
+O2 Yb Yb 13_544 1_665 90.0
+Yb Yb Yb 1_445 1_665 180.0
+O2 Yb Yb 25 1_565 90.0
+O2 Yb Yb 13_444 1_565 90.0
+O2 Yb Yb 25_445 1_565 140.42(3)
+O2 Yb Yb 13_554 1_565 39.58(3)
+O2 Yb Yb 25_455 1_565 39.58(3)
+O2 Yb Yb 13_544 1_565 140.42(3)
+Yb Yb Yb 1_445 1_565 120.0
+Yb Yb Yb 1_665 1_565 60.0
+O2 Yb Yb 25 1_455 140.42(3)
+O2 Yb Yb 13_444 1_455 39.58(3)
+O2 Yb Yb 25_445 1_455 90.0
+O2 Yb Yb 13_554 1_455 90.0
+O2 Yb Yb 25_455 1_455 39.58(3)
+O2 Yb Yb 13_544 1_455 140.42(3)
+Yb Yb Yb 1_445 1_455 60.0
+Yb Yb Yb 1_665 1_455 120.0
+Yb Yb Yb 1_565 1_455 60.0
+O2 Yb Yb 25 1_655 39.58(3)
+O2 Yb Yb 13_444 1_655 140.42(3)
+O2 Yb Yb 25_445 1_655 90.0
+O2 Yb Yb 13_554 1_655 90.0
+O2 Yb Yb 25_455 1_655 140.42(3)
+O2 Yb Yb 13_544 1_655 39.58(3)
+Yb Yb Yb 1_445 1_655 120.0
+Yb Yb Yb 1_665 1_655 60.0
+Yb Yb Yb 1_565 1_655 120.0
+Yb Yb Yb 1_455 1_655 180.0
+O2 Yb Yb 25 1_545 90.0
+O2 Yb Yb 13_444 1_545 90.0
+O2 Yb Yb 25_445 1_545 39.58(3)
+O2 Yb Yb 13_554 1_545 140.42(3)
+O2 Yb Yb 25_455 1_545 140.42(3)
+O2 Yb Yb 13_544 1_545 39.58(3)
+Yb Yb Yb 1_445 1_545 60.0
+Yb Yb Yb 1_665 1_545 120.0
+Yb Yb Yb 1_565 1_545 180.0
+Yb Yb Yb 1_455 1_545 120.0
+Yb Yb Yb 1_655 1_545 60.0
+O2 Fe O1 . 25_445 97.77(9)
+O2 Fe O1 . 25 97.77(9)
+O1 Fe O1 25_445 25 118.20(4)
+O2 Fe O1 . 25_455 97.77(9)
+O1 Fe O1 25_445 25_455 118.20(4)
+O1 Fe O1 25 25_455 118.20(4)
+O2 Fe O1 . . 180.0
+O1 Fe O1 25_445 . 82.23(9)
+O1 Fe O1 25 . 82.23(9)
+O1 Fe O1 25_455 . 82.23(9)
+O2 Fe Yb . 7 33.496(5)
+O1 Fe Yb 25_445 7 112.72(8)
+O1 Fe Yb 25 7 64.28(9)
+O1 Fe Yb 25_455 7 112.72(8)
+O1 Fe Yb . 7 146.504(4)
+O2 Fe Yb . 7_445 33.496(4)
+O1 Fe Yb 25_445 7_445 64.28(9)
+O1 Fe Yb 25 7_445 112.72(8)
+O1 Fe Yb 25_455 7_445 112.72(8)
+O1 Fe Yb . 7_445 146.504(4)
+Yb Fe Yb 7 7_445 57.102(7)
+O2 Fe Yb . 7_455 33.496(4)
+O1 Fe Yb 25_445 7_455 112.72(8)
+O1 Fe Yb 25 7_455 112.72(8)
+O1 Fe Yb 25_455 7_455 64.28(9)
+O1 Fe Yb . 7_455 146.504(4)
+Yb Fe Yb 7 7_455 57.102(7)
+Yb Fe Yb 7_445 7_455 57.102(7)
+Mn O1 Fe 25_445 25_445 .00(2)
+Mn O1 Mn 25_445 25 118.20(4)
+Fe O1 Mn 25_445 25 118.20(4)
+Mn O1 Fe 25_445 25 118.20(4)
+Fe O1 Fe 25_445 25 118.20(4)
+Mn O1 Fe 25 25 .00(2)
+Mn O1 Mn 25_445 25_455 118.20(4)
+Fe O1 Mn 25_445 25_455 118.20(4)
+Mn O1 Mn 25 25_455 118.20(4)
+Fe O1 Mn 25 25_455 118.20(4)
+Mn O1 Fe 25_445 25_455 118.20(4)
+Fe O1 Fe 25_445 25_455 118.20(4)
+Mn O1 Fe 25 25_455 118.20(4)
+Fe O1 Fe 25 25_455 118.20(4)
+Mn O1 Fe 25_455 25_455 .00(2)
+Mn O1 Fe 25_445 . 97.77(9)
+Fe O1 Fe 25_445 . 97.77(9)
+Mn O1 Fe 25 . 97.77(9)
+Fe O1 Fe 25 . 97.77(9)
+Mn O1 Fe 25_455 . 97.77(9)
+Fe O1 Fe 25_455 . 97.77(9)
+Fe O2 Yb . 7 117.13(5)
+Fe O2 Yb . 7_445 117.13(5)
+Yb O2 Yb 7 7_445 100.84(6)
+Fe O2 Yb . 7_455 117.13(5)
+Yb O2 Yb 7 7_455 100.84(6)
+Yb O2 Yb 7_445 7_455 100.84(6)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+Yb O2 25 2.2432(10)
+Yb O2 13_444 2.2432(10)
+Yb O2 25_445 2.2432(10)
+Yb O2 13_554 2.2432(10)
+Yb O2 25_455 2.2433(10)
+Yb O2 13_544 2.2433(10)
+Yb Yb 1_445 3.4580
+Yb Yb 1_665 3.4580
+Yb Yb 1_565 3.4580
+Yb Yb 1_455 3.4580
+Yb Yb 1_655 3.4580
+Yb Yb 1_545 3.4580
+Fe O2 . 1.994(2)
+Fe O1 25_445 2.0150(4)
+Fe O1 25 2.0150(5)
+Fe O1 25_455 2.0150(5)
+Fe O1 . 2.243(3)
+Fe Yb 7 3.6176(4)
+Fe Yb 7_445 3.6176(4)
+Fe Yb 7_455 3.6176(4)
+O1 Mn 25_445 2.0150(5)
+O1 Fe 25_445 2.0150(5)
+O1 Mn 25 2.0150(5)
+O1 Fe 25 2.0150(5)
+O1 Mn 25_455 2.0150(5)
+O1 Fe 25_455 2.0150(5)
+O2 Yb 7 2.2432(10)
+O2 Yb 7_445 2.2432(10)
+O2 Yb 7_455 2.2433(10)

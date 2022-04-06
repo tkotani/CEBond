@@ -1,0 +1,282 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 05:06:23 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176774 $
+#$URL: svn://www.crystallography.net/cod/cif/2/20/64/2206495.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2206495
+loop_
+_publ_author_name
+'Stefan T. Norberg'
+'Nobuo Ishizawa'
+'Stefan Hoffmann'
+'Masahiro Yoshimura'
+_publ_section_title
+;
+ Redetermination of \b-Al~2~TiO~5~ obtained by melt casting
+;
+_journal_coeditor_code           MG6041
+_journal_issue                   8
+_journal_name_full               'Acta Crystallographica Section E'
+_journal_page_first              i160
+_journal_page_last               i162
+_journal_paper_doi               10.1107/S1600536805021331
+_journal_volume                  61
+_journal_year                    2005
+_chemical_formula_iupac          'Al2 Ti O5'
+_chemical_formula_moiety         'Al2 O5 Ti'
+_chemical_formula_structural     'Al2 O5 Ti'
+_chemical_formula_sum            'Al2 O5 Ti'
+_chemical_formula_weight         181.84
+_space_group_IT_number           63
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-C 2c 2'
+_symmetry_space_group_name_H-M   'C m c m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   3.605(2)
+_cell_length_b                   9.445(4)
+_cell_length_c                   9.653(4)
+_cell_measurement_reflns_used    8632
+_cell_measurement_temperature    297.0(10)
+_cell_measurement_theta_max      30.53
+_cell_measurement_theta_min      3.02
+_cell_volume                     328.7(3)
+_computing_cell_refinement       RAPID-AUTO
+_computing_data_collection       'RAPID-AUTO (Rigaku, 2003)'
+_computing_data_reduction
+;
+RAPID-AUTO (Rigaku 2003), and DIFDAT, SORTRF and ADDREF in Xtal3.7 (Hall
+<i>et al.</i>, 2000)
+;
+_computing_molecular_graphics
+'DIAMOND (Brandenburg, 2001), and FOURR, SLANT and CONTRS in Xtal3.7'
+_computing_publication_material  'BONDLA, ATABLE and CIFIO in Xtal3.7'
+_computing_structure_refinement  'CRYLSQ in Xtal3.7'
+_computing_structure_solution
+'atomic positions from Morosin & Lynch (1972)'
+_diffrn_ambient_temperature      297.0(10)
+_diffrn_measured_fraction_theta_full 1.00
+_diffrn_measured_fraction_theta_max 1.00
+_diffrn_measurement_device_type  'Rigaku R-AXIS RAPID'
+_diffrn_measurement_method       \w
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'normal-focus sealed tube'
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.025
+_diffrn_reflns_av_sigmaI/netI    0.02
+_diffrn_reflns_limit_h_max       5
+_diffrn_reflns_limit_h_min       -5
+_diffrn_reflns_limit_k_max       13
+_diffrn_reflns_limit_k_min       -13
+_diffrn_reflns_limit_l_max       13
+_diffrn_reflns_limit_l_min       -13
+_diffrn_reflns_number            1774
+_diffrn_reflns_theta_full        30.47
+_diffrn_reflns_theta_max         30.47
+_diffrn_reflns_theta_min         4.22
+_diffrn_standards_decay_%        0
+_diffrn_standards_interval_count 0
+_diffrn_standards_interval_time  0
+_diffrn_standards_number         0
+_exptl_absorpt_coefficient_mu    3.019
+_exptl_absorpt_correction_T_max  0.880
+_exptl_absorpt_correction_T_min  0.827
+_exptl_absorpt_correction_type   gaussian
+_exptl_absorpt_process_details   '(RAPID-AUTO; Rigaku, 2003)'
+_exptl_crystal_colour            blue
+_exptl_crystal_density_diffrn    3.675
+_exptl_crystal_description       block
+_exptl_crystal_F_000             352
+_exptl_crystal_size_max          0.088
+_exptl_crystal_size_mid          0.073
+_exptl_crystal_size_min          0.055
+_refine_diff_density_max         0.91
+_refine_diff_density_min         -0.73
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_all   1.093
+_refine_ls_goodness_of_fit_ref   1.112
+_refine_ls_matrix_type           full
+_refine_ls_number_constraints    21
+_refine_ls_number_parameters     28
+_refine_ls_number_reflns         288
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          0.030
+_refine_ls_R_factor_gt           0.028
+_refine_ls_shift/su_max          0.00019
+_refine_ls_shift/su_mean         0.000015
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 1/[\s^2^(F) + 0.015(F)]'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         0.029
+_refine_ls_wR_factor_gt          0.028
+_refine_ls_wR_factor_ref         0.028
+_reflns_number_gt                288
+_reflns_number_total             304
+_reflns_threshold_expression     F>2\s(F)
+_cod_data_source_file            mg6041.cif
+_cod_data_source_block           I
+_cod_database_code               2206495
+loop_
+_symmetry_equiv_pos_as_xyz
++x,+y,+z
+-x,-y,1/2+z
++x,-y,-z
+-x,+y,1/2-z
+-x,-y,-z
++x,+y,1/2-z
+-x,+y,+z
++x,-y,1/2+z
+1/2+x,1/2+y,+z
+1/2-x,1/2-y,1/2+z
+1/2+x,1/2-y,-z
+1/2-x,1/2+y,1/2-z
+1/2-x,1/2-y,-z
+1/2+x,1/2+y,1/2-z
+1/2-x,1/2+y,+z
+1/2+x,1/2-y,1/2+z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+Ti1 0 0.18547(10) 0.25000 0.0073(4) Uani 0.374(7)
+Al1 0 0.18547(10) 0.25000 0.0073(4) Uani 0.626(7)
+Ti2 0 0.13551(7) 0.56186(7) 0.0089(3) Uani 0.313(3)
+Al2 0 0.13551(7) 0.56186(7) 0.0089(3) Uani 0.687(3)
+O1 0 0.7572(3) 0.25000 0.0084(12) Uani 1
+O2 0 0.0485(2) 0.1165(2) 0.0089(9) Uani 1
+O3 0 0.3125(2) 0.0724(2) 0.0091(9) Uani 1
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Ti1 0.0064(5) 0.0088(5) 0.0069(4) 0 0 0
+Al1 0.0064(5) 0.0088(5) 0.0069(4) 0 0 0
+Ti2 0.0062(3) 0.0102(4) 0.0102(3) 0 0 -0.0001(2)
+Al2 0.0062(3) 0.0102(4) 0.0102(3) 0 0 -0.0001(2)
+O1 0.0069(12) 0.0101(12) 0.0082(12) 0 0 0
+O2 0.0120(10) 0.0068(8) 0.0080(9) 0 0 -0.0013(7)
+O3 0.0059(8) 0.0082(8) 0.0134(10) 0 0 0.0020(7)
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Al 0.056 0.052 'IT Vol C. Table 6.1.1.4  Table 6.1.1.5'
+Ti 0.248 0.446 'IT Vol C. Table 6.1.1.4  Table 6.1.1.5'
+O 0.008 0.006 'IT Vol C. Table 6.1.1.4  Table 6.1.1.5'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+O2 Ti1 O3 . . 80.09(9)
+O2 Ti1 O2 . 4 89.80(10)
+O2 Ti1 O3 . 4 169.89(9)
+O2 Ti1 O1 . '9 445' 104.42(6)
+O2 Ti1 O1 . '9 545' 104.42(6)
+O3 Ti1 O2 . 4 169.89(9)
+O3 Ti1 O3 . 4 110.03(9)
+O3 Ti1 O1 . '9 445' 78.37(5)
+O3 Ti1 O1 . '9 545' 78.37(5)
+O2 Ti1 O3 4 4 80.09(9)
+O2 Ti1 O1 4 '9 445' 104.42(6)
+O2 Ti1 O1 4 '9 545' 104.42(6)
+O3 Ti1 O1 4 '9 445' 78.37(5)
+O3 Ti1 O1 4 '9 545' 78.37(5)
+O1 Ti1 O1 '9 445' '9 545' 138.82(13)
+O2 Al1 O3 . . 80.09(9)
+O2 Al1 O2 . 4 89.80(10)
+O2 Al1 O3 . 4 169.89(9)
+O2 Al1 O1 . '9 445' 104.42(6)
+O2 Al1 O1 . '9 545' 104.42(6)
+O3 Al1 O2 . 4 169.89(9)
+O3 Al1 O3 . 4 110.03(9)
+O3 Al1 O1 . '9 445' 78.37(5)
+O3 Al1 O1 . '9 545' 78.37(5)
+O2 Al1 O3 4 4 80.09(9)
+O2 Al1 O1 4 '9 445' 104.42(6)
+O2 Al1 O1 4 '9 545' 104.42(6)
+O3 Al1 O1 4 '9 445' 78.37(5)
+O3 Al1 O1 4 '9 545' 78.37(5)
+O1 Al1 O1 '9 445' '9 545' 138.82(13)
+O2 Ti2 O1 2 '2 565' 102.30(10)
+O2 Ti2 O2 2 4 81.35(9)
+O2 Ti2 O3 2 4 159.08(9)
+O2 Ti2 O3 2 '10 455' 103.61(6)
+O2 Ti2 O3 2 10 103.61(6)
+O1 Ti2 O2 '2 565' 4 176.35(10)
+O1 Ti2 O3 '2 565' 4 98.62(10)
+O1 Ti2 O3 '2 565' '10 455' 79.90(6)
+O1 Ti2 O3 '2 565' 10 79.90(6)
+O2 Ti2 O3 4 4 77.73(9)
+O2 Ti2 O3 4 '10 455' 99.33(7)
+O2 Ti2 O3 4 10 99.33(7)
+O3 Ti2 O3 4 '10 455' 79.98(6)
+O3 Ti2 O3 4 10 79.98(6)
+O3 Ti2 O3 '10 455' 10 148.91(9)
+O2 Al2 O1 2 '2 565' 102.30(10)
+O2 Al2 O2 2 4 81.35(9)
+O2 Al2 O3 2 4 159.08(9)
+O2 Al2 O3 2 '10 455' 103.61(6)
+O2 Al2 O3 2 10 103.61(6)
+O1 Al2 O2 '2 565' 4 176.35(10)
+O1 Al2 O3 '2 565' 4 98.62(10)
+O1 Al2 O3 '2 565' '10 455' 79.90(6)
+O1 Al2 O3 '2 565' 10 79.90(6)
+O2 Al2 O3 4 4 77.73(9)
+O2 Al2 O3 4 '10 455' 99.33(7)
+O2 Al2 O3 4 10 99.33(7)
+O3 Al2 O3 4 '10 455' 79.98(6)
+O3 Al2 O3 4 10 79.98(6)
+O3 Al2 O3 '10 455' 10 148.91(9)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+Ti1 O2 . 1.826(2)
+Ti1 O2 4 1.826(2)
+Ti1 O1 '9 445' 1.9253(14)
+Ti1 O1 '9 545' 1.9253(14)
+Ti1 O3 . 2.093(2)
+Ti1 O3 4 2.093(2)
+Al1 O2 . 1.826(2)
+Al1 O2 4 1.826(2)
+Al1 O1 '9 445' 1.9253(14)
+Al1 O1 '9 545' 1.9253(14)
+Al1 O3 . 2.093(2)
+Al1 O3 4 2.093(2)
+Ti2 O2 2 1.816(2)
+Ti2 O3 10 1.8708(11)
+Ti2 O3 '10 455' 1.8708(11)
+Ti2 O2 4 1.907(2)
+Ti2 O1 '2 565' 2.0799(17)
+Ti2 O3 4 2.115(2)
+Al2 O2 2 1.816(2)
+Al2 O3 10 1.8708(11)
+Al2 O3 '10 455' 1.8708(11)
+Al2 O2 4 1.907(2)
+Al2 O1 '2 565' 2.0799(17)
+Al2 O3 4 2.115(2)

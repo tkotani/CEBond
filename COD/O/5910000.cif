@@ -1,0 +1,81 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-11-19 04:57:24 +0200 (Sun, 19 Nov 2017) $
+#$Revision: 203331 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/5/91/00/5910000.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_5910000
+loop_
+_publ_author_name
+'Wyckoff, R. W. G.'
+_publ_section_title
+;
+Pages 55 & 61 from the second edition supplement of The Structure
+of Crystals by Wyckoff R W G. published by Reinhold Publishing
+Corporation, INC,Camden,N. J. in 1935
+;
+_journal_name_full
+'The second edition supplement of The Structure of Crystals'
+_journal_page_first              55
+_journal_page_last               61
+_journal_year                    1935
+_chemical_formula_structural     MgTiO3
+_chemical_formula_sum            'Mg O3 Ti'
+_chemical_name_systematic        'Magnesium titanate'
+_space_group_crystal_system      trigonal
+_space_group_IT_number           148
+_space_group_name_Hall           '-P 3*'
+_space_group_name_H-M_alt        'R -3 :R'
+_audit_creation_date             2005-06-11
+_audit_creation_method
+;
+Pages 55 & 61 from the second edition supplement of The Structure
+of Crystals by Wyckoff R W G. published by Reinhold Publishing
+Corporation, INC,Camden,N. J. in 1935
+;
+_audit_update_record
+'created by Girish Upreti, Portland State University'
+_cell_angle_alpha                54.65
+_cell_angle_beta                 54.65
+_cell_angle_gamma                54.65
+_cell_length_a                   5.54
+_cell_length_b                   5.54
+_cell_length_c                   5.54
+_cell_volume                     104.499
+_cod_depositor_comments
+;
+ Adding the symmetry operation list, removing symmetrically equivalent atoms,
+ correcting the values of _cell_angle_alpha, _cell_angle_beta and
+ _cell_angle_gamma data items by changing them from '54.39' to '54.65' after
+ consulting the original publication.
+
+ Antanas Vaitkus,
+ 2017-11-19
+;
+_cod_original_sg_symbol_H-M      'R -3'
+_cod_original_formula_sum        'Mg Ti O3'
+_cod_database_code               5910000
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 z,x,y
+3 y,z,x
+4 -x,-y,-z
+5 -z,-x,-y
+6 -y,-z,-x
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Mg Mg 0.35800 0.35800 0.35800
+Ti Ti 0.14200 0.14200 0.14200
+O O 0.55500 -0.05500 0.25000

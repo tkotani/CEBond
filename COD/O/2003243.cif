@@ -1,0 +1,318 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-19 16:29:56 +0200 (Fri, 19 Feb 2016) $
+#$Revision: 176759 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/32/2003243.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2003243
+loop_
+_publ_author_name
+'Guo, G.-C.'
+'Cheng, W.-D.'
+'Chen, J.-T.'
+'Huang, J.-S.'
+'Zhang, Q.-E.'
+_publ_section_title
+;
+ Triclinic Mg~2~B~2~O~5~
+;
+_journal_issue                   3
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              351
+_journal_page_last               353
+_journal_paper_doi               10.1107/S0108270194009303
+_journal_volume                  51
+_journal_year                    1995
+_chemical_formula_sum            'B2 Mg2 O5'
+_chemical_formula_weight         150.23
+_space_group_IT_number           2
+_symmetry_cell_setting           triclinic
+_symmetry_space_group_name_Hall  '-P 1'
+_symmetry_space_group_name_H-M   'P -1'
+_atom_type_scat_source           'Cromer & Waber (1974)'
+_cell_angle_alpha                90.29(5)
+_cell_angle_beta                 92.23(4)
+_cell_angle_gamma                104.30(5)
+_cell_formula_units_Z            2
+_cell_length_a                   6.149(3)
+_cell_length_b                   9.221(8)
+_cell_length_c                   3.121(1)
+_cell_measurement_reflns_used    20
+_cell_measurement_temperature    296
+_cell_measurement_theta_max      25
+_cell_measurement_theta_min      10
+_cell_volume                     171.33(18)
+_diffrn_measurement_device       'Rigaku AFC5R'
+_diffrn_measurement_method       \w-2\q
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71069
+_diffrn_reflns_av_R_equivalents  0.043
+_diffrn_reflns_limit_h_max       11
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       17
+_diffrn_reflns_limit_k_min       -17
+_diffrn_reflns_limit_l_max       6
+_diffrn_reflns_limit_l_min       -6
+_diffrn_reflns_number            2276
+_diffrn_reflns_theta_max         40
+_diffrn_standards_decay_%        -1.0
+_diffrn_standards_interval_count 250
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    0.567
+_exptl_absorpt_correction_T_max  1.00
+_exptl_absorpt_correction_T_min  0.711
+_exptl_absorpt_correction_type   empirical
+_exptl_crystal_colour            White
+_exptl_crystal_density_diffrn    2.91
+_exptl_crystal_description       Rectangular
+_exptl_crystal_size_max          0.3
+_exptl_crystal_size_mid          0.1
+_exptl_crystal_size_min          0.1
+_refine_diff_density_max         0.37
+_refine_diff_density_min         -0.52
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_obs   1.55
+_refine_ls_number_parameters     82
+_refine_ls_number_reflns         1944
+_refine_ls_R_factor_obs          0.030
+_refine_ls_shift/esd_max         0.0008
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     w=1/\s^2^(F)
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.047
+_reflns_number_observed          1944
+_reflns_number_total             2133
+_reflns_observed_criterion       I>3\s(I)
+_cod_data_source_file            br1079.cif
+_cod_data_source_block           br1079_structure_1_of_1
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'w=1/\s^2^(F)' was changed to
+'calc'. New tag '_refine_ls_weighting_details' was created. The value
+of the new tag was set to 'w=1/\s^2^(F)'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        171.4(2)
+_cod_database_code               2003243
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_B_iso_or_equiv
+Mg(1) .62787(5) .39744(3) .26628(8) .434(8)
+Mg(2) .78956(5) .14432(3) -.23131(9) .488(8)
+O(1) .90678(9) .31943(6) .2782(2) .54(1)
+O(2) .30443(9) .44687(6) .2347(2) .46(1)
+O(3) 1.13818(9) .19985(6) -.0619(2) .60(1)
+O(4) .7247(1) .00497(6) -.7297(2) .57(1)
+O(5) .52277(9) .24165(6) -.2424(2) .48(1)
+B(1) 1.1204(1) .33098(8) .1655(2) .43(2)
+B(2) .6818(1) -.14330(8) -.8007(2) .44(2)
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O(1) Mg(1) O(2) . 2_666 102.36(5) yes
+O(1) Mg(1) O(2) . 2_665 101.01(5) yes
+O(1) Mg(1) O(2) . . 171.54(3) yes
+O(1) Mg(1) O(5) . . 83.78(5) yes
+O(1) Mg(1) O(5) . 1_556 84.89(5) yes
+O(2) Mg(1) O(2) . 2_665 83.37(5) yes
+O(2) Mg(1) O(2) 2_665 2_666 96.51(6) yes
+O(2) Mg(1) O(2) . 2_666 84.18(5) yes
+O(2) Mg(1) O(5) 2_665 1_556 173.74(3) yes
+O(2) Mg(1) O(5) 2_666 . 173.75(4) yes
+O(2) Mg(1) O(5) 2_666 1_556 84.13(6) yes
+O(5) Mg(1) O(2) 1_556 . 90.52(5) yes
+O(5) Mg(1) O(2) . 2_665 83.36(6) yes
+O(5) Mg(1) O(2) . . 89.60(5) yes
+O(5) Mg(1) O(5) . 1_556 95.33(6) yes
+O(1) B(1) O(2) . 1_655 128.86(8) yes
+O(1) B(1) O(3) . . 110.94(8) yes
+O(2) B(1) O(3) 1_655 . 120.19(8) yes
+O(1) Mg(2) O(1) 1_554 . 88.67(6) yes
+O(3) Mg(2) O(1) . . 63.49(5) yes
+O(3) Mg(2) O(1) . 1_554 81.16(5) yes
+O(4) Mg(2) O(1) 1_556 . 83.70(6) yes
+O(4) Mg(2) O(1) 1_556 1_554 170.94(3) yes
+O(4) Mg(2) O(1) . . 171.49(3) yes
+O(4) Mg(2) O(1) . 1_554 84.43(6) yes
+O(4) Mg(2) O(3) . . 110.35(5) yes
+O(4) Mg(2) O(3) 1_556 . 91.03(5) yes
+O(4) Mg(2) O(4) 1_556 . 102.71(6) yes
+O(4) Mg(2) O(5) . . 103.83(5) yes
+O(4) Mg(2) O(5) 1_556 . 102.44(5) yes
+O(5) Mg(2) O(1) . . 79.92(5) yes
+O(5) Mg(2) O(1) . 1_554 80.93(5) yes
+O(5) Mg(2) O(3) . . 139.36(5) yes
+O(4) B(2) O(5) . 2_654 124.82(8) yes
+O(4) B(2) O(3) . 2_754 116.82(8) yes
+O(5) B(2) O(3) 2_654 2_754 118.35(8) yes
+O(1) Mg(1) Mg(1) . . 90.73(4) no
+O(1) Mg(1) Mg(1) . . 89.27(4) no
+O(1) Mg(1) Mg(1) . . 145.06(3) no
+O(1) Mg(1) Mg(2) . . 44.88(4) no
+O(1) Mg(1) Mg(2) . . 44.20(4) no
+O(1) Mg(1) Mg(1) . . 142.61(4) no
+O(2) Mg(1) Mg(1) . . 42.23(4) no
+O(2) Mg(1) Mg(1) . . 137.77(4) no
+O(2) Mg(1) Mg(1) . . 43.00(4) no
+O(2) Mg(1) Mg(2) . . 96.02(6) no
+O(2) Mg(1) Mg(2) . . 146.34(3) no
+O(2) Mg(1) Mg(1) . . 90.40(6) no
+O(5) Mg(1) Mg(1) . . 137.57(4) no
+O(5) mg(1) Mg(1) . . 42.43(4) no
+O(5) Mg(1) Mg(1) . . 130.77(4) no
+O(5) Mg(1) Mg(2) . . 87.46(6) no
+O(5) Mg(1) Mg(2) . . 39.68(4) no
+O(5) Mg(1) Mg(1) . . 85.32(6) no
+O(2) Mg(1) O(5) . . 173.74(3) no
+O(2) Mg(1) O(2) . . 83.37(5) no
+O(2) Mg(1) Mg(1) . . 138.74(4) no
+O(2) Mg(1) Mg(1) . . 41.26(4) no
+O(2) Mg(1) Mg(1) . . 89.76(5) no
+O(2) Mg(1) Mg(2) . . 145.59(3) no
+O(2) Mg(1) Mg(2) . . 94.64(6) no
+O(2) Mg(1) Mg(1) . . 42.10(4) no
+O(5) Mg(1) O(2) . . 90.52(5) no
+O(5) Mg(1) Mg(1) . . 42.24(4) no
+O(5) Mg(1) Mg(1) . . 137.76(4) no
+O(5) Mg(1) Mg(1) . . 86.47(6) no
+O(5) Mg(1) Mg(2) . . 40.11(4) no
+O(5) Mg(1) Mg(2) . . 88.15(6) no
+O(5) Mg(1) Mg(1) . . 131.77(4) no
+O(2) Mg(1) Mg(1) . . 90.62(4) no
+O(2) Mg(1) Mg(1) . . 89.38(4) no
+O(2) Mg(1) Mg(1) . . 41.18(3) no
+O(2) Mg(1) Mg(2) . . 129.78(4) no
+O(2) Mg(1) Mg(2) . . 128.70(4) no
+O(2) Mg(1) Mg(1) . . 41.27(3) no
+Mg(1) Mg(1) Mg(1) . . 180.00 no
+Mg(1) Mg(1) Mg(1) . . 61.14(4) no
+Mg(1) Mg(1) Mg(2) . . 60.77(4) no
+Mg(1) Mg(1) Mg(2) . . 119.85(4) no
+Mg(1) Mg(1) Mg(1) . . 120.43(4) no
+Mg(1) Mg(1) Mg(1) . . 118.86(4) no
+Mg(1) Mg(1) Mg(2) . . 119.23(4) no
+Mg(1) Mg(1) Mg(2) . . 60.15(4) no
+Mg(1) Mg(1) Mg(1) . . 59.57(4) no
+Mg(1) Mg(1) Mg(2) . . 120.54(4) no
+Mg(1) Mg(1) Mg(2) . . 168.40(2) no
+Mg(1) Mg(1) Mg(1) . . 59.29(4) no
+Mg(2) Mg(1) Mg(2) . . 59.09(4) no
+Mg(2) Mg(2) Mg(1) . . 168.43(3) no
+Mg(2) Mg(1) Mg(1) . . 118.41(4) no
+O(4) Mg(2) B(1) . . 140.94(4) no
+O(4) Mg(2) Mg(2) . . 140.87(4) no
+O(4) Mg(2) Mg(2) . . 39.13(4) no
+O(4) Mg(2) Mg(1) . . 92.99(6) no
+O(4) Mg(2) Mg(1) . . 144.55(3) no
+O(4) Mg(2) B(1) . . 94.16(6) no
+O(4) Mg(2) Mg(2) . . 38.16(4) no
+O(4) Mg(2) Mg(2) . . 141.84(4) no
+O(4) Mg(2) Mg(1) . . 143.72(4) no
+O(4) Mg(2) Mg(1) . . 91.61(6) no
+O(5) Mg(2) B(1) . . 106.54(6) no
+O(5) Mg(2) Mg(2) . . 89.31(4) no
+O(5) Mg(2) Mg(2) . . 90.69(4) no
+O(5) Mg(2) Mg(1) . . 41.54(4) no
+O(5) Mg(2) Mg(1) . . 40.91(4) no
+O(3) Mg(2) B(1) . . 33.52(4) no
+O(3) Mg(2) Mg(2) . . 77.96(4) no
+O(3) Mg(2) Mg(2) . . 102.04(4) no
+O(3) Mg(2) Mg(1) . . 114.02(5) no
+O(3) Mg(2) Mg(1) . . 101.51(5) no
+O(1) Mg(2) B(1) . . 31.52(3) no
+O(1) Mg(2) Mg(2) . . 45.78(4) no
+O(1) Mg(2) Mg(2) . . 134.22(4) no
+O(1) Mg(2) Mg(1) . . 84.79(6) no
+O(1) Mg(2) Mg(1) . . 39.10(4) no
+O(1) Mg(2) B(1) . . 76.79(6) no
+O(1) Mg(2) Mg(2) . . 134.45(4) no
+O(1) Mg(2) Mg(2) . . 45.55(4) no
+O(1) Mg(2) Mg(1) . . 39.48(3) no
+O(1) Mg(2) Mg(1) . . 85.49(6) no
+B(1) Mg(2) Mg(2) . . 63.58(5) no
+B(1) Mg(2) Mg(2) . . 116.42(5) no
+B(1) Mg(2) Mg(1) . . 93.70(6) no
+B(1) Mg(2) Mg(1) . . 68.08(5) no
+Mg(2) Mg(2) Mg(2) . . 180.00 no
+Mg(2) Mg(2) Mg(1) . . 119.23(4) no
+Mg(2) Mg(2) Mg(1) . . 60.15(4) no
+Mg(2) Mg(2) Mg(1) . . 60.77(4) no
+Mg(2) Mg(2) Mg(1) . . 119.85(4) no
+Mg(1) Mg(2) Mg(1) . . 59.09(4) no
+B(1) O(1) Mg(1) . . 150.47(6) no
+B(1) O(1) Mg(2) . . 88.99(6) no
+B(1) O(1) Mg(2) . . 113.51(6) no
+Mg(1) O(1) Mg(2) . . 96.69(6) no
+Mg(1) O(1) Mg(2) . . 95.63(6) no
+Mg(2) O(1) Mg(2) . . 88.67(6) no
+B(1) O(2) Mg(1) . . 128.35(6) no
+B(1) O(2) Mg(1) . . 115.33(7) no
+B(1) O(2) Mg(1) . . 117.91(7) no
+Mg(1) O(2) Mg(1) . . 96.51(6) no
+Mg(1) O(2) Mg(1) . . 95.82(5) no
+Mg(1) O(2) Mg(1) . . 96.63(5) no
+B(2) O(3) B(1) . . 134.99(7) no
+B(2) O(3) Mg(2) . . 132.57(6) no
+B(1) O(3) Mg(2) . . 91.36(7) no
+B(2) O(4) Mg(2) . . 137.51(6) no
+B(2) O(4) Mg(2) . . 119.11(7) no
+Mg(2) O(4) Mg(2) . . 102.71(6) no
+B(2) O(5) Mg(2) . . 114.41(7) no
+B(2) O(5) Mg(1) . . 115.25(6) no
+B(2) O(5) Mg(1) . . 128.89(6) no
+Mg(2) O(5) Mg(1) . . 99.41(5) no
+Mg(2) O(5) Mg(1) . . 98.35(5) no
+Mg(1) O(5) Mg(1) . . 95.33(6) no
+O(1) B(1) Mg(2) . . 59.50(6) no
+O(2) B(1) Mg(2) . . 160.25(5) no
+O(3) B(1) Mg(2) . . 55.13(5) no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Mg(1) Mg(2) . 3.175(2) yes
+Mg(1) Mg(1) 2_666 3.131(2) yes
+Mg(1) O(1) . 2.0160(10) yes
+Mg(1) O(2) 2_666 2.0720(10) yes
+Mg(1) O(2) 2_665 2.111(2) yes
+Mg(1) O(2) . 2.1460(10) yes
+Mg(1) O(5) . 2.108(2) yes
+Mg(1) O(5) 1_556 2.115(2) yes
+Mg(2) O(1) . 2.229(2) yes
+Mg(2) O(1) 1_554 2.238(2) yes
+Mg(2) O(3) . 2.1220(10) yes
+Mg(2) O(4) . 1.9770(10) yes
+Mg(2) O(4) 1_556 2.0190(10) yes
+Mg(2) O(5) . 2.0550(10) yes
+O(1) B(1) . 1.3520(10) yes
+O(2) B(1) 1_455 1.3600(10) yes
+O(3) B(1) . 1.4280(10) yes
+O(3) B(2) 2_754 1.4150(10) yes
+O(4) B(2) . 1.342(2) yes
+O(5) B(2) 2_654 1.3690(10) yes

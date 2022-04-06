@@ -1,0 +1,126 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/18/2001899.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2001899
+loop_
+_publ_author_name
+'Borel, M. M.'
+'Chardon, J.'
+'Grandin, A.'
+'Leclaire, A.'
+'Raveau, B.'
+_publ_section_title
+;
+ Structure of a new siliconiobate K~6.5~Ca~0.75~Nb~14~Si~4~O~47~
+;
+_journal_issue                   3
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              570
+_journal_page_last               571
+_journal_paper_doi               10.1107/S0108270192010254
+_journal_volume                  49
+_journal_year                    1993
+_chemical_formula_sum            'Ca K7 Nb14 O47 Si4'
+_chemical_formula_weight         2449.22
+_symmetry_cell_setting           hexagonal
+_symmetry_space_group_name_Hall  '-P 6c 2'
+_symmetry_space_group_name_H-M   'P 63/m c m'
+_atom_type_scat_source           IntTabIV
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                120.0
+_cell_formula_units_Z            2
+_cell_length_a                   9.0460(10)
+_cell_length_b                   9.0460(10)
+_cell_length_c                   27.8830(10)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    294
+_cell_measurement_theta_max      22
+_cell_measurement_theta_min      18
+_cell_volume                     1976.0(3)
+_diffrn_measurement_device       'Enraf-Nonius CAD-4'
+_diffrn_measurement_method       Bisect
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_limit_h_max       18
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       18
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       55
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            6180
+_diffrn_reflns_theta_max         45
+_diffrn_standards_decay_%        <0.1
+_diffrn_standards_interval_time  50
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    4.765
+_exptl_absorpt_correction_T_max  0.8601
+_exptl_absorpt_correction_T_min  0.7359
+_exptl_absorpt_correction_type   analytical
+_exptl_crystal_colour            Colorless
+_exptl_crystal_density_diffrn    4.11
+_exptl_crystal_description       Stick
+_exptl_crystal_size_max          0.1136
+_exptl_crystal_size_mid          0.0727
+_exptl_crystal_size_min          0.0318
+_refine_diff_density_max         1.8
+_refine_diff_density_min         -1.1
+_refine_ls_extinction_coef       4.62E-8
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_obs   1.004
+_refine_ls_number_parameters     71
+_refine_ls_number_reflns         1175
+_refine_ls_R_factor_obs          0.028
+_refine_ls_shift/esd_max         0.004
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = Fsin(\q/\l)'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.027
+_reflns_number_observed          1175
+_reflns_number_total             6180
+_reflns_observed_criterion       I>3\s(I)
+_cod_data_source_file            pa1008.cif
+_cod_data_source_block           pa1008_structure_1_of_1
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'w = Fsin(\q/\l)' was changed to
+'calc'. New tag '_refine_ls_weighting_details' was created. The value
+of the new tag was set to 'w = Fsin(\q/\l)'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        1976.2(4)
+_cod_original_formula_sum        'Ca1 K7 Nb14 O47 Si4'
+_cod_database_code               2001899
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Nb(1) .24520(7) .0 .04437(2)
+Nb(2) .23777(6) .0 .18222(2)
+Nb(3) .3333 .6667 .0
+Si .3333 .6667 .19176(7)
+K(1) .5924(2) .0 .10739(6)
+Ca .6018(6) .0 .25
+O(1) .2172(5) .0 .1106(2)
+O(2) .2752(8) .0 .25
+O(3) .1973(5) .0 .5328(2)
+O(4) .1744(5) .0 .6862(2)
+O(5) .3333 .6667 .25
+O(6) .1817(4) .4856(4) .17310(10)
+O(7) .1684(4) .4815(4) .45840(10)

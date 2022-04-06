@@ -1,0 +1,367 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-21 16:56:25 +0200 (Mon, 21 Mar 2016) $
+#$Revision: 178761 $
+#$URL: svn://www.crystallography.net/cod/cif/4/10/15/4101528.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4101528
+loop_
+_publ_author_name
+'Dorset, Douglas L'
+'Kennedy, Gordon J'
+'Strohmaier, Karl G'
+'Diaz-Caba\~nas, Maria J'
+'Rey, Fernando'
+'Corma, Avelino'
+_publ_section_title
+;
+ P-derived organic cations as structure-directing agents: synthesis of
+ a high-silica zeolite (ITQ-27) with a two-dimensional 12-ring channel
+ system.
+;
+_journal_issue                   27
+_journal_name_full               'Journal of the American Chemical Society'
+_journal_page_first              8862
+_journal_page_last               8867
+_journal_paper_doi               10.1021/ja061206o
+_journal_volume                  128
+_journal_year                    2006
+_chemical_compound_source        Synthetic
+_chemical_formula_structural     Al5Si147O304
+_chemical_formula_sum            'O38 Si19'
+_chemical_formula_weight         1141.60
+_chemical_name_common            ITQ-27
+_chemical_name_systematic        silicogermanate
+_space_group_IT_number           69
+_symmetry_cell_setting           orthorhombic
+_symmetry_Int_Tables_number      69
+_symmetry_space_group_name_Hall  '-F 2 2'
+_symmetry_space_group_name_H-M   'F m m m'
+_audit_creation_date             'Feb 6, 2006'
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_audit_update_record
+' 2006-02-06T10:17  Initial CIF as created by GSAS2CIF'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            8
+_cell_length_a                   27.7508(5)
+_cell_length_b                   25.2969(7)
+_cell_length_c                   13.7923(4)
+_cell_measurement_temperature    298
+_cell_volume                     9682.3(3)
+_computing_structure_refinement  GSAS
+_computing_structure_solution    FOCUS
+_diffrn_radiation_polarisn_ratio 0.93
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_wavelength     0.8702
+_diffrn_source                   Synchrotron
+_exptl_absorpt_process_details
+;   GSAS Absorption/surface roughness correction: function number 0
+ No correction is applied.
+;
+_exptl_crystal_density_diffrn    1.565
+_pd_block_id
+2006-02-06T10:17|ITQ27SYN|r,_Douglas_L._Dorset|Brookhaven_X10B
+_pd_calc_method                  'Rietveld Refinement'
+_pd_char_colour                  white
+_pd_instr_location               'Brookhaven X10B'
+_pd_meas_2theta_range_inc        0.005
+_pd_meas_2theta_range_max        51.945
+_pd_meas_2theta_range_min        2.0
+_pd_meas_number_of_points        9990
+_pd_phase_name                   'itq27 synchrotron'
+_pd_proc_2theta_range_inc        0.005
+_pd_proc_2theta_range_max        51.945
+_pd_proc_2theta_range_min        2.0
+_pd_proc_info_datetime           2006-02-06T10:17:57
+_pd_proc_ls_background_function
+;   GSAS Background function number 1 with 12 terms.
+ Shifted Chebyshev function of 1st kind
+      1:    106.075     2:   -59.9118     3:    27.4533     4:   -18.9511    
+      5:   -2.14558     6:   -3.89957     7:    11.5505     8:   0.380852    
+      9:   -6.75093    10:    13.9092    11:   -13.5480    12:    5.40143    
+;
+_pd_proc_ls_peak_cutoff          0.00100
+_pd_proc_ls_profile_function
+;
+ CW Profile function number 2 with  18 terms
+ Profile coefficients for Simpson's rule integration of pseudovoigt function
+ C.J. Howard (1982). J. Appl. Cryst.,15,615-620.
+ P. Thompson, D.E. Cox & J.B. Hastings (1987). J. Appl. Cryst.,20,79-83.
+ Peak tails are ignored  where the intensity is below 0.0010 times the peak
+   Aniso. broadening axis   0.0   0.0   1.0
+;
+_pd_proc_ls_prof_R_factor        0.0807
+_pd_proc_ls_prof_wR_expected     0.0680
+_pd_proc_ls_prof_wR_factor       0.1150
+_pd_proc_number_of_points        9990
+_refine_ls_goodness_of_fit_all   1.95
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     60
+_refine_ls_number_restraints     0
+_refine_ls_R_Fsqd_factor         0.11785
+_refine_ls_shift/su_max          0.02
+_refine_ls_shift/su_mean         0.00
+_reflns_d_resolution_high        0.975
+_reflns_d_resolution_low         13.875
+_reflns_limit_h_max              28
+_reflns_limit_h_min              0
+_reflns_limit_k_max              25
+_reflns_limit_k_min              0
+_reflns_limit_l_max              14
+_reflns_limit_l_min              0
+_reflns_number_total             1522
+_cod_data_source_file            ja061206osi20060511_030112.cif
+_cod_data_source_block           ITQ27SYN_publ
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_geom_bond_publ_flag' value 'N' changed to 'n' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (70
+times).
+
+'_geom_angle_publ_flag' value 'N' changed to 'n' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (57 times).
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+;
+_cod_original_sg_symbol_H-M      Fmmm
+_cod_database_code               4101528
+_cod_database_fobs_code          4101528
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -x,+y,+z
+3 +x,-y,+z
+4 -x,-y,+z
+-1 -x,-y,-z
+-2 +x,-y,-z
+-3 -x,+y,-z
+-4 +x,+y,-z
+101 +x,+y+1/2,+z+1/2
+102 -x,+y+1/2,+z+1/2
+103 +x,-y+1/2,+z+1/2
+104 -x,-y+1/2,+z+1/2
+-101 -x,-y+1/2,-z+1/2
+-102 +x,-y+1/2,-z+1/2
+-103 -x,+y+1/2,-z+1/2
+-104 +x,+y+1/2,-z+1/2
+201 +x+1/2,+y,+z+1/2
+202 -x+1/2,+y,+z+1/2
+203 +x+1/2,-y,+z+1/2
+204 -x+1/2,-y,+z+1/2
+-201 -x+1/2,-y,-z+1/2
+-202 +x+1/2,-y,-z+1/2
+-203 -x+1/2,+y,-z+1/2
+-204 +x+1/2,+y,-z+1/2
+301 +x+1/2,+y+1/2,+z
+302 -x+1/2,+y+1/2,+z
+303 +x+1/2,-y+1/2,+z
+304 -x+1/2,-y+1/2,+z
+-301 -x+1/2,-y+1/2,-z
+-302 +x+1/2,-y+1/2,-z
+-303 -x+1/2,+y+1/2,-z
+-304 +x+1/2,+y+1/2,-z
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+Si SI1 0.14784(19) 0.09954(24) 0.1968(4) 1.0 Uiso 0.0152(12) 32
+Si SI2 0.30329(19) 0.0 0.2101(4) 1.0 Uiso 0.0152(12) 16
+Si SI3 0.05439(20) 0.06565(17) 0.1128(4) 1.0 Uiso 0.0152(12) 32
+Si SI4 0.28005(28) 0.19587(24) 0.0 1.0 Uiso 0.0152(12) 16
+Si SI5 0.30680(17) 0.19344(23) 0.2129(4) 1.0 Uiso 0.0152(12) 32
+Si SI6 0.20503(25) 0.10108(30) 0.0 1.0 Uiso 0.0152(12) 16
+Si SI7 0.2704(4) 0.0 0.0 1.0 Uiso 0.0152(12) 8
+O O8 0.09082(21) 0.0951(4) 0.1829(7) 1.0 Uiso 0.0318(20) 32
+O O9 0.17252(27) 0.1027(5) 0.09485(33) 1.0 Uiso 0.0318(20) 32
+O O10 0.15335(30) 0.15391(29) 0.2514(8) 1.0 Uiso 0.0318(20) 32
+O O11 0.16931(32) 0.05189(20) 0.2551(7) 1.0 Uiso 0.0318(20) 32
+O O12 0.25 0.0 0.25 1.0 Uiso 0.0318(20) 8
+O O13 0.30403(31) 0.0 0.09462(31) 1.0 Uiso 0.0318(20) 16
+O O14 0.0575(7) 0.0 0.1204(14) 1.0 Uiso 0.0318(20) 16
+O O15 0.0634(6) 0.0831(6) 0.0 1.0 Uiso 0.0318(20) 16
+O O16 0.0 0.0841(7) 0.1429(12) 1.0 Uiso 0.0318(20) 16
+O O17 0.31258(28) 0.1930(4) 0.90342(29) 1.0 Uiso 0.0318(20) 32
+O O18 0.2428(5) 0.14828(33) 0.0 1.0 Uiso 0.0318(20) 16
+O O19 0.25 0.25 0.0 1.0 Uiso 0.0318(20) 8
+O O20 0.25 0.1846(7) 0.25 1.0 Uiso 0.0318(20) 16
+O O21 0.3264(5) 0.25 0.25 1.0 Uiso 0.0318(20) 16
+O O22 0.2361(4) 0.05015(20) 0.0 1.0 Uiso 0.0318(20) 16
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_Cromer_Mann_a1
+_atom_type_scat_Cromer_Mann_a2
+_atom_type_scat_Cromer_Mann_a3
+_atom_type_scat_Cromer_Mann_a4
+_atom_type_scat_Cromer_Mann_b1
+_atom_type_scat_Cromer_Mann_b2
+_atom_type_scat_Cromer_Mann_b3
+_atom_type_scat_Cromer_Mann_b4
+_atom_type_scat_Cromer_Mann_c
+_atom_type_scat_source
+Si 152.0 0.105 0.107 6.29150 2.43860 3.03530 32.3337 1.98910 0.67850 1.54100
+81.6937 1.14070 International_Tables_Vol_C
+O 304.0 0.014 0.009 3.04850 13.2771 2.28680 5.70110 1.54630 0.32390 0.86700
+32.9089 0.25080 International_Tables_Vol_C
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O8 SI1 O9 109.2(5) 1_555 1_555 n
+O8 SI1 O10 102.4(5) 1_555 1_555 n
+O8 SI1 O11 112.6(6) 1_555 1_555 n
+O9 SI1 O10 110.0(6) 1_555 1_555 n
+O9 SI1 O11 109.5(6) 1_555 1_555 n
+O10 SI1 O11 112.9(5) 1_555 1_555 n
+O11 SI2 O11 111.2(7) -201_445 -203_445 n
+O11 SI2 O12 110.0(4) -201_445 1_555 n
+O11 SI2 O13 107.2(4) -201_555 1_555 n
+O11 SI2 O12 110.0(4) -203_445 1_555 n
+O11 SI2 O13 107.2(4) -203_555 1_555 n
+O12 SI2 O13 111.1(5) 1_555 1_555 n
+O8 SI3 O14 113.4(6) 1_555 1_555 n
+O8 SI3 O15 110.8(5) 1_555 1_555 n
+O8 SI3 O16 107.5(4) 1_555 1_555 n
+O14 SI3 O15 108.7(5) 1_555 1_555 n
+O14 SI3 O16 108.4(5) 1_555 1_555 n
+O15 SI3 O16 107.8(5) 1_555 1_555 n
+O17 SI4 O17 111.6(6) 1_554 -4_556 n
+O17 SI4 O18 109.3(5) 1_554 1_555 n
+O17 SI4 O19 109.3(4) 1_554 1_555 n
+O17 SI4 O18 109.3(5) -4_556 1_555 n
+O17 SI4 O19 109.3(4) -4_556 1_555 n
+O18 SI4 O19 108.0(6) 1_555 1_555 n
+O10 SI5 O17 103.7(5) -203_555 -4_556 n
+O10 SI5 O20 118.9(6) -203_555 1_555 n
+O10 SI5 O21 103.2(5) -203_555 1_555 n
+O17 SI5 O20 113.4(4) -4_556 1_555 n
+O17 SI5 O21 106.7(5) -4_556 1_555 n
+O20 SI5 O21 109.9(5) 1_555 1_555 n
+O9 SI6 O9 110.8(6) 1_555 -4_555 n
+O9 SI6 O18 110.8(5) 1_555 1_555 n
+O9 SI6 O22 109.7(5) 1_555 1_555 n
+O9 SI6 O18 110.8(5) -4_555 1_555 n
+O9 SI6 O22 109.7(5) -4_555 1_555 n
+O18 SI6 O22 104.9(6) 1_555 1_555 n
+O13 SI7 O13 108.9(6) 1_555 -2_555 n
+O13 SI7 O22 110.41(19) 1_555 1_555 n
+O13 SI7 O22 110.41(19) 1_555 3_555 n
+O13 SI7 O22 110.41(19) -2_555 1_555 n
+O13 SI7 O22 110.41(19) -2_555 3_555 n
+O22 SI7 O22 106.3(7) 1_555 3_555 n
+SI1 O8 SI3 137.6(7) 1_555 1_555 n
+SI1 O9 SI6 170.3(6) 1_555 1_555 n
+SI1 O10 SI5 140.7(7) 1_555 -203_454 n
+SI1 O11 SI2 166.2(8) 1_555 -201_544 n
+SI2 O12 SI2 179.972 1_555 -201_544 n
+SI2 O13 SI7 143.7(5) 1_555 1_555 n
+SI3 O14 SI3 170.7(12) 1_555 3_555 n
+SI3 O15 SI3 143.8(10) 1_555 -4_555 n
+SI3 O16 SI3 135.1(9) 1_555 2_555 n
+SI4 O17 SI5 140.1(5) 1_556 -4_556 n
+SI4 O18 SI6 179.397(11) 1_555 1_555 n
+SI4 O19 SI4 180.0 1_555 304_555 n
+SI5 O20 SI5 164.7(11) 1_555 -203_454 n
+SI5 O21 SI5 140.6(10) 1_555 -102_454 n
+SI6 O22 SI7 177.0(7) 1_555 1_555 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+SI1 SI3 2.967(8) 1_555 n
+SI1 SI5 2.962(8) -203_454 n
+SI1 O8 1.598(5) 1_555 n
+SI1 O9 1.566(5) 1_555 n
+SI1 O10 1.576(5) 1_555 n
+SI1 O11 1.567(5) 1_555 n
+SI2 SI7 3.039(6) 1_555 n
+SI2 O11 1.5911(34) -201_454 n
+SI2 O11 1.5911(34) -203_454 n
+SI2 O12 1.578(5) 1_555 n
+SI2 O13 1.593(5) 1_555 n
+SI3 SI1 2.967(8) 1_555 n
+SI3 SI3 3.019(11) 2_555 n
+SI3 O8 1.584(5) 1_555 n
+SI3 O14 1.666(4) 1_555 n
+SI3 O15 1.637(5) 1_555 n
+SI3 O16 1.633(5) 1_555 n
+SI4 SI5 3.030(6) 1_555 n
+SI4 SI5 3.030(6) -4_555 n
+SI4 O17 1.611(4) 1_554 n
+SI4 O17 1.611(4) -4_556 n
+SI4 O18 1.587(5) 1_555 n
+SI4 O19 1.603(5) 1_555 n
+SI5 SI1 2.962(8) -203_454 n
+SI5 SI4 3.030(6) 1_555 n
+SI5 SI5 3.039(11) -102_544 n
+SI5 O10 1.570(5) -203_454 n
+SI5 O17 1.613(5) -4_556 n
+SI5 O20 1.672(4) 1_555 n
+SI5 O21 1.614(5) 1_555 n
+SI6 O9 1.5896(34) 1_555 n
+SI6 O9 1.5896(34) -4_555 n
+SI6 O18 1.588(5) 1_555 n
+SI6 O22 1.551(5) 1_555 n
+SI7 SI2 3.039(6) 1_555 n
+SI7 SI2 3.039(6) -2_555 n
+SI7 O13 1.604(4) 1_555 n
+SI7 O13 1.604(4) -2_555 n
+SI7 O22 1.585(4) 1_555 n
+SI7 O22 1.585(4) 3_555 n
+O8 SI1 1.598(5) 1_555 n
+O8 SI3 1.584(5) 1_555 n
+O9 SI1 1.566(5) 1_555 n
+O9 SI6 1.5896(34) 1_555 n
+O10 SI1 1.576(5) 1_555 n
+O10 SI5 1.570(5) -203_454 n
+O11 SI1 1.567(5) 1_555 n
+O11 SI2 1.5911(34) -201_454 n
+O12 SI2 1.578(5) 1_555 n
+O12 SI2 1.578(5) -201_454 n
+O13 SI2 1.593(5) 1_555 n
+O13 SI7 1.604(4) 1_555 n
+O14 SI3 1.666(4) 1_555 n
+O14 SI3 1.666(4) 3_555 n
+O15 SI3 1.637(5) 1_555 n
+O15 SI3 1.637(5) -4_555 n
+O16 SI3 1.633(5) 1_555 n
+O16 SI3 1.633(5) 2_555 n
+O17 SI4 1.611(4) 1_556 n
+O17 SI5 1.613(5) -4_556 n
+O18 SI4 1.587(5) 1_555 n
+O18 SI6 1.588(5) 1_555 n
+O19 SI4 1.603(5) 1_555 n
+O19 SI4 1.603(5) 304_555 n
+O20 SI5 1.672(4) 1_555 n
+O20 SI5 1.672(4) -203_454 n
+O21 SI5 1.614(5) 1_555 n
+O21 SI5 1.614(5) -102_544 n
+O22 SI6 1.551(5) 1_555 n
+O22 SI7 1.585(4) 1_555 n

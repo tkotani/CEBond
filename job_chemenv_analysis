@@ -1,0 +1,8 @@
+#!/bin/bash
+date
+./chemenv_analysis.py N >&chemN.log
+date
+./chemenv_analysis.py F >&chemF.log
+date
+./chemenv_analysis.py O >&chemO.log
+date

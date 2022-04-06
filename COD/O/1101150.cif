@@ -1,0 +1,163 @@
+#------------------------------------------------------------------------------
+#$Date: 2018-06-09 17:28:21 +0300 (Sat, 09 Jun 2018) $
+#$Revision: 208232 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/10/11/1101150.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1101150
+loop_
+_publ_author_name
+'Li Wu'
+'Xia Long Chen'
+'Yan Ping Xu'
+'Yan Ping Sun'
+_publ_contact_author_address
+;
+      Beijing National Laboratory for Condensed Matter Physics
+      Institute of Physics
+      Chinese Academy of Sciences
+      P.O.Box 603, Beijing 100080
+      People's Republic of China
+;
+_publ_contact_author_email       xlchen@aphy.iphy.ac.cn
+_publ_contact_author_fax         86(10)82649531
+_publ_contact_author_name        'Professor Xiaolong Chen'
+_publ_contact_author_phone       86(10)82649039
+_publ_section_title
+;
+Structure Determination and Relative Properties of Novel Noncentrosymmetric
+Borates MM'~4~(BO~3~)~3~ (M = Na, N = Ca and M = K, M' = Ca, Sr)
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              3042
+_journal_page_last               3047
+_journal_paper_doi               10.1021/ic051494+
+_journal_volume                  45
+_journal_year                    2006
+_chemical_formula_iupac          'K Sr4 (B O3)3'
+_chemical_formula_moiety         'B3 Sr4 K O9'
+_chemical_formula_structural     'Sr4 K (B O3)3'
+_chemical_formula_sum            'B3 K O9 Sr4'
+_chemical_formula_weight         566.01
+_space_group_crystal_system      orthorhombic
+_space_group_IT_number           40
+_space_group_name_Hall           'A 2 -2a'
+_space_group_name_H-M_alt        'A m a 2'
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   11.03843(8)
+_cell_length_b                   11.98974(9)
+_cell_length_c                   6.88446(5)
+_cell_measurement_temperature    295
+_cell_volume                     911.14(2)
+_diffrn_ambient_temperature      295
+_pd_proc_ls_prof_R_factor        0.0712
+_pd_proc_ls_prof_wR_factor       0.0959
+_refine_ls_R_I_factor            0.0570
+_cod_depositor_comments
+;
+ Updating space group information.
+
+ Antanas Vaitkus,
+ 2018-06-10
+
+The following automatic conversions were performed:
+'_symmetry_cell_setting' value 'Orthorhombic' changed to 'orthorhombic'
+according to '/home/saulius/struct/CIF-dictionaries/cif_core.dic'
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+;
+_cod_original_sg_symbol_Hall     'A a -2a'
+_cod_original_formula_sum        'B3 Sr4 K O9'
+_cod_database_code               1101150
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 -x+1/2,y,z
+3 x+1/2,-y,z
+4 -x,-y,z
+5 x,y+1/2,z+1/2
+6 -x+1/2,y+1/2,z+1/2
+7 x+1/2,-y+1/2,z+1/2
+8 -x,-y+1/2,z+1/2
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_occupancy
+_atom_site_type_symbol
+Sr1 .2500 .3551(2) .0623(5) .0080(5) Uiso 1 Sr
+Sr2 -.0293(1) .2148(1) .9297(4) .0082(3) Uiso 1 Sr
+Sr3 .0000 .0000 .2829 .0107(5) Uiso 1 Sr
+K .2500 .5844(5) .3305(9) .016(1) Uiso 1 K
+O1 .2500 .3475(11) .4541(25) .004(4) Uiso 1 O
+O2 .2500 .5713(16) .912(3) .041(3) Uiso 1 O
+O3 .1360(10) .6727(9) .6668(14) .005(3) Uiso 1 O
+O4 .0302(7) .4017(9) .1092(16) .003(2) Uiso 1 O
+O5 .8584(11) .1982(8) .2406(17) .005(3) Uiso 1 O
+O6 .0000 .5000 .410(3) .010(4) Uiso 1 O
+B1 .2500 .643(2) .751(4) .001(6) Uiso 1 B
+B2 .2500 .328(2) .650(4) .004(6) Uiso 1 B
+B3 .0000 .5000 .210(5) .015(7) Uiso 1 B
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Sr1 O1 . 2.699(18) yes
+Sr1 O2 1_554 2.789(19) yes
+Sr1 O3 5_544 2.624(11) yes
+Sr1 O3 6_544 2.624(11) yes
+Sr1 O4 . 2.511(8) yes
+Sr1 O4 2_555 2.511(8) yes
+Sr1 O5 7_454 2.597(12) yes
+Sr1 O5 8_654 2.597(12) yes
+Sr2 O1 7_455 2.553(4) yes
+Sr2 O3 4_565 2.546(10) yes
+Sr2 O3 5_545 2.500(11) yes
+Sr2 O4 1_556 2.643(11) yes
+Sr2 O4 8_555 2.612(11) yes
+Sr2 O5 1_456 2.481(12) yes
+Sr2 O5 8_655 2.518(11) yes
+Sr2 O6 5_545 2.599(2) yes
+Sr3 O2 5_544 3.023(8) yes
+Sr3 O2 7_454 3.023(8) yes
+Sr3 O3 5_544 2.679(11) yes
+Sr3 O3 8_554 2.679(11) yes
+Sr3 O4 5_545 2.558(11) yes
+Sr3 O4 8_555 2.558(11) yes
+Sr3 O5 1_455 2.859(11) yes
+Sr3 O5 4_655 2.859(11) yes
+Sr3 O6 5_544 2.564(20) yes
+K O1 . 2.966(15) yes
+K O2 1_554 2.883(23) yes
+K O3 . 2.839(11) yes
+K O3 2_555 2.839(11) yes
+K O5 3_465 2.933(12) yes
+K O5 4_665 2.933(12) yes
+K O6 . 2.990(4) yes
+K O6 2_555 2.990(4) yes
+B1 O2 . 1.40(3) yes
+B1 O3 . 1.432(17) yes
+B1 O3 2_555 1.432(17) yes
+B2 O1 . 1.37(3) yes
+B2 O5 7_455 1.385(19) yes
+B2 O5 8_655 1.385(19) yes
+B3 O4 . 1.406(20) yes
+B3 O4 4_565 1.406(20) yes
+B3 O6 . 1.38(4) yes

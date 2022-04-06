@@ -1,0 +1,373 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-22 12:20:51 +0200 (Tue, 22 Mar 2016) $
+#$Revision: 178946 $
+#$URL: svn://www.crystallography.net/cod/cif/4/11/75/4117532.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4117532
+loop_
+_publ_author_name
+'Man-Rong Li'
+'Umut Adem'
+'Sean R. C. McMitchell'
+'Zhongling Xu'
+'Chris I. Thomas'
+'John E. Warren'
+'Duong V. Giap'
+'Hongjun Niu'
+'Xinming Wan'
+'Robert G. Palgrave'
+'Florian Schiffmann'
+'Furio Cora'
+'Ben Slater'
+'Tim L. Burnett'
+'Markys G. Cain'
+'Artem M. Abakumov'
+'Gustaaf van Tendeloo'
+'Michael F. Thomas'
+'Matthew J. Rosseinsky'
+'John B. Claridge'
+_publ_section_title
+;
+ A Polar Corundum Oxide Displaying Weak Ferromagnetism at Room Temperature
+;
+_journal_name_full               'Journal of the American Chemical Society'
+_journal_page_first              3737
+_journal_page_last               3747
+_journal_paper_doi               10.1021/ja208395z
+_journal_volume                  134
+_journal_year                    2012
+_chemical_formula_sum            'Fe0.33 O Sc0.33'
+_chemical_formula_weight         49.60
+_space_group_IT_number           161
+_symmetry_cell_setting           trigonal
+_symmetry_space_group_name_Hall  'R 3 -2"c'
+_symmetry_space_group_name_H-M   'R 3 c :H'
+_audit_author_name               'John Claridge'
+_audit_creation_date             2011-06-24T14:12
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_audit_update_record
+' 2011-06-24T14:12  Initial CIF as created by GSAS2CIF'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                120.0
+_cell_formula_units_Z            18
+_cell_length_a                   5.202475(4)
+_cell_length_b                   5.202475
+_cell_length_c                   14.01449(11)
+_cell_volume                     328.494(3)
+_computing_structure_refinement  GSAS
+_diffrn_radiation_probe          neutron
+_exptl_absorpt_correction_T_max  0.96728
+_exptl_absorpt_correction_T_min  0.80349
+_exptl_absorpt_process_details
+;   GSAS Absorption/surface roughness correction: function number 0
+ Debye-Scherrer absorption correction
+Term (= MU.r/wave) =     0.21758E-01
+Correction is not refined.
+;
+_pd_block_id
+2011-06-24T14:12|SAFE_NEUTRON_FINAL_S_phase1|John_Claridge||
+_pd_calc_method                  'Rietveld Refinement'
+_pd_meas_2theta_fixed            145.00
+_pd_meas_number_of_points        16465
+_pd_phase_name
+'from /Users/john/Documents/Work/SFO/sfo_60min-ish/SFO.cif'
+_pd_proc_info_datetime           2011-06-24T14:12:27
+_pd_proc_ls_background_function
+;   GSAS Background function number 1 with 12 terms.
+ Shifted Chebyshev function of 1st kind
+      1:   0.273658     2:  -9.805670E-02 3:   9.481510E-03 4:  -1.770700E-02
+      5:   1.123820E-02 6:  -8.159350E-03 7:   1.380600E-04 8:  -1.501290E-02
+      9:  -7.039100E-0310:   1.813460E-0311:   3.527100E-0312:  -1.697190E-02
+;
+_pd_proc_ls_prof_R_factor        0.1237
+_pd_proc_ls_prof_wR_expected     0.0391
+_pd_proc_ls_prof_wR_factor       0.0614
+_pd_proc_number_of_points        16465
+_refine_ls_goodness_of_fit_all   1.03
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     43
+_refine_ls_number_restraints     0
+_refine_ls_R_Fsqd_factor         0.09820
+_refine_ls_shift/su_max          0.06
+_refine_ls_shift/su_mean         0.01
+_reflns_d_resolution_high        0.438
+_reflns_d_resolution_low         7.007
+_reflns_limit_h_max              10
+_reflns_limit_h_min              0
+_reflns_limit_k_max              6
+_reflns_limit_k_min              -5
+_reflns_limit_l_max              32
+_reflns_limit_l_min              -32
+_reflns_number_total             3142
+_cod_data_source_file            ja208395z_si_001_1.cif
+_cod_data_source_block           SAFE_NEUTRON_FINAL_S
+_cod_original_cell_volume        328.4940(30)
+_cod_original_sg_symbol_H-M      'R 3 c'
+_cod_database_code               4117532
+_cod_database_fobs_code          4117532
+#BEGIN Tags that were not found in dictionaries:
+_gsas_exptl_extinct_corr_t_min   1.00000
+_gsas_exptl_extinct_corr_t_max   1.00000
+#END Tags that were not found in dictionaries
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -y,x-y,+z
+3 y-x,-x,+z
+4 y-x,+y,+z+1/2
+5 -y,-x,+z+1/2
+6 +x,x-y,+z+1/2
+101 +x+1/3,+y+2/3,+z+2/3
+102 -y+1/3,x-y+2/3,+z+2/3
+103 y-x+1/3,-x+2/3,+z+2/3
+104 y-x+1/3,+y+2/3,+z+1/6
+105 -y+1/3,-x+2/3,+z+1/6
+106 +x+1/3,x-y+2/3,+z+1/6
+201 +x+2/3,+y+1/3,+z+1/3
+202 -y+2/3,x-y+1/3,+z+1/3
+203 y-x+2/3,-x+1/3,+z+1/3
+204 y-x+2/3,+y+1/3,+z+5/6
+205 -y+2/3,-x+1/3,+z+5/6
+206 +x+2/3,x-y+1/3,+z+5/6
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+Sc Sc1 0.0 0.0 0.04768(5) 0.46 Uiso 0.00362(32) 6
+Fe Fe1 0.0 0.0 0.2579 0.46 Uiso 0.0053(4) 6
+O O1 0.3423(4) -0.02607(23) 0.81757(23) 1.0 Uiso 0.00486(10) 18
+Fe Fe2 0.0 0.0 0.04768(5) 0.54 Uiso 0.00362(32) 6
+Sc Sc2 0.0 0.0 0.2579 0.54 Uiso 0.0053(4) 6
+loop_
+_atom_type_symbol
+_atom_type_scat_length_neutron
+_atom_type_scat_source
+_atom_type_number_in_cell
+Sc+3 1.2290 International_Tables_Vol_C 6.0
+Fe+3 0.9450 International_Tables_Vol_C 6.0
+O 0.5803 International_Tables_Vol_C 18.0
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O1 Sc1 O1 101.65(10) 104_544 105_554 n
+O1 Sc1 O1 101.65(10) 104_544 106_444 n
+O1 Sc1 O1 163.64(14) 104_544 201_454 n
+O1 Sc1 O1 86.36(4) 104_544 202_444 n
+O1 Sc1 O1 90.475(27) 104_544 203_554 n
+O1 Sc1 Sc2 116.47(8) 104_543 1_555 n
+O1 Sc1 Sc2 45.03(7) 104_543 204_444 n
+O1 Sc1 Sc2 143.77(4) 104_543 204_454 n
+O1 Sc1 Sc2 99.577(32) 104_543 204_554 n
+O1 Sc1 O1 101.65(10) 105_554 106_444 n
+O1 Sc1 O1 90.475(27) 105_554 201_454 n
+O1 Sc1 O1 163.64(14) 105_554 202_444 n
+O1 Sc1 O1 86.36(4) 105_554 203_554 n
+O1 Sc1 Sc2 116.47(8) 105_553 1_555 n
+O1 Sc1 Sc2 143.77(4) 105_553 204_444 n
+O1 Sc1 Sc2 99.577(32) 105_553 204_454 n
+O1 Sc1 Sc2 45.03(7) 105_553 204_554 n
+O1 Sc1 O1 86.36(4) 106_444 201_454 n
+O1 Sc1 O1 90.475(27) 106_444 202_444 n
+O1 Sc1 O1 163.64(14) 106_444 203_554 n
+O1 Sc1 Sc2 116.47(8) 106_443 1_555 n
+O1 Sc1 Sc2 99.578(32) 106_443 204_444 n
+O1 Sc1 Sc2 45.03(7) 106_443 204_454 n
+O1 Sc1 Sc2 143.77(4) 106_443 204_554 n
+O1 Sc1 O1 79.27(10) 201_454 202_444 n
+O1 Sc1 O1 79.27(10) 201_454 203_554 n
+O1 Sc1 Sc2 47.44(6) 201_454 1_555 n
+O1 Sc1 Sc2 119.97(6) 201_454 204_444 n
+O1 Sc1 Sc2 41.38(6) 201_454 204_454 n
+O1 Sc1 Sc2 81.18(5) 201_454 204_554 n
+O1 Sc1 O1 79.27(10) 202_444 203_554 n
+O1 Sc1 Sc2 47.44(6) 202_444 1_555 n
+O1 Sc1 Sc2 41.38(6) 202_444 204_444 n
+O1 Sc1 Sc2 81.18(5) 202_444 204_454 n
+O1 Sc1 Sc2 119.97(6) 202_444 204_554 n
+O1 Sc1 Sc2 47.44(6) 203_554 1_555 n
+O1 Sc1 Sc2 81.18(5) 203_554 204_444 n
+O1 Sc1 Sc2 119.97(6) 203_554 204_454 n
+O1 Sc1 Sc2 41.38(6) 203_554 204_554 n
+Sc2 Sc1 Sc2 78.512(13) 1_555 204_444 n
+Sc2 Sc1 Sc2 78.512(13) 1_555 204_454 n
+Sc2 Sc1 Sc2 78.512(13) 1_555 204_554 n
+Sc2 Sc1 Sc2 116.136(8) 204_444 204_454 n
+Sc2 Sc1 Sc2 116.136(8) 204_444 204_554 n
+Sc2 Sc1 Sc2 116.136(8) 204_454 204_554 n
+O1 Fe1 O1 104.24(9) 4_554 5_554 n
+O1 Fe1 O1 104.24(9) 4_554 6_554 n
+O1 Fe1 O1 104.24(9) 5_554 6_554 n
+Sc1 O1 Sc1 133.96(9) 101_545 204_555 n
+Sc1 O1 Fe1 94.54(12) 101_545 4_555 n
+Sc1 O1 Fe2 0.0 101_545 101_545 n
+Sc1 O1 Fe2 133.96(9) 101_545 204_555 n
+Sc1 O1 Sc2 94.54(12) 101_545 4_555 n
+Sc1 O1 Sc2 86.138(22) 101_545 101_545 n
+Sc1 O1 Fe1 118.660(24) 204_555 4_555 n
+Sc1 O1 Fe2 133.96(9) 204_555 101_545 n
+Sc1 O1 Fe2 0.0 204_555 204_555 n
+Sc1 O1 Sc2 118.660(24) 204_555 4_555 n
+Sc1 O1 Sc2 94.53(12) 204_555 101_545 n
+Fe1 O1 Fe2 94.54(12) 4_555 101_545 n
+Fe1 O1 Fe2 118.660(24) 4_555 204_555 n
+Fe1 O1 Sc2 0.0 4_555 4_555 n
+Fe1 O1 Sc2 129.43(9) 4_555 101_545 n
+Fe2 O1 Fe2 133.96(9) 101_545 204_555 n
+Fe2 O1 Sc2 94.54(12) 101_545 4_555 n
+Fe2 O1 Sc2 86.138(22) 101_545 101_545 n
+Fe2 O1 Sc2 118.660(24) 204_555 4_555 n
+Fe2 O1 Sc2 94.53(12) 204_555 101_545 n
+Sc2 O1 Sc2 129.43(9) 4_555 101_545 n
+O1 Fe2 O1 101.65(10) 104_544 105_554 n
+O1 Fe2 O1 101.65(10) 104_544 106_444 n
+O1 Fe2 O1 163.64(14) 104_544 201_454 n
+O1 Fe2 O1 86.36(4) 104_544 202_444 n
+O1 Fe2 O1 90.475(27) 104_544 203_554 n
+O1 Fe2 O1 101.65(10) 105_554 106_444 n
+O1 Fe2 O1 90.475(27) 105_554 201_454 n
+O1 Fe2 O1 163.64(14) 105_554 202_444 n
+O1 Fe2 O1 86.36(4) 105_554 203_554 n
+O1 Fe2 O1 86.36(4) 106_444 201_454 n
+O1 Fe2 O1 90.475(27) 106_444 202_444 n
+O1 Fe2 O1 163.64(14) 106_444 203_554 n
+O1 Fe2 O1 79.27(10) 201_454 202_444 n
+O1 Fe2 O1 79.27(10) 201_454 203_554 n
+O1 Fe2 O1 79.27(10) 202_444 203_554 n
+Sc1 Sc2 Sc1 78.512(13) 1_555 104_445 n
+Sc1 Sc2 Sc1 78.512(13) 1_555 104_545 n
+Sc1 Sc2 Sc1 78.512(13) 1_555 104_555 n
+Sc1 Sc2 O1 114.30(8) 1_555 4_554 n
+Sc1 Sc2 O1 114.30(8) 1_555 5_554 n
+Sc1 Sc2 O1 114.30(8) 1_555 6_554 n
+Sc1 Sc2 O1 46.42(6) 1_555 201_454 n
+Sc1 Sc2 O1 46.42(6) 1_555 202_444 n
+Sc1 Sc2 O1 46.42(6) 1_555 203_554 n
+Sc1 Sc2 Sc1 116.136(8) 104_445 104_545 n
+Sc1 Sc2 Sc1 116.136(8) 104_445 104_555 n
+Sc1 Sc2 O1 44.08(6) 104_445 4_554 n
+Sc1 Sc2 O1 97.966(33) 104_445 5_554 n
+Sc1 Sc2 O1 145.65(4) 104_445 6_554 n
+Sc1 Sc2 O1 83.16(5) 104_445 201_454 n
+Sc1 Sc2 O1 40.45(6) 104_445 202_444 n
+Sc1 Sc2 O1 117.91(5) 104_445 203_554 n
+Sc1 Sc2 Sc1 116.136(8) 104_545 104_555 n
+Sc1 Sc2 O1 145.65(4) 104_545 4_554 n
+Sc1 Sc2 O1 44.08(6) 104_545 5_554 n
+Sc1 Sc2 O1 97.966(33) 104_545 6_554 n
+Sc1 Sc2 O1 117.91(5) 104_545 201_454 n
+Sc1 Sc2 O1 83.16(5) 104_545 202_444 n
+Sc1 Sc2 O1 40.45(6) 104_545 203_554 n
+Sc1 Sc2 O1 97.966(33) 104_555 4_554 n
+Sc1 Sc2 O1 145.65(4) 104_555 5_554 n
+Sc1 Sc2 O1 44.08(6) 104_555 6_554 n
+Sc1 Sc2 O1 40.45(6) 104_555 201_454 n
+Sc1 Sc2 O1 117.91(5) 104_555 202_444 n
+Sc1 Sc2 O1 83.16(5) 104_555 203_554 n
+O1 Sc2 O1 104.24(9) 4_554 5_554 n
+O1 Sc2 O1 104.24(9) 4_554 6_554 n
+O1 Sc2 O1 90.330(31) 4_554 201_454 n
+O1 Sc2 O1 84.49(4) 4_554 202_444 n
+O1 Sc2 O1 160.26(14) 4_554 203_554 n
+O1 Sc2 O1 104.24(9) 5_554 6_554 n
+O1 Sc2 O1 160.26(14) 5_554 201_454 n
+O1 Sc2 O1 90.330(31) 5_554 202_444 n
+O1 Sc2 O1 84.49(4) 5_554 203_554 n
+O1 Sc2 O1 84.49(4) 6_554 201_454 n
+O1 Sc2 O1 160.26(14) 6_554 202_444 n
+O1 Sc2 O1 90.330(31) 6_554 203_554 n
+O1 Sc2 O1 77.71(9) 201_454 202_444 n
+O1 Sc2 O1 77.71(9) 201_454 203_554 n
+O1 Sc2 O1 77.71(9) 202_444 203_554 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Sc1 Fe1 2.9462(7) 1_555 n
+Sc1 Fe1 3.06505(14) 204_444 n
+Sc1 Fe1 3.06505(14) 204_454 n
+Sc1 Fe1 3.06505(14) 204_554 n
+Sc1 O1 1.9947(21) 104_544 n
+Sc1 O1 1.9947(21) 105_554 n
+Sc1 O1 1.9947(21) 106_444 n
+Sc1 O1 2.1391(22) 201_454 n
+Sc1 O1 2.1391(22) 202_444 n
+Sc1 O1 2.1391(22) 203_554 n
+Sc1 Sc2 2.9462(7) 1_555 n
+Sc1 Sc2 3.46390(35) 101_444 n
+Sc1 Sc2 3.46390(35) 101_544 n
+Sc1 Sc2 3.46390(35) 101_554 n
+Sc1 Sc2 3.06505(14) 204_444 n
+Sc1 Sc2 3.06505(14) 204_454 n
+Sc1 Sc2 3.06505(14) 204_554 n
+Fe1 Sc1 2.9462(7) 1_555 n
+Fe1 Sc1 3.06505(14) 104_445 n
+Fe1 Sc1 3.06505(14) 104_545 n
+Fe1 Sc1 3.06505(14) 104_555 n
+Fe1 O1 2.0325(20) 4_554 n
+Fe1 O1 2.0325(20) 5_554 n
+Fe1 O1 2.0325(20) 6_554 n
+Fe1 O1 2.1751(22) 201_454 n
+Fe1 O1 2.1751(22) 202_444 n
+Fe1 O1 2.1751(22) 203_554 n
+O1 Sc1 2.1391(22) 101_545 n
+O1 Sc1 1.9947(21) 204_555 n
+O1 Fe1 2.0325(20) 4_555 n
+O1 Fe1 2.1751(22) 101_545 n
+O1 Fe2 2.1391(22) 101_545 n
+O1 Fe2 1.9947(21) 204_555 n
+O1 Sc2 2.0325(20) 4_555 n
+O1 Sc2 2.1751(22) 101_545 n
+Fe2 O1 1.9947(21) 104_544 n
+Fe2 O1 1.9947(21) 105_554 n
+Fe2 O1 1.9947(21) 106_444 n
+Fe2 O1 2.1391(22) 201_454 n
+Fe2 O1 2.1391(22) 202_444 n
+Fe2 O1 2.1391(22) 203_554 n
+Fe2 Sc2 2.9462(7) 1_555 n
+Fe2 Sc2 3.06505(14) 204_444 n
+Fe2 Sc2 3.06505(14) 204_454 n
+Fe2 Sc2 3.06505(14) 204_554 n
+Sc2 Sc1 2.9462(7) 1_555 n
+Sc2 Sc1 3.06505(14) 104_445 n
+Sc2 Sc1 3.06505(14) 104_545 n
+Sc2 Sc1 3.06505(14) 104_555 n
+Sc2 Sc1 3.46390(35) 201_445 n
+Sc2 Sc1 3.46390(35) 201_455 n
+Sc2 Sc1 3.46390(35) 201_555 n
+Sc2 O1 2.0325(20) 4_554 n
+Sc2 O1 2.0325(20) 5_554 n
+Sc2 O1 2.0325(20) 6_554 n
+Sc2 O1 2.1751(22) 201_454 n
+Sc2 O1 2.1751(22) 202_444 n
+Sc2 O1 2.1751(22) 203_554 n
+Sc2 Fe2 2.9462(7) 1_555 n
+Sc2 Fe2 3.06505(14) 104_445 n
+Sc2 Fe2 3.06505(14) 104_545 n
+Sc2 Fe2 3.06505(14) 104_555 n
+loop_
+_pd_block_diffractogram_id
+2011-06-24T14:12|SAFE_NEUTRON_FINAL_S_H_01|John_Claridge|POLARIS
+2011-06-24T14:12|SAFE_NEUTRON_FINAL_S_H_02|John_Claridge|POLARIS
+2011-06-24T14:12|SAFE_NEUTRON_FINAL_S_H_03|John_Claridge|POLARIS

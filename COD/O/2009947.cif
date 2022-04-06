@@ -1,0 +1,186 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/99/2009947.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2009947
+loop_
+_publ_author_name
+'Gall, P.'
+'Gougeon, P.'
+_publ_section_title
+;
+ Redetermination of the structure of LaMo~5~O~8~ by single-crystal
+ X-ray diffraction
+;
+_journal_issue                   8
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              1183
+_journal_page_last               1185
+_journal_paper_doi               10.1107/S0108270194000624
+_journal_volume                  50
+_journal_year                    1994
+_chemical_formula_sum            'La Mo5 O8'
+_chemical_formula_weight         746.61
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_atom_type_scat_source           IntTabIV
+_cell_angle_alpha                90
+_cell_angle_beta                 109.064(5)
+_cell_angle_gamma                90.
+_cell_formula_units_Z            4
+_cell_length_a                   7.5710(10)
+_cell_length_b                   9.0862(7)
+_cell_length_c                   9.9160(10)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    295
+_cell_measurement_theta_max      34.6
+_cell_measurement_theta_min      14.3
+_cell_volume                     644.73(12)
+_diffrn_measurement_device       'Enraf-Nonius CAD-4'
+_diffrn_measurement_method       \w-2\q
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.053
+_diffrn_reflns_limit_h_max       12
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       14
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       16
+_diffrn_reflns_limit_l_min       -16
+_diffrn_reflns_number            3136
+_diffrn_reflns_theta_max         35
+_diffrn_standards_decay_%        -0.1
+_diffrn_standards_interval_time  90
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    15.75
+_exptl_absorpt_correction_T_max  1.1191
+_exptl_absorpt_correction_T_min  0.9360
+_exptl_absorpt_correction_type   'empirical (DIFABS; Walker & Stuart, 1983)'
+_exptl_crystal_colour            Black
+_exptl_crystal_density_diffrn    7.691
+_exptl_crystal_description       irregular
+_exptl_crystal_size_max          0.14
+_exptl_crystal_size_mid          0.12
+_exptl_crystal_size_min          0.11
+_refine_diff_density_max         1.82
+_refine_diff_density_min         -0.81
+_refine_ls_extinction_coef       1.024E-6(4)
+_refine_ls_extinction_method     'Stout & Jensen (1968)'
+_refine_ls_goodness_of_fit_obs   0.971
+_refine_ls_number_parameters     128
+_refine_ls_number_reflns         2383
+_refine_ls_R_factor_obs          0.026
+_refine_ls_shift/esd_max         <0.01
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details
+'w = 1/[\s^2^(F~o~) +0.0004F~o~^2^ + 1] (Killean & Lawrence, 1969)'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.033
+_reflns_number_observed          2383
+_reflns_number_total             2712
+_reflns_observed_criterion       I>2\s(I)
+_cod_data_source_file            du1072.cif
+_cod_data_source_block           du1072_structure_1_of_1
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'w = 1/[\s^2^(F~o~)
++0.0004F~o~^2^ + 1] (Killean & Lawrence, 1969)' was changed to
+'calc'. New tag '_refine_ls_weighting_details' was created. The value
+of the new tag was set to 'w = 1/[\s^2^(F~o~) +0.0004F~o~^2^ + 1]
+(Killean & Lawrence, 1969)'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        644.80(10)
+_cod_original_sg_symbol_H-M      'P 21/c'
+_cod_original_formula_sum        'La1 Mo5 O8'
+_cod_database_code               2009947
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+La .26116(3) .50420(3) .54004(2)
+Mo(1) .60479(5) -.11487(4) .48630(4)
+Mo(2) .38294(5) -.11760(4) .67700(4)
+Mo(3) .17316(5) -.12698(4) .38316(3)
+Mo(4) .80851(5) -.12966(4) .29787(3)
+Mo(5) -.00274(4) -.12239(4) .58649(3)
+O(1) .3973(4) .0060(4) .8483(3)
+O(2) -.0013(4) -.2223(3) .9331(3)
+O(3) -.0125(4) .0017(4) .2310(3)
+O(4) .3922(4) -.2492(4) .0130(3)
+O(5) .7947(4) -.2427(4) .1152(3)
+O(6) .2001(4) -.2412(4) .2094(3)
+O(7) .6049(4) -.2360(4) .8286(3)
+O(8) .3844(4) -.0069(5) .3286(3)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Mo(1) Mo(2) 2.6816(5) yes
+Mo(1) Mo(4) 2.7876(5) yes
+Mo(1) Mo(5) 2.8094(5) yes
+Mo(1) Mo(3) 2.8124(5) yes
+Mo(1) Mo(1)* 2.6890(7) yes
+Mo(1) Mo(2)* 2.9108(5) yes
+Mo(1) Mo(3)* 3.0911(5) yes
+Mo(2) Mo(5) 2.7609(5) yes
+Mo(2) Mo(4) 2.7288(5) yes
+Mo(2) Mo(3) 2.8279(5) yes
+Mo(3) Mo(4) 2.6102(5) yes
+Mo(3) Mo(5) 2.6727(5) yes
+Mo(3) Mo(5) 2.7558(5) yes
+Mo(4) Mo(5) 2.7505(5) yes
+Mo(4) Mo(5) 2.7605(5) yes
+Mo(5) Mo(5) 2.8172(7) yes
+Mo(1) O(5) 2.043(3) yes
+Mo(1) O(7) 2.069(3) yes
+Mo(1) O(4) 2.113(3) yes
+Mo(1) O(8) 2.119(3) yes
+Mo(1) O(8) 2.122(3) yes
+Mo(2) O(6) 1.990(3) yes
+Mo(2) O(1) 2.009(3) yes
+Mo(2) O(4) 2.046(3) yes
+Mo(2) O(8) 2.110(3) yes
+Mo(2) O(7) 2.142(3) yes
+Mo(3) O(3) 2.058(3) yes
+Mo(3) O(2) 2.072(3) yes
+Mo(3) O(4) 2.067(3) yes
+Mo(3) O(6) 2.077(3) yes
+Mo(3) O(8) 2.146(3) yes
+Mo(4) O(3) 2.070(3) yes
+Mo(4) O(7) 2.066(3) yes
+Mo(4) O(1) 2.078(3) yes
+Mo(4) O(5) 2.055(3) yes
+Mo(4) O(2) 2.103(3) yes
+Mo(5) O(5) 2.055(3) yes
+Mo(5) O(6) 2.039(3) yes
+Mo(5) O(2) 2.077(3) yes
+Mo(5) O(3) 2.086(3) yes
+La O(1) 2.443(3) yes
+La O(1) 2.458(3) yes
+La O(4) 2.487(3) yes
+La O(7) 2.574(3) yes
+La O(5) 2.676(3) yes
+La O(8) 2.704(3) yes
+La O(3) 2.732(3) yes
+La O(2) 2.761(3) yes
+La O(6) 2.860(3) yes
+La O(2) 2.919(3) yes
+La O(3) 3.232(3) yes

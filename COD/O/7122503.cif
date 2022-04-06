@@ -1,0 +1,714 @@
+#------------------------------------------------------------------------------
+#$Date: 2019-11-17 05:56:20 +0200 (Sun, 17 Nov 2019) $
+#$Revision: 228256 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/7/12/25/7122503.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7122503
+loop_
+_publ_author_name
+'Pace, Kristen A.'
+'Klepov, Vladislav V.'
+'Morrison, Gregory'
+'Zur Loye, Hans-Conrad'
+_publ_section_title
+;
+ Moderate supercritical synthesis as a facile route to mixed-valent
+ uranium(iv,v) and (v,vi) silicates.
+;
+_journal_issue                   98
+_journal_name_full
+'Chemical communications (Cambridge, England)'
+_journal_page_first              13794
+_journal_page_last               13797
+_journal_paper_doi               10.1039/c8cc07789d
+_journal_volume                  54
+_journal_year                    2018
+_chemical_formula_moiety         '0.25(Na4 O44 Rb8 Si8 U8)'
+_chemical_formula_sum            'Na O11 Rb2 Si2 U2'
+_chemical_formula_weight         902.17
+_space_group_crystal_system      orthorhombic
+_space_group_IT_number           56
+_space_group_name_Hall           '-P 2ab 2ac'
+_space_group_name_H-M_alt        'P c c n'
+_symmetry_space_group_name_Hall  '-P 2ab 2ac'
+_symmetry_space_group_name_H-M   'P c c n'
+_audit_creation_date             2018-06-26
+_audit_creation_method
+;
+Olex2 1.2
+(compiled 2018.05.29 svn.r3510 for OlexSys, GUI svn.r5506)
+;
+_audit_update_record
+;
+2018-06-26 deposited with the CCDC.
+2018-10-24 downloaded from the CCDC.
+;
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   13.6169(4)
+_cell_length_b                   7.3529(2)
+_cell_length_c                   11.4921(4)
+_cell_measurement_reflns_used    9141
+_cell_measurement_temperature    300(2)
+_cell_measurement_theta_max      36.34
+_cell_measurement_theta_min      2.32
+_cell_volume                     1150.63(6)
+_computing_molecular_graphics    'Olex2 (Dolomanov et al., 2009)'
+_computing_publication_material  'Olex2 (Dolomanov et al., 2009)'
+_computing_structure_refinement  'ShelXL (Sheldrick, 2015)'
+_computing_structure_solution    'SHELXT 2014/5 (Sheldrick, 2014)'
+_diffrn_ambient_temperature      300.01
+_diffrn_measured_fraction_theta_full 0.997
+_diffrn_measured_fraction_theta_max 0.999
+_diffrn_measurement_device_type  'Bruker APEX-II CCD'
+_diffrn_measurement_method       '\f and \w scans'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0572
+_diffrn_reflns_av_unetI/netI     0.0167
+_diffrn_reflns_Laue_measured_fraction_full 0.997
+_diffrn_reflns_Laue_measured_fraction_max 0.999
+_diffrn_reflns_limit_h_max       20
+_diffrn_reflns_limit_h_min       -20
+_diffrn_reflns_limit_k_max       11
+_diffrn_reflns_limit_k_min       -11
+_diffrn_reflns_limit_l_max       17
+_diffrn_reflns_limit_l_min       -17
+_diffrn_reflns_number            90680
+_diffrn_reflns_point_group_measured_fraction_full 0.997
+_diffrn_reflns_point_group_measured_fraction_max 0.999
+_diffrn_reflns_theta_full        25.242
+_diffrn_reflns_theta_max         33.128
+_diffrn_reflns_theta_min         3.546
+_diffrn_standards_number         0
+_exptl_absorpt_coefficient_mu    36.812
+_exptl_absorpt_correction_T_max  0.2740
+_exptl_absorpt_correction_T_min  0.0862
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details
+;
+SADABS-2016/2 (Bruker,2016) was used for absorption correction.
+wR2(int) was 0.1622 before and 0.0836 after correction.
+The Ratio of minimum to maximum transmission is 0.3146.
+The \l/2 correction factor is Not present.
+;
+_exptl_crystal_colour            black
+_exptl_crystal_density_diffrn    5.208
+_exptl_crystal_description       hexagonal
+_exptl_crystal_F_000             1540
+_exptl_crystal_size_max          0.143
+_exptl_crystal_size_mid          0.108
+_exptl_crystal_size_min          0.02
+_refine_diff_density_max         2.539
+_refine_diff_density_min         -2.803
+_refine_diff_density_rms         0.390
+_refine_ls_extinction_coef       0.00165(12)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     'SHELXL-2018/3 (Sheldrick 2018)'
+_refine_ls_goodness_of_fit_ref   1.232
+_refine_ls_hydrogen_treatment    undef
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     86
+_refine_ls_number_reflns         2193
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.232
+_refine_ls_R_factor_all          0.0261
+_refine_ls_R_factor_gt           0.0256
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w=1/[\s^2^(Fo^2^)+(0.0268P)^2^+11.8519P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0636
+_refine_ls_wR_factor_ref         0.0639
+_reflns_Friedel_coverage         0.000
+_reflns_number_gt                2156
+_reflns_number_total             2193
+_reflns_threshold_expression     'I > 2\s(I)'
+_cod_data_source_file            c8cc07789d2.cif
+_cod_data_source_block           Rb2Na[(UO2)2(Si2O7)]
+_cod_depositor_comments
+'Adding full bibliography for 7122499--7122503.cif.'
+_cod_database_code               7122503
+_shelx_space_group_comment
+;
+The symmetry employed for this shelxl refinement is uniquely defined
+by the following loop, which should always be used as a source of
+symmetry information in preference to the above space-group names.
+They are only intended as comments.
+;
+_shelx_estimated_absorpt_t_max   0.526
+_shelx_estimated_absorpt_t_min   0.077
+_olex2_refinement_description
+;
+;
+_shelx_res_file
+;
+TITL 1_a.res in Pccn
+    kap1085a.res
+    created by SHELXL-2018/3 at 14:31:43 on 26-Jun-2018
+REM Old TITL 1 in Pccn
+REM SHELXT solution in Pccn
+REM R1 0.133, Rweak 0.001, Alpha 0.018, Orientation as input
+REM Formula found by SHELXT: O11 Na Si2 Rb2 U2
+CELL 0.71073 13.6169 7.3529 11.4921 90 90 90
+ZERR 4 0.0004 0.0002 0.0004 0 0 0
+LATT 1
+SYMM 0.5-X,0.5-Y,+Z
+SYMM -X,0.5+Y,0.5-Z
+SYMM 0.5+X,-Y,0.5-Z
+SFAC O Na Si Rb U
+UNIT 44 4 8 8 8
+
+L.S. 10
+PLAN  20
+SIZE 0.02 0.108 0.143
+TEMP 26.86
+fmap 2
+acta
+SHEL 6 0.65
+REM <olex2.extras>
+REM <HklSrc "%./KAP1085A.hkl">
+REM </olex2.extras>
+
+WGHT    0.026800   11.851901
+EXTI    0.001653
+FVAR       0.14784
+U1    5    0.750000    0.250000    0.068828    10.50000    0.00681    0.00763 =
+         0.00443    0.00000    0.00000   -0.00099
+U2    5    0.500000    0.500000    0.500000    10.50000    0.00745    0.01134 =
+         0.00796    0.00087    0.00051    0.00161
+RB1   4    0.459000    0.489061    0.160351    11.00000    0.02020    0.03076 =
+         0.02299    0.00010   -0.00511   -0.00223
+SI1   3    0.707012    0.548445    0.323361    11.00000    0.00922    0.00932 =
+         0.00733    0.00032    0.00177   -0.00082
+NA1   2    0.750000    0.750000    0.076708    10.50000    0.02357    0.02058 =
+         0.02011    0.00000    0.00000    0.00153
+O1    1    0.601310    0.219005    0.061715    11.00000    0.00914    0.01348 =
+         0.02260   -0.00526    0.00070   -0.00274
+O2    1    0.762176    0.461785    0.434193    11.00000    0.01130    0.07877 =
+         0.05149    0.05530   -0.00141   -0.00060
+O3    1    0.750000    0.750000    0.309530    10.50000    0.05356    0.01149 =
+         0.09448    0.00000    0.00000   -0.01133
+O4    1    0.570875    0.672766    0.579499    11.00000    0.01650    0.01800 =
+         0.02449   -0.00556   -0.00646   -0.00218
+O5    1    0.735997    0.458524    0.202428    11.00000    0.02531    0.07234 =
+         0.04930   -0.04971    0.01120   -0.01025
+O6    1    0.589920    0.553198    0.342261    11.00000    0.00996    0.05759 =
+         0.01314    0.00645    0.00321    0.00632
+HKLF 4
+
+
+
+
+REM  1_a.res in Pccn
+REM wR2 = 0.0639, GooF = S = 1.232, Restrained GooF = 1.232 for all data
+REM R1 = 0.0256 for 2156 Fo > 4sig(Fo) and 0.0261 for all 2193 data
+REM 86 parameters refined using 0 restraints
+
+END
+
+WGHT      0.0257     11.7097
+
+REM Highest difference peak  2.539,  deepest hole -2.803,  1-sigma level  0.390
+Q1    1   0.4411  0.5616  0.1774  11.00000  0.05    2.54
+Q2    1   0.7500  0.2500  0.1312  10.50000  0.05    2.20
+Q3    1   0.5021  0.4941  0.1623  11.00000  0.05    2.08
+Q4    1   0.4973  0.5912  0.4991  11.00000  0.05    1.79
+Q5    1   0.4529  0.5030  0.4955  11.00000  0.05    1.56
+Q6    1   0.7500  0.7500  0.2186  10.50000  0.05    1.47
+Q7    1   0.7569  0.4922  0.4521  11.00000  0.05    1.41
+Q8    1   0.5006  0.4996  0.5588  11.00000  0.05    1.40
+Q9    1   0.5497  0.4540  0.1769  11.00000  0.05    1.37
+Q10   1   0.4124  0.4876  0.4994  11.00000  0.05    1.36
+Q11   1   0.7243  0.4953  0.1838  11.00000  0.05    1.35
+Q12   1   0.7293  0.7522  0.3570  11.00000  0.05    1.34
+Q13   1   0.4741  0.4929  0.1203  11.00000  0.05    1.34
+Q14   1   0.7922  0.4655  0.3196  11.00000  0.05    1.26
+Q15   1   0.7488  0.1413  0.0683  11.00000  0.05    1.26
+Q16   1   0.6689  0.7110  0.0656  11.00000  0.05    1.13
+Q17   1   0.7325  0.7096  0.4225  11.00000  0.05    1.10
+Q18   1   0.6699  0.7875  0.0755  11.00000  0.05    1.07
+Q19   1   0.5384  0.5043  0.6718  11.00000  0.05    1.06
+Q20   1   0.7983  0.4941  0.1836  11.00000  0.05    1.00
+;
+_shelx_res_checksum              15642
+_olex2_submission_special_instructions 'No special instructions were received'
+loop_
+_space_group_symop_operation_xyz
+'x, y, z'
+'-x+1/2, -y+1/2, z'
+'-x, y+1/2, -z+1/2'
+'x+1/2, -y, -z+1/2'
+'-x, -y, -z'
+'x-1/2, y-1/2, -z'
+'x, -y-1/2, z-1/2'
+'-x-1/2, y, z-1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_site_symmetry_order
+_atom_site_calc_flag
+_atom_site_refinement_flags_posn
+_atom_site_refinement_flags_adp
+_atom_site_refinement_flags_occupancy
+U1 U 0.750000 0.250000 0.06883(2) 0.00629(7) Uani 1 2 d S T P
+U2 U 0.500000 0.500000 0.500000 0.00891(7) Uani 1 2 d S T P
+Rb1 Rb 0.45900(4) 0.48906(8) 0.16035(5) 0.02465(12) Uani 1 1 d . . .
+Si1 Si 0.70701(9) 0.54844(16) 0.32336(10) 0.0086(2) Uani 1 1 d . . .
+Na1 Na 0.750000 0.750000 0.0767(3) 0.0214(6) Uani 1 2 d S T P
+O1 O 0.6013(3) 0.2190(5) 0.0617(3) 0.0151(6) Uani 1 1 d . . .
+O2 O 0.7622(3) 0.4618(10) 0.4342(5) 0.0472(18) Uani 1 1 d . . .
+O3 O 0.750000 0.750000 0.3095(10) 0.053(3) Uani 1 2 d S T P
+O4 O 0.5709(3) 0.6728(5) 0.5795(3) 0.0197(7) Uani 1 1 d . . .
+O5 O 0.7360(4) 0.4585(10) 0.2024(6) 0.0490(18) Uani 1 1 d . . .
+O6 O 0.5899(3) 0.5532(8) 0.3423(3) 0.0269(9) Uani 1 1 d . . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+U1 0.00681(10) 0.00763(10) 0.00443(10) 0.000 0.000 -0.00099(6)
+U2 0.00745(11) 0.01134(11) 0.00796(11) 0.00087(6) 0.00051(6) 0.00161(6)
+Rb1 0.0202(2) 0.0308(3) 0.0230(2) 0.00010(19) -0.00511(19) -0.00223(18)
+Si1 0.0092(5) 0.0093(5) 0.0073(5) 0.0003(3) 0.0018(4) -0.0008(4)
+Na1 0.0236(16) 0.0206(15) 0.0201(15) 0.000 0.000 0.0015(12)
+O1 0.0091(13) 0.0135(14) 0.0226(17) -0.0053(12) 0.0007(11) -0.0027(11)
+O2 0.0113(18) 0.079(4) 0.051(3) 0.055(3) -0.0014(18) -0.001(2)
+O3 0.054(5) 0.011(3) 0.094(8) 0.000 0.000 -0.011(3)
+O4 0.0165(16) 0.0180(16) 0.0245(18) -0.0056(13) -0.0065(13) -0.0022(13)
+O5 0.025(2) 0.072(4) 0.049(3) -0.050(3) 0.011(2) -0.010(2)
+O6 0.0100(14) 0.058(3) 0.0131(15) 0.0065(18) 0.0032(13) 0.0063(17)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Na Na 0.0362 0.0249 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Si Si 0.0817 0.0704 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Rb Rb -0.9393 2.9676 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+U U -9.6767 9.6646 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+U2 U1 U2 156.890(5) 3_645 4_565
+U2 U1 Rb1 103.810(8) 4_565 5_665
+U2 U1 Rb1 103.810(8) 3_645 6_655
+U2 U1 Rb1 61.146(8) 3_645 5_665
+U2 U1 Rb1 61.146(8) 4_565 6_655
+Rb1 U1 Rb1 104.999(17) 5_665 6_655
+Na1 U1 U2 62.585(13) 1_545 3_645
+Na1 U1 U2 118.054(11) . 3_645
+Na1 U1 U2 118.054(11) 1_545 4_565
+Na1 U1 U2 62.585(13) . 4_565
+Na1 U1 Rb1 117.28(4) 1_545 5_665
+Na1 U1 Rb1 64.64(4) 1_545 6_655
+Na1 U1 Rb1 117.28(4) . 6_655
+Na1 U1 Rb1 64.64(4) . 5_665
+Na1 U1 Na1 177.18(10) 1_545 .
+O1 U1 U2 23.65(10) 2_655 4_565
+O1 U1 U2 23.65(10) . 3_645
+O1 U1 U2 154.16(10) 2_655 3_645
+O1 U1 U2 154.16(10) . 4_565
+O1 U1 Rb1 125.39(10) 2_655 5_665
+O1 U1 Rb1 125.39(10) . 6_655
+O1 U1 Rb1 51.10(11) 2_655 6_655
+O1 U1 Rb1 51.10(11) . 5_665
+O1 U1 Na1 96.47(10) . .
+O1 U1 Na1 96.47(10) 2_655 1_545
+O1 U1 Na1 83.64(10) 2_655 .
+O1 U1 Na1 83.64(10) . 1_545
+O1 U1 O1 175.4(2) 2_655 .
+O1 U1 O2 88.63(16) 2_655 7_565
+O1 U1 O2 88.63(16) . 8_755
+O1 U1 O2 88.14(15) . 7_565
+O1 U1 O2 88.14(15) 2_655 8_755
+O1 U1 O5 91.15(17) . .
+O1 U1 O5 92.09(17) . 2_655
+O1 U1 O5 92.09(17) 2_655 .
+O1 U1 O5 91.15(17) 2_655 2_655
+O2 U1 U2 97.10(14) 7_565 4_565
+O2 U1 U2 66.10(12) 7_565 3_645
+O2 U1 U2 66.10(12) 8_755 4_565
+O2 U1 U2 97.10(14) 8_755 3_645
+O2 U1 Rb1 86.29(18) 7_565 5_665
+O2 U1 Rb1 37.71(12) 7_565 6_655
+O2 U1 Rb1 86.29(18) 8_755 6_655
+O2 U1 Rb1 37.71(12) 8_755 5_665
+O2 U1 Na1 46.4(2) 8_755 .
+O2 U1 Na1 136.4(2) 7_565 .
+O2 U1 Na1 46.4(2) 7_565 1_545
+O2 U1 Na1 136.4(2) 8_755 1_545
+O2 U1 O2 90.7(4) 7_565 8_755
+O5 U1 U2 83.63(15) 2_655 3_645
+O5 U1 U2 113.17(13) 2_655 4_565
+O5 U1 U2 83.63(15) . 4_565
+O5 U1 U2 113.17(13) . 3_645
+O5 U1 Rb1 143.02(14) 2_655 5_665
+O5 U1 Rb1 93.4(2) 2_655 6_655
+O5 U1 Rb1 93.4(2) . 5_665
+O5 U1 Rb1 143.02(14) . 6_655
+O5 U1 Na1 43.9(2) 2_655 1_545
+O5 U1 Na1 133.3(2) 2_655 .
+O5 U1 Na1 133.3(2) . 1_545
+O5 U1 Na1 43.9(2) . .
+O5 U1 O2 179.26(19) . 7_565
+O5 U1 O2 89.5(3) . 8_755
+O5 U1 O2 179.26(19) 2_655 8_755
+O5 U1 O2 89.5(3) 2_655 7_565
+O5 U1 O5 90.4(4) 2_655 .
+U1 U2 U1 180.0 3_655 7_566
+U1 U2 Na1 124.642(5) 3_655 7_576
+U1 U2 Na1 55.358(5) 3_655 3_645
+U1 U2 Na1 55.358(5) 7_566 7_576
+U1 U2 Na1 124.642(5) 7_566 3_645
+Rb1 U2 U1 71.893(9) . 3_655
+Rb1 U2 U1 108.107(9) . 7_566
+Rb1 U2 U1 71.893(9) 5_666 7_566
+Rb1 U2 U1 108.107(9) 5_666 3_655
+Rb1 U2 Rb1 180.0 . 5_666
+Rb1 U2 Na1 69.47(5) . 3_645
+Rb1 U2 Na1 110.53(5) 5_666 3_645
+Rb1 U2 Na1 110.53(5) . 7_576
+Rb1 U2 Na1 69.47(5) 5_666 7_576
+Na1 U2 Na1 180.0 7_576 3_645
+O1 U2 U1 21.46(9) 7_566 7_566
+O1 U2 U1 158.54(9) 3_655 7_566
+O1 U2 U1 158.54(9) 7_566 3_655
+O1 U2 U1 21.46(9) 3_655 3_655
+O1 U2 Rb1 112.74(10) 3_655 5_666
+O1 U2 Rb1 67.26(10) 3_655 .
+O1 U2 Rb1 112.74(10) 7_566 .
+O1 U2 Rb1 67.26(10) 7_566 5_666
+O1 U2 Na1 105.44(9) 3_655 7_576
+O1 U2 Na1 74.56(9) 3_655 3_645
+O1 U2 Na1 74.56(9) 7_566 7_576
+O1 U2 Na1 105.44(9) 7_566 3_645
+O1 U2 O1 180.0 7_566 3_655
+O4 U2 U1 103.32(12) 5_666 7_566
+O4 U2 U1 103.32(12) . 3_655
+O4 U2 U1 76.68(12) . 7_566
+O4 U2 U1 76.68(12) 5_666 3_655
+O4 U2 Rb1 54.53(13) . 5_666
+O4 U2 Rb1 125.47(13) 5_666 5_666
+O4 U2 Rb1 125.47(13) . .
+O4 U2 Rb1 54.53(13) 5_666 .
+O4 U2 Na1 28.25(13) . 7_576
+O4 U2 Na1 28.25(13) 5_666 3_645
+O4 U2 Na1 151.75(13) 5_666 7_576
+O4 U2 Na1 151.75(13) . 3_645
+O4 U2 O1 90.92(16) . 7_566
+O4 U2 O1 90.92(16) 5_666 3_655
+O4 U2 O1 89.08(16) . 3_655
+O4 U2 O1 89.08(16) 5_666 7_566
+O4 U2 O4 180.0 . 5_666
+O4 U2 O6 89.68(19) 5_666 5_666
+O4 U2 O6 90.31(19) . 5_666
+O4 U2 O6 89.69(19) . .
+O4 U2 O6 90.32(19) 5_666 .
+O6 U2 U1 76.72(11) 5_666 3_655
+O6 U2 U1 103.28(11) 5_666 7_566
+O6 U2 U1 103.28(11) . 3_655
+O6 U2 U1 76.72(11) . 7_566
+O6 U2 Rb1 43.47(11) 5_666 5_666
+O6 U2 Rb1 43.47(11) . .
+O6 U2 Rb1 136.53(11) . 5_666
+O6 U2 Rb1 136.53(11) 5_666 .
+O6 U2 Na1 111.90(13) 5_666 7_576
+O6 U2 Na1 68.10(13) 5_666 3_645
+O6 U2 Na1 111.90(13) . 3_645
+O6 U2 Na1 68.10(13) . 7_576
+O6 U2 O1 87.39(15) 5_666 7_566
+O6 U2 O1 87.39(15) . 3_655
+O6 U2 O1 92.61(15) . 7_566
+O6 U2 O1 92.61(15) 5_666 3_655
+O6 U2 O6 180.0 5_666 .
+Si1 Rb1 Rb1 110.10(3) 4_465 5_665
+Si1 Rb1 O4 83.02(7) 4_465 3_645
+O1 Rb1 Rb1 48.14(6) 5_665 5_665
+O1 Rb1 Rb1 58.58(7) . 5_665
+O1 Rb1 Si1 81.51(6) 5_665 4_465
+O1 Rb1 Si1 127.67(7) . 4_465
+O1 Rb1 O1 106.72(8) . 5_665
+O1 Rb1 O3 103.87(10) . 3_645
+O1 Rb1 O4 79.01(8) 5_665 3_645
+O1 Rb1 O4 100.76(10) . 5_666
+O1 Rb1 O4 95.83(10) . 7_575
+O1 Rb1 O4 50.26(9) . 3_645
+O1 Rb1 O5 144.84(14) . 4_465
+O1 Rb1 O5 93.41(14) 5_665 4_465
+O1 Rb1 O6 58.63(10) . 3_645
+O2 Rb1 Rb1 84.54(11) 4_465 5_665
+O2 Rb1 Si1 27.73(9) 4_465 4_465
+O2 Rb1 O1 122.39(17) 4_465 .
+O2 Rb1 O1 54.94(11) 4_465 5_665
+O2 Rb1 O3 47.54(16) 4_465 3_645
+O2 Rb1 O4 105.89(11) 4_465 5_666
+O2 Rb1 O4 72.14(17) 4_465 3_645
+O2 Rb1 O4 104.11(13) 4_465 7_575
+O2 Rb1 O5 49.15(16) 4_465 4_465
+O2 Rb1 O6 86.04(16) 4_465 3_645
+O3 Rb1 Rb1 111.4(2) 3_645 5_665
+O3 Rb1 Si1 27.16(3) 3_645 4_465
+O3 Rb1 O1 101.58(16) 3_645 5_665
+O3 Rb1 O4 69.41(18) 3_645 3_645
+O3 Rb1 O5 42.70(15) 3_645 4_465
+O4 Rb1 Rb1 158.92(8) 5_666 5_665
+O4 Rb1 Rb1 48.16(6) 3_645 5_665
+O4 Rb1 Rb1 62.07(8) 7_575 5_665
+O4 Rb1 Si1 78.21(7) 5_666 4_465
+O4 Rb1 Si1 125.23(8) 7_575 4_465
+O4 Rb1 O1 152.16(10) 5_666 5_665
+O4 Rb1 O1 52.09(9) 7_575 5_665
+O4 Rb1 O3 66.9(2) 5_666 3_645
+O4 Rb1 O3 151.30(11) 7_575 3_645
+O4 Rb1 O4 116.80(4) 5_666 3_645
+O4 Rb1 O4 110.23(8) 7_575 3_645
+O4 Rb1 O4 129.82(9) 7_575 5_666
+O4 Rb1 O5 60.55(14) 5_666 4_465
+O4 Rb1 O5 119.15(15) 7_575 4_465
+O4 Rb1 O6 67.90(10) 5_666 3_645
+O4 Rb1 O6 153.37(10) 7_575 3_645
+O5 Rb1 Rb1 133.53(11) 4_465 5_665
+O5 Rb1 Si1 26.66(8) 4_465 4_465
+O5 Rb1 O4 108.71(10) 4_465 3_645
+O6 Rb1 Rb1 121.65(8) . 5_665
+O6 Rb1 Rb1 95.22(7) 3_645 5_665
+O6 Rb1 Si1 73.72(7) 3_645 4_465
+O6 Rb1 Si1 127.54(8) . 4_465
+O6 Rb1 O1 88.98(12) . .
+O6 Rb1 O1 127.19(12) . 5_665
+O6 Rb1 O1 123.81(9) 3_645 5_665
+O6 Rb1 O2 147.85(17) . 4_465
+O6 Rb1 O3 123.5(2) . 3_645
+O6 Rb1 O3 46.92(7) 3_645 3_645
+O6 Rb1 O4 48.92(9) 3_645 3_645
+O6 Rb1 O4 76.82(12) . 7_575
+O6 Rb1 O4 138.56(12) . 3_645
+O6 Rb1 O4 56.70(11) . 5_666
+O6 Rb1 O5 101.63(12) . 4_465
+O6 Rb1 O5 86.23(14) 3_645 4_465
+O6 Rb1 O6 107.62(14) . 3_645
+Rb1 Si1 Rb1 67.55(2) . 3_655
+Rb1 Si1 Rb1 151.89(4) 4_565 .
+Rb1 Si1 Rb1 129.19(3) 4_565 3_655
+Na1 Si1 Rb1 72.15(3) 7_576 3_655
+Na1 Si1 Rb1 84.53(3) . 4_565
+Na1 Si1 Rb1 76.75(3) . 3_655
+Na1 Si1 Rb1 77.73(3) . .
+Na1 Si1 Rb1 128.77(4) 7_576 .
+Na1 Si1 Rb1 79.20(3) 7_576 4_565
+Na1 Si1 Na1 121.97(4) . 7_576
+O2 Si1 Rb1 137.9(2) . .
+O2 Si1 Rb1 57.39(16) . 4_565
+O2 Si1 Rb1 123.6(3) . 3_655
+O2 Si1 Na1 141.81(17) . .
+O2 Si1 Na1 53.2(3) . 7_576
+O3 Si1 Rb1 111.9(2) . .
+O3 Si1 Rb1 73.48(6) . 4_565
+O3 Si1 Rb1 57.01(6) . 3_655
+O3 Si1 Na1 55.0(4) . .
+O3 Si1 Na1 67.0(4) . 7_576
+O3 Si1 O2 105.9(4) . .
+O3 Si1 O6 110.8(2) . .
+O5 Si1 Rb1 76.5(2) . 4_565
+O5 Si1 Rb1 121.6(3) . 3_655
+O5 Si1 Rb1 75.4(2) . .
+O5 Si1 Na1 51.9(3) . .
+O5 Si1 Na1 155.4(2) . 7_576
+O5 Si1 O2 114.3(4) . .
+O5 Si1 O3 102.0(5) . .
+O5 Si1 O6 111.9(3) . .
+O6 Si1 Rb1 168.63(15) . 4_565
+O6 Si1 Rb1 53.8(2) . 3_655
+O6 Si1 Rb1 37.51(15) . .
+O6 Si1 Na1 92.67(17) . 7_576
+O6 Si1 Na1 106.62(16) . .
+O6 Si1 O2 111.3(2) . .
+Si1 Na1 U1 115.14(8) 8_755 1_565
+Si1 Na1 U1 64.27(3) 2_665 1_565
+Si1 Na1 U1 118.49(8) . 1_565
+Si1 Na1 U1 62.10(3) 7_575 1_565
+Si1 Na1 Si1 159.46(4) . 7_575
+Si1 Na1 Si1 159.46(4) 2_665 8_755
+Si1 Na1 Si1 126.36(4) 2_665 7_575
+Si1 Na1 Si1 57.38(7) 8_755 7_575
+Si1 Na1 Si1 126.36(4) . 8_755
+Si1 Na1 Si1 58.69(7) 2_665 .
+O2 Na1 U1 36.44(9) 7_575 1_565
+O2 Na1 U1 140.76(14) 8_755 1_565
+O2 Na1 Si1 154.57(12) 8_755 2_665
+O2 Na1 Si1 99.26(10) 7_575 2_665
+O2 Na1 Si1 154.57(12) 7_575 .
+O2 Na1 Si1 99.26(10) 8_755 .
+O2 Na1 Si1 28.70(10) 8_755 8_755
+O2 Na1 Si1 78.83(13) 7_575 8_755
+O2 Na1 Si1 28.70(10) 7_575 7_575
+O2 Na1 Si1 78.83(13) 8_755 7_575
+O2 Na1 O2 104.8(2) 8_755 7_575
+O3 Na1 U1 91.41(5) . 1_565
+O3 Na1 Si1 151.31(3) . 7_575
+O3 Na1 Si1 29.34(4) . .
+O3 Na1 Si1 29.34(4) . 2_665
+O3 Na1 Si1 151.31(3) . 8_755
+O3 Na1 O2 127.61(11) . 7_575
+O3 Na1 O2 127.61(11) . 8_755
+O4 Na1 U1 76.92(9) 7_575 1_565
+O4 Na1 U1 103.12(9) 8_755 1_565
+O4 Na1 Si1 106.51(13) 8_755 7_575
+O4 Na1 Si1 93.49(12) 8_755 .
+O4 Na1 Si1 93.49(12) 7_575 2_665
+O4 Na1 Si1 74.82(11) 7_575 7_575
+O4 Na1 Si1 85.23(11) 7_575 .
+O4 Na1 Si1 74.82(11) 8_755 8_755
+O4 Na1 Si1 106.51(13) 7_575 8_755
+O4 Na1 Si1 85.23(11) 8_755 2_665
+O4 Na1 O2 97.28(14) 8_755 7_575
+O4 Na1 O2 97.28(14) 7_575 8_755
+O4 Na1 O2 83.62(13) 7_575 7_575
+O4 Na1 O2 83.62(13) 8_755 8_755
+O4 Na1 O3 89.27(12) 8_755 .
+O4 Na1 O3 89.27(12) 7_575 .
+O4 Na1 O4 178.5(2) 8_755 7_575
+O4 Na1 O5 96.24(16) 8_755 2_665
+O4 Na1 O5 96.24(15) 7_575 .
+O4 Na1 O5 82.94(16) 7_575 2_665
+O4 Na1 O5 82.94(16) 8_755 .
+O5 Na1 U1 35.61(10) 2_665 1_565
+O5 Na1 U1 147.18(15) . 1_565
+O5 Na1 Si1 147.70(14) . 7_575
+O5 Na1 Si1 28.83(11) . .
+O5 Na1 Si1 97.63(11) 2_665 7_575
+O5 Na1 Si1 147.70(14) 2_665 8_755
+O5 Na1 Si1 97.63(11) . 8_755
+O5 Na1 Si1 84.50(14) . 2_665
+O5 Na1 Si1 84.50(14) 2_665 .
+O5 Na1 Si1 28.83(11) 2_665 2_665
+O5 Na1 O2 71.50(15) . 8_755
+O5 Na1 O2 176.23(18) 2_665 8_755
+O5 Na1 O2 176.23(18) . 7_575
+O5 Na1 O2 71.50(15) 2_665 7_575
+O5 Na1 O3 56.12(12) . .
+O5 Na1 O3 56.12(12) 2_665 .
+O5 Na1 O5 112.2(2) 2_665 .
+U1 O1 U2 134.90(18) . 3_645
+U1 O1 Rb1 101.38(13) . 5_665
+U1 O1 Rb1 123.56(14) . .
+U2 O1 Rb1 101.43(12) 3_645 .
+U2 O1 Rb1 93.84(12) 3_645 5_665
+Rb1 O1 Rb1 73.28(8) . 5_665
+U1 O2 Rb1 114.77(18) 7_566 4_565
+U1 O2 Na1 97.2(2) 7_566 7_576
+Si1 O2 U1 143.2(3) . 7_566
+Si1 O2 Rb1 94.9(2) . 4_565
+Si1 O2 Na1 98.1(3) . 7_576
+Na1 O2 Rb1 100.7(2) 7_576 4_565
+Rb1 O3 Rb1 168.2(4) 4_565 3_655
+Si1 O3 Rb1 99.45(9) . 3_655
+Si1 O3 Rb1 79.36(7) . 4_565
+Si1 O3 Rb1 99.45(9) 2_665 4_565
+Si1 O3 Rb1 79.36(7) 2_665 3_655
+Si1 O3 Si1 168.6(8) . 2_665
+Si1 O3 Na1 95.7(4) 2_665 .
+Si1 O3 Na1 95.7(4) . .
+Na1 O3 Rb1 95.9(2) . 3_655
+Na1 O3 Rb1 95.9(2) . 4_565
+U2 O4 Rb1 116.81(17) . 7_576
+U2 O4 Rb1 97.97(16) . 5_666
+U2 O4 Rb1 90.37(14) . 3_655
+U2 O4 Na1 131.4(2) . 7_576
+Rb1 O4 Rb1 69.77(8) 7_576 3_655
+Rb1 O4 Rb1 157.09(13) 5_666 3_655
+Rb1 O4 Rb1 87.47(10) 7_576 5_666
+Na1 O4 Rb1 87.37(13) 7_576 3_655
+Na1 O4 Rb1 107.72(13) 7_576 7_576
+Na1 O4 Rb1 102.54(14) 7_576 5_666
+U1 O5 Rb1 108.9(2) . 4_565
+U1 O5 Na1 100.5(3) . .
+Si1 O5 U1 158.6(5) . .
+Si1 O5 Rb1 76.8(2) . 4_565
+Si1 O5 Na1 99.3(3) . .
+Na1 O5 Rb1 95.62(17) . 4_565
+U2 O6 Rb1 93.88(15) . 3_655
+U2 O6 Rb1 103.27(15) . .
+Rb1 O6 Rb1 91.64(12) . 3_655
+Si1 O6 U2 130.7(2) . .
+Si1 O6 Rb1 121.9(2) . .
+Si1 O6 Rb1 102.8(2) . 3_655
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+U1 U2 3.94886(10) 3_645
+U1 U2 3.94886(9) 4_565
+U1 Rb1 4.3263(6) 6_655
+U1 Rb1 4.3263(6) 5_665
+U1 Na1 3.67756(13) 1_545
+U1 Na1 3.67757(13) .
+U1 O1 2.039(4) .
+U1 O1 2.039(4) 2_655
+U1 O2 2.201(5) 8_755
+U1 O2 2.201(5) 7_565
+U1 O5 2.178(5) .
+U1 O5 2.178(5) 2_655
+U2 Rb1 3.9439(6) 5_666
+U2 Rb1 3.9438(6) .
+U2 Na1 3.9680(8) 7_576
+U2 Na1 3.9680(8) 3_645
+U2 O1 2.236(3) 7_566
+U2 O1 2.236(3) 3_655
+U2 O4 1.838(4) 5_666
+U2 O4 1.838(4) .
+U2 O6 2.222(4) 5_666
+U2 O6 2.222(4) .
+Rb1 Rb1 3.8543(12) 5_665
+Rb1 Si1 3.4475(13) 4_465
+Rb1 O1 3.434(4) 5_665
+Rb1 O1 2.997(4) .
+Rb1 O2 2.915(4) 4_465
+Rb1 O3 3.3629(14) 3_645
+Rb1 O4 3.243(4) 5_666
+Rb1 O4 3.629(4) 3_645
+Rb1 O4 3.061(4) 7_575
+Rb1 O5 3.443(6) 4_465
+Rb1 O6 3.273(5) 3_645
+Rb1 O6 2.788(4) .
+Si1 Na1 3.319(3) 7_576
+Si1 Na1 3.252(3) .
+Si1 O2 1.610(5) .
+Si1 O3 1.6013(17) .
+Si1 O5 1.589(5) .
+Si1 O6 1.610(4) .
+Na1 O2 2.683(9) 8_755
+Na1 O2 2.683(9) 7_575
+Na1 O3 2.676(12) .
+Na1 O4 2.505(4) 7_575
+Na1 O4 2.505(4) 8_755
+Na1 O5 2.592(9) 2_665
+Na1 O5 2.592(9) .

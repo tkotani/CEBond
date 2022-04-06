@@ -1,0 +1,439 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-23 22:13:21 +0200 (Wed, 23 Mar 2016) $
+#$Revision: 179472 $
+#$URL: svn://www.crystallography.net/cod/cif/4/33/69/4336925.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4336925
+loop_
+_publ_author_name
+'Ikuya Yamada'
+'Hidenobu Etani'
+'Kazuki Tsuchida'
+'Shohei Marukawa'
+'Naoaki Hayashi'
+'Takateru Kawakami'
+'Masaichiro Mizumaki'
+'Kenya Ohgushi'
+'Yoshihiro Kusano'
+'Jungeun Kim'
+'Naruki Tsuji'
+'Ryoji Takahashi'
+'Norimasa Nishiyama'
+'Toru Inoue'
+'Tetsuo Irifune'
+'Mikio Takano'
+_publ_section_title
+;
+ Control of Bond-Strain-Induced Electronic Phase Transitions in Iron
+ Perovskites
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              13751
+_journal_page_last               13761
+_journal_paper_doi               10.1021/ic402344m
+_journal_volume                  52
+_journal_year                    2013
+_chemical_formula_sum            'Cu3 Fe4 O12 Sm'
+_chemical_formula_weight         756.371
+_space_group_IT_number           204
+_symmetry_cell_setting           cubic
+_symmetry_Int_Tables_number      204
+_symmetry_space_group_name_Hall  '-I 2 2 3'
+_symmetry_space_group_name_H-M   'I m -3'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   7.33892(6)
+_cell_length_b                   7.33892(6)
+_cell_length_c                   7.33892(6)
+_cell_measurement_temperature    300
+_cell_volume                     395.272(6)
+_computing_cell_refinement       'RIETAN-FP (Izumi and Momma, 2007)'
+_computing_molecular_graphics    'VESTA (Momma and Izumi, 2008)'
+_computing_structure_refinement  'RIETAN-FP (Izumi and Momma, 2007)'
+_diffrn_ambient_temperature      300
+_diffrn_radiation_wavelength     0.420390
+_diffrn_source                   synchrotron
+_exptl_crystal_density_diffrn    6.3550
+_exptl_crystal_F_000             698.00
+_pd_calc_method                  'Rietveld Refinement'
+_pd_char_colour                  grey
+_pd_meas_2theta_range_inc        0.0100
+_pd_meas_2theta_range_max        79.0900
+_pd_meas_2theta_range_min        0.0000
+_pd_meas_number_of_points        7910
+_pd_meas_scan_method             step
+_pd_proc_2theta_range_inc        0.0100
+_pd_proc_2theta_range_max        40.0000
+_pd_proc_2theta_range_min        4.0000
+_pd_proc_ls_background_function  'Legendre polynomials'
+_pd_proc_ls_pref_orient_corr     ' ?'
+_pd_proc_ls_profile_function     'split pseudo-Voigt function'
+_pd_proc_ls_prof_R_factor        0.05141
+_pd_proc_ls_prof_wR_expected     0.06405
+_pd_proc_ls_prof_wR_factor       0.06893
+_pd_spec_mount_mode              reflection
+_pd_spec_shape                   flat_sheet
+_refine_diff_density_max         0.1
+_refine_diff_density_min         -0.1
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_all   1.0763
+_refine_ls_matrix_type           full
+_refine_ls_number_constraints    0
+_refine_ls_number_parameters     29
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          0.00977
+_refine_ls_R_Fsqd_factor         0.00898
+_refine_ls_R_I_factor            0.01375
+_refine_ls_shift/su_max          0.0
+_refine_ls_weighting_details     1/<i>y</i>~i~
+_refine_ls_weighting_scheme      sigma
+_cod_data_source_file            ic402344m_si_003_04.cif
+_cod_data_source_block           single_phase
+_cod_database_code               4336925
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -x,-y,z
+3 -x,y,-z
+4 x,-y,-z
+5 z,x,y
+6 z,-x,-y
+7 -z,-x,y
+8 -z,x,-y
+9 y,z,x
+10 -y,z,-x
+11 y,-z,-x
+12 -y,-z,x
+13 -x,-y,-z
+14 x,y,-z
+15 x,-y,z
+16 -x,y,z
+17 -z,-x,-y
+18 -z,x,y
+19 z,x,-y
+20 z,-x,y
+21 -y,-z,-x
+22 y,-z,x
+23 -y,z,x
+24 y,z,-x
+25 x+1/2,y+1/2,z+1/2
+26 -x+1/2,-y+1/2,z+1/2
+27 -x+1/2,y+1/2,-z+1/2
+28 x+1/2,-y+1/2,-z+1/2
+29 z+1/2,x+1/2,y+1/2
+30 z+1/2,-x+1/2,-y+1/2
+31 -z+1/2,-x+1/2,y+1/2
+32 -z+1/2,x+1/2,-y+1/2
+33 y+1/2,z+1/2,x+1/2
+34 -y+1/2,z+1/2,-x+1/2
+35 y+1/2,-z+1/2,-x+1/2
+36 -y+1/2,-z+1/2,x+1/2
+37 -x+1/2,-y+1/2,-z+1/2
+38 x+1/2,y+1/2,-z+1/2
+39 x+1/2,-y+1/2,z+1/2
+40 -x+1/2,y+1/2,z+1/2
+41 -z+1/2,-x+1/2,-y+1/2
+42 -z+1/2,x+1/2,y+1/2
+43 z+1/2,x+1/2,-y+1/2
+44 z+1/2,-x+1/2,y+1/2
+45 -y+1/2,-z+1/2,-x+1/2
+46 y+1/2,-z+1/2,x+1/2
+47 -y+1/2,z+1/2,x+1/2
+48 y+1/2,z+1/2,-x+1/2
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_adp_type
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+Sm 0 0 0 1 2 a Uiso 0.0033(1) Sm
+Cu1 0 0.5 0.5 1 6 b Uiso 0.0064(2) Cu
+Fe1 0.25 0.25 0.25 1 8 c Uiso 0.0030(1) Fe
+O1 0 0.3029(3) 0.1755(3) 1 24 g Uiso 0.0053(6) O
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Sm Sm3+ -1.2527 1.3764 'International Tables for Crystallography, Vol. C'
+Cu Cu2+ 0.1908 0.4852 'International Tables for Crystallography, Vol. C'
+Fe Fe3+ 0.1554 0.3160 'International Tables for Crystallography, Vol. C'
+O O- -0.0011 0.0019 'International Tables for Crystallography, Vol. C'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+O1 Sm O1 180 1_555 4_555
+O1 Sm O1 119.8(1) 1_555 2_555
+O1 Sm O1 60.2(1) 1_555 3_555
+O1 Sm O1 64.29(3) 1_555 5_555
+O1 Sm O1 115.71(3) 1_555 8_555
+O1 Sm O1 115.71(3) 1_555 6_555
+O1 Sm O1 64.29(3) 1_555 7_555
+O1 Sm O1 64.29(3) 1_555 9_555
+O1 Sm O1 115.71(3) 1_555 12_555
+O1 Sm O1 64.29(3) 1_555 10_555
+O1 Sm O1 115.71(3) 1_555 11_555
+O1 Sm O1 60.2(1) 4_555 2_555
+O1 Sm O1 119.8(1) 4_555 3_555
+O1 Sm O1 115.71(3) 4_555 5_555
+O1 Sm O1 64.29(3) 4_555 8_555
+O1 Sm O1 64.29(3) 4_555 6_555
+O1 Sm O1 115.71(3) 4_555 7_555
+O1 Sm O1 115.71(3) 4_555 9_555
+O1 Sm O1 64.29(3) 4_555 12_555
+O1 Sm O1 115.71(3) 4_555 10_555
+O1 Sm O1 64.29(3) 4_555 11_555
+O1 Sm O1 180 2_555 3_555
+O1 Sm O1 64.29(3) 2_555 5_555
+O1 Sm O1 115.71(3) 2_555 8_555
+O1 Sm O1 115.71(3) 2_555 6_555
+O1 Sm O1 64.29(3) 2_555 7_555
+O1 Sm O1 115.71(3) 2_555 9_555
+O1 Sm O1 64.29(3) 2_555 12_555
+O1 Sm O1 115.71(3) 2_555 10_555
+O1 Sm O1 64.29(3) 2_555 11_555
+O1 Sm O1 115.71(3) 3_555 5_555
+O1 Sm O1 64.29(3) 3_555 8_555
+O1 Sm O1 64.29(3) 3_555 6_555
+O1 Sm O1 115.71(3) 3_555 7_555
+O1 Sm O1 64.29(3) 3_555 9_555
+O1 Sm O1 115.71(3) 3_555 12_555
+O1 Sm O1 64.29(3) 3_555 10_555
+O1 Sm O1 115.71(3) 3_555 11_555
+O1 Sm O1 180 5_555 8_555
+O1 Sm O1 119.8(1) 5_555 6_555
+O1 Sm O1 60.2(1) 5_555 7_555
+O1 Sm O1 64.29(3) 5_555 9_555
+O1 Sm O1 115.71(3) 5_555 12_555
+O1 Sm O1 115.71(3) 5_555 10_555
+O1 Sm O1 64.29(3) 5_555 11_555
+O1 Sm O1 60.2(1) 8_555 6_555
+O1 Sm O1 119.8(1) 8_555 7_555
+O1 Sm O1 115.71(3) 8_555 9_555
+O1 Sm O1 64.29(3) 8_555 12_555
+O1 Sm O1 64.29(3) 8_555 10_555
+O1 Sm O1 115.71(3) 8_555 11_555
+O1 Sm O1 180 6_555 7_555
+O1 Sm O1 64.29(3) 6_555 9_555
+O1 Sm O1 115.71(3) 6_555 12_555
+O1 Sm O1 115.71(3) 6_555 10_555
+O1 Sm O1 64.29(3) 6_555 11_555
+O1 Sm O1 115.71(3) 7_555 9_555
+O1 Sm O1 64.29(3) 7_555 12_555
+O1 Sm O1 64.29(3) 7_555 10_555
+O1 Sm O1 115.71(3) 7_555 11_555
+O1 Sm O1 180 9_555 12_555
+O1 Sm O1 119.8(1) 9_555 10_555
+O1 Sm O1 60.2(1) 9_555 11_555
+O1 Sm O1 60.2(1) 12_555 10_555
+O1 Sm O1 119.8(1) 12_555 11_555
+O1 Sm O1 180 10_555 11_555
+O1 Cu1 O1 83.4(1) 36_555 34_555
+O1 Cu1 O1 96.6(1) 36_555 35_455
+O1 Cu1 O1 69.80(4) 36_555 1_555
+O1 Cu1 O1 110.20(4) 36_555 2_565
+O1 Cu1 O1 69.80(4) 36_555 3_556
+O1 Cu1 O1 110.20(4) 36_555 4_566
+O1 Cu1 O1 96.6(1) 34_555 33_455
+O1 Cu1 O1 110.20(4) 34_555 1_555
+O1 Cu1 O1 69.80(4) 34_555 2_565
+O1 Cu1 O1 110.20(4) 34_555 3_556
+O1 Cu1 O1 69.80(4) 34_555 4_566
+O1 Cu1 O1 83.4(1) 33_455 35_455
+O1 Cu1 O1 110.20(4) 33_455 1_555
+O1 Cu1 O1 69.80(4) 33_455 2_565
+O1 Cu1 O1 110.20(4) 33_455 3_556
+O1 Cu1 O1 69.80(4) 33_455 4_566
+O1 Cu1 O1 69.80(4) 35_455 1_555
+O1 Cu1 O1 110.20(4) 35_455 2_565
+O1 Cu1 O1 69.80(4) 35_455 3_556
+O1 Cu1 O1 110.20(4) 35_455 4_566
+O1 Cu1 O1 62.54(9) 1_555 2_565
+O1 Cu1 O1 117.46(9) 1_555 3_556
+O1 Cu1 O1 180.0000(1) 1_555 4_566
+O1 Cu1 O1 180 2_565 3_556
+O1 Cu1 O1 117.46(9) 2_565 4_566
+O1 Cu1 O1 62.54(9) 3_556 4_566
+O1 Fe1 O1 88.8(1) 1_555 5_555
+O1 Fe1 O1 91.2(1) 1_555 32_555
+O1 Fe1 O1 88.8(1) 1_555 9_555
+O1 Fe1 O1 91.2(1) 1_555 36_555
+O1 Fe1 O1 91.2(1) 28_555 5_555
+O1 Fe1 O1 88.8(1) 28_555 32_555
+O1 Fe1 O1 91.2(1) 28_555 9_555
+O1 Fe1 O1 88.8(1) 28_555 36_555
+O1 Fe1 O1 88.8(1) 5_555 9_555
+O1 Fe1 O1 91.2(1) 5_555 36_555
+O1 Fe1 O1 91.2(1) 32_555 9_555
+O1 Fe1 O1 88.8(1) 32_555 36_555
+Cu1 O1 Fe1 109.55(6) 29_454 1_555
+Cu1 O1 Fe1 109.55(6) 29_454 16_555
+Cu1 O1 Sm 108.2(1) 29_454 1_555
+Cu1 O1 O1 48.31(7) 29_454 3_555
+Cu1 O1 O1 146.6(1) 29_454 5_555
+Cu1 O1 O1 146.6(1) 29_454 7_555
+Cu1 O1 O1 86.7(1) 29_454 9_555
+Cu1 O1 O1 86.7(1) 29_454 10_555
+Cu1 O1 Cu1 100.42(9) 29_454 1_555
+Cu1 O1 O1 69.56(3) 29_454 32_555
+Cu1 O1 O1 121.7(1) 29_454 36_555
+Cu1 O1 O1 69.56(3) 29_454 30_455
+Cu1 O1 O1 121.7(1) 29_454 35_455
+Cu1 O1 O1 41.69(7) 29_454 2_565
+Fe1 O1 Fe1 139.8(1) 1_555 16_555
+Fe1 O1 Sm 88.18(7) 1_555 1_555
+Fe1 O1 O1 106.25(7) 1_555 3_555
+Fe1 O1 O1 45.59(5) 1_555 5_555
+Fe1 O1 O1 100.7(1) 1_555 7_555
+Fe1 O1 O1 45.59(5) 1_555 9_555
+Fe1 O1 O1 145.84(8) 1_555 10_555
+Fe1 O1 Cu1 82.18(7) 1_555 1_555
+Fe1 O1 O1 44.41(5) 1_555 32_555
+Fe1 O1 O1 44.41(5) 1_555 36_555
+Fe1 O1 O1 152.7(1) 1_555 30_455
+Fe1 O1 O1 105.02(9) 1_555 35_455
+Fe1 O1 O1 101.47(6) 1_555 2_565
+Fe1 O1 Sm 88.18(7) 16_555 1_555
+Fe1 O1 O1 106.25(7) 16_555 3_555
+Fe1 O1 O1 100.7(1) 16_555 5_555
+Fe1 O1 O1 45.59(5) 16_555 7_555
+Fe1 O1 O1 145.84(8) 16_555 9_555
+Fe1 O1 O1 45.59(5) 16_555 10_555
+Fe1 O1 Cu1 82.18(7) 16_555 1_555
+Fe1 O1 O1 152.7(1) 16_555 32_555
+Fe1 O1 O1 105.02(9) 16_555 36_555
+Fe1 O1 O1 44.41(5) 16_555 30_455
+Fe1 O1 O1 44.41(5) 16_555 35_455
+Fe1 O1 O1 101.47(6) 16_555 2_565
+Sm O1 O1 59.91(5) 1_555 3_555
+Sm O1 O1 57.85(1) 1_555 5_555
+Sm O1 O1 57.85(1) 1_555 7_555
+Sm O1 O1 57.85(1) 1_555 9_555
+Sm O1 O1 57.85(1) 1_555 10_555
+Sm O1 Cu1 151.36(9) 1_555 1_555
+Sm O1 O1 118.48(5) 1_555 32_555
+Sm O1 O1 118.48(5) 1_555 36_555
+Sm O1 O1 118.48(5) 1_555 30_455
+Sm O1 O1 118.48(5) 1_555 35_455
+Sm O1 O1 149.91(5) 1_555 2_565
+O1 O1 O1 110.00(6) 3_555 5_555
+O1 O1 O1 110.00(6) 3_555 7_555
+O1 O1 O1 61.90(6) 3_555 9_555
+O1 O1 O1 61.90(6) 3_555 10_555
+O1 O1 Cu1 148.73(5) 3_555 1_555
+O1 O1 O1 93.25(7) 3_555 32_555
+O1 O1 O1 148.58(5) 3_555 36_555
+O1 O1 O1 93.25(7) 3_555 30_455
+O1 O1 O1 148.58(5) 3_555 35_455
+O1 O1 O1 90 3_555 2_565
+O1 O1 O1 56.2(1) 5_555 7_555
+O1 O1 O1 60 5_555 9_555
+O1 O1 O1 105.43(8) 5_555 10_555
+O1 O1 Cu1 97.46(8) 5_555 1_555
+O1 O1 O1 90 5_555 32_555
+O1 O1 O1 60.67(6) 5_555 36_555
+O1 O1 O1 143.5(1) 5_555 30_455
+O1 O1 O1 89.9(1) 5_555 35_455
+O1 O1 O1 144.40(1) 5_555 2_565
+O1 O1 O1 105.43(8) 7_555 9_555
+O1 O1 O1 60 7_555 10_555
+O1 O1 Cu1 97.46(8) 7_555 1_555
+O1 O1 O1 143.5(1) 7_555 32_555
+O1 O1 O1 89.9(1) 7_555 36_555
+O1 O1 O1 90 7_555 30_455
+O1 O1 O1 60.67(6) 7_555 35_455
+O1 O1 O1 144.40(1) 7_555 2_565
+O1 O1 O1 108.80(2) 9_555 10_555
+O1 O1 Cu1 125.46(2) 9_555 1_555
+O1 O1 O1 60.67(6) 9_555 32_555
+O1 O1 O1 90 9_555 36_555
+O1 O1 O1 153.9(1) 9_555 30_455
+O1 O1 O1 147.4(1) 9_555 35_455
+O1 O1 O1 110.00(6) 9_555 2_565
+O1 O1 Cu1 125.46(2) 10_555 1_555
+O1 O1 O1 153.9(1) 10_555 32_555
+O1 O1 O1 147.4(1) 10_555 36_555
+O1 O1 O1 60.67(6) 10_555 30_455
+O1 O1 O1 90 10_555 35_455
+O1 O1 O1 110.00(6) 10_555 2_565
+Cu1 O1 O1 71.49(8) 1_555 32_555
+Cu1 O1 O1 40.64(7) 1_555 36_555
+Cu1 O1 O1 71.49(8) 1_555 30_455
+Cu1 O1 O1 40.64(7) 1_555 35_455
+Cu1 O1 O1 58.73(5) 1_555 2_565
+O1 O1 O1 58.7(1) 32_555 36_555
+O1 O1 O1 117.15(9) 32_555 30_455
+O1 O1 O1 111.4(1) 32_555 35_455
+O1 O1 O1 58.78(5) 32_555 2_565
+O1 O1 O1 111.4(1) 36_555 30_455
+O1 O1 O1 62.43(9) 36_555 35_455
+O1 O1 O1 86.75(7) 36_555 2_565
+O1 O1 O1 58.7(1) 30_455 35_455
+O1 O1 O1 58.78(5) 30_455 2_565
+O1 O1 O1 86.75(7) 35_455 2_565
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Sm O1 2.569(2) 1_555
+Sm O1 2.569(2) 4_555
+Sm O1 2.569(2) 2_555
+Sm O1 2.569(2) 3_555
+Sm O1 2.569(2) 5_555
+Sm O1 2.569(2) 8_555
+Sm O1 2.569(2) 6_555
+Sm O1 2.569(2) 7_555
+Sm O1 2.569(2) 9_555
+Sm O1 2.569(2) 12_555
+Sm O1 2.569(2) 10_555
+Sm O1 2.569(2) 11_555
+Cu1 O1 1.937(2) 36_555
+Cu1 O1 1.937(2) 34_555
+Cu1 O1 1.937(2) 33_455
+Cu1 O1 1.937(2) 35_455
+Cu1 O1 2.786(3) 1_555
+Cu1 O1 2.786(3) 2_565
+Cu1 O1 2.786(3) 3_556
+Cu1 O1 2.786(3) 4_566
+Fe1 O1 1.9535(8) 1_555
+Fe1 O1 1.9535(8) 28_555
+Fe1 O1 1.9535(8) 5_555
+Fe1 O1 1.9535(8) 32_555
+Fe1 O1 1.9535(8) 9_555
+Fe1 O1 1.9535(8) 36_555
+O1 Cu1 1.937(2) 29_454
+O1 Fe1 1.9535(8) 1_555
+O1 Fe1 1.9535(8) 16_555
+O1 Sm 2.569(2) 1_555
+O1 O1 2.576(5) 3_555
+O1 O1 2.734(3) 5_555
+O1 O1 2.734(3) 7_555
+O1 O1 2.734(3) 9_555
+O1 O1 2.734(3) 10_555
+O1 Cu1 2.786(3) 1_555
+O1 O1 2.791(3) 32_555
+O1 O1 2.791(3) 36_555
+O1 O1 2.791(3) 30_455
+O1 O1 2.791(3) 35_455
+O1 O1 2.893(4) 2_565

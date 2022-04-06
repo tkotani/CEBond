@@ -1,0 +1,214 @@
+#------------------------------------------------------------------------------
+#$Date: 2019-07-08 11:04:29 +0300 (Mon, 08 Jul 2019) $
+#$Revision: 216823 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/55/20/1552014.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1552014
+loop_
+_publ_author_name
+'Agnes Dewaele'
+'Nicholas Worth'
+'Chris J. Pickard'
+'Richard J. Needs'
+'Sakura Pascarelli'
+'Olivier Mathon'
+'Mohamed Mezouar'
+'Tetsuo Irifune'
+_publ_section_title
+;
+ Synthesis and stability of xenon oxides Xe2O5 and Xe3O2 under pressure
+;
+_journal_name_full               'Nature Chemistry'
+_journal_page_first              784
+_journal_page_last               790
+_journal_paper_doi               10.1038/nchem.2528
+_journal_volume                  8
+_journal_year                    2016
+_chemical_formula_sum            'O5 Xe2'
+_chemical_formula_weight         342.58
+_space_group_IT_number           130
+_space_group_name_Hall           '-P 4a 2ac'
+_space_group_name_H-M_alt        'P 4/n c c :2'
+_symmetry_cell_setting           tetragonal
+_symmetry_Int_Tables_number      130
+_symmetry_space_group_name_Hall  '-P 4a 2ac'
+_symmetry_space_group_name_H-M   'P 4/n c c :2'
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                90.000
+_cell_formula_units_Z            4
+_cell_length_a                   4.9826
+_cell_length_b                   4.9826
+_cell_length_c                   9.9548
+_cell_volume                     247.141
+_cod_data_source_file            nchem.2528-s2.cif
+_cod_data_source_block           Xe2O5-P4ncc-83GPa
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+data item '_symmetry_cell_setting' value 'Tetragonal' was changed to
+'tetragonal' in accordance with the built-in table derived from the
+CIF Core dictionary named 'cif_core.dic' version 2.4.5 last updated
+on 2014-11-21.
+
+Automatic conversion script
+Id: cif_fix_values 6909 2019-04-08 15:41:33Z antanas 
+;
+_cod_original_cell_volume        247.14
+_cod_original_sg_symbol_H-M      'P 4/n c c'
+_cod_database_code               1552014
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 1/2-y,x,z
+3 1/2-x,1/2-y,z
+4 y,1/2-x,z
+5 1/2+x,-y,1/2-z
+6 1/2+y,1/2+x,1/2-z
+7 -x,1/2+y,1/2-z
+8 -y,-x,1/2-z
+9 -x,-y,-z
+10 1/2+y,-x,-z
+11 1/2+x,1/2+y,-z
+12 -y,1/2+x,-z
+13 1/2-x,y,1/2+z
+14 1/2-y,1/2-x,1/2+z
+15 x,1/2-y,1/2+z
+16 y,x,1/2+z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+Xe1 Xe 0.25000 0.25000 0.45000 0.00000 Uiso 1.00
+Xe2 Xe 0.25000 -0.25000 0.25000 0.00000 Uiso 1.00
+O3 O -0.08385 0.06138 0.40349 0.00000 Uiso 1.00
+O4 O 0.25000 0.25000 0.26609 0.00000 Uiso 1.00
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+Xe2 Xe1 O3 58.63 . . .
+Xe2 Xe1 O4 51.37 . . .
+Xe2 Xe1 Xe2 102.74 . . 1_565
+Xe2 Xe1 Xe2 67.06 . . 2_455
+Xe2 Xe1 Xe2 67.06 . . 2_555
+Xe2 Xe1 O3 36.10 . . 2_555
+Xe2 Xe1 O3 103.09 . . 3_555
+Xe2 Xe1 O3 120.93 . . 4_555
+Xe2 Xe1 O3 82.42 . . 9_556
+Xe2 Xe1 O3 96.63 . . 10_556
+O3 Xe1 O4 76.38 . . .
+Xe2 Xe1 O3 103.09 1_565 . .
+Xe2 Xe1 O3 36.10 2_455 . .
+Xe2 Xe1 O3 120.93 2_555 . .
+O3 Xe1 O3 86.82 . . 2_555
+O3 Xe1 O3 152.76 . . 3_555
+O3 Xe1 O3 86.82 . . 4_555
+O3 Xe1 O3 61.25 . . 9_556
+O3 Xe1 O3 123.49 . . 10_556
+Xe2 Xe1 O4 51.37 1_565 . .
+Xe2 Xe1 O4 51.37 2_455 . .
+Xe2 Xe1 O4 51.37 2_555 . .
+O3 Xe1 O4 76.38 2_555 . .
+O3 Xe1 O4 76.38 3_555 . .
+O3 Xe1 O4 76.38 4_555 . .
+O3 Xe1 O4 129.67 9_556 . .
+O3 Xe1 O4 129.67 10_556 . .
+Xe2 Xe1 Xe2 67.06 1_565 . 2_455
+Xe2 Xe1 Xe2 67.06 1_565 . 2_555
+Xe2 Xe1 O3 120.93 1_565 . 2_555
+Xe2 Xe1 O3 58.63 1_565 . 3_555
+Xe2 Xe1 O3 36.10 1_565 . 4_555
+Xe2 Xe1 O3 158.29 1_565 . 9_556
+Xe2 Xe1 O3 132.97 1_565 . 10_556
+Xe2 Xe1 Xe2 102.74 2_455 . 2_555
+Xe2 Xe1 O3 103.09 2_455 . 2_555
+Xe2 Xe1 O3 120.93 2_455 . 3_555
+Xe2 Xe1 O3 58.63 2_455 . 4_555
+Xe2 Xe1 O3 96.63 2_455 . 9_556
+Xe2 Xe1 O3 158.29 2_455 . 10_556
+Xe2 Xe1 O3 58.63 2_555 . 2_555
+Xe2 Xe1 O3 36.10 2_555 . 3_555
+Xe2 Xe1 O3 103.09 2_555 . 4_555
+Xe2 Xe1 O3 132.97 2_555 . 9_556
+Xe2 Xe1 O3 82.42 2_555 . 10_556
+O3 Xe1 O3 86.82 2_555 . 3_555
+O3 Xe1 O3 152.76 2_555 . 4_555
+O3 Xe1 O3 75.46 2_555 . 9_556
+O3 Xe1 O3 61.25 2_555 . 10_556
+O3 Xe1 O3 86.82 3_555 . 4_555
+O3 Xe1 O3 141.41 3_555 . 9_556
+O3 Xe1 O3 75.46 3_555 . 10_556
+O3 Xe1 O3 123.49 4_555 . 9_556
+O3 Xe1 O3 141.41 4_555 . 10_556
+O3 Xe1 O3 65.95 9_556 . 10_556
+Xe1 Xe2 Xe1 102.74 . . 1_545
+Xe1 Xe2 O3 35.89 . . 2_555
+Xe1 Xe2 O3 81.05 . . 4_545
+Xe1 Xe2 Xe1 112.94 . . 5_455
+Xe1 Xe2 Xe1 112.94 . . 5_555
+Xe1 Xe2 O3 96.39 . . 5_555
+Xe1 Xe2 O3 148.70 . . 7_545
+Xe1 Xe2 O3 81.05 1_545 . 2_555
+Xe1 Xe2 O3 35.89 1_545 . 4_545
+Xe1 Xe2 Xe1 112.94 1_545 . 5_455
+Xe1 Xe2 Xe1 112.94 1_545 . 5_555
+Xe1 Xe2 O3 148.70 1_545 . 5_555
+Xe1 Xe2 O3 96.39 1_545 . 7_545
+O3 Xe2 O3 78.68 2_555 . 4_545
+Xe1 Xe2 O3 148.70 5_455 . 2_555
+Xe1 Xe2 O3 96.39 5_555 . 2_555
+O3 Xe2 O3 101.51 2_555 . 5_555
+O3 Xe2 O3 175.41 2_555 . 7_545
+Xe1 Xe2 O3 96.39 5_455 . 4_545
+Xe1 Xe2 O3 148.70 5_555 . 4_545
+O3 Xe2 O3 175.41 4_545 . 5_555
+O3 Xe2 O3 101.51 4_545 . 7_545
+Xe1 Xe2 Xe1 102.74 5_455 . 5_555
+Xe1 Xe2 O3 81.05 5_455 . 5_555
+Xe1 Xe2 O3 35.89 5_455 . 7_545
+Xe1 Xe2 O3 35.89 5_555 . 5_555
+Xe1 Xe2 O3 81.05 5_555 . 7_545
+O3 Xe2 O3 78.68 5_555 . 7_545
+Xe1 O3 Xe2 108.02 . . 2_455
+Xe1 O3 Xe1 118.75 . . 9_556
+Xe1 O3 Xe2 131.68 9_556 . 2_455
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+Xe1 Xe2 3.1891 . .
+Xe1 O3 1.9659 . .
+Xe1 O4 1.8308 . .
+Xe1 Xe2 3.1891 . 1_565
+Xe1 Xe2 3.1891 . 2_455
+Xe1 Xe2 3.1891 . 2_555
+Xe1 O3 1.9659 . 2_555
+Xe1 O3 1.9659 . 3_555
+Xe1 O3 1.9659 . 4_555
+Xe1 O3 2.2846 . 9_556
+Xe1 O3 2.2846 . 10_556
+Xe2 O3 1.9757 . 2_555
+Xe2 O3 1.9757 . 4_545
+Xe2 O3 1.9757 . 5_555
+Xe2 O3 1.9757 . 7_545

@@ -1,0 +1,680 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-23 20:55:54 +0200 (Wed, 23 Mar 2016) $
+#$Revision: 179431 $
+#$URL: svn://www.crystallography.net/cod/cif/4/33/28/4332875.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the Crystal Eye server at
+# http://wwmm.ch.cam.ac.uk/crystaleye/, created by Nick Day at the
+# Peter Murray-Rust laboratory.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_4332875
+loop_
+_publ_author_name
+'Sun, Junliang'
+'Yang, Min'
+'Li, Guobao'
+'Yang, Tao'
+'Liao, Fuhui'
+'Wang, Yingxia'
+'Xiong, Ming'
+'Lin, Jianhua'
+_publ_section_title
+;
+ New Barium Cobaltite Series Ban+1ConO3n+3(Co8O8):&#x00A0; Intergrowth
+ Structure Containing Perovskite and CdI2-Type Layers
+;
+_journal_issue                   23
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              9151
+_journal_page_last               9153
+_journal_paper_doi               10.1021/ic060992v
+_journal_volume                  45
+_journal_year                    2006
+_chemical_formula_sum            'Ba2 Co9 O14'
+_chemical_formula_weight         1029.03
+_chemical_name_systematic
+; 
+ ? 
+;
+_space_group_IT_number           166
+_symmetry_space_group_name_Hall  '-R 3 2"'
+_symmetry_space_group_name_H-M   'R -3 m :H'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                120.00
+_cell_formula_units_Z            3
+_cell_length_a                   5.6958(4)
+_cell_length_b                   5.6958(4)
+_cell_length_c                   28.909(4)
+_cell_measurement_temperature    296(2)
+_cell_volume                     812.22(14)
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      296(2)
+_diffrn_measured_fraction_theta_full 0.942
+_diffrn_measured_fraction_theta_max 0.942
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0362
+_diffrn_reflns_av_sigmaI/netI    0.0308
+_diffrn_reflns_limit_h_max       8
+_diffrn_reflns_limit_h_min       -8
+_diffrn_reflns_limit_k_max       5
+_diffrn_reflns_limit_k_min       -8
+_diffrn_reflns_limit_l_max       38
+_diffrn_reflns_limit_l_min       -43
+_diffrn_reflns_number            2387
+_diffrn_reflns_theta_full        33.29
+_diffrn_reflns_theta_max         33.29
+_diffrn_reflns_theta_min         2.11
+_exptl_absorpt_coefficient_mu    20.627
+_exptl_absorpt_correction_T_max  0.361
+_exptl_absorpt_correction_T_min  0.150
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details   '(SADABS; Bruker, 2001)'
+_exptl_crystal_density_diffrn    6.312
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_F_000             1401
+_exptl_crystal_size_max          0.1
+_exptl_crystal_size_mid          0.1
+_exptl_crystal_size_min          0.05
+_refine_diff_density_max         1.122
+_refine_diff_density_min         -1.901
+_refine_diff_density_rms         0.341
+_refine_ls_extinction_coef       0.00093(12)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_ref   1.005
+_refine_ls_hydrogen_treatment    none
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     34
+_refine_ls_number_reflns         420
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.005
+_refine_ls_R_factor_all          0.0266
+_refine_ls_R_factor_gt           0.0258
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0168P)^2^+21.4689P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0565
+_refine_ls_wR_factor_ref         0.0568
+_reflns_number_gt                409
+_reflns_number_total             420
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            ic060992vsup1.cif
+_cod_data_source_block           r-3m
+_cod_original_cell_volume        812.21(15)
+_cod_original_sg_symbol_H-M      R-3m:H
+_cod_database_code               4332875
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-y, x-y, z'
+'-x+y, -x, z'
+'y, x, -z'
+'x-y, -y, -z'
+'-x, -x+y, -z'
+'x+2/3, y+1/3, z+1/3'
+'-y+2/3, x-y+1/3, z+1/3'
+'-x+y+2/3, -x+1/3, z+1/3'
+'y+2/3, x+1/3, -z+1/3'
+'x-y+2/3, -y+1/3, -z+1/3'
+'-x+2/3, -x+y+1/3, -z+1/3'
+'x+1/3, y+2/3, z+2/3'
+'-y+1/3, x-y+2/3, z+2/3'
+'-x+y+1/3, -x+2/3, z+2/3'
+'y+1/3, x+2/3, -z+2/3'
+'x-y+1/3, -y+2/3, -z+2/3'
+'-x+1/3, -x+y+2/3, -z+2/3'
+'-x, -y, -z'
+'y, -x+y, -z'
+'x-y, x, -z'
+'-y, -x, z'
+'-x+y, y, z'
+'x, x-y, z'
+'-x+2/3, -y+1/3, -z+1/3'
+'y+2/3, -x+y+1/3, -z+1/3'
+'x-y+2/3, x+1/3, -z+1/3'
+'-y+2/3, -x+1/3, z+1/3'
+'-x+y+2/3, y+1/3, z+1/3'
+'x+2/3, x-y+1/3, z+1/3'
+'-x+1/3, -y+2/3, -z+2/3'
+'y+1/3, -x+y+2/3, -z+2/3'
+'x-y+1/3, x+2/3, -z+2/3'
+'-y+1/3, -x+2/3, z+2/3'
+'-x+y+1/3, y+2/3, z+2/3'
+'x+1/3, x-y+2/3, z+2/3'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+Ba1 Ba 1.0000 1.0000 0.117118(15) 0.00938(15) Uani 1 6 d S
+Co1 Co 1.0000 1.0000 0.0000 0.0053(2) Uani 1 12 d S
+Co2 Co 1.5000 1.0000 0.0000 0.00401(17) Uani 1 4 d S
+Co3 Co 1.3333 0.6667 0.1667 0.0043(2) Uani 1 12 d S
+Co4 Co 1.3333 0.6667 0.07980(3) 0.0042(2) Uani 1 6 d S
+Co5 Co 0.6667 1.3333 0.09989(3) 0.0063(2) Uani 1 6 d S
+O1 O 1.1792(3) 0.8208(3) 0.03761(9) 0.0045(5) Uani 1 2 d S
+O2 O 1.6667 1.3333 0.03371(17) 0.0049(8) Uani 1 6 d S
+O3 O 1.0337(6) 1.5168(3) 0.12248(9) 0.0068(5) Uani 1 2 d S
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Ba1 0.00896(16) 0.00896(16) 0.0102(2) 0.000 0.000 0.00448(8)
+Co1 0.0051(3) 0.0051(3) 0.0058(5) 0.000 0.000 0.00255(17)
+Co2 0.0048(2) 0.0047(3) 0.0025(3) 0.0002(2) 0.00010(11) 0.00234(15)
+Co3 0.0054(3) 0.0054(3) 0.0020(5) 0.000 0.000 0.00271(17)
+Co4 0.0051(3) 0.0051(3) 0.0024(4) 0.000 0.000 0.00255(13)
+Co5 0.0072(3) 0.0072(3) 0.0044(4) 0.000 0.000 0.00362(14)
+O1 0.0060(8) 0.0060(8) 0.0018(10) -0.0003(4) 0.0003(4) 0.0031(9)
+O2 0.0061(12) 0.0061(12) 0.0025(18) 0.000 0.000 0.0031(6)
+O3 0.0079(13) 0.0097(9) 0.0021(10) 0.0005(5) 0.0010(9) 0.0040(7)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Co Co 0.3494 0.9721 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ba Ba -0.3244 2.2819 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+O3 Ba1 O3 170.88(13) 2_875 2_765
+O3 Ba1 O3 119.709(11) 2_875 3_575
+O3 Ba1 O3 53.24(13) 2_765 3_575
+O3 Ba1 O3 119.709(11) 2_875 1_545
+O3 Ba1 O3 66.57(13) 2_765 1_545
+O3 Ba1 O3 119.709(11) 3_575 1_545
+O3 Ba1 O3 53.24(13) 2_875 .
+O3 Ba1 O3 119.709(11) 2_765 .
+O3 Ba1 O3 66.57(13) 3_575 .
+O3 Ba1 O3 170.88(13) 1_545 .
+O3 Ba1 O3 66.57(13) 2_875 3_675
+O3 Ba1 O3 119.709(11) 2_765 3_675
+O3 Ba1 O3 170.88(13) 3_575 3_675
+O3 Ba1 O3 53.24(13) 1_545 3_675
+O3 Ba1 O3 119.709(11) . 3_675
+O3 Ba1 O1 123.48(7) 2_875 3_675
+O3 Ba1 O1 59.92(8) 2_765 3_675
+O3 Ba1 O1 59.92(7) 3_575 3_675
+O3 Ba1 O1 94.50(6) 1_545 3_675
+O3 Ba1 O1 94.50(6) . 3_675
+O3 Ba1 O1 123.48(7) 3_675 3_675
+O3 Ba1 O1 94.50(6) 2_875 .
+O3 Ba1 O1 94.50(6) 2_765 .
+O3 Ba1 O1 123.48(7) 3_575 .
+O3 Ba1 O1 59.92(7) 1_545 .
+O3 Ba1 O1 123.48(7) . .
+O3 Ba1 O1 59.92(7) 3_675 .
+O1 Ba1 O1 63.75(9) 3_675 .
+O3 Ba1 O1 59.92(8) 2_875 2_765
+O3 Ba1 O1 123.48(7) 2_765 2_765
+O3 Ba1 O1 94.50(6) 3_575 2_765
+O3 Ba1 O1 123.48(7) 1_545 2_765
+O3 Ba1 O1 59.92(7) . 2_765
+O3 Ba1 O1 94.50(6) 3_675 2_765
+O1 Ba1 O1 63.75(9) 3_675 2_765
+O1 Ba1 O1 63.75(9) . 2_765
+O3 Ba1 O3 89.27(6) 2_875 26_455
+O3 Ba1 O3 89.27(6) 2_765 26_455
+O3 Ba1 O3 114.73(4) 3_575 26_455
+O3 Ba1 O3 57.26(10) 1_545 26_455
+O3 Ba1 O3 114.73(4) . 26_455
+O3 Ba1 O3 57.26(10) 3_675 26_455
+O1 Ba1 O3 145.94(4) 3_675 26_455
+O1 Ba1 O3 108.68(8) . 26_455
+O1 Ba1 O3 145.93(4) 2_765 26_455
+O3 Ba1 O3 57.26(10) 2_875 27_655
+O3 Ba1 O3 114.73(4) 2_765 27_655
+O3 Ba1 O3 89.27(6) 3_575 27_655
+O3 Ba1 O3 114.73(4) 1_545 27_655
+O3 Ba1 O3 57.26(10) . 27_655
+O3 Ba1 O3 89.27(6) 3_675 27_655
+O1 Ba1 O3 145.93(4) 3_675 27_655
+O1 Ba1 O3 145.94(4) . 27_655
+O1 Ba1 O3 108.68(8) 2_765 27_655
+O3 Ba1 O3 57.51(9) 26_455 27_655
+O3 Ba1 O3 114.73(4) 2_875 25_675
+O3 Ba1 O3 57.26(10) 2_765 25_675
+O3 Ba1 O3 57.26(10) 3_575 25_675
+O3 Ba1 O3 89.27(6) 1_545 25_675
+O3 Ba1 O3 89.27(6) . 25_675
+O3 Ba1 O3 114.73(4) 3_675 25_675
+O1 Ba1 O3 108.68(9) 3_675 25_675
+O1 Ba1 O3 145.94(4) . 25_675
+O1 Ba1 O3 145.93(4) 2_765 25_675
+O3 Ba1 O3 57.51(9) 26_455 25_675
+O3 Ba1 O3 57.51(9) 27_655 25_675
+O1 Co1 O1 180.00(12) 20_565 2_765
+O1 Co1 O1 95.07(10) 20_565 21_655
+O1 Co1 O1 84.93(10) 2_765 21_655
+O1 Co1 O1 84.93(10) 20_565 .
+O1 Co1 O1 95.07(10) 2_765 .
+O1 Co1 O1 84.93(10) 21_655 .
+O1 Co1 O1 84.93(10) 20_565 3_675
+O1 Co1 O1 95.07(10) 2_765 3_675
+O1 Co1 O1 180.00(12) 21_655 3_675
+O1 Co1 O1 95.07(10) . 3_675
+O1 Co1 O1 95.07(10) 20_565 19_775
+O1 Co1 O1 84.93(10) 2_765 19_775
+O1 Co1 O1 95.07(10) 21_655 19_775
+O1 Co1 O1 180.00(12) . 19_775
+O1 Co1 O1 84.93(10) 3_675 19_775
+O1 Co1 Co2 137.54(5) 20_565 3_785
+O1 Co1 Co2 42.46(5) 2_765 3_785
+O1 Co1 Co2 42.46(5) 21_655 3_785
+O1 Co1 Co2 90.0 . 3_785
+O1 Co1 Co2 137.54(5) 3_675 3_785
+O1 Co1 Co2 90.0 19_775 3_785
+O1 Co1 Co2 42.46(5) 20_565 3_675
+O1 Co1 Co2 137.54(5) 2_765 3_675
+O1 Co1 Co2 137.54(5) 21_655 3_675
+O1 Co1 Co2 90.0 . 3_675
+O1 Co1 Co2 42.46(5) 3_675 3_675
+O1 Co1 Co2 90.0 19_775 3_675
+Co2 Co1 Co2 180.0 3_785 3_675
+O1 Co1 Co2 90.0 20_565 1_455
+O1 Co1 Co2 90.0 2_765 1_455
+O1 Co1 Co2 137.54(5) 21_655 1_455
+O1 Co1 Co2 137.54(5) . 1_455
+O1 Co1 Co2 42.46(5) 3_675 1_455
+O1 Co1 Co2 42.46(5) 19_775 1_455
+Co2 Co1 Co2 120.0 3_785 1_455
+Co2 Co1 Co2 60.0 3_675 1_455
+O1 Co1 Co2 137.54(5) 20_565 2_765
+O1 Co1 Co2 42.46(5) 2_765 2_765
+O1 Co1 Co2 90.0 21_655 2_765
+O1 Co1 Co2 137.54(5) . 2_765
+O1 Co1 Co2 90.0 3_675 2_765
+O1 Co1 Co2 42.46(5) 19_775 2_765
+Co2 Co1 Co2 60.0 3_785 2_765
+Co2 Co1 Co2 120.0 3_675 2_765
+Co2 Co1 Co2 60.0 1_455 2_765
+O1 Co1 Co2 42.46(5) 20_565 2_755
+O1 Co1 Co2 137.54(5) 2_765 2_755
+O1 Co1 Co2 90.0 21_655 2_755
+O1 Co1 Co2 42.46(5) . 2_755
+O1 Co1 Co2 90.0 3_675 2_755
+O1 Co1 Co2 137.54(5) 19_775 2_755
+Co2 Co1 Co2 120.0 3_785 2_755
+Co2 Co1 Co2 60.0 3_675 2_755
+Co2 Co1 Co2 120.0 1_455 2_755
+Co2 Co1 Co2 180.0 2_765 2_755
+O1 Co1 Co2 90.0 20_565 .
+O1 Co1 Co2 90.0 2_765 .
+O1 Co1 Co2 42.46(5) 21_655 .
+O1 Co1 Co2 42.46(5) . .
+O1 Co1 Co2 137.54(5) 3_675 .
+O1 Co1 Co2 137.54(5) 19_775 .
+Co2 Co1 Co2 60.0 3_785 .
+Co2 Co1 Co2 120.0 3_675 .
+Co2 Co1 Co2 180.0 1_455 .
+Co2 Co1 Co2 120.0 2_765 .
+Co2 Co1 Co2 60.0 2_755 .
+O2 Co2 O2 180.0(2) 19_875 .
+O2 Co2 O1 96.16(11) 19_875 21_655
+O2 Co2 O1 83.84(11) . 21_655
+O2 Co2 O1 83.84(11) 19_875 3_775
+O2 Co2 O1 96.16(11) . 3_775
+O1 Co2 O1 180.00(13) 21_655 3_775
+O2 Co2 O1 83.84(11) 19_875 .
+O2 Co2 O1 96.16(11) . .
+O1 Co2 O1 93.58(17) 21_655 .
+O1 Co2 O1 86.42(17) 3_775 .
+O2 Co2 O1 96.16(11) 19_875 19_875
+O2 Co2 O1 83.84(11) . 19_875
+O1 Co2 O1 86.42(17) 21_655 19_875
+O1 Co2 O1 93.58(17) 3_775 19_875
+O1 Co2 O1 180.00(17) . 19_875
+O2 Co2 Co4 85.17(12) 19_875 .
+O2 Co2 Co4 94.83(12) . .
+O1 Co2 Co4 136.67(9) 21_655 .
+O1 Co2 Co4 43.33(9) 3_775 .
+O1 Co2 Co4 43.33(9) . .
+O1 Co2 Co4 136.67(9) 19_875 .
+O2 Co2 Co4 94.83(12) 19_875 19_875
+O2 Co2 Co4 85.17(12) . 19_875
+O1 Co2 Co4 43.33(9) 21_655 19_875
+O1 Co2 Co4 136.67(9) 3_775 19_875
+O1 Co2 Co4 136.67(9) . 19_875
+O1 Co2 Co4 43.33(9) 19_875 19_875
+Co4 Co2 Co4 180.00(2) . 19_875
+O2 Co2 Co2 138.16(8) 19_875 2_865
+O2 Co2 Co2 41.84(8) . 2_865
+O1 Co2 Co2 86.80(8) 21_655 2_865
+O1 Co2 Co2 93.20(8) 3_775 2_865
+O1 Co2 Co2 137.78(6) . 2_865
+O1 Co2 Co2 42.22(6) 19_875 2_865
+Co4 Co2 Co2 120.176(9) . 2_865
+Co4 Co2 Co2 59.824(9) 19_875 2_865
+O2 Co2 Co2 41.84(8) 19_875 2_755
+O2 Co2 Co2 138.16(8) . 2_755
+O1 Co2 Co2 93.20(8) 21_655 2_755
+O1 Co2 Co2 86.80(8) 3_775 2_755
+O1 Co2 Co2 42.22(6) . 2_755
+O1 Co2 Co2 137.78(6) 19_875 2_755
+Co4 Co2 Co2 59.824(9) . 2_755
+Co4 Co2 Co2 120.176(9) 19_875 2_755
+Co2 Co2 Co2 180.0 2_865 2_755
+O2 Co2 Co1 90.0 19_875 .
+O2 Co2 Co1 90.0 . .
+O1 Co2 Co1 46.79(9) 21_655 .
+O1 Co2 Co1 133.21(9) 3_775 .
+O1 Co2 Co1 46.79(9) . .
+O1 Co2 Co1 133.21(9) 19_875 .
+Co4 Co2 Co1 90.0 . .
+Co4 Co2 Co1 90.0 19_875 .
+Co2 Co2 Co1 120.0 2_865 .
+Co2 Co2 Co1 60.0 2_755 .
+O2 Co2 Co2 41.84(8) 19_875 3_775
+O2 Co2 Co2 138.16(8) . 3_775
+O1 Co2 Co2 137.78(6) 21_655 3_775
+O1 Co2 Co2 42.22(6) 3_775 3_775
+O1 Co2 Co2 86.80(8) . 3_775
+O1 Co2 Co2 93.20(8) 19_875 3_775
+Co4 Co2 Co2 59.824(9) . 3_775
+Co4 Co2 Co2 120.176(9) 19_875 3_775
+Co2 Co2 Co2 120.0 2_865 3_775
+Co2 Co2 Co2 60.0 2_755 3_775
+Co1 Co2 Co2 120.0 . 3_775
+O3 Co3 O3 81.87(12) 1_545 3_675
+O3 Co3 O3 81.87(12) 1_545 2_865
+O3 Co3 O3 81.87(12) 3_675 2_865
+O3 Co3 O3 179.998(1) 1_545 25_775
+O3 Co3 O3 98.13(13) 3_675 25_775
+O3 Co3 O3 98.13(12) 2_865 25_775
+O3 Co3 O3 98.13(13) 1_545 27_645
+O3 Co3 O3 179.998(1) 3_675 27_645
+O3 Co3 O3 98.13(12) 2_865 27_645
+O3 Co3 O3 81.87(12) 25_775 27_645
+O3 Co3 O3 98.13(12) 1_545 26_455
+O3 Co3 O3 98.13(12) 3_675 26_455
+O3 Co3 O3 180.0 2_865 26_455
+O3 Co3 O3 81.87(12) 25_775 26_455
+O3 Co3 O3 81.87(12) 27_645 26_455
+O3 Co3 Co4 49.16(8) 1_545 .
+O3 Co3 Co4 49.16(8) 3_675 .
+O3 Co3 Co4 49.16(8) 2_865 .
+O3 Co3 Co4 130.84(8) 25_775 .
+O3 Co3 Co4 130.84(8) 27_645 .
+O3 Co3 Co4 130.84(8) 26_455 .
+O3 Co3 Co4 130.84(8) 1_545 25_765
+O3 Co3 Co4 130.84(8) 3_675 25_765
+O3 Co3 Co4 130.84(8) 2_865 25_765
+O3 Co3 Co4 49.16(8) 25_775 25_765
+O3 Co3 Co4 49.16(8) 27_645 25_765
+O3 Co3 Co4 49.16(8) 26_455 25_765
+Co4 Co3 Co4 180.0 . 25_765
+O3 Co3 Ba1 52.559(4) 1_545 .
+O3 Co3 Ba1 52.559(4) 3_675 .
+O3 Co3 Ba1 115.63(8) 2_865 .
+O3 Co3 Ba1 127.440(4) 25_775 .
+O3 Co3 Ba1 127.440(4) 27_645 .
+O3 Co3 Ba1 64.37(8) 26_455 .
+Co4 Co3 Ba1 66.463(7) . .
+Co4 Co3 Ba1 113.536(7) 25_765 .
+O3 Co3 Ba1 52.559(4) 1_545 1_545
+O3 Co3 Ba1 115.63(8) 3_675 1_545
+O3 Co3 Ba1 52.559(4) 2_865 1_545
+O3 Co3 Ba1 127.442(4) 25_775 1_545
+O3 Co3 Ba1 64.37(8) 27_645 1_545
+O3 Co3 Ba1 127.441(4) 26_455 1_545
+Co4 Co3 Ba1 66.463(7) . 1_545
+Co4 Co3 Ba1 113.537(7) 25_765 1_545
+Ba1 Co3 Ba1 105.117(8) . 1_545
+O3 Co3 Ba1 115.63(8) 1_545 1_655
+O3 Co3 Ba1 52.559(4) 3_675 1_655
+O3 Co3 Ba1 52.559(4) 2_865 1_655
+O3 Co3 Ba1 64.37(8) 25_775 1_655
+O3 Co3 Ba1 127.442(4) 27_645 1_655
+O3 Co3 Ba1 127.441(4) 26_455 1_655
+Co4 Co3 Ba1 66.463(7) . 1_655
+Co4 Co3 Ba1 113.537(7) 25_765 1_655
+Ba1 Co3 Ba1 105.117(8) . 1_655
+Ba1 Co3 Ba1 105.117(8) 1_545 1_655
+O3 Co3 Ba1 127.442(4) 1_545 25_765
+O3 Co3 Ba1 127.442(4) 3_675 25_765
+O3 Co3 Ba1 64.37(8) 2_865 25_765
+O3 Co3 Ba1 52.559(4) 25_775 25_765
+O3 Co3 Ba1 52.559(4) 27_645 25_765
+O3 Co3 Ba1 115.62(8) 26_455 25_765
+Co4 Co3 Ba1 113.538(7) . 25_765
+Co4 Co3 Ba1 66.463(7) 25_765 25_765
+Ba1 Co3 Ba1 180.0 . 25_765
+Ba1 Co3 Ba1 74.883(8) 1_545 25_765
+Ba1 Co3 Ba1 74.883(8) 1_655 25_765
+O3 Co4 O3 83.34(14) 3_675 1_545
+O3 Co4 O3 83.34(14) 3_675 2_865
+O3 Co4 O3 83.34(14) 1_545 2_865
+O3 Co4 O1 95.83(9) 3_675 .
+O3 Co4 O1 95.83(9) 1_545 .
+O3 Co4 O1 178.88(12) 2_865 .
+O3 Co4 O1 178.88(12) 3_675 2_755
+O3 Co4 O1 95.83(9) 1_545 2_755
+O3 Co4 O1 95.83(9) 2_865 2_755
+O1 Co4 O1 84.99(12) . 2_755
+O3 Co4 O1 95.83(9) 3_675 3_775
+O3 Co4 O1 178.88(12) 1_545 3_775
+O3 Co4 O1 95.83(9) 2_865 3_775
+O1 Co4 O1 84.99(12) . 3_775
+O1 Co4 O1 84.99(12) 2_755 3_775
+O3 Co4 Co3 50.15(9) 3_675 .
+O3 Co4 Co3 50.15(9) 1_545 .
+O3 Co4 Co3 50.15(9) 2_865 .
+O1 Co4 Co3 128.74(8) . .
+O1 Co4 Co3 128.74(8) 2_755 .
+O1 Co4 Co3 128.73(8) 3_775 .
+O3 Co4 Co2 138.13(6) 3_675 2_755
+O3 Co4 Co2 94.37(9) 1_545 2_755
+O3 Co4 Co2 138.13(6) 2_865 2_755
+O1 Co4 Co2 42.62(6) . 2_755
+O1 Co4 Co2 42.62(6) 2_755 2_755
+O1 Co4 Co2 86.75(9) 3_775 2_755
+Co3 Co4 Co2 144.519(11) . 2_755
+O3 Co4 Co2 94.37(9) 3_675 .
+O3 Co4 Co2 138.13(6) 1_545 .
+O3 Co4 Co2 138.13(6) 2_865 .
+O1 Co4 Co2 42.62(6) . .
+O1 Co4 Co2 86.75(9) 2_755 .
+O1 Co4 Co2 42.62(6) 3_775 .
+Co3 Co4 Co2 144.519(11) . .
+Co2 Co4 Co2 60.353(18) 2_755 .
+O3 Co4 Co2 138.13(6) 3_675 3_775
+O3 Co4 Co2 138.13(6) 1_545 3_775
+O3 Co4 Co2 94.37(9) 2_865 3_775
+O1 Co4 Co2 86.75(9) . 3_775
+O1 Co4 Co2 42.62(6) 2_755 3_775
+O1 Co4 Co2 42.62(6) 3_775 3_775
+Co3 Co4 Co2 144.519(11) . 3_775
+Co2 Co4 Co2 60.353(18) 2_755 3_775
+Co2 Co4 Co2 60.353(18) . 3_775
+O3 Co4 Ba1 55.633(11) 3_675 .
+O3 Co4 Ba1 55.633(11) 1_545 .
+O3 Co4 Ba1 121.98(10) 2_865 .
+O1 Co4 Ba1 56.90(8) . .
+O1 Co4 Ba1 124.448(12) 2_755 .
+O1 Co4 Ba1 124.448(12) 3_775 .
+Co3 Co4 Ba1 71.835(15) . .
+Co2 Co4 Ba1 88.746(10) 2_755 .
+Co2 Co4 Ba1 88.746(10) . .
+Co2 Co4 Ba1 143.65(2) 3_775 .
+O3 Co4 Ba1 55.633(11) 3_675 1_655
+O3 Co4 Ba1 121.98(10) 1_545 1_655
+O3 Co4 Ba1 55.633(11) 2_865 1_655
+O1 Co4 Ba1 124.448(12) . 1_655
+O1 Co4 Ba1 124.448(12) 2_755 1_655
+O1 Co4 Ba1 56.90(8) 3_775 1_655
+Co3 Co4 Ba1 71.835(15) . 1_655
+Co2 Co4 Ba1 143.65(2) 2_755 1_655
+Co2 Co4 Ba1 88.746(10) . 1_655
+Co2 Co4 Ba1 88.746(10) 3_775 1_655
+Ba1 Co4 Ba1 110.745(15) . 1_655
+O2 Co5 O3 109.83(9) 1_455 .
+O2 Co5 O3 109.83(9) 1_455 3_575
+O3 Co5 O3 109.11(9) . 3_575
+O2 Co5 O3 109.83(9) 1_455 2_775
+O3 Co5 O3 109.11(9) . 2_775
+O3 Co5 O3 109.11(9) 3_575 2_775
+O2 Co5 Ba1 98.611(18) 1_455 .
+O3 Co5 Ba1 58.96(7) . .
+O3 Co5 Ba1 58.96(7) 3_575 .
+O3 Co5 Ba1 151.56(9) 2_775 .
+O2 Co5 Ba1 98.611(18) 1_455 1_565
+O3 Co5 Ba1 58.96(7) . 1_565
+O3 Co5 Ba1 151.56(9) 3_575 1_565
+O3 Co5 Ba1 58.96(7) 2_775 1_565
+Ba1 Co5 Ba1 117.799(9) . 1_565
+O2 Co5 Ba1 98.611(18) 1_455 1_455
+O3 Co5 Ba1 151.56(9) . 1_455
+O3 Co5 Ba1 58.96(7) 3_575 1_455
+O3 Co5 Ba1 58.96(7) 2_775 1_455
+Ba1 Co5 Ba1 117.799(9) . 1_455
+Ba1 Co5 Ba1 117.799(9) 1_565 1_455
+O2 Co5 Ba1 180.0 1_455 25_675
+O3 Co5 Ba1 70.17(9) . 25_675
+O3 Co5 Ba1 70.17(9) 3_575 25_675
+O3 Co5 Ba1 70.17(9) 2_775 25_675
+Ba1 Co5 Ba1 81.390(18) . 25_675
+Ba1 Co5 Ba1 81.389(18) 1_565 25_675
+Ba1 Co5 Ba1 81.389(18) 1_455 25_675
+Co2 O1 Co2 95.56(12) 2_755 .
+Co2 O1 Co4 94.05(11) 2_755 .
+Co2 O1 Co4 94.05(11) . .
+Co2 O1 Co1 90.75(10) 2_755 .
+Co2 O1 Co1 90.75(10) . .
+Co4 O1 Co1 172.85(15) . .
+Co2 O1 Ba1 132.03(6) 2_755 .
+Co2 O1 Ba1 132.03(6) . .
+Co4 O1 Ba1 88.84(9) . .
+Co1 O1 Ba1 84.01(9) . .
+Co2 O2 Co2 96.32(16) . 2_865
+Co2 O2 Co2 96.32(16) . 3_785
+Co2 O2 Co2 96.32(16) 2_865 3_785
+Co2 O2 Co5 120.65(12) . 1_655
+Co2 O2 Co5 120.65(12) 2_865 1_655
+Co2 O2 Co5 120.65(12) 3_785 1_655
+Co5 O3 Co4 120.32(15) . 1_565
+Co5 O3 Co3 158.99(16) . 1_565
+Co4 O3 Co3 80.69(12) 1_565 1_565
+Co5 O3 Ba1 85.81(6) . 1_565
+Co4 O3 Ba1 90.57(6) 1_565 1_565
+Co3 O3 Ba1 94.56(6) 1_565 1_565
+Co5 O3 Ba1 85.81(6) . .
+Co4 O3 Ba1 90.57(6) 1_565 .
+Co3 O3 Ba1 94.56(6) 1_565 .
+Ba1 O3 Ba1 170.88(13) 1_565 .
+Co5 O3 Ba1 76.09(9) . 25_675
+Co4 O3 Ba1 163.60(15) 1_565 25_675
+Co3 O3 Ba1 82.91(9) 1_565 25_675
+Ba1 O3 Ba1 90.73(6) 1_565 25_675
+Ba1 O3 Ba1 90.73(6) . 25_675
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Ba1 O3 2.857(3) 2_875
+Ba1 O3 2.857(3) 2_765
+Ba1 O3 2.857(3) 3_575
+Ba1 O3 2.857(3) 1_545
+Ba1 O3 2.857(3) .
+Ba1 O3 2.857(3) 3_675
+Ba1 O1 2.900(3) 3_675
+Ba1 O1 2.900(3) .
+Ba1 O1 2.900(3) 2_765
+Ba1 O3 3.259(3) 26_455
+Ba1 O3 3.259(3) 27_655
+Ba1 O3 3.259(3) 25_675
+Co1 O1 2.076(3) 20_565
+Co1 O1 2.076(3) 2_765
+Co1 O1 2.076(3) 21_655
+Co1 O1 2.076(3) .
+Co1 O1 2.076(3) 3_675
+Co1 O1 2.076(3) 19_775
+Co1 Co2 2.8479(4) 3_785
+Co1 Co2 2.8479(4) 3_675
+Co1 Co2 2.8479(4) 1_455
+Co1 Co2 2.8479(4) 2_765
+Co1 Co2 2.8479(4) 2_755
+Co1 Co2 2.8479(4) .
+Co2 O2 1.911(2) 19_875
+Co2 O2 1.911(2) .
+Co2 O1 1.9228(18) 21_655
+Co2 O1 1.9228(18) 3_775
+Co2 O1 1.9228(18) .
+Co2 O1 1.9228(18) 19_875
+Co2 Co4 2.8328(8) .
+Co2 Co4 2.8328(8) 19_875
+Co2 Co2 2.8479(2) 2_865
+Co2 Co2 2.8479(2) 2_755
+Co2 Co2 2.8479(2) 3_775
+Co3 O3 1.954(3) 1_545
+Co3 O3 1.954(3) 3_675
+Co3 O3 1.954(3) 2_865
+Co3 O3 1.954(3) 25_775
+Co3 O3 1.954(3) 27_645
+Co3 O3 1.954(3) 26_455
+Co3 Co4 2.5113(10) .
+Co3 Co4 2.5114(10) 25_765
+Co3 Ba1 3.5869(3) 1_545
+Co3 Ba1 3.5869(3) 1_655
+Co3 Ba1 3.5869(3) 25_765
+Co4 O3 1.925(3) 3_675
+Co4 O3 1.925(3) 1_545
+Co4 O3 1.925(3) 2_865
+Co4 O1 1.949(3) .
+Co4 O1 1.949(3) 2_755
+Co4 O1 1.949(3) 3_775
+Co4 Co2 2.8328(8) 2_755
+Co4 Co2 2.8328(8) 3_775
+Co4 Ba1 3.4610(4) 1_655
+Co5 O2 1.913(5) 1_455
+Co5 O3 1.925(3) .
+Co5 O3 1.925(3) 3_575
+Co5 O3 1.925(3) 2_775
+Co5 Ba1 3.3260(3) 1_565
+Co5 Ba1 3.3260(3) 1_455
+Co5 Ba1 3.3628(11) 25_675
+O1 Co2 1.9228(18) 2_755
+O2 Co2 1.911(2) 2_865
+O2 Co2 1.911(2) 3_785
+O2 Co5 1.913(5) 1_655
+O3 Co4 1.925(3) 1_565
+O3 Co3 1.954(3) 1_565
+O3 Ba1 2.857(3) 1_565
+O3 Ba1 3.259(3) 25_675

@@ -1,0 +1,193 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 06:40:26 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176432 $
+#$URL: svn://www.crystallography.net/cod/cif/1/51/90/1519040.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1519040
+loop_
+_publ_author_name
+'Nicolas Floros'
+'Maryvonne Hervieu'
+'Gustav van Tendeloo'
+'Claude Michel'
+'Antoine Maignan'
+'Bernard Raveau'
+_publ_section_title
+;
+ The layered manganate Sr4-xBaxMn3O10: synthesis, structural and magnetic
+ properties
+;
+_journal_name_full               'Solid State Sciences'
+_journal_page_first              1
+_journal_page_last               9
+_journal_volume                  2
+_journal_year                    1998
+_chemical_formula_sum            'Mn3 O10 Sr4'
+_chemical_formula_weight         675.288
+_space_group_IT_number           64
+_symmetry_cell_setting           orthorhombic
+_symmetry_Int_Tables_number      64
+_symmetry_space_group_name_Hall  '-C 2ac 2'
+_symmetry_space_group_name_H-M   'C m c a'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   5.4766(1)
+_cell_length_b                   12.4659(2)
+_cell_length_c                   12.5282(2)
+_cell_volume                     855.31(2)
+_diffrn_ambient_temperature      293
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_type           CuK\a
+_diffrn_radiation_wavelength     1.5418
+_exptl_absorpt_coefficient_mu    66.802
+_exptl_crystal_density_diffrn    5.244
+_exptl_crystal_F_000             1228
+_refine_ls_R_I_factor            0.0502
+_cod_data_source_file            SSS_2000-2-1-9-1.cif
+_cod_data_source_block           x=0
+_cod_depositor_comments
+;
+Rietveld refinements
+
+ year was changed from 2000 to 1998 in spite of this is really volume 2
+ and volume 1 was 1999
+;
+_cod_original_sg_symbol_Hall     '-C 2bc 2'
+_cod_database_code               1519040
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -x,1/2-y,1/2+z
+3 x,-y,-z
+4 -x,1/2+y,1/2-z
+5 -x,-y,-z
+6 x,1/2+y,1/2-z
+7 -x,y,z
+8 x,1/2-y,1/2+z
+9 1/2+x,1/2+y,z
+10 1/2-x,-y,1/2+z
+11 1/2+x,1/2-y,-z
+12 1/2-x,y,1/2-z
+13 1/2-x,1/2-y,-z
+14 1/2+x,y,1/2-z
+15 1/2-x,1/2+y,z
+16 1/2+x,-y,1/2+z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_thermal_displace_type
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Mn1 Mn Uiso 0.00000 0.00000 0.00000 1.000 0.0008(6) . . . .
+Mn2 Mn Uiso 0.00000 0.1317(2) 0.1518(2) 1.000 0.0008(6) . . . .
+O1 O Uiso 0.00000 0.0363(7) 0.8527(8) 1.000 0.0156(13) . . . .
+O2 O Uiso 0.00000 0.2734(7) 0.1475(8) 1.000 0.0156(13) . . . .
+O3 O Uiso 0.2268(11) 0.1074(7) 0.0351(5) 1.000 0.0156(13) . . . .
+O4 O Uiso 0.25000 0.1195(10) 0.25000 1.000 0.0156(13) . . . .
+Sr1 Sr Uiso 0.00000 0.46860(10) 0.14260(10) 1.000 0.0081(4) . . . .
+Sr2 Sr Uiso 0.00000 0.26130(10) 0.38840(10) 1.000 0.0081(4) . . . .
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Mn Mn -0.5299 2.8052 ' International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0492 0.0322 ' International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Sr Sr -0.3528 1.8200 ' International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O1 Mn1 O3 93.3(3) 1_554 . . yes
+O3 Mn1 O3 97.2(3) . . 3_555 yes
+O1 Mn1 O3 86.7(3) 3_556 . . yes
+O3 Mn1 O3 180.00 . . 5_555 yes
+O3 Mn1 O3 82.8(3) . . 7_555 yes
+O1 Mn1 O3 86.7(3) 1_554 . 3_555 yes
+O1 Mn1 O1 180.00 1_554 . 3_556 yes
+O1 Mn1 O3 86.7(3) 1_554 . 5_555 yes
+O1 Mn1 O3 93.3(3) 1_554 . 7_555 yes
+O1 Mn1 O3 93.3(3) 3_556 . 3_555 yes
+O3 Mn1 O3 82.8(3) 3_555 . 5_555 yes
+O3 Mn1 O3 180.00 3_555 . 7_555 yes
+O1 Mn1 O3 93.3(3) 3_556 . 5_555 yes
+O1 Mn1 O3 86.7(3) 3_556 . 7_555 yes
+O3 Mn1 O3 97.2(3) 5_555 . 7_555 yes
+O2 Mn2 O3 97.6(4) . . . yes
+O2 Mn2 O4 95.9(5) . . . yes
+O1 Mn2 O2 176.7(5) 3_556 . . yes
+O2 Mn2 O3 97.6(4) . . 7_555 yes
+O2 Mn2 O4 95.9(5) . . 7_555 yes
+O3 Mn2 O4 90.83(19) . . . yes
+O1 Mn2 O3 79.9(3) 3_556 . . yes
+O3 Mn2 O3 79.5(3) . . 7_555 yes
+O3 Mn2 O4 164.3(4) . . 7_555 yes
+O1 Mn2 O4 86.3(4) 3_556 . . yes
+O3 Mn2 O4 164.3(4) 7_555 . . yes
+O4 Mn2 O4 95.68(13) . . 7_555 yes
+O1 Mn2 O3 79.9(3) 3_556 . 7_555 yes
+O1 Mn2 O4 86.3(4) 3_556 . 7_555 yes
+O3 Mn2 O4 90.83(19) 7_555 . 7_555 yes
+Mn1 O1 Mn2 77.8(3) 1_556 . 3_556 yes
+Mn1 O3 Mn2 82.2(3) . . . yes
+Mn2 O4 Mn2 170.6(8) . . 12_555 yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Mn1 O3 1.879(8) . . yes
+Mn1 O1 1.900(10) . 1_554 yes
+Mn1 O3 1.879(8) . 3_555 yes
+Mn1 O1 1.900(10) . 3_556 yes
+Mn1 O3 1.879(8) . 5_555 yes
+Mn1 O3 1.879(8) . 7_555 yes
+Mn2 O2 1.767(9) . . yes
+Mn2 O3 1.942(7) . . yes
+Mn2 O4 1.8470(19) . . yes
+Mn2 O1 2.095(9) . 3_556 yes
+Mn2 O3 1.942(7) . 7_555 yes
+Mn2 O4 1.8470(19) . 7_555 yes
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion
+_geom_torsion_site_symmetry_1
+_geom_torsion_site_symmetry_2
+_geom_torsion_site_symmetry_3
+_geom_torsion_site_symmetry_4
+_geom_torsion_publ_flag
+O3 Mn1 O3 Mn2 -137.7(3) 3_555 . . . no
+O3 Mn1 O3 Mn2 42.3(3) 7_555 . . . no
+O3 Mn1 O3 Mn2 -42.3(3) . . 7_555 . no
+O2 Mn2 O3 Mn1 -137.4(3) . . . . no
+O4 Mn2 O3 Mn1 126.5(4) . . . . no
+O3 Mn2 O3 Mn1 -41.0(3) 7_555 . . . no
+O3 Mn2 O3 Mn1 41.0(3) . . 7_555 . no

@@ -1,0 +1,183 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/41/2004174.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2004174
+loop_
+_publ_author_name
+'Sasaki, T.'
+'Mori, Y.'
+'Kuroda, I.'
+'Nakajima, S.'
+'Yamaguchi, K.'
+'Watanabe, S.'
+'Nakai, S.'
+_publ_section_title
+;
+ Caesium Lithium Borate: a New Nonlinear Optical Crystal
+;
+_journal_issue                   11
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              2222
+_journal_page_last               2224
+_journal_paper_doi               10.1107/S0108270195005798
+_journal_volume                  51
+_journal_year                    1995
+_chemical_formula_sum            'B6 Cs Li O10'
+_chemical_formula_weight         364.7
+_space_group_IT_number           122
+_symmetry_cell_setting           tetragonal
+_symmetry_space_group_name_Hall  'I -4 2bw'
+_symmetry_space_group_name_H-M   'I -4 2 d'
+_atom_type_scat_source           'Cromer & Waber (1974)'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   10.494(1)
+_cell_length_b                   10.494(1)
+_cell_length_c                   8.939(2)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    296
+_cell_measurement_theta_max      24.0
+_cell_measurement_theta_min      23.5
+_cell_volume                     984.4(3)
+_diffrn_measurement_device       'Rigaku AFC-5R'
+_diffrn_measurement_method       \w/2\q
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.017
+_diffrn_reflns_limit_h_max       13
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       18
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       16
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            2520
+_diffrn_reflns_theta_max         40
+_diffrn_standards_decay_%        none
+_diffrn_standards_interval_count 150
+_diffrn_standards_number         4
+_exptl_absorpt_coefficient_mu    3.798
+_exptl_absorpt_correction_T_max  1.00
+_exptl_absorpt_correction_T_min  0.876
+_exptl_absorpt_correction_type   empirical
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    2.461
+_exptl_crystal_description       Sphere
+_exptl_crystal_size_rad          0.31
+_refine_diff_density_max         1.23
+_refine_diff_density_min         -1.33
+_refine_ls_extinction_coef       5.625x10^6^
+_refine_ls_extinction_method     secondary
+_refine_ls_goodness_of_fit_obs   2.37
+_refine_ls_hydrogen_treatment    noref
+_refine_ls_number_parameters     43
+_refine_ls_number_reflns         722
+_refine_ls_R_factor_obs          0.023
+_refine_ls_shift/esd_max         0.0
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 1/\s^2^(F)'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.035
+_reflns_number_observed          1260
+_reflns_number_total             2463
+_reflns_observed_criterion       I>3.00\s(I)
+_cod_data_source_file            oh1076.cif
+_cod_data_source_block           oh1076a
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value '1/\s^2^(F)' was changed to
+'calc'. New tag '_refine_ls_weighting_details' was created. The value
+of the new tag was set to 'w = 1/\s^2^(F)'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        984.4
+_cod_original_formula_sum        'Cs Li B6 O10'
+_cod_database_code               2004174
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x,1/2-y,1/4-z
+-x,-y,z
+-x,1/2+y,1/4-z
+1/2-y,-x,3/4+z
+-y,x,-z
+y,-x,-z
+1/2+y,x,3/4+z
+1/2+x,1/2+y,1/2+z
+1/2+x,-y,3/4-z
+1/2-x,1/2-y,1/2+z
+1/2-x,y,3/4-z
+-y,1/2-x,1/4+z
+1/2-y,1/2+x,1/2-z
+1/2+y,1/2-x,1/2-z
+y,1/2+x,1/4+z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_B_iso_or_equiv
+Cs .0000 .0000 .0000 2.396(4)
+O(1) .7982(3) .2500 0.125 1.94(5)
+O(2) .8022(1) .4434(1) -.0059(2) 1.12(2)
+O(3) .6029(1) .3557(2) .0698(2) 1.09(2)
+B(1) .5242(3) .2500 0.125 0.81(4)
+B(2) .7325(2) .3508(2) .0602(3) 0.99(3)
+Li .0000 .0000 .5000 1.32(6)
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O(2) B(1) O(2) 16_545 7_565 109.4(2) yes
+O(2) B(1) O(3) 16_545 . 106.67(8) yes
+O(2) B(1) O(3) 16_545 2 111.30(9) yes
+O(2) B(1) O(3) 7_565 . 111.30(9) yes
+O(2) B(1) O(3) 7_565 2 106.67(8) yes
+O(3) B(1) O(3) . 2 111.5(2) yes
+O(2) B(2) O(3) . . 122.7(2) yes
+O(2) B(2) O(1) . . 117.4(2) yes
+O(3) B(2) O(1) . . 119.8(2) yes
+O(3) Li O(3) 11 9_445 142.90(10) yes
+O(3) Li O(3) 11 15_455 95.81(3) yes
+O(3) Li O(3) 11 14_545 95.81(3) yes
+O(3) Li O(3) 9_445 15_455 95.81(3) yes
+O(3) Li O(3) 9_445 14_545 95.81(3) yes
+O(3) Li O(3) 15_455 14_545 142.90(10) yes
+B(2) O(1) B(2) . 2 120.5(3) yes
+B(2) O(2) B(1) . 6_655 122.0(2) yes
+B(2) O(3) B(1) . . 123.6(2) yes
+B(2) O(3) Li . 9_554 123.90(10) yes
+B(1) O(3) Li . 9_554 112.40(10) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+B(1) O(2) 16_545 1.467(2) yes
+B(2) O(1) . 1.389(2) yes
+B(2) O(3) . 1.363(3) yes
+B(1) O(3) . 1.469(2) yes
+B(2) O(2) . 1.352(3) yes
+Li O(3) 16_545 1.962(2) yes
+O(1) B(2) 2 1.389(2) no

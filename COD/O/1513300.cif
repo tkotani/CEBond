@@ -1,0 +1,363 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-01-10 14:34:25 +0200 (Tue, 10 Jan 2017) $
+#$Revision: 190338 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/51/33/1513300.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the Crystal Eye server at
+# http://wwmm.ch.cam.ac.uk/crystaleye/, created by Nick Day at the
+# Peter Murray-Rust laboratory.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1513300
+loop_
+_publ_author_name
+'Ferreira, Fabio Furlan'
+'Granado, Eduardo'
+'Carvalho Jr, Wilson'
+'Kycia, Stefan W.'
+'Bruno, Daniele'
+'Droppa Jr, Roosevelt'
+_publ_section_title
+;
+ X-ray powder diffraction beamline at D10B of LNLS: application to the
+ Ba2FeReO6double perovskite
+;
+_journal_coeditor_code           ML5212
+_journal_issue                   1
+_journal_name_full               'Journal of Synchrotron Radiation'
+_journal_page_first              46
+_journal_page_last               53
+_journal_paper_doi               10.1107/S0909049505039208
+_journal_volume                  13
+_journal_year                    2005
+_chemical_formula_analytical     'Y2 O3'
+_chemical_formula_moiety         'Y2 O3'
+_chemical_formula_structural     'Y2 O3'
+_chemical_formula_sum            'O3 Y2'
+_chemical_formula_weight         225.81
+_chemical_melting_point          2683
+_chemical_name_common            'yttria oxide'
+_chemical_name_systematic        'yttria oxide'
+_space_group_IT_number           206
+_symmetry_cell_setting           cubic
+_symmetry_space_group_name_Hall  '-I 2b 2c 3'
+_symmetry_space_group_name_H-M   'I a -3'
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            16
+_cell_length_a                   10.604000(4)
+_cell_length_b                   10.604000(4)
+_cell_length_c                   10.604000(4)
+_cell_measurement_temperature    295
+_cell_volume                     1192.3648(8)
+_computing_data_collection       'SPEC (Certified Scientific Software, 1992)'
+_computing_data_reduction        'POWF 2.11 (Virginia Tech, 2001-2003)'
+_computing_structure_refinement  GSAS
+_computing_structure_solution    'GSAS (Larson & Von Dreele, 2001)'
+_diffrn_ambient_temperature      295
+_diffrn_measurement_device_type  'Huber 4+2 circle diffractometer'
+_diffrn_radiation_monochromator  'Si 111'
+_diffrn_radiation_type           synchrotron
+_diffrn_radiation_wavelength     1.377909
+_exptl_absorpt_correction_T_max  1.00000
+_exptl_absorpt_correction_T_min  1.00000
+_exptl_absorpt_process_details
+;   GSAS Absorption/surface roughness correction: function number 0
+ No correction is applied.
+;
+_exptl_crystal_colour            white
+_exptl_crystal_density_diffrn    5.01
+_refine_ls_goodness_of_fit_all   0.83
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     16
+_refine_ls_number_restraints     0
+_refine_ls_shift/su_max          0.05
+_refine_ls_shift/su_mean         0.01
+_reflns_number_total             191
+_cod_data_source_file            ml5212sup1.cif
+_cod_data_source_block           I
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_geom_bond_publ_flag' value 'N' changed to 'n' according to
+/home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary named
+'cif_core.dic' version 2.4.2 from 2011-04-26 (36
+times).
+
+'_geom_angle_publ_flag' value 'N' changed to 'n' according
+to /home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary
+named 'cif_core.dic' version 2.4.2 from 2011-04-26 (138 times).
+
+Automatic conversion script
+Id: cif_fix_values 1891 2012-01-12 08:04:46Z andrius 
+;
+_cod_original_cell_volume        1192.3800(10)
+_cod_original_sg_symbol_Hall     'I a -3'
+_cod_database_code               1513300
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 +z,+x,+y
+3 +y,+z,+x
+4 +x+1/2,+y,-z+1/2
+5 -z+1/2,+x+1/2,+y
+6 +y,-z+1/2,+x+1/2
+7 -z,+x+1/2,-y+1/2
+8 -y+1/2,-z,+x+1/2
+9 +y+1/2,-z+1/2,-x
+10 -x,+y+1/2,-z+1/2
+11 -z+1/2,-x,+y+1/2
+12 +x+1/2,-y+1/2,-z
+-1 -x,-y,-z
+-2 -z,-x,-y
+-3 -y,-z,-x
+-4 -x+1/2,-y,+z+1/2
+-5 +z+1/2,-x+1/2,-y
+-6 -y,+z+1/2,-x+1/2
+-7 +z,-x+1/2,+y+1/2
+-8 +y+1/2,+z,-x+1/2
+-9 -y+1/2,+z+1/2,+x
+-10 +x,-y+1/2,+z+1/2
+-11 +z+1/2,+x,-y+1/2
+-12 -x+1/2,+y+1/2,+z
+101 +x+1/2,+y+1/2,+z+1/2
+102 +z+1/2,+x+1/2,+y+1/2
+103 +y+1/2,+z+1/2,+x+1/2
+104 +x,+y+1/2,-z
+105 -z,+x,+y+1/2
+106 +y+1/2,-z,+x
+107 -z+1/2,+x,-y
+108 -y,-z+1/2,+x
+109 +y,-z,-x+1/2
+110 -x+1/2,+y,-z
+111 -z,-x+1/2,+y
+112 +x,-y,-z+1/2
+-101 -x+1/2,-y+1/2,-z+1/2
+-102 -z+1/2,-x+1/2,-y+1/2
+-103 -y+1/2,-z+1/2,-x+1/2
+-104 -x,-y+1/2,+z
+-105 +z,-x,-y+1/2
+-106 -y+1/2,+z,-x
+-107 +z+1/2,-x,+y
+-108 +y,+z+1/2,-x
+-109 -y,+z,+x+1/2
+-110 +x+1/2,-y,+z
+-111 +z,+x+1/2,-y
+-112 -x,+y,+z+1/2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+Y1 Y3+ -0.03235(4) 0.0 0.25 1.0 Uovl 0.00058(10)
+Y2 Y3+ 0.25 0.25 0.25 1.0 Uovl 0.00058(10)
+O1 O2- 0.3905(3) 0.1515(3) 0.3806(3) 1.0 Uovl 0.00058(10)
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Y3+ 0.000 0.000 International_Tables_Vol_C
+O2- 0.000 0.000 International_Tables_Vol_C
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+Y1 Y1 Y1 6_555 -2_555 118.759(3) n
+Y1 Y1 Y1 6_555 -3_555 168.850(13) n
+Y1 Y1 Y1 6_555 -11_455 69.258(11) n
+Y1 Y1 Y2 6_555 4_455 59.8427(4) n
+Y1 Y1 Y2 6_555 7_545 129.047(11) n
+Y1 Y1 O1 6_555 4_455 84.42(9) n
+Y1 Y1 O1 6_555 5_545 128.56(7) n
+Y1 Y1 O1 6_555 -6_545 151.56(7) n
+Y1 Y1 O1 6_555 108_443 39.30(7) n
+Y1 Y1 O1 6_555 -102_544 40.29(7) n
+Y1 Y1 O1 6_555 -110_444 99.63(9) n
+Y1 Y1 Y1 -2_555 -3_555 69.258(11) n
+Y1 Y1 Y1 -2_555 -11_455 98.386(11) n
+Y1 Y1 Y2 -2_555 4_455 59.8427(4) n
+Y1 Y1 Y2 -2_555 7_545 69.155(11) n
+Y1 Y1 O1 -2_555 4_455 40.44(7) n
+Y1 Y1 O1 -2_555 5_545 99.76(9) n
+Y1 Y1 O1 -2_555 -6_545 38.53(8) n
+Y1 Y1 O1 -2_555 108_443 94.19(9) n
+Y1 Y1 O1 -2_555 -102_544 140.21(9) n
+Y1 Y1 O1 -2_555 -110_444 106.91(10) n
+Y1 Y1 Y1 -3_555 -11_455 118.759(3) n
+Y1 Y1 Y2 -3_555 4_455 129.047(11) n
+Y1 Y1 Y2 -3_555 7_545 59.8427(4) n
+Y1 Y1 O1 -3_555 4_455 99.63(9) n
+Y1 Y1 O1 -3_555 5_545 40.29(7) n
+Y1 Y1 O1 -3_555 -6_545 39.30(7) n
+Y1 Y1 O1 -3_555 108_443 151.56(7) n
+Y1 Y1 O1 -3_555 -102_544 128.56(7) n
+Y1 Y1 O1 -3_555 -110_444 84.42(9) n
+Y1 Y1 Y2 -11_446 4_455 69.155(11) n
+Y1 Y1 Y2 -11_446 7_545 59.8427(4) n
+Y1 Y1 O1 -11_545 4_455 106.91(10) n
+Y1 Y1 O1 -11_545 5_545 140.21(9) n
+Y1 Y1 O1 -11_545 -6_545 94.19(9) n
+Y1 Y1 O1 -11_545 108_443 38.53(8) n
+Y1 Y1 O1 -11_545 -102_544 99.76(9) n
+Y1 Y1 O1 -11_545 -110_444 40.44(7) n
+Y2 Y1 Y2 4_455 7_545 97.915(10) n
+Y2 Y1 O1 4_455 4_455 39.72(10) n
+Y2 Y1 O1 4_455 5_545 149.50(10) n
+Y2 Y1 O1 4_455 -6_545 93.09(7) n
+Y2 Y1 O1 4_455 108_443 39.96(10) n
+Y2 Y1 O1 4_455 -102_544 94.63(7) n
+Y2 Y1 O1 4_455 -110_444 107.26(6) n
+Y2 Y1 O1 7_545 4_455 107.26(6) n
+Y2 Y1 O1 7_545 5_545 94.63(7) n
+Y2 Y1 O1 7_545 -6_545 39.96(10) n
+Y2 Y1 O1 7_545 108_443 93.09(7) n
+Y2 Y1 O1 7_545 -102_544 149.50(10) n
+Y2 Y1 O1 7_545 -110_444 39.72(10) n
+O1 Y1 O1 4_455 5_545 109.89(19) n
+O1 Y1 O1 4_455 -6_545 78.41(13) n
+O1 Y1 O1 4_455 108_443 79.1(2) n
+O1 Y1 O1 4_455 -102_544 100.15(10) n
+O1 Y1 O1 4_455 -110_444 137.82(15) n
+O1 Y1 O1 5_545 -6_545 79.02(11) n
+O1 Y1 O1 5_545 108_443 165.74(7) n
+O1 Y1 O1 5_545 -102_544 88.29(15) n
+O1 Y1 O1 5_545 -110_444 100.15(10) n
+O1 Y1 O1 -6_545 108_443 114.27(15) n
+O1 Y1 O1 -6_545 -102_544 165.74(7) n
+O1 Y1 O1 -6_545 -110_444 79.1(2) n
+O1 Y1 O1 108_443 -102_544 79.02(11) n
+O1 Y1 O1 108_443 -110_444 78.41(13) n
+O1 Y1 O1 -102_544 -110_444 109.89(19) n
+Y1 Y2 Y1 4_555 5_555 119.6853(8) n
+Y1 Y2 Y1 4_555 6_555 119.6853(8) n
+Y1 Y2 Y1 4_555 9_555 60.3147(8) n
+Y1 Y2 Y1 4_555 10_555 180.0 n
+Y1 Y2 Y1 4_555 11_555 60.3147(8) n
+Y1 Y2 O1 4_555 1_555 39.43(7) n
+Y1 Y2 O1 4_555 2_555 95.38(7) n
+Y1 Y2 O1 4_555 3_555 139.18(6) n
+Y1 Y2 O1 4_555 -101_544 140.57(7) n
+Y1 Y2 O1 4_555 -102_544 84.62(7) n
+Y1 Y2 O1 4_555 -103_544 40.82(6) n
+Y1 Y2 Y1 5_555 6_555 119.6853(8) n
+Y1 Y2 Y1 5_555 9_555 60.3147(8) n
+Y1 Y2 Y1 5_555 10_555 60.3147(8) n
+Y1 Y2 Y1 5_555 11_555 180.0 n
+Y1 Y2 O1 5_555 1_555 139.18(6) n
+Y1 Y2 O1 5_555 2_555 39.43(7) n
+Y1 Y2 O1 5_555 3_555 95.38(7) n
+Y1 Y2 O1 5_555 -101_544 40.82(6) n
+Y1 Y2 O1 5_555 -102_544 140.57(7) n
+Y1 Y2 O1 5_555 -103_544 84.62(7) n
+Y1 Y2 Y1 6_555 9_555 180.0 n
+Y1 Y2 Y1 6_555 10_555 60.3147(8) n
+Y1 Y2 Y1 6_555 11_555 60.3147(8) n
+Y1 Y2 O1 6_555 1_555 95.38(7) n
+Y1 Y2 O1 6_555 2_555 139.18(6) n
+Y1 Y2 O1 6_555 3_555 39.43(7) n
+Y1 Y2 O1 6_555 -101_544 84.62(7) n
+Y1 Y2 O1 6_555 -102_544 40.82(6) n
+Y1 Y2 O1 6_555 -103_544 140.57(7) n
+Y1 Y2 Y1 9_555 10_555 119.6853(8) n
+Y1 Y2 Y1 9_555 11_555 119.6853(8) n
+Y1 Y2 O1 9_555 1_555 84.62(7) n
+Y1 Y2 O1 9_555 2_555 40.82(6) n
+Y1 Y2 O1 9_555 3_555 140.57(7) n
+Y1 Y2 O1 9_555 -101_544 95.38(7) n
+Y1 Y2 O1 9_555 -102_544 139.18(6) n
+Y1 Y2 O1 9_555 -103_544 39.43(7) n
+Y1 Y2 Y1 10_555 11_555 119.6853(8) n
+Y1 Y2 O1 10_555 1_555 140.57(7) n
+Y1 Y2 O1 10_555 2_555 84.62(7) n
+Y1 Y2 O1 10_555 3_555 40.82(6) n
+Y1 Y2 O1 10_555 -101_544 39.43(7) n
+Y1 Y2 O1 10_555 -102_544 95.38(7) n
+Y1 Y2 O1 10_555 -103_544 139.18(6) n
+Y1 Y2 O1 11_555 1_555 40.82(6) n
+Y1 Y2 O1 11_555 2_555 140.57(7) n
+Y1 Y2 O1 11_555 3_555 84.62(7) n
+Y1 Y2 O1 11_555 -101_544 139.18(6) n
+Y1 Y2 O1 11_555 -102_544 39.43(7) n
+Y1 Y2 O1 11_555 -103_544 95.38(7) n
+O1 Y2 O1 1_555 2_555 100.35(8) n
+O1 Y2 O1 1_555 3_555 100.35(8) n
+O1 Y2 O1 1_555 -101_544 180.0 n
+O1 Y2 O1 1_555 -102_544 79.65(8) n
+O1 Y2 O1 1_555 -103_544 79.65(8) n
+O1 Y2 O1 2_555 3_555 100.35(8) n
+O1 Y2 O1 2_555 -101_544 79.65(8) n
+O1 Y2 O1 2_555 -102_544 179.972 n
+O1 Y2 O1 2_555 -103_544 79.65(8) n
+O1 Y2 O1 3_555 -101_544 79.65(8) n
+O1 Y2 O1 3_555 -102_544 79.65(8) n
+O1 Y2 O1 3_555 -103_544 179.972 n
+O1 Y2 O1 -101_544 -102_544 100.35(8) n
+O1 Y2 O1 -101_544 -103_544 100.35(8) n
+O1 Y2 O1 -102_544 -103_544 100.35(8) n
+Y1 O1 Y1 4_555 11_555 100.27(10) n
+Y1 O1 Y1 4_555 -8_555 125.46(16) n
+Y1 O1 Y2 4_555 1_555 100.85(12) n
+Y1 O1 Y1 11_555 -8_555 101.18(13) n
+Y1 O1 Y2 11_555 1_555 99.22(12) n
+Y1 O1 Y2 -8_546 1_555 123.99(14) n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Y1 Y1 6_555 3.5316(2) n
+Y1 Y1 -2_555 3.5316(2) n
+Y1 Y1 -3_555 3.5316(2) n
+Y1 Y1 -11_455 3.5316(2) n
+Y1 Y2 1_555 3.9990(3) n
+Y1 Y2 4_455 3.5149(3) n
+Y1 Y2 5_545 3.9990(3) n
+Y1 Y2 7_545 3.5149(3) n
+Y1 O1 4_455 2.273(3) n
+Y1 O1 5_545 2.242(3) n
+Y1 O1 -6_545 2.328(3) n
+Y1 O1 108_555 2.328(3) n
+Y1 O1 -102_444 2.242(3) n
+Y1 O1 -110_344 2.273(3) n
+Y2 Y1 1_555 3.9990(3) n
+Y2 Y1 2_555 3.9990(3) n
+Y2 Y1 3_555 3.9990(3) n
+Y2 Y1 4_555 3.5149(3) n
+Y2 Y1 5_555 3.5149(3) n
+Y2 Y1 6_555 3.5149(3) n
+Y2 Y1 9_555 3.5149(3) n
+Y2 Y1 10_555 3.5149(3) n
+Y2 Y1 11_555 3.5149(3) n
+Y2 Y1 -7_555 3.9990(3) n
+Y2 Y1 -8_555 3.9990(3) n
+Y2 Y1 -12_555 3.9990(3) n
+Y2 O1 1_555 2.287(4) n
+Y2 O1 2_555 2.287(4) n
+Y2 O1 3_555 2.287(4) n
+Y2 O1 -101_444 2.287(4) n
+Y2 O1 -102_444 2.287(4) n
+Y2 O1 -103_444 2.287(4) n
+O1 Y1 4_555 2.273(3) n
+O1 Y1 11_555 2.328(3) n
+O1 Y1 -8_555 2.242(3) n
+O1 Y2 1_555 2.287(4) n

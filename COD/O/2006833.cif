@@ -1,0 +1,252 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 06:40:26 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176432 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/68/2006833.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2006833
+loop_
+_publ_author_name
+'Satto, Christine'
+'Millet, Patrice'
+'Galy, Jean'
+_publ_contact_author
+;
+Dr. Patrice Millet
+C.E.M.E.S. - C.N.R.S.
+29 rue Jeanne Marvig
+BP 4347
+31055 Toulouse Cedex
+France
+;
+_publ_section_title
+;
+ Lithium Vanadium Metasilicate, LiVSi~2~O~6~
+;
+_journal_issue                   12
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              1727
+_journal_page_last               1728
+_journal_paper_doi               10.1107/S0108270197008585
+_journal_volume                  53
+_journal_year                    1997
+_chemical_formula_iupac          'Li1 V1 Si2 O6'
+_chemical_formula_moiety         ' C0 H0 V1 Si2 O6 Li1 '
+_chemical_formula_sum            'Li O6 Si2 V'
+_chemical_formula_weight         210.04
+_chemical_name_systematic
+;
+vanadium lithium metasilicate
+;
+_space_group_IT_number           15
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-C 2yc'
+_symmetry_space_group_name_H-M   'C 1 2/c 1'
+_audit_creation_method           CRYSTALS
+_cell_angle_alpha                90.000
+_cell_angle_beta                 109.69(3)
+_cell_angle_gamma                90.000
+_cell_formula_units_Z            4.00
+_cell_length_a                   9.634(4)
+_cell_length_b                   8.586(2)
+_cell_length_c                   5.304(2)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      19.30
+_cell_measurement_theta_min      3.25
+_cell_volume                     413.1(3)
+_computing_cell_refinement       'CAD-4 EXPRESS'
+_computing_data_collection       'CAD-4 EXPRESS (Enraf-Nonius, 1994)'
+_computing_data_reduction
+'CRYSTALS (Watkin, Carruthers & Betteridge, 1985)'
+_computing_molecular_graphics    'ORTEPII (Johnson, 1976)'
+_computing_publication_material  'CRYSTALS '
+_computing_structure_refinement  CRYSTALS
+_computing_structure_solution    'SHELXS86 (Sheldrick, 1985)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measurement_device       '  Enraf-nonius CAD4 '
+_diffrn_measurement_method       2\q/\w
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.71069
+_diffrn_reflns_av_R_equivalents  0.01
+_diffrn_reflns_limit_h_max       11
+_diffrn_reflns_limit_h_min       -12
+_diffrn_reflns_limit_k_max       11
+_diffrn_reflns_limit_k_min       -6
+_diffrn_reflns_limit_l_max       6
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            1190
+_diffrn_reflns_theta_max         28.00
+_diffrn_reflns_theta_min         1.00
+_diffrn_standards_decay_%        0.4
+_diffrn_standards_interval_count ' 3 every 200'
+_diffrn_standards_interval_time  '3 every 60'
+_diffrn_standards_number         6
+_exptl_absorpt_coefficient_mu    2.84
+_exptl_absorpt_correction_T_max  0.893
+_exptl_absorpt_correction_T_min  0.786
+_exptl_absorpt_correction_type   empirical
+_exptl_absorpt_process_details   '\y scan (North, Phillips & Mathews, 1968)'
+_exptl_crystal_colour            ' translucent pale green '
+_exptl_crystal_density_diffrn    3.38
+_exptl_crystal_description       'parallelepiped '
+_exptl_crystal_F_000             409.78
+_exptl_crystal_size_max          0.12
+_exptl_crystal_size_mid          0.06
+_exptl_crystal_size_min          0.04
+_refine_diff_density_max         0.37
+_refine_diff_density_min         -0.58
+_refine_ls_extinction_coef       4.7(8)
+_refine_ls_extinction_method     'Larson (1970)'
+_refine_ls_goodness_of_fit_obs   1.0784
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     48
+_refine_ls_number_reflns         427
+_refine_ls_R_factor_obs          .0189
+_refine_ls_shift/esd_max         0.000512
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_scheme
+;
+Weights:  Chebychev polynomial (Carruthers & Watkin, 1979)
+;
+_refine_ls_wR_factor_obs         .0162
+_reflns_number_observed          427
+_reflns_number_total             481
+_reflns_observed_criterion       >3\s(I)
+_cod_data_source_file            jz1217.cif
+_cod_data_source_block           CRYSTALS_cif
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_symmetry_cell_setting' value 'Monoclinic ' changed to 'monoclinic'
+according to '/home/saulius/struct/CIF-dictionaries/cif_core.dic'
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Monoclinic ' changed to 'monoclinic'
+according to /home/saulius/struct/CIF-dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_original_cell_volume        413.1(2)
+_cod_original_sg_symbol_Hall     '-C 2yc '
+_cod_original_sg_symbol_H-M      'C 2/c'
+_cod_original_formula_sum        'Li1 O6 Si2 V1'
+_cod_database_code               2006833
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,-z
+x+1/2,y+1/2,z
+-x+1/2,-y+1/2,-z
+-x,y,-z+1/2
+x,-y,z+1/2
+-x+1/2,y+1/2,-z+1/2
+x+1/2,-y+1/2,z+1/2
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+V1 .0041(2) .0034(2) .0053(2) .0000 .00160(10) .0000
+Si1 .0044(2) .0046(2) .0053(2) -.00070(10) .0016(2) -.00030(10)
+O1 .0048(5) .0060(5) .0066(5) .0010(4) .0014(4) .0000(4)
+O2 .0101(6) .0079(6) .0115(6) -.0030(4) .0047(5) -.0013(4)
+O3 .0068(6) .0142(6) .0086(5) .0000(5) .0026(4) -.0041(5)
+Li1 .019(2) .016(2) .016(2) .0000 .006(2) .0000
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_occupancy
+V1 .0000 .09408(4) .2500 .0042 Uani 1.0000
+Si1 .20309(5) .40936(5) .23099(9) .0047 Uani 1.0000
+O1 -.11680(10) .08640(10) -.1559(2) .0058 Uani 1.0000
+O2 .13110(10) .24030(10) .1729(3) .0090 Uani 1.0000
+O3 .14430(10) .5026(2) .4418(2) .0089 Uani 1.0000
+Li1 .0000 .7343(6) .2500 .0169 Uani 1.0000
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+'Li  ' 0.0000 0.0000 International_Tables_Vol_IV_Table_2.2B
+'Si  ' 0.0720 0.0710 International_Tables_Vol_IV_Table_2.2B
+'V   ' 0.2670 0.5300 International_Tables_Vol_IV_Table_2.2B
+'O   ' 0.0080 0.0060 International_Tables_Vol_IV_Table_2.2B
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O1 V1 O1 . 2_555 82.79(5) no
+O1 V1 O1 . 5_555 176.33(7) no
+O1 V1 O1 2_555 5_555 94.45(4) no
+O1 V1 O1 . 6_555 94.45(4) no
+O1 V1 O1 2_555 6_555 83.24(7) no
+O1 V1 O1 5_555 6_555 82.79(5) no
+O1 V1 O2 . . 88.03(5) no
+O1 V1 O2 2_555 . 89.32(5) no
+O1 V1 O2 5_555 . 94.38(5) no
+O1 V1 O2 6_555 . 171.78(5) no
+O1 V1 O2 . 5_555 94.38(5) no
+O1 V1 O2 2_555 5_555 171.78(5) no
+O1 V1 O2 5_555 5_555 88.03(5) no
+O1 V1 O2 6_555 5_555 89.32(5) no
+O2 V1 O2 . 5_555 98.34(5) no
+O2 Si1 O3 . . 110.61(4) no
+O2 Si1 O3 . 6_564 104.46(5) no
+O2 Si1 O1 . 8_555 115.49(4) no
+O3 Si1 O3 . 6_564 109.14(5) no
+O3 Si1 O1 . 8_555 108.04(5) no
+O3 Si1 O1 6_564 8_555 108.92(4) no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+V1 O1 . . 2.0670(10) yes
+V1 O1 . 2_555 2.0720(10) yes
+V1 O1 . 5_555 2.0670(10) no
+V1 O1 . 6_555 2.0720(10) no
+V1 O2 . . 1.9200(10) yes
+V1 O2 . 5_555 1.9200(10) no
+Si1 O1 . 8_555 1.6340(10) yes
+Si1 O2 . . 1.5930(10) yes
+Si1 O3 . . 1.6250(10) yes
+Si1 O3 . 6_564 1.6310(10) yes
+Li1 O1 . 6_565 2.065(4) yes
+Li1 O1 . 2_565 2.065(4) no
+Li1 O2 . 6_565 2.1840(10) yes
+Li1 O2 . 2_565 2.1840(10) no
+Li1 O3 . . 2.444(4) yes
+Li1 O3 . 5_555 2.444(4) no
+V1 V1 . 2_555 3.1050(10) yes
+Si1 Si1 . 6_565 3.0750(10) yes

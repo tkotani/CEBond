@@ -1,0 +1,87 @@
+cif name= ./1530292.cif
+./1530292.cif
+Full Formula (Ca2 O4)
+Reduced Formula: CaO2
+abc   :   5.010000   5.010000   5.920000
+angles:  90.000000  90.000000  90.000000
+Sites (6)
+  #  SP      a    b     c
+---  ----  ---  ---  ----
+  0  Ca    0    0    0.5
+  1  Ca    0.5  0.5  0
+  2  O     0    0    0.11
+  3  O     0    0    0.89
+  4  O     0.5  0.5  0.61
+  5  O     0.5  0.5  0.39
+
+space_group_IT_number 139
+
+*** lse ***
+
+
+**isite= 0
+Ca1 : [0.   0.   2.96]
+
+ce_symbol  = L:2
+ce_fraction=  1.0
+species:coords:index
+O1 : [0.     0.     5.2688] : 3
+O1 : [0.     0.     0.6512] : 2
+
+
+**isite= 1
+Ca1 : [2.505 2.505 0.   ]
+
+ce_symbol  = L:2
+ce_fraction=  1.0
+species:coords:index
+O1 : [ 2.505   2.505  -2.3088] : 4
+O1 : [2.505  2.505  2.3088] : 5
+!!!atention to nb coordination!!!
+         [2.3088000000000006, 2.3088]
+         [2.3088000000000006, 2.3088000000000006]
+
+
+**isite= 2
+O1 : [0.     0.     0.6512]
+
+ce_symbol  = S:1
+ce_fraction=  1.0
+species:coords:index
+O1 : [ 0.      0.     -0.6512] : 3
+!!!atention to nb coordination!!!
+         [1.3023999999999987]
+         [1.3023999999999984]
+
+
+**isite= 3
+O1 : [0.     0.     5.2688]
+
+ce_symbol  = S:1
+ce_fraction=  1.0
+species:coords:index
+O1 : [0.     0.     6.5712] : 2
+
+
+**isite= 4
+O1 : [2.505  2.505  3.6112]
+
+ce_symbol  = S:1
+ce_fraction=  1.0
+species:coords:index
+O1 : [2.505  2.505  2.3088] : 5
+!!!atention to nb coordination!!!
+         [1.3023999999999991]
+         [1.3023999999999987]
+
+
+**isite= 5
+O1 : [2.505  2.505  2.3088]
+
+ce_symbol  = S:1
+ce_fraction=  1.0
+species:coords:index
+O1 : [2.505  2.505  3.6112] : 4
+
+END
+

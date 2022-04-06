@@ -1,0 +1,383 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 00:18:51 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176760 $
+#$URL: svn://www.crystallography.net/cod/cif/2/01/08/2010891.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2010891
+loop_
+_publ_author_name
+'G\"obel, Ole'
+_publ_section_title
+;
+ Rerefinement of K~2~[TiF~6~]
+;
+_journal_issue                   5
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              521
+_journal_page_last               522
+_journal_paper_doi               10.1107/S0108270100002560
+_journal_volume                  56
+_journal_year                    2000
+_chemical_formula_iupac          'K2 [Ti F6]'
+_chemical_formula_moiety         'K2 Ti F6'
+_chemical_formula_structural     '(K +)2, (TiF6 2-)1'
+_chemical_formula_sum            'F6 K2 Ti'
+_chemical_formula_weight         240.10
+_chemical_name_common            'potassium hexafluoro titanate'
+_chemical_name_systematic        'dipotassium hexafluorotitanate(IV)'
+_space_group_IT_number           164
+_symmetry_cell_setting           trigonal
+_symmetry_space_group_name_Hall  '-P 3 2"'
+_symmetry_space_group_name_H-M   'P -3 m 1'
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                120.00
+_cell_formula_units_Z            1
+_cell_length_a                   5.7354(11)
+_cell_length_b                   5.7354(11)
+_cell_length_c                   4.6635(18)
+_cell_measurement_reflns_used    26
+_cell_measurement_temperature    298(2)
+_cell_measurement_theta_max      12.06
+_cell_measurement_theta_min      8.38
+_cell_volume                     132.85(6)
+_computing_cell_refinement       'DL (Stoe & Cie, 1987)'
+_computing_data_collection       'CD (Stoe & Cie, 1987)'
+_computing_data_reduction        'REDU4 (Stoe & Cie, 1987)'
+_computing_molecular_graphics    'ORTEPIII (Burnett & Johnson, 1996)'
+_computing_structure_refinement  'SHELXL97 (Sheldrick, 1997)'
+_diffrn_ambient_temperature      298(2)
+_diffrn_measured_fraction_theta_full 1.000
+_diffrn_measured_fraction_theta_max 1.000
+_diffrn_measurement_device_type  'Siemens AED-II four-circle '
+_diffrn_measurement_method       '\q/2\q scans'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     .71073
+_diffrn_reflns_av_R_equivalents  .054
+_diffrn_reflns_av_sigmaI/netI    .025
+_diffrn_reflns_limit_h_max       12
+_diffrn_reflns_limit_h_min       -12
+_diffrn_reflns_limit_k_max       12
+_diffrn_reflns_limit_k_min       -12
+_diffrn_reflns_limit_l_max       10
+_diffrn_reflns_limit_l_min       -8
+_diffrn_reflns_number            4637
+_diffrn_reflns_theta_full        49.76
+_diffrn_reflns_theta_max         49.76
+_diffrn_reflns_theta_min         4.10
+_diffrn_standards_decay_%        0
+_diffrn_standards_interval_time  120
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    3.213
+_exptl_absorpt_correction_type   none
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    3.001
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       rhombohedron
+_exptl_crystal_F_000             114
+_exptl_crystal_size_max          .12
+_exptl_crystal_size_mid          .12
+_exptl_crystal_size_min          .12
+_refine_diff_density_max         .571
+_refine_diff_density_min         -.698
+_refine_ls_extinction_coef       .54(3)
+_refine_ls_extinction_method     'SHELXL (Sheldrick, 1997)'
+_refine_ls_goodness_of_fit_ref   1.152
+_refine_ls_hydrogen_treatment    none
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     13
+_refine_ls_number_reflns         553
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.152
+_refine_ls_R_factor_all          .040
+_refine_ls_R_factor_gt           .028
+_refine_ls_shift/su_max          <0.001
+_refine_ls_shift/su_mean         .000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w = 1/[\s^2^(Fo^2^)+(0.0183P)^2^+0.0142P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_ref         .050
+_reflns_number_gt                465
+_reflns_number_total             553
+_reflns_threshold_expression     I>2\s(I)
+_cod_data_source_file            br1278.cif
+_cod_data_source_block           I
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'calc w =
+1/[\s^2^(Fo^2^)+(0.0183P)^2^+0.0142P] where P=(Fo^2^+2Fc^2^)/3' was
+changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to 'w =
+1/[\s^2^(Fo^2^)+(0.0183P)^2^+0.0142P] where P=(Fo^2^+2Fc^2^)/3'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_database_code               2010891
+_cod_database_fobs_code          2010891
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-y, x-y, z'
+'-x+y, -x, z'
+'-y, -x, z'
+'x, x-y, z'
+'-x+y, y, z'
+'-x, -y, -z'
+'y, -x+y, -z'
+'x-y, x, -z'
+'y, x, -z'
+'-x, -x+y, -z'
+'x-y, -y, -z'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+_atom_site_type_symbol
+K 0.333333333333333 0.666666666666667 .69254(7) .02169(8) Uani d S 1 . . K
+Ti 0 0 0 .01220(7) Uani d S 1 . . Ti
+F 0.15549(6) 0.31099(11) .22237(13) .02376(12) Uani d S 1 . . F
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+K .01963(9) .01963(9) .02581(15) .00981(5) 0 0
+Ti .01101(8) .01101(8) .01457(11) .00550(4) 0 0
+F .0256(2) .0171(2) .0257(2) .00856(11) -.00366(8) -.00732(17)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+K K .2009 .2494 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ti Ti .2776 .4457 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+F F .0171 .0103 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+F K F . 3_565 65.82(3) n
+F K F . 2_665 65.82(3) n
+F K F 3_565 2_665 65.82(3) n
+F K F . 8_566 129.233(11) n
+F K F 3_565 8_566 63.69(3) n
+F K F 2_665 8_566 97.509(12) n
+F K F . 7_566 97.510(12) n
+F K F 3_565 7_566 63.69(3) n
+F K F 2_665 7_566 129.232(11) n
+F K F 8_566 7_566 55.00(2) n
+F K F . 9_666 129.231(11) n
+F K F 3_565 9_666 97.510(12) n
+F K F 2_665 9_666 63.69(3) n
+F K F 8_566 9_666 63.75(2) n
+F K F 7_566 9_666 118.157(6) n
+F K F . 9_556 63.69(3) n
+F K F 3_565 9_556 97.510(12) n
+F K F 2_665 9_556 129.231(11) n
+F K F 8_566 9_556 118.157(6) n
+F K F 7_566 9_556 63.75(2) n
+F K F 9_666 9_556 163.65(3) n
+F K F . 7_666 97.508(12) n
+F K F 3_565 7_666 129.232(11) n
+F K F 2_665 7_666 63.69(3) n
+F K F 8_566 7_666 118.155(6) n
+F K F 7_566 7_666 163.65(3) n
+F K F 9_666 7_666 55.00(2) n
+F K F 9_556 7_666 118.154(6) n
+F K F . 8_556 63.69(3) n
+F K F 3_565 8_556 129.232(11) n
+F K F 2_665 8_556 97.509(12) n
+F K F 8_566 8_556 163.65(3) n
+F K F 7_566 8_556 118.155(6) n
+F K F 9_666 8_556 118.154(7) n
+F K F 9_556 8_556 55.00(2) n
+F K F 7_666 8_556 63.75(2) n
+F K F . 3_566 144.676(13) n
+F K F 3_565 3_566 105.58(3) n
+F K F 2_665 3_566 144.675(12) n
+F K F 8_566 3_566 51.601(19) n
+F K F 7_566 3_566 51.60(2) n
+F K F 9_666 3_566 84.887(14) n
+F K F 9_556 3_566 84.887(14) n
+F K F 7_666 3_566 112.088(17) n
+F K F 8_556 3_566 112.088(17) n
+F K F . 2_666 144.675(13) n
+F K F 3_565 2_666 144.676(12) n
+F K F 2_665 2_666 105.58(3) n
+F K F 8_566 2_666 84.886(14) n
+F K F 7_566 2_666 112.088(17) n
+F K F 9_666 2_666 51.601(19) n
+F K F 9_556 2_666 112.087(17) n
+F K F 7_666 2_666 51.601(19) n
+F K F 8_556 2_666 84.886(14) n
+F K F 3_566 2_666 60.49(3) n
+F K F . 1_556 105.58(3) n
+F K F 3_565 1_556 144.676(13) n
+F K F 2_665 1_556 144.675(13) n
+F K F 8_566 1_556 112.088(16) n
+F K F 7_566 1_556 84.886(14) n
+F K F 9_666 1_556 112.087(17) n
+F K F 9_556 1_556 51.60(2) n
+F K F 7_666 1_556 84.886(14) n
+F K F 8_556 1_556 51.601(19) n
+F K F 3_566 1_556 60.49(3) n
+F K F 2_666 1_556 60.49(3) n
+F Ti F 9 3 180.0 n
+F Ti F 9 7 91.95(3) n
+F Ti F 3 7 88.05(3) n
+F Ti F 9 8 91.95(3) n
+F Ti F 3 8 88.05(3) n
+F Ti F 7 8 91.95(3) n
+F Ti F 9 2 88.05(3) n
+F Ti F 3 2 91.95(3) n
+F Ti F 7 2 88.05(3) n
+F Ti F 8 2 180.0 n
+F Ti F 9 . 88.05(3) y
+F Ti F 3 . 91.95(3) y
+F Ti F 7 . 180.0 n
+F Ti F 8 . 88.05(3) n
+F Ti F 2 . 91.95(3) n
+F Ti K 9 7_566 57.29(3) n
+F Ti K 3 7_566 122.71(3) n
+F Ti K 7 7_566 127.045(6) n
+F Ti K 8 7_566 127.045(6) n
+F Ti K 2 7_566 52.955(6) n
+F Ti K . 7_566 52.956(6) n
+F Ti K 9 1_544 122.71(3) n
+F Ti K 3 1_544 57.29(3) n
+F Ti K 7 1_544 52.955(6) n
+F Ti K 8 1_544 52.955(6) n
+F Ti K 2 1_544 127.045(6) n
+F Ti K . 1_544 127.044(6) n
+K Ti K 7_566 1_544 180.0 n
+F Ti K 9 7_666 127.044(6) n
+F Ti K 3 7_666 52.956(6) n
+F Ti K 7 7_666 127.043(6) n
+F Ti K 8 7_666 57.29(3) n
+F Ti K 2 7_666 122.71(3) n
+F Ti K . 7_666 52.957(6) n
+K Ti K 7_566 7_666 105.259(11) n
+K Ti K 1_544 7_666 74.741(11) n
+F Ti K 9 1_444 52.956(6) n
+F Ti K 3 1_444 127.044(6) n
+F Ti K 7 1_444 52.957(6) n
+F Ti K 8 1_444 122.71(3) n
+F Ti K 2 1_444 57.29(3) n
+F Ti K . 1_444 127.043(5) n
+K Ti K 7_566 1_444 74.741(11) n
+K Ti K 1_544 1_444 105.259(11) n
+K Ti K 7_666 1_444 180.0 n
+F Ti K 9 7_556 127.044(6) n
+F Ti K 3 7_556 52.956(5) n
+F Ti K 7 7_556 57.29(3) n
+F Ti K 8 7_556 127.043(6) n
+F Ti K 2 7_556 52.958(6) n
+F Ti K . 7_556 122.71(3) n
+K Ti K 7_566 7_556 105.259(11) n
+K Ti K 1_544 7_556 74.741(11) n
+K Ti K 7_666 7_556 105.257(12) n
+K Ti K 1_444 7_556 74.743(12) n
+F Ti K 9 1_554 52.956(5) n
+F Ti K 3 1_554 127.044(6) n
+F Ti K 7 1_554 122.71(3) n
+F Ti K 8 1_554 52.958(6) n
+F Ti K 2 1_554 127.043(6) n
+F Ti K . 1_554 57.29(3) n
+K Ti K 7_566 1_554 74.741(11) n
+K Ti K 1_544 1_554 105.259(11) n
+K Ti K 7_666 1_554 74.743(12) n
+K Ti K 1_444 1_554 105.257(12) n
+K Ti K 7_556 1_554 180.0 n
+Ti F K . . 162.74(3) n
+Ti F K . 7_566 96.208(11) n
+K F K . 7_566 82.491(12) n
+Ti F K . 7_666 96.208(11) n
+K F K . 7_666 82.492(12) n
+K F K 7_566 7_666 163.65(3) n
+Ti F K . 1_554 91.69(3) n
+K F K . 1_554 105.58(3) n
+K F K 7_566 1_554 95.113(14) n
+K F K 7_666 1_554 95.114(14) n
+F F F 8 9 62.30(4) y
+F F F 8 2 90.000(10) n
+F F F 8 3 58.85(2) y
+F F F 8 7 45.97(2) n
+F F F 9 2 58.85(2) n
+F F F 9 3 90.000(5) n
+F F F 9 7 45.973(15) n
+F F F 2 3 60.000(14) n
+F F F 2 7 44.027(16) n
+F F F 3 7 44.027(17) n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+K F . 2.8158(9) y
+K F 3_565 2.8158(9) n
+K F 2_665 2.8158(9) n
+K F 8_566 2.8971(6) n
+K F 7_566 2.8971(6) n
+K F 9_666 2.8972(6) n
+K F 9_556 2.8972(6) y
+K F 7_666 2.8972(6) n
+K F 8_556 2.8972(6) n
+K F 3_566 3.0375(11) n
+K F 2_666 3.0375(11) n
+K F 1_556 3.0375(11) y
+Ti F 9 1.8605(6) n
+Ti F 3 1.8605(6) n
+Ti F 7 1.8605(6) n
+Ti F 8 1.8605(6) n
+Ti F 2 1.8605(6) n
+Ti F . 1.8605(6) y
+Ti K 7_566 3.6084(6) n
+Ti K 1_544 3.6084(6) n
+Ti K 7_666 3.6085(6) n
+Ti K 1_444 3.6085(6) n
+Ti K 7_556 3.6085(6) n
+Ti K 1_554 3.6085(6) n
+F K 7_566 2.8971(5) n
+F K 7_666 2.8972(6) n
+F K 1_554 3.0375(11) n
+F F 8 2.5860(12) y
+F F 9 2.5860(12) n
+F F 2 2.6754(11) n
+F F 3 2.6754(11) y
+F F 8_556 3.0152(14) n
+F F 9_556 3.0152(14) n
+F F 2_665 3.0600(10) n
+F F 3_565 3.0600(11) n
+F F 7 3.7209(13) n

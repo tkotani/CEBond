@@ -1,0 +1,110 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/1/00/87/1008789.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1008789
+loop_
+_publ_author_name
+'Dance, J M'
+'Soubeyroux, J L'
+'Kerkouri, N'
+'Tressaud, A'
+_publ_section_title
+;
+Chimie de solide - structure magnetique de la phase Rb0.5 Cs0.5 Co F3
+de type perovskite hexagonale 6H
+;
+_journal_coden_ASTM              CHDCAQ
+_journal_name_full
+;
+Comptes Rendus Hebdomadaires des Seances de l'Academie des Sciences,
+Serie C, Sciences Chimiques (1966-)
+;
+_journal_page_first              279
+_journal_page_last               293
+_journal_volume                  293
+_journal_year                    1981
+_chemical_compound_source        synthetic
+_chemical_formula_structural     'Rb.5 Cs.5 Co F3'
+_chemical_formula_sum            'Co Cs0.5 F3 Rb0.5'
+_chemical_name_mineral           'Perovskite group'
+_chemical_name_systematic
+;
+Rubidium caesium cobalt fluoride (0.5/0.5/1/3) - LT
+;
+_space_group_IT_number           194
+_symmetry_cell_setting           hexagonal
+_symmetry_Int_Tables_number      194
+_symmetry_space_group_name_Hall  '-P 6c 2c'
+_symmetry_space_group_name_H-M   'P 63/m m c'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            6
+_cell_length_a                   5.984(2)
+_cell_length_b                   5.984(2)
+_cell_length_c                   14.559(8)
+_cell_volume                     451.5
+_refine_ls_R_factor_all          0.038
+_cod_original_formula_sum        'Co Cs.5 F3 Rb.5'
+_cod_database_code               1008789
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-y,x-y,z
+y-x,-x,z
+-y,-x,z
+y-x,y,z
+x,x-y,z
+-x,-y,-z
+y,y-x,-z
+x-y,x,-z
+y,x,-z
+x-y,-y,-z
+-x,y-x,-z
+-x,-y,1/2+z
+y,y-x,1/2+z
+x-y,x,1/2+z
+y,x,1/2+z
+x-y,-y,1/2+z
+-x,y-x,1/2+z
+x,y,1/2-z
+-y,x-y,1/2-z
+y-x,-x,1/2-z
+-y,-x,1/2-z
+y-x,y,1/2-z
+x,x-y,1/2-z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_calc_flag
+Rb1 Rb1+ 2 b 0. 0. 0.25 0.5 0 d
+Cs1 Cs1+ 2 b 0. 0. 0.25 0.5 0 d
+Rb2 Rb1+ 4 f 0.3333 0.6667 0.0891(5) 0.5 0 d
+Cs2 Cs1+ 4 f 0.3333 0.6667 0.0891(5) 0.5 0 d
+Co1 Co2+ 2 a 0. 0. 0. 1. 0 d
+Co2 Co2+ 4 f 0.3333 0.6667 0.8551(10) 1. 0 d
+F1 F1- 6 h 0.5144 0.0288 0.25 1. 0 d
+F2 F1- 12 k 0.8362 0.6724 0.0765 1. 0 d
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Rb1+ 1.000
+Cs1+ 1.000
+Co2+ 2.000
+F1- -1.000

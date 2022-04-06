@@ -1,0 +1,85 @@
+cif name= ./1530998.cif
+./1530998.cif
+Full Formula (Sr3 Sn1 O1)
+Reduced Formula: Sr3SnO
+abc   :   5.120000   5.120000   5.120000
+angles:  90.000000  90.000000  90.000000
+Sites (5)
+  #  SP      a    b    c
+---  ----  ---  ---  ---
+  0  Sr    0    0.5  0.5
+  1  Sr    0.5  0    0.5
+  2  Sr    0.5  0.5  0
+  3  Sn    0    0    0
+  4  O     0.5  0.5  0.5
+
+space_group_IT_number 221
+
+*** lse ***
+
+
+**isite= 0
+Sr1 : [0.   2.56 2.56]
+
+ce_symbol  = L:2
+ce_fraction=  1.0
+species:coords:index
+O1 : [-2.56  2.56  2.56] : 4
+O1 : [2.56 2.56 2.56] : 4
+
+
+**isite= 1
+Sr1 : [2.56 0.   2.56]
+
+ce_symbol  = L:2
+ce_fraction=  1.0
+species:coords:index
+O1 : [2.56 2.56 2.56] : 4
+O1 : [ 2.56 -2.56  2.56] : 4
+
+
+**isite= 2
+Sr1 : [2.56 2.56 0.  ]
+
+ce_symbol  = L:2
+ce_fraction=  1.0
+species:coords:index
+O1 : [2.56 2.56 2.56] : 4
+O1 : [ 2.56  2.56 -2.56] : 4
+
+
+**isite= 3
+Sn1 : [0. 0. 0.]
+
+ce_symbol  = C:12
+ce_fraction=  1.0
+species:coords:index
+Sr1 : [-2.56  0.    2.56] : 1
+Sr1 : [0.   2.56 2.56] : 0
+Sr1 : [-2.56  2.56  0.  ] : 2
+Sr1 : [ 2.56  0.   -2.56] : 1
+Sr1 : [2.56 0.   2.56] : 1
+Sr1 : [ 2.56 -2.56  0.  ] : 2
+Sr1 : [ 0.   -2.56  2.56] : 0
+Sr1 : [2.56 2.56 0.  ] : 2
+Sr1 : [ 0.    2.56 -2.56] : 0
+Sr1 : [-2.56  0.   -2.56] : 1
+Sr1 : [ 0.   -2.56 -2.56] : 0
+Sr1 : [-2.56 -2.56  0.  ] : 2
+
+
+**isite= 4
+O1 : [2.56 2.56 2.56]
+
+ce_symbol  = O:6
+ce_fraction=  1.0
+species:coords:index
+Sr1 : [2.56 2.56 5.12] : 2
+Sr1 : [0.   2.56 2.56] : 0
+Sr1 : [2.56 0.   2.56] : 1
+Sr1 : [2.56 5.12 2.56] : 1
+Sr1 : [5.12 2.56 2.56] : 0
+Sr1 : [2.56 2.56 0.  ] : 2
+
+END
+

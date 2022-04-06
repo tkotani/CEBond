@@ -1,0 +1,222 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-04-06 04:50:02 +0300 (Wed, 06 Apr 2016) $
+#$Revision: 181828 $
+#$URL: svn://www.crystallography.net/cod/cif/2/30/06/2300617.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2300617
+loop_
+_publ_author_name
+'Solano, Eduardo'
+'Frontera, Carlos'
+'Puig, Teresa'
+'Obradors, Xavier'
+'Ricart, Susagna'
+'Ros, Josep'
+_publ_section_title
+;
+ Neutron and X-ray diffraction study of ferrite nanocrystals obtained by
+ microwave-assisted growth. A structural comparison with the thermal
+ synthetic route
+;
+_journal_coeditor_code           kk5153
+_journal_issue                   1
+_journal_name_full               'Journal of Applied Crystallography'
+_journal_page_first              414
+_journal_page_last               420
+_journal_paper_doi               10.1107/S1600576713032895
+_journal_volume                  47
+_journal_year                    2014
+_chemical_formula_sum            'Fe2 O3'
+_chemical_formula_weight         159.692
+_chemical_name_systematic        ' ?'
+_space_group_IT_number           212
+_symmetry_cell_setting           cubic
+_symmetry_space_group_name_Hall  'P 4acd 2ab 3'
+_symmetry_space_group_name_H-M   'P 43 3 2'
+_cell_angle_alpha                90.00000
+_cell_angle_beta                 90.00000
+_cell_angle_gamma                90.00000
+_cell_formula_units_Z            10
+_cell_length_a                   8.3364(15)
+_cell_length_b                   8.3364(15)
+_cell_length_c                   8.3364(15)
+_cell_measurement_temperature    300
+_cell_volume                     579.34(18)
+_computing_structure_refinement  FULLPROF
+_diffrn_ambient_temperature      300
+_pd_instr_location               ' ?'
+_pd_meas_2theta_range_inc        0.060032
+_pd_meas_2theta_range_max        109.96000
+_pd_meas_2theta_range_min        5.38000
+_pd_meas_number_of_points        0
+_pd_proc_2theta_range_inc        0.060032
+_pd_proc_2theta_range_max        109.9618
+_pd_proc_2theta_range_min        5.3818
+_pd_proc_ls_pref_orient_corr     ' ?'
+_pd_proc_ls_prof_R_factor        6.0861
+_pd_proc_ls_prof_wR_expected     7.0897
+_pd_proc_ls_prof_wR_factor       8.3572
+_pd_proc_wavelength              1.540590
+_pd_spec_mounting                ' ?'
+_refine_ls_number_parameters     9
+_refine_ls_number_reflns         248
+_refine_ls_number_restraints     0
+_refine_ls_R_I_factor            7.8001
+_cod_data_source_file            kk5153sup5.cif
+_cod_data_source_block           Fe2O3-Maguemite
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Cubic' changed to 'cubic' according
+to
+/usr/data/users/saulius/crontab/automatic-downloads/rss-feeds/IUCr/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 from 2011-04-26.
+
+Automatic conversion script
+Id: cif_fix_values 4268 2015-11-12 08:31:59Z antanas 
+;
+_cod_database_code               2300617
+_pd_proc_ls_prof_cr_factor       17.7185
+_pd_proc_ls_prof_cwr_factor      17.1908
+_pd_proc_ls_prof_cwr_expected    14.5836
+_pd_proc_ls_prof_chi2            1.3895
+_pd_proc_ls_prof_echi2           1.4011
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x+1/2,-y+1/2,-z
+-x,y+1/2,-z+1/2
+-x+1/2,-y,z+1/2
+y,z,x
+-y+1/2,-z,x+1/2
+y+1/2,-z+1/2,-x
+-y,z+1/2,-x+1/2
+z,x,y
+-z,x+1/2,-y+1/2
+-z+1/2,-x,y+1/2
+z+1/2,-x+1/2,-y
+y+1/4,x+3/4,-z+3/4
+-y+3/4,x+1/4,z+3/4
+y+3/4,-x+3/4,z+1/4
+-y+1/4,-x+1/4,-z+1/4
+z+1/4,y+3/4,-x+3/4
+-z+1/4,-y+1/4,-x+1/4
+-z+3/4,y+1/4,x+3/4
+z+3/4,-y+3/4,x+1/4
+x+1/4,z+3/4,-y+3/4
+x+3/4,-z+3/4,y+1/4
+-x+1/4,-z+1/4,-y+1/4
+-x+3/4,z+1/4,y+3/4
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+_atom_site_adp_type
+_atom_site_type_symbol
+Fe2 -0.00440 -0.00440 -0.00440 0.00000 1.00000 Uiso Fe
+Fe1 0.62500 0.62500 0.62500 0.00000 0.34998 Uiso Fe
+Fe3 0.12500 0.36690 0.88310 0.00000 0.98001 Uiso Fe
+O1 0.38170 0.38170 0.38170 0.00000 0.99001 Uiso O
+O2 0.38170 0.87360 0.88190 0.00000 1.00001 Uiso O
+loop_
+_atom_type_symbol
+_atom_type_scat_Cromer_Mann_a1
+_atom_type_scat_Cromer_Mann_b1
+_atom_type_scat_Cromer_Mann_a2
+_atom_type_scat_Cromer_Mann_b2
+_atom_type_scat_Cromer_Mann_a3
+_atom_type_scat_Cromer_Mann_b3
+_atom_type_scat_Cromer_Mann_a4
+_atom_type_scat_Cromer_Mann_b4
+_atom_type_scat_Cromer_Mann_c
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+fe 11.76950 4.76110 7.35730 0.30720 3.52220 15.35350 2.30450 76.88050 1.03690
+-1.17900 3.20400
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+o 3.04850 13.27710 2.28680 5.70110 1.54630 0.32390 0.86700 32.90890 0.25080
+0.04700 0.03200
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+loop_
+_diffrn_radiation_type
+_diffrn_radiation_wavelength
+CuK\a~1~ 1.54056
+CuK\a~2~ 1.54439
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_3
+O1 Fe2 O2 120.91(2) 2_456
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Fe2 O1 1.83809(19) 16_555
+Fe2 O2 1.88564(20) 13_445
+Fe2 O2 1.88564(20) 19_544
+Fe2 O2 1.88564(20) 22_454
+Fe1 Fe3 2.9008(4) 3_656
+Fe1 Fe3 2.9008(4) 4_564
+Fe1 Fe3 2.9008(4) 7_566
+Fe1 Fe3 2.9008(4) 8_645
+Fe1 Fe3 2.9008(4) 11_665
+Fe1 Fe3 2.9008(4) 12_456
+Fe1 O2 2.0973(4) 3_646
+Fe1 O2 2.0973(4) 7_466
+Fe1 O2 2.0973(4) 11_664
+Fe1 O2 2.0973(4) 14_654
+Fe1 O2 2.0973(4) 20_465
+Fe1 O2 2.0973(4) 21_546
+Fe3 Fe1 2.9008(4) 3_646
+Fe3 Fe1 2.9008(4) 4_565
+Fe3 Fe3 2.9963(4) 6_565
+Fe3 Fe3 2.9963(4) 7_466
+Fe3 Fe3 2.9963(4) 10_656
+Fe3 Fe3 2.9963(4) 12_456
+Fe3 O1 2.0965(4) 4_565
+Fe3 O1 2.0965(4) 15_455
+Fe3 O2 1.9647(4) 8_646
+Fe3 O2 2.0319(4) 9_455
+Fe3 O2 1.9647(4) 13_446
+Fe3 O2 2.0319(4) 18_666
+O1 Fe2 1.83809(19) 16_555
+O1 Fe3 2.0965(4) 4_564
+O1 Fe3 2.0965(4) 8_645
+O1 Fe3 2.0965(4) 12_456
+O1 O1 2.9495(4) 13_545
+O1 O1 2.9495(4) 14_554
+O1 O1 2.9495(4) 15_455
+O1 O2 2.7890(4) 3_646
+O1 O2 2.7890(4) 7_466
+O1 O2 2.7890(4) 11_664
+O1 O2 2.9010(4) 15_454
+O1 O2 2.9010(4) 17_445
+O1 O2 2.9010(4) 24_544
+O2 Fe2 1.88564(20) 13_555
+O2 Fe1 2.0973(4) 3_656
+O2 Fe3 2.0319(4) 5_556
+O2 Fe3 1.9647(4) 11_665
+O2 O1 2.7890(4) 3_656
+O2 O1 2.9010(4) 14_555
+O2 O2 2.8837(4) 6_675
+O2 O2 2.8837(4) 12_467
+O2 O2 2.9498(4) 20_465
+O2 O2 2.8992(4) 21_546
+O2 O2 2.8992(4) 22_465

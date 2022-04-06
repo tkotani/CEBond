@@ -1,0 +1,174 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/31/2003124.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2003124
+loop_
+_publ_author_name
+'Streltsov, V. A.'
+'Ishizawa, N.'
+_publ_section_title
+;
+ Synchrotron X-ray study of the electron density in <i>R</i>FeO~3~
+ (<i>R</i> = Nd, Dy)
+;
+_journal_issue                   1
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              1
+_journal_page_last               7
+_journal_paper_doi               10.1107/S0108768198005400
+_journal_volume                  55
+_journal_year                    1999
+_chemical_formula_sum            'Fe Nd O3'
+_chemical_formula_weight         248.08
+_space_group_IT_number           62
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2ac 2n'
+_symmetry_space_group_name_H-M   'P n m a'
+_audit_creation_method           from_xtal_archive_file_using_CIFIO
+_cell_angle_alpha                90.000(7)
+_cell_angle_beta                 90.000(7)
+_cell_angle_gamma                90.000(7)
+_cell_formula_units_Z            4
+_cell_length_a                   5.5887(5)
+_cell_length_b                   7.7619(5)
+_cell_length_c                   5.4489(5)
+_cell_measurement_reflns_used    12
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      49.420
+_cell_measurement_theta_min      40.820
+_cell_volume                     236.37(3)
+_computing_data_reduction        xtal_DIFDAT_ADDREF_SORTRF_ABSORB
+_computing_molecular_graphics    xtal
+_computing_publication_material  xtal_CIFIO
+_computing_structure_refinement  xtal_CRYLSQ
+_computing_structure_solution    xtal
+_diffrn_ambient_temperature      293
+_diffrn_measurement_device       bl14a_4-circle
+_diffrn_measurement_method       \w-2\q
+_diffrn_radiation_monochromator  si(111)
+_diffrn_radiation_source         photon_factory_bl14a
+_diffrn_radiation_type           xray_vertical_wiggler
+_diffrn_radiation_wavelength     0.84
+_diffrn_reflns_av_R_equivalents  .059
+_diffrn_reflns_av_sigmaI/netI    .019
+_diffrn_reflns_limit_h_max       12
+_diffrn_reflns_limit_h_min       -12
+_diffrn_reflns_limit_k_max       16
+_diffrn_reflns_limit_k_min       -16
+_diffrn_reflns_limit_l_max       11
+_diffrn_reflns_limit_l_min       -11
+_diffrn_reflns_number            9496
+_diffrn_reflns_theta_max         66.81
+_diffrn_reflns_theta_min         5.4
+_diffrn_standards_decay_%        3
+_diffrn_standards_interval_count 94
+_diffrn_standards_number         6
+_exptl_absorpt_coefficient_mu    41.64
+_exptl_absorpt_correction_T_max  0.6787
+_exptl_absorpt_correction_T_min  0.5856
+_exptl_absorpt_correction_type   analytical
+_exptl_crystal_colour            Red
+_exptl_crystal_density_diffrn    6.971
+_exptl_crystal_description       Rectangular
+_exptl_crystal_F_000             440
+_exptl_crystal_size_max          0.25x10^-5^
+_refine_diff_density_max         4.996
+_refine_diff_density_min         -7.819
+_refine_ls_abs_structure_details none
+_refine_ls_abs_structure_Flack   0
+_refine_ls_extinction_coef       r*<\s(r*)
+_refine_ls_extinction_method     'Larson (1970)'
+_refine_ls_goodness_of_fit_all   2.491
+_refine_ls_goodness_of_fit_obs   2.509
+_refine_ls_matrix_type           full
+_refine_ls_number_constraints    0
+_refine_ls_number_parameters     28
+_refine_ls_number_reflns         1328
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          .03
+_refine_ls_R_factor_obs          .029
+_refine_ls_shift/esd_max         0.00009
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     w=1/\s^2^(F)
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         .033
+_refine_ls_wR_factor_obs         .033
+_reflns_number_observed          1328
+_reflns_number_total             1328
+_reflns_observed_criterion       I>2\s(I)
+_cod_data_source_file            sh0113.cif
+_cod_data_source_block           ndfeo3
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'w=1/\s^2^(F)' was changed to
+'calc'. New tag '_refine_ls_weighting_details' was created. The value
+of the new tag was set to 'w=1/\s^2^(F)'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_formula_sum        'Nd1 Fe1 O3'
+_cod_database_code               2003124
+_cod_database_fobs_code          2003124
+loop_
+_symmetry_equiv_pos_as_xyz
++x,+y,+z
+1/2-x,-y,1/2+z
+1/2+x,1/2-y,1/2-z
+-x,1/2+y,-z
+-x,-y,-z
+1/2+x,+y,1/2-z
+1/2-x,1/2+y,1/2+z
++x,1/2-y,+z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Nd .00706(5) .00374(4) .00665(4) .00000 -.00076(3) .00000
+Fe .00616(12) .00288(11) .00515(12) .00028(9) .00012(8) -.00008(8)
+O1 .0099(7) .0021(6) .0083(7) .00000 -.0011(5) .00000
+O2 .0075(5) .0055(5) .0073(4) -.0011(4) -.0022(4) .0008(3)
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_calc_flag
+_atom_site_calc_attached_atom
+Nd .04907(3) .25000 -.01088(3) .00581(4) Uani ? ?
+Fe .00000 .00000 .50000 .00473(12) Uani ? ?
+O1 .4760(4) .25000 .0866(4) .0068(7) Uani ? ?
+O2 -.2949(3) -.0459(2) .2955(3) .0067(5) Uani ? ?
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Nd ? -.070007 4.028 Int._Tables_Vol_IV_Tables_2.2B_and_2.3.1
+Fe ? .372986 1.146 Int._Tables_Vol_IV_Tables_2.2B_and_2.3.1
+O ? .015991 .008972 Int._Tables_Vol_IV_Tables_2.2B_and_2.3.1
+loop_
+_diffrn_standard_refln_index_h
+_diffrn_standard_refln_index_k
+_diffrn_standard_refln_index_l
+? ? ?

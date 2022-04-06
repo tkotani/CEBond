@@ -1,0 +1,401 @@
+#------------------------------------------------------------------------------
+#$Date: 2018-08-07 15:46:35 +0300 (Tue, 07 Aug 2018) $
+#$Revision: 209443 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/10/21/2102127.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2102127
+loop_
+_publ_author_name
+'Porcher, Florence'
+'Souhassou, Mohamed'
+'Graafsma, Heinz'
+'Puig-Molina, Anna'
+'Dusausoy, Yves'
+'Lecomte, Claude'
+_publ_section_title
+;
+ Refinement of framework disorder in dehydrated CaA zeolite from
+ single-crystal synchrotron data
+;
+_journal_issue                   5
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              766
+_journal_page_last               772
+_journal_paper_doi               10.1107/S0108768100006893
+_journal_volume                  56
+_journal_year                    2000
+_chemical_formula_analytical
+;
+ 'Na0.05(5) Cl0.3(3) Ca49.8(1) Al88.5(1) Si100.29(6) O384.0(6)'
+;
+_chemical_formula_structural     '(Ca (AlO4)2 (SiO4)2)48'
+_chemical_formula_sum            'Al96 Ca48 O384 Si96'
+_chemical_formula_weight         13380.3
+_chemical_name_common            'Dehydrated Ca-A zeolite'
+_space_group_crystal_system      cubic
+_space_group_IT_number           226
+_space_group_name_Hall           '-F 4a 2 3'
+_space_group_name_H-M_alt        'F m -3 c'
+_audit_creation_method           'a la main'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            1
+_cell_length_a                   24.47
+_cell_length_b                   24.47
+_cell_length_c                   24.47
+_cell_measurement_temperature    293
+_cell_volume                     14652
+_computing_cell_refinement       'Siemens Smart'
+_computing_data_collection       'Siemens Smart'
+_computing_data_reduction        'Siemens Smart + SORTAV'
+_computing_structure_refinement  Molly
+_computing_structure_solution    'Nrcvax (Gabe et al., 1989)'
+_diffrn_ambient_temperature      293
+_diffrn_measurement_device       'Siemens Smart CCD'
+_diffrn_measurement_method       \w
+_diffrn_radiation_source         E.S.R.F.
+_diffrn_radiation_type           synchrotron
+_diffrn_radiation_wavelength     .248
+_diffrn_reflns_av_R_equivalents  .0593
+_diffrn_reflns_limit_h_max       64
+_diffrn_reflns_limit_h_min       -34
+_diffrn_reflns_limit_k_max       34
+_diffrn_reflns_limit_k_min       -61
+_diffrn_reflns_limit_l_max       57
+_diffrn_reflns_limit_l_min       -54
+_diffrn_reflns_number            16629
+_diffrn_reflns_theta_max         20.32
+_exptl_crystal_colour            Colourless
+_exptl_crystal_density_diffrn    1.517
+_exptl_crystal_description       'Transparent cubic crystals'
+_exptl_crystal_size_max          .11
+_exptl_crystal_size_mid          .10
+_exptl_crystal_size_min          .09
+_refine_diff_density_max         6.4
+_refine_diff_density_min         1.5
+_refine_ls_goodness_of_fit_all   2.96
+_refine_ls_goodness_of_fit_obs   2.96
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     48
+_refine_ls_number_reflns         1147
+_refine_ls_R_factor_all          .0765
+_refine_ls_R_factor_obs          .0765
+_refine_ls_shift/esd_max         .3
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     w=1/\s^2^
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         .0744
+_refine_ls_wR_factor_obs         .0744
+_reflns_number_observed          1269
+_reflns_number_total             1269
+_reflns_threshold_expression     I>0
+_cod_data_source_file            br0095.cif
+_cod_depositor_comments
+;
+ Changing the symmetry operation id associated with operation '1/2+X,1/2+Y,Z'
+ from '144' to '145' in order to make all of the id values unique.
+
+ Antanas Vaitkus,
+ 2018-08-07
+
+ Updating space group information.
+
+ Antanas Vaitkus,
+ 2018-06-11
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'w=1/\s^2^' was changed to
+'calc'. New tag '_refine_ls_weighting_details' was created. The value
+of the new tag was set to 'w=1/\s^2^'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_sg_symbol_Hall     '-F 4n 2 3'
+_cod_database_code               2102127
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 X,Y,Z
+2 -X,-Y,Z
+3 -X,Y,-Z
+4 X,-Y,-Z
+5 Z,X,Y
+6 Z,-X,-Y
+7 -Z,-X,Y
+8 -Z,X,-Y
+9 Y,Z,X
+10 -Y,Z,-X
+11 Y,-Z,-X
+12 -Y,-Z,X
+13 1/2+Y,1/2+X,1/2-Z
+14 1/2-Y,1/2-X,1/2-Z
+15 1/2+Y,1/2-X,1/2+Z
+16 1/2-Y,1/2+X,1/2+Z
+17 1/2+X,1/2+Z,1/2-Y
+18 1/2-X,1/2+Z,1/2+Y
+19 1/2-X,1/2-Z,1/2-Y
+20 1/2+X,1/2-Z,1/2+Y
+21 1/2+Z,1/2+Y,1/2-X
+22 1/2+Z,1/2-Y,1/2+X
+23 1/2-Z,1/2+Y,1/2+X
+24 1/2-Z,1/2-Y,1/2-X
+25 -X,-Y,-Z
+26 X,Y,-Z
+27 X,-Y,Z
+28 -X,Y,Z
+29 -Z,-X,-Y
+30 -Z,X,Y
+31 Z,X,-Y
+32 Z,-X,Y
+33 -Y,-Z,-X
+34 Y,-Z,X
+35 -Y,Z,X
+36 Y,Z,-X
+37 1/2-Y,1/2-X,1/2+Z
+38 1/2+Y,1/2+X,1/2+Z
+39 1/2-Y,1/2+X,1/2-Z
+40 1/2+Y,1/2-X,1/2-Z
+41 1/2-X,1/2-Z,1/2+Y
+42 1/2+X,1/2-Z,1/2-Y
+43 1/2+X,1/2+Z,1/2+Y
+44 1/2-X,1/2+Z,1/2-Y
+45 1/2-Z,1/2-Y,1/2+X
+46 1/2-Z,1/2+Y,1/2-X
+47 1/2+Z,1/2-Y,1/2-X
+48 1/2+Z,1/2+Y,1/2+X
+49 X,1/2+Y,1/2+Z
+50 -X,1/2-Y,1/2+Z
+51 -X,1/2+Y,1/2-Z
+52 X,1/2-Y,1/2-Z
+53 Z,1/2+X,1/2+Y
+54 Z,1/2-X,1/2-Y
+55 -Z,1/2-X,1/2+Y
+56 -Z,1/2+X,1/2-Y
+57 Y,1/2+Z,1/2+X
+58 -Y,1/2+Z,1/2-X
+59 Y,1/2-Z,1/2-X
+60 -Y,1/2-Z,1/2+X
+61 1/2+Y,X,-Z
+62 1/2-Y,-X,-Z
+63 1/2+Y,-X,Z
+64 1/2-Y,X,Z
+65 1/2+X,Z,-Y
+66 1/2-X,Z,Y
+67 1/2-X,-Z,-Y
+68 1/2+X,-Z,Y
+69 1/2+Z,Y,-X
+70 1/2+Z,-Y,X
+71 1/2-Z,Y,X
+72 1/2-Z,-Y,-X
+73 -X,1/2-Y,1/2-Z
+74 X,1/2+Y,1/2-Z
+75 X,1/2-Y,1/2+Z
+76 -X,1/2+Y,1/2+Z
+77 -Z,1/2-X,1/2-Y
+78 -Z,1/2+X,1/2+Y
+79 Z,1/2+X,1/2-Y
+80 Z,1/2-X,1/2+Y
+81 -Y,1/2-Z,1/2-X
+82 Y,1/2-Z,1/2+X
+83 -Y,1/2+Z,1/2+X
+84 Y,1/2+Z,1/2-X
+85 1/2-Y,-X,Z
+86 1/2+Y,X,Z
+87 1/2-Y,X,-Z
+88 1/2+Y,-X,-Z
+89 1/2-X,-Z,Y
+90 1/2+X,-Z,-Y
+91 1/2+X,Z,Y
+92 1/2-X,Z,-Y
+93 1/2-Z,-Y,X
+94 1/2-Z,Y,-X
+95 1/2+Z,-Y,-X
+96 1/2+Z,Y,X
+97 1/2+X,Y,1/2+Z
+98 1/2-X,-Y,1/2+Z
+99 1/2-X,Y,1/2-Z
+100 1/2+X,-Y,1/2-Z
+101 1/2+Z,X,1/2+Y
+102 1/2+Z,-X,1/2-Y
+103 1/2-Z,-X,1/2+Y
+104 1/2-Z,X,1/2-Y
+105 1/2+Y,Z,1/2+X
+106 1/2-Y,Z,1/2-X
+107 1/2+Y,-Z,1/2-X
+108 1/2-Y,-Z,1/2+X
+109 Y,1/2+X,-Z
+110 -Y,1/2-X,-Z
+111 Y,1/2-X,Z
+112 -Y,1/2+X,Z
+113 X,1/2+Z,-Y
+114 -X,1/2+Z,Y
+115 -X,1/2-Z,-Y
+116 X,1/2-Z,Y
+117 Z,1/2+Y,-X
+118 Z,1/2-Y,X
+119 -Z,1/2+Y,X
+120 -Z,1/2-Y,-X
+121 1/2-X,-Y,1/2-Z
+122 1/2+X,Y,1/2-Z
+123 1/2+X,-Y,1/2+Z
+124 1/2-X,Y,1/2+Z
+125 1/2-Z,-X,1/2-Y
+126 1/2-Z,X,1/2+Y
+127 1/2+Z,X,1/2-Y
+128 1/2+Z,-X,1/2+Y
+129 1/2-Y,-Z,1/2-X
+130 1/2+Y,-Z,1/2+X
+131 1/2-Y,Z,1/2+X
+132 1/2+Y,Z,1/2-X
+133 -Y,1/2-X,Z
+134 Y,1/2+X,Z
+135 -Y,1/2+X,-Z
+136 Y,1/2-X,-Z
+137 -X,1/2-Z,Y
+138 X,1/2-Z,-Y
+139 X,1/2+Z,Y
+140 -X,1/2+Z,-Y
+141 -Z,1/2-Y,X
+142 -Z,1/2+Y,-X
+143 Z,1/2-Y,-X
+144 Z,1/2+Y,X
+145 1/2+X,1/2+Y,Z
+146 1/2-X,1/2-Y,Z
+147 1/2-X,1/2+Y,-Z
+148 1/2+X,1/2-Y,-Z
+149 1/2+Z,1/2+X,Y
+150 1/2+Z,1/2-X,-Y
+151 1/2-Z,1/2-X,Y
+152 1/2-Z,1/2+X,-Y
+153 1/2+Y,1/2+Z,X
+154 1/2-Y,1/2+Z,-X
+155 1/2+Y,1/2-Z,-X
+156 1/2-Y,1/2-Z,X
+157 Y,X,1/2-Z
+158 -Y,-X,1/2-Z
+159 Y,-X,1/2+Z
+160 -Y,X,1/2+Z
+161 X,Z,1/2-Y
+162 -X,Z,1/2+Y
+163 -X,-Z,1/2-Y
+164 X,-Z,1/2+Y
+165 Z,Y,1/2-X
+166 Z,-Y,1/2+X
+167 -Z,Y,1/2+X
+168 -Z,-Y,1/2-X
+169 1/2-X,1/2-Y,-Z
+170 1/2+X,1/2+Y,-Z
+171 1/2+X,1/2-Y,Z
+172 1/2-X,1/2+Y,Z
+173 1/2-Z,1/2-X,-Y
+174 1/2-Z,1/2+X,Y
+175 1/2+Z,1/2+X,-Y
+176 1/2+Z,1/2-X,Y
+177 1/2-Y,1/2-Z,-X
+178 1/2+Y,1/2-Z,X
+179 1/2-Y,1/2+Z,X
+180 1/2+Y,1/2+Z,-X
+181 -Y,-X,1/2+Z
+182 Y,X,1/2+Z
+183 -Y,X,1/2-Z
+184 Y,-X,1/2-Z
+185 -X,-Z,1/2+Y
+186 X,-Z,1/2-Y
+187 X,Z,1/2+Y
+188 -X,Z,1/2-Y
+189 -Z,-Y,1/2+X
+190 -Z,Y,1/2-X
+191 Z,-Y,1/2-X
+192 Z,Y,1/2+X
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Si .0217(6) .0151(6) .0115(5) .00 .00 .0051(4)
+Al .0271(8) .0108(6) .0149(6) .00 .00 .0043(5)
+O1 .071(3) .054(2) .0120(10) .00 .00 -.001(2)
+O2 .130(4) .036(3) .036(3) .00 .00 .029(2)
+O3 .039(2) .046(2) .0510(10) .0190(10) .0000(10) .0050(10)
+Ca1 .042(2) .042(2) .042(2) .010(3) .010(3) .010(3)
+Ca2 .0460(10) .0460(10) .0460(10) .012(2) .012(2) .012(2)
+Ca3 .030(10) .030(10) .030(10) .019(6) -.002(6) .006(4)
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_calc_flag
+_atom_site_occupancy
+_atom_site_type_symbol
+Si .00 .09214(6) .18414(5) .0161(6) Uani d 1 Si
+Al .00 .18742(5) .09096(7) .0176(6) Uani d 1 Al
+O1 .00 .1088(2) .2460(2) .046(2) Uani d 1 O
+O2 .00 .14216(2) .1435(2) .067(3) Uani d 1 O
+O3 .05350(10) .057410(10) .16780(10) .045(2) Uani d 1 O
+Ca1 .0683(3) .0683(3) .0683(3) .042(2) Uani d .15 Ca
+Ca2 .08698(2) .08698(2) .08698(2) .0460(10) Uani d .3 Ca
+Ca3 .105(2) .0977(3) .109(2) .030(10) Uani d .1 Ca
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Si Si .0000 .0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Al Al .0000 .0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O .0000 .0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ca Ca .0000 .0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+Si O1 Al 149.9(3) y
+Si O2 Al 169.8(3) y
+Si O3 Al 141.6(2) y
+O1 Si O2 114.0(2) y
+O1 Si O3 112.10(10) y
+O2 Si O3 104.70(10) y
+O3 Si O3 108.70(10) y
+O1 Al O2 115.7(2) y
+O1 Al O3 113.70(10) y
+O2 Al O3 102.60(10) y
+O3 Al O3 107.30(10) y
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Si O1 1.568(5) y
+Si O2 1.577(3) y
+Si O3 1.611(2) y
+Al O1 1.687(5) y
+Al O2 1.697(4) y
+Al O3 1.745(2) y
+Ca1 O3 2.476(8) y
+Ca2 O3 2.260(2) y
+Ca2 O2 2.875(2) y
+Ca3 O3 2.15(4) y
+Ca3 O3 2.26(4) y
+Ca3 O3 2.48(4) y
+Ca3 O2 2.69(2) y
+Ca3 O2 2.92(5) y

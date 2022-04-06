@@ -1,0 +1,475 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-08-17 04:28:47 +0300 (Wed, 17 Aug 2016) $
+#$Revision: 185841 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/54/39/1543900.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_1543900
+loop_
+_publ_author_name
+'Tarantino, Serena C.'
+'Giannini, Mattia'
+'Carpenter, Michael A.'
+'Zema, Michele'
+_publ_section_title
+;
+ Cooperative Jahn--Teller effect and the role of strain in the
+ tetragonal-to-cubic phase transition in
+ Mg<i>~x~</i>Cu~1{\hskip0.16667em~{-}{\hskip0.16667em}<i>x</i>}Cr~2~O~4~
+;
+_journal_issue                   5
+_journal_name_full               IUCrJ
+_journal_page_first
+;
+;
+_journal_paper_doi               10.1107/S2052252516012574
+_journal_volume                  3
+_journal_year                    2016
+_chemical_formula_sum            'Cr2 Mg O4'
+_chemical_formula_weight         192.31
+_chemical_name_systematic
+; 
+ ? 
+;
+_space_group_IT_number           227
+_symmetry_cell_setting           cubic
+_symmetry_space_group_name_Hall  '-F 4vw 2vw 3'
+_symmetry_space_group_name_H-M   'F d -3 m :2'
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            8
+_cell_length_a                   8.32880(10)
+_cell_length_b                   8.32880(10)
+_cell_length_c                   8.32880(10)
+_cell_measurement_temperature    293(2)
+_cell_volume                     577.760(12)
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measured_fraction_theta_full 0.977
+_diffrn_measured_fraction_theta_max 0.977
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0000
+_diffrn_reflns_av_sigmaI/netI    0.0178
+_diffrn_reflns_limit_h_max       15
+_diffrn_reflns_limit_h_min       -15
+_diffrn_reflns_limit_k_max       15
+_diffrn_reflns_limit_k_min       -14
+_diffrn_reflns_limit_l_max       15
+_diffrn_reflns_limit_l_min       -15
+_diffrn_reflns_number            4570
+_diffrn_reflns_theta_full        42.53
+_diffrn_reflns_theta_max         42.53
+_diffrn_reflns_theta_min         4.24
+_exptl_absorpt_coefficient_mu    7.553
+_exptl_crystal_density_diffrn    4.422
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_F_000             736
+_refine_diff_density_max         0.629
+_refine_diff_density_min         -0.542
+_refine_diff_density_rms         0.119
+_refine_ls_extinction_coef       0.00248(11)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_ref   1.169
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     8
+_refine_ls_number_reflns         4570
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.169
+_refine_ls_R_factor_all          0.0176
+_refine_ls_R_factor_gt           0.0171
+_refine_ls_shift/su_max          0.001
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0207P)^2^+1.5590P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0469
+_refine_ls_wR_factor_ref         0.0470
+_reflns_number_gt                4480
+_reflns_number_total             4570
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            lc5068.cif
+_cod_data_source_block           Mg100_RT_CCD_C
+_cod_original_sg_symbol_H-M      'F d -3 m'
+_cod_database_code               1543900
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'x, -y+1/4, -z+1/4'
+'-x+3/4, -y+1/4, z+1/2'
+'-x+3/4, y, -z+3/4'
+'-y, x+1/4, z+1/4'
+'y+3/4, x+1/4, -z+1/2'
+'y+3/4, -x, z+3/4'
+'-y, -x, -z'
+'y, z, x'
+'-y+3/4, -z+1/4, x+1/2'
+'y, -z+1/4, -x+1/4'
+'-y+3/4, z, -x+3/4'
+'-z, y+1/4, x+1/4'
+'-z, -y, -x'
+'z+3/4, -y, x+3/4'
+'z+3/4, y+1/4, -x+1/2'
+'z, x, y'
+'-z+1/4, x+1/2, -y+3/4'
+'-z+1/4, -x+1/4, y'
+'z, -x+3/4, -y+3/4'
+'-x, -z, -y'
+'-x, z+3/4, y+3/4'
+'x+1/4, -z+1/2, y+3/4'
+'x+3/4, z+1/4, -y+1/2'
+'x, y+1/2, z+1/2'
+'x, -y+3/4, -z+3/4'
+'-x+3/4, -y+3/4, z+1'
+'-x+3/4, y+1/2, -z+5/4'
+'-y, x+3/4, z+3/4'
+'y+3/4, x+3/4, -z+1'
+'y+3/4, -x+1/2, z+5/4'
+'-y, -x+1/2, -z+1/2'
+'y, z+1/2, x+1/2'
+'-y+3/4, -z+3/4, x+1'
+'y, -z+3/4, -x+3/4'
+'-y+3/4, z+1/2, -x+5/4'
+'-z, y+3/4, x+3/4'
+'-z, -y+1/2, -x+1/2'
+'z+3/4, -y+1/2, x+5/4'
+'z+3/4, y+3/4, -x+1'
+'z, x+1/2, y+1/2'
+'-z+1/4, x+1, -y+5/4'
+'-z+1/4, -x+3/4, y+1/2'
+'z, -x+5/4, -y+5/4'
+'-x, -z+1/2, -y+1/2'
+'-x, z+5/4, y+5/4'
+'x+1/4, -z+1, y+5/4'
+'x+3/4, z+3/4, -y+1'
+'x+1/2, y, z+1/2'
+'x+1/2, -y+1/4, -z+3/4'
+'-x+5/4, -y+1/4, z+1'
+'-x+5/4, y, -z+5/4'
+'-y+1/2, x+1/4, z+3/4'
+'y+5/4, x+1/4, -z+1'
+'y+5/4, -x, z+5/4'
+'-y+1/2, -x, -z+1/2'
+'y+1/2, z, x+1/2'
+'-y+5/4, -z+1/4, x+1'
+'y+1/2, -z+1/4, -x+3/4'
+'-y+5/4, z, -x+5/4'
+'-z+1/2, y+1/4, x+3/4'
+'-z+1/2, -y, -x+1/2'
+'z+5/4, -y, x+5/4'
+'z+5/4, y+1/4, -x+1'
+'z+1/2, x, y+1/2'
+'-z+3/4, x+1/2, -y+5/4'
+'-z+3/4, -x+1/4, y+1/2'
+'z+1/2, -x+3/4, -y+5/4'
+'-x+1/2, -z, -y+1/2'
+'-x+1/2, z+3/4, y+5/4'
+'x+3/4, -z+1/2, y+5/4'
+'x+5/4, z+1/4, -y+1'
+'x+1/2, y+1/2, z'
+'x+1/2, -y+3/4, -z+1/4'
+'-x+5/4, -y+3/4, z+1/2'
+'-x+5/4, y+1/2, -z+3/4'
+'-y+1/2, x+3/4, z+1/4'
+'y+5/4, x+3/4, -z+1/2'
+'y+5/4, -x+1/2, z+3/4'
+'-y+1/2, -x+1/2, -z'
+'y+1/2, z+1/2, x'
+'-y+5/4, -z+3/4, x+1/2'
+'y+1/2, -z+3/4, -x+1/4'
+'-y+5/4, z+1/2, -x+3/4'
+'-z+1/2, y+3/4, x+1/4'
+'-z+1/2, -y+1/2, -x'
+'z+5/4, -y+1/2, x+3/4'
+'z+5/4, y+3/4, -x+1/2'
+'z+1/2, x+1/2, y'
+'-z+3/4, x+1, -y+3/4'
+'-z+3/4, -x+3/4, y'
+'z+1/2, -x+5/4, -y+3/4'
+'-x+1/2, -z+1/2, -y'
+'-x+1/2, z+5/4, y+3/4'
+'x+3/4, -z+1, y+3/4'
+'x+5/4, z+3/4, -y+1/2'
+'-x, -y, -z'
+'-x, y-1/4, z-1/4'
+'x-3/4, y-1/4, -z-1/2'
+'x-3/4, -y, z-3/4'
+'y, -x-1/4, -z-1/4'
+'-y-3/4, -x-1/4, z-1/2'
+'-y-3/4, x, -z-3/4'
+'y, x, z'
+'-y, -z, -x'
+'y-3/4, z-1/4, -x-1/2'
+'-y, z-1/4, x-1/4'
+'y-3/4, -z, x-3/4'
+'z, -y-1/4, -x-1/4'
+'z, y, x'
+'-z-3/4, y, -x-3/4'
+'-z-3/4, -y-1/4, x-1/2'
+'-z, -x, -y'
+'z-1/4, -x-1/2, y-3/4'
+'z-1/4, x-1/4, -y'
+'-z, x-3/4, y-3/4'
+'x, z, y'
+'x, -z-3/4, -y-3/4'
+'-x-1/4, z-1/2, -y-3/4'
+'-x-3/4, -z-1/4, y-1/2'
+'-x, -y+1/2, -z+1/2'
+'-x, y+1/4, z+1/4'
+'x-3/4, y+1/4, -z'
+'x-3/4, -y+1/2, z-1/4'
+'y, -x+1/4, -z+1/4'
+'-y-3/4, -x+1/4, z'
+'-y-3/4, x+1/2, -z-1/4'
+'y, x+1/2, z+1/2'
+'-y, -z+1/2, -x+1/2'
+'y-3/4, z+1/4, -x'
+'-y, z+1/4, x+1/4'
+'y-3/4, -z+1/2, x-1/4'
+'z, -y+1/4, -x+1/4'
+'z, y+1/2, x+1/2'
+'-z-3/4, y+1/2, -x-1/4'
+'-z-3/4, -y+1/4, x'
+'-z, -x+1/2, -y+1/2'
+'z-1/4, -x, y-1/4'
+'z-1/4, x+1/4, -y+1/2'
+'-z, x-1/4, y-1/4'
+'x, z+1/2, y+1/2'
+'x, -z-1/4, -y-1/4'
+'-x-1/4, z, -y-1/4'
+'-x-3/4, -z+1/4, y'
+'-x+1/2, -y, -z+1/2'
+'-x+1/2, y-1/4, z+1/4'
+'x-1/4, y-1/4, -z'
+'x-1/4, -y, z-1/4'
+'y+1/2, -x-1/4, -z+1/4'
+'-y-1/4, -x-1/4, z'
+'-y-1/4, x, -z-1/4'
+'y+1/2, x, z+1/2'
+'-y+1/2, -z, -x+1/2'
+'y-1/4, z-1/4, -x'
+'-y+1/2, z-1/4, x+1/4'
+'y-1/4, -z, x-1/4'
+'z+1/2, -y-1/4, -x+1/4'
+'z+1/2, y, x+1/2'
+'-z-1/4, y, -x-1/4'
+'-z-1/4, -y-1/4, x'
+'-z+1/2, -x, -y+1/2'
+'z+1/4, -x-1/2, y-1/4'
+'z+1/4, x-1/4, -y+1/2'
+'-z+1/2, x-3/4, y-1/4'
+'x+1/2, z, y+1/2'
+'x+1/2, -z-3/4, -y-1/4'
+'-x+1/4, z-1/2, -y-1/4'
+'-x-1/4, -z-1/4, y'
+'-x+1/2, -y+1/2, -z'
+'-x+1/2, y+1/4, z-1/4'
+'x-1/4, y+1/4, -z-1/2'
+'x-1/4, -y+1/2, z-3/4'
+'y+1/2, -x+1/4, -z-1/4'
+'-y-1/4, -x+1/4, z-1/2'
+'-y-1/4, x+1/2, -z-3/4'
+'y+1/2, x+1/2, z'
+'-y+1/2, -z+1/2, -x'
+'y-1/4, z+1/4, -x-1/2'
+'-y+1/2, z+1/4, x-1/4'
+'y-1/4, -z+1/2, x-3/4'
+'z+1/2, -y+1/4, -x-1/4'
+'z+1/2, y+1/2, x'
+'-z-1/4, y+1/2, -x-3/4'
+'-z-1/4, -y+1/4, x-1/2'
+'-z+1/2, -x+1/2, -y'
+'z+1/4, -x, y-3/4'
+'z+1/4, x+1/4, -y'
+'-z+1/2, x-1/4, y-3/4'
+'x+1/2, z+1/2, y'
+'x+1/2, -z-1/4, -y-3/4'
+'-x+1/4, z, -y-3/4'
+'-x-1/4, -z+1/4, y-1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+Mg Mg 0.3750 0.3750 0.3750 0.00486(4) Uani 1 24 d S
+Cr Cr 0.0000 0.0000 0.0000 0.00450(2) Uani 1 12 d S
+O01 O 0.238715(18) 0.238715(18) 0.238715(18) 0.00560(4) Uani 1 6 d S
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Mg 0.00486(4) 0.00486(4) 0.00486(4) 0.000 0.000 0.000
+Cr 0.00450(2) 0.00450(2) 0.00450(2) -0.00021(1) -0.00021(1) -0.00021(1)
+O01 0.00560(4) 0.00560(4) 0.00560(4) -0.00023(3) -0.00023(3) -0.00023(3)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Cr Cr 0.3209 0.6236 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Mg Mg 0.0486 0.0363 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+O01 Mg O01 109.471(1) 4 27_554
+O01 Mg O01 109.5 4 26
+O01 Mg O01 109.5 27_554 26
+O01 Mg O01 109.471(1) 4 .
+O01 Mg O01 109.471(1) 27_554 .
+O01 Mg O01 109.471(1) 26 .
+O01 Mg Mg 70.5 4 97_666
+O01 Mg Mg 70.5 27_554 97_666
+O01 Mg Mg 70.5 26 97_666
+O01 Mg Mg 180.000(3) . 97_666
+O01 Mg Mg 180.000(3) 4 145_565
+O01 Mg Mg 70.529(1) 27_554 145_565
+O01 Mg Mg 70.529(1) 26 145_565
+O01 Mg Mg 70.5 . 145_565
+Mg Mg Mg 109.5 97_666 145_565
+O01 Mg Mg 70.5 4 121_655
+O01 Mg Mg 70.5 27_554 121_655
+O01 Mg Mg 180.000(3) 26 121_655
+O01 Mg Mg 70.529(1) . 121_655
+Mg Mg Mg 109.5 97_666 121_655
+Mg Mg Mg 109.5 145_565 121_655
+O01 Mg Mg 70.5 4 169_556
+O01 Mg Mg 180.000(3) 27_554 169_556
+O01 Mg Mg 70.5 26 169_556
+O01 Mg Mg 70.5 . 169_556
+Mg Mg Mg 109.5 97_666 169_556
+Mg Mg Mg 109.5 145_565 169_556
+Mg Mg Mg 109.5 121_655 169_556
+O01 Cr O01 180.000(8) 148 52_454
+O01 Cr O01 84.471(9) 148 147
+O01 Cr O01 95.529(9) 52_454 147
+O01 Cr O01 95.529(9) 148 51_454
+O01 Cr O01 84.471(9) 52_454 51_454
+O01 Cr O01 180.000(17) 147 51_454
+O01 Cr O01 84.471(9) 148 98
+O01 Cr O01 95.529(9) 52_454 98
+O01 Cr O01 84.471(9) 147 98
+O01 Cr O01 95.529(9) 51_454 98
+O01 Cr O01 95.529(9) 148 2
+O01 Cr O01 84.471(9) 52_454 2
+O01 Cr O01 95.529(9) 147 2
+O01 Cr O01 84.471(9) 51_454 2
+O01 Cr O01 180.0 98 2
+O01 Cr Cr 137.636(4) 148 2
+O01 Cr Cr 42.364(4) 52_454 2
+O01 Cr Cr 137.636(4) 147 2
+O01 Cr Cr 42.364(4) 51_454 2
+O01 Cr Cr 93.825(6) 98 2
+O01 Cr Cr 86.175(6) 2 2
+O01 Cr Cr 93.825(6) 148 52_454
+O01 Cr Cr 86.175(6) 52_454 52_454
+O01 Cr Cr 137.636(4) 147 52_454
+O01 Cr Cr 42.364(4) 51_454 52_454
+O01 Cr Cr 137.636(4) 98 52_454
+O01 Cr Cr 42.364(4) 2 52_454
+Cr Cr Cr 60.0 2 52_454
+O01 Cr Cr 86.175(6) 148 4_454
+O01 Cr Cr 93.825(6) 52_454 4_454
+O01 Cr Cr 42.364(4) 147 4_454
+O01 Cr Cr 137.636(4) 51_454 4_454
+O01 Cr Cr 42.364(4) 98 4_454
+O01 Cr Cr 137.636(4) 2 4_454
+Cr Cr Cr 120.0 2 4_454
+Cr Cr Cr 180.0 52_454 4_454
+O01 Cr Cr 137.636(4) 148 51_454
+O01 Cr Cr 42.364(4) 52_454 51_454
+O01 Cr Cr 93.825(6) 147 51_454
+O01 Cr Cr 86.175(6) 51_454 51_454
+O01 Cr Cr 137.636(4) 98 51_454
+O01 Cr Cr 42.364(4) 2 51_454
+Cr Cr Cr 60.0 2 51_454
+Cr Cr Cr 60.0 52_454 51_454
+Cr Cr Cr 120.0 4_454 51_454
+O01 Cr Cr 42.364(4) 148 27_444
+O01 Cr Cr 137.636(4) 52_454 27_444
+O01 Cr Cr 86.175(6) 147 27_444
+O01 Cr Cr 93.825(6) 51_454 27_444
+O01 Cr Cr 42.364(4) 98 27_444
+O01 Cr Cr 137.636(4) 2 27_444
+Cr Cr Cr 120.0 2 27_444
+Cr Cr Cr 120.0 52_454 27_444
+Cr Cr Cr 60.0 4_454 27_444
+Cr Cr Cr 180.0 51_454 27_444
+O01 Cr Cr 42.364(4) 148 26_544
+O01 Cr Cr 137.636(4) 52_454 26_544
+O01 Cr Cr 42.364(4) 147 26_544
+O01 Cr Cr 137.636(4) 51_454 26_544
+O01 Cr Cr 86.175(6) 98 26_544
+O01 Cr Cr 93.825(6) 2 26_544
+Cr Cr Cr 180.0 2 26_544
+Cr Cr Cr 120.0 52_454 26_544
+Cr Cr Cr 60.0 4_454 26_544
+Cr Cr Cr 120.0 51_454 26_544
+Cr Cr Cr 60.0 27_444 26_544
+Mg O01 Cr 121.439(6) . 52_454
+Mg O01 Cr 121.439(6) . 2
+Cr O01 Cr 95.273(8) 52_454 2
+Mg O01 Cr 121.439(6) . 51_454
+Cr O01 Cr 95.273(8) 52_454 51_454
+Cr O01 Cr 95.273(8) 2 51_454
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Mg O01 1.9660(3) 4
+Mg O01 1.9660(3) 27_554
+Mg O01 1.9660(3) 26
+Mg O01 1.9660(3) .
+Mg Mg 3.6065 97_666
+Mg Mg 3.6065 145_565
+Mg Mg 3.6065 121_655
+Mg Mg 3.6065 169_556
+Cr O01 1.99265(13) 148
+Cr O01 1.99265(13) 52_454
+Cr O01 1.99265(13) 147
+Cr O01 1.99265(13) 51_454
+Cr O01 1.99265(13) 98
+Cr O01 1.99265(13) 2
+Cr Cr 2.9447 2
+Cr Cr 2.9447 52_454
+Cr Cr 2.9447 4_454
+Cr Cr 2.9447 51_454
+Cr Cr 2.9447 27_444
+Cr Cr 2.9447 26_544
+O01 Cr 1.99265(13) 52_454
+O01 Cr 1.99265(13) 2
+O01 Cr 1.99265(13) 51_454

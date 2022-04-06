@@ -1,0 +1,449 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 00:18:51 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176760 $
+#$URL: svn://www.crystallography.net/cod/cif/2/01/27/2012796.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2012796
+loop_
+_publ_author_name
+'Mironov, Andrei'
+'Kazakov, Sergei'
+'Jun, Jan'
+'Karpinski, Janusz'
+_publ_section_title
+;
+ MgNB~9~, a new magnesium nitridoboride
+;
+_journal_issue                   7
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              i95
+_journal_page_last               i97
+_journal_paper_doi               10.1107/S0108270102009253
+_journal_volume                  58
+_journal_year                    2002
+_chemical_formula_iupac          'Mg N B9'
+_chemical_formula_structural     'Mg N B9'
+_chemical_formula_sum            'B9 Mg N'
+_chemical_formula_weight         135.60
+_chemical_name_systematic
+;
+Magnesium nitridoboride
+;
+_space_group_IT_number           166
+_symmetry_cell_setting           trigonal
+_symmetry_space_group_name_Hall  '-R 3 2"'
+_symmetry_space_group_name_H-M   'R -3 m :H'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            6
+_cell_length_a                   5.4960(2)
+_cell_length_b                   5.4960(2)
+_cell_length_c                   20.0873(16)
+_cell_measurement_reflns_used    24
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      25.7
+_cell_measurement_theta_min      12.5
+_cell_volume                     525.47(5)
+_computing_cell_refinement       'CAD-4 Manual'
+_computing_data_collection       'CAD-4 Manual (Enraf-Nonius, 1988)'
+_computing_data_reduction        'JANA2000 (Pet\<ri\<cek & Du\<sek, 2000)'
+_computing_molecular_graphics    'ATOMS (Dowty, 1998)'
+_computing_publication_material  JANA2000
+_computing_structure_refinement  JANA2000
+_computing_structure_solution    'CSD (Akselrud et al., 1989)'
+_diffrn_measured_fraction_theta_full 0.978
+_diffrn_measured_fraction_theta_max 0.978
+_diffrn_measurement_device       'four-circle diffractometer'
+_diffrn_measurement_device_type  'Enraf-Nonius CAD-4'
+_diffrn_measurement_method       \q/1.33\q
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.71069
+_diffrn_reflns_av_R_equivalents  0.031
+_diffrn_reflns_av_sigmaI/netI    0.014
+_diffrn_reflns_limit_h_max       11
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       10
+_diffrn_reflns_limit_k_min       -11
+_diffrn_reflns_limit_l_max       43
+_diffrn_reflns_limit_l_min       -43
+_diffrn_reflns_number            3520
+_diffrn_reflns_theta_full        49.91
+_diffrn_reflns_theta_max         50.00
+_diffrn_reflns_theta_min         3.04
+_diffrn_standards_decay_%        0
+_diffrn_standards_interval_time  120
+_diffrn_standards_number         1
+_exptl_absorpt_coefficient_mu    0.279
+_exptl_absorpt_correction_T_max  0.973
+_exptl_absorpt_correction_T_min  0.950
+_exptl_absorpt_correction_type   gaussian
+_exptl_absorpt_process_details   'JANA2000 (Petri\<cek & Du\<sek, 2000)'
+_exptl_crystal_colour            black
+_exptl_crystal_density_diffrn    2.570
+_exptl_crystal_density_meas      ?
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       prism
+_exptl_crystal_F_000             384
+_exptl_crystal_size_max          0.22
+_exptl_crystal_size_mid          0.19
+_exptl_crystal_size_min          0.10
+_refine_diff_density_max         0.33
+_refine_diff_density_min         -0.23
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   1.05
+_refine_ls_number_parameters     28
+_refine_ls_number_reflns         630
+_refine_ls_R_factor_all          0.017
+_refine_ls_R_factor_gt           0.017
+_refine_ls_shift/su_max          0.001
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 1/(\s^2^(F)+0.0009F^2^)'
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_gt          0.035
+_refine_ls_wR_factor_ref         0.035
+_reflns_number_gt                630
+_reflns_number_total             712
+_reflns_threshold_expression     I>3\s(I)
+_cod_data_source_file            br1376.cif
+_cod_data_source_block           I
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_exptl_crystal_density_meas' value 'not measured' was changed to '?'
+- the value is perceived as not measured.
+
+Automatic conversion script
+Id: cif_fix_values 3008 2015-01-20 13:52:24Z robertas 
+;
+_cod_original_sg_symbol_H-M      'R -3 m'
+_cod_database_code               2012796
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -y,x-y,z
+3 -y,-x,z
+4 -x+y,-x,z
+5 x,x-y,z
+6 -x+y,y,z
+7 -x,-y,-z
+8 y,-x+y,-z
+9 y,x,-z
+10 x-y,x,-z
+11 -x,-x+y,-z
+12 x-y,-y,-z
+13 2/3+x,1/3+y,1/3+z
+14 2/3-y,1/3+x-y,1/3+z
+15 2/3-y,1/3-x,1/3+z
+16 2/3-x+y,1/3-x,1/3+z
+17 2/3+x,1/3+x-y,1/3+z
+18 2/3-x+y,1/3+y,1/3+z
+19 2/3-x,1/3-y,1/3-z
+20 2/3+y,1/3-x+y,1/3-z
+21 2/3+y,1/3+x,1/3-z
+22 2/3+x-y,1/3+x,1/3-z
+23 2/3-x,1/3-x+y,1/3-z
+24 2/3+x-y,1/3-y,1/3-z
+25 1/3+x,2/3+y,2/3+z
+26 1/3-y,2/3+x-y,2/3+z
+27 1/3-y,2/3-x,2/3+z
+28 1/3-x+y,2/3-x,2/3+z
+29 1/3+x,2/3+x-y,2/3+z
+30 1/3-x+y,2/3+y,2/3+z
+31 1/3-x,2/3-y,2/3-z
+32 1/3+y,2/3-x+y,2/3-z
+33 1/3+y,2/3+x,2/3-z
+34 1/3+x-y,2/3+x,2/3-z
+35 1/3-x,2/3-x+y,2/3-z
+36 1/3+x-y,2/3-y,2/3-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_type_symbol
+Mg 0.0 0.0 0.30314(3) 0.01076(7) Uani 1 Mg
+N 0.0 0.0 0.19950(2) 0.00335(8) Uani 1 N
+B1 0.15610(4) 0.31220(8) 0.182668(17) 0.00354(8) Uani 1 B
+B2 0.22538(4) 0.45076(8) 0.099087(18) 0.00364(8) Uani 1 B
+B3 0.10607(4) 0.21214(8) 0.036285(19) 0.00419(8) Uani 1 B
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+_atom_site_aniso_type_symbol
+Mg 0.01319(10) 0.01319(10) 0.00591(11) 0.00659(5) 0.0 0.0 Mg
+N 0.00260(9) 0.00260(9) 0.00486(15) 0.00130(5) 0.0 0.0 N
+B1 0.00347(9) 0.00323(12) 0.00384(12) 0.00161(6) 0.00006(4) 0.00012(8) B
+B2 0.00374(9) 0.00357(12) 0.00354(12) 0.00178(6) -0.00015(4) -0.00030(8) B
+B3 0.00450(10) 0.00375(12) 0.00406(12) 0.00187(6) -0.00028(4) -0.00056(8) B
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Mg 0.049 0.036 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.1'
+N 0.006 0.003 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.1'
+B 0.001 0.001 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.1'
+loop_
+_diffrn_standard_refln_index_h
+_diffrn_standard_refln_index_k
+_diffrn_standard_refln_index_l
+0 -1 4
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+N Mg B2 . 13_445 158.409(9) no
+N Mg B2 . 14_555 158.409(9) no
+N Mg B2 . 16_455 158.409(10) no
+N Mg B3 . 13_445 121.684(14) no
+N Mg B3 . 19_455 87.504(14) no
+N Mg B3 . 19_555 87.504(14) no
+N Mg B3 . 14_555 121.684(14) no
+N Mg B3 . 20_445 87.504(14) no
+N Mg B3 . 20_455 87.504(14) no
+N Mg B3 . 16_455 121.684(14) no
+N Mg B3 . 22_445 87.504(14) no
+N Mg B3 . 22_555 87.504(14) no
+B1 Mg B1 . 2_555 53.893(13) no
+B1 Mg B1 . 4_555 53.893(15) no
+B1 Mg B2 . 13_445 170.039(15) no
+B1 Mg B2 . 14_555 134.116(9) no
+B1 Mg B2 . 16_455 134.116(11) no
+B1 Mg B3 . 13_445 153.24(2) no
+B1 Mg B3 . 19_455 81.691(14) no
+B1 Mg B3 . 19_555 81.691(13) no
+B1 Mg B3 . 14_555 103.000(11) no
+B1 Mg B3 . 20_445 117.36(2) no
+B1 Mg B3 . 20_455 64.755(13) no
+B1 Mg B3 . 16_455 103.000(13) no
+B1 Mg B3 . 22_445 117.36(2) no
+B1 Mg B3 . 22_555 64.755(11) no
+B1 Mg B1 2_555 . 53.893(13) no
+B1 Mg B1 2_555 4_555 53.893(17) no
+B1 Mg B2 2_555 13_445 134.116(8) no
+B1 Mg B2 2_555 14_555 170.039(15) no
+B1 Mg B2 2_555 16_455 134.116(14) no
+B1 Mg B3 2_555 13_445 103.000(12) no
+B1 Mg B3 2_555 19_455 64.755(15) no
+B1 Mg B3 2_555 19_555 117.36(2) no
+B1 Mg B3 2_555 14_555 153.24(2) no
+B1 Mg B3 2_555 20_445 81.691(16) no
+B1 Mg B3 2_555 20_455 81.691(16) no
+B1 Mg B3 2_555 16_455 103.000(16) no
+B1 Mg B3 2_555 22_445 64.755(13) no
+B1 Mg B3 2_555 22_555 117.36(2) no
+B1 Mg B1 4_555 . 53.893(15) no
+B1 Mg B1 4_555 2_555 53.893(17) no
+B1 Mg B2 4_555 13_445 134.116(12) no
+B1 Mg B2 4_555 14_555 134.116(15) no
+B1 Mg B2 4_555 16_455 170.039(16) no
+B1 Mg B3 4_555 13_445 103.000(12) no
+B1 Mg B3 4_555 19_455 117.36(2) no
+B1 Mg B3 4_555 19_555 64.755(14) no
+B1 Mg B3 4_555 14_555 103.000(15) no
+B1 Mg B3 4_555 20_445 64.755(11) no
+B1 Mg B3 4_555 20_455 117.36(2) no
+B1 Mg B3 4_555 16_455 153.24(2) no
+B1 Mg B3 4_555 22_445 81.691(13) no
+B1 Mg B3 4_555 22_555 81.691(13) no
+B2 Mg B3 13_445 19_455 96.663(16) no
+B2 Mg B3 13_445 19_555 96.663(15) no
+B2 Mg B3 13_445 14_555 70.621(16) no
+B2 Mg B3 13_445 20_445 72.011(14) no
+B2 Mg B3 13_445 20_455 108.320(18) no
+B2 Mg B3 13_445 16_455 70.621(18) no
+B2 Mg B3 13_445 22_445 72.011(12) no
+B2 Mg B3 13_445 22_555 108.320(17) no
+B2 Mg B3 14_555 13_445 70.621(17) no
+B2 Mg B3 14_555 19_455 108.32(2) no
+B2 Mg B3 14_555 19_555 72.011(14) no
+B2 Mg B3 14_555 20_445 96.663(17) no
+B2 Mg B3 14_555 20_455 96.663(18) no
+B2 Mg B3 14_555 16_455 70.62(2) no
+B2 Mg B3 14_555 22_445 108.320(18) no
+B2 Mg B3 14_555 22_555 72.011(13) no
+B2 Mg B3 16_455 13_445 70.621(16) no
+B2 Mg B3 16_455 19_455 72.011(15) no
+B2 Mg B3 16_455 19_555 108.320(19) no
+B2 Mg B3 16_455 14_555 70.621(19) no
+B2 Mg B3 16_455 20_445 108.320(17) no
+B2 Mg B3 16_455 20_455 72.011(13) no
+B2 Mg B3 16_455 22_445 96.663(15) no
+B2 Mg B3 16_455 22_555 96.663(15) no
+B3 Mg B3 13_445 19_455 101.392(12) no
+B3 Mg B3 13_445 19_555 101.393(13) no
+B3 Mg B3 13_445 14_555 94.945(18) no
+B3 Mg B3 13_445 20_455 131.003(17) no
+B3 Mg B3 13_445 16_455 94.945(18) no
+B3 Mg B3 13_445 22_555 131.003(16) no
+B3 Mg B3 19_455 13_445 101.392(12) no
+B3 Mg B3 19_455 19_555 155.777(12) no
+B3 Mg B3 19_455 14_555 131.003(19) no
+B3 Mg B3 19_455 20_445 119.812(11) no
+B3 Mg B3 19_455 22_445 83.612(12) no
+B3 Mg B3 19_455 22_555 119.812(11) no
+B3 Mg B3 19_555 13_445 101.393(13) no
+B3 Mg B3 19_555 19_455 155.777(12) no
+B3 Mg B3 19_555 20_445 83.612(12) no
+B3 Mg B3 19_555 20_455 119.812(11) no
+B3 Mg B3 19_555 16_455 131.003(17) no
+B3 Mg B3 19_555 22_445 119.812(13) no
+B3 Mg B3 14_555 13_445 94.945(18) no
+B3 Mg B3 14_555 19_455 131.003(19) no
+B3 Mg B3 14_555 20_445 101.392(16) no
+B3 Mg B3 14_555 20_455 101.393(16) no
+B3 Mg B3 14_555 16_455 94.94(2) no
+B3 Mg B3 14_555 22_445 131.003(19) no
+B3 Mg B3 20_445 19_455 119.812(11) no
+B3 Mg B3 20_445 19_555 83.612(12) no
+B3 Mg B3 20_445 14_555 101.392(16) no
+B3 Mg B3 20_445 20_455 155.777(12) no
+B3 Mg B3 20_445 16_455 131.003(16) no
+B3 Mg B3 20_445 22_555 119.812(12) no
+B3 Mg B3 20_455 13_445 131.003(17) no
+B3 Mg B3 20_455 19_555 119.812(11) no
+B3 Mg B3 20_455 14_555 101.393(16) no
+B3 Mg B3 20_455 20_445 155.777(12) no
+B3 Mg B3 20_455 22_445 119.812(12) no
+B3 Mg B3 20_455 22_555 83.612(11) no
+B3 Mg B3 16_455 13_445 94.945(18) no
+B3 Mg B3 16_455 19_555 131.003(17) no
+B3 Mg B3 16_455 14_555 94.94(2) no
+B3 Mg B3 16_455 20_445 131.003(16) no
+B3 Mg B3 16_455 22_445 101.393(13) no
+B3 Mg B3 16_455 22_555 101.392(12) no
+B3 Mg B3 22_445 19_455 83.612(12) no
+B3 Mg B3 22_445 19_555 119.812(13) no
+B3 Mg B3 22_445 14_555 131.003(19) no
+B3 Mg B3 22_445 20_455 119.812(12) no
+B3 Mg B3 22_445 16_455 101.393(13) no
+B3 Mg B3 22_445 22_555 155.777(14) no
+B3 Mg B3 22_555 13_445 131.003(16) no
+B3 Mg B3 22_555 19_455 119.812(11) no
+B3 Mg B3 22_555 20_445 119.812(12) no
+B3 Mg B3 22_555 20_455 83.612(11) no
+B3 Mg B3 22_555 16_455 101.392(12) no
+B3 Mg B3 22_555 22_445 155.777(14) no
+B1 N B1 . 2_555 115.22(3) no
+B1 N B1 . 4_555 115.22(2) no
+B1 N B1 2_555 . 115.22(3) no
+B1 N B1 2_555 4_555 115.22(3) no
+B1 N B1 4_555 . 115.22(2) no
+B1 N B1 4_555 2_555 115.22(3) no
+N B1 B1 . 20_455 122.316(17) no
+N B1 B1 . 22_555 122.32(3) no
+N B1 B2 . . 124.27(3) no
+N B1 B2 . 20_455 120.51(3) no
+N B1 B2 . 22_555 120.51(3) no
+B1 B1 B1 20_455 22_555 108.05(3) no
+B1 B1 B2 20_455 . 59.85(2) no
+B1 B1 B2 20_455 20_455 60.03(2) no
+B1 B1 B2 20_455 22_555 107.48(3) no
+B1 B1 B1 22_555 20_455 108.05(3) no
+B1 B1 B2 22_555 . 59.852(17) no
+B1 B1 B2 22_555 20_455 107.48(2) no
+B1 B1 B2 22_555 22_555 60.028(18) no
+B2 B1 B2 . 20_455 107.30(3) no
+B2 B1 B2 . 22_555 107.297(19) no
+B2 B1 B2 20_455 . 107.30(3) no
+B2 B1 B2 20_455 22_555 59.24(2) no
+B2 B1 B2 22_555 . 107.297(19) no
+B2 B1 B2 22_555 20_455 59.24(2) no
+B1 B2 B1 . 20_455 60.12(2) no
+B1 B2 B1 . 22_555 60.120(18) no
+B1 B2 B2 . 2_665 108.46(2) no
+B1 B2 B2 . 4_565 108.46(3) no
+B1 B2 B3 . . 116.56(3) no
+B1 B2 B1 20_455 . 60.12(2) no
+B1 B2 B1 20_455 22_555 108.48(3) no
+B1 B2 B2 20_455 2_665 108.49(3) no
+B1 B2 B2 20_455 4_565 60.38(2) no
+B1 B2 B3 20_455 . 119.738(17) no
+B1 B2 B1 22_555 . 60.120(18) no
+B1 B2 B1 22_555 20_455 108.48(3) no
+B1 B2 B2 22_555 2_665 60.379(18) no
+B1 B2 B2 22_555 4_565 108.49(2) no
+B1 B2 B3 22_555 . 119.74(3) no
+B2 B2 B2 2_665 4_565 60.00(3) no
+B2 B2 B3 2_665 . 125.41(2) no
+B2 B2 B2 4_565 2_665 60.00(3) no
+B2 B2 B3 4_565 . 125.41(3) no
+B2 B3 B3 . 2_555 125.41(3) no
+B2 B3 B3 . 8_555 143.267(17) no
+B2 B3 B3 . 4_555 125.41(3) no
+B2 B3 B3 . 10_555 143.27(3) no
+B3 B3 B3 2_555 8_555 90 no
+B3 B3 B3 2_555 4_555 60.00(3) no
+B3 B3 B3 2_555 10_555 60.454(18) no
+B3 B3 B3 8_555 2_555 90 no
+B3 B3 B3 8_555 4_555 60.45(2) no
+B3 B3 B3 8_555 10_555 59.09(2) no
+B3 B3 B3 4_555 2_555 60.00(3) no
+B3 B3 B3 4_555 8_555 60.45(2) no
+B3 B3 B3 4_555 10_555 90 no
+B3 B3 B3 10_555 2_555 60.454(18) no
+B3 B3 B3 10_555 8_555 59.09(2) no
+B3 B3 B3 10_555 4_555 90 no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Mg N . . 2.0818(7) yes
+Mg B1 . . 2.8398(6) yes
+Mg B1 . 2_555 2.8398(6) no
+Mg B1 . 4_555 2.8398(6) no
+Mg B2 . 13_445 2.7928(6) yes
+Mg B2 . 14_555 2.7928(6) no
+Mg B2 . 16_455 2.7928(6) no
+Mg B3 . 13_445 2.5423(5) yes
+Mg B3 . 19_455 2.8106(4) yes
+Mg B3 . 19_555 2.8106(3) no
+Mg B3 . 14_555 2.5423(5) no
+Mg B3 . 20_445 2.8106(5) no
+Mg B3 . 20_455 2.8106(5) no
+Mg B3 . 16_455 2.5423(5) no
+Mg B3 . 22_445 2.8106(2) no
+Mg B3 . 22_555 2.8106(3) no
+N B1 . . 1.5240(4) yes
+N B1 . 2_555 1.5240(4) no
+N B1 . 4_555 1.5240(5) no
+B1 B1 . 20_455 1.8055(7) yes
+B1 B1 . 22_555 1.8055(5) no
+B1 B2 . . 1.8038(5) yes
+B1 B2 . 20_455 1.8006(7) yes
+B1 B2 . 22_555 1.8006(4) no
+B2 B2 . 2_665 1.7800(4) yes
+B2 B2 . 4_565 1.7800(6) no
+B2 B3 . . 1.6974(5) yes
+B3 B3 . 2_555 1.7489(4) yes
+B3 B3 . 8_555 1.7733(6) yes
+B3 B3 . 4_555 1.7489(5) no
+B3 B3 . 10_555 1.7733(5) no

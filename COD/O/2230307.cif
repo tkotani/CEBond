@@ -1,0 +1,376 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-21 02:03:34 +0200 (Sun, 21 Feb 2016) $
+#$Revision: 176798 $
+#$URL: svn://www.crystallography.net/cod/cif/2/23/03/2230307.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2230307
+loop_
+_publ_author_name
+'Held, Peter'
+'van der Wolf, Benjamin'
+'Bohat\'y, Ladislav'
+'Becker, Petra'
+_publ_section_title
+;
+ Neodymium(III) molybdenum(VI) borate, NdBO~2~MoO~4~
+;
+_journal_coeditor_code           FI2107
+_journal_issue                   6
+_journal_name_full               'Acta Crystallographica Section E'
+_journal_page_first              i36
+_journal_paper_doi               10.1107/S1600536811017806
+_journal_volume                  67
+_journal_year                    2011
+_chemical_formula_iupac          'Nd Mo B O6'
+_chemical_formula_moiety         'B Mo Nd O6'
+_chemical_formula_sum            'B Mo Nd O6'
+_chemical_formula_weight         346.99
+_chemical_name_common            'Neodymium molybdenum borate'
+_chemical_name_systematic
+;
+Neodymium(III) molybdenum(VI) borate
+;
+_space_group_IT_number           14
+_space_group_name_Hall           '-P 2ybc'
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 116.897(14)
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   10.1218(19)
+_cell_length_b                   4.1420(5)
+_cell_length_c                   11.896(3)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    292(2)
+_cell_measurement_theta_max      21.20
+_cell_measurement_theta_min      12.07
+_cell_volume                     444.78(16)
+_computing_cell_refinement       'MACH3 (Enraf--Nonius, 1993)'
+_computing_data_collection       'MACH3 (Enraf--Nonius, 1993)'
+_computing_data_reduction        'MOLEN (Fair, 1990)'
+_computing_molecular_graphics    'ATOMS (Dowty, 2002)'
+_computing_publication_material  'publCIF (Westrip, 2010)'
+_computing_structure_refinement  'SHELXL97 (Sheldrick, 2008)'
+_computing_structure_solution    'SHELXS97 (Sheldrick, 2008)'
+_diffrn_ambient_temperature      292(2)
+_diffrn_measured_fraction_theta_full 1.000
+_diffrn_measured_fraction_theta_max 1.000
+_diffrn_measurement_device_type  'Enraf--Nonius CAD4/MACH3'
+_diffrn_measurement_method       \w/2\q
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0352
+_diffrn_reflns_av_sigmaI/netI    0.0238
+_diffrn_reflns_limit_h_max       14
+_diffrn_reflns_limit_h_min       -14
+_diffrn_reflns_limit_k_max       5
+_diffrn_reflns_limit_k_min       -5
+_diffrn_reflns_limit_l_max       16
+_diffrn_reflns_limit_l_min       -16
+_diffrn_reflns_number            5004
+_diffrn_reflns_theta_full        30.40
+_diffrn_reflns_theta_max         30.40
+_diffrn_reflns_theta_min         2.26
+_diffrn_standards_decay_%        2.1
+_diffrn_standards_interval_count 100
+_diffrn_standards_interval_time  60
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    14.301
+_exptl_absorpt_correction_T_max  0.9983
+_exptl_absorpt_correction_T_min  0.4868
+_exptl_absorpt_correction_type   psi-scan
+_exptl_absorpt_process_details
+;
+(MolEN; Fair, 1990)
+;
+_exptl_crystal_colour            'light violet'
+_exptl_crystal_density_diffrn    5.182
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       prism
+_exptl_crystal_F_000             620
+_exptl_crystal_size_max          0.30
+_exptl_crystal_size_mid          0.20
+_exptl_crystal_size_min          0.15
+_refine_diff_density_max         2.235
+_refine_diff_density_min         -1.611
+_refine_ls_extinction_coef       0.0428(13)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     'SHELXL97 (Sheldrick, 2008)'
+_refine_ls_goodness_of_fit_ref   1.224
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     83
+_refine_ls_number_reflns         1344
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.224
+_refine_ls_R_factor_all          0.0268
+_refine_ls_R_factor_gt           0.0250
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0304P)^2^+1.8082P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0619
+_refine_ls_wR_factor_ref         0.0627
+_reflns_number_gt                1268
+_reflns_number_total             1344
+_reflns_threshold_expression     I>2\s(I)
+_cod_data_source_file            fi2107.cif
+_cod_data_source_block           I
+_cod_original_sg_symbol_H-M      'P 21/c'
+_cod_database_code               2230307
+_cod_database_fobs_code          2230307
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, y+1/2, -z+1/2'
+'-x, -y, -z'
+'x, -y-1/2, z-1/2'
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Nd Nd 0.19204(2) 0.21132(6) -0.47183(2) 0.00919(11) Uani d . 1 1 . .
+Mo Mo 0.64536(4) 0.30466(8) -0.31742(3) 0.00668(12) Uani d . 1 1 . .
+B B -0.0028(7) 0.3290(12) -0.3083(5) 0.0182(10) Uani d . 1 1 . .
+O O1 -0.0326(4) 0.6580(8) -0.3013(3) 0.0120(6) Uani d . 1 1 . .
+O O2 -0.0035(3) 0.2247(7) -0.4150(3) 0.0099(5) Uani d . 1 1 . .
+O O3 0.6616(4) 0.7223(8) -0.3016(4) 0.0173(7) Uani d . 1 1 . .
+O O4 0.2605(4) -0.2856(7) -0.3501(3) 0.0124(6) Uani d . 1 1 . .
+O O5 0.4556(4) 0.2256(9) -0.3956(3) 0.0156(6) Uani d . 1 1 . .
+O O6 0.7424(4) 0.2194(9) -0.4084(4) 0.0190(7) Uani d . 1 1 . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Nd 0.00733(14) 0.00900(16) 0.00992(14) -0.00094(6) 0.00274(10) -0.00205(7)
+Mo 0.00602(17) 0.0087(2) 0.00546(17) -0.00022(10) 0.00270(13) -0.00094(10)
+B 0.040(3) 0.007(2) 0.013(2) 0.0020(19) 0.017(2) -0.0003(17)
+O1 0.0259(16) 0.0056(13) 0.0050(12) -0.0010(11) 0.0074(12) -0.0004(10)
+O2 0.0108(13) 0.0118(14) 0.0084(13) -0.0018(10) 0.0055(11) -0.0021(10)
+O3 0.0203(16) 0.0125(15) 0.0199(16) 0.0003(12) 0.0099(14) -0.0002(12)
+O4 0.0173(15) 0.0091(14) 0.0067(13) -0.0007(10) 0.0018(12) -0.0017(10)
+O5 0.0066(12) 0.0235(17) 0.0137(15) -0.0009(11) 0.0019(11) -0.0008(12)
+O6 0.0271(18) 0.0192(17) 0.0207(17) -0.0024(13) 0.0197(15) -0.0039(13)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+B B 0.0013 0.0007 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Mo Mo -1.6832 0.6857 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Nd Nd -0.1943 3.0179 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O2 Nd O5 . . 145.40(12) ?
+O2 Nd O4 . . 84.21(11) ?
+O5 Nd O4 . . 80.04(12) ?
+O2 Nd O4 . 1_565 81.98(11) ?
+O5 Nd O4 . 1_565 77.71(12) ?
+O4 Nd O4 . 1_565 116.06(13) ?
+O2 Nd O1 . 3_564 95.08(11) ?
+O5 Nd O1 . 3_564 117.89(12) ?
+O4 Nd O1 . 3_564 134.27(11) ?
+O4 Nd O1 1_565 3_564 109.02(10) ?
+O2 Nd O2 . 3_554 68.97(12) ?
+O5 Nd O2 . 3_554 131.40(11) ?
+O4 Nd O2 . 3_554 69.84(11) ?
+O4 Nd O2 1_565 3_554 149.91(11) ?
+O1 Nd O2 3_564 3_554 67.44(11) ?
+O2 Nd O6 . 3_654 129.71(11) ?
+O5 Nd O6 . 3_654 72.70(12) ?
+O4 Nd O6 . 3_654 70.40(12) ?
+O4 Nd O6 1_565 3_654 148.09(12) ?
+O1 Nd O6 3_564 3_654 75.67(12) ?
+O2 Nd O6 3_554 3_654 61.79(10) ?
+O2 Nd O3 . 2_644 75.40(11) ?
+O5 Nd O3 . 2_644 70.07(11) ?
+O4 Nd O3 . 2_644 58.78(10) ?
+O4 Nd O3 1_565 2_644 57.31(10) ?
+O1 Nd O3 3_564 2_644 163.84(10) ?
+O2 Nd O3 3_554 2_644 119.20(10) ?
+O6 Nd O3 3_654 2_644 120.47(11) ?
+O2 Nd O2 . 3_564 69.96(11) ?
+O5 Nd O2 . 3_564 122.40(10) ?
+O4 Nd O2 . 3_564 154.13(10) ?
+O4 Nd O2 1_565 3_564 62.95(10) ?
+O1 Nd O2 3_564 3_564 50.40(10) ?
+O2 Nd O2 3_554 3_564 98.46(10) ?
+O6 Nd O2 3_654 3_564 125.50(11) ?
+O3 Nd O2 2_644 3_564 113.50(9) ?
+O2 Nd O6 . 3_664 120.96(10) ?
+O5 Nd O6 . 3_664 73.22(11) ?
+O4 Nd O6 . 3_664 152.84(11) ?
+O4 Nd O6 1_565 3_664 62.98(10) ?
+O1 Nd O6 3_564 3_664 59.13(11) ?
+O2 Nd O6 3_554 3_664 126.02(10) ?
+O6 Nd O6 3_654 3_664 96.66(11) ?
+O3 Nd O6 2_644 3_664 114.35(10) ?
+O2 Nd O6 3_564 3_664 52.35(9) ?
+O3 Mo O5 . . 105.76(17) ?
+O3 Mo O6 . . 102.12(17) ?
+O5 Mo O6 . . 114.36(17) ?
+O3 Mo O4 . 2_654 96.26(16) ?
+O5 Mo O4 . 2_654 116.79(16) ?
+O6 Mo O4 . 2_654 117.52(17) ?
+O3 Mo O3 . 1_545 169.5(2) ?
+O5 Mo O3 . 1_545 82.75(15) ?
+O6 Mo O3 . 1_545 79.30(15) ?
+O4 Mo O3 2_654 1_545 74.10(13) ?
+O3 Mo Nd . 2_654 55.67(13) ?
+O5 Mo Nd . 2_654 121.91(12) ?
+O6 Mo Nd . 2_654 123.02(13) ?
+O4 Mo Nd 2_654 2_654 40.63(10) ?
+O3 Mo Nd 1_545 2_654 114.71(9) ?
+O3 Mo Nd . 2_644 123.03(13) ?
+O5 Mo Nd . 2_644 105.84(12) ?
+O6 Mo Nd . 2_644 106.15(13) ?
+O4 Mo Nd 2_654 2_644 26.80(10) ?
+O3 Mo Nd 1_545 2_644 47.32(9) ?
+Nd Mo Nd 2_654 2_644 67.430(16) ?
+O3 Mo Nd . 3_664 62.27(12) ?
+O5 Mo Nd . 3_664 114.60(12) ?
+O6 Mo Nd . 3_664 41.02(12) ?
+O4 Mo Nd 2_654 3_664 128.02(11) ?
+O3 Mo Nd 1_545 3_664 120.27(9) ?
+Nd Mo Nd 2_654 3_664 103.052(17) ?
+Nd Mo Nd 2_644 3_664 135.816(15) ?
+O3 Mo Nd . . 99.98(12) ?
+O5 Mo Nd . . 7.61(12) ?
+O6 Mo Nd . . 121.06(13) ?
+O4 Mo Nd 2_654 . 113.32(11) ?
+O3 Mo Nd 1_545 . 87.93(9) ?
+Nd Mo Nd 2_654 . 114.650(15) ?
+Nd Mo Nd 2_644 . 105.813(15) ?
+Nd Mo Nd 3_664 . 116.653(16) ?
+O3 Mo Nd . 3_654 122.17(12) ?
+O5 Mo Nd . 3_654 102.87(12) ?
+O6 Mo Nd . 3_654 20.25(12) ?
+O4 Mo Nd 2_654 3_654 113.64(11) ?
+O3 Mo Nd 1_545 3_654 60.20(9) ?
+Nd Mo Nd 2_654 3_654 134.533(16) ?
+Nd Mo Nd 2_644 3_654 94.773(16) ?
+Nd Mo Nd 3_664 3_654 60.259(12) ?
+Nd Mo Nd . 3_654 110.359(15) ?
+O2 B O1 . 2_544 128.1(4) ?
+O2 B O1 . . 117.4(4) ?
+O1 B Nd 2_544 3_564 155.4(4) ?
+O1 B Nd 2_544 3_554 102.0(3) ?
+O1 B Nd . 3_554 129.6(4) ?
+Nd B Nd 3_564 3_554 80.37(14) ?
+O1 B Nd 2_544 . 120.0(3) ?
+O1 B Nd . . 111.8(3) ?
+Nd B Nd 3_564 . 84.34(13) ?
+Nd B Nd 3_554 . 74.17(11) ?
+O2 B Nd . 4_566 144.1(4) ?
+O1 B Nd . 4_566 90.2(3) ?
+Nd B Nd 3_564 4_566 142.25(16) ?
+Nd B Nd 3_554 4_566 132.90(16) ?
+Nd B Nd . 4_566 117.93(18) ?
+B O1 B 2_554 . 125.6(3) ?
+B O1 Nd 2_554 3_564 132.3(3) ?
+B O1 Nd . 3_564 101.4(3) ?
+B O1 Nd 2_554 4_566 57.4(2) ?
+B O1 Nd . 4_566 68.4(3) ?
+Nd O1 Nd 3_564 4_566 169.04(12) ?
+B O1 Nd 2_554 . 137.1(3) ?
+B O1 Nd . . 49.7(3) ?
+Nd O1 Nd 3_564 . 78.20(8) ?
+Nd O1 Nd 4_566 . 96.89(8) ?
+B O2 Nd . . 129.3(3) ?
+B O2 Nd . 3_554 114.5(3) ?
+Nd O2 Nd . 3_554 111.03(12) ?
+B O2 Nd . 3_564 84.3(3) ?
+Nd O2 Nd . 3_564 110.04(11) ?
+Nd O2 Nd 3_554 3_564 98.46(10) ?
+Mo O3 Mo . 1_565 169.5(2) ?
+Mo O3 Nd . 2_654 94.65(15) ?
+Mo O3 Nd 1_565 2_654 94.88(12) ?
+Mo O3 Nd . 3_664 92.60(14) ?
+Mo O3 Nd 1_565 3_664 84.42(10) ?
+Nd O3 Nd 2_654 3_664 131.41(12) ?
+Mo O4 Nd 2_644 . 110.25(14) ?
+Mo O4 Nd 2_644 1_545 133.69(16) ?
+Nd O4 Nd . 1_545 116.06(13) ?
+Mo O4 Nd 2_644 3_554 117.45(14) ?
+Nd O4 Nd . 3_554 71.19(8) ?
+Nd O4 Nd 1_545 3_554 78.89(8) ?
+Mo O5 Nd . . 166.9(2) ?
+Mo O6 Nd . 3_654 145.65(19) ?
+Mo O6 Nd . 3_664 115.69(16) ?
+Nd O6 Nd 3_654 3_664 96.66(11) ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Nd O2 . 2.364(3) ?
+Nd O5 . 2.399(3) ?
+Nd O4 . 2.431(3) ?
+Nd O4 1_565 2.452(3) ?
+Nd O1 3_564 2.498(3) ?
+Nd O2 3_554 2.528(3) ?
+Nd O6 3_654 2.551(3) ?
+Nd O3 2_644 2.901(4) ?
+Nd O2 3_564 2.930(3) ?
+Nd O6 3_664 2.981(4) ?
+Mo O3 . 1.740(4) ?
+Mo O5 . 1.745(3) ?
+Mo O6 . 1.795(3) ?
+Mo O4 2_654 1.816(3) ?
+Mo O3 1_545 2.419(3) ?
+Mo Nd 2_654 3.5017(8) ?
+B O2 . 1.338(6) ?
+B O1 2_544 1.381(6) ?
+B O1 . 1.406(6) ?
+B Nd 3_564 3.099(6) ?
+B Nd 3_554 3.315(6) ?
+O1 B 2_554 1.381(6) ?
+O1 Nd 3_564 2.498(3) ?
+O2 Nd 3_554 2.528(3) ?
+O2 Nd 3_564 2.930(3) ?
+O3 Mo 1_565 2.419(3) ?
+O3 Nd 2_654 2.901(4) ?
+O4 Mo 2_644 1.816(3) ?
+O4 Nd 1_545 2.452(3) ?
+O6 Nd 3_654 2.551(3) ?
+O6 Nd 3_664 2.981(4) ?

@@ -1,0 +1,193 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-23 04:09:31 +0200 (Wed, 23 Mar 2016) $
+#$Revision: 179278 $
+#$URL: svn://www.crystallography.net/cod/cif/4/31/98/4319839.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4319839
+loop_
+_publ_author_name
+'John F. Lehmann'
+'David A. Dixon'
+'Gary J. Schrobilgen'
+_publ_section_title
+;
+ X-ray Crystal Structures of \a-KrF2, [KrF][MF6] (M = As, Sb, Bi),
+ [Kr2F3][SbF6].KrF2, [Kr2F3]2[SbF6]2.KrF2, and [Kr2F3][AsF6].[KrF][AsF6];
+ Synthesis and Characterization of [Kr2F3][PF6].nKrF2; and Theoretical
+ Studies of KrF2, KrF+, Kr2F3+, and the [KrF][MF6] (M = P, As, Sb, Bi) Ion
+ Pairs
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              3002
+_journal_page_last               3017
+_journal_paper_doi               10.1021/ic001167w
+_journal_volume                  40
+_journal_year                    2001
+_chemical_formula_sum            'F2 Kr'
+_chemical_formula_weight         121.80
+_chemical_name_systematic
+; 
+ ? 
+;
+_space_group_IT_number           139
+_symmetry_cell_setting           tetragonal
+_symmetry_space_group_name_Hall  '-I 4 2'
+_symmetry_space_group_name_H-M   'I 4/m m m'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            2
+_cell_length_a                   4.1744(6)
+_cell_length_b                   4.1744(6)
+_cell_length_c                   6.5047(13)
+_cell_measurement_temperature    293(2)
+_cell_volume                     113.35(3)
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measured_fraction_theta_full 1.000
+_diffrn_measured_fraction_theta_max 1.000
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0273
+_diffrn_reflns_av_sigmaI/netI    0.0142
+_diffrn_reflns_limit_h_max       5
+_diffrn_reflns_limit_h_min       -5
+_diffrn_reflns_limit_k_max       5
+_diffrn_reflns_limit_k_min       -4
+_diffrn_reflns_limit_l_max       8
+_diffrn_reflns_limit_l_min       -7
+_diffrn_reflns_number            386
+_diffrn_reflns_theta_full        27.50
+_diffrn_reflns_theta_max         27.50
+_diffrn_reflns_theta_min         5.81
+_exptl_absorpt_coefficient_mu    19.591
+_exptl_crystal_density_diffrn    3.569
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_F_000             108
+_refine_diff_density_max         0.689
+_refine_diff_density_min         -0.907
+_refine_diff_density_rms         0.165
+_refine_ls_extinction_coef       0.014(14)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_ref   1.293
+_refine_ls_hydrogen_treatment    mixed
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     7
+_refine_ls_number_reflns         55
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.293
+_refine_ls_R_factor_all          0.0251
+_refine_ls_R_factor_gt           0.0251
+_refine_ls_shift/su_max          0.001
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0409P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0548
+_refine_ls_wR_factor_ref         0.0548
+_reflns_number_gt                55
+_reflns_number_total             55
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            ic001167w_1.cif
+_cod_data_source_block           KrF2
+_cod_database_code               4319839
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, -y, z'
+'-y, x, z'
+'y, -x, z'
+'-x, y, -z'
+'x, -y, -z'
+'y, x, -z'
+'-y, -x, -z'
+'x+1/2, y+1/2, z+1/2'
+'-x+1/2, -y+1/2, z+1/2'
+'-y+1/2, x+1/2, z+1/2'
+'y+1/2, -x+1/2, z+1/2'
+'-x+1/2, y+1/2, -z+1/2'
+'x+1/2, -y+1/2, -z+1/2'
+'y+1/2, x+1/2, -z+1/2'
+'-y+1/2, -x+1/2, -z+1/2'
+'-x, -y, -z'
+'x, y, -z'
+'y, -x, -z'
+'-y, x, -z'
+'x, -y, z'
+'-x, y, z'
+'-y, -x, z'
+'y, x, z'
+'-x+1/2, -y+1/2, -z+1/2'
+'x+1/2, y+1/2, -z+1/2'
+'y+1/2, -x+1/2, -z+1/2'
+'-y+1/2, x+1/2, -z+1/2'
+'x+1/2, -y+1/2, z+1/2'
+'-x+1/2, y+1/2, z+1/2'
+'-y+1/2, -x+1/2, z+1/2'
+'y+1/2, x+1/2, z+1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Kr1 Kr 0.0000 0.0000 0.0000 0.0317(6) Uani 1 d S . .
+F F 0.0000 0.0000 0.2917(8) 0.0410(12) Uani 1 d S . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Kr1 0.0359(6) 0.0359(6) 0.0232(7) 0.000 0.000 0.000
+F 0.0499(18) 0.0499(18) 0.023(2) 0.000 0.000 0.000
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+F F 0.0171 0.0103 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Kr Kr -0.5574 2.7079 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+F Kr1 F 180.0 . 17 ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Kr1 F 1.897(5) . ?
+Kr1 F 1.897(5) 17 ?

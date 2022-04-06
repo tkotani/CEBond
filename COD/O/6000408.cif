@@ -1,0 +1,176 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-01-25 19:13:11 +0200 (Wed, 25 Jan 2017) $
+#$Revision: 190905 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/6/00/04/6000408.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_6000408
+loop_
+_publ_author_name
+'Knorr, K.'
+'Jakubus, P.'
+'Dabrowska, G.'
+'Kurzawa, M.'
+_publ_section_title
+;
+ Crystal structure determination of AlVMoO~7~ from X-ray powder diffraction
+ data
+;
+_journal_coden_ASTM              EJSCE5
+_journal_issue                   6-7
+_journal_name_full
+;
+ European Journal of Solid State and Inorganic Chemistry
+;
+_journal_page_first              519
+_journal_page_last               530
+_journal_paper_doi               10.1016/S0992-4361(98)80028-3
+_journal_volume                  35
+_journal_year                    1998
+_chemical_formula_sum            'Al Mo O7 V'
+_chemical_formula_weight         285.859
+_space_group_crystal_system      orthorhombic
+_space_group_IT_number           62
+_space_group_name_Hall           '-P 2n 2a'
+_space_group_name_H-M_alt        'P m c n'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   5.3763(3)
+_cell_length_b                   8.1644(3)
+_cell_length_c                   12.7312(6)
+_cell_volume                     558.83(5)
+_diffrn_ambient_temperature      293
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_type           CuK\a
+_diffrn_radiation_wavelength     1.54056
+_exptl_crystal_density_diffrn    3.398
+_exptl_crystal_density_meas      3.38
+_exptl_crystal_F_000             536
+_pd_proc_ls_prof_R_factor        0.094
+_pd_proc_ls_prof_wR_factor       0.120
+_refine_ls_number_reflns         329
+_cod_depositor_comments
+;
+Rietveld refinements, Fullprof software
+;
+_cod_database_code               6000408
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 -x,1/2+y,1/2-z
+3 1/2-x,1/2-y,1/2+z
+4 1/2+x,-y,-z
+5 -x,-y,-z
+6 x,1/2-y,1/2+z
+7 1/2+x,1/2+y,1/2-z
+8 1/2-x,y,z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_adp_type
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_calc_flag
+_atom_site_refinement_flags_posn
+_atom_site_refinement_flags_adp
+_atom_site_refinement_flags_occupancy
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Mo Mo Uiso 0.25000 0.0444(3) 0.6449(2) 1.000 0.0257(6) . . . . . .
+V V Uiso 0.75000 0.4324(6) 0.5124(3) 1.000 0.0241(13) . . . . . .
+Al Al Uiso 0.25000 0.2358(9) 0.3857(6) 1.000 0.030(3) . . . . . .
+O1 O Uiso 0.25000 0.1846(12) 0.7485(8) 1.000 0.037(3) . . . . . .
+O2 O Uiso 0.75000 0.2973(19) 0.5897(11) 1.000 0.047(5) . . . . . .
+O3 O Uiso 0.0010(12) 0.5868(9) 0.1490(7) 1.000 0.047(4) . . . . . .
+O4 O Uiso 0.25000 0.1526(16) 0.5274(8) 1.000 0.063(6) . . . . . .
+O5 O Uiso 0.0220(16) 0.4101(15) 0.4307(7) 1.000 0.061(4) . . . . . .
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Al Al 0.2130 0.2455 ' International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Mo Mo -0.0483 2.7339 ' International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0492 0.0322 ' International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+V V 0.0687 2.1097 ' International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O1 Mo O4 108.5(5) . . . yes
+O1 Mo O3 112.7(3) . . 3_555 yes
+O1 Mo O3 112.7(3) . . 6_555 yes
+O3 Mo O4 110.1(4) 3_555 . . yes
+O3 Mo O4 110.1(4) 6_555 . . yes
+O3 Mo O3 102.6(4) 3_555 . 6_555 yes
+O2 V O5 108.0(5) . . 1_655 yes
+O2 V O5 104.4(6) . . 4_566 yes
+O2 V O5 104.4(6) . . 5_666 yes
+O2 V O5 108.0(5) . . 8_555 yes
+O5 V O5 143.5(6) 1_655 . 4_566 yes
+O5 V O5 76.6(4) 1_655 . 5_666 yes
+O5 V O5 108.3(4) 1_655 . 8_555 yes
+O5 V O5 79.4(5) 4_566 . 5_666 yes
+O5 V O5 76.6(4) 4_566 . 8_555 yes
+O5 V O5 143.5(6) 5_666 . 8_555 yes
+O4 Al O5 89.0(5) . . . yes
+O3 Al O4 89.5(5) 2_545 . . yes
+O1 Al O4 179.8(7) 3_554 . . yes
+O3 Al O4 89.5(5) 7_545 . . yes
+O4 Al O5 89.0(5) . . 8_555 yes
+O3 Al O5 95.2(4) 2_545 . . yes
+O1 Al O5 91.2(5) 3_554 . . yes
+O3 Al O5 172.3(5) 7_545 . . yes
+O5 Al O5 77.3(5) . . 8_555 yes
+O1 Al O3 90.3(4) 3_554 . 2_545 yes
+O3 Al O3 92.4(4) 2_545 . 7_545 yes
+O3 Al O5 172.3(5) 2_545 . 8_555 yes
+O1 Al O3 90.3(4) 3_554 . 7_545 yes
+O1 Al O5 91.2(5) 3_554 . 8_555 yes
+O3 Al O5 95.2(4) 7_545 . 8_555 yes
+Mo O1 Al 159.5(7) . . 3_555 yes
+Mo O3 Al 164.2(6) 3_554 . 2_555 yes
+Mo O4 Al 170.1(8) . . . yes
+V O5 Al 138.4(7) 1_455 . . yes
+V O5 Al 101.4(4) 4_466 . . yes
+V O5 V 103.5(5) 1_455 . 4_466 yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Mo O1 1.746(10) . . yes
+Mo O4 1.737(11) . . yes
+Mo O3 1.715(7) . 3_555 yes
+Mo O3 1.715(7) . 6_555 yes
+V O2 1.478(16) . . yes
+V O5 1.804(9) . 1_655 yes
+V O5 1.919(11) . 4_566 yes
+V O5 1.919(11) . 5_666 yes
+V O5 1.804(9) . 8_555 yes
+Al O4 1.928(13) . . yes
+Al O5 1.964(12) . . yes
+Al O3 1.870(9) . 2_545 yes
+Al O1 1.864(13) . 3_554 yes
+Al O3 1.870(9) . 7_545 yes
+Al O5 1.964(12) . 8_555 yes

@@ -1,0 +1,132 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-22 12:26:49 +0200 (Tue, 22 Mar 2016) $
+#$Revision: 178950 $
+#$URL: svn://www.crystallography.net/cod/cif/4/11/79/4117966.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4117966
+loop_
+_publ_author_name
+'Ki Min Nam'
+'Yong-Il Kim'
+'Younghun Jo'
+'Seung Mi Lee'
+'Bog G. Kim'
+'Ran Choi'
+'Sang-Il Choi'
+'Hyunjoon Song'
+'Joon T. Park'
+_publ_section_title
+;
+ New Crystal Structure: Synthesis and Characterization of Hexagonal
+ Wurtzite MnO
+;
+_journal_name_full               'Journal of the American Chemical Society'
+_journal_page_first              8392
+_journal_page_last               8395
+_journal_paper_doi               10.1021/ja302440y
+_journal_volume                  134
+_journal_year                    2012
+_chemical_formula_sum            'Mn O'
+_chemical_formula_weight         70.94
+_space_group_IT_number           186
+_symmetry_cell_setting           hexagonal
+_symmetry_space_group_name_Hall  'P 6c -2c'
+_symmetry_space_group_name_H-M   'P 63 m c'
+_audit_author_name               yikim
+_audit_creation_date             2012-03-02T21:35
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_audit_update_record
+' 2012-03-02T21:35  Initial CIF as created by GSAS2CIF'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                120.0
+_cell_formula_units_Z            2
+_cell_length_a                   3.37170(18)
+_cell_length_b                   3.3717
+_cell_length_c                   5.3855(7)
+_cell_volume                     53.022(7)
+_computing_structure_refinement  GSAS
+_pd_block_id                     2012-03-02T21:35|MNO-F02_phase1|yikim||
+_pd_phase_name                   h-MnO
+_refine_ls_goodness_of_fit_all   1.18
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     4
+_refine_ls_number_restraints     0
+_refine_ls_shift/su_max          0.09
+_refine_ls_shift/su_mean         0.03
+_cod_data_source_file            ja302440y_si_002.cif
+_cod_data_source_block           MNO-F02_publ
+_cod_database_code               4117966
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 x-y,+x,+z+1/2
+3 -y,x-y,+z
+4 -x,-y,+z+1/2
+5 y-x,-x,+z
+6 +y,y-x,+z+1/2
+7 y-x,+y,+z
+8 -x,y-x,+z+1/2
+9 -y,-x,+z
+10 x-y,-y,+z+1/2
+11 +x,x-y,+z
+12 +y,+x,+z+1/2
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+Mn Mn1 0.33333 0.66667 0.01096 1.0 Uiso 0.04952 2
+O O1 0.33333 0.66667 0.37547 1.0 Uiso 0.03911 2
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+Mn 2.0
+O 2.0
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O1 Mn1 O1 110.5492(27) 1_555 2_554 n
+O1 Mn1 O1 110.5492(27) 1_555 2_654 n
+O1 Mn1 O1 110.5495(27) 1_555 2_664 n
+O1 Mn1 O1 108.3713(28) 2_554 2_654 n
+O1 Mn1 O1 108.3724(28) 2_554 2_664 n
+O1 Mn1 O1 108.3724(28) 2_654 2_664 n
+Mn1 O1 Mn1 110.5492(27) 1_555 2_555 n
+Mn1 O1 Mn1 110.5492(27) 1_555 2_655 n
+Mn1 O1 Mn1 110.5495(27) 1_555 2_665 n
+Mn1 O1 Mn1 108.3713(28) 2_555 2_655 n
+Mn1 O1 Mn1 108.3723(28) 2_555 2_665 n
+Mn1 O1 Mn1 108.3724(28) 2_655 2_665 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Mn1 O1 1.96301(26) 1_555 n
+Mn1 O1 2.07894(11) 2_554 n
+Mn1 O1 2.07894(11) 2_654 n
+Mn1 O1 2.07892(11) 2_664 n
+O1 Mn1 1.96301(26) 1_555 n
+O1 Mn1 2.07894(11) 2_555 n
+O1 Mn1 2.07894(11) 2_655 n
+O1 Mn1 2.07892(11) 2_665 n

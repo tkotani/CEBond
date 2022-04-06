@@ -1,0 +1,85 @@
+#------------------------------------------------------------------------------
+#$Date: 2015-01-27 21:58:39 +0200 (Tue, 27 Jan 2015) $
+#$Revision: 130149 $
+#$URL: svn://www.crystallography.net/cod/cif/1/00/81/1008158.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1008158
+loop_
+_publ_author_name
+'Bacmann, M'
+'Bertaut, E F'
+_publ_section_title
+;
+Parametres Atomiques et Structure Magnetique de Mn U O~4~
+;
+_journal_coden_ASTM              JOPQAG
+_journal_name_full               'Journal de Physique (Paris)'
+_journal_page_first              726
+_journal_page_last               734
+_journal_paper_doi               10.1051/jphys:019660027011-12072600
+_journal_volume                  27
+_journal_year                    1966
+_chemical_formula_structural     'Mn U O4'
+_chemical_formula_sum            'Mn O4 U'
+_chemical_name_systematic        'Manganese uranate'
+_space_group_IT_number           74
+_symmetry_cell_setting           orthorhombic
+_symmetry_Int_Tables_number      74
+_symmetry_space_group_name_Hall  '-I 2b 2'
+_symmetry_space_group_name_H-M   'I m m a'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   6.647
+_cell_length_b                   6.984
+_cell_length_c                   6.75
+_cell_volume                     313.4
+_refine_ls_R_factor_all          0.015
+_cod_database_code               1008158
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x,-y,-z
+x,1/2+y,-z
+x,1/2-y,z
+-x,-y,-z
+-x,y,z
+-x,1/2-y,z
+-x,1/2+y,-z
+1/2+x,1/2+y,1/2+z
+1/2+x,1/2-y,1/2-z
+1/2+x,y,1/2-z
+1/2+x,-y,1/2+z
+1/2-x,1/2-y,1/2-z
+1/2-x,1/2+y,1/2+z
+1/2-x,-y,1/2+z
+1/2-x,y,1/2-z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_calc_flag
+Mn1 Mn2+ 4 b 0. 0. 0.5 1. 0 d
+U1 U6+ 4 e 0. 0.25 0.02 1. 0 d
+O1 O2- 8 i 0.293 0.25 0.022 1. 0 d
+O2 O2- 8 h 0. -0.014 0.195 1. 0 d
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Mn2+ 2.000
+U6+ 6.000
+O2- -2.000

@@ -1,0 +1,172 @@
+#------------------------------------------------------------------------------
+#$Date: 2018-01-23 14:43:58 +0200 (Tue, 23 Jan 2018) $
+#$Revision: 205493 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/4/00/28/4002829.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4002829
+loop_
+_publ_author_name
+'Zhao, Ming'
+'Xia, Zhiguo'
+'Molokeev, Maxim S.'
+'Ning, Lixin'
+'Liu, Quanlin'
+_publ_section_title
+;
+ Temperature and Eu2+-Doping Induced Phase Selection in NaAlSiO4
+ Polymorphs and the Controlled Yellow/Blue Emission
+;
+_journal_issue                   15
+_journal_name_full               'Chemistry of Materials'
+_journal_page_first              6552
+_journal_paper_doi               10.1021/acs.chemmater.7b02548
+_journal_volume                  29
+_journal_year                    2017
+_chemical_formula_moiety         'Al3 O12 Si3, 3(Na)'
+_chemical_formula_sum            'Al3 Na3 O12 Si3'
+_chemical_formula_weight         426.18
+_space_group_IT_number           145
+_symmetry_cell_setting           trigonal
+_symmetry_space_group_name_Hall  'P 32'
+_symmetry_space_group_name_H-M   'P 32'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            1
+_cell_length_a                   5.108967(85)
+_cell_length_b                   5.108967(85)
+_cell_length_c                   12.48752(29)
+_cell_measurement_reflns_used    104
+_cell_measurement_temperature    300
+_cell_measurement_theta_max      69.9965007
+_cell_measurement_theta_min      2.50028257
+_cell_volume                     282.275(9)
+_diffrn_ambient_temperature      300
+_diffrn_measurement_device_type
+;
+D8 ADVANCE Bruker
+;
+_diffrn_radiation_monochromator  none
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_type
+;
+ Cu K\a~1~~2~
+;
+_exptl_absorpt_coefficient_mu    8.020
+_exptl_crystal_density_diffrn    2.506988
+_pd_char_colour
+;
+colourless
+;
+_pd_meas_2theta_range_inc        0.013
+_pd_meas_2theta_range_max        139.993001
+_pd_meas_2theta_range_min        5.00056514
+_pd_meas_scan_method             step
+_pd_proc_ls_pref_orient_corr
+;
+Anisotropic model of PO. Spherical harmonics 2 ordrer.
+ Jarvinen (1993). Application of symmetrized harmonics expansion to correction
+of the preferred orientation effect. - J. Appl. Cryst. 26 p525-531.
+;
+_pd_proc_ls_profile_function     PearsonVII
+_pd_proc_ls_prof_R_factor        6.922
+_pd_proc_ls_prof_wR_expected     5.928
+_pd_proc_ls_prof_wR_factor       9.175
+_pd_proc_number_of_points        10384.0336
+_pd_spec_mount_mode              reflection
+_refine_ls_goodness_of_fit_all   1.548
+_refine_ls_R_I_factor            1.94
+_refine_ls_shift/su_max          0.01000
+_cod_data_source_file            cm7b02548_si_004.cif
+_cod_data_source_block           a
+_cod_depositor_comments          'Adding full bibliography for 4002829.cif.'
+_cod_original_cell_volume        282.275(11)
+_cod_original_sg_symbol_Hall
+;
+P 32
+;
+_cod_original_sg_symbol_H-M      P32
+_cod_original_formula_sum
+;
+Al3 Na3 O12 Si3
+;
+_cod_database_code               4002829
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x+y, -x, z+1/3'
+'-y, x-y, z-1/3'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_B_iso_or_equiv
+Na1 Na 0.6801(21) 0.5716(14) 0.08081(77) 1 1.28(30)
+Al Al 0.2590(14) 1.0088(16) 0.25 1 1.66(30)
+Si Si 0.3140(23) 0.9204(17) -0.00700(68) 1 0.85(21)
+O1 O 0.0893(39) 0.5179(39) -0.0062(16) 1 2.55(28)
+O2 O 0.2852(40) 1.1411(37) -0.0818(15) 1 2.55(28)
+O3 O 0.6362(49) 0.9133(37) -0.0198(12) 1 2.55(28)
+O4 O 0.3443(24) 1.0404(34) 0.1180(16) 1 2.55(28)
+loop_
+_diffrn_radiation_wavelength
+_diffrn_radiation_wavelength_wt
+1.5406 1.0000
+1.5443 0.5000
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+O1 Na1 O2 85.17(57) 1_655 1_545
+O1 Na1 O2 103.1(69) 1_655 2_565
+O1 Na1 O3 104.87(72) 1_655 1_555
+O1 Na1 O4 97.2(53) 1_655 1_545
+O2 Na1 O2 154.1(35) 1_545 2_565
+O2 Na1 O3 84.2(61) 1_545 1_555
+O2 Na1 O4 57.1(12) 1_545 1_545
+O2 Na1 O3 116.6(10) 2_565 1_555
+O2 Na1 O4 97.15(70) 2_565 1_545
+O3 Na1 O4 133.3(15) 1_555 1_545
+O1 Al O2 108.04(88) 2_565 2_465
+O1 Al O3 106.11(90) 2_565 2_575
+O1 Al O4 118.8(13) 2_565 1_555
+O2 Al O3 105.61(81) 2_465 2_575
+O2 Al O4 102.54(78) 2_465 1_555
+O3 Al O4 114.8(10) 2_575 1_555
+O1 Si O2 127.6(16) 1_555 1_555
+O1 Si O3 92.79(74) 1_555 1_555
+O1 Si O4 108.1(11) 1_555 1_555
+O2 Si O3 114.6(11) 1_555 1_555
+O2 Si O4 109.2(11) 1_555 1_555
+O3 Si O4 100.8(9) 1_555 1_555
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Na1 O1 2.490(15) 1_655
+Na1 O2 2.932(19) 1_545
+Na1 O2 2.287(20) 2_565
+Na1 O3 2.251(18) .
+Na1 O4 2.422(16) 1_545
+Al O1 1.538(19) 2_565
+Al O2 1.845(15) 2_465
+Al O3 1.939(17) 2_575
+Al O4 1.692(20) .
+Si O1 1.785(19) .
+Si O2 1.527(18) .
+Si O3 1.672(17) .
+Si O4 1.656(21) .

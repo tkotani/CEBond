@@ -1,0 +1,231 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 06:40:26 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176432 $
+#$URL: svn://www.crystallography.net/cod/cif/4/31/51/4315136.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4315136
+loop_
+_publ_author_name
+'Li Wu'
+'Jiancheng Sun'
+'Yi Zhang'
+'Shifeng Jin'
+'Yongfa Kong'
+'Jingjun Xu'
+_publ_contact_author_address
+;
+      The MOE Key Laboratory of Weak-Light Nonlinear Photonics
+      School of Physics
+      Nankai University, Tianjin 300457
+      People's Republic of China
+;
+_publ_contact_author_email       lwu@nankai.edu.cn
+_publ_contact_author_fax         86(22)23505409
+_publ_contact_author_name        'Li Wu'
+_publ_contact_author_phone       86(22)23506257
+_publ_section_title
+;
+ Structure Determination and Relative Properties of Novel Chiral
+ Orthoborate KMgBO3
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              2715
+_journal_page_last               2720
+_journal_paper_doi               10.1021/ic901963t
+_journal_volume                  49
+_journal_year                    2010
+_chemical_formula_iupac          'K0.83 Na0.17 Mg (B O3)'
+_chemical_formula_moiety         'B Mg O3, 3(K0.28 Na0.06)'
+_chemical_formula_structural     'K0.83 Na0.17 Mg (B O3)'
+_chemical_formula_sum            'B K0.83 Mg Na0.17 O3'
+_chemical_formula_weight         119.55
+_chemical_name_systematic
+;
+potassium sodium magnesium orthoborate
+;
+_space_group_IT_number           198
+_symmetry_cell_setting           cubic
+_symmetry_space_group_name_Hall  'P 2ac 2ab 3'
+_symmetry_space_group_name_H-M   'P 21 3'
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   6.82370(6)
+_cell_length_b                   6.82370(6)
+_cell_length_c                   6.82370(6)
+_cell_measurement_temperature    295
+_cell_volume                     317.731(5)
+_computing_cell_refinement       'Highscore1.0b (Philips Electronics 2002)'
+_computing_data_collection       'X'Pert Data Collector 2.2f'
+_computing_data_reduction        'Highscore1.0b (Philips Electronics 2002)'
+_computing_molecular_graphics    'Balls & sticks(Kang & Ozawa,2003)'
+_computing_publication_material  'enCIFer(CCDC, 2003)'
+_computing_structure_refinement  'FULLPROF(J. Rodriguez-Carvajal,2003)'
+_computing_structure_solution    SHEXLS97(Sheldric,1997)
+_diffrn_ambient_temperature      295
+_diffrn_detector                 X'celerator
+_diffrn_detector_type            RTMS
+_diffrn_measurement_device_type  'X'pert Pro'
+_diffrn_radiation_monochromator  none
+_diffrn_source                   'rotating-anode x-ray tube'
+_diffrn_source_target            Cu
+_exptl_crystal_density_diffrn    2.499
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_F_000             234.4
+_pd_block_diffractogram_id       knamgbo2profile
+_pd_char_colour                  white
+_pd_char_particle_morphology     plate-like
+_pd_instr_location               ' ?'
+_pd_meas_2theta_range_inc        0.017
+_pd_meas_2theta_range_max        134.975
+_pd_meas_2theta_range_min        10.008
+_pd_meas_number_of_points        7352
+_pd_meas_scan_method             step
+_pd_prep_temperature             983
+_pd_proc_2theta_range_inc        0.017
+_pd_proc_2theta_range_max        134.975
+_pd_proc_2theta_range_min        10.008
+_pd_proc_info_excluded_regions   none
+_pd_proc_ls_background_function  'square polynomial for each range'
+_pd_proc_ls_pref_orient_corr
+; I~corr~ = I~obs~[G~2~+(1-G~2~)exp(G~1~a^2^)], 
+   axis (001), 
+   (March, 1932)
+;
+_pd_proc_ls_profile_function     pseudo-Voigt
+_pd_proc_ls_prof_R_factor        0.0707
+_pd_proc_ls_prof_wR_expected     0.0510
+_pd_proc_ls_prof_wR_factor       0.0950
+_pd_spec_mounting                ' packed powder pellet'
+_pd_spec_mount_mode              reflection
+_pd_spec_shape                   flat_sheet
+_pd_spec_size_axial              15
+_pd_spec_size_equat              35
+_pd_spec_size_thick              1
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_all   1.9
+_refine_ls_matrix_type           fullcycle
+_refine_ls_number_parameters     28
+_refine_ls_shift/su_max          .01
+_refine_ls_structure_factor_coef Inet
+_refine_ls_weighting_details     'w = 1/Y~i~'
+_refine_ls_weighting_scheme      calc
+_cod_data_source_file            ic901963t_si_001_1.cif
+_cod_data_source_block           knamgbo2data
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Cubic' changed to 'cubic' according
+to the built-in table from CIF Core dictionary named 'cif_core.dic'
+version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1646 2011-03-28 12:23:43Z adriana 
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value '1/Y~i~' was changed to 'calc'.
+New tag '_refine_ls_weighting_details' was created. The value of the
+new tag was set to 'w = 1/Y~i~'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        317.73(1)
+_cod_original_sg_symbol_Hall     P_2ac_2ab_3
+_cod_database_code               4315136
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'x+1/2, -y+1/2, -z'
+'-x, y+1/2, -z+1/2'
+'-x+1/2, -y, z+1/2'
+'y, z, x'
+'-y+1/2, -z, x+1/2'
+'y+1/2, -z+1/2, -x'
+'-y, z+1/2, -x+1/2'
+'z, x, y'
+'-z, x+1/2, -y+1/2'
+'-z+1/2, -x, y+1/2'
+'z+1/2, -x+1/2, -y'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_occupancy
+_atom_site_type_symbol
+Mg .8551(2) .8551(2) .8551(2) .0101(8) Uiso 1 Mg
+K .1343(2) .1343(2) .1343(2) .00985(8) Uiso 0.8342(4) K
+Na .1343(2) .1343(2) .1343(2) .00985(8) Uiso 0.1658(4) Na
+O .4172(2) .2582(2) .5413(2) .0174(2) Uiso 1 O
+B .4084(2) .4084(2) .4084(2) .0524(8) Uiso 1 B
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+K K 0.3868 1.0657 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Na Na 0.1353 0.1239 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Mg Mg 0.1719 0.1771 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+B B 0.0090 0.0039 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0492 0.0322 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_diffrn_radiation_type
+_diffrn_radiation_wavelength
+CuK\a~1~ 1.54056
+CuK\a~2~ 1.54439
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O B O . 5_555 119.94(16) yes
+O B O . 9_555 119.94(17) yes
+O B O 5_555 9_555 119.94(18) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Mg O 3_656 2.0951(22) yes
+Mg O 4_665 2.1510(22) yes
+Mg O 7_566 2.0951(22) yes
+Mg O 8_656 2.1510(21) yes
+Mg O 11_665 2.0951(21) yes
+Mg O 12_566 2.1510(21) yes
+K O 2_456 2.7624(20) yes
+K O 4_554 2.7749(18) yes
+K O 6_564 2.7624(19) yes
+K O 8_545 2.7749(21) yes
+K O 10_645 2.7624(20) yes
+K O 12_455 2.7749(20) yes
+Na O 2_456 2.7624(20) yes
+Na O 4_554 2.7749(18) yes
+Na O 6_564 2.7624(19) yes
+Na O 8_545 2.7749(21) yes
+Na O 10_645 2.7624(20) yes
+Na O 12_455 2.7749(20) yes
+B O . 1.3700(17) yes
+B O 5_555 1.3700(18) yes
+B O 9_555 1.3700(19) yes
+loop_
+_pd_proc_wavelength
+1.540562
+1.544390

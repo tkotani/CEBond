@@ -1,0 +1,113 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-18 17:37:37 +0200 (Thu, 18 Feb 2016) $
+#$Revision: 176729 $
+#$URL: svn://www.crystallography.net/cod/cif/1/51/90/1519033.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1519033
+loop_
+_publ_author_name
+'Kohler, J.'
+_publ_section_title
+;
+ Syntheses and structures of novel complex Yb(II) fluorides : YBeF4, YAlF5
+ and LiYbAlF6
+;
+_journal_name_full               'Solid State Sciences'
+_journal_page_first              545
+_journal_page_last               553
+_journal_volume                  1
+_journal_year                    1999
+_chemical_formula_sum            'Al F5 Yb'
+_chemical_formula_weight         295.0
+_space_group_IT_number           87
+_symmetry_cell_setting           tetragonal
+_symmetry_Int_Tables_number      87
+_symmetry_space_group_name_Hall  '-I 4'
+_symmetry_space_group_name_H-M   'I 4/m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            8
+_cell_length_a                   13.803(3)
+_cell_length_b                   13.803(3)
+_cell_length_c                   7.013(3)
+_cell_volume                     1336.1(7)
+_diffrn_ambient_temperature      293
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_exptl_absorpt_coefficient_mu    42.26
+_exptl_crystal_density_diffrn    5.86
+_exptl_crystal_F_000             3040
+_refine_ls_goodness_of_fit_ref   0.949
+_refine_ls_number_parameters     89
+_refine_ls_number_reflns         1084
+_refine_ls_R_factor_gt           0.0236
+_refine_ls_wR_factor_gt          0.0478
+_cod_data_source_file            SSS-1999-1-545-553-2.cif
+_cod_data_source_block           YbAlF5
+_cod_depositor_comments
+;
+Given the occupancy numbers, the formula is Yb8Al8F41, not YbAlF5.
+All three structures in the paper have something 
+seriously wrong.
+;
+_cod_original_cell_volume        1336.1(8)
+_cod_database_code               1519033
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -y,x,z
+3 -x,-y,z
+4 y,-x,z
+5 -x,-y,-z
+6 y,-x,-z
+7 x,y,-z
+8 -y,x,-z
+9 1/2+x,1/2+y,1/2+z
+10 1/2-y,1/2+x,1/2+z
+11 1/2-x,1/2-y,1/2+z
+12 1/2+y,1/2-x,1/2+z
+13 1/2-x,1/2-y,1/2-z
+14 1/2+y,1/2-x,1/2-z
+15 1/2+x,1/2+y,1/2-z
+16 1/2-y,1/2+x,1/2-z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+Yb1 Yb 0.2519(1) 0.0696(1) 0 0.0105(1) 1.0
+Yb2 Yb 0.2825(1) 0.5529(1) 0 0.0110(1) 1.0
+Al1 Al 0 0 0.2125(4) 0.0081(4) 1.0
+Al2 Al 0 0.5000 0 0.0076(4) 1.0
+Al3 Al 0.1673(1) 0.3161(1) 0 0.0076(3) 1.0
+F1 F 0.1049(2) 0.2433(1) 0.1750(4) 0.0212(5) 1.0
+F2 F 0.2143(1) 0.3990(1) 0.1741(4) 0.0158(5) 1.0
+F3 F 0.1183(3) 0.0468(4) 0.2138(9) 0.0146(10) 0.5
+F4 F 0.1121(2) 0.5657(3) 0 0.0154(7) 1.0
+F5 F 0 0.5000 0.25000 0.0312(15) 0.5
+F6 F 0.0541(3) 0.3847(2) 0 0.0191(9) 1.0
+F7 F 0.2722(3) 0.2419(3) 0 0.0169(7) 1.0
+F8 F 0.0933(3) 0.0426(3) 0.3664(8) 0.0132(9) 0.5
+F9 F 0.0795(5) 0.0311(5) 0 0.0128(13) 1.0
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Al Al 0.0645 0.0514 ' International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+F F 0.0171 0.0103 ' International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Yb Yb -0.3850 5.5486 ' International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'

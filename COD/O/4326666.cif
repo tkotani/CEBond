@@ -1,0 +1,415 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-23 16:16:27 +0200 (Wed, 23 Mar 2016) $
+#$Revision: 179369 $
+#$URL: svn://www.crystallography.net/cod/cif/4/32/66/4326666.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4326666
+loop_
+_publ_author_name
+'John P. S. Mowat'
+'Stuart R. Miller'
+'John M. Griffin'
+'Valerie R. Seymour'
+'Sharon E. Ashbrook'
+'Stephen P. Thompson'
+'David Fairen-Jimenez'
+'Ana-Maria Banu'
+'Tina D\"uren'
+'Paul A. Wright'
+_publ_section_title
+;
+ Structural Chemistry, monoclinic-to-orthorhombic Phase Transition, and
+ CO2 Adsorption Behavior of the Small Pore Scandium Terephthalate,
+ Sc2(O2CC6H4CO2)3, and Its Nitro- And Amino-Functionalized Derivatives
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              10844
+_journal_page_last               10858
+_journal_paper_doi               10.1021/ic201387d
+_journal_volume                  50
+_journal_year                    2011
+_chemical_formula_sum            'O3 Sc2'
+_chemical_formula_weight         137.91
+_space_group_IT_number           206
+_symmetry_cell_setting           cubic
+_symmetry_space_group_name_Hall  '-I 2b 2c 3'
+_symmetry_space_group_name_H-M   'I a -3'
+_audit_author_name               JPSM
+_audit_creation_date             2011-06-02T16:49
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_audit_update_record
+' 2011-06-02T16:49  Initial CIF as created by GSAS2CIF'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            16
+_cell_length_a                   9.8431(4)
+_cell_length_b                   9.8431
+_cell_length_c                   9.8431
+_cell_volume                     953.66(4)
+_computing_structure_refinement  GSAS
+_diffrn_radiation_polarisn_ratio 0.93
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_wavelength     0.826019
+_exptl_absorpt_correction_T_max  1.00000
+_exptl_absorpt_correction_T_min  1.00000
+_exptl_absorpt_process_details
+;   GSAS Absorption/surface roughness correction: function number 0
+ No correction is applied.
+;
+_pd_block_id                     2011-06-02T16:49|(NH2-BDC)3-LT_phase2|JPSM||
+_pd_calc_method                  'Rietveld Refinement'
+_pd_meas_2theta_range_inc        0.003
+_pd_meas_2theta_range_max        141.95401
+_pd_meas_2theta_range_min        2.832
+_pd_phase_name                   Sc2O3
+_pd_proc_2theta_range_inc        0.003
+_pd_proc_2theta_range_max        141.96083
+_pd_proc_2theta_range_min        2.83882
+_pd_proc_info_datetime           2011-06-02T16:49:20
+_pd_proc_ls_background_function
+;   GSAS Background function number 7 with 36 terms.
+ Linear interpolation
+      1:    32.9269     2:    29.5430     3:    28.7952     4:    27.6842    
+      5:    29.5460     6:    34.4802     7:    38.6572     8:    49.5752    
+      9:    51.2167    10:    57.6157    11:    53.7298    12:    50.0896    
+     13:    52.3770    14:    38.8154    15:    32.0198    16:    29.0152    
+     17:    27.5625    18:    26.8338    19:    33.8457    20:    28.4343    
+     21:    31.5284    22:    28.8071    23:    29.7966    24:    30.6545    
+     25:    27.9178    26:    30.3828    27:    28.8788    28:    29.8924    
+     29:    30.6661    30:    27.0966    31:    26.7418    32:    26.2174    
+     33:    24.9412    34:    24.4379    35:    24.6697    36:    23.6054    
+;
+_pd_proc_ls_prof_R_factor        0.0500
+_pd_proc_ls_prof_wR_expected     0.0143
+_pd_proc_ls_prof_wR_factor       0.0681
+_refine_ls_goodness_of_fit_all   4.91
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     38
+_refine_ls_number_restraints     39
+_refine_ls_R_Fsqd_factor         0.19202
+_refine_ls_shift/su_max          0.04
+_refine_ls_shift/su_mean         0.00
+_reflns_d_resolution_high        1.212
+_reflns_d_resolution_low         8.905
+_reflns_limit_h_max              8
+_reflns_limit_h_min              0
+_reflns_limit_k_max              17
+_reflns_limit_k_min              0
+_reflns_limit_l_max              28
+_reflns_limit_l_min              0
+_reflns_number_total             518
+_cod_data_source_file            ic201387d_si_002_10.cif
+_cod_data_source_block           (NH2-BDC)3-LT_phase_2
+_cod_original_cell_volume        953.65(11)
+_cod_database_code               4326666
+_cod_database_fobs_code          4326666
+#BEGIN Tags that were not found in dictionaries:
+_gsas_exptl_extinct_corr_t_min   1.00000
+_gsas_exptl_extinct_corr_t_max   1.00000
+#END Tags that were not found in dictionaries
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 +z,+x,+y
+3 +y,+z,+x
+4 +x+1/2,+y,-z+1/2
+5 -z+1/2,+x+1/2,+y
+6 +y,-z+1/2,+x+1/2
+7 -z,+x+1/2,-y+1/2
+8 -y+1/2,-z,+x+1/2
+9 +y+1/2,-z+1/2,-x
+10 -x,+y+1/2,-z+1/2
+11 -z+1/2,-x,+y+1/2
+12 +x+1/2,-y+1/2,-z
+-1 -x,-y,-z
+-2 -z,-x,-y
+-3 -y,-z,-x
+-4 -x+1/2,-y,+z+1/2
+-5 +z+1/2,-x+1/2,-y
+-6 -y,+z+1/2,-x+1/2
+-7 +z,-x+1/2,+y+1/2
+-8 +y+1/2,+z,-x+1/2
+-9 -y+1/2,+z+1/2,+x
+-10 +x,-y+1/2,+z+1/2
+-11 +z+1/2,+x,-y+1/2
+-12 -x+1/2,+y+1/2,+z
+101 +x+1/2,+y+1/2,+z+1/2
+102 +z+1/2,+x+1/2,+y+1/2
+103 +y+1/2,+z+1/2,+x+1/2
+104 +x,+y+1/2,-z
+105 -z,+x,+y+1/2
+106 +y+1/2,-z,+x
+107 -z+1/2,+x,-y
+108 -y,-z+1/2,+x
+109 +y,-z,-x+1/2
+110 -x+1/2,+y,-z
+111 -z,-x+1/2,+y
+112 +x,-y,-z+1/2
+-101 -x+1/2,-y+1/2,-z+1/2
+-102 -z+1/2,-x+1/2,-y+1/2
+-103 -y+1/2,-z+1/2,-x+1/2
+-104 -x,-y+1/2,+z
+-105 +z,-x,-y+1/2
+-106 -y+1/2,+z,-x
+-107 +z+1/2,-x,+y
+-108 +y,+z+1/2,-x
+-109 -y,+z,+x+1/2
+-110 +x+1/2,-y,+z
+-111 +z,+x+1/2,-y
+-112 -x,+y,+z+1/2
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+Sc Sc1 0.25 0.25 0.25 1.0 Uiso 0.025 8
+Sc Sc2 0.9641 0.0 0.25 1.0 Uiso 0.025 24
+O o1 0.3919 0.1553 0.3815 1.0 Uiso 0.025 48
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_Cromer_Mann_a1
+_atom_type_scat_Cromer_Mann_a2
+_atom_type_scat_Cromer_Mann_a3
+_atom_type_scat_Cromer_Mann_a4
+_atom_type_scat_Cromer_Mann_b1
+_atom_type_scat_Cromer_Mann_b2
+_atom_type_scat_Cromer_Mann_b3
+_atom_type_scat_Cromer_Mann_b4
+_atom_type_scat_Cromer_Mann_c
+_atom_type_scat_source
+Sc 0.000 0.000 9.18900 9.02130 7.36790 0.57290 1.64090 136.108 1.46800 51.3531
+1.33290 International_Tables_Vol_C
+O 0.000 0.000 3.04850 13.2771 2.28680 5.70110 1.54630 0.32390 0.86700 32.9089
+0.25080 International_Tables_Vol_C
+C 0.000 0.000 2.31000 20.8439 1.02000 10.2075 1.58860 0.56870 0.86500 51.6512
+0.21560 International_Tables_Vol_C
+N 0.000 0.000 12.2126 0.00570 3.13220 9.89330 2.01250 28.9975 1.16630 0.58260
+-11.529 International_Tables_Vol_C
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+Sc2 Sc1 Sc2 119.6073(10) 4_455 5_545 n
+Sc2 Sc1 Sc2 119.6073(7) 4_455 6_554 n
+Sc2 Sc1 Sc2 60.3927(7) 4_455 9_556 n
+Sc2 Sc1 Sc2 180.0 4_455 10_655 n
+Sc2 Sc1 Sc2 60.3927(10) 4_455 11_565 n
+Sc2 Sc1 o1 40.3195(14) 4_455 1_555 n
+Sc2 Sc1 o1 95.92690(10) 4_455 2_555 n
+Sc2 Sc1 o1 138.5623(15) 4_455 3_555 n
+Sc2 Sc1 o1 139.6805(14) 4_455 -101_544 n
+Sc2 Sc1 o1 84.07310(10) 4_455 -102_544 n
+Sc2 Sc1 o1 41.4377(15) 4_455 -103_544 n
+Sc2 Sc1 Sc2 119.6073(18) 5_545 6_554 n
+Sc2 Sc1 Sc2 60.3927(18) 5_545 9_556 n
+Sc2 Sc1 Sc2 60.3927(10) 5_545 10_655 n
+Sc2 Sc1 Sc2 180.0 5_545 11_565 n
+Sc2 Sc1 o1 138.5623(10) 5_545 1_555 n
+Sc2 Sc1 o1 40.3195(4) 5_545 2_555 n
+Sc2 Sc1 o1 95.9269(28) 5_545 3_555 n
+Sc2 Sc1 o1 41.4377(10) 5_545 -101_544 n
+Sc2 Sc1 o1 139.6805(4) 5_545 -102_544 n
+Sc2 Sc1 o1 84.0731(28) 5_545 -103_544 n
+Sc2 Sc1 Sc2 180.0 6_554 9_556 n
+Sc2 Sc1 Sc2 60.3927(7) 6_554 10_655 n
+Sc2 Sc1 Sc2 60.3927(18) 6_554 11_565 n
+Sc2 Sc1 o1 95.9269(27) 6_554 1_555 n
+Sc2 Sc1 o1 138.5623(5) 6_554 2_555 n
+Sc2 Sc1 o1 40.3195(10) 6_554 3_555 n
+Sc2 Sc1 o1 84.0731(27) 6_554 -101_544 n
+Sc2 Sc1 o1 41.4377(5) 6_554 -102_544 n
+Sc2 Sc1 o1 139.6805(10) 6_554 -103_544 n
+Sc2 Sc1 Sc2 119.6073(7) 9_556 10_655 n
+Sc2 Sc1 Sc2 119.6073(18) 9_556 11_565 n
+Sc2 Sc1 o1 84.0731(27) 9_556 1_555 n
+Sc2 Sc1 o1 41.4377(5) 9_556 2_555 n
+Sc2 Sc1 o1 139.6805(10) 9_556 3_555 n
+Sc2 Sc1 o1 95.9269(27) 9_556 -101_544 n
+Sc2 Sc1 o1 138.5623(5) 9_556 -102_544 n
+Sc2 Sc1 o1 40.3195(10) 9_556 -103_544 n
+Sc2 Sc1 Sc2 119.6073(10) 10_655 11_565 n
+Sc2 Sc1 o1 139.6805(14) 10_655 1_555 n
+Sc2 Sc1 o1 84.07310(10) 10_655 2_555 n
+Sc2 Sc1 o1 41.4377(15) 10_655 3_555 n
+Sc2 Sc1 o1 40.3195(14) 10_655 -101_544 n
+Sc2 Sc1 o1 95.92690(10) 10_655 -102_544 n
+Sc2 Sc1 o1 138.5623(15) 10_655 -103_544 n
+Sc2 Sc1 o1 41.4377(10) 11_565 1_555 n
+Sc2 Sc1 o1 139.6805(4) 11_565 2_555 n
+Sc2 Sc1 o1 84.0731(28) 11_565 3_555 n
+Sc2 Sc1 o1 138.5623(10) 11_565 -101_544 n
+Sc2 Sc1 o1 40.3195(4) 11_565 -102_544 n
+Sc2 Sc1 o1 95.9269(28) 11_565 -103_544 n
+o1 Sc1 o1 98.9665(14) 1_555 2_555 n
+o1 Sc1 o1 98.9665(29) 1_555 3_555 n
+o1 Sc1 o1 180.0 1_555 -101_544 n
+o1 Sc1 o1 81.0335(14) 1_555 -102_544 n
+o1 Sc1 o1 81.0335(29) 1_555 -103_544 n
+o1 Sc1 o1 98.9665(15) 2_555 3_555 n
+o1 Sc1 o1 81.0335(14) 2_555 -101_544 n
+o1 Sc1 o1 180.0 2_555 -102_544 n
+o1 Sc1 o1 81.0335(15) 2_555 -103_544 n
+o1 Sc1 o1 81.0335(29) 3_555 -101_544 n
+o1 Sc1 o1 81.0335(15) 3_555 -102_544 n
+o1 Sc1 o1 180.0 3_555 -103_544 n
+o1 Sc1 o1 98.9665(14) -101_544 -102_544 n
+o1 Sc1 o1 98.9665(29) -101_544 -103_544 n
+o1 Sc1 o1 98.9665(15) -102_544 -103_544 n
+Sc1 Sc2 Sc1 98.8465 4_555 7_645 n
+Sc1 Sc2 Sc2 59.8036(8) 4_555 6_654 n
+Sc1 Sc2 Sc2 59.8036(10) 4_555 -2_665 n
+Sc1 Sc2 Sc2 130.0923(11) 4_555 -3_656 n
+Sc1 Sc2 Sc2 70.2292(6) 4_555 -11_536 n
+Sc1 Sc2 o1 40.2010(14) 4_555 4_555 n
+Sc1 Sc2 o1 149.9261(11) 4_555 5_645 n
+Sc1 Sc2 o1 93.21410(10) 4_555 -6_645 n
+Sc1 Sc2 o1 40.3707(15) 4_555 108_543 n
+Sc1 Sc2 o1 94.98420(10) 4_555 -102_644 n
+Sc1 Sc2 o1 109.1949(4) 4_555 -110_544 n
+Sc1 Sc2 Sc2 130.0923(11) 7_645 6_654 n
+Sc1 Sc2 Sc2 70.2292(6) 7_645 -2_665 n
+Sc1 Sc2 Sc2 59.8036(8) 7_645 -3_656 n
+Sc1 Sc2 Sc2 59.8036(10) 7_645 -11_536 n
+Sc1 Sc2 o1 109.1949(4) 7_645 4_555 n
+Sc1 Sc2 o1 94.98420(10) 7_645 5_645 n
+Sc1 Sc2 o1 40.3707(15) 7_645 -6_645 n
+Sc1 Sc2 o1 93.21410(10) 7_645 108_543 n
+Sc1 Sc2 o1 149.9261(11) 7_645 -102_644 n
+Sc1 Sc2 o1 40.2010(14) 7_645 -110_544 n
+Sc2 Sc2 Sc2 118.4562(18) 6_654 -2_665 n
+Sc2 Sc2 Sc2 167.55080(30) 6_654 -3_656 n
+Sc2 Sc2 Sc2 70.3506(21) 6_654 -11_536 n
+Sc2 Sc2 o1 83.5116(27) 6_654 4_555 n
+Sc2 Sc2 o1 126.7194(8) 6_654 5_645 n
+Sc2 Sc2 o1 151.9226(6) 6_654 -6_645 n
+Sc2 Sc2 o1 40.1230(9) 6_654 108_543 n
+Sc2 Sc2 o1 40.8321(5) 6_654 -102_644 n
+Sc2 Sc2 o1 100.6911(30) 6_654 -110_544 n
+Sc2 Sc2 Sc2 70.3506(21) -2_665 -3_656 n
+Sc2 Sc2 Sc2 99.4238(30) -2_665 -11_536 n
+Sc2 Sc2 o1 41.0584(10) -2_665 4_555 n
+Sc2 Sc2 o1 100.9471(26) -2_665 5_645 n
+Sc2 Sc2 o1 38.8054(10) -2_665 -6_645 n
+Sc2 Sc2 o1 94.4528(28) -2_665 108_543 n
+Sc2 Sc2 o1 139.1780(4) -2_665 -102_644 n
+Sc2 Sc2 o1 108.7599(20) -2_665 -110_544 n
+Sc2 Sc2 Sc2 118.4562(18) -3_656 -11_536 n
+Sc2 Sc2 o1 100.6911(30) -3_656 4_555 n
+Sc2 Sc2 o1 40.8321(5) -3_656 5_645 n
+Sc2 Sc2 o1 40.1230(9) -3_656 -6_645 n
+Sc2 Sc2 o1 151.9226(6) -3_656 108_543 n
+Sc2 Sc2 o1 126.7194(8) -3_656 -102_644 n
+Sc2 Sc2 o1 83.5115(27) -3_656 -110_544 n
+Sc2 Sc2 o1 108.7599(20) -11_635 4_555 n
+Sc2 Sc2 o1 139.1780(4) -11_635 5_645 n
+Sc2 Sc2 o1 94.4528(28) -11_635 -6_645 n
+Sc2 Sc2 o1 38.8054(10) -11_635 108_543 n
+Sc2 Sc2 o1 100.9471(26) -11_635 -102_644 n
+Sc2 Sc2 o1 41.0584(10) -11_635 -110_544 n
+o1 Sc2 o1 109.8729(25) 4_555 5_645 n
+o1 Sc2 o1 79.2330(20) 4_555 -6_645 n
+o1 Sc2 o1 79.8627(29) 4_555 108_543 n
+o1 Sc2 o1 98.6027(15) 4_555 -102_644 n
+o1 Sc2 o1 140.9307(8) 4_555 -110_544 n
+o1 Sc2 o1 80.3115(15) 5_645 -6_645 n
+o1 Sc2 o1 164.26910(20) 5_645 108_543 n
+o1 Sc2 o1 85.8942(13) 5_645 -102_644 n
+o1 Sc2 o1 98.6027(15) 5_645 -110_544 n
+o1 Sc2 o1 114.2872(17) -6_645 108_543 n
+o1 Sc2 o1 164.26910(20) -6_645 -102_644 n
+o1 Sc2 o1 79.8627(29) -6_645 -110_544 n
+o1 Sc2 o1 80.3115(15) 108_543 -102_644 n
+o1 Sc2 o1 79.2330(20) 108_543 -110_544 n
+o1 Sc2 o1 109.8729(25) -102_644 -110_544 n
+Sc1 o1 Sc2 99.4795(27) 1_555 4_455 n
+Sc1 o1 Sc2 98.1916(18) 1_555 11_565 n
+Sc1 o1 Sc2 125.9519(14) 1_555 -8_547 n
+Sc2 o1 Sc2 98.8186(17) 4_455 11_565 n
+Sc2 o1 Sc2 126.6788(14) 4_455 -8_547 n
+Sc2 o1 Sc2 100.3625(30) 11_565 -8_547 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Sc1 Sc2 3.23983(12) 4_455 n
+Sc1 Sc2 3.23983(9) 5_545 n
+Sc1 Sc2 3.23983(9) 6_554 n
+Sc1 Sc2 3.23983(9) 9_556 n
+Sc1 Sc2 3.23983(12) 10_655 n
+Sc1 Sc2 3.23983(9) 11_565 n
+Sc1 o1 2.12017(6) 1_555 n
+Sc1 o1 2.12017(7) 2_555 n
+Sc1 o1 2.12017(6) 3_555 n
+Sc1 o1 2.12017(6) -101_444 n
+Sc1 o1 2.12017(7) -102_444 n
+Sc1 o1 2.12017(6) -103_444 n
+Sc2 Sc1 3.23983(12) 4_555 n
+Sc2 Sc1 3.23983(12) 7_645 n
+Sc2 Sc2 3.25904(9) 6_654 n
+Sc2 Sc2 3.25904(9) -2_665 n
+Sc2 Sc2 3.25904(9) -3_656 n
+Sc2 Sc2 3.25904(9) -11_545 n
+Sc2 o1 2.12535(6) 4_555 n
+Sc2 o1 2.07623(7) 5_645 n
+Sc2 o1 2.16624(6) -6_645 n
+Sc2 o1 2.16624(6) 108_655 n
+Sc2 o1 2.07623(7) -102_544 n
+Sc2 o1 2.12535(6) -110_444 n
+o1 Sc1 2.12017(6) 1_555 n
+o1 Sc2 2.12535(6) 4_455 n
+o1 Sc2 2.16624(6) 11_565 n
+o1 Sc2 2.07623(6) -8_556 n
+loop_
+_pd_block_diffractogram_id
+2011-06-02T16:49|(NH2-BDC)3-LT_H_01|JPSM|I-11
+loop_
+_pd_phase_id
+_pd_phase_block_id
+_pd_phase_mass_%
+_pd_proc_ls_profile_function
+_pd_proc_ls_peak_cutoff
+1 2011-06-02T16:49|(NH2-BDC)3-LT_phase1|JPSM|| 77.55(4)
+;
+ CW Profile function number 4 with  18 terms
+ Pseudovoigt profile coefficients as parameterized in
+ P. Thompson, D.E. Cox & J.B. Hastings (1987). J. Appl. Cryst.,20,79-83.
+ Asymmetry correction of L.W. Finger, D.E. Cox & A. P. Jephcoat (1994).
+ J. Appl. Cryst.,27,892-900.
+ Microstrain broadening by P.W. Stephens,  (1999). J. Appl. Cryst.,32,281-289.
+ Peak tails are ignored  where the intensity is below 0.0005 times the peak
+   Aniso. broadening axis   0.0   0.0   1.0
+;
+0.00050
+2 2011-06-02T16:49|(NH2-BDC)3-LT_phase2|JPSM|| 22.45(12)
+;
+ CW Profile function number 3 with  19 terms
+ Pseudovoigt profile coefficients as parameterized in
+ P. Thompson, D.E. Cox & J.B. Hastings (1987). J. Appl. Cryst.,20,79-83.
+ Asymmetry correction of L.W. Finger, D.E. Cox & A. P. Jephcoat (1994).
+ J. Appl. Cryst.,27,892-900.
+ Peak tails are ignored  where the intensity is below 0.0001 times the peak
+   Aniso. broadening axis   0.0   0.0   1.0
+;
+0.00010

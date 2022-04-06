@@ -1,0 +1,200 @@
+#------------------------------------------------------------------------------
+#$Date: 2020-06-30 14:04:02 +0300 (Tue, 30 Jun 2020) $
+#$Revision: 253565 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/30/06/2300666.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2300666
+loop_
+_publ_author_name
+'Weigel, Tina'
+'Funke, Claudia'
+'Zschornak, Matthias'
+'Behm, Thomas'
+'St\"ocker, Hartmut'
+'Leisegang, Tilmann'
+'Meyer, Dirk C.'
+_publ_section_title
+;
+ X-ray diffraction using focused-ion-beam-prepared single crystals
+;
+_journal_coeditor_code           IN5030SUP1
+_journal_issue                   3
+_journal_name_full               'Journal of Applied Crystallography'
+_journal_page_first              614
+_journal_paper_doi               10.1107/S1600576720003143
+_journal_volume                  53
+_journal_year                    2020
+_chemical_formula_sum            'Li Nb O3'
+_chemical_formula_weight         147.8
+_space_group_IT_number           161
+_space_group_name_Hall           'R 3 -2"c'
+_space_group_name_H-M_alt        'R 3 c :H'
+_symmetry_cell_setting           trigonal
+_symmetry_Int_Tables_number      161
+_symmetry_space_group_name_Hall  'R 3 -2"c'
+_symmetry_space_group_name_H-M   'R 3 c :H'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            6
+_cell_length_a                   5.15130(10)
+_cell_length_b                   5.15130(10)
+_cell_length_c                   13.8687(6)
+_cell_measurement_temperature    293
+_cell_volume                     318.713(16)
+_diffrn_ambient_temperature      293
+_diffrn_measured_fraction_theta_full 1
+_diffrn_measured_fraction_theta_max 1
+_diffrn_measurement_device       'four-circle diffractometer'
+_diffrn_measurement_device_type  'Bruker CCD'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_source         'X-ray tube'
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.71076
+_diffrn_reflns_av_R_equivalents  0.0438
+_diffrn_reflns_av_unetI/netI     0.003
+_diffrn_reflns_limit_h_max       12
+_diffrn_reflns_limit_h_min       -12
+_diffrn_reflns_limit_k_max       9
+_diffrn_reflns_limit_k_min       -12
+_diffrn_reflns_limit_l_max       32
+_diffrn_reflns_limit_l_min       -32
+_diffrn_reflns_number            7644
+_diffrn_reflns_theta_full        58.69
+_diffrn_reflns_theta_max         58.69
+_diffrn_reflns_theta_min         7.93
+_exptl_absorpt_coefficient_mu    5.327
+_exptl_absorpt_correction_T_max  0.7582
+_exptl_absorpt_correction_T_min  0.5751
+_exptl_absorpt_correction_type   gaussian
+_exptl_absorpt_process_details
+'Jana2006  (Petricek, Dusek & Palatinus, 2000)'
+_exptl_crystal_density_diffrn    4.6217
+_exptl_crystal_F_000             408
+_refine_diff_density_max         1.21
+_refine_diff_density_min         -1.82
+_refine_ls_abs_structure_details
+'  511 of Friedel pairs used in the refinement'
+_refine_ls_extinction_coef       1350(190)
+_refine_ls_extinction_method
+'B-C type 1 Lorentzian isotropic (Becker & Coppens, 1974)'
+_refine_ls_goodness_of_fit_gt    3.18
+_refine_ls_goodness_of_fit_ref   3.09
+_refine_ls_number_constraints    1
+_refine_ls_number_parameters     17
+_refine_ls_number_reflns         1033
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          0.0294
+_refine_ls_R_factor_gt           0.0287
+_refine_ls_shift/su_max          0.0079
+_refine_ls_shift/su_mean         0.0014
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     w=1/(\s^2^(F)+0.0001F^2^)
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_gt          0.0382
+_refine_ls_wR_factor_ref         0.0383
+_reflns_number_gt                972
+_reflns_number_total             1033
+_reflns_threshold_expression     I>3\s(I)
+_cod_data_source_file            in5030sup1.cif
+_cod_data_source_block           LN2
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+data item '_diffrn_radiation_probe' value 'X-ray' was changed to
+'x-ray' in accordance with the built-in table derived from the CIF
+Core dictionary named 'cif_core.dic' version 2.4.5 last updated on
+2014-11-21.
+
+data item '_exptl_absorpt_correction_type' value 'Gaussian' was
+changed to 'gaussian' in accordance with the built-in table derived
+from the CIF Core dictionary named 'cif_core.dic' version 2.4.5 last
+updated on 2014-11-21.
+
+Automatic conversion script
+Id: cif_fix_values 7556 2019-12-06 15:28:31Z antanas 
+;
+_cod_original_sg_symbol_Hall     'R 3;-2"c'
+_cod_original_sg_symbol_H-M      'R 3 c'
+_cod_original_formula_sum        'Li1 Nb1 O3'
+_cod_database_code               2300666
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 -y,x-y,z
+3 -x+y,-x,z
+4 -y,-x,z+1/2
+5 -x+y,y,z+1/2
+6 x,x-y,z+1/2
+7 x+2/3,y+1/3,z+1/3
+8 -y+2/3,x-y+1/3,z+1/3
+9 -x+y+2/3,-x+1/3,z+1/3
+10 -y+2/3,-x+1/3,z+5/6
+11 -x+y+2/3,y+1/3,z+5/6
+12 x+2/3,x-y+1/3,z+5/6
+13 x+1/3,y+2/3,z+2/3
+14 -y+1/3,x-y+2/3,z+2/3
+15 -x+y+1/3,-x+2/3,z+2/3
+16 -y+1/3,-x+2/3,z+1/6
+17 -x+y+1/3,y+2/3,z+1/6
+18 x+1/3,x-y+2/3,z+1/6
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_adp_type
+_atom_site_U_iso_or_equiv
+_atom_site_site_symmetry_multiplicity
+_atom_site_occupancy
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Nb1 Nb 0 0 0.000045(7) Uani 0.00556(4) 6 1 d . . .
+O1 O 0.04800(16) 0.34292(16) 0.06390(14) Uani 0.00786(17) 18 1 d . . .
+Li1 Li 0 0 0.2804(9) Uani 0.0094(15) 6 1 d . . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_type_symbol
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Nb1 Nb 0.00576(5) 0.00576(5) 0.00518(6) 0.00288(3) 0 0
+O1 O 0.0088(2) 0.00628(18) 0.00833(17) 0.0036(2) -0.0014(2) -0.00221(15)
+Li1 Li 0.0070(15) 0.0070(15) 0.014(3) 0.0035(8) 0 0
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Li -0.0003 0.0001 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+Nb -2.0727 0.6215 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+O 0.0106 0.0060 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+loop_
+_exptl_crystal_face_index_h
+_exptl_crystal_face_index_k
+_exptl_crystal_face_index_l
+_exptl_crystal_face_perp_dist
+10 29 -10 0.02722
+-10 -29 -10 0.03326
+-10 3 -19 0.04874
+-2 2 23 0.05412
+-2 1 1 0.03699
+11 -11 -9 0.02931

@@ -1,0 +1,276 @@
+#------------------------------------------------------------------------------
+#$Date: 2021-05-03 21:52:01 +0300 (Mon, 03 May 2021) $
+#$Revision: 264777 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/4/51/86/4518658.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4518658
+loop_
+_publ_author_name
+'Qin, Jincheng'
+'Liu, Zhifu'
+'Ma, Mingsheng'
+'Liu, Feng'
+'Qi, Ze-Ming'
+'Li, Yongxiang'
+_publ_section_title
+;
+ Structure and Microwave Dielectric Properties of Gillespite-Type
+ ACuSi<sub>4</sub>O<sub>10</sub> (A = Ca, Sr, Ba) Ceramics and
+ Quantitative Prediction of the <i>Q</i> \\times <i>f</i> Value via
+ Machine Learning.
+;
+_journal_issue                   15
+_journal_name_full               'ACS applied materials &amp; interfaces'
+_journal_page_first              17817
+_journal_page_last               17826
+_journal_paper_doi               10.1021/acsami.1c01909
+_journal_volume                  13
+_journal_year                    2021
+_chemical_formula_sum            'Ba Cu O10 Si4'
+_chemical_formula_weight         473.21
+_space_group_IT_number           130
+_space_group_name_Hall           '-P 4a 2ac'
+_space_group_name_H-M_alt        'P 4/n c c :2'
+_symmetry_cell_setting           tetragonal
+_symmetry_space_group_name_H-M   'P 4/n c c :2'
+_audit_creation_date             2020-01-06T11:18
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_audit_update_record
+' 2020-01-06T11:18  Initial CIF as created by GSAS2CIF'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            4
+_cell_length_a                   7.4432(9)
+_cell_length_b                   7.4432
+_cell_length_c                   16.1448(19)
+_cell_measurement_temperature    298
+_cell_volume                     894.44(15)
+_computing_structure_refinement  GSAS
+_diffrn_ambient_temperature      298
+_diffrn_measurement_device_type
+;
+Bruker D8 Advance
+;
+_pd_phase_name                   BaCuSi4O10
+_refine_ls_goodness_of_fit_all   1.80
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     39
+_refine_ls_number_restraints     0
+_refine_ls_shift/su_mean         0.15
+_cod_data_source_file            BaCuSi4O10-R.cif
+_cod_data_source_block           BaCuSi4O10
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+data item '_geom_angle_publ_flag' value 'N' was changed to 'n' in
+accordance with the
+/home/data/users/saulius/crontab/automatic-downloads/current/ACS/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 last updated on
+2011-04-26 (89 times).
+
+data item '_geom_bond_publ_flag' value 'N' was changed to 'n' in
+accordance with the
+/home/data/users/saulius/crontab/automatic-downloads/current/ACS/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 last updated on
+2011-04-26 (39 times).
+
+Automatic conversion script
+Id: cif_fix_values 7556 2019-12-06 15:28:31Z antanas 
+;
+_cod_original_cell_volume        894.44(33)
+_cod_database_code               4518658
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -y+1/2,+x,+z
+3 -x+1/2,-y+1/2,+z
+4 +y,-x+1/2,+z
+5 -x+1/2,+y,+z+1/2
+6 -y+1/2,-x+1/2,+z+1/2
+7 +x,-y+1/2,+z+1/2
+8 +y,+x,+z+1/2
+-1 -x,-y,-z
+-2 +y+1/2,-x,-z
+-3 +x+1/2,+y+1/2,-z
+-4 -y,+x+1/2,-z
+-5 +x+1/2,-y,-z+1/2
+-6 +y+1/2,+x+1/2,-z+1/2
+-7 -x,+y+1/2,-z+1/2
+-8 -y,-x,-z+1/2
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+Ba Ba 0.25 0.75 0.0 1.0 Uiso 0.0145(6) 4
+Cu Cu 0.25 0.25 0.09350(19) 1.0 Uiso 0.0103(12) 4
+Si Si 0.5168(5) 0.9342(6) 0.15488(26) 1.0 Uiso 0.0085(13) 16
+O O1 0.4697(10) 0.9697(10) 0.25 1.0 Uiso 0.006(4) 8
+O O2 0.7341(19) 0.9941(8) 0.1347(4) 1.0 Uiso 0.0230(28) 16
+O O3 0.3893(13) 0.0329(10) 0.0943(6) 1.0 Uiso 0.037(4) 16
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+Ba 4.0
+Cu 4.0
+Si 16.0
+O 40.0
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+Si Ba Si 87.97(14) 1_555 . 3_565 n
+Si Ba Si 92.11(7) 1_555 . -2_555 n
+Si Ba Si 121.18(8) 1_555 . -4_655 n
+Si Ba O2 25.72(28) 1_555 . 2_655 n
+Si Ba O2 79.60(15) 1_555 . 4_465 n
+Si Ba O2 104.93(20) 1_555 . -1_675 n
+Si Ba O2 139.48(8) 1_555 . -3_444 n
+Si Ba O3 25.81(16) 1_555 . 1_565 n
+Si Ba O3 96.73(17) 1_555 . 3_555 n
+Si Ba O3 119.10(7) 1_555 . -2_654 n
+Si Ba O3 139.28(8) 1_555 . -4_554 n
+Si Ba Si 103.71(7) 3_565 . -2_555 n
+Si Ba Si 121.18(8) 3_565 . -4_655 n
+Si Ba O2 79.60(15) 3_565 . 2_655 n
+Si Ba O2 25.72(28) 3_565 . 4_465 n
+Si Ba O2 145.47(28) 3_565 . -1_675 n
+Si Ba O2 132.17(8) 3_565 . -3_444 n
+Si Ba O3 96.73(17) 3_565 . 1_565 n
+Si Ba O3 25.81(16) 3_565 . 3_555 n
+Si Ba O3 132.85(8) 3_565 . -2_654 n
+Si Ba O3 131.97(8) 3_565 . -4_554 n
+Si Ba Si 122.51(8) -2_555 . -4_655 n
+Si Ba O2 127.43(19) -2_454 . 2_655 n
+Si Ba O2 137.0(2) -2_454 . 4_465 n
+Si Ba O2 67.94(12) -2_454 . -1_675 n
+Si Ba O2 21.28(2) -2_454 . -3_444 n
+Si Ba O3 128.1(2) -2_554 . 1_565 n
+Si Ba O3 106.17(18) -2_554 . 3_555 n
+Si Ba O3 3.29(2) -2_554 . -2_654 n
+Si Ba O3 41.85(3) -2_554 . -4_554 n
+Si Ba O2 163.82(13) -4_554 . 2_655 n
+Si Ba O2 113.11(13) -4_554 . 4_465 n
+Si Ba O2 43.8(2) -4_554 . -1_675 n
+Si Ba O2 27.39(4) -4_554 . -3_444 n
+Si Ba O3 119.16(19) -4_654 . 1_565 n
+Si Ba O3 126.31(19) -4_654 . 3_555 n
+Si Ba O3 43.05(3) -4_654 . -2_654 n
+Si Ba O3 3.76(3) -4_654 . -4_554 n
+O2 Ba O2 82.55(23) 2_655 . 4_465 n
+O2 Ba O2 124.39(14) 2_655 . -1_675 n
+O2 Ba O2 138.38(14) 2_655 . -3_444 n
+O2 Ba O3 51.53(34) 2_655 . 1_565 n
+O2 Ba O3 78.71(28) 2_655 . 3_555 n
+O2 Ba O3 107.75(16) 2_655 . -2_654 n
+O2 Ba O3 145.61(13) 2_655 . -4_554 n
+O2 Ba O2 124.39(14) 4_465 . -1_675 n
+O2 Ba O2 138.38(13) 4_465 . -3_444 n
+O2 Ba O3 78.71(28) 4_465 . 1_565 n
+O2 Ba O3 51.53(34) 4_465 . 3_555 n
+O2 Ba O3 156.0(3) 4_465 . -2_654 n
+O2 Ba O3 131.68(13) 4_465 . -4_554 n
+O2 Ba O2 47.22(12) -1_675 . -3_444 n
+O2 Ba O3 84.16(23) -1_675 . 1_565 n
+O2 Ba O3 156.88(32) -1_675 . 3_555 n
+O2 Ba O3 68.22(17) -1_675 . -2_654 n
+O2 Ba O3 38.87(14) -1_675 . -4_554 n
+O2 Ba O3 116.0(2) -3_544 . 1_565 n
+O2 Ba O3 124.58(18) -3_544 . 3_555 n
+O2 Ba O3 18.51(3) -3_544 . -2_654 n
+O2 Ba O3 29.90(4) -3_544 . -4_554 n
+O3 Ba O3 114.07(33) 1_565 . 3_555 n
+O3 Ba O3 124.9(2) 1_565 . -2_654 n
+O3 Ba O3 122.65(19) 1_565 . -4_554 n
+O3 Ba O3 108.10(18) 3_555 . -2_654 n
+O3 Ba O3 122.65(19) 3_555 . -4_554 n
+O3 Ba O3 43.20(4) -2_654 . -4_554 n
+O3 Cu O3 89.997(4) 1_555 . 2_555 n
+O3 Cu O3 179.2(5) 1_555 . 3_555 n
+O3 Cu O3 89.997(4) 1_555 . 4_555 n
+O3 Cu O3 89.997(4) 2_555 . 3_555 n
+O3 Cu O3 179.2(5) 2_555 . 4_555 n
+O3 Cu O3 89.997(4) 3_555 . 4_555 n
+Ba Si O1 129.2(4) 1_555 . 1_555 n
+Ba Si O2 120.42(31) 1_555 . 1_555 n
+Ba Si O2 55.31(33) 1_555 . 2_655 n
+Ba Si O3 51.9(4) 1_555 . 1_565 n
+O1 Si O2 110.4(5) 1_555 . 1_555 n
+O1 Si O2 110.8(5) 1_555 . 2_655 n
+O1 Si O3 113.2(4) 1_555 . 1_565 n
+O2 Si O2 105.3(5) 1_555 . 2_655 n
+O2 Si O3 109.6(6) 1_555 . 1_565 n
+O2 Si O3 107.2(5) 2_655 . 1_565 n
+Si O1 Si 144.2(3) 1_555 . -6_556 n
+Ba O2 Si 110.7(5) 2_665 . 1_555 n
+Ba O2 Si 99.0(5) 2_665 . 4_565 n
+Si O2 Si 150.2(6) 1_555 . 4_565 n
+Ba O3 Cu 115.5(5) 1_545 . 1_555 n
+Ba O3 Si 102.3(4) 1_545 . 1_545 n
+Cu O3 Si 137.3(6) 1_555 . 1_545 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Ba Si 3.475(4) . 1_555 n
+Ba Si 3.846(4) . 2_655 n
+Ba Si 3.475(4) . 3_565 n
+Ba Si 3.846(4) . 4_465 n
+Ba Si 3.846(4) . -1_675 n
+Ba Si 3.475(4) . -2_465 n
+Ba Si 3.846(4) . -3_445 n
+Ba Si 3.475(4) . -4_655 n
+Ba O2 2.893(6) . 2_655 n
+Ba O2 2.893(6) . 4_465 n
+Ba O2 2.893(6) . -1_675 n
+Ba O2 2.893(6) . -3_445 n
+Ba O3 2.798(10) . 1_565 n
+Ba O3 3.484(9) . 2_555 n
+Ba O3 2.798(10) . 3_555 n
+Ba O3 3.484(9) . 4_565 n
+Ba O3 3.484(9) . -1_665 n
+Ba O3 2.798(10) . -2_565 n
+Ba O3 3.484(9) . -3_455 n
+Ba O3 2.798(10) . -4_555 n
+Cu O3 1.920(7) . 1_555 n
+Cu O3 1.920(7) . 2_555 n
+Cu O3 1.920(7) . 3_555 n
+Cu O3 1.920(7) . 4_555 n
+Si Ba 3.475(4) . 1_555 n
+Si Ba 3.846(4) . 2_665 n
+Si O1 1.597(4) . 1_555 n
+Si O2 1.709(13) . 1_555 n
+Si O2 1.527(14) . 2_655 n
+Si O3 1.549(8) . 1_565 n
+O1 Si 1.597(4) . 1_555 n
+O1 Si 1.597(4) . -6_455 n
+O2 Ba 2.893(6) . 2_665 n
+O2 Si 1.709(13) . 1_555 n
+O2 Si 1.527(14) . 4_565 n
+O3 Ba 2.798(10) . 1_545 n
+O3 Ba 3.484(9) . 2_655 n
+O3 Cu 1.920(7) . 1_555 n
+O3 Si 1.549(8) . 1_545 n

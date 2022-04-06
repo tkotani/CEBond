@@ -1,0 +1,91 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-16 22:30:59 +0200 (Tue, 16 Feb 2016) $
+#$Revision: 176467 $
+#$URL: svn://www.crystallography.net/cod/cif/4/11/39/4113932.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4113932
+loop_
+_publ_author_name
+'Patrick M. Woodward'
+'Emmanuelle Suard'
+'Pavel Karen'
+_publ_section_title
+;
+ Structural Tuning of Charge, Orbital, and Spin Ordering in Double-Cell
+ Perovskite Series between NdBaFe2O5 and HoBaFe2O5
+;
+_journal_name_full               'Journal of the American Chemical Society'
+_journal_page_first              8889
+_journal_page_last               8899
+_journal_paper_doi               10.1021/ja034813+
+_journal_volume                  125
+_journal_year                    2003
+_chemical_formula_sum            'Ba Fe2 Nd O5'
+_space_group_IT_number           47
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2 2'
+_symmetry_space_group_name_H-M   'P m m m'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            1
+_cell_length_a                   3.96584(6)
+_cell_length_b                   3.95339(5)
+_cell_length_c                   7.64046(11)
+_cell_volume                     119.791(3)
+_pd_block_id                     |PHASE_1||
+_pd_phase_name                   NdBaFe2O5
+_cod_data_source_file            ja0348132Bsi20030304_041321_15.cif
+_cod_data_source_block           ND_240K_phase_1
+_cod_original_formula_sum        'Nd Ba Fe2 O5'
+_cod_database_code               4113932
+loop_
+_symmetry_equiv_pos_as_xyz
++x,+y,+z
+-x,+y,+z
++x,-y,+z
+-x,-y,+z
+-x,-y,-z
++x,-y,-z
+-x,+y,-z
++x,+y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_22
+_atom_site_aniso_U_23
+_atom_site_aniso_U_33
+O1 0.0028(8) 0.0 0 0.0126(10) 0.0 0.0156(10)
+O2 0.0105(15) 0.0 0 0.0086(7) 0.0 0.0022(6)
+O3 0.0153(17) 0.0 0 0.0091(7) 0.0 0.0049(6)
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+Nd 0.0 0.0 0.5 1.0 Uiso 0.00383(26) 1
+Ba 0.0 0.0 0.0 1.0 Uiso 0.0067(4) 1
+Fe 0.5 0.5 0.25932(10) 1.0 Uiso 0.00588(17) 2
+O1 0.5 0.5 0.0 1.0 Uani 0.01033 1
+O2 0.5 0.0 0.30546(29) 1.0 Uani 0.0071 2
+O3 0.0 0.5 0.30382(30) 1.0 Uani 0.00977 2
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+ND 1.0
+BA 1.0
+FE 2.0
+O 5.0

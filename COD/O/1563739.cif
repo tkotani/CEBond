@@ -1,0 +1,288 @@
+#------------------------------------------------------------------------------
+#$Date: 2021-06-28 12:52:08 +0300 (Mon, 28 Jun 2021) $
+#$Revision: 266736 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/56/37/1563739.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1563739
+loop_
+_publ_author_name
+'Abe, Hideki'
+'Sato, Akira'
+'Tsujii, Naohito'
+'Furubayashi, Takao'
+'Shimoda, Masahiko'
+_publ_section_title
+;
+ Structural refinement of T2Mo3O8 (T=Mg, Co, Zn and Mn) and anomalous
+ valence of trinuclear molybdenum clusters in Mn2Mo3O8
+;
+_journal_issue                   2
+_journal_name_full               'Journal of Solid State Chemistry'
+_journal_page_first              379
+_journal_page_last               384
+_journal_paper_doi               10.1016/j.jssc.2009.11.024
+_journal_volume                  183
+_journal_year                    2010
+_chemical_formula_sum            'Mn2 Mo3 O8'
+_chemical_formula_weight         525.70
+_space_group_IT_number           186
+_space_group_name_Hall           'P 6c -2c'
+_space_group_name_H-M_alt        'P 63 m c'
+_symmetry_cell_setting           hexagonal
+_symmetry_space_group_name_H-M   'P 63 m c'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                120.00
+_cell_formula_units_Z            2
+_cell_length_a                   5.8003(2)
+_cell_length_b                   5.8003(2)
+_cell_length_c                   10.2425(5)
+_cell_measurement_temperature    293(2)
+_cell_volume                     298.43(2)
+_computing_cell_refinement       'SAINT-Plus-NT(Bruker, 1999)'
+_computing_data_collection       'SMART-NT(Bruker, 1999)'
+_computing_data_reduction        'SAINT-Plus-NT(Bruker, 1999)'
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measured_fraction_theta_full 0.995
+_diffrn_measured_fraction_theta_max 0.995
+_diffrn_measurement_device_type  'Bruker SMART APEX CCD area-detector'
+_diffrn_measurement_method       \w
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0350
+_diffrn_reflns_av_sigmaI/netI    0.0230
+_diffrn_reflns_limit_h_max       9
+_diffrn_reflns_limit_h_min       -7
+_diffrn_reflns_limit_k_max       10
+_diffrn_reflns_limit_k_min       -10
+_diffrn_reflns_limit_l_max       18
+_diffrn_reflns_limit_l_min       -18
+_diffrn_reflns_number            4557
+_diffrn_reflns_theta_full        40.32
+_diffrn_reflns_theta_max         40.32
+_diffrn_reflns_theta_min         3.98
+_exptl_absorpt_coefficient_mu    10.254
+_exptl_absorpt_correction_T_max  0.2802
+_exptl_absorpt_correction_T_min  0.1534
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details   'SADABS; Bruker, 1999)'
+_exptl_crystal_colour            black
+_exptl_crystal_density_diffrn    5.850
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_F_000             480
+_exptl_crystal_size_max          0.2
+_exptl_crystal_size_mid          0.2
+_exptl_crystal_size_min          0.2
+_refine_diff_density_max         1.983
+_refine_diff_density_min         -3.934
+_refine_diff_density_rms         0.577
+_refine_ls_abs_structure_details 'Flack H D (1983), Acta Cryst. A39, 876-881'
+_refine_ls_abs_structure_Flack   0.87(6)
+_refine_ls_extinction_coef       0.169(8)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_ref   1.154
+_refine_ls_hydrogen_treatment    mixed
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     31
+_refine_ls_number_reflns         724
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.154
+_refine_ls_R_factor_all          0.0355
+_refine_ls_R_factor_gt           0.0352
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0609P)^2^+0.3435P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0857
+_refine_ls_wR_factor_ref         0.0859
+_reflns_number_gt                716
+_reflns_number_total             724
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            JSSC-2010-183-379.cif
+_cod_data_source_block           3
+_cod_original_sg_symbol_H-M      P63mc
+_cod_database_code               1563739
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-y, x-y, z'
+'-x+y, -x, z'
+'-x, -y, z+1/2'
+'y, -x+y, z+1/2'
+'x-y, x, z+1/2'
+'-y, -x, z'
+'-x+y, y, z'
+'x, x-y, z'
+'y, x, z+1/2'
+'x-y, -y, z+1/2'
+'-x, -x+y, z+1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Mn1 Mn 0.3333 0.6667 0.95205(15) 0.0093(2) Uani 1 6 d S . .
+Mn2 Mn 0.3333 0.6667 0.51388(13) 0.0074(2) Uani 1 6 d S . .
+Mo Mo 0.14592(3) 0.85408(3) 0.2500 0.00594(13) Uani 1 2 d S . .
+O1 O 0.0000 0.0000 0.3878(6) 0.0084(9) Uani 1 6 d S . .
+O2 O 0.3333 0.6667 0.1484(7) 0.0076(10) Uani 1 6 d S . .
+O3 O 0.4874(4) 0.5126(4) 0.3602(4) 0.0087(6) Uani 1 2 d S . .
+O4 O 0.1646(5) 0.8354(5) 0.6355(6) 0.0086(6) Uani 1 2 d S . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Mn1 0.0091(3) 0.0091(3) 0.0098(4) 0.000 0.000 0.00453(16)
+Mn2 0.0069(3) 0.0069(3) 0.0084(4) 0.000 0.000 0.00346(15)
+Mo 0.00515(15) 0.00515(15) 0.00792(17) -0.00004(5) 0.00004(5) 0.00288(11)
+O1 0.0076(15) 0.0076(15) 0.010(2) 0.000 0.000 0.0038(8)
+O2 0.0066(14) 0.0066(14) 0.010(2) 0.000 0.000 0.0033(7)
+O3 0.0060(10) 0.0060(10) 0.0123(14) 0.0007(5) -0.0007(5) 0.0018(11)
+O4 0.0069(11) 0.0069(11) 0.0103(14) -0.0020(7) 0.0020(7) 0.0022(12)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Mn Mn 0.3368 0.7283 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Mo Mo -1.6832 0.6857 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+O2 Mn1 O3 117.58(13) 1_556 6
+O2 Mn1 O3 117.58(13) 1_556 5_565
+O3 Mn1 O3 100.28(16) 6 5_565
+O2 Mn1 O3 117.58(13) 1_556 4_665
+O3 Mn1 O3 100.28(16) 6 4_665
+O3 Mn1 O3 100.28(16) 5_565 4_665
+O4 Mn2 O4 88.5(2) . 3_565
+O4 Mn2 O4 88.5(2) . 2_665
+O4 Mn2 O4 88.5(2) 3_565 2_665
+O4 Mn2 O3 98.03(16) . 3_565
+O4 Mn2 O3 170.8(2) 3_565 3_565
+O4 Mn2 O3 98.03(16) 2_665 3_565
+O4 Mn2 O3 98.03(16) . 2_665
+O4 Mn2 O3 98.03(16) 3_565 2_665
+O4 Mn2 O3 170.8(2) 2_665 2_665
+O3 Mn2 O3 74.76(18) 3_565 2_665
+O4 Mn2 O3 170.8(2) . .
+O4 Mn2 O3 98.03(16) 3_565 .
+O4 Mn2 O3 98.03(16) 2_665 .
+O3 Mn2 O3 74.76(18) 3_565 .
+O3 Mn2 O3 74.76(18) 2_665 .
+O4 Mo O4 94.0(3) 5_454 6_664
+O4 Mo O1 100.38(13) 5_454 1_565
+O4 Mo O1 100.38(13) 6_664 1_565
+O4 Mo O3 166.70(15) 5_454 2_665
+O4 Mo O3 91.6(2) 6_664 2_665
+O1 Mo O3 90.46(13) 1_565 2_665
+O4 Mo O3 91.6(2) 5_454 3_565
+O4 Mo O3 166.70(15) 6_664 3_565
+O1 Mo O3 90.46(13) 1_565 3_565
+O3 Mo O3 80.5(2) 2_665 3_565
+O4 Mo O2 89.78(16) 5_454 .
+O4 Mo O2 89.78(16) 6_664 .
+O1 Mo O2 165.0(2) 1_565 .
+O3 Mo O2 78.17(16) 2_665 .
+O3 Mo O2 78.17(16) 3_565 .
+O4 Mo Mo 94.75(13) 5_454 2_675
+O4 Mo Mo 49.58(10) 6_664 2_675
+O1 Mo Mo 51.40(10) 1_565 2_675
+O3 Mo Mo 98.05(11) 2_665 2_675
+O3 Mo Mo 141.85(9) 3_565 2_675
+O2 Mo Mo 139.29(10) . 2_675
+O4 Mo Mo 49.58(10) 5_454 3_465
+O4 Mo Mo 94.75(13) 6_664 3_465
+O1 Mo Mo 51.40(10) 1_565 3_465
+O3 Mo Mo 141.85(9) 2_665 3_465
+O3 Mo Mo 98.05(11) 3_565 3_465
+O2 Mo Mo 139.29(10) . 3_465
+Mo Mo Mo 60.0 2_675 3_465
+Mo O1 Mo 77.2(2) 3_455 1_545
+Mo O1 Mo 77.2(2) 3_455 2_665
+Mo O1 Mo 77.2(2) 1_545 2_665
+Mn1 O2 Mo 118.92(16) 1_554 .
+Mn1 O2 Mo 118.92(16) 1_554 3_565
+Mo O2 Mo 98.6(2) . 3_565
+Mn1 O2 Mo 118.92(16) 1_554 2_665
+Mo O2 Mo 98.6(2) . 2_665
+Mo O2 Mo 98.6(2) 3_565 2_665
+Mn1 O3 Mo 120.74(13) 4_664 2_665
+Mn1 O3 Mo 120.74(13) 4_664 3_565
+Mo O3 Mo 103.70(19) 2_665 3_565
+Mn1 O3 Mn2 106.93(19) 4_664 .
+Mo O3 Mn2 100.55(14) 2_665 .
+Mo O3 Mn2 100.55(14) 3_565 .
+Mo O4 Mo 80.84(19) 6_665 5_455
+Mo O4 Mn2 137.17(13) 6_665 .
+Mo O4 Mn2 137.17(13) 5_455 .
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Mn1 O2 2.012(7) 1_556
+Mn1 O3 2.032(5) 6
+Mn1 O3 2.032(5) 5_565
+Mn1 O3 2.032(4) 4_665
+Mn2 O4 2.104(5) .
+Mn2 O4 2.104(5) 3_565
+Mn2 O4 2.104(5) 2_665
+Mn2 O3 2.208(4) 3_565
+Mn2 O3 2.208(4) 2_665
+Mn2 O3 2.208(4) .
+Mo O4 1.958(4) 5_454
+Mo O4 1.958(4) 6_664
+Mo O1 2.035(4) 1_565
+Mo O3 2.074(3) 2_665
+Mo O3 2.074(3) 3_565
+Mo O2 2.151(3) .
+Mo Mo 2.5391(6) 2_675
+Mo Mo 2.5391(6) 3_465
+O1 Mo 2.035(4) 3_455
+O1 Mo 2.035(4) 1_545
+O1 Mo 2.035(4) 2_665
+O2 Mn1 2.012(7) 1_554
+O2 Mo 2.151(3) 3_565
+O2 Mo 2.151(3) 2_665
+O3 Mn1 2.032(4) 4_664
+O3 Mo 2.074(3) 2_665
+O3 Mo 2.074(3) 3_565
+O4 Mo 1.958(4) 6_665
+O4 Mo 1.958(4) 5_455

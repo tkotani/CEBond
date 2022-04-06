@@ -1,0 +1,131 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-10-13 08:28:26 +0300 (Fri, 13 Oct 2017) $
+#$Revision: 201972 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/10/19/2101931.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2101931
+loop_
+_publ_author_name
+'Haines, J.'
+'L\'eger, J. M.'
+'Schulte, O.'
+'Hull, S.'
+_publ_section_title
+;
+ Neutron Diffraction Study of the Ambient-Pressure, Rutile-Type and the
+ High-Pressure, CaCl~2~-Type Phases of Ruthenium Dioxide
+;
+_journal_issue                   6
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              880
+_journal_page_last               884
+_journal_paper_doi               10.1107/S0108768197008094
+_journal_volume                  53
+_journal_year                    1997
+_chemical_formula_sum            'O2 Ru'
+_chemical_formula_weight         133.07
+_chemical_name_systematic
+;
+ruthenium dioxide
+;
+_space_group_IT_number           58
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2 2n'
+_symmetry_space_group_name_H-M   'P n n m'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            2
+_cell_length_a                   4.4865(5)
+_cell_length_b                   4.4347(5)
+_cell_length_c                   3.0934(3)
+_cell_measurement_temperature    298
+_cell_volume                     61.547(11)
+_computing_structure_refinement  'MULTI- see TF12LS (David et al, 1988)'
+_diffrn_ambient_temperature      298
+_diffrn_measurement_device       'Polaris medium resolution diffractometer'
+_diffrn_radiation_probe          neutron
+_diffrn_radiation_source         ISIS_spallation_source
+_diffrn_radiation_type           neutron
+_refine_ls_number_constraints    0
+_refine_ls_number_parameters     22
+_refine_ls_number_restraints     0
+_refine_ls_shift/esd_max         0.164
+_refine_ls_shift/esd_mean        0.048
+_cod_data_source_file            br0060.cif
+_cod_data_source_block           5.3GPa
+_cod_original_cell_volume        61.55(2)
+_cod_original_formula_sum        'Ru O2'
+_cod_database_code               2101931
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,z
+1/2-x,1/2+y,1/2-z
+1/2+x,1/2-y,1/2-z
+-x,-y,-z
+x,y,-z
+1/2+x,1/2-y,1/2+z
+1/2-x,1/2+y,1/2+z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Ru 0.0030(8) 0.0028(8) 0.0007(5) 0.0013(5) .0 .0
+O 0.0021(7) 0.0026(7) 0.0010(4) -0.0020(4) .0 .0
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_occupancy
+Ru .0 .0 .0 0.0022(3) Uani 1.0
+O 0.3101(5) 0.3005(5) .0 0.0019(3) Uani 1.0
+loop_
+_atom_type_symbol
+Ru
+O
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O Ru O . 8_544 89.93(13) yes
+O Ru O . 7_454 90.07(14) yes
+O Ru O 8_544 8_545 103.06(6) yes
+O Ru O 8_545 7_455 76.94(13) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Ru O . . 1.926(2) yes
+Ru O . 8_544 1.9760(10) yes
+O O 8_545 7_455 2.458(3) yes
+O O . 8_544 2.757(3) yes
+O O . 1_556 3.0934(3) yes
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 ChemSpider 8488619

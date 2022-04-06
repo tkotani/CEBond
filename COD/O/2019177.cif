@@ -1,0 +1,339 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 00:18:51 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176760 $
+#$URL: svn://www.crystallography.net/cod/cif/2/01/91/2019177.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2019177
+loop_
+_publ_author_name
+'Redhammer, G\"unther J.'
+'Tippelt, Gerold'
+_publ_section_title
+;
+ The polar phase of Li~2~Ge~4~O~9~ at 298, 150 and 90K
+;
+_journal_coeditor_code           KU3106
+_journal_issue                   10
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              1091
+_journal_page_last               1095
+_journal_paper_doi               10.1107/S0108270113025110
+_journal_volume                  69
+_journal_year                    2013
+_chemical_formula_iupac          'Li2 Ge4 O9'
+_chemical_formula_moiety         'Ge4 O9, 2(Li)'
+_chemical_formula_sum            'Ge4 Li2 O9'
+_chemical_formula_weight         448.24
+_chemical_name_systematic
+;
+Dilithium tetragermanate
+;
+_space_group_IT_number           29
+_space_group_name_Hall           'P -2ac 2a'
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  'P -2ac 2a'
+_symmetry_space_group_name_H-M   'P 21 c a'
+_audit_creation_method           'WinGX routine CIF_UPDATE'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   9.31165(9)
+_cell_length_b                   4.62854(5)
+_cell_length_c                   15.81663(16)
+_cell_measurement_temperature    298(2)
+_cell_volume                     681.686(12)
+_computing_cell_refinement       'APEX2 (Bruker, 2007)'
+_computing_data_collection       'APEX2 (Bruker, 2007)'
+_computing_data_reduction        'APEX2 (Bruker, 2007)'
+_computing_molecular_graphics    'DIAMOND (Brandenburg, 1999)'
+_computing_publication_material  'WinGX (Farrugia, 2012)'
+_computing_structure_refinement  'SHELXL97 (Sheldrick, 2008)'
+_computing_structure_solution    'SHELXS97 (Sheldrick, 2008)'
+_diffrn_ambient_temperature      298(2)
+_diffrn_measured_fraction_theta_full 0.978
+_diffrn_measured_fraction_theta_max 0.978
+_diffrn_measurement_device       '3-circle diffractometer'
+_diffrn_measurement_device_type  'Bruker SMART APEX'
+_diffrn_measurement_method
+'rotation, \w scans at four different \f positions'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0263
+_diffrn_reflns_limit_h_max       15
+_diffrn_reflns_limit_h_min       -15
+_diffrn_reflns_limit_k_max       7
+_diffrn_reflns_limit_k_min       -7
+_diffrn_reflns_limit_l_max       25
+_diffrn_reflns_limit_l_min       -25
+_diffrn_reflns_number            19496
+_diffrn_reflns_theta_full        36.47
+_diffrn_reflns_theta_max         36.47
+_diffrn_reflns_theta_min         2.58
+_exptl_absorpt_coefficient_mu    17.496
+_exptl_absorpt_correction_T_max  0.285
+_exptl_absorpt_correction_T_min  0.13
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details   '(APEX2; Bruker, 2007)'
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    4.368
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       needle
+_exptl_crystal_F_000             824
+_exptl_crystal_size_max          0.14
+_exptl_crystal_size_mid          0.08
+_exptl_crystal_size_min          0.07
+_refine_diff_density_max         0.708
+_refine_diff_density_min         -1.042
+_refine_ls_abs_structure_details
+'Flack (1983), <b>with how many Friedel pairs?</b>'
+_refine_ls_abs_structure_Flack   0.357(11)
+_refine_ls_extinction_coef       0.0056(2)
+_refine_ls_extinction_method     'SHELXL97 (Sheldrick, 2008)'
+_refine_ls_goodness_of_fit_ref   1.059
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     138
+_refine_ls_number_reflns         3223
+_refine_ls_number_restraints     1
+_refine_ls_restrained_S_all      1.059
+_refine_ls_R_factor_all          0.0211
+_refine_ls_R_factor_gt           0.019
+_refine_ls_shift/su_max          0.001
+_refine_ls_shift/su_mean         0
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w = 1/[\s^2^(Fo^2^)+(0.0253P)^2^+0.0560P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_ref         0.047
+_reflns_number_gt                3036
+_reflns_number_total             3223
+_reflns_threshold_expression     I>2\s(I)
+_iucr_refine_instructions_details
+;
+TITL Li2Ge4O9 T = 298 K
+CELL   0.71073  9.3117  4.6285 15.8166   90.000   90.000   90.000
+ZERR   4        0.0001  0.0000  0.0002    0.000    0.000    0.000
+LATT   -1
+SYMM   1/2+X,+Y,1/2-Z
+SYMM   1/2+X,-Y,-Z
+SYMM   +X,-Y,1/2+Z
+SFAC  LI   O     GE
+UNIT  8    36    16
+MERG   2
+TWIN
+ACTA
+FMAP   2
+PLAN   20
+BOND
+L.S.   15
+WGHT    0.025300    0.056000
+EXTI    0.005560
+BASF   0.35659
+FVAR       0.33563
+LI1   1    0.469159    0.460732    0.263170    11.00000    0.00895    0.02026 =
+         0.02488   -0.00641   -0.00566    0.00223
+LI2   1    0.270522    0.568028    0.475143    11.00000    0.03294    0.03810 =
+         0.02976    0.01252    0.01130    0.00006
+GE1   3    0.235249    0.489434    0.155695    11.00000    0.00539    0.00598 =
+         0.00558    0.00001   -0.00023    0.00004
+GE2   3    0.234314    0.993628    0.295703    11.00000    0.00602    0.00644 =
+         0.00615    0.00023   -0.00026    0.00071
+GE3   3    0.525402    1.004106    0.402028    11.00000    0.00608    0.00665 =
+         0.00616   -0.00052    0.00031    0.00006
+GE4   3    0.444820    1.018488    0.594728    11.00000    0.00623    0.00660 =
+         0.00560    0.00058    0.00019   -0.00001
+O1    2    0.072041    0.716870    0.161794    11.00000    0.00589    0.00901 =
+         0.00866    0.00279    0.00068    0.00174
+O2    2    0.152136    0.262400    0.069259    11.00000    0.00959    0.00933 =
+         0.00802   -0.00070   -0.00056   -0.00320
+O3    2    0.322862    0.707210    0.070938    11.00000    0.01043    0.00918 =
+         0.00570    0.00020   -0.00053   -0.00289
+O4    2    0.396356    0.251156    0.164485    11.00000    0.00852    0.01004 =
+         0.00820   -0.00111   -0.00013    0.00209
+O5    2    0.318086    0.715455    0.241395    11.00000    0.00773    0.00885 =
+         0.00934   -0.00334   -0.00141    0.00145
+O6    2    0.145099    0.253401    0.237138    11.00000    0.00740    0.00981 =
+         0.01048    0.00339    0.00118    0.00079
+O7    2    0.369602    1.168622    0.357387    11.00000    0.00776    0.00948 =
+         0.01269   -0.00168   -0.00335    0.00147
+O8    2    0.114245    0.844001    0.371725    11.00000    0.00926    0.01343 =
+         0.01405    0.00460    0.00495    0.00325
+O9    2    0.464931    0.840644    0.496431    11.00000    0.01840    0.00928 =
+         0.00766   -0.00080    0.00474   -0.00168
+HKLF 4
+END
+;
+_cod_data_source_file            ku3106.cif
+_cod_data_source_block           laz1_298K_tr
+_cod_original_cell_volume        681.687(19)
+_cod_database_code               2019177
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'x+1/2, y, -z+1/2'
+'x+1/2, -y, -z'
+'x, -y, z+1/2'
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_occupancy
+Li Li1 0.4691(5) 0.4607(8) 0.2632(3) 0.0180(9) Uani d 1
+Li Li2 0.2705(6) 0.5680(12) 0.4751(3) 0.0336(11) Uani d 1
+Ge Ge1 0.23524(5) 0.48943(3) 0.155695(10) 0.00565(4) Uani d 1
+Ge Ge2 0.23430(5) 0.99363(4) 0.295703(10) 0.00620(4) Uani d 1
+Ge Ge3 0.52539(3) 1.00411(3) 0.402028(16) 0.00629(6) Uani d 1
+Ge Ge4 0.44481(2) 1.01849(4) 0.594728(15) 0.00614(6) Uani d 1
+O O1 0.0720(2) 0.7169(3) 0.16179(9) 0.0079(2) Uani d 1
+O O2 0.1521(2) 0.2624(3) 0.06926(9) 0.0090(3) Uani d 1
+O O3 0.32285(19) 0.7072(3) 0.07094(9) 0.0084(3) Uani d 1
+O O4 0.3963(2) 0.2512(3) 0.16448(10) 0.0089(3) Uani d 1
+O O5 0.31808(19) 0.7155(3) 0.24140(10) 0.0086(3) Uani d 1
+O O6 0.1451(2) 0.2534(3) 0.23714(9) 0.0092(3) Uani d 1
+O O7 0.36959(18) 1.1686(3) 0.35739(9) 0.0100(3) Uani d 1
+O O8 0.11424(19) 0.8440(3) 0.37173(9) 0.0122(3) Uani d 1
+O O9 0.46492(18) 0.8406(3) 0.49643(9) 0.0118(3) Uani d 1
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Li1 0.009(2) 0.0203(16) 0.025(3) 0.0022(14) -0.0057(17) -0.0064(15)
+Li2 0.033(3) 0.038(2) 0.030(3) 0.000(2) 0.0113(19) 0.013(2)
+Ge1 0.00539(8) 0.00598(7) 0.00558(8) 0.00004(8) -0.00023(11) 0.00001(6)
+Ge2 0.00602(7) 0.00644(7) 0.00615(8) 0.00071(6) -0.00026(12) 0.00023(5)
+Ge3 0.00608(13) 0.00665(12) 0.00616(12) 0.00006(6) 0.00031(9) -0.00052(5)
+Ge4 0.00623(13) 0.00660(10) 0.00560(11) -0.00001(12) 0.00019(10) 0.00058(5)
+O1 0.0059(7) 0.0090(6) 0.0087(6) 0.0017(4) 0.0007(5) 0.0028(4)
+O2 0.0096(7) 0.0093(6) 0.0080(6) -0.0032(5) -0.0006(5) -0.0007(4)
+O3 0.0104(7) 0.0092(6) 0.0057(6) -0.0029(5) -0.0005(5) 0.0002(4)
+O4 0.0085(7) 0.0100(6) 0.0082(6) 0.0021(5) -0.0001(5) -0.0011(4)
+O5 0.0077(7) 0.0089(5) 0.0093(6) 0.0015(5) -0.0014(5) -0.0033(4)
+O6 0.0074(7) 0.0098(6) 0.0105(7) 0.0008(4) 0.0012(5) 0.0034(4)
+O7 0.0078(6) 0.0095(6) 0.0127(7) 0.0015(4) -0.0034(5) -0.0017(5)
+O8 0.0093(6) 0.0134(6) 0.0141(7) 0.0033(5) 0.0049(5) 0.0046(5)
+O9 0.0184(8) 0.0093(5) 0.0077(5) -0.0017(5) 0.0047(6) -0.0008(4)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Li Li -0.0003 0.0001 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0106 0.006 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ge Ge 0.1547 1.8001 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+O5 Li1 O6 . 2 165.6(3)
+O5 Li1 O1 . 2 95.71(18)
+O6 Li1 O1 2 2 83.3(2)
+O5 Li1 O4 . . 84.5(2)
+O6 Li1 O4 2 . 92.65(18)
+O1 Li1 O4 2 . 164.8(2)
+O5 Li1 O7 . 1_545 101.2(2)
+O6 Li1 O7 2 1_545 93.11(18)
+O1 Li1 O7 2 1_545 99.7(2)
+O4 Li1 O7 . 1_545 95.10(17)
+O2 Li2 O3 4_565 4_565 79.91(19)
+O2 Li2 O9 4_565 . 96.4(3)
+O3 Li2 O9 4_565 . 92.7(2)
+O2 Li2 O8 4_565 . 88.1(2)
+O3 Li2 O8 4_565 . 158.7(2)
+O9 Li2 O8 . . 106.1(2)
+O1 Ge1 O3 . . 95.12(6)
+O1 Ge1 O4 . . 172.57(5)
+O3 Ge1 O4 . . 91.22(8)
+O1 Ge1 O5 . . 89.02(6)
+O3 Ge1 O5 . . 92.18(7)
+O4 Ge1 O5 . . 86.86(7)
+O1 Ge1 O6 . . 85.89(7)
+O3 Ge1 O6 . . 176.94(6)
+O4 Ge1 O6 . . 87.97(7)
+O5 Ge1 O6 . . 90.72(5)
+O1 Ge1 O2 . . 91.01(8)
+O3 Ge1 O2 . . 87.69(5)
+O4 Ge1 O2 . . 93.12(7)
+O5 Ge1 O2 . . 179.87(9)
+O6 Ge1 O2 . . 89.41(7)
+O6 Ge2 O5 1_565 . 117.84(6)
+O6 Ge2 O8 1_565 . 109.27(9)
+O5 Ge2 O8 . . 109.15(7)
+O6 Ge2 O7 1_565 . 108.40(7)
+O5 Ge2 O7 . . 106.85(9)
+O8 Ge2 O7 . . 104.48(7)
+O1 Ge3 O2 2 2_565 120.76(10)
+O1 Ge3 O9 2 . 104.17(6)
+O2 Ge3 O9 2_565 . 106.85(6)
+O1 Ge3 O7 2 . 107.58(7)
+O2 Ge3 O7 2_565 . 111.19(7)
+O9 Ge3 O7 . . 104.96(8)
+O4 Ge4 O3 4_565 4_575 119.60(9)
+O4 Ge4 O9 4_565 . 104.66(7)
+O3 Ge4 O9 4_575 . 102.59(7)
+O4 Ge4 O8 4_565 3_576 107.42(7)
+O3 Ge4 O8 4_575 3_576 112.37(7)
+O9 Ge4 O8 . 3_576 109.52(8)
+Ge3 O1 Ge1 2_455 . 127.92(9)
+Ge3 O2 Ge1 2_445 . 118.09(8)
+Ge4 O3 Ge1 4_574 . 121.54(8)
+Ge4 O4 Ge1 4_564 . 126.13(9)
+Ge2 O5 Ge1 . . 125.92(10)
+Ge2 O6 Ge1 1_545 . 123.67(11)
+Ge3 O7 Ge2 . . 126.56(8)
+Ge2 O8 Ge4 . 3_476 128.14(8)
+Ge3 O9 Ge4 . . 125.27(7)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+Li1 O5 . 1.867(5)
+Li1 O6 2 1.899(5)
+Li1 O1 2 1.932(5)
+Li1 O4 . 1.959(5)
+Li1 O7 1_545 2.215(4)
+Li2 O2 4_565 2.012(6)
+Li2 O3 4_565 2.039(5)
+Li2 O9 . 2.232(6)
+Li2 O8 . 2.535(6)
+Ge1 O1 . 1.8512(17)
+Ge1 O3 . 1.8651(14)
+Ge1 O4 . 1.8671(17)
+Ge1 O5 . 1.8780(15)
+Ge1 O6 . 1.8861(15)
+Ge1 O2 . 1.8900(14)
+Ge2 O6 1_565 1.7303(15)
+Ge2 O5 . 1.7332(14)
+Ge2 O8 . 1.7820(16)
+Ge2 O7 . 1.7874(16)
+Ge3 O1 2 1.7248(13)
+Ge3 O2 2_565 1.7402(16)
+Ge3 O9 . 1.7661(15)
+Ge3 O7 . 1.7841(17)
+Ge4 O4 4_565 1.7259(14)
+Ge4 O3 4_575 1.7445(15)
+Ge4 O9 . 1.7691(14)
+Ge4 O8 3_576 1.7820(17)

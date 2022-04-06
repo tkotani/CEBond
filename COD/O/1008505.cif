@@ -1,0 +1,124 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/1/00/85/1008505.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1008505
+loop_
+_publ_author_name
+'Muller, J'
+'Collomb, A'
+'Fournier, T'
+'Harrowfield, I'
+'Samaras, D'
+_publ_section_title
+;
+Composition and structure of some (Ba~1-p~Sr~p~)Zn Fe~6~O~11~Y-type
+hexagonal ferrites
+;
+_journal_coden_ASTM              JMMMDC
+_journal_name_full               'Journal of Magnetism and Magnetic Materials'
+_journal_page_first              305
+_journal_page_last               313
+_journal_paper_doi               10.1016/0304-8853(91)90143-X
+_journal_volume                  102
+_journal_year                    1991
+_chemical_formula_structural     'Ba.99 Zn.94 Fe6.02 O11'
+_chemical_formula_sum            'Ba0.99 Fe6.02 O11 Zn0.94'
+_chemical_name_systematic
+;
+Barium zinc iron(III) oxide (.99/.94/6.02/11)
+;
+_space_group_IT_number           166
+_symmetry_cell_setting           trigonal
+_symmetry_space_group_name_Hall  '-R 3 2"'
+_symmetry_space_group_name_H-M   'R -3 m :H'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            6
+_cell_length_a                   5.8723(1)
+_cell_length_b                   5.8723(1)
+_cell_length_c                   43.556(2)
+_cell_volume                     1300.8
+_refine_ls_R_factor_all          0.017
+_cod_original_sg_symbol_H-M      'R -3 m H'
+_cod_original_formula_sum        'Ba.99 Fe6.02 O11 Zn.94'
+_cod_database_code               1008505
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-y,x-y,z
+y-x,-x,z
+-y,-x,z
+x,x-y,z
+y-x,y,z
+-x,-y,-z
+y,y-x,-z
+x-y,x,-z
+y,x,-z
+-x,y-x,-z
+x-y,-y,-z
+1/3+x,2/3+y,2/3+z
+2/3+x,1/3+y,1/3+z
+1/3-y,2/3+x-y,2/3+z
+2/3-y,1/3+x-y,1/3+z
+1/3-x+y,2/3-x,2/3+z
+2/3-x+y,1/3-x,1/3+z
+1/3-y,2/3-x,2/3+z
+2/3-y,1/3-x,1/3+z
+1/3+x,2/3+x-y,2/3+z
+2/3+x,1/3+x-y,1/3+z
+1/3-x+y,2/3+y,2/3+z
+2/3-x+y,1/3+y,1/3+z
+1/3-x,2/3-y,2/3-z
+2/3-x,1/3-y,1/3-z
+1/3+y,2/3-x+y,2/3-z
+2/3+y,1/3-x+y,1/3-z
+1/3+x-y,2/3+x,2/3-z
+2/3+x-y,1/3+x,1/3-z
+1/3+y,2/3+x,2/3-z
+2/3+y,1/3+x,1/3-z
+1/3-x,2/3-x+y,2/3-z
+2/3-x,1/3-x+y,1/3-z
+1/3+x-y,2/3-y,2/3-z
+2/3+x-y,1/3-y,1/3-z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_calc_flag
+Ba1 Ba2+ 6 c 0. 0. 0.29993(1) 0.99(1) 0 d
+Zn1 Zn2+ 6 c 0. 0. 0.37610(1) 0.25(1) 0 d
+Fe1 Fe3+ 6 c 0. 0. 0.37610(1) 0.73(1) 0 d
+Zn2 Zn2+ 6 c 0. 0. 0.15219(1) 0.69(1) 0 d
+Fe2 Fe3+ 6 c 0. 0. 0.15219(1) 0.29(1) 0 d
+Fe3 Fe3+ 6 c 0. 0. 0.06530(1) 1. 0 d
+Fe4 Fe3+ 3 b 0. 0. 0.5 1. 0 d
+Fe5 Fe3+ 18 h 0.50331(3) 0.49669(3) 0.10970(1) 1. 0 d
+Fe6 Fe3+ 3 a 0. 0. 0. 1. 0 d
+O1 O2- 6 c 0. 0. 0.41942(6) 1. 0 d
+O2 O2- 6 c 0. 0. 0.19756(7) 1. 0 d
+O3 O2- 18 h 0.15687(21) -0.15687(21) 0.02896(4) 1. 0 d
+O4 O2- 18 h 0.82959(16) 0.17041(16) 0.08490(3) 1. 0 d
+O5 O2- 18 h 0.17988(20) -0.17988(20) 0.13777(3) 1. 0 d
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Ba2+ 2.000
+Zn2+ 2.000
+Fe3+ 3.000
+O2- -2.000

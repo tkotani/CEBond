@@ -1,0 +1,534 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-19 16:29:56 +0200 (Fri, 19 Feb 2016) $
+#$Revision: 176759 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/68/2006836.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2006836
+loop_
+_publ_author_name
+'Huppertz, Hubert'
+'Schnick, Wolfgang'
+_publ_section_title
+;
+ Eu~2~Si~5~N~8~ and EuYbSi~4~N~7~. The First Nitridosilicates with a
+ Divalent Rare Earth Metal
+;
+_journal_issue                   12
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              1751
+_journal_page_last               1753
+_journal_paper_doi               10.1107/S0108270197008767
+_journal_volume                  53
+_journal_year                    1997
+_chemical_formula_moiety         'Eu Yb Si4 N7'
+_chemical_formula_structural     'Eu Yb Si4 N7'
+_chemical_formula_sum            'Eu N7 Si4 Yb'
+_chemical_formula_weight         535.43
+_chemical_name_common            'Europium ytterbium nitridosilicate'
+_chemical_name_systematic
+;
+ Europium-ytterbium-tetrasiliconheptanitride
+;
+_space_group_IT_number           186
+_symmetry_cell_setting           hexagonal
+_symmetry_space_group_name_Hall  'P 6c -2c'
+_symmetry_space_group_name_H-M   'P 63 m c'
+_audit_creation_method           'Siemens SHELXTL'
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                120.00
+_cell_formula_units_Z            2
+_cell_length_a                   5.9822(3)
+_cell_length_b                   5.9822(3)
+_cell_length_c                   9.7455(4)
+_cell_measurement_reflns_used    62
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      17.48
+_cell_measurement_theta_min      5.74
+_cell_volume                     302.03(2)
+_computing_cell_refinement       XSCANS
+_computing_data_collection       'XSCANS (Siemens, 1994)'
+_computing_data_reduction        'SHELXTL (Sheldrick, 1994)'
+_computing_molecular_graphics    'KPLOT (Hundt, 1979)'
+_computing_publication_material  SHELXTL
+_computing_structure_refinement  SHELXTL
+_computing_structure_solution    SHELXTL
+_diffrn_ambient_temperature      293(2)
+_diffrn_measurement_device       'Siemens P4 diffractometer'
+_diffrn_measurement_method       '\w scans'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0439
+_diffrn_reflns_av_sigmaI/netI    0.0295
+_diffrn_reflns_limit_h_max       12
+_diffrn_reflns_limit_h_min       -12
+_diffrn_reflns_limit_k_max       13
+_diffrn_reflns_limit_k_min       -13
+_diffrn_reflns_limit_l_max       21
+_diffrn_reflns_limit_l_min       -21
+_diffrn_reflns_number            4996
+_diffrn_reflns_theta_max         52.48
+_diffrn_reflns_theta_min         3.93
+_diffrn_standards_decay_%        1.36
+_diffrn_standards_interval_count 97
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    26.406
+_exptl_absorpt_correction_T_max  0.71
+_exptl_absorpt_correction_T_min  0.56
+_exptl_absorpt_correction_type   'empirical via \y scans'
+_exptl_crystal_colour            Brown
+_exptl_crystal_density_diffrn    5.887
+_exptl_crystal_description       Prism
+_exptl_crystal_F_000             476
+_exptl_crystal_size_max          0.20
+_exptl_crystal_size_mid          0.10
+_exptl_crystal_size_min          0.10
+_refine_diff_density_max         1.693
+_refine_diff_density_min         -4.206
+_refine_ls_abs_structure_details 'Flack (1983)'
+_refine_ls_abs_structure_Flack   -0.013(11)
+_refine_ls_extinction_coef       0.0436(13)
+_refine_ls_extinction_method     SHELXL93
+_refine_ls_goodness_of_fit_all   1.068
+_refine_ls_goodness_of_fit_obs   1.091
+_refine_ls_hydrogen_treatment    none
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     32
+_refine_ls_number_reflns         1378
+_refine_ls_number_restraints     1
+_refine_ls_restrained_S_all      1.067
+_refine_ls_restrained_S_obs      1.091
+_refine_ls_R_factor_all          0.0261
+_refine_ls_R_factor_obs          .0212
+_refine_ls_shift/esd_max         0.002
+_refine_ls_shift/esd_mean        0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w = 1/[\s^2^(Fo^2^)+(0.0251P)^2^+0.1496P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         0.0491
+_refine_ls_wR_factor_obs         .0478
+_reflns_number_observed          1250
+_reflns_number_total             1378
+_reflns_observed_criterion       >2sigma(I)
+_cod_data_source_file            jz1226.cif
+_cod_data_source_block           II
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_symmetry_cell_setting' value 'Hexagonal' changed to 'hexagonal'
+according to '/home/saulius/struct/CIF-dictionaries/cif_core.dic'
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Hexagonal' changed to 'hexagonal'
+according to /home/saulius/struct/CIF-dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'calc w =
+1/[\s^2^(Fo^2^)+(0.0251P)^2^+0.1496P] where P=(Fo^2^+2Fc^2^)/3' was
+changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to 'w =
+1/[\s^2^(Fo^2^)+(0.0251P)^2^+0.1496P] where P=(Fo^2^+2Fc^2^)/3'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_database_code               2006836
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-y, x-y, z'
+'-x+y, -x, z'
+'-x, -y, z+1/2'
+'y, -x+y, z+1/2'
+'x-y, x, z+1/2'
+'-y, -x, z'
+'-x+y, y, z'
+'x, x-y, z'
+'y, x, z+1/2'
+'x-y, -y, z+1/2'
+'-x, -x+y, z+1/2'
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Yb1 .00269(4) .00269(4) .00234(6) .00134(2) .000 .000
+Eu1 .00822(7) .00822(7) .00753(11) .00411(4) .000 .000
+Si1 .0025(2) .0025(2) .0021(6) .00127(11) .000 .000
+Si2 .0029(2) .0025(2) .0025(2) .00126(11) 0(2) .0001(3)
+N1 .0033(4) .0033(4) .0087(8) .0007(5) .0022(3) -.0022(3)
+N2 .0161(10) .0028(8) .0020(6) .0014(4) -.0001(3) -.0003(5)
+N3 .0030(7) .0030(7) .0034(12) .0015(3) .000 .000
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+_atom_site_disorder_group
+_atom_site_type_symbol
+Yb1 .6667 .3333 .54880(10) .00257(4) Uani d S 1 . Yb
+Eu1 .6667 .3333 .91966(3) .00799(5) Uani d S 1 . Eu
+Si1 0 0 .4730(2) .0024(2) Uani d S 1 . Si
+Si2 .17359(7) .34719(15) .73914(14) .00267(10) Uani d S 1 . Si
+N1 .4898(3) .5102(3) .6858(3) .0055(3) Uani d S 1 . N
+N2 .8463(3) -.3074(6) .4137(2) .0084(4) Uani d S 1 . N
+N3 0 0 .6643(4) .0031(5) Uani d S 1 . N
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+N N 0.0061 0.0033 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Si Si 0.0817 0.0704 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Eu Eu -0.1578 3.6682 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Yb Yb -0.3850 5.5486 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_diffrn_standard_refln_index_h
+_diffrn_standard_refln_index_k
+_diffrn_standard_refln_index_l
+1 1 0
+2 2 0
+3 3 -1
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+N1 Yb1 N1 3_665 2_655 88.86(10) ?
+N1 Yb1 N1 3_665 . 88.86(10) ?
+N1 Yb1 N1 2_655 . 88.86(10) ?
+N1 Yb1 N2 3_665 3_765 90.58(7) ?
+N1 Yb1 N2 2_655 3_765 90.58(7) ?
+N1 Yb1 N2 . 3_765 179.21(9) ?
+N1 Yb1 N2 3_665 1_565 90.58(7) ?
+N1 Yb1 N2 2_655 1_565 179.21(9) ?
+N1 Yb1 N2 . 1_565 90.58(7) ?
+N2 Yb1 N2 3_765 1_565 89.98(9) ?
+N1 Yb1 N2 3_665 2_545 179.21(9) ?
+N1 Yb1 N2 2_655 2_545 90.58(7) ?
+N1 Yb1 N2 . 2_545 90.58(7) ?
+N2 Yb1 N2 3_765 2_545 89.98(9) ?
+N2 Yb1 N2 1_565 2_545 89.98(9) ?
+N1 Yb1 Si2 3_665 6_654 108.78(7) ?
+N1 Yb1 Si2 2_655 6_654 108.78(7) ?
+N1 Yb1 Si2 . 6_654 154.81(7) ?
+N2 Yb1 Si2 3_765 6_654 25.98(6) ?
+N2 Yb1 Si2 1_565 6_654 71.93(6) ?
+N2 Yb1 Si2 2_545 6_654 71.93(6) ?
+N1 Yb1 Si2 3_665 4_664 108.78(7) ?
+N1 Yb1 Si2 2_655 4_664 154.81(7) ?
+N1 Yb1 Si2 . 4_664 108.78(7) ?
+N2 Yb1 Si2 3_765 4_664 71.93(6) ?
+N2 Yb1 Si2 1_565 4_664 25.98(6) ?
+N2 Yb1 Si2 2_545 4_664 71.93(6) ?
+Si2 Yb1 Si2 6_654 4_664 49.22(3) ?
+N1 Yb1 Si2 3_665 5_554 154.81(7) ?
+N1 Yb1 Si2 2_655 5_554 108.78(7) ?
+N1 Yb1 Si2 . 5_554 108.78(7) ?
+N2 Yb1 Si2 3_765 5_554 71.93(6) ?
+N2 Yb1 Si2 1_565 5_554 71.93(6) ?
+N2 Yb1 Si2 2_545 5_554 25.98(6) ?
+Si2 Yb1 Si2 6_654 5_554 49.22(3) ?
+Si2 Yb1 Si2 4_664 5_554 49.22(3) ?
+N1 Yb1 Si2 3_665 1_655 24.041(14) ?
+N1 Yb1 Si2 2_655 1_655 72.92(4) ?
+N1 Yb1 Si2 . 1_655 106.04(6) ?
+N2 Yb1 Si2 3_765 1_655 73.26(6) ?
+N2 Yb1 Si2 1_565 1_655 106.72(3) ?
+N2 Yb1 Si2 2_545 1_655 155.972(14) ?
+Si2 Yb1 Si2 6_654 1_655 96.49(2) ?
+Si2 Yb1 Si2 4_664 1_655 116.885(13) ?
+Si2 Yb1 Si2 5_554 1_655 145.16(3) ?
+N1 Yb1 Si2 3_665 3 106.04(6) ?
+N1 Yb1 Si2 2_655 3 24.040(14) ?
+N1 Yb1 Si2 . 3 72.92(3) ?
+N2 Yb1 Si2 3_765 3 106.72(3) ?
+N2 Yb1 Si2 1_565 3 155.973(13) ?
+N2 Yb1 Si2 2_545 3 73.26(6) ?
+Si2 Yb1 Si2 6_654 3 116.885(14) ?
+Si2 Yb1 Si2 4_664 3 145.16(3) ?
+Si2 Yb1 Si2 5_554 3 96.49(2) ?
+Si2 Yb1 Si2 1_655 3 94.79(3) ?
+N1 Yb1 Si2 3_665 2_665 72.92(3) ?
+N1 Yb1 Si2 2_655 2_665 106.04(6) ?
+N1 Yb1 Si2 . 2_665 24.041(14) ?
+N2 Yb1 Si2 3_765 2_665 155.973(14) ?
+N2 Yb1 Si2 1_565 2_665 73.26(6) ?
+N2 Yb1 Si2 2_545 2_665 106.72(3) ?
+Si2 Yb1 Si2 6_654 2_665 145.16(3) ?
+Si2 Yb1 Si2 4_664 2_665 96.49(2) ?
+Si2 Yb1 Si2 5_554 2_665 116.885(13) ?
+Si2 Yb1 Si2 1_655 2_665 94.79(3) ?
+Si2 Yb1 Si2 3 2_665 94.79(3) ?
+N1 Eu1 N1 3_665 2_655 65.74(8) ?
+N1 Eu1 N1 3_665 . 65.73(8) ?
+N1 Eu1 N1 2_655 . 65.73(8) ?
+N1 Eu1 N2 3_665 4_755 57.10(6) ?
+N1 Eu1 N2 2_655 4_755 87.51(5) ?
+N1 Eu1 N2 . 4_755 122.74(6) ?
+N1 Eu1 N2 3_665 5_665 87.51(5) ?
+N1 Eu1 N2 2_655 5_665 57.10(6) ?
+N1 Eu1 N2 . 5_665 122.74(6) ?
+N2 Eu1 N2 4_755 5_665 54.84(11) ?
+N1 Eu1 N2 3_665 6 57.10(6) ?
+N1 Eu1 N2 2_655 6 122.75(6) ?
+N1 Eu1 N2 . 6 87.51(5) ?
+N2 Eu1 N2 4_755 6 65.14(11) ?
+N2 Eu1 N2 5_665 6 119.962(3) ?
+N1 Eu1 N2 3_665 6_445 122.74(6) ?
+N1 Eu1 N2 2_655 6_445 57.10(6) ?
+N1 Eu1 N2 . 6_445 87.51(5) ?
+N2 Eu1 N2 4_755 6_445 119.962(4) ?
+N2 Eu1 N2 5_665 6_445 65.14(11) ?
+N2 Eu1 N2 6 6_445 174.38(11) ?
+N1 Eu1 N2 3_665 5_675 87.51(5) ?
+N1 Eu1 N2 2_655 5_675 122.74(6) ?
+N1 Eu1 N2 . 5_675 57.10(6) ?
+N2 Eu1 N2 4_755 5_675 119.962(2) ?
+N2 Eu1 N2 5_665 5_675 174.38(11) ?
+N2 Eu1 N2 6 5_675 54.84(11) ?
+N2 Eu1 N2 6_445 5_675 119.962(3) ?
+N1 Eu1 N2 3_665 4_655 122.74(6) ?
+N1 Eu1 N2 2_655 4_655 87.51(5) ?
+N1 Eu1 N2 . 4_655 57.10(6) ?
+N2 Eu1 N2 4_755 4_655 174.38(11) ?
+N2 Eu1 N2 5_665 4_655 119.962(4) ?
+N2 Eu1 N2 6 4_655 119.963(3) ?
+N2 Eu1 N2 6_445 4_655 54.84(11) ?
+N2 Eu1 N2 5_675 4_655 65.14(11) ?
+N1 Eu1 N1 3_665 6_655 109.190(9) ?
+N1 Eu1 N1 2_655 6_655 145.78(2) ?
+N1 Eu1 N1 . 6_655 145.78(2) ?
+N2 Eu1 N1 4_755 6_655 64.53(6) ?
+N2 Eu1 N1 5_665 6_655 89.58(5) ?
+N2 Eu1 N1 6 6_655 64.53(6) ?
+N2 Eu1 N1 6_445 6_655 119.14(6) ?
+N2 Eu1 N1 5_675 6_655 89.59(5) ?
+N2 Eu1 N1 4_655 6_655 119.14(6) ?
+N1 Eu1 N1 3_665 4_665 145.78(2) ?
+N1 Eu1 N1 2_655 4_665 145.78(2) ?
+N1 Eu1 N1 . 4_665 109.191(7) ?
+N2 Eu1 N1 4_755 4_665 119.14(6) ?
+N2 Eu1 N1 5_665 4_665 119.14(6) ?
+N2 Eu1 N1 6 4_665 89.58(5) ?
+N2 Eu1 N1 6_445 4_665 89.58(5) ?
+N2 Eu1 N1 5_675 4_665 64.53(6) ?
+N2 Eu1 N1 4_655 4_665 64.53(6) ?
+N1 Eu1 N1 6_655 4_665 54.65(8) ?
+N1 Eu1 N1 3_665 5 145.78(2) ?
+N1 Eu1 N1 2_655 5 109.189(8) ?
+N1 Eu1 N1 . 5 145.783(15) ?
+N2 Eu1 N1 4_755 5 89.58(5) ?
+N2 Eu1 N1 5_665 5 64.53(6) ?
+N2 Eu1 N1 6 5 119.14(6) ?
+N2 Eu1 N1 6_445 5 64.53(6) ?
+N2 Eu1 N1 5_675 5 119.14(6) ?
+N2 Eu1 N1 4_655 5 89.58(5) ?
+N1 Eu1 N1 6_655 5 54.65(8) ?
+N1 Eu1 N1 4_665 5 54.65(8) ?
+N2 Si1 N2 3_765 2_645 108.98(10) ?
+N2 Si1 N2 3_765 . 108.98(10) ?
+N2 Si1 N2 2_645 . 108.98(10) ?
+N2 Si1 N3 3_765 1_655 109.96(10) ?
+N2 Si1 N3 2_645 1_655 109.96(10) ?
+N2 Si1 N3 . 1_655 109.96(10) ?
+N2 Si1 Eu1 3_765 4_754 151.49(11) ?
+N2 Si1 Eu1 2_645 4_754 58.967(7) ?
+N2 Si1 Eu1 . 4_754 58.967(8) ?
+N3 Si1 Eu1 1_655 4_754 98.56(3) ?
+N2 Si1 Eu1 3_765 4_764 58.968(8) ?
+N2 Si1 Eu1 2_645 4_764 58.968(8) ?
+N2 Si1 Eu1 . 4_764 151.49(11) ?
+N3 Si1 Eu1 1_655 4_764 98.56(3) ?
+Eu1 Si1 Eu1 4_754 4_764 117.827(14) ?
+N2 Si1 Eu1 3_765 4_654 58.967(7) ?
+N2 Si1 Eu1 2_645 4_654 151.49(11) ?
+N2 Si1 Eu1 . 4_654 58.968(8) ?
+N3 Si1 Eu1 1_655 4_654 98.56(3) ?
+Eu1 Si1 Eu1 4_754 4_654 117.827(14) ?
+Eu1 Si1 Eu1 4_764 4_654 117.827(14) ?
+N2 Si1 Yb1 3_765 . 32.03(8) ?
+N2 Si1 Yb1 2_645 . 122.072(7) ?
+N2 Si1 Yb1 . . 122.071(6) ?
+N3 Si1 Yb1 1_655 . 77.93(3) ?
+Eu1 Si1 Yb1 4_754 . 176.48(5) ?
+Eu1 Si1 Yb1 4_764 . 63.104(2) ?
+Eu1 Si1 Yb1 4_654 . 63.104(2) ?
+N2 Si1 Yb1 3_765 1_655 122.072(6) ?
+N2 Si1 Yb1 2_645 1_655 32.03(8) ?
+N2 Si1 Yb1 . 1_655 122.071(6) ?
+N3 Si1 Yb1 1_655 1_655 77.92(3) ?
+Eu1 Si1 Yb1 4_754 1_655 63.104(2) ?
+Eu1 Si1 Yb1 4_764 1_655 63.105(2) ?
+Eu1 Si1 Yb1 4_654 1_655 176.48(5) ?
+Yb1 Si1 Yb1 . 1_655 115.74(2) ?
+N2 Si1 Yb1 3_765 1_545 122.072(6) ?
+N2 Si1 Yb1 2_645 1_545 122.071(6) ?
+N2 Si1 Yb1 . 1_545 32.03(8) ?
+N3 Si1 Yb1 1_655 1_545 77.92(3) ?
+Eu1 Si1 Yb1 4_754 1_545 63.103(2) ?
+Eu1 Si1 Yb1 4_764 1_545 176.48(5) ?
+Eu1 Si1 Yb1 4_654 1_545 63.104(2) ?
+Yb1 Si1 Yb1 . 1_545 115.74(2) ?
+Yb1 Si1 Yb1 1_655 1_545 115.74(2) ?
+N2 Si2 N1 4_655 3_565 111.07(12) ?
+N2 Si2 N1 4_655 . 111.07(12) ?
+N1 Si2 N1 3_565 . 109.5(2) ?
+N2 Si2 N3 4_655 . 105.15(15) ?
+N1 Si2 N3 3_565 . 109.98(10) ?
+N1 Si2 N3 . . 109.98(10) ?
+N2 Si2 Yb1 4_655 4_665 35.66(10) ?
+N1 Si2 Yb1 3_565 4_665 91.66(9) ?
+N1 Si2 Yb1 . 4_665 91.66(9) ?
+N3 Si2 Yb1 . 4_665 140.81(12) ?
+N2 Si2 Eu1 4_655 1_455 59.62(2) ?
+N1 Si2 Eu1 3_565 1_455 57.29(10) ?
+N1 Si2 Eu1 . 1_455 150.15(9) ?
+N3 Si2 Eu1 . 1_455 99.86(5) ?
+Yb1 Si2 Eu1 4_665 1_455 64.25(2) ?
+N2 Si2 Eu1 4_655 . 59.62(2) ?
+N1 Si2 Eu1 3_565 . 150.15(9) ?
+N1 Si2 Eu1 . . 57.29(10) ?
+N3 Si2 Eu1 . . 99.86(5) ?
+Yb1 Si2 Eu1 4_665 . 64.25(2) ?
+Eu1 Si2 Eu1 1_455 . 119.03(4) ?
+N2 Si2 Yb1 4_655 1_455 121.38(2) ?
+N1 Si2 Yb1 3_565 1_455 32.51(8) ?
+N1 Si2 Yb1 . 1_455 123.00(11) ?
+N3 Si2 Yb1 . 1_455 77.48(6) ?
+Yb1 Si2 Yb1 4_665 1_455 118.15(2) ?
+Eu1 Si2 Yb1 1_455 1_455 62.255(5) ?
+Eu1 Si2 Yb1 . 1_455 177.29(3) ?
+N2 Si2 Yb1 4_655 . 121.37(2) ?
+N1 Si2 Yb1 3_565 . 123.00(11) ?
+N1 Si2 Yb1 . . 32.51(7) ?
+N3 Si2 Yb1 . . 77.48(6) ?
+Yb1 Si2 Yb1 4_665 . 118.15(2) ?
+Eu1 Si2 Yb1 1_455 . 177.29(3) ?
+Eu1 Si2 Yb1 . . 62.253(5) ?
+Yb1 Si2 Yb1 1_455 . 116.35(4) ?
+N2 Si2 Eu1 4_655 4_664 158.92(11) ?
+N1 Si2 Eu1 3_565 4_664 60.15(10) ?
+N1 Si2 Eu1 . 4_664 60.15(10) ?
+N3 Si2 Eu1 . 4_664 95.93(12) ?
+Yb1 Si2 Eu1 4_665 4_664 123.26(2) ?
+Eu1 Si2 Eu1 1_455 4_664 117.21(2) ?
+Eu1 Si2 Eu1 . 4_664 117.21(2) ?
+Yb1 Si2 Eu1 1_455 4_664 62.89(2) ?
+Yb1 Si2 Eu1 . 4_664 62.89(2) ?
+Si2 N1 Si2 2_665 . 113.0(2) yes
+Si2 N1 Yb1 2_665 . 123.45(8) ?
+Si2 N1 Yb1 . . 123.45(8) ?
+Si2 N1 Eu1 2_665 . 93.07(11) ?
+Si2 N1 Eu1 . . 93.07(11) ?
+Yb1 N1 Eu1 . . 87.27(8) ?
+Si2 N1 Eu1 2_665 4_664 90.68(11) ?
+Si2 N1 Eu1 . 4_664 90.68(11) ?
+Yb1 N1 Eu1 . 4_664 85.94(8) ?
+Eu1 N1 Eu1 . 4_664 173.21(10) ?
+Si1 N2 Si2 . 4_654 116.9(2) yes
+Si1 N2 Yb1 . 1_545 124.76(13) ?
+Si2 N2 Yb1 4_654 1_545 118.36(14) ?
+Si1 N2 Eu1 . 4_754 92.04(5) ?
+Si2 N2 Eu1 4_654 4_754 90.80(4) ?
+Yb1 N2 Eu1 1_545 4_754 87.25(5) ?
+Si1 N2 Eu1 . 4_654 92.04(5) ?
+Si2 N2 Eu1 4_654 4_654 90.80(5) ?
+Yb1 N2 Eu1 1_545 4_654 87.25(5) ?
+Eu1 N2 Eu1 4_754 4_654 174.38(11) ?
+Si1 N3 Si2 1_455 . 112.07(11) yes
+Si1 N3 Si2 1_455 2 112.07(11) ?
+Si2 N3 Si2 . 2 106.75(12) yes
+Si1 N3 Si2 1_455 3 112.07(11) ?
+Si2 N3 Si2 . 3 106.75(12) ?
+Si2 N3 Si2 2 3 106.75(12) ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Yb1 N1 3_665 2.267(3) ?
+Yb1 N1 2_655 2.267(3) ?
+Yb1 N1 . 2.267(3) yes
+Yb1 N2 3_765 2.280(3) ?
+Yb1 N2 1_565 2.280(3) yes
+Yb1 N2 2_545 2.280(3) ?
+Yb1 Si2 6_654 3.4419(13) ?
+Yb1 Si2 4_664 3.4419(13) ?
+Yb1 Si2 5_554 3.4419(13) ?
+Yb1 Si2 1_655 3.5203(8) ?
+Yb1 Si2 3 3.5204(8) ?
+Yb1 Si2 2_665 3.5203(8) ?
+Eu1 N1 3_665 2.925(3) ?
+Eu1 N1 2_655 2.925(3) ?
+Eu1 N1 . 2.925(3) yes
+Eu1 N2 4_755 2.9947(2) ?
+Eu1 N2 5_665 2.9947(2) ?
+Eu1 N2 6 2.9947(2) yes
+Eu1 N2 6_445 2.9947(2) ?
+Eu1 N2 5_675 2.9947(2) ?
+Eu1 N2 4_655 2.9947(2) ?
+Eu1 N1 6_655 3.058(3) ?
+Eu1 N1 4_665 3.058(3) ?
+Eu1 N1 5 3.058(3) yes
+Si1 N2 3_765 1.694(3) ?
+Si1 N2 2_645 1.694(3) ?
+Si1 N2 . 1.694(3) yes
+Si1 N3 1_655 1.865(4) yes
+Si1 Eu1 4_754 3.4927(3) ?
+Si1 Eu1 4_764 3.4927(3) ?
+Si1 Eu1 4_654 3.4927(3) ?
+Si1 Yb1 1_655 3.5320(4) ?
+Si1 Yb1 1_545 3.5320(4) ?
+Si2 N2 4_655 1.713(3) yes
+Si2 N1 3_565 1.7189(15) ?
+Si2 N1 . 1.7189(15) yes
+Si2 N3 . 1.941(2) yes
+Si2 Yb1 4_665 3.4419(13) ?
+Si2 Eu1 1_455 3.4709(7) ?
+Si2 Yb1 1_455 3.5203(8) ?
+Si2 Eu1 4_664 3.5260(13) ?
+N1 Si2 2_665 1.7189(15) ?
+N1 Eu1 4_664 3.058(3) ?
+N2 Si2 4_654 1.713(3) ?
+N2 Yb1 1_545 2.280(3) ?
+N2 Eu1 4_754 2.9947(2) ?
+N2 Eu1 4_654 2.9947(2) ?
+N3 Si1 1_455 1.865(4) ?
+N3 Si2 2 1.941(2) ?
+N3 Si2 3 1.941(2) ?

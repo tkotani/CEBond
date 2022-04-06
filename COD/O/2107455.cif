@@ -1,0 +1,128 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-01-25 03:46:24 +0200 (Mon, 25 Jan 2016) $
+#$Revision: 174996 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/74/2107455.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2107455
+loop_
+_publ_author_name
+'Marin, Riccardo'
+'Sponchia, Gabriele'
+'Back, Michele'
+'Riello, Pietro'
+_publ_section_title
+;
+ Determining europium compositional fluctuations in partially stabilized
+ zirconia nanopowders: a non-line-broadening-based method
+;
+_journal_coeditor_code           WF5122
+_journal_issue                   1
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first
+;
+;
+_journal_paper_doi               10.1107/S2052520615021083
+_journal_volume                  72
+_journal_year                    2016
+_chemical_formula_sum            'Eu0.04 O1.98 Zr0.96'
+_chemical_formula_weight         125.33
+_chemical_name_common            zirconia
+_chemical_name_systematic        ' zirconium dioxide'
+_space_group_crystal_system      monoclinic
+_space_group_IT_number           14
+_space_group_name_Hall           '-P 2ybc'
+_space_group_name_H-M_alt        'P 1 21/c 1'
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_cell_angle_alpha                90.0000
+_cell_angle_beta                 98.912(6)
+_cell_angle_gamma                90.0000
+_cell_formula_units_Z            4
+_cell_length_a                   5.1603(6)
+_cell_length_b                   5.2086(7)
+_cell_length_c                   5.3211(7)
+_cell_measurement_temperature    293
+_cell_volume                     141.29(3)
+_diffrn_ambient_temperature      293
+_diffrn_detector
+'proportional with pulse height discriminator'
+_diffrn_measurement_device_type  'Philips PW 1319'
+_diffrn_radiation_monochromator  graphite
+_diffrn_source                   'sealed X-ray tube'
+_diffrn_source_target            Cu
+_pd_char_colour                  white
+_pd_char_particle_morphology     plate-like
+_pd_instr_location               ' ?'
+_pd_meas_2theta_range_inc        0.05
+_pd_meas_2theta_range_max        80
+_pd_meas_2theta_range_min        15
+_pd_meas_number_of_points        1301
+_pd_meas_scan_method             step
+_pd_prep_temperature             1273
+_pd_proc_2theta_range_inc        0.05
+_pd_proc_2theta_range_max        80
+_pd_proc_2theta_range_min        15
+_pd_proc_ls_background_function  'square polynomial'
+_pd_proc_ls_pref_orient_corr     ' none'
+_pd_proc_ls_profile_function     pseudo-Voigt
+_pd_proc_ls_prof_R_factor        0.0494
+_pd_proc_ls_prof_wR_factor       0.0644
+_pd_proc_wavelength              1.540562
+_pd_spec_mounting                ' '
+_pd_spec_mount_mode              reflection
+_pd_spec_shape                   flat_sheet
+_refine_ls_goodness_of_fit_all   1.75
+_refine_ls_number_parameters     24
+_cod_data_source_file            wf5122sup1.cif
+_cod_data_source_block           ZE5_mono
+_cod_original_cell_volume        141.29(6)
+_cod_original_formula_sum        'Zr0.96 Eu0.04 O1.98'
+_cod_database_code               2107455
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -x,y+1/2,-z+1/2
+3 -x,-y,-z
+4 x,-y+1/2,z+1/2
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+Zr .2746(3) .0373(3) .2130(3) .960 4
+Eu .2746(3) .0373(3) .2130(3) .040 4
+O1 .071(2) .327(2) .348(2) 1.00 4
+O2 .450(2) .754(2) .481(2) 1.00 4
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Zr Zr -.314 2.245 'as tabulated in DBWS9600 program'
+Eu Eu -7.718 11.276 'as tabulated in DBWS9600 program'
+O O .047 .032 'as tabulated in DBWS9600 program'
+loop_
+_audit_conform_dict_name
+_audit_conform_dict_location
+cif_core.dic ftp://ftp.iucr.org/pub/cif_core.dic
+cif_pd.dic ftp://ftp.iucr.org/pub/cif_pd.dic
+loop_
+_diffrn_radiation_type
+_diffrn_radiation_wavelength
+CuK\a~1~ 1.54056
+CuK\a~2~ 1.54439
+
+_cod_database_fobs_code 2107455

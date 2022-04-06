@@ -1,0 +1,242 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 02:53:41 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176768 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/25/2102562.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2102562
+loop_
+_publ_author_name
+'Ivanov, Yury'
+'Tanaka, Kiyoaki'
+_publ_section_title
+;
+Electron density and electrostatic potential of KMnF~3~: A phase
+transition study
+;
+_journal_issue                   3
+_journal_name_full               'Acta Crystallographica, Section B'
+_journal_page_first              359
+_journal_page_last               368
+_journal_paper_doi               10.1107/S0108768104009437
+_journal_volume                  60
+_journal_year                    2004
+_chemical_formula_moiety         'F3 Mn K'
+_chemical_formula_sum            'F3 K Mn'
+_chemical_formula_weight         151.03
+_chemical_name_common            'potassium manganese trifluoride'
+_chemical_name_systematic        'potassium manganese trifluoride'
+_symmetry_cell_setting           cubic
+_symmetry_space_group_name_Hall  '-P 4 2 3'
+_symmetry_space_group_name_H-M   'P m -3 m'
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            1
+_cell_length_a                   4.1893(2)
+_cell_length_b                   4.1893(2)
+_cell_length_c                   4.1893(2)
+_cell_measurement_reflns_used    29
+_cell_measurement_temperature    298.0(10)
+_cell_measurement_theta_max      71.93
+_cell_measurement_theta_min      68.28
+_cell_volume                     73.520(10)
+_computing_cell_refinement
+;
+RSLC-3 UNICS system (Sakurai, T. & Kobayashi, K. (1979), Rep. Inst. Phys. Chem.
+Res. 55, 69-77)
+;
+_computing_data_collection
+;
+MXC(MAC Science) and a program IUANGLE by Tanaka
+(Tanaka, K.,Kumazawa S., Tsubokawa, M., Maruno, S. &
+Shirotani, I. (Acta Cryst., A50, 246-252(1994))
+;
+_computing_data_reduction        'PROMETHEUS (Zucker et al., 1983)'
+_computing_structure_refinement  'MOLDOS96 (J. Protas, 1996)'
+_diffrn_ambient_temperature      298.0(10)
+_diffrn_detector_area_resol_mean '1.5x1.5 degrees'
+_diffrn_measurement_device_type  'four-circle diffractometer'
+_diffrn_measurement_method
+'integrated intensities data fom \w/2\q scans'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus rotating anode'
+_diffrn_radiation_type           ' Mo K\a'
+_diffrn_radiation_wavelength     0.71069
+_diffrn_reflns_av_R_equivalents  0.0270
+_diffrn_reflns_limit_h_max       11
+_diffrn_reflns_limit_h_min       -5
+_diffrn_reflns_limit_k_max       11
+_diffrn_reflns_limit_k_min       -11
+_diffrn_reflns_limit_l_max       11
+_diffrn_reflns_limit_l_min       -8
+_diffrn_reflns_number            1145
+_diffrn_reflns_theta_full        74.45
+_diffrn_reflns_theta_max         74.45
+_diffrn_reflns_theta_min         4.87
+_diffrn_standards_decay_%        'no decay, variation 0.6'
+_diffrn_standards_interval_count 30
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    5.75
+_exptl_absorpt_correction_T_max  0.780
+_exptl_absorpt_correction_T_min  0.772
+_exptl_absorpt_correction_type   sphere
+_exptl_absorpt_process_details   'Zucker et al. (1983)'
+_exptl_crystal_colour            'pale pink'
+_exptl_crystal_density_diffrn    3.411
+_exptl_crystal_description       sphere
+_exptl_crystal_F_000             71
+_exptl_crystal_size_max          0.060
+_exptl_crystal_size_mid          0.060
+_exptl_crystal_size_min          0.060
+_exptl_crystal_size_rad          0.030
+_refine_diff_density_max         0.92
+_refine_diff_density_min         -0.33
+_refine_ls_extinction_coef       0.009(5)
+_refine_ls_extinction_method     'Becker-Coppens type 2 isotropic'
+_refine_ls_goodness_of_fit_ref   0.99
+_refine_ls_hydrogen_treatment    none
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     25
+_refine_ls_number_reflns         146
+_refine_ls_R_factor_gt           0.0053
+_refine_ls_shift/su_max          0.0000
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     w=1/(s**2+0.000025F**2)
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0071
+_refine_ls_wR_factor_ref         0.0076
+_reflns_number_gt                146
+_reflns_number_total             146
+_reflns_threshold_expression     F>3.0s(F)
+_cod_data_source_file            lc5001.cif
+_cod_database_code               2102562
+loop_
+_symmetry_equiv_pos_as_xyz
+'+X, +Y, +Z'
+'-X, -Y, +Z'
+'-X, +Y, -Z'
+'+X, -Y, -Z'
+'+Z, +X, +Y'
+'+Z, -X, -Y'
+'-Z, -X, +Y'
+'-Z, +X, -Y'
+'+Y, +Z, +X'
+'-Y, +Z, -X'
+'+Y, -Z, -X'
+'-Y, -Z, +X'
+'+Y, +X, -Z'
+'-Y, -X, -Z'
+'+Y, -X, +Z'
+'-Y, +X, +Z'
+'+X, +Z, -Y'
+'-X, +Z, +Y'
+'-X, -Z, -Y'
+'+X, -Z, +Y'
+'+Z, +Y, -X'
+'+Z, -Y, +X'
+'-Z, +Y, +X'
+'-Z, -Y, -X'
+'-X, -Y, -Z'
+'+X, +Y, -Z'
+'+X, -Y, +Z'
+'-X, +Y, +Z'
+'-Z, -X, -Y'
+'-Z, +X, +Y'
+'+Z, +X, -Y'
+'+Z, -X, +Y'
+'-Y, -Z, -X'
+'+Y, -Z, +X'
+'-Y, +Z, +X'
+'+Y, +Z, -X'
+'-Y, -X, +Z'
+'+Y, +X, +Z'
+'-Y, +X, -Z'
+'+Y, -X, -Z'
+'-X, -Z, +Y'
+'+X, -Z, -Y'
+'+X, +Z, +Y'
+'-X, +Z, -Y'
+'-Z, -Y, +X'
+'-Z, +Y, -X'
+'+Z, -Y, -X'
+'+Z, +Y, +X'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+F .5 .0 .0 .0253(5) Uani 1.00
+K .5 .5 .5 .01963(7) Uiso 1.00
+Mn .0 .0 .0 .00756(3) Uiso 1.00
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+_atom_site_aniso_type_symbol
+F .0080(3) .0340(3) .0340(3) .0 .0 .0 F
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+F fluorine 0.014 0.010
+;
+Calculated in MOLDOS97 using atomic wave functions from
+Clementi & Roetti (1974)
+;
+K potassium 0.179 0.250
+;
+Calculated in MOLDOS97 using atomic wave functions from
+Clementi & Roetti (1974)
+;
+Mn manganese 0.295 0.729
+;
+Calculated in MOLDOS97 using atomic wave functions from
+Clementi & Roetti (1974)
+;
+loop_
+_diffrn_standard_refln_index_h
+_diffrn_standard_refln_index_k
+_diffrn_standard_refln_index_l
+2 0 0
+0 2 0
+0 0 2
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+Mn F K 1_555 1_555 1_555 90.0000 no
+F K Mn 1_555 1_555 1_555 35.2644 no
+K Mn F 1_555 1_555 1_555 54.7356 no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+K Mn 1_555 1_555 3.6280(2) yes
+K F 1_555 1_555 2.96230(10) yes
+Mn F 1_555 1_555 2.09470(10) yes

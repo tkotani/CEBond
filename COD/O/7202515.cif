@@ -1,0 +1,435 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-26 16:48:11 +0200 (Sat, 26 Mar 2016) $
+#$Revision: 180356 $
+#$URL: svn://www.crystallography.net/cod/cif/7/20/25/7202515.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7202515
+loop_
+_publ_author_name
+'Galati, Rosa'
+'Hughes, Robert W.'
+'Knee, Christopher S.'
+'Henry, Paul F.'
+'Weller, Mark T.'
+_publ_section_title
+;
+ The structure of superconducting RbOs2O6 between 2 K and 300 K
+;
+_journal_issue                   2
+_journal_name_full               'Journal of Materials Chemistry'
+_journal_page_first              160
+_journal_paper_doi               10.1039/b613083f
+_journal_volume                  17
+_journal_year                    2007
+_chemical_formula_sum            'O6 Os2 Rb'
+_chemical_formula_weight         561.86
+_chemical_name_common            '300K Fd3M'
+_chemical_name_systematic        ' ?'
+_space_group_IT_number           227
+_symmetry_cell_setting           cubic
+_symmetry_space_group_name_Hall  '-F 4vw 2vw 3'
+_symmetry_space_group_name_H-M   'F d -3 m :2'
+_audit_creation_date             2006-10-10T17:37
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_audit_update_record
+' 2006-10-10T17:37 Initial CIF as created by GSAS2CIF'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            8
+_cell_length_a                   10.11393(5)
+_cell_length_b                   10.11393
+_cell_length_c                   10.11393
+_cell_measurement_temperature    300
+_cell_volume                     1034.570(5)
+_computing_structure_refinement  GSAS
+_pd_block_id                     2006-10-10T17:37|FULL_ANI|RW_Hughes|D2B
+_pd_char_colour                  black
+_pd_phase_name                   '300K Fd3M'
+_pd_prep_conditions
+;Heated at 100K/hour to 873.
+Held for 14 hours. Furnace cooled.
+;
+_pd_prep_temperature             873
+_refine_ls_goodness_of_fit_all   1.09
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     16
+_refine_ls_number_restraints     0
+_refine_ls_shift/su_max          0.01
+_refine_ls_shift/su_mean         0.00
+_cod_data_source_file            b613083f.txt
+_cod_data_source_block           FULL_ANI_publ
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_geom_angle_publ_flag' value 'N' changed to 'n' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (63
+times).
+
+'_geom_bond_publ_flag' value 'N' changed to 'n' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (51 time).
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+;
+_cod_original_cell_volume        1034.569(17)
+_cod_original_sg_symbol_H-M      'F d -3 m'
+_cod_database_code               7202515
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 +z,+x,+y
+3 +y,+z,+x
+4 +x+1/4,+y+1/4,-z
+5 -z,+x+1/4,+y+1/4
+6 +y+1/4,-z,+x+1/4
+7 -z+1/4,+x+1/2,-y+3/4
+8 -y+3/4,-z+1/4,+x+1/2
+9 +y+1/2,-z+1/4,-x+3/4
+10 -x+3/4,+y+1/2,-z+1/4
+11 -z+1/4,-x+3/4,+y+1/2
+12 +x+1/2,-y+3/4,-z+1/4
+13 +y,+x,+z
+14 +z,+y,+x
+15 +x,+z,+y
+16 +y+1/4,+x+1/4,-z
+17 -z,+y+1/4,+x+1/4
+18 +x+1/4,-z,+y+1/4
+19 -z+1/4,+y+1/2,-x+3/4
+20 -x+3/4,-z+1/4,+y+1/2
+21 +x+1/2,-z+1/4,-y+3/4
+22 -y+3/4,+x+1/2,-z+1/4
+23 -z+1/4,-y+3/4,+x+1/2
+24 +y+1/2,-x+3/4,-z+1/4
+-1 -x,-y,-z
+-2 -z,-x,-y
+-3 -y,-z,-x
+-4 -x+3/4,-y+3/4,+z
+-5 +z,-x+3/4,-y+3/4
+-6 -y+3/4,+z,-x+3/4
+-7 +z+3/4,-x+1/2,+y+1/4
+-8 +y+1/4,+z+3/4,-x+1/2
+-9 -y+1/2,+z+3/4,+x+1/4
+-10 +x+1/4,-y+1/2,+z+3/4
+-11 +z+3/4,+x+1/4,-y+1/2
+-12 -x+1/2,+y+1/4,+z+3/4
+-13 -y,-x,-z
+-14 -z,-y,-x
+-15 -x,-z,-y
+-16 -y+3/4,-x+3/4,+z
+-17 +z,-y+3/4,-x+3/4
+-18 -x+3/4,+z,-y+3/4
+-19 +z+3/4,-y+1/2,+x+1/4
+-20 +x+1/4,+z+3/4,-y+1/2
+-21 -x+1/2,+z+3/4,+y+1/4
+-22 +y+1/4,-x+1/2,+z+3/4
+-23 +z+3/4,+y+1/4,-x+1/2
+-24 -y+1/2,+x+1/4,+z+3/4
+101 +x,+y+1/2,+z+1/2
+102 +z,+x+1/2,+y+1/2
+103 +y,+z+1/2,+x+1/2
+104 +x+1/4,+y+3/4,-z+1/2
+105 -z,+x+3/4,+y+3/4
+106 +y+1/4,-z+1/2,+x+3/4
+107 -z+1/4,+x,-y+1/4
+108 -y+3/4,-z+3/4,+x
+109 +y+1/2,-z+3/4,-x+1/4
+110 -x+3/4,+y,-z+3/4
+111 -z+1/4,-x+1/4,+y
+112 +x+1/2,-y+1/4,-z+3/4
+113 +y,+x+1/2,+z+1/2
+114 +z,+y+1/2,+x+1/2
+115 +x,+z+1/2,+y+1/2
+116 +y+1/4,+x+3/4,-z+1/2
+117 -z,+y+3/4,+x+3/4
+118 +x+1/4,-z+1/2,+y+3/4
+119 -z+1/4,+y,-x+1/4
+120 -x+3/4,-z+3/4,+y
+121 +x+1/2,-z+3/4,-y+1/4
+122 -y+3/4,+x,-z+3/4
+123 -z+1/4,-y+1/4,+x
+124 +y+1/2,-x+1/4,-z+3/4
+-101 -x,-y+1/2,-z+1/2
+-102 -z,-x+1/2,-y+1/2
+-103 -y,-z+1/2,-x+1/2
+-104 -x+3/4,-y+1/4,+z+1/2
+-105 +z,-x+1/4,-y+1/4
+-106 -y+3/4,+z+1/2,-x+1/4
+-107 +z+3/4,-x,+y+3/4
+-108 +y+1/4,+z+1/4,-x
+-109 -y+1/2,+z+1/4,+x+3/4
+-110 +x+1/4,-y,+z+1/4
+-111 +z+3/4,+x+3/4,-y
+-112 -x+1/2,+y+3/4,+z+1/4
+-113 -y,-x+1/2,-z+1/2
+-114 -z,-y+1/2,-x+1/2
+-115 -x,-z+1/2,-y+1/2
+-116 -y+3/4,-x+1/4,+z+1/2
+-117 +z,-y+1/4,-x+1/4
+-118 -x+3/4,+z+1/2,-y+1/4
+-119 +z+3/4,-y,+x+3/4
+-120 +x+1/4,+z+1/4,-y
+-121 -x+1/2,+z+1/4,+y+3/4
+-122 +y+1/4,-x,+z+1/4
+-123 +z+3/4,+y+3/4,-x
+-124 -y+1/2,+x+3/4,+z+1/4
+201 +x+1/2,+y,+z+1/2
+202 +z+1/2,+x,+y+1/2
+203 +y+1/2,+z,+x+1/2
+204 +x+3/4,+y+1/4,-z+1/2
+205 -z+1/2,+x+1/4,+y+3/4
+206 +y+3/4,-z,+x+3/4
+207 -z+3/4,+x+1/2,-y+1/4
+208 -y+1/4,-z+1/4,+x
+209 +y,-z+1/4,-x+1/4
+210 -x+1/4,+y+1/2,-z+3/4
+211 -z+3/4,-x+3/4,+y
+212 +x,-y+3/4,-z+3/4
+213 +y+1/2,+x,+z+1/2
+214 +z+1/2,+y,+x+1/2
+215 +x+1/2,+z,+y+1/2
+216 +y+3/4,+x+1/4,-z+1/2
+217 -z+1/2,+y+1/4,+x+3/4
+218 +x+3/4,-z,+y+3/4
+219 -z+3/4,+y+1/2,-x+1/4
+220 -x+1/4,-z+1/4,+y
+221 +x,-z+1/4,-y+1/4
+222 -y+1/4,+x+1/2,-z+3/4
+223 -z+3/4,-y+3/4,+x
+224 +y,-x+3/4,-z+3/4
+-201 -x+1/2,-y,-z+1/2
+-202 -z+1/2,-x,-y+1/2
+-203 -y+1/2,-z,-x+1/2
+-204 -x+1/4,-y+3/4,+z+1/2
+-205 +z+1/2,-x+3/4,-y+1/4
+-206 -y+1/4,+z,-x+1/4
+-207 +z+1/4,-x+1/2,+y+3/4
+-208 +y+3/4,+z+3/4,-x
+-209 -y,+z+3/4,+x+3/4
+-210 +x+3/4,-y+1/2,+z+1/4
+-211 +z+1/4,+x+1/4,-y
+-212 -x,+y+1/4,+z+1/4
+-213 -y+1/2,-x,-z+1/2
+-214 -z+1/2,-y,-x+1/2
+-215 -x+1/2,-z,-y+1/2
+-216 -y+1/4,-x+3/4,+z+1/2
+-217 +z+1/2,-y+3/4,-x+1/4
+-218 -x+1/4,+z,-y+1/4
+-219 +z+1/4,-y+1/2,+x+3/4
+-220 +x+3/4,+z+3/4,-y
+-221 -x,+z+3/4,+y+3/4
+-222 +y+3/4,-x+1/2,+z+1/4
+-223 +z+1/4,+y+1/4,-x
+-224 -y,+x+1/4,+z+1/4
+301 +x+1/2,+y+1/2,+z
+302 +z+1/2,+x+1/2,+y
+303 +y+1/2,+z+1/2,+x
+304 +x+3/4,+y+3/4,-z
+305 -z+1/2,+x+3/4,+y+1/4
+306 +y+3/4,-z+1/2,+x+1/4
+307 -z+3/4,+x,-y+3/4
+308 -y+1/4,-z+3/4,+x+1/2
+309 +y,-z+3/4,-x+3/4
+310 -x+1/4,+y,-z+1/4
+311 -z+3/4,-x+1/4,+y+1/2
+312 +x,-y+1/4,-z+1/4
+313 +y+1/2,+x+1/2,+z
+314 +z+1/2,+y+1/2,+x
+315 +x+1/2,+z+1/2,+y
+316 +y+3/4,+x+3/4,-z
+317 -z+1/2,+y+3/4,+x+1/4
+318 +x+3/4,-z+1/2,+y+1/4
+319 -z+3/4,+y,-x+3/4
+320 -x+1/4,-z+3/4,+y+1/2
+321 +x,-z+3/4,-y+3/4
+322 -y+1/4,+x,-z+1/4
+323 -z+3/4,-y+1/4,+x+1/2
+324 +y,-x+1/4,-z+1/4
+-301 -x+1/2,-y+1/2,-z
+-302 -z+1/2,-x+1/2,-y
+-303 -y+1/2,-z+1/2,-x
+-304 -x+1/4,-y+1/4,+z
+-305 +z+1/2,-x+1/4,-y+3/4
+-306 -y+1/4,+z+1/2,-x+3/4
+-307 +z+1/4,-x,+y+1/4
+-308 +y+3/4,+z+1/4,-x+1/2
+-309 -y,+z+1/4,+x+1/4
+-310 +x+3/4,-y,+z+3/4
+-311 +z+1/4,+x+3/4,-y+1/2
+-312 -x,+y+3/4,+z+3/4
+-313 -y+1/2,-x+1/2,-z
+-314 -z+1/2,-y+1/2,-x
+-315 -x+1/2,-z+1/2,-y
+-316 -y+1/4,-x+1/4,+z
+-317 +z+1/2,-y+1/4,-x+3/4
+-318 -x+1/4,+z+1/2,-y+3/4
+-319 +z+1/4,-y,+x+1/4
+-320 +x+3/4,+z+1/4,-y+1/2
+-321 -x,+z+1/4,+y+1/4
+-322 +y+3/4,-x,+z+3/4
+-323 +z+1/4,+y+3/4,-x+1/2
+-324 -y,+x+3/4,+z+3/4
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_22
+_atom_site_aniso_U_23
+_atom_site_aniso_U_33
+OS1 0.0025(3) -0.0001(3) -0.0001(3) 0.0025(3) -0.0001(3) 0.0025(3)
+RB2 0.0341(9) 0.0 0.0 0.0341(9) 0.0 0.0341(9)
+O3 0.0094(8) 0.0 0.0 0.0088(5) 0.0016(6) 0.0088(5)
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+Os OS1 0.0 0.0 0.0 1.0 Uani 0.00247 16
+Rb RB2 0.375 0.375 0.375 1.0 Uani 0.03413 8
+O O3 0.3168(2) 0.125 0.125 1.0 Uani 0.00902 48
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O3 OS1 O3 180.0 105_544 . 111_443 n
+O3 OS1 O3 91.74(7) 105_544 . 117_544 n
+O3 OS1 O3 88.26(7) 105_544 . 119_443 n
+O3 OS1 O3 91.74(7) 105_544 . 218_454 n
+O3 OS1 O3 88.26(7) 105_544 . 220_353 n
+O3 OS1 O3 88.26(7) 111_443 . 117_544 n
+O3 OS1 O3 91.74(7) 111_443 . 119_443 n
+O3 OS1 O3 88.26(7) 111_443 . 218_454 n
+O3 OS1 O3 91.74(7) 111_443 . 220_353 n
+O3 OS1 O3 180.0 117_544 . 119_443 n
+O3 OS1 O3 91.74(7) 117_544 . 218_454 n
+O3 OS1 O3 88.26(7) 117_544 . 220_353 n
+O3 OS1 O3 88.26(7) 119_443 . 218_454 n
+O3 OS1 O3 91.74(7) 119_443 . 220_353 n
+O3 OS1 O3 180.0 218_454 . 220_353 n
+RB2 RB2 RB2 109.4712(4) 4_556 . -7_555 n
+RB2 RB2 RB2 109.47120(20) 4_556 . -8_645 n
+RB2 RB2 RB2 109.47120(20) 4_556 . -11_555 n
+RB2 RB2 O3 125.26440(20) 4_556 . 106_554 n
+RB2 RB2 O3 125.26440(10) 4_556 . 116_545 n
+RB2 RB2 O3 54.73560(10) 4_556 . -101_554 n
+RB2 RB2 O3 54.73560(20) 4_556 . -108_555 n
+RB2 RB2 O3 54.73560(10) 4_556 . -122_564 n
+RB2 RB2 O3 125.26440(10) 4_556 . 204_455 n
+RB2 RB2 RB2 109.47120(20) -7_555 . -8_645 n
+RB2 RB2 RB2 109.47120(20) -7_555 . -11_555 n
+RB2 RB2 O3 125.26440(20) -7_465 . 106_554 n
+RB2 RB2 O3 54.73560(10) -7_465 . 116_545 n
+RB2 RB2 O3 125.26440(10) -7_465 . -101_554 n
+RB2 RB2 O3 54.73560(20) -7_465 . -108_555 n
+RB2 RB2 O3 125.26440(10) -7_465 . -122_564 n
+RB2 RB2 O3 54.73560(10) -7_465 . 204_455 n
+RB2 RB2 RB2 109.4712(4) -8_645 . -11_555 n
+RB2 RB2 O3 54.73560(20) -8_555 . 106_554 n
+RB2 RB2 O3 54.73560(10) -8_555 . 116_545 n
+RB2 RB2 O3 54.73560(10) -8_555 . -101_554 n
+RB2 RB2 O3 125.26440(20) -8_555 . -108_555 n
+RB2 RB2 O3 125.26440(10) -8_555 . -122_564 n
+RB2 RB2 O3 125.26440(10) -8_555 . 204_455 n
+RB2 RB2 O3 54.73560(20) -11_465 . 106_554 n
+RB2 RB2 O3 125.26440(10) -11_465 . 116_545 n
+RB2 RB2 O3 125.26440(10) -11_465 . -101_554 n
+RB2 RB2 O3 125.26440(20) -11_465 . -108_555 n
+RB2 RB2 O3 54.73560(10) -11_465 . -122_564 n
+RB2 RB2 O3 54.73560(10) -11_465 . 204_455 n
+O3 RB2 O3 90.0 106_554 . 116_545 n
+O3 RB2 O3 90.0 106_554 . -101_554 n
+O3 RB2 O3 180.0 106_554 . -108_555 n
+O3 RB2 O3 90.0 106_554 . -122_564 n
+O3 RB2 O3 90.0 106_554 . 204_455 n
+O3 RB2 O3 90.0 116_545 . -101_554 n
+O3 RB2 O3 90.0 116_545 . -108_555 n
+O3 RB2 O3 180.0 116_545 . -122_564 n
+O3 RB2 O3 90.0 116_545 . 204_455 n
+O3 RB2 O3 90.0 -101_554 . -108_555 n
+O3 RB2 O3 90.0 -101_554 . -122_564 n
+O3 RB2 O3 180.0 -101_554 . 204_455 n
+O3 RB2 O3 90.0 -108_555 . -122_564 n
+O3 RB2 O3 90.0 -108_555 . 204_455 n
+O3 RB2 O3 90.0 -122_564 . 204_455 n
+OS1 O3 OS1 138.58(10) 4_555 . 6_555 n
+OS1 O3 RB2 110.71(5) 4_555 . -8_645 n
+OS1 O3 RB2 110.71(5) 6_555 . -8_645 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+OS1 RB2 4.193010(20) . 7_545 n
+OS1 RB2 4.193010(20) . 8_554 n
+OS1 RB2 4.193010(20) . 11_554 n
+OS1 RB2 4.193010(20) . -7_454 n
+OS1 RB2 4.193010(20) . -8_445 n
+OS1 RB2 4.193010(20) . -11_445 n
+OS1 O3 1.9114(6) . 105_544 n
+OS1 O3 1.9114(6) . 111_555 n
+OS1 O3 1.9114(6) . 117_544 n
+OS1 O3 1.9114(6) . 119_555 n
+OS1 O3 1.9114(6) . 218_454 n
+OS1 O3 1.9114(6) . 220_555 n
+RB2 OS1 4.193010(20) . 4_555 n
+RB2 OS1 4.193010(20) . 5_555 n
+RB2 OS1 4.193010(20) . 6_555 n
+RB2 OS1 4.193010(20) . 7_555 n
+RB2 OS1 4.193010(20) . 8_555 n
+RB2 OS1 4.193010(20) . 9_555 n
+RB2 OS1 4.193010(20) . 10_555 n
+RB2 OS1 4.193010(20) . 11_555 n
+RB2 OS1 4.193010(20) . 12_555 n
+RB2 OS1 4.193010(20) . 101_555 n
+RB2 OS1 4.193010(20) . 201_555 n
+RB2 OS1 4.193010(20) . 301_555 n
+RB2 RB2 4.379460(20) . 4_556 n
+RB2 RB2 4.379460(20) . -7_455 n
+RB2 RB2 4.379460(20) . -8_545 n
+RB2 RB2 4.379460(20) . -11_455 n
+RB2 O3 3.62388(28) . 1_555 n
+RB2 O3 3.62388(28) . 2_555 n
+RB2 O3 3.62388(28) . 3_555 n
+RB2 O3 3.62388(28) . 9_555 n
+RB2 O3 3.62388(28) . 10_555 n
+RB2 O3 3.62388(28) . 11_555 n
+RB2 O3 3.62388(28) . 19_555 n
+RB2 O3 3.62388(28) . 20_555 n
+RB2 O3 3.62388(28) . 24_555 n
+RB2 O3 3.62388(28) . 101_555 n
+RB2 O3 3.1167(17) . 106_554 n
+RB2 O3 3.62388(28) . 108_555 n
+RB2 O3 3.1167(17) . 116_545 n
+RB2 O3 3.62388(28) . 122_555 n
+RB2 O3 3.1167(17) . -101_644 n
+RB2 O3 3.1167(17) . -108_545 n
+RB2 O3 3.1167(17) . -122_554 n
+RB2 O3 3.1167(17) . 204_455 n
+O3 OS1 1.9114(6) . 4_555 n
+O3 OS1 1.9114(6) . 6_555 n
+O3 RB2 3.62388(28) . 1_555 n
+O3 RB2 3.62388(28) . 8_554 n
+O3 RB2 3.1167(17) . -8_545 n

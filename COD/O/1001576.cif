@@ -1,0 +1,124 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/1/00/15/1001576.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1001576
+loop_
+_publ_author_name
+'Martin, C'
+'Maignan, A'
+'Huve, M'
+'Labbe, Ph'
+'Ledesert, M'
+'Leligny, H'
+'Raveau, B'
+_publ_section_title
+;
+A Sr-rich 1223 cuprate, Tl~1+x~Ba~2/3~Sr~4/3~Ca~2-x~Cu~3~O~9~ with a
+T~c~ of 110K . A single-crystal study.
+;
+_journal_coden_ASTM              PHYCE6
+_journal_name_full               'Physica C (Amsterdam) (152,1988-)'
+_journal_page_first              106
+_journal_page_last               112
+_journal_paper_doi               10.1016/0921-4534(93)90799-V
+_journal_volume                  217
+_journal_year                    1993
+_chemical_formula_structural     'Tl1.16 (Ba0.72 Sr1.28) Ca1.84 Cu3 O9'
+_chemical_formula_sum            'Ba0.72 Ca1.84 Cu3 O9 Sr1.28 Tl1.16'
+_chemical_name_systematic
+;
+Thallium barium strontium calcium copper oxide (1.2/0.7/1.3/1.8/3/9)
+;
+_space_group_IT_number           123
+_symmetry_cell_setting           tetragonal
+_symmetry_Int_Tables_number      123
+_symmetry_space_group_name_Hall  '-P 4 2'
+_symmetry_space_group_name_H-M   'P 4/m m m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            1
+_cell_length_a                   3.8274(4)
+_cell_length_b                   3.8274(4)
+_cell_length_c                   15.524(3)
+_cell_volume                     227.4
+_refine_ls_R_factor_all          0.028
+_cod_original_formula_sum        'Ba.72 Ca1.84 Cu3 O9 Sr1.28 Tl1.16'
+_cod_database_code               1001576
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,z
+-x,y,z
+x,-y,z
+-y,x,z
+y,-x,z
+y,x,z
+-y,-x,z
+-x,-y,-z
+x,y,-z
+x,-y,-z
+-x,y,-z
+y,-x,-z
+-y,x,-z
+-y,-x,-z
+y,x,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_22
+_atom_site_aniso_U_23
+_atom_site_aniso_U_33
+Tl1 0.046(3) 0. 0. 0.024(1) 0. 0.081(5)
+Cu1 0.0067(9) 0. 0. 0.0067(9) 0. 0.009(1)
+Cu2 0.0078(6) 0. 0. 0.0078(6) 0. 0.011(1)
+Ba1 0.0070(3) 0. 0. 0.0070(3) 0. 0.0097(5)
+Sr1 0.0070(3) 0. 0. 0.0070(3) 0. 0.0097(5)
+Ca1 0.0065(6) 0. 0. 0.0065(6) 0. 0.010(1)
+Tl2 0.0065(6) 0. 0. 0.0065(6) 0. 0.010(1)
+O1 0.004(6) 0. 0. 0.026(9) 0. 0.021(6)
+O2 0.006(4) 0. 0. 0.009(4) 0. 0.020(4)
+O3 0.021(5) 0. 0. 0.021(5) 0. 0.012(6)
+O4 0.030(9) 0. 0. 0.030(9) 0. 0.004(8)
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_calc_flag
+Tl1 Tl3+ 4 l 0.0872(8) 0. 0. 0.25 0 d
+Cu1 Cu2+ 1 b 0. 0. 0.5 1. 0 d
+Cu2 Cu2+ 2 g 0. 0. 0.2902(2) 1. 0 d
+Ba1 Ba2+ 2 h 0.5 0.5 0.1690(1) 0.36(2) 0 d
+Sr1 Sr2+ 2 h 0.5 0.5 0.1690(1) 0.64(2) 0 d
+Ca1 Ca2+ 2 h 0.5 0.5 0.3931(2) 0.92(1) 0 d
+Tl2 Tl3+ 2 h 0.5 0.5 0.3931(2) 0.08(1) 0 d
+O1 O2- 2 e 0.5 0. 0.5 1. 0 d
+O2 O2- 4 i 0.5 0. 0.2964(6) 1. 0 d
+O3 O2- 2 g 0. 0. 0.131(1) 1. 0 d
+O4 O2- 1 c 0.5 0.5 0. 1. 0 d
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Tl3+ 3.000
+Cu2+ 2.280
+Ba2+ 2.000
+Sr2+ 2.000
+Ca2+ 2.000
+O2- -2.000

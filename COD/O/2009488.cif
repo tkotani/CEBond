@@ -1,0 +1,216 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-19 16:29:56 +0200 (Fri, 19 Feb 2016) $
+#$Revision: 176759 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/94/2009488.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2009488
+loop_
+_publ_author_name
+'Akimoto, J.'
+'Gotoh, Y.'
+'Oosawa, Y.'
+_publ_contact_author
+;
+    Dr. J. Akimoto
+    National Institute of Materials and Chemical Research
+    Higashi, Tsukuba
+    Ibaraki 305
+    Japan
+;
+_publ_section_title
+;
+ Refinement of hexagonal BaTiO~3~
+;
+_journal_issue                   2
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              160
+_journal_page_last               161
+_journal_paper_doi               10.1107/S0108270193008637
+_journal_volume                  50
+_journal_year                    1994
+_chemical_formula_analytical     'Ba1.0 Ti1.0 O3'
+_chemical_formula_structural     'Ba Ti O3'
+_chemical_formula_sum            'Ba O3 Ti'
+_chemical_formula_weight         233.2
+_space_group_IT_number           194
+_symmetry_cell_setting           hexagonal
+_symmetry_space_group_name_Hall  '-P 6c 2c'
+_symmetry_space_group_name_H-M   'P 63/m m c'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            6
+_cell_length_a                   5.7238(7)
+_cell_length_b                   5.7238(7)
+_cell_length_c                   13.9649(7)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    296
+_cell_measurement_theta_max      35
+_cell_measurement_theta_min      25
+_cell_volume                     396.22(7)
+_computing_cell_refinement       'Rigaku AFC software'
+_computing_data_collection       'Rigaku AFC software'
+_computing_molecular_graphics
+'STRUPLO90 (Fischer, le Lirzin, Kassner & R\"udinger, 1991)'
+_computing_structure_refinement  'RFINE2 (Finger, 1969)'
+_diffrn_ambient_temperature      296
+_diffrn_measurement_device       'Rigaku AFC-5S diffractometer'
+_diffrn_measurement_method       \w/2\q
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'X-ray tube'
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.71069
+_diffrn_reflns_av_R_equivalents  XX?
+_diffrn_reflns_limit_h_max       5
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       9
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       27
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            1280
+_diffrn_reflns_theta_max         45
+_diffrn_reflns_theta_min         2
+_diffrn_standards_decay_%        0.98
+_diffrn_standards_interval_count 50
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    17.57
+_exptl_absorpt_correction_T_max  0.428
+_exptl_absorpt_correction_T_min  0.257
+_exptl_absorpt_correction_type
+'integration from crystal shape (ACACA; Wuensch & Prewitt, 1965)'
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    5.865
+_exptl_crystal_description       plate
+_exptl_crystal_F_000             612
+_exptl_crystal_size_max          0.100
+_exptl_crystal_size_mid          0.088
+_exptl_crystal_size_min          0.051
+_refine_diff_density_max         3.7
+_refine_diff_density_min         -6.8
+_refine_ls_extinction_coef       'g = 0.96(3)x10^-4^'
+_refine_ls_extinction_method     'Coppens & Hamilton (1970)'
+_refine_ls_goodness_of_fit_obs   XX?
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     22
+_refine_ls_number_reflns         591
+_refine_ls_R_factor_all          0.043
+_refine_ls_R_factor_obs          0.037
+_refine_ls_shift/esd_max         0.0005
+_refine_ls_shift/esd_mean        0.00
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_scheme      'sigma, w = 1/\s^2^(F)'
+_refine_ls_wR_factor_all         0.036
+_refine_ls_wR_factor_obs         0.036
+_reflns_number_observed          591
+_reflns_number_total             676
+_reflns_observed_criterion       F>3\s(F)
+_cod_data_source_file            oh1053.cif
+_cod_data_source_block           BaTiO3
+_cod_original_cell_volume        396.22(9)
+_cod_database_code               2009488
+loop_
+_symmetry_equiv_pos_as_xyz
++x,+y,+z
+-y,+x-y,+z
+-x+y,-x,+z
+-x,-y,1/2+z
++y,-x+y,1/2+z
++x-y,+x,1/2+z
++y,+x,-z
++x-y,-y,-z
+-x,-x+y,-z
+-y,-x,1/2-z
+-x+y,+y,1/2-z
++x,+x-y,1/2-z
+-x,-y,-z
++y,-x+y,-z
++x-y,+x,-z
++x,+y,1/2-z
+-y,+x-y,1/2-z
+-x+y,-x,1/2-z
+-y,-x,+z
+-x+y,+y,+z
++x,+x-y,+z
++y,+x,1/2+z
++x-y,-y,1/2+z
+-x,-x+y,1/2+z
+loop_
+_atom_site_aniso_label
+Ba(1)
+Ba(2)
+Ti(1)
+Ti(2)
+O(1)
+O(2)
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Ba(1) 0 0 0.25
+Ba(2) 0.333333333333333 0.666666666666667 0.09671(5)
+Ti(1) 0 0 0
+Ti(2) 0.333333333333333 0.666666666666667 0.84633(14)
+O(1) 0.5185(6) 0.0370 0.25
+O(2) 0.8349(6) 0.6698 0.0802(2)
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Ba -.613 2.282 'Cromer \& Mann (1968)'
+Ti .248 .446 'Cromer \& Mann (1968)'
+O .008 .006 'Cromer \& Mann (1968)'
+loop_
+_diffrn_standard_refln_index_h
+_diffrn_standard_refln_index_k
+_diffrn_standard_refln_index_l
+2 0 4
+3 0 0
+0 2 7
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+O(2) Ti(1) O(2) 180.000(10) yes
+O(2) Ti(1) O(2) 91.20(10) yes
+O(2) Ti(1) O(2) 88.8(2) yes
+O(1) Ti(2) O(2) 169.10(10) yes
+O(1) Ti(2) O(1) 79.37(6) yes
+O(2) Ti(2) O(2) 95.10(10) yes
+O(1) Ti(2) O(2) 92.30(10) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+O(2) O(2) . . 3.965(4) yes
+O(2) O(2) . . 2.8334(3) yes
+O(2) O(2) . . 2.774(7) yes
+Ti(1) O(2) . . 1.983(2) yes
+Ti(1) Ti(2) . . 3.9400(10) yes
+O(1) O(2) . . 3.932(2) yes
+O(1) O(1) . . 2.5434(3) yes
+O(2) O(2) . . 2.8904(3) yes
+O(1) O(2) . . 2.848(4) yes
+Ti(2) O(1) . . 1.9910(10) yes
+Ti(2) O(2) . . 1.959(2) yes
+Ti(2) Ti(2) . . 2.690(4) yes
+Ba(1) O(1) . . 2.868(4) yes
+Ba(1) O(2) . . 2.881(3) yes
+Ba(2) O(1) . . 2.820(6) yes
+Ba(2) O(2) . . 2.871(4) yes
+Ba(2) O(2) . . 2.981(3) yes

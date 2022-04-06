@@ -1,0 +1,312 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/61/2006165.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2006165
+loop_
+_publ_author_name
+'Bergstr\"om, \"Orjan'
+'Gustafsson, Torbj\"orn'
+'Thomas, John O.'
+_publ_section_title
+;
+ Electrochemically Lithiated Vanadium Oxide, Li~2~V~6~O~13~
+;
+_journal_issue                   5
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              528
+_journal_page_last               530
+_journal_paper_doi               10.1107/S0108270196015235
+_journal_volume                  53
+_journal_year                    1997
+_chemical_formula_structural     Li2V6O13
+_chemical_formula_sum            'Li2 O13 V6'
+_chemical_formula_weight         527.52
+_chemical_name_systematic
+;
+?
+;
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-C 2y'
+_symmetry_space_group_name_H-M   'C 1 2/m 1'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 100.43(4)
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            2
+_cell_length_a                   11.857(6)
+_cell_length_b                   3.660(2)
+_cell_length_c                   10.909(6)
+_cell_measurement_reflns_used    14
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      11.50
+_cell_measurement_theta_min      10.36
+_cell_volume                     465.6(4)
+_computing_cell_refinement       DIF4
+_computing_data_collection       'DIF4 (Stoe & Cie, 1988)'
+_computing_data_reduction
+'STOEDATRED, LSQLIN, ABSSTOE (Lundgren, 1983)'
+_computing_molecular_graphics    'ORTEPII (Johnson, 1976)'
+_computing_publication_material  'DISTAN (Lundgren, 1983)'
+_computing_structure_refinement  'DUPALS (Lundgren, 1983)'
+_computing_structure_solution    'FORDUP (Lundgren, 1983)'
+_diffrn_ambient_temperature      293
+_diffrn_measurement_device       'STOE diffractometer'
+_diffrn_measurement_method       \q/2\q
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         xray_tube
+_diffrn_radiation_type           'Molybdenum K\a'
+_diffrn_radiation_wavelength     .7107
+_diffrn_reflns_av_R_equivalents  .030
+_diffrn_reflns_limit_h_max       26
+_diffrn_reflns_limit_h_min       -26
+_diffrn_reflns_limit_k_max       8
+_diffrn_reflns_limit_k_min       -8
+_diffrn_reflns_limit_l_max       0
+_diffrn_reflns_limit_l_min       -24
+_diffrn_reflns_number            5730
+_diffrn_reflns_reduction_process 'Lehmann and Larsen algorithm'
+_diffrn_reflns_theta_max         52.5
+_diffrn_reflns_theta_min         1.5
+_diffrn_standards_decay_%        0.07
+_diffrn_standards_interval_time  240
+_diffrn_standards_number         2
+_exptl_absorpt_coefficient_mu    5.67
+_exptl_absorpt_correction_T_max  0.6787
+_exptl_absorpt_correction_T_min  0.3230
+_exptl_absorpt_correction_type   gaussian
+_exptl_crystal_colour            black
+_exptl_crystal_density_diffrn    3.76
+_exptl_crystal_density_meas      ?
+_exptl_crystal_description       plate
+_exptl_crystal_F_000             496
+_exptl_crystal_size_max          0.17
+_exptl_crystal_size_mid          0.12
+_exptl_crystal_size_min          0.07
+_refine_diff_density_max         0.93
+_refine_diff_density_min         -1.01
+_refine_ls_extinction_coef
+;
+(anisotropic)
+0.12(1)  \\times 10^-6^, 0.74(4) \\times 10^-7^,
+-0.90(8) \\times 10^-7^, -0.100(7) \\times 10^-6^, 0.49(5) \\times 10^-7^
+;
+_refine_ls_extinction_method     'Becker & Coppens (1974), anisotropic type 1'
+_refine_ls_goodness_of_fit_all   2.69
+_refine_ls_goodness_of_fit_obs   2.69
+_refine_ls_matrix_type           full
+_refine_ls_number_constraints    0
+_refine_ls_number_parameters     71
+_refine_ls_number_reflns         5730
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          .040
+_refine_ls_R_factor_obs          .040
+_refine_ls_shift/esd_max         .1
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details     'w = 1/\s(F~o~^2^)'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         .055
+_refine_ls_wR_factor_obs         .055
+_reflns_number_observed          5730
+_reflns_number_total             2876
+_reflns_observed_criterion       I>-15\s(I)
+_cod_data_source_file            ta1132.cif
+_cod_data_source_block           TGN
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_atom_site_thermal_displace_type' tag value 'Uij' was replaced with
+'Uani' value 11 times.
+
+Automatic conversion script
+Id: cif_fix_values 1646 2011-03-28 12:23:43Z adriana 
+
+The following automatic conversions were performed:
+
+'_exptl_absorpt_correction_type' value 'Gaussian' changed to
+'gaussian' according to
+/home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+
+The following automatic conversions were performed:
+
+'_exptl_crystal_density_meas' value 'not measured' was changed to '?'
+- the value is perceived as not measured.
+
+Automatic conversion script
+Id: cif_fix_values 3008 2015-01-20 13:52:24Z robertas 
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'w = 1/\s(F~o~^2^)' was changed
+to 'calc'. New tag '_refine_ls_weighting_details' was created. The
+value of the new tag was set to 'w = 1/\s(F~o~^2^)'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        465.6(6)
+_cod_original_sg_symbol_H-M      'C 2/m'
+_cod_original_formula_sum        'Li2 V6 O13'
+_cod_database_code               2006165
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+_atom_site_aniso_type_symbol
+V1 .00506(4) .00451(4) .00635(4) .000000 .00002(3) .000000 V
+V2 .00422(4) .00452(4) .00793(4) .000000 .00108(3) .000000 V
+V3 .00443(4) .00450(4) .00774(4) .000000 .00069(4) .000000 V
+O1 .0064(2) .0056(2) .0100(2) .000000 .0010(2) .000000 O
+O2 .0063(2) .0053(2) .0110(2) .000000 .0016(2) .000000 O
+O3 .0062(2) .0046(2) .0181(3) .000000 .0037(2) .000000 O
+O4 .0066(3) .0160(4) .0110(3) .000000 .0023(2) .000000 O
+O5 .0140(2) .0132(2) .0072(2) .000000 .0021(2) .000000 O
+O6 .0122(2) .0175(3) .0091(2) .000000 .0004(2) .000000 O
+O7 .0047(2) .0091(2) .0073(2) .000000 .0012(2) .000000 O
+Li .046(2) .041(2) .031(2) .000000 .027(2) .000000 Li
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_calc_flag
+_atom_site_calc_attached_atom
+_atom_site_type_symbol
+V1 .354360(10) 0 .046780(10) .00543(3) Uani ? ? V
+V2 .409220(10) 0 .394630(10) .00556(4) Uani ? ? V
+V3 .709020(10) 0 .363500(10) .00561(3) Uani ? ? V
+O1 .18027(5) 0 .00799(5) .0074(2) Uani ? ? O
+O2 .87936(5) 0 .37472(5) .0075(2) Uani ? ? O
+O3 .23984(5) 0 .40683(6) .0095(2) Uani ? ? O
+O4 .5 0 0 .0111(3) Uani ? ? O
+O5 .39003(6) 0 .19866(5) .0115(2) Uani ? ? O
+O6 .65783(6) 0 .21349(6) .0131(2) Uani ? ? O
+O7 .56855(5) 0 .42661(5) .0070(2) Uani ? ? O
+Li .0855(3) 0 .1368(3) .037(2) Uani ? ? Li
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+O .047 .032 International_Tables_Vol_IV_Table_2.3.1
+Li .000 .000 International_Tables_Vol_IV_Table_2.3.1
+V .267 .530 International_Tables_Vol_IV_Table_2.3.1
+loop_
+_diffrn_standard_refln_index_h
+_diffrn_standard_refln_index_k
+_diffrn_standard_refln_index_l
+2 0 -6
+-5 1 3
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+V1 O5 . . 1.6340(10) yes
+V1 O4 . . 1.8870(10) yes
+V1 O1 . 9_545 1.9460(10) yes
+V1 O1 . 8_555 1.9460(10) yes
+V1 O1 . . 2.0310(10) yes
+V1 O6 . 10_655 2.8170(10) yes
+V1 Li . 9_545 2.896(2) yes
+V1 Li . 8_555 2.896(2) yes
+V2 O7 . . 1.8580(10) yes
+V2 O7 . 10_656 1.9200(10) yes
+V2 O2 . 5_455 1.8690(10) yes
+V2 O2 . 5_445 1.8690(10) yes
+V2 O3 . . 2.0370(10) yes
+V2 O5 . . 2.1090(10) yes
+V2 V2 . 10_656 2.8510(10) yes
+V2 V3 . 5_445 2.9680(10) yes
+V2 V3 . 5_455 2.9680(10) yes
+V3 O6 . . 1.6390(10) yes
+V3 O3 . 5_545 1.9090(10) yes
+V3 O3 . 5_555 1.9090(10) yes
+V3 O7 . . 1.9140(10) yes
+V3 O2 . . 2.0010(10) yes
+V3 O3 . 10_656 2.4690(10) yes
+V3 V2 . . 2.9680(10) no
+O1 V1 . . 1.9460(10) no
+O1 Li . . 1.952(3) no
+O1 V1 . . 2.0310(10) no
+O1 O1 . . 2.4940(10) no
+O1 O4 . . 2.8030(10) no
+O1 O5 . . 2.9060(10) no
+O1 O5 . . 2.939(2) no
+O1 O6 . . 2.9430(10) no
+O2 V2 . . 1.8690(10) no
+O2 V3 . . 2.0010(10) no
+O2 O3 . . 2.5330(10) no
+O2 O5 . . 2.6720(10) no
+O2 O7 . . 2.8180(10) no
+O2 O7 . . 2.8710(10) no
+O2 O6 . . 2.884(2) no
+O2 O3 . . 2.983(2) no
+O3 V3 . . 1.9090(10) no
+O3 V2 . . 2.0370(10) no
+O3 V3 . . 2.4690(10) no
+O3 O2 . . 2.5330(10) no
+O3 O7 . . 2.6400(10) no
+O3 O3 . . 2.7130(10) no
+O3 O7 . . 2.7710(10) no
+O3 O6 . . 2.8290(10) no
+O3 O2 . . 2.983(2) no
+O4 V1 . . 1.8870(10) no
+O4 Li . . 2.461(2) no
+O4 O6 . . 2.711(2) no
+O4 O5 . . 2.7240(10) no
+O4 O1 . . 2.8030(10) no
+O5 V1 . . 1.6340(10) no
+O5 V2 . . 2.1090(10) no
+O5 O2 . . 2.6720(10) no
+O5 O4 . . 2.7240(10) no
+O5 O1 . . 2.9060(10) no
+O5 O1 . . 2.939(2) no
+O5 O7 . . 2.960(2) no
+O6 V3 . . 1.6390(10) no
+O6 Li . . 2.127(2) no
+O6 O4 . . 2.711(2) no
+O6 O7 . . 2.7230(10) no
+O6 V1 . . 2.817(2) no
+O6 O3 . . 2.8290(10) no
+O6 O2 . . 2.884(2) no
+O6 O1 . . 2.9430(10) no
+O7 V2 . . 1.8580(10) no
+O7 V3 . . 1.9140(10) no
+O7 V2 . . 1.9200(10) no
+O7 O7 . . 2.480(2) no
+O7 O3 . . 2.640(2) no
+O7 O6 . . 2.7230(10) no
+O7 O3 . . 2.7710(10) no
+O7 O2 . . 2.8180(10) no
+O7 O2 . . 2.8710(10) no
+O7 O5 . . 2.960(2) no
+Li O1 . . 1.952(3) yes
+Li O6 . 5_445 2.127(2) yes
+Li O6 . 5_455 2.127(2) yes
+Li O4 . 5_445 2.461(2) yes
+Li O4 . 5_455 2.461(2) yes
+Li V1 . 9_545 2.896(2) yes
+Li V1 . 8_555 2.896(2) yes

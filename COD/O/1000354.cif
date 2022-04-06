@@ -1,0 +1,111 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/1/00/03/1000354.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1000354
+loop_
+_publ_author_name
+'Permer, L'
+'Laligant, Y'
+'Ferey, G'
+'Calage, Y'
+_publ_section_title
+;
+Crystal structure, magnetic, and Moessbauer studies of
+Cu~6~Fe~0.9~V~6~O~19~: a compound with relaxation
+effect
+;
+_journal_coden_ASTM              JSSCBI
+_journal_name_full               'Journal of Solid State Chemistry'
+_journal_page_first              539
+_journal_page_last               546
+_journal_paper_doi               10.1006/jssc.1993.1379
+_journal_volume                  107
+_journal_year                    1993
+_chemical_formula_structural     'Cu6 Fe0.9 V6 O19'
+_chemical_formula_sum            'Cu6 Fe0.9 O19 V6'
+_chemical_name_systematic        'Copper iron vanadium oxide (6/0.9/6/19)'
+_space_group_IT_number           148
+_symmetry_cell_setting           trigonal
+_symmetry_space_group_name_Hall  '-R 3'
+_symmetry_space_group_name_H-M   'R -3 :H'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            3
+_cell_length_a                   12.9399(8)
+_cell_length_b                   12.9399(8)
+_cell_length_c                   7.1275(3)
+_cell_volume                     1033.5
+_refine_ls_R_factor_all          0.035
+_cod_original_sg_symbol_H-M      'R -3 H'
+_cod_original_formula_sum        'Cu6 Fe.9 O19 V6'
+_cod_database_code               1000354
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-y,x-y,z
+y-x,-x,z
+-x,-y,-z
+y,y-x,-z
+x-y,x,-z
+1/3+x,2/3+y,2/3+z
+2/3+x,1/3+y,1/3+z
+1/3-y,2/3+x-y,2/3+z
+2/3-y,1/3+x-y,1/3+z
+1/3-x+y,2/3-x,2/3+z
+2/3-x+y,1/3-x,1/3+z
+1/3-x,2/3-y,2/3-z
+2/3-x,1/3-y,1/3-z
+1/3+y,2/3-x+y,2/3-z
+2/3+y,1/3-x+y,1/3-z
+1/3+x-y,2/3+x,2/3-z
+2/3+x-y,1/3+x,1/3-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_22
+_atom_site_aniso_U_23
+_atom_site_aniso_U_33
+Cu1 0.0164(2) 0.0109(2) -0.0005(1) 0.0152(2) .0000(1) 0.0189(2)
+Fe1 0.0111(3) 0.0055(1) 0. 0.0111(3) 0. 0.0078(3)
+V1 0.0072(2) 0.0043(1) 0.0004(1) 0.0091(2) 0.0001(1) 0.0082(2)
+O1 0.0091(7) 0.0068(6) 0.0022(6) 0.0106(7) 0.0018(6) 0.0101(7)
+O2 0.0083(7) 0.0040(6) .0000(6) 0.0096(7) -0.0002(5) 0.0096(7)
+O3 0.0079(10) 0.0040(5) 0. 0.007(1) 0. 0.0081(15)
+O4 0.0111(8) 0.0080(7) 0.0015(6) 0.0157(8) -0.0005(6) 0.0091(7)
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_calc_flag
+Cu1 Cu2+ 18 f 0.0419 0.7627 0.0997(1) 1. 0 d
+Fe1 Fe3+ 3 a 0. 0. 0. 0.90(1) 0 d
+V1 V4+ 18 f 0.1552 0.0204 0.3292(1) 1. 0 d
+O1 O2- 18 f 0.4801(2) 0.5768(2) 0.1699(3) 1. 0 d
+O2 O2- 18 f 0.4566(2) 0.6837(2) 0.4823(3) 1. 0 d
+O3 O2- 3 b 0. 0. 0.5 1. 0 d
+O4 O2- 18 f 0.5980(2) 0.7009(2) 0.8546(3) 1. 0 d
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Cu2+ 2.000
+Fe3+ 3.000
+V4+ 3.880
+O2- -2.000

@@ -1,0 +1,135 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-21 05:34:46 +0200 (Mon, 21 Mar 2016) $
+#$Revision: 178485 $
+#$URL: svn://www.crystallography.net/cod/cif/4/03/06/4030607.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4030607
+loop_
+_publ_author_name
+'Jung, D.-K.'
+'Gravereau, P.'
+'Demazeau, G.'
+_publ_section_title
+;
+ Stabilization of six-coordinated iridium(VI) in a perovskite oxygen
+ lattice Ba2MIrO6 (M = Ca, Sr)
+;
+_journal_name_full
+'European Journal of Solid State and Inorganic Chemistry'
+_journal_page_first              1025
+_journal_page_last               1037
+_journal_volume                  30
+_journal_year                    1993
+_chemical_formula_sum            'Ba2 Ir O6 Sr'
+_chemical_formula_weight         650.50
+_space_group_IT_number           166
+_symmetry_cell_setting           rhombohedral
+_symmetry_Int_Tables_number      166
+_symmetry_space_group_name_Hall  '-P 3* 2'
+_symmetry_space_group_name_H-M   'R -3 m :R'
+_cell_angle_alpha                60.48(5)
+_cell_angle_beta                 60.48(5)
+_cell_angle_gamma                60.48(5)
+_cell_formula_units_Z            1
+_cell_length_a                   6.0250(1)
+_cell_length_b                   6.0250(1)
+_cell_length_c                   6.0250(1)
+_cell_volume                     156.33(10)
+_diffrn_ambient_temperature      298
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_type           CuK\a
+_diffrn_radiation_wavelength     1.5418
+_exptl_crystal_density_diffrn    6.910
+_exptl_crystal_F_000             275
+_pd_proc_ls_prof_R_factor        0.106
+_pd_proc_ls_prof_wR_factor       0.129
+_refine_ls_R_I_factor            0.033
+_cod_data_source_file            EJSSIC-1993-30-1025-1037-2.cif
+_cod_data_source_block           Ba2SrIrO6
+_cod_depositor_comments
+;
+Rietveld refinements, software DBW3.2S
+;
+_cod_original_cell_volume        156.33(11)
+_cod_original_sg_symbol_H-M      'R -3 m r'
+_cod_database_code               4030607
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 z,x,y
+3 y,z,x
+4 -y,-x,-z
+5 -z,-y,-x
+6 -x,-z,-y
+7 -x,-y,-z
+8 -z,-x,-y
+9 -y,-z,-x
+10 y,x,z
+11 z,y,x
+12 x,z,y
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_thermal_displace_type
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+Ir Ir Uiso 0.50000 0.50000 0.50000 1.000 0.0025
+O O Uiso 0.7222(13) 0.7222(13) 0.2747(13) 1.000 0.039(3)
+Ba Ba Uiso 0.25050(10) 0.25050(10) 0.25050(10) 1.000 0.0068(5)
+Sr Sr Uiso 0.00000 0.00000 0.00000 1.000 0.0148(8)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Ba Ba -1.0456 8.4617 ' International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ir Ir -4.7710 6.5667 ' International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0492 0.0322 ' International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Sr Sr -0.3528 1.8200 ' International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O Ir O 91.2(3) . 2_555 yes
+O Ir O 91.2(4) . 3_555 yes
+O Ir O 180.00 . 4_666 yes
+O Ir O 88.8(3) . 5_666 yes
+O Ir O 88.8(4) . 6_666 yes
+O Ir O 91.2(3) 2_555 3_555 yes
+O Ir O 88.8(3) 2_555 4_666 yes
+O Ir O 180.00 2_555 5_666 yes
+O Ir O 88.8(3) 2_555 6_666 yes
+O Ir O 88.8(4) 3_555 4_666 yes
+O Ir O 88.8(3) 3_555 5_666 yes
+O Ir O 180.00 3_555 6_666 yes
+O Ir O 91.2(3) 4_666 5_666 yes
+O Ir O 91.2(4) 4_666 6_666 yes
+O Ir O 91.2(3) 5_666 6_666 yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Ir O 1.900(8) . yes
+Ir O 1.900(7) 2_555 yes
+Ir O 1.900(8) 3_555 yes
+Ir O 1.900(8) 4_666 yes
+Ir O 1.900(7) 5_666 yes
+Ir O 1.900(8) 6_666 yes

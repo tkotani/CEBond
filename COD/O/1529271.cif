@@ -1,0 +1,675 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-13 14:50:18 +0200 (Sat, 13 Feb 2016) $
+#$Revision: 176428 $
+#$URL: svn://www.crystallography.net/cod/cif/1/52/92/1529271.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1529271
+loop_
+_publ_author_name
+'Bezmaternykh, Leonard'
+'Kolesnikova, Evgeniya'
+'Eremin, Evgeniy'
+'Seryotkin, Yuriy'
+'Molokeev, Maxim'
+'Volkov, Nikita'
+_publ_section_title
+;
+ Spin-lattice coupling and peculiarities of magnetic behavior of
+ ferrimagnetic ludwigites Mn0.5(2+)M1.5(2+)Mn(3+)BO5 (M=Cu, Ni)
+;
+_journal_issue                   0
+_journal_name_full               'Solid State Phenomena'
+_journal_page_first              133
+_journal_paper_doi               10.4028/www.scientific.net/SSP.233-234.133
+_journal_volume                  233
+_journal_year                    2015
+_chemical_formula_moiety         'B4 Mn5.64 Ni6.36 O20'
+_chemical_formula_sum            'B4 Mn5.64 Ni6.36 O20'
+_chemical_formula_weight         1046.37
+_chemical_name_systematic
+; 
+ ? 
+;
+_space_group_IT_number           55
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2 2ab'
+_symmetry_space_group_name_H-M   'P b a m'
+_atom_sites_solution_hydrogens   .
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            1
+_cell_length_a                   9.1757(12)
+_cell_length_b                   12.3163(16)
+_cell_length_c                   2.9978(4)
+_cell_measurement_temperature    296(2)
+_cell_volume                     338.78(8)
+_computing_cell_refinement       'APEX2 (Bruker, 2003-2008)'
+_computing_data_collection       'APEX2 (Bruker, 2003-2008)'
+_computing_data_reduction        'SAINT (Bruker, 2009)'
+_computing_molecular_graphics    'DIAMOND (Brandenburg, 2005)'
+_computing_publication_material  'publCIF (Westrip, 2009)'
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 2008)'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 2008)'
+_diffrn_ambient_temperature      296(2)
+_diffrn_measured_fraction_theta_full 1.000
+_diffrn_measured_fraction_theta_max 0.972
+_diffrn_measurement_device_type  'Bruker APEX-II CCD'
+_diffrn_measurement_method       '\f and \w scans'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0453
+_diffrn_reflns_av_sigmaI/netI    0.0356
+_diffrn_reflns_limit_h_max       12
+_diffrn_reflns_limit_h_min       -12
+_diffrn_reflns_limit_k_max       16
+_diffrn_reflns_limit_k_min       -16
+_diffrn_reflns_limit_l_max       4
+_diffrn_reflns_limit_l_min       -4
+_diffrn_reflns_number            3077
+_diffrn_reflns_theta_full        25.00
+_diffrn_reflns_theta_max         29.72
+_diffrn_reflns_theta_min         2.77
+_exptl_absorpt_coefficient_mu    13.807
+_exptl_absorpt_correction_T_max  0.7459
+_exptl_absorpt_correction_T_min  0.1908
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details
+;
+SADABS-2004/1. Bruker AXS Inc., Madison, Wisconsin, USA, 2004
+;
+_exptl_crystal_colour            black
+_exptl_crystal_density_diffrn    5.129
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       needle
+_exptl_crystal_F_000             499
+_exptl_crystal_size_max          0.4
+_exptl_crystal_size_mid          0.1
+_exptl_crystal_size_min          0.1
+_refine_diff_density_max         1.131
+_refine_diff_density_min         -1.334
+_refine_diff_density_rms         0.279
+_refine_ls_extinction_coef       0.071(4)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_ref   1.171
+_refine_ls_hydrogen_treatment    .
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     59
+_refine_ls_number_reflns         549
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.171
+_refine_ls_R_factor_all          0.0312
+_refine_ls_R_factor_gt           0.0286
+_refine_ls_shift/su_max          0.001
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0356P)^2^+0.0479P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0668
+_refine_ls_wR_factor_ref         0.0691
+_reflns_number_gt                510
+_reflns_number_total             549
+_reflns_threshold_expression     >2sigma(I)
+_iucr_refine_instructions_details
+;
+TITL a in Pbam
+CELL 0.71073   9.1757  12.3163   2.9978  90.000  90.000  90.000
+ZERR   1.00   0.0012   0.0016   0.0004   0.000   0.000   0.000
+LATT  1
+SYMM -X, -Y, Z
+SYMM 0.5-X, 0.5+Y, -Z
+SYMM 0.5+X, 0.5-Y, -Z
+SFAC B O MN NI
+UNIT 4 20 5.64 6.36
+TEMP 23.000
+ 
+L.S. 4
+BOND
+FMAP 2
+PLAN 20
+ 
+ACTA 50
+ 
+EXYZ MN1 NI1
+EADP MN1 NI1
+EXYZ MN2 NI2
+EADP MN2 NI2
+EXYZ MN3 NI3
+EADP MN3 NI3
+EXYZ MN4 NI4
+EADP MN4 NI4
+ 
+WGHT    0.035600    0.047900
+EXTI    0.070673
+FVAR       0.19500   0.41887   0.34771   0.64307   0.34670
+MN1   3   -0.002339    0.719563    0.000000    20.50000    0.00641    0.00547 =
+         0.01064    0.00000    0.00000    0.00072
+NI1   4   -0.002339    0.719563    0.000000   -20.50000    0.00641    0.00547 =
+         0.01064    0.00000    0.00000    0.00072
+MN2   3    0.000000    1.000000    0.000000    30.25000    0.00602    0.00620 =
+         0.00993    0.00000    0.00000   -0.00060
+NI2   4    0.000000    1.000000    0.000000   -30.25000    0.00602    0.00620 =
+         0.00993    0.00000    0.00000   -0.00060
+MN3   3    0.259742    0.615232   -0.500000    40.50000    0.00605    0.00603 =
+         0.00907    0.00000    0.00000    0.00031
+NI3   4    0.259742    0.615232   -0.500000   -40.50000    0.00605    0.00603 =
+         0.00907    0.00000    0.00000    0.00031
+MN4   3    0.000000    0.500000   -0.500000    50.25000    0.00832    0.00543 =
+         0.00966    0.00000    0.00000   -0.00053
+NI4   4    0.000000    0.500000   -0.500000   -50.25000    0.00832    0.00543 =
+         0.00966    0.00000    0.00000   -0.00053
+O1    2   -0.107120    0.856586    0.000000    10.50000    0.01056    0.01120 =
+         0.01940    0.00000    0.00000    0.00184
+O2    2    0.146391    0.763828   -0.500000    10.50000    0.01048    0.01117 =
+         0.01418    0.00000    0.00000   -0.00175
+O3    2    0.113291    0.579564    0.000000    10.50000    0.01122    0.01136 =
+         0.01983    0.00000    0.00000   -0.00245
+O4    2   -0.126331    0.641511   -0.500000    10.50000    0.00978    0.00949 =
+         0.01434    0.00000    0.00000    0.00011
+O5    2    0.148019    0.957938   -0.500000    10.50000    0.00958    0.00998 =
+         0.01505    0.00000    0.00000    0.00309
+B     1    0.222833    0.861376   -0.500000    10.50000    0.00914
+HKLF 4
+ 
+REM  a in Pbam
+REM R1 =  0.0286 for    510 Fo > 4sig(Fo)  and  0.0312 for all    549 data
+REM     59 parameters refined using      0 restraints
+ 
+END  
+     
+WGHT      0.0358      0.0161 
+REM Highest difference peak  1.131,  deepest hole -1.334,  1-sigma level  0.279
+Q1    1   0.0419  0.4995 -0.7651  11.00000  0.05    1.13
+Q2    1  -0.0391  0.7198 -0.2785  11.00000  0.05    1.11
+Q3    1   0.0393  0.7177  0.2721  11.00000  0.05    1.05
+Q4    1   0.0341  0.9993  0.2824  11.00000  0.05    1.01
+Q5    1   0.2948  0.6133 -0.2423  11.00000  0.05    0.99
+Q6    1  -0.0622  0.6763  0.0000  10.50000  0.05    0.90
+Q7    1   0.2058  0.6126 -0.7768  11.00000  0.05    0.81
+Q8    1  -0.0296  0.6413 -0.2556  11.00000  0.05    0.78
+Q9    1   0.3177  0.6662 -0.5000  10.50000  0.05    0.72
+Q10   1   0.0369  0.5780  0.2487  11.00000  0.05    0.67
+Q11   1   0.0691  0.7597  0.0000  10.50000  0.05    0.61
+Q12   1  -0.0201  0.8604 -0.2290  11.00000  0.05    0.58
+Q13   1   0.0691  1.0368  0.0000  10.50000  0.05    0.57
+Q14   1   0.2315  0.5387 -0.7418  11.00000  0.05    0.55
+Q15   1  -0.0623  0.7857 -0.1834  11.00000  0.05    0.55
+Q16   1  -0.0325  0.7592 -0.5000  10.50000  0.05    0.55
+Q17   1   0.0617  0.7771  0.2248  11.00000  0.05    0.54
+Q18   1  -0.2064  0.7824  0.0000  10.50000  0.05    0.53
+Q19   1   0.0652  0.6840 -0.5000  10.50000  0.05    0.52
+Q20   1   0.0573  0.9584  0.0000  10.50000  0.05    0.52
+;
+_cod_data_source_file            Ni3Mn3B2O10.cif
+_cod_data_source_block           a
+_cod_original_sg_symbol_Hall
+;
+-P 2 2ab 
+;
+_cod_original_sg_symbol_H-M      Pbam
+_cod_database_code               1529271
+_cod_database_fobs_code          1529271
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, -y, z'
+'-x+1/2, y+1/2, -z'
+'x+1/2, -y+1/2, -z'
+'-x, -y, -z'
+'x, y, -z'
+'x-1/2, -y-1/2, z'
+'-x-1/2, y-1/2, z'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Mn1 Mn -0.00234(4) 0.71956(5) 0.0000 0.0075(3) Uani 0.42(5) 2 d SP . .
+Ni1 Ni -0.00234(4) 0.71956(5) 0.0000 0.0075(3) Uani 0.58(5) 2 d SP . .
+Mn2 Mn 0.0000 1.0000 0.0000 0.0074(3) Uani 0.35(5) 4 d SP . .
+Ni2 Ni 0.0000 1.0000 0.0000 0.0074(3) Uani 0.65(5) 4 d SP . .
+Mn3 Mn 0.25974(5) 0.61523(4) -0.5000 0.0071(2) Uani 0.64(4) 2 d SP . .
+Ni3 Ni 0.25974(5) 0.61523(4) -0.5000 0.0071(2) Uani 0.36(4) 2 d SP . .
+Mn4 Mn 0.0000 0.5000 -0.5000 0.0078(3) Uani 0.35(5) 4 d SP . .
+Ni4 Ni 0.0000 0.5000 -0.5000 0.0078(3) Uani 0.65(5) 4 d SP . .
+O1 O -0.1071(3) 0.8566(2) 0.0000 0.0137(7) Uani 1 2 d S . .
+O2 O 0.1464(3) 0.7638(2) -0.5000 0.0119(7) Uani 1 2 d S . .
+O3 O 0.1133(3) 0.5796(3) 0.0000 0.0141(7) Uani 1 2 d S . .
+O4 O -0.1263(3) 0.6415(2) -0.5000 0.0112(7) Uani 1 2 d S . .
+O5 O 0.1480(3) 0.9579(2) -0.5000 0.0115(7) Uani 1 2 d S . .
+B B 0.2228(5) 0.8614(3) -0.5000 0.0091(9) Uiso 1 2 d S . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Mn1 0.0064(3) 0.0055(4) 0.0106(4) 0.000 0.000 0.00072(15)
+Ni1 0.0064(3) 0.0055(4) 0.0106(4) 0.000 0.000 0.00072(15)
+Mn2 0.0060(4) 0.0062(5) 0.0099(5) 0.000 0.000 -0.0006(2)
+Ni2 0.0060(4) 0.0062(5) 0.0099(5) 0.000 0.000 -0.0006(2)
+Mn3 0.0061(3) 0.0060(4) 0.0091(4) 0.000 0.000 0.00031(19)
+Ni3 0.0061(3) 0.0060(4) 0.0091(4) 0.000 0.000 0.00031(19)
+Mn4 0.0083(4) 0.0054(5) 0.0097(5) 0.000 0.000 -0.0005(2)
+Ni4 0.0083(4) 0.0054(5) 0.0097(5) 0.000 0.000 -0.0005(2)
+O1 0.0106(14) 0.0112(16) 0.0194(16) 0.000 0.000 0.0018(10)
+O2 0.0105(13) 0.0112(15) 0.0142(13) 0.000 0.000 -0.0017(10)
+O3 0.0112(13) 0.0114(15) 0.0198(15) 0.000 0.000 -0.0025(11)
+O4 0.0098(13) 0.0095(16) 0.0143(15) 0.000 0.000 0.0001(9)
+O5 0.0096(14) 0.0100(15) 0.0151(14) 0.000 0.000 0.0031(10)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+B B 0.0013 0.0007 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Mn Mn 0.3368 0.7283 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ni Ni 0.3393 1.1124 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+O1 Mn1 O3 178.07(11) . .
+O1 Mn1 O2 95.52(10) . 1_556
+O3 Mn1 O2 83.13(9) . 1_556
+O1 Mn1 O2 95.52(10) . .
+O3 Mn1 O2 83.14(9) . .
+O2 Mn1 O2 91.13(10) 1_556 .
+O1 Mn1 O4 97.40(9) . 1_556
+O3 Mn1 O4 83.96(9) . 1_556
+O2 Mn1 O4 87.80(8) 1_556 1_556
+O2 Mn1 O4 167.08(11) . 1_556
+O1 Mn1 O4 97.40(9) . .
+O3 Mn1 O4 83.96(9) . .
+O2 Mn1 O4 167.08(11) 1_556 .
+O2 Mn1 O4 87.80(8) . .
+O4 Mn1 O4 90.36(10) 1_556 .
+O1 Mn1 Ni1 90.0 . 1_556
+O3 Mn1 Ni1 90.0 . 1_556
+O2 Mn1 Ni1 44.43(5) 1_556 1_556
+O2 Mn1 Ni1 135.57(5) . 1_556
+O4 Mn1 Ni1 44.82(5) 1_556 1_556
+O4 Mn1 Ni1 135.18(5) . 1_556
+O1 Mn1 Ni1 90.0 . 1_554
+O3 Mn1 Ni1 90.0 . 1_554
+O2 Mn1 Ni1 135.57(5) 1_556 1_554
+O2 Mn1 Ni1 44.43(5) . 1_554
+O4 Mn1 Ni1 135.18(5) 1_556 1_554
+O4 Mn1 Ni1 44.82(5) . 1_554
+Ni1 Mn1 Ni1 179.998(1) 1_556 1_554
+O1 Mn1 Mn1 90.0 . 1_556
+O3 Mn1 Mn1 90.0 . 1_556
+O2 Mn1 Mn1 44.43(5) 1_556 1_556
+O2 Mn1 Mn1 135.57(5) . 1_556
+O4 Mn1 Mn1 44.82(5) 1_556 1_556
+O4 Mn1 Mn1 135.18(5) . 1_556
+Ni1 Mn1 Mn1 0.000(15) 1_556 1_556
+Ni1 Mn1 Mn1 179.998(1) 1_554 1_556
+O1 Mn1 Mn1 90.0 . 1_554
+O3 Mn1 Mn1 90.0 . 1_554
+O2 Mn1 Mn1 135.57(5) 1_556 1_554
+O2 Mn1 Mn1 44.43(5) . 1_554
+O4 Mn1 Mn1 135.18(5) 1_556 1_554
+O4 Mn1 Mn1 44.82(5) . 1_554
+Ni1 Mn1 Mn1 179.998(1) 1_556 1_554
+Ni1 Mn1 Mn1 0.00(3) 1_554 1_554
+Mn1 Mn1 Mn1 179.998(1) 1_556 1_554
+O1 Mn1 Mn4 139.76(6) . .
+O3 Mn1 Mn4 41.54(5) . .
+O2 Mn1 Mn4 124.67(8) 1_556 .
+O2 Mn1 Mn4 82.90(7) . .
+O4 Mn1 Mn4 87.12(6) 1_556 .
+O4 Mn1 Mn4 42.44(7) . .
+Ni1 Mn1 Mn4 118.999(7) 1_556 .
+Ni1 Mn1 Mn4 61.003(7) 1_554 .
+Mn1 Mn1 Mn4 118.999(7) 1_556 .
+Mn1 Mn1 Mn4 61.003(7) 1_554 .
+O1 Mn2 O1 180.0 . 5_575
+O1 Mn2 O5 84.29(9) . 5_574
+O1 Mn2 O5 95.71(9) 5_575 5_574
+O1 Mn2 O5 95.71(9) . 1_556
+O1 Mn2 O5 84.29(9) 5_575 1_556
+O5 Mn2 O5 180.00(15) 5_574 1_556
+O1 Mn2 O5 84.29(9) . 5_575
+O1 Mn2 O5 95.71(9) 5_575 5_575
+O5 Mn2 O5 91.76(10) 5_574 5_575
+O5 Mn2 O5 88.24(10) 1_556 5_575
+O1 Mn2 O5 95.71(9) . .
+O1 Mn2 O5 84.29(9) 5_575 .
+O5 Mn2 O5 88.24(10) 5_574 .
+O5 Mn2 O5 91.76(10) 1_556 .
+O5 Mn2 O5 180.000(1) 5_575 .
+O1 Mn2 Ni2 90.0 . 1_554
+O1 Mn2 Ni2 90.0 5_575 1_554
+O5 Mn2 Ni2 44.12(5) 5_574 1_554
+O5 Mn2 Ni2 135.88(5) 1_556 1_554
+O5 Mn2 Ni2 135.88(5) 5_575 1_554
+O5 Mn2 Ni2 44.12(5) . 1_554
+O1 Mn2 Mn2 90.0 . 1_554
+O1 Mn2 Mn2 90.0 5_575 1_554
+O5 Mn2 Mn2 44.12(5) 5_574 1_554
+O5 Mn2 Mn2 135.88(5) 1_556 1_554
+O5 Mn2 Mn2 135.88(5) 5_575 1_554
+O5 Mn2 Mn2 44.12(5) . 1_554
+Ni2 Mn2 Mn2 0.0 1_554 1_554
+O1 Mn2 Mn2 90.0 . 1_556
+O1 Mn2 Mn2 90.0 5_575 1_556
+O5 Mn2 Mn2 135.88(5) 5_574 1_556
+O5 Mn2 Mn2 44.12(5) 1_556 1_556
+O5 Mn2 Mn2 44.12(5) 5_575 1_556
+O5 Mn2 Mn2 135.88(5) . 1_556
+Ni2 Mn2 Mn2 180.0 1_554 1_556
+Mn2 Mn2 Mn2 180.0 1_554 1_556
+O1 Mn2 Ni2 90.0 . 1_556
+O1 Mn2 Ni2 90.0 5_575 1_556
+O5 Mn2 Ni2 135.88(5) 5_574 1_556
+O5 Mn2 Ni2 44.12(5) 1_556 1_556
+O5 Mn2 Ni2 44.12(5) 5_575 1_556
+O5 Mn2 Ni2 135.88(5) . 1_556
+Ni2 Mn2 Ni2 180.0 1_554 1_556
+Mn2 Mn2 Ni2 180.0 1_554 1_556
+Mn2 Mn2 Ni2 0.0 1_556 1_556
+O1 Mn2 Mn3 139.96(5) . 3
+O1 Mn2 Mn3 40.04(5) 5_575 3
+O5 Mn2 Mn3 135.60(8) 5_574 3
+O5 Mn2 Mn3 44.40(8) 1_556 3
+O5 Mn2 Mn3 90.11(6) 5_575 3
+O5 Mn2 Mn3 89.89(6) . 3
+Ni2 Mn2 Mn3 119.756(6) 1_554 3
+Mn2 Mn2 Mn3 119.756(6) 1_554 3
+Mn2 Mn2 Mn3 60.244(6) 1_556 3
+Ni2 Mn2 Mn3 60.244(6) 1_556 3
+O1 Mn2 Mn3 40.04(5) . 7_575
+O1 Mn2 Mn3 139.96(5) 5_575 7_575
+O5 Mn2 Mn3 44.40(8) 5_574 7_575
+O5 Mn2 Mn3 135.60(8) 1_556 7_575
+O5 Mn2 Mn3 89.89(6) 5_575 7_575
+O5 Mn2 Mn3 90.11(6) . 7_575
+Ni2 Mn2 Mn3 60.244(6) 1_554 7_575
+Mn2 Mn2 Mn3 60.244(6) 1_554 7_575
+Mn2 Mn2 Mn3 119.756(6) 1_556 7_575
+Ni2 Mn2 Mn3 119.756(6) 1_556 7_575
+Mn3 Mn2 Mn3 180.0 3 7_575
+O1 Mn3 O1 99.45(13) 7_675 7_674
+O1 Mn3 O3 83.58(9) 7_675 .
+O1 Mn3 O3 176.60(8) 7_674 .
+O1 Mn3 O3 176.60(8) 7_675 1_554
+O1 Mn3 O3 83.58(9) 7_674 1_554
+O3 Mn3 O3 93.35(11) . 1_554
+O1 Mn3 O2 98.84(9) 7_675 .
+O1 Mn3 O2 98.84(9) 7_674 .
+O3 Mn3 O2 82.13(10) . .
+O3 Mn3 O2 82.13(10) 1_554 .
+O1 Mn3 O5 85.01(9) 7_675 3_544
+O1 Mn3 O5 85.01(9) 7_674 3_544
+O3 Mn3 O5 93.77(10) . 3_544
+O3 Mn3 O5 93.77(10) 1_554 3_544
+O2 Mn3 O5 173.99(9) . 3_544
+O1 Mn3 Mn4 128.66(6) 7_675 .
+O1 Mn3 Mn4 128.66(6) 7_674 .
+O3 Mn3 Mn4 47.98(6) . .
+O3 Mn3 Mn4 47.98(6) 1_554 .
+O2 Mn3 Mn4 91.16(7) . .
+O5 Mn3 Mn4 82.83(7) 3_544 .
+O1 Mn3 Ni3 40.27(6) 7_675 1_556
+O1 Mn3 Ni3 139.73(6) 7_674 1_556
+O3 Mn3 Ni3 43.33(5) . 1_556
+O3 Mn3 Ni3 136.67(5) 1_554 1_556
+O2 Mn3 Ni3 90.0 . 1_556
+O5 Mn3 Ni3 90.0 3_544 1_556
+Mn4 Mn3 Ni3 90.0 . 1_556
+O1 Mn3 Ni3 139.73(6) 7_675 1_554
+O1 Mn3 Ni3 40.27(6) 7_674 1_554
+O3 Mn3 Ni3 136.67(5) . 1_554
+O3 Mn3 Ni3 43.33(5) 1_554 1_554
+O2 Mn3 Ni3 90.0 . 1_554
+O5 Mn3 Ni3 90.0 3_544 1_554
+Mn4 Mn3 Ni3 90.0 . 1_554
+Ni3 Mn3 Ni3 180.0 1_556 1_554
+O1 Mn3 Mn3 40.27(6) 7_675 1_556
+O1 Mn3 Mn3 139.73(6) 7_674 1_556
+O3 Mn3 Mn3 43.33(5) . 1_556
+O3 Mn3 Mn3 136.67(5) 1_554 1_556
+O2 Mn3 Mn3 90.0 . 1_556
+O5 Mn3 Mn3 90.0 3_544 1_556
+Mn4 Mn3 Mn3 90.0 . 1_556
+Ni3 Mn3 Mn3 0.00(3) 1_556 1_556
+Ni3 Mn3 Mn3 180.0 1_554 1_556
+O1 Mn3 Mn3 139.73(6) 7_675 1_554
+O1 Mn3 Mn3 40.27(6) 7_674 1_554
+O3 Mn3 Mn3 136.67(5) . 1_554
+O3 Mn3 Mn3 43.33(5) 1_554 1_554
+O2 Mn3 Mn3 90.0 . 1_554
+O5 Mn3 Mn3 90.0 3_544 1_554
+Mn4 Mn3 Mn3 90.0 . 1_554
+Ni3 Mn3 Mn3 180.0 1_556 1_554
+Ni3 Mn3 Mn3 0.000(18) 1_554 1_554
+Mn3 Mn3 Mn3 180.0 1_556 1_554
+O3 Mn4 O3 180.0 . 5_564
+O3 Mn4 O3 87.25(11) . 5_565
+O3 Mn4 O3 92.75(11) 5_564 5_565
+O3 Mn4 O3 92.75(11) . 1_554
+O3 Mn4 O3 87.25(11) 5_564 1_554
+O3 Mn4 O3 180.00(15) 5_565 1_554
+O3 Mn4 O4 96.66(10) . 5_564
+O3 Mn4 O4 83.33(10) 5_564 5_564
+O3 Mn4 O4 83.33(10) 5_565 5_564
+O3 Mn4 O4 96.67(10) 1_554 5_564
+O3 Mn4 O4 83.34(10) . .
+O3 Mn4 O4 96.66(10) 5_564 .
+O3 Mn4 O4 96.66(10) 5_565 .
+O3 Mn4 O4 83.34(10) 1_554 .
+O4 Mn4 O4 180.0 5_564 .
+O3 Mn4 Mn3 47.66(5) . .
+O3 Mn4 Mn3 132.34(5) 5_564 .
+O3 Mn4 Mn3 132.34(5) 5_565 .
+O3 Mn4 Mn3 47.66(5) 1_554 .
+O4 Mn4 Mn3 87.15(7) 5_564 .
+O4 Mn4 Mn3 92.85(7) . .
+O3 Mn4 Ni3 132.34(5) . 5_564
+O3 Mn4 Ni3 47.66(5) 5_564 5_564
+O3 Mn4 Ni3 47.66(5) 5_565 5_564
+O3 Mn4 Ni3 132.34(5) 1_554 5_564
+O4 Mn4 Ni3 92.85(7) 5_564 5_564
+O4 Mn4 Ni3 87.15(7) . 5_564
+Mn3 Mn4 Ni3 180.0 . 5_564
+O3 Mn4 Mn3 132.34(5) . 5_564
+O3 Mn4 Mn3 47.66(5) 5_564 5_564
+O3 Mn4 Mn3 47.66(5) 5_565 5_564
+O3 Mn4 Mn3 132.34(5) 1_554 5_564
+O4 Mn4 Mn3 92.85(7) 5_564 5_564
+O4 Mn4 Mn3 87.15(7) . 5_564
+Mn3 Mn4 Mn3 180.0 . 5_564
+Ni3 Mn4 Mn3 0.000(10) 5_564 5_564
+O3 Mn4 Ni4 43.62(6) . 1_556
+O3 Mn4 Ni4 136.38(6) 5_564 1_556
+O3 Mn4 Ni4 43.62(6) 5_565 1_556
+O3 Mn4 Ni4 136.38(6) 1_554 1_556
+O4 Mn4 Ni4 90.0 5_564 1_556
+O4 Mn4 Ni4 90.0 . 1_556
+Mn3 Mn4 Ni4 90.0 . 1_556
+Ni3 Mn4 Ni4 90.0 5_564 1_556
+Mn3 Mn4 Ni4 90.0 5_564 1_556
+O3 Mn4 Ni4 136.38(6) . 1_554
+O3 Mn4 Ni4 43.62(6) 5_564 1_554
+O3 Mn4 Ni4 136.38(6) 5_565 1_554
+O3 Mn4 Ni4 43.62(6) 1_554 1_554
+O4 Mn4 Ni4 90.0 5_564 1_554
+O4 Mn4 Ni4 90.0 . 1_554
+Mn3 Mn4 Ni4 90.0 . 1_554
+Ni3 Mn4 Ni4 90.0 5_564 1_554
+Mn3 Mn4 Ni4 90.0 5_564 1_554
+Ni4 Mn4 Ni4 180.0 1_556 1_554
+Mn1 O1 Ni3 117.47(9) . 7_575
+Mn1 O1 Mn3 117.47(9) . 7_575
+Ni3 O1 Mn3 0.00(4) 7_575 7_575
+Mn1 O1 Ni3 117.47(9) . 7_576
+Ni3 O1 Ni3 99.45(13) 7_575 7_576
+Mn3 O1 Ni3 99.45(13) 7_575 7_576
+Mn1 O1 Mn3 117.47(9) . 7_576
+Ni3 O1 Mn3 99.45(13) 7_575 7_576
+Mn3 O1 Mn3 99.45(13) 7_575 7_576
+Ni3 O1 Mn3 0.00(2) 7_576 7_576
+Mn1 O1 Mn2 121.23(14) . .
+Ni3 O1 Mn2 98.51(9) 7_575 .
+Mn3 O1 Mn2 98.51(9) 7_575 .
+Ni3 O1 Mn2 98.51(9) 7_576 .
+Mn3 O1 Mn2 98.51(9) 7_576 .
+B O2 Mn1 123.51(14) . .
+B O2 Ni1 123.51(14) . 1_554
+Mn1 O2 Ni1 91.13(10) . 1_554
+B O2 Mn1 123.51(14) . 1_554
+Mn1 O2 Mn1 91.13(10) . 1_554
+Ni1 O2 Mn1 0.000(16) 1_554 1_554
+B O2 Mn3 120.1(2) . .
+Mn1 O2 Mn3 95.48(10) . .
+Ni1 O2 Mn3 95.48(10) 1_554 .
+Mn1 O2 Mn3 95.48(10) 1_554 .
+Mn1 O3 Mn3 99.22(11) . .
+Mn1 O3 Ni3 99.22(11) . 1_556
+Mn3 O3 Ni3 93.35(11) . 1_556
+Mn1 O3 Mn3 99.22(11) . 1_556
+Mn3 O3 Mn3 93.35(11) . 1_556
+Ni3 O3 Mn3 0.00(3) 1_556 1_556
+Mn1 O3 Mn4 98.05(10) . .
+Mn3 O3 Mn4 84.36(3) . .
+Ni3 O3 Mn4 162.73(17) 1_556 .
+Mn3 O3 Mn4 162.73(17) 1_556 .
+Mn1 O3 Ni4 98.05(10) . 1_556
+Mn3 O3 Ni4 162.73(17) . 1_556
+Ni3 O3 Ni4 84.36(3) 1_556 1_556
+Mn3 O3 Ni4 84.36(3) 1_556 1_556
+Mn4 O3 Ni4 92.75(11) . 1_556
+Mn1 O3 Mn4 98.05(10) . 1_556
+Mn3 O3 Mn4 162.73(17) . 1_556
+Ni3 O3 Mn4 84.36(3) 1_556 1_556
+Mn3 O3 Mn4 84.36(3) 1_556 1_556
+Mn4 O3 Mn4 92.75(11) . 1_556
+Ni4 O3 Mn4 0.0 1_556 1_556
+B O4 Mn4 122.2(2) 7_575 .
+B O4 Mn1 123.36(14) 7_575 .
+Mn4 O4 Mn1 94.62(9) . .
+B O4 Mn1 123.36(14) 7_575 1_554
+Mn4 O4 Mn1 94.63(9) . 1_554
+Mn1 O4 Mn1 90.36(10) . 1_554
+B O4 Ni1 123.36(14) 7_575 1_554
+Mn4 O4 Ni1 94.63(9) . 1_554
+Mn1 O4 Ni1 90.36(10) . 1_554
+Mn1 O4 Ni1 0.00(3) 1_554 1_554
+B O5 Ni2 122.69(15) . 1_554
+B O5 Mn2 122.69(15) . 1_554
+Ni2 O5 Mn2 0.0 1_554 1_554
+B O5 Mn2 122.69(15) . .
+Ni2 O5 Mn2 91.76(10) 1_554 .
+Mn2 O5 Mn2 91.76(10) 1_554 .
+B O5 Ni3 126.4(3) . 3_554
+Ni2 O5 Ni3 91.89(9) 1_554 3_554
+Mn2 O5 Ni3 91.89(9) 1_554 3_554
+Mn2 O5 Ni3 91.89(9) . 3_554
+B O5 Mn3 126.4(3) . 3_554
+Ni2 O5 Mn3 91.89(9) 1_554 3_554
+Mn2 O5 Mn3 91.89(9) 1_554 3_554
+Mn2 O5 Mn3 91.89(9) . 3_554
+Ni3 O5 Mn3 0.000(12) 3_554 3_554
+O5 B O4 121.5(4) . 7_675
+O5 B O2 119.7(4) . .
+O4 B O2 118.8(3) 7_675 .
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Mn1 O1 1.942(3) .
+Mn1 O3 2.025(3) .
+Mn1 O2 2.0991(17) 1_556
+Mn1 O2 2.0991(17) .
+Mn1 O4 2.1131(19) 1_556
+Mn1 O4 2.1131(19) .
+Mn1 Ni1 2.9978(4) 1_556
+Mn1 Ni1 2.9978(4) 1_554
+Mn1 Mn1 2.9978(4) 1_556
+Mn1 Mn1 2.9978(4) 1_554
+Mn1 Mn4 3.0919(6) .
+Mn2 O1 2.021(3) .
+Mn2 O1 2.021(3) 5_575
+Mn2 O5 2.0880(17) 5_574
+Mn2 O5 2.0880(17) 1_556
+Mn2 O5 2.0880(17) 5_575
+Mn2 O5 2.0880(17) .
+Mn2 Ni2 2.9978(4) 1_554
+Mn2 Mn2 2.9978(4) 1_554
+Mn2 Mn2 2.9978(4) 1_556
+Mn2 Ni2 2.9978(4) 1_556
+Mn2 Mn3 3.0201(5) 3
+Mn2 Mn3 3.0201(5) 7_575
+Mn3 O1 1.9646(18) 7_675
+Mn3 O1 1.9646(18) 7_674
+Mn3 O3 2.0605(18) .
+Mn3 O3 2.0605(18) 1_554
+Mn3 O2 2.105(3) .
+Mn3 O5 2.114(3) 3_544
+Mn3 Mn4 2.7739(6) .
+Mn3 Ni3 2.9978(4) 1_556
+Mn3 Ni3 2.9978(4) 1_554
+Mn3 Mn3 2.9978(4) 1_556
+Mn3 Mn3 2.9978(4) 1_554
+Mn4 O3 2.0706(19) .
+Mn4 O3 2.0707(19) 5_564
+Mn4 O3 2.0707(19) 5_565
+Mn4 O3 2.0707(19) 1_554
+Mn4 O4 2.093(3) 5_564
+Mn4 O4 2.093(3) .
+Mn4 Ni3 2.7739(6) 5_564
+Mn4 Mn3 2.7739(6) 5_564
+Mn4 Ni4 2.9978(4) 1_556
+Mn4 Ni4 2.9978(4) 1_554
+O1 Ni3 1.9646(18) 7_575
+O1 Mn3 1.9646(18) 7_575
+O1 Ni3 1.9646(18) 7_576
+O1 Mn3 1.9646(18) 7_576
+O2 B 1.391(5) .
+O2 Ni1 2.0991(17) 1_554
+O2 Mn1 2.0991(17) 1_554
+O3 Ni3 2.0605(18) 1_556
+O3 Mn3 2.0605(18) 1_556
+O3 Ni4 2.0706(19) 1_556
+O3 Mn4 2.0706(19) 1_556
+O4 B 1.384(5) 7_575
+O4 Mn1 2.1131(19) 1_554
+O4 Ni1 2.1131(19) 1_554
+O5 B 1.373(5) .
+O5 Ni2 2.0880(17) 1_554
+O5 Mn2 2.0880(17) 1_554
+O5 Ni3 2.114(3) 3_554
+O5 Mn3 2.114(3) 3_554
+B O4 1.385(5) 7_675

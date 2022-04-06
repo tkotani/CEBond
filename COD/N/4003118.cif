@@ -1,0 +1,269 @@
+#------------------------------------------------------------------------------
+#$Date: 2019-11-11 03:09:41 +0200 (Mon, 11 Nov 2019) $
+#$Revision: 226223 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/4/00/31/4003118.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4003118
+loop_
+_publ_author_name
+'Wagatha, Peter'
+'Weiler, Volker'
+'Schmidt, Peter J.'
+'Schnick, Wolfgang'
+_publ_section_title
+;
+ Tunable Red Luminescence in Nitridomagnesoaluminates
+ \a-Sr2[MgAl5N7]:Eu2+, \b-Sr2[MgAl5N7]:Eu2+, and Sr8[LiMg2Al21N28]:Eu2+
+;
+_journal_issue                   5
+_journal_name_full               'Chemistry of Materials'
+_journal_page_first              1755
+_journal_paper_doi               10.1021/acs.chemmater.8b00106
+_journal_volume                  30
+_journal_year                    2018
+_chemical_formula_moiety         'Al5 Mg N7 Sr2'
+_chemical_formula_structural     'Al5 Mg N7 Sr2'
+_chemical_formula_sum            'Al5 Mg N7 Sr2'
+_chemical_formula_weight         432.52
+_chemical_name_systematic
+' Distrontiumheptanitridomagnesopentaaluminate'
+_space_group_IT_number           12
+_space_group_name_Hall           '-C 2y'
+_space_group_name_H-M_alt        'C 1 2/m 1'
+_symmetry_cell_setting           monoclinic
+_symmetry_Int_Tables_number      12
+_symmetry_space_group_name_Hall  '-C 2y'
+_symmetry_space_group_name_H-M   'C 1 2/m 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 109.8939(7)
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   11.12874(11)
+_cell_length_b                   3.27290(3)
+_cell_length_c                   10.54530(11)
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      50.2300
+_cell_measurement_theta_min      2.5000
+_cell_volume                     361.173(6)
+_computing_cell_refinement       'TOPAS ACADEMIC 4.1'
+_computing_molecular_graphics    'Diamond 3.2k'
+_computing_publication_material  'TOPAS ACADEMIC 4.1'
+_computing_structure_refinement  'TOPAS ACADEMIC 4.1'
+_diffrn_ambient_temperature      293(2)
+_diffrn_detector                 'strip detector'
+_diffrn_detector_type            'Mythen 1K'
+_diffrn_measurement_device_type  'STOE STADI P'
+_diffrn_radiation_monochromator  'Ge(111) single-crystal'
+_diffrn_radiation_type           CuK\a~1~
+_diffrn_radiation_wavelength     1.54056
+_diffrn_source                   'sealed X-ray tube'
+_diffrn_source_target            Cu
+_exptl_absorpt_coefficient_mu    25.983
+_exptl_absorpt_correction_type   cylinder
+_exptl_absorpt_process_details
+;
+TOPAS:
+prm !packing_density 0.50 min 0.1 max 1.0 	
+prm !capdia 0.3 									
+prm !linab = Get(mixture_MAC) Get(mixture_density_g_on_cm3);:247.57620`_0.02190 'in cm-1
+prm muR = (capdia/20)*linab*packing_density;
+Cylindrical_I_Correction(muR)
+
+;
+_exptl_crystal_density_diffrn    3.977
+_exptl_crystal_density_method    'Not Measured'
+_exptl_crystal_F_000             404
+_pd_char_colour                  colorless
+_pd_char_particle_morphology     '5 &#x00B5;m powder, visual estimate'
+_pd_instr_location               ' ?'
+_pd_meas_2theta_range_inc        0.015
+_pd_meas_2theta_range_max        100.4600
+_pd_meas_2theta_range_min        5.0000
+_pd_meas_number_of_points        6365
+_pd_meas_scan_method             step
+_pd_prep_pressure                500000
+_pd_prep_temperature             1823.15
+_pd_proc_ls_background_function
+;
+'Background was handles with a
+Shifted-Chebyshev polynominal with 18 parameters.'
+;
+_pd_proc_ls_pref_orient_corr
+; Preferred orientation of the crystallites was 
+described with a spherical harmonics function of 4th order.
+;
+_pd_proc_ls_profile_function
+;
+'Fundamental parameters approach for reflection profiles 
+(convolution of appropriate source emission profiles with axial instrument 
+contributions as well as crystallite microstructure effects).' 
+;
+_pd_proc_ls_prof_R_factor        5.080
+_pd_proc_ls_prof_wR_expected     1.623
+_pd_proc_ls_prof_wR_factor       6.925
+_pd_spec_mounting
+' glass capillary, 0.3 mm diameter, 0.01 mm thickness'
+_pd_spec_mount_mode              transmission
+_pd_spec_shape                   cylinder
+_refine_ls_goodness_of_fit_all   4.266
+_refine_ls_matrix_type           full
+_refine_ls_number_constraints    0
+_refine_ls_number_parameters     106
+_refine_ls_number_restraints     0
+_refine_ls_R_I_factor            2.486
+_refine_ls_shift/su_max          0
+_refine_ls_shift/su_mean         0
+_cod_data_source_file            cm8b00106_si_001.cif
+_cod_data_source_block           b-Sr2MgAl5N7
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+data item '_symmetry_cell_setting' value 'Monoclinic' was changed to
+'monoclinic' in accordance with the
+/home/data/users/saulius/crontab/automatic-downloads/current/ACS/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 last updated on
+2011-04-26.
+
+Automatic conversion script
+Id: cif_fix_values 6909 2019-04-08 15:41:33Z antanas 
+;
+_cod_original_sg_symbol_H-M      'C 2/m'
+_cod_database_code               4003118
+_iucr_refine_instruction_details
+;
+;
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -x,y,-z
+3 -x,-y,-z
+4 x,-y,z
+5 1/2+x,1/2+y,z
+6 1/2-x,1/2+y,-z
+7 1/2-x,1/2-y,-z
+8 1/2+x,1/2-y,z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_thermal_displace_type
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+Al1 Al Uiso 0.6450(5) 0.00000 0.4457(5) 0.750 0.026(2)
+Al2 Al Uiso 0.3520(5) 0.00000 0.0165(5) 0.750 0.023(2)
+Al3 Al Uiso 0.8987(5) 0.00000 0.8013(6) 1.000 0.023(2)
+N1 N Uiso 0.6909(13) 0.50000 0.0819(12) 1.000 0.029(4)
+N2 N Uiso 0.3061(12) 0.50000 0.6212(11) 1.000 0.024(4)
+N3 N Uiso 0.5062(11) 0.00000 0.1815(12) 1.000 0.020(4)
+N4 N Uiso 0.50000 0.00000 0.50000 1.000 0.025(6)
+Mg1 Mg Uiso 0.6450(5) 0.00000 0.4457(5) 0.250 0.026(2)
+Mg2 Mg Uiso 0.3520(5) 0.00000 0.0165(5) 0.250 0.024(2)
+Sr1 Sr Uiso 0.62794(19) 0.50000 0.69632(16) 1.000 0.0210(8)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Al Al 0.2130 0.2455 ' International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Mg Mg 0.1719 0.1771 ' International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+N N 0.0311 0.0180 ' International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Sr Sr -0.3528 1.8200 ' International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_audit_conform_dict_name
+_audit_conform_dict_location
+cif_core.dic ftp://ftp.iucr.org/pub/cif_core.dic
+cif_pd.dic ftp://ftp.iucr.org/pub/cif_pd.dic
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+N2 Al1 N4 119.1(4) 2_646 . yes
+N2 Al1 N4 119.1(4) 2_656 . yes
+N2 Al1 N4 107.2(4) 5_545 . yes
+N2 Al1 N2 115.8(5) 2_646 2_656 yes
+N2 Al1 N2 93.4(4) 2_646 5_545 yes
+N2 Al1 N2 93.4(4) 2_656 5_545 yes
+N1 Al2 N3 117.3(4) 2_645 . yes
+N1 Al2 N3 117.3(4) 2_655 . yes
+N1 Al2 N3 106.8(5) 5_445 . yes
+N1 Al2 N1 118.0(5) 2_645 2_655 yes
+N1 Al2 N1 95.4(5) 2_645 5_445 yes
+N1 Al2 N1 95.4(5) 2_655 5_445 yes
+N1 Al3 N2 117.1(7) 6_646 5_545 yes
+N2 Al3 N3 101.3(5) 5_545 6_646 yes
+N2 Al3 N3 101.3(5) 5_545 6_656 yes
+N1 Al3 N3 110.2(4) 6_646 6_646 yes
+N1 Al3 N3 110.2(4) 6_646 6_656 yes
+N3 Al3 N3 116.6(6) 6_646 6_656 yes
+N2 Mg1 N2 93.4(4) 2_646 5_545 yes
+N2 Mg1 N2 93.4(4) 2_656 5_545 yes
+N2 Mg1 N4 107.2(4) 5_545 . yes
+N2 Mg1 N4 119.1(4) 2_646 . yes
+N2 Mg1 N4 119.1(4) 2_656 . yes
+N2 Mg1 N2 115.8(5) 2_646 2_656 yes
+N1 Mg2 N3 117.3(4) 2_645 . yes
+N1 Mg2 N1 95.4(5) 2_655 5_445 yes
+N1 Mg2 N3 106.8(5) 5_445 . yes
+N1 Mg2 N1 118.0(5) 2_645 2_655 yes
+N1 Mg2 N3 117.3(4) 2_655 . yes
+N1 Mg2 N1 95.4(5) 2_645 5_445 yes
+Al2 N1 Al2 84.6(5) 2_655 5_555 yes
+Al2 N1 Al3 105.9(5) 2_655 6_656 yes
+Al2 N1 Al2 118.0(6) 2_655 2_665 yes
+Al2 N1 Al2 84.6(5) 2_665 5_555 yes
+Al2 N1 Al3 105.9(5) 2_665 6_656 yes
+Al2 N1 Al3 158.5(8) 5_555 6_656 yes
+Al1 N2 Al1 86.6(4) 2_656 5_455 yes
+Al1 N2 Al3 104.5(5) 2_656 5_455 yes
+Al1 N2 Al1 86.6(4) 2_666 5_455 yes
+Al1 N2 Al1 115.7(7) 2_656 2_666 yes
+Al1 N2 Al3 104.5(5) 2_666 5_455 yes
+Al1 N2 Al3 158.4(8) 5_455 5_455 yes
+Al2 N3 Al3 111.5(4) . 6_646 yes
+Al3 N3 Mg2 111.5(4) 6_656 . yes
+Al3 N3 Al3 116.6(7) 6_646 6_656 yes
+Al2 N3 Al3 111.5(4) . 6_656 yes
+Al3 N3 Mg2 111.5(4) 6_646 . yes
+Al1 N4 Al1 180.00 . 2_656 yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Al1 N4 1.887(6) . yes
+Al1 N2 1.932(7) 2_646 yes
+Al1 N2 1.932(7) 2_656 yes
+Al1 N2 2.093(13) 5_545 yes
+Al2 N3 1.985(13) . yes
+Al2 N1 1.909(7) 2_645 yes
+Al2 N1 1.909(7) 2_655 yes
+Al2 N1 2.129(16) 5_445 yes
+Al3 N2 1.827(13) 5_545 yes
+Al3 N1 1.830(15) 6_646 yes
+Al3 N3 1.924(8) 6_646 yes
+Al3 N3 1.924(8) 6_656 yes
+Mg1 N4 1.887(6) . yes
+Mg1 N2 1.932(7) 2_646 yes
+Mg1 N2 1.932(7) 2_656 yes
+Mg1 N2 2.093(13) 5_545 yes
+Mg2 N3 1.985(13) . yes
+Mg2 N1 1.909(7) 2_645 yes
+Mg2 N1 1.909(7) 2_655 yes
+Mg2 N1 2.129(16) 5_445 yes

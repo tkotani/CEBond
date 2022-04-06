@@ -1,0 +1,200 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-19 16:29:56 +0200 (Fri, 19 Feb 2016) $
+#$Revision: 176759 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/46/2004652.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2004652
+loop_
+_publ_author_name
+'Kim, J.-B.'
+'Lee, K.-S.'
+'Suh, I.-H.'
+'Lee, J.-H.'
+'Park, J.-R.'
+'Shin, Y.-H.'
+_publ_section_title
+;
+ Strontium Metaborate, SrB~2~O~4~
+;
+_journal_issue                   3
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              498
+_journal_page_last               500
+_journal_paper_doi               10.1107/S0108270195010341
+_journal_volume                  52
+_journal_year                    1996
+_chemical_formula_iupac          'Sr B2 O4'
+_chemical_formula_sum            'B2 O4 Sr'
+_chemical_formula_weight         173.24
+_space_group_IT_number           60
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2n 2ab'
+_symmetry_space_group_name_H-M   'P b c n'
+_atom_type_scat_source           IntTabIV
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   12.0135(7)
+_cell_length_b                   4.339(2)
+_cell_length_c                   6.5864(4)
+_cell_measurement_reflns_used    24
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      20.12
+_cell_measurement_theta_min      15.95
+_cell_volume                     343.33(16)
+_computing_cell_refinement       SDP
+_computing_data_collection       'SDP (Enraf-Nonius, 1985)'
+_computing_data_reduction        SDP
+_computing_molecular_graphics    'ORTEP (Johnson, 1971)'
+_computing_publication_material  'GEOM (Shin, 1978)'
+_computing_structure_refinement  'SHELX76(Sheldrick, 1976)'
+_computing_structure_solution    'SHELX86(Sheldrick, 1985)'
+_diffrn_measurement_device       'Enraf-Nonius CAD-4'
+_diffrn_measurement_method       '\w/2\q scans'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0
+_diffrn_reflns_limit_h_max       13
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       4
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       7
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            363
+_diffrn_reflns_theta_max         24
+_diffrn_standards_decay_%        1
+_diffrn_standards_interval_time  100
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    15.082
+_exptl_absorpt_correction_T_max  0.9652
+_exptl_absorpt_correction_T_min  0.1754
+_exptl_absorpt_correction_type   'empirical (SDP; Enraf-Nonius, 1985)'
+_exptl_crystal_colour            colorless
+_exptl_crystal_density_diffrn    3.35
+_exptl_crystal_density_meas      3.35
+_exptl_crystal_density_method    densitometer
+_exptl_crystal_description       'rectangular plate'
+_exptl_crystal_size_max          0.2
+_exptl_crystal_size_mid          0.2
+_exptl_crystal_size_min          0.03
+_refine_diff_density_max         1.89
+_refine_diff_density_min         -1.43
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_obs   1.5271
+_refine_ls_hydrogen_treatment    'No H atoms'
+_refine_ls_number_parameters     33
+_refine_ls_number_reflns         211
+_refine_ls_R_factor_obs          0.0504
+_refine_ls_shift/esd_max         0.007
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 1/[\s^2^(F)+0.001588F^2^]'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.0551
+_reflns_number_observed          211
+_reflns_number_total             354
+_reflns_observed_criterion       F>3\s(F)
+_cod_data_source_file            oh1085.cif
+_cod_data_source_block           oh1085a
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'w = 1/[\s^2^(F)+0.001588F^2^]'
+was changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to 'w =
+1/[\s^2^(F)+0.001588F^2^]'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        343.3(4)
+_cod_database_code               2004652
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+1/2+x,1/2+y,1/2-z
+x,-y,1/2+z
+1/2-x,1/2+y,z
+-x,-y,-z
+1/2-x,1/2-y,1/2+z
+-x,y,1/2-z
+1/2+x,1/2-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+Sr .5000 .7378(2) .2500 .007(1)
+O(1) .5906(4) .2643(10) .4046(11) .007(4)
+O(2) .7116(4) -.1471(14) .3548(11) .013(3)
+B .6942(7) .170(2) .3726(19) .009(5)
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O(1) Sr O(1) . . 1_565 110.9(2) yes
+O(1) Sr O(1) . . 3_564 100.0(2) yes
+O(1) Sr O(1) . . 5_666 79.7(2) yes
+O(1) Sr O(2) . . 7_665 131.4(2) yes
+O(1) Sr O(1) 1_565 . 3_564 99.7(2) yes
+O(1) Sr O(1) 1_565 . 5_666 80.7(2) yes
+O(1) Sr O(2) 1_565 . 7_665 108.6(2) yes
+O(2) Sr O(1) 1_565 . 7_655 131.4(2) yes
+O(2) Sr O(1) 1_565 . 7_665 108.6(2) yes
+O(1) Sr O(1) 3_564 . 7_655 79.7(2) yes
+O(1) Sr O(1) 3_564 . 7_665 80.7(2) yes
+O(1) Sr O(1) 7_655 . 5_666 100.0(2) yes
+O(1) Sr O(2) 7_655 . 7_665 69.0(2) yes
+O(1) Sr O(2) 5_666 . 7_665 79.8(2) yes
+Sr O(1) B . . . 126.1(6) yes
+O(1) B O(2) . . 4_655 126.9(8) yes
+B O(2) B . 4_655 4_655 132.8(7) yes
+O(1) Sr O(2) . . 1_565 69.0(2) yes
+O(1) Sr O(1) . . 7_655 71.9(2) yes
+O(1) Sr O(1) . . 7_665 177.2(2) yes
+O(1) Sr O(2) 1_565 . 1_565 50.9(2) yes
+O(1) Sr O(1) 1_565 . 7_655 177.2(2) yes
+O(1) Sr O(1) 1_565 . 7_665 66.2(2) yes
+O(2) Sr O(1) 1_565 . 3_564 79.8(2) yes
+O(2) Sr O(1) 1_565 . 5_666 100.2(2) yes
+O(2) Sr O(2) 1_565 . 7_665 158.5(2) yes
+O(1) Sr O(1) 3_564 . 5_666 179.60(10) yes
+O(1) Sr O(2) 3_564 . 7_665 100.2(2) yes
+O(1) Sr O(1) 7_655 . 7_665 110.9(2) yes
+O(1) Sr O(1) 5_666 . 7_665 99.6(2) yes
+O(1) Sr O(2) 7_665 . 7_665 50.9(2) yes
+O(1) B O(2) . . . 117.3(7) yes
+O(2) B O(2) . . 4_655 115.8(7) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Sr O(1) . 2.538(5) yes
+Sr O(1) 3_564 2.522(7) yes
+Sr O(1) 7_665 2.728(5) yes
+O(2) B . 1.395(12) yes
+Sr O(1) 1_565 2.728(5) yes
+Sr O(1) 7_655 2.538(5) yes
+Sr O(2) 7_665 2.681(5) yes
+B O(2) 4_655 1.388(11) yes
+Sr O(2) 1_565 2.681(5) yes
+Sr O(1) 5_666 2.522(7) yes
+O(1) B . 1.328(10) yes

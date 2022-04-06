@@ -1,0 +1,301 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 00:18:51 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176760 $
+#$URL: svn://www.crystallography.net/cod/cif/2/01/96/2019609.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2019609
+loop_
+_publ_author_name
+'Laval, Jean-Paul'
+_publ_section_title
+;
+ Crystal chemistry of anion-excess ReO~3~-related phases. III. \g-ZrF~4~,
+ a high-pressure form of zirconium tetrafluoride, and a comparison of
+ <i>MX</i>~4~ structure types
+;
+_journal_issue                   8
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first
+;
+;
+_journal_paper_doi               10.1107/S2053229614014338
+_journal_volume                  70
+_journal_year                    2014
+_chemical_formula_iupac          'Zr F4'
+_chemical_formula_moiety         'F4 Zr'
+_chemical_formula_sum            'F4 Zr'
+_chemical_formula_weight         167.22
+_chemical_name_systematic
+;
+Zirconium tetrafluoride
+;
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_cell_angle_alpha                90.00
+_cell_angle_beta                 105.98(5)
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   5.554(2)
+_cell_length_b                   5.639(2)
+_cell_length_c                   7.973(3)
+_cell_measurement_temperature    293(2)
+_cell_volume                     240.06(16)
+_computing_cell_refinement       'DIRAX/LSQ (Duisenberg & Schreurs, 2000)'
+_computing_data_collection       'COLLECT (Nonius, 2004)'
+_computing_data_reduction        'EvalCCD (Duisenberg <i>et al.</i>, 2003)'
+_computing_molecular_graphics    'DIAMOND (Brandenburg, 1999)'
+_computing_publication_material
+'SHELXL97 (Sheldrick, 2008) and publCIF (Westrip, 2010)'
+_computing_structure_refinement
+'SHELXL97 (Sheldrick, 2008) and WinGX (Farrugia, 2012)'
+_computing_structure_solution    'SHELXS97 (Sheldrick, 2008)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_detector_area_resol_mean 9
+_diffrn_measured_fraction_theta_full 0.982
+_diffrn_measured_fraction_theta_max 0.982
+_diffrn_measurement_device_type  'Nonius KappaCCD'
+_diffrn_measurement_method       CCD
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71070
+_diffrn_reflns_av_R_equivalents  0.0466
+_diffrn_reflns_av_sigmaI/netI    0.0203
+_diffrn_reflns_limit_h_max       7
+_diffrn_reflns_limit_h_min       -7
+_diffrn_reflns_limit_k_max       7
+_diffrn_reflns_limit_k_min       -7
+_diffrn_reflns_limit_l_max       10
+_diffrn_reflns_limit_l_min       -10
+_diffrn_reflns_number            5384
+_diffrn_reflns_theta_full        27.51
+_diffrn_reflns_theta_max         27.51
+_diffrn_reflns_theta_min         5.26
+_exptl_absorpt_coefficient_mu    4.459
+_exptl_absorpt_correction_T_max  0.976
+_exptl_absorpt_correction_T_min  0.920
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details   '(SADABS; Bruker, 2004)'
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    4.627
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       prismatic
+_exptl_crystal_F_000             304
+_exptl_crystal_size_max          0.014
+_exptl_crystal_size_mid          0.011
+_exptl_crystal_size_min          0.010
+_refine_diff_density_max         1.336
+_refine_diff_density_min         -0.723
+_refine_ls_extinction_coef       0.008(2)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     'SHELXL97 (Sheldrick, 2008)'
+_refine_ls_goodness_of_fit_ref   1.289
+_refine_ls_matrix_type           full
+_refine_ls_number_constraints    0
+_refine_ls_number_parameters     47
+_refine_ls_number_reflns         541
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.289
+_refine_ls_R_factor_all          0.0270
+_refine_ls_R_factor_gt           0.0261
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0110P)^2^+3.0227P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0705
+_refine_ls_wR_factor_ref         0.0708
+_reflns_number_gt                513
+_reflns_number_total             541
+_reflns_threshold_expression     I>2sigma(I)
+_iucr_refine_instructions_details
+;
+TITL Compound ZrF4 gamma                                                   P 21/
+CELL  0.7107   5.554   5.639   7.973  90.00 105.98  90.00
+ZERR 1. 0.002 0.002 0.003 0. 0.05 0.
+LATT   1
+SYMM   -X    ,   Y+.50,  -Z+.50
+SFAC    ZR   F
+UNIT     4   16
+LIST 4
+ACTA
+L.S. 14
+BOND
+FMAP -2
+PLAN 20
+REM  WGHT    0.100000
+REM WGHT    0.026000    4.892100
+REM WGHT    0.021500    4.419200
+REM WGHT    0.024000    4.330101
+REM WGHT    0.021600    4.003800
+REM WGHT    0.011500    3.024500
+WGHT    0.011000    3.022700
+EXTI    0.007635
+FVAR       0.75642
+ZR1   1    0.787605    0.166273    0.829541    11.00000    0.00892    0.00843 =
+         0.00833    0.00002    0.00380    0.00007
+F1    2    1.141717    0.157789    1.020499    11.00000    0.01507    0.01201 =
+         0.01417    0.00107    0.00235    0.00024
+F2    2    1.005438   -0.042019    0.709011    11.00000    0.01710    0.01398 =
+         0.01373    0.00098    0.00491    0.00497
+F3    2    0.482703   -0.043815    0.734701    11.00000    0.01573    0.01340 =
+         0.01605    0.00130    0.00539   -0.00484
+F4    2    0.686471    0.261350    1.047561    11.00000    0.01504    0.01862 =
+         0.01036   -0.00056    0.00435    0.00187
+HKLF 4
+REM  Compound ZrF4 gamma                                                   P 21/
+REM R1 =  0.0261 for    513 Fo > 4sig(Fo)  and  0.0270 for all    541 data
+REM     47 parameters refined using      0 restraints
+END
+WGHT      0.0111      3.0199
+REM Highest difference peak  1.336,  deepest hole -0.723,  1-sigma level  0.193
+Q1    1   0.5433  0.1470  0.8234  11.00000  0.05    1.34
+Q2    1   0.9999  0.1540  0.8314  11.00000  0.05    1.30
+Q3    1   0.8577  0.0283  0.6806  11.00000  0.05    1.03
+Q4    1   1.1875  0.1869  0.8240  11.00000  0.05    1.01
+Q5    1   0.3717  0.1877  0.8380  11.00000  0.05    0.91
+Q6    1   0.6121  0.0267  0.6960  11.00000  0.05    0.90
+Q7    1   0.7055  0.1442  0.8959  11.00000  0.05   -0.72
+Q8    1   0.7152  0.4984  1.1451  11.00000  0.05   -0.62
+Q9    1   0.3571  0.0259  0.6775  11.00000  0.05    0.62
+Q10   1   1.1990  0.4208  0.9730  11.00000  0.05   -0.58
+Q11   1   1.1167  0.0272  0.6943  11.00000  0.05    0.56
+Q12   1   0.5090  0.2021  0.8986  11.00000  0.05   -0.54
+Q13   1   0.4686  0.0423  0.6578  11.00000  0.05   -0.54
+Q14   1   0.5061 -0.2595  0.7315  11.00000  0.05   -0.52
+Q15   1   0.8918  0.1460  0.7449  11.00000  0.05   -0.51
+Q16   1   0.3943  0.0745  0.7958  11.00000  0.05   -0.50
+Q17   1   1.0294 -0.1214  0.7869  11.00000  0.05    0.49
+Q18   1   0.8484  0.3604  1.1254  11.00000  0.05   -0.49
+Q19   1   0.9095  0.2461  0.9582  11.00000  0.05    0.48
+Q20   1   0.7463  0.2804  0.7651  11.00000  0.05   -0.47
+;
+_cod_data_source_file            ov3051sup1.cf
+_cod_data_source_block           I
+_cod_original_cell_volume        240.06(15)
+_cod_original_sg_symbol_H-M      'P 21/c'
+_cod_database_code               2019609
+_cod_database_fobs_code          2019609
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, y+1/2, -z+1/2'
+'-x, -y, -z'
+'x, -y-1/2, z-1/2'
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+Zr Zr1 0.78760(9) 0.16627(9) 0.82954(6) 0.0083(2) Uani d 1 1
+F F1 1.1417(6) 0.1578(6) 1.0205(4) 0.0141(7) Uani d 1 1
+F F2 1.0054(6) -0.0420(6) 0.7090(4) 0.0148(7) Uani d 1 1
+F F3 0.4827(6) -0.0438(6) 0.7347(4) 0.0149(7) Uani d 1 1
+F F4 0.6865(6) 0.2614(7) 1.0476(4) 0.0145(7) Uani d 1 1
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Zr1 0.0089(3) 0.0084(3) 0.0083(3) 0.00007(19) 0.00380(19) 0.00002(18)
+F1 0.0151(16) 0.0120(16) 0.0142(15) 0.0002(13) 0.0024(13) 0.0011(13)
+F2 0.0171(16) 0.0140(18) 0.0137(16) 0.0050(13) 0.0049(13) 0.0010(13)
+F3 0.0157(16) 0.0134(18) 0.0161(16) -0.0048(13) 0.0054(13) 0.0013(13)
+F4 0.0150(16) 0.0186(17) 0.0104(15) 0.0019(14) 0.0043(13) -0.0006(13)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Zr Zr -2.9673 0.5597 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+F F 0.0171 0.0103 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+F3 Zr1 F4 . . 94.21(14)
+F3 Zr1 F2 . 2_756 147.57(13)
+F4 Zr1 F2 . 2_756 102.20(14)
+F3 Zr1 F2 . . 91.70(14)
+F4 Zr1 F2 . . 149.95(14)
+F2 Zr1 F2 2_756 . 87.89(5)
+F3 Zr1 F1 . . 139.71(13)
+F4 Zr1 F1 . . 79.25(14)
+F2 Zr1 F1 2_756 . 71.58(13)
+F2 Zr1 F1 . . 77.27(13)
+F3 Zr1 F1 . 3_757 73.67(14)
+F4 Zr1 F1 . 3_757 78.54(14)
+F2 Zr1 F1 2_756 3_757 136.74(13)
+F2 Zr1 F1 . 3_757 74.94(13)
+F1 Zr1 F1 . 3_757 66.05(15)
+F3 Zr1 F3 . 2_656 84.29(4)
+F4 Zr1 F3 . 2_656 70.75(14)
+F2 Zr1 F3 2_756 2_656 75.23(14)
+F2 Zr1 F3 . 2_656 139.23(13)
+F1 Zr1 F3 . 2_656 128.64(13)
+F1 Zr1 F3 3_757 2_656 140.53(13)
+F3 Zr1 F4 . 4_565 77.06(14)
+F4 Zr1 F4 . 4_565 140.28(13)
+F2 Zr1 F4 2_756 4_565 72.42(13)
+F2 Zr1 F4 . 4_565 69.71(13)
+F1 Zr1 F4 . 4_565 131.31(13)
+F1 Zr1 F4 3_757 4_565 132.76(14)
+F3 Zr1 F4 2_656 4_565 69.86(13)
+F3 Zr1 Zr1 . 3_757 106.44(11)
+F4 Zr1 Zr1 . 3_757 76.72(10)
+F2 Zr1 Zr1 2_756 3_757 104.48(10)
+F2 Zr1 Zr1 . 3_757 73.35(9)
+F1 Zr1 Zr1 . 3_757 33.28(9)
+F1 Zr1 Zr1 3_757 3_757 32.77(9)
+F3 Zr1 Zr1 2_656 3_757 146.44(9)
+F4 Zr1 Zr1 4_565 3_757 143.00(10)
+Zr1 F1 Zr1 . 3_757 113.95(15)
+Zr1 F2 Zr1 2_746 . 157.34(18)
+Zr1 F3 Zr1 . 2_646 166.34(19)
+Zr1 F4 Zr1 . 4_566 150.07(18)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Zr1 F3 . 2.034(3) y
+Zr1 F4 . 2.040(3) y
+Zr1 F2 2_756 2.078(3) y
+Zr1 F2 . 2.099(3) y
+Zr1 F1 . 2.131(4) y
+Zr1 F1 3_757 2.160(3) y
+Zr1 F3 2_656 2.183(3) y
+Zr1 F4 4_565 2.200(3) y
+Zr1 Zr1 3_757 3.597(2) y
+F1 Zr1 3_757 2.160(3) no
+F2 Zr1 2_746 2.078(3) no
+F3 Zr1 2_646 2.183(3) no
+F4 Zr1 4_566 2.200(3) no

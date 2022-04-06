@@ -1,0 +1,107 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-23 16:53:50 +0200 (Wed, 23 Mar 2016) $
+#$Revision: 179398 $
+#$URL: svn://www.crystallography.net/cod/cif/4/32/95/4329528.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4329528
+loop_
+_publ_author_name
+'Martin D. Peel'
+'Stephen P. Thompson'
+'Aziz Daoud-Aladine'
+'Sharon E. Ashbrook'
+'Philip Lightfoot'
+_publ_section_title
+;
+ New Twists on the Perovskite Theme: Crystal Structures of the Elusive
+ Phases R and S of NaNbO3
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              6876
+_journal_page_last               6889
+_journal_paper_doi               10.1021/ic3006585
+_journal_volume                  51
+_journal_year                    2012
+_chemical_formula_sum            'Na Nb O3'
+_chemical_formula_weight         163.89
+_space_group_IT_number           59
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2ab 2a'
+_symmetry_space_group_name_H-M   'P m m n :2'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            16
+_cell_length_a                   7.85684(4)
+_cell_length_b                   7.86748(7)
+_cell_length_c                   15.72795(13)
+_cell_volume                     972.200(13)
+_computing_structure_refinement  GSAS
+_pd_block_id                     2011-11-10T16:38|PMMN-UNRESTR_phase1|test||
+_pd_phase_name                   Pmmn
+_refine_ls_goodness_of_fit_all   1.34
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     47
+_refine_ls_number_restraints     0
+_refine_ls_shift/su_max          5.29
+_refine_ls_shift/su_mean         0.74
+_cod_data_source_file            ic3006585_si_007.cif
+_cod_data_source_block           PMMN-UNRESTR_phase_1
+_cod_original_cell_volume        972.201(5)
+_cod_original_sg_symbol_H-M      'P m m n'
+_cod_database_code               4329528
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -x+1/2,+y,+z
+3 +x,-y+1/2,+z
+4 -x+1/2,-y+1/2,+z
+-1 -x,-y,-z
+-2 +x+1/2,-y,-z
+-3 -x,+y+1/2,-z
+-4 +x+1/2,+y+1/2,-z
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+Na Na1 0.25 0.25 0.122(5) 1.0 Uiso 0.0413(9) 2
+Na Na2 0.25 0.25 0.376(5) 1.0 Uiso 0.0413(9) 2
+Na Na3 0.25 0.25 0.619(5) 1.0 Uiso 0.0413(9) 2
+Na Na4 0.25 0.25 0.875(4) 1.0 Uiso 0.0413(9) 2
+Na Na5 0.25 0.75 0.129(5) 1.0 Uiso 0.0413(9) 2
+Na Na6 0.25 0.75 0.376(4) 1.0 Uiso 0.0413(9) 2
+Na Na7 0.25 0.75 0.626(5) 1.0 Uiso 0.0413(9) 2
+Na Na8 0.25 0.75 0.873(4) 1.0 Uiso 0.0413(9) 2
+Nb Nb1 0.0 0.0 0.0 1.0 Uiso 0.01022(19) 4
+Nb Nb2 0.0010(18) 0.0001(6) 0.2501(5) 1.0 Uiso 0.01022(19) 8
+Nb Nb3 0.0 0.0 0.5 1.0 Uiso 0.01022(19) 4
+O O1 0.25 0.0002(16) -0.0165(9) 1.0 Uiso 0.02031(26) 4
+O O2 0.25 -0.0319(23) 0.2635(10) 1.0 Uiso 0.02031(26) 4
+O O3 0.25 0.0377(19) 0.4944(11) 1.0 Uiso 0.02031(26) 4
+O O4 0.25 -0.0342(21) 0.7674(9) 1.0 Uiso 0.02031(26) 4
+O O5 0.0212(15) -0.0165(14) 0.1244(11) 1.0 Uiso 0.02031(26) 8
+O O6 -0.0220(15) -0.0047(13) 0.3755(13) 1.0 Uiso 0.02031(26) 8
+O O7 0.0052(15) 0.25 0.0100(10) 1.0 Uiso 0.02031(26) 4
+O O8 0.0307(26) 0.25 0.2585(10) 1.0 Uiso 0.02031(26) 4
+O O9 -0.0357(20) 0.25 0.4981(11) 1.0 Uiso 0.02031(26) 4
+O O10 0.0356(24) 0.25 0.7439(10) 1.0 Uiso 0.02031(26) 4
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+Na 16.0
+Nb 16.0
+O 48.0

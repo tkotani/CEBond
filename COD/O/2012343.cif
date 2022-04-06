@@ -1,0 +1,469 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 00:18:51 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176760 $
+#$URL: svn://www.crystallography.net/cod/cif/2/01/23/2012343.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2012343
+loop_
+_publ_author_name
+'Davis, Matthew J.'
+'Smith, Mark D.'
+'zur Loye, Hans-Conrad'
+_publ_section_title
+;
+ Ca~4~IrO~6~, Ca~3~MgIrO~6~ and Ca~3~ZnIrO~6~
+;
+_journal_issue                   11
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              1234
+_journal_page_last               1236
+_journal_paper_doi               10.1107/S0108270101013282
+_journal_volume                  57
+_journal_year                    2001
+_chemical_formula_iupac          'Ca4 Ir O6'
+_chemical_formula_moiety         'Ca4 Ir O6'
+_chemical_formula_sum            'Ca4 Ir O6'
+_chemical_formula_weight         448.52
+_chemical_name_systematic
+;
+Tetracalcium iridium hexaoxide
+;
+_space_group_IT_number           167
+_symmetry_cell_setting           trigonal
+_symmetry_space_group_name_Hall  '-R 3 2"c'
+_symmetry_space_group_name_H-M   'R -3 c :H'
+_audit_creation_method           SHELXL97
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            6
+_cell_length_a                   9.3030(5)
+_cell_length_b                   9.3030(5)
+_cell_length_c                   11.0864(8)
+_cell_measurement_reflns_used    1993
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      36.26
+_cell_measurement_theta_min      3.13
+_cell_volume                     830.94(9)
+_computing_cell_refinement       'SAINT+ (Bruker, 1998)'
+_computing_data_collection       'SMART (Bruker, 2000)'
+_computing_data_reduction        SAINT+
+_computing_molecular_graphics    'SHELXTL (Sheldrick, 1997)'
+_computing_publication_material  SHELXTL
+_computing_structure_refinement  'SHELXL97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS97 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measured_fraction_theta_full 1.000
+_diffrn_measured_fraction_theta_max 1.000
+_diffrn_measurement_device_type  'Bruker SMART APEX CCD area-detector'
+_diffrn_measurement_method       '\w scans'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     .71073
+_diffrn_reflns_av_R_equivalents  .026
+_diffrn_reflns_av_sigmaI/netI    .018
+_diffrn_reflns_limit_h_max       14
+_diffrn_reflns_limit_h_min       -10
+_diffrn_reflns_limit_k_max       13
+_diffrn_reflns_limit_k_min       -14
+_diffrn_reflns_limit_l_max       18
+_diffrn_reflns_limit_l_min       -8
+_diffrn_reflns_number            2592
+_diffrn_reflns_theta_full        36.26
+_diffrn_reflns_theta_max         36.26
+_diffrn_reflns_theta_min         4.38
+_diffrn_standards_decay_%        none
+_exptl_absorpt_coefficient_mu    27.768
+_exptl_absorpt_correction_T_max  .168
+_exptl_absorpt_correction_T_min  .112
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details   '(SADABS; Bruker, 1997)'
+_exptl_crystal_colour            black
+_exptl_crystal_density_diffrn    5.378
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       irregular
+_exptl_crystal_F_000             1230
+_exptl_crystal_size_max          .08
+_exptl_crystal_size_mid          .06
+_exptl_crystal_size_min          .04
+_refine_diff_density_max         3.25
+_refine_diff_density_min         -3.59
+_refine_ls_extinction_coef       .00062(14)
+_refine_ls_extinction_method     'SHELXL97 (Sheldrick, 1997)'
+_refine_ls_goodness_of_fit_ref   1.072
+_refine_ls_hydrogen_treatment    none
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     20
+_refine_ls_number_reflns         450
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.072
+_refine_ls_R_factor_all          .026
+_refine_ls_R_factor_gt           .024
+_refine_ls_shift/su_max          <0.001
+_refine_ls_shift/su_mean         .000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w = 1/[\s^2^(Fo^2^)+(0.0428P)^2^] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_ref         .061
+_reflns_number_gt                408
+_reflns_number_total             450
+_reflns_threshold_expression     I>2\s(I)
+_cod_data_source_file            os1140.cif
+_cod_data_source_block           I
+_cod_original_cell_volume        830.93(9)
+_cod_original_sg_symbol_H-M      'R -3 c'
+_cod_database_code               2012343
+_cod_database_fobs_code          2012343
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-y, x-y, z'
+'-x+y, -x, z'
+'y, x, -z+1/2'
+'x-y, -y, -z+1/2'
+'-x, -x+y, -z+1/2'
+'x+2/3, y+1/3, z+1/3'
+'-y+2/3, x-y+1/3, z+1/3'
+'-x+y+2/3, -x+1/3, z+1/3'
+'y+2/3, x+1/3, -z+5/6'
+'x-y+2/3, -y+1/3, -z+5/6'
+'-x+2/3, -x+y+1/3, -z+5/6'
+'x+1/3, y+2/3, z+2/3'
+'-y+1/3, x-y+2/3, z+2/3'
+'-x+y+1/3, -x+2/3, z+2/3'
+'y+1/3, x+2/3, -z+7/6'
+'x-y+1/3, -y+2/3, -z+7/6'
+'-x+1/3, -x+y+2/3, -z+7/6'
+'-x, -y, -z'
+'y, -x+y, -z'
+'x-y, x, -z'
+'-y, -x, z-1/2'
+'-x+y, y, z-1/2'
+'x, x-y, z-1/2'
+'-x+2/3, -y+1/3, -z+1/3'
+'y+2/3, -x+y+1/3, -z+1/3'
+'x-y+2/3, x+1/3, -z+1/3'
+'-y+2/3, -x+1/3, z-1/6'
+'-x+y+2/3, y+1/3, z-1/6'
+'x+2/3, x-y+1/3, z-1/6'
+'-x+1/3, -y+2/3, -z+2/3'
+'y+1/3, -x+y+2/3, -z+2/3'
+'x-y+1/3, x+2/3, -z+2/3'
+'-y+1/3, -x+2/3, z+1/6'
+'-x+y+1/3, y+2/3, z+1/6'
+'x+1/3, x-y+2/3, z+1/6'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+_atom_site_type_symbol
+Ca1 -.36207(10) .0000 .2500 .00693(17) Uani d S 1 . . Ca
+Ca2 1.0000 .0000 .2500 .0122(4) Uani d S 1 . . Ca
+Ir 1.0000 .0000 .0000 .00359(12) Uani d S 1 . . Ir
+O1 -.1588(3) .0285(3) .1081(2) .0098(4) Uani d . 1 . . O
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Ca1 .0070(3) .0062(3) .0073(3) .00310(17) -.00039(13) -.0008(3)
+Ca2 .0134(6) .0134(6) .0098(8) .0067(3) .000 .000
+Ir .00327(13) .00327(13) .00422(16) .00164(7) .000 .000
+O1 .0090(10) .0100(10) .0119(9) .0060(9) .0053(8) -.0003(8)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Ca Ca .2262 .3064 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ir Ir -1.4442 7.9887 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O .0106 .0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+O1 Ca1 O1 5 . 84.23(12)
+O1 Ca1 O1 5 25_455 94.09(8)
+O1 Ca1 O1 . 25_455 74.60(9)
+O1 Ca1 O1 5 35_445 74.59(9)
+O1 Ca1 O1 . 35_445 94.09(8)
+O1 Ca1 O1 25_455 35_445 164.95(12)
+O1 Ca1 O1 5 18_444 135.49(5)
+O1 Ca1 O1 . 18_444 71.68(10)
+O1 Ca1 O1 25_455 18_444 113.75(8)
+O1 Ca1 O1 35_445 18_444 70.59(9)
+O1 Ca1 O1 5 8_455 71.69(10)
+O1 Ca1 O1 . 8_455 135.49(5)
+O1 Ca1 O1 25_455 8_455 70.59(9)
+O1 Ca1 O1 35_445 8_455 113.75(8)
+O1 Ca1 O1 18_444 8_455 148.80(12)
+O1 Ca1 O1 5 34_445 120.71(4)
+O1 Ca1 O1 . 34_445 138.29(8)
+O1 Ca1 O1 25_455 34_445 129.47(3)
+O1 Ca1 O1 35_445 34_445 65.56(11)
+O1 Ca1 O1 18_444 34_445 67.31(9)
+O1 Ca1 O1 8_455 34_445 85.99(7)
+O1 Ca1 O1 5 27_455 138.29(8)
+O1 Ca1 O1 . 27_455 120.71(4)
+O1 Ca1 O1 25_455 27_455 65.56(11)
+O1 Ca1 O1 35_445 27_455 129.47(3)
+O1 Ca1 O1 18_444 27_455 85.99(7)
+O1 Ca1 O1 8_455 27_455 67.31(9)
+O1 Ca1 O1 34_445 27_455 64.15(11)
+O1 Ca1 Ir 5 16_434 114.75(6)
+O1 Ca1 Ir . 16_434 101.08(6)
+O1 Ca1 Ir 25_455 16_434 150.50(6)
+O1 Ca1 Ir 35_445 16_434 40.31(5)
+O1 Ca1 Ir 18_444 16_434 40.28(5)
+O1 Ca1 Ir 8_455 16_434 122.79(6)
+O1 Ca1 Ir 34_445 16_434 39.84(5)
+O1 Ca1 Ir 27_455 16_434 94.02(6)
+O1 Ca1 Ir 5 7_355 101.08(6)
+O1 Ca1 Ir . 7_355 114.75(6)
+O1 Ca1 Ir 25_455 7_355 40.31(5)
+O1 Ca1 Ir 35_445 7_355 150.50(6)
+O1 Ca1 Ir 18_444 7_355 122.79(6)
+O1 Ca1 Ir 8_455 7_355 40.28(5)
+O1 Ca1 Ir 34_445 7_355 94.02(6)
+O1 Ca1 Ir 27_455 7_355 39.84(5)
+Ir Ca1 Ir 16_434 7_355 131.37(3)
+O1 Ca1 Ca2 5 1_455 42.12(6)
+O1 Ca1 Ca2 . 1_455 42.12(6)
+O1 Ca1 Ca2 25_455 1_455 82.48(6)
+O1 Ca1 Ca2 35_445 1_455 82.48(6)
+O1 Ca1 Ca2 18_444 1_455 105.60(6)
+O1 Ca1 Ca2 8_455 1_455 105.60(6)
+O1 Ca1 Ca2 34_445 1_455 147.93(5)
+O1 Ca1 Ca2 27_455 1_455 147.93(5)
+Ir Ca1 Ca2 16_434 1_455 114.313(15)
+Ir Ca1 Ca2 7_355 1_455 114.315(15)
+O1 Ca1 Ca1 5 26_445 85.73(6)
+O1 Ca1 Ca1 . 26_445 50.30(6)
+O1 Ca1 Ca1 25_455 26_445 124.69(6)
+O1 Ca1 Ca1 35_445 26_445 45.97(6)
+O1 Ca1 Ca1 18_444 26_445 50.04(6)
+O1 Ca1 Ca1 8_455 26_445 154.26(5)
+O1 Ca1 Ca1 34_445 26_445 95.50(5)
+O1 Ca1 Ca1 27_455 26_445 135.96(5)
+Ir Ca1 Ca1 16_434 26_445 55.8000(10)
+Ir Ca1 Ca1 7_355 26_445 163.325(15)
+Ca2 Ca1 Ca1 1_455 26_445 61.266(11)
+O1 Ca2 O1 6_655 2_655 148.94(12)
+O1 Ca2 O1 6_655 3_655 89.31(12)
+O1 Ca2 O1 2_655 3_655 76.97(9)
+O1 Ca2 O1 6_655 1_655 127.33(12)
+O1 Ca2 O1 2_655 1_655 76.97(9)
+O1 Ca2 O1 3_655 1_655 76.97(9)
+O1 Ca2 O1 6_655 4_655 76.97(9)
+O1 Ca2 O1 2_655 4_655 89.31(12)
+O1 Ca2 O1 3_655 4_655 127.33(12)
+O1 Ca2 O1 1_655 4_655 148.94(12)
+O1 Ca2 O1 6_655 5_655 76.97(9)
+O1 Ca2 O1 2_655 5_655 127.33(12)
+O1 Ca2 O1 3_655 5_655 148.94(12)
+O1 Ca2 O1 1_655 5_655 89.31(12)
+O1 Ca2 O1 4_655 5_655 76.97(9)
+O1 Ca2 Ir 6_655 . 134.06(6)
+O1 Ca2 Ir 2_655 . 45.94(6)
+O1 Ca2 Ir 3_655 . 45.94(6)
+O1 Ca2 Ir 1_655 . 45.94(6)
+O1 Ca2 Ir 4_655 . 134.06(6)
+O1 Ca2 Ir 5_655 . 134.06(6)
+O1 Ca2 Ir 6_655 4_645 45.94(6)
+O1 Ca2 Ir 2_655 4_645 134.06(6)
+O1 Ca2 Ir 3_655 4_645 134.06(6)
+O1 Ca2 Ir 1_655 4_645 134.06(6)
+O1 Ca2 Ir 4_655 4_645 45.94(6)
+O1 Ca2 Ir 5_655 4_645 45.94(6)
+Ir Ca2 Ir . 4_645 180.0
+O1 Ca2 Ca1 6_655 3_655 44.65(6)
+O1 Ca2 Ca1 2_655 3_655 116.34(6)
+O1 Ca2 Ca1 3_655 3_655 44.65(6)
+O1 Ca2 Ca1 1_655 3_655 105.53(6)
+O1 Ca2 Ca1 4_655 3_655 105.53(6)
+O1 Ca2 Ca1 5_655 3_655 116.34(6)
+Ir Ca2 Ca1 . 3_655 90.0
+Ir Ca2 Ca1 4_645 3_655 90.0
+O1 Ca2 Ca1 6_655 2_655 116.34(6)
+O1 Ca2 Ca1 2_655 2_655 44.65(6)
+O1 Ca2 Ca1 3_655 2_655 105.53(6)
+O1 Ca2 Ca1 1_655 2_655 116.34(6)
+O1 Ca2 Ca1 4_655 2_655 44.65(6)
+O1 Ca2 Ca1 5_655 2_655 105.53(6)
+Ir Ca2 Ca1 . 2_655 90.0
+Ir Ca2 Ca1 4_645 2_655 90.0
+Ca1 Ca2 Ca1 3_655 2_655 120.0
+O1 Ca2 Ca1 6_655 1_655 105.53(6)
+O1 Ca2 Ca1 2_655 1_655 105.53(6)
+O1 Ca2 Ca1 3_655 1_655 116.34(6)
+O1 Ca2 Ca1 1_655 1_655 44.65(6)
+O1 Ca2 Ca1 4_655 1_655 116.34(6)
+O1 Ca2 Ca1 5_655 1_655 44.65(6)
+Ir Ca2 Ca1 . 1_655 90.0
+Ir Ca2 Ca1 4_645 1_655 90.0
+Ca1 Ca2 Ca1 3_655 1_655 120.0
+Ca1 Ca2 Ca1 2_655 1_655 120.0
+O1 Ca2 Ca1 6_655 33_655 45.15(6)
+O1 Ca2 Ca1 2_655 33_655 164.29(6)
+O1 Ca2 Ca1 3_655 33_655 100.61(6)
+O1 Ca2 Ca1 1_655 33_655 87.34(6)
+O1 Ca2 Ca1 4_655 33_655 104.03(6)
+O1 Ca2 Ca1 5_655 33_655 50.38(6)
+Ir Ca2 Ca1 . 33_655 121.832(4)
+Ir Ca2 Ca1 4_645 33_655 58.168(4)
+Ca1 Ca2 Ca1 3_655 33_655 68.513(14)
+Ca1 Ca2 Ca1 2_655 33_655 147.889(6)
+Ca1 Ca2 Ca1 1_655 33_655 61.266(11)
+O1 Ir O1 3_655 21_655 180.00(16)
+O1 Ir O1 3_655 2_655 88.40(10)
+O1 Ir O1 21_655 2_655 91.60(10)
+O1 Ir O1 3_655 1_655 88.40(10)
+O1 Ir O1 21_655 1_655 91.60(10)
+O1 Ir O1 2_655 1_655 88.40(10)
+O1 Ir O1 3_655 20_655 91.60(10)
+O1 Ir O1 21_655 20_655 88.40(10)
+O1 Ir O1 2_655 20_655 180.00(17)
+O1 Ir O1 1_655 20_655 91.60(10)
+O1 Ir O1 3_655 19_655 91.60(10)
+O1 Ir O1 21_655 19_655 88.40(10)
+O1 Ir O1 2_655 19_655 91.60(10)
+O1 Ir O1 1_655 19_655 180.00(14)
+O1 Ir O1 20_655 19_655 88.40(10)
+O1 Ir Ca2 3_655 . 53.61(7)
+O1 Ir Ca2 21_655 . 126.39(7)
+O1 Ir Ca2 2_655 . 53.61(7)
+O1 Ir Ca2 1_655 . 53.61(7)
+O1 Ir Ca2 20_655 . 126.39(7)
+O1 Ir Ca2 19_655 . 126.39(7)
+O1 Ir Ca2 3_655 19_755 126.39(7)
+O1 Ir Ca2 21_655 19_755 53.61(7)
+O1 Ir Ca2 2_655 19_755 126.39(7)
+O1 Ir Ca2 1_655 19_755 126.39(7)
+O1 Ir Ca2 20_655 19_755 53.61(7)
+O1 Ir Ca2 19_655 19_755 53.61(7)
+Ca2 Ir Ca2 . 19_755 180.0
+O1 Ir Ca1 3_655 27_655 52.98(7)
+O1 Ir Ca1 21_655 27_655 127.02(7)
+O1 Ir Ca1 2_655 27_655 58.87(7)
+O1 Ir Ca1 1_655 27_655 126.25(7)
+O1 Ir Ca1 20_655 27_655 121.13(7)
+O1 Ir Ca1 19_655 27_655 53.75(7)
+Ca2 Ir Ca1 . 27_655 72.755(3)
+Ca2 Ir Ca1 19_755 27_655 107.245(3)
+O1 Ir Ca1 3_655 15_544 127.02(7)
+O1 Ir Ca1 21_655 15_544 52.98(7)
+O1 Ir Ca1 2_655 15_544 121.13(7)
+O1 Ir Ca1 1_655 15_544 53.75(7)
+O1 Ir Ca1 20_655 15_544 58.87(7)
+O1 Ir Ca1 19_655 15_544 126.25(7)
+Ca2 Ir Ca1 . 15_544 107.245(3)
+Ca2 Ir Ca1 19_755 15_544 72.755(3)
+Ca1 Ir Ca1 27_655 15_544 180.00(3)
+O1 Ir Ca1 3_655 14_654 53.75(7)
+O1 Ir Ca1 21_655 14_654 126.25(7)
+O1 Ir Ca1 2_655 14_654 127.02(7)
+O1 Ir Ca1 1_655 14_654 121.13(7)
+O1 Ir Ca1 20_655 14_654 52.98(7)
+O1 Ir Ca1 19_655 14_654 58.87(7)
+Ca2 Ir Ca1 . 14_654 107.245(3)
+Ca2 Ir Ca1 19_755 14_654 72.755(3)
+Ca1 Ir Ca1 27_655 14_654 68.396(2)
+Ca1 Ir Ca1 15_544 14_654 111.604(2)
+O1 Ir Ca1 3_655 26_545 126.25(7)
+O1 Ir Ca1 21_655 26_545 53.75(7)
+O1 Ir Ca1 2_655 26_545 52.98(7)
+O1 Ir Ca1 1_655 26_545 58.87(7)
+O1 Ir Ca1 20_655 26_545 127.02(7)
+O1 Ir Ca1 19_655 26_545 121.13(7)
+Ca2 Ir Ca1 . 26_545 72.755(3)
+Ca2 Ir Ca1 19_755 26_545 107.245(3)
+Ca1 Ir Ca1 27_655 26_545 111.604(2)
+Ca1 Ir Ca1 15_544 26_545 68.396(2)
+Ca1 Ir Ca1 14_654 26_545 180.00(3)
+Ir O1 Ca2 1_455 1_455 80.45(9)
+Ir O1 Ca1 1_455 . 166.86(12)
+Ca2 O1 Ca1 1_455 . 93.23(8)
+Ir O1 Ca1 1_455 25_455 86.70(9)
+Ca2 O1 Ca1 1_455 25_455 94.79(9)
+Ca1 O1 Ca1 . 25_455 105.40(9)
+Ir O1 Ca1 1_455 15_444 85.98(8)
+Ca2 O1 Ca1 1_455 15_444 165.76(11)
+Ca1 O1 Ca1 . 15_444 99.16(9)
+Ca1 O1 Ca1 25_455 15_444 88.69(8)
+Ir O1 Ca1 1_455 26_445 81.29(8)
+Ca2 O1 Ca1 1_455 26_445 89.39(8)
+Ca1 O1 Ca1 . 26_445 87.16(8)
+Ca1 O1 Ca1 25_455 26_445 166.46(10)
+Ca1 O1 Ca1 15_444 26_445 84.27(7)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Ca1 O1 5 2.371(2) ?
+Ca1 O1 . 2.371(2) yes
+Ca1 O1 25_455 2.493(2) yes
+Ca1 O1 35_445 2.493(2) ?
+Ca1 O1 18_444 2.519(2) ?
+Ca1 O1 8_455 2.519(2) yes
+Ca1 O1 34_445 2.699(3) ?
+Ca1 O1 27_455 2.699(3) yes
+Ca1 Ir 16_434 3.1164(4) ?
+Ca1 Ir 7_355 3.1165(4) ?
+Ca1 Ca2 1_455 3.3683(9) ?
+Ca1 Ca1 26_445 3.5032(4) ?
+Ca2 O1 6_655 2.263(2) yes
+Ca2 O1 2_655 2.263(2) ?
+Ca2 O1 3_655 2.263(2) ?
+Ca2 O1 1_655 2.263(2) ?
+Ca2 O1 4_655 2.263(2) ?
+Ca2 O1 5_655 2.263(2) ?
+Ca2 Ir . 2.7716(2) yes
+Ca2 Ir 4_645 2.7716(2) ?
+Ca2 Ca1 3_655 3.3683(9) ?
+Ca2 Ca1 2_655 3.3683(9) ?
+Ca2 Ca1 1_655 3.3683(9) ?
+Ca2 Ca1 33_655 3.5032(4) ?
+Ir O1 3_655 2.020(2) yes
+Ir O1 21_655 2.020(2) ?
+Ir O1 2_655 2.020(2) ?
+Ir O1 1_655 2.020(2) ?
+Ir O1 20_655 2.020(2) ?
+Ir O1 19_655 2.020(2) ?
+Ir Ca2 19_755 2.7716(2) ?
+Ir Ca1 27_655 3.1164(4) ?
+Ir Ca1 15_544 3.1164(4) ?
+Ir Ca1 14_654 3.1164(4) ?
+Ir Ca1 26_545 3.1164(4) ?
+O1 Ir 1_455 2.020(2) ?
+O1 Ca2 1_455 2.263(2) ?
+O1 Ca1 25_455 2.493(2) ?
+O1 Ca1 15_444 2.519(2) ?
+O1 Ca1 26_445 2.699(3) ?

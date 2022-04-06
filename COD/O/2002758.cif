@@ -1,0 +1,114 @@
+#------------------------------------------------------------------------------
+#$Date: 2015-01-27 21:58:39 +0200 (Tue, 27 Jan 2015) $
+#$Revision: 130149 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/27/2002758.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_2002758
+loop_
+_publ_author_name
+'Mueller-Buschbaum, Hk'
+'Rabbow, C'
+'Sfreddo, O'
+_publ_section_title
+;
+Eine neue Verbindung im System Ba/Ln/Zn/Pt/O der Zusammensetzung: Ba4
+Sm4 Zn3 Pt O15
+;
+_journal_name_full
+;
+Zeitschrift fuer Naturforschung, Teil B. Anorganische Chemie,
+Organische Chemie (42,1987-)
+;
+_journal_page_first              338
+_journal_page_last               342
+_journal_volume                  51
+_journal_year                    1996
+_chemical_formula_structural     'Ba4 Sm4 Zn3 Pt O15'
+_chemical_formula_sum            'Ba4 O15 Pt Sm4 Zn3'
+_chemical_name_systematic
+;
+Barium samarium zinc platinum oxide (4/4/3/1/15)
+;
+_space_group_IT_number           186
+_symmetry_cell_setting           hexagonal
+_symmetry_Int_Tables_number      186
+_symmetry_space_group_name_Hall  'P 6c -2c'
+_symmetry_space_group_name_H-M   'P 63 m c'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            2
+_cell_length_a                   11.6571(10)
+_cell_length_b                   11.6571(10)
+_cell_length_c                   6.7888(10)
+_cell_volume                     798.9
+_refine_ls_R_factor_all          0.0384
+_cod_database_code               2002758
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-y,x-y,z
+y-x,-x,z
+-y,-x,z
+y-x,y,z
+x,x-y,z
+-x,-y,1/2+z
+y,y-x,1/2+z
+x-y,x,1/2+z
+y,x,1/2+z
+x-y,-y,1/2+z
+-x,y-x,1/2+z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_22
+_atom_site_aniso_U_23
+_atom_site_aniso_U_33
+Pt1 0.00388(15) 0.00194(7) 0. 0.00388(15) 0. 0.0049(3)
+Ba1 0.0111(3) 0.00554(13) 0. 0.0111(3) 0. 0.0065(5)
+Ba2 0.0088(2) 0.00442(12) -0.0019(2) 0.0079(2) -0.00093(12) 0.0111(3)
+Sm1 0.0087(2) 0.00437(9) 0. 0.0087(2) 0. 0.0105(4)
+Sm2 0.00570(12) 0.00312(13) -0.00016(10) 0.00570(12) 0.00016(10) 0.0067(2)
+Zn1 0.0059(5) 0.0029(2) -0.0002(4) 0.0055(3) -0.0001(2) 0.0104(6)
+O1 0.008(3) 0.0040(14) 0.008(3) 0.009(2) 0.004(2) 0.017(3)
+O2 0.007(3) 0.0034(14) .000(3) 0.009(2) -0.0001(14) 0.013(4)
+O3 0.014(2) 0.007(2) -0.002(2) 0.010(2) 0.002(2) 0.016(3)
+O4 0.015(4) 0.007(2) -0.016(4) 0.022(3) -0.008(2) 0.052(7)
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_calc_flag
+Pt1 Pt4+ 2 b 0.6667 0.3333 0.31615(10) 1. 0 d
+Ba1 Ba2+ 2 b 0.6667 0.3333 0.83810(2) 1. 0 d
+Ba2 Ba2+ 6 c 0.34172(6) 0.17086(3) 0.15853(9) 1. 0 d
+Sm1 Sm3+ 2 a 0. 0. 0.3346(2) 1. 0 d
+Sm2 Sm3+ 6 c 0.52193(2) 0.47807(2) 0.50120(11) 1. 0 d
+Zn1 Zn2+ 6 c 0.34497(11) 0.17249(6) 0.6740(2) 1. 0 d
+O1 O2- 6 c 0.8321(7) 0.4160(3) 0.1558(15) 1. 0 d
+O2 O2- 6 c 0.5021(6) 0.2510(3) 0.4825(15) 1. 0 d
+O3 O2- 12 d 0.3966(5) 0.0575(5) 0.8014(9) 1. 0 d
+O4 O2- 6 c 0.1709(8) 0.0854(4) 0.5681(17) 1. 0 d
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Pt4+ 4.000
+Ba2+ 2.000
+Sm3+ 3.000
+Zn2+ 2.000
+O2- -2.000

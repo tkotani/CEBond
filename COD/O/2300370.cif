@@ -1,0 +1,189 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-21 11:56:54 +0200 (Sun, 21 Feb 2016) $
+#$Revision: 176809 $
+#$URL: svn://www.crystallography.net/cod/cif/2/30/03/2300370.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2300370
+loop_
+_publ_author_name
+'Lignie, Adrien'
+'Granier, Dominique'
+'Armand, Pascale'
+'Haines, Julien'
+'Papet, Philippe'
+_publ_section_title
+;
+ Modulation of quartz-like GeO~2~ structure by Si substitution: an X-ray
+ diffraction study of Ge~1{-~<i>x</i>}Si<i>~x~</i>O~2~ (0 {\/leq} <i>x</i>
+ < 0.2) flux-grown single crystals
+;
+_journal_issue                   2
+_journal_name_full               'Journal of Applied Crystallography'
+_journal_page_first              272
+_journal_page_last               278
+_journal_paper_doi               10.1107/S0021889812003081
+_journal_volume                  45
+_journal_year                    2012
+_chemical_formula_sum            'O2 Si'
+_chemical_formula_weight         60.09
+_space_group_IT_number           154
+_symmetry_space_group_name_Hall  'P 32 2"'
+_symmetry_space_group_name_H-M   'P 32 2 1'
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_audit_update_record
+;
+2011-10-20 # Formatted by publCIF
+;
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                120.00
+_cell_formula_units_Z            3
+_cell_length_a                   4.91636(19)
+_cell_length_b                   4.91636(18)
+_cell_length_c                   5.4084(2)
+_cell_measurement_temperature    298(2)
+_cell_measurement_theta_max      34.7074
+_cell_measurement_theta_min      3.7534
+_cell_volume                     113.211(7)
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 2008)'
+_diffrn_ambient_temperature      298(2)
+_diffrn_measured_fraction_theta_full 0.976
+_diffrn_measured_fraction_theta_max 0.976
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0293
+_diffrn_reflns_av_sigmaI/netI    0.0077
+_diffrn_reflns_limit_h_max       7
+_diffrn_reflns_limit_h_min       -7
+_diffrn_reflns_limit_k_max       7
+_diffrn_reflns_limit_k_min       -7
+_diffrn_reflns_limit_l_max       8
+_diffrn_reflns_limit_l_min       -8
+_diffrn_reflns_number            7027
+_diffrn_reflns_theta_full        34.76
+_diffrn_reflns_theta_max         34.76
+_diffrn_reflns_theta_min         4.79
+_exptl_absorpt_coefficient_mu    0.994
+_exptl_absorpt_correction_T_max  0.899
+_exptl_absorpt_correction_T_min  0.782
+_exptl_absorpt_correction_type   gaussian
+_exptl_absorpt_process_details
+;
+CrysAlisPro_Software_system,_Version_1.171.32.
+;
+_exptl_crystal_density_diffrn    2.644
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_F_000             90
+_exptl_crystal_size_max          0.3392
+_exptl_crystal_size_mid          0.1979
+_exptl_crystal_size_min          0.1445
+_refine_diff_density_max         0.210
+_refine_diff_density_min         -0.262
+_refine_diff_density_rms         0.064
+_refine_ls_abs_structure_details 'Flack H D (1983), 113 Friedel pairs'
+_refine_ls_abs_structure_Flack   -0.02(17)
+_refine_ls_extinction_coef       12.8(4)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_ref   1.253
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     16
+_refine_ls_number_reflns         319
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.253
+_refine_ls_R_factor_all          0.0132
+_refine_ls_R_factor_gt           0.0131
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0238P)^2^+0.0151P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0401
+_refine_ls_wR_factor_ref         0.0402
+_reflns_number_gt                318
+_reflns_number_total             319
+_reflns_threshold_expression     >2\s(I)
+_cod_data_source_file            ce5127.cif
+_cod_data_source_block           SiO2
+_cod_original_cell_volume        113.210(7)
+_cod_original_sg_symbol_H-M      P_32_2_1
+_cod_database_code               2300370
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-y, x-y, z+2/3'
+'-x+y, -x, z+1/3'
+'y, x, -z'
+'x-y, -y, -z+1/3'
+'-x, -x+y, -z+2/3'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+Si Si 0.46973(7) 0.0000 0.6667 0.00691(16) Uani 1 2 d S
+O O 0.41354(17) 0.26758(17) -0.21442(12) 0.01245(18) Uani 1 1 d .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Si 0.00752(18) 0.00582(19) 0.0068(2) -0.00015(9) -0.00008(4) 0.00291(10)
+O 0.0162(3) 0.0118(3) 0.0125(3) -0.0044(2) -0.0029(2) 0.0094(3)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Si Si 0.0817 0.0704 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+O Si O 108.95(6) 5 1_556
+O Si O 110.53(4) 5 6_655
+O Si O 108.751(14) 1_556 6_655
+O Si O 108.751(14) 5 2_655
+O Si O 110.53(4) 1_556 2_655
+O Si O 109.34(5) 6_655 2_655
+Si O Si 143.62(5) 1_554 3_664
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Si O 1.6075(8) 5
+Si O 1.6075(8) 1_556
+Si O 1.6128(7) 6_655
+Si O 1.6128(7) 2_655
+O Si 1.6075(8) 1_554
+O Si 1.6128(7) 3_664

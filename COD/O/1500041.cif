@@ -1,0 +1,120 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-01-11 18:54:48 +0200 (Wed, 11 Jan 2017) $
+#$Revision: 190403 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/50/00/1500041.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1500041
+loop_
+_publ_author_name
+'Abbattista, F'
+'Mazza, D'
+'Vallino, M'
+_publ_section_title
+;
+ Preparatiion and characterization of BaLaFeO4
+;
+_journal_coden_ASTM              MRBUA
+_journal_name_full               'Materials Research Bulletin'
+_journal_page_first              733
+_journal_page_last               738
+_journal_paper_doi               10.1016/0025-5408(86)90153-4
+_journal_volume                  21
+_journal_year                    1986
+_chemical_formula_structural     'Ba La Fe O4'
+_chemical_formula_sum            'Ba Fe La O4'
+_space_group_IT_number           139
+_symmetry_cell_setting           tetragonal
+_symmetry_space_group_name_Hall  '-I 4 2'
+_symmetry_space_group_name_H-M   'I 4/m m m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   3.921(2)
+_cell_length_b                   3.921(2)
+_cell_length_c                   13.175(5)
+_cell_volume                     202.56(17)
+_refine_ls_R_factor_all          0.065
+_cod_data_source_file            BaLaFeO.cif
+_cod_data_source_block           0000000
+_cod_depositor_comments
+;
+ Changing _atom_site_label data item values to unique ones after consulting
+ the original publication.
+
+ Antanas Vaitkus,
+ 2017-01-11
+
+ Adding missing _atom_type_symbol and _atom_type_oxidation_number data
+ item values that correspond to the _atom_site_type_symbol data item
+ values ('Ba2+', 'La3+').
+
+ Antanas Vaitkus,
+ 2017-01-11
+;
+_cod_original_cell_volume        202.6
+_cod_original_formula_sum        'Ba La Fe O4'
+_cod_database_code               1500041
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,z
+-x,y,z
+x,-y,z
+-y,x,z
+y,-x,z
+y,x,z
+-y,-x,z
+-x,-y,-z
+x,y,-z
+x,-y,-z
+-x,y,-z
+y,-x,-z
+-y,x,-z
+-y,-x,-z
+y,x,-z
+1/2+x,1/2+y,1/2+z
+1/2-x,1/2-y,1/2+z
+1/2-x,1/2+y,1/2+z
+1/2+x,1/2-y,1/2+z
+1/2-y,1/2+x,1/2+z
+1/2+y,1/2-x,1/2+z
+1/2+y,1/2+x,1/2+z
+1/2-y,1/2-x,1/2+z
+1/2-x,1/2-y,1/2-z
+1/2+x,1/2+y,1/2-z
+1/2+x,1/2-y,1/2-z
+1/2-x,1/2+y,1/2-z
+1/2+y,1/2-x,1/2-z
+1/2-y,1/2+x,1/2-z
+1/2-y,1/2-x,1/2-z
+1/2+y,1/2+x,1/2-z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+Ba Ba2+ 4 e 0 0 0.361 0.5 0.50
+La La3+ 4 e 0 0 0.361 0.5 0.50
+Fe Fe3+ 2 a 0 0 0 1.0 0.50
+O1 O2- 4 c 0.5 0 0 1.0 0.50
+O2 O2- 4 e 0 0 0.165 1.0 0.50
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Fe3+ 3.000
+O2- -2.000
+Ba2+ 2.000
+La3+ 3.000

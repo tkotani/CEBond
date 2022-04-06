@@ -1,0 +1,144 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/55/2005541.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2005541
+loop_
+_publ_author_name
+'Khasanova, N. R.'
+'Izumi, F.'
+'Hiroi, Z.'
+'Takano, M.'
+'Huang, Q.'
+'Santoro, A.'
+_publ_section_title
+;
+ Redetermination of the Structure of La~2~Cu~2~O~5~ by Neutron Powder
+ Diffraction
+;
+_journal_issue                   10
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              2381
+_journal_page_last               2384
+_journal_paper_doi               10.1107/S0108270196006646
+_journal_volume                  52
+_journal_year                    1996
+_chemical_formula_sum            'Cu2 La2 O5'
+_chemical_formula_weight         484.90
+_chemical_name_systematic        'dicopper(II) lanthanum cuprate'
+_space_group_IT_number           55
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2 2ab'
+_symmetry_space_group_name_H-M   'P b a m'
+_audit_creation_method           using_CIFIO
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   5.54640(13)
+_cell_length_b                   10.4720(3)
+_cell_length_c                   3.87959(8)
+_cell_measurement_reflns_used    294
+_cell_measurement_temperature    296
+_cell_measurement_theta_max      80
+_cell_measurement_theta_min      9
+_cell_volume                     225.334(10)
+_computing_molecular_graphics    'ATOMS (Dowty, 1991)'
+_computing_structure_refinement  'RIETAN94 (Izumi, 1993; Kim & Izumi, 1994)'
+_diffrn_ambient_temperature      296
+_diffrn_measurement_device
+'Neutron powder diffractometer at the NIST reaserch reactor'
+_diffrn_measurement_method       'angle-dispersive method'
+_diffrn_radiation_monochromator  'Cu (311)'
+_diffrn_radiation_probe          neutron
+_diffrn_radiation_source         'NIST research reactor'
+_diffrn_radiation_type           neutron
+_diffrn_radiation_wavelength     1.5396
+_diffrn_reflns_number            294
+_diffrn_reflns_theta_max         80
+_diffrn_reflns_theta_min         9
+_diffrn_standards_interval_count 0.05
+_exptl_absorpt_correction_type   none
+_exptl_crystal_colour            black
+_exptl_crystal_density_diffrn    7.147
+_exptl_crystal_description       'powder sample'
+_refine_ls_number_constraints    0
+_refine_ls_number_parameters     32
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          0.0171
+_cod_data_source_file            oh1097.cif
+_cod_data_source_block           296K
+_cod_original_cell_volume        225.334(9)
+_cod_original_formula_sum        'La2 Cu2 O5'
+_cod_database_code               2005541
+loop_
+_symmetry_equiv_pos_as_xyz
+'+x, +y, +z'
+'-x, -y, +z'
+'1/2+x, 1/2-y, -z'
+'1/2-x, 1/2+y, -z'
+'-x, -y, -z'
+'+x, +y, -z'
+'1/2-x, 1/2+y, +z'
+'1/2+x, 1/2-y, +z'
+loop_
+_atom_site_label
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_B_iso_or_equiv
+La h 0.3117(3) 0.3610(2) .5 0.73(4)
+Cu g 0.2926(3) 0.1058(2) 0 0.62(4)
+O1 h 0.2834(5) 0.1022(2) .5 1.14(5)
+O2 g 0.0755(4) 0.2906(2) 0 0.75(5)
+O3 a 0 0 0 1.02(8)
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O1 Cu O1 . 1_554 176.2(2) yes
+O1 Cu O2 . . 90.13(10) yes
+O1 Cu O2 1_554 . 90.13(10) yes
+O1 Cu O2 . 3_555 91.88(10) yes
+O1 Cu O2 1_554 3_555 91.88(10) yes
+O1 Cu O3 . . 88.12(10) yes
+O1 Cu O3 1_554 . 88.12(10) yes
+O2 Cu O2 . 3_555 87.23(7) yes
+O2 Cu O3 . . 92.42(9) yes
+O2 Cu O3 3_555 . 179.66(13) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+La O1 4_556 2.581(3) yes
+La O1 3_556 2.644(3) yes
+La O1 . 2.714(3) yes
+La O1 3_456 2.955(3) yes
+La O2 . 2.454(2) yes
+La O2 1_556 2.454(2) yes
+La O2 3_555 2.902(2) yes
+La O2 3_556 2.902(2) yes
+La O3 3_555 2.6407(11) yes
+La O3 3_556 2.6407(11) yes
+Cu O1 . 1.94080(10) yes
+Cu O1 1_554 1.94080(10) yes
+Cu O2 3_555 1.908(3) yes
+Cu O2 . 2.279(3) yes
+Cu O3 . 1.965(2) yes

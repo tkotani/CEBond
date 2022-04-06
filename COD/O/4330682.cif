@@ -1,0 +1,387 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-16 22:30:59 +0200 (Tue, 16 Feb 2016) $
+#$Revision: 176467 $
+#$URL: svn://www.crystallography.net/cod/cif/4/33/06/4330682.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4330682
+loop_
+_publ_author_name
+'Christophe Didier'
+'Marie Guignard'
+'Jacques Darriet'
+'Claude Delmas'
+_publ_section_title
+;
+ O'3-NaxVO2 System: A Superstructure for Na1/2VO2
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              11007
+_journal_page_last               11016
+_journal_paper_doi               10.1021/ic301505e
+_journal_volume                  51
+_journal_year                    2012
+_chemical_formula_sum            'Na0.5 O2 V'
+_chemical_formula_weight         94.4
+_space_group_IT_number           15
+_symmetry_cell_setting           monoclinic
+_symmetry_Int_Tables_number      15
+_symmetry_space_group_name_Hall  '-C 2yc'
+_symmetry_space_group_name_H-M   'C 1 2/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 120.824(9)
+_cell_angle_gamma                90
+_cell_formula_units_Z            8
+_cell_length_a                   13.2991(18)
+_cell_length_b                   5.7104(6)
+_cell_length_c                   4.9713(6)
+_cell_measurement_temperature    293
+_cell_volume                     324.21(7)
+_diffrn_ambient_temperature      293
+_diffrn_radiation_type           'Cu K\a'
+_diffrn_radiation_wavelength     1.5418
+_exptl_absorpt_coefficient_mu    48.556
+_exptl_crystal_density_diffrn    3.8681
+_exptl_crystal_F_000             356
+_pd_meas_2theta_range_inc        0.017
+_pd_meas_2theta_range_max        129.990
+_pd_meas_2theta_range_min        10.021
+_pd_meas_number_of_points        7058
+_pd_proc_2theta_range_inc        0.017
+_pd_proc_2theta_range_max        129.99
+_pd_proc_2theta_range_min        10.021
+_pd_proc_ls_background_function  '12 Legendre polynoms'
+_pd_proc_ls_pref_orient_corr     none
+_pd_proc_ls_profile_function     Pseudo-Voigt
+_pd_proc_ls_prof_R_factor        0.0671
+_pd_proc_ls_prof_wR_expected     0.0589
+_pd_proc_ls_prof_wR_factor       0.0901
+_refine_ls_number_constraints    0
+_refine_ls_number_parameters     37
+_refine_ls_number_restraints     0
+_refine_ls_shift/su_max          0.0033
+_refine_ls_shift/su_mean         0.0006
+_refine_ls_weighting_scheme      sigma
+_cod_data_source_file            ic301505e_si_002.cif
+_cod_data_source_block           I
+_cod_original_formula_sum        'Na0.5 O2 V1'
+_cod_database_code               4330682
+_cod_database_fobs_code          4330682
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -x,y,-z+1/2
+3 -x,-y,-z
+4 x,-y,z+1/2
+5 x+1/2,y+1/2,z
+6 -x+1/2,y+1/2,-z+1/2
+7 -x+1/2,-y+1/2,-z
+8 x+1/2,-y+1/2,z+1/2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_adp_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+_atom_site_occupancy
+_atom_site_calc_flag
+V V 0.2487(6) 0.3666(11) 0.2276(13) Uiso 0.012(2) 8 1 d
+O1 O 0.3522(14) 0.124(3) 0.222(4) Uiso 0.013(3) 8 1 d
+O2 O 0.1614(13) 0.128(3) 0.291(4) Uiso 0.013(3) 8 1 d
+Na Na 0 0.301(2) 0.25 Uiso 0.015(6) 4 1 d
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Na 0.1353 0.1239 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+O 0.0492 0.0322 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+V 0.0687 2.1097 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+V V V 6_545 6_555 171.7(4)
+V V V 6_545 7_555 63.8(3)
+V V V 6_545 7_556 59.6(2)
+V V V 6_545 4_564 125.6(3)
+V V V 6_545 4_565 117.4(3)
+V V O1 6_545 . 46.8(6)
+V V O1 6_545 6_555 132.4(7)
+V V O1 6_545 7_555 95.3(6)
+V V O2 6_545 . 42.5(6)
+V V O2 6_545 6_555 141.9(7)
+V V O2 6_545 7_556 87.0(6)
+V V Na 6_545 . 82.0(3)
+V V Na 6_545 3_565 124.5(3)
+V V Na 6_545 7_556 70.6(3)
+V V V 6_555 7_555 124.4(3)
+V V V 6_555 7_556 112.2(3)
+V V V 6_555 4_564 62.6(2)
+V V V 6_555 4_565 54.4(2)
+V V O1 6_555 . 136.5(7)
+V V O1 6_555 6_555 43.3(6)
+V V O1 6_555 7_555 92.0(6)
+V V O2 6_555 . 132.8(7)
+V V O2 6_555 6_555 41.8(6)
+V V O2 6_555 7_556 85.3(6)
+V V Na 6_555 . 94.6(3)
+V V Na 6_555 3_565 58.6(2)
+V V Na 6_555 7_556 105.9(3)
+V V V 7_555 7_556 123.4(3)
+V V V 7_555 4_564 61.8(3)
+V V V 7_555 4_565 178.6(4)
+V V O1 7_555 . 46.8(5)
+V V O1 7_555 6_555 138.4(5)
+V V O1 7_555 7_555 47.8(6)
+V V O2 7_555 . 93.3(6)
+V V O2 7_555 6_555 93.9(7)
+V V O2 7_555 7_556 138.6(6)
+V V Na 7_555 . 114.5(3)
+V V Na 7_555 3_565 96.6(2)
+V V Na 7_555 7_556 94.5(3)
+V V V 7_556 4_564 174.8(3)
+V V V 7_556 4_565 57.8(2)
+V V O1 7_556 . 90.9(6)
+V V O1 7_556 6_555 85.1(6)
+V V O1 7_556 7_555 137.5(7)
+V V O2 7_556 . 42.7(5)
+V V O2 7_556 6_555 131.3(5)
+V V O2 7_556 7_556 39.2(6)
+V V Na 7_556 . 58.8(2)
+V V Na 7_556 3_565 115.1(3)
+V V Na 7_556 7_556 66.73(19)
+V V V 4_564 4_565 117.0(3)
+V V O1 4_564 . 92.9(7)
+V V O1 4_564 6_555 90.9(6)
+V V O1 4_564 7_555 45.7(6)
+V V O2 4_564 . 140.9(5)
+V V O2 4_564 6_555 44.7(5)
+V V O2 4_564 7_556 137.0(6)
+V V Na 4_564 . 120.8(3)
+V V Na 4_564 3_565 63.19(19)
+V V Na 4_564 7_556 113.5(3)
+V V O1 4_565 . 133.4(5)
+V V O1 4_565 6_555 41.4(4)
+V V O1 4_565 7_555 131.9(7)
+V V O2 4_565 . 88.1(7)
+V V O2 4_565 6_555 84.7(6)
+V V O2 4_565 7_556 41.7(6)
+V V Na 4_565 . 66.6(3)
+V V Na 4_565 3_565 83.2(2)
+V V Na 4_565 7_556 85.4(2)
+O1 V O1 . 6_555 174.8(7)
+O1 V O1 . 7_555 94.6(8)
+O1 V O2 . . 89.3(9)
+O1 V O2 . 6_555 95.2(9)
+O1 V O2 . 7_556 91.9(7)
+O1 V Na . . 128.7(7)
+O1 V Na . 3_565 143.4(5)
+O1 V Na . 7_556 48.9(4)
+O1 V O1 6_555 7_555 90.6(8)
+O1 V O2 6_555 . 89.9(9)
+O1 V O2 6_555 6_555 85.1(8)
+O1 V O2 6_555 7_556 82.9(7)
+O1 V Na 6_555 . 51.4(6)
+O1 V Na 6_555 3_565 41.8(4)
+O1 V Na 6_555 7_556 126.2(5)
+O1 V O2 7_555 . 95.2(8)
+O1 V O2 7_555 6_555 90.1(8)
+O1 V O2 7_555 7_556 172.9(9)
+O1 V Na 7_555 . 86.0(7)
+O1 V Na 7_555 3_565 48.8(6)
+O1 V Na 7_555 7_556 141.0(7)
+O2 V O2 . 6_555 172.7(9)
+O2 V O2 . 7_556 81.9(7)
+O2 V Na . . 39.8(6)
+O2 V Na . 3_565 93.2(5)
+O2 V Na . 7_556 97.2(5)
+O2 V O2 6_555 7_556 92.3(7)
+O2 V Na 6_555 . 136.1(7)
+O2 V Na 6_555 3_565 86.6(5)
+O2 V Na 6_555 7_556 81.7(5)
+O2 V Na 7_556 . 87.6(6)
+O2 V Na 7_556 3_565 124.6(6)
+O2 V Na 7_556 7_556 46.1(6)
+Na V Na . 3_565 58.7(2)
+Na V Na . 7_556 125.5(3)
+Na V Na 3_565 7_556 164.3(3)
+V O1 V . 6_545 89.9(9)
+V O1 V . 7_555 85.4(7)
+V O1 Na . 5_545 176.6(7)
+V O1 Na . 7_556 92.6(8)
+V O1 V 6_545 7_555 92.9(7)
+V O1 Na 6_545 5_545 90.6(7)
+V O1 Na 6_545 7_556 102.3(8)
+V O1 Na 7_555 5_545 97.9(8)
+V O1 Na 7_555 7_556 164.6(11)
+Na O1 Na 5_545 7_556 84.0(5)
+V O2 V . 6_545 95.7(10)
+V O2 V . 7_556 98.1(7)
+V O2 Na . . 107.5(9)
+V O2 V 6_545 7_556 93.5(7)
+V O2 Na 6_545 . 154.6(10)
+V O2 Na 7_556 . 93.3(8)
+V Na V . 2_555 167.3(5)
+V Na V . 3_565 121.3(3)
+V Na V . 7_556 54.52(18)
+V Na V . 4_565 50.20(19)
+V Na V . 8_454 130.4(2)
+V Na O1 . 5_455 129.3(6)
+V Na O1 . 6_555 38.1(4)
+V Na O1 . 7_556 75.3(5)
+V Na O1 . 8_454 102.3(5)
+V Na O2 . . 32.7(5)
+V Na O2 . 2_555 159.7(7)
+V Na Na . 3_555 77.12(18)
+V Na Na . 3_556 113.7(2)
+V Na Na . 3_565 62.09(15)
+V Na Na . 3_566 108.6(3)
+V Na V 2_555 3_565 50.20(19)
+V Na V 2_555 7_556 130.4(2)
+V Na V 2_555 4_565 121.3(3)
+V Na V 2_555 8_454 54.52(18)
+V Na O1 2_555 5_455 38.1(4)
+V Na O1 2_555 6_555 129.3(6)
+V Na O1 2_555 7_556 102.3(5)
+V Na O1 2_555 8_454 75.3(5)
+V Na O2 2_555 . 159.7(7)
+V Na O2 2_555 2_555 32.7(5)
+V Na Na 2_555 3_555 113.7(2)
+V Na Na 2_555 3_556 77.12(18)
+V Na Na 2_555 3_565 108.6(3)
+V Na Na 2_555 3_566 62.09(15)
+V Na V 3_565 7_556 164.3(4)
+V Na V 3_565 4_565 114.0(4)
+V Na V 3_565 8_454 50.82(16)
+V Na O1 3_565 5_455 33.3(4)
+V Na O1 3_565 6_555 94.4(5)
+V Na O1 3_565 7_556 127.8(6)
+V Na O1 3_565 8_454 35.8(5)
+V Na O2 3_565 . 145.1(5)
+V Na O2 3_565 2_555 69.7(4)
+V Na Na 3_565 3_555 109.10(15)
+V Na Na 3_565 3_556 123.77(17)
+V Na Na 3_565 3_565 59.2(2)
+V Na Na 3_565 3_566 77.1(2)
+V Na V 7_556 4_565 50.82(16)
+V Na V 7_556 8_454 144.6(5)
+V Na O1 7_556 5_455 134.5(4)
+V Na O1 7_556 6_555 73.9(3)
+V Na O1 7_556 7_556 38.5(5)
+V Na O1 7_556 8_454 153.2(6)
+V Na O2 7_556 . 40.6(4)
+V Na O2 7_556 2_555 119.7(5)
+V Na Na 7_556 3_555 85.3(3)
+V Na Na 7_556 3_556 65.8(2)
+V Na Na 7_556 3_565 114.3(2)
+V Na Na 7_556 3_566 89.87(17)
+V Na V 4_565 8_454 164.3(4)
+V Na O1 4_565 5_455 94.4(5)
+V Na O1 4_565 6_555 33.3(4)
+V Na O1 4_565 7_556 35.8(5)
+V Na O1 4_565 8_454 127.8(6)
+V Na O2 4_565 . 69.7(4)
+V Na O2 4_565 2_555 145.1(5)
+V Na Na 4_565 3_555 123.77(17)
+V Na Na 4_565 3_556 109.10(15)
+V Na Na 4_565 3_565 77.1(2)
+V Na Na 4_565 3_566 59.2(2)
+V Na O1 8_454 5_455 73.9(3)
+V Na O1 8_454 6_555 134.5(4)
+V Na O1 8_454 7_556 153.2(6)
+V Na O1 8_454 8_454 38.5(5)
+V Na O2 8_454 . 119.7(5)
+V Na O2 8_454 2_555 40.6(4)
+V Na Na 8_454 3_555 65.8(2)
+V Na Na 8_454 3_556 85.3(3)
+V Na Na 8_454 3_565 89.87(17)
+V Na Na 8_454 3_566 114.3(2)
+O1 Na O1 5_455 6_555 91.8(7)
+O1 Na O1 5_455 7_556 96.0(6)
+O1 Na O1 5_455 8_454 69.1(6)
+O1 Na O2 5_455 . 161.6(8)
+O1 Na O2 5_455 2_555 69.8(6)
+O1 Na Na 5_455 3_555 139.2(3)
+O1 Na Na 5_455 3_556 111.8(5)
+O1 Na Na 5_455 3_565 76.9(5)
+O1 Na Na 5_455 3_566 44.6(3)
+O1 Na O1 6_555 7_556 69.1(6)
+O1 Na O1 6_555 8_454 96.0(6)
+O1 Na O2 6_555 . 69.8(6)
+O1 Na O2 6_555 2_555 161.6(8)
+O1 Na Na 6_555 3_555 111.8(5)
+O1 Na Na 6_555 3_556 139.2(3)
+O1 Na Na 6_555 3_565 44.6(3)
+O1 Na Na 6_555 3_566 76.9(5)
+O1 Na O1 7_556 8_454 159.1(9)
+O1 Na O2 7_556 . 76.7(6)
+O1 Na O2 7_556 2_555 112.7(7)
+O1 Na Na 7_556 3_555 123.0(6)
+O1 Na Na 7_556 3_556 75.4(5)
+O1 Na Na 7_556 3_565 112.3(6)
+O1 Na Na 7_556 3_566 51.4(5)
+O1 Na O2 8_454 . 112.7(7)
+O1 Na O2 8_454 2_555 76.7(6)
+O1 Na Na 8_454 3_555 75.4(5)
+O1 Na Na 8_454 3_556 123.0(6)
+O1 Na Na 8_454 3_565 51.4(5)
+O1 Na Na 8_454 3_566 112.3(6)
+O2 Na O2 . 2_555 128.6(9)
+O2 Na Na . 3_555 54.4(4)
+O2 Na Na . 3_556 83.1(6)
+O2 Na Na . 3_565 90.1(5)
+O2 Na Na . 3_566 125.7(4)
+O2 Na Na 2_555 3_555 83.1(6)
+O2 Na Na 2_555 3_556 54.4(4)
+O2 Na Na 2_555 3_565 125.7(4)
+O2 Na Na 2_555 3_566 90.1(5)
+Na Na Na 3_555 3_556 71.7(2)
+Na Na Na 3_555 3_565 96.6(2)
+Na Na Na 3_555 3_566 168.3(3)
+Na Na Na 3_556 3_565 168.3(3)
+Na Na Na 3_556 3_566 96.6(2)
+Na Na Na 3_565 3_566 95.1(4)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+V V 6_545 2.863(9)
+V V 6_555 2.863(9)
+V V 7_555 2.641(10)
+V V 7_556 3.002(11)
+V V 4_564 2.916(10)
+V V 4_565 2.916(10)
+V O1 . 1.96(2)
+V O1 6_555 2.09(2)
+V O1 7_555 1.931(16)
+V O2 . 1.92(2)
+V O2 6_555 1.94(2)
+V O2 7_556 2.055(17)
+V Na . 3.387(9)
+V Na 3_565 3.483(9)
+V Na 7_556 3.152(7)
+O1 Na 5_545 2.65(2)
+O1 Na 7_556 2.377(14)
+O2 Na . 2.28(2)
+Na Na 3_555 4.243(14)
+Na Na 3_556 4.243(14)
+Na Na 3_565 3.367(12)
+Na Na 3_566 3.367(12)
+loop_
+_pd_proc_info_excluded_regions
+'from 26.024 to 26.715'

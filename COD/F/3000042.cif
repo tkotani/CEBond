@@ -1,0 +1,304 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-18 10:40:55 +0200 (Thu, 18 Feb 2016) $
+#$Revision: 176722 $
+#$URL: svn://www.crystallography.net/cod/cif/3/00/00/3000042.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_3000042
+loop_
+_publ_author_name
+'Armel Le Bail'
+'Lubomir Smrcok'
+_publ_section_title
+;
+ Face-sharing octahedra in Cs~2~AlF~5~ and Cs~3~Al~2~F~9~
+;
+_journal_issue                   2
+_journal_name_full               'Powder Diffraction'
+_journal_page_first              130
+_journal_page_last               138
+_journal_paper_doi               10.1017/S0885715614001444
+_journal_volume                  30
+_journal_year                    2015
+_chemical_formula_moiety         'Al2 F9, 3(Cs)'
+_chemical_formula_sum            'Al2 Cs3 F9'
+_chemical_formula_weight         623.69
+_space_group_IT_number           194
+_symmetry_cell_setting           hexagonal
+_symmetry_space_group_name_Hall  '-P 6c 2c'
+_symmetry_space_group_name_H-M   'P 63/m m c'
+_cell_angle_alpha                90.00000
+_cell_angle_beta                 90.00000
+_cell_angle_gamma                120.00000
+_cell_formula_units_Z            2
+_cell_length_a                   6.25350(19)
+_cell_length_b                   6.25350(19)
+_cell_length_c                   14.7193(6)
+_cell_measurement_temperature    295
+_cell_volume                     498.50(3)
+_computing_molecular_graphics    DIAMOND
+_computing_structure_refinement  FULLPROF
+_diffrn_ambient_temperature      295
+_diffrn_measurement_device_type  'Siemens D500'
+_diffrn_measurement_method       'step scan'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'X-ray tube'
+_diffrn_radiation_type           CuK\a
+_diffrn_radiation_wavelength     1.5418
+_exptl_absorpt_coefficient_mu    87.832
+_exptl_crystal_density_diffrn    4.155
+_exptl_crystal_F_000             544.0
+_pd_char_colour                  white
+_pd_meas_2theta_range_inc        0.040000
+_pd_meas_2theta_range_max        130.00000
+_pd_meas_2theta_range_min        10.00000
+_pd_meas_number_of_points        3001
+_pd_proc_2theta_range_inc        0.040000
+_pd_proc_2theta_range_max        129.9674
+_pd_proc_2theta_range_min        9.9674
+_pd_proc_ls_prof_R_factor        9.0741
+_pd_proc_ls_prof_wR_expected     3.9430
+_pd_proc_ls_prof_wR_factor       12.4418
+_pd_proc_wavelength              1.540560
+_refine_ls_goodness_of_fit_all   3.154
+_refine_ls_number_parameters     61
+_refine_ls_number_reflns         199
+_refine_ls_number_restraints     0
+_refine_ls_R_I_factor            5.9856
+_refine_ls_shift/su_max          0.03
+_cod_data_source_file            Cs3AlF9.cif
+_cod_data_source_block           Cs3Al2F9
+_cod_depositor_comments
+'Releasing structure 3000042 into public domain as published material.'
+_cod_database_code               3000042
+#BEGIN Tags that were not found in dictionaries:
+_pd_proc_ls_prof_cr_factor       16.3283
+_pd_proc_ls_prof_cwr_factor      19.2966
+_pd_proc_ls_prof_cwr_expected    6.1154
+_pd_proc_ls_prof_chi2            9.9565
+_pd_proc_ls_prof_echi2           9.9565
+#END Tags that were not found in dictionaries
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x-y,x,z+1/2
+-y,x-y,z
+-x,-y,z+1/2
+-x+y,-x,z
+y,-x+y,z+1/2
+-y,-x,z
+-x,-x+y,z+1/2
+-x+y,y,z
+y,x,z+1/2
+x,x-y,z
+x-y,-y,z+1/2
+-x,-y,-z
+-x+y,-x,-z+1/2
+y,-x+y,-z
+x,y,-z+1/2
+x-y,x,-z
+-y,x-y,-z+1/2
+y,x,-z
+x,x-y,-z+1/2
+x-y,-y,-z
+-y,-x,-z+1/2
+-x,-x+y,-z
+-x+y,y,-z+1/2
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+_atom_site_adp_type
+_atom_site_type_symbol
+CS1 0.33333 0.66667 0.75000 0.031(5) 1.00000 Uani CS
+CS2 0.33333 0.66667 0.4267(3) 0.025(3) 1.00000 Uani CS
+AL1 0.00000 0.00000 0.1653(17) 0.021(3) 1.00000 Uiso AL
+F1 0.140(2) 0.281(2) 0.25000 0.039(3) 1.00000 Uiso F
+F2 0.265(2) 0.132(2) 0.0958(11) 0.039(3) 1.00000 Uiso F
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+_atom_site_aniso_type_symbol
+Cs1 0.032(5) 0.032(5) 0.028(4) 0.016(5) 0.00000 0.00000 Cs
+Cs2 0.018(3) 0.018(3) 0.039(3) 0.009(3) 0.00000 0.00000 Cs
+loop_
+_atom_type_symbol
+_atom_type_scat_Cromer_Mann_a1
+_atom_type_scat_Cromer_Mann_b1
+_atom_type_scat_Cromer_Mann_a2
+_atom_type_scat_Cromer_Mann_b2
+_atom_type_scat_Cromer_Mann_a3
+_atom_type_scat_Cromer_Mann_b3
+_atom_type_scat_Cromer_Mann_a4
+_atom_type_scat_Cromer_Mann_b4
+_atom_type_scat_Cromer_Mann_c
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Cs 20.35240 3.55200 19.12780 0.30860 10.28210 23.71280 0.96150 59.45650 3.27910
+-0.7460 7.90500
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+Al 4.17448 1.93816 3.38760 4.14553 1.20296 0.22875 0.52814 8.28524 0.70679
+0.21300 0.24600
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+F 3.63220 5.27756 3.51057 14.73530 1.26064 0.44226 0.94071 47.34370 0.65340
+0.07300 0.05300
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+F1 AL1 F1 84.1(9) 1_555 3_555
+F1 AL1 F1 84.1(11) 1_555 5_555
+F1 AL1 F1 84.2(11) 1_555 11_555
+F1 AL1 F2 93.2(12) 1_555 1_555
+F1 AL1 F2 92.9(11) 1_555 3_555
+F1 AL1 F2 176.2(13) 1_555 5_555
+F1 AL1 F2 93.0(11) 1_555 9_555
+F1 AL1 F1 84.1(11) 3_555 5_555
+F1 AL1 F1 84.0(11) 3_555 11_555
+F1 AL1 F2 176.2(13) 3_555 1_555
+F1 AL1 F2 93.2(11) 3_555 3_555
+F1 AL1 F2 92.9(11) 3_555 5_555
+F1 AL1 F2 93.0(11) 3_555 9_555
+F1 AL1 F2 92.9(11) 5_555 1_555
+F1 AL1 F2 176.2(15) 5_555 3_555
+F1 AL1 F2 93.2(11) 5_555 5_555
+F1 AL1 F2 176.2(15) 5_555 9_555
+F1 AL1 F2 93.0(11) 11_555 1_555
+F1 AL1 F2 176.2(15) 11_555 3_555
+F1 AL1 F2 93.0(11) 11_555 5_555
+F1 AL1 F2 176.2(15) 11_555 9_555
+F2 AL1 F2 89.7(13) 1_555 3_555
+F2 AL1 F2 89.7(11) 1_555 5_555
+F2 AL1 F2 89.8(13) 1_555 9_555
+F2 AL1 F2 89.7(13) 3_555 5_555
+F2 AL1 F2 89.5(13) 5_555 9_555
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+CS1 AL1 3.820(8) 2_555
+CS1 AL1 3.820(8) 2_565
+CS1 AL1 3.820(8) 2_665
+CS1 AL1 3.820(8) 13_556
+CS1 AL1 3.820(8) 13_566
+CS1 AL1 3.820(8) 13_666
+CS1 F1 3.143(9) 2_555
+CS1 F1 3.136(9) 2_665
+CS1 F1 3.136(14) 4_565
+CS1 F1 3.143(14) 4_665
+CS1 F1 3.136(14) 6_555
+CS1 F1 3.143(14) 6_565
+CS1 F1 3.136(9) 8_555
+CS1 F1 3.143(9) 8_665
+CS1 F1 3.136(14) 10_565
+CS1 F2 3.144(14) 2_555
+CS1 F2 3.144(14) 4_665
+CS1 F2 3.144(16) 6_565
+CS1 F2 3.144(14) 8_665
+CS1 F2 3.144(16) 12_565
+CS1 F2 3.144(14) 13_666
+CS1 F2 3.144(16) 15_566
+CS1 F2 3.144(14) 17_556
+CS1 F2 3.144(16) 21_566
+CS1 F2 3.144(14) 23_666
+CS2 AL1 3.856(9) 14_555
+CS2 AL1 3.856(9) 14_565
+CS2 AL1 3.856(9) 14_665
+CS2 F1 3.336(8) 1_555
+CS2 F1 3.336(8) 3_665
+CS2 F1 3.336(10) 5_565
+CS2 F1 3.336(10) 11_565
+CS2 F2 3.306(15) 2_555
+CS2 F2 3.306(15) 4_665
+CS2 F2 3.306(16) 6_565
+CS2 F2 3.306(15) 8_665
+CS2 F2 3.306(16) 12_565
+CS2 F2 3.169(15) 14_565
+CS2 F2 3.163(13) 14_665
+CS2 F2 3.169(13) 16_555
+CS2 F2 3.163(15) 16_565
+CS2 F2 3.163(9) 18_555
+CS2 F2 3.169(9) 18_665
+CS2 F2 3.169(15) 20_565
+CS2 F2 3.169(13) 22_665
+CS2 F2 3.169(9) 24_555
+CS2 F2 3.163(9) 24_665
+AL1 CS1 3.820(8) 2_544
+AL1 CS1 3.820(8) 2_554
+AL1 CS1 3.820(8) 2_654
+AL1 CS2 3.856(9) 14_455
+AL1 CS2 3.856(9) 14_555
+AL1 CS2 3.856(9) 14_565
+AL1 AL1 2.49(4) 14_555
+AL1 F1 1.967(18) 1_555
+AL1 F1 1.967(18) 3_555
+AL1 F1 1.967(20) 5_555
+AL1 F1 1.967(20) 11_555
+AL1 F2 1.762(19) 1_555
+AL1 F2 1.76(2) 3_555
+AL1 F2 1.762(19) 5_555
+AL1 F2 1.76(2) 9_555
+AL1 F2 3.80(3) 14_555
+AL1 F2 3.80(3) 16_555
+AL1 F2 3.80(3) 18_555
+AL1 F2 3.80(3) 24_555
+F1 CS1 3.136(14) 2_554
+F1 CS1 3.143(14) 2_654
+F1 CS2 3.336(8) 1_555
+F1 CS2 3.336(8) 14_565
+F1 AL1 1.967(18) 1_555
+F1 AL1 1.967(18) 14_555
+F1 F1 2.636(13) 3_555
+F1 F1 3.618(13) 3_665
+F1 F1 2.636(20) 5_555
+F1 F1 3.618(20) 5_565
+F1 F1 2.639(20) 11_555
+F1 F1 3.615(20) 11_565
+F1 F2 2.713(18) 1_555
+F1 F2 2.707(16) 3_555
+F1 F2 3.728(16) 5_555
+F1 F2 2.710(16) 9_555
+F1 F2 3.728(16) 14_555
+F1 F2 2.713(18) 16_555
+F1 F2 2.707(16) 18_555
+F1 F2 2.710(16) 24_555
+F2 CS1 3.144(14) 2_654
+F2 CS2 3.306(15) 2_654
+F2 CS2 3.163(15) 14_555
+F2 CS2 3.169(13) 14_565
+F2 AL1 1.762(19) 1_555
+F2 AL1 3.80(3) 14_555
+F2 F1 2.713(18) 1_555
+F2 F1 3.728(16) 3_555
+F2 F1 2.707(16) 5_555
+F2 F1 2.710(16) 11_555
+F2 F2 2.486(20) 3_555
+F2 F2 3.768(20) 3_655
+F2 F2 2.486(13) 5_555
+F2 F2 3.768(13) 5_665
+F2 F2 3.771(13) 7_665
+F2 F2 2.489(20) 9_555
+F2 F2 3.765(20) 9_655
+F2 F2 3.16(2) 15_555
+F2 F2 3.16(2) 17_555
+F2 F2 3.16(2) 21_555

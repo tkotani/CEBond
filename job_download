@@ -1,0 +1,19 @@
+#!/bin/bash
+mysql -u cod_reader -h sql.crystallography.net cod <pickup-COD-structures_O.sql >ListDownloadCif_O.dat
+mysql -u cod_reader -h sql.crystallography.net cod <pickup-COD-structures_F.sql >ListDownloadCif_F.dat
+mysql -u cod_reader -h sql.crystallography.net cod <pickup-COD-structures_N.sql >ListDownloadCif_N.dat
+
+mkdir COD
+cd COD
+
+mkdir O
+cd O
+../../DownloadCif.py ../../ListDownloadCif_O.dat
+cd ..
+mkdir F
+cd F
+../../DownloadCif.py ../../ListDownloadCif_F.dat
+cd ..
+mkdir N
+cd N
+../../DownloadCif.py ../../ListDownloadCif_N.dat

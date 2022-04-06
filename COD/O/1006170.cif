@@ -1,0 +1,89 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/1/00/61/1006170.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1006170
+loop_
+_publ_author_name
+'Dunaevskii, S M'
+'Kurbakov, A I'
+'Trunov, V A'
+'Chernyshov, D Yu'
+'Popov, V V'
+'Chernyshev, V V'
+'Rodriguez-Carvajal, J'
+_publ_section_title
+;
+Atomic structure and transport and magnetic properties of the Sm1-xSrx
+Mn O3 system
+;
+_journal_coden_ASTM              FTVTAC
+_journal_issue                   7
+_journal_name_full
+;
+Fizika Tverdogo Tela (Leningrad) (= Solid State Physics)
+;
+_journal_page_first              1271
+_journal_page_last               1276
+_journal_volume                  40
+_journal_year                    1998
+_chemical_formula_structural     'Sm0.75 Sr0.25 Mn O3'
+_chemical_formula_sum            'Mn O3 Sm0.75 Sr0.25'
+_chemical_name_systematic
+;
+Samarium strontium manganese oxide (0.75/0.25/1/3)
+;
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_Int_Tables_number      14
+_symmetry_space_group_name_Hall  '-P 2ac'
+_symmetry_space_group_name_H-M   'P 1 1 21/a'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90.49
+_cell_formula_units_Z            4
+_cell_length_a                   5.5062
+_cell_length_b                   7.672
+_cell_length_c                   5.435
+_cell_volume                     229.6
+_cod_original_formula_sum        'Mn O3 Sm.75 Sr.25'
+_cod_database_code               1006170
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+1/2-x,-y,1/2+z
+-x,-y,-z
+1/2+x,y,1/2-z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_calc_flag
+Mn1 Mn3+ 2 c 0.5 0. 0. 1. 0 d
+Mn2 Mn3+ 2 d 0. 0.5 0.5 1. 0 d
+Sm1 Sm3+ 4 e 0.042 0.237 -0.024 0.75 0 d
+Sr1 Sr2+ 4 e 0.042 0.237 -0.024 0.25 0 d
+O1 O2- 4 e 0.491 0.242 0.057 1. 0 d
+O2 O2- 4 e 0.297 0.034 0.71 1. 0 d
+O3 O2- 4 e 0.713 0.541 0.307 1. 0 d
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Mn3+ 3.250
+Sm3+ 3.000
+Sr2+ 2.000
+O2- -2.000

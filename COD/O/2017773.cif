@@ -1,0 +1,330 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 00:18:51 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176760 $
+#$URL: svn://www.crystallography.net/cod/cif/2/01/77/2017773.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_2017773
+loop_
+_publ_author_name
+'Chitra, R.'
+'Choudhury, R. R.'
+_publ_section_title
+;
+ Single-crystal neutron diffraction investigation on crystals belonging to
+ the langasite family: a comparative study
+;
+_journal_issue                   5
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              497
+_journal_page_last               502
+_journal_paper_doi               10.1107/S0108768110031459
+_journal_volume                  66
+_journal_year                    2010
+_chemical_formula_moiety         'Ga5.34 La3 O14 Si0.36 Ta0.29'
+_chemical_formula_sum            'Ga5.34 La3 O14 Si0.36 Ta0.29'
+_chemical_formula_weight         1075.12
+_chemical_name_common            Langatate
+_chemical_name_systematic
+;
+ langtate
+;
+_space_group_IT_number           150
+_symmetry_cell_setting           trigonal
+_symmetry_space_group_name_Hall  'P 3 2"'
+_symmetry_space_group_name_H-M   'P 3 2 1'
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                120.00
+_cell_formula_units_Z            1
+_cell_length_a                   8.195(7)
+_cell_length_b                   8.195(7)
+_cell_length_c                   5.1180(10)
+_cell_measurement_reflns_used    50
+_cell_measurement_temperature    300(2)
+_cell_measurement_theta_max      44
+_cell_measurement_theta_min      4.0
+_cell_volume                     297.7(4)
+_computing_cell_refinement       REFINE
+_computing_data_collection       SCAD
+_computing_data_reduction        DATRED
+_computing_molecular_graphics    ORTEP
+_computing_publication_material  SHELX
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_diffrn_ambient_temperature      300(2)
+_diffrn_measured_fraction_theta_full 0.991
+_diffrn_measured_fraction_theta_max 0.991
+_diffrn_measurement_device_type  'Four circle diffractometer'
+_diffrn_measurement_method       \t-\2t
+_diffrn_radiation_monochromator  Cu
+_diffrn_radiation_probe          neutron
+_diffrn_radiation_source         'dhruva reactor'
+_diffrn_radiation_type           neutron
+_diffrn_radiation_wavelength     0.99500
+_diffrn_reflns_av_R_equivalents  0.0216
+_diffrn_reflns_av_sigmaI/netI    0.0263
+_diffrn_reflns_limit_h_max       11
+_diffrn_reflns_limit_h_min       -11
+_diffrn_reflns_limit_k_max       10
+_diffrn_reflns_limit_k_min       -5
+_diffrn_reflns_limit_l_max       7
+_diffrn_reflns_limit_l_min       -6
+_diffrn_reflns_number            461
+_diffrn_reflns_theta_full        44.14
+_diffrn_reflns_theta_max         44.14
+_diffrn_reflns_theta_min         4.02
+_diffrn_standards_decay_%        <3%
+_diffrn_standards_interval_count 25
+_diffrn_standards_number         2
+_exptl_absorpt_coefficient_mu    0.016
+_exptl_absorpt_correction_type   integration
+_exptl_absorpt_process_details   Datred
+_exptl_crystal_colour            Colourless
+_exptl_crystal_density_diffrn    6.000
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       cubic
+_exptl_crystal_F_000             148
+_exptl_crystal_size_max          3
+_exptl_crystal_size_mid          3
+_exptl_crystal_size_min          3
+_refine_diff_density_max         0.833
+_refine_diff_density_min         -0.833
+_refine_ls_abs_structure_details 'Flack H D (1983), Acta Cryst. A39, 876-881'
+_refine_ls_abs_structure_Flack   10(10)
+_refine_ls_extinction_coef       2.10(17)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_ref   1.136
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     42
+_refine_ls_number_reflns         454
+_refine_ls_number_restraints     2
+_refine_ls_restrained_S_all      1.134
+_refine_ls_R_factor_all          0.0472
+_refine_ls_R_factor_gt           0.0451
+_refine_ls_shift/su_max          0.012
+_refine_ls_shift/su_mean         0.001
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0939P)^2^+1.5721P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.1304
+_refine_ls_wR_factor_ref         0.1339
+_reflns_number_gt                440
+_reflns_number_total             454
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            bp5031.cif
+_cod_data_source_block           LGST
+_cod_original_sg_symbol_H-M      'P 321'
+_cod_database_code               2017773
+_cod_database_fobs_code          2017773
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-y, x-y, z'
+'-x+y, -x, z'
+'x-y, -y, -z'
+'-x, -x+y, -z'
+'y, x, -z'
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+La La 0.4222(3) 0.0000 0.0000 0.0077(6) Uani d S 1 . .
+Ga Ga1 0.0000 0.0000 0.0000 0.0104(10) Uani d SP 0.75(3) . .
+Ta Ta 0.0000 0.0000 0.0000 0.0104(10) Uani d SP 0.288(12) . .
+Ga Ga2 0.7640(3) 0.0000 0.5000 0.0081(6) Uani d S 1 . .
+Si Si 0.3333 0.6667 0.5321(6) 0.0067(7) Uani d SP 0.18(2) . .
+Ga Ga3 0.3333 0.6667 0.5321(6) 0.0067(7) Uani d SP 0.794(10) . .
+O O12D 0.3333 0.6667 0.1873(7) 0.0122(8) Uani d S 1 . .
+O O26G 0.4609(3) 0.3108(4) 0.3113(4) 0.0161(6) Uani d . 1 . .
+O O36G 0.2211(4) 0.0794(4) 0.7633(4) 0.0171(7) Uani d . 1 . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+La 0.0108(8) 0.0070(9) 0.0040(8) 0.0035(5) 0.0006(3) 0.0013(6)
+Ga1 0.0137(13) 0.0137(13) 0.0038(17) 0.0068(6) 0.000 0.000
+Ta 0.0137(13) 0.0137(13) 0.0038(17) 0.0068(6) 0.000 0.000
+Ga2 0.0084(8) 0.0089(10) 0.0072(9) 0.0044(5) -0.0027(4) -0.0053(7)
+Si 0.0076(9) 0.0076(9) 0.0050(11) 0.0038(4) 0.000 0.000
+Ga3 0.0076(9) 0.0076(9) 0.0050(11) 0.0038(4) 0.000 0.000
+O12D 0.0122(10) 0.0122(10) 0.0121(16) 0.0061(5) 0.000 0.000
+O26G 0.0125(11) 0.0212(12) 0.0144(10) 0.0084(9) 0.0055(8) 0.0086(8)
+O36G 0.0200(12) 0.0262(14) 0.0115(11) 0.0165(10) 0.0073(9) 0.0140(8)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+La La 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ga Ga 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ta Ta 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Si Si 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O36G La O36G 1_554 4_556 68.20(12) ?
+O36G La O26G 1_554 2_655 138.63(10) ?
+O36G La O26G 4_556 2_655 107.47(9) ?
+O36G La O26G 1_554 5_655 107.47(9) ?
+O36G La O26G 4_556 5_655 138.63(10) ?
+O26G La O26G 2_655 5_655 101.25(14) ?
+O36G La O12D 1_554 4_665 78.62(8) ?
+O36G La O12D 4_556 4_665 126.76(9) ?
+O26G La O12D 2_655 4_665 72.20(10) ?
+O26G La O12D 5_655 4_665 89.90(9) ?
+O36G La O12D 1_554 1_545 126.76(9) ?
+O36G La O12D 4_556 1_545 78.62(8) ?
+O26G La O12D 2_655 1_545 89.90(9) ?
+O26G La O12D 5_655 1_545 72.20(10) ?
+O12D La O12D 4_665 1_545 151.96(9) ?
+O36G La O26G 1_554 4 68.00(9) ?
+O36G La O26G 4_556 4 79.93(10) ?
+O26G La O26G 2_655 4 153.37(7) ?
+O26G La O26G 5_655 4 61.77(11) ?
+O12D La O26G 4_665 4 124.52(9) ?
+O12D La O26G 1_545 4 66.05(8) ?
+O36G La O26G 1_554 . 79.93(10) ?
+O36G La O26G 4_556 . 68.00(9) ?
+O26G La O26G 2_655 . 61.77(11) ?
+O26G La O26G 5_655 . 153.37(7) ?
+O12D La O26G 4_665 . 66.05(8) ?
+O12D La O26G 1_545 . 124.52(9) ?
+O26G La O26G 4 . 141.24(13) ?
+O36G La Ga3 1_554 4_666 110.24(8) ?
+O36G La Ga3 4_556 4_666 87.82(8) ?
+O26G La Ga3 2_655 4_666 30.25(6) ?
+O26G La Ga3 5_655 4_666 128.89(9) ?
+O12D La Ga3 4_665 4_666 65.72(9) ?
+O12D La Ga3 1_545 4_666 108.73(9) ?
+O26G La Ga3 4 4_666 167.39(8) ?
+O26G La Ga3 . 4_666 31.52(5) ?
+O36G La Ga3 1_554 1_544 87.82(8) ?
+O36G La Ga3 4_556 1_544 110.24(8) ?
+O26G La Ga3 2_655 1_544 128.89(9) ?
+O26G La Ga3 5_655 1_544 30.25(6) ?
+O12D La Ga3 4_665 1_544 108.73(9) ?
+O12D La Ga3 1_545 1_544 65.72(9) ?
+O26G La Ga3 4 1_544 31.52(5) ?
+O26G La Ga3 . 1_544 167.39(8) ?
+Ga3 La Ga3 4_666 1_544 158.56(7) ?
+O36G Ga1 O36G 3_554 6_556 165.34(15) ?
+O36G Ga1 O36G 3_554 4_556 103.94(17) ?
+O36G Ga1 O36G 6_556 4_556 87.07(11) ?
+O36G Ga1 O36G 3_554 2_554 87.07(11) ?
+O36G Ga1 O36G 6_556 2_554 83.91(14) ?
+O36G Ga1 O36G 4_556 2_554 165.34(15) ?
+O36G Ga1 O36G 3_554 5_556 83.91(14) ?
+O36G Ga1 O36G 6_556 5_556 87.07(11) ?
+O36G Ga1 O36G 4_556 5_556 87.07(11) ?
+O36G Ga1 O36G 2_554 5_556 103.94(17) ?
+O36G Ga1 O36G 3_554 1_554 87.07(11) ?
+O36G Ga1 O36G 6_556 1_554 103.94(17) ?
+O36G Ga1 O36G 4_556 1_554 83.91(14) ?
+O36G Ga1 O36G 2_554 1_554 87.07(11) ?
+O36G Ga1 O36G 5_556 1_554 165.34(15) ?
+O36G Ga2 O36G 2_655 5_656 134.7(2) ?
+O36G Ga2 O26G 2_655 5_656 100.57(12) ?
+O36G Ga2 O26G 5_656 5_656 108.50(11) ?
+O36G Ga2 O26G 2_655 2_655 108.50(11) ?
+O36G Ga2 O26G 5_656 2_655 100.57(12) ?
+O26G Ga2 O26G 5_656 2_655 99.0(2) ?
+O12D Si O26G . 4_566 116.57(11) ?
+O12D Si O26G . 5_666 116.57(11) ?
+O26G Si O26G 4_566 5_666 101.53(14) ?
+O12D Si O26G . 6_556 116.57(11) ?
+O26G Si O26G 4_566 6_556 101.53(14) ?
+O26G Si O26G 5_666 6_556 101.53(14) ?
+Si O12D La . 2 111.37(7) ?
+Si O12D La . 1_565 111.37(7) ?
+La O12D La 2 1_565 107.51(8) ?
+Si O12D La . 3_665 111.37(7) ?
+La O12D La 2 3_665 107.51(8) ?
+La O12D La 1_565 3_665 107.51(8) ?
+Ga3 O26G Si 4_666 4_666 0.00(17) ?
+Ga3 O26G Ga2 4_666 3_665 121.31(15) ?
+Si O26G Ga2 4_666 3_665 121.31(15) ?
+Ga3 O26G La 4_666 3_665 105.55(12) ?
+Si O26G La 4_666 3_665 105.55(12) ?
+Ga2 O26G La 3_665 3_665 119.90(13) ?
+Ga3 O26G La 4_666 . 91.15(12) ?
+Si O26G La 4_666 . 91.15(12) ?
+Ga2 O26G La 3_665 . 109.69(13) ?
+La O26G La 3_665 . 104.33(9) ?
+Ga2 O36G Ta 3_665 1_556 114.09(13) ?
+Ga2 O36G Ga1 3_665 1_556 114.09(13) ?
+Ta O36G Ga1 1_556 1_556 0.0 ?
+Ga2 O36G La 3_665 1_556 139.13(14) ?
+Ta O36G La 1_556 1_556 103.95(10) ?
+Ga1 O36G La 1_556 1_556 103.95(10) ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+La O36G 1_554 2.384(3) ?
+La O36G 4_556 2.384(3) ?
+La O26G 2_655 2.479(3) ?
+La O26G 5_655 2.479(3) ?
+La O12D 4_665 2.631(2) ?
+La O12D 1_545 2.631(2) ?
+La O26G 4 2.885(3) ?
+La O26G . 2.885(3) ?
+La Ga3 4_666 3.426(3) ?
+La Ga3 1_544 3.426(3) ?
+Ga1 O36G 3_554 1.999(3) ?
+Ga1 O36G 6_556 1.999(3) ?
+Ga1 O36G 4_556 1.999(3) ?
+Ga1 O36G 2_554 1.999(3) ?
+Ga1 O36G 5_556 1.999(3) ?
+Ga1 O36G 1_554 1.999(3) ?
+Ga2 O36G 2_655 1.822(3) ?
+Ga2 O36G 5_656 1.822(3) ?
+Ga2 O26G 5_656 1.891(3) ?
+Ga2 O26G 2_655 1.891(3) ?
+Si O12D . 1.764(4) ?
+Si O26G 4_566 1.792(3) ?
+Si O26G 5_666 1.792(3) ?
+Si O26G 6_556 1.792(3) ?
+O12D La 2 2.631(2) ?
+O12D La 1_565 2.631(2) ?
+O12D La 3_665 2.631(2) ?
+O26G Ga3 4_666 1.792(3) ?
+O26G Si 4_666 1.792(3) ?
+O26G Ga2 3_665 1.891(3) ?
+O26G La 3_665 2.479(3) ?
+O36G Ga2 3_665 1.822(3) ?
+O36G Ta 1_556 1.999(3) ?
+O36G Ga1 1_556 1.999(3) ?
+O36G La 1_556 2.384(3) ?

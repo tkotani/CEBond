@@ -1,0 +1,74 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-10-06 19:24:22 +0300 (Fri, 06 Oct 2017) $
+#$Revision: 201816 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/05/9000555.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9000555
+loop_
+_publ_author_name
+'Hazen, R. M.'
+_publ_section_title
+;Effects of temperature and pressure on the crystal structure of
+ ferromagnesian olivine T = 23 deg C, P = 1 atm, in P-cell
+;
+_journal_name_full               'American Mineralogist'
+_journal_page_first              286
+_journal_page_last               295
+_journal_volume                  62
+_journal_year                    1977
+_chemical_formula_structural     'Fe2 (Si O4)'
+_chemical_formula_sum            'Fe2 O4 Si'
+_chemical_name_mineral           Fayalite
+_space_group_IT_number           62
+_symmetry_space_group_name_Hall  '-P 2c 2ab'
+_symmetry_space_group_name_H-M   'P b n m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_length_a                   4.818
+_cell_length_b                   10.470
+_cell_length_c                   6.086
+_cell_volume                     307.005
+_database_code_amcsd             0000566
+_diffrn_ambient_pressure         100
+_diffrn_ambient_temperature      296.15
+_exptl_crystal_density_diffrn    4.409
+_cod_original_formula_sum        'Fe2 Si O4'
+_cod_database_code               9000555
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x,y,1/2-z
+-x,-y,1/2+z
+1/2+x,1/2-y,1/2+z
+1/2-x,1/2+y,1/2-z
+1/2-x,1/2+y,z
+1/2+x,1/2-y,-z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+Fe1 0.00000 0.00000 0.00000 0.00342
+Fe2 0.98500 0.27900 0.25000 0.00342
+Si 0.42600 0.09500 0.25000 0.00038
+O1 0.77200 0.09800 0.25000 ?
+O2 0.21600 0.45000 0.25000 -0.00127
+O3 0.28100 0.16400 0.04200 0.00253
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0000566

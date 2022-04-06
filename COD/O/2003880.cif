@@ -1,0 +1,143 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 06:40:26 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176432 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/38/2003880.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2003880
+loop_
+_publ_author_name
+'Heunen, G. W. J. C.'
+'IJdo, D. J. W.'
+'Helmholdt, R. B.'
+_publ_section_title
+;
+ SrTa~4~O~11~: a Rietveld Refinement Using Neutron Powder Diffraction
+ Data
+;
+_journal_issue                   9
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              1723
+_journal_page_last               1725
+_journal_paper_doi               10.1107/S0108270195004264
+_journal_volume                  51
+_journal_year                    1995
+_chemical_formula_moiety         'Sr Ta4 O11'
+_chemical_formula_sum            'O11 Sr Ta4'
+_chemical_formula_weight         987.42
+_chemical_name_systematic
+;
+SrTa4O11
+;
+_space_group_IT_number           182
+_symmetry_cell_setting           hexagonal
+_symmetry_space_group_name_Hall  'P 6c 2c'
+_symmetry_space_group_name_H-M   'P 63 2 2'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                120.0
+_cell_formula_units_Z            2
+_cell_length_a                   6.2543(1)
+_cell_length_b                   6.2543(1)
+_cell_length_c                   12.3320(3)
+_cell_measurement_reflns_used    61
+_cell_measurement_temperature    295
+_cell_measurement_theta_max      77.5
+_cell_measurement_theta_min      2.5
+_cell_volume                     417.755(14)
+_computing_structure_refinement  'DBW3.2 version 8804'
+_diffrn_ambient_temperature      295
+_diffrn_measurement_device       'Petten High Flux reactor diffractometer'
+_diffrn_radiation_monochromator  'Cu (111)'
+_diffrn_radiation_probe          neutron
+_diffrn_radiation_source
+;
+High-Flux Reactor Petten, The Netherlands
+;
+_diffrn_radiation_type           Neutron
+_diffrn_radiation_wavelength     2.57167(7)
+_diffrn_reflns_number            61
+_diffrn_reflns_theta_max         77.5
+_diffrn_reflns_theta_min         2.5
+_exptl_crystal_colour            white
+_exptl_crystal_density_diffrn    7.850(1)
+_exptl_crystal_description       powder
+_exptl_crystal_F_000             '196.99 fm'
+_refine_ls_goodness_of_fit_all   1.79
+_refine_ls_number_parameters     27
+_refine_ls_number_reflns         61
+_refine_ls_R_factor_all          .0243
+_refine_ls_shift/esd_max         0.3
+_refine_ls_wR_factor_all         .0310
+_reflns_number_total             61
+_cod_data_source_file            cr1170.cif
+_cod_data_source_block           TOZ
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_symmetry_cell_setting' value 'Hexagonal' changed to 'hexagonal'
+according to '/home/saulius/struct/CIF-dictionaries/cif_core.dic'
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Hexagonal' changed to 'hexagonal'
+according to /home/saulius/struct/CIF-dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_original_cell_volume        417.76(2)
+_cod_original_sg_symbol_Hall     'P 6C 2 (003)'
+_cod_original_formula_sum        'Sr Ta4 O11'
+_cod_database_code               2003880
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-y,x-y,z
+-x+y,-x,z
+-x,-y,z+1/2
+y,-x+y,z+1/2
+x-y,x,z+1/2
+y,x,-z
+x-y,-y,-z
+-x,-x+y,-z
+-y,-x,-z+1/2
+-x+y,y,-z+1/2
+x,x-y,-z+1/2
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+Sr .6667 .3333 .25 .17(8)
+Ta1 .3333 .6667 .25 .20(7)
+Ta2 .3570(2) .0 .0 .14(3)
+O1 .3333 .6667 .5347(1) .22(6)
+O2 .7532(2) .0 .0 .53(5)
+O3 .3701(2) .4315(2) .3454(1) .47(4)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Sr 2O1 2.6550(10) yes
+Sr 6O3 2.5180(10) yes
+Ta1 6O3 1.9850(10) yes
+Ta2 2O1 2.0598(6) yes
+Ta2 O2 2.478(2) yes
+Ta2 2O2 1.9800(10) yes
+Ta2 2O3 1.9550(10) yes

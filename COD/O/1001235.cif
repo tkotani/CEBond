@@ -1,0 +1,107 @@
+#------------------------------------------------------------------------------
+#$Date: 2015-01-27 21:58:39 +0200 (Tue, 27 Jan 2015) $
+#$Revision: 130149 $
+#$URL: svn://www.crystallography.net/cod/cif/1/00/12/1001235.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1001235
+loop_
+_publ_author_name
+'Groult, D'
+'Raveau, B'
+_publ_section_title
+;
+K Ti~6~ Nb~5~ O~25~: A member of a series of chemically twinned Rutile
+oxides (A M~3~ O~9~)(M~2~ O~4~)~n~
+;
+_journal_coden_ASTM              MRBUAC
+_journal_name_full               'Materials Research Bulletin'
+_journal_page_first              141
+_journal_page_last               146
+_journal_paper_doi               10.1016/0025-5408(83)90074-0
+_journal_volume                  18
+_journal_year                    1983
+_chemical_formula_structural     'K Ti6 Nb5 O25'
+_chemical_formula_sum            'K Nb5 O25 Ti6'
+_chemical_name_systematic        'Potassium hexatitanium pentaniobium oxide'
+_space_group_IT_number           63
+_symmetry_cell_setting           orthorhombic
+_symmetry_Int_Tables_number      63
+_symmetry_space_group_name_Hall  '-C 2c 2'
+_symmetry_space_group_name_H-M   'C m c m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   6.611(4)
+_cell_length_b                   8.880(8)
+_cell_length_c                   30.154(18)
+_cell_volume                     1770.2
+_exptl_crystal_density_meas      4.47(2)
+_refine_ls_R_factor_all          0.072
+_cod_database_code               1001235
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x,-y,-z
+x,y,1/2-z
+x,-y,1/2+z
+-x,-y,-z
+-x,y,z
+-x,-y,1/2+z
+-x,y,1/2-z
+1/2+x,1/2+y,z
+1/2+x,1/2-y,-z
+1/2+x,1/2+y,1/2-z
+1/2+x,1/2-y,1/2+z
+1/2-x,1/2-y,-z
+1/2-x,1/2+y,z
+1/2-x,1/2-y,1/2+z
+1/2-x,1/2+y,1/2-z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_calc_flag
+K1 K1+ 4 c 0. 0.797(3) 0.25 1. 0 d
+Nb1 Nb5+ 4 b 0. 0.5 0. 0.5 0 d
+Ti1 Ti4+ 4 b 0. 0.5 0. 0.5 0 d
+Nb2 Nb5+ 8 f 0. 0.686(2) 0.1093(5) 0.3 0 d
+Ti2 Ti4+ 8 f 0. 0.686(2) 0.1093(5) 0.7 0 d
+Nb3 Nb5+ 8 f 0. 0.895(2) 0.0359(4) 0.475 0 d
+Ti3 Ti4+ 8 f 0. 0.895(2) 0.0359(4) 0.525 0 d
+Nb4 Nb5+ 8 f 0. 0.419(2) 0.1863(4) 0.6 0 d
+Ti4 Ti4+ 8 f 0. 0.419(2) 0.1863(4) 0.4 0 d
+Nb5 Nb5+ 8 f 0. 0.288(2) 0.0808(5) 0.275 0 d
+Ti5 Ti4+ 8 f 0. 0.288(2) 0.0808(5) 0.725 0 d
+Nb6 Nb5+ 8 f 0. 0.0387(14) 0.1480(6) 0.6 0 d
+Ti6 Ti4+ 8 f 0. 0.0387(14) 0.1480(6) 0.4 0 d
+O1 O2- 4 c 0. 0.423(7) 0.25 1. 0 d
+O2 O2- 8 f 0. 0.209(5) 0.1878(12) 1. 0 d
+O3 O2- 8 f 0. 0.436(5) 0.1190(11) 1. 0 d
+O4 O2- 8 f 0. 0.664(4) 0.1755(10) 1. 0 d
+O5 O2- 8 f 0. 0.910(5) 0.103(2) 1. 0 d
+O6 O2- 8 f 0. 0.691(5) 0.0372(10) 1. 0 d
+O7 O2- 8 f 0. 0.110(5) 0.0266(11) 1. 0 d
+O8 O2- 16 h 0.311(5) 0.413(4) 0.1747(8) 1. 0 d
+O9 O2- 16 h 0.310(4) 0.683(4) 0.1135(10) 1. 0 d
+O10 O2- 16 h 0.305(4) 0.878(7) 0.0370(9) 1. 0 d
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+K1+ 1.000
+Nb5+ 5.000
+Ti4+ 4.000
+O2- -2.000

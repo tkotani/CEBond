@@ -1,0 +1,92 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-10-06 19:24:22 +0300 (Fri, 06 Oct 2017) $
+#$Revision: 201816 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/17/9001705.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9001705
+loop_
+_publ_author_name
+'Gasparik, T.'
+'Parise, J. B.'
+'Eiben, B. A.'
+'Hriljac, J. A.'
+_publ_section_title
+;
+ Stability and structure of a new high-pressure silicate, Na1.8Ca1.1Si6O14
+ Sample: data collected on a diffractometer
+ Note: U(2,3) for Si2, Na/Ca altered to match symmetry constraints.
+;
+_journal_name_full               'American Mineralogist'
+_journal_page_first              1269
+_journal_page_last               1276
+_journal_volume                  80
+_journal_year                    1995
+_chemical_formula_structural     Na1.8Ca1.1Si6O14
+_chemical_formula_sum            'Ca1.11 Na1.8 O14 Si6'
+_space_group_IT_number           150
+_symmetry_space_group_name_Hall  'P 3 2"'
+_symmetry_space_group_name_H-M   'P 3 2 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_length_a                   7.903
+_cell_length_b                   7.903
+_cell_length_c                   4.595
+_cell_volume                     248.542
+_database_code_amcsd             0001761
+_exptl_crystal_density_diffrn    3.196
+_cod_original_formula_sum        'Si6 Na1.8 Ca1.11 O14'
+_cod_database_code               9001705
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+y,x,-z
+-y,x-y,z
+-x,-x+y,-z
+-x+y,-x,z
+x-y,-y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Si1 0.00550 0.00550 0.00560 0.00275 0.00000 0.00000
+Si2 0.00500 0.00500 0.00400 0.00250 -0.00030 0.00030
+Si3 0.00540 0.00540 0.00330 0.00270 0.00000 0.00000
+Na 0.01070 0.01070 0.00930 0.00400 0.00050 -0.00050
+Ca 0.01070 0.01070 0.00930 0.00400 0.00050 -0.00050
+O1 0.01780 0.00670 0.00810 0.00650 -0.00270 -0.00110
+O2 0.02060 0.02060 0.00590 0.01030 0.00000 0.00000
+O3 0.00730 0.00690 0.00530 0.00390 -0.00210 -0.00110
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Si1 0.66667 0.33333 0.48990 1.00000
+Si2 0.74751 0.74751 0.50000 1.00000
+Si3 0.00000 0.00000 0.00000 1.00000
+Na 0.41485 0.41485 0.00000 0.60000
+Ca 0.41485 0.41485 0.00000 0.37000
+O1 0.70210 0.53940 0.35050 1.00000
+O2 0.66667 0.33333 0.82880 1.00000
+O3 0.89630 0.78990 0.76840 1.00000
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0001761

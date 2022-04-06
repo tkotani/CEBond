@@ -1,0 +1,415 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 06:40:26 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176432 $
+#$URL: svn://www.crystallography.net/cod/cif/2/21/01/2210102.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2210102
+loop_
+_publ_author_name
+'Weil, Matthias'
+'St\"oger, Berthold'
+_publ_section_title
+;
+ Spinel-type HgCr~2~O~4~ from single-crystal data
+;
+_journal_coeditor_code           BR2011
+_journal_issue                   9
+_journal_name_full               'Acta Crystallographica Section E'
+_journal_page_first              i199
+_journal_page_last               i200
+_journal_paper_doi               10.1107/S1600536806033952
+_journal_volume                  62
+_journal_year                    2006
+_chemical_formula_iupac          'Hg Cr2 O4'
+_chemical_formula_structural     'Hg Cr2 O4'
+_chemical_formula_sum            'Cr2 Hg O4'
+_chemical_formula_weight         368.59
+_chemical_name_common            'mercury chromium 2-3 spinel'
+_chemical_name_systematic
+;
+Mercury(II) chromium(III) tetroxide
+;
+_space_group_IT_number           227
+_symmetry_cell_setting           cubic
+_symmetry_space_group_name_Hall  '-F 4vw 2vw 3'
+_symmetry_space_group_name_H-M   'F d -3 m :2'
+_atom_sites_solution_primary     isomor
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            8
+_cell_length_a                   8.6443(3)
+_cell_length_b                   8.6443(3)
+_cell_length_c                   8.6443(3)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      15.603
+_cell_measurement_theta_min      10.302
+_cell_volume                     645.94(4)
+_computing_cell_refinement       'CAD-4 Software'
+_computing_data_collection       'CAD-4 Software (Enraf--Nonius, 1989)'
+_computing_data_reduction        'HELENA implemented in PLATON (Spek, 2003)'
+_computing_molecular_graphics    'ATOMS (Dowty, 2000)'
+_computing_publication_material  SHELXL97
+_computing_structure_refinement  'SHELXL97 (Sheldrick, 1997)'
+_computing_structure_solution
+'coordinates taken from a previous refinement'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measured_fraction_theta_full 0.992
+_diffrn_measured_fraction_theta_max 0.992
+_diffrn_measurement_device_type  'Enraf--Nonius CAD-4'
+_diffrn_measurement_method       \w/2\q
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0992
+_diffrn_reflns_av_sigmaI/netI    0.0240
+_diffrn_reflns_limit_h_max       15
+_diffrn_reflns_limit_h_min       -15
+_diffrn_reflns_limit_k_max       15
+_diffrn_reflns_limit_k_min       -15
+_diffrn_reflns_limit_l_max       15
+_diffrn_reflns_limit_l_min       -15
+_diffrn_reflns_number            3703
+_diffrn_reflns_theta_full        39.95
+_diffrn_reflns_theta_max         39.95
+_diffrn_reflns_theta_min         4.08
+_diffrn_standards_decay_%        0
+_diffrn_standards_interval_time  200
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    53.863
+_exptl_absorpt_correction_T_max  0.2159
+_exptl_absorpt_correction_T_min  0.0926
+_exptl_absorpt_correction_type   numerical
+_exptl_absorpt_process_details   '(HABITUS; Herrendorf, 1997)'
+_exptl_crystal_colour            black
+_exptl_crystal_density_diffrn    7.580
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       octahedron
+_exptl_crystal_F_000             1280
+_exptl_crystal_size_max          0.06
+_exptl_crystal_size_mid          0.05
+_exptl_crystal_size_min          0.05
+_refine_diff_density_max         1.182
+_refine_diff_density_min         -1.664
+_refine_ls_extinction_coef       0.00043(12)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL97
+_refine_ls_goodness_of_fit_ref   1.147
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     8
+_refine_ls_number_reflns         122
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.147
+_refine_ls_R_factor_all          0.0141
+_refine_ls_R_factor_gt           0.0108
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w=1/[\s^2^(Fo^2^)+1.36P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0226
+_refine_ls_wR_factor_ref         0.0229
+_reflns_number_gt                114
+_reflns_number_total             122
+_reflns_threshold_expression     I>2\s(I)
+_cod_data_source_file            br2011.cif
+_cod_data_source_block           I
+_cod_original_sg_symbol_Hall     '-F 4vw 2vw'
+_cod_original_sg_symbol_H-M      'F d -3 m'
+_cod_database_code               2210102
+_cod_database_fobs_code          2210102
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x+3/4, -y+1/4, z+1/2'
+'-x+1/4, y+1/2, -z+3/4'
+'x+1/2, -y+3/4, -z+1/4'
+'z, x, y'
+'z+1/2, -x+3/4, -y+1/4'
+'-z+3/4, -x+1/4, y+1/2'
+'-z+1/4, x+1/2, -y+3/4'
+'y, z, x'
+'-y+1/4, z+1/2, -x+3/4'
+'y+1/2, -z+3/4, -x+1/4'
+'-y+3/4, -z+1/4, x+1/2'
+'y+3/4, x+1/4, -z+1/2'
+'-y, -x, -z'
+'y+1/4, -x+1/2, z+3/4'
+'-y+1/2, x+3/4, z+1/4'
+'x+3/4, z+1/4, -y+1/2'
+'-x+1/2, z+3/4, y+1/4'
+'-x, -z, -y'
+'x+1/4, -z+1/2, y+3/4'
+'z+3/4, y+1/4, -x+1/2'
+'z+1/4, -y+1/2, x+3/4'
+'-z+1/2, y+3/4, x+1/4'
+'-z, -y, -x'
+'x, y+1/2, z+1/2'
+'-x+3/4, -y+3/4, z+1'
+'-x+1/4, y+1, -z+5/4'
+'x+1/2, -y+5/4, -z+3/4'
+'z, x+1/2, y+1/2'
+'z+1/2, -x+5/4, -y+3/4'
+'-z+3/4, -x+3/4, y+1'
+'-z+1/4, x+1, -y+5/4'
+'y, z+1/2, x+1/2'
+'-y+1/4, z+1, -x+5/4'
+'y+1/2, -z+5/4, -x+3/4'
+'-y+3/4, -z+3/4, x+1'
+'y+3/4, x+3/4, -z+1'
+'-y, -x+1/2, -z+1/2'
+'y+1/4, -x+1, z+5/4'
+'-y+1/2, x+5/4, z+3/4'
+'x+3/4, z+3/4, -y+1'
+'-x+1/2, z+5/4, y+3/4'
+'-x, -z+1/2, -y+1/2'
+'x+1/4, -z+1, y+5/4'
+'z+3/4, y+3/4, -x+1'
+'z+1/4, -y+1, x+5/4'
+'-z+1/2, y+5/4, x+3/4'
+'-z, -y+1/2, -x+1/2'
+'x+1/2, y, z+1/2'
+'-x+5/4, -y+1/4, z+1'
+'-x+3/4, y+1/2, -z+5/4'
+'x+1, -y+3/4, -z+3/4'
+'z+1/2, x, y+1/2'
+'z+1, -x+3/4, -y+3/4'
+'-z+5/4, -x+1/4, y+1'
+'-z+3/4, x+1/2, -y+5/4'
+'y+1/2, z, x+1/2'
+'-y+3/4, z+1/2, -x+5/4'
+'y+1, -z+3/4, -x+3/4'
+'-y+5/4, -z+1/4, x+1'
+'y+5/4, x+1/4, -z+1'
+'-y+1/2, -x, -z+1/2'
+'y+3/4, -x+1/2, z+5/4'
+'-y+1, x+3/4, z+3/4'
+'x+5/4, z+1/4, -y+1'
+'-x+1, z+3/4, y+3/4'
+'-x+1/2, -z, -y+1/2'
+'x+3/4, -z+1/2, y+5/4'
+'z+5/4, y+1/4, -x+1'
+'z+3/4, -y+1/2, x+5/4'
+'-z+1, y+3/4, x+3/4'
+'-z+1/2, -y, -x+1/2'
+'x+1/2, y+1/2, z'
+'-x+5/4, -y+3/4, z+1/2'
+'-x+3/4, y+1, -z+3/4'
+'x+1, -y+5/4, -z+1/4'
+'z+1/2, x+1/2, y'
+'z+1, -x+5/4, -y+1/4'
+'-z+5/4, -x+3/4, y+1/2'
+'-z+3/4, x+1, -y+3/4'
+'y+1/2, z+1/2, x'
+'-y+3/4, z+1, -x+3/4'
+'y+1, -z+5/4, -x+1/4'
+'-y+5/4, -z+3/4, x+1/2'
+'y+5/4, x+3/4, -z+1/2'
+'-y+1/2, -x+1/2, -z'
+'y+3/4, -x+1, z+3/4'
+'-y+1, x+5/4, z+1/4'
+'x+5/4, z+3/4, -y+1/2'
+'-x+1, z+5/4, y+1/4'
+'-x+1/2, -z+1/2, -y'
+'x+3/4, -z+1, y+3/4'
+'z+5/4, y+3/4, -x+1/2'
+'z+3/4, -y+1, x+3/4'
+'-z+1, y+5/4, x+1/4'
+'-z+1/2, -y+1/2, -x'
+'-x, -y, -z'
+'x-3/4, y-1/4, -z-1/2'
+'x-1/4, -y-1/2, z-3/4'
+'-x-1/2, y-3/4, z-1/4'
+'-z, -x, -y'
+'-z-1/2, x-3/4, y-1/4'
+'z-3/4, x-1/4, -y-1/2'
+'z-1/4, -x-1/2, y-3/4'
+'-y, -z, -x'
+'y-1/4, -z-1/2, x-3/4'
+'-y-1/2, z-3/4, x-1/4'
+'y-3/4, z-1/4, -x-1/2'
+'-y-3/4, -x-1/4, z-1/2'
+'y, x, z'
+'-y-1/4, x-1/2, -z-3/4'
+'y-1/2, -x-3/4, -z-1/4'
+'-x-3/4, -z-1/4, y-1/2'
+'x-1/2, -z-3/4, -y-1/4'
+'x, z, y'
+'-x-1/4, z-1/2, -y-3/4'
+'-z-3/4, -y-1/4, x-1/2'
+'-z-1/4, y-1/2, -x-3/4'
+'z-1/2, -y-3/4, -x-1/4'
+'z, y, x'
+'-x, -y+1/2, -z+1/2'
+'x-3/4, y+1/4, -z'
+'x-1/4, -y, z-1/4'
+'-x-1/2, y-1/4, z+1/4'
+'-z, -x+1/2, -y+1/2'
+'-z-1/2, x-1/4, y+1/4'
+'z-3/4, x+1/4, -y'
+'z-1/4, -x, y-1/4'
+'-y, -z+1/2, -x+1/2'
+'y-1/4, -z, x-1/4'
+'-y-1/2, z-1/4, x+1/4'
+'y-3/4, z+1/4, -x'
+'-y-3/4, -x+1/4, z'
+'y, x+1/2, z+1/2'
+'-y-1/4, x, -z-1/4'
+'y-1/2, -x-1/4, -z+1/4'
+'-x-3/4, -z+1/4, y'
+'x-1/2, -z-1/4, -y+1/4'
+'x, z+1/2, y+1/2'
+'-x-1/4, z, -y-1/4'
+'-z-3/4, -y+1/4, x'
+'-z-1/4, y, -x-1/4'
+'z-1/2, -y-1/4, -x+1/4'
+'z, y+1/2, x+1/2'
+'-x+1/2, -y, -z+1/2'
+'x-1/4, y-1/4, -z'
+'x+1/4, -y-1/2, z-1/4'
+'-x, y-3/4, z+1/4'
+'-z+1/2, -x, -y+1/2'
+'-z, x-3/4, y+1/4'
+'z-1/4, x-1/4, -y'
+'z+1/4, -x-1/2, y-1/4'
+'-y+1/2, -z, -x+1/2'
+'y+1/4, -z-1/2, x-1/4'
+'-y, z-3/4, x+1/4'
+'y-1/4, z-1/4, -x'
+'-y-1/4, -x-1/4, z'
+'y+1/2, x, z+1/2'
+'-y+1/4, x-1/2, -z-1/4'
+'y, -x-3/4, -z+1/4'
+'-x-1/4, -z-1/4, y'
+'x, -z-3/4, -y+1/4'
+'x+1/2, z, y+1/2'
+'-x+1/4, z-1/2, -y-1/4'
+'-z-1/4, -y-1/4, x'
+'-z+1/4, y-1/2, -x-1/4'
+'z, -y-3/4, -x+1/4'
+'z+1/2, y, x+1/2'
+'-x+1/2, -y+1/2, -z'
+'x-1/4, y+1/4, -z-1/2'
+'x+1/4, -y, z-3/4'
+'-x, y-1/4, z-1/4'
+'-z+1/2, -x+1/2, -y'
+'-z, x-1/4, y-1/4'
+'z-1/4, x+1/4, -y-1/2'
+'z+1/4, -x, y-3/4'
+'-y+1/2, -z+1/2, -x'
+'y+1/4, -z, x-3/4'
+'-y, z-1/4, x-1/4'
+'y-1/4, z+1/4, -x-1/2'
+'-y-1/4, -x+1/4, z-1/2'
+'y+1/2, x+1/2, z'
+'-y+1/4, x, -z-3/4'
+'y, -x-1/4, -z-1/4'
+'-x-1/4, -z+1/4, y-1/2'
+'x, -z-1/4, -y-1/4'
+'x+1/2, z+1/2, y'
+'-x+1/4, z, -y-3/4'
+'-z-1/4, -y+1/4, x-1/2'
+'-z+1/4, y, -x-3/4'
+'z, -y-1/4, -x-1/4'
+'z+1/2, y+1/2, x'
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+Hg Hg 0.3750 0.3750 0.3750 0.00884(9) Uani d S 1
+Cr Cr 0.0000 0.0000 0.0000 0.00544(10) Uani d S 1
+O O1 0.22968(14) 0.22968(14) 0.22968(14) 0.0072(3) Uani d S 1
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Hg 0.00884(9) 0.00884(9) 0.00884(9) 0.000 0.000 0.000
+Cr 0.00544(10) 0.00544(10) 0.00544(10) -0.00027(11) -0.00027(11) -0.00027(11)
+O1 0.0072(3) 0.0072(3) 0.0072(3) -0.0011(3) -0.0011(3) -0.0011(3)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Cr Cr 0.3209 0.6236 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Hg Hg -2.3894 9.2266 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O1 Hg O1 . 52_455 109.5 n
+O1 Hg O1 . 26_554 109.5 ?
+O1 Hg O1 52_455 26_554 109.5 ?
+O1 Hg O1 . 75_545 109.5 ?
+O1 Hg O1 52_455 75_545 109.5 ?
+O1 Hg O1 26_554 75_545 109.5 ?
+O1 Cr O1 172 50_454 100.48(8) y
+O1 Cr O1 172 146 79.52(8) y
+O1 Cr O1 50_454 146 180.000(9) n
+O1 Cr O1 172 27_544 100.48(8) ?
+O1 Cr O1 50_454 27_544 79.52(8) ?
+O1 Cr O1 146 27_544 100.48(8) ?
+O1 Cr O1 172 123 79.52(8) ?
+O1 Cr O1 50_454 123 100.48(8) ?
+O1 Cr O1 146 123 79.52(8) ?
+O1 Cr O1 27_544 123 180.000(9) ?
+O1 Cr O1 172 76_445 180.000(9) ?
+O1 Cr O1 50_454 76_445 79.52(8) ?
+O1 Cr O1 146 76_445 100.48(8) ?
+O1 Cr O1 27_544 76_445 79.52(8) ?
+O1 Cr O1 123 76_445 100.48(8) ?
+Cr O1 Cr 76_445 27_544 99.58(7) ?
+Cr O1 Cr 76_445 50_454 99.58(7) ?
+Cr O1 Cr 27_544 50_454 99.58(7) ?
+Cr O1 Hg 76_445 . 118.13(5) y
+Cr O1 Hg 27_544 . 118.13(5) ?
+Cr O1 Hg 50_454 . 118.13(5) ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Hg O1 . 2.176(2) y
+Hg O1 52_455 2.176(2) ?
+Hg O1 26_554 2.176(2) ?
+Hg O1 75_545 2.176(2) ?
+Cr O1 172 2.0009(10) y
+Cr O1 50_454 2.0009(10) ?
+Cr O1 146 2.0009(10) ?
+Cr O1 27_544 2.0009(10) ?
+Cr O1 123 2.0009(10) ?
+Cr O1 76_445 2.0009(10) ?
+O1 Cr 76_445 2.0009(10) ?
+O1 Cr 27_544 2.0009(10) ?
+O1 Cr 50_454 2.0009(10) ?

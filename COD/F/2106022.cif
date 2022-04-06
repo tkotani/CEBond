@@ -1,0 +1,584 @@
+#------------------------------------------------------------------------------
+#$Date: 2015-05-31 05:08:15 +0300 (Sun, 31 May 2015) $
+#$Revision: 137579 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/60/2106022.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2106022
+loop_
+_publ_author_name
+'G\"obel, Ole F.'
+'ten Elshof, Johan E.'
+'Kaminsky, Werner'
+'Hannss, Matthias'
+_publ_section_title
+;
+ Optical anomaly in artificial cubic hieratite, K~2~[SiF~6~]
+;
+_journal_coeditor_code           XK5019
+_journal_issue                   3
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              328
+_journal_page_last               333
+_journal_paper_doi               10.1107/S2052520615007507
+_journal_volume                  71
+_journal_year                    2015
+_chemical_formula_sum            'F6 K2 Si'
+_chemical_formula_weight         220.29
+_chemical_name_systematic
+;
+ ?
+;
+_space_group_IT_number           225
+_symmetry_cell_setting           cubic
+_symmetry_space_group_name_Hall  '-F 4 2 3'
+_symmetry_space_group_name_H-M   'F m -3 m'
+_atom_sites_solution_hydrogens   notdet
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   8.1345(8)
+_cell_length_b                   8.1345(8)
+_cell_length_c                   8.1345(8)
+_cell_measurement_reflns_used    2659
+_cell_measurement_temperature    298(2)
+_cell_measurement_theta_max      39.95
+_cell_measurement_theta_min      5.01
+_cell_volume                     538.26(9)
+_computing_cell_refinement       'SAINT V7.68A (Bruker, 2010)'
+_computing_data_collection       'Apex2 (Bruker, 2010)'
+_computing_data_reduction
+'SAINT V7.68A (Bruker, 2010), SADABS-2008/1 (Sheldrick, 2008)'
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      298(2)
+_diffrn_measured_fraction_theta_full 0.959
+_diffrn_measured_fraction_theta_max 0.959
+_diffrn_measurement_device_type  'Bruker Kappa ApexII area detector'
+_diffrn_measurement_method       '\w scans'
+_diffrn_radiation_monochromator  Triumph
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0139
+_diffrn_reflns_av_sigmaI/netI    0.0039
+_diffrn_reflns_limit_h_max       12
+_diffrn_reflns_limit_h_min       -14
+_diffrn_reflns_limit_k_max       14
+_diffrn_reflns_limit_k_min       -13
+_diffrn_reflns_limit_l_max       12
+_diffrn_reflns_limit_l_min       -14
+_diffrn_reflns_number            3622
+_diffrn_reflns_theta_full        40.28
+_diffrn_reflns_theta_max         40.28
+_diffrn_reflns_theta_min         5.01
+_exptl_absorpt_coefficient_mu    2.021
+_exptl_absorpt_correction_T_max  0.7479
+_exptl_absorpt_correction_T_min  0.7057
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details   'SADABS-2008/1 (Sheldrick, 2008)'
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    2.718
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       cube
+_exptl_crystal_F_000             424
+_exptl_crystal_size_max          0.26
+_exptl_crystal_size_mid          0.26
+_exptl_crystal_size_min          0.26
+_refine_diff_density_max         0.279
+_refine_diff_density_min         -0.299
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   1.120
+_refine_ls_hydrogen_treatment    undef
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     6
+_refine_ls_number_reflns         116
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.120
+_refine_ls_R_factor_all          0.0162
+_refine_ls_R_factor_gt           0.0159
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0189P)^2^+0.3956P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0425
+_refine_ls_wR_factor_ref         0.0425
+_reflns_number_gt                113
+_reflns_number_total             116
+_reflns_threshold_expression     >2sigma(I)
+_iucr_refine_instructions_details
+;
+TITLE  Pseudokub. K2SiF6
+CELL  0.710730 8.1345  8.1345  8.1345   90.0000   90.0000   90.0000
+ZERR  4  0.0008  0.0008  0.0008  0.0   0.0   0.0
+LATT  4
+SYMM -x,-y,z
+SYMM -x,y,-z
+SYMM x,-y,-z
+SYMM z,x,y
+SYMM z,-x,-y
+SYMM -z,-x,y
+SYMM -z,x,-y
+SYMM y,z,x
+SYMM -y,z,-x
+SYMM y,-z,-x
+SYMM -y,-z,x
+SYMM y,x,-z
+SYMM -y,-x,-z
+SYMM y,-x,z
+SYMM -y,x,z
+SYMM x,z,-y
+SYMM -x,z,y
+SYMM -x,-z,-y
+SYMM x,-z,y
+SYMM z,y,-x
+SYMM z,-y,x
+SYMM -z,y,x
+SYMM -z,-y,-x
+SFAC  K SI F
+UNIT  8 4 24
+TEMP 25
+FMAP 2
+PLAN 20
+OMIT -2 180
+ACTA
+L.S. 5
+WGHT    0.018900    0.395600
+FVAR       1.02072
+F     3    0.206752    0.000000    0.000000    10.12500    0.01631    0.03558 =
+         0.03558    0.00000    0.00000    0.00000
+SI    2    0.000000    0.000000    0.000000    10.02083    0.01660    0.01660 =
+         0.01660    0.00000    0.00000    0.00000
+K     1    0.250000    0.250000    0.250000    10.04166    0.02396    0.02396 =
+         0.02396    0.00000    0.00000    0.00000
+HKLF 4
+;
+_cod_data_source_file            xk5019sup1.cf
+_cod_data_source_block           I
+_cod_database_code               2106022
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, -y, z'
+'-x, y, -z'
+'x, -y, -z'
+'z, x, y'
+'z, -x, -y'
+'-z, -x, y'
+'-z, x, -y'
+'y, z, x'
+'-y, z, -x'
+'y, -z, -x'
+'-y, -z, x'
+'y, x, -z'
+'-y, -x, -z'
+'y, -x, z'
+'-y, x, z'
+'x, z, -y'
+'-x, z, y'
+'-x, -z, -y'
+'x, -z, y'
+'z, y, -x'
+'z, -y, x'
+'-z, y, x'
+'-z, -y, -x'
+'x, y+1/2, z+1/2'
+'-x, -y+1/2, z+1/2'
+'-x, y+1/2, -z+1/2'
+'x, -y+1/2, -z+1/2'
+'z, x+1/2, y+1/2'
+'z, -x+1/2, -y+1/2'
+'-z, -x+1/2, y+1/2'
+'-z, x+1/2, -y+1/2'
+'y, z+1/2, x+1/2'
+'-y, z+1/2, -x+1/2'
+'y, -z+1/2, -x+1/2'
+'-y, -z+1/2, x+1/2'
+'y, x+1/2, -z+1/2'
+'-y, -x+1/2, -z+1/2'
+'y, -x+1/2, z+1/2'
+'-y, x+1/2, z+1/2'
+'x, z+1/2, -y+1/2'
+'-x, z+1/2, y+1/2'
+'-x, -z+1/2, -y+1/2'
+'x, -z+1/2, y+1/2'
+'z, y+1/2, -x+1/2'
+'z, -y+1/2, x+1/2'
+'-z, y+1/2, x+1/2'
+'-z, -y+1/2, -x+1/2'
+'x+1/2, y, z+1/2'
+'-x+1/2, -y, z+1/2'
+'-x+1/2, y, -z+1/2'
+'x+1/2, -y, -z+1/2'
+'z+1/2, x, y+1/2'
+'z+1/2, -x, -y+1/2'
+'-z+1/2, -x, y+1/2'
+'-z+1/2, x, -y+1/2'
+'y+1/2, z, x+1/2'
+'-y+1/2, z, -x+1/2'
+'y+1/2, -z, -x+1/2'
+'-y+1/2, -z, x+1/2'
+'y+1/2, x, -z+1/2'
+'-y+1/2, -x, -z+1/2'
+'y+1/2, -x, z+1/2'
+'-y+1/2, x, z+1/2'
+'x+1/2, z, -y+1/2'
+'-x+1/2, z, y+1/2'
+'-x+1/2, -z, -y+1/2'
+'x+1/2, -z, y+1/2'
+'z+1/2, y, -x+1/2'
+'z+1/2, -y, x+1/2'
+'-z+1/2, y, x+1/2'
+'-z+1/2, -y, -x+1/2'
+'x+1/2, y+1/2, z'
+'-x+1/2, -y+1/2, z'
+'-x+1/2, y+1/2, -z'
+'x+1/2, -y+1/2, -z'
+'z+1/2, x+1/2, y'
+'z+1/2, -x+1/2, -y'
+'-z+1/2, -x+1/2, y'
+'-z+1/2, x+1/2, -y'
+'y+1/2, z+1/2, x'
+'-y+1/2, z+1/2, -x'
+'y+1/2, -z+1/2, -x'
+'-y+1/2, -z+1/2, x'
+'y+1/2, x+1/2, -z'
+'-y+1/2, -x+1/2, -z'
+'y+1/2, -x+1/2, z'
+'-y+1/2, x+1/2, z'
+'x+1/2, z+1/2, -y'
+'-x+1/2, z+1/2, y'
+'-x+1/2, -z+1/2, -y'
+'x+1/2, -z+1/2, y'
+'z+1/2, y+1/2, -x'
+'z+1/2, -y+1/2, x'
+'-z+1/2, y+1/2, x'
+'-z+1/2, -y+1/2, -x'
+'-x, -y, -z'
+'x, y, -z'
+'x, -y, z'
+'-x, y, z'
+'-z, -x, -y'
+'-z, x, y'
+'z, x, -y'
+'z, -x, y'
+'-y, -z, -x'
+'y, -z, x'
+'-y, z, x'
+'y, z, -x'
+'-y, -x, z'
+'y, x, z'
+'-y, x, -z'
+'y, -x, -z'
+'-x, -z, y'
+'x, -z, -y'
+'x, z, y'
+'-x, z, -y'
+'-z, -y, x'
+'-z, y, -x'
+'z, -y, -x'
+'z, y, x'
+'-x, -y+1/2, -z+1/2'
+'x, y+1/2, -z+1/2'
+'x, -y+1/2, z+1/2'
+'-x, y+1/2, z+1/2'
+'-z, -x+1/2, -y+1/2'
+'-z, x+1/2, y+1/2'
+'z, x+1/2, -y+1/2'
+'z, -x+1/2, y+1/2'
+'-y, -z+1/2, -x+1/2'
+'y, -z+1/2, x+1/2'
+'-y, z+1/2, x+1/2'
+'y, z+1/2, -x+1/2'
+'-y, -x+1/2, z+1/2'
+'y, x+1/2, z+1/2'
+'-y, x+1/2, -z+1/2'
+'y, -x+1/2, -z+1/2'
+'-x, -z+1/2, y+1/2'
+'x, -z+1/2, -y+1/2'
+'x, z+1/2, y+1/2'
+'-x, z+1/2, -y+1/2'
+'-z, -y+1/2, x+1/2'
+'-z, y+1/2, -x+1/2'
+'z, -y+1/2, -x+1/2'
+'z, y+1/2, x+1/2'
+'-x+1/2, -y, -z+1/2'
+'x+1/2, y, -z+1/2'
+'x+1/2, -y, z+1/2'
+'-x+1/2, y, z+1/2'
+'-z+1/2, -x, -y+1/2'
+'-z+1/2, x, y+1/2'
+'z+1/2, x, -y+1/2'
+'z+1/2, -x, y+1/2'
+'-y+1/2, -z, -x+1/2'
+'y+1/2, -z, x+1/2'
+'-y+1/2, z, x+1/2'
+'y+1/2, z, -x+1/2'
+'-y+1/2, -x, z+1/2'
+'y+1/2, x, z+1/2'
+'-y+1/2, x, -z+1/2'
+'y+1/2, -x, -z+1/2'
+'-x+1/2, -z, y+1/2'
+'x+1/2, -z, -y+1/2'
+'x+1/2, z, y+1/2'
+'-x+1/2, z, -y+1/2'
+'-z+1/2, -y, x+1/2'
+'-z+1/2, y, -x+1/2'
+'z+1/2, -y, -x+1/2'
+'z+1/2, y, x+1/2'
+'-x+1/2, -y+1/2, -z'
+'x+1/2, y+1/2, -z'
+'x+1/2, -y+1/2, z'
+'-x+1/2, y+1/2, z'
+'-z+1/2, -x+1/2, -y'
+'-z+1/2, x+1/2, y'
+'z+1/2, x+1/2, -y'
+'z+1/2, -x+1/2, y'
+'-y+1/2, -z+1/2, -x'
+'y+1/2, -z+1/2, x'
+'-y+1/2, z+1/2, x'
+'y+1/2, z+1/2, -x'
+'-y+1/2, -x+1/2, z'
+'y+1/2, x+1/2, z'
+'-y+1/2, x+1/2, -z'
+'y+1/2, -x+1/2, -z'
+'-x+1/2, -z+1/2, y'
+'x+1/2, -z+1/2, -y'
+'x+1/2, z+1/2, y'
+'-x+1/2, z+1/2, -y'
+'-z+1/2, -y+1/2, x'
+'-z+1/2, y+1/2, -x'
+'z+1/2, -y+1/2, -x'
+'z+1/2, y+1/2, x'
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+F F 0.20675(11) 0.0000 0.0000 0.0292(2) Uani d S 1 8
+Si Si 0.0000 0.0000 0.0000 0.01660(16) Uani d S 1 48
+K K 0.2500 0.2500 0.2500 0.02396(14) Uani d S 1 24
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+F 0.0163(3) 0.0356(3) 0.0356(3) 0.000 0.000 0.000
+Si 0.01660(16) 0.01660(16) 0.01660(16) 0.000 0.000 0.000
+K 0.02396(14) 0.02396(14) 0.02396(14) 0.000 0.000 0.000
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+K K 0.2009 0.2494 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Si Si 0.0817 0.0704 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+F F 0.0171 0.0103 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+Si F K . . 96.974(18)
+Si F K . 25_544 96.974(18)
+K F K . 25_544 166.05(4)
+Si F K . 169 96.974(18)
+K F K . 169 89.155(4)
+K F K 25_544 169 89.155(4)
+Si F K . 145 96.974(18)
+K F K . 145 89.155(4)
+K F K 25_544 145 89.155(4)
+K F K 169 145 166.05(4)
+F Si F 105 9 180.0
+F Si F 105 101 90.0
+F Si F 9 101 90.0
+F Si F 105 97 90.0
+F Si F 9 97 90.0
+F Si F 101 97 90.0
+F Si F 105 5 90.0
+F Si F 9 5 90.0
+F Si F 101 5 180.0
+F Si F 97 5 90.0
+F Si F 105 . 90.0
+F Si F 9 . 90.0
+F Si F 101 . 90.0
+F Si F 97 . 180.0
+F Si F 5 . 90.0
+F Si K 105 97 54.740(10)
+F Si K 9 97 125.3
+F Si K 101 97 54.740(10)
+F Si K 97 97 54.740(10)
+F Si K 5 97 125.3
+F Si K . 97 125.3
+F Si K 105 . 125.3
+F Si K 9 . 54.740(10)
+F Si K 101 . 125.3
+F Si K 97 . 125.3
+F Si K 5 . 54.740(10)
+F Si K . . 54.740(10)
+K Si K 97 . 180.0
+F Si K 105 169 54.740(10)
+F Si K 9 169 125.3
+F Si K 101 169 125.3
+F Si K 97 169 125.3
+F Si K 5 169 54.740(10)
+F Si K . 169 54.740(10)
+K Si K 97 169 109.5
+K Si K . 169 70.5
+F Si K 105 49_454 54.740(10)
+F Si K 9 49_454 125.3
+F Si K 101 49_454 125.3
+F Si K 97 49_454 54.740(10)
+F Si K 5 49_454 54.740(10)
+F Si K . 49_454 125.3
+K Si K 97 49_454 70.5
+K Si K . 49_454 109.5
+K Si K 169 49_454 70.5
+F Si K 105 73_445 125.3
+F Si K 9 73_445 54.740(10)
+F Si K 101 73_445 54.740(10)
+F Si K 97 73_445 54.740(10)
+F Si K 5 73_445 125.3
+F Si K . 73_445 125.3
+K Si K 97 73_445 70.5
+K Si K . 73_445 109.5
+K Si K 169 73_445 180.0
+K Si K 49_454 73_445 109.5
+F Si K 105 25_544 54.740(10)
+F Si K 9 25_544 125.3
+F Si K 101 25_544 54.740(10)
+F Si K 97 25_544 125.3
+F Si K 5 25_544 125.3
+F Si K . 25_544 54.740(10)
+K Si K 97 25_544 70.5
+K Si K . 25_544 109.5
+K Si K 169 25_544 70.5
+K Si K 49_454 25_544 109.5
+K Si K 73_445 25_544 109.5
+F K F . 9 48.47(3)
+F K F . 5 48.47(3)
+F K F 9 5 48.46(3)
+F K F . 81 119.513(2)
+F K F 9 81 166.05(4)
+F K F 5 81 119.513(2)
+F K F . 53 119.513(2)
+F K F 9 53 119.513(2)
+F K F 5 53 166.05(4)
+F K F 81 53 71.21(3)
+F K F . 25 166.05(4)
+F K F 9 25 119.513(2)
+F K F 5 25 119.513(2)
+F K F 81 25 71.21(3)
+F K F 53 25 71.21(3)
+F K F . 153 71.21(3)
+F K F 9 153 90.845(4)
+F K F 5 153 119.513(2)
+F K F 81 153 90.845(4)
+F K F 53 153 48.46(3)
+F K F 25 153 119.513(2)
+F K F . 169 90.845(4)
+F K F 9 169 119.513(2)
+F K F 5 169 71.21(3)
+F K F 81 169 48.46(3)
+F K F 53 169 119.513(2)
+F K F 25 169 90.845(4)
+F K F 153 169 119.513(2)
+F K F . 125 119.514(2)
+F K F 9 125 71.21(3)
+F K F 5 125 90.845(4)
+F K F 81 125 119.513(2)
+F K F 53 125 90.845(4)
+F K F 25 125 48.46(3)
+F K F 153 125 119.513(2)
+F K F 169 125 119.513(2)
+F K F . 173 71.21(3)
+F K F 9 173 119.513(2)
+F K F 5 173 90.845(4)
+F K F 81 173 48.46(3)
+F K F 53 173 90.845(4)
+F K F 25 173 119.513(2)
+F K F 153 173 71.21(3)
+F K F 169 173 48.46(3)
+F K F 125 173 166.05(4)
+F K F . 129 119.514(2)
+F K F 9 129 90.845(4)
+F K F 5 129 71.21(3)
+F K F 81 129 90.845(4)
+F K F 53 129 119.513(2)
+F K F 25 129 48.46(3)
+F K F 153 129 166.05(4)
+F K F 169 129 71.21(3)
+F K F 125 129 48.46(3)
+F K F 173 129 119.513(2)
+F K F . 145 90.845(4)
+F K F 9 145 71.21(3)
+F K F 5 145 119.513(2)
+F K F 81 145 119.513(2)
+F K F 53 145 48.46(3)
+F K F 25 145 90.845(4)
+F K F 153 145 48.46(3)
+F K F 169 145 166.05(4)
+F K F 125 145 71.21(3)
+F K F 173 145 119.513(2)
+F K F 129 145 119.513(2)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+F Si . 1.6818(9)
+F K . 2.8974(3)
+F K 25_544 2.8974(3)
+F K 169 2.8974(3)
+F K 145 2.8974(3)
+Si F 105 1.6818(9)
+Si F 9 1.6818(9)
+Si F 101 1.6818(9)
+Si F 97 1.6818(9)
+Si F 5 1.6818(9)
+Si K 97 3.5223(3)
+Si K . 3.5223(3)
+Si K 169 3.5223(3)
+Si K 49_454 3.5223(3)
+Si K 73_445 3.5223(3)
+Si K 25_544 3.5223(3)
+K F 9 2.8974(3)
+K F 5 2.8974(3)
+K F 81 2.8974(3)
+K F 53 2.8974(3)
+K F 25 2.8974(3)
+K F 153 2.8974(3)
+K F 169 2.8974(3)
+K F 125 2.8974(3)
+K F 173 2.8974(3)
+K F 129 2.8974(3)
+K F 145 2.8974(3)
+
+_cod_database_fobs_code 2106022

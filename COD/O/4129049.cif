@@ -1,0 +1,100 @@
+#------------------------------------------------------------------------------
+#$Date: 2019-11-03 18:17:44 +0200 (Sun, 03 Nov 2019) $
+#$Revision: 222052 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/4/12/90/4129049.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4129049
+loop_
+_publ_author_name
+'Todd, Paul K.'
+'Neilson, James R.'
+_publ_section_title
+;
+ Selective Formation of Yttrium Manganese Oxides through Kinetically
+ Competent Assisted Metathesis Reactions.
+;
+_journal_issue                   3
+_journal_name_full               'Journal of the American Chemical Society'
+_journal_page_first              1191
+_journal_page_last               1195
+_journal_paper_doi               10.1021/jacs.8b10123
+_journal_volume                  141
+_journal_year                    2019
+_chemical_formula_sum            'Mn O3.11 Y'
+_chemical_formula_weight         191.84
+_chemical_name_common            'Yttrium manganese oxide'
+_chemical_name_systematic        'Yttrium trimanganese(III) trioxide'
+_space_group_IT_number           62
+_space_group_name_Hall           '-P 2ac 2n'
+_space_group_name_H-M_alt        'P n m a'
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2ac 2n'
+_symmetry_space_group_name_H-M   'P n m a'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   5.6452(4)
+_cell_length_b                   7.3942(4)
+_cell_length_c                   5.2218(3)
+_cell_measurement_temperature    298
+_cell_measurement_theta_max      140
+_cell_measurement_theta_min      1
+_cell_volume                     217.97(2)
+_computing_structure_refinement  TOPAS
+_diffrn_ambient_temperature      298
+_diffrn_measurement_device_type  'HB2A, HFIR, ORNL'
+_diffrn_radiation_type           neutron
+_diffrn_radiation_wavelength     1.54
+_diffrn_radiation_wavelength_details 'HB-2A, HFIR, ORNL'
+_exptl_crystal_density_diffrn    5.845
+_refine_ls_goodness_of_fit_all   10.282
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     56
+_refine_ls_number_restraints     0
+_cod_data_source_file            ja8b10123_si_003.cif
+_cod_data_source_block           YMnO3_300K_publ
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+data item '_symmetry_cell_setting' value 'Orthorhombic' was changed
+to 'orthorhombic' in accordance with the
+/home/data/users/saulius/crontab/automatic-downloads/current/ACS/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 last updated on
+2011-04-26.
+
+Automatic conversion script
+Id: cif_fix_values 6909 2019-04-08 15:41:33Z antanas 
+;
+_cod_database_code               4129049
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z '
+'-x, y+1/2, -z '
+'-x+1/2, -y, z+1/2 '
+'-x+1/2, y+1/2, z+1/2 '
+'x, -y+1/2, z '
+'-x, -y, -z '
+'x+1/2, -y+1/2, -z+1/2 '
+'x+1/2, y, -z+1/2 '
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_B_iso_or_equiv
+Mn1 Mn+3 4 0 0 0.5 1 0.60(11)
+Y1 Y+3 4 0.07592(15) 0.25 0.98258(18) 1 0.22(6)
+O1 O-2 4 0.4673(6) 0.25 0.1068(5) 1.062(9) 0.69(11)
+O2 O-2 8 0.3119(5) 0.0529(3) 0.6948(4) 1.024(8) 0.53(6)

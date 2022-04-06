@@ -1,0 +1,403 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 02:53:41 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176768 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/41/2104171.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2104171
+loop_
+_publ_author_name
+'Bereciartua, P. J.'
+'Zu\~niga, F. J.'
+'Breczewski, T.'
+_publ_section_title
+;
+ Incommensurate structure of
+ InAl~1{-~<i>x</i>}Ti~<i>x~</i>O~3+<i>x~/2</i> [<i>x</i> = 0.701(1)]:
+ comparison between modulated and composite models
+;
+_journal_coeditor_code           CK5031
+_journal_issue                   4
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              405
+_journal_page_last               416
+_journal_paper_doi               10.1107/S0108768108012317
+_journal_volume                  64
+_journal_year                    2008
+_chemical_formula_moiety         'Al0.253 In1.046 O3.35 Ti0.701'
+_chemical_formula_sum            'Al0.253 In1.046 O3.35 Ti0.701'
+_chemical_formula_weight         214.08
+_chemical_name_systematic        ' ?'
+_space_group_ssg_name            C2/m(0\b0)s0
+_symmetry_cell_setting           monoclinic
+_cell_angle_alpha                90
+_cell_angle_beta                 107.96(5)
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   5.857(4)
+_cell_length_b                   3.361(3)
+_cell_length_c                   6.355(5)
+_cell_measurement_temperature    293
+_cell_modulation_dimension       1
+_cell_subsystems_number          2
+_cell_volume                     119.00(17)
+_computing_cell_refinement
+'CrysAlis RED software (Oxford Diffraction, 2005)'
+_computing_data_collection
+'CrysAlis CCD software (Oxford Diffraction, 2005)'
+_computing_data_reduction
+'CrysAlis RED software (Oxford Diffraction, 2005)'
+_computing_publication_material  '(Jana2000; Petricek and Dusek, 2000)'
+_computing_structure_refinement  '(Jana2000; Petricek and Dusek, 2000)'
+_diffrn_ambient_temperature      293
+_diffrn_measured_fraction_theta_full 0.95
+_diffrn_measurement_device_type  'Oxford Diffraction CCD'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed X-ray tube'
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0451
+_diffrn_reflns_av_sigmaI/netI    0.0260
+_diffrn_reflns_limit_h_max       8
+_diffrn_reflns_limit_h_min       -9
+_diffrn_reflns_limit_index_m_1_max 3
+_diffrn_reflns_limit_index_m_1_min -3
+_diffrn_reflns_limit_k_max       5
+_diffrn_reflns_limit_k_min       -5
+_diffrn_reflns_limit_l_max       9
+_diffrn_reflns_limit_l_min       -10
+_diffrn_reflns_number            8896
+_diffrn_reflns_theta_full        26.56
+_diffrn_reflns_theta_max         36.65
+_diffrn_reflns_theta_min         3.67
+_exptl_absorpt_coefficient_mu    12.368
+_exptl_absorpt_correction_T_max  0.83
+_exptl_absorpt_correction_T_min  0.31
+_exptl_absorpt_correction_type   numerical
+_exptl_absorpt_process_details   gaussian
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    5.9725
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       plate
+_exptl_crystal_F_000             194
+_exptl_crystal_size_max          0.15
+_exptl_crystal_size_mid          0.06
+_exptl_crystal_size_min          0.02
+_refine_diff_density_max         2.47
+_refine_diff_density_min         -2.36
+_refine_ls_extinction_coef       0.00100(6)
+_refine_ls_extinction_method
+'B-C type 1 Gaussian isotropic (Becker & Coppens, 1974)'
+_refine_ls_goodness_of_fit_ref   1.53
+_refine_ls_number_constraints    1
+_refine_ls_number_parameters     57
+_refine_ls_number_reflns         1733
+_refine_ls_number_restraints     6
+_refine_ls_R_factor_all          0.0564
+_refine_ls_R_factor_gt           0.0322
+_refine_ls_shift/su_max          0.0004
+_refine_ls_shift/su_mean         0.0001
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     w=1/(\s^2^(F)+0.0004F^2^)
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_gt          0.0470
+_refine_ls_wR_factor_ref         0.0603
+_reflns_number_gt                994
+_reflns_number_total             1733
+_reflns_threshold_expression     I>3\s(I)
+_cod_data_source_file            ck5031.cif
+_cod_data_source_block           II
+_cod_database_code               2104171
+_cod_database_fobs_code          2104171
+loop_
+_space_group_symop_ssg_id
+_space_group_symop_ssg_operation_algebraic
+1 x1,x2,x3,x4
+2 -x1,x2,-x3,1/2+x4
+3 -x1,-x2,-x3,-x4
+4 x1,-x2,x3,1/2-x4
+5 1/2+x1,1/2+x2,x3,x4
+6 1/2-x1,1/2+x2,-x3,1/2+x4
+7 1/2-x1,1/2-x2,-x3,-x4
+8 1/2+x1,1/2-x2,x3,1/2-x4
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_occupancy
+In In1 0 0 0 0.00571(11) Uani d 1
+Al Al 0.5 0 0.5 0.0100(3) Uani d 0.255(8)
+Ti Ti 0.5 0 0.5 0.0100(3) Uani d 0.701(6)
+In In2 0.5 0 0.5 0.0100(3) Uani d 0.044(10)
+O O1 0.3888(4) 0 0.1709(4) 0.0052(6) Uani d 1
+O O2 0.6597(4) 0.25 0.4983(4) 0.0181(8) Uani d 0.5
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+_atom_site_aniso_type_symbol
+In1 0.00514(15) 0.00373(16) 0.0086(2) 0 0.00267(11) 0 In
+Al 0.0110(4) 0.0137(4) 0.0045(4) 0 0.0012(3) 0 Al
+Ti 0.0110(4) 0.0137(4) 0.0045(4) 0 0.0012(3) 0 Ti
+In2 0.0110(4) 0.0137(4) 0.0045(4) 0 0.0012(3) 0 In
+O1 0.0061(8) 0.0055(10) 0.0039(9) 0 0.0011(7) 0 O
+O2 0.0232(13) 0.0180(10) 0.0092(11) 0 -0.0007(9) 0 O
+loop_
+_atom_site_displace_Fourier_atom_site_label
+_atom_site_displace_Fourier_axis
+_atom_site_displace_Fourier_wave_vector_seq_id
+_atom_site_displace_Fourier_param_cos
+_atom_site_displace_Fourier_param_sin
+In1 x 1 0 0.02003(6)
+In1 y 1 0 0
+In1 z 1 0 0.00511(5)
+In1 x 2 0 0
+In1 y 2 0 -0.00228(7)
+In1 z 2 0 0
+In1 x 3 0 -0.00017(5)
+In1 y 3 0 0
+In1 z 3 0 -0.00004(5)
+Al x 1 0 0.0545(2)
+Al y 1 0 0
+Al z 1 0 0.00745(13)
+Al x 2 0 0
+Al y 2 0 -0.0261(2)
+Al z 2 0 0
+Al x 3 0 -0.00243(18)
+Al y 3 0 0
+Al z 3 0 0.00158(16)
+Ti x 1 0 0.0545(2)
+Ti y 1 0 0
+Ti z 1 0 0.00745(13)
+Ti x 2 0 0
+Ti y 2 0 -0.0261(2)
+Ti z 2 0 0
+Ti x 3 0 -0.00243(18)
+Ti y 3 0 0
+Ti z 3 0 0.00158(16)
+In2 x 1 0 0.0545(2)
+In2 y 1 0 0
+In2 z 1 0 0.00745(13)
+In2 x 2 0 0
+In2 y 2 0 -0.0261(2)
+In2 z 2 0 0
+In2 x 3 0 -0.00243(18)
+In2 y 3 0 0
+In2 z 3 0 0.00158(16)
+O1 x 1 0 0.0285(4)
+O1 y 1 -0.0003(5) 0
+O1 z 1 0 0.0011(3)
+O2 x 1 0.0353(5) 0
+O2 y 1 0 0.0010(9)
+O2 z 1 0.0010(4) 0
+O2 x 2 0.0014(5) 0
+O2 y 2 0 0.0007(8)
+O2 z 2 -0.0035(4) 0
+loop_
+_atom_site_displace_special_func_atom_site_label
+_atom_site_displace_special_func_sawtooth_ax
+_atom_site_displace_special_func_sawtooth_ay
+_atom_site_displace_special_func_sawtooth_az
+_atom_site_displace_special_func_sawtooth_c
+_atom_site_displace_special_func_sawtooth_w
+O2 0 -0.1265 0 0.5 0.5
+loop_
+_atom_site_Fourier_wave_vector_seq_id
+_atom_site_Fourier_wave_vector_x
+_atom_site_Fourier_wave_vector_z
+1 0.00000 0.00000
+2 0.00000 0.00000
+3 0.00000 0.00000
+loop_
+_atom_site_occ_Fourier_atom_site_label
+_atom_site_occ_Fourier_wave_vector_seq_id
+_atom_site_occ_Fourier_param_cos
+_atom_site_occ_Fourier_param_sin
+Al 1 0 0
+Al 2 0.255(8) 0
+Ti 1 0 0
+Ti 2 -0.241(9) 0
+In2 1 0 0
+In2 2 -0.014(3) 0
+loop_
+_atom_site_U_Fourier_atom_site_label
+_atom_site_U_Fourier_tens_elem
+_atom_site_U_Fourier_wave_vector_seq_id
+_atom_site_U_Fourier_param_cos
+_atom_site_U_Fourier_param_sin
+In1 U11 1 0 0
+In1 U22 1 0 0
+In1 U33 1 0 0
+In1 U12 1 0.00003(7) 0
+In1 U13 1 0 0
+In1 U23 1 -0.00164(8) 0
+In1 U11 2 0.00082(11) 0
+In1 U22 2 -0.00006(10) 0
+In1 U33 2 0.00083(14) 0
+In1 U12 2 0 0
+In1 U13 2 0.00039(10) 0
+In1 U23 2 0 0
+Al U11 1 0 0
+Al U22 1 0 0
+Al U33 1 0 0
+Al U12 1 -0.0028(3) 0
+Al U13 1 0 0
+Al U23 1 -0.0006(3) 0
+Al U11 2 0.0033(5) 0
+Al U22 2 -0.0090(4) 0
+Al U33 2 0.0004(4) 0
+Al U12 2 0 0
+Al U13 2 0.0017(3) 0
+Al U23 2 0 0
+Ti U11 1 0 0
+Ti U22 1 0 0
+Ti U33 1 0 0
+Ti U12 1 -0.0028(3) 0
+Ti U13 1 0 0
+Ti U23 1 -0.0006(3) 0
+Ti U11 2 0.0033(5) 0
+Ti U22 2 -0.0090(4) 0
+Ti U33 2 0.0004(4) 0
+Ti U12 2 0 0
+Ti U13 2 0.0017(3) 0
+Ti U23 2 0 0
+In2 U11 1 0 0
+In2 U22 1 0 0
+In2 U33 1 0 0
+In2 U12 1 -0.0028(3) 0
+In2 U13 1 0 0
+In2 U23 1 -0.0006(3) 0
+In2 U11 2 0.0033(5) 0
+In2 U22 2 -0.0090(4) 0
+In2 U33 2 0.0004(4) 0
+In2 U12 2 0 0
+In2 U13 2 0.0017(3) 0
+In2 U23 2 0 0
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+In -0.728 1.310 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.1'
+Al 0.064 0.051 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.1'
+Ti 0.278 0.446 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.1'
+O 0.011 0.006 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.1'
+loop_
+_cell_subsystem_description
+_cell_subsystem_matrix_W_1_1
+_cell_subsystem_matrix_W_1_4
+_cell_subsystem_matrix_W_2_2
+_cell_subsystem_matrix_W_3_3
+_cell_subsystem_matrix_W_4_1
+_cell_subsystem_matrix_W_4_4
+'1-st subsystem' 1 0 1 1 0 1
+'2-nd subsystem' 1 0 1 1 0 0
+loop_
+_cell_subsystem_matrix_W_1_2
+_cell_subsystem_matrix_W_1_3
+_cell_subsystem_matrix_W_2_1
+_cell_subsystem_matrix_W_2_3
+_cell_subsystem_matrix_W_2_4
+_cell_subsystem_matrix_W_3_1
+_cell_subsystem_matrix_W_3_2
+_cell_subsystem_matrix_W_3_4
+_cell_subsystem_matrix_W_4_2
+_cell_subsystem_matrix_W_4_3
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 1 0 0 0 1 0
+loop_
+_cell_wave_vector_seq_id
+_cell_wave_vector_x
+_cell_wave_vector_y
+_cell_wave_vector_z
+1 0.00000 0.35030 0.00000
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+_geom_bond_distance_max
+_geom_bond_distance_min
+_geom_bond_distance_av
+In1 O1 . yes 2.239(3) 2.162(3) 2.200(3)
+In1 O1 5_445 yes 2.273(3) 2.145(2) 2.208(2)
+In1 O1 5_455 yes 2.273(3) 2.145(2) 2.207(2)
+In1 O1 3_555 yes 2.239(3) 2.162(3) 2.200(3)
+In1 O1 7_545 yes 2.273(3) 2.145(2) 2.207(2)
+In1 O1 7_555 yes 2.273(3) 2.145(2) 2.208(2)
+Al O1 . yes 2.028(3) 1.959(3) 1.993(3)
+Al O1 3_656 yes 2.028(3) 1.959(3) 1.993(3)
+Al O2 1_545 yes 4.802(8) 1.940(7) 90.4(3)
+Al O2 . yes 1.940(7) 1.829(9) 79.3(4)
+Al O2 1_565 yes 2.422(8) 1.829(9) 134.3(6)
+Al O2 5_445 yes 3.865(9) 1.801(9) 101.4(3)
+Al O2 5_455 yes 1.935(14) 1.801(9) 112.3(8)
+Al O2 3_656 yes 2.422(8) 1.829(9) 134.3(6)
+Al O2 3_666 yes 1.940(7) 1.829(9) 79.3(4)
+Al O2 3_676 yes 4.802(8) 1.940(7) 90.4(3)
+Al O2 7_656 yes 1.935(14) 1.801(9) 112.3(8)
+Al O2 7_666 yes 3.865(9) 1.801(9) 101.4(3)
+Ti O1 . yes 2.028(3) 1.959(3) 1.993(3)
+Ti O1 3_656 yes 2.028(3) 1.959(3) 1.993(3)
+Ti O2 1_545 yes 4.802(8) 1.940(7) 90.4(3)
+Ti O2 . yes 1.940(7) 1.829(9) 79.3(4)
+Ti O2 1_565 yes 2.422(8) 1.829(9) 134.3(6)
+Ti O2 5_445 yes 3.865(9) 1.801(9) 101.4(3)
+Ti O2 5_455 yes 1.935(14) 1.801(9) 112.3(8)
+Ti O2 3_656 yes 2.422(8) 1.829(9) 134.3(6)
+Ti O2 3_666 yes 1.940(7) 1.829(9) 79.3(4)
+Ti O2 3_676 yes 4.802(8) 1.940(7) 90.4(3)
+Ti O2 7_656 yes 1.935(14) 1.801(9) 112.3(8)
+Ti O2 7_666 yes 3.865(9) 1.801(9) 101.4(3)
+In2 O1 . yes 2.028(3) 1.959(3) 1.993(3)
+In2 O1 3_656 yes 2.028(3) 1.959(3) 1.993(3)
+In2 O2 1_545 yes 4.802(8) 1.940(7) 90.4(3)
+In2 O2 . yes 1.940(7) 1.829(9) 79.3(4)
+In2 O2 1_565 yes 2.422(8) 1.829(9) 134.3(6)
+In2 O2 5_445 yes 3.865(9) 1.801(9) 101.4(3)
+In2 O2 5_455 yes 1.935(14) 1.801(9) 112.3(8)
+In2 O2 3_656 yes 2.422(8) 1.829(9) 134.3(6)
+In2 O2 3_666 yes 1.940(7) 1.829(9) 79.3(4)
+In2 O2 3_676 yes 4.802(8) 1.940(7) 90.4(3)
+In2 O2 7_656 yes 1.935(14) 1.801(9) 112.3(8)
+In2 O2 7_666 yes 3.865(9) 1.801(9) 101.4(3)
+O1 O1 3_655 yes 2.857(4) 2.857(5) 2.857(5)
+O1 O1 7_545 yes 2.897(3) 2.772(3) 2.833(3)
+O1 O1 7_555 yes 2.897(3) 2.772(3) 2.832(3)
+O1 O2 1_545 yes 5.161(9) 2.776(10) 115.8(3)
+O1 O2 . yes 2.776(10) 2.649(10) 113.2(4)
+O1 O2 1_565 yes 3.207(8) 2.649(10) 190.0(7)
+O1 O2 5_445 yes 4.336(11) 2.688(10) 121.2(4)
+O1 O2 5_455 yes 2.89(2) 2.688(10) 164.5(9)
+O1 O2 3_656 yes 3.153(9) 2.663(9) 190.6(8)
+O1 O2 3_666 yes 2.781(12) 2.663(9) 113.1(5)
+O1 O2 3_676 yes 5.165(9) 2.781(12) 116.3(4)
+O1 O2 7_656 yes 2.876(16) 2.640(8) 165.9(7)
+O1 O2 7_666 yes 4.357(9) 2.640(8) 121.7(3)
+O2 O2 1_545 yes 2.893(7) 2.817(12) 2.848(9)
+O2 O2 1_565 yes 2.893(7) 2.817(12) 2.848(9)
+O2 O2 5_445 yes 3.647(15) 2.871(15) 3.254(19)
+O2 O2 5_455 yes 3.647(15) 2.871(15) 3.254(19)
+O2 O2 5_545 yes 3.647(15) 2.871(15) 3.254(19)
+O2 O2 5_555 yes 3.647(15) 2.871(15) 3.253(19)
+O2 O2 3_656 yes 2.352(15) 2.351(16) 2.351(16)
+O2 O2 3_666 yes 2.352(15) 2.350(16) 2.351(16)
+O2 O2 7_646 yes 2.465(13) 2.373(10) 2.432(11)
+O2 O2 7_666 yes 2.465(13) 2.372(10) 2.432(11)

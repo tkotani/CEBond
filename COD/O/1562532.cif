@@ -1,0 +1,204 @@
+#------------------------------------------------------------------------------
+#$Date: 2021-05-12 12:45:57 +0300 (Wed, 12 May 2021) $
+#$Revision: 265141 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/56/25/1562532.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1562532
+loop_
+_publ_author_name
+'Spektor, Kristina'
+'Tran, Dung Trung'
+'Leinenweber, Kurt'
+'H\"aussermann, Ulrich'
+_publ_section_title
+;
+ Transformation of rutile to TiO2-II in a high pressure hydrothermal
+ environment
+;
+_journal_name_full               'Journal of Solid State Chemistry'
+_journal_page_first              209
+_journal_page_last               216
+_journal_paper_doi               10.1016/j.jssc.2013.08.018
+_journal_volume                  206
+_journal_year                    2013
+_chemical_formula_moiety         'O2 Ti'
+_chemical_formula_structural     'Ti O2'
+_chemical_formula_sum            'O2 Ti'
+_chemical_formula_weight         79.88
+_chemical_name_systematic
+; 
+'Titanium Dioxide - II'
+;
+_space_group_IT_number           60
+_space_group_name_Hall           '-P 2n 2ab'
+_space_group_name_H-M_alt        'P b c n'
+_symmetry_cell_setting           orthorhombic
+_symmetry_Int_Tables_number      60
+_symmetry_space_group_name_Hall  '-P 2n 2ab'
+_symmetry_space_group_name_H-M   'P b c n'
+_cell_angle_alpha                90.00000
+_cell_angle_beta                 90.00000
+_cell_angle_gamma                90.00000
+_cell_formula_units_Z            4
+_cell_length_a                   4.53370(2)
+_cell_length_b                   5.49959(3)
+_cell_length_c                   4.90370(2)
+_cell_measurement_temperature    293
+_cell_volume                     122.2664(10)
+_computing_data_collection       'X'Pert Data Collector'
+_computing_molecular_graphics    Diamond
+_computing_publication_material  'FULLPROF, PLATON'
+_computing_structure_refinement  FULLPROF
+_computing_structure_solution    'EVA Database'
+_diffrn_ambient_temperature      293
+_diffrn_detector                 PIXCEL
+_diffrn_measurement_device_type  'PANalytical X'Pert Pro Alpha-1'
+_diffrn_radiation_monochromator  Ge
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_type           'Cu K\a 1'
+_diffrn_radiation_wavelength     1.540590
+_diffrn_source_target            Cu
+_exptl_crystal_density_diffrn    4.341
+_exptl_crystal_density_method    'not measured'
+_pd_char_colour                  white
+_pd_instr_location               ' ?'
+_pd_meas_2theta_range_inc        0.013000
+_pd_meas_2theta_range_max        109.99200
+_pd_meas_2theta_range_min        5.00400
+_pd_meas_number_of_points        8077
+_pd_meas_scan_method             cont
+_pd_prep_pressure                6000000
+_pd_prep_temperature             650
+_pd_proc_2theta_range_inc        0.013000
+_pd_proc_2theta_range_max        109.9491
+_pd_proc_2theta_range_min        4.9611
+_pd_proc_info_excluded_regions   '0.00 - 20.00 2Theta'
+_pd_proc_ls_background_function  "'Linear interpolation between 89 points'"
+_pd_proc_ls_pref_orient_corr     ' no'
+_pd_proc_ls_profile_function
+; 7
+ (Thompson-Cox-Hastings pseudo-Voigt function convoluted with 
+ axial divergence asymmetry function: J. Appl. Cryst. 
+ (1994). 27, 892)
+;
+_pd_proc_ls_prof_R_factor        3.4145
+_pd_proc_ls_prof_wR_expected     3.9614
+_pd_proc_ls_prof_wR_factor       4.6378
+_pd_proc_wavelength              1.540590
+_pd_spec_mounting                ' '
+_pd_spec_mount_mode              reflection
+_refine_ls_number_parameters     19
+_refine_ls_number_reflns         156
+_refine_ls_number_restraints     0
+_refine_ls_R_I_factor            2.7199
+_cod_data_source_file            JSSC-2013-206-209.cif
+_cod_data_source_block           tio2ii
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+data item '_symmetry_cell_setting' value 'Orthorhombic' was changed
+to 'orthorhombic' in accordance with the built-in table derived from
+the CIF Core dictionary named 'cif_core.dic' version 2.4.5 last
+updated on 2014-11-21.
+
+Automatic conversion script
+Id: cif_fix_values 8369 2020-08-20 11:38:08Z andrius 
+;
+_cod_original_cell_volume        122.2664(11)
+_cod_original_formula_sum        'O2 Ti1'
+_cod_database_code               1562532
+_pd_proc_ls_prof_cr_factor       8.7396
+_pd_proc_ls_prof_cwr_factor      8.1932
+_pd_proc_ls_prof_cwr_expected    6.9983
+_pd_proc_ls_prof_chi2            1.3706
+_pd_proc_ls_prof_echi2           1.4928
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 1/2-x,1/2-y,1/2+z
+3 1/2+x,1/2-y,-z
+4 -x,y,1/2-z
+5 -x,-y,-z
+6 1/2+x,1/2+y,1/2-z
+7 1/2-x,1/2+y,z
+8 x,-y,1/2+z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_B_iso_or_equiv
+_atom_site_occupancy
+_atom_site_adp_type
+_atom_site_type_symbol
+Ti 0.00000 0.17216(7) 0.25000 0.291(18) 0.50000 Biso Ti+4
+O 0.2692(2) 0.38242(16) 0.41807(17) 0.754(31) 1.00000 Biso O-2
+loop_
+_atom_type_symbol
+_atom_type_scat_Cromer_Mann_a1
+_atom_type_scat_Cromer_Mann_b1
+_atom_type_scat_Cromer_Mann_a2
+_atom_type_scat_Cromer_Mann_b2
+_atom_type_scat_Cromer_Mann_a3
+_atom_type_scat_Cromer_Mann_b3
+_atom_type_scat_Cromer_Mann_a4
+_atom_type_scat_Cromer_Mann_b4
+_atom_type_scat_Cromer_Mann_c
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+ti+4 19.51140 0.17885 8.23473 6.67018 2.01341 -0.29263 1.52080 12.94640
+-13.28000 0.18900 1.80700
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+o-2 4.75800 7.83100 3.63700 30.05000 0.00000 0.00000 0.00000 0.00000 1.59400
+0.04700 0.03200
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O1 Ti1 O1 96.44(4) . . 2_554 yes
+O1 Ti1 O1 94.42(4) . . 3_456 yes
+O1 Ti1 O1 103.72(4) . . 4_555 yes
+O1 Ti1 O1 167.66(4) . . 6_445 yes
+O1 Ti1 O1 88.32(4) . . 7_545 yes
+O1 Ti1 O1 162.37(4) 2_554 . 3_456 yes
+O1 Ti1 O1 94.42(4) 2_554 . 4_555 yes
+O1 Ti1 O1 79.73(4) 2_554 . 6_445 yes
+O1 Ti1 O1 86.73(4) 2_554 . 7_545 yes
+O1 Ti1 O1 96.44(4) 3_456 . 4_555 yes
+O1 Ti1 O1 86.73(4) 3_456 . 6_445 yes
+O1 Ti1 O1 79.73(4) 3_456 . 7_545 yes
+O1 Ti1 O1 88.32(4) 4_555 . 6_445 yes
+O1 Ti1 O1 167.66(4) 4_555 . 7_545 yes
+O1 Ti1 O1 79.79(4) 6_445 . 7_545 yes
+Ti1 O1 Ti1 28.28(5) . . 2_555 yes
+Ti1 O1 Ti1 128.87(4) . . 6_555 yes
+Ti1 O1 Ti1 100.27(4) 2_555 . 6_555 yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Ti1 O1 1.8724(9) . . yes
+Ti1 O1 1.9582(9) . 2_554 yes
+Ti1 O1 1.9582(9) . 3_456 yes
+Ti1 O1 1.8724(9) . 4_555 yes
+Ti1 O1 2.0768(9) . 6_445 yes
+Ti1 O1 2.0768(9) . 7_545 yes

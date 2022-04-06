@@ -1,0 +1,640 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-23 01:54:03 +0200 (Wed, 23 Mar 2016) $
+#$Revision: 179160 $
+#$URL: svn://www.crystallography.net/cod/cif/4/31/21/4312143.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4312143
+loop_
+_publ_author_name
+'\/Lukasz Dobrzycki'
+'Ewa Bulska'
+'Dorota Anna Pawlak'
+'Zygmunt Frukacz'
+'Krzysztof Wo\'zniak'
+_publ_section_title
+;
+ Structure of YAG Crystals Doped/Substituted with Erbium and Ytterbium
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              7656
+_journal_page_last               7664
+_journal_paper_doi               10.1021/ic049920z
+_journal_volume                  43
+_journal_year                    2004
+_chemical_formula_sum            'Al5 O12 Y3'
+_chemical_formula_weight         593.63
+_chemical_name_systematic
+; 
+ ? 
+;
+_space_group_IT_number           230
+_symmetry_cell_setting           cubic
+_symmetry_space_group_name_Hall  '-I 4bd 2c 3'
+_symmetry_space_group_name_H-M   'I a -3 d'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            8
+_cell_length_a                   12.0003(14)
+_cell_length_b                   12.0003(14)
+_cell_length_c                   12.0003(14)
+_cell_measurement_temperature    293(2)
+_cell_volume                     1728.1(3)
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measured_fraction_theta_full 1.000
+_diffrn_measured_fraction_theta_max 1.000
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0000
+_diffrn_reflns_av_sigmaI/netI    0.1423
+_diffrn_reflns_limit_h_max       12
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       15
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       21
+_diffrn_reflns_limit_l_min       2
+_diffrn_reflns_number            461
+_diffrn_reflns_theta_full        40.14
+_diffrn_reflns_theta_max         40.14
+_diffrn_reflns_theta_min         4.16
+_exptl_absorpt_coefficient_mu    20.570
+_exptl_crystal_density_diffrn    4.563
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_F_000             2224
+_refine_diff_density_max         0.712
+_refine_diff_density_min         -0.894
+_refine_diff_density_rms         0.125
+_refine_ls_extinction_coef       0.00147(5)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_ref   0.345
+_refine_ls_hydrogen_treatment    mixed
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     18
+_refine_ls_number_reflns         461
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      0.345
+_refine_ls_R_factor_all          0.0604
+_refine_ls_R_factor_gt           0.0161
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0000P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0270
+_refine_ls_wR_factor_ref         0.0316
+_reflns_number_gt                183
+_reflns_number_total             461
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            ic049920zsi20040119_085908_13.cif
+_cod_data_source_block           y100
+_cod_database_code               4312143
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x+1/2, -y, z+1/2'
+'-x, y+1/2, -z+1/2'
+'x+1/2, -y+1/2, -z'
+'z, x, y'
+'z+1/2, -x+1/2, -y'
+'-z+1/2, -x, y+1/2'
+'-z, x+1/2, -y+1/2'
+'y, z, x'
+'-y, z+1/2, -x+1/2'
+'y+1/2, -z+1/2, -x'
+'-y+1/2, -z, x+1/2'
+'y+3/4, x+1/4, -z+1/4'
+'-y+3/4, -x+3/4, -z+3/4'
+'y+1/4, -x+1/4, z+3/4'
+'-y+1/4, x+3/4, z+1/4'
+'x+3/4, z+1/4, -y+1/4'
+'-x+1/4, z+3/4, y+1/4'
+'-x+3/4, -z+3/4, -y+3/4'
+'x+1/4, -z+1/4, y+3/4'
+'z+3/4, y+1/4, -x+1/4'
+'z+1/4, -y+1/4, x+3/4'
+'-z+1/4, y+3/4, x+1/4'
+'-z+3/4, -y+3/4, -x+3/4'
+'x+1/2, y+1/2, z+1/2'
+'-x+1, -y+1/2, z+1'
+'-x+1/2, y+1, -z+1'
+'x+1, -y+1, -z+1/2'
+'z+1/2, x+1/2, y+1/2'
+'z+1, -x+1, -y+1/2'
+'-z+1, -x+1/2, y+1'
+'-z+1/2, x+1, -y+1'
+'y+1/2, z+1/2, x+1/2'
+'-y+1/2, z+1, -x+1'
+'y+1, -z+1, -x+1/2'
+'-y+1, -z+1/2, x+1'
+'y+5/4, x+3/4, -z+3/4'
+'-y+5/4, -x+5/4, -z+5/4'
+'y+3/4, -x+3/4, z+5/4'
+'-y+3/4, x+5/4, z+3/4'
+'x+5/4, z+3/4, -y+3/4'
+'-x+3/4, z+5/4, y+3/4'
+'-x+5/4, -z+5/4, -y+5/4'
+'x+3/4, -z+3/4, y+5/4'
+'z+5/4, y+3/4, -x+3/4'
+'z+3/4, -y+3/4, x+5/4'
+'-z+3/4, y+5/4, x+3/4'
+'-z+5/4, -y+5/4, -x+5/4'
+'-x, -y, -z'
+'x-1/2, y, -z-1/2'
+'x, -y-1/2, z-1/2'
+'-x-1/2, y-1/2, z'
+'-z, -x, -y'
+'-z-1/2, x-1/2, y'
+'z-1/2, x, -y-1/2'
+'z, -x-1/2, y-1/2'
+'-y, -z, -x'
+'y, -z-1/2, x-1/2'
+'-y-1/2, z-1/2, x'
+'y-1/2, z, -x-1/2'
+'-y-3/4, -x-1/4, z-1/4'
+'y-3/4, x-3/4, z-3/4'
+'-y-1/4, x-1/4, -z-3/4'
+'y-1/4, -x-3/4, -z-1/4'
+'-x-3/4, -z-1/4, y-1/4'
+'x-1/4, -z-3/4, -y-1/4'
+'x-3/4, z-3/4, y-3/4'
+'-x-1/4, z-1/4, -y-3/4'
+'-z-3/4, -y-1/4, x-1/4'
+'-z-1/4, y-1/4, -x-3/4'
+'z-1/4, -y-3/4, -x-1/4'
+'z-3/4, y-3/4, x-3/4'
+'-x+1/2, -y+1/2, -z+1/2'
+'x, y+1/2, -z'
+'x+1/2, -y, z'
+'-x, y, z+1/2'
+'-z+1/2, -x+1/2, -y+1/2'
+'-z, x, y+1/2'
+'z, x+1/2, -y'
+'z+1/2, -x, y'
+'-y+1/2, -z+1/2, -x+1/2'
+'y+1/2, -z, x'
+'-y, z, x+1/2'
+'y, z+1/2, -x'
+'-y-1/4, -x+1/4, z+1/4'
+'y-1/4, x-1/4, z-1/4'
+'-y+1/4, x+1/4, -z-1/4'
+'y+1/4, -x-1/4, -z+1/4'
+'-x-1/4, -z+1/4, y+1/4'
+'x+1/4, -z-1/4, -y+1/4'
+'x-1/4, z-1/4, y-1/4'
+'-x+1/4, z+1/4, -y-1/4'
+'-z-1/4, -y+1/4, x+1/4'
+'-z+1/4, y+1/4, -x-1/4'
+'z+1/4, -y-1/4, -x+1/4'
+'z-1/4, y-1/4, x-1/4'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Y1 Y 0.1250 0.0000 0.2500 0.00514(11) Uani 1 4 d S . .
+Al1 Al 0.0000 0.0000 0.0000 0.0042(2) Uani 1 6 d S . .
+Al2 Al 0.3750 0.0000 0.2500 0.0023(3) Uani 1 4 d S . .
+O1 O 0.28029(14) 0.10124(14) 0.19936(15) 0.0048(3) Uani 1 1 d . . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Y1 0.0041(2) 0.00567(15) 0.00567(15) 0.0010(2) 0.000 0.000
+Al1 0.0042(2) 0.0042(2) 0.0042(2) 0.0000(6) 0.0000(6) 0.0000(6)
+Al2 0.0014(6) 0.0028(4) 0.0028(4) 0.000 0.000 0.000
+O1 0.0047(7) 0.0041(7) 0.0057(7) 0.0005(6) 0.0008(6) 0.0009(5)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Al Al 0.0645 0.0514 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Y Y -2.7962 3.5667 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O1 Y1 O1 112.05(8) 43_444 . ?
+O1 Y1 O1 158.54(9) 43_444 28_445 ?
+O1 Y1 O1 72.18(8) . 28_445 ?
+O1 Y1 O1 72.18(8) 43_444 18_545 ?
+O1 Y1 O1 158.54(9) . 18_545 ?
+O1 Y1 O1 112.05(8) 28_445 18_545 ?
+O1 Y1 O1 124.93(4) 43_444 16_545 ?
+O1 Y1 O1 94.91(5) . 16_545 ?
+O1 Y1 O1 74.06(7) 28_445 16_545 ?
+O1 Y1 O1 67.46(8) 18_545 16_545 ?
+O1 Y1 O1 67.46(8) 43_444 38_444 ?
+O1 Y1 O1 74.06(7) . 38_444 ?
+O1 Y1 O1 94.91(5) 28_445 38_444 ?
+O1 Y1 O1 124.93(4) 18_545 38_444 ?
+O1 Y1 O1 166.56(8) 16_545 38_444 ?
+O1 Y1 O1 74.06(7) 43_444 9 ?
+O1 Y1 O1 67.46(8) . 9 ?
+O1 Y1 O1 124.93(4) 28_445 9 ?
+O1 Y1 O1 94.91(5) 18_545 9 ?
+O1 Y1 O1 73.79(8) 16_545 9 ?
+O1 Y1 O1 107.86(8) 38_444 9 ?
+O1 Y1 O1 94.91(5) 43_444 35_445 ?
+O1 Y1 O1 124.93(4) . 35_445 ?
+O1 Y1 O1 67.46(8) 28_445 35_445 ?
+O1 Y1 O1 74.06(7) 18_545 35_445 ?
+O1 Y1 O1 107.86(8) 16_545 35_445 ?
+O1 Y1 O1 73.79(8) 38_444 35_445 ?
+O1 Y1 O1 166.56(8) 9 35_445 ?
+O1 Y1 Al2 143.91(4) 43_444 . ?
+O1 Y1 Al2 36.09(4) . . ?
+O1 Y1 Al2 36.09(4) 28_445 . ?
+O1 Y1 Al2 143.91(4) 18_545 . ?
+O1 Y1 Al2 83.28(4) 16_545 . ?
+O1 Y1 Al2 83.28(4) 38_444 . ?
+O1 Y1 Al2 96.72(4) 9 . ?
+O1 Y1 Al2 96.72(4) 35_445 . ?
+O1 Y1 Al2 36.09(4) 43_444 50_556 ?
+O1 Y1 Al2 143.91(4) . 50_556 ?
+O1 Y1 Al2 143.91(4) 28_445 50_556 ?
+O1 Y1 Al2 36.09(4) 18_545 50_556 ?
+O1 Y1 Al2 96.72(4) 16_545 50_556 ?
+O1 Y1 Al2 96.72(4) 38_444 50_556 ?
+O1 Y1 Al2 83.28(4) 9 50_556 ?
+O1 Y1 Al2 83.28(4) 35_445 50_556 ?
+Al2 Y1 Al2 180.0 . 50_556 ?
+O1 Y1 Al1 33.63(4) 43_444 . ?
+O1 Y1 Al1 97.22(4) . . ?
+O1 Y1 Al1 126.66(4) 28_445 . ?
+O1 Y1 Al1 96.30(4) 18_545 . ?
+O1 Y1 Al1 158.52(4) 16_545 . ?
+O1 Y1 Al1 34.32(4) 38_444 . ?
+O1 Y1 Al1 94.65(4) 9 . ?
+O1 Y1 Al1 79.29(4) 35_445 . ?
+Al2 Y1 Al1 116.6 . . ?
+Al2 Y1 Al1 63.4 50_556 . ?
+O1 Y1 Al1 97.22(4) 43_444 38_444 ?
+O1 Y1 Al1 33.63(4) . 38_444 ?
+O1 Y1 Al1 96.30(4) 28_445 38_444 ?
+O1 Y1 Al1 126.66(5) 18_545 38_444 ?
+O1 Y1 Al1 79.29(4) 16_545 38_444 ?
+O1 Y1 Al1 94.65(4) 38_444 38_444 ?
+O1 Y1 Al1 34.32(4) 9 38_444 ?
+O1 Y1 Al1 158.52(4) 35_445 38_444 ?
+Al2 Y1 Al1 63.4 . 38_444 ?
+Al2 Y1 Al1 116.6 50_556 38_444 ?
+Al1 Y1 Al1 101.5 . 38_444 ?
+O1 Al1 O1 86.66(8) 96 91 ?
+O1 Al1 O1 86.66(8) 96 86 ?
+O1 Al1 O1 86.66(8) 91 86 ?
+O1 Al1 O1 180.00(10) 96 48_444 ?
+O1 Al1 O1 93.34(8) 91 48_444 ?
+O1 Al1 O1 93.34(8) 86 48_444 ?
+O1 Al1 O1 93.34(8) 96 38_444 ?
+O1 Al1 O1 93.34(8) 91 38_444 ?
+O1 Al1 O1 180.00(15) 86 38_444 ?
+O1 Al1 O1 86.66(8) 48_444 38_444 ?
+O1 Al1 O1 93.34(8) 96 43_444 ?
+O1 Al1 O1 180.00(15) 91 43_444 ?
+O1 Al1 O1 93.34(8) 86 43_444 ?
+O1 Al1 O1 86.66(8) 48_444 43_444 ?
+O1 Al1 O1 86.66(8) 38_444 43_444 ?
+O1 Al1 Y1 88.41(5) 96 . ?
+O1 Al1 Y1 138.31(5) 91 . ?
+O1 Al1 Y1 134.32(5) 86 . ?
+O1 Al1 Y1 91.59(5) 48_444 . ?
+O1 Al1 Y1 45.68(5) 38_444 . ?
+O1 Al1 Y1 41.69(5) 43_444 . ?
+O1 Al1 Y1 138.31(5) 96 9 ?
+O1 Al1 Y1 134.32(5) 91 9 ?
+O1 Al1 Y1 88.41(5) 86 9 ?
+O1 Al1 Y1 41.69(5) 48_444 9 ?
+O1 Al1 Y1 91.59(5) 38_444 9 ?
+O1 Al1 Y1 45.68(5) 43_444 9 ?
+Y1 Al1 Y1 66.4 . 9 ?
+O1 Al1 Y1 41.69(5) 96 57 ?
+O1 Al1 Y1 45.68(5) 91 57 ?
+O1 Al1 Y1 91.59(5) 86 57 ?
+O1 Al1 Y1 138.31(5) 48_444 57 ?
+O1 Al1 Y1 88.41(5) 38_444 57 ?
+O1 Al1 Y1 134.32(5) 43_444 57 ?
+Y1 Al1 Y1 113.6 . 57 ?
+Y1 Al1 Y1 180.0 9 57 ?
+O1 Al1 Y1 45.68(5) 96 53 ?
+O1 Al1 Y1 91.59(5) 91 53 ?
+O1 Al1 Y1 41.69(5) 86 53 ?
+O1 Al1 Y1 134.32(5) 48_444 53 ?
+O1 Al1 Y1 138.31(5) 38_444 53 ?
+O1 Al1 Y1 88.41(5) 43_444 53 ?
+Y1 Al1 Y1 113.6 . 53 ?
+Y1 Al1 Y1 113.6 9 53 ?
+Y1 Al1 Y1 66.4 57 53 ?
+O1 Al1 Y1 134.32(5) 96 5 ?
+O1 Al1 Y1 88.41(5) 91 5 ?
+O1 Al1 Y1 138.31(5) 86 5 ?
+O1 Al1 Y1 45.68(5) 48_444 5 ?
+O1 Al1 Y1 41.69(5) 38_444 5 ?
+O1 Al1 Y1 91.59(5) 43_444 5 ?
+Y1 Al1 Y1 66.4 . 5 ?
+Y1 Al1 Y1 66.4 9 5 ?
+Y1 Al1 Y1 113.6 57 5 ?
+Y1 Al1 Y1 180.0 53 5 ?
+O1 Al1 Y1 91.59(5) 96 49 ?
+O1 Al1 Y1 41.69(5) 91 49 ?
+O1 Al1 Y1 45.68(5) 86 49 ?
+O1 Al1 Y1 88.41(5) 48_444 49 ?
+O1 Al1 Y1 134.32(5) 38_444 49 ?
+O1 Al1 Y1 138.31(5) 43_444 49 ?
+Y1 Al1 Y1 180.0 . 49 ?
+Y1 Al1 Y1 113.6 9 49 ?
+Y1 Al1 Y1 66.4 57 49 ?
+Y1 Al1 Y1 66.4 53 49 ?
+Y1 Al1 Y1 113.6 5 49 ?
+O1 Al1 O1 113.86(6) 96 . ?
+O1 Al1 O1 117.27(7) 91 . ?
+O1 Al1 O1 148.12(5) 86 . ?
+O1 Al1 O1 66.14(6) 48_444 . ?
+O1 Al1 O1 31.88(5) 38_444 . ?
+O1 Al1 O1 62.73(7) 43_444 . ?
+Y1 Al1 O1 32.12(2) . . ?
+Y1 Al1 O1 59.92(2) 9 . ?
+Y1 Al1 O1 120.08(2) 57 . ?
+Y1 Al1 O1 145.64(2) 53 . ?
+Y1 Al1 O1 34.36(2) 5 . ?
+Y1 Al1 O1 147.88(2) 49 . ?
+O1 Al1 Al1 127.60(5) 96 49_666 ?
+O1 Al1 Al1 127.60(5) 91 49_666 ?
+O1 Al1 Al1 127.60(5) 86 49_666 ?
+O1 Al1 Al1 52.40(5) 48_444 49_666 ?
+O1 Al1 Al1 52.40(5) 38_444 49_666 ?
+O1 Al1 Al1 52.40(5) 43_444 49_666 ?
+Y1 Al1 Al1 39.2 . 49_666 ?
+Y1 Al1 Al1 39.2 9 49_666 ?
+Y1 Al1 Al1 140.8 57 49_666 ?
+Y1 Al1 Al1 140.8 53 49_666 ?
+Y1 Al1 Al1 39.2 5 49_666 ?
+Y1 Al1 Al1 140.8 49 49_666 ?
+O1 Al1 Al1 20.71(2) . 49_666 ?
+O1 Al2 O1 114.32(6) 89_655 28_445 ?
+O1 Al2 O1 100.16(11) 89_655 68_656 ?
+O1 Al2 O1 114.32(6) 28_445 68_656 ?
+O1 Al2 O1 114.32(6) 89_655 . ?
+O1 Al2 O1 100.16(11) 28_445 . ?
+O1 Al2 O1 114.32(6) 68_656 . ?
+O1 Al2 Y1 129.92(6) 89_655 . ?
+O1 Al2 Y1 50.08(6) 28_445 . ?
+O1 Al2 Y1 129.92(6) 68_656 . ?
+O1 Al2 Y1 50.08(6) . . ?
+O1 Al2 Y1 50.08(6) 89_655 50_656 ?
+O1 Al2 Y1 129.92(6) 28_445 50_656 ?
+O1 Al2 Y1 50.08(6) 68_656 50_656 ?
+O1 Al2 Y1 129.92(6) . 50_656 ?
+Y1 Al2 Y1 180.0 . 50_656 ?
+O1 Al2 O1 144.79(5) 89_655 54_655 ?
+O1 Al2 O1 57.66(9) 28_445 54_655 ?
+O1 Al2 O1 61.92(8) 68_656 54_655 ?
+O1 Al2 O1 100.87(5) . 54_655 ?
+Y1 Al2 O1 74.34(3) . 54_655 ?
+Y1 Al2 O1 105.66(3) 50_656 54_655 ?
+O1 Al2 O1 61.92(8) 89_655 77 ?
+O1 Al2 O1 100.87(5) 28_445 77 ?
+O1 Al2 O1 144.79(5) 68_656 77 ?
+O1 Al2 O1 57.66(9) . 77 ?
+Y1 Al2 O1 74.34(3) . 77 ?
+Y1 Al2 O1 105.66(3) 50_656 77 ?
+O1 Al2 O1 148.69(6) 54_655 77 ?
+O1 Al2 O1 57.66(9) 89_655 45_445 ?
+O1 Al2 O1 61.92(8) 28_445 45_445 ?
+O1 Al2 O1 100.87(5) 68_656 45_445 ?
+O1 Al2 O1 144.79(5) . 45_445 ?
+Y1 Al2 O1 105.66(3) . 45_445 ?
+Y1 Al2 O1 74.34(3) 50_656 45_445 ?
+O1 Al2 O1 94.176(16) 54_655 45_445 ?
+O1 Al2 O1 94.176(16) 77 45_445 ?
+O1 Al2 O1 100.87(5) 89_655 22_554 ?
+O1 Al2 O1 144.79(5) 28_445 22_554 ?
+O1 Al2 O1 57.66(9) 68_656 22_554 ?
+O1 Al2 O1 61.92(8) . 22_554 ?
+Y1 Al2 O1 105.66(3) . 22_554 ?
+Y1 Al2 O1 74.34(3) 50_656 22_554 ?
+O1 Al2 O1 94.176(16) 54_655 22_554 ?
+O1 Al2 O1 94.176(16) 77 22_554 ?
+O1 Al2 O1 148.69(6) 45_445 22_554 ?
+Al2 O1 Al1 130.58(10) . 38_444 ?
+Al2 O1 Y1 93.83(7) . . ?
+Al1 O1 Y1 104.68(7) 38_444 . ?
+Al2 O1 Y1 120.85(8) . 5 ?
+Al1 O1 Y1 100.00(7) 38_444 5 ?
+Y1 O1 Y1 101.53(7) . 5 ?
+Al2 O1 O1 134.69(12) . 9 ?
+Al1 O1 O1 46.67(4) 38_444 9 ?
+Y1 O1 O1 58.63(7) . 9 ?
+Y1 O1 O1 100.83(5) 5 9 ?
+Al2 O1 O1 161.61(11) . 5 ?
+Al1 O1 O1 46.67(4) 38_444 5 ?
+Y1 O1 O1 104.45(5) . 5 ?
+Y1 O1 O1 53.91(6) 5 5 ?
+O1 O1 O1 60.0 9 5 ?
+Al2 O1 O1 39.92(6) . 28_445 ?
+Al1 O1 O1 133.62(12) 38_444 28_445 ?
+Y1 O1 O1 53.91(4) . 28_445 ?
+Y1 O1 O1 122.95(10) 5 28_445 ?
+O1 O1 O1 103.58(9) 9 28_445 ?
+O1 O1 O1 158.28(4) 5 28_445 ?
+Al2 O1 O1 103.35(10) . 81 ?
+Al1 O1 O1 43.33(4) 38_444 81 ?
+Y1 O1 O1 147.07(7) . 81 ?
+Y1 O1 O1 93.52(5) 5 81 ?
+O1 O1 O1 90.0 9 81 ?
+O1 O1 O1 61.86(4) 5 81 ?
+O1 O1 O1 136.62(8) 28_445 81 ?
+Al2 O1 O1 89.95(9) . 77 ?
+Al1 O1 O1 43.33(4) 38_444 77 ?
+Y1 O1 O1 96.49(5) . 77 ?
+Y1 O1 O1 142.59(6) 5 77 ?
+O1 O1 O1 61.86(4) 9 77 ?
+O1 O1 O1 90.0 5 77 ?
+O1 O1 O1 94.13(9) 28_445 77 ?
+O1 O1 O1 56.28(8) 81 77 ?
+Al2 O1 O1 100.94(6) . 38_444 ?
+Al1 O1 O1 127.33(5) 38_444 38_444 ?
+Y1 O1 O1 55.06(6) . 38_444 ?
+Y1 O1 O1 50.88(6) 5 38_444 ?
+O1 O1 O1 91.53(3) 9 38_444 ?
+O1 O1 O1 88.15(4) 5 38_444 ?
+O1 O1 O1 77.61(6) 28_445 38_444 ?
+O1 O1 O1 143.96(8) 81 38_444 ?
+O1 O1 O1 149.78(7) 77 38_444 ?
+Al2 O1 O1 85.79(7) . 22_554 ?
+Al1 O1 O1 99.76(9) 38_444 22_554 ?
+Y1 O1 O1 147.77(8) . 22_554 ?
+Y1 O1 O1 53.11(4) 5 22_554 ?
+O1 O1 O1 137.21(9) 9 22_554 ?
+O1 O1 O1 77.69(9) 5 22_554 ?
+O1 O1 O1 118.99(10) 28_445 22_554 ?
+O1 O1 O1 62.66(7) 81 22_554 ?
+O1 O1 O1 115.73(7) 77 22_554 ?
+O1 O1 O1 93.30(7) 38_444 22_554 ?
+Al2 O1 O1 32.84(3) . 89_655 ?
+Al1 O1 O1 98.07(9) 38_444 89_655 ?
+Y1 O1 O1 110.39(6) . 89_655 ?
+Y1 O1 O1 137.65(9) 5 89_655 ?
+O1 O1 O1 119.22(9) 9 89_655 ?
+O1 O1 O1 136.17(5) 5 89_655 ?
+O1 O1 O1 62.84(3) 28_445 89_655 ?
+O1 O1 O1 74.49(9) 81 89_655 ?
+O1 O1 O1 60.83(9) 77 89_655 ?
+O1 O1 O1 133.75(4) 38_444 89_655 ?
+O1 O1 O1 86.26(5) 22_554 89_655 ?
+Al2 O1 O1 32.84(3) . 68_656 ?
+Al1 O1 O1 141.11(11) 38_444 68_656 ?
+Y1 O1 O1 110.39(6) . 68_656 ?
+Y1 O1 O1 89.16(7) 5 68_656 ?
+O1 O1 O1 166.28(11) 9 68_656 ?
+O1 O1 O1 133.59(11) 5 68_656 ?
+O1 O1 O1 62.84(3) 28_445 68_656 ?
+O1 O1 O1 98.84(9) 81 68_656 ?
+O1 O1 O1 114.81(8) 77 68_656 ?
+O1 O1 O1 87.49(5) 38_444 68_656 ?
+O1 O1 O1 56.51(8) 22_554 68_656 ?
+O1 O1 O1 54.31(7) 89_655 68_656 ?
+Al2 O1 Al2 87.20(6) . 81 ?
+Al1 O1 Al2 74.60(5) 38_444 81 ?
+Y1 O1 Al2 178.97(7) . 81 ?
+Y1 O1 Al2 77.92(5) 5 81 ?
+O1 O1 Al2 120.55(5) 9 81 ?
+O1 O1 Al2 74.52(7) 5 81 ?
+O1 O1 Al2 127.12(3) 28_445 81 ?
+O1 O1 Al2 32.38(4) 81 81 ?
+O1 O1 Al2 83.50(7) 77 81 ?
+O1 O1 Al2 124.75(9) 38_444 81 ?
+O1 O1 Al2 32.29(4) 22_554 81 ?
+O1 O1 Al2 70.51(7) 89_655 81 ?
+O1 O1 Al2 70.52(7) 68_656 81 ?
+Al2 O1 O1 80.12(8) . 15_554 ?
+Al1 O1 O1 137.51(7) 38_444 15_554 ?
+Y1 O1 O1 100.67(6) . 15_554 ?
+Y1 O1 O1 41.10(3) 5 15_554 ?
+O1 O1 O1 135.77(5) 9 15_554 ?
+O1 O1 O1 94.27(7) 5 15_554 ?
+O1 O1 O1 88.86(9) 28_445 15_554 ?
+O1 O1 O1 109.74(5) 81 15_554 ?
+O1 O1 O1 160.66(8) 77 15_554 ?
+O1 O1 O1 49.39(6) 38_444 15_554 ?
+O1 O1 O1 47.45(7) 22_554 15_554 ?
+O1 O1 O1 104.33(7) 89_655 15_554 ?
+O1 O1 O1 50.38(8) 68_656 15_554 ?
+Al2 O1 O1 79.51(5) 81 15_554 ?
+Al2 O1 O1 80.11(5) . 16_545 ?
+Al1 O1 O1 82.50(7) 38_444 16_545 ?
+Y1 O1 O1 43.99(5) . 16_545 ?
+Y1 O1 O1 143.51(7) 5 16_545 ?
+O1 O1 O1 54.86(9) 9 16_545 ?
+O1 O1 O1 114.56(9) 5 16_545 ?
+O1 O1 O1 53.00(7) 28_445 16_545 ?
+O1 O1 O1 111.31(5) 81 16_545 ?
+O1 O1 O1 55.13(6) 77 16_545 ?
+O1 O1 O1 98.75(9) 38_444 16_545 ?
+O1 O1 O1 162.93(3) 22_554 16_545 ?
+O1 O1 O1 76.68(2) 89_655 16_545 ?
+O1 O1 O1 111.77(6) 68_656 16_545 ?
+Al2 O1 O1 136.32(5) 81 16_545 ?
+O1 O1 O1 137.45(4) 15_554 16_545 ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Y1 O1 2.3060(18) 43_444 ?
+Y1 O1 2.3060(18) . ?
+Y1 O1 2.3060(18) 28_445 ?
+Y1 O1 2.3060(18) 18_545 ?
+Y1 O1 2.4366(18) 16_545 ?
+Y1 O1 2.4366(18) 38_444 ?
+Y1 O1 2.4366(18) 9 ?
+Y1 O1 2.4366(18) 35_445 ?
+Y1 Al2 3.0001(4) . ?
+Y1 Al2 3.0001(4) 50_556 ?
+Y1 Al1 3.3542(4) . ?
+Y1 Al1 3.3542(4) 38_444 ?
+Al1 O1 1.9205(17) 96 ?
+Al1 O1 1.9205(17) 91 ?
+Al1 O1 1.9205(17) 86 ?
+Al1 O1 1.9205(17) 48_444 ?
+Al1 O1 1.9205(17) 38_444 ?
+Al1 O1 1.9205(17) 43_444 ?
+Al1 Y1 3.3542(4) 9 ?
+Al1 Y1 3.3542(4) 57 ?
+Al1 Y1 3.3542(4) 53 ?
+Al1 Y1 3.3542(4) 5 ?
+Al1 Y1 3.3542(4) 49 ?
+Al1 O1 4.3027(19) . ?
+Al1 Al1 20.785(2) 49_666 ?
+Al2 O1 1.7711(16) 89_655 ?
+Al2 O1 1.7711(16) 28_445 ?
+Al2 O1 1.7711(16) 68_656 ?
+Al2 O1 1.7711(16) . ?
+Al2 Y1 3.0001(4) 50_656 ?
+Al2 O1 3.3068(18) 54_655 ?
+Al2 O1 3.3068(18) 77 ?
+Al2 O1 3.3068(18) 45_445 ?
+Al2 O1 3.3068(18) 22_554 ?
+O1 Al1 1.9205(17) 38_444 ?
+O1 Y1 2.4366(18) 5 ?
+O1 O1 2.636(3) 9 ?
+O1 O1 2.636(3) 5 ?
+O1 O1 2.717(3) 28_445 ?
+O1 O1 2.794(3) 81 ?
+O1 O1 2.794(3) 77 ?
+O1 O1 2.858(4) 38_444 ?
+O1 O1 2.926(4) 22_554 ?
+O1 O1 2.976(3) 89_655 ?
+O1 O1 2.976(3) 68_656 ?
+O1 Al2 3.3068(18) 81 ?
+O1 O1 3.4952(13) 15_554 ?
+O1 O1 3.4952(13) 16_545 ?
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion
+_geom_torsion_site_symmetry_1
+_geom_torsion_site_symmetry_2
+_geom_torsion_site_symmetry_3
+_geom_torsion_site_symmetry_4
+_geom_torsion_publ_flag
+Al1 Al1 Al1 O1 3.18(7) ? . 49_666 43_444 ?

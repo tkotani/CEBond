@@ -1,0 +1,99 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-07-04 17:40:00 +0300 (Tue, 04 Jul 2017) $
+#$Revision: 198384 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/10/00/1100045.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1100045
+loop_
+_publ_author_name
+'He, M'
+'Chen, X'
+'Lan, Y'
+'Li, H'
+'Xu, Y'
+_publ_section_title
+;
+Ab initio structure determination of new compound LiAlB~2~O~5~
+;
+_journal_name_full               'Journal of Solid State Chemistry'
+_journal_page_first              181
+_journal_page_last               184
+_journal_paper_doi               10.1006/jssc.2000.8979
+_journal_volume                  156
+_journal_year                    2001
+_chemical_formula_structural     'Li Al B2 O5'
+_chemical_formula_sum            'Al B2 Li O5'
+_chemical_name_systematic
+;
+Lithium Aluminium Boron Oxide (1/1/2/5)
+;
+_space_group_crystal_system      monoclinic
+_space_group_IT_number           15
+_space_group_name_Hall           '-C 2yc'
+_space_group_name_H-M_alt        'C 1 2/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 120.0681(3)
+_cell_angle_gamma                90
+_cell_formula_units_Z            8
+_cell_length_a                   9.9096(1)
+_cell_length_b                   10.0634(1)
+_cell_length_c                   9.3552(1)
+_cell_volume                     807.39
+_refine_ls_R_factor_all          0.07
+_cod_depositor_comments
+;
+ Changing the space group from 'P 1 2/c 1' to 'C 1 2/c 1' after consulting
+ the original publication. All related space group information was changed
+ accordingly.
+
+ Antanas Vaitkus,
+ 2017-07-04
+;
+_cod_original_sg_symbol_H-M      'C 2/c'
+_cod_database_code               1100045
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 -x,y,-z+1/2
+3 -x,-y,-z
+4 x,-y,z+1/2
+5 x+1/2,y+1/2,z
+6 -x+1/2,y+1/2,-z+1/2
+7 -x+1/2,-y+1/2,-z
+8 x+1/2,-y+1/2,z+1/2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_calc_flag
+Al1 Al3+ 8 f 0.1948(2) 0.1523(2) 0.1510(2) 1. 0 d
+B1 B3+ 8 f -0.0662(7) 0.3266(7) -0.0308(8) 1. 0 d
+B2 B3+ 8 f 0.2341(8) -0.0050(6) 0.4071(8) 1. 0 d
+Li1 Li1+ 4 e 0. 0.378(1) 0.25 1. 0 d
+Li2 Li1+ 4 e 0. 0.159(2) 0.75 1. 0 d
+O1 O2- 8 f 0.0582(4) 0.2754(3) 0.1104(4) 1. 0 d
+O2 O2- 8 f -0.1232(3) 0.2944(3) -0.1897(3) 1. 0 d
+O3 O2- 8 f -0.1386(4) 0.4271(3) 0.0238(4) 1. 0 d
+O4 O2- 8 f 0.1581(4) 0.0184(3) 0.2428(4) 1. 0 d
+O5 O2- 8 f 0.1846(4) 0.1071(3) -0.0311(4) 1. 0 d
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Al3+ 2.000
+B3+ 3.000
+Li1+ 1.000
+O2- -2.000

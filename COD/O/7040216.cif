@@ -1,0 +1,402 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-08-06 09:34:39 +0300 (Sat, 06 Aug 2016) $
+#$Revision: 185070 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/7/04/02/7040216.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7040216
+loop_
+_publ_author_name
+'Allison, M. C.'
+'Avdeev, M.'
+'Schmid, S.'
+'Liu, S.'
+'S\"ohnel, T'
+'Ling, C. D.'
+_publ_section_title
+;
+ Synthesis, structure and geometrically frustrated magnetism of the
+ layered oxide-stannide compounds Fe(Fe3-xMnx)Si2Sn7O16.
+;
+_journal_issue                   23
+_journal_name_full
+'Dalton transactions (Cambridge, England : 2003)'
+_journal_page_first              9689
+_journal_page_last               9694
+_journal_paper_doi               10.1039/c6dt01074a
+_journal_volume                  45
+_journal_year                    2016
+_chemical_formula_iupac          'Fe3.19 Mn0.81 Si2 Sn7 O16'
+_chemical_formula_moiety         'Fe3.19 Mn0.81 O16 Si2 Sn7'
+_chemical_formula_structural     'Fe3.19 Mn0.81 Si2 Sn7 O16'
+_chemical_formula_sum            'Fe3.19 Mn0.81 O16 Si2 Sn7'
+_chemical_formula_weight         1365.777
+_chemical_name_systematic
+;
+Iron Manganese Silicon Tin Oxide
+;
+_space_group_IT_number           164
+_symmetry_cell_setting           trigonal
+_symmetry_space_group_name_Hall  '-P 3 2"'
+_symmetry_space_group_name_H-M   'P -3 m 1'
+_cell_angle_alpha                90.00000
+_cell_angle_beta                 90.00000
+_cell_angle_gamma                120.00000
+_cell_formula_units_Z            1
+_cell_length_a                   6.83663(14)
+_cell_length_b                   6.83663(14)
+_cell_length_c                   9.14429(19)
+_cell_measurement_reflns_used    314
+_cell_measurement_temperature    298
+_cell_measurement_theta_max      81.9379
+_cell_measurement_theta_min      1.3754
+_cell_volume                     370.139(13)
+_computing_structure_refinement  FULLPROF
+_diffrn_ambient_temperature      298
+_diffrn_detector_type            '128 linear position sensitive detectors'
+_diffrn_measurement_device_type  local
+_diffrn_radiation_monochromator  'Ge 335'
+_diffrn_radiation_type           neutron
+_diffrn_radiation_wavelength     1.62150
+_diffrn_source                   'nuclear reactor'
+_diffrn_source_type
+'Echidna (high resolution neutron powder diffractometer)'
+_pd_calc_method                  'Rietveld Refinement'
+_pd_char_colour                  yellow
+_pd_char_particle_morphology     plate-like
+_pd_instr_location
+; 
+'Echidna (high resolution powder diffractometer), Bragg Institute,
+ANSTO (Australia)'
+;
+_pd_meas_2theta_range_inc        0.125000
+_pd_meas_2theta_range_max        163.87579
+_pd_meas_2theta_range_min        2.75080
+_pd_meas_number_of_points        1290
+_pd_meas_scan_method             fixed
+_pd_prep_temperature             1273
+_pd_proc_2theta_range_inc        0.125000
+_pd_proc_2theta_range_max        163.7316
+_pd_proc_2theta_range_min        2.6066
+_pd_proc_info_excluded_regions   '0.00 to 6.00 and 162.70 to 164.00'
+_pd_proc_ls_pref_orient_corr     ' ?'
+_pd_proc_ls_prof_R_factor        3.0522
+_pd_proc_ls_prof_wR_expected     2.3704
+_pd_proc_ls_prof_wR_factor       3.9401
+_pd_proc_wavelength              1.621500
+_pd_spec_mounting
+; 
+'vanadium can'
+;
+_pd_spec_mount_mode              transmission
+_pd_spec_shape                   cylinder
+_refine_ls_goodness_of_fit_all   1.6
+_refine_ls_number_parameters     44
+_refine_ls_number_reflns         314
+_refine_ls_number_restraints     0
+_refine_ls_R_I_factor            4.4786
+_refine_ls_shift/su_max          0.006136
+_cod_data_source_file            c6dt01074a3.cif
+_cod_data_source_block           Fe3Mn
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Trigonal' changed to 'trigonal'
+according to
+/usr/data/users/saulius/crontab/automatic-downloads/current/RSC/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 from 2011-04-26.
+
+Automatic conversion script
+Id: cif_fix_values 4268 2015-11-12 08:31:59Z antanas 
+;
+_cod_original_cell_volume        370.139(14)
+_cod_database_code               7040216
+_pd_proc_ls_prof_cr_factor       8.4275
+_pd_proc_ls_prof_cwr_factor      8.8232
+_pd_proc_ls_prof_cwr_expected    5.3081
+_pd_proc_ls_prof_chi2            2.7629
+_pd_proc_ls_prof_echi2           2.7629
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-y,x-y,z
+-x+y,-x,z
+-y,-x,z
+-x+y,y,z
+x,x-y,z
+-x,-y,-z
+y,-x+y,-z
+x-y,x,-z
+y,x,-z
+x-y,-y,-z
+-x,-x+y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+_atom_site_adp_type
+_atom_site_type_symbol
+Fe1 0.00000 0.00000 0.00000 0.0107(9) 1.00000 Uiso Fe
+Mn2 0.50000 0.00000 0.50000 0.0167(12) 0.271(8) Uiso Mn
+Fe2 0.50000 0.00000 0.50000 0.0167(12) 0.729(8) Uiso Fe
+Sn1 0.00000 0.00000 0.50000 0.0132(12) 1.00000 Uiso Sn
+Sn2 0.1650(2) 0.8350(2) 0.8397(3) 0.0129(4) 1.00004 Uiso Sn
+Si1 0.33330 0.66670 0.2320(6) 0.0123(12) 1.00006 Uiso Si
+O1 0.33330 0.66670 0.4128(5) 0.0151(12) 1.00006 Uiso O
+O2 0.33330 0.66670 0.8707(5) 0.0160(9) 1.00006 Uiso O
+O3 0.1523(2) 0.8477(2) 0.6158(3) 0.0157(6) 1.00004 Uiso O
+O4 0.4629(2) 0.5371(2) 0.1820(3) 0.0175(7) 1.00004 Uiso O
+loop_
+_atom_type_symbol
+_atom_type_scat_length_neutron
+_atom_type_scat_source
+Fe 0.94500 V.F._Sears_Neutron_News_3_26_(1992)
+Mn -0.37300 V.F._Sears_Neutron_News_3_26_(1992)
+Sn 0.62250 V.F._Sears_Neutron_News_3_26_(1992)
+Si 0.41490 V.F._Sears_Neutron_News_3_26_(1992)
+O 0.58030 V.F._Sears_Neutron_News_3_26_(1992)
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+Sn2 Fe1 Sn2 87.70(10) 1_544 2_664
+Sn2 Fe1 Sn2 87.70(10) 1_544 3_454
+Sn2 Fe1 Sn2 180.00(16) 1_544 7_566
+Sn2 Fe1 Sn2 92.30(13) 1_544 8_446
+Sn2 Fe1 Sn2 92.30(13) 1_544 9_656
+Sn2 Fe1 Sn2 87.70(8) 2_664 3_454
+Sn2 Fe1 Sn2 92.30(13) 2_664 7_566
+Sn2 Fe1 Sn2 180.00(14) 2_664 8_446
+Sn2 Fe1 Sn2 92.30(13) 2_664 9_656
+Sn2 Fe1 Sn2 92.30(13) 3_454 7_566
+Sn2 Fe1 Sn2 92.30(13) 3_454 8_446
+Sn2 Fe1 Sn2 180.00(14) 3_454 9_656
+Sn2 Fe1 Sn2 87.70(10) 7_566 8_446
+Sn2 Fe1 Sn2 87.70(10) 7_566 9_656
+Sn2 Fe1 Sn2 87.70(8) 8_446 9_656
+O1 Mn2 O1 180.00(15) 1_545 7_666
+O1 Mn2 O3 79.08(14) 1_545 1_545
+O1 Mn2 O3 79.09(14) 1_545 3_555
+O1 Mn2 O3 100.92(7) 1_545 7_666
+O1 Mn2 O3 100.91(9) 1_545 9_656
+O1 Mn2 O3 100.92(7) 7_666 1_545
+O1 Mn2 O3 100.91(9) 7_666 3_555
+O1 Mn2 O3 79.08(14) 7_666 7_666
+O1 Mn2 O3 79.09(14) 7_666 9_656
+O3 Mn2 O3 106.32(11) 1_545 3_555
+O3 Mn2 O3 180.00(13) 1_545 7_666
+O3 Mn2 O3 73.68(11) 1_545 9_656
+O3 Mn2 O3 73.68(11) 3_555 7_666
+O3 Mn2 O3 180.00(15) 3_555 9_656
+O3 Mn2 O3 106.32(11) 7_666 9_656
+O1 Fe2 O1 180.00(15) 1_545 7_666
+O1 Fe2 O3 79.08(14) 1_545 1_545
+O1 Fe2 O3 79.09(14) 1_545 3_555
+O1 Fe2 O3 100.92(7) 1_545 7_666
+O1 Fe2 O3 100.91(9) 1_545 9_656
+O1 Fe2 O3 100.92(7) 7_666 1_545
+O1 Fe2 O3 100.91(9) 7_666 3_555
+O1 Fe2 O3 79.08(14) 7_666 7_666
+O1 Fe2 O3 79.09(14) 7_666 9_656
+O3 Fe2 O3 106.32(11) 1_545 3_555
+O3 Fe2 O3 180.00(13) 1_545 7_666
+O3 Fe2 O3 73.68(11) 1_545 9_656
+O3 Fe2 O3 73.68(11) 3_555 7_666
+O3 Fe2 O3 180.00(15) 3_555 9_656
+O3 Fe2 O3 106.32(11) 7_666 9_656
+O3 Sn1 O3 96.63(11) 1_545 2_665
+O3 Sn1 O3 96.63(11) 1_545 3_455
+O3 Sn1 O3 180.00(17) 1_545 7_566
+O3 Sn1 O3 83.37(14) 1_545 8_446
+O3 Sn1 O3 83.37(14) 1_545 9_656
+O3 Sn1 O3 96.63(9) 2_665 3_455
+O3 Sn1 O3 83.37(14) 2_665 7_566
+O3 Sn1 O3 180.00(15) 2_665 8_446
+O3 Sn1 O3 83.37(14) 2_665 9_656
+O3 Sn1 O3 83.37(14) 3_455 7_566
+O3 Sn1 O3 83.37(14) 3_455 8_446
+O3 Sn1 O3 180.00(15) 3_455 9_656
+O3 Sn1 O3 96.63(11) 7_566 8_446
+O3 Sn1 O3 96.63(11) 7_566 9_656
+O3 Sn1 O3 96.63(9) 8_446 9_656
+Fe1 Sn2 O2 135.03(10) 1_566 1_555
+Fe1 Sn2 O3 122.68(17) 1_566 1_555
+Fe1 Sn2 O4 109.51(10) 1_566 8_566
+Fe1 Sn2 O4 109.51(10) 1_566 9_556
+O2 Sn2 O3 102.3(2) 1_555 1_555
+O2 Sn2 O4 70.42(8) 1_555 8_566
+O2 Sn2 O4 70.42(8) 1_555 9_556
+O3 Sn2 O4 86.41(15) 1_555 8_566
+O3 Sn2 O4 86.41(15) 1_555 9_556
+O4 Sn2 O4 137.55(9) 8_566 9_556
+O1 Si1 O4 106.6(4) 1_555 1_555
+O1 Si1 O4 106.6(4) 1_555 2_665
+O1 Si1 O4 106.6(4) 1_555 3_565
+O4 Si1 O4 112.18(17) 1_555 2_665
+O4 Si1 O4 112.18(17) 1_555 3_565
+O4 Si1 O4 112.21(13) 2_665 3_565
+Mn2 O1 Mn2 106.84(7) 1_565 2_555
+Mn2 O1 Mn2 106.82(7) 1_565 3_665
+Mn2 O1 Fe2 106.84(7) 1_565 2_555
+Mn2 O1 Fe2 106.82(7) 1_565 3_665
+Mn2 O1 Si1 112.0(3) 1_565 1_555
+Mn2 O1 O4 125.14(14) 1_565 1_555
+Mn2 O1 O4 75.99(13) 1_565 2_665
+Mn2 O1 O4 125.16(14) 1_565 3_565
+Mn2 O1 Mn2 106.82(7) 2_555 3_665
+Mn2 O1 Fe2 106.84(7) 2_555 1_565
+Mn2 O1 Fe2 106.82(7) 2_555 3_665
+Mn2 O1 Si1 112.0(3) 2_555 1_555
+Mn2 O1 O4 125.14(14) 2_555 1_555
+Mn2 O1 O4 125.16(14) 2_555 2_665
+Mn2 O1 O4 75.99(13) 2_555 3_565
+Mn2 O1 Fe2 106.82(7) 3_665 1_565
+Mn2 O1 Fe2 106.82(7) 3_665 2_555
+Mn2 O1 Si1 112.0(3) 3_665 1_555
+Mn2 O1 O4 75.97(14) 3_665 1_555
+Mn2 O1 O4 125.13(14) 3_665 2_665
+Mn2 O1 O4 125.13(14) 3_665 3_565
+Fe2 O1 Fe2 106.84(7) 1_565 2_555
+Fe2 O1 Fe2 106.82(7) 1_565 3_665
+Fe2 O1 Si1 112.0(3) 1_565 1_555
+Fe2 O1 O4 125.14(14) 1_565 1_555
+Fe2 O1 O4 75.99(13) 1_565 2_665
+Fe2 O1 O4 125.16(14) 1_565 3_565
+Fe2 O1 Fe2 106.82(7) 2_555 3_665
+Fe2 O1 Si1 112.0(3) 2_555 1_555
+Fe2 O1 O4 125.14(14) 2_555 1_555
+Fe2 O1 O4 125.16(14) 2_555 2_665
+Fe2 O1 O4 75.99(13) 2_555 3_565
+Fe2 O1 Si1 112.0(3) 3_665 1_555
+Fe2 O1 O4 75.97(14) 3_665 1_555
+Fe2 O1 O4 125.13(14) 3_665 2_665
+Fe2 O1 O4 125.13(14) 3_665 3_565
+O4 O1 O4 61.22(14) 1_555 2_665
+O4 O1 O4 61.22(14) 1_555 3_565
+O4 O1 O4 61.23(14) 2_665 3_565
+Sn2 O2 Sn2 118.06(12) 1_555 2_665
+Sn2 O2 Sn2 118.06(12) 1_555 3_565
+Sn2 O2 O4 160.61(14) 1_555 7_666
+Sn2 O2 O4 59.14(8) 1_555 8_566
+Sn2 O2 O4 59.14(8) 1_555 9_556
+Sn2 O2 Sn2 118.03(9) 2_665 3_565
+Sn2 O2 O4 59.13(8) 2_665 7_666
+Sn2 O2 O4 160.61(10) 2_665 8_566
+Sn2 O2 O4 59.14(8) 2_665 9_556
+Sn2 O2 O4 59.13(8) 3_565 7_666
+Sn2 O2 O4 59.14(8) 3_565 8_566
+Sn2 O2 O4 160.61(10) 3_565 9_556
+O4 O2 O4 116.25(10) 7_666 8_566
+O4 O2 O4 116.25(10) 7_666 9_556
+O4 O2 O4 116.28(7) 8_566 9_556
+Mn2 O3 Mn2 94.92(6) 1_565 2_555
+Mn2 O3 Fe2 94.92(6) 1_565 2_555
+Mn2 O3 Sn1 101.48(7) 1_565 1_565
+Mn2 O3 Sn2 114.75(16) 1_565 1_555
+Mn2 O3 Fe2 94.92(6) 2_555 1_565
+Mn2 O3 Sn1 101.48(7) 2_555 1_565
+Mn2 O3 Sn2 114.75(16) 2_555 1_555
+Fe2 O3 Fe2 94.92(6) 1_565 2_555
+Fe2 O3 Sn1 101.48(7) 1_565 1_565
+Fe2 O3 Sn2 114.75(16) 1_565 1_555
+Fe2 O3 Sn1 101.48(7) 2_555 1_565
+Fe2 O3 Sn2 114.75(16) 2_555 1_555
+Sn1 O3 Sn2 124.62(17) 1_565 1_555
+Sn2 O4 Sn2 100.72(9) 8_556 9_656
+Sn2 O4 Si1 129.11(14) 8_556 1_555
+Sn2 O4 O1 116.30(17) 8_556 1_555
+Sn2 O4 O2 50.44(7) 8_556 7_666
+Sn2 O4 O4 99.33(11) 8_556 2_665
+Sn2 O4 O4 158.78(12) 8_556 3_565
+Sn2 O4 Si1 129.11(14) 9_656 1_555
+Sn2 O4 O1 116.30(17) 9_656 1_555
+Sn2 O4 O2 50.44(7) 9_656 7_666
+Sn2 O4 O4 158.78(12) 9_656 2_665
+Sn2 O4 O4 99.33(11) 9_656 3_565
+Si1 O4 O2 174.70(14) 1_555 7_666
+O1 O4 O2 137.32(18) 1_555 7_666
+O1 O4 O4 59.38(14) 1_555 2_665
+O1 O4 O4 59.38(14) 1_555 3_565
+O2 O4 O4 148.13(10) 7_666 2_665
+O2 O4 O4 148.13(10) 7_666 3_565
+O4 O4 O4 60.00(7) 2_665 3_565
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Fe1 Sn2 2.443(2) 1_544
+Fe1 Sn2 2.4426(19) 2_664
+Fe1 Sn2 2.4426(19) 3_454
+Fe1 Sn2 2.443(2) 7_566
+Fe1 Sn2 2.4426(19) 8_446
+Fe1 Sn2 2.4426(19) 9_656
+Mn2 O1 2.1284(17) 1_545
+Mn2 O1 2.1284(17) 7_666
+Mn2 O3 2.3197(17) 1_545
+Mn2 O3 2.3197(19) 3_555
+Mn2 O3 2.3197(17) 7_666
+Mn2 O3 2.3197(19) 9_656
+Fe2 O1 2.1284(17) 1_545
+Fe2 O1 2.1284(17) 7_666
+Fe2 O3 2.3197(17) 1_545
+Fe2 O3 2.3197(19) 3_555
+Fe2 O3 2.3197(17) 7_666
+Fe2 O3 2.3197(19) 9_656
+Sn1 O3 2.091(2) 1_545
+Sn1 O3 2.0913(17) 2_665
+Sn1 O3 2.0913(17) 3_455
+Sn1 O3 2.091(2) 7_566
+Sn1 O3 2.0913(17) 8_446
+Sn1 O3 2.0913(17) 9_656
+Sn2 Fe1 2.443(2) 1_566
+Sn2 O2 2.0130(18) 1_555
+Sn2 O3 2.053(4) 1_555
+Sn2 O4 2.2417(16) 8_566
+Sn2 O4 2.2417(16) 9_556
+Si1 O1 1.653(7) 1_555
+Si1 O4 1.601(2) 1_555
+Si1 O4 1.601(2) 2_665
+Si1 O4 1.601(2) 3_565
+O1 Mn2 2.1284(17) 1_565
+O1 Mn2 2.1284(17) 2_555
+O1 Mn2 2.1289(17) 3_665
+O1 Fe2 2.1284(17) 1_565
+O1 Fe2 2.1284(17) 2_555
+O1 Fe2 2.1289(17) 3_665
+O1 Si1 1.653(7) 1_555
+O1 O4 2.609(4) 1_555
+O1 O4 2.609(4) 2_665
+O1 O4 2.609(4) 3_565
+O2 Sn2 2.0130(18) 1_555
+O2 Sn2 2.0136(14) 2_665
+O2 Sn2 2.0136(14) 3_565
+O2 O4 2.4609(19) 7_666
+O2 O4 2.4603(16) 8_566
+O2 O4 2.4603(16) 9_556
+O3 Mn2 2.3197(17) 1_565
+O3 Mn2 2.3197(17) 2_555
+O3 Fe2 2.3197(17) 1_565
+O3 Fe2 2.3197(17) 2_555
+O3 Sn1 2.091(2) 1_565
+O3 Sn2 2.053(4) 1_555
+O4 Sn2 2.2417(19) 8_556
+O4 Sn2 2.2417(19) 9_656
+O4 Si1 1.601(2) 1_555
+O4 O1 2.609(4) 1_555
+O4 O2 2.4609(19) 7_666
+O4 O4 2.657(2) 2_665
+O4 O4 2.657(2) 3_565

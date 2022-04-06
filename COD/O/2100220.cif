@@ -1,0 +1,513 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/02/2100220.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2100220
+loop_
+_publ_author_name
+'Alla Arakcheeva'
+'Gervais Chapuis'
+'Vaclav Petricek'
+'Vladimir Morozov'
+_publ_section_title
+;
+ The role of second coordination-sphere interactions in
+ incommensurately modulated structures, using \b-K~5~Yb(MoO~4~)~4~ as
+ an example
+;
+_journal_coeditor_code           SN5021
+_journal_issue                   4
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              400
+_journal_page_last               406
+_journal_paper_doi               10.1107/S010876810501726X
+_journal_volume                  61
+_journal_year                    2005
+_chemical_formula_moiety
+;
+K5Yb(MoO4)4
+;
+_chemical_formula_sum            'K5 Mo4 O16 Yb'
+_chemical_formula_weight         1008.3
+_chemical_name_systematic
+' Double potassium ytterbium molybdenum oxide'
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_H-M   ?P?
+_cell_angle_alpha                90
+_cell_angle_beta                 136.625(10)
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   10.4054(16)
+_cell_length_b                   6.1157(12)
+_cell_length_c                   19.7751(18)
+_cell_measurement_reflns_used    5412
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      37.7
+_cell_measurement_theta_min      5.3
+_cell_volume                     864.2(3)
+_computing_cell_refinement
+; CRYSALIS DATA REDUCTION (KM4 Software, Version 1.170.8
+(release 17.09.2002 CrysAlis170 VC++),
+NADA program, Schonleber, Meyer and Chapuis, 2001
+;
+_computing_data_collection
+; Oxford Diffraction Ltd, 2001. CrysAlis Software System, Vertion 1.166.
+Oxford. England.
+;
+_computing_data_reduction
+; CRYSALIS DATA REDUCTION (KM4 Software, Version 1.170.8
+(release 17.09.2002 CrysAlis170 VC++))
+;
+_computing_publication_material  '(Jana2000; Petricek and Dusek, 2000)'
+_computing_structure_refinement  '(Jana2000; Petricek and Dusek, 2000)'
+_computing_structure_solution    '(Jana2000; Petricek and Dusek, 2000)'
+_diffrn_ambient_temperature      293
+_diffrn_measured_fraction_theta_full 67857
+_diffrn_measured_fraction_theta_max 40
+_diffrn_measurement_device_type  KM4
+_diffrn_measurement_method       'CCD detector KM4CCD/SAPPHIRE'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.71069
+_diffrn_reflns_av_R_equivalents  0.12
+_diffrn_reflns_av_sigmaI/netI    0.0359
+_diffrn_reflns_limit_h_max       12
+_diffrn_reflns_limit_h_min       -12
+_diffrn_reflns_limit_k_max       10
+_diffrn_reflns_limit_k_min       -10
+_diffrn_reflns_limit_l_max       35
+_diffrn_reflns_limit_l_min       -35
+_diffrn_reflns_number            67857
+_diffrn_reflns_reduction_process 67857
+_diffrn_reflns_theta_full        69.32
+_diffrn_reflns_theta_max         69.32
+_diffrn_reflns_theta_min         0.67
+_exptl_absorpt_coefficient_mu    9.458
+_exptl_absorpt_correction_T_max  0.1996
+_exptl_absorpt_correction_T_min  0.1589
+_exptl_absorpt_correction_type   analytical
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    3.8733(13)
+_exptl_crystal_description       isomorphic
+_exptl_crystal_F_000             925
+_exptl_crystal_size_max          0.14
+_exptl_crystal_size_mid          0.13
+_exptl_crystal_size_min          0.12
+_exptl_crystal_size_rad          0.13
+_refine_diff_density_max         5.24
+_refine_diff_density_min         -5.20
+_refine_ls_extinction_coef       0.021(6)
+_refine_ls_extinction_method
+'B-C type 1 Lorentzian isotropic (Becker & Coppens, 1974)'
+_refine_ls_goodness_of_fit_ref   2.89
+_refine_ls_number_parameters     94
+_refine_ls_number_reflns         3412
+_refine_ls_R_factor_all          0.1297
+_refine_ls_R_factor_gt           0.0765
+_refine_ls_shift/su_max          0.0009
+_refine_ls_shift/su_mean         0.00002
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     w=1/(\s^2^(F)+0.0001F^2^)
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_gt          0.0826
+_refine_ls_wR_factor_ref         0.0852
+_reflns_number_gt                3412
+_reflns_number_total             6142
+_reflns_threshold_expression     I>3\s(I)
+_cod_data_source_file            sn5021.cif
+_cod_data_source_block           I
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_exptl_absorpt_correction_type' value 'Analytical' changed to
+'analytical' according to
+/home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_original_formula_sum        'K5 Mo4 O16 Yb1'
+_cod_database_code               2100220
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+_atom_site_type_symbol
+Yb1 0 0 0 0.0144(4) Uani d . 1 . . Yb
+K1 0 0 0 0.0144(4) Uani d . 1 . . K
+K2a 0.6167(3) 0 0.21389(15) 0.0319(14) Uani d . 1 . . K
+K2b 0.5657(10) 0 0.1801(6) 0.0319(14) Uani d . 1 . . K
+Mo1a 0.21154(11) 0 0.40572(6) 0.0143(5) Uani d . 1 . . Mo
+O1a 0.2335(6) 0.2327(7) 0.3657(3) 0.028(3) Uani d . 1 . . O
+O2a 0.0045(8) 0 0.3710(5) 0.031(5) Uani d . 1 . . O
+O3a 0.3788(9) 0 0.5258(5) 0.030(5) Uani d . 1 . . O
+Mo1b 0.1510(5) 0 0.3784(3) 0.0143(5) Uani d . 1 . . Mo
+O1b 0.2413(8) -0.2327(7) 0.3763(4) 0.028(4) Uani d . 1 . . O
+O2b 0.1858(11) 0 0.4778(5) 0.031(5) Uani d . 1 . . O
+O3b -0.0750(11) 0 0.2803(5) 0.030(5) Uani d . 1 . . O
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+_atom_site_aniso_type_symbol
+Yb1 0.0165(3) 0.0131(3) 0.0167(3) 0 0.0130(3) 0 Yb
+K1 0.0165(3) 0.0131(3) 0.0167(3) 0 0.0130(3) 0 K
+K2a 0.0276(10) 0.0377(11) 0.0235(11) 0 0.0164(9) 0 K
+K2b 0.0276(10) 0.0377(11) 0.0235(11) 0 0.0164(9) 0 K
+Mo1a 0.0161(3) 0.0148(3) 0.0163(3) 0 0.0132(3) 0 Mo
+O1a 0.025(2) 0.028(2) 0.025(3) -0.0009(17) 0.016(2) 0.0049(18) O
+O2a 0.025(3) 0.040(3) 0.029(4) 0 0.020(3) 0 O
+O3a 0.035(4) 0.034(4) 0.027(3) 0 0.024(3) 0 O
+Mo1b 0.0157(4) 0.0148(3) 0.0166(3) 0 0.0131(3) 0 Mo
+O1b 0.025(3) 0.028(2) 0.0244(18) 0.006(2) 0.016(2) 0.0002(15) O
+O2b 0.029(5) 0.040(3) 0.026(2) 0 0.021(3) 0 O
+O3b 0.025(5) 0.034(4) 0.034(3) 0 0.023(3) 0 O
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+K 0.201 0.249 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.1'
+Yb -0.385 5.549 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.1'
+Mo -1.683 0.686 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.1'
+O 0.011 0.006 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.1'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O1a Yb1 O1a 13_444 15_555 yes
+O1a Yb1 O1a 13_444 14_545 yes
+O1a Yb1 O1a 13_444 16_454 yes
+O1a Yb1 O2a 13_444 9_554 yes
+O1a Yb1 O2a 13_444 11_555 yes
+O1a Yb1 O3a 13_444 9_554 yes
+O1a Yb1 O3a 13_444 13_444 yes
+O1a Yb1 O3a 13_444 13_454 yes
+O1a Yb1 O3a 13_444 11_555 yes
+O1a Yb1 O3a 13_444 15_545 yes
+O1a Yb1 O3a 13_444 15_555 yes
+O1a Yb1 O1b 13_444 13_454 yes
+O1a Yb1 O1b 13_444 14_555 yes
+O1a Yb1 O2b 13_444 9_554 yes
+O1a Yb1 O2b 13_444 11_555 yes
+O1a Yb1 O1a 15_555 13_444 yes
+O1a Yb1 O1a 15_555 14_545 yes
+O1a Yb1 O1a 15_555 16_454 yes
+O1a Yb1 O2a 15_555 9_554 yes
+O1a Yb1 O2a 15_555 11_555 yes
+O1a Yb1 O3a 15_555 9_554 yes
+O1a Yb1 O3a 15_555 13_444 yes
+O1a Yb1 O3a 15_555 13_454 yes
+O1a Yb1 O3a 15_555 11_555 yes
+O1a Yb1 O3a 15_555 15_545 yes
+O1a Yb1 O3a 15_555 15_555 yes
+O1a Yb1 O1b 15_555 15_545 yes
+O1a Yb1 O1b 15_555 16_444 yes
+O1a Yb1 O2b 15_555 9_554 yes
+O1a Yb1 O2b 15_555 11_555 yes
+O1a Yb1 O1a 14_545 13_444 yes
+O1a Yb1 O1a 14_545 15_555 yes
+O1a Yb1 O1a 14_545 16_454 yes
+O1a Yb1 O2a 14_545 9_554 yes
+O1a Yb1 O2a 14_545 11_555 yes
+O1a Yb1 O3a 14_545 9_554 yes
+O1a Yb1 O3a 14_545 13_444 yes
+O1a Yb1 O3a 14_545 13_454 yes
+O1a Yb1 O3a 14_545 11_555 yes
+O1a Yb1 O3a 14_545 15_545 yes
+O1a Yb1 O3a 14_545 15_555 yes
+O1a Yb1 O1b 14_545 13_454 yes
+O1a Yb1 O1b 14_545 14_555 yes
+O1a Yb1 O2b 14_545 9_554 yes
+O1a Yb1 O2b 14_545 11_555 yes
+O1a Yb1 O1a 16_454 13_444 yes
+O1a Yb1 O1a 16_454 15_555 yes
+O1a Yb1 O1a 16_454 14_545 yes
+O1a Yb1 O2a 16_454 9_554 yes
+O1a Yb1 O2a 16_454 11_555 yes
+O1a Yb1 O3a 16_454 9_554 yes
+O1a Yb1 O3a 16_454 13_444 yes
+O1a Yb1 O3a 16_454 13_454 yes
+O1a Yb1 O3a 16_454 11_555 yes
+O1a Yb1 O3a 16_454 15_545 yes
+O1a Yb1 O3a 16_454 15_555 yes
+O1a Yb1 O1b 16_454 15_545 yes
+O1a Yb1 O1b 16_454 16_444 yes
+O1a Yb1 O2b 16_454 9_554 yes
+O1a Yb1 O2b 16_454 11_555 yes
+O2a Yb1 O2a 9_554 11_555 yes
+O2a Yb1 O3a 9_554 9_554 yes
+O2a Yb1 O3a 9_554 13_444 yes
+O2a Yb1 O3a 9_554 13_454 yes
+O2a Yb1 O3a 9_554 11_555 yes
+O2a Yb1 O3a 9_554 15_545 yes
+O2a Yb1 O3a 9_554 15_555 yes
+O2a Yb1 O1b 9_554 13_454 yes
+O2a Yb1 O1b 9_554 15_545 yes
+O2a Yb1 O1b 9_554 14_555 yes
+O2a Yb1 O1b 9_554 16_444 yes
+O2a Yb1 O2a 11_555 9_554 yes
+O2a Yb1 O3a 11_555 9_554 yes
+O2a Yb1 O3a 11_555 13_444 yes
+O2a Yb1 O3a 11_555 13_454 yes
+O2a Yb1 O3a 11_555 11_555 yes
+O2a Yb1 O3a 11_555 15_545 yes
+O2a Yb1 O3a 11_555 15_555 yes
+O2a Yb1 O1b 11_555 13_454 yes
+O2a Yb1 O1b 11_555 15_545 yes
+O2a Yb1 O1b 11_555 14_555 yes
+O2a Yb1 O1b 11_555 16_444 yes
+O1b Yb1 O1b 13_454 14_555 yes
+O1b Yb1 O1b 15_545 16_444 yes
+O1b Yb1 O1b 14_555 13_454 yes
+O1b Yb1 O1b 16_444 15_545 yes
+O2b Yb1 O2b 9_554 11_555 yes
+O2b Yb1 O2b 11_555 9_554 yes
+O1a K1 O1a 13_444 15_555 yes
+O1a K1 O1a 13_444 14_545 yes
+O1a K1 O1a 13_444 16_454 yes
+O1a K1 O2a 13_444 9_554 yes
+O1a K1 O2a 13_444 11_555 yes
+O1a K1 O3a 13_444 9_554 yes
+O1a K1 O3a 13_444 13_444 yes
+O1a K1 O3a 13_444 13_454 yes
+O1a K1 O3a 13_444 11_555 yes
+O1a K1 O3a 13_444 15_545 yes
+O1a K1 O3a 13_444 15_555 yes
+O1a K1 O1b 13_444 13_454 yes
+O1a K1 O1b 13_444 14_555 yes
+O1a K1 O1a 15_555 13_444 yes
+O1a K1 O1a 15_555 14_545 yes
+O1a K1 O1a 15_555 16_454 yes
+O1a K1 O2a 15_555 9_554 yes
+O1a K1 O2a 15_555 11_555 yes
+O1a K1 O3a 15_555 9_554 yes
+O1a K1 O3a 15_555 13_444 yes
+O1a K1 O3a 15_555 13_454 yes
+O1a K1 O3a 15_555 11_555 yes
+O1a K1 O3a 15_555 15_545 yes
+O1a K1 O3a 15_555 15_555 yes
+O1a K1 O1b 15_555 15_545 yes
+O1a K1 O1b 15_555 16_444 yes
+O1a K1 O1a 14_545 13_444 yes
+O1a K1 O1a 14_545 15_555 yes
+O1a K1 O1a 14_545 16_454 yes
+O1a K1 O2a 14_545 9_554 yes
+O1a K1 O2a 14_545 11_555 yes
+O1a K1 O3a 14_545 9_554 yes
+O1a K1 O3a 14_545 13_444 yes
+O1a K1 O3a 14_545 13_454 yes
+O1a K1 O3a 14_545 11_555 yes
+O1a K1 O3a 14_545 15_545 yes
+O1a K1 O3a 14_545 15_555 yes
+O1a K1 O1b 14_545 13_454 yes
+O1a K1 O1b 14_545 14_555 yes
+O1a K1 O1a 16_454 13_444 yes
+O1a K1 O1a 16_454 15_555 yes
+O1a K1 O1a 16_454 14_545 yes
+O1a K1 O2a 16_454 9_554 yes
+O1a K1 O2a 16_454 11_555 yes
+O1a K1 O3a 16_454 9_554 yes
+O1a K1 O3a 16_454 13_444 yes
+O1a K1 O3a 16_454 13_454 yes
+O1a K1 O3a 16_454 11_555 yes
+O1a K1 O3a 16_454 15_545 yes
+O1a K1 O3a 16_454 15_555 yes
+O1a K1 O1b 16_454 15_545 yes
+O1a K1 O1b 16_454 16_444 yes
+O2a K1 O2a 9_554 11_555 yes
+O2a K1 O3a 9_554 9_554 yes
+O2a K1 O3a 9_554 13_444 yes
+O2a K1 O3a 9_554 13_454 yes
+O2a K1 O3a 9_554 11_555 yes
+O2a K1 O3a 9_554 15_545 yes
+O2a K1 O3a 9_554 15_555 yes
+O2a K1 O1b 9_554 13_454 yes
+O2a K1 O1b 9_554 15_545 yes
+O2a K1 O1b 9_554 14_555 yes
+O2a K1 O1b 9_554 16_444 yes
+O2a K1 O2a 11_555 9_554 yes
+O2a K1 O3a 11_555 9_554 yes
+O2a K1 O3a 11_555 13_444 yes
+O2a K1 O3a 11_555 13_454 yes
+O2a K1 O3a 11_555 11_555 yes
+O2a K1 O3a 11_555 15_545 yes
+O2a K1 O3a 11_555 15_555 yes
+O2a K1 O1b 11_555 13_454 yes
+O2a K1 O1b 11_555 15_545 yes
+O2a K1 O1b 11_555 14_555 yes
+O2a K1 O1b 11_555 16_444 yes
+O1b K1 O1b 13_454 14_555 yes
+O1b K1 O1b 15_545 16_444 yes
+O1b K1 O1b 14_555 13_454 yes
+O1b K1 O1b 16_444 15_545 yes
+O1a K2a O1a 5_545 11_655 yes
+O1a K2a O1a 5_545 15_555 yes
+O1a K2a O1a 5_545 10_655 yes
+O1a K2a O1a 5_545 14_545 yes
+O1a K2a O1a 5_545 8_555 yes
+O1a K2a O2a 5_545 1_655 yes
+O1a K2a O2a 5_545 15_545 yes
+O1a K2a O2a 5_545 15_555 yes
+O1a K2a O3a 5_545 9_554 yes
+O1a K2a O1b 5_545 5_555 yes
+O1a K2a O1b 5_545 15_545 yes
+O1a K2a O1b 5_545 14_555 yes
+O1a K2a O3b 5_545 1_655 yes
+O1a K2a O3b 5_545 15_545 yes
+O1a K2a O3b 5_545 15_555 yes
+O1a K2a O1a 8_555 5_545 yes
+O1a K2a O1a 8_555 11_655 yes
+O1a K2a O1a 8_555 15_555 yes
+O1a K2a O1a 8_555 10_655 yes
+O1a K2a O1a 8_555 14_545 yes
+O1a K2a O2a 8_555 1_655 yes
+O1a K2a O2a 8_555 15_545 yes
+O1a K2a O2a 8_555 15_555 yes
+O1a K2a O3a 8_555 9_554 yes
+O1a K2a O1b 8_555 15_545 yes
+O1a K2a O1b 8_555 14_555 yes
+O1a K2a O1b 8_555 8_545 yes
+O1a K2a O3b 8_555 1_655 yes
+O1a K2a O3b 8_555 15_545 yes
+O1a K2a O3b 8_555 15_555 yes
+O2a K2a O2a 1_655 15_545 yes
+O2a K2a O2a 1_655 15_555 yes
+O2a K2a O3a 1_655 9_554 yes
+O2a K2a O1b 1_655 5_555 yes
+O2a K2a O1b 1_655 15_545 yes
+O2a K2a O1b 1_655 14_555 yes
+O2a K2a O1b 1_655 8_545 yes
+O2a K2a O3b 1_655 15_545 yes
+O2a K2a O3b 1_655 15_555 yes
+O3a K2a O1b 9_554 5_555 yes
+O3a K2a O1b 9_554 15_545 yes
+O3a K2a O1b 9_554 14_555 yes
+O3a K2a O1b 9_554 8_545 yes
+O3a K2a O3b 9_554 1_655 yes
+O3a K2a O3b 9_554 15_545 yes
+O3a K2a O3b 9_554 15_555 yes
+O1b K2a O1b 5_555 15_545 yes
+O1b K2a O3b 5_555 15_545 yes
+O1b K2a O1b 15_545 5_555 yes
+O1b K2a O3b 15_545 15_545 yes
+O1b K2a O1b 14_555 8_545 yes
+O1b K2a O3b 14_555 15_555 yes
+O1b K2a O1b 8_545 14_555 yes
+O1b K2a O3b 8_545 15_555 yes
+O2a K2b O2a 1_655 15_545 yes
+O2a K2b O2a 1_655 15_555 yes
+O2a K2b O1b 1_655 11_655 yes
+O2a K2b O1b 1_655 10_655 yes
+O2a K2b O2b 1_655 9_554 yes
+O1b K2b O1b 11_655 10_655 yes
+O1b K2b O2b 11_655 9_554 yes
+O1b K2b O1b 10_655 11_655 yes
+O1b K2b O2b 10_655 9_554 yes
+O1a Mo1a O1a . 4_555 yes
+O1a Mo1a O2a . . yes
+O1a Mo1a O3a . . yes
+O1a Mo1a O3a . 3_656 yes
+O1a Mo1a O3a . 7_546 yes
+O1a Mo1a O3a . 7_556 yes
+O1a Mo1a O3b . 11_555 yes
+O1a Mo1a O1a 4_555 . yes
+O1a Mo1a O2a 4_555 . yes
+O1a Mo1a O3a 4_555 . yes
+O1a Mo1a O3a 4_555 3_656 yes
+O1a Mo1a O3a 4_555 7_546 yes
+O1a Mo1a O3a 4_555 7_556 yes
+O1a Mo1a O3b 4_555 11_555 yes
+O2a Mo1a O3a . . yes
+O2a Mo1a O3a . 3_656 yes
+O2a Mo1a O3a . 7_546 yes
+O2a Mo1a O3a . 7_556 yes
+O2a Mo1a O3b . 11_555 yes
+O3a Mo1a O3a . 3_656 yes
+O3a Mo1a O3a . 7_546 yes
+O3a Mo1a O3a . 7_556 yes
+O3a Mo1a O3b . 11_555 yes
+O1b Mo1b O1b . 4_555 yes
+O1b Mo1b O2b . . yes
+O1b Mo1b O3b . . yes
+O1b Mo1b O1b 4_555 . yes
+O1b Mo1b O2b 4_555 . yes
+O1b Mo1b O3b 4_555 . yes
+O2b Mo1b O3b . . yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Yb1 O1a . 13_444 yes
+Yb1 O1a . 15_555 yes
+Yb1 O1a . 14_545 yes
+Yb1 O1a . 16_454 yes
+Yb1 O2a . 9_554 yes
+Yb1 O2a . 11_555 yes
+Yb1 O1b . 13_454 yes
+Yb1 O1b . 15_545 yes
+Yb1 O1b . 14_555 yes
+Yb1 O1b . 16_444 yes
+Yb1 O2b . 9_554 yes
+Yb1 O2b . 11_555 yes
+K1 O1a . 13_444 yes
+K1 O1a . 15_555 yes
+K1 O1a . 14_545 yes
+K1 O1a . 16_454 yes
+K1 O2a . 9_554 yes
+K1 O2a . 11_555 yes
+K1 O1b . 13_454 yes
+K1 O1b . 15_545 yes
+K1 O1b . 14_555 yes
+K1 O1b . 16_444 yes
+K2a O1a . 5_545 yes
+K2a O1a . 8_555 yes
+K2a O2a . 1_655 yes
+K2a O3a . 9_554 yes
+K2a O1b . 5_555 yes
+K2a O1b . 15_545 yes
+K2a O1b . 14_555 yes
+K2a O1b . 8_545 yes
+K2a O3b . 1_655 yes
+K2a O3b . 15_545 yes
+K2a O3b . 15_555 yes
+K2b O2a . 1_655 yes
+K2b O1b . 11_655 yes
+K2b O1b . 10_655 yes
+Mo1a O1a . . yes
+Mo1a O1a . 4_555 yes
+Mo1a O2a . . yes
+Mo1a O3a . . yes
+Mo1b O1b . . yes
+Mo1b O1b . 4_555 yes
+Mo1b O2b . . yes
+Mo1b O3b . . yes

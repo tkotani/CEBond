@@ -1,0 +1,100 @@
+#------------------------------------------------------------------------------
+#$Date: 2015-01-27 21:58:39 +0200 (Tue, 27 Jan 2015) $
+#$Revision: 130149 $
+#$URL: svn://www.crystallography.net/cod/cif/1/00/50/1005059.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1005059
+loop_
+_publ_author_name
+'Torardi, C C'
+'Fecketter, C'
+'McCarroll, W H'
+'DiSalvo, F J'
+_publ_section_title
+;
+Structure and Properties of Y~5~Mo~2~O~12~ and Gd~5~Mo~2~O~12~: Mixed
+Valence Oxides with Structurally Equivalent Molybdenum Atoms
+;
+_journal_coden_ASTM              JSSCBI
+_journal_name_full               'Journal of Solid State Chemistry'
+_journal_page_first              332
+_journal_page_last               342
+_journal_paper_doi               10.1016/0022-4596(85)90284-1
+_journal_volume                  60
+_journal_year                    1985
+_chemical_formula_structural     'Y5 Mo2 O12'
+_chemical_formula_sum            'Mo2 O12 Y5'
+_chemical_name_systematic        'Pentayttrium dimolybdenum dodecaoxide'
+_space_group_IT_number           12
+_symmetry_cell_setting           monoclinic
+_symmetry_Int_Tables_number      12
+_symmetry_space_group_name_Hall  '-C 2y'
+_symmetry_space_group_name_H-M   'C 1 2/m 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 108.034(5)
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   12.2376(7)
+_cell_length_b                   5.7177(8)
+_cell_length_c                   7.4835(5)
+_cell_volume                     497.9
+_refine_ls_R_factor_all          0.029
+_cod_database_code               1005059
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x,-y,z
+-x,-y,-z
+-x,y,-z
+1/2+x,1/2+y,z
+1/2+x,1/2-y,z
+1/2-x,1/2-y,-z
+1/2-x,1/2+y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_B_11
+_atom_site_aniso_B_12
+_atom_site_aniso_B_13
+_atom_site_aniso_B_22
+_atom_site_aniso_B_23
+_atom_site_aniso_B_33
+Mo1 0.21(2) 0. -0.02(1) 0.43(1) 0. 0.20(2)
+Y1 0.25(5) 0. -0.07(2) 0.37(2) 0. 0.20(2)
+Y2 0.23(2) 0. 0.03(2) 0.42(2) 0. 0.34(2)
+Y3 0.28(3) 0. -0.02(3) 0.64(4) 0. 0.18(3)
+O1 0.21(11) 0.03(11) 0.06(10) 0.71(14) -0.02(11) 0.49(12)
+O2 0.5(1) 0.1(1) .0(1) 0.4(1) 0.1(1) 0.4(1)
+O3 0.7(2) 0. 0.2(1) 0.8(2) 0. 0.3(2)
+O4 0.3(2) 0. 0.1(1) 0.6(2) 0. 0.2(2)
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_calc_flag
+Mo1 Mo4+ 4 g 0. 0.7183(1) 0. 1. 0 d
+Y1 Y3+ 4 i 0.19364(6) 0. 0.36027(9) 1. 0 d
+Y2 Y3+ 4 i 0.81488(8) 0. 0.17640(9) 1. 0 d
+Y3 Y3+ 2 d 0. 0.5 0.5 1. 0 d
+O1 O2- 8 j 0.6630(3) 0.2544(7) 0.0818(5) 1. 0 d
+O2 O2- 8 j 0.8454(3) 0.7513(7) 0.4245(5) 1. 0 d
+O3 O2- 4 i 0.5002(4) 0. 0.7971(7) 1. 0 d
+O4 O2- 4 i 0.0006(4) 0. 0.1816(7) 1. 0 d
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Mo4+ 4.500
+Y3+ 3.000
+O2- -2.000

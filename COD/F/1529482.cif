@@ -1,0 +1,335 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-13 14:50:18 +0200 (Sat, 13 Feb 2016) $
+#$Revision: 176428 $
+#$URL: svn://www.crystallography.net/cod/cif/1/52/94/1529482.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1529482
+loop_
+_publ_author_name
+'K.S. Aleksandrov'
+'S.V. Misyul'
+'M.S. Molokeev'
+'V.N. Voronov'
+_publ_section_title
+;
+ Structures of distorted phases and critical and noncritical atomic
+ displacements of elpasolite Rb2KInF6 during phase transitions
+;
+_journal_issue                   12
+_journal_name_full               'Physics of the Solid State'
+_journal_page_first              2505
+_journal_page_last               2512
+_journal_paper_doi               10.1134/S1063783409120130
+_journal_volume                  51
+_journal_year                    2009
+_chemical_formula_sum            'F6 In K Rb2'
+_chemical_formula_weight         438.86
+_chemical_name_systematic        ' ?'
+_space_group_IT_number           225
+_symmetry_cell_setting           cubic
+_symmetry_space_group_name_Hall  '-F 4 2 3'
+_symmetry_space_group_name_H-M   'F m -3 m'
+_cell_angle_alpha                90.00000
+_cell_angle_beta                 90.00000
+_cell_angle_gamma                90.00000
+_cell_formula_units_Z            4
+_cell_length_a                   9.09103(11)
+_cell_length_b                   9.09103(11)
+_cell_length_c                   9.09103(11)
+_cell_measurement_temperature    298
+_cell_volume                     751.345(16)
+_computing_structure_refinement  FULLPROF
+_diffrn_ambient_temperature      298
+_diffrn_radiation_type           X-ray
+_pd_instr_location               ' ?'
+_pd_meas_2theta_range_inc        0.016003
+_pd_meas_2theta_range_max        109.90000
+_pd_meas_2theta_range_min        7.00000
+_pd_meas_number_of_points        6431
+_pd_proc_2theta_range_inc        0.016003
+_pd_proc_2theta_range_max        109.8976
+_pd_proc_2theta_range_min        6.9976
+_pd_proc_ls_pref_orient_corr     ' ?'
+_pd_proc_ls_prof_R_factor        9.0949
+_pd_proc_ls_prof_wR_expected     5.2347
+_pd_proc_ls_prof_wR_factor       12.9316
+_pd_proc_wavelength              1.540600
+_pd_spec_mounting                ' ?'
+_refine_ls_number_parameters     22
+_refine_ls_number_reflns         92
+_refine_ls_number_restraints     0
+_refine_ls_R_I_factor            7.1921
+_cod_data_source_file            Rb2KInF6_298K.cif
+_cod_data_source_block           a
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Cubic' changed to 'cubic' according
+to the built-in table from CIF Core dictionary named 'cif_core.dic'
+version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 3392 2015-05-12 13:50:21Z andrius 
+;
+_cod_original_cell_volume        751.345(15)
+_cod_original_sg_symbol_H-M      'F m 3 m'
+_cod_database_code               1529482
+_cod_database_fobs_code          1529482
+#BEGIN Tags that were not found in dictionaries:
+_pd_proc_ls_prof_cr_factor       19.5322
+_pd_proc_ls_prof_cwr_factor      20.9635
+_pd_proc_ls_prof_cwr_expected    8.4860
+_pd_proc_ls_prof_chi2            6.1027
+_pd_proc_ls_prof_echi2           3.5072
+#END Tags that were not found in dictionaries
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x,-y,-z
+-x,y,-z
+-x,-y,z
+y,z,x
+-y,-z,x
+y,-z,-x
+-y,z,-x
+z,x,y
+-z,x,-y
+-z,-x,y
+z,-x,-y
+y,x,z
+-y,x,-z
+y,-x,-z
+-y,-x,z
+z,y,x
+-z,-y,x
+-z,y,-x
+z,-y,-x
+x,z,y
+x,-z,-y
+-x,-z,y
+-x,z,-y
+-x,-y,-z
+-x,y,z
+x,-y,z
+x,y,-z
+-y,-z,-x
+y,z,-x
+-y,z,x
+y,-z,x
+-z,-x,-y
+z,-x,y
+z,x,-y
+-z,x,y
+-y,-x,-z
+y,-x,z
+-y,x,z
+y,x,-z
+-z,-y,-x
+z,y,-x
+z,-y,x
+-z,y,x
+-x,-z,-y
+-x,z,y
+x,z,-y
+x,-z,y
+x+1/2,y+1/2,z
+x+1/2,-y+1/2,-z
+-x+1/2,y+1/2,-z
+-x+1/2,-y+1/2,z
+y+1/2,z+1/2,x
+-y+1/2,-z+1/2,x
+y+1/2,-z+1/2,-x
+-y+1/2,z+1/2,-x
+z+1/2,x+1/2,y
+-z+1/2,x+1/2,-y
+-z+1/2,-x+1/2,y
+z+1/2,-x+1/2,-y
+y+1/2,x+1/2,z
+-y+1/2,x+1/2,-z
+y+1/2,-x+1/2,-z
+-y+1/2,-x+1/2,z
+z+1/2,y+1/2,x
+-z+1/2,-y+1/2,x
+-z+1/2,y+1/2,-x
+z+1/2,-y+1/2,-x
+x+1/2,z+1/2,y
+x+1/2,-z+1/2,-y
+-x+1/2,-z+1/2,y
+-x+1/2,z+1/2,-y
+-x+1/2,-y+1/2,-z
+-x+1/2,y+1/2,z
+x+1/2,-y+1/2,z
+x+1/2,y+1/2,-z
+-y+1/2,-z+1/2,-x
+y+1/2,z+1/2,-x
+-y+1/2,z+1/2,x
+y+1/2,-z+1/2,x
+-z+1/2,-x+1/2,-y
+z+1/2,-x+1/2,y
+z+1/2,x+1/2,-y
+-z+1/2,x+1/2,y
+-y+1/2,-x+1/2,-z
+y+1/2,-x+1/2,z
+-y+1/2,x+1/2,z
+y+1/2,x+1/2,-z
+-z+1/2,-y+1/2,-x
+z+1/2,y+1/2,-x
+z+1/2,-y+1/2,x
+-z+1/2,y+1/2,x
+-x+1/2,-z+1/2,-y
+-x+1/2,z+1/2,y
+x+1/2,z+1/2,-y
+x+1/2,-z+1/2,y
+x+1/2,y,z+1/2
+x+1/2,-y,-z+1/2
+-x+1/2,y,-z+1/2
+-x+1/2,-y,z+1/2
+y+1/2,z,x+1/2
+-y+1/2,-z,x+1/2
+y+1/2,-z,-x+1/2
+-y+1/2,z,-x+1/2
+z+1/2,x,y+1/2
+-z+1/2,x,-y+1/2
+-z+1/2,-x,y+1/2
+z+1/2,-x,-y+1/2
+y+1/2,x,z+1/2
+-y+1/2,x,-z+1/2
+y+1/2,-x,-z+1/2
+-y+1/2,-x,z+1/2
+z+1/2,y,x+1/2
+-z+1/2,-y,x+1/2
+-z+1/2,y,-x+1/2
+z+1/2,-y,-x+1/2
+x+1/2,z,y+1/2
+x+1/2,-z,-y+1/2
+-x+1/2,-z,y+1/2
+-x+1/2,z,-y+1/2
+-x+1/2,-y,-z+1/2
+-x+1/2,y,z+1/2
+x+1/2,-y,z+1/2
+x+1/2,y,-z+1/2
+-y+1/2,-z,-x+1/2
+y+1/2,z,-x+1/2
+-y+1/2,z,x+1/2
+y+1/2,-z,x+1/2
+-z+1/2,-x,-y+1/2
+z+1/2,-x,y+1/2
+z+1/2,x,-y+1/2
+-z+1/2,x,y+1/2
+-y+1/2,-x,-z+1/2
+y+1/2,-x,z+1/2
+-y+1/2,x,z+1/2
+y+1/2,x,-z+1/2
+-z+1/2,-y,-x+1/2
+z+1/2,y,-x+1/2
+z+1/2,-y,x+1/2
+-z+1/2,y,x+1/2
+-x+1/2,-z,-y+1/2
+-x+1/2,z,y+1/2
+x+1/2,z,-y+1/2
+x+1/2,-z,y+1/2
+x,y+1/2,z+1/2
+x,-y+1/2,-z+1/2
+-x,y+1/2,-z+1/2
+-x,-y+1/2,z+1/2
+y,z+1/2,x+1/2
+-y,-z+1/2,x+1/2
+y,-z+1/2,-x+1/2
+-y,z+1/2,-x+1/2
+z,x+1/2,y+1/2
+-z,x+1/2,-y+1/2
+-z,-x+1/2,y+1/2
+z,-x+1/2,-y+1/2
+y,x+1/2,z+1/2
+-y,x+1/2,-z+1/2
+y,-x+1/2,-z+1/2
+-y,-x+1/2,z+1/2
+z,y+1/2,x+1/2
+-z,-y+1/2,x+1/2
+-z,y+1/2,-x+1/2
+z,-y+1/2,-x+1/2
+x,z+1/2,y+1/2
+x,-z+1/2,-y+1/2
+-x,-z+1/2,y+1/2
+-x,z+1/2,-y+1/2
+-x,-y+1/2,-z+1/2
+-x,y+1/2,z+1/2
+x,-y+1/2,z+1/2
+x,y+1/2,-z+1/2
+-y,-z+1/2,-x+1/2
+y,z+1/2,-x+1/2
+-y,z+1/2,x+1/2
+y,-z+1/2,x+1/2
+-z,-x+1/2,-y+1/2
+z,-x+1/2,y+1/2
+z,x+1/2,-y+1/2
+-z,x+1/2,y+1/2
+-y,-x+1/2,-z+1/2
+y,-x+1/2,z+1/2
+-y,x+1/2,z+1/2
+y,x+1/2,-z+1/2
+-z,-y+1/2,-x+1/2
+z,y+1/2,-x+1/2
+z,-y+1/2,x+1/2
+-z,y+1/2,x+1/2
+-x,-z+1/2,-y+1/2
+-x,z+1/2,y+1/2
+x,z+1/2,-y+1/2
+x,-z+1/2,y+1/2
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+_atom_site_adp_type
+_atom_site_type_symbol
+In 0.00000 0.00000 0.00000 0.0106(7) 1.00000 Uiso IN
+K 0.50000 0.50000 0.50000 0.024(2) 1.00000 Uiso K
+Rb 0.25000 0.25000 0.25000 0.0289(9) 1.00024 Uiso RB
+F1 0.00000 0.00000 0.2280(5) 0.090(4) 1.00016 Uani F
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+_atom_site_aniso_type_symbol
+F1 0.128(4) 0.128(4) 0.015(4) 0.00000 0.00000 0.00000 F
+loop_
+_atom_type_symbol
+_atom_type_scat_Cromer_Mann_a1
+_atom_type_scat_Cromer_Mann_b1
+_atom_type_scat_Cromer_Mann_a2
+_atom_type_scat_Cromer_Mann_b2
+_atom_type_scat_Cromer_Mann_a3
+_atom_type_scat_Cromer_Mann_b3
+_atom_type_scat_Cromer_Mann_a4
+_atom_type_scat_Cromer_Mann_b4
+_atom_type_scat_Cromer_Mann_c
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+in 19.16240 0.54760 18.55960 6.37760 4.29480 25.84990 2.03960 92.80290 4.93910
+-0.12600 5.04500
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+k 8.21860 12.79490 7.43980 0.77480 1.05190 213.18700 0.86590 41.68410 1.42280
+0.36500 1.06600
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+rb 17.17840 1.78880 9.64350 17.31510 5.13990 0.27480 1.52920 164.93399 3.48730
+-0.57400 1.60800
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+f 3.53920 10.28250 2.64120 4.29440 1.51700 0.26150 1.02430 26.14760 0.27760
+0.06900 0.05300
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5

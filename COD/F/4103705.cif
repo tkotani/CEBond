@@ -1,0 +1,355 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-21 17:27:38 +0200 (Mon, 21 Mar 2016) $
+#$Revision: 178783 $
+#$URL: svn://www.crystallography.net/cod/cif/4/10/37/4103705.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4103705
+loop_
+_publ_author_name
+'Sun Woo Kim'
+'Hong Young Chang'
+'P. Shiv Halasyamani'
+_publ_section_title
+;
+ Selective Pure-Phase Synthesis of the Multiferroic BaMF4 (M = Mg, Mn, Co,
+ Ni, and Zn) Family
+;
+_journal_name_full               'Journal of the American Chemical Society'
+_journal_page_first              17684
+_journal_page_last               17685
+_journal_paper_doi               10.1021/ja108965s
+_journal_volume                  132
+_journal_year                    2010
+_chemical_absolute_configuration unk
+_chemical_formula_sum            'Ba F4 Ni'
+_chemical_formula_weight         272.05
+_chemical_name_systematic
+;
+ ?
+;
+_space_group_IT_number           36
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  'C 2c -2'
+_symmetry_space_group_name_H-M   'C m c 21'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_conform_dict_location     ftp://ftp.iucr.org/pub/cif_core.dic
+_audit_conform_dict_name         cif_core.dic
+_audit_conform_dict_version      2.3
+_audit_creation_date             2010-10-04T12:35:20-00:00
+_audit_creation_method           'WinGX routine CIF_UPDATE'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   4.1591(9)
+_cell_length_b                   14.492(3)
+_cell_length_c                   5.8078(12)
+_cell_measurement_temperature    296(2)
+_cell_volume                     350.06(13)
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_diffrn_ambient_temperature      296(2)
+_diffrn_measured_fraction_theta_full 0.981
+_diffrn_measured_fraction_theta_max 0.981
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0442
+_diffrn_reflns_av_unetI/netI     0.0411
+_diffrn_reflns_limit_h_max       5
+_diffrn_reflns_limit_h_min       -5
+_diffrn_reflns_limit_k_max       18
+_diffrn_reflns_limit_k_min       -18
+_diffrn_reflns_limit_l_max       3
+_diffrn_reflns_limit_l_min       -7
+_diffrn_reflns_number            982
+_diffrn_reflns_theta_full        28.11
+_diffrn_reflns_theta_max         28.11
+_diffrn_reflns_theta_min         2.81
+_exptl_absorpt_coefficient_mu    16.484
+_exptl_absorpt_correction_type   none
+_exptl_crystal_density_diffrn    5.162
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_F_000             480
+_refine_diff_density_max         0.887
+_refine_diff_density_min         -1.293
+_refine_diff_density_rms         0.275
+_refine_ls_abs_structure_details 'Flack H D (1983), Acta Cryst. A39, 876-881'
+_refine_ls_abs_structure_Flack   0.20(9)
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   1.126
+_refine_ls_hydrogen_treatment    mixed
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     37
+_refine_ls_number_reflns         321
+_refine_ls_number_restraints     1
+_refine_ls_restrained_S_all      1.124
+_refine_ls_R_factor_all          0.0294
+_refine_ls_R_factor_gt           0.0262
+_refine_ls_shift/su_max          0
+_refine_ls_shift/su_mean         0
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0214P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0501
+_refine_ls_wR_factor_ref         0.051
+_reflns_number_gt                304
+_reflns_number_total             321
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            ja108965s_si_003_3.cif
+_cod_data_source_block           banif4
+_cod_database_code               4103705
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, -y, z+1/2'
+'x, -y, z+1/2'
+'-x, y, z'
+'x+1/2, y+1/2, z'
+'-x+1/2, -y+1/2, z+1/2'
+'x+1/2, -y+1/2, z+1/2'
+'-x+1/2, y+1/2, z'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+Ba Ba 0 0.14581(5) 0.75583(8) 0.0148(2) Uani 1 2 d S
+Ni Ni 0 0.41216(10) 0.7195(3) 0.0098(4) Uani 1 2 d S
+F1 F 0 0.3020(6) 0.5174(15) 0.012(2) Uani 1 2 d S
+F2 F 0 0.3329(7) 0.9893(15) 0.015(2) Uani 1 2 d S
+F3 F 0 0.5243(5) 0.9061(15) 0.0162(17) Uani 1 2 d S
+F4 F 0 -0.0798(5) 0.7147(16) 0.0188(18) Uani 1 2 d S
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Ba 0.0093(3) 0.0190(3) 0.0162(4) 0.0059(5) 0 0
+Ni 0.0113(7) 0.0075(6) 0.0105(11) 0.0003(7) 0 0
+F1 0.015(5) 0.009(5) 0.011(4) -0.006(3) 0 0
+F2 0.015(5) 0.015(5) 0.015(4) 0.005(3) 0 0
+F3 0.022(4) 0.010(4) 0.017(4) -0.005(3) 0 0
+F4 0.010(3) 0.026(4) 0.019(5) -0.007(4) 0 0
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+F F 0.0171 0.0103 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ni Ni 0.3393 1.1124 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ba Ba -0.3244 2.2819 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+F2 Ba F2 105.6(3) 6_454 6_554
+F2 Ba F1 65.8(2) 6_454 .
+F2 Ba F1 65.8(2) 6_554 .
+F2 Ba F1 156.8(3) 6_454 6
+F2 Ba F1 71.65(18) 6_554 6
+F1 Ba F1 93.16(10) . 6
+F2 Ba F1 71.65(18) 6_454 6_455
+F2 Ba F1 156.8(3) 6_554 6_455
+F1 Ba F1 93.16(10) . 6_455
+F1 Ba F1 101.6(3) 6 6_455
+F2 Ba F4 126.73(16) 6_454 2
+F2 Ba F4 126.73(16) 6_554 2
+F1 Ba F4 141.2(2) . 2
+F1 Ba F4 64.04(19) 6 2
+F1 Ba F4 64.04(19) 6_455 2
+F2 Ba F3 71.0(2) 6_454 5_445
+F2 Ba F3 146.4(3) 6_554 5_445
+F1 Ba F3 133.17(12) . 5_445
+F1 Ba F3 124.3(2) 6 5_445
+F1 Ba F3 55.8(2) 6_455 5_445
+F4 Ba F3 60.34(18) 2 5_445
+F2 Ba F3 146.4(3) 6_454 5_545
+F2 Ba F3 71.0(2) 6_554 5_545
+F1 Ba F3 133.17(12) . 5_545
+F1 Ba F3 55.8(2) 6 5_545
+F1 Ba F3 124.3(2) 6_455 5_545
+F4 Ba F3 60.34(18) 2 5_545
+F3 Ba F3 93.2(2) 5_445 5_545
+F2 Ba F2 99.17(16) 6_454 .
+F2 Ba F2 99.17(16) 6_554 .
+F1 Ba F2 58.0(2) . .
+F1 Ba F2 59.66(19) 6 .
+F1 Ba F2 59.66(19) 6_455 .
+F4 Ba F2 83.2(2) 2 .
+F3 Ba F2 114.46(18) 5_445 .
+F3 Ba F2 114.46(18) 5_545 .
+F2 Ba F4 94.3(2) 6_454 .
+F2 Ba F4 94.3(2) 6_554 .
+F1 Ba F4 144.4(2) . .
+F1 Ba F4 108.8(2) 6 .
+F1 Ba F4 108.8(2) 6_455 .
+F4 Ba F4 74.44(15) 2 .
+F3 Ba F4 53.73(15) 5_445 .
+F3 Ba F4 53.73(15) 5_545 .
+F2 Ba F4 157.6(2) . .
+F2 Ba F4 57.81(17) 6_454 2_554
+F2 Ba F4 57.81(17) 6_554 2_554
+F1 Ba F4 75.5(2) . 2_554
+F1 Ba F4 128.57(15) 6 2_554
+F1 Ba F4 128.57(15) 6_455 2_554
+F4 Ba F4 143.3(3) 2 2_554
+F3 Ba F4 96.5(2) 5_445 2_554
+F3 Ba F4 96.5(2) 5_545 2_554
+F2 Ba F4 133.5(2) . 2_554
+F4 Ba F4 68.90(18) . 2_554
+F2 Ba Ni 163.06(17) 6_454 6
+F2 Ba Ni 90.64(16) 6_554 6
+F1 Ba Ni 127.26(13) . 6
+F1 Ba Ni 34.19(18) 6 6
+F1 Ba Ni 95.30(16) 6_455 6
+F4 Ba Ni 36.47(2) 2 6
+F3 Ba Ni 92.83(15) 5_445 6
+F3 Ba Ni 35.59(17) 5_545 6
+F2 Ba Ni 82.57(13) . 6
+F4 Ba Ni 79.45(13) . 6
+F4 Ba Ni 131.71(8) 2_554 6
+F2 Ni F3 92.5(4) . .
+F2 Ni F1 90.1(4) . .
+F3 Ni F1 177.4(4) . .
+F2 Ni F3 170.6(4) . 2_564
+F3 Ni F3 96.86(14) . 2_564
+F1 Ni F3 80.5(4) . 2_564
+F2 Ni F4 92.5(3) . 5
+F3 Ni F4 87.8(2) . 5
+F1 Ni F4 92.1(2) . 5
+F3 Ni F4 87.9(3) 2_564 5
+F2 Ni F4 92.5(3) . 5_455
+F3 Ni F4 87.8(2) . 5_455
+F1 Ni F4 92.1(2) . 5_455
+F3 Ni F4 87.9(3) 2_564 5_455
+F4 Ni F4 173.4(4) 5 5_455
+F2 Ni Ba 118.6(2) . 6_454
+F3 Ni Ba 128.74(17) . 6_454
+F1 Ni Ba 49.59(16) . 6_454
+F3 Ni Ba 54.74(16) 2_564 6_454
+F4 Ni Ba 126.6(3) 5 6_454
+F4 Ni Ba 53.9(2) 5_455 6_454
+F2 Ni Ba 118.6(2) . 6_554
+F3 Ni Ba 128.74(17) . 6_554
+F1 Ni Ba 49.59(16) . 6_554
+F3 Ni Ba 54.74(16) 2_564 6_554
+F4 Ni Ba 53.9(2) 5 6_554
+F4 Ni Ba 126.6(3) 5_455 6_554
+Ba Ni Ba 72.80(4) 6_454 6_554
+F2 Ni Ba 38.38(14) . 6
+F3 Ni Ba 74.4(2) . 6
+F1 Ni Ba 107.7(2) . 6
+F3 Ni Ba 145.38(7) 2_564 6
+F4 Ni Ba 58.8(3) 5 6
+F4 Ni Ba 124.3(3) 5_455 6
+Ba Ni Ba 153.20(5) 6_454 6
+Ba Ni Ba 104.45(2) 6_554 6
+F2 Ni Ba 38.38(14) . 6_455
+F3 Ni Ba 74.4(2) . 6_455
+F1 Ni Ba 107.7(2) . 6_455
+F3 Ni Ba 145.38(7) 2_564 6_455
+F4 Ni Ba 124.3(3) 5 6_455
+F4 Ni Ba 58.8(3) 5_455 6_455
+Ba Ni Ba 104.45(2) 6_454 6_455
+Ba Ni Ba 153.20(5) 6_554 6_455
+Ba Ni Ba 65.61(3) 6 6_455
+F2 Ni Ba 50.6(3) . .
+F3 Ni Ba 143.2(3) . .
+F1 Ni Ba 39.5(3) . .
+F3 Ni Ba 120.0(2) 2_564 .
+F4 Ni Ba 93.2(2) 5 .
+F4 Ni Ba 93.2(2) 5_455 .
+Ba Ni Ba 78.62(3) 6_454 .
+Ba Ni Ba 78.62(3) 6_554 .
+Ba Ni Ba 74.76(3) 6 .
+Ba Ni Ba 74.76(3) 6_455 .
+Ni F1 Ba 112.2(4) . .
+Ni F1 Ba 96.2(2) . 6_454
+Ba F1 Ba 122.38(19) . 6_454
+Ni F1 Ba 96.2(2) . 6_554
+Ba F1 Ba 122.38(19) . 6_554
+Ba F1 Ba 101.6(3) 6_454 6_554
+Ni F2 Ba 114.1(3) . 6
+Ni F2 Ba 114.1(3) . 6_455
+Ba F2 Ba 105.6(3) 6 6_455
+Ni F2 Ba 99.7(3) . .
+Ba F2 Ba 111.8(2) 6 .
+Ba F2 Ba 111.8(2) 6_455 .
+Ni F3 Ni 150.5(5) . 2_565
+Ni F3 Ba 110.0(3) . 5
+Ni F3 Ba 89.7(2) 2_565 5
+Ni F3 Ba 110.0(3) . 5_455
+Ni F3 Ba 89.7(2) 2_565 5_455
+Ba F3 Ba 93.2(2) 5 5_455
+Ni F4 Ni 173.4(4) 5_445 5_545
+Ni F4 Ba 89.6(2) 5_445 2_554
+Ni F4 Ba 89.6(2) 5_545 2_554
+Ni F4 Ba 93.1(2) 5_445 .
+Ni F4 Ba 93.1(2) 5_545 .
+Ba F4 Ba 113.9(3) 2_554 .
+Ni F4 Ba 88.3(3) 5_445 2
+Ni F4 Ba 88.3(3) 5_545 2
+Ba F4 Ba 143.3(3) 2_554 2
+Ba F4 Ba 102.7(2) . 2
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Ba F2 2.611(5) 6_454
+Ba F2 2.611(5) 6_554
+Ba F1 2.654(9) .
+Ba F1 2.684(6) 6
+Ba F1 2.684(6) 6_455
+Ba F4 2.831(9) 2
+Ba F3 2.861(5) 5_445
+Ba F3 2.861(5) 5_545
+Ba F2 3.031(10) .
+Ba F4 3.279(7) .
+Ba F4 3.285(9) 2_554
+Ba Ni 3.5044(15) 6
+Ni F2 1.944(9) .
+Ni F3 1.953(8) .
+Ni F1 1.981(9) .
+Ni F3 2.040(9) 2_564
+Ni F4 2.0830(7) 5
+Ni F4 2.0830(7) 5_455
+Ni Ba 3.5044(15) 6_454
+Ni Ba 3.5044(15) 6_554
+Ni Ba 3.8386(17) 6
+Ni Ba 3.8386(17) 6_455
+F1 Ba 2.684(6) 6_454
+F1 Ba 2.684(6) 6_554
+F2 Ba 2.611(5) 6
+F2 Ba 2.611(5) 6_455
+F3 Ni 2.040(9) 2_565
+F3 Ba 2.861(5) 5
+F3 Ba 2.861(5) 5_455
+F4 Ni 2.0830(6) 5_445
+F4 Ni 2.0830(6) 5_545
+F4 Ba 2.831(9) 2_554
+F4 Ba 3.285(9) 2

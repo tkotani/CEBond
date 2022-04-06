@@ -1,0 +1,657 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/37/2103775.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2103775
+loop_
+_publ_author_name
+'Bj\"ork, Helen'
+'Lidin, Sven'
+'Gustafsson, Torbj\"orn'
+'Thomas, John O.'
+_publ_section_title
+;
+ Superlattice formation in the lithiated vanadium oxide phases
+ Li~0.67~V~6~O~13~ and LiV~6~O~13~
+;
+_journal_issue                   6
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              759
+_journal_page_last               765
+_journal_paper_doi               10.1107/S0108768101014264
+_journal_volume                  57
+_journal_year                    2001
+_chemical_formula_moiety         'Li1 V6 O13 '
+_chemical_formula_sum            'Li O13 V6'
+_chemical_formula_weight         520.59
+_chemical_name_systematic        ?
+_space_group_IT_number           12
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-C 2y'
+_symmetry_space_group_name_H-M   'C 1 2/m 1'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 110.656(10)
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            4
+_cell_length_a                   21.955(10)
+_cell_length_b                   3.686(2)
+_cell_length_c                   11.850(6)
+_cell_measurement_reflns_used    50
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      39.00
+_cell_measurement_theta_min      17.50
+_cell_volume                     897.3(8)
+_computing_data_reduction        STOEDATR
+_computing_molecular_graphics    ORTEP-II
+_computing_publication_material  DISTAN
+_computing_structure_refinement  DUPALS
+_computing_structure_solution    MULTAN80
+_diffrn_ambient_temperature      293
+_diffrn_measurement_device       'STOE 4-circle'
+_diffrn_measurement_method       'Theta/2theta scan b/P/b '
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'X-ray tube'
+_diffrn_radiation_type           'Molybdenum K\a'
+_diffrn_radiation_wavelength     .71073
+_diffrn_reflns_av_R_equivalents  .0328
+_diffrn_reflns_limit_h_max       48
+_diffrn_reflns_limit_h_min       -24
+_diffrn_reflns_limit_k_max       8
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       26
+_diffrn_reflns_limit_l_min       -25
+_diffrn_reflns_number            10855
+_diffrn_reflns_theta_max         52.00
+_diffrn_reflns_theta_min         .00
+_diffrn_standards_decay_%        11.3
+_diffrn_standards_interval_time  180
+_diffrn_standards_number         5
+_exptl_absorpt_coefficient_mu    6.07
+_exptl_absorpt_correction_T_max  .5855
+_exptl_absorpt_correction_T_min  .3780
+_exptl_absorpt_correction_type   integration
+_exptl_absorpt_process_details   'Absstoe, Lundgren (1983)'
+_exptl_crystal_colour            black
+_exptl_crystal_density_diffrn    3.852
+_exptl_crystal_density_meas      ?
+_exptl_crystal_description       needle
+_exptl_crystal_F_000             977.00
+_exptl_crystal_size_max          .28
+_exptl_crystal_size_mid          .11
+_exptl_crystal_size_min          .11
+_refine_diff_density_max         1.504
+_refine_diff_density_min         -1.675
+_refine_ls_extinction_coef
+;
+(anisotropic), .7502E-07, .6778E-07, .1111E-07
+.6345E-07, -.2642E-07, -.2650E-07
+;
+_refine_ls_extinction_method
+'Becker & Coppens (1974), anisotropic type II'
+_refine_ls_goodness_of_fit_all   2.34
+_refine_ls_goodness_of_fit_ref   2.34
+_refine_ls_hydrogen_treatment    none
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     122
+_refine_ls_number_reflns         5464
+_refine_ls_R_factor_all          .0269
+_refine_ls_R_factor_gt           .0269
+_refine_ls_shift/su_max          .0021
+_refine_ls_shift/su_mean         .0001
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details     w=1/(\s^2^(F)+.0150F^2^)
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_all         .0573
+_refine_ls_wR_factor_ref         .0573
+_reflns_number_gt                10855
+_reflns_number_total             5464
+_reflns_threshold_expression     'Inet >-15.0\s(Inet)'
+_cod_data_source_file            os0075.cif
+_cod_data_source_block           LiV6O13
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_symmetry_cell_setting' value 'Monoclinic' changed to 'monoclinic'
+according to '/home/saulius/struct/CIF-dictionaries/cif_core.dic'
+dictionary named 'cif_core.dic' version 2.4.1 from
+2010-06-29.
+
+'_geom_bond_publ_flag' value 'Yes' changed to 'yes' according
+to '/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (41
+time).
+
+'_geom_bond_publ_flag' value 'No' changed to 'no' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (174
+times).
+
+'_geom_angle_publ_flag' value 'No' changed to 'no' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (163 times).
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+
+The following automatic conversions were performed:
+
+'_atom_site_thermal_displace_type' tag value 'Uij' was replaced with
+'Uani' value 20 times.
+
+Automatic conversion script
+Id: cif_fix_values 1646 2011-03-28 12:23:43Z adriana 
+
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Monoclinic' changed to 'monoclinic'
+according to /home/saulius/struct/CIF-dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.1 from
+2010-06-29.
+
+'_geom_bond_publ_flag' value 'Yes' changed to 'yes'
+according to /home/saulius/struct/CIF-dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29 (41
+time).
+
+'_geom_bond_publ_flag' value 'No' changed to 'no' according
+to /home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary
+named 'cif_core.dic' version 2.4.1 from 2010-06-29 (174
+times).
+
+'_geom_angle_publ_flag' value 'No' changed to 'no' according
+to /home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary
+named 'cif_core.dic' version 2.4.1 from 2010-06-29 (163 times).
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_original_sg_symbol_H-M      'C 2/m'
+_cod_original_formula_sum        'Li1 O13 V6  '
+_cod_database_code               2103775
+_cod_database_fobs_code          2103775
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,-z
+1/2+x,1/2+y,z
+1/2-x,1/2-y,-z
+-x,y,-z
+x,-y,z
+1/2-x,1/2+y,-z
+1/2+x,1/2-y,z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+_atom_site_aniso_type_symbol
+V11 .0060 .0049 .0064 .0000 .0024 .0000 V
+V12 .00742(4) .00518(5) .00583(4) .0000 .00254(3) .0000 V
+V21 .00650(4) .01355(6) .00484(4) .0000 .00234(3) .0000 V
+V22 .00511(4) .00418(4) .00529(4) .0000 .00144(3) .0000 V
+V31 .00526(4) .00421(4) .00498(4) .0000 .00194(3) .0000 V
+V32 .00761(4) .00410(4) .00757(4) .0000 .00379(3) .0000 V
+O11 .0096(2) .0053(2) .0077(2) .0000 .00422(17) .0000 O
+O12 .0109(3) .0066(2) .0108(2) .0000 .0034(2) .0000 O
+O21 .0106(2) .0047(2) .00696(19) .0000 .00421(17) .0000 O
+O22 .0103(2) .0052(2) .0073(2) .0000 .00402(17) .0000 O
+O31 .0133(3) .0049(2) .0070(2) .0000 .00484(18) .0000 O
+O32 .0092(2) .0046(2) .00666(19) .0000 .00295(17) .0000 O
+O41 .0110(3) .0145(3) .0069(2) .0000 .00300(18) .0000 O
+O51 .0068(2) .0133(3) .0127(3) .0000 .0027(2) .0000 O
+O52 .0057(2) .0112(3) .0129(3) .0000 .00183(18) .0000 O
+O61 .0058(2) .0121(3) .0110(2) .0000 .00224(17) .0000 O
+O62 .0088(3) .0167(3) .0143(3) .0000 .0043(2) .0000 O
+O71 .00659(19) .0095(2) .00513(18) .0000 .00210(15) .0000 O
+O72 .0111(3) .0087(2) .0069(2) .0000 .00445(18) .0000 O
+Li1 .036(2) .045(2) .0261(15) .0000 -.0074(14) .0000 Li
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_type_symbol
+V11 -.224403(7) .0000 -.0728 .0057 Uani V
+V12 .249784(8) .0000 .393911(13) .00609(5) Uani V
+V21 -.046855(8) .0000 .039720(13) .00820(5) Uani V
+V22 .429189(7) .0000 .517668(12) .00497(4) Uani V
+V31 -.073104(7) .0000 -.288796(12) .00478(4) Uani V
+V32 .436179(8) .0000 .228260(14) .00613(5) Uani V
+O11 .75350(4) .0000 1.07500(6) .0072(2) Uani O
+O12 .24874(4) .0000 .56894(7) .0095(3) Uani O
+O21 -.06013(4) .0000 -.44368(6) .0071(2) Uani O
+O22 .44623(4) .0000 .06385(6) .0073(2) Uani O
+O31 -.04309(4) .0000 .21544(6) .0080(2) Uani O
+O32 .44950(4) .0000 .69911(6) .0068(2) Uani O
+O41 .74967(4) .0000 .75183(6) .0109(3) Uani O
+O51 -.14567(4) .0000 -.02786(7) .0111(3) Uani O
+O52 .34862(4) .0000 .45210(7) .0103(3) Uani O
+O61 -.15270(4) .0000 -.32901(7) .0098(3) Uani O
+O62 .35732(4) .0000 .19222(8) .0132(3) Uani O
+O71 -.04508(4) .0000 -.11457(6) .0071(2) Uani O
+O72 .45801(4) .0000 .39539(6) .0085(2) Uani O
+Li1 -.1849(2) .0000 .2422(3) .041(2) Uani Li
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+V .267 .530 'International Tables Vol. IV Table 2.2B'
+Li .000 .000 'International Tables Vol. IV Table 2.2B'
+O .008 .006 'International Tables Vol. IV Table 2.2B'
+loop_
+_diffrn_standard_refln_index_h
+_diffrn_standard_refln_index_k
+_diffrn_standard_refln_index_l
+1 1 -1
+2 0 6
+11 1 -1
+0 2 0
+0 -2 0
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O11 V11 O11 1_454 7_546 80.19(3) no
+O11 V11 O11 ? ? 80.19(3) no
+O11 V11 O41 ? ? 150.88(4) no
+O11 V11 O51 1_454 . 106.00(4) no
+O11 V11 O11 ? ? 142.24(5) no
+O11 V11 O41 7_546 1_454 90.85(2) no
+O11 V11 O51 7_546 . 108.15(3) no
+O11 V11 O41 ? ? 90.85(2) no
+O11 V11 O51 ? ? 108.15(3) no
+O41 V11 O51 1_454 . 103.12(4) no
+O12 V12 O12 . 7_546 76.91(2) no
+O12 V12 O12 ? ? 76.91(2) no
+O12 V12 O41 ? ? 179.78(4) no
+O12 V12 O52 ? ? 92.74(4) no
+O12 V12 O61 ? 5_555 89.90(4) no
+O12 V12 O12 ? ? 153.74(4) no
+O12 V12 O41 7_546 5_656 103.09(2) no
+O12 V12 O52 7_546 . 89.57(2) no
+O12 V12 O61 7_546 5_555 91.03(2) no
+O12 V12 O41 ? ? 103.09(2) no
+O12 V12 O52 ? ? 89.57(2) no
+O12 V12 O61 ? ? 91.03(2) no
+O41 V12 O52 5_656 . 87.49(4) no
+O41 V12 O61 5_656 5_555 89.88(4) no
+O52 V12 O61 ? ? 177.36(3) no
+O22 V21 O22 ? ? 157.41(5) no
+O22 V21 O31 5_445 ? 79.76(2) no
+O22 V21 O51 5_445 ? 85.85(3) no
+O22 V21 O71 5_445 ? 100.49(2) no
+O22 V21 O71 5_445 3_555 93.36(3) no
+O22 V21 O31 ? ? 79.76(2) no
+O22 V21 O51 ? ? 85.85(3) no
+O22 V21 O71 ? ? 100.49(2) no
+O22 V21 O71 ? ? 93.36(3) no
+O31 V21 O51 ? ? 93.16(3) no
+O31 V21 O71 ? ? 176.71(3) no
+O31 V21 O71 ? 3_555 82.55(4) no
+O51 V21 O71 ? ? 90.13(4) no
+O51 V21 O71 ? ? 175.71(3) no
+O71 V21 O71 3_555 ? 94.16(4) no
+O21 V22 O21 ? ? 153.45(4) no
+O21 V22 O32 5_546 ? 77.42(2) no
+O21 V22 O52 5_546 ? 97.68(2) no
+O21 V22 O72 5_546 ? 98.52(3) no
+O21 V22 O72 5_546 3_656 82.59(3) no
+O21 V22 O32 ? ? 77.42(2) no
+O21 V22 O52 ? ? 97.68(2) no
+O21 V22 O72 ? ? 98.52(3) no
+O21 V22 O72 ? ? 82.59(3) no
+O32 V22 O52 ? ? 107.11(4) no
+O32 V22 O72 ? ? 148.68(14) no
+O32 V22 O72 ? 3_656 74.31(9) no
+O52 V22 O72 ? ? 104.21(14) no
+O52 V22 O72 ? ? 178.59(9) no
+O72 V22 O72 3_656 ? 74.37(17) no
+O21 V31 O31 ? ? 81.42(4) no
+O21 V31 O32 ? ? 78.67(2) no
+O21 V31 O32 ? ? 78.67(2) no
+O21 V31 O61 ? ? 102.73(4) no
+O21 V31 O71 ? ? 154.85(4) no
+O31 V31 O32 ? ? 75.93(3) no
+O31 V31 O32 ? ? 75.93(3) no
+O31 V31 O61 ? ? 175.84(4) no
+O31 V31 O71 ? ? 73.43(3) no
+O32 V31 O32 ? ? 146.03(5) no
+O32 V31 O61 ? ? 104.72(3) no
+O32 V31 O71 ? ? 94.93(2) no
+O32 V31 O61 ? ? 104.72(3) no
+O32 V31 O71 ? ? 94.93(2) no
+O61 V31 O71 ? ? 102.42(4) no
+O22 V32 O31 ? ? 79.36(3) no
+O22 V32 O31 ? ? 79.36(3) no
+O22 V32 O32 ? ? 83.58(4) no
+O22 V32 O62 ? ? 102.29(5) no
+O22 V32 O72 ? ? 160.28(14) no
+O31 V32 O31 ? ? 148.01(6) no
+O31 V32 O32 ? ? 77.06(3) no
+O31 V32 O62 ? ? 103.83(3) no
+O31 V32 O72 ? ? 96.02(4) no
+O31 V32 O32 ? ? 77.06(3) no
+O31 V32 O62 ? ? 103.83(3) no
+O31 V32 O72 ? ? 96.02(4) no
+O32 V32 O62 ? ? 174.13(5) no
+O32 V32 O72 ? ? 76.70(14) no
+O62 V32 O72 ? ? 97.44(14) no
+V11 O11 V11 ? ? 99.81(3) no
+V11 O11 V11 ? ? 99.81(3) no
+V11 O11 Li1 ? ? 126.62(5) no
+V11 O11 V11 ? ? 142.24(5) no
+V11 O11 Li1 ? ? 96.85(3) no
+V11 O11 Li1 ? ? 96.85(3) no
+V12 O12 V12 ? ? 103.09(2) no
+V12 O12 V12 ? ? 103.09(2) no
+V12 O12 O12 ? ? 48.10(3) no
+V12 O12 O12 ? ? 48.10(3) no
+V12 O12 V12 ? ? 153.74(4) no
+V12 O12 O12 ? ? 54.98(3) no
+V12 O12 O12 ? ? 151.13(5) no
+V12 O12 O12 ? ? 151.13(5) no
+V12 O12 O12 ? ? 54.98(3) no
+O12 O12 O12 ? ? 96.18(6) no
+V22 O21 V22 ? ? 153.45(4) no
+V22 O21 V31 ? ? 100.40(2) no
+V22 O21 O32 ? ? 53.88(3) no
+V22 O21 O32 ? ? 150.31(4) no
+V22 O21 V31 ? ? 100.40(2) no
+V22 O21 O32 ? ? 150.31(4) no
+V22 O21 O32 ? ? 53.88(3) no
+V31 O21 O32 ? ? 50.18(3) no
+V31 O21 O32 ? ? 50.18(3) no
+O32 O21 O32 ? ? 97.03(5) no
+V21 O22 V21 ? ? 157.41(5) no
+V21 O22 V32 ? ? 100.80(2) no
+V21 O22 V32 ? ? 100.80(2) no
+V21 O31 V31 ? ? 91.42(3) no
+V21 O31 V32 ? ? 98.89(3) no
+V21 O31 V32 ? ? 98.89(3) no
+V31 O31 V32 ? ? 102.96(3) no
+V31 O31 V32 ? ? 102.96(3) no
+V32 O31 V32 ? ? 148.01(6) no
+V22 O32 V31 ? ? 96.45(2) no
+V22 O32 V31 ? ? 96.45(2) no
+V22 O32 V32 ? ? 101.22(4) no
+V22 O32 O21 ? ? 48.70(3) no
+V22 O32 O21 ? ? 48.70(3) no
+V31 O32 V31 ? ? 146.03(5) no
+V31 O32 V32 ? ? 104.04(3) no
+V31 O32 O21 ? ? 51.16(3) no
+V31 O32 O21 ? ? 143.68(4) no
+V31 O32 V32 ? ? 104.04(3) no
+V31 O32 O21 ? ? 143.68(4) no
+V31 O32 O21 ? ? 51.16(3) no
+V32 O32 O21 ? ? 94.21(3) no
+V32 O32 O21 ? ? 94.21(3) no
+O21 O32 O21 ? ? 97.03(5) no
+V11 O41 V12 ? ? 163.79(5) no
+V11 O41 Li1 ? ? 85.41(3) no
+V11 O41 Li1 ? ? 85.41(3) no
+V12 O41 Li1 ? ? 104.36(3) no
+V12 O41 Li1 ? ? 104.36(3) no
+Li1 O41 Li1 ? ? 103.63(5) no
+V11 O51 V21 ? ? 176.28(5) no
+V12 O52 V22 ? ? 172.57(5) no
+V12 O61 V31 ? ? 174.62(6) no
+V32 O62 Li1 ? ? 115.58(3) no
+V32 O62 Li1 ? ? 115.58(3) no
+Li1 O62 Li1 ? ? 111.16(5) no
+V21 O71 V21 ? ? 85.84(4) no
+V21 O71 V31 ? ? 161.56(5) no
+V21 O71 V31 ? ? 112.60(4) no
+V22 O72 V22 ? ? 105.63(17) no
+V22 O72 V32 ? ? 146.6(3) no
+V22 O72 V32 ? ? 107.77(18) no
+O11 Li1 O41 ? ? 79.70(3) no
+O11 Li1 O41 ? ? 79.70(3) no
+O11 Li1 O62 ? ? 86.29(3) no
+O11 Li1 O62 ? ? 86.29(3) no
+O41 Li1 O41 ? ? 103.63(5) no
+O41 Li1 O62 ? ? 70.87(4) no
+O41 Li1 O62 ? ? 165.73(3) no
+O41 Li1 O62 ? ? 165.73(3) no
+O41 Li1 O62 ? ? 70.87(4) no
+O62 Li1 O62 ? ? 111.16(5) no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+V11 O11 1_454 1.9758(12) yes
+V11 O11 7_546 1.9478(10) yes
+V11 O11 7_556 1.9478(10) yes
+V11 O41 1_454 1.9510(13) yes
+V11 O51 ? 1.6193(11) yes
+V11 O62 3_555 2.7576(14) yes
+V11 Li1 ? 2.9277(9) no
+V11 Li1 ? 2.9277(9) no
+V12 O12 ? 2.0823(13) yes
+V12 O12 7_546 1.8925(10) yes
+V12 O12 7_556 1.8925(10) yes
+V12 O41 3_656 1.7313(12) yes
+V12 O52 ? 2.0320(12) yes
+V12 O61 3_555 1.9946(13) yes
+V21 V21 ? 2.5467(10) no
+V21 O22 5_445 1.8794(10) yes
+V21 O22 5_455 1.8794(10) yes
+V21 O31 ? 2.0546(13) yes
+V21 O51 ? 2.0303(12) yes
+V21 O71 ? 1.8424(12) yes
+V21 O71 3_555 1.8968(12) yes
+V22 V31 ? 2.9564(11) no
+V22 V31 ? 2.9564(11) no
+V22 O21 5_546 1.8936(10) yes
+V22 O21 5_556 1.8936(10) yes
+V22 O32 ? 2.0360(13) yes
+V22 O52 ? 1.6622(11) yes
+V22 O72 ? 1.774(4) yes
+V22 O72 3_656 2.323(4) yes
+V31 V22 ? 2.9564(11) no
+V31 V22 ? 2.9564(11) no
+V31 O21 ? 1.9542(12) yes
+V31 O31 ? 2.3872(13) yes
+V31 O32 ? 1.9271(10) yes
+V31 O32 ? 1.9271(10) yes
+V31 O61 ? 1.6411(12) yes
+V31 O71 ? 1.9352(12) yes
+V32 O22 ? 2.0365(14) yes
+V32 O31 ? 1.9172(10) yes
+V32 O31 ? 1.9172(10) yes
+V32 O32 ? 2.3488(15) yes
+V32 O62 ? 1.6305(13) yes
+V32 O72 ? 1.866(4) yes
+O11 V11 ? 1.9758(12) no
+O11 V11 ? 1.9478(10) no
+O11 V11 ? 1.9478(10) no
+O11 O11 ? 2.5272(14) no
+O11 O11 ? 2.5272(14) no
+O11 O41 ? 2.7773(13) no
+O11 O41 ? 2.7773(13) no
+O11 O51 ? 2.8792(15) no
+O11 O51 ? 2.8950(13) no
+O11 O51 ? 2.8950(13) no
+O11 O62 ? 2.8788(12) no
+O11 O62 ? 2.8788(12) no
+O11 Li1 ? 1.9658(11) no
+O12 V12 ? 2.0823(13) no
+O12 V12 ? 1.8925(10) no
+O12 V12 ? 1.8925(10) no
+O12 O12 ? 2.4765(13) no
+O12 O12 ? 2.4765(13) no
+O12 O41 ? 2.8395(13) no
+O12 O41 ? 2.8395(13) no
+O12 O52 ? 2.9780(15) no
+O12 O52 ? 2.7662(13) no
+O12 O52 ? 2.7662(13) no
+O12 O61 ? 2.8810(16) no
+O12 O61 ? 2.7742(13) no
+O12 O61 ? 2.7742(13) no
+O21 V22 ? 1.8936(10) no
+O21 V22 ? 1.8936(10) no
+O21 V31 ? 1.9542(12) no
+O21 O31 ? 2.8506(15) no
+O21 O32 ? 2.4601(11) no
+O21 O32 ? 2.4601(11) no
+O21 O52 ? 2.6814(12) no
+O21 O52 ? 2.6814(12) no
+O21 O61 ? 2.8153(15) no
+O21 O72 ? 2.780(3) no
+O21 O72 ? 2.780(3) no
+O21 O72 ? 2.801(3) no
+O21 O72 ? 2.801(3) no
+O22 V21 ? 1.8794(10) no
+O22 V21 ? 1.8794(10) no
+O22 V32 ? 2.0365(14) no
+O22 O31 ? 2.5261(12) no
+O22 O31 ? 2.5261(12) no
+O22 O32 ? 2.9315(15) no
+O22 O51 ? 2.6649(12) no
+O22 O51 ? 2.6649(12) no
+O22 O62 ? 2.8670(14) no
+O22 O71 ? 2.8615(13) no
+O22 O71 ? 2.8615(13) no
+O22 O71 ? 2.7473(13) no
+O22 O71 ? 2.7473(13) no
+O31 V21 ? 2.0546(13) no
+O31 V31 ? 2.3872(13) no
+O31 V32 ? 1.9172(10) no
+O31 V32 ? 1.9172(10) no
+O31 O21 ? 2.8506(15) no
+O31 O22 ? 2.5261(12) no
+O31 O22 ? 2.5261(12) no
+O31 O32 ? 2.6788(12) no
+O31 O32 ? 2.6788(12) no
+O31 O51 ? 2.9671(16) no
+O31 O62 ? 2.7981(13) no
+O31 O62 ? 2.7981(13) no
+O31 O71 ? 2.6093(14) no
+O31 O72 ? 2.812(3) no
+O31 O72 ? 2.812(3) no
+O32 V22 ? 2.0360(13) no
+O32 V31 ? 1.9271(10) no
+O32 V31 ? 1.9271(10) no
+O32 V32 ? 2.3488(15) no
+O32 O21 ? 2.4601(11) no
+O32 O21 ? 2.4601(11) no
+O32 O22 ? 2.9315(15) no
+O32 O31 ? 2.6788(12) no
+O32 O31 ? 2.6788(12) no
+O32 O52 ? 2.9832(16) no
+O32 O61 ? 2.8310(13) no
+O32 O61 ? 2.8310(13) no
+O32 O71 ? 2.8461(13) no
+O32 O71 ? 2.8461(13) no
+O32 O72 ? 2.642(4) no
+O41 V11 ? 1.9510(13) no
+O41 V12 ? 1.7313(12) no
+O41 O11 ? 2.7773(13) no
+O41 O11 ? 2.7773(13) no
+O41 O12 ? 2.8395(13) no
+O41 O12 ? 2.8395(13) no
+O41 O51 ? 2.8041(15) no
+O41 O52 ? 2.6111(15) no
+O41 O61 ? 2.6384(15) no
+O41 O62 ? 2.6563(15) no
+O41 Li1 ? 2.3447(10) no
+O41 Li1 ? 2.3447(10) no
+O51 V11 ? 1.6193(11) no
+O51 V21 ? 2.0303(12) no
+O51 O11 ? 2.8792(15) no
+O51 O11 ? 2.8950(13) no
+O51 O11 ? 2.8950(13) no
+O51 O22 ? 2.6649(12) no
+O51 O22 ? 2.6649(12) no
+O51 O31 ? 2.9671(16) no
+O51 O41 ? 2.8041(15) no
+O51 O71 ? 2.7448(15) no
+O52 V12 ? 2.0320(12) no
+O52 V22 ? 1.6622(11) no
+O52 O12 ? 2.9780(15) no
+O52 O12 ? 2.7662(13) no
+O52 O12 ? 2.7662(13) no
+O52 O21 ? 2.6814(12) no
+O52 O21 ? 2.6814(12) no
+O52 O32 ? 2.9832(16) no
+O52 O41 ? 2.6111(15) no
+O52 O72 ? 2.713(4) no
+O52 Li1 ? 2.9724(13) no
+O52 Li1 ? 2.9724(13) no
+O61 V12 ? 1.9946(13) no
+O61 V31 ? 1.6411(12) no
+O61 O12 ? 2.8810(16) no
+O61 O12 ? 2.7742(13) no
+O61 O12 ? 2.7742(13) no
+O61 O21 ? 2.8153(15) no
+O61 O32 ? 2.8310(13) no
+O61 O32 ? 2.8310(13) no
+O61 O41 ? 2.6384(15) no
+O61 O71 ? 2.7935(15) no
+O62 V11 ? 2.7576(14) no
+O62 V32 ? 1.6305(13) no
+O62 O11 ? 2.8788(12) no
+O62 O11 ? 2.8788(12) no
+O62 O22 ? 2.8670(14) no
+O62 O31 ? 2.7981(13) no
+O62 O31 ? 2.7981(13) no
+O62 O41 ? 2.6563(15) no
+O62 O72 ? 2.632(4) no
+O62 Li1 ? 2.2341(9) no
+O62 Li1 ? 2.2341(9) no
+O71 V21 ? 1.8424(12) no
+O71 V21 ? 1.8968(12) no
+O71 V31 ? 1.9352(12) no
+O71 O22 ? 2.8615(13) no
+O71 O22 ? 2.8615(13) no
+O71 O22 ? 2.7473(13) no
+O71 O22 ? 2.7473(13) no
+O71 O31 ? 2.6093(14) no
+O71 O32 ? 2.8461(13) no
+O71 O32 ? 2.8461(13) no
+O71 O51 ? 2.7448(15) no
+O71 O61 ? 2.7935(15) no
+O71 O71 ? 2.7385(18) no
+O72 V22 ? 1.774(4) no
+O72 V22 ? 2.323(4) no
+O72 V32 ? 1.866(4) no
+O72 O21 ? 2.780(3) no
+O72 O21 ? 2.780(3) no
+O72 O21 ? 2.801(3) no
+O72 O21 ? 2.801(3) no
+O72 O31 ? 2.812(3) no
+O72 O31 ? 2.812(3) no
+O72 O32 ? 2.642(4) no
+O72 O52 ? 2.713(4) no
+O72 O62 ? 2.632(4) no
+O72 O72 ? 2.514(8) no
+Li1 V11 ? 2.9277(9) no
+Li1 V11 ? 2.9277(9) no
+Li1 O11 1_656 1.9658(11) yes
+Li1 O41 7_546 2.3447(10) yes
+Li1 O41 7_556 2.3447(10) yes
+Li1 O52 ? 2.9724(13) no
+Li1 O52 ? 2.9724(13) no
+Li1 O62 5_545 2.2341(9) yes
+Li1 O62 5_555 2.2341(9) yes

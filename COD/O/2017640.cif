@@ -1,0 +1,237 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 00:18:51 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176760 $
+#$URL: svn://www.crystallography.net/cod/cif/2/01/76/2017640.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2017640
+loop_
+_publ_author_name
+'Z\'u\~niga, F. J.'
+'Garc\'ia-Garc\'ia, F. J.'
+'Hoelzel, M.'
+'Reller, A.'
+_publ_section_title
+;
+ Al~14~Ba~8~La~26.3~Ru~18~Sr~53.7~O~167~: a variant of cubic perovskite
+ with isolated RuO~6~ units
+;
+_journal_coeditor_code           FA3216
+_journal_issue                   5
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              i50
+_journal_page_last               i54
+_journal_paper_doi               10.1107/S0108270110013879
+_journal_volume                  66
+_journal_year                    2010
+_chemical_formula_iupac          'Al14 Ba8 La26.3 Ru18 Sr53.7 O167'
+_chemical_formula_structural
+'Ba0.167 La0.549 Sr1.118 Ru0.375 Al0.291 O3.483'
+_chemical_formula_sum
+'Al13.984 Ba8 La26.424 O167.193 Ru18.02 Sr53.64'
+_chemical_formula_weight         14333.15
+_chemical_name_systematic
+;
+aluminium barium lanthanum ruthenium strontium oxide
+;
+_space_group_IT_number           196
+_symmetry_cell_setting           cubic
+_symmetry_space_group_name_Hall  'F 2 2 3'
+_symmetry_space_group_name_H-M   'F 2 3'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            1
+_cell_length_a                   16.1970(10)
+_cell_length_b                   16.1970(10)
+_cell_length_c                   16.1970(10)
+_cell_measurement_temperature    298
+_cell_volume                     4249.2(5)
+_computing_cell_refinement
+'JANA2006 (Pet\<r\'i\<cek <i>et al.</i>,  2006)'
+_computing_data_collection       'described by Hoelzel <i>et al.</i> (2007)'
+_computing_data_reduction        'described by Hoelzel <i>et al.</i> (2007)'
+_computing_molecular_graphics    '[Please provide missing details]'
+_computing_publication_material
+'JANA2006 (Pet\<r\'i\<cek <i>et al.</i>,  2006)'
+_computing_structure_refinement
+'JANA2006 (Pet\<r\'i\<cek <i>et al.</i>,  2006)'
+_computing_structure_solution    '[Please provide missing details]'
+_diffrn_ambient_temperature      298
+_diffrn_measurement_device       'powder diffractometer'
+_diffrn_radiation_monochromator  Ge(551)
+_diffrn_radiation_probe          neutron
+_diffrn_radiation_type           neutron
+_diffrn_radiation_wavelength     1.548
+_exptl_absorpt_coefficient_mu    0.009
+_exptl_absorpt_correction_T_max  0.9466
+_exptl_absorpt_correction_T_min  0.9451
+_exptl_absorpt_correction_type   cylinder
+_exptl_absorpt_process_details
+'JANA2006 (Pet\<r\'i\<cek <i>et al.</i>,  2006)'
+_exptl_crystal_density_diffrn    5.599
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_F_000             6299
+_pd_char_colour                  black
+_pd_char_particle_morphology     'octahedral, SEM'
+_pd_instr_location
+;
+Spodi diffractometer, FRM II, Garching, Munich, Germany'
+;
+_pd_meas_2theta_range_inc        0.05
+_pd_meas_2theta_range_max        151.90
+_pd_meas_2theta_range_min        0.950
+_pd_meas_number_of_points        3019
+_pd_meas_scan_method             step
+_pd_prep_temperature             298
+_pd_proc_2theta_range_inc        0.05
+_pd_proc_2theta_range_max        151.9
+_pd_proc_2theta_range_min        6.0
+_pd_proc_info_excluded_regions   '0.950 to 6.0 irregular bcgr'
+_pd_proc_ls_background_function  'Chebychev polynomial'
+_pd_proc_ls_pref_orient_corr     none
+_pd_proc_ls_profile_function     pseudo-Voigt
+_pd_proc_ls_prof_R_factor        0.0539
+_pd_proc_ls_prof_wR_expected     0.035
+_pd_proc_ls_prof_wR_factor       0.0599
+_pd_proc_wavelength              1.548
+_pd_spec_mounting                'Vanadium can'
+_pd_spec_mount_mode              transmission
+_pd_spec_shape                   cylinder
+_pd_spec_size_axial              35
+_pd_spec_size_equat              7
+_pd_spec_size_thick              7
+_refine_ls_goodness_of_fit_all   4.65
+_refine_ls_number_constraints    1
+_refine_ls_number_parameters     61
+_refine_ls_number_restraints     1
+_refine_ls_shift/su_max          0.0494
+_refine_ls_shift/su_mean         0.0077
+_refine_ls_weighting_scheme      sigma
+_cod_data_source_file            fa3216.cif
+_cod_data_source_block           I_NPD
+_cod_database_code               2017640
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -x,-y,z
+3 -x,y,-z
+4 x,-y,-z
+5 z,x,y
+6 z,-x,-y
+7 -z,-x,y
+8 -z,x,-y
+9 y,z,x
+10 -y,z,-x
+11 y,-z,-x
+12 -y,-z,x
+13 x,y+1/2,z+1/2
+14 -x,-y+1/2,z+1/2
+15 -x,y+1/2,-z+1/2
+16 x,-y+1/2,-z+1/2
+17 z,x+1/2,y+1/2
+18 z,-x+1/2,-y+1/2
+19 -z,-x+1/2,y+1/2
+20 -z,x+1/2,-y+1/2
+21 y,z+1/2,x+1/2
+22 -y,z+1/2,-x+1/2
+23 y,-z+1/2,-x+1/2
+24 -y,-z+1/2,x+1/2
+25 x+1/2,y,z+1/2
+26 -x+1/2,-y,z+1/2
+27 -x+1/2,y,-z+1/2
+28 x+1/2,-y,-z+1/2
+29 z+1/2,x,y+1/2
+30 z+1/2,-x,-y+1/2
+31 -z+1/2,-x,y+1/2
+32 -z+1/2,x,-y+1/2
+33 y+1/2,z,x+1/2
+34 -y+1/2,z,-x+1/2
+35 y+1/2,-z,-x+1/2
+36 -y+1/2,-z,x+1/2
+37 x+1/2,y+1/2,z
+38 -x+1/2,-y+1/2,z
+39 -x+1/2,y+1/2,-z
+40 x+1/2,-y+1/2,-z
+41 z+1/2,x+1/2,y
+42 z+1/2,-x+1/2,-y
+43 -z+1/2,-x+1/2,y
+44 -z+1/2,x+1/2,-y
+45 y+1/2,z+1/2,x
+46 -y+1/2,z+1/2,-x
+47 y+1/2,-z+1/2,-x
+48 -y+1/2,-z+1/2,x
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Ba Ba1 0.5 0 0.5 0.0539(7) Uani d . 1 . .
+Ba Ba2 0.75 0.25 0.25 0.0018(7) Uani d . 1 . .
+Ru Ru1 0.6258(2) 0.1258(2) 0.3742(2) 0.0109(2) Uani d . 1 . .
+Ru Ru2 0.3714(5) 0.1286(5) 0.1286(5) 0.0050(10) Uani d . 0.119(10) . .
+Al Al1 0.3714(5) 0.1286(5) 0.1286(5) 0.0050(10) Uani d . 0.881(10) . .
+La La1 0.75 0.0277(2) 0.25 0.0215(9) Uani d . 0.49(4) . .
+Sr Sr1 0.75 0.0277(2) 0.25 0.0215(9) Uani d . 0.51(4) . .
+La La2 0.59514(16) 0.09515(16) 0.09515(16) 0.0174(8) Uani d . 0.22(4) . .
+Sr Sr2 0.59514(16) 0.09515(16) 0.09515(16) 0.0174(8) Uani d . 0.78(4) . .
+La La3 0.5 0 0.2801(2) 0.0111(9) Uani d . 0.144(17) . .
+Sr Sr3 0.5 0 0.2801(2) 0.0111(9) Uani d . 0.856(17) . .
+La La4 0.34491(15) 0.15509(15) 0.34491(15) 0.0259(9) Uani d . 0.50(4) . .
+Sr Sr4 0.34491(15) 0.15509(15) 0.34491(15) 0.0259(9) Uani d . 0.50(4) . .
+O O1 0.6291(5) -0.0010(5) 0.3672(5) 0.0183 Uiso d . 1 . .
+O O2 0.6297(5) 0.2425(6) 0.3723(5) 0.0216 Uiso d . 1 . .
+O O3 0.290(2) 0.1158(17) 0.199(2) 0.0311 Uiso d . 0.32(2) . .
+O O4 0.3777(16) 0.1863(14) 0.0343(14) 0.0318 Uiso d . 0.38(3) . .
+O O5 0.367(4) 0.034(3) 0.168(3) 0.0713 Uiso d . 0.25(3) . .
+O O6 0.3504(9) 0.0448(15) 0.0505(15) 0.0411 Uiso d . 0.53(2) . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+_atom_site_aniso_type_symbol
+Ba1 0.053(2) 0.053(2) 0.053(2) 0 0 0 Ba
+Ba2 0.0018(7) 0.0018(7) 0.0018(7) 0 0 0 Ba
+Ru1 0.0109(4) 0.0109(4) 0.0109(4) 0.0037(4) -0.0037(4) 0.0037(4) Ru
+Ru2 0.0050(17) 0.0050(17) 0.0050(17) -0.0012(16) -0.0012(16) 0.0012(16) Ru
+Al1 0.0050(17) 0.0050(17) 0.0050(17) -0.0012(16) -0.0012(16) 0.0012(16) Al
+La1 0.0246(17) 0.0166(15) 0.0235(16) 0 0.0006(17) 0 La
+Sr1 0.0246(17) 0.0166(15) 0.0235(16) 0 0.0006(17) 0 Sr
+La2 0.0174(15) 0.0174(15) 0.0174(15) -0.0014(10) 0.0014(10) 0.0014(10) La
+Sr2 0.0174(15) 0.0174(15) 0.0174(15) -0.0014(10) 0.0014(10) 0.0014(10) Sr
+La3 0.0051(15) 0.0148(16) 0.0134(16) 0 0 0.0008(16) La
+Sr3 0.0051(15) 0.0148(16) 0.0134(16) 0 0 0.0008(16) Sr
+La4 0.0259(15) 0.0259(15) 0.0259(15) -0.0013(9) 0.0013(9) -0.0013(9) La
+Sr4 0.0259(15) 0.0259(15) 0.0259(15) -0.0013(9) 0.0013(9) -0.0013(9) Sr
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+O 0.011 0.006 'International Tables Vol C tables 4.2.6.8 and 6.1.1.4'
+Al 0.064 0.051 'International Tables Vol C tables 4.2.6.8 and 6.1.1.4'
+Sr -1.531 3.250 'International Tables Vol C tables 4.2.6.8 and 6.1.1.4'
+Ru -1.259 0.836 'International Tables Vol C tables 4.2.6.8 and 6.1.1.4'
+Ba -0.324 2.282 'International Tables Vol C tables 4.2.6.8 and 6.1.1.4'
+La -0.287 2.452 'International Tables Vol C tables 4.2.6.8 and 6.1.1.4'

@@ -1,0 +1,184 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 00:18:51 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176760 $
+#$URL: svn://www.crystallography.net/cod/cif/2/01/02/2010260.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2010260
+loop_
+_publ_author_name
+'Norrestam, R.'
+'Carlson, S.'
+'Sj\"odin, A.'
+_publ_section_title
+;
+ Sr~0.735~Ba~0.265~Cu~2~(BO~3~)~2~ and
+ Sr~0.661~Ca~0.339~Cu~2~(BO~3~)~2~
+;
+_journal_issue                   12
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              1847
+_journal_page_last               1849
+_journal_paper_doi               10.1107/S0108270194007419
+_journal_volume                  50
+_journal_year                    1994
+_chemical_formula_moiety         'B2 Ba0.265 Cu2 O6 Sr0.735'
+_chemical_formula_sum            'B2 Ba0.265 Cu2 O6 Sr0.735'
+_chemical_formula_weight         345.5(3)
+_space_group_IT_number           121
+_symmetry_cell_setting           tetragonal
+_symmetry_space_group_name_Hall  'I -4 2'
+_symmetry_space_group_name_H-M   'I -4 2 m'
+_atom_type_scat_source           IntTabIV
+_cell_angle_alpha                90.
+_cell_angle_beta                 90.
+_cell_angle_gamma                90.
+_cell_formula_units_Z            4
+_cell_length_a                   9.010(2)
+_cell_length_b                   9.010(2)
+_cell_length_c                   6.779(2)
+_cell_measurement_reflns_used    14
+_cell_measurement_temperature    293.0(10)
+_cell_measurement_theta_max      28.9
+_cell_measurement_theta_min      12.8
+_cell_volume                     550.3(2)
+_diffrn_measurement_device       'Siemens/Stoe AED 2'
+_diffrn_measurement_method       \w-\q
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.016
+_diffrn_reflns_limit_h_max       13
+_diffrn_reflns_limit_h_min       -1
+_diffrn_reflns_limit_k_max       13
+_diffrn_reflns_limit_k_min       -1
+_diffrn_reflns_limit_l_max       10
+_diffrn_reflns_limit_l_min       -1
+_diffrn_reflns_number            683
+_diffrn_reflns_theta_max         30.0
+_diffrn_standards_decay_%        1.7
+_diffrn_standards_interval_time  360
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    16.34
+_exptl_absorpt_correction_T_max  0.36
+_exptl_absorpt_correction_T_min  0.09
+_exptl_absorpt_correction_type   integration
+_exptl_crystal_colour            blue
+_exptl_crystal_density_diffrn    4.185(4)
+_exptl_crystal_description       prismatic
+_exptl_crystal_size_max          0.30
+_exptl_crystal_size_mid          0.20
+_exptl_crystal_size_min          0.05
+_refine_diff_density_max         1.6
+_refine_diff_density_min         -1.5
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_obs   1.00
+_refine_ls_number_parameters     29
+_refine_ls_number_reflns         240
+_refine_ls_R_factor_obs          0.027
+_refine_ls_shift/esd_max         0.003
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 1/[\s^2^(F) + 0.0007F^2^]'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.035
+_reflns_number_observed          240
+_reflns_number_total             263
+_reflns_observed_criterion       I>5\s(I)
+_cod_data_source_file            br1074.cif
+_cod_data_source_block           I
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'w = 1/[\s^2^(F) + 0.0007F^2^]'
+was changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to 'w = 1/[\s^2^(F) +
+0.0007F^2^]'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        550.3(3)
+_cod_database_code               2010260
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,z
+y,-x,-z
+-y,x,-z
+-x,y,-z
+x,-y,-z
+-y,-x,z
+y,x,z
+1/2+x,1/2+y,1/2+z
+1/2-x,1/2-y,1/2+z
+1/2+y,1/2-x,1/2-z
+1/2-y,1/2+x,1/2-z
+1/2-x,1/2+y,1/2-z
+1/2+x,1/2-y,1/2-z
+1/2-y,1/2-x,1/2+z
+1/2+y,1/2+x,1/2+z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+Sr .0 .5 .0 .0106(2)
+Ba .0 .5 .0 .0106(2)
+Cu .38570(10) .38570(10) .2226(2) .0135(3)
+O(1) .1727(4) .3554(4) .2408(12) .0152(10)
+O(2) .0992(4) .0992(4) .2924(12) .019(2)
+B .2049(6) .2049(6) .2609(19) .0133(16)
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O(1) Cu O(1) . . 73.62(15) yes
+O(1) W O(2) . . 102.30(15) no
+O(2) Cu O(2) . . 81.79(15) yes
+O(2) Cu O(2) . . 84.1(3) yes
+O(1) B O(2) . . 123.3(5) no
+O(1) B O(1) . . 113.3(4) no
+O(1) Sr O(1) . 15_554 80.2(2) no
+O(1) Sr O(1) . 2_565 102.4(2) no
+O(1) Sr O(1) . 5_555 119.97(14) no
+O(1) Sr O(1) . 12_555 65.78(15) no
+O(1) Sr O(1) . 6_565 106.63(15) no
+O(1) Sr O(1) 12_555 15_554 121.93(13) no
+O(1) Sr O(1) . 16_454 109.15(15) no
+O(1) Sr O(1) 16_454 15_554 98.2(2) no
+O(1) Cu O(1) . 5_555 73.62(15) no
+O(1) Cu O(2) . 13_555 102.30(15) no
+O(1) Cu O(2) . 9_556 96.7(3) no
+O(2) Cu O(2) 14_555 13_555 81.79(15) no
+O(2) Cu O(2) . 9_556 84.1(3) no
+O(1) Cu O(2) 8_555 14_555 102.30(15) yes
+O(1) B O(2) . . 123.3(5) yes
+O(1) B O(1) . 8_555 113.3(4) yes
+O(1) B O(2) 8_555 . 123.3(5) no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Sr O(1) . . 2.604(6) yes
+Sr O(1) . . 2.684(6) yes
+Cu O(1) . . 1.943(4) yes
+Cu O(2) . . 1.931(4) yes
+Cu O(2) . . 2.923(8) yes
+B O(1) . . 1.393(7) yes
+B O(2) . . 1.364(7) yes

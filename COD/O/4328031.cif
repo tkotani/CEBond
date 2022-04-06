@@ -1,0 +1,809 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-16 22:30:59 +0200 (Tue, 16 Feb 2016) $
+#$Revision: 176467 $
+#$URL: svn://www.crystallography.net/cod/cif/4/32/80/4328031.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4328031
+loop_
+_publ_author_name
+'Sergey V. Chernov'
+'Yuri A. Dobrovolsky'
+'Sergey Ya. Istomin'
+'Evgeny V. Antipov'
+'Jekabs Grins'
+'Gunnar Svensson'
+'Nadezhda V. Tarakina'
+'Artem M. Abakumov'
+'Gustaaf Van Tendeloo'
+'Sten G. Eriksson'
+'Seikh M. H. Rahman'
+_publ_contact_author_address
+;
+Department of Chemistry, Moscow State University, Leninskie Gory, 119991
+ Moscow, Russia
+;
+_publ_contact_author_email       istomin@icr.chem.msu.ru
+_publ_contact_author_fax         +74959394788
+_publ_contact_author_name        'Sergey Ya. Istomin'
+_publ_contact_author_phone       +74959395244
+_publ_section_title
+;
+ Sr2GaScO5, Sr10Ga6Sc4O25, and SrGa0.75Sc0.25O2.5: a Play in the Octahedra
+ to Tetrahedra Ratio in Oxygen-Deficient Perovskites
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              1094
+_journal_page_last               1103
+_journal_paper_doi               10.1021/ic202236h
+_journal_volume                  51
+_journal_year                    2012
+_chemical_formula_sum            'Ga O5 Sc Sr2'
+_chemical_formula_weight         369.91
+_space_group_IT_number           74
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-I 2 2b'
+_symmetry_space_group_name_H-M   'I c m m'
+_audit_creation_date             2011-10-10T12:34
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_audit_update_record
+;
+2011-10-10T12:34  Initial CIF as created by GSAS2CIF
+
+2011-10-18 # Formatted by publCIF
+;
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            4
+_cell_length_a                   5.91158(7)
+_cell_length_b                   15.15258(18)
+_cell_length_c                   5.70458(7)
+_cell_measurement_temperature    298
+_cell_volume                     510.992(11)
+_computing_structure_refinement  GSAS
+_diffrn_ambient_temperature      298
+_diffrn_measurement_device_type  'Bruker D8-Advance'
+_diffrn_radiation_monochromator  'Ge 111'
+_diffrn_radiation_polarisn_ratio 0.678
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_type           'Cu K\a~1~'
+_diffrn_radiation_wavelength     1.5406
+_diffrn_source                   'sealed x-ray tube'
+_exptl_absorpt_process_details
+;   GSAS Absorption/surface roughness correction: function number 0
+ No correction is applied.
+;
+_exptl_crystal_density_diffrn    4.808
+_pd_block_id
+2011-10-10T12:34|ICMM_BRUKER|Sergey_Istomin|Bruker
+_pd_calc_method                  'Rietveld Refinement'
+_pd_char_colour                  white
+_pd_meas_2theta_range_inc        0.00811
+_pd_meas_2theta_range_max        99.99237
+_pd_meas_2theta_range_min        10.0
+_pd_meas_number_of_points        11092
+_pd_meas_scan_method             fixed
+_pd_phase_name
+'from C:/gsas/MyWork/Sr2ScGaO5/Icmm/SRGASC_ICMM.EXP'
+_pd_proc_2theta_range_inc        0.00811
+_pd_proc_2theta_range_max        99.95058
+_pd_proc_2theta_range_min        9.9582
+_pd_proc_info_datetime           2011-10-10T12:34:33
+_pd_proc_ls_background_function
+;   GSAS Background function number 1 with 12 terms.
+ Shifted Chebyshev function of 1st kind
+      1:    221.592     2:   -255.404     3:    173.172     4:   -100.839    
+      5:    59.6869     6:   -27.7713     7:    4.93503     8:    4.97822    
+      9:   -8.02203    10:    10.0190    11:   -8.31999    12:    5.21895    
+;
+_pd_proc_ls_peak_cutoff          0.00100
+_pd_proc_ls_profile_function
+;
+ CW Profile function number 2 with  18 terms
+ Profile coefficients for Simpson's rule integration of pseudovoigt function
+ C.J. Howard (1982). J. Appl. Cryst.,15,615-620.
+ P. Thompson, D.E. Cox & J.B. Hastings (1987). J. Appl. Cryst.,20,79-83.
+ Peak tails are ignored  where the intensity is below 0.0010 times the peak
+   Aniso. broadening axis   0.0   0.0   1.0
+;
+_pd_proc_ls_prof_R_factor        0.0618
+_pd_proc_ls_prof_wR_expected     0.0534
+_pd_proc_ls_prof_wR_factor       0.0796
+_pd_proc_number_of_points        11092
+_pd_spec_mounting                'packed powder'
+_pd_spec_mount_mode              reflection
+_refine_ls_goodness_of_fit_all   1.49
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     37
+_refine_ls_number_restraints     0
+_refine_ls_R_Fsqd_factor         0.04056
+_refine_ls_shift/su_max          0.03
+_refine_ls_shift/su_mean         0.01
+_reflns_d_resolution_high        1.012
+_reflns_d_resolution_low         5.507
+_reflns_limit_h_max              6
+_reflns_limit_h_min              0
+_reflns_limit_k_max              15
+_reflns_limit_k_min              0
+_reflns_limit_l_max              5
+_reflns_limit_l_min              0
+_reflns_number_total             155
+_cod_data_source_file            ic202236h_si_002_1.cif
+_cod_data_source_block           ICMM_BRUKER_publ
+_cod_depositor_comments          'Adding Fobs data.'
+_cod_original_formula_sum        'Ga1.00 O5.00 Sc Sr2'
+_cod_database_code               4328031
+_cod_database_fobs_code          4328031
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -x+1/2,+y,+z+1/2
+3 +x,-y+1/2,+z
+4 -x+1/2,-y+1/2,+z+1/2
+-1 -x,-y,-z
+-2 +x+1/2,-y,-z+1/2
+-3 -x,+y+1/2,-z
+-4 +x+1/2,+y+1/2,-z+1/2
+101 +x+1/2,+y+1/2,+z+1/2
+102 -x,+y+1/2,+z
+103 +x+1/2,-y,+z+1/2
+104 -x,-y,+z
+-101 -x+1/2,-y+1/2,-z+1/2
+-102 +x,-y+1/2,-z
+-103 -x+1/2,+y,-z+1/2
+-104 +x,+y,-z
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+Sr Sr 0.02003(12) 0.11199(4) 0.5 1.0 Uiso 0.0109(9) 8
+Sc Sc1 0.0 0.0 0.0 1.0 Uiso 0.0087(11) 4
+Ga Ga2 -0.07184(20) 0.25 -0.0268(7) 0.5 Uiso 0.0131(12) 8
+O O1 0.25 -0.01399(24) 0.25 1.0 Uiso 0.0043(14) 8
+O O2 0.0719(6) 0.14584(26) 0.0 1.0 Uiso 0.0224(17) 8
+O O3 0.8333(12) 0.25 0.6598(15) 0.5 Uiso 0.02 8
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_Cromer_Mann_a1
+_atom_type_scat_Cromer_Mann_a2
+_atom_type_scat_Cromer_Mann_a3
+_atom_type_scat_Cromer_Mann_a4
+_atom_type_scat_Cromer_Mann_b1
+_atom_type_scat_Cromer_Mann_b2
+_atom_type_scat_Cromer_Mann_b3
+_atom_type_scat_Cromer_Mann_b4
+_atom_type_scat_Cromer_Mann_c
+_atom_type_scat_source
+Sr 8.0 0.000 0.000 17.5663 1.55640 9.81840 14.0988 5.42200 0.16640 2.66940
+132.376 2.50640 International_Tables_Vol_C
+Ga 4.0 0.000 0.000 15.2354 3.06690 6.70060 0.24120 4.35910 10.7805 2.96230
+61.4135 1.71890 International_Tables_Vol_C
+Sc 4.0 0.000 0.000 9.18900 9.02130 7.36790 0.57290 1.64090 136.108 1.46800
+51.3531 1.33290 International_Tables_Vol_C
+O 20.0 0.000 0.000 3.04850 13.2771 2.28680 5.70110 1.54630 0.32390 0.86700
+32.9089 0.25080 International_Tables_Vol_C
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+Sr Sr Sr 83.555(26) 2_454 2_455 n
+Sr Sr Sr 91.8514(25) 2_454 2_554 n
+Sr Sr Sr 175.406(28) 2_454 2_555 n
+Sr Sr Sr 90.0 2_454 3_555 n
+Sr Sr Sr 87.024(19) 2_454 -1_556 n
+Sr Sr Sc1 53.216(4) 2_454 1_555 n
+Sr Sr Sc1 123.066(23) 2_454 1_556 n
+Sr Sr Sc1 49.241(13) 2_454 2_455 n
+Sr Sr Sc1 129.792(7) 2_454 2_555 n
+Sr Sr Sc1 53.216(4) 2_454 1_555 n
+Sr Sr Ga2 123.066(23) 2_454 1_556 n
+Sr Sr Ga2 49.241(13) 2_454 2_455 n
+Sr Sr Ga2 129.792(7) 2_454 2_555 n
+Sr Sr O1 113.766(33) 2_454 1_556 n
+Sr Sr O1 52.05(5) 2_454 2_455 n
+Sr Sr O1 56.32(6) 2_454 -101_556 n
+Sr Sr O1 50.410(23) 2_454 -102_656 n
+Sr Sr O2 49.430(20) 2_454 1_555 n
+Sr Sr O2 113.766(33) 2_454 1_556 n
+Sr Sr O2 52.05(5) 2_454 2_455 n
+Sr Sr O2 56.32(6) 2_454 -101_465 n
+Sr Sr O2 50.410(23) 2_454 -102_565 n
+Sr Sr O2 115.564(35) 2_454 -102_566 n
+Sr Sr O3 91.3296(24) 2_454 1_555 n
+Sr Sr Sr 175.406(28) 2_455 2_554 n
+Sr Sr Sr 91.8514(25) 2_455 2_555 n
+Sr Sr Sr 90.0 2_455 3_555 n
+Sr Sr Sr 87.024(19) 2_455 -1_556 n
+Sr Sr Sc1 123.066(23) 2_455 1_555 n
+Sr Sr Sc1 53.216(4) 2_455 1_556 n
+Sr Sr Sc1 49.241(13) 2_455 2_455 n
+Sr Sr Sc1 129.792(7) 2_455 2_555 n
+Sr Sr Ga2 123.066(23) 2_455 1_555 n
+Sr Sr Ga2 53.216(4) 2_455 1_556 n
+Sr Sr Ga2 49.241(13) 2_455 2_455 n
+Sr Sr Ga2 129.792(7) 2_455 2_555 n
+Sr Sr O1 50.410(23) 2_455 1_556 n
+Sr Sr O1 56.32(6) 2_455 2_455 n
+Sr Sr O1 52.05(5) 2_455 -101_556 n
+Sr Sr O1 113.766(33) 2_455 -102_656 n
+Sr Sr O2 115.564(35) 2_455 1_555 n
+Sr Sr O2 50.410(23) 2_455 1_556 n
+Sr Sr O2 56.32(6) 2_455 2_455 n
+Sr Sr O2 52.05(5) 2_455 -101_465 n
+Sr Sr O2 113.766(33) 2_455 -102_565 n
+Sr Sr O2 49.430(20) 2_455 -102_566 n
+Sr Sr O3 135.72(5) 2_455 1_555 n
+Sr Sr Sr 92.743(31) 2_554 2_555 n
+Sr Sr Sr 90.0 2_554 3_555 n
+Sr Sr Sr 92.753(16) 2_554 -1_556 n
+Sr Sr Sc1 53.341(4) 2_554 1_555 n
+Sr Sr Sc1 130.261(22) 2_554 1_556 n
+Sr Sr Sc1 127.161(11) 2_554 2_455 n
+Sr Sr Sc1 53.690(16) 2_554 2_555 n
+Sr Sr Ga2 53.341(4) 2_554 1_555 n
+Sr Sr Ga2 130.261(22) 2_554 1_556 n
+Sr Sr Ga2 127.161(11) 2_554 2_455 n
+Sr Sr Ga2 53.690(16) 2_554 2_555 n
+Sr Sr O1 132.337(32) 2_554 1_556 n
+Sr Sr O1 120.55(6) 2_554 2_455 n
+Sr Sr O1 125.02(6) 2_554 -101_556 n
+Sr Sr O1 62.825(32) 2_554 -102_656 n
+Sr Sr O2 60.891(28) 2_554 1_555 n
+Sr Sr O2 132.337(32) 2_554 1_556 n
+Sr Sr O2 120.55(6) 2_554 2_455 n
+Sr Sr O2 125.02(6) 2_554 -101_465 n
+Sr Sr O2 62.825(32) 2_554 -102_565 n
+Sr Sr O2 133.548(26) 2_554 -102_566 n
+Sr Sr O3 44.09(5) 2_554 1_555 n
+Sr Sr Sr 90.0 2_555 3_555 n
+Sr Sr Sr 92.753(16) 2_555 -1_556 n
+Sr Sr Sc1 130.261(22) 2_555 1_555 n
+Sr Sr Sc1 53.341(4) 2_555 1_556 n
+Sr Sr Sc1 127.161(11) 2_555 2_455 n
+Sr Sr Sc1 53.690(16) 2_555 2_555 n
+Sr Sr Ga2 130.261(22) 2_555 1_555 n
+Sr Sr Ga2 53.341(4) 2_555 1_556 n
+Sr Sr Ga2 127.161(11) 2_555 2_455 n
+Sr Sr Ga2 53.690(16) 2_555 2_555 n
+Sr Sr O1 62.825(32) 2_555 1_556 n
+Sr Sr O1 125.02(6) 2_555 2_455 n
+Sr Sr O1 120.55(6) 2_555 -101_556 n
+Sr Sr O1 132.337(32) 2_555 -102_656 n
+Sr Sr O2 133.548(26) 2_555 1_555 n
+Sr Sr O2 62.825(32) 2_555 1_556 n
+Sr Sr O2 125.02(6) 2_555 2_455 n
+Sr Sr O2 120.55(6) 2_555 -101_465 n
+Sr Sr O2 132.337(32) 2_555 -102_565 n
+Sr Sr O2 60.891(28) 2_555 -102_566 n
+Sr Sr O3 91.969(22) 2_555 1_555 n
+Sr Sr Sr 176.008(24) 3_555 -1_556 n
+Sr Sr Sc1 120.729(9) 3_555 1_555 n
+Sr Sr Sc1 120.729(9) 3_555 1_556 n
+Sr Sr Sc1 118.899(10) 3_555 2_455 n
+Sr Sr Sc1 120.883(11) 3_555 2_555 n
+Sr Sr Ga2 120.729(9) 3_555 1_555 n
+Sr Sr Ga2 120.729(9) 3_555 1_556 n
+Sr Sr Ga2 118.899(10) 3_555 2_455 n
+Sr Sr Ga2 120.883(11) 3_555 2_555 n
+Sr Sr O1 52.78(4) 3_555 1_556 n
+Sr Sr O1 51.764(17) 3_555 2_455 n
+Sr Sr O1 51.764(17) 3_555 -101_556 n
+Sr Sr O1 52.78(4) 3_555 -102_656 n
+Sr Sr O2 55.599(35) 3_555 1_555 n
+Sr Sr O2 52.78(4) 3_555 1_556 n
+Sr Sr O2 51.764(17) 3_555 2_455 n
+Sr Sr O2 51.764(17) 3_555 -101_465 n
+Sr Sr O2 52.78(4) 3_555 -102_565 n
+Sr Sr O2 55.599(35) 3_555 -102_566 n
+Sr Sr O3 134.09(5) 3_555 1_555 n
+Sr Sr Sc1 59.188(9) -1_556 1_555 n
+Sr Sr Sc1 59.188(9) -1_556 1_556 n
+Sr Sr Sc1 57.109(21) -1_556 2_455 n
+Sr Sr Sc1 63.109(20) -1_556 2_555 n
+Sr Sr Ga2 59.188(9) -1_556 1_555 n
+Sr Sr Ga2 59.188(9) -1_556 1_556 n
+Sr Sr Ga2 57.109(21) -1_556 2_455 n
+Sr Sr Ga2 63.109(20) -1_556 2_555 n
+Sr Sr O1 126.33(4) -1_556 1_556 n
+Sr Sr O1 124.25(4) -1_556 2_455 n
+Sr Sr O1 124.25(4) -1_556 -101_556 n
+Sr Sr O1 126.33(4) -1_556 -102_656 n
+Sr Sr O2 123.600(34) -1_556 1_555 n
+Sr Sr O2 126.33(4) -1_556 1_556 n
+Sr Sr O2 124.25(4) -1_556 2_455 n
+Sr Sr O2 124.25(4) -1_556 -101_465 n
+Sr Sr O2 126.33(4) -1_556 -102_565 n
+Sr Sr O2 123.600(34) -1_556 -102_566 n
+Sr Sr O3 48.73(5) -1_556 1_555 n
+Sc1 Sr Sc1 118.376(18) 1_555 1_556 n
+Sc1 Sr Sc1 73.850(12) 1_555 2_455 n
+Sc1 Sr Sc1 76.604(11) 1_555 2_555 n
+Sc1 Sr Ga2 0.0 1_555 1_555 n
+Sc1 Sr Ga2 118.376(18) 1_555 1_556 n
+Sc1 Sr Ga2 73.850(12) 1_555 2_455 n
+Sc1 Sr Ga2 76.604(11) 1_555 2_555 n
+Sc1 Sr O1 166.90(4) 1_555 1_556 n
+Sc1 Sr O1 104.44(6) 1_555 2_455 n
+Sc1 Sr O1 109.10(6) 1_555 -101_556 n
+Sc1 Sr O1 68.46(4) 1_555 -102_656 n
+Sc1 Sr O2 65.551(35) 1_555 1_555 n
+Sc1 Sr O2 166.90(4) 1_555 1_556 n
+Sc1 Sr O2 104.44(6) 1_555 2_455 n
+Sc1 Sr O2 109.10(6) 1_555 -101_465 n
+Sc1 Sr O2 68.46(4) 1_555 -102_565 n
+Sc1 Sr O2 168.757(35) 1_555 -102_566 n
+Sc1 Sr O3 38.338(6) 1_555 1_555 n
+Sc1 Sr Sc1 73.850(12) 1_556 2_455 n
+Sc1 Sr Sc1 76.604(11) 1_556 2_555 n
+Sc1 Sr Ga2 118.376(18) 1_556 1_555 n
+Sc1 Sr Ga2 0.0 1_556 1_556 n
+Sc1 Sr Ga2 73.850(12) 1_556 2_455 n
+Sc1 Sr Ga2 76.604(11) 1_556 2_555 n
+Sc1 Sr O1 68.46(4) 1_556 1_556 n
+Sc1 Sr O1 109.10(6) 1_556 2_455 n
+Sc1 Sr O1 104.44(6) 1_556 -101_556 n
+Sc1 Sr O1 166.90(4) 1_556 -102_656 n
+Sc1 Sr O2 168.757(35) 1_556 1_555 n
+Sc1 Sr O2 68.46(4) 1_556 1_556 n
+Sc1 Sr O2 109.10(6) 1_556 2_455 n
+Sc1 Sr O2 104.44(6) 1_556 -101_465 n
+Sc1 Sr O2 166.90(4) 1_556 -102_565 n
+Sc1 Sr O2 65.551(35) 1_556 -102_566 n
+Sc1 Sr O3 96.23(5) 1_556 1_555 n
+Sc1 Sr Sc1 120.218(17) 2_455 2_555 n
+Sc1 Sr Ga2 73.850(12) 2_455 1_555 n
+Sc1 Sr Ga2 73.850(12) 2_455 1_556 n
+Sc1 Sr Ga2 0.0 2_455 2_455 n
+Sc1 Sr Ga2 120.218(17) 2_455 2_555 n
+Sc1 Sr O1 98.903(24) 2_455 1_556 n
+Sc1 Sr O1 67.206(19) 2_455 2_455 n
+Sc1 Sr O1 67.206(19) 2_455 -101_556 n
+Sc1 Sr O1 98.903(24) 2_455 -102_656 n
+Sc1 Sr O2 98.313(21) 2_455 1_555 n
+Sc1 Sr O2 98.903(24) 2_455 1_556 n
+Sc1 Sr O2 67.206(19) 2_455 2_455 n
+Sc1 Sr O2 67.206(19) 2_455 -101_465 n
+Sc1 Sr O2 98.903(24) 2_455 -102_565 n
+Sc1 Sr O2 98.313(21) 2_455 -102_566 n
+Sc1 Sr O3 95.60(4) 2_455 1_555 n
+Sc1 Sr Ga2 76.604(11) 2_555 1_555 n
+Sc1 Sr Ga2 76.604(11) 2_555 1_556 n
+Sc1 Sr Ga2 120.218(17) 2_555 2_455 n
+Sc1 Sr Ga2 0.0 2_555 2_555 n
+Sc1 Sr O1 116.440(31) 2_555 1_556 n
+Sc1 Sr O1 172.161(34) 2_555 2_455 n
+Sc1 Sr O1 172.161(34) 2_555 -101_556 n
+Sc1 Sr O1 116.440(31) 2_555 -102_656 n
+Sc1 Sr O2 114.578(32) 2_555 1_555 n
+Sc1 Sr O2 116.440(31) 2_555 1_556 n
+Sc1 Sr O2 172.161(34) 2_555 2_455 n
+Sc1 Sr O2 172.161(34) 2_555 -101_465 n
+Sc1 Sr O2 116.440(31) 2_555 -102_565 n
+Sc1 Sr O2 114.578(32) 2_555 -102_566 n
+Sc1 Sr O3 38.514(10) 2_555 1_555 n
+Ga2 Sr Ga2 118.376(18) 1_555 1_556 n
+Ga2 Sr Ga2 73.850(12) 1_555 2_455 n
+Ga2 Sr Ga2 76.604(11) 1_555 2_555 n
+Ga2 Sr O1 166.90(4) 1_555 1_556 n
+Ga2 Sr O1 104.44(6) 1_555 2_455 n
+Ga2 Sr O1 109.10(6) 1_555 -101_556 n
+Ga2 Sr O1 68.46(4) 1_555 -102_656 n
+Ga2 Sr O2 65.551(35) 1_555 1_555 n
+Ga2 Sr O2 166.90(4) 1_555 1_556 n
+Ga2 Sr O2 104.44(6) 1_555 2_455 n
+Ga2 Sr O2 109.10(6) 1_555 -101_465 n
+Ga2 Sr O2 68.46(4) 1_555 -102_565 n
+Ga2 Sr O2 168.757(35) 1_555 -102_566 n
+Ga2 Sr O3 38.338(6) 1_555 1_555 n
+Ga2 Sr Ga2 73.850(12) 1_556 2_455 n
+Ga2 Sr Ga2 76.604(11) 1_556 2_555 n
+Ga2 Sr O1 68.46(4) 1_556 1_556 n
+Ga2 Sr O1 109.10(6) 1_556 2_455 n
+Ga2 Sr O1 104.44(6) 1_556 -101_556 n
+Ga2 Sr O1 166.90(4) 1_556 -102_656 n
+Ga2 Sr O2 168.757(35) 1_556 1_555 n
+Ga2 Sr O2 68.46(4) 1_556 1_556 n
+Ga2 Sr O2 109.10(6) 1_556 2_455 n
+Ga2 Sr O2 104.44(6) 1_556 -101_465 n
+Ga2 Sr O2 166.90(4) 1_556 -102_565 n
+Ga2 Sr O2 65.551(35) 1_556 -102_566 n
+Ga2 Sr O3 96.23(5) 1_556 1_555 n
+Ga2 Sr Ga2 120.218(17) 2_455 2_555 n
+Ga2 Sr O1 98.903(24) 2_455 1_556 n
+Ga2 Sr O1 67.206(19) 2_455 2_455 n
+Ga2 Sr O1 67.206(19) 2_455 -101_556 n
+Ga2 Sr O1 98.903(24) 2_455 -102_656 n
+Ga2 Sr O2 98.313(21) 2_455 1_555 n
+Ga2 Sr O2 98.903(24) 2_455 1_556 n
+Ga2 Sr O2 67.206(19) 2_455 2_455 n
+Ga2 Sr O2 67.206(19) 2_455 -101_465 n
+Ga2 Sr O2 98.903(24) 2_455 -102_565 n
+Ga2 Sr O2 98.313(21) 2_455 -102_566 n
+Ga2 Sr O3 95.60(4) 2_455 1_555 n
+Ga2 Sr O1 116.440(31) 2_555 1_556 n
+Ga2 Sr O1 172.161(34) 2_555 2_455 n
+Ga2 Sr O1 172.161(34) 2_555 -101_556 n
+Ga2 Sr O1 116.440(31) 2_555 -102_656 n
+Ga2 Sr O2 114.578(32) 2_555 1_555 n
+Ga2 Sr O2 116.440(31) 2_555 1_556 n
+Ga2 Sr O2 172.161(34) 2_555 2_455 n
+Ga2 Sr O2 172.161(34) 2_555 -101_465 n
+Ga2 Sr O2 116.440(31) 2_555 -102_565 n
+Ga2 Sr O2 114.578(32) 2_555 -102_566 n
+Ga2 Sr O3 38.514(10) 2_555 1_555 n
+O1 Sr O1 62.47(4) 1_556 2_455 n
+O1 Sr O1 57.80(9) 1_556 -101_556 n
+O1 Sr O1 102.65(8) 1_556 -102_656 n
+O1 Sr O2 105.613(16) 1_556 1_555 n
+O1 Sr O2 0.0 1_556 1_556 n
+O1 Sr O2 62.47(4) 1_556 2_455 n
+O1 Sr O2 57.80(9) 1_556 -101_465 n
+O1 Sr O2 102.65(8) 1_556 -102_565 n
+O1 Sr O2 2.96(8) 1_556 -102_566 n
+O1 Sr O3 154.76(4) 1_556 1_555 n
+O1 Sr O1 5.19(13) 2_455 -101_556 n
+O1 Sr O1 57.80(9) 2_455 -102_656 n
+O1 Sr O2 59.90(4) 2_455 1_555 n
+O1 Sr O2 62.47(4) 2_455 1_556 n
+O1 Sr O2 0.0 2_455 2_455 n
+O1 Sr O2 5.19(13) 2_455 -101_465 n
+O1 Sr O2 57.80(9) 2_455 -102_565 n
+O1 Sr O2 64.66(9) 2_455 -102_566 n
+O1 Sr O3 142.72(6) 2_455 1_555 n
+O1 Sr O1 62.47(4) -101_556 -102_656 n
+O1 Sr O2 64.66(9) -101_465 1_555 n
+O1 Sr O2 57.80(9) -101_465 1_556 n
+O1 Sr O2 5.19(13) -101_465 2_455 n
+O1 Sr O2 0.0 -101_465 -101_465 n
+O1 Sr O2 62.47(4) -101_465 -102_565 n
+O1 Sr O2 59.90(4) -101_465 -102_566 n
+O1 Sr O3 147.43(6) -101_566 1_555 n
+O1 Sr O2 2.96(8) -102_565 1_555 n
+O1 Sr O2 102.65(8) -102_565 1_556 n
+O1 Sr O2 57.80(9) -102_565 2_455 n
+O1 Sr O2 62.47(4) -102_565 -101_465 n
+O1 Sr O2 0.0 -102_565 -102_565 n
+O1 Sr O2 105.613(16) -102_565 -102_566 n
+O1 Sr O3 95.33(6) -102_666 1_555 n
+O2 Sr O2 105.613(16) 1_555 1_556 n
+O2 Sr O2 59.90(4) 1_555 2_455 n
+O2 Sr O2 64.66(9) 1_555 -101_465 n
+O2 Sr O2 2.96(8) 1_555 -102_565 n
+O2 Sr O2 108.57(7) 1_555 -102_566 n
+O2 Sr O3 92.51(5) 1_555 1_555 n
+O2 Sr O2 62.47(4) 1_556 2_455 n
+O2 Sr O2 57.80(9) 1_556 -101_465 n
+O2 Sr O2 102.65(8) 1_556 -102_565 n
+O2 Sr O2 2.96(8) 1_556 -102_566 n
+O2 Sr O3 154.76(4) 1_556 1_555 n
+O2 Sr O2 5.19(13) 2_455 -101_465 n
+O2 Sr O2 57.80(9) 2_455 -102_565 n
+O2 Sr O2 64.66(9) 2_455 -102_566 n
+O2 Sr O3 142.72(6) 2_455 1_555 n
+O2 Sr O2 62.47(4) -101_465 -102_565 n
+O2 Sr O2 59.90(4) -101_465 -102_566 n
+O2 Sr O3 147.43(6) -101_566 1_555 n
+O2 Sr O2 105.613(16) -102_565 -102_566 n
+O2 Sr O3 95.33(6) -102_666 1_555 n
+O2 Sr O3 152.62(4) -102_667 1_555 n
+Sr Sc1 Sr 118.376(18) 1_554 1_555 n
+Sr Sc1 Sr 77.542(15) 1_554 2_454 n
+Sr Sc1 Sr 72.969(17) 1_554 2_554 n
+Sr Sc1 Sr 61.624(18) 1_554 -1_555 n
+Sr Sc1 Sr 180.0 1_554 -1_556 n
+Sr Sc1 Sr 107.031(17) 1_554 -2_455 n
+Sr Sc1 Sr 102.458(15) 1_554 -2_555 n
+Sr Sc1 O3 128.33(6) 1_554 1_555 n
+Sr Sc1 O3 55.51(7) 1_554 2_554 n
+Sr Sc1 O3 51.67(6) 1_554 -1_555 n
+Sr Sc1 O3 124.49(7) 1_554 -2_667 n
+Sr Sc1 Sr 77.542(15) 1_555 2_454 n
+Sr Sc1 Sr 72.969(17) 1_555 2_554 n
+Sr Sc1 Sr 180.0 1_555 -1_555 n
+Sr Sc1 Sr 61.624(18) 1_555 -1_556 n
+Sr Sc1 Sr 107.031(17) 1_555 -2_455 n
+Sr Sc1 Sr 102.458(15) 1_555 -2_555 n
+Sr Sc1 O3 55.51(7) 1_555 1_555 n
+Sr Sc1 O3 128.33(6) 1_555 2_554 n
+Sr Sc1 O3 124.49(7) 1_555 -1_555 n
+Sr Sc1 O3 51.67(6) 1_555 -2_667 n
+Sr Sc1 Sr 120.218(17) 2_454 2_554 n
+Sr Sc1 Sr 102.458(15) 2_454 -1_555 n
+Sr Sc1 Sr 102.458(15) 2_454 -1_556 n
+Sr Sc1 Sr 59.782(17) 2_454 -2_455 n
+Sr Sc1 Sr 180.0 2_454 -2_555 n
+Sr Sc1 O3 132.55(6) 2_454 1_555 n
+Sr Sc1 O3 132.55(6) 2_454 2_554 n
+Sr Sc1 O3 47.45(6) 2_454 -1_555 n
+Sr Sc1 O3 47.45(6) 2_454 -2_667 n
+Sr Sc1 Sr 107.031(17) 2_554 -1_555 n
+Sr Sc1 Sr 107.031(17) 2_554 -1_556 n
+Sr Sc1 Sr 180.0 2_554 -2_455 n
+Sr Sc1 Sr 59.782(17) 2_554 -2_555 n
+Sr Sc1 O3 55.83(7) 2_554 1_555 n
+Sr Sc1 O3 55.83(7) 2_554 2_554 n
+Sr Sc1 O3 124.17(7) 2_554 -1_555 n
+Sr Sc1 O3 124.17(7) 2_554 -2_667 n
+Sr Sc1 Sr 118.376(18) -1_555 -1_556 n
+Sr Sc1 Sr 72.969(17) -1_555 -2_455 n
+Sr Sc1 Sr 77.542(15) -1_555 -2_555 n
+Sr Sc1 O3 124.49(7) -1_555 1_555 n
+Sr Sc1 O3 51.67(6) -1_555 2_554 n
+Sr Sc1 O3 55.51(7) -1_555 -1_555 n
+Sr Sc1 O3 128.33(6) -1_555 -2_667 n
+Sr Sc1 Sr 72.969(17) -1_556 -2_455 n
+Sr Sc1 Sr 77.542(15) -1_556 -2_555 n
+Sr Sc1 O3 51.67(6) -1_556 1_555 n
+Sr Sc1 O3 124.49(7) -1_556 2_554 n
+Sr Sc1 O3 128.33(6) -1_556 -1_555 n
+Sr Sc1 O3 55.51(7) -1_556 -2_667 n
+Sr Sc1 Sr 120.218(17) -2_455 -2_555 n
+Sr Sc1 O3 124.17(7) -2_667 1_555 n
+Sr Sc1 O3 124.17(7) -2_667 2_554 n
+Sr Sc1 O3 55.83(7) -2_667 -1_555 n
+Sr Sc1 O3 55.83(7) -2_667 -2_667 n
+Sr Sc1 O3 47.45(6) -2_767 1_555 n
+Sr Sc1 O3 47.45(6) -2_767 2_554 n
+Sr Sc1 O3 132.55(6) -2_767 -1_555 n
+Sr Sc1 O3 132.55(6) -2_767 -2_667 n
+O3 Sc1 O3 87.375(20) 1_555 2_554 n
+O3 Sc1 O3 179.972 1_555 -1_555 n
+O3 Sc1 O3 92.625(20) 1_555 -2_667 n
+O3 Sc1 O3 92.625(20) 2_554 -1_555 n
+O3 Sc1 O3 179.972 2_554 -2_667 n
+O3 Sc1 O3 87.375(20) -1_555 -2_667 n
+Sr Ga2 Sr 118.376(18) 1_554 1_555 n
+Sr Ga2 Sr 77.542(15) 1_554 2_454 n
+Sr Ga2 Sr 72.969(17) 1_554 2_554 n
+Sr Ga2 Sr 61.624(18) 1_554 -1_555 n
+Sr Ga2 Sr 180.0 1_554 -1_556 n
+Sr Ga2 Sr 107.031(17) 1_554 -2_455 n
+Sr Ga2 Sr 102.458(15) 1_554 -2_555 n
+Sr Ga2 O3 128.33(6) 1_554 1_555 n
+Sr Ga2 O3 55.51(7) 1_554 2_554 n
+Sr Ga2 O3 51.67(6) 1_554 -1_555 n
+Sr Ga2 O3 124.49(7) 1_554 -2_667 n
+Sr Ga2 Sr 77.542(15) 1_555 2_454 n
+Sr Ga2 Sr 72.969(17) 1_555 2_554 n
+Sr Ga2 Sr 180.0 1_555 -1_555 n
+Sr Ga2 Sr 61.624(18) 1_555 -1_556 n
+Sr Ga2 Sr 107.031(17) 1_555 -2_455 n
+Sr Ga2 Sr 102.458(15) 1_555 -2_555 n
+Sr Ga2 O3 55.51(7) 1_555 1_555 n
+Sr Ga2 O3 128.33(6) 1_555 2_554 n
+Sr Ga2 O3 124.49(7) 1_555 -1_555 n
+Sr Ga2 O3 51.67(6) 1_555 -2_667 n
+Sr Ga2 Sr 120.218(17) 2_454 2_554 n
+Sr Ga2 Sr 102.458(15) 2_454 -1_555 n
+Sr Ga2 Sr 102.458(15) 2_454 -1_556 n
+Sr Ga2 Sr 59.782(17) 2_454 -2_455 n
+Sr Ga2 Sr 180.0 2_454 -2_555 n
+Sr Ga2 O3 132.55(6) 2_454 1_555 n
+Sr Ga2 O3 132.55(6) 2_454 2_554 n
+Sr Ga2 O3 47.45(6) 2_454 -1_555 n
+Sr Ga2 O3 47.45(6) 2_454 -2_667 n
+Sr Ga2 Sr 107.031(17) 2_554 -1_555 n
+Sr Ga2 Sr 107.031(17) 2_554 -1_556 n
+Sr Ga2 Sr 180.0 2_554 -2_455 n
+Sr Ga2 Sr 59.782(17) 2_554 -2_555 n
+Sr Ga2 O3 55.83(7) 2_554 1_555 n
+Sr Ga2 O3 55.83(7) 2_554 2_554 n
+Sr Ga2 O3 124.17(7) 2_554 -1_555 n
+Sr Ga2 O3 124.17(7) 2_554 -2_667 n
+Sr Ga2 Sr 118.376(18) -1_555 -1_556 n
+Sr Ga2 Sr 72.969(17) -1_555 -2_455 n
+Sr Ga2 Sr 77.542(15) -1_555 -2_555 n
+Sr Ga2 O3 124.49(7) -1_555 1_555 n
+Sr Ga2 O3 51.67(6) -1_555 2_554 n
+Sr Ga2 O3 55.51(7) -1_555 -1_555 n
+Sr Ga2 O3 128.33(6) -1_555 -2_667 n
+Sr Ga2 Sr 72.969(17) -1_556 -2_455 n
+Sr Ga2 Sr 77.542(15) -1_556 -2_555 n
+Sr Ga2 O3 51.67(6) -1_556 1_555 n
+Sr Ga2 O3 124.49(7) -1_556 2_554 n
+Sr Ga2 O3 128.33(6) -1_556 -1_555 n
+Sr Ga2 O3 55.51(7) -1_556 -2_667 n
+Sr Ga2 Sr 120.218(17) -2_455 -2_555 n
+Sr Ga2 O3 124.17(7) -2_667 1_555 n
+Sr Ga2 O3 124.17(7) -2_667 2_554 n
+Sr Ga2 O3 55.83(7) -2_667 -1_555 n
+Sr Ga2 O3 55.83(7) -2_667 -2_667 n
+Sr Ga2 O3 47.45(6) -2_767 1_555 n
+Sr Ga2 O3 47.45(6) -2_767 2_554 n
+Sr Ga2 O3 132.55(6) -2_767 -1_555 n
+Sr Ga2 O3 132.55(6) -2_767 -2_667 n
+O3 Ga2 O3 87.375(20) 1_555 2_554 n
+O3 Ga2 O3 179.972 1_555 -1_555 n
+O3 Ga2 O3 92.625(20) 1_555 -2_667 n
+O3 Ga2 O3 92.625(20) 2_554 -1_555 n
+O3 Ga2 O3 179.972 2_554 -2_667 n
+O3 Ga2 O3 87.375(20) -1_555 -2_667 n
+Sr O1 Sr 77.54(4) 1_554 2_454 n
+Sr O1 Sr 74.43(8) 1_554 3_554 n
+Sr O1 Sr 122.20(9) 1_554 4_454 n
+Sr O1 O1 141.33(4) 1_554 -102_656 n
+Sr O1 O2 141.33(4) 1_554 -102_565 n
+Sr O1 Sr 122.20(9) 2_454 3_554 n
+Sr O1 Sr 76.472(34) 2_454 4_454 n
+Sr O1 O1 87.40(7) 2_454 -102_656 n
+Sr O1 O2 87.40(7) 2_454 -102_565 n
+Sr O1 Sr 77.54(4) 3_554 4_454 n
+Sr O1 O1 141.33(4) 3_554 -102_656 n
+Sr O1 O2 141.33(4) 3_554 -102_565 n
+Sr O1 O1 87.40(7) 4_454 -102_656 n
+Sr O1 O2 87.40(7) 4_454 -102_565 n
+O1 O1 O2 0.0 -102_565 -102_565 n
+Sr O2 Sr 105.613(16) 1_554 1_555 n
+Sr O2 Sr 77.54(4) 1_554 2_454 n
+Sr O2 Sr 74.43(8) 1_554 3_554 n
+Sr O2 Sr 162.28(4) 1_554 3_555 n
+Sr O2 Sr 122.20(9) 1_554 4_454 n
+Sr O2 O1 141.33(4) 1_554 -102_656 n
+Sr O2 O2 141.33(4) 1_554 -102_565 n
+Sr O2 Sr 74.25(5) 1_555 2_454 n
+Sr O2 Sr 162.28(4) 1_555 3_554 n
+Sr O2 Sr 68.80(7) 1_555 3_555 n
+Sr O2 Sr 115.34(9) 1_555 4_454 n
+Sr O2 O1 35.71(4) 1_555 -102_656 n
+Sr O2 O2 35.71(4) 1_555 -102_565 n
+Sr O2 Sr 122.20(9) 2_454 3_554 n
+Sr O2 Sr 115.34(9) 2_454 3_555 n
+Sr O2 Sr 76.472(34) 2_454 4_454 n
+Sr O2 O1 87.40(7) 2_454 -102_656 n
+Sr O2 O2 87.40(7) 2_454 -102_565 n
+Sr O2 Sr 105.613(16) 3_554 3_555 n
+Sr O2 Sr 77.54(4) 3_554 4_454 n
+Sr O2 O1 141.33(4) 3_554 -102_656 n
+Sr O2 O2 141.33(4) 3_554 -102_565 n
+Sr O2 Sr 74.25(5) 3_555 4_454 n
+Sr O2 O1 35.71(4) 3_555 -102_656 n
+Sr O2 O2 35.71(4) 3_555 -102_565 n
+Sr O2 O1 87.40(7) 4_454 -102_656 n
+Sr O2 O2 87.40(7) 4_454 -102_565 n
+O1 O2 O2 0.0 -102_565 -102_565 n
+Sr O3 Sr 91.81(11) 1_555 2_554 n
+Sr O3 Sr 78.956(23) 1_555 -1_556 n
+Sr O3 Sr 170.01(11) 1_555 -2_555 n
+Sr O3 Sc1 86.15(7) 1_555 1_555 n
+Sr O3 Sc1 85.65(7) 1_555 2_555 n
+Sr O3 Ga2 86.15(7) 1_555 1_555 n
+Sr O3 Ga2 85.65(7) 1_555 2_555 n
+Sr O3 Sr 170.01(11) 2_554 -1_556 n
+Sr O3 Sr 78.956(23) 2_554 -2_555 n
+Sr O3 Sc1 85.65(7) 2_554 1_555 n
+Sr O3 Sc1 86.15(7) 2_554 2_555 n
+Sr O3 Ga2 85.65(7) 2_554 1_555 n
+Sr O3 Ga2 86.15(7) 2_554 2_555 n
+Sr O3 Sr 110.50(13) -1_556 -2_555 n
+Sr O3 Sc1 89.89(5) -1_556 1_555 n
+Sr O3 Sc1 96.83(5) -1_556 2_555 n
+Sr O3 Ga2 89.89(5) -1_556 1_555 n
+Sr O3 Ga2 96.83(5) -1_556 2_555 n
+Sr O3 Sc1 96.83(5) -2_646 1_555 n
+Sr O3 Sc1 89.89(5) -2_646 2_555 n
+Sr O3 Ga2 96.83(5) -2_545 1_555 n
+Sr O3 Ga2 89.89(5) -2_545 2_555 n
+Sc1 O3 Sc1 168.22(20) 1_555 2_555 n
+Sc1 O3 Ga2 0.0 1_555 1_555 n
+Sc1 O3 Ga2 168.22(20) 1_555 2_555 n
+Sc1 O3 Ga2 168.22(20) 2_555 1_555 n
+Sc1 O3 Ga2 0.0 2_555 2_555 n
+Ga2 O3 Ga2 168.22(20) 1_555 2_555 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Sr Sr 4.2812(11) 2_454 n
+Sr Sr 4.2812(11) 2_455 n
+Sr Sr 3.9406(10) 2_554 n
+Sr Sr 3.9406(10) 2_555 n
+Sr Sr 4.1823(12) 3_555 n
+Sr Sr 3.4023(12) -1_556 n
+Sr Sc1 3.32105(31) 1_555 n
+Sr Sc1 3.32105(31) 1_556 n
+Sr Sc1 3.5115(7) 2_455 n
+Sr Sc1 3.3061(7) 2_555 n
+Sr Ga2 3.32105(31) 1_555 n
+Sr Ga2 3.32105(31) 1_556 n
+Sr Ga2 3.5115(7) 2_455 n
+Sr Ga2 3.3061(7) 2_555 n
+Sr O1 3.7013(32) 1_555 n
+Sr O1 3.4575(31) 1_556 n
+Sr O1 3.3788(12) 2_455 n
+Sr O1 3.8778(13) 2_555 n
+Sr O1 3.3788(12) -101_344 n
+Sr O1 3.8778(13) -101_444 n
+Sr O1 3.4575(31) -102_444 n
+Sr O1 3.7013(32) -102_445 n
+Sr O2 3.7013(32) 1_555 n
+Sr O2 3.4575(31) 1_556 n
+Sr O2 3.3788(12) 2_455 n
+Sr O2 3.8778(13) 2_555 n
+Sr O2 3.3788(12) -101_344 n
+Sr O2 3.8778(13) -101_444 n
+Sr O2 3.4575(31) -102_444 n
+Sr O2 3.7013(32) -102_445 n
+Sr O3 2.7434(25) 1_555 n
+Sr O3 2.7434(25) 2_555 n
+Sr O3 2.6053(21) -1_556 n
+Sr O3 2.6053(21) -2_455 n
+Sc1 Sr 3.32105(31) 1_554 n
+Sc1 Sr 3.32105(31) 1_555 n
+Sc1 Sr 3.5115(7) 2_454 n
+Sc1 Sr 3.3061(7) 2_554 n
+Sc1 Sr 3.32105(31) -1_555 n
+Sc1 Sr 3.32105(31) -1_556 n
+Sc1 Sr 3.3061(7) -2_455 n
+Sc1 Sr 3.5115(7) -2_555 n
+Sc1 O3 2.0647(4) 1_555 n
+Sc1 O3 2.0647(4) 2_554 n
+Sc1 O3 2.0647(4) -1_555 n
+Sc1 O3 2.0647(4) -2_455 n
+Ga2 Sr 3.32105(31) 1_554 n
+Ga2 Sr 3.32105(31) 1_555 n
+Ga2 Sr 3.5115(7) 2_454 n
+Ga2 Sr 3.3061(7) 2_554 n
+Ga2 Sr 3.32105(31) -1_555 n
+Ga2 Sr 3.32105(31) -1_556 n
+Ga2 Sr 3.3061(7) -2_455 n
+Ga2 Sr 3.5115(7) -2_555 n
+Ga2 O3 2.0647(4) 1_555 n
+Ga2 O3 2.0647(4) 2_554 n
+Ga2 O3 2.0647(4) -1_555 n
+Ga2 O3 2.0647(4) -2_455 n
+O1 Sr 3.4575(31) 1_554 n
+O1 Sr 3.7013(32) 1_555 n
+O1 Sr 3.3788(12) 2_454 n
+O1 Sr 3.8778(13) 2_554 n
+O1 Sr 3.4575(31) 3_554 n
+O1 Sr 3.7013(32) 3_555 n
+O1 Sr 3.3788(12) 4_454 n
+O1 Sr 3.8778(13) 4_554 n
+O1 O1 0.306(8) -102_444 n
+O1 O2 3.305(6) -101_343 n
+O1 O2 0.306(8) -102_444 n
+O2 Sr 3.4575(31) 1_554 n
+O2 Sr 3.7013(32) 1_555 n
+O2 Sr 3.3788(12) 2_454 n
+O2 Sr 3.8778(13) 2_554 n
+O2 Sr 3.4575(31) 3_554 n
+O2 Sr 3.7013(32) 3_555 n
+O2 Sr 3.3788(12) 4_454 n
+O2 Sr 3.8778(13) 4_554 n
+O2 O1 3.305(6) -101_343 n
+O2 O1 0.306(8) -102_444 n
+O2 O2 3.5458(14) 2_454 n
+O2 O2 3.5458(14) 2_455 n
+O2 O2 3.305(6) -101_343 n
+O2 O2 0.306(8) -102_444 n
+O3 Sr 2.7434(25) 1_555 n
+O3 Sr 2.7434(25) 2_554 n
+O3 Sr 2.6053(21) -1_556 n
+O3 Sr 2.6053(21) -2_555 n
+O3 Sc1 2.0647(4) 1_555 n
+O3 Sc1 2.0647(4) 2_555 n
+O3 Ga2 2.0647(4) 1_555 n
+O3 Ga2 2.0647(4) 2_555 n

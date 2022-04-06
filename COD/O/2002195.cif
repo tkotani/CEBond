@@ -1,0 +1,86 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/21/2002195.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_2002195
+loop_
+_publ_author_name
+'Mueller-Buschbaum, Hk'
+'Muschick, W'
+_publ_section_title              'Ein neuer Bautyp Sr Ca2 Sc6 O12'
+_journal_name_full
+;
+Zeitschrift fuer Anorganische und Allgemeine Chemie
+;
+_journal_page_first              209
+_journal_page_last               214
+_journal_paper_doi               10.1002/zaac.19754120304
+_journal_volume                  412
+_journal_year                    1975
+_chemical_formula_structural     'Sr0.33 Ca0.67 Sc2 O4'
+_chemical_formula_sum            'Ca0.67 O4 Sc2 Sr0.33'
+_chemical_name_systematic
+;
+Strontium calcium scandium oxide (0.3/0.7/2/4)
+;
+_space_group_IT_number           176
+_symmetry_cell_setting           hexagonal
+_symmetry_Int_Tables_number      176
+_symmetry_space_group_name_Hall  '-P 6c'
+_symmetry_space_group_name_H-M   'P 63/m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            3
+_cell_length_a                   9.659
+_cell_length_b                   9.659
+_cell_length_c                   3.136
+_cell_volume                     253.4
+_refine_ls_R_factor_all          0.044
+_cod_original_formula_sum        'Ca.67 O4 Sc2 Sr.33'
+_cod_database_code               2002195
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-y,x-y,z
+y-x,-x,z
+-x,-y,1/2+z
+y,y-x,1/2+z
+x-y,x,1/2+z
+-x,-y,-z
+y,y-x,-z
+x-y,x,-z
+x,y,1/2-z
+-y,x-y,1/2-z
+y-x,-x,1/2-z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_calc_flag
+Sc1 Sc3+ 6 h 0.346 -0.003 0.25 1. 0 d
+Ca1 Ca2+ 2 c 0.3333 0.6666 0.25 1. 0 d
+Sr1 Sr2+ 2 b 0. 0. 0. 0.5 0 d
+O1 O2- 6 h 0.195 0.309 0.25 1. 0 d
+O2 O2- 6 h 0.53 0.398 0.25 1. 0 d
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Sc3+ 3.000
+Ca2+ 2.000
+Sr2+ 2.000
+O2- -2.000

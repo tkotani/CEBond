@@ -1,0 +1,96 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-16 22:30:59 +0200 (Tue, 16 Feb 2016) $
+#$Revision: 176467 $
+#$URL: svn://www.crystallography.net/cod/cif/4/00/08/4000873.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4000873
+loop_
+_publ_author_name
+'Ubic, Rick'
+'Subodh, Ganesanpotti'
+'Gout, Delphine'
+'Sebastian, Mailadil T.'
+'Proffen, Thomas'
+_publ_section_title
+;
+ Correction to Crystal Structure of Sr0.4Ce0.4TiO3Ceramics
+;
+_journal_issue                   6
+_journal_name_full               'Chemistry of Materials'
+_journal_page_first              2174
+_journal_paper_doi               10.1021/cm100457f
+_journal_volume                  22
+_journal_year                    2010
+_chemical_formula_sum            'Ce0.4 O3 Sr0.4 Ti'
+_space_group_IT_number           15
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-C 2yc'
+_symmetry_space_group_name_H-M   'C 1 2/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 125.2219
+_cell_angle_gamma                90
+_cell_formula_units_Z            3
+_cell_length_a                   9.5228
+_cell_length_b                   5.4869
+_cell_length_c                   5.4818
+_cell_volume                     233.990
+_cod_data_source_file            cm100457f_si_001.cif
+_cod_data_source_block           (I)
+_cod_original_cell_volume        233.993
+_cod_original_formula_sum        'Ce0.4 O3 Sr0.4 Ti1'
+_cod_database_code               4000873
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -x,y,-z+1/2
+3 -x+1/2,-y+1/2,-z
+4 x+1/2,-y+1/2,z+1/2
+5 x+1/2,y+1/2,z
+6 -x+1/2,y+1/2,-z+1/2
+7 -x,-y,-z
+8 x,-y,z+1/2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_adp_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+_atom_site_occupancy
+_atom_site_calc_flag
+Ti Ti 0.25 0.25 0 Uiso 0.00913(8) 4 1 d
+Sr Sr 0.5 0.2526(14) 0.75 Uani 0.0088(8) 4 0.5 d
+Ce Ce 0.5 0.2526(14) 0.75 Uani 0.0088(8) 4 0.5 d
+O1 O 0.7540(2) 0.5165(4) 0.7300(3) Uani 0.0159(6) 8 1 d
+O2 O 0.5 -0.258(2) 0.75 Uani 0.0173(10) 4 1 d
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_type_symbol
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Sr Sr 0.0095(4) 0.0041(9) 0.0123(10) 0 0.0061(9) 0
+Ce Ce 0.0095(4) 0.0041(9) 0.0123(10) 0 0.0061(9) 0
+O1 O 0.0212(4) 0.0165(7) 0.0153(7) -0.0035(9) 0.0136(6) -0.0089(6)
+O2 O 0.0047(3) 0.0245(15) 0.0156(13) 0 0.0018(10) 0
+loop_
+_atom_type_symbol
+_atom_type_scat_length_neutron
+_atom_type_scat_source
+Sr 7.020 International_Tables_Vol_C
+Ce 4.840 International_Tables_Vol_C
+Ti -3.438 International_Tables_Vol_C
+O 5.803 International_Tables_Vol_C

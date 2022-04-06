@@ -1,0 +1,466 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-26 20:51:55 +0200 (Sat, 26 Mar 2016) $
+#$Revision: 180452 $
+#$URL: svn://www.crystallography.net/cod/cif/7/21/21/7212163.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7212163
+loop_
+_publ_author_name
+'Mas\'o, Nahum'
+'West, Anthony R.'
+_publ_section_title
+;
+ A new family of ferroelectric materials: Me2Nb4O11 (Me = Na and Ag)
+;
+_journal_issue                   11
+_journal_name_full               'Journal of Materials Chemistry'
+_journal_page_first              2082
+_journal_paper_doi               10.1039/b921115b
+_journal_volume                  20
+_journal_year                    2010
+_chemical_formula_sum            'Na2 Nb4 O11'
+_chemical_formula_weight         593.59
+_space_group_IT_number           9
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  'C -2yc'
+_symmetry_space_group_name_H-M   'C 1 c 1'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 106.1765(10)
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            4
+_cell_length_a                   10.84273(13)
+_cell_length_b                   6.16644(6)
+_cell_length_c                   12.75239(14)
+_cell_measurement_theta_max      50
+_cell_measurement_theta_min      1
+_cell_volume                     818.880(16)
+_computing_cell_refinement       'GSAS+EXPGUI (Larson & Von Dreele 2001)'
+_computing_publication_material  'GSAS+EXPGUI (Larson & Von Dreele 2001)'
+_computing_structure_refinement  'GSAS+EXPGUI (Larson & Von Dreele 2001)'
+_diffrn_ambient_temperature      300
+_diffrn_measurement_device_type  'Stoe StadiP'
+_diffrn_measurement_method       Transmission
+_diffrn_radiation_monochromator  'Curved Ge(111)'
+_diffrn_radiation_type           'Cu K\a1'
+_diffrn_radiation_wavelength     1.540560
+_diffrn_reflns_limit_h_max       10
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       6
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       12
+_diffrn_reflns_limit_l_min       -12
+_diffrn_reflns_theta_max         50
+_exptl_crystal_density_diffrn    4.815
+_refine_ls_goodness_of_fit_all   1.72
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     60
+_refine_ls_number_reflns         433
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_gt           0.0680
+_refine_ls_shift/su_max          0.16
+_refine_ls_shift/su_mean         0.04
+_refine_ls_wR_factor_ref         0.1001
+_cod_data_source_file            b921115b.txt
+_cod_data_source_block           Na2Nb4O11_phase_1
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_geom_bond_publ_flag' value 'N' changed to 'n' according to
+/home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary named
+'cif_core.dic' version 2.4.2 from 2011-04-26 (114
+times).
+
+'_geom_angle_publ_flag' value 'N' changed to 'n' according
+to /home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary
+named 'cif_core.dic' version 2.4.2 from 2011-04-26 (209 times).
+
+Automatic conversion script
+Id: cif_fix_values 1891 2012-01-12 08:04:46Z andrius 
+;
+_cod_original_cell_volume        818.880(14)
+_cod_database_code               7212163
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 +x,-y,+z+1/2
+101 +x+1/2,+y+1/2,+z
+102 +x+1/2,-y+1/2,+z+1/2
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+Nb Nb1 0.1788(10) 0.5711(5) 0.2470(12) 1.0 Uiso 0.0154(7) 4
+Nb Nb2 0.81804(19) 0.5710(5) 0.24772(25) 1.0 Uiso 0.0134(7) 4
+Nb Nb3 0.0022(4) 0.11812(35) 0.25482(32) 1.0 Uiso 0.0163(6) 4
+Nb Nb4 0.25885(32) 0.2606(10) 0.5015(4) 1.0 Uiso 0.0171(6) 4
+Na Na1 0.0911(4) 0.2455(25) 1.0029(4) 1.0 Uiso 0.0119(16) 4
+Na Na2 0.9235(4) 0.2531(26) 0.5082(4) 1.0 Uiso 0.0119(16) 4
+O O1 0.2340(4) 0.5371(30) 0.4043(4) 1.0 Uiso 0.0016(10) 4
+O O2 0.7670(4) 0.4951(28) 0.0929(4) 1.0 Uiso 0.0016(10) 4
+O O3 0.1528(4) 0.5908(32) 0.0829(4) 1.0 Uiso 0.0016(10) 4
+O O4 0.8433(4) 0.6013(31) 0.4049(5) 1.0 Uiso 0.0016(10) 4
+O O5 0.0834(4) 0.1467(32) 0.4159(4) 1.0 Uiso 0.0016(10) 4
+O O6 0.9201(4) 0.1308(31) 0.0965(4) 1.0 Uiso 0.0016(10) 4
+O O7 0.1185(4) 0.8580(31) 0.2511(5) 1.0 Uiso 0.0016(10) 4
+O O8 0.8745(4) 0.8875(31) 0.2494(4) 1.0 Uiso 0.0016(10) 4
+O O9 0.1614(4) 0.2451(32) 0.2134(4) 1.0 Uiso 0.0016(10) 4
+O O10 0.8457(4) 0.2558(32) 0.2819(4) 1.0 Uiso 0.0016(10) 4
+O O11 0.0018(4) 0.4957(19) 0.2461(5) 1.0 Uiso 0.0016(10) 4
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+Nb 16.0
+Na 8.0
+O 44.0
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O1 Nb1 O3 170.0(7) 1_555 1_555 n
+O1 Nb1 O7 94.7(8) 1_555 1_555 n
+O1 Nb1 O9 95.4(7) 1_555 1_555 n
+O1 Nb1 O10 80.7(6) 1_555 101_455 n
+O1 Nb1 O11 90.0(7) 1_555 1_555 n
+O3 Nb1 O7 91.3(7) 1_555 1_555 n
+O3 Nb1 O9 82.3(7) 1_555 1_555 n
+O3 Nb1 O10 92.9(7) 1_555 101_455 n
+O3 Nb1 O11 98.8(6) 1_555 1_555 n
+O7 Nb1 O9 155.3(7) 1_555 1_555 n
+O7 Nb1 O10 76.7(5) 1_555 101_455 n
+O7 Nb1 O11 82.9(6) 1_555 1_555 n
+O9 Nb1 O10 127.2(7) 1_555 101_455 n
+O9 Nb1 O11 74.6(4) 1_555 1_555 n
+O10 Nb1 O11 156.7(8) 101_455 1_555 n
+O2 Nb2 O4 168.1(6) 1_555 1_555 n
+O2 Nb2 O8 103.8(5) 1_555 1_555 n
+O2 Nb2 O9 85.5(4) 1_555 101_555 n
+O2 Nb2 O10 88.3(5) 1_555 1_555 n
+O2 Nb2 O11 86.45(27) 1_555 1_655 n
+O4 Nb2 O8 86.7(6) 1_555 1_555 n
+O4 Nb2 O9 92.4(4) 1_555 101_555 n
+O4 Nb2 O10 84.2(6) 1_555 1_555 n
+O4 Nb2 O11 99.93(25) 1_555 1_655 n
+O8 Nb2 O9 73.6(5) 1_555 101_555 n
+O8 Nb2 O10 154.30(25) 1_555 1_555 n
+O8 Nb2 O11 85.8(4) 1_555 1_655 n
+O9 Nb2 O10 130.7(5) 101_555 1_555 n
+O9 Nb2 O11 155.3(5) 101_555 1_655 n
+O10 Nb2 O11 72.2(4) 1_555 1_655 n
+O5 Nb3 O6 172.6(7) 1_555 1_455 n
+O5 Nb3 O7 89.7(5) 1_555 1_545 n
+O5 Nb3 O8 101.7(5) 1_555 1_445 n
+O5 Nb3 O9 93.89(32) 1_555 1_555 n
+O5 Nb3 O10 86.41(35) 1_555 1_455 n
+O5 Nb3 O11 87.4(6) 1_555 1_555 n
+O6 Nb3 O7 96.5(5) 1_455 1_545 n
+O6 Nb3 O8 83.1(5) 1_455 1_445 n
+O6 Nb3 O9 84.01(32) 1_455 1_555 n
+O6 Nb3 O10 89.85(34) 1_455 1_455 n
+O6 Nb3 O11 85.3(6) 1_455 1_555 n
+O7 Nb3 O8 82.2(5) 1_545 1_445 n
+O7 Nb3 O9 74.4(6) 1_545 1_555 n
+O7 Nb3 O10 152.7(6) 1_545 1_455 n
+O7 Nb3 O11 140.7(4) 1_545 1_555 n
+O8 Nb3 O9 151.8(6) 1_445 1_555 n
+O8 Nb3 O10 72.1(6) 1_445 1_455 n
+O8 Nb3 O11 136.6(5) 1_445 1_555 n
+O9 Nb3 O10 132.9(6) 1_555 1_455 n
+O9 Nb3 O11 66.7(5) 1_555 1_555 n
+O10 Nb3 O11 66.2(5) 1_455 1_555 n
+O1 Nb4 O2 175.12(30) 1_555 102_455 n
+O1 Nb4 O3 86.3(6) 1_555 2_565 n
+O1 Nb4 O4 92.4(6) 1_555 101_445 n
+O1 Nb4 O5 90.9(5) 1_555 1_555 n
+O1 Nb4 O6 91.9(6) 1_555 102_455 n
+O2 Nb4 O3 89.8(6) 102_455 2_565 n
+O2 Nb4 O4 91.1(6) 102_455 101_445 n
+O2 Nb4 O5 85.5(5) 102_455 1_555 n
+O2 Nb4 O6 91.3(5) 102_455 102_455 n
+O3 Nb4 O4 172.27(34) 2_565 101_445 n
+O3 Nb4 O5 81.3(4) 2_565 1_555 n
+O3 Nb4 O6 93.8(5) 2_565 102_455 n
+O4 Nb4 O5 91.2(4) 101_445 1_555 n
+O4 Nb4 O6 93.8(4) 101_445 102_455 n
+O5 Nb4 O6 174.2(4) 1_555 102_455 n
+Na2 Na1 Na2 118.42(16) 2_455 2_465 n
+Na2 Na1 Na2 120.9(5) 2_455 102_455 n
+Na2 Na1 O1 145.0(5) 2_455 2_565 n
+Na2 Na1 O2 77.6(5) 2_455 101_446 n
+Na2 Na1 O3 147.69(29) 2_455 1_556 n
+Na2 Na1 O4 82.5(4) 2_455 2_465 n
+Na2 Na1 O5 42.96(27) 2_455 2_555 n
+Na2 Na1 O6 47.1(5) 2_455 1_456 n
+Na2 Na1 O9 89.1(5) 2_455 1_556 n
+Na2 Na1 Na2 120.5(5) 2_465 102_455 n
+Na2 Na1 O1 86.5(5) 2_465 2_565 n
+Na2 Na1 O2 148.9(4) 2_465 101_446 n
+Na2 Na1 O3 45.93(30) 2_465 1_556 n
+Na2 Na1 O4 44.7(4) 2_465 2_465 n
+Na2 Na1 O5 146.54(21) 2_465 2_555 n
+Na2 Na1 O6 78.1(5) 2_465 1_456 n
+Na2 Na1 O9 89.2(5) 2_465 1_556 n
+Na2 Na1 O1 44.13(31) 102_455 2_565 n
+Na2 Na1 O2 49.59(33) 102_455 101_446 n
+Na2 Na1 O3 80.13(30) 102_455 1_556 n
+Na2 Na1 O4 147.6(4) 102_455 2_465 n
+Na2 Na1 O5 85.68(31) 102_455 2_555 n
+Na2 Na1 O6 147.6(4) 102_455 1_456 n
+Na2 Na1 O9 88.65(16) 102_455 1_556 n
+O1 Na1 O2 93.41(34) 2_565 101_446 n
+O1 Na1 O3 67.3(5) 2_565 1_556 n
+O1 Na1 O4 103.6(5) 2_565 2_465 n
+O1 Na1 O5 102.7(5) 2_565 2_555 n
+O1 Na1 O6 164.6(8) 2_565 1_456 n
+O1 Na1 O9 117.2(4) 2_565 1_556 n
+O2 Na1 O3 105.8(4) 101_446 1_556 n
+O2 Na1 O4 160.0(7) 101_446 2_465 n
+O2 Na1 O5 63.6(5) 101_446 2_555 n
+O2 Na1 O6 100.1(5) 101_446 1_456 n
+O2 Na1 O9 63.3(4) 101_446 1_556 n
+O3 Na1 O4 90.5(6) 1_556 2_465 n
+O3 Na1 O5 165.79(26) 1_556 2_555 n
+O3 Na1 O6 101.6(5) 1_556 1_456 n
+O3 Na1 O9 65.7(5) 1_556 1_556 n
+O4 Na1 O5 101.9(4) 2_465 2_555 n
+O4 Na1 O6 64.66(33) 2_465 1_456 n
+O4 Na1 O9 115.76(34) 2_465 1_556 n
+O5 Na1 O6 90.0(6) 2_555 1_456 n
+O5 Na1 O9 113.6(7) 2_555 1_556 n
+O6 Na1 O9 63.78(25) 1_456 1_556 n
+Na1 Na2 Na1 118.42(16) 2_654 2_664 n
+Na1 Na2 Na1 120.9(5) 2_654 102_554 n
+Na1 Na2 O1 83.0(5) 2_654 101_545 n
+Na1 Na2 O2 150.3(5) 2_654 2_565 n
+Na1 Na2 O3 83.4(5) 2_654 2_665 n
+Na1 Na2 O4 144.82(29) 2_654 1_555 n
+Na1 Na2 O5 47.8(5) 2_654 1_655 n
+Na1 Na2 O6 45.75(29) 2_654 2_555 n
+Na1 Na2 O10 89.7(5) 2_654 1_555 n
+Na1 Na2 Na1 120.5(5) 2_664 102_554 n
+Na1 Na2 O1 142.6(5) 2_664 101_545 n
+Na1 Na2 O2 83.8(5) 2_664 2_565 n
+Na1 Na2 O3 41.3(5) 2_664 2_665 n
+Na1 Na2 O4 50.64(32) 2_664 1_555 n
+Na1 Na2 O5 78.0(5) 2_664 1_655 n
+Na1 Na2 O6 148.27(20) 2_664 2_555 n
+Na1 Na2 O10 89.1(5) 2_664 1_555 n
+Na1 Na2 O1 46.93(31) 102_554 101_545 n
+Na1 Na2 O2 43.54(31) 102_554 2_565 n
+Na1 Na2 O3 149.7(5) 102_554 2_665 n
+Na1 Na2 O4 77.96(28) 102_554 1_555 n
+Na1 Na2 O5 146.8(4) 102_554 1_655 n
+Na1 Na2 O6 82.87(30) 102_554 2_555 n
+Na1 Na2 O10 88.15(15) 102_554 1_555 n
+O1 Na2 O2 90.18(33) 101_545 2_565 n
+O1 Na2 O3 163.3(6) 101_545 2_665 n
+O1 Na2 O4 93.6(4) 101_545 1_555 n
+O1 Na2 O5 101.0(5) 101_545 1_655 n
+O1 Na2 O6 68.8(5) 101_545 2_555 n
+O1 Na2 O10 58.93(35) 101_545 1_555 n
+O2 Na2 O3 106.4(6) 2_565 2_665 n
+O2 Na2 O4 64.2(4) 2_565 1_555 n
+O2 Na2 O5 161.0(8) 2_565 1_655 n
+O2 Na2 O6 104.9(4) 2_565 2_555 n
+O2 Na2 O10 111.4(4) 2_565 1_555 n
+O3 Na2 O4 91.8(6) 2_665 1_555 n
+O3 Na2 O5 62.5(4) 2_665 1_655 n
+O3 Na2 O6 107.7(5) 2_665 2_555 n
+O3 Na2 O10 111.32(35) 2_665 1_555 n
+O4 Na2 O5 99.4(5) 1_555 1_655 n
+O4 Na2 O6 160.02(27) 1_555 2_555 n
+O4 Na2 O10 59.7(5) 1_555 1_555 n
+O5 Na2 O6 93.5(7) 1_655 2_555 n
+O5 Na2 O10 63.27(24) 1_655 1_555 n
+O6 Na2 O10 114.5(7) 2_555 1_555 n
+Nb1 O1 Nb4 131.1(9) 1_555 1_555 n
+Nb1 O1 Na1 112.8(6) 1_555 2_564 n
+Nb1 O1 Na2 117.6(7) 1_555 101_455 n
+Nb4 O1 Na1 97.4(4) 1_555 2_564 n
+Nb4 O1 Na2 99.8(4) 1_555 101_455 n
+Na1 O1 Na2 88.9(5) 2_564 101_455 n
+Nb2 O2 Nb4 138.7(8) 1_555 102_554 n
+Nb2 O2 Na1 106.5(6) 1_555 101_554 n
+Nb2 O2 Na2 103.4(5) 1_555 2_564 n
+Nb4 O2 Na1 109.08(34) 102_554 101_554 n
+Nb4 O2 Na2 98.8(4) 102_554 2_564 n
+Na1 O2 Na2 86.9(5) 101_554 2_564 n
+Nb1 O3 Nb4 129.3(6) 1_555 2_564 n
+Nb1 O3 Na1 109.2(8) 1_555 1_554 n
+Nb1 O3 Na2 104.1(4) 1_555 2_464 n
+Nb4 O3 Na1 109.0(5) 2_564 1_554 n
+Nb4 O3 Na2 105.9(6) 2_564 2_464 n
+Na1 O3 Na2 92.8(4) 1_554 2_464 n
+Nb2 O4 Nb4 136.5(6) 1_555 101_555 n
+Nb2 O4 Na1 109.50(31) 1_555 2_664 n
+Nb2 O4 Na2 112.4(8) 1_555 1_555 n
+Nb4 O4 Na1 96.2(5) 101_555 2_664 n
+Nb4 O4 Na2 104.3(4) 101_555 1_555 n
+Na1 O4 Na2 84.6(4) 2_664 1_555 n
+Nb3 O5 Nb4 131.2(5) 1_555 1_555 n
+Nb3 O5 Na1 107.6(7) 1_555 2_554 n
+Nb3 O5 Na2 110.48(27) 1_555 1_455 n
+Nb4 O5 Na1 100.0(5) 1_555 2_554 n
+Nb4 O5 Na2 109.3(5) 1_555 1_455 n
+Na1 O5 Na2 89.3(5) 2_554 1_455 n
+Nb3 O6 Nb4 136.3(5) 1_655 102_554 n
+Nb3 O6 Na1 107.98(28) 1_655 1_654 n
+Nb3 O6 Na2 110.4(7) 1_655 2_554 n
+Nb4 O6 Na1 104.8(5) 102_554 1_654 n
+Nb4 O6 Na2 99.3(5) 102_554 2_554 n
+Na1 O6 Na2 87.2(4) 1_654 2_554 n
+Nb1 O7 Nb3 162.3(7) 1_555 1_565 n
+Nb2 O8 Nb3 153.4(6) 1_555 1_665 n
+Nb1 O9 Nb2 117.9(6) 1_555 101_445 n
+Nb1 O9 Nb3 110.4(7) 1_555 1_555 n
+Nb1 O9 Na1 101.5(8) 1_555 1_554 n
+Nb2 O9 Nb3 117.7(9) 101_445 1_555 n
+Nb2 O9 Na1 102.7(4) 101_445 1_554 n
+Nb3 O9 Na1 103.75(32) 1_555 1_554 n
+Nb1 O10 Nb2 114.7(4) 101_545 1_555 n
+Nb1 O10 Nb3 117.2(9) 101_545 1_655 n
+Nb1 O10 Na2 102.4(6) 101_545 1_555 n
+Nb2 O10 Nb3 117.1(6) 1_555 1_655 n
+Nb2 O10 Na2 102.5(6) 1_555 1_555 n
+Nb3 O10 Na2 98.62(32) 1_655 1_555 n
+Nb1 O11 Nb2 153.3(7) 1_555 1_455 n
+Nb1 O11 Nb3 104.3(4) 1_555 1_555 n
+Nb2 O11 Nb3 102.4(4) 1_455 1_555 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Nb1 Na1 3.602(16) 1_554 n
+Nb1 Na2 3.663(13) 2_464 n
+Nb1 O1 1.938(16) 1_555 n
+Nb1 O3 2.036(17) 1_555 n
+Nb1 O7 1.892(19) 1_555 n
+Nb1 O8 2.398(15) 101_445 n
+Nb1 O9 2.053(20) 1_555 n
+Nb1 O10 2.079(15) 101_455 n
+Nb1 O11 1.971(13) 1_555 n
+Nb2 Na1 3.560(7) 101_554 n
+Nb2 Na2 3.751(10) 1_555 n
+Nb2 Na2 3.709(8) 2_564 n
+Nb2 O2 1.953(7) 1_555 n
+Nb2 O4 1.955(7) 1_555 n
+Nb2 O7 2.542(11) 101_545 n
+Nb2 O8 2.043(19) 1_555 n
+Nb2 O9 1.953(11) 101_555 n
+Nb2 O10 1.997(19) 1_555 n
+Nb2 O11 2.052(6) 1_655 n
+Nb3 Na1 3.687(8) 1_554 n
+Nb3 Na2 3.660(8) 1_455 n
+Nb3 O5 2.004(7) 1_555 n
+Nb3 O6 1.968(6) 1_455 n
+Nb3 O7 2.049(16) 1_545 n
+Nb3 O8 1.972(15) 1_445 n
+Nb3 O9 2.093(9) 1_555 n
+Nb3 O10 2.011(10) 1_455 n
+Nb3 O11 2.331(12) 1_555 n
+Nb4 Na1 3.615(14) 2_554 n
+Nb4 Na1 3.550(14) 2_564 n
+Nb4 Na1 3.598(6) 102_554 n
+Nb4 Na2 3.661(6) 1_455 n
+Nb4 Na2 3.592(15) 101_445 n
+Nb4 Na2 3.512(15) 101_455 n
+Nb4 O1 2.081(17) 1_555 n
+Nb4 O2 1.948(16) 102_455 n
+Nb4 O3 1.975(12) 2_565 n
+Nb4 O4 1.988(12) 101_445 n
+Nb4 O5 2.037(9) 1_555 n
+Nb4 O6 1.947(8) 102_455 n
+Na1 Nb1 3.602(16) 1_556 n
+Na1 Nb2 3.560(7) 101_446 n
+Na1 Nb3 3.687(8) 1_556 n
+Na1 Nb4 3.615(14) 2_555 n
+Na1 Nb4 3.550(14) 2_565 n
+Na1 Nb4 3.598(6) 102_455 n
+Na1 Na2 3.582(17) 2_455 n
+Na1 Na2 3.597(17) 2_465 n
+Na1 Na2 3.586(6) 102_455 n
+Na1 O1 2.620(14) 2_565 n
+Na1 O2 2.474(15) 101_446 n
+Na1 O3 2.375(23) 1_556 n
+Na1 O4 2.793(10) 2_465 n
+Na1 O5 2.653(23) 2_555 n
+Na1 O6 2.569(10) 1_456 n
+Na1 O9 2.578(7) 1_556 n
+Na2 Nb1 3.663(13) 2_665 n
+Na2 Nb2 3.751(10) 1_555 n
+Na2 Nb2 3.709(8) 2_565 n
+Na2 Nb3 3.660(8) 1_655 n
+Na2 Nb4 3.661(6) 1_655 n
+Na2 Nb4 3.512(15) 101_545 n
+Na2 Nb4 3.592(15) 101_555 n
+Na2 Na1 3.582(17) 2_654 n
+Na2 Na1 3.597(17) 2_664 n
+Na2 Na1 3.586(6) 102_554 n
+Na2 O1 2.497(14) 101_545 n
+Na2 O2 2.735(15) 2_565 n
+Na2 O3 2.587(11) 2_665 n
+Na2 O4 2.542(22) 1_555 n
+Na2 O5 2.441(10) 1_655 n
+Na2 O6 2.626(23) 2_555 n
+Na2 O10 2.772(7) 1_555 n
+O1 Nb1 1.938(16) 1_555 n
+O1 Nb4 2.081(17) 1_555 n
+O1 Na1 2.620(14) 2_564 n
+O1 Na2 2.497(14) 101_455 n
+O2 Nb2 1.953(7) 1_555 n
+O2 Nb4 1.948(16) 102_554 n
+O2 Na1 2.474(15) 101_554 n
+O2 Na2 2.735(15) 2_564 n
+O3 Nb1 2.036(17) 1_555 n
+O3 Nb4 1.975(12) 2_564 n
+O3 Na1 2.375(23) 1_554 n
+O3 Na2 2.587(11) 2_464 n
+O4 Nb2 1.955(7) 1_555 n
+O4 Nb4 1.988(12) 101_555 n
+O4 Na1 2.793(10) 2_664 n
+O4 Na2 2.542(22) 1_555 n
+O5 Nb3 2.004(7) 1_555 n
+O5 Nb4 2.037(9) 1_555 n
+O5 Na1 2.653(23) 2_554 n
+O5 Na2 2.441(10) 1_455 n
+O6 Nb3 1.968(6) 1_655 n
+O6 Nb4 1.947(8) 102_554 n
+O6 Na1 2.569(10) 1_654 n
+O6 Na2 2.626(23) 2_554 n
+O7 Nb1 1.892(19) 1_555 n
+O7 Nb2 2.542(11) 101_455 n
+O7 Nb3 2.049(16) 1_565 n
+O8 Nb1 2.398(15) 101_555 n
+O8 Nb2 2.043(19) 1_555 n
+O8 Nb3 1.972(15) 1_665 n
+O9 Nb1 2.053(20) 1_555 n
+O9 Nb2 1.953(11) 101_445 n
+O9 Nb3 2.093(9) 1_555 n
+O9 Na1 2.578(7) 1_554 n
+O10 Nb1 2.079(15) 101_545 n
+O10 Nb2 1.997(19) 1_555 n
+O10 Nb3 2.011(10) 1_655 n
+O10 Na2 2.772(7) 1_555 n
+O11 Nb1 1.971(13) 1_555 n
+O11 Nb2 2.052(6) 1_455 n
+O11 Nb3 2.331(12) 1_555 n

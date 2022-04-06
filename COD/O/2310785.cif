@@ -1,0 +1,357 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-09-27 18:05:35 +0300 (Wed, 27 Sep 2017) $
+#$Revision: 201373 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/31/07/2310785.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2310785
+loop_
+_publ_author_name
+'Birkenstock, Johannes'
+'Pet\<r\'i\<cek, V\'aclav'
+'Pedersen, Bjoern'
+'Schneider, Hartmut'
+'Fischer, Reinhard X.'
+_publ_section_title
+;
+ The modulated average structure of mullite.
+;
+_journal_coden_ASTM              ACSBDA
+_journal_coeditor_code           WF5116
+_journal_issue                   3
+_journal_name_full
+;
+ Acta Crystallographica, Section B: Structural Science, Crystal Engineering
+ and Materials
+;
+_journal_page_first              358
+_journal_page_last               368
+_journal_paper_doi               10.1107/S205252061500757X
+_journal_volume                  71
+_journal_year                    2015
+_chemical_formula_sum            'Al4.8 O9.6 Si1.2'
+_chemical_formula_weight         316.8
+_chemical_name_systematic        ' ?'
+_space_group_IT_number           55
+_space_group_ssg_name            Pbam(\a01/2)0ss
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2 2ab'
+_symmetry_space_group_name_H-M   'P b a m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            1
+_cell_length_a                   7.5911
+_cell_length_b                   7.6924
+_cell_length_c                   2.8899
+_cell_measurement_temperature    293
+_cell_modulation_dimension       1
+_cell_volume                     168.752
+_diffrn_ambient_temperature      293
+_diffrn_measured_fraction_theta_full 0.98
+_diffrn_measured_fraction_theta_max 0.94
+_diffrn_measurement_device       'four-circle diffractometer'
+_diffrn_measurement_device_type  'Bruker CCD'
+_diffrn_measurement_method       'integration technique'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_source         'X-ray tube'
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0284
+_diffrn_reflns_av_unetI/netI     0.0107
+_diffrn_reflns_limit_h_max       12
+_diffrn_reflns_limit_h_min       -12
+_diffrn_reflns_limit_index_m_1_max 1
+_diffrn_reflns_limit_index_m_1_min -1
+_diffrn_reflns_limit_k_max       12
+_diffrn_reflns_limit_k_min       -12
+_diffrn_reflns_limit_l_max       5
+_diffrn_reflns_limit_l_min       -5
+_diffrn_reflns_number            8049
+_diffrn_reflns_theta_full        35.56
+_diffrn_reflns_theta_max         36.57
+_diffrn_reflns_theta_min         3.98
+_exptl_absorpt_coefficient_mu    1.057
+_exptl_absorpt_correction_T_max  0.8306
+_exptl_absorpt_correction_T_min  0.7414
+_exptl_absorpt_correction_type   empirical
+_exptl_crystal_colour            colorless
+_exptl_crystal_density_diffrn    3.1174
+_exptl_crystal_description       'stump wedge'
+_exptl_crystal_F_000             156
+_exptl_crystal_size_max          0.36
+_exptl_crystal_size_mid          0.28
+_exptl_crystal_size_min          0.21
+_refine_diff_density_max         0.39
+_refine_diff_density_min         -0.50
+_refine_ls_extinction_coef       2000(200)
+_refine_ls_extinction_method
+'B-C type 1 Gaussian isotropic (Becker & Coppens, 1974)'
+_refine_ls_goodness_of_fit_gt    3.82
+_refine_ls_goodness_of_fit_ref   3.01
+_refine_ls_number_constraints    48
+_refine_ls_number_parameters     106
+_refine_ls_number_reflns         1234
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          0.0461
+_refine_ls_R_factor_gt           0.0277
+_refine_ls_shift/su_max          0.0320
+_refine_ls_shift/su_mean         0.0063
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     w=1/(\s^2^(F)+0.0001F^2^)
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_gt          0.0558
+_refine_ls_wR_factor_ref         0.0572
+_reflns_number_gt                772
+_reflns_number_total             1234
+_reflns_threshold_expression     I>3\s(I)
+_cod_data_source_file            wf5116sup1.cif
+_cod_data_source_block           I
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_diffrn_radiation_probe' value 'X-ray' changed to 'x-ray' according
+to /home/saulius/struct/CIF-dictionaries/IUCr/cif_core.dic dictionary
+named 'cif_core.dic' version 2.4.5 from 2014-11-21.
+
+Automatic conversion script
+Id: cif_fix_values 3866 2015-08-17 15:13:47Z robertas 
+;
+_cod_original_cell_volume        168.7522
+_cod_database_code               2310785
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 -x,-y,z
+3 -x+0.5,y+0.5,-z
+4 x+0.5,-y+0.5,-z
+5 -x,-y,-z
+6 x,y,-z
+7 x+0.5,-y+0.5,z
+8 -x+0.5,y+0.5,z
+loop_
+_space_group_symop_ssg_id
+_space_group_symop_ssg_operation_algebraic
+1 x1,x2,x3,x4
+2 -x1,-x2,x3,x3-x4+1/2
+3 -x1+1/2,x2+1/2,-x3,-x4+1/2
+4 x1+1/2,-x2+1/2,-x3,-x3+x4
+5 -x1,-x2,-x3,-x4
+6 x1,x2,-x3,-x3+x4+1/2
+7 x1+1/2,-x2+1/2,x3,x4+1/2
+8 -x1+1/2,x2+1/2,x3,x3-x4
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_adp_type
+_atom_site_U_iso_or_equiv
+_atom_site_site_symmetry_multiplicity
+_atom_site_occupancy
+_atom_site_calc_flag
+Al1 Al 0 0 0 Uani 0.00670(13) 2 1 d
+Al2 Al 0.14887(5) 0.34028(4) 0.5 Uani 0.00720(13) 4 0.5 d
+Si2 Si 0.14887(5) 0.34028(4) 0.5 Uani 0.00720(13) 4 0.2963 d
+Al3 Al 0.2626(2) 0.2055(2) 0.5 Uani 0.0087(4) 4 0.2037 d
+Si3 Si 0.2626(2) 0.2055(2) 0.5 Uani 0.0087(4) 4 0 d
+O1 O 0.35820(9) 0.42264(10) 0.5 Uani 0.0132(2) 4 1 d
+O2 O 0.12772(10) 0.21868(11) 0 Uani 0.0134(2) 4 1 d
+O3 O 0 0.5 0.5 Uani 0.0198(16) 2 0.3889 d
+O4 O 0.4523(8) 0.0457(11) 0.5 Uani 0.0119(17) 4 0.2037 d
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_type_symbol
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Al1 Al 0.0079(2) 0.0068(2) 0.0054(2) 0.00073(11) 0 0
+Al2 Al 0.0065(2) 0.0081(2) 0.0070(2) -0.00052(10) 0 0
+Si2 Si 0.0065(2) 0.0081(2) 0.0070(2) -0.00052(10) 0 0
+Al3 Al 0.0088(7) 0.0090(6) 0.0082(6) 0.0015(5) 0 0
+Si3 Si 0.0088(7) 0.0090(6) 0.0082(6) 0.0015(5) 0 0
+O1 O 0.0141(4) 0.0188(4) 0.0066(3) -0.0079(3) 0 0
+O2 O 0.0156(3) 0.0136(4) 0.0109(3) -0.0063(2) 0 0
+O3 O 0.007(3) 0.024(4) 0.0283(17) -0.0002(16) 0 0
+O4 O 0.005(3) 0.017(4) 0.0138(18) -0.003(2) 0 0
+loop_
+_atom_site_displace_Fourier_atom_site_label
+_atom_site_displace_Fourier_axis
+_atom_site_displace_Fourier_wave_vector_seq_id
+_atom_site_displace_Fourier_param_cos
+_atom_site_displace_Fourier_param_sin
+Al1 x 1 0 0
+Al1 y 1 0 0
+Al1 z 1 0 -0.00392(14)
+Al2 x 1 0.00041(5) -0.00102(5)
+Al2 y 1 -0.00023(5) -0.00112(5)
+Al2 z 1 0 0
+Si2 x 1 0.00041(5) -0.00102(5)
+Si2 y 1 -0.00023(5) -0.00112(5)
+Si2 z 1 0 0
+Al3 x 1 0.0008(3) -0.0001(2)
+Al3 y 1 0.0005(2) -0.0009(2)
+Al3 z 1 0 0
+Si3 x 1 0.0008(3) -0.0001(2)
+Si3 y 1 0.0005(2) -0.0009(2)
+Si3 z 1 0 0
+O1 x 1 -0.00122(11) -0.00169(11)
+O1 y 1 0.00270(9) 0.00192(10)
+O1 z 1 0 0
+O2 x 1 0 0
+O2 y 1 0 0
+O2 z 1 -0.0056(2) -0.0021(2)
+O3 x 1 0 -0.0041(7)
+O3 y 1 0 -0.0004(9)
+O3 z 1 0 0
+O4 x 1 -0.0018(12) 0.0044(8)
+O4 y 1 -0.0080(16) -0.0028(8)
+O4 z 1 0 0
+loop_
+_atom_site_Fourier_wave_vector_seq_id
+_jana_atom_site_fourier_wave_vector_q1_coeff
+1 1
+loop_
+_atom_site_occ_Fourier_atom_site_label
+_atom_site_occ_Fourier_wave_vector_seq_id
+_atom_site_occ_Fourier_param_cos
+_atom_site_occ_Fourier_param_sin
+Al2 1 0.0254(5) 0.00766(16)
+Si2 1 0.0254(5) 0.00766(16)
+Al3 1 -0.0207(6) -0.0144(6)
+Si3 1 -0.0207(6) -0.0144(6)
+O3 1 0.0265(5) 0
+O4 1 -0.0140(6) -0.0210(6)
+loop_
+_atom_site_U_Fourier_atom_site_label
+_atom_site_U_Fourier_tens_elem
+_atom_site_U_Fourier_wave_vector_seq_id
+_atom_site_U_Fourier_param_cos
+_atom_site_U_Fourier_param_sin
+Al1 U11 1 0 0
+Al1 U22 1 0 0
+Al1 U33 1 0 0
+Al1 U12 1 0 0
+Al1 U13 1 -0.00010(18) 0
+Al1 U23 1 -0.00051(17) 0
+Al2 U11 1 -0.0022(2) -0.0002(2)
+Al2 U22 1 -0.0019(2) 0.0008(2)
+Al2 U33 1 -0.00133(19) -0.00015(18)
+Al2 U12 1 -0.00014(18) -0.00030(16)
+Al2 U13 1 0 0
+Al2 U23 1 0 0
+Si2 U11 1 -0.0022(2) -0.0002(2)
+Si2 U22 1 -0.0019(2) 0.0008(2)
+Si2 U33 1 -0.00133(19) -0.00015(18)
+Si2 U12 1 -0.00014(18) -0.00030(16)
+Si2 U13 1 0 0
+Si2 U23 1 0 0
+Al3 U11 1 0.0099(10) 0.0025(10)
+Al3 U22 1 0.0082(9) 0.0046(10)
+Al3 U33 1 0.0092(9) 0.0049(8)
+Al3 U12 1 0.0011(7) -0.0007(7)
+Al3 U13 1 0 0
+Al3 U23 1 0 0
+Si3 U11 1 0.0099(10) 0.0025(10)
+Si3 U22 1 0.0082(9) 0.0046(10)
+Si3 U33 1 0.0092(9) 0.0049(8)
+Si3 U12 1 0.0011(7) -0.0007(7)
+Si3 U13 1 0 0
+Si3 U23 1 0 0
+O1 U11 1 -0.0019(5) -0.0009(4)
+O1 U22 1 -0.0001(4) 0.0003(5)
+O1 U33 1 0.0003(3) 0.0005(3)
+O1 U12 1 0.0014(4) 0.0005(4)
+O1 U13 1 0 0
+O1 U23 1 0 0
+O2 U11 1 0 0
+O2 U22 1 0 0
+O2 U33 1 0 0
+O2 U12 1 0 0
+O2 U13 1 -0.0003(3) -0.0006(3)
+O2 U23 1 -0.0001(3) 0.0009(3)
+O3 U11 1 0.010(5) 0
+O3 U22 1 -0.016(6) 0
+O3 U33 1 0.000(3) 0
+O3 U12 1 0.000(3) 0
+O3 U13 1 0 0
+O3 U23 1 0 0
+O4 U11 1 -0.002(4) 0.005(3)
+O4 U22 1 0.025(5) 0.008(3)
+O4 U33 1 0.004(3) 0.008(2)
+O4 U12 1 -0.010(3) -0.0025(19)
+O4 U13 1 0 0
+O4 U23 1 0 0
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Al 0.0645 0.0514 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+O 0.0106 0.0060 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+Si 0.0817 0.0704 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+loop_
+_cell_wave_vector_seq_id
+_cell_wave_vector_x
+_cell_wave_vector_y
+_cell_wave_vector_z
+1 0.313700 0.000000 0.500000
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_ssg_symmetry_2
+_geom_bond_distance_av
+_geom_bond_distance_min
+_geom_bond_distance_max
+Al1 O1 3_5455 1.8977(7) 1.8907(8) 1.9047(8)
+Al1 O1 3_5465 1.8977(7) 1.8907(8) 1.9047(8)
+Al1 O1 4_4555 1.8977(7) 1.8907(8) 1.9047(8)
+Al1 O1 4_4565 1.8977(7) 1.8907(8) 1.9047(8)
+Al1 O2 . 1.9416(8) 1.9415(8) 1.9416(8)
+Al1 O2 2_5555 1.9416(8) 1.9415(8) 1.9416(8)
+Al2 O1 . 1.7109(12) 1.7033(12) 1.7182(12)
+Al2 O2 . 1.7289(8) 1.7186(8) 1.7391(8)
+Al2 O2 1_5565 1.7289(8) 1.7186(8) 1.7391(8)
+Al2 O3 . 1.670(3) 1.650(6) 1.689(6)
+Al2 O4 3_5565 1.757(12) 1.692(15) 1.822(15)
+Al2 O4 4_4565 1.731(11) 1.688(12) 1.774(12)
+Si2 O1 . 1.7109(12) 1.7033(12) 1.7182(12)
+Si2 O2 . 1.7289(8) 1.7186(8) 1.7391(8)
+Si2 O2 1_5565 1.7289(8) 1.7186(8) 1.7391(8)
+Si2 O3 . 1.670(3) 1.650(6) 1.689(6)
+Si2 O4 3_5565 1.757(12) 1.692(15) 1.822(15)
+Si2 O4 4_4565 1.731(11) 1.688(12) 1.774(12)
+Al3 O1 . 1.822(3) 1.806(3) 1.838(3)
+Al3 O2 . 1.7739(16) 1.7611(16) 1.7865(16)
+Al3 O2 1_5565 1.7739(16) 1.7611(16) 1.7865(16)
+Al3 O4 . 1.894(11) 1.847(13) 1.940(13)
+Si3 O1 . 1.812(3) 1.806(3) 1.825(3)
+Si3 O2 . 1.7722(16) 1.7611(16) 1.7862(16)
+Si3 O2 1_5565 1.7722(16) 1.7611(16) 1.7862(16)
+Si3 O4 . 1.865(11) 1.847(13) 1.898(13)
+#BEGIN Loops that were not found in dictionaries:
+loop_
+_jana_atom_site_occ_fourier_absolute_site_label
+_jana_atom_site_occ_fourier_absolute
+Al2 0.5
+Si2 0.2963
+Al3 0.2037
+Si3 0
+O3 0.3889
+O4 0.2037
+#END Loops that were not found in dictionaries

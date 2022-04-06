@@ -1,0 +1,188 @@
+#------------------------------------------------------------------------------
+#$Date: 2021-10-23 03:09:43 +0300 (Sat, 23 Oct 2021) $
+#$Revision: 270058 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/4/00/01/4000163.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4000163
+loop_
+_publ_author_name
+'Li, J.'
+'Yokochi, A.'
+'Amos, T. G.'
+'Sleight, A. W.'
+_publ_section_title
+;
+ Strong Negative Thermal Expansion along the O--Cu--O Linkage in CuScO~2~
+;
+_journal_coden_ASTM              CMATEX
+_journal_issue                   6
+_journal_name_full               'Chemistry of Materials'
+_journal_page_first              2602
+_journal_page_last               2606
+_journal_paper_doi               10.1021/cm011633v
+_journal_volume                  14
+_journal_year                    2002
+_chemical_formula_moiety         'Cu O2 Sc'
+_chemical_formula_sum            'Cu O2 Sc'
+_chemical_formula_weight         140.50
+_chemical_name_systematic
+;
+2H Copper Scandium Oxide
+;
+_symmetry_cell_setting           hexagonal
+_symmetry_Int_Tables_number      194
+_symmetry_space_group_name_Hall  -P6c2c
+_symmetry_space_group_name_H-M   P63/mmc
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                120.00
+_cell_formula_units_Z            2
+_cell_length_a                   3.2189(4)
+_cell_length_b                   3.2189(4)
+_cell_length_c                   11.404(1)
+_cell_measurement_temperature    300(1)
+_cell_special_details
+;
+Cell dimensions at this temperature were refined from the powder diffractogram.
+;
+_cell_volume                     102.33(1)
+_diffrn_ambient_temperature      300(1)
+_diffrn_measurement_device_type  'neutron powder diffractometer'
+_diffrn_radiation_monochromator  Cu(311)
+_diffrn_radiation_probe          neutron
+_diffrn_radiation_source         'nuclear reactor'
+_diffrn_radiation_type           neutron
+_diffrn_radiation_wavelength     1.5402(2)
+_exptl_absorpt_coefficient_mu    0.0427
+_exptl_absorpt_correction_T_max  0.698
+_exptl_absorpt_correction_T_min  0.741
+_exptl_absorpt_correction_type   analytical
+_exptl_crystal_density_diffrn    4.5599(6)
+_exptl_crystal_density_meas      ?
+_exptl_crystal_density_method    'not measured'
+_pd_char_colour                  blue
+_pd_char_particle_morphology     'fine powder'
+_pd_instr_geometry
+'32 detector neutron diffractometer with vertical focusing'
+_pd_instr_location               'NBSR BT-1, NIST (USA)'
+_pd_meas_2theta_range_inc        0.05
+_pd_meas_2theta_range_max        167.95
+_pd_meas_2theta_range_min        3.00
+_pd_meas_number_of_points        3300
+_pd_meas_scan_method             step
+_pd_meas_special_details
+;
+32 He-3 detectors at 5 degree intervals with a 13 degree scan range covering
+ 2Theta from 3 to 167 degrees
+;
+_pd_proc_2theta_range_inc        0.05
+_pd_proc_2theta_range_max        153.5
+_pd_proc_2theta_range_min        10
+_pd_proc_info_data_reduction
+;
+ Data from the 32 detector banks were converted to a pseudo-single
+  detector format using 2-point linear interpolation, after
+  correcting for variable detector height masking and detector
+  sensitivity, as well as two-theta offset. Where needed, a
+  constant was added or subracted to the data in each detector
+  as determined by integrating the overlapped regions, to compensate
+  for background variations.
+A Chebyshev polynomial fit was calculated for the absorption correction
+ factors for successive values of theta (the factors were taken from
+the International Tables of X-ray Crystallography, Vol. II, p. 295-297)
+;
+_pd_proc_info_excluded_regions
+;
+The region from 3.00 to 10.00 was excluded from the refinement
+as no reflections were present in this range.
+The region from 153.50 to 167.95 was excluded to ensure that the
+highest angle data were at the background level.
+;
+_pd_proc_ls_background_function  '3rd order polynomial'
+_pd_proc_ls_pref_orient_corr     none
+_pd_proc_ls_profile_function     'Thompson-Cox-Hastings pseudo-Voigt'
+_pd_proc_ls_prof_R_factor        4.12
+_pd_proc_ls_prof_wR_expected     4.66
+_pd_proc_ls_prof_wR_factor       5.47
+_pd_spec_mounting                'vanadium can'
+_pd_spec_mount_mode              transmission
+_pd_spec_orientation             vertical
+_pd_spec_shape                   cylinder
+_pd_spec_size_axial              50.8
+_pd_spec_size_equat              12.7
+_pd_spec_size_thick              12.7
+_refine_ls_extinction_coef       0
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_all   1.38
+_refine_ls_matrix_type           fullcycle
+_refine_ls_number_constraints    0
+_refine_ls_number_parameters     20
+_refine_ls_number_restraints     0
+_refine_ls_shift/su_max          0.01
+_refine_ls_structure_factor_coef Inet
+_refine_ls_weighting_scheme      sigma
+_cod_database_code               4000163
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, -y, z+1/2'
+'-y, -x, -z+1/2'
+'y, x, -z'
+'x-y, -y, -z'
+'-x+y, y, -z+1/2'
+'x, x-y, -z+1/2'
+'-x, -x+y, -z'
+'-y, x-y, z'
+'y, -x+y, z+1/2'
+'x-y, x, z+1/2'
+'-x+y, -x, z'
+'-x, -y, -z'
+'x, y, -z-1/2'
+'y, x, z-1/2'
+'-y, -x, z'
+'-x+y, y, z'
+'x-y, -y, z-1/2'
+'-x, -x+y, z-1/2'
+'x, x-y, z'
+'y, -x+y, -z'
+'-y, x-y, -z-1/2'
+'-x+y, -x, -z-1/2'
+'x-y, x, -z'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+Cu CU 0.3333 0.6667 0.2500 0.0100(4) Uani 1 2
+Sc SC 0.0000 0.0000 0.0000 0.0050(3) Uani 1 2
+O O 0.3333 0.6667 0.08955(4) 0.0045(4) Uani 1 4
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Cu 0.0148(4) 0.0148(4) 0.0004(4) 0.000 0.000 0.0074(2)
+Sc 0.0045(3) 0.0045(3) 0.0061(3) 0.000 0.000 0.0023(2)
+O 0.0054(4) 0.0054(4) 0.0026(4) 0.000 0.000 0.0027(2)
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1 'Vaitkus, Antanas' 2021-10-23T02:59:34+03:00
+'Updated bibliographic information.'

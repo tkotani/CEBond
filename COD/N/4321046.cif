@@ -1,0 +1,659 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-23 15:06:27 +0200 (Wed, 23 Mar 2016) $
+#$Revision: 179313 $
+#$URL: svn://www.crystallography.net/cod/cif/4/32/10/4321046.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4321046
+loop_
+_publ_author_name
+'S. J. Clarke'
+'F. J. DiSalvo'
+_publ_section_title
+;
+ New Calcium Germanium Nitrides: Ca2GeN2, Ca4GeN4, and Ca5Ge2N6
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              2631
+_journal_page_last               2634
+_journal_paper_doi               10.1021/ic991427d
+_journal_volume                  39
+_journal_year                    2000
+_chemical_formula_sum            'Ca4 Ge N4'
+_chemical_formula_weight         288.95
+_chemical_name_systematic
+; 
+ Calcium Germanium Nitride 
+;
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL
+_cell_angle_alpha                90.00
+_cell_angle_beta                 116.498(6)
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   9.2823(8)
+_cell_length_b                   6.0429(5)
+_cell_length_c                   11.1612(9)
+_cell_measurement_reflns_used    38
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      12.5
+_cell_measurement_theta_min      2.5
+_cell_volume                     560.29(9)
+_computing_cell_refinement       'Siemens XSCANS software 1994'
+_computing_data_collection       'Siemens XSCANS software 1994'
+_computing_data_reduction        'Siemens XSCANS software 1994'
+_computing_publication_material  'SHELXTL-5 (Siemens, 1995)'
+_computing_structure_refinement  'SHELXL-93 (Sheldrick, 1993)'
+_computing_structure_solution    'SHELXS-86 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measurement_device       'Siemens P4 diffractometer'
+_diffrn_measurement_method       'profile data from theta/2theta scans'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0543
+_diffrn_reflns_av_sigmaI/netI    0.0509
+_diffrn_reflns_limit_h_max       1
+_diffrn_reflns_limit_h_min       -13
+_diffrn_reflns_limit_k_max       8
+_diffrn_reflns_limit_k_min       -8
+_diffrn_reflns_limit_l_max       15
+_diffrn_reflns_limit_l_min       -14
+_diffrn_reflns_number            3653
+_diffrn_reflns_theta_max         29.99
+_diffrn_reflns_theta_min         2.45
+_diffrn_standards_decay_%        0
+_diffrn_standards_interval_count 97
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    9.009
+_exptl_absorpt_correction_T_max  0.44
+_exptl_absorpt_correction_T_min  0.36
+_exptl_absorpt_correction_type   empirical
+_exptl_crystal_colour            orange
+_exptl_crystal_density_diffrn    3.425
+_exptl_crystal_description       'chunky crystal '
+_exptl_crystal_F_000             560
+_exptl_crystal_size_max          0.17
+_exptl_crystal_size_mid          0.15
+_exptl_crystal_size_min          0.10
+_refine_diff_density_max         1.284
+_refine_diff_density_min         -1.251
+_refine_diff_density_rms         0.204
+_refine_ls_extinction_coef       0.0241(13)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_all   1.091
+_refine_ls_goodness_of_fit_obs   1.126
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     83
+_refine_ls_number_reflns         1630
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.091
+_refine_ls_restrained_S_obs      1.126
+_refine_ls_R_factor_all          0.0351
+_refine_ls_R_factor_obs          0.0302
+_refine_ls_shift/esd_max         -0.004
+_refine_ls_shift/esd_mean        0.001
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w=1/[\s^2^(Fo^2^)+(0.0361P)^2^+0.2097P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         0.0748
+_refine_ls_wR_factor_obs         0.0726
+_reflns_number_observed          1450
+_reflns_number_total             1630
+_reflns_observed_criterion       >2sigma(I)
+_cod_data_source_file            ic991427d_1.cif
+_cod_data_source_block           Ca4GeN4_p21c_psiscan
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'calc
+w=1/[\s^2^(Fo^2^)+(0.0361P)^2^+0.2097P] where P=(Fo^2^+2Fc^2^)/3' was
+changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to
+'w=1/[\s^2^(Fo^2^)+(0.0361P)^2^+0.2097P] where P=(Fo^2^+2Fc^2^)/3'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        560.29(8)
+_cod_database_code               4321046
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, y+1/2, -z+1/2'
+'-x, -y, -z'
+'x, -y-1/2, z-1/2'
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Ge1 0.0058(2) 0.0047(2) 0.0051(2) 0.00003(10) 0.00179(12) 0.00037(9)
+Ca1 0.0072(3) 0.0058(2) 0.0082(2) -0.0001(2) 0.0024(2) -0.0003(2)
+Ca2 0.0090(3) 0.0085(2) 0.0071(3) 0.0012(2) 0.0021(2) 0.0010(2)
+Ca3 0.0080(2) 0.0064(2) 0.0068(2) 0.0002(2) 0.0032(2) 0.0000(2)
+Ca4 0.0125(3) 0.0078(3) 0.0075(3) 0.0000(2) 0.0027(2) -0.0012(2)
+N1 0.0087(10) 0.0080(10) 0.0067(10) -0.0011(9) 0.0014(8) -0.0027(9)
+N2 0.0089(11) 0.0053(10) 0.0068(10) 0.0009(8) 0.0018(9) -0.0003(8)
+N3 0.0094(10) 0.0066(10) 0.0079(10) -0.0025(9) 0.0002(9) -0.0001(9)
+N4 0.0076(10) 0.0081(10) 0.0076(10) 0.0008(9) 0.0028(9) -0.0012(8)
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_occupancy
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_group
+Ge1 Ge 0.26924(3) 0.35885(5) 0.05185(3) 0.00543(11) Uani 1 d . .
+Ca1 Ca 0.07798(6) 0.75612(9) 0.04371(6) 0.00745(14) Uani 1 d . .
+Ca2 Ca 0.14675(7) 0.34522(9) 0.27039(6) 0.00874(14) Uani 1 d . .
+Ca3 Ca 0.54803(7) 0.42246(9) 0.38031(6) 0.00710(13) Uani 1 d . .
+Ca4 Ca 0.65326(7) 0.41670(10) 0.15562(6) 0.00990(14) Uani 1 d . .
+N1 N 0.0959(3) 0.0186(4) 0.3902(2) 0.0086(4) Uani 1 d . .
+N2 N 0.1976(3) 0.1117(4) 0.1146(2) 0.0077(4) Uani 1 d . .
+N3 N 0.3368(3) 0.5841(4) 0.1854(3) 0.0093(5) Uani 1 d . .
+N4 N 0.4111(3) 0.2468(4) 0.4852(2) 0.0080(4) Uani 1 d . .
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+N N 0.0061 0.0033 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ca Ca 0.2262 0.3064 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ge Ge 0.1547 1.8001 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+N4 Ge1 N2 107.50(11) 4_565 . ?
+N4 Ge1 N3 120.35(11) 4_565 . ?
+N2 Ge1 N3 108.78(11) . . ?
+N4 Ge1 N1 101.31(10) 4_565 4_565 ?
+N2 Ge1 N1 111.18(10) . 4_565 ?
+N3 Ge1 N1 107.46(11) . 4_565 ?
+N4 Ge1 Ca1 140.80(8) 4_565 . ?
+N2 Ge1 Ca1 110.27(8) . . ?
+N3 Ge1 Ca1 55.18(8) . . ?
+N1 Ge1 Ca1 55.12(7) 4_565 . ?
+N4 Ge1 Ca1 127.64(7) 4_565 3_565 ?
+N2 Ge1 Ca1 56.48(7) . 3_565 ?
+N3 Ge1 Ca1 111.78(8) . 3_565 ?
+N1 Ge1 Ca1 56.30(7) 4_565 3_565 ?
+Ca1 Ge1 Ca1 69.00(2) . 3_565 ?
+N4 Ge1 Ca4 53.57(7) 4_565 3_665 ?
+N2 Ge1 Ca4 151.35(8) . 3_665 ?
+N3 Ge1 Ca4 99.80(8) . 3_665 ?
+N1 Ge1 Ca4 60.18(7) 4_565 3_665 ?
+Ca1 Ge1 Ca4 87.55(2) . 3_665 ?
+Ca1 Ge1 Ca4 114.61(2) 3_565 3_665 ?
+N4 Ge1 Ca3 52.86(7) 4_565 2_645 ?
+N2 Ge1 Ca3 58.16(8) . 2_645 ?
+N3 Ge1 Ca3 118.16(8) . 2_645 ?
+N1 Ge1 Ca3 134.24(7) 4_565 2_645 ?
+Ca1 Ge1 Ca3 165.85(2) . 2_645 ?
+Ca1 Ge1 Ca3 106.25(2) 3_565 2_645 ?
+Ca4 Ge1 Ca3 106.36(2) 3_665 2_645 ?
+N4 Ge1 Ca2 57.87(7) 4_565 4_565 ?
+N2 Ge1 Ca2 91.75(8) . 4_565 ?
+N3 Ge1 Ca2 157.81(8) . 4_565 ?
+N1 Ge1 Ca2 55.38(7) 4_565 4_565 ?
+Ca1 Ge1 Ca2 110.46(2) . 4_565 ?
+Ca1 Ge1 Ca2 72.22(2) 3_565 4_565 ?
+Ca4 Ge1 Ca2 60.40(2) 3_665 4_565 ?
+Ca3 Ge1 Ca2 79.51(2) 2_645 4_565 ?
+N4 Ge1 Ca2 149.39(7) 4_565 . ?
+N2 Ge1 Ca2 51.59(8) . . ?
+N3 Ge1 Ca2 60.98(8) . . ?
+N1 Ge1 Ca2 107.19(7) 4_565 . ?
+Ca1 Ge1 Ca2 67.84(2) . . ?
+Ca1 Ge1 Ca2 64.00(2) 3_565 . ?
+Ca4 Ge1 Ca2 154.44(2) 3_665 . ?
+Ca3 Ge1 Ca2 98.03(2) 2_645 . ?
+Ca2 Ge1 Ca2 133.58(2) 4_565 . ?
+N4 Ge1 Ca4 47.77(7) 4_565 . ?
+N2 Ge1 Ca4 117.74(7) . . ?
+N3 Ge1 Ca4 73.60(8) . . ?
+N1 Ge1 Ca4 127.74(7) 4_565 . ?
+Ca1 Ge1 Ca4 118.19(2) . . ?
+Ca1 Ge1 Ca4 172.75(2) 3_565 . ?
+Ca4 Ge1 Ca4 68.08(2) 3_665 . ?
+Ca3 Ge1 Ca4 66.55(2) 2_645 . ?
+Ca2 Ge1 Ca4 104.74(2) 4_565 . ?
+Ca2 Ge1 Ca4 116.77(2) . . ?
+N4 Ge1 Ca3 97.62(7) 4_565 . ?
+N2 Ge1 Ca3 85.14(7) . . ?
+N3 Ge1 Ca3 42.08(8) . . ?
+N1 Ge1 Ca3 149.54(7) 4_565 . ?
+Ca1 Ge1 Ca3 95.61(2) . . ?
+Ca1 Ge1 Ca3 125.81(2) 3_565 . ?
+Ca4 Ge1 Ca3 116.22(2) 3_665 . ?
+Ca3 Ge1 Ca3 76.156(13) 2_645 . ?
+Ca2 Ge1 Ca3 153.09(2) 4_565 . ?
+Ca2 Ge1 Ca3 62.13(2) . . ?
+Ca4 Ge1 Ca3 54.673(15) . . ?
+N2 Ca1 N3 89.48(8) 1_565 . ?
+N2 Ca1 N1 132.60(9) 1_565 4_565 ?
+N3 Ca1 N1 79.02(8) . 4_565 ?
+N2 Ca1 N2 97.15(8) 1_565 3_565 ?
+N3 Ca1 N2 173.16(8) . 3_565 ?
+N1 Ca1 N2 95.16(8) 4_565 3_565 ?
+N2 Ca1 N1 133.19(9) 1_565 2 ?
+N3 Ca1 N1 98.20(8) . 2 ?
+N1 Ca1 N1 94.11(8) 4_565 2 ?
+N2 Ca1 N1 78.50(8) 3_565 2 ?
+N2 Ca1 Ge1 122.38(6) 1_565 . ?
+N3 Ca1 Ge1 39.85(6) . . ?
+N1 Ca1 Ge1 40.87(6) 4_565 . ?
+N2 Ca1 Ge1 133.60(6) 3_565 . ?
+N1 Ca1 Ge1 89.01(6) 2 . ?
+N2 Ca1 Ge1 126.57(6) 1_565 3_565 ?
+N3 Ca1 Ge1 136.43(6) . 3_565 ?
+N1 Ca1 Ge1 89.54(6) 4_565 3_565 ?
+N2 Ca1 Ge1 39.03(6) 3_565 3_565 ?
+N1 Ca1 Ge1 40.36(5) 2 3_565 ?
+Ge1 Ca1 Ge1 111.00(2) . 3_565 ?
+N2 Ca1 Ca1 50.15(6) 1_565 3_575 ?
+N3 Ca1 Ca1 139.59(6) . 3_575 ?
+N1 Ca1 Ca1 124.64(6) 4_565 3_575 ?
+N2 Ca1 Ca1 47.00(6) 3_565 3_575 ?
+N1 Ca1 Ca1 110.50(6) 2 3_575 ?
+Ge1 Ca1 Ca1 158.19(3) . 3_575 ?
+Ge1 Ca1 Ca1 80.68(2) 3_565 3_575 ?
+N2 Ca1 Ca2 120.58(6) 1_565 3_565 ?
+N3 Ca1 Ca2 126.35(6) . 3_565 ?
+N1 Ca1 Ca2 47.57(6) 4_565 3_565 ?
+N2 Ca1 Ca2 48.31(6) 3_565 3_565 ?
+N1 Ca1 Ca2 91.25(6) 2 3_565 ?
+Ge1 Ca1 Ca2 88.15(2) . 3_565 ?
+Ge1 Ca1 Ca2 59.92(2) 3_565 3_565 ?
+Ca1 Ca1 Ca2 81.98(2) 3_575 3_565 ?
+N2 Ca1 Ca4 51.03(6) 1_565 2_655 ?
+N3 Ca1 Ca4 52.39(6) . 2_655 ?
+N1 Ca1 Ca4 130.81(6) 4_565 2_655 ?
+N2 Ca1 Ca4 133.81(6) 3_565 2_655 ?
+N1 Ca1 Ca4 99.37(6) 2 2_655 ?
+Ge1 Ca1 Ca4 92.07(2) . 2_655 ?
+Ge1 Ca1 Ca4 129.39(2) 3_565 2_655 ?
+Ca1 Ca1 Ca4 94.13(3) 3_575 2_655 ?
+Ca2 Ca1 Ca4 169.38(2) 3_565 2_655 ?
+N2 Ca1 Ca3 50.75(6) 1_565 2_655 ?
+N3 Ca1 Ca3 49.67(6) . 2_655 ?
+N1 Ca1 Ca3 89.67(6) 4_565 2_655 ?
+N2 Ca1 Ca3 134.60(6) 3_565 2_655 ?
+N1 Ca1 Ca3 146.23(6) 2 2_655 ?
+Ge1 Ca1 Ca3 72.26(2) . 2_655 ?
+Ge1 Ca1 Ca3 173.41(2) 3_565 2_655 ?
+Ca1 Ca1 Ca3 94.41(2) 3_575 2_655 ?
+Ca2 Ca1 Ca3 115.23(2) 3_565 2_655 ?
+Ca4 Ca1 Ca3 55.00(2) 2_655 2_655 ?
+N2 Ca1 Ca1 177.42(7) 1_565 3_565 ?
+N3 Ca1 Ca1 88.16(6) . 3_565 ?
+N1 Ca1 Ca1 47.80(6) 4_565 3_565 ?
+N2 Ca1 Ca1 85.25(6) 3_565 3_565 ?
+N1 Ca1 Ca1 46.30(6) 2 3_565 ?
+Ge1 Ca1 Ca1 55.88(2) . 3_565 ?
+Ge1 Ca1 Ca1 55.12(2) 3_565 3_565 ?
+Ca1 Ca1 Ca1 132.24(3) 3_575 3_565 ?
+Ca2 Ca1 Ca1 61.78(2) 3_565 3_565 ?
+Ca4 Ca1 Ca1 126.48(3) 2_655 3_565 ?
+Ca3 Ca1 Ca1 127.83(3) 2_655 3_565 ?
+N1 Ca2 N2 97.77(8) 2 . ?
+N1 Ca2 N1 113.47(6) 2 . ?
+N2 Ca2 N1 93.79(8) . . ?
+N1 Ca2 N4 164.55(8) 2 . ?
+N2 Ca2 N4 96.92(8) . . ?
+N1 Ca2 N4 70.16(8) . . ?
+N1 Ca2 N3 92.62(8) 2 . ?
+N2 Ca2 N3 72.58(8) . . ?
+N1 Ca2 N3 152.27(8) . . ?
+N4 Ca2 N3 87.24(8) . . ?
+N1 Ca2 Ca4 145.00(6) 2 2_645 ?
+N2 Ca2 Ca4 54.54(6) . 2_645 ?
+N1 Ca2 Ca4 55.74(6) . 2_645 ?
+N4 Ca2 Ca4 49.99(6) . 2_645 ?
+N3 Ca2 Ca4 97.53(6) . 2_645 ?
+N1 Ca2 Ge1 136.99(6) 2 4_566 ?
+N2 Ca2 Ge1 113.19(6) . 4_566 ?
+N1 Ca2 Ge1 39.11(5) . 4_566 ?
+N4 Ca2 Ge1 37.61(5) . 4_566 ?
+N3 Ca2 Ge1 124.00(6) . 4_566 ?
+Ca4 Ca2 Ge1 59.04(2) 2_645 4_566 ?
+N1 Ca2 Ge1 87.28(6) 2 . ?
+N2 Ca2 Ge1 37.34(6) . . ?
+N1 Ca2 Ge1 130.52(6) . . ?
+N4 Ca2 Ge1 101.66(6) . . ?
+N3 Ca2 Ge1 37.22(5) . . ?
+Ca4 Ca2 Ge1 81.10(2) 2_645 . ?
+Ge1 Ca2 Ge1 135.28(2) 4_566 . ?
+N1 Ca2 Ca1 48.61(6) 2 3_565 ?
+N2 Ca2 Ca1 49.92(6) . 3_565 ?
+N1 Ca2 Ca1 103.97(6) . 3_565 ?
+N4 Ca2 Ca1 146.60(6) . 3_565 ?
+N3 Ca2 Ca1 85.89(5) . 3_565 ?
+Ca4 Ca2 Ca1 98.71(2) 2_645 3_565 ?
+Ge1 Ca2 Ca1 142.59(2) 4_566 3_565 ?
+Ge1 Ca2 Ca1 56.07(2) . 3_565 ?
+N1 Ca2 Ca3 136.18(7) 2 . ?
+N2 Ca2 Ca3 78.89(6) . . ?
+N1 Ca2 Ca3 110.35(6) . . ?
+N4 Ca2 Ca3 43.30(5) . . ?
+N3 Ca2 Ca3 44.30(5) . . ?
+Ca4 Ca2 Ca3 65.50(2) 2_645 . ?
+Ge1 Ca2 Ca3 80.81(2) 4_566 . ?
+Ge1 Ca2 Ca3 63.56(2) . . ?
+Ca1 Ca2 Ca3 119.35(2) 3_565 . ?
+N1 Ca2 Ca1 47.46(6) 2 . ?
+N2 Ca2 Ca1 85.63(6) . . ?
+N1 Ca2 Ca1 160.35(6) . . ?
+N4 Ca2 Ca1 129.44(6) . . ?
+N3 Ca2 Ca1 45.31(5) . . ?
+Ca4 Ca2 Ca1 134.88(2) 2_645 . ?
+Ge1 Ca2 Ca1 155.97(2) 4_566 . ?
+Ge1 Ca2 Ca1 53.904(15) . . ?
+Ca1 Ca2 Ca1 61.03(2) 3_565 . ?
+Ca3 Ca2 Ca1 88.85(2) . . ?
+N1 Ca2 Ca1 84.45(6) 2 2_545 ?
+N2 Ca2 Ca1 132.33(6) . 2_545 ?
+N1 Ca2 Ca1 44.41(6) . 2_545 ?
+N4 Ca2 Ca1 89.18(5) . 2_545 ?
+N3 Ca2 Ca1 155.09(5) . 2_545 ?
+Ca4 Ca2 Ca1 98.96(2) 2_645 2_545 ?
+Ge1 Ca2 Ca1 52.710(15) 4_566 2_545 ?
+Ge1 Ca2 Ca1 165.40(2) . 2_545 ?
+Ca1 Ca2 Ca1 109.79(2) 3_565 2_545 ?
+Ca3 Ca2 Ca1 129.84(2) . 2_545 ?
+Ca1 Ca2 Ca1 125.27(2) . 2_545 ?
+N4 Ca3 N3 103.48(9) . . ?
+N4 Ca3 N4 91.96(8) . 3_666 ?
+N3 Ca3 N4 93.73(8) . 3_666 ?
+N4 Ca3 N3 99.83(9) . 2_645 ?
+N3 Ca3 N3 110.05(6) . 2_645 ?
+N4 Ca3 N3 149.87(8) 3_666 2_645 ?
+N4 Ca3 N2 151.84(8) . 2_655 ?
+N3 Ca3 N2 102.01(8) . 2_655 ?
+N4 Ca3 N2 74.59(8) 3_666 2_655 ?
+N3 Ca3 N2 82.33(8) 2_645 2_655 ?
+N4 Ca3 Ge1 129.62(6) . 2_655 ?
+N3 Ca3 Ge1 90.70(6) . 2_655 ?
+N4 Ca3 Ge1 38.37(6) 3_666 2_655 ?
+N3 Ca3 Ge1 120.37(6) 2_645 2_655 ?
+N2 Ca3 Ge1 38.16(5) 2_655 2_655 ?
+N4 Ca3 Ca4 147.97(7) . . ?
+N3 Ca3 Ca4 72.07(6) . . ?
+N4 Ca3 Ca4 119.73(6) 3_666 . ?
+N3 Ca3 Ca4 55.38(6) 2_645 . ?
+N2 Ca3 Ca4 53.60(6) 2_655 . ?
+Ge1 Ca3 Ca4 82.41(2) 2_655 . ?
+N4 Ca3 Ca3 47.15(6) . 3_666 ?
+N3 Ca3 Ca3 102.24(7) . 3_666 ?
+N4 Ca3 Ca3 44.82(6) 3_666 3_666 ?
+N3 Ca3 Ca3 139.00(6) 2_645 3_666 ?
+N2 Ca3 Ca3 115.27(6) 2_655 3_666 ?
+Ge1 Ca3 Ca3 82.80(2) 2_655 3_666 ?
+Ca4 Ca3 Ca3 164.07(3) . 3_666 ?
+N4 Ca3 Ca1 118.23(6) . 2_645 ?
+N3 Ca3 Ca1 133.71(7) . 2_645 ?
+N4 Ca3 Ca1 103.47(6) 3_666 2_645 ?
+N3 Ca3 Ca1 46.62(6) 2_645 2_645 ?
+N2 Ca3 Ca1 45.27(6) 2_655 2_645 ?
+Ge1 Ca3 Ca1 78.28(2) 2_655 2_645 ?
+Ca4 Ca3 Ca1 62.01(2) . 2_645 ?
+Ca3 Ca3 Ca1 120.30(3) 3_666 2_645 ?
+N4 Ca3 Ca2 50.42(6) . . ?
+N3 Ca3 Ca2 53.53(6) . . ?
+N4 Ca3 Ca2 100.39(6) 3_666 . ?
+N3 Ca3 Ca2 108.52(6) 2_645 . ?
+N2 Ca3 Ca2 155.16(6) 2_655 . ?
+Ge1 Ca3 Ca2 127.53(2) 2_655 . ?
+Ca4 Ca3 Ca2 113.64(2) . . ?
+Ca3 Ca3 Ca2 71.52(2) 3_666 . ?
+Ca1 Ca3 Ca2 154.05(2) 2_645 . ?
+N4 Ca3 Ge1 99.48(6) . . ?
+N3 Ca3 Ge1 32.26(6) . . ?
+N4 Ca3 Ge1 125.99(6) 3_666 . ?
+N3 Ca3 Ge1 79.47(6) 2_645 . ?
+N2 Ca3 Ge1 108.46(6) 2_655 . ?
+Ge1 Ca3 Ge1 115.66(2) 2_655 . ?
+Ca4 Ca3 Ge1 59.35(2) . . ?
+Ca3 Ca3 Ge1 123.17(3) 3_666 . ?
+Ca1 Ca3 Ge1 116.09(2) 2_645 . ?
+Ca2 Ca3 Ge1 54.311(15) . . ?
+N4 Ca3 Ca4 93.68(6) . 2_655 ?
+N3 Ca3 Ca4 50.17(6) . 2_655 ?
+N4 Ca3 Ca4 44.42(6) 3_666 2_655 ?
+N3 Ca3 Ca4 158.65(6) 2_645 2_655 ?
+N2 Ca3 Ca4 93.51(6) 2_655 2_655 ?
+Ge1 Ca3 Ca4 59.44(2) 2_655 2_655 ?
+Ca4 Ca3 Ca4 105.55(2) . 2_655 ?
+Ca3 Ca3 Ca4 61.40(2) 3_666 2_655 ?
+Ca1 Ca3 Ca4 137.54(2) 2_645 2_655 ?
+Ca2 Ca3 Ca4 68.10(2) . 2_655 ?
+Ge1 Ca3 Ca4 82.06(2) . 2_655 ?
+N4 Ca4 N4 87.29(9) 4_565 2_655 ?
+N4 Ca4 N2 149.78(8) 4_565 2_655 ?
+N4 Ca4 N2 97.75(8) 2_655 2_655 ?
+N4 Ca4 N3 87.68(8) 4_565 2_645 ?
+N4 Ca4 N3 166.80(8) 2_655 2_645 ?
+N2 Ca4 N3 80.72(8) 2_655 2_645 ?
+N4 Ca4 N1 121.89(8) 4_565 2_655 ?
+N4 Ca4 N1 70.86(8) 2_655 2_655 ?
+N2 Ca4 N1 87.62(8) 2_655 2_655 ?
+N3 Ca4 N1 121.97(8) 2_645 2_655 ?
+N4 Ca4 Ge1 92.06(6) 4_565 3_665 ?
+N4 Ca4 Ge1 38.48(6) 2_655 3_665 ?
+N2 Ca4 Ge1 110.39(6) 2_655 3_665 ?
+N3 Ca4 Ge1 154.03(6) 2_645 3_665 ?
+N1 Ca4 Ge1 39.33(5) 2_655 3_665 ?
+N4 Ca4 Ca3 97.15(6) 4_565 . ?
+N4 Ca4 Ca3 116.13(6) 2_655 . ?
+N2 Ca4 Ca3 53.88(6) 2_655 . ?
+N3 Ca4 Ca3 52.53(6) 2_645 . ?
+N1 Ca4 Ca3 140.93(6) 2_655 . ?
+Ge1 Ca4 Ca3 152.66(2) 3_665 . ?
+N4 Ca4 Ca2 142.54(6) 4_565 2_655 ?
+N4 Ca4 Ca2 55.28(6) 2_655 2_655 ?
+N2 Ca4 Ca2 50.19(6) 2_655 2_655 ?
+N3 Ca4 Ca2 128.37(6) 2_645 2_655 ?
+N1 Ca4 Ca2 51.96(5) 2_655 2_655 ?
+Ge1 Ca4 Ca2 60.56(2) 3_665 2_655 ?
+Ca3 Ca4 Ca2 98.33(2) . 2_655 ?
+N4 Ca4 Ge1 35.40(6) 4_565 . ?
+N4 Ca4 Ge1 86.78(6) 2_655 . ?
+N2 Ca4 Ge1 114.81(6) 2_655 . ?
+N3 Ca4 Ge1 82.06(6) 2_645 . ?
+N1 Ca4 Ge1 150.63(5) 2_655 . ?
+Ge1 Ca4 Ge1 111.92(2) 3_665 . ?
+Ca3 Ca4 Ge1 65.97(2) . . ?
+Ca2 Ca4 Ge1 128.53(2) 2_655 . ?
+N4 Ca4 Ca1 133.98(6) 4_565 2_645 ?
+N4 Ca4 Ca1 138.50(6) 2_655 2_645 ?
+N2 Ca4 Ca1 45.71(6) 2_655 2_645 ?
+N3 Ca4 Ca1 46.75(6) 2_645 2_645 ?
+N1 Ca4 Ca1 86.26(5) 2_655 2_645 ?
+Ge1 Ca4 Ca1 125.22(2) 3_665 2_645 ?
+Ca3 Ca4 Ca1 62.99(2) . 2_645 ?
+Ca2 Ca4 Ca1 83.28(2) 2_655 2_645 ?
+Ge1 Ca4 Ca1 122.85(2) . 2_645 ?
+N4 Ca4 Ca3 44.67(6) 4_565 2_645 ?
+N4 Ca4 Ca3 131.90(6) 2_655 2_645 ?
+N2 Ca4 Ca3 122.07(6) 2_655 2_645 ?
+N3 Ca4 Ca3 43.78(6) 2_645 2_645 ?
+N1 Ca4 Ca3 130.61(6) 2_655 2_645 ?
+Ge1 Ca4 Ca3 126.78(2) 3_665 2_645 ?
+Ca3 Ca4 Ca3 75.62(2) . 2_645 ?
+Ca2 Ca4 Ca3 172.06(3) 2_655 2_645 ?
+Ge1 Ca4 Ca3 54.009(15) . 2_645 ?
+Ca1 Ca4 Ca3 89.32(2) 2_645 2_645 ?
+N4 Ca4 Ca3 42.42(6) 4_565 4_565 ?
+N4 Ca4 Ca3 91.22(6) 2_655 4_565 ?
+N2 Ca4 Ca3 164.80(6) 2_655 4_565 ?
+N3 Ca4 Ca3 93.28(6) 2_645 4_565 ?
+N1 Ca4 Ca3 83.74(5) 2_655 4_565 ?
+Ge1 Ca4 Ca3 69.84(2) 3_665 4_565 ?
+Ca3 Ca4 Ca3 131.82(2) . 4_565 ?
+Ca2 Ca4 Ca3 129.48(2) 2_655 4_565 ?
+Ge1 Ca4 Ca3 77.78(2) . 4_565 ?
+Ca1 Ca4 Ca3 120.95(2) 2_645 4_565 ?
+Ca3 Ca4 Ca3 57.26(2) 2_645 4_565 ?
+Ge1 N1 Ca2 165.26(13) 4_566 2_545 ?
+Ge1 N1 Ca1 84.01(9) 4_566 4_566 ?
+Ca2 N1 Ca1 83.83(8) 2_545 4_566 ?
+Ge1 N1 Ca1 83.34(9) 4_566 2_545 ?
+Ca2 N1 Ca1 87.52(8) 2_545 2_545 ?
+Ca1 N1 Ca1 85.89(8) 4_566 2_545 ?
+Ge1 N1 Ca2 85.51(9) 4_566 . ?
+Ca2 N1 Ca2 106.14(9) 2_545 . ?
+Ca1 N1 Ca2 169.20(11) 4_566 . ?
+Ca1 N1 Ca2 90.30(8) 2_545 . ?
+Ge1 N1 Ca4 80.49(8) 4_566 2_645 ?
+Ca2 N1 Ca4 111.33(9) 2_545 2_645 ?
+Ca1 N1 Ca4 108.41(9) 4_566 2_645 ?
+Ca1 N1 Ca4 157.02(11) 2_545 2_645 ?
+Ca2 N1 Ca4 72.30(7) . 2_645 ?
+Ge1 N2 Ca1 140.99(13) . 1_545 ?
+Ge1 N2 Ca2 91.07(10) . . ?
+Ca1 N2 Ca2 123.15(10) 1_545 . ?
+Ge1 N2 Ca1 84.50(9) . 3_565 ?
+Ca1 N2 Ca1 82.85(8) 1_545 3_565 ?
+Ca2 N2 Ca1 81.77(8) . 3_565 ?
+Ge1 N2 Ca4 127.20(11) . 2_645 ?
+Ca1 N2 Ca4 83.26(7) 1_545 2_645 ?
+Ca2 N2 Ca4 75.26(7) . 2_645 ?
+Ca1 N2 Ca4 140.33(10) 3_565 2_645 ?
+Ge1 N2 Ca3 83.68(9) . 2_645 ?
+Ca1 N2 Ca3 83.98(8) 1_545 2_645 ?
+Ca2 N2 Ca3 134.43(10) . 2_645 ?
+Ca1 N2 Ca3 141.95(11) 3_565 2_645 ?
+Ca4 N2 Ca3 72.52(6) 2_645 2_645 ?
+Ge1 N3 Ca3 105.66(11) . . ?
+Ge1 N3 Ca1 84.97(9) . . ?
+Ca3 N3 Ca1 158.88(12) . . ?
+Ge1 N3 Ca3 112.34(12) . 2_655 ?
+Ca3 N3 Ca3 107.98(9) . 2_655 ?
+Ca1 N3 Ca3 83.71(8) . 2_655 ?
+Ge1 N3 Ca4 164.63(13) . 2_655 ?
+Ca3 N3 Ca4 86.05(8) . 2_655 ?
+Ca1 N3 Ca4 80.86(7) . 2_655 ?
+Ca3 N3 Ca4 72.09(6) 2_655 2_655 ?
+Ge1 N3 Ca2 81.80(9) . . ?
+Ca3 N3 Ca2 82.17(8) . . ?
+Ca1 N3 Ca2 81.37(8) . . ?
+Ca3 N3 Ca2 158.43(11) 2_655 . ?
+Ca4 N3 Ca2 90.17(8) 2_655 . ?
+Ge1 N4 Ca3 169.44(13) 4_566 . ?
+Ge1 N4 Ca4 96.82(10) 4_566 4_566 ?
+Ca3 N4 Ca4 93.29(8) . 4_566 ?
+Ge1 N4 Ca3 88.77(9) 4_566 3_666 ?
+Ca3 N4 Ca3 88.04(8) . 3_666 ?
+Ca4 N4 Ca3 90.91(8) 4_566 3_666 ?
+Ge1 N4 Ca4 87.95(9) 4_566 2_645 ?
+Ca3 N4 Ca4 94.62(9) . 2_645 ?
+Ca4 N4 Ca4 92.71(9) 4_566 2_645 ?
+Ca3 N4 Ca4 175.38(11) 3_666 2_645 ?
+Ge1 N4 Ca2 84.51(8) 4_566 . ?
+Ca3 N4 Ca2 86.28(8) . . ?
+Ca4 N4 Ca2 167.34(11) 4_566 . ?
+Ca3 N4 Ca2 101.72(9) 3_666 . ?
+Ca4 N4 Ca2 74.73(7) 2_645 . ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Ge1 N4 1.889(2) 4_565 ?
+Ge1 N2 1.892(2) . ?
+Ge1 N3 1.906(2) . ?
+Ge1 N1 1.950(2) 4_565 ?
+Ge1 Ca1 2.9630(6) . ?
+Ge1 Ca1 2.9901(7) 3_565 ?
+Ge1 Ca4 3.0341(7) 3_665 ?
+Ge1 Ca3 3.0427(7) 2_645 ?
+Ge1 Ca2 3.0813(7) 4_565 ?
+Ge1 Ca2 3.1184(7) . ?
+Ge1 Ca4 3.2382(7) . ?
+Ge1 Ca3 3.4378(7) . ?
+Ca1 N2 2.386(3) 1_565 ?
+Ca1 N3 2.442(3) . ?
+Ca1 N1 2.444(2) 4_565 ?
+Ca1 N2 2.504(2) 3_565 ?
+Ca1 N1 2.504(3) 2 ?
+Ca1 Ge1 2.9901(7) 3_565 ?
+Ca1 Ca1 3.2366(11) 3_575 ?
+Ca1 Ca2 3.2390(9) 3_565 ?
+Ca1 Ca4 3.3100(9) 2_655 ?
+Ca1 Ca3 3.3397(8) 2_655 ?
+Ca1 Ca1 3.3718(11) 3_565 ?
+Ca2 N1 2.405(2) 2 ?
+Ca2 N2 2.444(3) . ?
+Ca2 N1 2.544(3) . ?
+Ca2 N4 2.621(2) . ?
+Ca2 N3 2.755(3) . ?
+Ca2 Ca4 3.0767(8) 2_645 ?
+Ca2 Ge1 3.0813(7) 4_566 ?
+Ca2 Ca1 3.2390(9) 3_565 ?
+Ca2 Ca3 3.3940(9) . ?
+Ca2 Ca1 3.5789(9) 2_545 ?
+Ca3 N4 2.332(2) . ?
+Ca3 N3 2.393(3) . ?
+Ca3 N4 2.426(3) 3_666 ?
+Ca3 N3 2.561(3) 2_645 ?
+Ca3 N2 2.601(3) 2_655 ?
+Ca3 Ge1 3.0427(7) 2_655 ?
+Ca3 Ca4 3.0708(8) . ?
+Ca3 Ca3 3.3072(11) 3_666 ?
+Ca3 Ca1 3.3397(8) 2_645 ?
+Ca3 Ca4 3.4501(8) 2_655 ?
+Ca4 N4 2.415(2) 4_565 ?
+Ca4 N4 2.443(2) 2_655 ?
+Ca4 N2 2.591(2) 2_655 ?
+Ca4 N3 2.656(3) 2_645 ?
+Ca4 N1 2.669(3) 2_655 ?
+Ca4 Ge1 3.0341(7) 3_665 ?
+Ca4 Ca2 3.0767(8) 2_655 ?
+Ca4 Ca1 3.3100(9) 2_645 ?
+Ca4 Ca3 3.4501(8) 2_645 ?
+Ca4 Ca3 3.4523(8) 4_565 ?
+N1 Ge1 1.950(2) 4_566 ?
+N1 Ca2 2.405(2) 2_545 ?
+N1 Ca1 2.444(2) 4_566 ?
+N1 Ca1 2.504(3) 2_545 ?
+N1 Ca4 2.669(3) 2_645 ?
+N2 Ca1 2.386(3) 1_545 ?
+N2 Ca1 2.504(2) 3_565 ?
+N2 Ca4 2.591(2) 2_645 ?
+N2 Ca3 2.601(3) 2_645 ?
+N3 Ca3 2.561(3) 2_655 ?
+N3 Ca4 2.656(3) 2_655 ?
+N4 Ge1 1.889(2) 4_566 ?
+N4 Ca4 2.415(2) 4_566 ?
+N4 Ca3 2.426(2) 3_666 ?
+N4 Ca4 2.443(2) 2_645 ?

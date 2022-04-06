@@ -1,0 +1,82 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/25/2002572.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_2002572
+loop_
+_publ_author_name
+'Vogt, R'
+'Mueller-Buschbaum, Hk'
+_publ_section_title
+;
+Magnesium in einer ungewoehnlichen tetragonal-pyramidalen Koordination:
+zur Kenntnis von Cu(2-x) Mg(x) V2 O7 (x= 1/2 und 2/3)
+;
+_journal_name_full               'Journal of the Less-Common Metals'
+_journal_page_first              309
+_journal_page_last               314
+_journal_paper_doi               10.1016/0022-5088(91)90333-Y
+_journal_volume                  170
+_journal_year                    1991
+_chemical_formula_structural     '(Cu1.5 Mg0.5) (V2 O7)'
+_chemical_formula_sum            'Cu1.5 Mg0.5 O7 V2'
+_chemical_name_systematic        'Copper magnesium divanadate (1.5/0.5/1)'
+_space_group_IT_number           15
+_symmetry_cell_setting           monoclinic
+_symmetry_Int_Tables_number      15
+_symmetry_space_group_name_Hall  '-C 2yc'
+_symmetry_space_group_name_H-M   'C 1 2/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 110.624(99)
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   7.6603(56)
+_cell_length_b                   8.0887(80)
+_cell_length_c                   10.1166(87)
+_cell_volume                     586.7
+_refine_ls_R_factor_all          0.051
+_cod_original_formula_sum        'Cu1.5 Mg.5 O7 V2'
+_cod_database_code               2002572
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,y,1/2-z
+-x,-y,-z
+x,-y,1/2+z
+1/2+x,1/2+y,z
+1/2-x,1/2+y,1/2-z
+1/2-x,1/2-y,-z
+1/2+x,1/2-y,1/2+z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_calc_flag
+Cu1 Cu2+ 8 f 0.1901(2) 0.0742(2) 0.4857(1) 0.75 0 d
+Mg1 Mg2+ 8 f 0.1901(2) 0.0742(2) 0.4857(1) 0.25 0 d
+V1 V5+ 8 f 0.2278(2) 0.7257(2) 0.2881(1) 1. 0 d
+O1 O2- 8 f 0.268(1) 0.754(1) 0.131(1) 1. 0 d
+O2 O2- 8 f 0.119(1) 0.088(1) 0.103(1) 1. 0 d
+O3 O2- 8 f 0.258(1) 0.405(1) 0.131(1) 1. 0 d
+O4 O2- 4 e 0.5 0.142(2) 0.25 1. 0 d
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Cu2+ 2.000
+Mg2+ 2.000
+V5+ 5.000
+O2- -2.000

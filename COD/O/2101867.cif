@@ -1,0 +1,354 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/18/2101867.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2101867
+loop_
+_publ_author_name
+'Edstr\"om, Kristina'
+'Gustafsson Torbj\"orn'
+'Thomas, John, O.'
+_publ_section_title
+;
+ Li^+^/Na^+^ \b-Alumina: A Combined Single-Crystal Neutron and X-ray
+ Diffraction Study
+;
+_journal_issue                   4
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              631
+_journal_page_last               638
+_journal_paper_doi               10.1107/S0108768197006629
+_journal_volume                  53
+_journal_year                    1997
+_chemical_formula_moiety         'Li0.75 Na0.47 Al11 O17.11 '
+_chemical_formula_sum            'Al11 Li0.75 Na0.47 O17.11'
+_chemical_formula_weight         587.18
+_chemical_name_systematic        ?
+_space_group_IT_number           194
+_symmetry_cell_setting           hexagonal
+_symmetry_space_group_name_Hall  '-P 6c 2c'
+_symmetry_space_group_name_H-M   'P 63/m m c'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                120.0
+_cell_formula_units_Z            2
+_cell_length_a                   5.5929(6)
+_cell_length_b                   5.5929(6)
+_cell_length_c                   22.652(3)
+_cell_measurement_reflns_used    23
+_cell_measurement_temperature    298
+_cell_measurement_theta_max      40
+_cell_measurement_theta_min      35
+_cell_volume                     613.64(12)
+_computing_data_reduction        STOEDATR
+_computing_molecular_graphics    MOVIEMOL
+_computing_publication_material  DISTAN
+_computing_structure_refinement  DUPALS
+_diffrn_ambient_temperature      298
+_diffrn_measurement_device       HUBER-STOE-ARACOR
+_diffrn_measurement_method       \q/2\q
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'xray tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     .71073
+_diffrn_reflns_av_R_equivalents  .017
+_diffrn_reflns_limit_h_max       10
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       10
+_diffrn_reflns_limit_k_min       -4
+_diffrn_reflns_limit_l_max       36
+_diffrn_reflns_limit_l_min       -50
+_diffrn_reflns_number            2697
+_diffrn_reflns_theta_max         52.49
+_diffrn_reflns_theta_min         0.00
+_diffrn_standards_decay_%        6.2
+_diffrn_standards_interval_time  180
+_diffrn_standards_number         5
+_exptl_absorpt_coefficient_mu    1.02
+_exptl_absorpt_correction_T_max  .9050
+_exptl_absorpt_correction_T_min  .8170
+_exptl_absorpt_correction_type   integration
+_exptl_crystal_colour            Transparent
+_exptl_crystal_density_diffrn    3.177
+_exptl_crystal_density_meas      ?
+_exptl_crystal_description       plate
+_exptl_crystal_F_000             572.16
+_exptl_crystal_size_max          .16
+_exptl_crystal_size_mid          .10
+_exptl_crystal_size_min          .05
+_refine_diff_density_max         .923
+_refine_diff_density_min         -.560
+_refine_ls_extinction_coef       981
+_refine_ls_extinction_method
+'Isotropic extinction (Becker & Coppens, 1975)'
+_refine_ls_goodness_of_fit_obs   2.06
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     50
+_refine_ls_number_reflns         2697
+_refine_ls_R_factor_all          .000
+_refine_ls_R_factor_obs          .0333
+_refine_ls_shift/esd_max         .100
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details     'w = 1/[\s^2^(F^2^)+ (0.0200F^2^)^2^]'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         .000
+_refine_ls_wR_factor_obs         .0790
+_reflns_number_observed          2423
+_reflns_number_total             1406
+_reflns_observed_criterion       'Inet >  1.0\s(Inet)'
+_cod_data_source_file            ab0365.cif
+_cod_data_source_block           X298
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_symmetry_cell_setting' value 'Hexagonal' changed to 'hexagonal'
+according to '/home/saulius/struct/CIF-dictionaries/cif_core.dic'
+dictionary named 'cif_core.dic' version 2.4.1 from
+2010-06-29.
+
+'_geom_bond_publ_flag' value 'Yes' changed to 'yes' according
+to '/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (80
+times).
+
+'_geom_bond_publ_flag' value 'No' changed to 'no' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (8 times).
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+
+The following automatic conversions were performed:
+
+'_atom_site_thermal_displace_type' tag value 'Uij' was replaced with
+'Uani' value 14 times.
+
+Automatic conversion script
+Id: cif_fix_values 1646 2011-03-28 12:23:43Z adriana 
+
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Hexagonal' changed to 'hexagonal'
+according to /home/saulius/struct/CIF-dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.1 from
+2010-06-29.
+
+'_geom_bond_publ_flag' value 'Yes' changed to 'yes'
+according to /home/saulius/struct/CIF-dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29 (80
+times).
+
+'_geom_bond_publ_flag' value 'No' changed to 'no' according
+to /home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary
+named 'cif_core.dic' version 2.4.1 from 2010-06-29 (8 times).
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value '1/[\s^2^(F^2^)+
+(0.0200F^2^)^2^]' was changed to 'calc'. New tag
+'_refine_ls_weighting_details' was created. The value of the new tag
+was set to 'w = 1/[\s^2^(F^2^)+ (0.0200F^2^)^2^]'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        613.63(8)
+_cod_original_formula_sum        'Li0.75 Na0.47 Al11 O17.11 '
+_cod_database_code               2101867
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,-z
+x-y,x,1/2+z
+-x+y,-x,1/2-z
+-y,x-y,z
+y,-x+y,-z
+-x,-y,1/2+z
+x,y,1/2-z
+-x+y,-x,z
+x-y,x,-z
+y,-x+y,1/2+z
+-y,x-y,1/2-z
+-x+y,y,z
+x-y,-y,-z
+y,x,1/2+z
+-y,-x,1/2-z
+x,x-y,z
+-x,-x+y,-z
+x-y,-y,1/2+z
+-x+y,y,1/2-z
+-y,-x,z
+y,x,-z
+-x,-x+y,1/2+z
+x,x-y,1/2-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+_atom_site_aniso_type_symbol
+Al1 .00516(4) .00459(5) .00650(5) .00180(3) -.000106(17) -.000046(6) Al
+Al2 .00391(4) .00391(4) .00465(8) .00195(2) .0000 .0000 Al
+Al3 .00895(5) .00895(5) .00460(8) .00446(3) .0000 .0000 Al
+Al4 .00454(6) .00454(6) .00424(10) .00227(3) .0000 .0000 Al
+O1 .00635(6) .00437(7) .00585(8) .00217(4) -.00012(3) -.000055(13) O
+O2 .00546(8) .00546(8) .01102(13) .00226(4) .0003 -.0001 O
+O3 .00588(8) .00588(8) .00499(13) .00294(4) .0000 .0000 O
+O4 .00479(8) .00479(8) .00595(18) .00239(4) .0000 .0000 O
+O5 .063(2) .063(2) .0039(5) .0179(17) .0000 .0000 O
+Al5 .00516(4) .00459(4) .00650(5) .00180(2) -.000106(17) -.000046(6) Al
+Li2 .020(3) .020(3) .001(3) .0099(17) .0000 .0000 Li+
+Na3 .108(3) .108(3) .0278(17) .076(4) .0000 .0000 Na+
+Li1 .051(7) .051(7) .012(2) .022(4) .0000 .0000 Li+
+Na1 .051(7) .051(7) .012(2) .022(4) .0000 .0000 Na+
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_type_symbol
+Al1 -.167959(11) -.33592(2) .105473(9) .00570(5) Uani Al
+Al2 .3333 .6667 .024607(13) .00416(6) Uani Al
+Al3 .3333 .6667 .175609(13) .00750(7) Uani Al
+Al4 .0000 .0000 .0000 .00444(8) Uani Al
+O1 .15713(2) .31426(5) .049761(12) .00575(8) Uani O
+O2 .50294(3) -.50294(3) .146040(13) .00752(10) Uani O
+O3 .6667 .3333 .05525(2) .00559(11) Uani O
+O4 .0000 .0000 .141512(19) .00518(13) Uani O
+O5 .3051(8) .6949(8) .2500 .049(2) Uani O
+Al5 -.1595(4) -.3190(9) .1764(2) .00570(5) Uani Al
+Li2 .6667 .3333 .2043(7) .014(4) Uani Li+
+Na3 .9093(6) .0907(6) .2500 .072(4) Uani Na+
+Li1 .6994(15) .3006(15) .2500 .040(6) Uani Li+
+Na1 .6994(15) .3006(15) .2500 .040(6) Uani Na+
+O6 .8333 .1667 .2500 .0253 Uiso O
+Li4 .6667 .3333 .2271 .0443 Uiso Li+
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Li+ .000 .000 'International Tables Vol. IV Table 2.2B'
+Na+ .030 .025 'International Tables Vol. IV Table 2.2B'
+Al .056 .052 'International Tables Vol. IV Table 2.2B'
+O .008 .006 'International Tables Vol. IV Table 2.2B'
+loop_
+_diffrn_standard_refln_index_h
+_diffrn_standard_refln_index_k
+_diffrn_standard_refln_index_l
+2 0 -6
+0 0 -14
+0 -2 8
+0 2 -5
+2 -2 -1
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Al1 O1 2.0200(2) yes
+Al1 O1 2.0200(2) yes
+Al1 O2 1.8400(2) yes
+Al1 O2 1.8400(2) yes
+Al1 O3 1.9648(3) yes
+Al1 O4 1.8204(2) yes
+Al1 Al5 1.609(5) yes
+Al2 O1 1.7995(3) yes
+Al2 O1 1.7995(3) yes
+Al2 O1 1.7995(3) yes
+Al2 O3 1.8089(5) yes
+Al3 O2 1.7743(2) yes
+Al3 O2 1.7743(2) yes
+Al3 O2 1.7743(2) yes
+Al3 O5 1.7072(7) yes
+Al3 O5 1.7072(7) yes
+Al3 O5 1.7072(7) yes
+Al4 O1 1.8941(2) yes
+Al4 O1 1.8941(2) yes
+Al4 O1 1.8941(2) yes
+Al4 O1 1.8941(2) yes
+Al4 O1 1.8941(2) yes
+Al4 O1 1.8941(2) yes
+Al5 O2 1.776(3) yes
+Al5 O2 1.7758(19) yes
+Al5 O4 1.736(3) yes
+Al5 O6 1.668(5) yes
+Li2 O2 2.064(10) yes
+Li2 O2 2.064(10) yes
+Li2 O2 2.064(10) yes
+Li2 Na3 2.568(7) yes
+Li2 Na3 2.568(7) yes
+Li2 Na3 2.568(7) yes
+Li2 Li1 1.082(15) yes
+Li2 Li1 1.082(15) yes
+Li2 Li1 1.082(15) yes
+Li2 O6 1.918(9) yes
+Li2 O6 1.918(9) yes
+Li2 O6 1.918(9) yes
+Na3 O4 2.6097(10) yes
+Na3 O4 2.6097(10) yes
+Na3 O5 2.973(5) yes
+Na3 O5 2.973(5) yes
+Na3 O5 2.629(5) yes
+Na3 O5 2.629(5) yes
+Na3 O6 .736(3) yes
+Na3 O6 2.190(3) yes
+Na3 O6 2.190(3) yes
+Li1 O2 2.767(4) yes
+Li1 O2 2.767(4) yes
+Li1 O2 2.767(4) yes
+Li1 O2 2.767(4) yes
+Li1 O5 2.978(8) no
+Li1 O5 2.978(8) no
+Li1 O5 2.934(8) yes
+Li1 O5 2.934(8) yes
+Li1 Na3 2.033(8) no
+Li1 Na3 2.524(8) yes
+Li1 Na3 2.524(8) yes
+Li1 O6 1.297(7) yes
+Li1 O6 1.794(7) yes
+Li1 O6 1.794(7) yes
+Na1 O2 2.767(4) yes
+Na1 O2 2.767(4) yes
+Na1 O2 2.767(4) yes
+Na1 O2 2.767(4) yes
+Na1 O5 2.978(8) yes
+Na1 O5 2.978(8) yes
+Na1 O5 2.934(8) yes
+Na1 O5 2.934(8) yes
+Na1 O6 1.297(7) yes
+Na1 O6 1.794(7) yes
+Na1 O6 1.794(7) yes
+Li4 O2 2.4268(2) yes
+Li4 O2 2.4268(2) yes
+Li4 O2 2.4268(2) yes
+Li4 Li2 .517(16) yes
+Li4 Li2 1.553(16) no
+Li4 Na3 2.407(3) yes
+Li4 Na3 2.407(3) yes
+Li4 Na3 2.407(3) yes
+Li4 Li1 .608(4) yes
+Li4 Li1 .608(4) yes
+Li4 Li1 .608(4) yes
+Li4 O6 1.70 no
+Li4 O6 1.70 no
+Li4 O6 1.70 no
+Li4 Li4 1.04 no

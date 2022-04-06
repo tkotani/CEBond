@@ -1,0 +1,102 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-13 21:28:24 +0200 (Sat, 13 Feb 2016) $
+#$Revision: 176429 $
+#$URL: svn://www.crystallography.net/cod/cif/1/00/17/1001758.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1001758
+loop_
+_publ_author_name
+'Nguyen, N.'
+'Groult, D.'
+'Caignaert, V.'
+'Ducouret, A.'
+'Raveau, B.'
+_publ_section_title
+;
+Neutron diffraction and Moessbauer spectroscopy studies of the mixed
+valent Tl-1212 ferrite (Tl~0.5~Pb~0.5~)Sr~3~Fe~2~O~8~
+;
+_journal_coden_ASTM              PHYBE3
+_journal_issue                   3-4
+_journal_name_full               'Physica B: Condensed Matter'
+_journal_page_first              251
+_journal_page_last               260
+_journal_paper_doi               10.1016/S0921-4526(96)00488-7
+_journal_volume                  228
+_journal_year                    1996
+_chemical_formula_structural     '(Tl0.5 Pb0.5) Sr3 Fe2 O8'
+_chemical_formula_sum            'Fe2 O8 Pb0.5 Sr3 Tl0.5'
+_chemical_name_systematic
+;
+Thallium lead strontium iron oxide (0.5/0.5/3/2/8)
+;
+_space_group_IT_number           123
+_symmetry_cell_setting           tetragonal
+_symmetry_Int_Tables_number      123
+_symmetry_space_group_name_Hall  '-P 4 2'
+_symmetry_space_group_name_H-M   'P 4/m m m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            1
+_cell_length_a                   3.81002(5)
+_cell_length_b                   3.81002(5)
+_cell_length_c                   12.7964(2)
+_cell_volume                     185.8
+_refine_ls_R_factor_all          0.036
+_cod_original_formula_sum        'Fe2 O8 Pb.5 Sr3 Tl.5'
+_cod_database_code               1001758
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,z
+-x,y,z
+x,-y,z
+-y,x,z
+y,-x,z
+y,x,z
+-y,-x,z
+-x,-y,-z
+x,y,-z
+x,-y,-z
+-x,y,-z
+y,-x,-z
+-y,x,-z
+-y,-x,-z
+y,x,-z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_calc_flag
+Tl1 Tl3+ 4 l 0.0780(14) 0. 0. 0.125 0 d
+Pb1 Pb4+ 1 a 0. 0. 0. 0.5 0 d
+Sr1 Sr2+ 1 d 0.5 0.5 0.5 1. 0 d
+Sr2 Sr2+ 2 h 0.5 0.5 0.2009(1) 1. 0 d
+Fe1 Fe3+ 2 g 0. 0. 0.3500(1) 1. 0 d
+O1 O2- 4 n 0.3806(15) 0.5 0. 0.25 0 d
+O2 O2- 2 g 0. 0. 0.1629(9) 0.480(15) 0 d
+O3 O2- 2 g 0. 0. 0.1507(9) 0.520(15) 0 d
+O4 O2- 1 b 0. 0. 0.5 1. 0 d
+O5 O2- 4 i 0. 0.5 0.3359(1) 1. 0 d
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Tl3+ 3.000
+Pb4+ 4.000
+Sr2+ 2.000
+Fe3+ 3.250
+O2- -2.000

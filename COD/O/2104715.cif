@@ -1,0 +1,247 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/47/2104715.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2104715
+loop_
+_publ_author_name
+'Maier, Bernd J.'
+'Angel, Ross J.'
+'Marshall, William G.'
+'Mihailova, Boriana'
+'Paulmann, Carsten'
+'Engel, Jens M.'
+'Gospodinov, Marin'
+'Welsch, Anna-Maria'
+'Petrova, Dimitrina'
+'Bismayer, Ulrich'
+_publ_section_title
+;
+ Octahedral tilting in Pb-based relaxor ferroelectrics at high pressure
+;
+_journal_coeditor_code           HW5008
+_journal_issue                   3
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              280
+_journal_page_last               291
+_journal_paper_doi               10.1107/S0108768110014631
+_journal_volume                  66
+_journal_year                    2010
+_chemical_formula_structural     'Pb Sc0.5 Ta0.5 O3'
+_chemical_formula_sum            'O3 Pb Sc0.5 Ta0.5'
+_chemical_formula_weight         368.15
+_chemical_name_common            PST
+_chemical_name_systematic        'Lead Scandium Tantalate'
+_space_group_IT_number           221
+_symmetry_cell_setting           cubic
+_symmetry_space_group_name_Hall  '-P 4 2 3'
+_symmetry_space_group_name_H-M   'P m -3 m'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            1
+_cell_length_a                   4.08125(10)
+_cell_length_b                   4.08125
+_cell_length_c                   4.08125
+_cell_measurement_pressure       0
+_cell_measurement_temperature    298
+_cell_volume                     67.9798(17)
+_diffrn_ambient_temperature      298
+_diffrn_measurement_device_type  'ISIS PEARL'
+_diffrn_radiation_probe          neutron
+_diffrn_radiation_type           neutron
+_pd_instr_location               'ISIS spallation source, England'
+_pd_meas_scan_method             tof
+_cod_data_source_file            hw5008.cif
+_cod_data_source_block           PST_0.00GPa
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_geom_angle_publ_flag' value 'N' changed to 'n' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (36
+times).
+
+'_geom_bond_publ_flag' value 'N' changed to 'n' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (32 times).
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+;
+_cod_original_cell_volume        67.980(5)
+_cod_original_formula_sum        'O3 Pb1 Sc0.5 Ta0.5'
+_cod_database_code               2104715
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 +z,+x,+y
+3 +y,+z,+x
+4 +x,+y,-z
+5 -z,+x,+y
+6 +y,-z,+x
+7 -z,+x,-y
+8 -y,-z,+x
+9 +y,-z,-x
+10 -x,+y,-z
+11 -z,-x,+y
+12 +x,-y,-z
+13 +y,+x,+z
+14 +z,+y,+x
+15 +x,+z,+y
+16 +y,+x,-z
+17 -z,+y,+x
+18 +x,-z,+y
+19 -z,+y,-x
+20 -x,-z,+y
+21 +x,-z,-y
+22 -y,+x,-z
+23 -z,-y,+x
+24 +y,-x,-z
+-1 -x,-y,-z
+-2 -z,-x,-y
+-3 -y,-z,-x
+-4 -x,-y,+z
+-5 +z,-x,-y
+-6 -y,+z,-x
+-7 +z,-x,+y
+-8 +y,+z,-x
+-9 -y,+z,+x
+-10 +x,-y,+z
+-11 +z,+x,-y
+-12 -x,+y,+z
+-13 -y,-x,-z
+-14 -z,-y,-x
+-15 -x,-z,-y
+-16 -y,-x,+z
+-17 +z,-y,-x
+-18 -x,+z,-y
+-19 +z,-y,+x
+-20 +x,+z,-y
+-21 -x,+z,+y
+-22 +y,-x,+z
+-23 +z,+y,-x
+-24 -y,+x,+z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+O1 0.0336(10) 0.0336(10) 0.0130(14) 0.0 0.0 0.0
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_occupancy
+Pb Pb1 0.5 0.5 0.5 0.0492(10) Uiso 1.0
+Sc Sc1 0.0 0.0 0.0 0.0070(6) Uiso 0.5
+Ta Ta1 0.0 0.0 0.0 0.0070(6) Uiso 0.5
+O O1 0.0 0.0 0.5 0.02675 Uani 1.0
+loop_
+_atom_type_symbol
+Pb
+Sc
+Ta
+O
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O1 Sc1 O1 1_554 . 1_555 180.0 n
+O1 Sc1 O1 1_554 . 2_455 90.0 n
+O1 Sc1 O1 1_554 . 2_555 90.0 n
+O1 Sc1 O1 1_554 . 3_545 90.0 n
+O1 Sc1 O1 1_554 . 3_555 90.0 n
+O1 Sc1 O1 1_555 . 2_455 90.0 n
+O1 Sc1 O1 1_555 . 2_555 90.0 n
+O1 Sc1 O1 1_555 . 3_545 90.0 n
+O1 Sc1 O1 1_555 . 3_555 90.0 n
+O1 Sc1 O1 2_455 . 2_555 180.0 n
+O1 Sc1 O1 2_455 . 3_545 90.0 n
+O1 Sc1 O1 2_455 . 3_555 90.0 n
+O1 Sc1 O1 2_555 . 3_545 90.0 n
+O1 Sc1 O1 2_555 . 3_555 90.0 n
+O1 Sc1 O1 3_545 . 3_555 180.0 n
+O1 Ta1 O1 1_554 . 1_555 180.0 n
+O1 Ta1 O1 1_554 . 2_455 90.0 n
+O1 Ta1 O1 1_554 . 2_555 90.0 n
+O1 Ta1 O1 1_554 . 3_545 90.0 n
+O1 Ta1 O1 1_554 . 3_555 90.0 n
+O1 Ta1 O1 1_555 . 2_455 90.0 n
+O1 Ta1 O1 1_555 . 2_555 90.0 n
+O1 Ta1 O1 1_555 . 3_545 90.0 n
+O1 Ta1 O1 1_555 . 3_555 90.0 n
+O1 Ta1 O1 2_455 . 2_555 180.0 n
+O1 Ta1 O1 2_455 . 3_545 90.0 n
+O1 Ta1 O1 2_455 . 3_555 90.0 n
+O1 Ta1 O1 2_555 . 3_545 90.0 n
+O1 Ta1 O1 2_555 . 3_555 90.0 n
+O1 Ta1 O1 3_545 . 3_555 180.0 n
+Sc1 O1 Sc1 1_555 . 1_556 180.0 n
+Sc1 O1 Ta1 1_555 . 1_555 0.0 n
+Sc1 O1 Ta1 1_555 . 1_556 180.0 n
+Sc1 O1 Ta1 1_556 . 1_555 180.0 n
+Sc1 O1 Ta1 1_556 . 1_556 0.0 n
+Ta1 O1 Ta1 1_555 . 1_556 180.0 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Pb1 O1 . 1_555 2.88588(7) n
+Pb1 O1 . 1_565 2.88588(7) n
+Pb1 O1 . 1_655 2.88588(7) n
+Pb1 O1 . 1_665 2.88588(7) n
+Pb1 O1 . 2_555 2.88588(5) n
+Pb1 O1 . 2_556 2.88588(5) n
+Pb1 O1 . 2_565 2.88588(5) n
+Pb1 O1 . 2_566 2.88588(5) n
+Pb1 O1 . 3_555 2.88588(5) n
+Pb1 O1 . 3_556 2.88588(5) n
+Pb1 O1 . 3_655 2.88588(5) n
+Pb1 O1 . 3_656 2.88588(5) n
+Sc1 O1 . 1_554 2.04063(5) n
+Sc1 O1 . 1_555 2.04063(5) n
+Sc1 O1 . 2_455 2.04063(5) n
+Sc1 O1 . 2_555 2.04063(5) n
+Sc1 O1 . 3_545 2.04063(5) n
+Sc1 O1 . 3_555 2.04063(5) n
+Ta1 O1 . 1_554 2.04063(5) n
+Ta1 O1 . 1_555 2.04063(5) n
+Ta1 O1 . 2_455 2.04063(5) n
+Ta1 O1 . 2_555 2.04063(5) n
+Ta1 O1 . 3_545 2.04063(5) n
+Ta1 O1 . 3_555 2.04063(5) n
+O1 Pb1 . 1_445 2.88588(7) n
+O1 Pb1 . 1_455 2.88588(7) n
+O1 Pb1 . 1_545 2.88588(7) n
+O1 Pb1 . 1_555 2.88588(7) n
+O1 Sc1 . 1_555 2.04063(5) n
+O1 Sc1 . 1_556 2.04063(5) n
+O1 Ta1 . 1_555 2.04063(5) n
+O1 Ta1 . 1_556 2.04063(5) n

@@ -1,0 +1,364 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/21/09/2210987.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2210987
+loop_
+_publ_author_name
+'Samuel Noirault'
+'Olivier Joubert'
+'Maria Teresa Caldes'
+'Yves Piffard'
+_publ_section_title
+;
+ High-temperature form of neodymium orthoborate, NdBO~3~
+;
+_journal_coeditor_code           FB2025
+_journal_issue                   11
+_journal_name_full               'Acta Crystallographica Section E'
+_journal_page_first              i228
+_journal_page_last               i230
+_journal_paper_doi               10.1107/S1600536806042905
+_journal_volume                  62
+_journal_year                    2006
+_chemical_formula_iupac          'Nd1 (B1 O3)'
+_chemical_formula_moiety         'B1 Nd1 O3'
+_chemical_formula_sum            'B Nd O3'
+_chemical_formula_weight         203
+_chemical_name_systematic
+;
+Neodymium orthoborate
+;
+_space_group_IT_number           2
+_symmetry_cell_setting           triclinic
+_symmetry_space_group_name_Hall  '-P 1'
+_symmetry_space_group_name_H-M   'P -1'
+_cell_angle_alpha                93.904(17)
+_cell_angle_beta                 107.685(16)
+_cell_angle_gamma                107.305(14)
+_cell_formula_units_Z            4
+_cell_length_a                   6.3000(18)
+_cell_length_b                   6.5486(19)
+_cell_length_c                   6.5488(19)
+_cell_measurement_reflns_used    'powder data, Cu K\a1'
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      112.0
+_cell_measurement_theta_min      3.0
+_cell_volume                     242.00(13)
+_computing_cell_refinement       'FULLPROF (Rodr\'iguez-Carvajal, 1993)'
+_computing_data_collection       'EVALCCD (Bruker Nonius, 2003)'
+_computing_data_reduction
+'JANA2000 (Pet\<r\'i\<cek <i>et al.</i>,  2000)'
+_computing_molecular_graphics    'DIAMOND (Brandenburg, 2006)'
+_computing_publication_material  JANA2000
+_computing_structure_refinement  JANA2000
+_computing_structure_solution
+'model of L-EuBO~3~ determined by Corbel <i>et al.</i> (1999)'
+_diffrn_ambient_temperature      293
+_diffrn_measured_fraction_theta_full 0.96
+_diffrn_measurement_device_type  'Nonius Model? CCD area-detector'
+_diffrn_measurement_method       '\f and \w'
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.71069
+_diffrn_reflns_av_R_equivalents  0.0344
+_diffrn_reflns_av_sigmaI/netI    0.0312
+_diffrn_reflns_limit_h_max       11
+_diffrn_reflns_limit_h_min       -11
+_diffrn_reflns_limit_k_max       10
+_diffrn_reflns_limit_k_min       -11
+_diffrn_reflns_limit_l_max       11
+_diffrn_reflns_limit_l_min       -11
+_diffrn_reflns_number            9945
+_diffrn_reflns_theta_full        40.12
+_diffrn_reflns_theta_max         40.12
+_diffrn_reflns_theta_min         6.63
+_diffrn_standards_number         0
+_exptl_absorpt_coefficient_mu    21.164
+_exptl_absorpt_correction_T_max  0.664
+_exptl_absorpt_correction_T_min  0.282
+_exptl_absorpt_correction_type   gaussian
+_exptl_absorpt_process_details   '(Pet\<r\'i\<cek <i>et al.</i>,  2000)'
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    5.573
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       needle
+_exptl_crystal_F_000             356
+_exptl_crystal_size_max          0.070
+_exptl_crystal_size_mid          0.027
+_exptl_crystal_size_min          0.022
+_refine_diff_density_max         2.67
+_refine_diff_density_min         -2.28
+_refine_ls_extinction_coef       115E1(7)
+_refine_ls_extinction_method
+'B-C type 1 Lorentzian isotropic (Becker & Coppens, 1974)'
+_refine_ls_goodness_of_fit_ref   1.87
+_refine_ls_number_parameters     92
+_refine_ls_number_reflns         2887
+_refine_ls_R_factor_all          0.0421
+_refine_ls_R_factor_gt           0.0272
+_refine_ls_shift/su_max          0.0131
+_refine_ls_shift/su_mean         0.0013
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 1/\s^2^(F)'
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_gt          0.0243
+_refine_ls_wR_factor_ref         0.0262
+_reflns_number_gt                2372
+_reflns_number_total             2887
+_reflns_threshold_expression     I>3\s(I)
+_cod_data_source_file            fb2025.cif
+_cod_data_source_block           I
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_exptl_absorpt_correction_type' value 'Gaussian' changed to 'gaussian'
+according to '/home/saulius/struct/CIF-dictionaries/cif_core.dic'
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+
+The following automatic conversions were performed:
+
+'_exptl_absorpt_correction_type' value 'Gaussian' changed to
+'gaussian' according to
+/home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_original_formula_sum        'B1 Nd1 O3'
+_cod_database_code               2210987
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -x,-y,-z
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_occupancy
+Nd Nd1 0.06019(3) 0.34503(3) 0.26994(3) 0.00585(6) Uani d 1
+Nd Nd2 0.43852(3) 0.21552(3) 0.80821(3) 0.00536(6) Uani d 1
+B B1 0.9778(7) 0.2147(8) 0.7556(6) 0.0070(11) Uani d 1
+B B2 0.4965(7) 0.2727(7) 0.2756(7) 0.0065(11) Uani d 1
+O O1 0.6246(4) 0.1686(5) 0.1996(4) 0.0082(8) Uani d 1
+O O2 0.9714(5) 0.9723(5) 0.2328(5) 0.0104(9) Uani d 1
+O O3 0.3800(5) 0.3847(5) 0.1295(4) 0.0070(8) Uani d 1
+O O4 0.0881(5) 0.3620(5) 0.6449(4) 0.0074(8) Uani d 1
+O O5 0.4649(5) 0.2694(6) 0.4698(5) 0.0141(11) Uani d 1
+O O6 0.8513(4) 0.2836(5) 0.8689(4) 0.0076(8) Uani d 1
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+_atom_site_aniso_type_symbol
+Nd1 0.00720(8) 0.00638(9) 0.00570(8) 0.00338(7) 0.00330(6) 0.00192(6) Nd
+Nd2 0.00602(7) 0.00574(9) 0.00552(8) 0.00270(7) 0.00270(6) 0.00182(6) Nd
+B1 0.0066(14) 0.0093(18) 0.0045(13) 0.0039(13) 0.0001(11) -0.0008(13) B
+B2 0.0071(14) 0.0052(17) 0.0078(14) 0.0021(13) 0.0035(12) 0.0001(13) B
+O1 0.0087(10) 0.0076(13) 0.0098(11) 0.0043(10) 0.0040(9) 0.0003(10) O
+O2 0.0105(11) 0.0087(13) 0.0145(12) 0.0057(10) 0.0048(10) 0.0034(11) O
+O3 0.0077(10) 0.0090(13) 0.0055(9) 0.0051(9) 0.0014(8) 0.0034(9) O
+O4 0.0090(10) 0.0075(12) 0.0078(10) 0.0037(9) 0.0045(8) 0.0033(9) O
+O5 0.0221(15) 0.0169(16) 0.0102(12) 0.0112(13) 0.0097(11) 0.0061(12) O
+O6 0.0082(10) 0.0088(13) 0.0069(10) 0.0050(10) 0.0019(8) 0.0020(9) O
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Nd -0.194 3.018 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.1'
+O 0.011 0.006 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.1'
+B 0.001 0.001 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.1'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O1 Nd1 O2 1_455 1_445 70.91(11) no
+O1 Nd1 O3 1_455 . 146.16(9) no
+O1 Nd1 O4 1_455 . 83.57(9) no
+O1 Nd1 O4 1_455 2_566 73.46(9) no
+O1 Nd1 O5 1_455 . 137.62(10) no
+O1 Nd1 O6 1_455 1_454 72.31(9) no
+O1 Nd1 O6 1_455 2_666 111.51(10) no
+O2 Nd1 O3 1_445 . 91.93(11) no
+O2 Nd1 O4 1_445 . 89.80(11) no
+O2 Nd1 O4 1_445 2_566 142.01(11) no
+O2 Nd1 O5 1_445 . 72.73(10) no
+O2 Nd1 O6 1_445 1_454 86.54(10) no
+O2 Nd1 O6 1_445 2_666 153.93(10) no
+O3 Nd1 O4 . . 126.52(9) no
+O3 Nd1 O4 . 2_566 125.57(10) no
+O3 Nd1 O5 . . 54.68(10) no
+O3 Nd1 O6 . 1_454 77.88(9) no
+O3 Nd1 O6 . 2_666 71.82(11) no
+O4 Nd1 O4 . 2_566 73.44(11) no
+O4 Nd1 O5 . . 75.24(11) no
+O4 Nd1 O6 . 1_454 155.47(9) no
+O4 Nd1 O6 . 2_666 116.22(10) no
+O4 Nd1 O4 2_566 . 73.44(11) no
+O4 Nd1 O5 2_566 . 131.43(9) no
+O4 Nd1 O6 2_566 1_454 94.95(10) no
+O4 Nd1 O6 2_566 2_666 55.42(10) no
+O5 Nd1 O6 . 1_454 126.21(11) no
+O5 Nd1 O6 . 2_666 110.74(9) no
+O6 Nd1 O6 1_454 2_666 70.47(8) no
+O6 Nd1 O6 2_666 1_454 70.47(8) no
+O1 Nd2 O1 1_556 2_656 73.26(9) no
+O1 Nd2 O2 1_556 2_666 97.68(10) no
+O1 Nd2 O3 1_556 1_556 55.65(10) no
+O1 Nd2 O3 1_556 2_666 96.45(9) no
+O1 Nd2 O4 1_556 . 129.26(10) no
+O1 Nd2 O5 1_556 . 150.48(11) no
+O1 Nd2 O6 1_556 . 73.19(10) no
+O1 Nd2 O1 2_656 1_556 73.26(9) no
+O1 Nd2 O2 2_656 2_666 70.79(11) no
+O1 Nd2 O3 2_656 1_556 112.24(10) no
+O1 Nd2 O3 2_656 2_666 163.74(9) no
+O1 Nd2 O4 2_656 . 121.89(8) no
+O1 Nd2 O5 2_656 . 103.59(12) no
+O1 Nd2 O6 2_656 . 90.19(10) no
+O2 Nd2 O3 2_666 1_556 75.06(9) no
+O2 Nd2 O3 2_666 2_666 123.99(11) no
+O2 Nd2 O4 2_666 . 55.15(10) no
+O2 Nd2 O5 2_666 . 109.11(10) no
+O2 Nd2 O6 2_666 . 160.75(11) no
+O3 Nd2 O3 1_556 2_666 69.48(10) no
+O3 Nd2 O4 1_556 . 74.97(9) no
+O3 Nd2 O5 1_556 . 142.81(12) no
+O3 Nd2 O6 1_556 . 111.07(9) no
+O3 Nd2 O3 2_666 1_556 69.48(10) no
+O3 Nd2 O4 2_666 . 74.36(9) no
+O3 Nd2 O5 2_666 . 78.98(10) no
+O3 Nd2 O6 2_666 . 74.57(10) no
+O4 Nd2 O5 . . 78.01(12) no
+O4 Nd2 O6 . . 143.40(10) no
+O5 Nd2 O6 . . 77.51(11) no
+O2 B1 O3 2_766 1_656 84.7(2) no
+O2 B1 O4 2_766 1_655 117.2(4) yes
+O2 B1 O6 2_766 . 125.1(4) yes
+O3 B1 O4 1_656 1_655 89.44(19) no
+O3 B1 O6 1_656 . 88.3(2) no
+O4 B1 O6 1_655 . 117.1(4) yes
+O1 B2 O3 . . 115.6(4) yes
+O1 B2 O4 . 2_666 81.9(2) no
+O1 B2 O5 . . 126.3(4) yes
+O3 B2 O4 . 2_666 85.8(2) no
+O3 B2 O5 . . 117.9(4) yes
+O4 B2 O5 2_666 . 104.2(2) no
+Nd1 O1 Nd2 1_655 1_554 102.54(11) no
+Nd1 O1 Nd2 1_655 2_656 105.70(12) no
+Nd1 O1 B2 1_655 . 122.1(2) no
+Nd2 O1 Nd2 1_554 2_656 106.74(9) no
+Nd2 O1 B2 1_554 . 92.4(2) no
+Nd2 O1 Nd2 2_656 1_554 106.74(9) no
+Nd2 O1 B2 2_656 . 122.9(2) no
+Nd1 O2 Nd2 1_665 2_666 112.30(14) no
+Nd1 O2 B1 1_665 2_766 155.2(2) no
+Nd2 O2 B1 2_666 2_766 91.7(2) no
+Nd1 O3 Nd2 . 1_554 136.95(9) no
+Nd1 O3 Nd2 . 2_666 101.38(12) no
+Nd2 O3 Nd2 1_554 2_666 110.52(11) no
+Nd2 O3 B1 1_554 1_454 64.04(12) no
+Nd2 O3 B2 1_554 . 94.6(3) no
+Nd2 O3 Nd2 2_666 1_554 110.52(11) no
+Nd2 O3 B1 2_666 1_454 114.10(15) no
+Nd2 O3 B2 2_666 . 117.09(19) no
+B1 O3 B2 1_454 . 128.7(2) no
+Nd1 O4 Nd1 . 2_566 106.56(12) no
+Nd1 O4 Nd2 . . 102.20(12) no
+Nd1 O4 B1 . 1_455 132.5(2) no
+Nd1 O4 B2 . 2_666 85.04(13) no
+Nd1 O4 Nd1 2_566 . 106.56(12) no
+Nd1 O4 Nd2 2_566 . 140.49(10) no
+Nd1 O4 B1 2_566 1_455 96.7(3) no
+Nd1 O4 B2 2_566 2_666 80.58(13) no
+Nd2 O4 B1 . 1_455 82.8(2) no
+Nd2 O4 B2 . 2_666 75.48(12) no
+B1 O4 B2 1_455 2_666 140.3(2) no
+Nd1 O5 Nd2 . . 102.49(14) no
+Nd1 O5 B2 . . 85.3(2) no
+Nd2 O5 B2 . . 170.0(3) no
+Nd1 O6 Nd1 1_656 2_666 109.53(9) no
+Nd1 O6 Nd2 1_656 . 107.80(12) no
+Nd1 O6 B1 1_656 . 111.0(2) no
+Nd1 O6 Nd1 2_666 1_656 109.53(9) no
+Nd1 O6 Nd2 2_666 . 97.58(11) no
+Nd1 O6 B1 2_666 . 90.6(2) no
+Nd2 O6 B1 . . 134.80(19) no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Nd1 B1 2_666 2.975(5) no
+Nd1 B2 . 2.915(5) no
+Nd1 O1 1_455 2.520(3) no
+Nd1 O2 1_445 2.314(3) no
+Nd1 O3 . 2.412(3) no
+Nd1 O4 . 2.401(3) no
+Nd1 O4 2_566 2.470(4) no
+Nd1 O5 . 2.697(4) no
+Nd1 O6 1_454 2.497(3) no
+Nd1 O6 2_666 2.618(3) no
+Nd2 B1 1_455 2.816(5) no
+Nd2 B2 1_556 2.954(4) no
+Nd2 O1 1_556 2.556(3) no
+Nd2 O1 2_656 2.421(3) no
+Nd2 O2 2_666 2.428(3) no
+Nd2 O3 1_556 2.487(3) no
+Nd2 O3 2_666 2.474(3) no
+Nd2 O4 . 2.627(3) no
+Nd2 O5 . 2.315(3) no
+Nd2 O6 . 2.404(3) no
+B1 O2 2_766 1.356(7) yes
+B1 O4 1_655 1.393(6) yes
+B1 O6 . 1.384(6) yes
+B2 O1 . 1.375(6) yes
+B2 O3 . 1.407(6) yes
+B2 O5 . 1.346(6) yes
+O1 O1 2_655 2.972(4) no
+O1 O2 1_545 2.809(5) no
+O1 O3 . 2.355(5) no
+O1 O4 2_666 2.984(4) no
+O1 O5 . 2.428(5) no
+O1 O6 1_554 2.960(4) no
+O2 O3 2_665 2.995(3) no
+O2 O4 2_666 2.347(5) no
+O2 O5 1_665 2.987(4) no
+O2 O6 2_766 2.432(5) no
+O3 O3 2_665 2.827(4) no
+O3 O5 . 2.360(4) no
+O3 O6 2_666 2.955(5) no
+O4 O4 2_566 2.913(4) no
+O4 O6 1_455 2.370(5) no
+O5 O5 2_666 2.900(5) no
+O5 O6 . 2.955(4) no
+O6 O6 2_767 2.953(4) no

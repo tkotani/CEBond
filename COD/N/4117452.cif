@@ -1,0 +1,440 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-22 12:19:30 +0200 (Tue, 22 Mar 2016) $
+#$Revision: 178945 $
+#$URL: svn://www.crystallography.net/cod/cif/4/11/74/4117452.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4117452
+loop_
+_publ_author_name
+'G. W. Chinthaka Silva'
+'Philippe F. Weck'
+'Eunja Kim'
+'Charles B. Yeamans'
+'Gary S. Cerefice'
+'Alfred P. Sattelberger'
+'Kenneth R. Czerwinski'
+_publ_contact_author_address
+;University of Nevada, Las Vegas
+Harry Reid Center for Environmental Studies
+Box 454009, 4505 Maryland Parkway
+Las Vegas, NV 89154 USA            
+;
+_publ_contact_author_email       chinthaka.silva@gmail.com
+_publ_contact_author_name        'G. W. Chinthaka Silva'
+_publ_section_title
+;
+ Crystal and Electronic Structures of Neptunium Nitrides Synthesized Using
+ a Fluoride Route
+;
+_journal_name_full               'Journal of the American Chemical Society'
+_journal_page_first              3111
+_journal_page_last               3119
+_journal_paper_doi               10.1021/ja209503n
+_journal_volume                  134
+_journal_year                    2012
+_chemical_compound_source        Syn
+_chemical_formula_analytical     'N2 Np'
+_chemical_formula_moiety         'N2 Np'
+_chemical_formula_structural     'N2 Np'
+_chemical_formula_sum            'N2 Np'
+_chemical_formula_weight         265.06
+_chemical_name_common            'Neptunium dinitride'
+_chemical_name_systematic        ' Neptunium dinitride'
+_space_group_IT_number           225
+_symmetry_cell_setting           cubic
+_symmetry_space_group_name_Hall  '-F 4 2 3'
+_symmetry_space_group_name_H-M   'F m -3 m'
+_audit_author_name               'G. W. Chinthaka Silva'
+_audit_creation_date             2011-09-06T22:02
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_audit_update_record
+' 2011-09-06T22:02  Initial CIF as created by GSAS2CIF'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            4
+_cell_length_a                   5.32356(14)
+_cell_length_b                   5.32356
+_cell_length_c                   5.32356
+_cell_measurement_temperature    298
+_cell_volume                     150.871(4)
+_computing_data_collection       'PANalytical X'Pert HighScore Plus'
+_computing_structure_refinement  GSAS
+_computing_structure_solution    GSAS
+_diffrn_ambient_temperature      298
+_diffrn_measurement_device_type  'PANalytical X'Pert PRO MPD Diffractometer'
+_diffrn_radiation_polarisn_ratio 0.7
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_type           'Cu K\a'
+_diffrn_radiation_wavelength     1.54180
+_diffrn_source                   'Sealed tube'
+_diffrn_source_target            Cu
+_diffrn_source_type              K\a
+_exptl_absorpt_correction_T_max  1.00000
+_exptl_absorpt_correction_T_min  1.00000
+_exptl_absorpt_process_details
+;   GSAS Absorption/surface roughness correction: function number 0
+ No correction is applied.
+;
+_exptl_crystal_density_diffrn    11.692
+_pd_block_id
+2011-09-06T22:02|NPN2|._W._Chinthaka_Silva|Overall
+_pd_calc_method                  'Rietveld Refinement'
+_pd_char_colour                  Brown
+_pd_char_particle_morphology     Plate-like
+_pd_meas_2theta_range_inc        0.008
+_pd_meas_2theta_range_max        80.001
+_pd_meas_2theta_range_min        10.009
+_pd_meas_number_of_points        8750
+_pd_meas_scan_method             Step
+_pd_phase_name                   NpN2
+_pd_prep_pressure                101.3
+_pd_prep_temperature             298
+_pd_proc_2theta_range_inc        0.008
+_pd_proc_2theta_range_max        80.001
+_pd_proc_2theta_range_min        10.009
+_pd_proc_info_datetime           2011-09-06T22:02:58
+_pd_proc_ls_background_function
+;   GSAS Background function number 1 with 12 terms.
+ Shifted Chebyshev function of 1st kind
+      1:    356.119     2:   -110.372     3:    36.1461     4:    3.76924    
+      5:   -23.2772     6:    18.7229     7:   -10.5723     8:   -3.47571    
+      9:    7.47275    10:   -11.5420    11:    12.0883    12:   -7.73462    
+;
+_pd_proc_ls_prof_R_factor        0.0282
+_pd_proc_ls_prof_wR_expected     0.0507
+_pd_proc_ls_prof_wR_factor       0.0372
+_pd_proc_number_of_points        8750
+_refine_ls_goodness_of_fit_all   0.73
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     21
+_refine_ls_number_restraints     0
+_refine_ls_R_Fsqd_factor         0.08640
+_refine_ls_shift/su_max          0.05
+_refine_ls_shift/su_mean         0.01
+_reflns_d_resolution_high        1.212
+_reflns_d_resolution_low         3.129
+_reflns_limit_h_max              4
+_reflns_limit_h_min              1
+_reflns_limit_k_max              3
+_reflns_limit_k_min              0
+_reflns_limit_l_max              2
+_reflns_limit_l_min              0
+_reflns_number_total             30
+_cod_data_source_file            ja209503n_si_001.cif
+_cod_data_source_block           NPN2_overall
+_cod_original_cell_volume        150.871(5)
+_cod_database_code               4117452
+_cod_database_fobs_code          4117452
+#BEGIN Tags that were not found in dictionaries:
+_gsas_exptl_extinct_corr_t_min   1.00000
+_gsas_exptl_extinct_corr_t_max   1.00000
+#END Tags that were not found in dictionaries
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 +z,+x,+y
+3 +y,+z,+x
+4 +x,+y,-z
+5 -z,+x,+y
+6 +y,-z,+x
+7 -z,+x,-y
+8 -y,-z,+x
+9 +y,-z,-x
+10 -x,+y,-z
+11 -z,-x,+y
+12 +x,-y,-z
+13 +y,+x,+z
+14 +z,+y,+x
+15 +x,+z,+y
+16 +y,+x,-z
+17 -z,+y,+x
+18 +x,-z,+y
+19 -z,+y,-x
+20 -x,-z,+y
+21 +x,-z,-y
+22 -y,+x,-z
+23 -z,-y,+x
+24 +y,-x,-z
+-1 -x,-y,-z
+-2 -z,-x,-y
+-3 -y,-z,-x
+-4 -x,-y,+z
+-5 +z,-x,-y
+-6 -y,+z,-x
+-7 +z,-x,+y
+-8 +y,+z,-x
+-9 -y,+z,+x
+-10 +x,-y,+z
+-11 +z,+x,-y
+-12 -x,+y,+z
+-13 -y,-x,-z
+-14 -z,-y,-x
+-15 -x,-z,-y
+-16 -y,-x,+z
+-17 +z,-y,-x
+-18 -x,+z,-y
+-19 +z,-y,+x
+-20 +x,+z,-y
+-21 -x,+z,+y
+-22 +y,-x,+z
+-23 +z,+y,-x
+-24 -y,+x,+z
+101 +x,+y+1/2,+z+1/2
+102 +z,+x+1/2,+y+1/2
+103 +y,+z+1/2,+x+1/2
+104 +x,+y+1/2,-z+1/2
+105 -z,+x+1/2,+y+1/2
+106 +y,-z+1/2,+x+1/2
+107 -z,+x+1/2,-y+1/2
+108 -y,-z+1/2,+x+1/2
+109 +y,-z+1/2,-x+1/2
+110 -x,+y+1/2,-z+1/2
+111 -z,-x+1/2,+y+1/2
+112 +x,-y+1/2,-z+1/2
+113 +y,+x+1/2,+z+1/2
+114 +z,+y+1/2,+x+1/2
+115 +x,+z+1/2,+y+1/2
+116 +y,+x+1/2,-z+1/2
+117 -z,+y+1/2,+x+1/2
+118 +x,-z+1/2,+y+1/2
+119 -z,+y+1/2,-x+1/2
+120 -x,-z+1/2,+y+1/2
+121 +x,-z+1/2,-y+1/2
+122 -y,+x+1/2,-z+1/2
+123 -z,-y+1/2,+x+1/2
+124 +y,-x+1/2,-z+1/2
+-101 -x,-y+1/2,-z+1/2
+-102 -z,-x+1/2,-y+1/2
+-103 -y,-z+1/2,-x+1/2
+-104 -x,-y+1/2,+z+1/2
+-105 +z,-x+1/2,-y+1/2
+-106 -y,+z+1/2,-x+1/2
+-107 +z,-x+1/2,+y+1/2
+-108 +y,+z+1/2,-x+1/2
+-109 -y,+z+1/2,+x+1/2
+-110 +x,-y+1/2,+z+1/2
+-111 +z,+x+1/2,-y+1/2
+-112 -x,+y+1/2,+z+1/2
+-113 -y,-x+1/2,-z+1/2
+-114 -z,-y+1/2,-x+1/2
+-115 -x,-z+1/2,-y+1/2
+-116 -y,-x+1/2,+z+1/2
+-117 +z,-y+1/2,-x+1/2
+-118 -x,+z+1/2,-y+1/2
+-119 +z,-y+1/2,+x+1/2
+-120 +x,+z+1/2,-y+1/2
+-121 -x,+z+1/2,+y+1/2
+-122 +y,-x+1/2,+z+1/2
+-123 +z,+y+1/2,-x+1/2
+-124 -y,+x+1/2,+z+1/2
+201 +x+1/2,+y,+z+1/2
+202 +z+1/2,+x,+y+1/2
+203 +y+1/2,+z,+x+1/2
+204 +x+1/2,+y,-z+1/2
+205 -z+1/2,+x,+y+1/2
+206 +y+1/2,-z,+x+1/2
+207 -z+1/2,+x,-y+1/2
+208 -y+1/2,-z,+x+1/2
+209 +y+1/2,-z,-x+1/2
+210 -x+1/2,+y,-z+1/2
+211 -z+1/2,-x,+y+1/2
+212 +x+1/2,-y,-z+1/2
+213 +y+1/2,+x,+z+1/2
+214 +z+1/2,+y,+x+1/2
+215 +x+1/2,+z,+y+1/2
+216 +y+1/2,+x,-z+1/2
+217 -z+1/2,+y,+x+1/2
+218 +x+1/2,-z,+y+1/2
+219 -z+1/2,+y,-x+1/2
+220 -x+1/2,-z,+y+1/2
+221 +x+1/2,-z,-y+1/2
+222 -y+1/2,+x,-z+1/2
+223 -z+1/2,-y,+x+1/2
+224 +y+1/2,-x,-z+1/2
+-201 -x+1/2,-y,-z+1/2
+-202 -z+1/2,-x,-y+1/2
+-203 -y+1/2,-z,-x+1/2
+-204 -x+1/2,-y,+z+1/2
+-205 +z+1/2,-x,-y+1/2
+-206 -y+1/2,+z,-x+1/2
+-207 +z+1/2,-x,+y+1/2
+-208 +y+1/2,+z,-x+1/2
+-209 -y+1/2,+z,+x+1/2
+-210 +x+1/2,-y,+z+1/2
+-211 +z+1/2,+x,-y+1/2
+-212 -x+1/2,+y,+z+1/2
+-213 -y+1/2,-x,-z+1/2
+-214 -z+1/2,-y,-x+1/2
+-215 -x+1/2,-z,-y+1/2
+-216 -y+1/2,-x,+z+1/2
+-217 +z+1/2,-y,-x+1/2
+-218 -x+1/2,+z,-y+1/2
+-219 +z+1/2,-y,+x+1/2
+-220 +x+1/2,+z,-y+1/2
+-221 -x+1/2,+z,+y+1/2
+-222 +y+1/2,-x,+z+1/2
+-223 +z+1/2,+y,-x+1/2
+-224 -y+1/2,+x,+z+1/2
+301 +x+1/2,+y+1/2,+z
+302 +z+1/2,+x+1/2,+y
+303 +y+1/2,+z+1/2,+x
+304 +x+1/2,+y+1/2,-z
+305 -z+1/2,+x+1/2,+y
+306 +y+1/2,-z+1/2,+x
+307 -z+1/2,+x+1/2,-y
+308 -y+1/2,-z+1/2,+x
+309 +y+1/2,-z+1/2,-x
+310 -x+1/2,+y+1/2,-z
+311 -z+1/2,-x+1/2,+y
+312 +x+1/2,-y+1/2,-z
+313 +y+1/2,+x+1/2,+z
+314 +z+1/2,+y+1/2,+x
+315 +x+1/2,+z+1/2,+y
+316 +y+1/2,+x+1/2,-z
+317 -z+1/2,+y+1/2,+x
+318 +x+1/2,-z+1/2,+y
+319 -z+1/2,+y+1/2,-x
+320 -x+1/2,-z+1/2,+y
+321 +x+1/2,-z+1/2,-y
+322 -y+1/2,+x+1/2,-z
+323 -z+1/2,-y+1/2,+x
+324 +y+1/2,-x+1/2,-z
+-301 -x+1/2,-y+1/2,-z
+-302 -z+1/2,-x+1/2,-y
+-303 -y+1/2,-z+1/2,-x
+-304 -x+1/2,-y+1/2,+z
+-305 +z+1/2,-x+1/2,-y
+-306 -y+1/2,+z+1/2,-x
+-307 +z+1/2,-x+1/2,+y
+-308 +y+1/2,+z+1/2,-x
+-309 -y+1/2,+z+1/2,+x
+-310 +x+1/2,-y+1/2,+z
+-311 +z+1/2,+x+1/2,-y
+-312 -x+1/2,+y+1/2,+z
+-313 -y+1/2,-x+1/2,-z
+-314 -z+1/2,-y+1/2,-x
+-315 -x+1/2,-z+1/2,-y
+-316 -y+1/2,-x+1/2,+z
+-317 +z+1/2,-y+1/2,-x
+-318 -x+1/2,+z+1/2,-y
+-319 +z+1/2,-y+1/2,+x
+-320 +x+1/2,+z+1/2,-y
+-321 -x+1/2,+z+1/2,+y
+-322 +y+1/2,-x+1/2,+z
+-323 +z+1/2,+y+1/2,-x
+-324 -y+1/2,+x+1/2,+z
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+Np NP1 0.0 0.0 0.0 1.0 Uiso 0.0708(5) 4
+N N2 0.25 0.25 0.25 1.0 Uiso 0.0224(27) 8
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_Cromer_Mann_a1
+_atom_type_scat_Cromer_Mann_a2
+_atom_type_scat_Cromer_Mann_a3
+_atom_type_scat_Cromer_Mann_a4
+_atom_type_scat_Cromer_Mann_b1
+_atom_type_scat_Cromer_Mann_b2
+_atom_type_scat_Cromer_Mann_b3
+_atom_type_scat_Cromer_Mann_b4
+_atom_type_scat_Cromer_Mann_c
+_atom_type_scat_source
+Np_237 0.000 0.000 36.1874 0.51193 23.5964 3.25396 15.6402 15.3622 4.18550
+97.4908 13.3573 International_Tables_Vol_C
+N 0.000 0.000 12.2126 0.00570 3.13220 9.89330 2.01250 28.9975 1.16630 0.58260
+-11.529 International_Tables_Vol_C
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+N2 NP1 N2 70.5288(20) 1_555 4_555 n
+N2 NP1 N2 70.5288(10) 1_555 5_555 n
+N2 NP1 N2 70.5288(10) 1_555 6_555 n
+N2 NP1 N2 109.4712(10) 1_555 7_555 n
+N2 NP1 N2 109.4712(20) 1_555 8_555 n
+N2 NP1 N2 109.4712(10) 1_555 9_555 n
+N2 NP1 N2 180.0 1_555 -1_555 n
+N2 NP1 N2 109.4712(10) 4_555 5_555 n
+N2 NP1 N2 109.4712(10) 4_555 6_555 n
+N2 NP1 N2 70.5288(10) 4_555 7_555 n
+N2 NP1 N2 180.0 4_555 8_555 n
+N2 NP1 N2 70.5288(10) 4_555 9_555 n
+N2 NP1 N2 109.4712(20) 4_555 -1_555 n
+N2 NP1 N2 109.4712(20) 5_555 6_555 n
+N2 NP1 N2 70.5288(20) 5_555 7_555 n
+N2 NP1 N2 70.5288(10) 5_555 8_555 n
+N2 NP1 N2 180.0 5_555 9_555 n
+N2 NP1 N2 109.4712(10) 5_555 -1_555 n
+N2 NP1 N2 180.0 6_555 7_555 n
+N2 NP1 N2 70.5288(10) 6_555 8_555 n
+N2 NP1 N2 70.5288(20) 6_555 9_555 n
+N2 NP1 N2 109.4712(10) 6_555 -1_555 n
+N2 NP1 N2 109.4712(10) 7_555 8_555 n
+N2 NP1 N2 109.4712(20) 7_555 9_555 n
+N2 NP1 N2 70.5288(10) 7_555 -1_555 n
+N2 NP1 N2 109.4712(10) 8_555 9_555 n
+N2 NP1 N2 70.5288(20) 8_555 -1_555 n
+N2 NP1 N2 70.5288(10) 9_555 -1_555 n
+NP1 N2 NP1 109.4712(10) 1_555 101_555 n
+NP1 N2 NP1 109.4712(10) 1_555 201_555 n
+NP1 N2 NP1 109.4712(20) 1_555 301_555 n
+NP1 N2 NP1 109.4712(20) 101_555 201_555 n
+NP1 N2 NP1 109.4712(10) 101_555 301_555 n
+NP1 N2 NP1 109.4712(10) 201_555 301_555 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+NP1 N2 2.30517(5) 1_555 n
+NP1 N2 2.30517(5) 4_555 n
+NP1 N2 2.30517(5) 5_555 n
+NP1 N2 2.30517(5) 6_555 n
+NP1 N2 2.30517(5) 7_555 n
+NP1 N2 2.30517(5) 8_555 n
+NP1 N2 2.30517(5) 9_555 n
+NP1 N2 2.30517(5) -1_555 n
+N2 NP1 2.30517(5) 1_555 n
+N2 NP1 2.30517(5) 101_555 n
+N2 NP1 2.30517(5) 201_555 n
+N2 NP1 2.30517(5) 301_555 n
+loop_
+_pd_phase_id
+_pd_phase_block_id
+_pd_phase_mass_%
+_pd_proc_ls_profile_function
+_pd_proc_ls_peak_cutoff
+1 2011-09-06T22:02|NPN2_phase1|._W._Chinthaka_Silva|| 81.13(6)
+;
+ CW Profile function number 2 with  18 terms
+ Profile coefficients for Simpson's rule integration of pseudovoigt function
+ C.J. Howard (1982). J. Appl. Cryst.,15,615-620.
+ P. Thompson, D.E. Cox & J.B. Hastings (1987). J. Appl. Cryst.,20,79-83.
+ Peak tails are ignored  where the intensity is below 0.0100 times the peak
+   Aniso. broadening axis   0.0   0.0   1.0
+;
+0.01000

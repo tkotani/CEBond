@@ -1,0 +1,442 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-21 11:56:54 +0200 (Sun, 21 Feb 2016) $
+#$Revision: 176809 $
+#$URL: svn://www.crystallography.net/cod/cif/2/30/02/2300295.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2300295
+loop_
+_publ_author_name
+'Kremenovi\'c, Aleksandar'
+'Anti\'c, Bratislav'
+'Vu\<cini\'c-Vasi\'c, Milica'
+'Colomban, Philippe'
+'Jovaleki\'c, \<Cedomir'
+'Bibi\'c, Nata\<sa'
+'Kahlenberg, Volker'
+'Leoni, Matteo'
+_publ_section_title
+;
+ Temperature-induced structure and microstructure evolution of
+ nanostructured Ni~0.9~Zn~0.1~O
+;
+_journal_coeditor_code           CG5128
+_journal_issue                   4
+_journal_name_full               'Journal of Applied Crystallography'
+_journal_page_first              699
+_journal_page_last               709
+_journal_paper_doi               10.1107/S0021889810019163
+_journal_volume                  43
+_journal_year                    2010
+_chemical_formula_sum            'Fe2 Ni O4'
+_chemical_formula_weight         234.38
+_chemical_name_systematic        ' ?'
+_space_group_IT_number           227
+_symmetry_cell_setting           cubic
+_symmetry_space_group_name_Hall  '-F 4vw 2vw 3'
+_symmetry_space_group_name_H-M   'F d -3 m :2'
+_cell_angle_alpha                90.00000
+_cell_angle_beta                 90.00000
+_cell_angle_gamma                90.00000
+_cell_formula_units_Z            8
+_cell_length_a                   8.35966(16)
+_cell_length_b                   8.35966(16)
+_cell_length_c                   8.35966(16)
+_cell_measurement_temperature    293
+_cell_volume                     584.206(19)
+_computing_structure_refinement  FULLPROF
+_diffrn_ambient_temperature      293
+_diffrn_measurement_device_type  'STOE Stadi MP transmission'
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_type           'Cu K\a~1~'
+_diffrn_radiation_wavelength     1.54056
+_diffrn_source                   'sealed X-ray tube'
+_diffrn_source_type              'STOE STADI MP'
+_pd_block_diffractogram_id       Ni09Zn01O-950C-3h_R-3m
+_pd_char_colour                  black
+_pd_instr_location               ' ?'
+_pd_meas_2theta_range_inc        0.025005
+_pd_meas_2theta_range_max        129.97501
+_pd_meas_2theta_range_min        3.15000
+_pd_meas_number_of_points        5074
+_pd_proc_2theta_range_inc        0.025005
+_pd_proc_2theta_range_max        129.9750
+_pd_proc_2theta_range_min        3.1500
+_pd_proc_ls_pref_orient_corr     ' ?'
+_pd_proc_ls_prof_R_factor        3.0280
+_pd_proc_ls_prof_wR_expected     2.4848
+_pd_proc_ls_prof_wR_factor       4.0512
+_pd_proc_wavelength              1.540530
+_pd_spec_mounting                ' ?'
+_refine_ls_number_parameters     7
+_refine_ls_number_reflns         36
+_refine_ls_number_restraints     0
+_refine_ls_R_I_factor            27.7052
+_refine_ls_shift/su_max          0.05
+_cod_data_source_file            cg5128.cif
+_cod_data_source_block           ZnNiFeO_Fd-3m_950_2
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_symmetry_cell_setting' value 'Cubic' changed to 'cubic' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+;
+_cod_original_sg_symbol_H-M      'F D -3 M'
+_cod_database_code               2300295
+#BEGIN Tags that were not found in dictionaries:
+_pd_proc_ls_prof_cr_factor       14.9143
+_pd_proc_ls_prof_cwr_factor      10.0373
+_pd_proc_ls_prof_cwr_expected    6.1564
+_pd_proc_ls_prof_chi2            2.6582
+_pd_proc_ls_prof_echi2           2.9698
+#END Tags that were not found in dictionaries
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x,-y+1/4,-z+1/4
+-x+1/4,y,-z+1/4
+-x+1/4,-y+1/4,z
+y,z,x
+-y+1/4,-z+1/4,x
+y,-z+1/4,-x+1/4
+-y+1/4,z,-x+1/4
+z,x,y
+-z+1/4,x,-y+1/4
+-z+1/4,-x+1/4,y
+z,-x+1/4,-y+1/4
+y,x,z
+-y+1/4,x,-z+1/4
+y,-x+1/4,-z+1/4
+-y+1/4,-x+1/4,z
+z,y,x
+-z+1/4,-y+1/4,x
+-z+1/4,y,-x+1/4
+z,-y+1/4,-x+1/4
+x,z,y
+x,-z+1/4,-y+1/4
+-x+1/4,-z+1/4,y
+-x+1/4,z,-y+1/4
+-x,-y,-z
+-x,y+3/4,z+3/4
+x+3/4,-y,z+3/4
+x+3/4,y+3/4,-z
+-y,-z,-x
+y+3/4,z+3/4,-x
+-y,z+3/4,x+3/4
+y+3/4,-z,x+3/4
+-z,-x,-y
+z+3/4,-x,y+3/4
+z+3/4,x+3/4,-y
+-z,x+3/4,y+3/4
+-y,-x,-z
+y+3/4,-x,z+3/4
+-y,x+3/4,z+3/4
+y+3/4,x+3/4,-z
+-z,-y,-x
+z+3/4,y+3/4,-x
+z+3/4,-y,x+3/4
+-z,y+3/4,x+3/4
+-x,-z,-y
+-x,z+3/4,y+3/4
+x+3/4,z+3/4,-y
+x+3/4,-z,y+3/4
+x+1/2,y+1/2,z
+x+1/2,-y+3/4,-z+1/4
+-x+3/4,y+1/2,-z+1/4
+-x+3/4,-y+3/4,z
+y+1/2,z+1/2,x
+-y+3/4,-z+3/4,x
+y+1/2,-z+3/4,-x+1/4
+-y+3/4,z+1/2,-x+1/4
+z+1/2,x+1/2,y
+-z+3/4,x+1/2,-y+1/4
+-z+3/4,-x+3/4,y
+z+1/2,-x+3/4,-y+1/4
+y+1/2,x+1/2,z
+-y+3/4,x+1/2,-z+1/4
+y+1/2,-x+3/4,-z+1/4
+-y+3/4,-x+3/4,z
+z+1/2,y+1/2,x
+-z+3/4,-y+3/4,x
+-z+3/4,y+1/2,-x+1/4
+z+1/2,-y+3/4,-x+1/4
+x+1/2,z+1/2,y
+x+1/2,-z+3/4,-y+1/4
+-x+3/4,-z+3/4,y
+-x+3/4,z+1/2,-y+1/4
+-x+1/2,-y+1/2,-z
+-x+1/2,y+1/4,z+3/4
+x+1/4,-y+1/2,z+3/4
+x+1/4,y+1/4,-z
+-y+1/2,-z+1/2,-x
+y+1/4,z+1/4,-x
+-y+1/2,z+1/4,x+3/4
+y+1/4,-z+1/2,x+3/4
+-z+1/2,-x+1/2,-y
+z+1/4,-x+1/2,y+3/4
+z+1/4,x+1/4,-y
+-z+1/2,x+1/4,y+3/4
+-y+1/2,-x+1/2,-z
+y+1/4,-x+1/2,z+3/4
+-y+1/2,x+1/4,z+3/4
+y+1/4,x+1/4,-z
+-z+1/2,-y+1/2,-x
+z+1/4,y+1/4,-x
+z+1/4,-y+1/2,x+3/4
+-z+1/2,y+1/4,x+3/4
+-x+1/2,-z+1/2,-y
+-x+1/2,z+1/4,y+3/4
+x+1/4,z+1/4,-y
+x+1/4,-z+1/2,y+3/4
+x+1/2,y,z+1/2
+x+1/2,-y+1/4,-z+3/4
+-x+3/4,y,-z+3/4
+-x+3/4,-y+1/4,z+1/2
+y+1/2,z,x+1/2
+-y+3/4,-z+1/4,x+1/2
+y+1/2,-z+1/4,-x+3/4
+-y+3/4,z,-x+3/4
+z+1/2,x,y+1/2
+-z+3/4,x,-y+3/4
+-z+3/4,-x+1/4,y+1/2
+z+1/2,-x+1/4,-y+3/4
+y+1/2,x,z+1/2
+-y+3/4,x,-z+3/4
+y+1/2,-x+1/4,-z+3/4
+-y+3/4,-x+1/4,z+1/2
+z+1/2,y,x+1/2
+-z+3/4,-y+1/4,x+1/2
+-z+3/4,y,-x+3/4
+z+1/2,-y+1/4,-x+3/4
+x+1/2,z,y+1/2
+x+1/2,-z+1/4,-y+3/4
+-x+3/4,-z+1/4,y+1/2
+-x+3/4,z,-y+3/4
+-x+1/2,-y,-z+1/2
+-x+1/2,y+3/4,z+1/4
+x+1/4,-y,z+1/4
+x+1/4,y+3/4,-z+1/2
+-y+1/2,-z,-x+1/2
+y+1/4,z+3/4,-x+1/2
+-y+1/2,z+3/4,x+1/4
+y+1/4,-z,x+1/4
+-z+1/2,-x,-y+1/2
+z+1/4,-x,y+1/4
+z+1/4,x+3/4,-y+1/2
+-z+1/2,x+3/4,y+1/4
+-y+1/2,-x,-z+1/2
+y+1/4,-x,z+1/4
+-y+1/2,x+3/4,z+1/4
+y+1/4,x+3/4,-z+1/2
+-z+1/2,-y,-x+1/2
+z+1/4,y+3/4,-x+1/2
+z+1/4,-y,x+1/4
+-z+1/2,y+3/4,x+1/4
+-x+1/2,-z,-y+1/2
+-x+1/2,z+3/4,y+1/4
+x+1/4,z+3/4,-y+1/2
+x+1/4,-z,y+1/4
+x,y+1/2,z+1/2
+x,-y+3/4,-z+3/4
+-x+1/4,y+1/2,-z+3/4
+-x+1/4,-y+3/4,z+1/2
+y,z+1/2,x+1/2
+-y+1/4,-z+3/4,x+1/2
+y,-z+3/4,-x+3/4
+-y+1/4,z+1/2,-x+3/4
+z,x+1/2,y+1/2
+-z+1/4,x+1/2,-y+3/4
+-z+1/4,-x+3/4,y+1/2
+z,-x+3/4,-y+3/4
+y,x+1/2,z+1/2
+-y+1/4,x+1/2,-z+3/4
+y,-x+3/4,-z+3/4
+-y+1/4,-x+3/4,z+1/2
+z,y+1/2,x+1/2
+-z+1/4,-y+3/4,x+1/2
+-z+1/4,y+1/2,-x+3/4
+z,-y+3/4,-x+3/4
+x,z+1/2,y+1/2
+x,-z+3/4,-y+3/4
+-x+1/4,-z+3/4,y+1/2
+-x+1/4,z+1/2,-y+3/4
+-x,-y+1/2,-z+1/2
+-x,y+1/4,z+1/4
+x+3/4,-y+1/2,z+1/4
+x+3/4,y+1/4,-z+1/2
+-y,-z+1/2,-x+1/2
+y+3/4,z+1/4,-x+1/2
+-y,z+1/4,x+1/4
+y+3/4,-z+1/2,x+1/4
+-z,-x+1/2,-y+1/2
+z+3/4,-x+1/2,y+1/4
+z+3/4,x+1/4,-y+1/2
+-z,x+1/4,y+1/4
+-y,-x+1/2,-z+1/2
+y+3/4,-x+1/2,z+1/4
+-y,x+1/4,z+1/4
+y+3/4,x+1/4,-z+1/2
+-z,-y+1/2,-x+1/2
+z+3/4,y+1/4,-x+1/2
+z+3/4,-y+1/2,x+1/4
+-z,y+1/4,x+1/4
+-x,-z+1/2,-y+1/2
+-x,z+1/4,y+1/4
+x+3/4,z+1/4,-y+1/2
+x+3/4,-z+1/2,y+1/4
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+_atom_site_adp_type
+_atom_site_type_symbol
+O1 0.38250 0.38250 0.38250 0.02530 1.00000 Uiso O
+Ni1 0.00000 0.00000 0.00000 0.02530 0.25000 Uiso Ni
+Fe2 0.62500 0.62500 0.62500 0.02530 0.50000 Uiso Fe
+loop_
+_atom_type_symbol
+_atom_type_scat_Cromer_Mann_a1
+_atom_type_scat_Cromer_Mann_b1
+_atom_type_scat_Cromer_Mann_a2
+_atom_type_scat_Cromer_Mann_b2
+_atom_type_scat_Cromer_Mann_a3
+_atom_type_scat_Cromer_Mann_b3
+_atom_type_scat_Cromer_Mann_a4
+_atom_type_scat_Cromer_Mann_b4
+_atom_type_scat_Cromer_Mann_c
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+o 3.04850 13.27710 2.28680 5.70110 1.54630 0.32390 0.86700 32.90890 0.25080
+0.04700 0.03200
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+ni 12.83760 3.87850 7.29200 0.25650 4.44380 12.17630 2.38000 66.34210 1.03410
+-2.95600 0.50900
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+fe 11.76950 4.76110 7.35730 0.30720 3.52220 15.35350 2.30450 76.88050 1.03690
+-1.17900 3.20400
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+? ? ? ? ? ? ? ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+O1 O1 3.40250 25_666 ?
+O1 O1 0.17733 52_555 ?
+O1 O1 0.17733 99_555 ?
+O1 O1 0.17733 146_555 ?
+O1 Ni1 3.48612 49_555 ?
+O1 Ni1 3.41013 50_555 ?
+O1 Ni1 3.41013 51_555 ?
+O1 Ni1 3.41013 74_555 ?
+O1 Ni1 3.41013 75_555 ?
+O1 Ni1 3.48612 97_555 ?
+O1 Ni1 3.41013 100_555 ?
+O1 Ni1 3.41013 124_555 ?
+O1 Ni1 3.48612 145_555 ?
+O1 Fe2 0.10859 25_666 ?
+Ni1 O1 3.48612 49_445 ?
+Ni1 O1 3.41013 50_455 ?
+Ni1 O1 3.41013 51_545 ?
+Ni1 O1 3.48612 73_555 ?
+Ni1 O1 3.41013 74_544 ?
+Ni1 O1 3.41013 75_454 ?
+Ni1 O1 3.48612 97_454 ?
+Ni1 O1 3.41013 98_455 ?
+Ni1 O1 3.41013 100_554 ?
+Ni1 O1 3.48612 121_555 ?
+Ni1 O1 3.41013 122_544 ?
+Ni1 O1 3.41013 124_445 ?
+Ni1 O1 3.48612 145_544 ?
+Ni1 O1 3.41013 147_545 ?
+Ni1 O1 3.41013 148_554 ?
+Ni1 O1 3.48612 169_555 ?
+Ni1 O1 3.41013 171_454 ?
+Ni1 O1 3.41013 172_445 ?
+Ni1 Ni1 2.95546 2_555 ?
+Ni1 Ni1 2.95546 3_555 ?
+Ni1 Ni1 2.95546 4_555 ?
+Ni1 Ni1 2.95546 26_544 ?
+Ni1 Ni1 2.95546 27_454 ?
+Ni1 Ni1 2.95546 28_445 ?
+Ni1 Fe2 3.46558 49_444 ?
+Ni1 Fe2 3.46558 73_556 ?
+Ni1 Fe2 3.46558 97_444 ?
+Ni1 Fe2 3.46558 121_565 ?
+Ni1 Fe2 3.46558 145_444 ?
+Ni1 Fe2 3.46558 169_655 ?
+Fe2 O1 0.10859 25_666 ?
+Fe2 O1 0.10859 76_556 ?
+Fe2 O1 0.10859 123_565 ?
+Fe2 O1 0.10859 170_655 ?
+Fe2 Ni1 3.46558 26_655 ?
+Fe2 Ni1 3.46558 27_565 ?
+Fe2 Ni1 3.46558 28_556 ?
+Fe2 Ni1 3.46558 49_556 ?
+Fe2 Ni1 3.46558 50_555 ?
+Fe2 Ni1 3.46558 51_555 ?
+Fe2 Ni1 3.46558 74_555 ?
+Fe2 Ni1 3.46558 75_555 ?
+Fe2 Ni1 3.46558 97_565 ?
+Fe2 Ni1 3.46558 100_555 ?
+Fe2 Ni1 3.46558 124_555 ?
+Fe2 Ni1 3.46558 145_655 ?
+loop_
+_geom_contact_atom_site_label_1
+_geom_contact_atom_site_label_2
+_geom_contact_distance
+_geom_contact_site_symmetry_1
+_geom_contact_site_symmetry_2
+_geom_contact_publ_flag
+? ? ? ? ? ?
+loop_
+_geom_hbond_atom_site_label_D
+_geom_hbond_atom_site_label_H
+_geom_hbond_atom_site_label_A
+_geom_hbond_site_symmetry_D
+_geom_hbond_site_symmetry_H
+_geom_hbond_site_symmetry_A
+_geom_hbond_distance_DH
+_geom_hbond_distance_HA
+_geom_hbond_distance_DA
+_geom_hbond_angle_DHA
+_geom_hbond_publ_flag
+? ? ? ? ? ? ? ? ? ? ?
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion_site_symmetry_1
+_geom_torsion_site_symmetry_2
+_geom_torsion_site_symmetry_3
+_geom_torsion_site_symmetry_4
+_geom_torsion
+_geom_torsion_publ_flag
+? ? ? ? ? ? ? ? ? ?

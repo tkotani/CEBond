@@ -1,0 +1,110 @@
+#------------------------------------------------------------------------------
+#$Date: 2018-06-14 15:53:24 +0300 (Thu, 14 Jun 2018) $
+#$Revision: 208377 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/00/20/2002056.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2002056
+loop_
+_publ_author_name
+'Ji, Y.'
+'Liang, J.'
+'Xie, S.'
+'Zhu, N.'
+'Li, Y.'
+_publ_section_title
+;
+ Structure of 2CaO.B~2~O~3~
+;
+_journal_issue                   1
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              78
+_journal_page_last               79
+_journal_paper_doi               10.1107/S0108270192002130
+_journal_volume                  49
+_journal_year                    1993
+_chemical_formula_sum            'B2 Ca2 O5'
+_chemical_formula_weight         181.777
+_space_group_crystal_system      monoclinic
+_space_group_IT_number           14
+_space_group_name_Hall           '-P 2ybc'
+_space_group_name_H-M_alt        'P 1 21/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 92.94(3)
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   7.234(3)
+_cell_length_b                   5.1810(10)
+_cell_length_c                   11.524(3)
+_cell_volume                     431.3(2)
+_diffrn_radiation_type           Mo
+_diffrn_radiation_wavelength     0.71073
+_exptl_absorpt_coefficient_mu    2.411
+_exptl_crystal_density_diffrn    2.80
+_exptl_crystal_F_000             360
+_cod_data_source_file            ab0264.cif
+_cod_data_source_block           ab0264_structure_1_of_1
+_cod_depositor_comments
+;
+ Updating space group information and adding the symmetry operation list.
+
+ Antanas Vaitkus,
+ 2018-06-15
+;
+_cod_original_cell_volume        431.41
+_cod_original_sg_symbol_H-M      'P 21/c'
+_cod_database_code               2002056
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 -x,y+1/2,-z+1/2
+3 -x,-y,-z
+4 x,-y+1/2,z+1/2
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+Ca(1) .62330(10) .10080(10) .33610(10) .00870(10)
+Ca(2) .88200(10) .56500(10) .13310(10) .00880(10)
+O(1) .6084(2) .3069(3) .14170(10) .0124(3)
+O(2) .6460(2) -.1447(3) .15720(10) .0109(3)
+O(3) 1.0922(2) -.0802(3) .17470(10) .0129(3)
+O(4) 1.1437(2) .3218(3) .07100(10) .0122(3)
+O(5) .7276(3) .0917(3) -.01550(10) .0150(3)
+B(1) .6550(3) .0760(4) .0955(2) .0093(4)
+B(2) 1.1631(3) .0634(4) .0888(2) .0095(4)
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+O(2) B(1) O(1) 121.3(2)
+O(1) B(1) O(5) 114.6(2)
+O(3) B(2) O(5) 111.8(2)
+O(2) B(1) O(5) 123.8(2)
+O(3) B(2) O(4) 127.4(2)
+O(4) B(2) O(5) 123.5(2)
+O(1) Ca(1) O(2) 57.40(10)
+O(1) Ca(2) O(4) 112.50(10)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+Ca(1) Ca(2) 3.9000(10)
+Ca(1) O(1) 2.4800(10)
+Ca(1) O(3) 2.6480(10)
+O(1) B(1) 1.359(2)
+O(3) B(2) 1.360(2)
+Ca(2) O(4) 2.4130(10)
+O(4) B(2) 1.360(2)

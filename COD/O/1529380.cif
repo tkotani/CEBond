@@ -1,0 +1,544 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-13 14:50:18 +0200 (Sat, 13 Feb 2016) $
+#$Revision: 176428 $
+#$URL: svn://www.crystallography.net/cod/cif/1/52/93/1529380.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1529380
+loop_
+_publ_author_name
+'L.N. Bezmaternykh'
+'E.M. Kolesnikova'
+'E.V. Eremin'
+'S.N. Sofronova'
+'N.V. Volkov'
+'M.S. Molokeev'
+_publ_section_title
+;
+ Magnetization pole reversal of ferrimagnetic ludwigites Mn3-xNixBO5
+;
+_journal_issue                   0
+_journal_name_full               'Journal of Magnetism and Magnetic Materials'
+_journal_page_first              55
+_journal_page_last               59
+_journal_paper_doi               10.1016/j.jmmm.2014.04.031
+_journal_volume                  364
+_journal_year                    2014
+_chemical_formula_sum            'B2 Mn5 Ni O10'
+_chemical_formula_weight         515.03
+_chemical_name_systematic
+; 
+ ? 
+;
+_space_group_IT_number           55
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2 2ab'
+_symmetry_space_group_name_H-M   'P b a m'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            1
+_cell_length_a                   9.1790(17)
+_cell_length_b                   12.344(2)
+_cell_length_c                   3.0010(6)
+_cell_measurement_temperature    296(2)
+_cell_volume                     340.03(11)
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 2008)'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 2008)'
+_diffrn_ambient_temperature      296(2)
+_diffrn_measured_fraction_theta_full 1.000
+_diffrn_measured_fraction_theta_max 0.970
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0409
+_diffrn_reflns_av_sigmaI/netI    0.0308
+_diffrn_reflns_limit_h_max       12
+_diffrn_reflns_limit_h_min       -12
+_diffrn_reflns_limit_k_max       16
+_diffrn_reflns_limit_k_min       -17
+_diffrn_reflns_limit_l_max       4
+_diffrn_reflns_limit_l_min       -4
+_diffrn_reflns_number            3107
+_diffrn_reflns_theta_full        25.00
+_diffrn_reflns_theta_max         29.64
+_diffrn_reflns_theta_min         2.77
+_exptl_absorpt_coefficient_mu    5.884
+_exptl_crystal_density_diffrn    2.515
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_F_000             243
+_refine_diff_density_max         1.768
+_refine_diff_density_min         -1.495
+_refine_diff_density_rms         0.386
+_refine_ls_extinction_coef       0.098(8)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_ref   1.007
+_refine_ls_hydrogen_treatment    mixed
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     55
+_refine_ls_number_reflns         546
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.007
+_refine_ls_R_factor_all          0.0400
+_refine_ls_R_factor_gt           0.0381
+_refine_ls_shift/su_max          0.070
+_refine_ls_shift/su_mean         0.015
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0744P)^2^+2.6319P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.1090
+_refine_ls_wR_factor_ref         0.1112
+_reflns_number_gt                514
+_reflns_number_total             546
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            Mn2p5Ni0p5BO5.cif
+_cod_data_source_block           b
+_cod_original_cell_volume        340.02(11)
+_cod_original_sg_symbol_H-M      Pbam
+_cod_database_code               1529380
+_cod_database_fobs_code          1529380
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, -y, z'
+'-x+1/2, y+1/2, -z'
+'x+1/2, -y+1/2, -z'
+'-x, -y, -z'
+'x, y, -z'
+'x-1/2, -y-1/2, z'
+'-x-1/2, y-1/2, z'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Mn1 Mn -0.00269(8) 0.71967(7) 0.0000 0.0096(3) Uani 0.50 2 d SP . .
+Ni1 Ni -0.00269(8) 0.71967(7) 0.0000 0.0096(3) Uani 0.50 2 d SP . .
+Mn2 Mn 0.0000 1.0000 0.0000 0.0046(4) Uani 1 4 d S . .
+Mn3 Mn 0.25977(9) 0.61538(7) -0.5000 0.0069(3) Uani 1 2 d S . .
+Mn4 Mn 0.0000 0.5000 -0.5000 0.0050(4) Uani 1 4 d S . .
+O1 O -0.1067(5) 0.8564(3) 0.0000 0.0166(10) Uani 1 2 d S . .
+O2 O 0.1449(4) 0.7642(4) -0.5000 0.0149(9) Uani 1 2 d S . .
+O3 O 0.1128(5) 0.5796(4) 0.0000 0.0167(9) Uani 1 2 d S . .
+O4 O -0.1272(5) 0.6416(3) -0.5000 0.0129(9) Uani 1 2 d S . .
+O5 O 0.1477(5) 0.9582(3) -0.5000 0.0142(9) Uani 1 2 d S . .
+B B 0.2225(8) 0.8618(5) -0.5000 0.0116(13) Uiso 1 2 d S . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Mn1 0.0075(5) 0.0065(5) 0.0147(5) 0.000 0.000 0.0005(2)
+Ni1 0.0075(5) 0.0065(5) 0.0147(5) 0.000 0.000 0.0005(2)
+Mn2 0.0026(6) 0.0026(6) 0.0085(6) 0.000 0.000 -0.0006(3)
+Mn3 0.0045(5) 0.0055(5) 0.0106(5) 0.000 0.000 0.0003(3)
+Mn4 0.0040(6) 0.0018(6) 0.0092(6) 0.000 0.000 -0.0004(3)
+O1 0.016(2) 0.009(2) 0.025(3) 0.000 0.000 0.0007(15)
+O2 0.013(2) 0.0102(19) 0.022(2) 0.000 0.000 -0.0019(16)
+O3 0.014(2) 0.0122(19) 0.024(2) 0.000 0.000 -0.0020(16)
+O4 0.0092(19) 0.009(2) 0.020(2) 0.000 0.000 0.0006(14)
+O5 0.015(2) 0.011(2) 0.017(2) 0.000 0.000 0.0020(16)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+B B 0.0013 0.0007 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Mn Mn 0.3368 0.7283 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ni Ni 0.3393 1.1124 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+O1 Mn1 O3 177.99(18) . .
+O1 Mn1 O2 95.18(15) . .
+O3 Mn1 O2 83.43(15) . .
+O1 Mn1 O2 95.18(15) . 1_556
+O3 Mn1 O2 83.43(15) . 1_556
+O2 Mn1 O2 91.48(16) . 1_556
+O1 Mn1 O4 97.50(15) . 1_556
+O3 Mn1 O4 83.91(14) . 1_556
+O2 Mn1 O4 167.32(17) . 1_556
+O2 Mn1 O4 87.76(12) 1_556 1_556
+O1 Mn1 O4 97.50(15) . .
+O3 Mn1 O4 83.91(14) . .
+O2 Mn1 O4 87.76(12) . .
+O2 Mn1 O4 167.32(17) 1_556 .
+O4 Mn1 O4 90.21(17) 1_556 .
+O1 Mn1 Ni1 90.0 . 1_556
+O3 Mn1 Ni1 90.0 . 1_556
+O2 Mn1 Ni1 135.74(8) . 1_556
+O2 Mn1 Ni1 44.26(8) 1_556 1_556
+O4 Mn1 Ni1 44.90(8) 1_556 1_556
+O4 Mn1 Ni1 135.10(8) . 1_556
+O1 Mn1 Mn1 90.0 . 1_554
+O3 Mn1 Mn1 90.0 . 1_554
+O2 Mn1 Mn1 44.26(8) . 1_554
+O2 Mn1 Mn1 135.74(8) 1_556 1_554
+O4 Mn1 Mn1 135.10(8) 1_556 1_554
+O4 Mn1 Mn1 44.90(8) . 1_554
+Ni1 Mn1 Mn1 180.0 1_556 1_554
+O1 Mn1 Mn1 90.0 . 1_556
+O3 Mn1 Mn1 90.0 . 1_556
+O2 Mn1 Mn1 135.74(8) . 1_556
+O2 Mn1 Mn1 44.26(8) 1_556 1_556
+O4 Mn1 Mn1 44.90(8) 1_556 1_556
+O4 Mn1 Mn1 135.10(8) . 1_556
+Ni1 Mn1 Mn1 0.00(4) 1_556 1_556
+Mn1 Mn1 Mn1 180.0 1_554 1_556
+O1 Mn1 Ni1 90.0 . 1_554
+O3 Mn1 Ni1 90.0 . 1_554
+O2 Mn1 Ni1 44.26(8) . 1_554
+O2 Mn1 Ni1 135.74(8) 1_556 1_554
+O4 Mn1 Ni1 135.10(8) 1_556 1_554
+O4 Mn1 Ni1 44.90(8) . 1_554
+Ni1 Mn1 Ni1 180.0 1_556 1_554
+Mn1 Mn1 Ni1 0.00(3) 1_554 1_554
+Mn1 Mn1 Ni1 180.0 1_556 1_554
+O1 Mn1 Mn4 139.95(9) . .
+O3 Mn1 Mn4 41.40(9) . .
+O2 Mn1 Mn4 82.96(11) . .
+O2 Mn1 Mn4 124.82(12) 1_556 .
+O4 Mn1 Mn4 87.08(9) 1_556 .
+O4 Mn1 Mn4 42.53(11) . .
+Ni1 Mn1 Mn4 118.959(10) 1_556 .
+Mn1 Mn1 Mn4 61.042(10) 1_554 .
+Mn1 Mn1 Mn4 118.959(10) 1_556 .
+Ni1 Mn1 Mn4 61.042(10) 1_554 .
+O1 Mn1 Mn4 139.95(9) . 1_556
+O3 Mn1 Mn4 41.40(9) . 1_556
+O2 Mn1 Mn4 124.82(12) . 1_556
+O2 Mn1 Mn4 82.96(11) 1_556 1_556
+O4 Mn1 Mn4 42.53(11) 1_556 1_556
+O4 Mn1 Mn4 87.08(9) . 1_556
+Ni1 Mn1 Mn4 61.042(10) 1_556 1_556
+Mn1 Mn1 Mn4 118.959(10) 1_554 1_556
+Mn1 Mn1 Mn4 61.042(10) 1_556 1_556
+Ni1 Mn1 Mn4 118.959(10) 1_554 1_556
+Mn4 Mn1 Mn4 57.92(2) . 1_556
+O1 Mn2 O1 180.0(2) 5_575 .
+O1 Mn2 O5 84.40(15) 5_575 .
+O1 Mn2 O5 95.60(15) . .
+O1 Mn2 O5 95.60(15) 5_575 5_574
+O1 Mn2 O5 84.39(15) . 5_574
+O5 Mn2 O5 88.05(17) . 5_574
+O1 Mn2 O5 84.40(15) 5_575 1_556
+O1 Mn2 O5 95.61(15) . 1_556
+O5 Mn2 O5 91.95(17) . 1_556
+O5 Mn2 O5 180.0(2) 5_574 1_556
+O1 Mn2 O5 95.60(15) 5_575 5_575
+O1 Mn2 O5 84.39(15) . 5_575
+O5 Mn2 O5 179.999(1) . 5_575
+O5 Mn2 O5 91.95(17) 5_574 5_575
+O5 Mn2 O5 88.05(17) 1_556 5_575
+O1 Mn2 Mn2 90.0 5_575 1_556
+O1 Mn2 Mn2 90.0 . 1_556
+O5 Mn2 Mn2 135.97(8) . 1_556
+O5 Mn2 Mn2 135.97(8) 5_574 1_556
+O5 Mn2 Mn2 44.03(8) 1_556 1_556
+O5 Mn2 Mn2 44.03(8) 5_575 1_556
+O1 Mn2 Mn2 90.0 5_575 1_554
+O1 Mn2 Mn2 90.0 . 1_554
+O5 Mn2 Mn2 44.03(8) . 1_554
+O5 Mn2 Mn2 44.03(8) 5_574 1_554
+O5 Mn2 Mn2 135.97(8) 1_556 1_554
+O5 Mn2 Mn2 135.97(8) 5_575 1_554
+Mn2 Mn2 Mn2 180.0 1_556 1_554
+O1 Mn2 Mn3 40.10(9) 5_575 3
+O1 Mn2 Mn3 139.90(9) . 3
+O5 Mn2 Mn3 89.97(11) . 3
+O5 Mn2 Mn3 135.57(12) 5_574 3
+O5 Mn2 Mn3 44.43(12) 1_556 3
+O5 Mn2 Mn3 90.03(11) 5_575 3
+Mn2 Mn2 Mn3 60.247(10) 1_556 3
+Mn2 Mn2 Mn3 119.753(10) 1_554 3
+O1 Mn2 Mn3 139.90(9) 5_575 7_575
+O1 Mn2 Mn3 40.10(9) . 7_575
+O5 Mn2 Mn3 90.03(11) . 7_575
+O5 Mn2 Mn3 44.43(12) 5_574 7_575
+O5 Mn2 Mn3 135.57(12) 1_556 7_575
+O5 Mn2 Mn3 89.97(11) 5_575 7_575
+Mn2 Mn2 Mn3 119.753(10) 1_556 7_575
+Mn2 Mn2 Mn3 60.247(10) 1_554 7_575
+Mn3 Mn2 Mn3 180.0 3 7_575
+O1 Mn2 Mn3 139.90(9) 5_575 7_576
+O1 Mn2 Mn3 40.10(9) . 7_576
+O5 Mn2 Mn3 135.57(12) . 7_576
+O5 Mn2 Mn3 89.97(11) 5_574 7_576
+O5 Mn2 Mn3 90.03(11) 1_556 7_576
+O5 Mn2 Mn3 44.43(12) 5_575 7_576
+Mn2 Mn2 Mn3 60.247(10) 1_556 7_576
+Mn2 Mn2 Mn3 119.753(10) 1_554 7_576
+Mn3 Mn2 Mn3 120.494(19) 3 7_576
+Mn3 Mn2 Mn3 59.506(19) 7_575 7_576
+O1 Mn2 Mn3 40.10(9) 5_575 3_554
+O1 Mn2 Mn3 139.90(9) . 3_554
+O5 Mn2 Mn3 44.43(12) . 3_554
+O5 Mn2 Mn3 90.03(11) 5_574 3_554
+O5 Mn2 Mn3 89.97(11) 1_556 3_554
+O5 Mn2 Mn3 135.57(12) 5_575 3_554
+Mn2 Mn2 Mn3 119.753(10) 1_556 3_554
+Mn2 Mn2 Mn3 60.247(10) 1_554 3_554
+Mn3 Mn2 Mn3 59.506(19) 3 3_554
+Mn3 Mn2 Mn3 120.494(19) 7_575 3_554
+Mn3 Mn2 Mn3 180.0 7_576 3_554
+O1 Mn3 O1 99.3(2) 7_675 7_674
+O1 Mn3 O3 176.58(13) 7_675 1_554
+O1 Mn3 O3 83.74(15) 7_674 1_554
+O1 Mn3 O3 83.74(16) 7_675 .
+O1 Mn3 O3 176.58(13) 7_674 .
+O3 Mn3 O3 93.17(18) 1_554 .
+O1 Mn3 O2 98.99(14) 7_675 .
+O1 Mn3 O2 98.99(14) 7_674 .
+O3 Mn3 O2 81.97(15) 1_554 .
+O3 Mn3 O2 81.97(15) . .
+O1 Mn3 O5 84.98(14) 7_675 3_544
+O1 Mn3 O5 84.98(14) 7_674 3_544
+O3 Mn3 O5 93.79(15) 1_554 3_544
+O3 Mn3 O5 93.79(15) . 3_544
+O2 Mn3 O5 173.80(15) . 3_544
+O1 Mn3 Mn4 128.71(11) 7_675 .
+O1 Mn3 Mn4 128.71(11) 7_674 .
+O3 Mn3 Mn4 47.90(9) 1_554 .
+O3 Mn3 Mn4 47.90(9) . .
+O2 Mn3 Mn4 91.00(12) . .
+O5 Mn3 Mn4 82.80(12) 3_544 .
+O1 Mn3 Mn3 40.35(11) 7_675 1_556
+O1 Mn3 Mn3 139.66(11) 7_674 1_556
+O3 Mn3 Mn3 136.58(9) 1_554 1_556
+O3 Mn3 Mn3 43.41(9) . 1_556
+O2 Mn3 Mn3 90.0 . 1_556
+O5 Mn3 Mn3 90.0 3_544 1_556
+Mn4 Mn3 Mn3 90.0 . 1_556
+O1 Mn3 Mn3 139.66(11) 7_675 1_554
+O1 Mn3 Mn3 40.35(11) 7_674 1_554
+O3 Mn3 Mn3 43.41(9) 1_554 1_554
+O3 Mn3 Mn3 136.58(9) . 1_554
+O2 Mn3 Mn3 90.0 . 1_554
+O5 Mn3 Mn3 90.0 3_544 1_554
+Mn4 Mn3 Mn3 90.0 . 1_554
+Mn3 Mn3 Mn3 180.0 1_556 1_554
+O1 Mn3 Mn2 41.50(12) 7_675 3_545
+O1 Mn3 Mn2 90.43(12) 7_674 3_545
+O3 Mn3 Mn2 137.40(14) 1_554 3_545
+O3 Mn3 Mn2 90.87(11) . 3_545
+O2 Mn3 Mn2 140.49(7) . 3_545
+O5 Mn3 Mn2 43.61(8) 3_544 3_545
+Mn4 Mn3 Mn2 112.62(3) . 3_545
+Mn3 Mn3 Mn2 60.247(10) 1_556 3_545
+Mn3 Mn3 Mn2 119.753(10) 1_554 3_545
+O1 Mn3 Mn2 90.43(12) 7_675 3_544
+O1 Mn3 Mn2 41.50(12) 7_674 3_544
+O3 Mn3 Mn2 90.87(11) 1_554 3_544
+O3 Mn3 Mn2 137.40(14) . 3_544
+O2 Mn3 Mn2 140.49(7) . 3_544
+O5 Mn3 Mn2 43.61(8) 3_544 3_544
+Mn4 Mn3 Mn2 112.62(3) . 3_544
+Mn3 Mn3 Mn2 119.753(10) 1_556 3_544
+Mn3 Mn3 Mn2 60.247(10) 1_554 3_544
+Mn2 Mn3 Mn2 59.506(19) 3_545 3_544
+O1 Mn3 Mn1 140.82(13) 7_675 1_554
+O1 Mn3 Mn1 92.36(12) 7_674 1_554
+O3 Mn3 Mn1 39.97(13) 1_554 1_554
+O3 Mn3 Mn1 86.17(11) . 1_554
+O2 Mn3 Mn1 42.01(8) . 1_554
+O5 Mn3 Mn1 133.51(9) 3_544 1_554
+Mn4 Mn3 Mn1 63.14(2) . 1_554
+Mn3 Mn3 Mn1 118.782(11) 1_556 1_554
+Mn3 Mn3 Mn1 61.218(11) 1_554 1_554
+Mn2 Mn3 Mn1 175.75(3) 3_545 1_554
+Mn2 Mn3 Mn1 121.291(14) 3_544 1_554
+O3 Mn4 O3 92.87(18) 5_564 5_565
+O3 Mn4 O3 87.13(18) 5_564 1_554
+O3 Mn4 O3 180.0(2) 5_565 1_554
+O3 Mn4 O3 180.0 5_564 .
+O3 Mn4 O3 87.13(18) 5_565 .
+O3 Mn4 O3 92.87(18) 1_554 .
+O3 Mn4 O4 83.29(15) 5_564 5_564
+O3 Mn4 O4 83.29(15) 5_565 5_564
+O3 Mn4 O4 96.71(15) 1_554 5_564
+O3 Mn4 O4 96.71(15) . 5_564
+O3 Mn4 O4 96.71(15) 5_564 .
+O3 Mn4 O4 96.71(15) 5_565 .
+O3 Mn4 O4 83.29(15) 1_554 .
+O3 Mn4 O4 83.29(15) . .
+O4 Mn4 O4 180.0 5_564 .
+O3 Mn4 Mn3 47.74(9) 5_564 5_564
+O3 Mn4 Mn3 47.74(9) 5_565 5_564
+O3 Mn4 Mn3 132.26(9) 1_554 5_564
+O3 Mn4 Mn3 132.26(9) . 5_564
+O4 Mn4 Mn3 92.90(12) 5_564 5_564
+O4 Mn4 Mn3 87.10(12) . 5_564
+O3 Mn4 Mn3 132.26(9) 5_564 .
+O3 Mn4 Mn3 132.26(9) 5_565 .
+O3 Mn4 Mn3 47.74(9) 1_554 .
+O3 Mn4 Mn3 47.74(9) . .
+O4 Mn4 Mn3 87.10(12) 5_564 .
+O4 Mn4 Mn3 92.90(12) . .
+Mn3 Mn4 Mn3 180.0 5_564 .
+O3 Mn4 Mn4 136.43(9) 5_564 1_556
+O3 Mn4 Mn4 43.57(9) 5_565 1_556
+O3 Mn4 Mn4 136.43(9) 1_554 1_556
+O3 Mn4 Mn4 43.57(9) . 1_556
+O4 Mn4 Mn4 90.0 5_564 1_556
+O4 Mn4 Mn4 90.0 . 1_556
+Mn3 Mn4 Mn4 90.0 5_564 1_556
+Mn3 Mn4 Mn4 90.0 . 1_556
+O3 Mn4 Mn4 43.57(9) 5_564 1_554
+O3 Mn4 Mn4 136.43(9) 5_565 1_554
+O3 Mn4 Mn4 43.57(9) 1_554 1_554
+O3 Mn4 Mn4 136.43(9) . 1_554
+O4 Mn4 Mn4 90.0 5_564 1_554
+O4 Mn4 Mn4 90.0 . 1_554
+Mn3 Mn4 Mn4 90.0 5_564 1_554
+Mn3 Mn4 Mn4 90.0 . 1_554
+Mn4 Mn4 Mn4 180.0 1_556 1_554
+O3 Mn4 Mn1 139.64(13) 5_564 .
+O3 Mn4 Mn1 93.46(11) 5_565 .
+O3 Mn4 Mn1 86.54(11) 1_554 .
+O3 Mn4 Mn1 40.36(13) . .
+O4 Mn4 Mn1 137.05(8) 5_564 .
+O4 Mn4 Mn1 42.95(8) . .
+Mn3 Mn4 Mn1 116.22(2) 5_564 .
+Mn3 Mn4 Mn1 63.78(2) . .
+Mn4 Mn4 Mn1 61.041(10) 1_556 .
+Mn4 Mn4 Mn1 118.959(10) 1_554 .
+Mn1 O1 Mn3 117.44(14) . 7_575
+Mn1 O1 Mn3 117.44(14) . 7_576
+Mn3 O1 Mn3 99.3(2) 7_575 7_576
+Mn1 O1 Mn2 121.6(3) . .
+Mn3 O1 Mn2 98.39(14) 7_575 .
+Mn3 O1 Mn2 98.39(14) 7_576 .
+B O2 Ni1 123.7(2) . 1_554
+B O2 Mn1 123.7(2) . 1_554
+Ni1 O2 Mn1 0.00(3) 1_554 1_554
+B O2 Mn1 123.7(2) . .
+Ni1 O2 Mn1 91.48(16) 1_554 .
+Mn1 O2 Mn1 91.48(16) 1_554 .
+B O2 Mn3 119.6(4) . .
+Ni1 O2 Mn3 95.43(15) 1_554 .
+Mn1 O2 Mn3 95.43(15) 1_554 .
+Mn1 O2 Mn3 95.43(15) . .
+Mn1 O3 Mn3 99.15(17) . 1_556
+Mn1 O3 Mn3 99.15(17) . .
+Mn3 O3 Mn3 93.17(18) 1_556 .
+Mn1 O3 Mn4 98.24(16) . .
+Mn3 O3 Mn4 162.6(3) 1_556 .
+Mn3 O3 Mn4 84.35(4) . .
+Mn1 O3 Mn4 98.24(16) . 1_556
+Mn3 O3 Mn4 84.35(4) 1_556 1_556
+Mn3 O3 Mn4 162.6(3) . 1_556
+Mn4 O3 Mn4 92.87(18) . 1_556
+B O4 Mn4 122.0(4) 7_575 .
+B O4 Mn1 123.6(2) 7_575 .
+Mn4 O4 Mn1 94.51(15) . .
+B O4 Mn1 123.6(2) 7_575 1_554
+Mn4 O4 Mn1 94.51(15) . 1_554
+Mn1 O4 Mn1 90.20(17) . 1_554
+B O4 Ni1 123.6(2) 7_575 1_554
+Mn4 O4 Ni1 94.51(15) . 1_554
+Mn1 O4 Ni1 90.20(17) . 1_554
+Mn1 O4 Ni1 0.00(4) 1_554 1_554
+B O5 Mn2 122.6(2) . 1_554
+B O5 Mn2 122.6(2) . .
+Mn2 O5 Mn2 91.95(17) 1_554 .
+B O5 Mn3 126.4(4) . 3_554
+Mn2 O5 Mn3 91.96(14) 1_554 3_554
+Mn2 O5 Mn3 91.96(14) . 3_554
+O5 B O4 121.7(6) . 7_675
+O5 B O2 119.5(6) . .
+O4 B O2 118.9(5) 7_675 .
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Mn1 O1 1.939(4) .
+Mn1 O3 2.028(5) .
+Mn1 O2 2.095(3) .
+Mn1 O2 2.095(3) 1_556
+Mn1 O4 2.118(3) 1_556
+Mn1 O4 2.118(3) .
+Mn1 Ni1 3.0010(6) 1_556
+Mn1 Mn1 3.0010(6) 1_554
+Mn1 Mn1 3.0010(6) 1_556
+Mn1 Ni1 3.0010(6) 1_554
+Mn1 Mn4 3.0991(9) .
+Mn1 Mn4 3.0991(9) 1_556
+Mn2 O1 2.025(4) 5_575
+Mn2 O1 2.025(4) .
+Mn2 O5 2.087(3) .
+Mn2 O5 2.087(3) 5_574
+Mn2 O5 2.087(3) 1_556
+Mn2 O5 2.087(3) 5_575
+Mn2 Mn2 3.0010(6) 1_556
+Mn2 Mn2 3.0010(6) 1_554
+Mn2 Mn3 3.0236(8) 3
+Mn2 Mn3 3.0236(8) 7_575
+Mn2 Mn3 3.0236(8) 7_576
+Mn2 Mn3 3.0236(8) 3_554
+Mn3 O1 1.969(3) 7_675
+Mn3 O1 1.969(3) 7_674
+Mn3 O3 2.066(3) 1_554
+Mn3 O3 2.066(3) .
+Mn3 O2 2.118(4) .
+Mn3 O5 2.118(4) 3_544
+Mn3 Mn4 2.7774(9) .
+Mn3 Mn3 3.0010(6) 1_556
+Mn3 Mn3 3.0010(6) 1_554
+Mn3 Mn2 3.0236(8) 3_545
+Mn3 Mn2 3.0236(8) 3_544
+Mn3 Mn1 3.1165(10) 1_554
+Mn4 O3 2.071(3) 5_564
+Mn4 O3 2.071(3) 5_565
+Mn4 O3 2.071(3) 1_554
+Mn4 O3 2.071(3) .
+Mn4 O4 2.102(4) 5_564
+Mn4 O4 2.102(4) .
+Mn4 Mn3 2.7773(9) 5_564
+Mn4 Mn4 3.0010(6) 1_556
+Mn4 Mn4 3.0010(6) 1_554
+O1 Mn3 1.969(3) 7_575
+O1 Mn3 1.969(3) 7_576
+O2 B 1.399(8) .
+O2 Ni1 2.095(3) 1_554
+O2 Mn1 2.095(3) 1_554
+O3 Mn3 2.066(3) 1_556
+O3 Mn4 2.071(3) 1_556
+O4 B 1.381(9) 7_575
+O4 Mn1 2.118(3) 1_554
+O4 Ni1 2.118(3) 1_554
+O5 B 1.374(8) .
+O5 Mn2 2.087(3) 1_554
+O5 Mn3 2.118(4) 3_554
+B O4 1.381(9) 7_675

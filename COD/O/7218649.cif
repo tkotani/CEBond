@@ -1,0 +1,274 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-16 03:10:39 +0200 (Tue, 16 Feb 2016) $
+#$Revision: 176453 $
+#$URL: svn://www.crystallography.net/cod/cif/7/21/86/7218649.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7218649
+loop_
+_publ_author_name
+'Remy, Tom'
+'Gobechiya, Elena'
+'Danaci, David'
+'Peter, Sunil Adavanal'
+'xiao, penny'
+'Van Tendeloo, Leen'
+'Couck, Sarah'
+'Shang, Jin'
+'Kirschhock, Christine E. A.'
+'singh, ranjeet'
+'Martens, Johan'
+'Baron, Gino V.'
+'Webley, Paul'
+'Denayer, Joeri F. M.'
+_publ_section_title
+;
+ Biogas upgrading through kinetic separation of carbon dioxide and methane
+ over Rb- and Cs-ZK-5 zeolites
+;
+_journal_name_full               'RSC Adv.'
+_journal_paper_doi               10.1039/C4RA12460J
+_journal_year                    2014
+_chemical_formula_sum            'Al0.1 K0 O Rb0.1 Si0.4'
+_chemical_formula_weight         38.80
+_space_group_IT_number           229
+_symmetry_cell_setting           cubic
+_symmetry_space_group_name_Hall  '-I 4 2 3'
+_symmetry_space_group_name_H-M   'I m -3 m'
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            192
+_cell_length_a                   18.6329(10)
+_cell_length_b                   18.6329
+_cell_length_c                   18.6329
+_cell_volume                     6469.1(3)
+_computing_structure_refinement  GSAS
+_pd_phase_name                   Rb-ZK-5.exp
+_pd_proc_ls_prof_R_factor        0.0472
+_pd_proc_ls_prof_wR_factor       0.0599
+_refine_ls_goodness_of_fit_all   1.59
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     49
+_refine_ls_number_restraints     0
+_refine_ls_shift/su_max          0.08
+_refine_ls_shift/su_mean         0.01
+_cod_data_source_file            c4ra12460j2.cif
+_cod_data_source_block           Rb-ZK-5
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_geom_bond_publ_flag' value 'N' changed to 'n' according to
+/usr/data/users/saulius/crontab/automatic-downloads/rss-feeds/RSC/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 from 2011-04-26 (36
+times).
+
+'_geom_angle_publ_flag' value 'N' changed to 'n' according
+to
+/usr/data/users/saulius/crontab/automatic-downloads/rss-feeds/RSC/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 from 2011-04-26 (12
+times).
+
+Automatic conversion script
+Id: cif_fix_values 2827 2014-09-09 07:05:25Z andrius 
+;
+_cod_original_cell_volume        6469.1(10)
+_cod_original_formula_sum        'Al0.10 K0.00 O Rb0.10 Si0.40'
+_cod_database_code               7218649
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 +z,+x,+y
+3 +y,+z,+x
+4 +x,+y,-z
+5 -z,+x,+y
+6 +y,-z,+x
+7 -z,+x,-y
+8 -y,-z,+x
+9 +y,-z,-x
+10 -x,+y,-z
+11 -z,-x,+y
+12 +x,-y,-z
+13 +y,+x,+z
+14 +z,+y,+x
+15 +x,+z,+y
+16 +y,+x,-z
+17 -z,+y,+x
+18 +x,-z,+y
+19 -z,+y,-x
+20 -x,-z,+y
+21 +x,-z,-y
+22 -y,+x,-z
+23 -z,-y,+x
+24 +y,-x,-z
+-1 -x,-y,-z
+-2 -z,-x,-y
+-3 -y,-z,-x
+-4 -x,-y,+z
+-5 +z,-x,-y
+-6 -y,+z,-x
+-7 +z,-x,+y
+-8 +y,+z,-x
+-9 -y,+z,+x
+-10 +x,-y,+z
+-11 +z,+x,-y
+-12 -x,+y,+z
+-13 -y,-x,-z
+-14 -z,-y,-x
+-15 -x,-z,-y
+-16 -y,-x,+z
+-17 +z,-y,-x
+-18 -x,+z,-y
+-19 +z,-y,+x
+-20 +x,+z,-y
+-21 -x,+z,+y
+-22 +y,-x,+z
+-23 +z,+y,-x
+-24 -y,+x,+z
+101 +x+1/2,+y+1/2,+z+1/2
+102 +z+1/2,+x+1/2,+y+1/2
+103 +y+1/2,+z+1/2,+x+1/2
+104 +x+1/2,+y+1/2,-z+1/2
+105 -z+1/2,+x+1/2,+y+1/2
+106 +y+1/2,-z+1/2,+x+1/2
+107 -z+1/2,+x+1/2,-y+1/2
+108 -y+1/2,-z+1/2,+x+1/2
+109 +y+1/2,-z+1/2,-x+1/2
+110 -x+1/2,+y+1/2,-z+1/2
+111 -z+1/2,-x+1/2,+y+1/2
+112 +x+1/2,-y+1/2,-z+1/2
+113 +y+1/2,+x+1/2,+z+1/2
+114 +z+1/2,+y+1/2,+x+1/2
+115 +x+1/2,+z+1/2,+y+1/2
+116 +y+1/2,+x+1/2,-z+1/2
+117 -z+1/2,+y+1/2,+x+1/2
+118 +x+1/2,-z+1/2,+y+1/2
+119 -z+1/2,+y+1/2,-x+1/2
+120 -x+1/2,-z+1/2,+y+1/2
+121 +x+1/2,-z+1/2,-y+1/2
+122 -y+1/2,+x+1/2,-z+1/2
+123 -z+1/2,-y+1/2,+x+1/2
+124 +y+1/2,-x+1/2,-z+1/2
+-101 -x+1/2,-y+1/2,-z+1/2
+-102 -z+1/2,-x+1/2,-y+1/2
+-103 -y+1/2,-z+1/2,-x+1/2
+-104 -x+1/2,-y+1/2,+z+1/2
+-105 +z+1/2,-x+1/2,-y+1/2
+-106 -y+1/2,+z+1/2,-x+1/2
+-107 +z+1/2,-x+1/2,+y+1/2
+-108 +y+1/2,+z+1/2,-x+1/2
+-109 -y+1/2,+z+1/2,+x+1/2
+-110 +x+1/2,-y+1/2,+z+1/2
+-111 +z+1/2,+x+1/2,-y+1/2
+-112 -x+1/2,+y+1/2,+z+1/2
+-113 -y+1/2,-x+1/2,-z+1/2
+-114 -z+1/2,-y+1/2,-x+1/2
+-115 -x+1/2,-z+1/2,-y+1/2
+-116 -y+1/2,-x+1/2,+z+1/2
+-117 +z+1/2,-y+1/2,-x+1/2
+-118 -x+1/2,+z+1/2,-y+1/2
+-119 +z+1/2,-y+1/2,+x+1/2
+-120 +x+1/2,+z+1/2,-y+1/2
+-121 -x+1/2,+z+1/2,+y+1/2
+-122 +y+1/2,-x+1/2,+z+1/2
+-123 +z+1/2,+y+1/2,-x+1/2
+-124 -y+1/2,+x+1/2,+z+1/2
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+Rb Rb1 0.0 0.25 0.5 0.7442(26) Uiso 0.1077(16) 12
+Rb Rb2 0.0 0.0 0.33221(18) 0.7471(34) Uiso 0.1058(16) 12
+Si SI1 0.08294(9) 0.19992(10) 0.31787(10) 0.7917 Uiso 0.0228(6) 96
+Al AL1 0.08294(9) 0.19992(10) 0.31787(10) 0.2083 Uiso 0.0228(6) 96
+O O1 0.12624(18) 0.12624(18) 0.31408(30) 1.0 Uiso 0.0432(24) 48
+O O2 0.25458(18) 0.25458(18) 0.41262(29) 1.0 Uiso 0.0259(18) 48
+O O3 0.0 0.18336(28) 0.33414(29) 1.0 Uiso 0.0332(19) 48
+O O4 0.25 0.11143(18) 0.38857(18) 1.0 Uiso 0.0338(22) 48
+Rb Rb3 0.1304(5) 0.1304(5) 0.1304(5) 0.1098(26) Uiso 0.005(5) 16
+K K3 0.1462(27) 0.1462(27) 0.1462(27) 0.0375 Uiso 0.005(5) 16
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+Rb 19.651
+K 0.6
+Si 76.003
+Al 19.997
+O 192.0
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O1 SI1 O2 113.19(30) 1_555 -102_444 n
+O1 SI1 O3 109.28(25) 1_555 1_555 n
+O1 SI1 O4 110.44(26) 1_555 13_555 n
+O2 SI1 O3 108.16(30) -102_444 1_555 n
+O2 SI1 O4 110.36(22) -102_444 13_555 n
+O3 SI1 O4 105.07(26) 1_555 13_555 n
+O1 AL1 O2 113.19(30) 1_555 -102_444 n
+O1 AL1 O3 109.28(25) 1_555 1_555 n
+O1 AL1 O4 110.44(26) 1_555 13_555 n
+O2 AL1 O3 108.16(30) -102_444 1_555 n
+O2 AL1 O4 110.36(22) -102_444 13_555 n
+O3 AL1 O4 105.07(26) 1_555 13_555 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Rb1 O3 3.331(5) 1_555 n
+Rb1 O3 3.331(5) 4_556 n
+Rb1 O3 3.331(5) 123_555 n
+Rb1 O3 3.331(5) -117_344 n
+Rb1 O4 2.936(5) 13_555 n
+Rb1 O4 2.936(5) 16_556 n
+Rb1 O4 2.936(5) 22_556 n
+Rb1 O4 2.936(5) -24_555 n
+Rb2 O1 3.344(5) 1_555 n
+Rb2 O1 3.344(5) -4_555 n
+Rb2 O1 3.344(5) -10_555 n
+Rb2 O1 3.344(5) -12_555 n
+Rb2 O3 3.417(5) 1_555 n
+Rb2 O3 3.417(5) 13_555 n
+Rb2 O3 3.417(5) -4_555 n
+Rb2 O3 3.417(5) -16_555 n
+SI1 O1 1.5939(22) 1_555 n
+SI1 O2 1.5963(22) -102_444 n
+SI1 O3 1.6049(21) 1_555 n
+SI1 O4 1.6994(25) 13_555 n
+AL1 O1 1.5939(22) 1_555 n
+AL1 O2 1.5963(22) -102_444 n
+AL1 O3 1.6049(21) 1_555 n
+AL1 O4 1.6994(25) 13_555 n
+Rb3 O1 3.424(10) 1_555 n
+Rb3 O1 3.424(10) 2_555 n
+Rb3 O1 3.424(10) 3_555 n
+Rb3 O2 3.135(10) -101_444 n
+Rb3 O2 3.135(10) -102_444 n
+Rb3 O2 3.135(10) -103_444 n
+K3 O1 3.17(4) 1_555 n
+K3 O1 3.17(4) 2_555 n
+K3 O1 3.17(4) 3_555 n
+K3 O2 2.84(5) -101_444 n
+K3 O2 2.84(5) -102_444 n
+K3 O2 2.84(5) -103_444 n

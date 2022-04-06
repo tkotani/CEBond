@@ -1,0 +1,187 @@
+#------------------------------------------------------------------------------
+#$Date: 2019-12-26 21:30:36 +0200 (Thu, 26 Dec 2019) $
+#$Revision: 246113 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/02/18/2021889.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2021889
+loop_
+_publ_author_name
+'Volkov, Sergey'
+'Du\<sek, Michal'
+'Bubnova, Rimma'
+'Krzhizhanovskaya, Maria'
+'Ugolkov, Valery'
+'Obozova, Ekaterina'
+'Filatov, Stanislav'
+_publ_section_title
+;
+ Orientational order-disorder \g &#x2194; \b &#x2194; \a&#x2032; &#x2194;
+ \a phase transitions in Sr2B2O5 pyroborate and crystal structures of \b
+ and \a phases
+;
+_journal_coeditor_code           DQ5023
+_journal_issue                   6
+_journal_name_full
+'Acta Crystallographica Section B Structural Science, Crystal Engineering and Materials'
+_journal_page_first              1056
+_journal_paper_doi               10.1107/S2052520617012689
+_journal_volume                  73
+_journal_year                    2017
+_chemical_formula_sum            'B2 O5 Sr2'
+_chemical_formula_weight         276.9
+_space_group_IT_number           14
+_space_group_name_Hall           '-P 2ybc'
+_space_group_name_H-M_alt        'P 1 21/c 1'
+_symmetry_cell_setting           monoclinic
+_symmetry_Int_Tables_number      14
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 92.64(2)
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   7.763(2)
+_cell_length_b                   5.3386(10)
+_cell_length_c                   11.875(2)
+_cell_measurement_temperature    295
+_cell_volume                     491.62(18)
+_diffrn_ambient_temperature      295
+_diffrn_measured_fraction_theta_full 0.98
+_diffrn_measured_fraction_theta_max 0.88
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_source         'X-ray tube'
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.71069
+_diffrn_reflns_av_R_equivalents  0.0439
+_diffrn_reflns_av_unetI/netI     0.052
+_diffrn_reflns_limit_h_max       10
+_diffrn_reflns_limit_h_min       -10
+_diffrn_reflns_limit_k_max       6
+_diffrn_reflns_limit_k_min       -6
+_diffrn_reflns_limit_l_max       11
+_diffrn_reflns_limit_l_min       -15
+_diffrn_reflns_number            3450
+_diffrn_reflns_theta_full        27.82
+_diffrn_reflns_theta_max         29.59
+_diffrn_reflns_theta_min         3.43
+_exptl_absorpt_coefficient_mu    21.623
+_exptl_crystal_density_diffrn    3.7405
+_exptl_crystal_F_000             504
+_refine_diff_density_max         0.77
+_refine_diff_density_min         -1.03
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_gt    1.20
+_refine_ls_goodness_of_fit_ref   1.17
+_refine_ls_number_constraints    0
+_refine_ls_number_parameters     82
+_refine_ls_number_reflns         1214
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          0.0403
+_refine_ls_R_factor_gt           0.0314
+_refine_ls_shift/su_max          0.0094
+_refine_ls_shift/su_mean         0.0014
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     w=1/(\s^2^(F)+0.0001F^2^)
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_gt          0.0330
+_refine_ls_wR_factor_ref         0.0352
+_reflns_number_gt                1017
+_reflns_number_total             1214
+_reflns_threshold_expression     I>3\s(I)
+_cod_data_source_file            dq5023sup1.cif
+_cod_data_source_block           I
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+data item '_diffrn_radiation_probe' value 'X-ray' was changed to
+'x-ray' in accordance with the
+/home/saulius/struct/COD-crude-data/automatic-downloads/DataCite-retrospective/IUCr/depositions/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 last updated on
+2011-04-26.
+
+Automatic conversion script
+Id: cif_fix_values 7556 2019-12-06 15:28:31Z antanas 
+;
+_cod_original_sg_symbol_Hall     '-P 2ycb'
+_cod_database_code               2021889
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 -x,y+1/2,-z+1/2
+3 -x,-y,-z
+4 x,-y+1/2,z+1/2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_adp_type
+_atom_site_U_iso_or_equiv
+_atom_site_site_symmetry_multiplicity
+_atom_site_occupancy
+_atom_site_calc_flag
+Sr1 Sr 0.62327(6) 0.90996(8) 0.34035(4) Uani 0.00756(15) 4 1 d
+Sr2 Sr 0.11787(6) 0.95066(9) 0.36761(4) Uani 0.00801(15) 4 1 d
+O1 O 0.6437(5) 0.3478(7) 0.6483(3) Uani 0.0116(11) 4 1 d
+O2 O 0.0987(5) 0.4070(7) 0.6692(3) Uani 0.0125(12) 4 1 d
+O3 O 0.3928(5) 0.2876(7) 0.8593(3) Uani 0.0125(12) 4 1 d
+O4 O 0.8542(4) 0.2998(6) 0.9285(3) Uani 0.0097(11) 4 1 d
+O5 O 0.7462(5) 0.6012(6) 0.4932(3) Uani 0.0137(12) 4 1 d
+B1 B 0.6599(8) 0.5697(11) 0.5953(5) Uani 0.0081(17) 4 1 d
+B2 B 0.1611(8) 0.5489(11) 0.5841(5) Uani 0.0089(17) 4 1 d
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_type_symbol
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Sr1 Sr 0.0070(3) 0.0069(3) 0.0088(3) 0.00038(18) 0.00040(18) 0.00015(16)
+Sr2 Sr 0.0072(3) 0.0087(3) 0.0083(3) 0.00064(19) 0.00160(18) 0.00128(17)
+O1 O 0.012(2) 0.0101(19) 0.013(2) 0.0008(15) 0.0034(15) 0.0022(14)
+O2 O 0.015(2) 0.014(2) 0.009(2) -0.0023(16) 0.0028(15) 0.0013(14)
+O3 O 0.014(2) 0.009(2) 0.015(2) 0.0004(15) 0.0054(15) 0.0013(14)
+O4 O 0.0094(19) 0.0082(19) 0.0116(19) 0.0017(15) 0.0004(14) -0.0004(13)
+O5 O 0.020(2) 0.010(2) 0.011(2) 0.0050(16) 0.0075(16) 0.0025(14)
+B1 B 0.007(3) 0.011(3) 0.006(3) -0.001(2) -0.001(2) 0.002(2)
+B2 B 0.005(3) 0.013(3) 0.009(3) 0.000(2) 0.000(2) 0.000(2)
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+B 0.0013 0.0007 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+O 0.0106 0.0060 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+Sr -1.5307 3.2498 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+Sr1 O1 3_666 2.4966(9)
+Sr1 O1 4_564 2.6335(7)
+Sr1 O2 3_666 2.7491(10)
+Sr1 O3 3_666 2.5926(7)
+Sr1 O3 4_564 2.4284(8)
+Sr1 O4 4_564 2.5574(8)
+Sr1 O5 . 2.5999(7)
+Sr2 O1 3_666 2.4559(8)
+Sr2 O2 3_566 2.5678(8)
+Sr2 O2 4_564 2.4743(8)
+Sr2 O3 4_564 2.5569(10)
+Sr2 O4 2_656 2.5509(8)
+Sr2 O4 4_464 2.5742(9)
