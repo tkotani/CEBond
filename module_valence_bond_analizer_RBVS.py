@@ -85,7 +85,7 @@ def BVS_Analizer_R_2(cifname,R,site_list,lattice_a=None,lattice_b=None,lattice_c
         bvs_list=[]
         global cation
 
-        path_w='./{icif}_inp.dat'.format(icif=cifname)
+        path_w='{icif}_inp.dat'.format(icif=cifname)
         text=str(lattice_a)+str(lattice_b)+str(lattice_c)+"\n"+str(R)
         cation_dict={}
         sign_dict={}
@@ -122,22 +122,19 @@ def BVS_Analizer_R_2(cifname,R,site_list,lattice_a=None,lattice_b=None,lattice_c
         text=re.sub(r'\[|\]|\,',r' ',text)
         
         try:   
-                content = mt.text_input('./contena/VBA_dat/{icif}_out.dat'.format(icif=cifname))  ## cash out.dat exist
+                content = mt.text_input('./VBA_dat/{icif}_out.dat'.format(icif=cifname))  ## cash out.dat exist
                 print("chash exist")
 
         except:
-                # criate input file for fortran
-                with open(path_w, mode='w') as f:
-                        f.write(text)
-
-                #mt.text_output(text,path_w,"contena/VBA_dat")
-
-                print("Fortran start")
-                #subprocess.getoutput("./a.out")    #output nnout.dat   # neighbour2.F
-                subprocess.getoutput('echo {icif}|./a.out'.format(icif=cifname))
-                print("Fortran finish")
-
-                with open("./{icif}_out.dat".format(icif=cifname)) as f:
+                save_dirname="./VBA_dat"
+                try:os.mkdir(save_dirname)
+                except:pass
+                with open("./VBA_dat/"+path_w,mode='w') as f:
+                        f.write(text)                          
+                print("Fortran neib start")
+                subprocess.getoutput('echo ./VBA_dat/{icif}|./a.out'.format(icif=cifname))
+                print("Fortran neib finish")
+                with open("./VBA_dat/{icif}_out.dat".format(icif=cifname)) as f:
                         content=f.read()
 
         bvs_list=[0]*len(site_list)

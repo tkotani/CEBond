@@ -32,7 +32,7 @@ if anion_type == 'F':
         r=1.33
         #r=1.19
 
-lattice_oqupancy=0.74 
+lattice_oqupancy=0.740 
 
 #__________________________________________________________#
 
@@ -190,7 +190,7 @@ ax.set_xlim([xlim[0]/class_width,xlim[1]/class_width])
 plt.subplots_adjust(hspace=0.5)
 
 #os.chdir('/home/sawada/')
-plt.savefig('{f}_{M}.svg'.format(M=anion[0],f=__file__),bbox_inches="tight", pad_inches=0.0 ,format="svg")
+#plt.savefig('{f}_{M}.svg'.format(M=anion[0],f=__file__),bbox_inches="tight", pad_inches=0.0 ,format="svg")
 plt.savefig('{f}_{M}.png'.format(M=anion[0],f=__file__),bbox_inches="tight", pad_inches=0.0 ,format="png")
 print("finish save fig")
 

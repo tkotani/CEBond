@@ -43,7 +43,7 @@ def make_bondhist(figset_name,anion,average_analize):
                 xlim=[1.5,3.7]  #for alcari or alcari arth
 
         ### alcari erth set
-        if figset_name=="alkali_arth":
+        if figset_name=="alkali_earth":
                 alcari=True
                 cation_list=["Be","Mg","Ca","Sr","Ba"]
                 valence_cut_point=[]
@@ -92,8 +92,8 @@ def make_bondhist(figset_name,anion,average_analize):
         if figset_name=="valence":
                 alcari=False
                 
-                if os.path.exists('./contena/VBA_dat'):
-                        shutil.rmtree('./contena/VBA_dat')
+                if os.path.exists('./VBA_dat'):
+                         shutil.rmtree('./VBA_dat')
                 
                 cation_type = sys.argv[2]
                 if cation_type == "V":
@@ -245,17 +245,17 @@ def make_bondhist(figset_name,anion,average_analize):
         if anion=="O":
                 R_O=1.4         #eR for O  needed shannon arrow
                 #anion='O'
-                list_file="list_O_P-T"
+                list_file="list_O.dat"
         if anion=="N":
                 #anion='N'
                 #fit_valence=[]
                 R_O=1.46
-                list_file="list_N_P-T"
+                list_file="list_N.dat"
         if anion=="F":
                 #anion='F'
                 #fit_valence=[]
                 R_O=1.33 ## (R_F)
-                list_file="list_F_P-T"
+                list_file="list_F.dat"
 
         #import text saved chem data
         #with open(data) as l:
@@ -272,8 +272,10 @@ def make_bondhist(figset_name,anion,average_analize):
 
         ##Ver 3.0 input dat file
         import module_text_contena as mt
-        inport_list=mt.text_input(list_file).split("\n")
-        dir_list=[item.split(" ")[1] for item in inport_list if not item==""]
+        import_list= open(list_file,'r').read().split("\n")
+        #print(import_list)
+        dir_list=[item.split(" : ")[0] for item in import_list if not item==""]
+        #print(dir_list)
 
         if valencegraf==True:
                 vmax_distance=10
@@ -281,23 +283,28 @@ def make_bondhist(figset_name,anion,average_analize):
                 vcontena=[0]*int(vmax_distance/vclass_width)
 
         ### input skip list
-        skip_list1="./contena/errors/high_press_Mg_1.40<distance<1.42"
-        skip_list=mt.text_input(skip_list1)
+        #skip_list1="./contena/errors/high_press_Mg_1.40<distance<1.42"
+        #skip_list=mt.text_input(skip_list1)
 
         for cation in cation_list:
                 ### cif loop
                 for cif_path in dir_list:
                         print("\n\n")
-                        print('***************** cif ***************************')
+                        print('***************** cif ***************************',cif_path)
 
                         # input nb table
                         cif_num=cif_path.strip(".cif").split("/")[1]
+                        print(cif_num)
+                        
+                        # if cif_num in skip_list:
+                        #         print("skip",cif_num)
+                        #         continue
 
-                        if cif_num in skip_list:
-                                print("skip",cif_num)
-                                continue
-
-                        try:one_cif_data=mt.text_input("./contena/neib_tables/ntable_"+cif_num+".dat")              #input nbtable(dat) 
+                        fname= "./neighbour_"+anion+'/ntable_'+cif_num+".dat"
+                        print(fname)
+                        
+                        try:
+                                one_cif_data=open(fname,'r').read()
                         except:
                                 print("!!!none dat file")
                                 continue
@@ -350,12 +357,11 @@ def make_bondhist(figset_name,anion,average_analize):
                         have_fractional_site=None
                         for site in center_symbols:
                                 atoms=re.findall(r'[A-Z][a-z]*',site)
-                                #print("atoms",atoms)
-                                #print(len(atoms))
+                                #print("pppppppp  atoms",atoms,len(atoms))
                                 if len(atoms)>1.1:
                                        have_fractional_site=True
                         if have_fractional_site :
-                                print("!!!! fractional oqupancy site  !!!!")
+                                print("!!!! SkipCif with more than TwoSpecies at a cite !!!!")
                                 continue  ## skip this cif by have a fractional occupancy site   
                   
                         center_symbols=[re.match(r'[A-Z][a-z]*',atom).group() for atom in center_symbols]  ## ex) Fe2+1 >> Fe
@@ -391,19 +397,20 @@ def make_bondhist(figset_name,anion,average_analize):
                                         site_list.append(site)
                                         fcoord_list.append(coord)
 
-                                try:   
-                                        content = mt.text_input('./contena/VBA_dat/{icif}_out.dat'.format(icif=cifname))  ## cash out.dat exist
-                                        content=None  #reset 
-                                        print("chash exist  skip trance analize")
+                                try:
+                                        fname= './VBA_dat/{icif}_out.dat'.format(icif=cifname)
+                                        content = open(fname,'r') #.read().split("\n")
+                                        #content=None  #reset 
+                                        print("cash exist.  skip trance analize")
                                         valence_list=vba.BVS_Analizer_R_2(cifname,R,site_list)
                                 except:
                                         #trance lattice vectol
-                                        print("chash none")
+                                        print("cash none")
                                         print("start lattice vector")
                                         a,b,c=vba.trance_coordination_f_to_cartesian(abc[0],abc[1],abc[2],angles[0],angles[1],angles[2])
                                         print("finish lattice vector")
 
-                                        #trance fcoods to cartegian coords
+                                        #trance fcoods to cartesian coords
                                         print("start trance coords")
                                         coord_list=[]
                                         for fcoord in fcoord_list:
@@ -722,12 +729,13 @@ def make_bondhist(figset_name,anion,average_analize):
                                 #print(vcontena[gm.distanse_divider(cation_valence_list[0],vclass_width)])
                                 for i in range(len(cation_valence_list)):
                                         if cation_valence_list[i]>10:
-                                                mt.text_output("error unexpected valence"+str(cation_valence_list),cifname,"contena/errors")
+                                                print("error unexpected valence"+str(cation_valence_list),cifname)
                                                 break
                                         vcontena[gm.distanse_divider(cation_valence_list[i],vclass_width)]  +=1/len(cation_valence_list)
                                         #except :
                                         #        print("!!!range error val=",cation_valence_list[i],gm.distanse_divider(cation_valence_list[i],class_width),max_distance/class_width)
-                                        #        continue                
+                                        #        continue
+                #sys.exit()
                                    
 
         """
@@ -737,21 +745,21 @@ def make_bondhist(figset_name,anion,average_analize):
         mt.text_output(high_press_check,"high_press_Mg_1.40<distance<1.42","contena/errors")
         """
 
-        mt.text_output(analized_list,'{f}_{M}_vcut={c}_bond={anion}_average={ave}_limsite{l}_Analized_list'.format(f=__file__,M=cation_list,c=valence_cut_point,O=nb_only_O,b=cn7_base,l=limit_site,anion=anion,ave=average_analize),"./")
+#        mt.text_output(analized_list,'{f}_{M}_vcut={c}_bond={anion}_average={ave}_limsite{l}_Analized_list'.format(f=__file__,M=cation_list,c=valence_cut_point,O=nb_only_O,b=cn7_base,l=limit_site,anion=anion,ave=average_analize),"./")
 
 
-        ### when cn>7 marge ce list
-        more7marge=True
-        if more7marge:
+        ### when cn>7 merge ce list
+        more7merge=True
+        if more7merge:
                 print()
-                print('marge')
+                print('merge')
                 _contena={}
                 for key in contena.keys():
                         _contena[key]={}
                         for ce in contena[key].keys():
                                 cn=int(ce.split(":")[1])
                                 if cn>=7:
-                                        print(cn)
+                                        #print(cn)
                                         if not str(cn) in _contena[key].keys(): 
                                                 _contena[key][str(cn)]=contena[key][ce]
                                         else :
@@ -762,7 +770,7 @@ def make_bondhist(figset_name,anion,average_analize):
                 #print(_contena['Ba2+'].keys())
                 contena=dict(_contena)
                 print()
-        print("\nnew contena cn>7 ce data marge to cn label =\n",contena)
+        #print("\nnew contena cn>7 ce data merge to cn label =\n",contena)
 
         ######################################################## Graph #####################################################################
         #axlist.append(plt.subplot(len(atomlist),1,atom_number+1)) 
@@ -791,11 +799,11 @@ def make_bondhist(figset_name,anion,average_analize):
         newLabels, newHandles = [], []
 
         val_keys=[val for val in contena.keys()]
-        print("val key=",val_keys)
+        #print("val key=",val_keys)
         if valence_cut_point:
                 #val_keys=gm.sort_ce(val_keys)
                 val_keys=sorted(val_keys)
-        print("val key=",val_keys)
+        #print("val key=",val_keys)
 
 
         total_cif_count=0
@@ -818,12 +826,12 @@ def make_bondhist(figset_name,anion,average_analize):
                                         label.append(key)
                                 if key==str(cn) :
                                         label.append(key)
-                print("label= ",label)
+                #print("label= ",label)
                 label=gm.sort_ce(label)
 
                 #color_set
                 color=[gm.sym_to_color(c,cn7_base) for c in label]
-                print(color)
+                #print(color)
 
                 ### set graf ###
                 #fig = plt.figure(figsize=(15,10))
@@ -843,7 +851,7 @@ def make_bondhist(figset_name,anion,average_analize):
                                         #plt.bar(ind,contena[cation][lab],color=color[i], label=label[i],bottom=bottom,width=1,align='edge' ,edgecolor=(0.25,0.25,0.25),log=False,linewidth=0.8)   #create bar graf
                                         plt.bar(ind,contena[cation][lab],color=color[i], label=label[i],bottom=bottom,width=1,align='edge' ,edgecolor=(0.,0.,0.),log=False,linewidth=1)   #create bar graf
                                         #plt.bar(ind,contena[cation][lab],color=color[i], label=label[i],bottom=bottom,width=1,align='edge' ,edgecolor=gm.inversion(color[i])  ,log=False,linewidth=1)   #create bar graf
-                                else :        #marge file label ex "4"
+                                else :        #merge file label ex "4"
                                         plt.bar(ind,contena[cation][lab],color=color[i], label=label[i],bottom=bottom,width=1,align='edge' ,edgecolor=(0,0,0),log=False,linewidth=0.8,hatch="//")   #create bar graf
                                         #plt.bar(ind,contena[cation][lab],color=color[i], label=label[i],bottom=bottom,width=1,align='edge' ,edgecolor=gm.inversion(color[i]) ,log=False,linewidth=0.8,hatch="xxx")   #create bar graf
 
@@ -1111,21 +1119,21 @@ def make_bondhist(figset_name,anion,average_analize):
         ###save figure
 
         #create directory for save fig
-        save_dirname="./figures"
-        try:os.mkdir(save_dirname)
-        except:pass
+        #save_dirname="./figures"
+        #try:os.mkdir(save_dirname)
+        #except:pass
 
-        save_dirname+=("/"+__file__)
-        try:os.mkdir(save_dirname)
-        except:pass 
+        #save_dirname+=("/"+__file__)
+        #try:os.mkdir(save_dirname)
+        #except:pass 
 
-        save_dirname+=("/"+anion)
-        try:os.mkdir(save_dirname)
-        except:pass       
+        #save_dirname+=("/"+anion)
+        #try:os.mkdir(save_dirname)
+        #except:pass       
 
-        save_dirname+=("/"+"average={a}".format(a=average_analize))
-        try:os.mkdir(save_dirname)
-        except:pass
+        #save_dirname+=("/"+"average={a}".format(a=average_analize))
+        #try:os.mkdir(save_dirname)
+        #except:pass
         
         #plt.savefig('hist_dist_ce_val_{M}.png'.format(M=cation),bbox_inches="tight", pad_inches=0.0 ,format="png")
         #plt.savefig('hist_dist_ce_2.6_{M}_nbO={O}_cn7color={b}.svg'.format(M=cation_list,c=valence_cut_point,O=nb_only_O,b=cn7_base), pad_inches=1.0 ,format="svg")
@@ -1137,19 +1145,20 @@ def make_bondhist(figset_name,anion,average_analize):
         #plt.savefig('{f}_{M}_vcut={c}_bond={anion}_average={ave}_limsite{l}.svg'.format(f=__file__,M=cation_list,c=valence_cut_point,O=nb_only_O,b=cn7_base,l=limit_site,anion=anion,ave=average_analize), pad_inches=1.0 ,format="svg")
         #plt.savefig('{f}_{M}_vcut={c}_bond={anion}_average={ave}_limsite{l}.png'.format(f=__file__,M=cation_list,c=valence_cut_point,O=nb_only_O,b=cn7_base,l=limit_site,anion=anion,ave=average_analize), pad_inches=1.0 ,format="png")
         
-        fig_name='{M}_vcut={c}_limsite{l}_{set}'.format(M=cation_list,c=valence_cut_point,l=limit_site,set=figset_name)
-        plt.savefig(save_dirname+"/"+fig_name+".png", pad_inches=1.0,format="png")
+        fig_name='{A}_{set}'.format(set=figset_name,A=anion)
+#        fig_name='{M}_vcut={c}_limsite{l}_{set}'.format(M=cation_list,c=valence_cut_point,l=limit_site,set=figset_name)
+        plt.savefig("./"+fig_name+".png", pad_inches=1.0,format="png")
         print("save image")
 
         ###remove dat file
         if True:
                 import module_remover as mr
-                mr.remove(r'\d+_out\.dat','./contena/VBA_dat')
-                mr.remove(r'\d+_inp\.dat','./contena/VBA_dat')
+                mr.remove(r'\d+_out\.dat','./VBA_dat')
+                mr.remove(r'\d+_inp\.dat','./VBA_dat')
                 print("finish remove")
 
         # create valence graf
-        if valencegraf and vcontena:
+        if valencegraf and vcontena and len(sys.argv) != 2:
                 import module_valencegraf as mvg
                 mvg.vhist(vcontena,re.split(r'\d',cation)[0],int(total_cif_count),valence_cut_point)      
                 print("save valence hist")  
@@ -1167,14 +1176,14 @@ def make_bondhist(figset_name,anion,average_analize):
 anion_type = sys.argv[1]
 anion_list=[anion_type]
 #anion_list=["O","N","F"]
-#figset_list=["alkali","alkali_arth","3d_1","3d_2","4d_1","4d_2"]
+#figset_list=["alkali","alkali_earth","3d_1","3d_2","4d_1","4d_2"]
 #figset_list=["4d_2"]
 #figset_list=["abst"]
 #figset_list=["valence"]
-#figset_list=["alkali","alkali_arth","3d_1","3d_2","4d_1","4d_2","valence"]
+#figset_list=["alkali","alkali_earth","3d_1","3d_2","4d_1","4d_2","valence"]
 
 if len(sys.argv) == 2:
-	figset_list=["alkali","alkali_arth","3d_1","3d_2","4d_1","4d_2"]
+	figset_list=["alkali","alkali_earth","3d_1","3d_2","4d_1","4d_2"]
 else:
 	figset_list=["valence"]
 

@@ -32,16 +32,19 @@ def check_search_anion(ciffilelist): #,search_anion,eliminate_anion_list):
                         continue
                 
                 skip=False
+                print('<-------- comp ---------',i)
                 for j in composition:
+                        atoms=re.findall(r'[A-Z][a-z]*',str(j))
                         occu = float(re.split(r'([a-zA-Z+-]+)',str(j))[-1]) #get last number 
-                        #print(j,occu)
-                        if( occu<0.9 and occu>0.1):
+                        print(j,occu,len(atoms))
+                        if( len(atoms)>1 or occu<0.9): #no two species at a site. site occ >0.9
                                 #print(composition)
-                                print("        skip non-stoichiometic ",cifname+'.cif')
+                                print("        skip occupancy condition ",cifname+'.cif')
                                 skip=True
                                 break
+                print('------------------------>')
                 if skip: continue
-                print(i)
+                #print(composition)
                 total_ciffile.append("{} : {}".format(str(i),str(structure.formula)))
         return total_ciffile
 

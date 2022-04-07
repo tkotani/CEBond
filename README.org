@@ -6,34 +6,39 @@
 #+STARTUP: showall
 #+OPTIONS: \n:t
 
+This software is open and free as long as you respect what we did in your own manner.
+This is for our paper xxx.
+
+
 * Get sets of cif files and Histogram of ionic radius (Fig.1)
 
 We have to run following commands step by step.
 All results and intermediate files 
 (*.dat *.png *.svg *.log COD/*/*  neighbour_*/*) 
 are included in the package. 
-*.log are just log files (not read by other obs).
+*.log are just log files (not read by other commands).
 
-We can reproduce all things just by bash scripts
+We can reproduce all things just by execute bash scripts
 job* files successively in the following manner.
-Time consuming part can be skipped because intermediate files 
+We can skip any parts because intermediate files 
 are already in this package.
 
 
-** prerequisite ===================================
-We need python3, matplotlib, numpy, bash, gfortran, pymatgen.
-sudo apt-get install pip3
-xxx sudo apt-get install gfortran
+** Prerequisite ===================================
+We need python3, matplotlib, numpy, seaborn, bash, mysql(job_download), 
+gfortran, and pymatgen.
 
-
-We have to compile a fortran code
+gfortran is just for compiling a fortran code as
 >gfortran neib.F
- a.out is generated. 
- This is for generating neighbour table used for the bond valence sum procedure for Fig.5
+Then a.out is generated. This is used for generating neighbour table 
+for the bond valence sum procedure at ./job_hist.
+a.out included in this package may work; then it is not nessesary to run gfortran
+(If '>echo aaa|a.out' shows 'aaa_inp.dat: no such file', it works.)
 
 
 ** Download cif files from COD =============================
 >./job_download
+Look into job_download.
 This bash script downloads cif files from Crystal Open database(COD).
 In this script, pickup-COD-structures_O.sql is used for SQL query to COD.
 Results of this query is in ListDownloadCif_O.dat, N and F as well,
@@ -48,51 +53,73 @@ at ./COD/O/*.cif. At 2022-03-25, the number of downloaded files are
 These are at COD/O/*.cif, COD/F/*.cif, and COD/N/*cif.
 These are the line numbers of ListDownloadCif_O.dat and so on.
 
+pickup-COD-structures_*.sql are for getting lists of cifs
+satisfing conditions in our paper.
+We futher filter the lists in the following CifFilter.
+
 
 ** CifFilter =============================
 >./job_CifFilter
-This performs 'CifFilter.py O' and so on.
+Look into job_CifFilter; this performs 'CifFilter.py O', ...
 Then we get a list of cif files, list_O.dat, list_F.dat, and list_N.dat,
 whose number of lines show the number of selected files.
-The CifFilter.py takes cif files satisfying
- 1. Structure is recognized by pymatgen (pymatgen.Structure.from_file do not show error).
- 2. Site occupancy is almost stoichiometric 
-    ( occupancy is less than 10 percent or more than 90 percent). 
-　  We read occupancy via pymatgen.Structure.species_and_occu.
- 3. Not in skiplist.py 
-    This is mainly to avoid errors during chemenv_analysis.py afterwards. See skiplist.py. 
+The CifFilter.py throw away following cif files
+1. Pymatgen error 
+   Structure is recognized by pymatgen (pymatgen.Structure.from_file do not show error).
+2. Occupancy check
+   Each site is occipied by only one species. Occupancy is more than 90 percent.
+   We read occupancy via pymatgen.Structure.species_and_occu.
+3. skiplist.py 
+   This is to time-consuming and strange files. Little number of files.
 
 The number of cif files reduced by the CifFilter as
-|   | ListDownloadCif_* | list_* |
-|---+-------------------+--------|
-| N |               674 |    497 |
-| F |              1415 |   1085 |
-| O |             16131 |   8120 |
+|   | ListDownloadCif_* | Pymatgen error | occupancy check | skiplist | list_* |
+|---+-------------------+----------------+-----------------+----------+--------|
+| N |               674 |             12 |             187 |        0 |    475 |
+| F |              1415 |             19 |             318 |        0 |   1078 |
+| O |             16131 |            610 |            8526 |        3 |   6992 |
 
 log files are in CifFilter*.log
+We can check numbers easily, e.g.,by 'grep skiplist CifFilter_N.log|wc'.
 
 
 ** Generate AnionPacking figure, Fig.1  =============================
 >./job_APfig
-  This calls anion_radius_histogram.py O
-  and so on to generate anion-packing figure, Fig.1.
+  This performs anion_radius_histogram.py O,...
+  to generate anion-packing figure, Fig.1.
   We will have *.png and *.svg (just the difference of format).
-We can use viewer such as eog.
+  We can use viewer such as eog.
 
 
 ** Chemenv analysis  =============================
 >./job_chemenv_analysis
  This performs ./chemenv_analysis.py N (as well as F and O) successively. 
  Data files are stored into neighbour_*/.
- This step is time-consuming. It takes ~30 hours in our laptop.
+ This step is time-consuming. 
+ It takes ~80 min for N, ~6 hours for F, ~30 hours for O in our laptop.
+ (thus it is better to perform N only first).
 
-If Chemenv cause error, we have sign such as 'error lgf.setup_structure(structure)'
-in the console output (ChemO.log and so on during job_chemenv_analysis).
+To do from scratch, remove chem*.log and neghbour_*. 
+(inputs are COD/*/*.cif and list*.dat).
+When Chemenv cause error, we have sign such as 'error lgf.setup_structure(structure)'
+in the console output (grep error chem*.log).
 Since we have removed error files in skiplist.py in advance, we see no error.
 
+|   | list_* | Chemenv error | total number of files for |
+|   |        |               | bondlength historgam      |
+|---+--------+---------------+---------------------------|
+| N |    475 |             1 | 474                       |
+| F |   1085 |               |                           |
+| O |   8120 |               |                           |
 
-** Create BondLengthHistogram for Fig.2,3,4,5  =============================
+Among this total number, we generate following Bond Length histograms.
+xxx
+
+** Create BondLength Histogram for Fig.2,3,4,5  =============================
 >./job_hist
  This performs 'bondlength_histogram.py N' and so on.
  PNG files for Fig2-Fig.5 are created.
  ~ 10minutes per one png file.
+
+PNG files for fig.5 is a little different from others.
+We perform it as "./bondlength_histogram.py O Fe".

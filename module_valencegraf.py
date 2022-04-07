@@ -69,13 +69,13 @@ def vhist(contena,cation,cif_count,valence_cut_point=None):
         #plt.subplots_adjust(hspace=0.5)
 
         #create directory for save fig
-        save_dirname="./figures"
-        try:os.mkdir(save_dirname)
-        except:pass
-        save_dirname+=("/valence_hist")
-        try:os.mkdir(save_dirname)
-        except:pass 
+        #save_dirname="./figures"
+        #try:os.mkdir(save_dirname)
+        #except:pass
+        #save_dirname+=("/valence_hist")
+        #try:os.mkdir(save_dirname)
+        #except:pass 
         
         fig_name='{M}_vcut={c}'.format(M=cation,c=valence_cut_point)
-        plt.savefig(save_dirname+"/"+fig_name+".png", pad_inches=1,format="png")
+        plt.savefig("./"+fig_name+".png", pad_inches=1,format="png")
         print("save image")

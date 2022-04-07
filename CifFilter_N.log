@@ -60,7 +60,7 @@
 ./1008956.cif
         skip non-stoichiometic  1008957.cif
 ./1008958.cif
-./1008959.cif
+        skip in skiplist.py  1008959.cif
         skip non-stoichiometic  1009020.cif
         skip non-stoichiometic  1009021.cif
 ./1009040.cif
@@ -358,9 +358,7 @@
 ./1537955.cif
 ./1537957.cif
 ./1537959.cif
-        skip non-stoichiometic  1537961.cif
-./1537963.cif
-/home/takao/.local/lib/python3.8/site-packages/pymatgen/io/cif.py:1118: UserWarning: Issues encountered while parsing CIF: Some fractional co-ordinates rounded to ideal values to avoid issues with finite precision.
+        skip non-stoichiometic  /home/takao/.local/lib/python3.8/site-packages/pymatgen/io/cif.py:1118: UserWarning: Issues encountered while parsing CIF: Some fractional co-ordinates rounded to ideal values to avoid issues with finite precision.
   warnings.warn("Issues encountered while parsing CIF: %s" % "\n".join(self.warnings))
 /home/takao/.local/lib/python3.8/site-packages/pymatgen/io/cif.py:713: UserWarning: No _symmetry_equiv_pos_as_xyz type key found. Spacegroup from _symmetry_space_group_name_H-M used.
   warnings.warn(msg)
@@ -451,6 +449,8 @@ SR parsed as Sr
 SR parsed as Sr
 FE parsed as Fe
   warnings.warn("Issues encountered while parsing CIF: %s" % "\n".join(self.warnings))
+1537961.cif
+./1537963.cif
 ./1538016.cif
         skip non-stoichiometic  1538053.cif
 ./1538055.cif
