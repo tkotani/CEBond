@@ -89,8 +89,10 @@ The number of cif files reduced by the CifFilter as
 | F |              1415 |                 19 |             318 |        0 |   1078 |
 | O |             16131 |                610 |            8526 |        3 |   6992 |
 
-log files are in CifFilter*.log
-We can check numbers easily, e.g.,by 'grep skiplist CifFilter_N.log|wc'.
+log files are in CifFilter*.log. We can check numbers easily, as 
+>grep 'error pymatgen.Structure' CifFilter_O.log |wc   ==>610
+>grep skiplist CifFilter_O.log |wc   ==>3
+>grep 'skip occupancy' CifFilter_O.log |wc   ==>8526
 
 
 ** Generate AnionPacking figure, Fig.1  =============================
@@ -122,7 +124,7 @@ in the console output (grep error chem*.log).
 | O |   6992 |            27 |                      6965 |
 
 For these total number of files, we generate BondLength histograms.
-We can check Chemenv error by 'grep error chemO*.lot'
+We can check Chemenv error by 'grep error chemO*.log'
 
 ** Create BondLength Histogram for Fig.2,3,4  =============================
 >./job_histA
