@@ -1,0 +1,15 @@
+#!/bin/bash
+date
+
+./bondlength_histogram.py N >& histA_N
+echo PNG file for N generated
+date 
+
+./bondlength_histogram.py F >& histA_F
+echo PNG file for F generated
+date
+
+./bondlength_histogram.py O>& histA_O
+echo PNG file for O generated
+date
+

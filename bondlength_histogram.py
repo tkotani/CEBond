@@ -291,15 +291,12 @@ def make_bondhist(figset_name,anion,average_analize):
                 for cif_path in dir_list:
                         print("\n\n")
                         print('***************** cif ***************************',cif_path)
-
                         # input nb table
                         cif_num=cif_path.strip(".cif").split("/")[1]
                         print(cif_num)
-                        
                         # if cif_num in skip_list:
                         #         print("skip",cif_num)
                         #         continue
-
                         fname= "./neighbour_"+anion+'/ntable_'+cif_num+".dat"
                         print(fname)
                         
@@ -318,40 +315,29 @@ def make_bondhist(figset_name,anion,average_analize):
                         cif_weight=0
                         _cif_weight=0
                         high_press_switch=False
-
                         struct_data=one_cif_data.split("*** lse ***")[0]
                         lse_data   =one_cif_data.split("*** lse ***")[1]
                         cifname=keycut(one_cif_data,"cif name=")
                         print(cifname)
                         cifname=re.search(r'\d{7}',cifname).group()
-                        
                         valence_list=[]
                         center_symbols=[]
                         center_points=[]
-
                         #in advance make center data list       >>>center_symbols , center_points
                         for site_data in lse_data.split('\n\n\n'):  
                                 if site_data=='': continue  
                                 center_data=site_data.split("\n\n")[0].split("\n")[1]
-                                
                                 if center_data=='' :continue
-
                                 center_symbol=center_data.split(":")[0]
                                 center_point =center_data.split(":")[1]
-                                
                                 center_point =[float(point) for point in center_point.strip().strip("[").strip("]").split()]
-
                                 center_symbols.append(center_symbol)
                                 center_points.append(center_point)
-
-
-
                         #### !!!! test limit a number of site
                         if limit_site:
                                 if len(center_symbols)>limit_site:
                                         print("!!! nam site>{l}".format(l=limit_site))
                                         continue
-
                         ### check fractional oqupancy site
                         #print("<check fractional oqupancy site>")
                         have_fractional_site=None
@@ -363,19 +349,17 @@ def make_bondhist(figset_name,anion,average_analize):
                         if have_fractional_site :
                                 print("!!!! SkipCif with more than TwoSpecies at a cite !!!!")
                                 continue  ## skip this cif by have a fractional occupancy site   
-                  
                         center_symbols=[re.match(r'[A-Z][a-z]*',atom).group() for atom in center_symbols]  ## ex) Fe2+1 >> Fe
-
                         n_cation=0  # a number of analized cation 
                         for atom in center_symbols:
                                 if re.match(r'[A-Z][a-z]*',atom).group() == cation:
                                         n_cation+=1
-                        print('n_cation= ',n_cation)
-
                         # search cation
                         if n_cation==0:
-                                print("! no cation",cation )
+                                print("! no cation=",cation )
                                 continue       
+                        else:
+                                print('n_cation of cation: ',cation, n_cation)
 
                         ### valence block ###
                         if valence_cut_point:
@@ -1146,6 +1130,7 @@ def make_bondhist(figset_name,anion,average_analize):
         #plt.savefig('{f}_{M}_vcut={c}_bond={anion}_average={ave}_limsite{l}.png'.format(f=__file__,M=cation_list,c=valence_cut_point,O=nb_only_O,b=cn7_base,l=limit_site,anion=anion,ave=average_analize), pad_inches=1.0 ,format="png")
         
         fig_name='{A}_{set}'.format(set=figset_name,A=anion)
+        if figset_name=="valence": fig_name='{A}_{C}_{set}'.format(C=cation_type,set=figset_name,A=anion)
 #        fig_name='{M}_vcut={c}_limsite{l}_{set}'.format(M=cation_list,c=valence_cut_point,l=limit_site,set=figset_name)
         plt.savefig("./"+fig_name+".png", pad_inches=1.0,format="png")
         print("save image")

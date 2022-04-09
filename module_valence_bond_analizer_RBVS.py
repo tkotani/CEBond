@@ -1,6 +1,7 @@
+# Core part of BVS is from Prof.M.Kanzaki, Institute for Planetary Materials, Okayama University 
 import math ,re ,sys,subprocess
 import numpy as np
-import module_text_contena as mt
+#import module_text_contena as mt
 import os
 
 ###############################method1#########################################
@@ -80,7 +81,7 @@ def vb_analizer_distance_withinR(a,b,c,p12,R,cation,sign):
 
 ##### Ver.2 ##############################################################
 #    to fast
-import module_text_contena as mt 
+#import module_text_contena as mt 
 def BVS_Analizer_R_2(cifname,R,site_list,lattice_a=None,lattice_b=None,lattice_c=None,coord_list=None):
         bvs_list=[]
         global cation
@@ -122,8 +123,9 @@ def BVS_Analizer_R_2(cifname,R,site_list,lattice_a=None,lattice_b=None,lattice_c
         text=re.sub(r'\[|\]|\,',r' ',text)
         
         try:   
-                content = mt.text_input('./VBA_dat/{icif}_out.dat'.format(icif=cifname))  ## cash out.dat exist
-                print("chash exist")
+                with open("./VBA_dat/{icif}_out.dat".format(icif=cifname)) as f:
+                        content=f.read()
+                print("cash exist")
 
         except:
                 save_dirname="./VBA_dat"
@@ -132,7 +134,7 @@ def BVS_Analizer_R_2(cifname,R,site_list,lattice_a=None,lattice_b=None,lattice_c
                 with open("./VBA_dat/"+path_w,mode='w') as f:
                         f.write(text)                          
                 print("Fortran neib start")
-                subprocess.getoutput('echo ./VBA_dat/{icif}|./a.out'.format(icif=cifname))
+                subprocess.getoutput('cd ./VBA_dat; echo {icif}|../a.out; cd ..'.format(icif=cifname))
                 print("Fortran neib finish")
                 with open("./VBA_dat/{icif}_out.dat".format(icif=cifname)) as f:
                         content=f.read()
@@ -256,7 +258,7 @@ def vb_analize_from_site(center_symbol,center_position,neigbor_symbols,neighbor_
 
 
 ####################################paramater##################################
-def take_vbparamater(site_symbol):
+def take_vbparamater(site_symbol): 
         #print("<take_vb for site>")
         #print(site_symbol)
         #symbol=re.sub(r'\d',r'',site_symbol).strip()

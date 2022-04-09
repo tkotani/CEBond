@@ -1,0 +1,81 @@
+cif name= ./9013413.cif
+./9013413.cif
+Full Formula (Ba2 O4)
+Reduced Formula: BaO2
+abc   :   3.811400   3.811400   6.821500
+angles:  90.000000  90.000000  90.000000
+Sites (6)
+  #  SP      a    b      c
+---  ----  ---  ---  -----
+  0  Ba    0    0    0
+  1  Ba    0.5  0.5  0.5
+  2  O     0.5  0.5  0.109
+  3  O     0    0    0.391
+  4  O     0    0    0.609
+  5  O     0.5  0.5  0.891
+
+space_group_IT_number 139
+
+*** lse ***
+
+
+**isite= 0
+Ba1 : [0. 0. 0.]
+
+ce_symbol  = L:2
+ce_fraction=  1.0
+species:coords:index
+O1 : [ 0.         0.        -2.6672065] : 4
+O1 : [0.        0.        2.6672065] : 3
+
+
+**isite= 1
+Ba1 : [1.9057  1.9057  3.41075]
+
+ce_symbol  = L:2
+ce_fraction=  1.0
+species:coords:index
+O1 : [1.9057    1.9057    0.7435435] : 2
+O1 : [1.9057    1.9057    6.0779565] : 5
+
+
+**isite= 2
+O1 : [1.9057    1.9057    0.7435435]
+
+ce_symbol  = S:1
+ce_fraction=  1.0
+species:coords:index
+O1 : [ 1.9057     1.9057    -0.7435435] : 5
+!!!atention to nb coordination!!!
+         [1.4870869999999994]
+         [1.4870869999999996]
+
+
+**isite= 3
+O1 : [0.        0.        2.6672065]
+
+ce_symbol  = S:1
+ce_fraction=  1.0
+species:coords:index
+O1 : [0.        0.        4.1542935] : 4
+
+
+**isite= 4
+O1 : [0.        0.        4.1542935]
+
+ce_symbol  = S:1
+ce_fraction=  1.0
+species:coords:index
+O1 : [0.        0.        2.6672065] : 3
+
+
+**isite= 5
+O1 : [1.9057    1.9057    6.0779565]
+
+ce_symbol  = S:1
+ce_fraction=  1.0
+species:coords:index
+O1 : [1.9057    1.9057    7.5650435] : 2
+
+END
+

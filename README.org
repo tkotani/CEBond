@@ -26,18 +26,27 @@ are already in this package.
 
 ** Prerequisite ===================================
 We need python3, matplotlib, numpy, seaborn, bash, mysql(job_download), 
-gfortran, and pymatgen.
+gfortran, and pymatgen. Our current setting ('>pip list','>apt list --installed') is
+----------------------------------
+matplotlib             3.1.2               
+numpy                  1.17.4              
+pymatgen               2020.1.28           
+seaborn                0.10.0              
+gfortran/focal,now 4:9.3.0-1ubuntu2 amd64
+mysql-common/focal,focal,now 5.8+1.0.5ubuntu2
+---------------------------------
 
 gfortran is just for compiling a fortran code as
 >gfortran neib.F
 Then a.out is generated. This is used for generating neighbour table 
 for the bond valence sum procedure at ./job_hist.
 a.out included in this package may work; then it is not nessesary to run gfortran
-(If '>echo aaa|a.out' shows 'aaa_inp.dat: no such file', it works.)
+(If '>echo aaa|./a.out' shows "aaa_inp.dat: no such file", it works.)
 
 
 ** Download cif files from COD =============================
 >./job_download
+(This step can be skipped since we already have cif files in COD/*/*)
 Look into job_download.
 This bash script downloads cif files from Crystal Open database(COD).
 In this script, pickup-COD-structures_O.sql is used for SQL query to COD.
@@ -64,20 +73,21 @@ Look into job_CifFilter; this performs 'CifFilter.py O', ...
 Then we get a list of cif files, list_O.dat, list_F.dat, and list_N.dat,
 whose number of lines show the number of selected files.
 The CifFilter.py throw away following cif files
-1. Pymatgen error 
+1. Pymatgen structure  
    Structure is recognized by pymatgen (pymatgen.Structure.from_file do not show error).
 2. Occupancy check
-   Each site is occipied by only one species. Occupancy is more than 90 percent.
+   Each site is occipied by only one atomic species. Occupancy is more than 90 percent.
    We read occupancy via pymatgen.Structure.species_and_occu.
 3. skiplist.py 
-   This is to time-consuming and strange files. Little number of files.
+   This spefify skipped files directly. Time-consuming and strange files. 
 
 The number of cif files reduced by the CifFilter as
-|   | ListDownloadCif_* | Pymatgen error | occupancy check | skiplist | list_* |
-|---+-------------------+----------------+-----------------+----------+--------|
-| N |               674 |             12 |             187 |        0 |    475 |
-| F |              1415 |             19 |             318 |        0 |   1078 |
-| O |             16131 |            610 |            8526 |        3 |   6992 |
+|   | ListDownloadCif_* | Pymatgen structure | occupancy check | skiplist | list_* |
+|   |                   |              error |         removed |  removed |        |
+|---+-------------------+--------------------+-----------------+----------+--------|
+| N |               674 |                 12 |             187 |        0 |    475 |
+| F |              1415 |                 19 |             318 |        0 |   1078 |
+| O |             16131 |                610 |            8526 |        3 |   6992 |
 
 log files are in CifFilter*.log
 We can check numbers easily, e.g.,by 'grep skiplist CifFilter_N.log|wc'.
@@ -87,39 +97,46 @@ We can check numbers easily, e.g.,by 'grep skiplist CifFilter_N.log|wc'.
 >./job_APfig
   This performs anion_radius_histogram.py O,...
   to generate anion-packing figure, Fig.1.
-  We will have *.png and *.svg (just the difference of format).
+  We will have *.png. Fig for O takes several minutes.
   We can use viewer such as eog.
 
 
 ** Chemenv analysis  =============================
 >./job_chemenv_analysis
  This performs ./chemenv_analysis.py N (as well as F and O) successively. 
- Data files are stored into neighbour_*/.
+ Analyzed files are stored into neighbour_*/*.
  This step is time-consuming. 
- It takes ~80 min for N, ~6 hours for F, ~30 hours for O in our laptop.
+ It takes ~80 min for N, ~6 hours for F, ~24 hours for O in our laptop.
  (thus it is better to perform N only first).
 
 To do from scratch, remove chem*.log and neghbour_*. 
 (inputs are COD/*/*.cif and list*.dat).
 When Chemenv cause error, we have sign such as 'error lgf.setup_structure(structure)'
 in the console output (grep error chem*.log).
-Since we have removed error files in skiplist.py in advance, we see no error.
 
-|   | list_* | Chemenv error | total number of files for |
-|   |        |               | bondlength historgam      |
+|   | list_* | Chemenv error | total number of cif files |
+|   |        |               |  for bondlength historgam |
 |---+--------+---------------+---------------------------|
-| N |    475 |             1 | 474                       |
-| F |   1085 |               |                           |
-| O |   8120 |               |                           |
+| N |    475 |             1 |                       474 |
+| F |   1078 |             2 |                      1076 |
+| O |   6992 |            27 |                      6965 |
 
-Among this total number, we generate following Bond Length histograms.
-xxx
+For these total number of files, we generate BondLength histograms.
+We can check Chemenv error by 'grep error chemO*.lot'
 
-** Create BondLength Histogram for Fig.2,3,4,5  =============================
->./job_hist
+** Create BondLength Histogram for Fig.2,3,4  =============================
+>./job_histA
  This performs 'bondlength_histogram.py N' and so on.
- PNG files for Fig2-Fig.5 are created.
- ~ 10minutes per one png file.
+ PNG files for Fig2-Fig.4 are created.
+ It takes ~ 20 minutes.
+Chemenv errors are
+ error lgf.setup_structure(structure)
+ error lgf.compute_structure_environments(maximum_distance_factor=1.41,only_cations=True)
 
-PNG files for fig.5 is a little different from others.
-We perform it as "./bondlength_histogram.py O Fe".
+** Create BondLength Histogram for Fig.5  =============================
+>./job_histB
+  We perform it as "./bondlength_histogram.py O Fe".
+  We checked this only for Oxygen. We use BVS module module_valence_bond_analizer_RBVS.py,
+  whose core part is supplied by Prof.M.Kanzaki, Institute for Planetary Materials, Okayama University.
+  It takes ~4 minutes.
+  

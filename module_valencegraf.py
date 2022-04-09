@@ -76,6 +76,6 @@ def vhist(contena,cation,cif_count,valence_cut_point=None):
         #try:os.mkdir(save_dirname)
         #except:pass 
         
-        fig_name='{M}_vcut={c}'.format(M=cation,c=valence_cut_point)
+        fig_name='{M}_BVS'.format(M=cation,c=valence_cut_point)
         plt.savefig("./"+fig_name+".png", pad_inches=1,format="png")
         print("save image")
