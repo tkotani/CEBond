@@ -24,7 +24,7 @@ We can skip any parts because intermediate files
 are already in this package.
 
 
-** Prerequisite ===================================
+** Prerequisite 
 We need python3, matplotlib, numpy, seaborn, bash, mysql(job_download), 
 gfortran, and pymatgen. Our current setting ('>pip list','>apt list --installed') is
 ----------------------------------
@@ -44,7 +44,7 @@ a.out included in this package may work; then it is not nessesary to run gfortra
 (If '>echo aaa|./a.out' shows "aaa_inp.dat: no such file", it works.)
 
 
-** Download cif files from COD =============================
+** Download cif files from COD 
 >./job_download
 (This step can be skipped since we already have cif files in COD/*/*)
 Look into job_download.
@@ -67,7 +67,7 @@ satisfing conditions in our paper.
 We futher filter the lists in the following CifFilter.
 
 
-** CifFilter =============================
+** CifFilter
 >./job_CifFilter
 Look into job_CifFilter; this performs 'CifFilter.py O', ...
 Then we get a list of cif files, list_O.dat, list_F.dat, and list_N.dat,
@@ -95,15 +95,21 @@ log files are in CifFilter*.log. We can check numbers easily, as
 >grep 'skip occupancy' CifFilter_O.log |wc   ==>8526
 
 
-** Generate AnionPacking figure, Fig.1  =============================
+** Generate AnionPacking figure, Fig.1
 >./job_APfig
   This performs anion_radius_histogram.py O,...
   to generate anion-packing figure, Fig.1.
   We will have *.png. Fig for O takes several minutes.
   We can use viewer such as eog.
 
+[[./anion_radius_histogram.py_F.png]]
+[[./anion_radius_histogram.py_N.png]]
+[[./anion_radius_histogram.py_O.png]]
 
-** Chemenv analysis  =============================
+
+
+
+** Chemenv analysis  
 >./job_chemenv_analysis
  This performs ./chemenv_analysis.py N (as well as F and O) successively. 
  Analyzed files are stored into neighbour_*/*.
@@ -126,7 +132,7 @@ in the console output (grep error chem*.log).
 For these total number of files, we generate BondLength histograms.
 We can check Chemenv error by 'grep error chemO*.log'
 
-** Create BondLength Histogram for Fig.2,3,4  =============================
+** Create BondLength Histogram for Fig.2,3,4 
 >./job_histA
  This performs 'bondlength_histogram.py N' and so on.
  PNG files for Fig2-Fig.4 are created.
@@ -135,10 +141,38 @@ Chemenv errors are
  error lgf.setup_structure(structure)
  error lgf.compute_structure_environments(maximum_distance_factor=1.41,only_cations=True)
 
-** Create BondLength Histogram for Fig.5  =============================
+[[./F_3d_1.png]]
+[[./F_3d_2.png]]
+[[./F_4d_1.png]]
+[[./F_4d_2.png]]
+[[./F_alkali.png]]
+[[./F_alkali_earth.png]]
+
+[[./N_3d_1.png]]
+[[./N_3d_2.png]]
+[[./N_4d_1.png]]
+[[./N_4d_2.png]]
+[[./N_alkali.png]]
+[[./N_alkali_earth.png]]
+
+[[./O_3d_1.png]]
+[[./O_3d_2.png]]
+[[./O_4d_1.png]]
+[[./O_4d_2.png]]
+[[./O_alkali.png]]
+[[./O_alkali_earth.png]]
+
+** Create BondLength Histogram for Fig.5 
 >./job_histB
   We perform it as "./bondlength_histogram.py O Fe".
   We checked this only for Oxygen. We use BVS module module_valence_bond_analizer_RBVS.py,
   whose core part is supplied by Prof.M.Kanzaki, Institute for Planetary Materials, Okayama University.
   It takes ~4 minutes.
   
+[[./O_Cu_valence.png]]
+[[./O_V_valence.png]]
+[[./O_Fe_valence.png]]
+[[./V_BVS.png]]
+[[./Cu_BVS.png]]
+[[./Fe_BVS.png]]
+
