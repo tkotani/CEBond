@@ -6,16 +6,17 @@
 #+STARTUP: showall
 #+OPTIONS: \n:t
 
-This software is open and free as long as you respect what we did in your own manner.
 This is for our paper xxx.
+This software is open and free as long as you respect 
+what we did in your own manner.
 
 
 * Get sets of cif files and Histogram of ionic radius (Fig.1)
 
 We have to run following commands step by step.
-All results and intermediate files 
-(*.dat *.png *.svg *.log COD/*/*  neighbour_*/*) 
-are included in the package. 
+All results and intermediate files as
+*.dat *.png *.svg *.log COD/*/*  neighbour_*/* are 
+are included in this package. 
 *.log are just log files (not read by other commands).
 
 We can reproduce all things just by execute bash scripts
@@ -27,19 +28,18 @@ are already in this package.
 ** Prerequisite 
 We need python3, matplotlib, numpy, seaborn, bash, mysql(job_download), 
 gfortran, and pymatgen. Our current setting ('>pip list','>apt list --installed') is
-----------------------------------
-matplotlib             3.1.2               
-numpy                  1.17.4              
-pymatgen               2020.1.28           
-seaborn                0.10.0              
-gfortran/focal,now 4:9.3.0-1ubuntu2 amd64
-mysql-common/focal,focal,now 5.8+1.0.5ubuntu2
----------------------------------
+
+| matplotlib             3.1.2                  |
+| numpy                  1.17.4                 |
+| pymatgen               2020.1.28              |
+| seaborn                0.10.0                 |
+| gfortran/focal,now 4:9.3.0-1ubuntu2 amd64     |
+| mysql-common/focal,focal,now 5.8+1.0.5ubuntu2 |
 
 gfortran is just for compiling a fortran code as
 >gfortran neib.F
 Then a.out is generated. This is used for generating neighbour table 
-for the bond valence sum procedure at ./job_hist.
+for the bond valence sum procedure at ./job_histB
 a.out included in this package may work; then it is not nessesary to run gfortran
 (If '>echo aaa|./a.out' shows "aaa_inp.dat: no such file", it works.)
 
@@ -141,26 +141,26 @@ Chemenv errors are
  error lgf.setup_structure(structure)
  error lgf.compute_structure_environments(maximum_distance_factor=1.41,only_cations=True)
 
+[[./F_alkali.png]]
+[[./F_alkali_earth.png]]
 [[./F_3d_1.png]]
 [[./F_3d_2.png]]
 [[./F_4d_1.png]]
 [[./F_4d_2.png]]
-[[./F_alkali.png]]
-[[./F_alkali_earth.png]]
 
+[[./N_alkali.png]]
+[[./N_alkali_earth.png]]
 [[./N_3d_1.png]]
 [[./N_3d_2.png]]
 [[./N_4d_1.png]]
 [[./N_4d_2.png]]
-[[./N_alkali.png]]
-[[./N_alkali_earth.png]]
 
+[[./O_alkali.png]]
+[[./O_alkali_earth.png]]
 [[./O_3d_1.png]]
 [[./O_3d_2.png]]
 [[./O_4d_1.png]]
 [[./O_4d_2.png]]
-[[./O_alkali.png]]
-[[./O_alkali_earth.png]]
 
 ** Create BondLength Histogram for Fig.5 
 >./job_histB
