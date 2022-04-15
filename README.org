@@ -43,13 +43,14 @@ for the bond valence sum procedure at ./job_histB
 a.out included in this package may work; then it is not nessesary to run gfortran
 (If '>echo aaa|./a.out' shows "aaa_inp.dat: no such file", it works.)
 
+Shanon's IR/CR is given in [[./shannon1976radius]] taken from https://yseto.net/?page_id=67
 
 ** Download cif files from COD 
 >./job_download
 (This step can be skipped since we already have cif files in COD/*/*)
 Look into job_download.
 This bash script downloads cif files from Crystal Open database(COD).
-In this script, pickup-COD-structures_O.sql is used for SQL query to COD.
+In this script, [[./pickup-COD-structures_O.sql]] is used for SQL query to COD.
 Results of this query is in ListDownloadCif_O.dat, N and F as well,
 where we have cif number, chemical formula and sub version id.
 Then job_download executes DownloadCif.py to download cif files 
