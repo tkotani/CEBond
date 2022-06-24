@@ -1,15 +1,15 @@
 #!/bin/bash
 date
 
-./bondlength_histogram.py N >& histA_N
+./bondlength_histogram.py N |& tee histA_N |grep '#####'
 echo PNG file for N generated
 date 
 
-./bondlength_histogram.py F >& histA_F
+./bondlength_histogram.py F |& tee histA_F |grep '#####'
 echo PNG file for F generated
 date
 
-./bondlength_histogram.py O>& histA_O
+./bondlength_histogram.py O |& tee histA_O |grep '#####'
 echo PNG file for O generated
 date
 

@@ -290,7 +290,7 @@ def make_bondhist(figset_name,anion,average_analize):
                 ### cif loop
                 for cif_path in dir_list:
                         print("\n\n")
-                        print('***************** cif ***************************',cif_path)
+                        print('##### running ',figset_name,anion,average_analize,' with cif=',cif_path,)
                         # input nb table
                         cif_num=cif_path.strip(".cif").split("/")[1]
                         print(cif_num)
@@ -1157,7 +1157,8 @@ def make_bondhist(figset_name,anion,average_analize):
                         plt.xscale('log',basex=2)
                 plt.savefig('hist_dist_ce_2.51_valR_bd={c}_{M}_nbO={O}_logscale.png'.format(M=cation,c=valence_cut_point,O=nb_only_O), pad_inches=0.0 ,format="png")
 
-## main
+                
+## main ###############################################################33
 anion_type = sys.argv[1]
 anion_list=[anion_type]
 #anion_list=["O","N","F"]

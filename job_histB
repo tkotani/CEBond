@@ -1,13 +1,13 @@
 #!/bin/bash
 date
-./bondlength_histogram.py  O Cu >& BVSCu
+./bondlength_histogram.py  O Cu |&tee BVSCu |grep '#####'
 echo PNG file for Cu part of Fig.5 generated
 date
 
-./bondlength_histogram.py  O V  >& BVSV
+./bondlength_histogram.py  O V  |&tee BVSV |grep '#####'
 echo PNG file for V part of Fig.5 generated
 date
 
-./bondlength_histogram.py  O Fe >& BVSFe
+./bondlength_histogram.py  O Fe |&tee BVSFe |grep '#####'
 echo PNG file for Fe part of Fig.5 generated
 date
